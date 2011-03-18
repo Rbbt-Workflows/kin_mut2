@@ -1,0 +1,174 @@
+ID   ST32B_HUMAN             Reviewed;         414 AA.
+AC   Q9NY57; Q6UXH3; Q8IY14;
+DT   18-APR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   05-OCT-2010, entry version 72.
+DE   RecName: Full=Serine/threonine-protein kinase 32B;
+DE            EC=2.7.11.1;
+DE   AltName: Full=YANK2;
+GN   Name=STK32B; ORFNames=UNQ3003/PRO9744;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RC   TISSUE=Brain;
+RX   MEDLINE=20164328; PubMed=10700184; DOI=10.1038/73508;
+RA   Ruiz-Perez V.L., Ide S.E., Strom T.M., Lorenz B., Wilson D., Woods K.,
+RA   King L., Francomano C., Freisinger P., Spranger S., Marino B.,
+RA   Dallapiccola B., Wright M., Meitinger T., Polymeropoulos M.H.,
+RA   Goodship J.;
+RT   "Mutations in a new gene in Ellis-van Creveld syndrome and Weyers
+RT   acrodental dysostosis.";
+RL   Nat. Genet. 24:283-286(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2).
+RX   MEDLINE=22887296; PubMed=12975309; DOI=10.1101/gr.1293003;
+RA   Clark H.F., Gurney A.L., Abaya E., Baker K., Baldwin D.T., Brush J.,
+RA   Chen J., Chow B., Chui C., Crowley C., Currell B., Deuel B., Dowd P.,
+RA   Eaton D., Foster J.S., Grimaldi C., Gu Q., Hass P.E., Heldens S.,
+RA   Huang A., Kim H.S., Klimowski L., Jin Y., Johnson S., Lee J.,
+RA   Lewis L., Liao D., Mark M.R., Robbie E., Sanchez C., Schoenfeld J.,
+RA   Seshagiri S., Simmons L., Singh J., Smith V., Stinson J., Vagts A.,
+RA   Vandlen R.L., Watanabe C., Wieand D., Woods K., Xie M.-H.,
+RA   Yansura D.G., Yi S., Yu G., Yuan J., Zhang M., Zhang Z., Goddard A.D.,
+RA   Wood W.I., Godowski P.J., Gray A.M.;
+RT   "The secreted protein discovery initiative (SPDI), a large-scale
+RT   effort to identify novel human secreted and transmembrane proteins: a
+RT   bioinformatics assessment.";
+RL   Genome Res. 13:2265-2270(2003).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1), AND VARIANT
+RP   GLY-198.
+RC   TISSUE=Brain;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   NOMENCLATURE.
+RX   PubMed=12471243; DOI=10.1126/science.1075762;
+RA   Manning G., Whyte D.B., Martinez R., Hunter T., Sudarsanam S.;
+RT   "The protein kinase complement of the human genome.";
+RL   Science 298:1912-1934(2002).
+RN   [5]
+RP   VARIANTS [LARGE SCALE ANALYSIS] GLU-35; GLY-198; HIS-244; VAL-310 AND
+RP   THR-342.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- COFACTOR: Magnesium (By similarity).
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q9NY57-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q9NY57-2; Sequence=VSP_051997;
+CC         Note=It is uncertain whether Met-1 or Met-3 is the initiator. No
+CC         experimental confirmation available;
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Ser/Thr
+CC       protein kinase family.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAQ88719.1; Type=Erroneous initiation;
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AJ250839; CAB76471.1; -; mRNA.
+DR   EMBL; AY358353; AAQ88719.1; ALT_INIT; mRNA.
+DR   EMBL; BC038238; AAH38238.1; -; mRNA.
+DR   IPI; IPI00293334; -.
+DR   IPI; IPI00746749; -.
+DR   RefSeq; NP_060871.1; -.
+DR   UniGene; Hs.133062; -.
+DR   ProteinModelPortal; Q9NY57; -.
+DR   STRING; Q9NY57; -.
+DR   PRIDE; Q9NY57; -.
+DR   Ensembl; ENST00000282908; ENSP00000282908; ENSG00000152953.
+DR   GeneID; 55351; -.
+DR   KEGG; hsa:55351; -.
+DR   UCSC; uc003gih.1; human.
+DR   CTD; 55351; -.
+DR   GeneCards; GC04P005120; -.
+DR   H-InvDB; HIX0004055; -.
+DR   HGNC; HGNC:14217; STK32B.
+DR   HPA; HPA015820; -.
+DR   PharmGKB; PA128394683; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG106458; -.
+DR   InParanoid; Q9NY57; -.
+DR   OMA; GTVKLYI; -.
+DR   OrthoDB; EOG9GTNZN; -.
+DR   PhylomeDB; Q9NY57; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   NextBio; 59703; -.
+DR   ArrayExpress; Q9NY57; -.
+DR   Bgee; Q9NY57; -.
+DR   CleanEx; HS_STK32B; -.
+DR   Genevestigator; Q9NY57; -.
+DR   GermOnline; ENSG00000152953; Homo sapiens.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; ATP-binding; Complete proteome; Kinase;
+KW   Magnesium; Metal-binding; Nucleotide-binding; Polymorphism;
+KW   Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    414       Serine/threonine-protein kinase 32B.
+FT                                /FTId=PRO_0000232413.
+FT   DOMAIN       23    283       Protein kinase.
+FT   NP_BIND      29     37       ATP (By similarity).
+FT   ACT_SITE    146    146       Proton acceptor (By similarity).
+FT   BINDING      52     52       ATP (By similarity).
+FT   VAR_SEQ       1     47       Missing (in isoform 2).
+FT                                /FTId=VSP_051997.
+FT   VARIANT      35     35       G -> E (in a metastatic melanoma sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_041166.
+FT   VARIANT     198    198       R -> G (in dbSNP:rs3733182).
+FT                                /FTId=VAR_025899.
+FT   VARIANT     244    244       R -> H (in dbSNP:rs35207488).
+FT                                /FTId=VAR_041167.
+FT   VARIANT     310    310       D -> V (in dbSNP:rs56259884).
+FT                                /FTId=VAR_041168.
+FT   VARIANT     342    342       K -> T (in dbSNP:rs55961955).
+FT                                /FTId=VAR_041169.
+SQ   SEQUENCE   414 AA;  47883 MW;  8FCD58A67EF09B0E CRC64;
+     MGGNHSHKPP VFDENEEVNF DHFQILRAIG KGSFGKVCIV QKRDTKKMYA MKYMNKQKCI
+     ERDEVRNVFR ELQIMQGLEH PFLVNLWYSF QDEEDMFMVV DLLLGGDLRY HLQQNVHFTE
+     GTVKLYICEL ALALEYLQRY HIIHRDIKPD NILLDEHGHV HITDFNIATV VKGAERASSM
+     AGTKPYMAPE VFQVYMDRGP GYSYPVDWWS LGITAYELLR GWRPYEIHSV TPIDEILNMF
+     KVERVHYSST WCKGMVALLR KLLTKDPESR VSSLHDIQSV PYLADMNWDA VFKKALMPGF
+     VPNKGRLNCD PTFELEEMIL ESKPLHKKKK RLAKNRSRDG TKDSCPLNGH LQHCLETVRE
+     EFIIFNREKL RRQQGQGSQL LDTDSRGGGQ AQSKLQDGCN NNLLTHTCTR GCSS
+//

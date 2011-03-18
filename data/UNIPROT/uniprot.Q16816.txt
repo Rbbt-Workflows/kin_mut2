@@ -1,0 +1,162 @@
+ID   PHKG1_HUMAN             Reviewed;         387 AA.
+AC   Q16816;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   02-NOV-2010, entry version 102.
+DE   RecName: Full=Phosphorylase b kinase gamma catalytic chain, skeletal muscle isoform;
+DE            EC=2.7.11.19;
+DE   AltName: Full=Phosphorylase kinase subunit gamma-1;
+GN   Name=PHKG1; Synonyms=PHKG;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Skeletal muscle;
+RX   MEDLINE=96071000; PubMed=8530014; DOI=10.1007/BF00197422;
+RA   Wehner M., Kilimann M.W.;
+RT   "Human cDNA encoding the muscle isoform of the phosphorylase kinase
+RT   gamma subunit (PHKG1).";
+RL   Hum. Genet. 96:616-618(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RA   Burwinkel B. Jr., Kilimann M.W. Sr.;
+RL   Submitted (APR-2000) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Salivary gland;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   VARIANTS [LARGE SCALE ANALYSIS] MET-48 AND CYS-323.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Phosphorylase b kinase catalyzes the phosphorylation of
+CC       serine in certain substrates, including troponin I.
+CC   -!- CATALYTIC ACTIVITY: 2 ATP + phosphorylase b = 2 ADP +
+CC       phosphorylase a.
+CC   -!- SUBUNIT: Polymer of 16 chains, four each of alpha, beta, gamma,
+CC       and delta. Alpha and beta are regulatory chains, gamma is the
+CC       catalytic chain, and delta is calmodulin.
+CC   -!- DOMAIN: The two calmodulin-binding domains appear to act in
+CC       concert to bind a single molecule of calmodulin and are
+CC       pseudosubstrate/autoinhibitory domains (By similarity).
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CAMK
+CC       Ser/Thr protein kinase family.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X80590; CAA56681.1; -; mRNA.
+DR   EMBL; AF254253; AAL36972.1; -; Genomic_DNA.
+DR   EMBL; AF254250; AAL36972.1; JOINED; Genomic_DNA.
+DR   EMBL; AF254251; AAL36972.1; JOINED; Genomic_DNA.
+DR   EMBL; AF254252; AAL36972.1; JOINED; Genomic_DNA.
+DR   EMBL; BC051327; AAH51327.1; -; mRNA.
+DR   EMBL; BC069679; AAH69679.1; -; mRNA.
+DR   EMBL; BC069738; AAH69738.1; -; mRNA.
+DR   EMBL; BC069754; AAH69754.1; -; mRNA.
+DR   EMBL; BC074753; AAH74753.1; -; mRNA.
+DR   IPI; IPI00220396; -.
+DR   RefSeq; NP_006204.1; -.
+DR   UniGene; Hs.715728; -.
+DR   ProteinModelPortal; Q16816; -.
+DR   SMR; Q16816; 12-292.
+DR   STRING; Q16816; -.
+DR   PhosphoSite; Q16816; -.
+DR   PRIDE; Q16816; -.
+DR   Ensembl; ENST00000297373; ENSP00000297373; ENSG00000164776.
+DR   GeneID; 5260; -.
+DR   KEGG; hsa:5260; -.
+DR   UCSC; uc003trz.1; human.
+DR   CTD; 5260; -.
+DR   GeneCards; GC07M056115; -.
+DR   H-InvDB; HIX0006705; -.
+DR   HGNC; HGNC:8930; PHKG1.
+DR   HPA; HPA012057; -.
+DR   MIM; 172470; gene.
+DR   PharmGKB; PA33271; -.
+DR   eggNOG; prNOG17719; -.
+DR   HOVERGEN; HBG106193; -.
+DR   OMA; QYRRVKP; -.
+DR   OrthoDB; EOG9JMB83; -.
+DR   PhylomeDB; Q16816; -.
+DR   BioCyc; MetaCyc:ENSG00000164776-MONOMER; -.
+DR   BRENDA; 2.7.11.19; 247.
+DR   Reactome; REACT_474; Metabolism of carbohydrates.
+DR   NextBio; 20318; -.
+DR   PMAP-CutDB; Q16816; -.
+DR   ArrayExpress; Q16816; -.
+DR   Bgee; Q16816; -.
+DR   CleanEx; HS_PHKG1; -.
+DR   Genevestigator; Q16816; -.
+DR   GermOnline; ENSG00000164776; Homo sapiens.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005516; F:calmodulin binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004689; F:phosphorylase kinase activity; IEA:EC.
+DR   GO; GO:0005978; P:glycogen biosynthetic process; IEA:InterPro.
+DR   InterPro; IPR020636; Ca/CaM-dep_prot_kinase-like.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR002291; Phosph_kin_gamma.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   PANTHER; PTHR22982; Ca/CaM-dep_prot_kinase-like; 1.
+DR   PANTHER; PTHR22982:SF16; Phosph_kin_gamma; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   PRINTS; PR01049; PHOSPHBKNASE.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   2: Evidence at transcript level;
+KW   ATP-binding; Calmodulin-binding; Carbohydrate metabolism;
+KW   Complete proteome; Glycogen metabolism; Kinase; Muscle protein;
+KW   Nucleotide-binding; Polymorphism; Serine/threonine-protein kinase;
+KW   Transferase.
+FT   INIT_MET      1      1       Removed (By similarity).
+FT   CHAIN         2    387       Phosphorylase b kinase gamma catalytic
+FT                                chain, skeletal muscle isoform.
+FT                                /FTId=PRO_0000086508.
+FT   DOMAIN       20    288       Protein kinase.
+FT   NP_BIND      26     34       ATP (By similarity).
+FT   REGION      303    327       Calmodulin-binding (domain-N).
+FT   REGION      343    367       Calmodulin-binding (domain-C).
+FT   ACT_SITE    150    150       Proton acceptor (By similarity).
+FT   BINDING      49     49       ATP (By similarity).
+FT   VARIANT      48     48       V -> M (in a colorectal adenocarcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_040994.
+FT   VARIANT     323    323       R -> C.
+FT                                /FTId=VAR_040995.
+SQ   SEQUENCE   387 AA;  45024 MW;  9CB416CB683920AA CRC64;
+     MTRDEALPDS HSAQDFYENY EPKEILGRGV SSVVRRCIHK PTSQEYAVKV IDVTGGGSFS
+     PEEVRELREA TLKEVDILRK VSGHPNIIQL KDTYETNTFF FLVFDLMKRG ELFDYLTEKV
+     TLSEKETRKI MRALLEVICT LHKLNIVHRD LKPENILLDD NMNIKLTDFG FSCQLEPGER
+     LREVCGTPSY LAPEIIECSM NEDHPGYGKE VDMWSTGVIM YTLLAGSPPF WHRKQMLMLR
+     MIMSGNYQFG SPEWDDYSDT VKDLVSRFLV VQPQNRYTAE EALAHPFFQQ YLVEEVRHFS
+     PRGKFKVIAL TVLASVRIYY QYRRVKPVTR EIVIRDPYAL RPLRRLIDAY AFRIYGHWVK
+     KGQQQNRAAL FENTPKAVLL SLAEEDY
+//

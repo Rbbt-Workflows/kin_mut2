@@ -1,0 +1,315 @@
+ID   PMYT1_HUMAN             Reviewed;         499 AA.
+AC   Q99640; O14731; Q7LE24; Q8TCM9;
+DT   23-NOV-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1997, sequence version 1.
+DT   05-OCT-2010, entry version 93.
+DE   RecName: Full=Membrane-associated tyrosine- and threonine-specific cdc2-inhibitory kinase;
+DE            EC=2.7.11.1;
+DE   AltName: Full=Myt1 kinase;
+GN   Name=PKMYT1; Synonyms=MYT1;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND ENZYME REGULATION.
+RX   PubMed=9268380; DOI=10.1074/jbc.272.35.22300;
+RA   Booher R.N., Holman P.S., Fattaey A.;
+RT   "Human Myt1 is a cell cycle-regulated kinase that inhibits Cdc2 but
+RT   not Cdk2 activity.";
+RL   J. Biol. Chem. 272:22300-22306(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, AND SUBCELLULAR LOCATION.
+RX   PubMed=9001210;
+RA   Liu F., Stanton J.J., Wu Z., Piwnica-Worms H.;
+RT   "The human Myt1 kinase preferentially phosphorylates Cdc2 on threonine
+RT   14 and localizes to the endoplasmic reticulum and Golgi complex.";
+RL   Mol. Cell. Biol. 17:571-583(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND VARIANTS CYS-140; ARG-417 AND
+RP   ALA-445.
+RG   NIEHS SNPs program;
+RL   Submitted (OCT-2002) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=15616553; DOI=10.1038/nature03187;
+RA   Martin J., Han C., Gordon L.A., Terry A., Prabhakar S., She X.,
+RA   Xie G., Hellsten U., Chan Y.M., Altherr M., Couronne O., Aerts A.,
+RA   Bajorek E., Black S., Blumer H., Branscomb E., Brown N.C., Bruno W.J.,
+RA   Buckingham J.M., Callen D.F., Campbell C.S., Campbell M.L.,
+RA   Campbell E.W., Caoile C., Challacombe J.F., Chasteen L.A.,
+RA   Chertkov O., Chi H.C., Christensen M., Clark L.M., Cohn J.D.,
+RA   Denys M., Detter J.C., Dickson M., Dimitrijevic-Bussod M., Escobar J.,
+RA   Fawcett J.J., Flowers D., Fotopulos D., Glavina T., Gomez M.,
+RA   Gonzales E., Goodstein D., Goodwin L.A., Grady D.L., Grigoriev I.,
+RA   Groza M., Hammon N., Hawkins T., Haydu L., Hildebrand C.E., Huang W.,
+RA   Israni S., Jett J., Jewett P.B., Kadner K., Kimball H., Kobayashi A.,
+RA   Krawczyk M.-C., Leyba T., Longmire J.L., Lopez F., Lou Y., Lowry S.,
+RA   Ludeman T., Manohar C.F., Mark G.A., McMurray K.L., Meincke L.J.,
+RA   Morgan J., Moyzis R.K., Mundt M.O., Munk A.C., Nandkeshwar R.D.,
+RA   Pitluck S., Pollard M., Predki P., Parson-Quintana B., Ramirez L.,
+RA   Rash S., Retterer J., Ricke D.O., Robinson D.L., Rodriguez A.,
+RA   Salamov A., Saunders E.H., Scott D., Shough T., Stallings R.L.,
+RA   Stalvey M., Sutherland R.D., Tapia R., Tesmer J.G., Thayer N.,
+RA   Thompson L.S., Tice H., Torney D.C., Tran-Gyamfi M., Tsai M.,
+RA   Ulanovsky L.E., Ustaszewska A., Vo N., White P.S., Williams A.L.,
+RA   Wills P.L., Wu J.-R., Wu K., Yang J., DeJong P., Bruce D.,
+RA   Doggett N.A., Deaven L., Schmutz J., Grimwood J., Richardson P.,
+RA   Rokhsar D.S., Eichler E.E., Gilna P., Lucas S.M., Myers R.M.,
+RA   Rubin E.M., Pennacchio L.A.;
+RT   "The sequence and analysis of duplication-rich human chromosome 16.";
+RL   Nature 432:988-994(2004).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 403-499.
+RC   TISSUE=Brain;
+RX   PubMed=17974005; DOI=10.1186/1471-2164-8-399;
+RA   Bechtel S., Rosenfelder H., Duda A., Schmidt C.P., Ernst U.,
+RA   Wellenreuther R., Mehrle A., Schuster C., Bahr A., Bloecker H.,
+RA   Heubner D., Hoerlein A., Michel G., Wedler H., Koehrer K.,
+RA   Ottenwaelder B., Poustka A., Wiemann S., Schupp I.;
+RT   "The full-ORF clone resource of the German cDNA consortium.";
+RL   BMC Genomics 8:399-399(2007).
+RN   [6]
+RP   INTERACTION WITH PIN1.
+RX   PubMed=9499405;
+RA   Shen M., Stukenberg P.T., Kirschner M.W., Lu K.P.;
+RT   "The essential mitotic peptidyl-prolyl isomerase Pin1 binds and
+RT   regulates mitosis-specific phosphoproteins.";
+RL   Genes Dev. 12:706-720(1998).
+RN   [7]
+RP   PHOSPHORYLATION, COMPONENT OF CDC2-CCNB1 COMPLEX, INTERACTION WITH
+RP   PIN1, AND MUTAGENESIS OF ASP-251.
+RX   PubMed=10504341;
+RA   Wells N.J., Watanabe N., Tokusumi T., Jiang W., Verdecia M.A.,
+RA   Hunter T.;
+RT   "The C-terminal domain of the Cdc2 inhibitory kinase Myt1 interacts
+RT   with Cdc2 complexes and is required for inhibition of G(2)/M
+RT   progression.";
+RL   J. Cell Sci. 112:3361-3371(1999).
+RN   [8]
+RP   FUNCTION, AND MUTAGENESIS OF ASN-238 AND 486-ARG--LEU-488.
+RX   PubMed=10373560;
+RA   Liu F., Rothblum-Oviatt C., Ryan C.E., Piwnica-Worms H.;
+RT   "Overproduction of human Myt1 kinase induces a G2 cell cycle delay by
+RT   interfering with the intracellular trafficking of Cdc2-cyclin B1
+RT   complexes.";
+RL   Mol. Cell. Biol. 19:5113-5123(1999).
+RN   [9]
+RP   PHOSPHORYLATION AT SER-426 AND THR-495.
+RX   PubMed=12738781; DOI=10.1074/jbc.C300126200;
+RA   Nakajima H., Toyoshima-Morimoto F., Taniguchi E., Nishida E.;
+RT   "Identification of a consensus motif for Plk (Polo-like kinase)
+RT   phosphorylation reveals Myt1 as a Plk1 substrate.";
+RL   J. Biol. Chem. 278:25277-25280(2003).
+RN   [10]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-94, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix adenocarcinoma;
+RX   PubMed=16565220; DOI=10.1073/pnas.0507066103;
+RA   Nousiainen M., Sillje H.H.W., Sauer G., Nigg E.A., Koerner R.;
+RT   "Phosphoproteome analysis of the human mitotic spindle.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:5391-5396(2006).
+RN   [11]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-143, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=17192257; DOI=10.1074/mcp.T600062-MCP200;
+RA   Wissing J., Jaensch L., Nimtz M., Dieterich G., Hornberger R.,
+RA   Keri G., Wehland J., Daub H.;
+RT   "Proteomics analysis of protein kinases by target class-selective
+RT   prefractionation and tandem mass spectrometry.";
+RL   Mol. Cell. Proteomics 6:537-547(2007).
+RN   [12]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-17; SER-94; SER-120;
+RP   SER-143; SER-160; SER-469 AND THR-495, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [13]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-40; SER-50; SER-120;
+RP   SER-469 AND SER-473, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [14]
+RP   VARIANTS [LARGE SCALE ANALYSIS] GLN-103; CYS-140; HIS-246 AND LYS-351.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Acts as a negative regulator of entry into mitosis (G2
+CC       to M transition) by phosphorylation of the CDK1 kinase
+CC       specifically when CDK1 is complexed to cyclins. Mediates
+CC       phosphorylation of CDK1 predominantly on 'Thr-14'. Also involved
+CC       in Golgi fragmentation. May be involved in phosphorylation of CDK1
+CC       on 'Tyr-15' to a lesser degree, however tyrosine kinase activity
+CC       is unclear and may be indirect. May be a downstream target of
+CC       Notch signaling pathway during eye development.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- ENZYME REGULATION: Negatively regulated by hyperphosphorylation
+CC       during mitosis. The hyperphosphorylated form does not associate
+CC       with CCNB1-CDC2 complexes. The PLK1 protein kinase may be required
+CC       for mitotic phosphorylation.
+CC   -!- SUBUNIT: Interacts with CDC2-CCNB1 complex. Can also interact with
+CC       PIN1 when phosphorylated by CDC2-CCNB1.
+CC   -!- INTERACTION:
+CC       P14635:CCNB1; NbExp=2; IntAct=EBI-495308, EBI-495332;
+CC       P06493:CDC2; NbExp=2; IntAct=EBI-495308, EBI-444308;
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane; Peripheral
+CC       membrane protein. Golgi apparatus membrane; Peripheral membrane
+CC       protein.
+CC   -!- DOMAIN: The membrane-association motif is essential for the
+CC       localization to membrane of Golgi stack. According to some
+CC       authors, it is a transmembrane domain; the existence of a
+CC       transmembrane region is however unproven.
+CC   -!- PTM: Autophosphorylated. Phosphorylated by CDC2-CCNB1 complexes on
+CC       undefined serine and threonine residues. The phosphorylation by
+CC       CDC2-CCNB1 complexes may inhibit the catalytic activity.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Ser/Thr
+CC       protein kinase family. WEE1 subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAD28540.1; Type=Miscellaneous discrepancy; Note=Chimeric cDNA;
+CC   -!- WEB RESOURCE: Name=NIEHS-SNPs;
+CC       URL="http://egp.gs.washington.edu/data/pkmyt1/";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF014118; AAB71843.1; -; mRNA.
+DR   EMBL; U56816; AAC50949.1; -; mRNA.
+DR   EMBL; AF549406; AAN40703.1; -; Genomic_DNA.
+DR   EMBL; AC004233; AAC04478.1; -; Genomic_DNA.
+DR   EMBL; AC004235; AAC04477.1; -; Genomic_DNA.
+DR   EMBL; AL713779; CAD28540.1; ALT_SEQ; mRNA.
+DR   IPI; IPI00384765; -.
+DR   RefSeq; NP_004194.3; -.
+DR   UniGene; Hs.77783; -.
+DR   ProteinModelPortal; Q99640; -.
+DR   SMR; Q99640; 108-361.
+DR   IntAct; Q99640; 9.
+DR   STRING; Q99640; -.
+DR   PhosphoSite; Q99640; -.
+DR   PRIDE; Q99640; -.
+DR   Ensembl; ENST00000262300; ENSP00000262300; ENSG00000127564.
+DR   Ensembl; ENST00000402679; ENSP00000384251; ENSG00000127564.
+DR   GeneID; 9088; -.
+DR   KEGG; hsa:9088; -.
+DR   UCSC; uc002csn.1; human.
+DR   CTD; 9088; -.
+DR   GeneCards; GC16M003019; -.
+DR   H-InvDB; HIX0012747; -.
+DR   HGNC; HGNC:29650; PKMYT1.
+DR   MIM; 602474; gene.
+DR   PharmGKB; PA385; -.
+DR   eggNOG; prNOG18299; -.
+DR   HOVERGEN; HBG053623; -.
+DR   InParanoid; Q99640; -.
+DR   PhylomeDB; Q99640; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   Reactome; REACT_152; Cell Cycle, Mitotic.
+DR   NextBio; 34055; -.
+DR   ArrayExpress; Q99640; -.
+DR   Bgee; Q99640; -.
+DR   CleanEx; HS_MYT1; -.
+DR   CleanEx; HS_PKMYT1; -.
+DR   Genevestigator; Q99640; -.
+DR   GermOnline; ENSG00000127564; Homo sapiens.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0000139; C:Golgi membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005624; C:membrane fraction; TAS:ProtInc.
+DR   GO; GO:0005654; C:nucleoplasm; EXP:Reactome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005515; F:protein binding; IPI:IntAct.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0007067; P:mitosis; TAS:ProtInc.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   GO; GO:0000079; P:regulation of cyclin-dependent protein kina...; TAS:ProtInc.
+DR   GO; GO:0007088; P:regulation of mitosis; TAS:ProtInc.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR016235; Tyr/Thr_prot_kinase_Cdc2_inhib.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   PIRSF; PIRSF000567; TYPK_Myt1; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Cell cycle; Complete proteome; Endoplasmic reticulum;
+KW   Golgi apparatus; Kinase; Membrane; Nucleotide-binding; Phosphoprotein;
+KW   Polymorphism; Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    499       Membrane-associated tyrosine- and
+FT                                threonine-specific cdc2-inhibitory
+FT                                kinase.
+FT                                /FTId=PRO_0000086573.
+FT   DOMAIN      110    359       Protein kinase.
+FT   NP_BIND     116    124       ATP (By similarity).
+FT   REGION      398    499       Interaction with PIN1.
+FT   REGION      437    499       Interaction with CDC2-CCNB1.
+FT   MOTIF       382    398       Membrane-association motif.
+FT   COMPBIAS      5     72       Pro-rich.
+FT   ACT_SITE    233    233       Proton acceptor (By similarity).
+FT   BINDING     139    139       ATP (By similarity).
+FT   MOD_RES      17     17       Phosphothreonine.
+FT   MOD_RES      40     40       Phosphoserine.
+FT   MOD_RES      50     50       Phosphoserine.
+FT   MOD_RES      94     94       Phosphoserine.
+FT   MOD_RES     120    120       Phosphoserine.
+FT   MOD_RES     143    143       Phosphoserine.
+FT   MOD_RES     160    160       Phosphoserine.
+FT   MOD_RES     426    426       Phosphoserine; by PLK1.
+FT   MOD_RES     469    469       Phosphoserine.
+FT   MOD_RES     473    473       Phosphoserine.
+FT   MOD_RES     495    495       Phosphothreonine; by PLK1.
+FT   VARIANT     103    103       E -> Q (in dbSNP:rs55834293).
+FT                                /FTId=VAR_041034.
+FT   VARIANT     140    140       R -> C (in dbSNP:rs4149796).
+FT                                /FTId=VAR_019928.
+FT   VARIANT     246    246       R -> H (in dbSNP:rs35192104).
+FT                                /FTId=VAR_041035.
+FT   VARIANT     351    351       E -> K (in dbSNP:rs56382954).
+FT                                /FTId=VAR_041036.
+FT   VARIANT     417    417       P -> R (in dbSNP:rs4149800).
+FT                                /FTId=VAR_019929.
+FT   VARIANT     445    445       V -> A (in dbSNP:rs10546).
+FT                                /FTId=VAR_019930.
+FT   MUTAGEN     238    238       N->A: Loss of kinase activity.
+FT   MUTAGEN     251    251       D->A: Loss of kinase activity.
+FT   MUTAGEN     486    488       RNL->AAA: Loss of CDC2-CCNB1 interaction.
+FT   CONFLICT    415    415       G -> D (in Ref. 1; AAB71843).
+FT   CONFLICT    427    427       L -> F (in Ref. 1; AAB71843).
+FT   CONFLICT    491    491       L -> M (in Ref. 1; AAB71843).
+SQ   SEQUENCE   499 AA;  54521 MW;  4DF28A5965265567 CRC64;
+     MLERPPALAM PMPTEGTPPP LSGTPIPVPA YFRHAEPGFS LKRPRGLSRS LPPPPPAKGS
+     IPISRLFPPR TPGWHQLQPR RVSFRGEASE TLQSPGYDPS RPESFFQQSF QRLSRLGHGS
+     YGEVFKVRSK EDGRLYAVKR SMSPFRGPKD RARKLAEVGS HEKVGQHPCC VRLEQAWEEG
+     GILYLQTELC GPSLQQHCEA WGASLPEAQV WGYLRDTLLA LAHLHSQGLV HLDVKPANIF
+     LGPRGRCKLG DFGLLVELGT AGAGEVQEGD PRYMAPELLQ GSYGTAADVF SLGLTILEVA
+     CNMELPHGGE GWQQLRQGYL PPEFTAGLSS ELRSVLVMML EPDPKLRATA EALLALPVLR
+     QPRAWGVLWC MAAEALSRGW ALWQALLALL CWLWHGLAHP ASWLQPLGPP ATPPGSPPCS
+     LLLDSSLSSN WDDDSLGPSL SPEAVLARTV GSTSTPRSRC TPRDALDLSD INSEPPRGSF
+     PSFEPRNLLS LFEDTLDPT
+//

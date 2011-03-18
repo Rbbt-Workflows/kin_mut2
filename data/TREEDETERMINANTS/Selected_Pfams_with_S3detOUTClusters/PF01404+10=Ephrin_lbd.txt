@@ -1,0 +1,89 @@
+UI: Initial number of sequences: 25
+UI: Initial number of positions: 205
+UI: Number of outliers: 0
+UI: Final number of sequences after removing outliers: 25
+UI: Final number of positions after removing gappy columns: 169
+II: Final number of columns in the disjunctive matrix: 693
+UI: Number of axes selected: 1
+UI: Percentage of initial variance considered informative: 19.3587 %
+UI: Checking a maximum number of groups equal to: 7
+UI: Stable cluster results have been found
+SC: YES
+UI: Number of groups selected: 2
+II: Clustering index value: CH_Index = 45.8548
+II: F-Fisher: 64.6108
+II: Best solution found 500 times out of 500 iterations searching for 2 groups
+UI: Number of groups with less than 3 sequences: 0
+Is there enough group diversity to perform the analysis?:
+GD: YES
+
+Clustering of sequences: 
+CL: O15197+1=EPHB6_HUMAN/18-217	1
+CL: O08644+2=EPHB6_MOUSE/34-227	1
+CL: P54760+2=EPHB4_HUMAN/17-197	1
+CL: P54761+1=EPHB4_MOUSE/17-197	1
+CL: P29323+5=EPHB2_HUMAN/20-197	1
+CL: P54762+1=EPHB1_HUMAN/19-196	1
+CL: Q91571+1=EPB1A_XENLA/21-198	1
+CL: Q60750+2=EPHA1_MOUSE/28-205	0
+CL: P21709+3=EPHA1_HUMAN/27-204	0
+CL: Q07497+1=EPHB5_CHICK/31-208	1
+CL: Q5JZY3+1=EPHAA_HUMAN/35-211	0
+CL: Q07494+2=EPHB1_CHICK/1-177	1
+CL: Q03137+1=EPHA4_MOUSE/30-204	0
+CL: Q03145+2=EPHA2_MOUSE/27-200	0
+CL: P54756+1=EPHA5_HUMAN/60-233	0
+CL: P54758+2=EPHA6_RAT/33-206	0
+CL: Q15375+2=EPHA7_HUMAN/32-205	0
+CL: P54753+2=EPHB3_HUMAN/39-212	1
+CL: Q9UF33+2=EPHA6_HUMAN/33-206	0
+CL: P29317+1=EPHA2_HUMAN/28-201	0
+CL: P29322+2=EPHA8_HUMAN/31-204	0
+CL: P29320+2=EPHA3_HUMAN/29-202	0
+CL: Q91735+1=EPHB3_XENLA/18-191	1
+CL: P54755+1=EPHA5_CHICK/36-209	0
+CL: Q07498+1=EPHB3_CHICK/18-184	1
+
+Are there any position predicted as being important for the whole family?: 
+PR: YES
+Positions predicted: 
+RE: 2 1.5 2
+RE: 113 5 2
+RE: 64 6.5 2
+RE: 128 7.5 2
+RE: 170 8.5 2
+
+UI: Number of positions predicted to be important for the group segregation: 5
+
+Are there any conserved position at 90 % of identity?: 
+CN: YES
+Conserved positions: 
+CP: 4
+CP: 16
+CP: 20
+CP: 24
+CP: 26
+CP: 45
+CP: 59
+CP: 60
+CP: 80
+CP: 85
+CP: 87
+CP: 97
+CP: 99
+CP: 100
+CP: 101
+CP: 105
+CP: 127
+CP: 130
+CP: 132
+CP: 168
+CP: 175
+CP: 181
+CP: 185
+CP: 186
+CP: 190
+CP: 192
+CP: 205
+
+UI: Number of conserved positions (at 90 % of identity): 27

@@ -1,0 +1,404 @@
+ID   AKT3_HUMAN              Reviewed;         479 AA.
+AC   Q9Y243; Q0VAA6; Q5VTI1; Q5VTI2; Q96QV3; Q9UFP5;
+DT   01-DEC-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1999, sequence version 1.
+DT   05-OCT-2010, entry version 113.
+DE   RecName: Full=RAC-gamma serine/threonine-protein kinase;
+DE            EC=2.7.11.1;
+DE   AltName: Full=Protein kinase Akt-3;
+DE   AltName: Full=Protein kinase B gamma;
+DE            Short=PKB gamma;
+DE   AltName: Full=RAC-PK-gamma;
+DE   AltName: Full=STK-2;
+GN   Name=AKT3; Synonyms=PKBG;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND MUTAGENESIS.
+RX   MEDLINE=99194749; PubMed=10092583; DOI=10.1074/jbc.274.14.9133;
+RA   Brodbeck D., Cron P., Hemmings B.A.;
+RT   "A human protein kinase B gamma with regulatory phosphorylation sites
+RT   in the activation loop and in the C-terminal hydrophobic domain.";
+RL   J. Biol. Chem. 274:9133-9136(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   MEDLINE=99225329; PubMed=10208883; DOI=10.1006/bbrc.1999.0559;
+RA   Nakatani K., Sakaue H., Thompson D.A., Weigel R.J., Roth R.A.;
+RT   "Identification of a human Akt3 (protein kinase B gamma) which
+RT   contains the regulatory serine phosphorylation site.";
+RL   Biochem. Biophys. Res. Commun. 257:906-910(1999).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Brain;
+RX   MEDLINE=99421751; PubMed=10491192;
+RX   DOI=10.1046/j.1432-1327.1999.00774.x;
+RA   Masure S., Haefner B., Wesselink J.-J., Hoefnagel E., Mortier E.,
+RA   Verhasselt P., Tuytelaars A., Gordon R., Richardson A.;
+RT   "Molecular cloning, expression and characterization of the human
+RT   serine/threonine kinase Akt-3.";
+RL   Eur. J. Biochem. 265:353-360(1999).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RA   Li X., Yu L., Huang H., Zhang M., Zhao Y., Zhao S.;
+RT   "Cloning of a novel human cDNA, STK-2, which encodes a rat serine-
+RT   threonine protein kinase (STK) homolog.";
+RL   Submitted (AUG-1998) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2).
+RC   TISSUE=Testis;
+RX   MEDLINE=21154917; PubMed=11230166; DOI=10.1101/gr.GR1547R;
+RA   Wiemann S., Weil B., Wellenreuther R., Gassenhuber J., Glassl S.,
+RA   Ansorge W., Boecher M., Bloecker H., Bauersachs S., Blum H.,
+RA   Lauber J., Duesterhoeft A., Beyer A., Koehrer K., Strack N.,
+RA   Mewes H.-W., Ottenwaelder B., Obermaier B., Tampe J., Heubner D.,
+RA   Wambutt R., Korn B., Klein M., Poustka A.;
+RT   "Towards a catalog of human genes and proteins: sequencing and
+RT   analysis of 500 novel complete protein coding human cDNAs.";
+RL   Genome Res. 11:422-435(2001).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1 AND 2), AND MUTAGENESIS OF
+RP   THR-305 AND THR-447.
+RX   PubMed=11387345; DOI=10.1074/jbc.M104633200;
+RA   Brodbeck D., Hill M.M., Hemmings B.A.;
+RT   "Two splice variants of PKB gamma have different regulatory capacity
+RT   depending on the presence or absence of the regulatory phosphorylation
+RT   site Ser-472 in the C-terminal hydrophobic domain.";
+RL   J. Biol. Chem. 276:29550-29558(2001).
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=16710414; DOI=10.1038/nature04727;
+RA   Gregory S.G., Barlow K.F., McLay K.E., Kaul R., Swarbreck D.,
+RA   Dunham A., Scott C.E., Howe K.L., Woodfine K., Spencer C.C.A.,
+RA   Jones M.C., Gillson C., Searle S., Zhou Y., Kokocinski F.,
+RA   McDonald L., Evans R., Phillips K., Atkinson A., Cooper R., Jones C.,
+RA   Hall R.E., Andrews T.D., Lloyd C., Ainscough R., Almeida J.P.,
+RA   Ambrose K.D., Anderson F., Andrew R.W., Ashwell R.I.S., Aubin K.,
+RA   Babbage A.K., Bagguley C.L., Bailey J., Beasley H., Bethel G.,
+RA   Bird C.P., Bray-Allen S., Brown J.Y., Brown A.J., Buckley D.,
+RA   Burton J., Bye J., Carder C., Chapman J.C., Clark S.Y., Clarke G.,
+RA   Clee C., Cobley V., Collier R.E., Corby N., Coville G.J., Davies J.,
+RA   Deadman R., Dunn M., Earthrowl M., Ellington A.G., Errington H.,
+RA   Frankish A., Frankland J., French L., Garner P., Garnett J., Gay L.,
+RA   Ghori M.R.J., Gibson R., Gilby L.M., Gillett W., Glithero R.J.,
+RA   Grafham D.V., Griffiths C., Griffiths-Jones S., Grocock R.,
+RA   Hammond S., Harrison E.S.I., Hart E., Haugen E., Heath P.D.,
+RA   Holmes S., Holt K., Howden P.J., Hunt A.R., Hunt S.E., Hunter G.,
+RA   Isherwood J., James R., Johnson C., Johnson D., Joy A., Kay M.,
+RA   Kershaw J.K., Kibukawa M., Kimberley A.M., King A., Knights A.J.,
+RA   Lad H., Laird G., Lawlor S., Leongamornlert D.A., Lloyd D.M.,
+RA   Loveland J., Lovell J., Lush M.J., Lyne R., Martin S.,
+RA   Mashreghi-Mohammadi M., Matthews L., Matthews N.S.W., McLaren S.,
+RA   Milne S., Mistry S., Moore M.J.F., Nickerson T., O'Dell C.N.,
+RA   Oliver K., Palmeiri A., Palmer S.A., Parker A., Patel D., Pearce A.V.,
+RA   Peck A.I., Pelan S., Phelps K., Phillimore B.J., Plumb R., Rajan J.,
+RA   Raymond C., Rouse G., Saenphimmachak C., Sehra H.K., Sheridan E.,
+RA   Shownkeen R., Sims S., Skuce C.D., Smith M., Steward C.,
+RA   Subramanian S., Sycamore N., Tracey A., Tromans A., Van Helmond Z.,
+RA   Wall M., Wallis J.M., White S., Whitehead S.L., Wilkinson J.E.,
+RA   Willey D.L., Williams H., Wilming L., Wray P.W., Wu Z., Coulson A.,
+RA   Vaudin M., Sulston J.E., Durbin R.M., Hubbard T., Wooster R.,
+RA   Dunham I., Carter N.P., McVean G., Ross M.T., Harrow J., Olson M.V.,
+RA   Beck S., Rogers J., Bentley D.R.;
+RT   "The DNA sequence and biological annotation of human chromosome 1.";
+RL   Nature 441:315-321(2006).
+RN   [8]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [9]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2).
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [10]
+RP   CHARACTERIZATION, AND PHOSPHORYLATION AT THR-305 BY PDPK1.
+RX   PubMed=9512493;
+RA   Walker K.S., Deak M., Paterson A., Hudson K., Cohen P., Alessi D.R.;
+RT   "Activation of protein kinase B beta and gamma isoforms by insulin in
+RT   vivo and by 3-phosphoinositide-dependent protein kinase-1 in vitro:
+RT   comparison with protein kinase B alpha.";
+RL   Biochem. J. 331:299-308(1998).
+RN   [11]
+RP   INTERACTION WITH TCL1A.
+RX   PubMed=11707444; DOI=10.1074/jbc.M107069200;
+RA   Laine J., Kuenstle G., Obata T., Noguchi M.;
+RT   "Differential regulation of Akt kinase isoforms by the members of the
+RT   TCL1 oncogene family.";
+RL   J. Biol. Chem. 277:3743-3751(2002).
+RN   [12]
+RP   INTERACTION WITH TCL1A.
+RX   PubMed=11839817; DOI=10.1128/MCB.22.5.1513-1525.2002;
+RA   Kuenstle G., Laine J., Pierron G., Kagami S., Nakajima H., Hoh F.,
+RA   Roumestand C., Stern M.H., Noguchi M.;
+RT   "Identification of Akt association and oligomerization domains of the
+RT   Akt kinase coactivator TCL1.";
+RL   Mol. Cell. Biol. 22:1513-1525(2002).
+RN   [13]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-120 AND SER-123, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Embryonic kidney;
+RX   PubMed=17525332; DOI=10.1126/science.1140321;
+RA   Matsuoka S., Ballif B.A., Smogorzewska A., McDonald E.R. III,
+RA   Hurov K.E., Luo J., Bakalarski C.E., Zhao Z., Solimini N.,
+RA   Lerenthal Y., Shiloh Y., Gygi S.P., Elledge S.J.;
+RT   "ATM and ATR substrate analysis reveals extensive protein networks
+RT   responsive to DNA damage.";
+RL   Science 316:1160-1166(2007).
+RN   [14]
+RP   UBIQUITINATION BY TTC3.
+RX   PubMed=20059950; DOI=10.1016/j.devcel.2009.09.007;
+RA   Suizu F., Hiramuki Y., Okumura F., Matsuda M., Okumura A.J.,
+RA   Hirata N., Narita M., Kohno T., Yokota J., Bohgaki M., Obuse C.,
+RA   Hatakeyama S., Obata T., Noguchi M.;
+RT   "The E3 ligase TTC3 facilitates ubiquitination and degradation of
+RT   phosphorylated Akt.";
+RL   Dev. Cell 17:800-810(2009).
+RN   [15]
+RP   INTERACTION WITH TRAF6.
+RX   PubMed=19713527; DOI=10.1126/science.1175065;
+RA   Yang W.-L., Wang J., Chan C.-H., Lee S.-W., Campos A.D., Lamothe B.,
+RA   Hur L., Grabiner B.C., Lin X., Darnay B.G., Lin H.-K.;
+RT   "The E3 ligase TRAF6 regulates Akt ubiquitination and activation.";
+RL   Science 325:1134-1138(2009).
+RN   [16]
+RP   VARIANT [LARGE SCALE ANALYSIS] ARG-171.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: IGF-1 leads to the activation of AKT3, which may play a
+CC       role in regulating cell survival. Capable of phosphorylating
+CC       several known proteins. Truncated isoform 2/PKB gamma 1 without
+CC       the second serine phosphorylation site could still be stimulated
+CC       but to a lesser extent.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- ENZYME REGULATION: Two specific sites, one in the kinase domain
+CC       (Thr-305) and the other in the C-terminal regulatory region (Ser-
+CC       472), need to be phosphorylated for its full activation (By
+CC       similarity).
+CC   -!- SUBUNIT: Interacts (via PH domain) with TCL1A; this enhances AKT3
+CC       phosphorylation and activation. Interacts with TRAF6.
+CC   -!- INTERACTION:
+CC       Q16543:CDC37; NbExp=1; IntAct=EBI-296115, EBI-295634;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm. Membrane; Peripheral membrane
+CC       protein. Note=Membrane-associated after cell stimulation leading
+CC       to its translocation.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1; Synonyms=PKB gamma;
+CC         IsoId=Q9Y243-1; Sequence=Displayed;
+CC       Name=2; Synonyms=PKB gamma 1;
+CC         IsoId=Q9Y243-2; Sequence=VSP_004947;
+CC   -!- TISSUE SPECIFICITY: In adult tissues, it is highly expressed in
+CC       brain, lung and kidney, but weakly in heart, testis and liver. In
+CC       fetal tissues, it is highly expressed in heart, liver and brain
+CC       and not at all in kidney.
+CC   -!- DOMAIN: Binding of the PH domain to the phosphatidylinositol 3-
+CC       kinase alpha (PI(3)K) results in its targeting to the plasma
+CC       membrane.
+CC   -!- PTM: Phosphorylation on Thr-305 and Ser-472 is required for full
+CC       activity (By similarity). Phosphorylated upon DNA damage, probably
+CC       by ATM or ATR.
+CC   -!- PTM: Ubiquitinated. When fully phosphorylated and translocated
+CC       into the nucleus, undergoes 'Lys-48'-polyubiquitination catalyzed
+CC       by TTC3, leading to its degradation by the proteasome.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. AGC Ser/Thr
+CC       protein kinase family. RAC subfamily.
+CC   -!- SIMILARITY: Contains 1 AGC-kinase C-terminal domain.
+CC   -!- SIMILARITY: Contains 1 PH domain.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- WEB RESOURCE: Name=Atlas of Genetics and Cytogenetics in Oncology
+CC       and Haematology;
+CC       URL="http://atlasgeneticsoncology.org/Genes/AKT3ID615ch1q44.html";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF124141; AAD29089.1; -; mRNA.
+DR   EMBL; AF135794; AAD24196.1; -; mRNA.
+DR   EMBL; AF085234; AAL40392.1; -; mRNA.
+DR   EMBL; AJ245709; CAB53537.1; -; mRNA.
+DR   EMBL; AL117525; CAB55977.1; ALT_TERM; mRNA.
+DR   EMBL; AY005799; AAF91073.1; -; mRNA.
+DR   EMBL; AL591721; CAH71866.1; -; Genomic_DNA.
+DR   EMBL; AC096539; CAH71866.1; JOINED; Genomic_DNA.
+DR   EMBL; AL592151; CAH71866.1; JOINED; Genomic_DNA.
+DR   EMBL; AL662889; CAH71866.1; JOINED; Genomic_DNA.
+DR   EMBL; AL591721; CAH71867.1; -; Genomic_DNA.
+DR   EMBL; AC096539; CAH71867.1; JOINED; Genomic_DNA.
+DR   EMBL; AL592151; CAH71867.1; JOINED; Genomic_DNA.
+DR   EMBL; AL662889; CAH71867.1; JOINED; Genomic_DNA.
+DR   EMBL; AL592151; CAH72891.1; -; Genomic_DNA.
+DR   EMBL; AC096539; CAH72891.1; JOINED; Genomic_DNA.
+DR   EMBL; AL591721; CAH72891.1; JOINED; Genomic_DNA.
+DR   EMBL; AL662889; CAH72891.1; JOINED; Genomic_DNA.
+DR   EMBL; AL592151; CAH72892.1; -; Genomic_DNA.
+DR   EMBL; AC096539; CAH72892.1; JOINED; Genomic_DNA.
+DR   EMBL; AL591721; CAH72892.1; JOINED; Genomic_DNA.
+DR   EMBL; AL662889; CAH72892.1; JOINED; Genomic_DNA.
+DR   EMBL; AL662889; CAH73072.1; -; Genomic_DNA.
+DR   EMBL; AC096539; CAH73072.1; JOINED; Genomic_DNA.
+DR   EMBL; AL591721; CAH73072.1; JOINED; Genomic_DNA.
+DR   EMBL; AL592151; CAH73072.1; JOINED; Genomic_DNA.
+DR   EMBL; AL662889; CAH73073.1; -; Genomic_DNA.
+DR   EMBL; AC096539; CAH73073.1; JOINED; Genomic_DNA.
+DR   EMBL; AL591721; CAH73073.1; JOINED; Genomic_DNA.
+DR   EMBL; AL592151; CAH73073.1; JOINED; Genomic_DNA.
+DR   EMBL; CH471148; EAW77093.1; -; Genomic_DNA.
+DR   EMBL; CH471148; EAW77094.1; -; Genomic_DNA.
+DR   EMBL; BC121154; AAI21155.1; -; mRNA.
+DR   IPI; IPI00031747; -.
+DR   IPI; IPI00219411; -.
+DR   PIR; A59380; A59380.
+DR   PIR; T17287; T17287.
+DR   RefSeq; NP_005456.1; -.
+DR   RefSeq; NP_859029.1; -.
+DR   UniGene; Hs.498292; -.
+DR   PDB; 2X18; X-ray; 1.46 A; A/B/C/D/E/F/G/H=1-118.
+DR   PDBsum; 2X18; -.
+DR   ProteinModelPortal; Q9Y243; -.
+DR   SMR; Q9Y243; 1-115, 142-476.
+DR   IntAct; Q9Y243; 1.
+DR   MINT; MINT-222821; -.
+DR   STRING; Q9Y243; -.
+DR   PhosphoSite; Q9Y243; -.
+DR   PRIDE; Q9Y243; -.
+DR   Ensembl; ENST00000263826; ENSP00000263826; ENSG00000117020.
+DR   Ensembl; ENST00000366539; ENSP00000355497; ENSG00000117020.
+DR   GeneID; 10000; -.
+DR   KEGG; hsa:10000; -.
+DR   NMPDR; fig|9606.3.peg.3340; -.
+DR   UCSC; uc001hzz.1; human.
+DR   UCSC; uc001iab.1; human.
+DR   CTD; 10000; -.
+DR   GeneCards; GC01M243653; -.
+DR   HGNC; HGNC:393; AKT3.
+DR   HPA; CAB013090; -.
+DR   HPA; HPA026441; -.
+DR   MIM; 611223; gene.
+DR   PharmGKB; PA24686; -.
+DR   eggNOG; prNOG15723; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG108317; -.
+DR   InParanoid; Q9Y243; -.
+DR   OMA; IMSDVTI; -.
+DR   OrthoDB; EOG97H886; -.
+DR   PhylomeDB; Q9Y243; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   Pathway_Interaction_DB; pi3kciaktpathway; Class I PI3K signaling events mediated by Akt.
+DR   Pathway_Interaction_DB; s1p_s1p3_pathway; S1P3 pathway.
+DR   Reactome; REACT_11061; Signalling by NGF.
+DR   Reactome; REACT_13698; Regulation of beta-cell development.
+DR   Reactome; REACT_14797; Signaling by GPCR.
+DR   Reactome; REACT_604; Hemostasis.
+DR   Reactome; REACT_6900; Signaling in Immune system.
+DR   BindingDB; Q9Y243; -.
+DR   NextBio; 37765; -.
+DR   ArrayExpress; Q9Y243; -.
+DR   Bgee; Q9Y243; -.
+DR   CleanEx; HS_AKT3; -.
+DR   Genevestigator; Q9Y243; -.
+DR   GermOnline; ENSG00000117020; Homo sapiens.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005515; F:protein binding; IPI:UniProtKB.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; TAS:ProtInc.
+DR   GO; GO:0007165; P:signal transduction; TAS:ProtInc.
+DR   InterPro; IPR000961; AGC-kinase_C.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR011993; PH_type.
+DR   InterPro; IPR017892; Pkinase_C.
+DR   InterPro; IPR001849; Pleckstrin_homology.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   InterPro; IPR015744; Serine/threonine_Kinase_Rac.
+DR   Gene3D; G3DSA:2.30.29.30; PH_type; 1.
+DR   PANTHER; PTHR22985:SF69; Akt; 1.
+DR   Pfam; PF00169; PH; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   Pfam; PF00433; Pkinase_C; 1.
+DR   SMART; SM00233; PH; 1.
+DR   SMART; SM00133; S_TK_X; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS51285; AGC_KINASE_CTER; 1.
+DR   PROSITE; PS50003; PH_DOMAIN; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; ATP-binding; Complete proteome;
+KW   Cytoplasm; Kinase; Membrane; Nucleotide-binding; Phosphoprotein;
+KW   Polymorphism; Serine/threonine-protein kinase; Transferase;
+KW   Ubl conjugation.
+FT   CHAIN         1    479       RAC-gamma serine/threonine-protein
+FT                                kinase.
+FT                                /FTId=PRO_0000085611.
+FT   DOMAIN        5    107       PH.
+FT   DOMAIN      148    405       Protein kinase.
+FT   DOMAIN      406    479       AGC-kinase C-terminal.
+FT   NP_BIND     154    162       ATP (By similarity).
+FT   ACT_SITE    271    271       Proton acceptor (By similarity).
+FT   BINDING     177    177       ATP (By similarity).
+FT   MOD_RES     120    120       Phosphoserine.
+FT   MOD_RES     123    123       Phosphoserine.
+FT   MOD_RES     305    305       Phosphothreonine; by PDPK1.
+FT   MOD_RES     472    472       Phosphoserine (By similarity).
+FT   VAR_SEQ     452    479       YDEDGMDCMDNERRPHFPQFSYSASGRE -> CQQSDCGML
+FT                                GNWKK (in isoform 2).
+FT                                /FTId=VSP_004947.
+FT   VARIANT     171    171       G -> R (in a glioblastoma multiforme
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_040358.
+FT   MUTAGEN     305    305       T->A: No activation after pervanadate
+FT                                treatment.
+FT   MUTAGEN     305    305       T->D: 2-fold increase of phosphorylation
+FT                                steady state level, no activation after
+FT                                pervanadate treatment.
+FT   MUTAGEN     447    447       T->A: No effect.
+FT   MUTAGEN     447    447       T->D: No effect.
+FT   MUTAGEN     472    472       S->A: 67% decrease of activity after
+FT                                pervanadate treatment.
+FT   MUTAGEN     472    472       S->D: 1.4-fold increase of
+FT                                phosphorylation steady state level, 50%
+FT                                decrease of activity after pervanadate
+FT                                treatment.
+FT   CONFLICT    279    279       L -> R (in Ref. 9; AAI21155).
+SQ   SEQUENCE   479 AA;  55775 MW;  F08BDDE6502E78FB CRC64;
+     MSDVTIVKEG WVQKRGEYIK NWRPRYFLLK TDGSFIGYKE KPQDVDLPYP LNNFSVAKCQ
+     LMKTERPKPN TFIIRCLQWT TVIERTFHVD TPEEREEWTE AIQAVADRLQ RQEEERMNCS
+     PTSQIDNIGE EEMDASTTHH KRKTMNDFDY LKLLGKGTFG KVILVREKAS GKYYAMKILK
+     KEVIIAKDEV AHTLTESRVL KNTRHPFLTS LKYSFQTKDR LCFVMEYVNG GELFFHLSRE
+     RVFSEDRTRF YGAEIVSALD YLHSGKIVYR DLKLENLMLD KDGHIKITDF GLCKEGITDA
+     ATMKTFCGTP EYLAPEVLED NDYGRAVDWW GLGVVMYEMM CGRLPFYNQD HEKLFELILM
+     EDIKFPRTLS SDAKSLLSGL LIKDPNKRLG GGPDDAKEIM RHSFFSGVNW QDVYDKKLVP
+     PFKPQVTSET DTRYFDEEFT AQTITITPPE KYDEDGMDCM DNERRPHFPQ FSYSASGRE
+//

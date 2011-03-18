@@ -1,0 +1,514 @@
+ID   KS6B1_HUMAN             Reviewed;         525 AA.
+AC   P23443;
+DT   01-NOV-1991, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 2.
+DT   05-OCT-2010, entry version 115.
+DE   RecName: Full=Ribosomal protein S6 kinase beta-1;
+DE            Short=S6K-beta-1;
+DE            Short=S6K1;
+DE            EC=2.7.11.1;
+DE   AltName: Full=70 kDa ribosomal protein S6 kinase 1;
+DE            Short=P70S6K1;
+DE            Short=p70-S6K 1;
+DE   AltName: Full=Ribosomal protein S6 kinase I;
+DE   AltName: Full=Serine/threonine-protein kinase 14A;
+DE   AltName: Full=p70 ribosomal S6 kinase alpha;
+DE            Short=p70 S6 kinase alpha;
+DE            Short=p70 S6K-alpha;
+DE            Short=p70 S6KA;
+GN   Name=RPS6KB1; Synonyms=STK14A;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND ALTERNATIVE INITIATION.
+RX   MEDLINE=92017834; PubMed=1922062;
+RA   Grove J., Bonerjee P., Balasubramanyam A., Coffer P., Price D.J.,
+RA   Avruch J., Woodgett J.R.;
+RT   "Cloning and expression of two human p70 S6 kinase polypeptides
+RT   differing only at their amino termini.";
+RL   Mol. Cell. Biol. 11:5541-5550(1991).
+RN   [2]
+RP   TISSUE SPECIFICITY.
+RX   MEDLINE=99023916; PubMed=9804755; DOI=10.1074/jbc.273.46.30061;
+RA   Gout I., Minami T., Hara K., Tsujishita Y., Filonenko V.,
+RA   Waterfield M.D., Yonezawa K.;
+RT   "Molecular cloning and characterization of a novel p70 S6 kinase, p70
+RT   S6 kinase beta containing a proline-rich region.";
+RL   J. Biol. Chem. 273:30061-30064(1998).
+RN   [3]
+RP   ENZYME REGULATION, PHOSPHORYLATION AT THR-252, AND MUTAGENESIS OF
+RP   THR-412; SER-434; SER-441; THR-444 AND SER-447.
+RX   PubMed=9445476; DOI=10.1126/science.279.5351.707;
+RA   Pullen N., Dennis P.B., Andjelkovic M., Dufner A., Kozma S.C.,
+RA   Hemmings B.A., Thomas G.;
+RT   "Phosphorylation and activation of p70s6k by PDK1.";
+RL   Science 279:707-710(1998).
+RN   [4]
+RP   FUNCTION IN PHOSPHORYLATION OF EEF2K, AND FUNCTION IN TRANSLATION
+RP   REGULATION.
+RX   PubMed=11500364; DOI=10.1093/emboj/20.16.4370;
+RA   Wang X., Li W., Williams M., Terada N., Alessi D.R., Proud C.G.;
+RT   "Regulation of elongation factor 2 kinase by p90(RSK1) and p70 S6
+RT   kinase.";
+RL   EMBO J. 20:4370-4379(2001).
+RN   [5]
+RP   INTERACTION WITH RPTOR.
+RX   MEDLINE=22145924; PubMed=12150926; DOI=10.1016/S0092-8674(02)00833-4;
+RA   Hara K., Maruki Y., Long X., Yoshino K., Oshiro N., Hidayat S.,
+RA   Tokunaga C., Avruch J., Yonezawa K.;
+RT   "Raptor, a binding partner of target of rapamycin (TOR), mediates TOR
+RT   action.";
+RL   Cell 110:177-189(2002).
+RN   [6]
+RP   FUNCTION, AND INTERACTION WITH TRAF4.
+RX   PubMed=12801526; DOI=10.1016/S0145-2126(02)00325-9;
+RA   Fleckenstein D.S., Dirks W.G., Drexler H.G., Quentmeier H.;
+RT   "Tumor necrosis factor receptor-associated factor (TRAF) 4 is a new
+RT   binding partner for the p70S6 serine/threonine kinase.";
+RL   Leuk. Res. 27:687-694(2003).
+RN   [7]
+RP   FUNCTION, AND INTERACTION WITH POLDIP3.
+RX   PubMed=15341740; DOI=10.1016/j.cub.2004.08.061;
+RA   Richardson C.J., Broenstrup M., Fingar D.C., Julich K., Ballif B.A.,
+RA   Gygi S., Blenis J.;
+RT   "SKAR is a specific target of S6 kinase 1 in cell growth control.";
+RL   Curr. Biol. 14:1540-1549(2004).
+RN   [8]
+RP   FUNCTION IN PHOSPHORYLATION OF EIF4B.
+RX   PubMed=15071500; DOI=10.1038/sj.emboj.7600193;
+RA   Raught B., Peiretti F., Gingras A.C., Livingstone M., Shahbazian D.,
+RA   Mayeur G.L., Polakiewicz R.D., Sonenberg N., Hershey J.W.;
+RT   "Phosphorylation of eucaryotic translation initiation factor 4B Ser422
+RT   is modulated by S6 kinases.";
+RL   EMBO J. 23:1761-1769(2004).
+RN   [9]
+RP   FUNCTION IN CELL CYCLE PROGRESSION.
+RX   PubMed=14673156; DOI=10.1128/MCB.24.1.200-216.2004;
+RA   Fingar D.C., Richardson C.J., Tee A.R., Cheatham L., Tsou C.,
+RA   Blenis J.;
+RT   "mTOR controls cell cycle progression through its cell growth
+RT   effectors S6K1 and 4E-BP1/eukaryotic translation initiation factor
+RT   4E.";
+RL   Mol. Cell. Biol. 24:200-216(2004).
+RN   [10]
+RP   FUNCTION IN TRANSLATION INITIATION, INTERACTION WITH EIF3B AND EIF3C,
+RP   AND MUTAGENESIS OF THR-412.
+RX   PubMed=16286006; DOI=10.1016/j.cell.2005.10.024;
+RA   Holz M.K., Ballif B.A., Gygi S.P., Blenis J.;
+RT   "mTOR and S6K1 mediate assembly of the translation preinitiation
+RT   complex through dynamic protein interchange and ordered
+RT   phosphorylation events.";
+RL   Cell 123:569-580(2005).
+RN   [11]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-441; THR-444 AND
+RP   SER-447, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=17081983; DOI=10.1016/j.cell.2006.09.026;
+RA   Olsen J.V., Blagoev B., Gnad F., Macek B., Kumar C., Mortensen P.,
+RA   Mann M.;
+RT   "Global, in vivo, and site-specific phosphorylation dynamics in
+RT   signaling networks.";
+RL   Cell 127:635-648(2006).
+RN   [12]
+RP   FUNCTION IN PHOSPHORYLATION OF GSK3B.
+RX   PubMed=17052453; DOI=10.1016/j.molcel.2006.09.019;
+RA   Zhang H.H., Lipovsky A.I., Dibble C.C., Sahin M., Manning B.D.;
+RT   "S6K1 regulates GSK3 under conditions of mTOR-dependent feedback
+RT   inhibition of Akt.";
+RL   Mol. Cell 24:185-197(2006).
+RN   [13]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-447, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=16964243; DOI=10.1038/nbt1240;
+RA   Beausoleil S.A., Villen J., Gerber S.A., Rush J., Gygi S.P.;
+RT   "A probability-based approach for high-throughput protein
+RT   phosphorylation analysis and site localization.";
+RL   Nat. Biotechnol. 24:1285-1292(2006).
+RN   [14]
+RP   FUNCTION.
+RX   PubMed=17053147; DOI=10.1126/science.1130276;
+RA   Dorrello N.V., Peschiaroli A., Guardavaccaro D., Colburn N.H.,
+RA   Sherman N.E., Pagano M.;
+RT   "S6K1- and betaTRCP-mediated degradation of PDCD4 promotes protein
+RT   translation and cell growth.";
+RL   Science 314:467-471(2006).
+RN   [15]
+RP   ENZYME REGULATION, AND MUTAGENESIS OF LYS-167 AND SER-394.
+RX   PubMed=17446865; DOI=10.1038/sj.emboj.7601682;
+RA   Hauge C., Antal T.L., Hirschberg D., Doehn U., Thorup K.,
+RA   Idrissova L., Hansen K., Jensen O.N., Jorgensen T.J., Biondi R.M.,
+RA   Frodin M.;
+RT   "Mechanism for activation of the growth factor-activated AGC kinases
+RT   by turn motif phosphorylation.";
+RL   EMBO J. 26:2251-2261(2007).
+RN   [16]
+RP   FUNCTION IN PHOSPHORYLATION OF RMP, AND SUBCELLULAR LOCATION.
+RX   PubMed=17936702; DOI=10.1016/j.molcel.2007.08.010;
+RA   Djouder N., Metzler S.C., Schmidt A., Wirbelauer C., Gstaiger M.,
+RA   Aebersold R., Hess D., Krek W.;
+RT   "S6K1-mediated disassembly of mitochondrial URI/PP1gamma complexes
+RT   activates a negative feedback program that counters S6K1 survival
+RT   signaling.";
+RL   Mol. Cell 28:28-40(2007).
+RN   [17]
+RP   PHOSPHORYLATION AT THR-412.
+RX   PubMed=18925875; DOI=10.1042/BJ20081668;
+RA   Garcia-Martinez J.M., Alessi D.R.;
+RT   "mTOR complex 2 (mTORC2) controls hydrophobic motif phosphorylation
+RT   and activation of serum- and glucocorticoid-induced protein kinase 1
+RT   (SGK1).";
+RL   Biochem. J. 416:375-385(2008).
+RN   [18]
+RP   FUNCTION IN PHOSPHORYLATION OF IRS1, FUNCTION IN GLUCOSE HOMEOSTASIS,
+RP   AND INTERACTION WITH IRS1.
+RX   PubMed=18952604; DOI=10.1074/jbc.M806480200;
+RA   Zhang J., Gao Z., Yin J., Quon M.J., Ye J.;
+RT   "S6K directly phosphorylates IRS-1 on Ser-270 to promote insulin
+RT   resistance in response to TNF-(alpha) signaling through IKK2.";
+RL   J. Biol. Chem. 283:35375-35382(2008).
+RN   [19]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-441; THR-444 AND
+RP   SER-447, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [20]
+RP   FUNCTION, ALTERNATIVE SPLICING, PHOSPHORYLATION AT SER-394; THR-412;
+RP   THR-444 AND SER-447, AND SUBCELLULAR LOCATION.
+RX   PubMed=19085255; DOI=10.1080/08977190802556986;
+RA   Kim D., Akcakanat A., Singh G., Sharma C., Meric-Bernstam F.;
+RT   "Regulation and localization of ribosomal protein S6 kinase 1
+RT   isoforms.";
+RL   Growth Factors 27:12-21(2009).
+RN   [21]
+RP   ENZYME REGULATION, AND MUTAGENESIS OF THR-412.
+RX   PubMed=19570988; DOI=10.1074/jbc.M109.032177;
+RA   Keshwani M.M., Gao X., Harris T.K.;
+RT   "Mechanism of PDK1-catalyzed Thr-229 phosphorylation of the S6K1
+RT   protein kinase.";
+RL   J. Biol. Chem. 284:22611-22624(2009).
+RN   [22]
+RP   FUNCTION IN PHOSPHORYLATION OF RICTOR.
+RX   PubMed=19720745; DOI=10.1128/MCB.00735-09;
+RA   Dibble C.C., Asara J.M., Manning B.D.;
+RT   "Characterization of Rictor phosphorylation sites reveals direct
+RT   regulation of mTOR complex 2 by S6K1.";
+RL   Mol. Cell. Biol. 29:5657-5670(2009).
+RN   [23]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-441; THR-444 AND
+RP   SER-447, AND MASS SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=19690332; DOI=10.1126/scisignal.2000007;
+RA   Mayya V., Lundgren D.H., Hwang S.-I., Rezaul K., Wu L., Eng J.K.,
+RA   Rodionov V., Han D.K.;
+RT   "Quantitative phosphoproteomic analysis of T cell receptor signaling
+RT   reveals system-wide modulation of protein-protein interactions.";
+RL   Sci. Signal. 2:RA46-RA46(2009).
+RN   [24]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT LYS-304, AND MASS SPECTROMETRY.
+RX   PubMed=19608861; DOI=10.1126/science.1175371;
+RA   Choudhary C., Kumar C., Gnad F., Nielsen M.L., Rehman M., Walther T.,
+RA   Olsen J.V., Mann M.;
+RT   "Lysine acetylation targets protein complexes and co-regulates major
+RT   cellular functions.";
+RL   Science 325:834-840(2009).
+RN   [25]
+RP   FUNCTION IN PHOSPHORYLATION OF RICTOR.
+RX   PubMed=19995915; DOI=10.1128/MCB.00601-09;
+RA   Julien L.A., Carriere A., Moreau J., Roux P.P.;
+RT   "mTORC1-activated S6K1 phosphorylates Rictor on threonine 1135 and
+RT   regulates mTORC2 signaling.";
+RL   Mol. Cell. Biol. 30:908-921(2010).
+RN   [26]
+RP   FUNCTION IN PHOSPHORYLATION OF RICTOR.
+RX   PubMed=19935711; DOI=10.1038/onc.2009.401;
+RA   Treins C., Warne P.H., Magnuson M.A., Pende M., Downward J.;
+RT   "Rictor is a novel target of p70 S6 kinase-1.";
+RL   Oncogene 29:1003-1016(2010).
+RN   [27]
+RP   X-RAY CRYSTALLOGRAPHY (2.8 ANGSTROMS) OF 75-399.
+RX   PubMed=19864428; DOI=10.1074/jbc.M109.040667;
+RA   Sunami T., Byrne N., Diehl R.E., Funabashi K., Hall D.L., Ikuta M.,
+RA   Patel S.B., Shipman J.M., Smith R.F., Takahashi I., Zugay-Murphy J.,
+RA   Iwasawa Y., Lumb K.J., Munshi S.K., Sharma S.;
+RT   "Structural basis of human p70 ribosomal S6 kinase-1 regulation by
+RT   activation loop phosphorylation.";
+RL   J. Biol. Chem. 285:4587-4594(2010).
+RN   [28]
+RP   VARIANT [LARGE SCALE ANALYSIS] GLU-289.
+RX   PubMed=16959974; DOI=10.1126/science.1133427;
+RA   Sjoeblom T., Jones S., Wood L.D., Parsons D.W., Lin J., Barber T.D.,
+RA   Mandelker D., Leary R.J., Ptak J., Silliman N., Szabo S.,
+RA   Buckhaults P., Farrell C., Meeh P., Markowitz S.D., Willis J.,
+RA   Dawson D., Willson J.K.V., Gazdar A.F., Hartigan J., Wu L., Liu C.,
+RA   Parmigiani G., Park B.H., Bachman K.E., Papadopoulos N.,
+RA   Vogelstein B., Kinzler K.W., Velculescu V.E.;
+RT   "The consensus coding sequences of human breast and colorectal
+RT   cancers.";
+RL   Science 314:268-274(2006).
+RN   [29]
+RP   VARIANTS [LARGE SCALE ANALYSIS] ILE-225; CYS-272; CYS-276 AND ALA-398.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Acts to integrate nutrient and growth factor signals in
+CC       regulation of protein synthesis, cell proliferation, cell growth,
+CC       cell cycle progression and cell survival. Downstream effector of
+CC       the mTOR signaling pathway. Phosphorylates specifically ribosomal
+CC       protein S6 in response to insulin or several classes of mitogens.
+CC       During translation initiation, the inactive form associatess with
+CC       the eIF-3 complex under conditions of nutrient depletion.
+CC       Mitogenic stimulation leads to phosphorylation and dissociation
+CC       from the eIF-3 complex and the free activated form can
+CC       phosphorylate other translational targets including EIF4B.
+CC       Promotes protein synthesis by phosphorylating PDCD4 at 'Ser-67'
+CC       and targeting it for degradation. Phosphorylates RICTOR leading to
+CC       regulation of mammalian target of rapamycin complex 2 (mTORC2)
+CC       signaling; probably phosphorylates RICTOR at 'Thr-1135'.
+CC       Phosphorylates IRS1 at multiple serine residues coupled with
+CC       insulin resistance; probably phosphorylates IRS1 at 'Ser-270'.
+CC       Required for TNF-alpha induced IRS-1 degradation. Phosphorylates
+CC       EEF2K in response to IGF1 and inhibits EEF2K activity.
+CC       Phosphorylates BAD at 'Ser-99' in response to IGF1 leading to BAD
+CC       inactivation and inhibition of BAD-induced apoptosis.
+CC       Phosphorylates mitochondrial RMP leading to dissociation of a
+CC       RMP:PPP1CC complex; probably phosphorylates RMP at 'Ser-99'. The
+CC       free mitochondrial PPP1CC can dephosphorylate RPS6KB1 at Thr-412
+CC       which is proposed to be a negative feed back mechanism for the
+CC       RPS6KB1 antiapoptotic function. Phosphorylates GSK3B at 'Ser-9'
+CC       under conditions leading to loss of the TSC1-TSC2 complex.
+CC       Phosphorylates POLDIP3.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- ENZYME REGULATION: Activated by serine/threonine phosphorylation
+CC       and protein kinase C, inactivated by type 2A phosphatase.
+CC       Activation requires multiple phosphorylatiopn events. Activation
+CC       appears to be first mediated by multiple phosphorylation in the
+CC       autoinhibitory domain, which facilitates phosphorylation at Thr-
+CC       412 by disrupting the autoinhibitory mechanism and allowing
+CC       phosphorylation of Thr-252. The active conformation of the kinase
+CC       is believed to be stablilized by a mechanism involving three
+CC       conserved phosphorylation sites located in the kinase domain
+CC       activation loop (Thr-252) and in the AGC-kinase C-terminal domain
+CC       (Ser-394 in the middle of the tail/linker region and Thr-412
+CC       within a hydrophobic motif at its end). Activated by mTORC1;
+CC       isoform Alpha I and isoform Alpha II are sensitive for rapamycin,
+CC       which inhibits phosphorylation at Thr-412. Activated by PDPK1.
+CC   -!- SUBUNIT: Interacts with PPP1R9A/neurabin-1 (By similarity).
+CC       Interacts with RPTOR. Interacts with IRS1. Interacts with EIF3B
+CC       and EIF3C. Interacts with POLDIP3 and TRAF4.
+CC   -!- SUBCELLULAR LOCATION: Cell junction, synapse, synaptosome (By
+CC       similarity). Mitochondrion outer membrane.
+CC   -!- SUBCELLULAR LOCATION: Isoform Alpha I: Nucleus. Cytoplasm.
+CC   -!- SUBCELLULAR LOCATION: Isoform Alpha II: Cytoplasm.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative initiation; Named isoforms=2;
+CC         Comment=Additional isoforms seem to exist;
+CC       Name=Alpha I; Synonyms=p80-S6K 1;
+CC         IsoId=P23443-1; Sequence=Displayed;
+CC       Name=Alpha II;
+CC         IsoId=P23443-2; Sequence=VSP_018839;
+CC   -!- TISSUE SPECIFICITY: Widely expressed.
+CC   -!- DOMAIN: The autoinhibitory domain is believed to block
+CC       phosphorylation within the AGC-kinase C-terminal domain and the
+CC       activation loop.
+CC   -!- DOMAIN: The TOS (TOR signaling) motif is essential for activation
+CC       by mTORC1 (By similarity).
+CC   -!- PTM: Phosphorylation at Thr-412 is regulated by mTORC1. The
+CC       phosphorylation at this site is maintained by an agonist-dependent
+CC       autophosphorylation mechanism (By similarity).
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. AGC Ser/Thr
+CC       protein kinase family. S6 kinase subfamily.
+CC   -!- SIMILARITY: Contains 1 AGC-kinase C-terminal domain.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M60724; AAA36410.1; -; mRNA.
+DR   EMBL; M60725; AAA36411.1; -; mRNA.
+DR   IPI; IPI00216132; -.
+DR   IPI; IPI00759649; -.
+DR   PIR; A41687; A41687.
+DR   RefSeq; NP_003152.1; -.
+DR   UniGene; Hs.463642; -.
+DR   PDB; 3A60; X-ray; 2.80 A; A/B=75-399.
+DR   PDB; 3A61; X-ray; 3.43 A; A=75-399.
+DR   PDB; 3A62; X-ray; 2.35 A; A=75-399.
+DR   PDBsum; 3A60; -.
+DR   PDBsum; 3A61; -.
+DR   PDBsum; 3A62; -.
+DR   ProteinModelPortal; P23443; -.
+DR   SMR; P23443; 90-420.
+DR   DIP; DIP-29986N; -.
+DR   MINT; MINT-203709; -.
+DR   STRING; P23443; -.
+DR   PhosphoSite; P23443; -.
+DR   PRIDE; P23443; -.
+DR   Ensembl; ENST00000225577; ENSP00000225577; ENSG00000108443.
+DR   GeneID; 6198; -.
+DR   KEGG; hsa:6198; -.
+DR   UCSC; uc002ixy.1; human.
+DR   CTD; 6198; -.
+DR   GeneCards; GC17P057970; -.
+DR   H-InvDB; HIX0014049; -.
+DR   HGNC; HGNC:10436; RPS6KB1.
+DR   HPA; CAB003838; -.
+DR   HPA; CAB018346; -.
+DR   MIM; 608938; gene.
+DR   PharmGKB; PA34851; -.
+DR   eggNOG; prNOG13558; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG108317; -.
+DR   InParanoid; P23443; -.
+DR   OMA; DELEEGX; -.
+DR   OrthoDB; EOG99W51J; -.
+DR   PhylomeDB; P23443; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   Pathway_Interaction_DB; a6b1_a6b4_integrin_pathway; a6b1 and a6b4 Integrin signaling.
+DR   Pathway_Interaction_DB; angiopoietinreceptor_pathway; Angiopoietin receptor Tie2-mediated signaling.
+DR   Pathway_Interaction_DB; igf1_pathway; IGF1 pathway.
+DR   Pathway_Interaction_DB; il2_pi3kpathway; IL2 signaling events mediated by PI3K.
+DR   Pathway_Interaction_DB; il4_2pathway; IL4-mediated signaling events.
+DR   Pathway_Interaction_DB; insulin_pathway; Insulin Pathway.
+DR   Pathway_Interaction_DB; avb3_integrin_pathway; Integrins in angiogenesis.
+DR   Pathway_Interaction_DB; mtor_4pathway; mTOR signaling pathway.
+DR   Pathway_Interaction_DB; telomerasepathway; Regulation of Telomerase.
+DR   Pathway_Interaction_DB; rxr_vdr_pathway; RXR and RAR hetrodimerization with other nuclear receptor.
+DR   Pathway_Interaction_DB; met_pathway; Signaling events activated by Hepatocyte Growth Factor Receptor (c-Met).
+DR   Pathway_Interaction_DB; kitpathway; Signaling events mediated by Stem cell factor receptor (c-Kit).
+DR   Pathway_Interaction_DB; tgfbrpathway; TGF-beta receptor signaling.
+DR   Reactome; REACT_498; Signaling by Insulin receptor.
+DR   NextBio; 24073; -.
+DR   ArrayExpress; P23443; -.
+DR   Bgee; P23443; -.
+DR   CleanEx; HS_RPS6KB1; -.
+DR   Genevestigator; P23443; -.
+DR   GermOnline; ENSG00000108443; Homo sapiens.
+DR   GO; GO:0030054; C:cell junction; IEA:UniProtKB-KW.
+DR   GO; GO:0005737; C:cytoplasm; IDA:UniProtKB.
+DR   GO; GO:0005829; C:cytosol; EXP:Reactome.
+DR   GO; GO:0005741; C:mitochondrial outer membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005634; C:nucleus; IDA:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0045202; C:synapse; IEA:UniProtKB-KW.
+DR   GO; GO:0019717; C:synaptosome; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005515; F:protein binding; IPI:UniProtKB.
+DR   GO; GO:0004672; F:protein kinase activity; IDA:UniProtKB.
+DR   GO; GO:0006915; P:apoptosis; IEA:UniProtKB-KW.
+DR   GO; GO:0000082; P:G1/S transition of mitotic cell cycle; IMP:UniProtKB.
+DR   GO; GO:0043066; P:negative regulation of apoptosis; IMP:UniProtKB.
+DR   GO; GO:0048015; P:phosphoinositide-mediated signaling; TAS:UniProtKB.
+DR   GO; GO:0045931; P:positive regulation of mitotic cell cycle; IMP:UniProtKB.
+DR   GO; GO:0045948; P:positive regulation of translational initia...; IMP:UniProtKB.
+DR   GO; GO:0031929; P:TOR signaling cascade; IDA:UniProtKB.
+DR   InterPro; IPR000961; AGC-kinase_C.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR017892; Pkinase_C.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR016238; Ribosomal_S6_kinase.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   Pfam; PF00433; Pkinase_C; 1.
+DR   PIRSF; PIRSF000605; Ribsml_S6_kin_1; 1.
+DR   SMART; SM00133; S_TK_X; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS51285; AGC_KINASE_CTER; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Alternative initiation; Apoptosis;
+KW   ATP-binding; Cell cycle; Cell junction; Complete proteome; Cytoplasm;
+KW   Kinase; Membrane; Mitochondrion; Mitochondrion outer membrane;
+KW   Nucleotide-binding; Nucleus; Phosphoprotein; Polymorphism;
+KW   Serine/threonine-protein kinase; Synapse; Synaptosome; Transferase;
+KW   Translation regulation.
+FT   CHAIN         1    525       Ribosomal protein S6 kinase beta-1.
+FT                                /FTId=PRO_0000024342.
+FT   DOMAIN       91    352       Protein kinase.
+FT   DOMAIN      353    423       AGC-kinase C-terminal.
+FT   NP_BIND      97    105       ATP (By similarity).
+FT   REGION      424    525       Autoinhibitory domain.
+FT   MOTIF        28     32       TOS motif.
+FT   ACT_SITE    218    218       Proton acceptor (By similarity).
+FT   BINDING     123    123       ATP (By similarity).
+FT   MOD_RES     252    252       Phosphothreonine; by PDPK1 (Probable).
+FT   MOD_RES     304    304       N6-acetyllysine.
+FT   MOD_RES     394    394       Phosphoserine.
+FT   MOD_RES     412    412       Phosphothreonine.
+FT   MOD_RES     441    441       Phosphoserine.
+FT   MOD_RES     444    444       Phosphothreonine.
+FT   MOD_RES     447    447       Phosphoserine.
+FT   VAR_SEQ       1     23       Missing (in isoform Alpha II).
+FT                                /FTId=VSP_018839.
+FT   VARIANT     225    225       M -> I.
+FT                                /FTId=VAR_040639.
+FT   VARIANT     272    272       R -> C.
+FT                                /FTId=VAR_040640.
+FT   VARIANT     276    276       W -> C.
+FT                                /FTId=VAR_040641.
+FT   VARIANT     289    289       G -> E (in a colorectal cancer sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_035628.
+FT   VARIANT     398    398       S -> A.
+FT                                /FTId=VAR_040642.
+FT   MUTAGEN     167    167       K->N: Greatly reduces activity. Greatly
+FT                                reduces phosphorylation at T-412 and
+FT                                moderately reduces phosphorylation at T-
+FT                                252.
+FT   MUTAGEN     394    394       S->A: Loss of activity. Loss of
+FT                                phosphorylation at T-412.
+FT   MUTAGEN     412    412       T->E: Mimics phosphorylation. Facilitates
+FT                                phosphorylation of T-252 by PDPK1; when
+FT                                associated with E-434; E-441; E-444 and
+FT                                E-447. Mimics phosphorylation. No effect
+FT                                on interaction with PDPK1 and
+FT                                phosphorylation of T-252. Impairs
+FT                                association with the eIF3 complex.
+FT   MUTAGEN     434    434       S->E: Facilitates phosphorylation of T-
+FT                                252 by PDPK1; when associated with E-412;
+FT                                E-441; E-444 and E-447.
+FT   MUTAGEN     441    441       S->E: Facilitates phosphorylation of T-
+FT                                252 by PDPK1; when associated with E-412;
+FT                                E-434; E-444 and E-447.
+FT   MUTAGEN     444    444       T->E: Facilitates phosphorylation of T-
+FT                                252 by PDPK1; when associated with E-412;
+FT                                E-434; E-441 and E-447.
+FT   MUTAGEN     447    447       S->E: Facilitates phosphorylation of T-
+FT                                252 by PDPK1; when associated with E-412;
+FT                                E-434; E-441 and E-444.
+SQ   SEQUENCE   525 AA;  59140 MW;  2C3BA13CCDAF4AB3 CRC64;
+     MRRRRRRDGF YPAPDFRDRE AEDMAGVFDI DLDQPEDAGS EDELEEGGQL NESMDHGGVG
+     PYELGMEHCE KFEISETSVN RGPEKIRPEC FELLRVLGKG GYGKVFQVRK VTGANTGKIF
+     AMKVLKKAMI VRNAKDTAHT KAERNILEEV KHPFIVDLIY AFQTGGKLYL ILEYLSGGEL
+     FMQLEREGIF MEDTACFYLA EISMALGHLH QKGIIYRDLK PENIMLNHQG HVKLTDFGLC
+     KESIHDGTVT HTFCGTIEYM APEILMRSGH NRAVDWWSLG ALMYDMLTGA PPFTGENRKK
+     TIDKILKCKL NLPPYLTQEA RDLLKKLLKR NAASRLGAGP GDAGEVQAHP FFRHINWEEL
+     LARKVEPPFK PLLQSEEDVS QFDSKFTRQT PVDSPDDSTL SESANQVFLG FTYVAPSVLE
+     SVKEKFSFEP KIRSPRRFIG SPRTPVSPVK FSPGDFWGRG ASASTANPQT PVEYPMETSG
+     IEQMDVTMSG EASAPLPIRQ PNSGPYKKQA FPMISKRPEH LRMNL
+//

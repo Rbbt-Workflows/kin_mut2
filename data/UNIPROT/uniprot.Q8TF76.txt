@@ -1,0 +1,322 @@
+ID   HASP_HUMAN              Reviewed;         798 AA.
+AC   Q8TF76; Q5U5K3; Q96MN1; Q9BXS7;
+DT   01-MAR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   18-MAY-2010, sequence version 3.
+DT   02-NOV-2010, entry version 89.
+DE   RecName: Full=Serine/threonine-protein kinase haspin;
+DE            EC=2.7.11.1;
+DE   AltName: Full=Germ cell-specific gene 2 protein;
+DE   AltName: Full=H-haspin;
+DE   AltName: Full=Haploid germ cell-specific nuclear protein kinase;
+GN   Name=GSG2;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), FUNCTION, TISSUE SPECIFICITY,
+RP   SUBCELLULAR LOCATION, AND CHROMOSOMAL LOCATION.
+RC   TISSUE=Testis;
+RX   MEDLINE=21127615; PubMed=11228240; DOI=10.1093/molehr/7.3.211;
+RA   Tanaka H., Iguchi N., Nakamura Y., Kohroki J., de Carvalho C.E.,
+RA   Nishimune Y.;
+RT   "Cloning and characterization of human haspin gene encoding haploid
+RT   germ cell-specific nuclear protein kinase.";
+RL   Mol. Hum. Reprod. 7:211-218(2001).
+RN   [2]
+RP   SEQUENCE REVISION TO 204; 328 AND 378.
+RA   Tanaka H.;
+RL   Submitted (NOV-2006) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), TISSUE SPECIFICITY, AND
+RP   VARIANTS CYS-82; ASP-204; THR-328 AND ALA-378.
+RC   TISSUE=Testis;
+RX   MEDLINE=21211402; PubMed=11311556; DOI=10.1016/S0378-1119(01)00387-0;
+RA   Higgins J.M.G.;
+RT   "The Haspin gene: location in an intron of the Integrin Alpha-E gene,
+RT   associated transcription of an Integrin alpha-E-derived RNA and
+RT   expression in diploid as well as haploid cells.";
+RL   Gene 267:55-69(2001).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2), AND VARIANT
+RP   CYS-82.
+RC   TISSUE=Peripheral blood;
+RX   PubMed=14702039; DOI=10.1038/ng1285;
+RA   Ota T., Suzuki Y., Nishikawa T., Otsuki T., Sugiyama T., Irie R.,
+RA   Wakamatsu A., Hayashi K., Sato H., Nagai K., Kimura K., Makita H.,
+RA   Sekine M., Obayashi M., Nishi T., Shibahara T., Tanaka T., Ishii S.,
+RA   Yamamoto J., Saito K., Kawai Y., Isono Y., Nakamura Y., Nagahari K.,
+RA   Murakami K., Yasuda T., Iwayanagi T., Wagatsuma M., Shiratori A.,
+RA   Sudo H., Hosoiri T., Kaku Y., Kodaira H., Kondo H., Sugawara M.,
+RA   Takahashi M., Kanda K., Yokoi T., Furuya T., Kikkawa E., Omura Y.,
+RA   Abe K., Kamihara K., Katsuta N., Sato K., Tanikawa M., Yamazaki M.,
+RA   Ninomiya K., Ishibashi T., Yamashita H., Murakawa K., Fujimori K.,
+RA   Tanai H., Kimata M., Watanabe M., Hiraoka S., Chiba Y., Ishida S.,
+RA   Ono Y., Takiguchi S., Watanabe S., Yosida M., Hotuta T., Kusano J.,
+RA   Kanehori K., Takahashi-Fujii A., Hara H., Tanase T.-O., Nomura Y.,
+RA   Togiya S., Komai F., Hara R., Takeuchi K., Arita M., Imose N.,
+RA   Musashino K., Yuuki H., Oshima A., Sasaki N., Aotsuka S.,
+RA   Yoshikawa Y., Matsunawa H., Ichihara T., Shiohata N., Sano S.,
+RA   Moriya S., Momiyama H., Satoh N., Takami S., Terashima Y., Suzuki O.,
+RA   Nakagawa S., Senoh A., Mizoguchi H., Goto Y., Shimizu F., Wakebe H.,
+RA   Hishigaki H., Watanabe T., Sugiyama A., Takemoto M., Kawakami B.,
+RA   Yamazaki M., Watanabe K., Kumagai A., Itakura S., Fukuzumi Y.,
+RA   Fujimori Y., Komiyama M., Tashiro H., Tanigami A., Fujiwara T.,
+RA   Ono T., Yamada K., Fujii Y., Ozaki K., Hirao M., Ohmori Y.,
+RA   Kawabata A., Hikiji T., Kobatake N., Inagaki H., Ikema Y., Okamoto S.,
+RA   Okitani R., Kawakami T., Noguchi S., Itoh T., Shigeta K., Senba T.,
+RA   Matsumura K., Nakajima Y., Mizuno T., Morinaga M., Sasaki M.,
+RA   Togashi T., Oyama M., Hata H., Watanabe M., Komatsu T.,
+RA   Mizushima-Sugano J., Satoh T., Shirai Y., Takahashi Y., Nakagawa K.,
+RA   Okumura K., Nagase T., Nomura N., Kikuchi H., Masuho Y., Yamashita R.,
+RA   Nakai K., Yada T., Nakamura Y., Ohara O., Isogai T., Sugano S.;
+RT   "Complete sequencing and characterization of 21,243 full-length human
+RT   cDNAs.";
+RL   Nat. Genet. 36:40-45(2004).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1), AND VARIANTS
+RP   CYS-82; ASP-204; THR-328 AND ALA-378.
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [6]
+RP   FUNCTION, SUBCELLULAR LOCATION, AND PHOSPHORYLATION.
+RX   PubMed=15681610; DOI=10.1101/gad.1267105;
+RA   Dai J., Sultan S., Taylor S.S., Higgins J.M.G.;
+RT   "The kinase haspin is required for mitotic histone H3 Thr 3
+RT   phosphorylation and normal metaphase chromosome alignment.";
+RL   Genes Dev. 19:472-488(2005).
+RN   [7]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-253, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix adenocarcinoma;
+RX   PubMed=16565220; DOI=10.1073/pnas.0507066103;
+RA   Nousiainen M., Sillje H.H.W., Sauer G., Nigg E.A., Koerner R.;
+RT   "Phosphoproteome analysis of the human mitotic spindle.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:5391-5396(2006).
+RN   [8]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-220, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Embryonic kidney;
+RX   PubMed=17525332; DOI=10.1126/science.1140321;
+RA   Matsuoka S., Ballif B.A., Smogorzewska A., McDonald E.R. III,
+RA   Hurov K.E., Luo J., Bakalarski C.E., Zhao Z., Solimini N.,
+RA   Lerenthal Y., Shiloh Y., Gygi S.P., Elledge S.J.;
+RT   "ATM and ATR substrate analysis reveals extensive protein networks
+RT   responsive to DNA damage.";
+RL   Science 316:1160-1166(2007).
+RN   [9]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-93; THR-97; SER-143 AND
+RP   SER-147, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [10]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-58, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=19690332; DOI=10.1126/scisignal.2000007;
+RA   Mayya V., Lundgren D.H., Hwang S.-I., Rezaul K., Wu L., Eng J.K.,
+RA   Rodionov V., Han D.K.;
+RT   "Quantitative phosphoproteomic analysis of T cell receptor signaling
+RT   reveals system-wide modulation of protein-protein interactions.";
+RL   Sci. Signal. 2:RA46-RA46(2009).
+RN   [11]
+RP   VARIANTS [LARGE SCALE ANALYSIS] GLU-76; CYS-82; HIS-145; ASP-204;
+RP   SER-283; LEU-301; THR-328; ALA-378 AND VAL-706.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Required for normal alignment of chromosomes at
+CC       metaphase. Phosphorylates histone H3 'Thr-3' during mitosis.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- COFACTOR: Magnesium.
+CC   -!- SUBCELLULAR LOCATION: Nucleus.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q8TF76-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q8TF76-2; Sequence=VSP_050671, VSP_050672;
+CC         Note=No experimental confirmation available;
+CC   -!- TISSUE SPECIFICITY: Strongly expressed in testis. Also present in
+CC       thymus and bone marrow and low levels observed in prostate,
+CC       intestine, lung, spleen and lymph node. Expressed in fetal skin,
+CC       liver, kidney and small intestine and also in proliferating but
+CC       not non-proliferating cell lines.
+CC   -!- PTM: Autophosphorylated on both serine and threonine residues (By
+CC       similarity). Phosphorylated during mitosis. Phosphorylated upon
+CC       DNA damage, probably by ATM or ATR.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Ser/Thr
+CC       protein kinase family. Haspin subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AB039834; BAB21938.3; -; mRNA.
+DR   EMBL; AF289865; AAK30300.1; -; mRNA.
+DR   EMBL; AK056691; BAB71255.1; -; mRNA.
+DR   EMBL; BC047457; AAH47457.1; -; mRNA.
+DR   IPI; IPI00397836; -.
+DR   IPI; IPI00401554; -.
+DR   RefSeq; NP_114171.2; -.
+DR   UniGene; Hs.534059; -.
+DR   PDB; 2VUW; X-ray; 1.80 A; A=465-798.
+DR   PDB; 2WB8; X-ray; 2.15 A; A=452-798.
+DR   PDB; 3DLZ; X-ray; 1.85 A; A=465-798.
+DR   PDB; 3E7V; X-ray; 2.00 A; A=465-798.
+DR   PDB; 3F2N; X-ray; 1.80 A; A=465-798.
+DR   PDB; 3FMD; X-ray; 2.00 A; A=465-798.
+DR   PDB; 3IQ7; X-ray; 2.00 A; A=465-798.
+DR   PDBsum; 2VUW; -.
+DR   PDBsum; 2WB8; -.
+DR   PDBsum; 3DLZ; -.
+DR   PDBsum; 3E7V; -.
+DR   PDBsum; 3F2N; -.
+DR   PDBsum; 3FMD; -.
+DR   PDBsum; 3IQ7; -.
+DR   ProteinModelPortal; Q8TF76; -.
+DR   DIP; DIP-38174N; -.
+DR   STRING; Q8TF76; -.
+DR   PhosphoSite; Q8TF76; -.
+DR   PRIDE; Q8TF76; -.
+DR   Ensembl; ENST00000325418; ENSP00000325290; ENSG00000177602.
+DR   GeneID; 83903; -.
+DR   KEGG; hsa:83903; -.
+DR   CTD; 83903; -.
+DR   GeneCards; GC17P003573; -.
+DR   H-InvDB; HIX0013433; -.
+DR   HGNC; HGNC:19682; GSG2.
+DR   HPA; HPA027422; -.
+DR   MIM; 609240; gene.
+DR   PharmGKB; PA134909705; -.
+DR   HOGENOM; HBG125151; -.
+DR   HOVERGEN; HBG049009; -.
+DR   InParanoid; Q8TF76; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   ArrayExpress; Q8TF76; -.
+DR   Bgee; Q8TF76; -.
+DR   CleanEx; HS_GSG2; -.
+DR   Genevestigator; Q8TF76; -.
+DR   GermOnline; ENSG00000177602; Homo sapiens.
+DR   GO; GO:0005634; C:nucleus; IDA:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; IDA:UniProtKB.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0007049; P:cell cycle; IEA:UniProtKB-KW.
+DR   GO; GO:0016568; P:chromatin modification; IEA:UniProtKB-KW.
+DR   GO; GO:0007243; P:intracellular protein kinase cascade; IDA:UniProtKB.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IDA:UniProtKB.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; FALSE_NEG.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; ATP-binding; Cell cycle;
+KW   Chromatin regulator; Complete proteome; Kinase; Magnesium;
+KW   Nucleotide-binding; Nucleus; Phosphoprotein; Polymorphism;
+KW   Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    798       Serine/threonine-protein kinase haspin.
+FT                                /FTId=PRO_0000085989.
+FT   DOMAIN      484    798       Protein kinase.
+FT   NP_BIND     490    498       ATP (By similarity).
+FT   ACT_SITE    649    649       Proton acceptor (By similarity).
+FT   BINDING     511    511       ATP (By similarity).
+FT   MOD_RES      58     58       Phosphoserine.
+FT   MOD_RES      93     93       Phosphoserine.
+FT   MOD_RES      97     97       Phosphothreonine.
+FT   MOD_RES     143    143       Phosphoserine.
+FT   MOD_RES     147    147       Phosphoserine.
+FT   MOD_RES     220    220       Phosphoserine.
+FT   MOD_RES     253    253       Phosphothreonine.
+FT   VAR_SEQ     314    314       Q -> H (in isoform 2).
+FT                                /FTId=VSP_050671.
+FT   VAR_SEQ     315    798       Missing (in isoform 2).
+FT                                /FTId=VSP_050672.
+FT   VARIANT      76     76       V -> E (in dbSNP:rs11653889).
+FT                                /FTId=VAR_040540.
+FT   VARIANT      82     82       R -> C (in dbSNP:rs9907144).
+FT                                /FTId=VAR_040541.
+FT   VARIANT     145    145       R -> H (in dbSNP:rs55991903).
+FT                                /FTId=VAR_040542.
+FT   VARIANT     204    204       G -> D (in dbSNP:rs220462).
+FT                                /FTId=VAR_027405.
+FT   VARIANT     283    283       G -> S (in dbSNP:rs56224301).
+FT                                /FTId=VAR_040543.
+FT   VARIANT     301    301       Q -> L (in dbSNP:rs55649477).
+FT                                /FTId=VAR_040544.
+FT   VARIANT     328    328       I -> T (in dbSNP:rs220461).
+FT                                /FTId=VAR_027406.
+FT   VARIANT     378    378       V -> A (in dbSNP:rs3809806).
+FT                                /FTId=VAR_027407.
+FT   VARIANT     422    422       N -> D (in dbSNP:rs7223226).
+FT                                /FTId=VAR_027408.
+FT   VARIANT     706    706       M -> V (in dbSNP:rs56134695).
+FT                                /FTId=VAR_040545.
+FT   CONFLICT    273    273       R -> S (in Ref. 4; BAB71255).
+FT   CONFLICT    339    339       K -> E (in Ref. 5; AAH47457).
+FT   HELIX       475    478
+FT   HELIX       481    485
+FT   STRAND      498    503
+FT   STRAND      506    515
+FT   HELIX       529    544
+FT   STRAND      550    552
+FT   STRAND      561    565
+FT   HELIX       571    583
+FT   STRAND      599    606
+FT   HELIX       613    615
+FT   TURN        616    618
+FT   HELIX       622    643
+FT   STRAND      655    658
+FT   STRAND      663    668
+FT   STRAND      673    677
+FT   STRAND      682    685
+FT   STRAND      692    694
+FT   HELIX       709    711
+FT   HELIX       717    729
+FT   HELIX       739    754
+FT   HELIX       765    780
+FT   HELIX       781    783
+FT   STRAND      784    786
+FT   HELIX       787    793
+FT   HELIX       795    797
+SQ   SEQUENCE   798 AA;  88495 MW;  E0EDF8F0C58ADA31 CRC64;
+     MAASLPGPGS RLFRTYGAAD GRRQRRPGRE AAQWFPPQDR RRFFNSSGSS DASIGDPSQS
+     DDPDDPDDPD FPGSPVRRRR RRPGGRVPKD RPSLTVTPKR WKLRARPSLT VTPRRLGLRA
+     RPPQKCSTPC GPLRLPPFPS RDSGRLSPDL SVCGQPRDGD ELGISASLFS SLASPCPGSP
+     TPRDSVISIG TSACLVAASA VPSGLHLPEV SLDRASLPCS QEEATGGAKD TRMVHQTRAS
+     LRSVLFGLMN SGTPEDSEFR ADGKNMRESC CKRKLVVGNG PEGPGLSSTG KRRATGQDSC
+     QERGLQEAVR REHQEASVPK GRIVPRGIDR LERTRSSRKS KHQEATETSL LHSHRFKKGQ
+     KLGKDSFPTQ DLTPLQNVCF WTKTRASFSF HKKKIVTDVS EVCSIYTTAT SLSGSLLSEC
+     SNRPVMNRTS GAPSSWHSSS MYLLSPLNTL SISNKKASDA EKVYGECSQK GPVPFSHCLP
+     TEKLQRCEKI GEGVFGEVFQ TIADHTPVAI KIIAIEGPDL VNGSHQKTFE EILPEIIISK
+     ELSLLSGEVC NRTEGFIGLN SVHCVQGSYP PLLLKAWDHY NSTKGSANDR PDFFKDDQLF
+     IVLEFEFGGI DLEQMRTKLS SLATAKSILH QLTASLAVAE ASLRFEHRDL HWGNVLLKKT
+     SLKKLHYTLN GKSSTIPSCG LQVSIIDYTL SRLERDGIVV FCDVSMDEDL FTGDGDYQFD
+     IYRLMKKENN NRWGEYHPYS NVLWLHYLTD KMLKQMTFKT KCNTPAMKQI KRKIQEFHRT
+     MLNFSSATDL LCQHSLFK
+//

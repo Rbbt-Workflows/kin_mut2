@@ -1,0 +1,293 @@
+ID   MP2K5_HUMAN             Reviewed;         448 AA.
+AC   Q13163; Q92961; Q92962;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   28-NOV-2006, sequence version 2.
+DT   05-OCT-2010, entry version 109.
+DE   RecName: Full=Dual specificity mitogen-activated protein kinase kinase 5;
+DE            Short=MAP kinase kinase 5;
+DE            Short=MAPKK 5;
+DE            EC=2.7.12.2;
+DE   AltName: Full=MAPK/ERK kinase 5;
+DE            Short=MEK 5;
+GN   Name=MAP2K5; Synonyms=MEK5, MKK5, PRKMK5;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM A), FUNCTION, INTERACTION WITH
+RP   ERK5 AND MAPK7, MUTAGENESIS OF LYS-195; SER-311 AND THR-315, AND
+RP   PHOSPHORYLATION AT SER-311 AND THR-315.
+RC   TISSUE=Fetal brain;
+RX   MEDLINE=95279403; PubMed=7759517;
+RA   Zhou G., Bao Z.Q., Dixon J.E.;
+RT   "Components of a new human protein kinase signal transduction
+RT   pathway.";
+RL   J. Biol. Chem. 270:12665-12669(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS B AND C), AND FUNCTION.
+RC   TISSUE=Placenta;
+RX   PubMed=9384584; DOI=10.1093/emboj/16.23.7054;
+RA   Kato Y., Kravchenko V.V., Tapping R.I., Han J., Ulevitch R.J.,
+RA   Lee J.-D.;
+RT   "BMK1/ERK5 regulates serum-induced early gene expression through
+RT   transcription factor MEF2C.";
+RL   EMBO J. 16:7054-7066(1997).
+RN   [3]
+RP   SEQUENCE REVISION TO C-TERMINUS OF ISOFORM C.
+RA   Lee J.D.;
+RL   Submitted (MAY-2007) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM B).
+RA   Kalnine N., Chen X., Rolfs A., Halleck A., Hines L., Eisenstein S.,
+RA   Koundinya M., Raphael J., Moreira D., Kelley T., LaBaer J., Lin Y.,
+RA   Phelan M., Farmer A.;
+RT   "Cloning of human full-length CDSs in BD Creator(TM) system donor
+RT   vector.";
+RL   Submitted (MAY-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM B).
+RA   Halleck A., Ebert L., Mkoundinya M., Schick M., Eisenstein S.,
+RA   Neubert P., Kstrang K., Schatten R., Shen B., Henze S., Mar W.,
+RA   Korn B., Zuo D., Hu Y., LaBaer J.;
+RT   "Cloning of human full open reading frames in Gateway(TM) system entry
+RT   vector (pDONR201).";
+RL   Submitted (JUN-2004) to the EMBL/GenBank/DDBJ databases.
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM B).
+RC   TISSUE=Brain;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [7]
+RP   INTERACTION WITH YOPJ, AND ACETYLATION.
+RX   PubMed=16728640; DOI=10.1126/science.1126867;
+RA   Mukherjee S., Keitany G., Li Y., Wang Y., Ball H.L., Goldsmith E.J.,
+RA   Orth K.;
+RT   "Yersinia YopJ acetylates and inhibits kinase activation by blocking
+RT   phosphorylation.";
+RL   Science 312:1211-1214(2006).
+RN   [8]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-133, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [9]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-137; SER-148; SER-149;
+RP   SER-311; THR-315 AND TYR-316, AND MASS SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [10]
+RP   X-RAY CRYSTALLOGRAPHY (1.75 ANGSTROMS) OF 4-108 IN COMPLEX WITH
+RP   MAP3K2.
+RG   Structural genomics consortium (SGC);
+RT   "Crystal structure of the complex of human mitogen activated protein
+RT   kinase kinase 5 phox domain (MAP2K5-Phox) with human mitogen activated
+RT   protein kinase kinase kinase 3 (MAP3K2B-Phox).";
+RL   Submitted (NOV-2006) to the PDB data bank.
+RN   [11]
+RP   X-RAY CRYSTALLOGRAPHY (1.83 ANGSTROMS) OF 4-108 IN COMPLEX WITH
+RP   MAP3K3.
+RG   Structural genomics consortium (SGC);
+RT   "Crystal structure of the complex of human mitogen activated protein
+RT   kinase kinase 5 phox domain (MAP2K5-Phox) with human mitogen activated
+RT   protein kinase kinase kinase 3 (MAP3K3B-Phox).";
+RL   Submitted (NOV-2006) to the PDB data bank.
+RN   [12]
+RP   VARIANTS [LARGE SCALE ANALYSIS] ARG-118; VAL-427 AND THR-428.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Acts as a scaffold for the formation of a ternary
+CC       MAP3K2/MAP3K3-MAP3K5-MAPK7 signaling complex. Activation of this
+CC       pathway appear to play a critical role in protecting cells from
+CC       stress-induced apopotosis, neuronal survival and cardiac
+CC       development and angiogenesis.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- COFACTOR: Magnesium.
+CC   -!- SUBUNIT: Interacts with PARD6A, MAP3K3 and MAPK7. Forms a complex
+CC       with SQSTM1 and PRKCZ or PRKCI (By similarity). Interacts with
+CC       Yersinia yopJ.
+CC   -!- INTERACTION:
+CC       P62993:GRB2; NbExp=1; IntAct=EBI-307294, EBI-401755;
+CC       Q13164:MAPK7; NbExp=1; IntAct=EBI-307294, EBI-1213983;
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=3;
+CC       Name=B;
+CC         IsoId=Q13163-1; Sequence=Displayed;
+CC       Name=A;
+CC         IsoId=Q13163-2; Sequence=VSP_021825;
+CC       Name=C;
+CC         IsoId=Q13163-3; Sequence=VSP_021825, VSP_021826;
+CC         Note=Incomplete sequence;
+CC   -!- TISSUE SPECIFICITY: Expressed in many adult tissues. Abundant in
+CC       heart and skeletal muscle.
+CC   -!- DOMAIN: Binds MAP3K2/MAP3K3 and MAPK7 via non-overlapping residues
+CC       of the OPR domain. This domain also mediates interactions with
+CC       SQSTM1 and PARD6A (By similarity).
+CC   -!- PTM: Activated by phosphorylation on Ser/Thr by MAP kinase kinase
+CC       kinases (By similarity).
+CC   -!- PTM: Yersinia yopJ may acetylate Ser/Thr residues, preventing
+CC       phosphorylation and activation, thus blocking the MAPK signaling
+CC       pathway.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. STE Ser/Thr
+CC       protein kinase family. MAP kinase kinase subfamily.
+CC   -!- SIMILARITY: Contains 1 OPR domain.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U25265; AAA96146.1; -; mRNA.
+DR   EMBL; U71087; AAB16851.1; -; mRNA.
+DR   EMBL; U71088; AAB16852.2; -; mRNA.
+DR   EMBL; BT006780; AAP35426.1; -; mRNA.
+DR   EMBL; CR542229; CAG47025.1; -; mRNA.
+DR   EMBL; BC008838; AAH08838.1; -; mRNA.
+DR   IPI; IPI00158248; -.
+DR   IPI; IPI00185860; -.
+DR   IPI; IPI00219607; -.
+DR   RefSeq; NP_002748.1; -.
+DR   RefSeq; NP_660143.1; -.
+DR   UniGene; Hs.114198; -.
+DR   PDB; 2NPT; X-ray; 1.75 A; A/C=5-108.
+DR   PDB; 2O2V; X-ray; 1.83 A; A=5-108.
+DR   PDBsum; 2NPT; -.
+DR   PDBsum; 2O2V; -.
+DR   ProteinModelPortal; Q13163; -.
+DR   SMR; Q13163; 159-439.
+DR   DIP; DIP-27558N; -.
+DR   IntAct; Q13163; 7.
+DR   MINT; MINT-1155433; -.
+DR   STRING; Q13163; -.
+DR   PhosphoSite; Q13163; -.
+DR   PRIDE; Q13163; -.
+DR   Ensembl; ENST00000178640; ENSP00000178640; ENSG00000137764.
+DR   GeneID; 5607; -.
+DR   KEGG; hsa:5607; -.
+DR   UCSC; uc002aqu.1; human.
+DR   UCSC; uc002aqv.1; human.
+DR   CTD; 5607; -.
+DR   GeneCards; GC15P067835; -.
+DR   H-InvDB; HIX0012373; -.
+DR   HGNC; HGNC:6845; MAP2K5.
+DR   HPA; CAB022094; -.
+DR   HPA; HPA027347; -.
+DR   HPA; HPA027755; -.
+DR   MIM; 602520; gene.
+DR   PharmGKB; PA30590; -.
+DR   eggNOG; prNOG04411; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG108518; -.
+DR   InParanoid; Q13163; -.
+DR   OMA; HAMENQV; -.
+DR   OrthoDB; EOG9TB6WM; -.
+DR   PhylomeDB; Q13163; -.
+DR   BRENDA; 2.7.12.2; 247.
+DR   Pathway_Interaction_DB; mapktrkpathway; Trk receptor signaling mediated by the MAPK pathway.
+DR   Reactome; REACT_11061; Signalling by NGF.
+DR   NextBio; 21792; -.
+DR   ArrayExpress; Q13163; -.
+DR   Bgee; Q13163; -.
+DR   CleanEx; HS_MAP2K5; -.
+DR   Genevestigator; Q13163; -.
+DR   GermOnline; ENSG00000137764; Homo sapiens.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005515; F:protein binding; IPI:IntAct.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0004713; F:protein tyrosine kinase activity; IEA:UniProtKB-KW.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000270; OPR_PB1.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00564; PB1; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00666; PB1; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Alternative splicing; ATP-binding;
+KW   Complete proteome; Kinase; Magnesium; Metal-binding;
+KW   Nucleotide-binding; Phosphoprotein; Polymorphism;
+KW   Serine/threonine-protein kinase; Transferase; Tyrosine-protein kinase.
+FT   CHAIN         1    448       Dual specificity mitogen-activated
+FT                                protein kinase kinase 5.
+FT                                /FTId=PRO_0000086383.
+FT   DOMAIN       18     97       OPR.
+FT   DOMAIN      166    409       Protein kinase.
+FT   NP_BIND     172    180       ATP (By similarity).
+FT   REGION       18     25       Interaction with MAPK7 (By similarity).
+FT   REGION       64     68       Interaction with MAP3K2/MAP3K3 (By
+FT                                similarity).
+FT   REGION      117    131       Interaction with MAPK7 (By similarity).
+FT   ACT_SITE    283    283       Proton acceptor (By similarity).
+FT   BINDING     195    195       ATP.
+FT   MOD_RES     133    133       Phosphoserine.
+FT   MOD_RES     137    137       Phosphoserine.
+FT   MOD_RES     148    148       Phosphoserine.
+FT   MOD_RES     149    149       Phosphoserine.
+FT   MOD_RES     311    311       Phosphoserine.
+FT   MOD_RES     315    315       Phosphothreonine.
+FT   MOD_RES     316    316       Phosphotyrosine.
+FT   VAR_SEQ     349    358       Missing (in isoform A and isoform C).
+FT                                /FTId=VSP_021825.
+FT   VAR_SEQ     444    448       QQGPP -> LASLPSPSPSV (in isoform C).
+FT                                /FTId=VSP_021826.
+FT   VARIANT     118    118       H -> R (in dbSNP:rs56241934).
+FT                                /FTId=VAR_040823.
+FT   VARIANT     427    427       A -> V.
+FT                                /FTId=VAR_040824.
+FT   VARIANT     428    428       A -> T (in dbSNP:rs55811347).
+FT                                /FTId=VAR_046070.
+FT   MUTAGEN     195    195       K->M: Inactivation.
+FT   MUTAGEN     311    311       S->A: Inactivation.
+FT   MUTAGEN     315    315       T->A: Inactivation.
+FT   STRAND       17     23
+FT   TURN         24     26
+FT   STRAND       27     33
+FT   HELIX        41     51
+FT   STRAND       58     63
+FT   STRAND       69     72
+FT   HELIX        75     93
+FT   TURN         94     96
+FT   STRAND      102    107
+SQ   SEQUENCE   448 AA;  50112 MW;  F23BB327E2A9C7DC CRC64;
+     MLWLALGPFP AMENQVLVIR IKIPNSGAVD WTVHSGPQLL FRDVLDVIGQ VLPEATTTAF
+     EYEDEDGDRI TVRSDEEMKA MLSYYYSTVM EQQVNGQLIE PLQIFPRACK PPGERNIHGL
+     KVNTRAGPSQ HSSPAVSDSL PSNSLKKSSA ELKKILANGQ MNEQDIRYRD TLGHGNGGTV
+     YKAYHVPSGK ILAVKVILLD ITLELQKQIM SELEILYKCD SSYIIGFYGA FFVENRISIC
+     TEFMDGGSLD VYRKMPEHVL GRIAVAVVKG LTYLWSLKIL HRDVKPSNML VNTRGQVKLC
+     DFGVSTQLVN SIAKTYVGTN AYMAPERISG EQYGIHSDVW SLGISFMELA LGRFPYPQIQ
+     KNQGSLMPLQ LLQCIVDEDS PVLPVGEFSE PFVHFITQCM RKQPKERPAP EELMGHPFIV
+     QFNDGNAAVV SMWVCRALEE RRSQQGPP
+//

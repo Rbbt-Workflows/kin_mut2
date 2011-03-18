@@ -1,0 +1,238 @@
+ID   AURKC_HUMAN             Reviewed;         309 AA.
+AC   Q9UQB9; O60681; O75442; Q6AZY8; Q9UPK5;
+DT   17-JAN-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   05-OCT-2010, entry version 96.
+DE   RecName: Full=Serine/threonine-protein kinase 13;
+DE            EC=2.7.11.1;
+DE   AltName: Full=Aurora kinase C;
+DE   AltName: Full=Aurora/IPL1-related kinase 3;
+DE            Short=ARK-3;
+DE            Short=Aurora-related kinase 3;
+DE   AltName: Full=Aurora/IPL1/Eg2 protein 2;
+DE   AltName: Full=Serine/threonine-protein kinase aurora-C;
+GN   Name=AURKC; Synonyms=AIE2, AIK3, ARK3, STK13;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RC   TISSUE=Testis;
+RX   MEDLINE=99025616; PubMed=9809744;
+RA   Tseng T.-C., Chen S.-H., Hsu Y.-P.P., Tang T.K.;
+RT   "Protein kinase profile of sperm and eggs: cloning and
+RT   characterization of two novel testis-specific protein kinases (AIE1,
+RT   AIE2) related to yeast and fly chromosome segregation regulators.";
+RL   DNA Cell Biol. 17:823-833(1998).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2).
+RC   TISSUE=Placenta;
+RX   MEDLINE=99017981; PubMed=9799611; DOI=10.1006/geno.1998.5522;
+RA   Bernard M., Sanseau P., Henry C., Couturier A., Prigent C.;
+RT   "Cloning of STK13, a third human protein kinase related to Drosophila
+RT   aurora and budding yeast Ipl1 that maps on chromosome 19q13.3-ter.";
+RL   Genomics 53:406-409(1998).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RC   TISSUE=Testis;
+RX   MEDLINE=99167501; PubMed=10066797; DOI=10.1074/jbc.274.11.7334;
+RA   Kimura M., Matsuda Y., Yoshioka T., Okano Y.;
+RT   "Cell cycle-dependent expression and centrosome localization of a
+RT   third human Aurora/Ipl1-related protein kinase, AIK3.";
+RL   J. Biol. Chem. 274:7334-7340(1999).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=15057824; DOI=10.1038/nature02399;
+RA   Grimwood J., Gordon L.A., Olsen A.S., Terry A., Schmutz J.,
+RA   Lamerdin J.E., Hellsten U., Goodstein D., Couronne O., Tran-Gyamfi M.,
+RA   Aerts A., Altherr M., Ashworth L., Bajorek E., Black S., Branscomb E.,
+RA   Caenepeel S., Carrano A.V., Caoile C., Chan Y.M., Christensen M.,
+RA   Cleland C.A., Copeland A., Dalin E., Dehal P., Denys M., Detter J.C.,
+RA   Escobar J., Flowers D., Fotopulos D., Garcia C., Georgescu A.M.,
+RA   Glavina T., Gomez M., Gonzales E., Groza M., Hammon N., Hawkins T.,
+RA   Haydu L., Ho I., Huang W., Israni S., Jett J., Kadner K., Kimball H.,
+RA   Kobayashi A., Larionov V., Leem S.-H., Lopez F., Lou Y., Lowry S.,
+RA   Malfatti S., Martinez D., McCready P.M., Medina C., Morgan J.,
+RA   Nelson K., Nolan M., Ovcharenko I., Pitluck S., Pollard M.,
+RA   Popkie A.P., Predki P., Quan G., Ramirez L., Rash S., Retterer J.,
+RA   Rodriguez A., Rogers S., Salamov A., Salazar A., She X., Smith D.,
+RA   Slezak T., Solovyev V., Thayer N., Tice H., Tsai M., Ustaszewska A.,
+RA   Vo N., Wagner M., Wheeler J., Wu K., Xie G., Yang J., Dubchak I.,
+RA   Furey T.S., DeJong P., Dickson M., Gordon D., Eichler E.E.,
+RA   Pennacchio L.A., Richardson P., Stubbs L., Rokhsar D.S., Myers R.M.,
+RA   Rubin E.M., Lucas S.M.;
+RT   "The DNA sequence and biology of human chromosome 19.";
+RL   Nature 428:529-535(2004).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2).
+RC   TISSUE=Brain;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [7]
+RP   INVOLVEMENT IN MALE INFERTILITY.
+RX   PubMed=17435757; DOI=10.1038/ng2027;
+RA   Dieterich K., Soto Rifo R., Faure A.K., Hennebicq S., Ben Amar B.,
+RA   Zahi M., Perrin J., Martinez D., Sele B., Jouk P.-S., Ohlmann T.,
+RA   Rousseaux S., Lunardi J., Ray P.F.;
+RT   "Homozygous mutation of AURKC yields large-headed polyploid
+RT   spermatozoa and causes male infertility.";
+RL   Nat. Genet. 39:661-665(2007).
+RN   [8]
+RP   VARIANTS [LARGE SCALE ANALYSIS] GLU-52; GLN-148 AND GLN-244.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: May play a part in organizing microtubules in relation
+CC       to the function of the centrosome/spindle pole during mitosis.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytoskeleton, centrosome.
+CC       Note=Localized to centrosome from anaphase to cytokinesis.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q9UQB9-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q9UQB9-2; Sequence=VSP_004872;
+CC   -!- TISSUE SPECIFICITY: Expression is limited to testis. Elevated
+CC       expression levels were seen only in a subset of cancer cells such
+CC       as HepG2, HuH7 and HeLa cells. Expression is maximum at M phase.
+CC   -!- DISEASE: Defects in AURKC are the cause of male infertility with
+CC       large-headed, multiflagellar, polyploid spermatozoa [MIM:243060];
+CC       also known as infertility associated with multi-tailed spermatozoa
+CC       and excessive DNA.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Ser/Thr
+CC       protein kinase family. Aurora subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF054621; AAC25955.1; -; mRNA.
+DR   EMBL; AF059681; AAC77369.1; -; mRNA.
+DR   EMBL; AB017332; BAA76292.1; -; mRNA.
+DR   EMBL; AC005261; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; CH471135; EAW72485.1; -; Genomic_DNA.
+DR   EMBL; BC075064; AAH75064.2; -; mRNA.
+DR   IPI; IPI00099756; -.
+DR   IPI; IPI00332343; -.
+DR   RefSeq; NP_001015878.1; -.
+DR   RefSeq; NP_001015879.1; -.
+DR   RefSeq; NP_003151.2; -.
+DR   UniGene; Hs.98338; -.
+DR   ProteinModelPortal; Q9UQB9; -.
+DR   SMR; Q9UQB9; 36-303.
+DR   STRING; Q9UQB9; -.
+DR   PhosphoSite; Q9UQB9; -.
+DR   PRIDE; Q9UQB9; -.
+DR   Ensembl; ENST00000302804; ENSP00000302898; ENSG00000105146.
+DR   GeneID; 6795; -.
+DR   KEGG; hsa:6795; -.
+DR   UCSC; uc002qoc.1; human.
+DR   UCSC; uc002qoe.1; human.
+DR   CTD; 6795; -.
+DR   GeneCards; GC19P057743; -.
+DR   HGNC; HGNC:11391; AURKC.
+DR   MIM; 243060; phenotype.
+DR   MIM; 603495; gene.
+DR   Orphanet; 137893; Male infertility associated with large-headed multiflagellar polyploid spermatozoa.
+DR   PharmGKB; PA36200; -.
+DR   eggNOG; prNOG15220; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG108519; -.
+DR   InParanoid; Q9UQB9; -.
+DR   OMA; QPSSPAM; -.
+DR   PhylomeDB; Q9UQB9; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   Pathway_Interaction_DB; aurora_b_pathway; Aurora B signaling.
+DR   Pathway_Interaction_DB; aurora_c_pathway; Aurora C signaling.
+DR   Pathway_Interaction_DB; aurora_kinase_pathway; Signaling by Aurora kinases.
+DR   BindingDB; Q9UQB9; -.
+DR   NextBio; 26545; -.
+DR   ArrayExpress; Q9UQB9; -.
+DR   Bgee; Q9UQB9; -.
+DR   CleanEx; HS_AURKC; -.
+DR   Genevestigator; Q9UQB9; -.
+DR   GermOnline; ENSG00000105146; Homo sapiens.
+DR   GO; GO:0005813; C:centrosome; TAS:ProtInc.
+DR   GO; GO:0005634; C:nucleus; TAS:ProtInc.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0007049; P:cell cycle; IEA:UniProtKB-KW.
+DR   GO; GO:0000910; P:cytokinesis; TAS:ProtInc.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; TAS:ProtInc.
+DR   InterPro; IPR020636; Ca/CaM-dep_prot_kinase-like.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   InterPro; IPR020663; Spindle_assmbl_checkpoint_kin.
+DR   PANTHER; PTHR22982; Ca/CaM-dep_prot_kinase-like; 1.
+DR   PANTHER; PTHR22982:SF49; Spindle_assmbl_checkpoint_kin; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; ATP-binding; Cell cycle; Complete proteome;
+KW   Cytoplasm; Cytoskeleton; Kinase; Nucleotide-binding; Polymorphism;
+KW   Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    309       Serine/threonine-protein kinase 13.
+FT                                /FTId=PRO_0000085660.
+FT   DOMAIN       43    293       Protein kinase.
+FT   NP_BIND      49     57       ATP (By similarity).
+FT   ACT_SITE    166    166       Proton acceptor (By similarity).
+FT   BINDING      72     72       ATP (By similarity).
+FT   VAR_SEQ       1     34       Missing (in isoform 2).
+FT                                /FTId=VSP_004872.
+FT   VARIANT      52     52       G -> E (in a lung adenocarcinoma sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_040385.
+FT   VARIANT     148    148       E -> Q (in a lung squamous cell carcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_040386.
+FT   VARIANT     244    244       H -> Q (in a lung adenocarcinoma sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_040387.
+FT   CONFLICT    109    109       Y -> H (in Ref. 1; AAC25955).
+FT   CONFLICT    150    150       L -> V (in Ref. 2; AAC77369).
+FT   CONFLICT    193    195       SLR -> LPE (in Ref. 2; AAC77369).
+SQ   SEQUENCE   309 AA;  35591 MW;  41B7DFCA91704201 CRC64;
+     MSSPRAVVQL GKAQPAGEEL ATANQTAQQP SSPAMRRLTV DDFEIGRPLG KGKFGNVYLA
+     RLKESHFIVA LKVLFKSQIE KEGLEHQLRR EIEIQAHLQH PNILRLYNYF HDARRVYLIL
+     EYAPRGELYK ELQKSEKLDE QRTATIIEEL ADALTYCHDK KVIHRDIKPE NLLLGFRGEV
+     KIADFGWSVH TPSLRRKTMC GTLDYLPPEM IEGRTYDEKV DLWCIGVLCY ELLVGYPPFE
+     SASHSETYRR ILKVDVRFPL SMPLGARDLI SRLLRYQPLE RLPLAQILKH PWVQAHSRRV
+     LPPCAQMAS
+//

@@ -1,0 +1,355 @@
+ID   IRAK4_HUMAN             Reviewed;         460 AA.
+AC   Q9NWZ3; Q8TDF7; Q9Y589;
+DT   19-JUL-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   02-NOV-2010, entry version 96.
+DE   RecName: Full=Interleukin-1 receptor-associated kinase 4;
+DE            Short=IRAK-4;
+DE            EC=2.7.11.1;
+DE   AltName: Full=Renal carcinoma antigen NY-REN-64;
+GN   Name=IRAK4;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, AND INTERACTION WITH IRAK1 AND
+RP   TRAF6.
+RX   MEDLINE=21957277; PubMed=11960013; DOI=10.1073/pnas.082100399;
+RA   Li S., Strelow A., Fontana E.J., Wesche H.;
+RT   "IRAK4: a novel member of the IRAK family with the properties of an
+RT   IRAK-kinase.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:5567-5572(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND IDENTIFICATION AS A RENAL CANCER
+RP   ANTIGEN.
+RX   MEDLINE=99438124; PubMed=10508479;
+RX   DOI=10.1002/(SICI)1097-0215(19991112)83:4<456::AID-IJC4>3.0.CO;2-5;
+RA   Scanlan M.J., Gordan J.D., Williamson B., Stockert E., Bander N.H.,
+RA   Jongeneel C.V., Gure A.O., Jaeger D., Jaeger E., Knuth A., Chen Y.-T.,
+RA   Old L.J.;
+RT   "Antigens recognized by autologous antibody in patients with renal-
+RT   cell carcinoma.";
+RL   Int. J. Cancer 83:456-464(1999).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RX   PubMed=14702039; DOI=10.1038/ng1285;
+RA   Ota T., Suzuki Y., Nishikawa T., Otsuki T., Sugiyama T., Irie R.,
+RA   Wakamatsu A., Hayashi K., Sato H., Nagai K., Kimura K., Makita H.,
+RA   Sekine M., Obayashi M., Nishi T., Shibahara T., Tanaka T., Ishii S.,
+RA   Yamamoto J., Saito K., Kawai Y., Isono Y., Nakamura Y., Nagahari K.,
+RA   Murakami K., Yasuda T., Iwayanagi T., Wagatsuma M., Shiratori A.,
+RA   Sudo H., Hosoiri T., Kaku Y., Kodaira H., Kondo H., Sugawara M.,
+RA   Takahashi M., Kanda K., Yokoi T., Furuya T., Kikkawa E., Omura Y.,
+RA   Abe K., Kamihara K., Katsuta N., Sato K., Tanikawa M., Yamazaki M.,
+RA   Ninomiya K., Ishibashi T., Yamashita H., Murakawa K., Fujimori K.,
+RA   Tanai H., Kimata M., Watanabe M., Hiraoka S., Chiba Y., Ishida S.,
+RA   Ono Y., Takiguchi S., Watanabe S., Yosida M., Hotuta T., Kusano J.,
+RA   Kanehori K., Takahashi-Fujii A., Hara H., Tanase T.-O., Nomura Y.,
+RA   Togiya S., Komai F., Hara R., Takeuchi K., Arita M., Imose N.,
+RA   Musashino K., Yuuki H., Oshima A., Sasaki N., Aotsuka S.,
+RA   Yoshikawa Y., Matsunawa H., Ichihara T., Shiohata N., Sano S.,
+RA   Moriya S., Momiyama H., Satoh N., Takami S., Terashima Y., Suzuki O.,
+RA   Nakagawa S., Senoh A., Mizoguchi H., Goto Y., Shimizu F., Wakebe H.,
+RA   Hishigaki H., Watanabe T., Sugiyama A., Takemoto M., Kawakami B.,
+RA   Yamazaki M., Watanabe K., Kumagai A., Itakura S., Fukuzumi Y.,
+RA   Fujimori Y., Komiyama M., Tashiro H., Tanigami A., Fujiwara T.,
+RA   Ono T., Yamada K., Fujii Y., Ozaki K., Hirao M., Ohmori Y.,
+RA   Kawabata A., Hikiji T., Kobatake N., Inagaki H., Ikema Y., Okamoto S.,
+RA   Okitani R., Kawakami T., Noguchi S., Itoh T., Shigeta K., Senba T.,
+RA   Matsumura K., Nakajima Y., Mizuno T., Morinaga M., Sasaki M.,
+RA   Togashi T., Oyama M., Hata H., Watanabe M., Komatsu T.,
+RA   Mizushima-Sugano J., Satoh T., Shirai Y., Takahashi Y., Nakagawa K.,
+RA   Okumura K., Nagase T., Nomura N., Kikuchi H., Masuho Y., Yamashita R.,
+RA   Nakai K., Yada T., Nakamura Y., Ohara O., Isogai T., Sugano S.;
+RT   "Complete sequencing and characterization of 21,243 full-length human
+RT   cDNAs.";
+RL   Nat. Genet. 36:40-45(2004).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND VARIANTS ARG-98; ARG-390 AND
+RP   THR-428.
+RG   SeattleSNPs variation discovery resource;
+RL   Submitted (NOV-2002) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Brain;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [6]
+RP   INVOLVEMENT IN IRAK4 DEFICIENCY.
+RX   PubMed=12925671; DOI=10.1084/jem.20030701;
+RA   Medvedev A.E., Lentschat A., Kuhns D.B., Blanco J.C.G., Salkowski C.,
+RA   Zhang S., Arditi M., Gallin J.I., Vogel S.N.;
+RT   "Distinct mutations in IRAK-4 confer hyporesponsiveness to
+RT   lipopolysaccharide and interleukin-1 in a patient with recurrent
+RT   bacterial infections.";
+RL   J. Exp. Med. 198:521-531(2003).
+RN   [7]
+RP   FUNCTION, AND MUTAGENESIS OF LYS-213.
+RX   PubMed=15084582; DOI=10.1074/jbc.M400785200;
+RA   Qin J., Jiang Z., Qian Y., Casanova J.-L., Li X.;
+RT   "IRAK4 kinase activity is redundant for interleukin-1 (IL-1) receptor-
+RT   associated kinase phosphorylation and IL-1 responsiveness.";
+RL   J. Biol. Chem. 279:26748-26753(2004).
+RN   [8]
+RP   INVOLVEMENT IN IRAK4 DEFICIENCY.
+RX   PubMed=12637671; DOI=10.1126/science.1081902;
+RA   Picard C., Puel A., Bonnet M., Ku C.-L., Bustamante J., Yang K.,
+RA   Soudais C., Dupuis S., Feinberg J., Fieschi C., Elbim C.,
+RA   Hitchcock R., Lammas D., Davies G., Al-Ghonaium A., Al-Rayes H.,
+RA   Al-Jumaah S., Al-Hajjar S., Al-Mohsen I.Z., Frayha H.H., Rucker R.,
+RA   Hawn T.R., Aderem A., Tufenkeji H., Haraguchi S., Day N.K., Good R.A.,
+RA   Gougerot-Pocidalo M.-A., Ozinsky A., Casanova J.-L.;
+RT   "Pyogenic bacterial infections in humans with IRAK-4 deficiency.";
+RL   Science 299:2076-2079(2003).
+RN   [9]
+RP   INTERACTION WITH IL1RL1.
+RX   PubMed=16286016; DOI=10.1016/j.immuni.2005.09.015;
+RA   Schmitz J., Owyang A., Oldham E., Song Y., Murphy E., McClanahan T.K.,
+RA   Zurawski G., Moshrefi M., Qin J., Li X., Gorman D.M., Bazan J.F.,
+RA   Kastelein R.A.;
+RT   "IL-33, an interleukin-1-like cytokine that signals via the IL-1
+RT   receptor-related protein ST 2 and induces T helper type 2-associated
+RT   cytokines.";
+RL   Immunity 23:479-490(2005).
+RN   [10]
+RP   INVOLVEMENT IN IPD1.
+RX   PubMed=16950813; DOI=10.1136/jmg.2006.044446;
+RA   Ku C.-L., Picard C., Erdos M., Jeurissen A., Bustamante J., Puel A.,
+RA   von Bernuth H., Filipe-Santos O., Chang H.-H., Lawrence T., Raes M.,
+RA   Marodi L., Bossuyt X., Casanova J.-L.;
+RT   "IRAK4 and NEMO mutations in otherwise healthy children with recurrent
+RT   invasive pneumococcal disease.";
+RL   J. Med. Genet. 44:16-23(2007).
+RN   [11]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-152, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [12]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RA   Colinge J., Superti-Furga G., Bennett K.L.;
+RL   Submitted (OCT-2008) to UniProtKB.
+RN   [13]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT LYS-3 AND LYS-34, AND MASS
+RP   SPECTROMETRY.
+RX   PubMed=19608861; DOI=10.1126/science.1175371;
+RA   Choudhary C., Kumar C., Gnad F., Nielsen M.L., Rehman M., Walther T.,
+RA   Olsen J.V., Mann M.;
+RT   "Lysine acetylation targets protein complexes and co-regulates major
+RT   cellular functions.";
+RL   Science 325:834-840(2009).
+RN   [14]
+RP   VARIANTS [LARGE SCALE ANALYSIS] VAL-5; VAL-355; HIS-391 AND THR-428.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Required for the efficient recruitment of IRAK1 to the
+CC       IL-1 receptor complex following IL-1 engagement, triggering
+CC       intracellular signaling cascades leading to transcriptional up-
+CC       regulation and mRNA stabilization. Phosphorylates IRAK1.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- COFACTOR: Magnesium.
+CC   -!- SUBUNIT: IL-1 stimulation leads to the formation of a signaling
+CC       complex which dissociates from the IL-1 receptor following the
+CC       binding of PELI1. Interacts with IL1RL1.
+CC   -!- INTERACTION:
+CC       Q01638:IL1RL1; NbExp=1; IntAct=EBI-448378, EBI-993762;
+CC       Q9HAT8:PELI2; NbExp=2; IntAct=EBI-448378, EBI-448407;
+CC   -!- DISEASE: Defects in IRAK4 are the cause of recurrent isolated
+CC       invasive pneumococcal disease type 1 (IPD1) [MIM:610799].
+CC       Recurrent invasive pneumococcal disease (IPD) is defined as two
+CC       episodes of IPD occurring at least 1 month apart, whether caused
+CC       by the same or different serotypes or strains. Recurrent IPD
+CC       occurs in at least 2% of patients in most series, making IPD the
+CC       most important known risk factor for subsequent IPD.
+CC   -!- DISEASE: Defects in IRAK4 are the cause of IRAK4 deficiency
+CC       [MIM:607676]. IRAK4 deficiency causes extracellular pyogenic
+CC       bacterial and fungal infections in otherwise healthy children.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. TKL Ser/Thr
+CC       protein kinase family. Pelle subfamily.
+CC   -!- SIMILARITY: Contains 1 death domain.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- WEB RESOURCE: Name=IRAK4base; Note=IRAK4 mutation db;
+CC       URL="http://bioinf.uta.fi/IRAK4base/";
+CC   -!- WEB RESOURCE: Name=SeattleSNPs;
+CC       URL="http://pga.gs.washington.edu/data/irak4/";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF445802; AAM15772.1; -; mRNA.
+DR   EMBL; AF155118; AAD42884.1; -; mRNA.
+DR   EMBL; AK000528; BAA91232.1; -; mRNA.
+DR   EMBL; AY186092; AAN75440.1; -; Genomic_DNA.
+DR   EMBL; BC013316; AAH13316.1; -; mRNA.
+DR   IPI; IPI00007641; -.
+DR   RefSeq; NP_001107654.1; -.
+DR   RefSeq; NP_057207.2; -.
+DR   UniGene; Hs.138499; -.
+DR   PDB; 2NRU; X-ray; 2.00 A; A/B/C/D=154-460.
+DR   PDB; 2NRY; X-ray; 2.15 A; A/B/C/D=154-460.
+DR   PDB; 2O8Y; X-ray; 2.40 A; A/B=163-460.
+DR   PDB; 2OIB; X-ray; 2.00 A; A/B/C/D=160-460.
+DR   PDB; 2OIC; X-ray; 2.40 A; A/B/C/D=160-460.
+DR   PDB; 2OID; X-ray; 2.30 A; A/B/C/D=160-460.
+DR   PDB; 3MOP; X-ray; 3.40 A; G/H/I/J=4-106.
+DR   PDBsum; 2NRU; -.
+DR   PDBsum; 2NRY; -.
+DR   PDBsum; 2O8Y; -.
+DR   PDBsum; 2OIB; -.
+DR   PDBsum; 2OIC; -.
+DR   PDBsum; 2OID; -.
+DR   PDBsum; 3MOP; -.
+DR   ProteinModelPortal; Q9NWZ3; -.
+DR   SMR; Q9NWZ3; 1-113.
+DR   DIP; DIP-31351N; -.
+DR   IntAct; Q9NWZ3; 9.
+DR   MINT; MINT-1383671; -.
+DR   STRING; Q9NWZ3; -.
+DR   PRIDE; Q9NWZ3; -.
+DR   Ensembl; ENST00000356669; ENSP00000349096; ENSG00000198001.
+DR   Ensembl; ENST00000448290; ENSP00000390651; ENSG00000198001.
+DR   GeneID; 51135; -.
+DR   KEGG; hsa:51135; -.
+DR   UCSC; uc001rnt.2; human.
+DR   CTD; 51135; -.
+DR   GeneCards; GC12P044152; -.
+DR   H-InvDB; HIX0021737; -.
+DR   HGNC; HGNC:17967; IRAK4.
+DR   HPA; CAB016685; -.
+DR   HPA; CAB022077; -.
+DR   HPA; HPA000924; -.
+DR   MIM; 606883; gene.
+DR   MIM; 607676; phenotype.
+DR   MIM; 610799; phenotype.
+DR   Orphanet; 70592; Immunodeficiency due to interleukin-1 receptor-associated kinase-4 deficiency.
+DR   PharmGKB; PA134914577; -.
+DR   HOGENOM; HBG713523; -.
+DR   HOVERGEN; HBG066836; -.
+DR   InParanoid; Q9NWZ3; -.
+DR   OMA; MRCKIAQ; -.
+DR   OrthoDB; EOG9DZ4FM; -.
+DR   PhylomeDB; Q9NWZ3; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   Pathway_Interaction_DB; il1pathway; IL1-mediated signaling events.
+DR   Reactome; REACT_6900; Signaling in Immune system.
+DR   NextBio; 53983; -.
+DR   ArrayExpress; Q9NWZ3; -.
+DR   Bgee; Q9NWZ3; -.
+DR   CleanEx; HS_IRAK4; -.
+DR   Genevestigator; Q9NWZ3; -.
+DR   GermOnline; ENSG00000198001; Homo sapiens.
+DR   GO; GO:0005829; C:cytosol; EXP:Reactome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:InterPro.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0007249; P:I-kappaB kinase/NF-kappaB cascade; EXP:Reactome.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   InterPro; IPR011029; DEATH-like.
+DR   InterPro; IPR017428; Interleukin-1_rcpt-assoc_kin4.
+DR   InterPro; IPR015787; Interleukin1_rcpt-assoc_kin4_C.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   Gene3D; G3DSA:1.10.533.10; DEATH_like; 1.
+DR   PANTHER; PTHR23258:SF428; IRAK4; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   PIRSF; PIRSF038189; IRAK4; 1.
+DR   SUPFAM; SSF47986; DEATH_like; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS50017; DEATH_DOMAIN; FALSE_NEG.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; FALSE_NEG.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; FALSE_NEG.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; ATP-binding; Complete proteome; Kinase;
+KW   Magnesium; Nucleotide-binding; Phosphoprotein; Polymorphism;
+KW   Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    460       Interleukin-1 receptor-associated kinase
+FT                                4.
+FT                                /FTId=PRO_0000086035.
+FT   DOMAIN       20    104       Death.
+FT   DOMAIN      186    454       Protein kinase.
+FT   NP_BIND     192    200       ATP (By similarity).
+FT   ACT_SITE    311    311       Proton acceptor (By similarity).
+FT   BINDING     213    213       ATP.
+FT   MOD_RES       3      3       N6-acetyllysine.
+FT   MOD_RES      34     34       N6-acetyllysine.
+FT   MOD_RES     152    152       Phosphoserine.
+FT   VARIANT       5      5       I -> V (in dbSNP:rs56312115).
+FT                                /FTId=VAR_040588.
+FT   VARIANT      98     98       S -> R (in dbSNP:rs4251469).
+FT                                /FTId=VAR_019354.
+FT   VARIANT     355    355       M -> V.
+FT                                /FTId=VAR_040589.
+FT   VARIANT     390    390       H -> R (in dbSNP:rs4251583).
+FT                                /FTId=VAR_019355.
+FT   VARIANT     391    391       R -> H (in dbSNP:rs55944915).
+FT                                /FTId=VAR_040590.
+FT   VARIANT     428    428       A -> T (in dbSNP:rs4251545).
+FT                                /FTId=VAR_019356.
+FT   MUTAGEN     213    213       K->A: Loss of kinase activity.
+FT   CONFLICT     81     81       V -> A (in Ref. 1; AAM15772).
+FT   CONFLICT    432    432       V -> G (in Ref. 2; AAD42884).
+FT   CONFLICT    437    437       L -> R (in Ref. 2; AAD42884).
+FT   CONFLICT    444    444       R -> S (in Ref. 2; AAD42884).
+FT   CONFLICT    451    451       Q -> H (in Ref. 2; AAD42884).
+FT   HELIX       170    176
+FT   TURN        177    180
+FT   HELIX       185    187
+FT   STRAND      190    193
+FT   STRAND      200    205
+FT   STRAND      208    214
+FT   HELIX       227    236
+FT   HELIX       237    239
+FT   STRAND      248    252
+FT   STRAND      254    257
+FT   STRAND      259    263
+FT   HELIX       270    274
+FT   HELIX       277    279
+FT   HELIX       285    304
+FT   HELIX       314    316
+FT   STRAND      317    319
+FT   STRAND      325    327
+FT   HELIX       352    354
+FT   HELIX       357    360
+FT   HELIX       366    382
+FT   STRAND      389    395
+FT   HELIX       396    398
+FT   HELIX       399    404
+FT   HELIX       410    413
+FT   HELIX       423    436
+FT   HELIX       441    443
+FT   HELIX       447    458
+SQ   SEQUENCE   460 AA;  51530 MW;  6C8156ADF25FF81E CRC64;
+     MNKPITPSTY VRCLNVGLIR KLSDFIDPQE GWKKLAVAIK KPSGDDRYNQ FHIRRFEALL
+     QTGKSPTSEL LFDWGTTNCT VGDLVDLLIQ NEFFAPASLL LPDAVPKTAN TLPSKEAITV
+     QQKQMPFCDK DRTLMTPVQN LEQSYMPPDS SSPENKSLEV SDTRFHSFSF YELKNVTNNF
+     DERPISVGGN KMGEGGFGVV YKGYVNNTTV AVKKLAAMVD ITTEELKQQF DQEIKVMAKC
+     QHENLVELLG FSSDGDDLCL VYVYMPNGSL LDRLSCLDGT PPLSWHMRCK IAQGAANGIN
+     FLHENHHIHR DIKSANILLD EAFTAKISDF GLARASEKFA QTVMTSRIVG TTAYMAPEAL
+     RGEITPKSDI YSFGVVLLEI ITGLPAVDEH REPQLLLDIK EEIEDEEKTI EDYIDKKMND
+     ADSTSVEAMY SVASQCLHEK KNKRPDIKKV QQLLQEMTAS
+//

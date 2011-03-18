@@ -1,0 +1,31 @@
+UI: Initial number of sequences: 138
+UI: Initial number of positions: 838
+UI: Number of outliers: 0
+UI: Final number of sequences after removing outliers: 138
+UI: Final number of positions after removing gappy columns: 201
+II: Final number of columns in the disjunctive matrix: 2508
+Are there any position predicted as being important for the whole family?: 
+PR: YES
+Positions predicted: 
+RE: 791 2 2
+
+UI: Number of positions predicted to be important for the group segregation: 1
+
+Are there any conserved position at 90 % of identity?: 
+CN: YES
+Conserved positions: 
+CP: 24
+CP: 99
+CP: 274
+CP: 345
+CP: 441
+CP: 442
+CP: 462
+CP: 467
+CP: 512
+CP: 584
+CP: 585
+CP: 619
+CP: 790
+
+UI: Number of conserved positions (at 90 % of identity): 13

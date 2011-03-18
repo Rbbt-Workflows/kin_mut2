@@ -1,0 +1,53 @@
+kinase=/$PWD filter="*.rb *.js *.css *.pl *.py *.cfg *.config" {
+ bin=bin {
+  PatternGenerator.pl
+  run_svm.py
+ }
+ doc=doc {
+ }
+ etc=etc {
+  svm.config
+ }
+ lib=lib {
+  kinase.rb
+  python=python {
+   mod_categorical_data_analysis.py
+   mod_svm.py
+   mod_utils.py
+  }
+ }
+ www=www {
+  app.rb
+  main.rb
+  config=config {
+  }
+  public=public {
+   images=images {
+   }
+   javascript=javascript {
+    app.js
+    highlight.pack.js
+    jquery.js
+    main.js
+   }
+   stylesheets=stylesheets {
+    highlight.css
+   }
+  }
+  views=views {
+   index.haml
+   stylesheets=stylesheets {
+   }
+  }
+ }
+ var=var {
+  patterns=patterns {
+  }
+  svm=svm {
+  }
+ }
+ share=share {
+  model=model {
+  }
+ }
+}

@@ -1,0 +1,182 @@
+UI: Initial number of sequences: 158
+UI: Initial number of positions: 367
+UI: Number of outliers: 0
+UI: Final number of sequences after removing outliers: 158
+UI: Final number of positions after removing gappy columns: 239
+II: Final number of columns in the disjunctive matrix: 2957
+UI: Number of axes selected: 7
+UI: Percentage of initial variance considered informative: 13.9449 %
+UI: Checking a maximum number of groups equal to: 40
+UI: Stable cluster results have been found
+SC: YES
+UI: Number of groups selected: 8
+II: Clustering index value: CH_Index = 73.0012
+II: F-Fisher: 242.208
+II: Best solution found 256 times out of 1580 iterations searching for 8 groups
+UI: Number of groups with less than 3 sequences: 0
+Is there enough group diversity to perform the analysis?:
+GD: YES
+
+Clustering of sequences: 
+CL: TLK_Spur/1-281	6
+CL: TLK2_Hsap/1-280	6
+CL: TLK1_Hsap/1-279	6
+CL: C07A9.3_Cele/1-278	6
+CL: MPSK1_Spur/1-277	5
+CL: PRK1_Scer/1-277	5
+CL: ARK1_Scer/1-277	5
+CL: CG1227_Dmel/1-274	5
+CL: GAK_Hsap/1-274	5
+CL: GAK_Mmus/1-274	5
+CL: MPSK1_Hsap/1-271	5
+CL: MPSK1_Mmus/1-271	5
+CL: auxillin_Dmel/1-271	5
+CL: 19858_Tthe/1-271	6
+CL: Nak_Dmel/1-270	5
+CL: sel-5_Cele/1-268	5
+CL: 26298_Tthe/1-267	5
+CL: F46G11.3_Cele/1-266	5
+CL: 15705_Tthe/1-266	7
+CL: AAK1_Hsap/1-265	5
+CL: BIKE_Hsap/1-264	5
+CL: SgK069_Hsap/1-264	0
+CL: SgK069_Mmus/1-264	0
+CL: NEK2_Hsap/1-264	4
+CL: NEK2_Mmus/1-264	4
+CL: 21109_Tthe/1-264	7
+CL: Nek2_Dmel/1-263	4
+CL: NEK2_Spur/1-263	4
+CL: 18701_Tthe/1-263	7
+CL: SgK110_Hsap/1-262	0
+CL: IRE1_Hsap/1-262	1
+CL: IRE2_Hsap/1-262	1
+CL: 18676_Tthe/1-262	4
+CL: SBK_Hsap/1-261	0
+CL: ire-1_Cele/1-261	1
+CL: IRE2_Mmus/1-261	1
+CL: 21625_Tthe/1-261	4
+CL: NEK6_Hsap/1-261	4
+CL: 29341_Tthe/1-261	4
+CL: Nek2_Ddis/1-261	4
+CL: Nek3_Ddis/1-261	4
+CL: DDB0229347_Ddis/1-260	5
+CL: WNK_Spur/1-260	2
+CL: Apg1_Ddis/1-260	7
+CL: 11042_Tthe/1-260	7
+CL: 8181_Tthe/1-260	7
+CL: CG7177_Dmel/1-259	2
+CL: Wnk4_Hsap/1-259	2
+CL: Wnk2_Hsap/1-259	2
+CL: Wnk1_Hsap/1-259	2
+CL: Wnk3_Hsap/1-259	2
+CL: 19380_Tthe/1-259	4
+CL: 29340_Tthe/1-259	4
+CL: NEK11_Hsap/1-259	4
+CL: NEK11_Mmus/1-259	4
+CL: 20809_Tthe/1-259	4
+CL: NEK1c_Spur/1-259	4
+CL: 5380_Tthe/1-259	7
+CL: 1439_Tthe/1-259	7
+CL: 16588_Tthe/1-259	7
+CL: 27664_Tthe/1-259	7
+CL: NEK6_Spur/1-258	4
+CL: 10831_Tthe/1-258	4
+CL: 18380_Tthe/1-258	3
+CL: 15044_Tthe/1-258	7
+CL: 15010_Tthe/1-258	7
+CL: 3032_Tthe/1-258	7
+CL: 7740_Tthe/1-257	4
+CL: 19674_Tthe/1-257	4
+CL: 23433_Tthe/1-257	4
+CL: 2469_Tthe/1-257	4
+CL: 29341~b_Tthe/1-257	4
+CL: NEK9_Hsap/1-257	4
+CL: 2122_Tthe/1-257	4
+CL: 2103_Tthe/1-257	7
+CL: CG8866_Dmel/1-257	7
+CL: ULK3_Hsap/1-257	7
+CL: 19558_Tthe/1-257	7
+CL: 28433_Tthe/1-256	4
+CL: NEK4_Hsap/1-256	4
+CL: 15435_Tthe/1-256	4
+CL: NEK5_Hsap/1-256	4
+CL: CDC5_Scer/1-256	3
+CL: 8829_Tthe/1-256	3
+CL: 26118_Tthe/1-256	3
+CL: 15837_Tthe/1-256	7
+CL: 11253_Tthe/1-256	7
+CL: 14572_Tthe/1-256	7
+CL: 5362_Tthe/1-256	7
+CL: 5688_Tthe/1-256	7
+CL: 7377_Tthe/1-256	7
+CL: 1429_Tthe/1-256	7
+CL: DDB0216398_Ddis/1-255	7
+CL: 21626_Tthe/1-255	4
+CL: 1405_Tthe/1-255	4
+CL: NEK8_Hsap/1-255	4
+CL: 24902_Tthe/1-255	4
+CL: 28502_Tthe/1-255	4
+CL: NEK1a_Spur/1-255	4
+CL: NEK1_Hsap/1-255	4
+CL: 5034_Tthe/1-255	3
+CL: 8238b_Tthe/1-255	3
+CL: 18780_Tthe/1-255	7
+CL: 9457_Tthe/1-255	7
+CL: 3104_Tthe/1-255	7
+CL: 20902_Tthe/1-255	7
+CL: 24896_Tthe/1-255	7
+CL: 18448_Tthe/1-254	4
+CL: Nek4_Ddis/1-254	4
+CL: NEK3_Hsap/1-254	4
+CL: SAK_Dmel/1-254	3
+CL: SAK_Spur/1-254	3
+CL: PLK4_Hsap/1-254	3
+CL: 26742_Tthe/1-254	7
+CL: 8636_Tthe/1-254	7
+CL: 13547_Tthe/1-253	4
+CL: 29473_Tthe/1-253	4
+CL: 8589_Tthe/1-253	4
+CL: CG10951_Dmel/1-253	4
+CL: Y39G10AR.4_Cele/1-253	4
+CL: PLK2_Mmus/1-253	3
+CL: PLK3_Hsap/1-253	3
+CL: PLK_Ddis/1-253	3
+CL: 18358b_Tthe/1-253	3
+CL: polo_Dmel/1-253	3
+CL: PLK1_Spur/1-253	3
+CL: PLK1_Hsap/1-253	3
+CL: 13287_Tthe/1-253	3
+CL: 19636_Tthe/1-253	3
+CL: 25157_Tthe/1-253	3
+CL: air-1_Cele/1-253	3
+CL: tsunami_Ddis/1-253	7
+CL: 20769_Tthe/1-253	7
+CL: NEK7_Hsap/1-252	4
+CL: NEK5_Mmus/1-252	4
+CL: F55G1.8_Cele/1-252	3
+CL: plk-2_Cele/1-252	3
+CL: 18172_Tthe/1-252	3
+CL: 12754_Tthe/1-252	3
+CL: 15246_Tthe/1-252	3
+CL: 6603_Tthe/1-252	7
+CL: 22503_Tthe/1-251	3
+CL: Aurora_Ddis/1-251	3
+CL: air-2_Cele/1-251	3
+CL: AurA_Hsap/1-251	3
+CL: AurC_Hsap/1-251	3
+CL: AurB_Hsap/1-251	3
+CL: fu_Dmel/1-251	4
+CL: Fused_Hsap/1-251	7
+CL: Myt1_Dmel/1-250	7
+CL: MYT1_Hsap/1-250	4
+CL: 26810_Tthe/1-250	4
+CL: NEK3_Mmus/1-250	4
+CL: 15836_Tthe/1-250	7
+CL: NEK1b_Spur/1-249	4
+CL: plk-1_Cele/1-249	3
+CL: wee-1.3_Cele/1-248	7
+CL: 19707_Tthe/1-248	7
+
+Are there any position predicted as being important for the whole family?: 
+PR: NO
+UI: There are no positions predicted to be important for the group segregation

@@ -1,0 +1,252 @@
+ID   TEC_HUMAN               Reviewed;         631 AA.
+AC   P42680; B7ZKZ6; Q3MIS5;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   11-SEP-2007, sequence version 2.
+DT   02-NOV-2010, entry version 107.
+DE   RecName: Full=Tyrosine-protein kinase Tec;
+DE            EC=2.7.10.2;
+GN   Name=TEC; Synonyms=PSCTK4;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Blood;
+RX   MEDLINE=95019807; PubMed=7934162;
+RA   Sato K., Mano H., Ariyama T., Inazawa J., Yazaki Y., Hirai H.;
+RT   "Molecular cloning and analysis of the human Tec protein-tyrosine
+RT   kinase.";
+RL   Leukemia 8:1663-1672(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   PROTEIN SEQUENCE OF 203-206, AND PHOSPHORYLATION AT TYR-206.
+RX   PubMed=12573241; DOI=10.1016/S1570-9639(02)00524-1;
+RA   Nore B.F., Mattsson P.T., Antonsson P., Backesjo C.-M., Westlund A.,
+RA   Lennartsson J., Hansson H., Low P., Ronnstrand L., Smith C.I.E.;
+RT   "Identification of phosphorylation sites within the SH3 domains of Tec
+RT   family tyrosine kinases.";
+RL   Biochim. Biophys. Acta 1645:123-132(2003).
+RN   [5]
+RP   INTERACTION WITH INPP5D AND INPPL1.
+RX   PubMed=15492005; DOI=10.1074/jbc.M408141200;
+RA   Tomlinson M.G., Heath V.L., Turck C.W., Watson S.P., Weiss A.;
+RT   "SHIP family inositol phosphatases interact with and negatively
+RT   regulate the Tec tyrosine kinase.";
+RL   J. Biol. Chem. 279:55089-55096(2004).
+RN   [6]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-206; TYR-228 AND
+RP   SER-275, AND MASS SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [7]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-519, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=19690332; DOI=10.1126/scisignal.2000007;
+RA   Mayya V., Lundgren D.H., Hwang S.-I., Rezaul K., Wu L., Eng J.K.,
+RA   Rodionov V., Han D.K.;
+RT   "Quantitative phosphoproteomic analysis of T cell receptor signaling
+RT   reveals system-wide modulation of protein-protein interactions.";
+RL   Sci. Signal. 2:RA46-RA46(2009).
+RN   [8]
+RP   VARIANTS [LARGE SCALE ANALYSIS] GLN-44 AND LYS-563.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- CATALYTIC ACTIVITY: ATP + a [protein]-L-tyrosine = ADP + a
+CC       [protein]-L-tyrosine phosphate.
+CC   -!- COFACTOR: Binds 1 zinc ion per subunit (By similarity).
+CC   -!- SUBUNIT: Interacts with INPP5D/SHIP1 and INPPL1/SHIP2.
+CC   -!- INTERACTION:
+CC       P48023:FASLG; NbExp=1; IntAct=EBI-1383480, EBI-495538;
+CC       Q05209:PTPN12; NbExp=1; IntAct=EBI-1383480, EBI-2266035;
+CC       P23467:PTPRB; NbExp=1; IntAct=EBI-1383480, EBI-1265766;
+CC       P08575:PTPRC; NbExp=1; IntAct=EBI-1383480, EBI-1341;
+CC       P23470:PTPRG; NbExp=1; IntAct=EBI-1383480, EBI-2258115;
+CC       Q12913:PTPRJ; NbExp=1; IntAct=EBI-1383480, EBI-2264500;
+CC       Q15262:PTPRK; NbExp=1; IntAct=EBI-1383480, EBI-474052;
+CC       Q16827:PTPRO; NbExp=1; IntAct=EBI-1383480, EBI-723739;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm (Probable).
+CC   -!- TISSUE SPECIFICITY: Hematopoietic cell lines including myeloid,
+CC       B-, and T-cell lineages.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Tyr protein
+CC       kinase family. TEC subfamily.
+CC   -!- SIMILARITY: Contains 1 Btk-type zinc finger.
+CC   -!- SIMILARITY: Contains 1 PH domain.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- SIMILARITY: Contains 1 SH2 domain.
+CC   -!- SIMILARITY: Contains 1 SH3 domain.
+CC   -!- CAUTION: It is uncertain whether Met-1 is the initiator.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; D29767; BAA06171.1; -; mRNA.
+DR   EMBL; CH471069; EAW93055.1; -; Genomic_DNA.
+DR   EMBL; BC101711; AAI01712.1; -; mRNA.
+DR   EMBL; BC101713; AAI01714.1; -; mRNA.
+DR   EMBL; BC143487; AAI43488.1; -; mRNA.
+DR   IPI; IPI00000878; -.
+DR   PIR; I38268; I38268.
+DR   PIR; I56997; I56997.
+DR   RefSeq; NP_003206.2; -.
+DR   UniGene; Hs.479670; -.
+DR   ProteinModelPortal; P42680; -.
+DR   SMR; P42680; 5-145, 154-237, 181-628.
+DR   IntAct; P42680; 17.
+DR   MINT; MINT-1498364; -.
+DR   STRING; P42680; -.
+DR   PhosphoSite; P42680; -.
+DR   PRIDE; P42680; -.
+DR   Ensembl; ENST00000381501; ENSP00000370912; ENSG00000135605.
+DR   GeneID; 7006; -.
+DR   KEGG; hsa:7006; -.
+DR   NMPDR; fig|9606.3.peg.24091; -.
+DR   UCSC; uc003gxz.1; human.
+DR   CTD; 7006; -.
+DR   GeneCards; GC04M048137; -.
+DR   H-InvDB; HIX0031502; -.
+DR   HGNC; HGNC:11719; TEC.
+DR   HPA; HPA005733; -.
+DR   MIM; 600583; gene.
+DR   PharmGKB; PA36436; -.
+DR   eggNOG; prNOG06031; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG008761; -.
+DR   InParanoid; P42680; -.
+DR   OMA; MERGCLL; -.
+DR   OrthoDB; EOG97WR7S; -.
+DR   PhylomeDB; P42680; -.
+DR   BRENDA; 2.7.10.2; 247.
+DR   Pathway_Interaction_DB; epopathway; EPO signaling pathway.
+DR   Pathway_Interaction_DB; kitpathway; Signaling events mediated by Stem cell factor receptor (c-Kit).
+DR   NextBio; 27366; -.
+DR   ArrayExpress; P42680; -.
+DR   Bgee; P42680; -.
+DR   CleanEx; HS_TEC; -.
+DR   Genevestigator; P42680; -.
+DR   GermOnline; ENSG00000135605; Homo sapiens.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004715; F:non-membrane spanning protein tyrosine kina...; TAS:ProtInc.
+DR   GO; GO:0005515; F:protein binding; IPI:IntAct.
+DR   GO; GO:0007243; P:intracellular protein kinase cascade; TAS:ProtInc.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; TAS:ProtInc.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR011993; PH_type.
+DR   InterPro; IPR001849; Pleckstrin_homology.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR001245; Ser-Thr/Tyr-Pkinase.
+DR   InterPro; IPR000980; SH2.
+DR   InterPro; IPR001452; SH3_domain.
+DR   InterPro; IPR020755; Tyr_kinase_non-rcpt_Txk/Tec.
+DR   InterPro; IPR020635; Tyr_Pkinase_cat_dom.
+DR   InterPro; IPR020685; Tyr_prot_kinase.
+DR   InterPro; IPR008266; Tyr_prot_kinase_AS.
+DR   InterPro; IPR001562; Znf_Btk_motif.
+DR   Gene3D; G3DSA:2.30.29.30; PH_type; 1.
+DR   Gene3D; G3DSA:3.30.505.10; SH2; 1.
+DR   PANTHER; PTHR23256:SF263; Tyr_kinase_non-rcpt_Txk/Tec; 1.
+DR   PANTHER; PTHR23256; Tyr_prot_kinase; 1.
+DR   Pfam; PF00779; BTK; 1.
+DR   Pfam; PF00169; PH; 1.
+DR   Pfam; PF07714; Pkinase_Tyr; 1.
+DR   Pfam; PF00017; SH2; 1.
+DR   Pfam; PF00018; SH3_1; 1.
+DR   PRINTS; PR00401; SH2DOMAIN.
+DR   PRINTS; PR00452; SH3DOMAIN.
+DR   PRINTS; PR00402; TECBTKDOMAIN.
+DR   PRINTS; PR00109; TYRKINASE.
+DR   SMART; SM00107; BTK; 1.
+DR   SMART; SM00233; PH; 1.
+DR   SMART; SM00252; SH2; 1.
+DR   SMART; SM00326; SH3; 1.
+DR   SMART; SM00219; TyrKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   SUPFAM; SSF50044; SH3; 1.
+DR   PROSITE; PS50003; PH_DOMAIN; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00109; PROTEIN_KINASE_TYR; 1.
+DR   PROSITE; PS50001; SH2; 1.
+DR   PROSITE; PS50002; SH3; 1.
+DR   PROSITE; PS51113; ZF_BTK; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Complete proteome; Cytoplasm; Direct protein sequencing;
+KW   Kinase; Metal-binding; Nucleotide-binding; Phosphoprotein;
+KW   Polymorphism; SH2 domain; SH3 domain; Transferase;
+KW   Tyrosine-protein kinase; Zinc; Zinc-finger.
+FT   CHAIN         1    631       Tyrosine-protein kinase Tec.
+FT                                /FTId=PRO_0000088170.
+FT   DOMAIN        4    111       PH.
+FT   DOMAIN      179    239       SH3.
+FT   DOMAIN      247    345       SH2.
+FT   DOMAIN      370    623       Protein kinase.
+FT   ZN_FING     113    149       Btk-type.
+FT   NP_BIND     376    384       ATP (By similarity).
+FT   ACT_SITE    489    489       Proton acceptor (By similarity).
+FT   METAL       121    121       Zinc (By similarity).
+FT   METAL       132    132       Zinc (By similarity).
+FT   METAL       133    133       Zinc (By similarity).
+FT   METAL       143    143       Zinc (By similarity).
+FT   BINDING     398    398       ATP (By similarity).
+FT   MOD_RES     206    206       Phosphotyrosine; by autocatalysis.
+FT   MOD_RES     228    228       Phosphotyrosine.
+FT   MOD_RES     275    275       Phosphoserine.
+FT   MOD_RES     519    519       Phosphotyrosine; by autocatalysis.
+FT   VARIANT      44     44       R -> Q (in dbSNP:rs35374286).
+FT                                /FTId=VAR_041850.
+FT   VARIANT     563    563       R -> K (in a lung adenocarcinoma sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_041851.
+FT   CONFLICT    514    514       V -> F (in Ref. 1; BAA06171).
+SQ   SEQUENCE   631 AA;  73581 MW;  F55DECBF9916E1F9 CRC64;
+     MNFNTILEEI LIKRSQQKKK TSPLNYKERL FVLTKSMLTY YEGRAEKKYR KGFIDVSKIK
+     CVEIVKNDDG VIPCQNKYPF QVVHDANTLY IFAPSPQSRD LWVKKLKEEI KNNNNIMIKY
+     HPKFWTDGSY QCCRQTEKLA PGCEKYNLFE SSIRKALPPA PETKKRRPPP PIPLEEEDNS
+     EEIVVAMYDF QAAEGHDLRL ERGQEYLILE KNDVHWWRAR DKYGNEGYIP SNYVTGKKSN
+     NLDQYEWYCR NMNRSKAEQL LRSEDKEGGF MVRDSSQPGL YTVSLYTKFG GEGSSGFRHY
+     HIKETTTSPK KYYLAEKHAF GSIPEIIEYH KHNAAGLVTR LRYPVSVKGK NAPTTAGFSY
+     EKWEINPSEL TFMRELGSGL FGVVRLGKWR AQYKVAIKAI REGAMCEEDF IEEAKVMMKL
+     THPKLVQLYG VCTQQKPIYI VTEFMERGCL LNFLRQRQGH FSRDVLLSMC QDVCEGMEYL
+     ERNSFIHRDL AARNCLVSEA GVVKVSDFGM ARYVLDDQYT SSSGAKFPVK WCPPEVFNYS
+     RFSSKSDVWS FGVLMWEVFT EGRMPFEKYT NYEVVTMVTR GHRLYQPKLA SNYVYEVMLR
+     CWQEKPEGRP SFEDLLRTID ELVECEETFG R
+//

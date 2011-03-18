@@ -1,0 +1,347 @@
+ID   MP2K7_HUMAN             Reviewed;         419 AA.
+AC   O14733; B2R9S5; O14648; O14816; O60452; O60453; Q1PG43; Q8IY10;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   30-MAY-2000, sequence version 2.
+DT   02-NOV-2010, entry version 103.
+DE   RecName: Full=Dual specificity mitogen-activated protein kinase kinase 7;
+DE            Short=MAP kinase kinase 7;
+DE            Short=MAPKK 7;
+DE            EC=2.7.12.2;
+DE   AltName: Full=JNK-activating kinase 2;
+DE   AltName: Full=MAPK/ERK kinase 7;
+DE            Short=MEK 7;
+DE   AltName: Full=c-Jun N-terminal kinase kinase 2;
+DE            Short=JNK kinase 2;
+DE            Short=JNKK 2;
+GN   Name=MAP2K7; Synonyms=JNKK2, MEK7, MKK7, PRKMK7;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), FUNCTION, AND TISSUE
+RP   SPECIFICITY.
+RC   TISSUE=Heart, and Skeletal muscle;
+RX   MEDLINE=98038808; PubMed=9372971;
+RA   Wu Z., Wu J., Jacinto E., Karin M.;
+RT   "Molecular cloning and characterization of human JNKK2, a novel jun
+RT   NH2-terminal kinase-specific kinase.";
+RL   Mol. Cell. Biol. 17:7407-7416(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), FUNCTION, AND ENZYME
+RP   REGULATION.
+RX   MEDLINE=97460048; PubMed=9312068; DOI=10.1074/jbc.272.40.24751;
+RA   Lu X., Nemoto S., Lin A.;
+RT   "Identification of c-Jun NH2-terminal protein kinase (JNK)-activating
+RT   kinase 2 as an activator of JNK but not p38.";
+RL   J. Biol. Chem. 272:24751-24754(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1 AND 2), FUNCTION, TISSUE
+RP   SPECIFICITY, AND VARIANT PHE-259.
+RC   TISSUE=Fetal kidney;
+RX   MEDLINE=98204938; PubMed=9535930; DOI=10.1074/jbc.273.15.9344;
+RA   Foltz I.N., Gerl R.E., Wieler J.S., Luckach M., Salmon R.A.,
+RA   Schrader J.W.;
+RT   "Human mitogen-activated protein kinase kinase 7 (MKK7) is a highly
+RT   conserved c-Jun N-terminal kinase/stress-activated protein kinase
+RT   (JNK/SAPK) activated by environmental stresses and physiological
+RT   stimuli.";
+RL   J. Biol. Chem. 273:9344-9351(1998).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 3), ENZYME REGULATION, AND TISSUE
+RP   SPECIFICITY.
+RX   PubMed=16442502; DOI=10.1016/j.bbrc.2005.12.223;
+RA   Michael L., Swantek J., Robinson M.J.;
+RT   "Cloning and expression of human mitogen-activated protein kinase
+RT   kinase 7gamma1.";
+RL   Biochem. Biophys. Res. Commun. 341:679-683(2006).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RA   Yang J., New L., Yong J., Han J., Su B.;
+RT   "Molecular cloning of human JNKK2 reveals a novel kinase module for c-
+RT   Jun N-terminal kinase activation.";
+RL   Submitted (SEP-1997) to the EMBL/GenBank/DDBJ databases.
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   TISSUE=Brain;
+RX   PubMed=14702039; DOI=10.1038/ng1285;
+RA   Ota T., Suzuki Y., Nishikawa T., Otsuki T., Sugiyama T., Irie R.,
+RA   Wakamatsu A., Hayashi K., Sato H., Nagai K., Kimura K., Makita H.,
+RA   Sekine M., Obayashi M., Nishi T., Shibahara T., Tanaka T., Ishii S.,
+RA   Yamamoto J., Saito K., Kawai Y., Isono Y., Nakamura Y., Nagahari K.,
+RA   Murakami K., Yasuda T., Iwayanagi T., Wagatsuma M., Shiratori A.,
+RA   Sudo H., Hosoiri T., Kaku Y., Kodaira H., Kondo H., Sugawara M.,
+RA   Takahashi M., Kanda K., Yokoi T., Furuya T., Kikkawa E., Omura Y.,
+RA   Abe K., Kamihara K., Katsuta N., Sato K., Tanikawa M., Yamazaki M.,
+RA   Ninomiya K., Ishibashi T., Yamashita H., Murakawa K., Fujimori K.,
+RA   Tanai H., Kimata M., Watanabe M., Hiraoka S., Chiba Y., Ishida S.,
+RA   Ono Y., Takiguchi S., Watanabe S., Yosida M., Hotuta T., Kusano J.,
+RA   Kanehori K., Takahashi-Fujii A., Hara H., Tanase T.-O., Nomura Y.,
+RA   Togiya S., Komai F., Hara R., Takeuchi K., Arita M., Imose N.,
+RA   Musashino K., Yuuki H., Oshima A., Sasaki N., Aotsuka S.,
+RA   Yoshikawa Y., Matsunawa H., Ichihara T., Shiohata N., Sano S.,
+RA   Moriya S., Momiyama H., Satoh N., Takami S., Terashima Y., Suzuki O.,
+RA   Nakagawa S., Senoh A., Mizoguchi H., Goto Y., Shimizu F., Wakebe H.,
+RA   Hishigaki H., Watanabe T., Sugiyama A., Takemoto M., Kawakami B.,
+RA   Yamazaki M., Watanabe K., Kumagai A., Itakura S., Fukuzumi Y.,
+RA   Fujimori Y., Komiyama M., Tashiro H., Tanigami A., Fujiwara T.,
+RA   Ono T., Yamada K., Fujii Y., Ozaki K., Hirao M., Ohmori Y.,
+RA   Kawabata A., Hikiji T., Kobatake N., Inagaki H., Ikema Y., Okamoto S.,
+RA   Okitani R., Kawakami T., Noguchi S., Itoh T., Shigeta K., Senba T.,
+RA   Matsumura K., Nakajima Y., Mizuno T., Morinaga M., Sasaki M.,
+RA   Togashi T., Oyama M., Hata H., Watanabe M., Komatsu T.,
+RA   Mizushima-Sugano J., Satoh T., Shirai Y., Takahashi Y., Nakagawa K.,
+RA   Okumura K., Nagase T., Nomura N., Kikuchi H., Masuho Y., Yamashita R.,
+RA   Nakai K., Yada T., Nakamura Y., Ohara O., Isogai T., Sugano S.;
+RT   "Complete sequencing and characterization of 21,243 full-length human
+RT   cDNAs.";
+RL   Nat. Genet. 36:40-45(2004).
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (SEP-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [8]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 4).
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [9]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 1-260 (ISOFORMS 1/4).
+RX   MEDLINE=97352799; PubMed=9207092; DOI=10.1073/pnas.94.14.7337;
+RA   Tournier C., Whitmarsh A.J., Cavanagh J., Barrett T., Davis R.J.;
+RT   "Mitogen-activated protein kinase kinase 7 is an activator of the c-
+RT   Jun NH2-terminal kinase.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 94:7337-7342(1997).
+RN   [10]
+RP   CLEAVAGE BY ANTHRAX LETHAL FACTOR.
+RX   MEDLINE=20558083; PubMed=11104681; DOI=10.1042/0264-6021:3520739;
+RA   Vitale G., Bernardi L., Napolitani G., Mock M., Montecucco C.;
+RT   "Susceptibility of mitogen-activated protein kinase kinase family
+RT   members to proteolysis by anthrax lethal factor.";
+RL   Biochem. J. 352:739-745(2000).
+RN   [11]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT ALA-2, AND MASS SPECTROMETRY.
+RC   TISSUE=Embryonic kidney;
+RX   PubMed=19413330; DOI=10.1021/ac9004309;
+RA   Gauci S., Helbig A.O., Slijper M., Krijgsveld J., Heck A.J.,
+RA   Mohammed S.;
+RT   "Lys-N and trypsin cover complementary parts of the phosphoproteome in
+RT   a refined SCX-based approach.";
+RL   Anal. Chem. 81:4493-4501(2009).
+RN   [12]
+RP   VARIANTS [LARGE SCALE ANALYSIS] SER-118; CYS-138; CYS-162; HIS-162 AND
+RP   THR-195.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Stress activated, dual specificity kinase that activates
+CC       the JUN kinases MAPK8/JNK1, MAPK9/JNK2 and MAPK10/JNK3.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- COFACTOR: Magnesium.
+CC   -!- ENZYME REGULATION: Activated by phosphorylation by specific MAP
+CC       kinase kinase kinases such as MAP3K1/MEKK1, MAP3K3/MEKK3,
+CC       MAP3K11/MLK3 and MAP3K12/DLK.
+CC   -!- INTERACTION:
+CC       P45983:MAPK8; NbExp=2; IntAct=EBI-492605, EBI-286483;
+CC       Q96RU7:TRIB3; NbExp=1; IntAct=EBI-492605, EBI-492476;
+CC       Q86Y07:VRK2; NbExp=1; IntAct=EBI-492605, EBI-1207615;
+CC   -!- SUBCELLULAR LOCATION: Nucleus. Cytoplasm (By similarity).
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=4;
+CC       Name=1; Synonyms=A;
+CC         IsoId=O14733-1; Sequence=Displayed;
+CC       Name=2; Synonyms=B;
+CC         IsoId=O14733-2; Sequence=VSP_004883;
+CC       Name=3; Synonyms=gamma1;
+CC         IsoId=O14733-3; Sequence=VSP_022309;
+CC       Name=4;
+CC         IsoId=O14733-4; Sequence=VSP_022310;
+CC         Note=No experimental confirmation available;
+CC   -!- TISSUE SPECIFICITY: Ubiquitous; with highest level of expression
+CC       in skeletal muscle. Isoform 3 is found at low levels in placenta,
+CC       fetal liver, and skeletal muscle.
+CC   -!- PTM: Activated by phosphorylation on Ser/Thr.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. STE Ser/Thr
+CC       protein kinase family. MAP kinase kinase subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF014401; AAB88048.1; -; mRNA.
+DR   EMBL; AF006689; AAB97813.1; ALT_TERM; mRNA.
+DR   EMBL; AF013588; AAC16272.1; -; mRNA.
+DR   EMBL; AF013589; AAC16273.1; -; mRNA.
+DR   EMBL; DQ445915; ABE03013.1; -; mRNA.
+DR   EMBL; AF022805; AAC26142.1; -; mRNA.
+DR   EMBL; AK313899; BAG36622.1; -; mRNA.
+DR   EMBL; CH471139; EAW68964.1; -; Genomic_DNA.
+DR   EMBL; BC038295; AAH38295.1; -; mRNA.
+DR   EMBL; AF003199; AAB63374.1; -; mRNA.
+DR   IPI; IPI00023636; -.
+DR   IPI; IPI00302112; -.
+DR   IPI; IPI00745806; -.
+DR   IPI; IPI00794495; -.
+DR   RefSeq; NP_660186.1; -.
+DR   UniGene; Hs.531754; -.
+DR   PDB; 2DYL; X-ray; 2.45 A; A=101-405.
+DR   PDBsum; 2DYL; -.
+DR   ProteinModelPortal; O14733; -.
+DR   IntAct; O14733; 21.
+DR   MINT; MINT-1378223; -.
+DR   STRING; O14733; -.
+DR   PhosphoSite; O14733; -.
+DR   PRIDE; O14733; -.
+DR   Ensembl; ENST00000397979; ENSP00000381066; ENSG00000076984.
+DR   GeneID; 5609; -.
+DR   KEGG; hsa:5609; -.
+DR   UCSC; uc002mit.1; human.
+DR   UCSC; uc002miu.1; human.
+DR   UCSC; uc002miv.1; human.
+DR   CTD; 5609; -.
+DR   GeneCards; GC19P007968; -.
+DR   H-InvDB; HIX0202887; -.
+DR   HGNC; HGNC:6847; MAP2K7.
+DR   HPA; CAB004262; -.
+DR   HPA; HPA001633; -.
+DR   MIM; 603014; gene.
+DR   PharmGKB; PA284; -.
+DR   HOVERGEN; HBG108518; -.
+DR   OrthoDB; EOG9CRPJQ; -.
+DR   PhylomeDB; O14733; -.
+DR   BRENDA; 2.7.12.2; 247.
+DR   Pathway_Interaction_DB; anthraxpathway; Cellular roles of Anthrax toxin.
+DR   Pathway_Interaction_DB; fcer1pathway; Fc-epsilon receptor I signaling in mast cells.
+DR   Pathway_Interaction_DB; hivnefpathway; HIV-1 Nef: Negative effector of Fas and TNF-alpha.
+DR   Pathway_Interaction_DB; reelinpathway; Reelin signaling pathway.
+DR   Pathway_Interaction_DB; tnfpathway; TNF receptor signaling pathway.
+DR   Reactome; REACT_6900; Signaling in Immune system.
+DR   DrugBank; DB00773; Etoposide.
+DR   NextBio; 21802; -.
+DR   PMAP-CutDB; O14733; -.
+DR   ArrayExpress; O14733; -.
+DR   Bgee; O14733; -.
+DR   CleanEx; HS_MAP2K7; -.
+DR   Genevestigator; O14733; -.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; ISS:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000287; F:magnesium ion binding; IDA:UniProtKB.
+DR   GO; GO:0004708; F:MAP kinase kinase activity; IDA:UniProtKB.
+DR   GO; GO:0019901; F:protein kinase binding; IPI:UniProtKB.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0004713; F:protein tyrosine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   GO; GO:0051403; P:stress-activated MAPK cascade; IDA:UniProtKB.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; FALSE_NEG.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Alternative splicing; ATP-binding;
+KW   Coiled coil; Complete proteome; Cytoplasm; Kinase; Magnesium;
+KW   Metal-binding; Nucleotide-binding; Nucleus; Phosphoprotein;
+KW   Polymorphism; Serine/threonine-protein kinase; Transferase;
+KW   Tyrosine-protein kinase.
+FT   INIT_MET      1      1       Removed.
+FT   CHAIN         2    419       Dual specificity mitogen-activated
+FT                                protein kinase kinase 7.
+FT                                /FTId=PRO_0000086388.
+FT   DOMAIN      120    380       Protein kinase.
+FT   NP_BIND     126    134       ATP (By similarity).
+FT   COILED        2     30       Potential.
+FT   ACT_SITE    243    243       Proton acceptor (By similarity).
+FT   BINDING     149    149       ATP (By similarity).
+FT   SITE         44     45       Cleavage; by anthrax lethal factor.
+FT   SITE         76     77       Cleavage; by anthrax lethal factor.
+FT   MOD_RES       2      2       N-acetylalanine.
+FT   VAR_SEQ      42     42       T -> IIVITLSPAPAPSQRAA (in isoform 3).
+FT                                /FTId=VSP_022309.
+FT   VAR_SEQ     111    111       Q -> QVPPSLWRGEGGGPARLDPSWERQWGAGGGGRAPGT
+FT                                LQPSLSSQ (in isoform 2).
+FT                                /FTId=VSP_004883.
+FT   VAR_SEQ     312    312       L -> LPCPSPSQ (in isoform 4).
+FT                                /FTId=VSP_022310.
+FT   VARIANT     118    118       N -> S (in dbSNP:rs56316660).
+FT                                /FTId=VAR_040825.
+FT   VARIANT     138    138       R -> C (in dbSNP:rs56106612).
+FT                                /FTId=VAR_040826.
+FT   VARIANT     162    162       R -> C (in a colorectal adenocarcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_040827.
+FT   VARIANT     162    162       R -> H (in a colorectal adenocarcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_040828.
+FT   VARIANT     195    195       A -> T (in dbSNP:rs55800262).
+FT                                /FTId=VAR_040829.
+FT   VARIANT     259    259       L -> F (in dbSNP:rs1053566).
+FT                                /FTId=VAR_029890.
+FT   CONFLICT     94     94       Q -> H (in Ref. 2; AAB97813).
+FT   CONFLICT    106    106       L -> P (in Ref. 4; ABE03013).
+FT   CONFLICT    133    133       Q -> P (in Ref. 2; AAB97813).
+FT   CONFLICT    142    142       T -> N (in Ref. 1; AAB88048).
+FT   STRAND      105    114
+FT   HELIX       117    119
+FT   STRAND      120    125
+FT   STRAND      134    139
+FT   TURN        140    142
+FT   STRAND      145    152
+FT   HELIX       157    172
+FT   TURN        173    175
+FT   STRAND      182    187
+FT   STRAND      189    196
+FT   STRAND      200    202
+FT   HELIX       203    210
+FT   HELIX       216    237
+FT   HELIX       246    248
+FT   STRAND      249    251
+FT   STRAND      257    259
+FT   HELIX       286    289
+FT   HELIX       302    317
+FT   TURN        321    324
+FT   HELIX       328    337
+FT   STRAND      345    347
+FT   HELIX       351    360
+FT   TURN        365    367
+FT   HELIX       371    374
+FT   HELIX       378    385
+FT   HELIX       390    399
+SQ   SEQUENCE   419 AA;  47485 MW;  F1B22E050F54299A CRC64;
+     MAASSLEQKL SRLEAKLKQE NREARRRIDL NLDISPQRPR PTLQLPLAND GGSRSPSSES
+     SPQHPTPPAR PRHMLGLPST LFTPRSMESI EIDQKLQEIM KQTGYLTIGG QRYQAEINDL
+     ENLGEMGSGT CGQVWKMRFR KTGHVIAVKQ MRRSGNKEEN KRILMDLDVV LKSHDCPYIV
+     QCFGTFITNT DVFIAMELMG TCAEKLKKRM QGPIPERILG KMTVAIVKAL YYLKEKHGVI
+     HRDVKPSNIL LDERGQIKLC DFGISGRLVD SKAKTRSAGC AAYMAPERID PPDPTKPDYD
+     IRADVWSLGI SLVELATGQF PYKNCKTDFE VLTKVLQEEP PLLPGHMGFS GDFQSFVKDC
+     LTKDHRKRPK YNKLLEHSFI KRYETLEVDV ASWFKDVMAK TESPRTSGVL SQPHLPFFR
+//

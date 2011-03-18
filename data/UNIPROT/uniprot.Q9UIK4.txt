@@ -1,0 +1,263 @@
+ID   DAPK2_HUMAN             Reviewed;         370 AA.
+AC   Q9UIK4; O75892; Q24JS1;
+DT   28-NOV-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   05-OCT-2010, entry version 97.
+DE   RecName: Full=Death-associated protein kinase 2;
+DE            Short=DAP kinase 2;
+DE            EC=2.7.11.1;
+DE   AltName: Full=DAP-kinase-related protein 1;
+DE            Short=DRP-1;
+GN   Name=DAPK2;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, ENZYME REGULATION, TISSUE
+RP   SPECIFICITY, AND MUTAGENESIS OF LYS-52.
+RC   TISSUE=Skeletal muscle;
+RX   MEDLINE=99303018; PubMed=10376525; DOI=10.1038/sj.onc.1202701;
+RA   Kawai T., Nomura F., Hoshino K., Copeland N.G., Gilbert D.J.,
+RA   Jenkins N.A., Akira S.;
+RT   "Death-associated protein kinase 2 is a new calcium/calmodulin-
+RT   dependent protein kinase that signals apoptosis through its catalytic
+RT   activity.";
+RL   Oncogene 18:3471-3480(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, SUBCELLULAR LOCATION,
+RP   HOMODIMERIZATION, AND MUTAGENESIS OF LYS-52.
+RC   TISSUE=Kidney;
+RX   MEDLINE=20094983; PubMed=10629061;
+RX   DOI=10.1128/MCB.20.3.1044-1054.2000;
+RA   Inbal B., Shani G., Cohen O., Kissil J.L., Kimchi A.;
+RT   "Death-associated protein kinase-related protein 1, a novel
+RT   serine/threonine kinase involved in apoptosis.";
+RL   Mol. Cell. Biol. 20:1044-1054(2000).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   FUNCTION, HOMODIMERIZATION, MUTAGENESIS OF LYS-52; SER-299; SER-318;
+RP   SER-320; SER-323 AND THR-329, AND PHOSPHORYLATION AT SER-318.
+RX   MEDLINE=21153208; PubMed=11230133; DOI=10.1093/emboj/20.5.1099;
+RA   Shani G., Henis-Korenblit S., Jona G., Gileadi O., Eisenstein M.,
+RA   Ziv T., Admon A., Kimchi A.;
+RT   "Autophosphorylation restrains the apoptotic activity of DRP-1 kinase
+RT   by controlling dimerization and calmodulin binding.";
+RL   EMBO J. 20:1099-1113(2001).
+RN   [5]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-349, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=17081983; DOI=10.1016/j.cell.2006.09.026;
+RA   Olsen J.V., Blagoev B., Gnad F., Macek B., Kumar C., Mortensen P.,
+RA   Mann M.;
+RT   "Global, in vivo, and site-specific phosphorylation dynamics in
+RT   signaling networks.";
+RL   Cell 127:635-648(2006).
+RN   [6]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-349, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [7]
+RP   VARIANTS [LARGE SCALE ANALYSIS] TRP-60 AND TRP-271.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Calcium/calmodulin-dependent serine/threonine kinase
+CC       which acts as a positive regulator of apoptosis.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- COFACTOR: Magnesium.
+CC   -!- ENZYME REGULATION: Negatively regulated by autophosphorylation on
+CC       Ser-318.
+CC   -!- SUBUNIT: Homodimer. Homodimerization is required for apoptotic
+CC       function and is inhibited by autophosphorylation at Ser-318.
+CC   -!- INTERACTION:
+CC       Self; NbExp=1; IntAct=EBI-77154, EBI-77154;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm.
+CC   -!- TISSUE SPECIFICITY: Ubiquitously expressed in all tissue types
+CC       examined. High levels in heart, lung and skeletal muscle.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CAMK
+CC       Ser/Thr protein kinase family. DAP kinase subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AB018001; BAA88063.1; -; mRNA.
+DR   EMBL; AF052941; AAC35001.1; -; mRNA.
+DR   EMBL; BC114506; AAI14507.1; -; mRNA.
+DR   IPI; IPI00033388; -.
+DR   RefSeq; NP_055141.2; -.
+DR   UniGene; Hs.237886; -.
+DR   PDB; 1WMK; X-ray; 3.60 A; A/B/C/D/E/F/G/H=11-330.
+DR   PDB; 1WRZ; X-ray; 2.00 A; B=312-330.
+DR   PDB; 1Z9X; X-ray; 3.93 A; A/B/C=11-330.
+DR   PDB; 1ZWS; X-ray; 2.90 A; A/B/C/D/E/F/G/H=11-297.
+DR   PDB; 2A27; X-ray; 3.00 A; A/B/C/D/E/F/G/H=11-330.
+DR   PDB; 2A2A; X-ray; 1.47 A; A/B/C/D=11-330.
+DR   PDB; 2CKE; X-ray; 2.80 A; A/B/C/D=11-330.
+DR   PDBsum; 1WMK; -.
+DR   PDBsum; 1WRZ; -.
+DR   PDBsum; 1Z9X; -.
+DR   PDBsum; 1ZWS; -.
+DR   PDBsum; 2A27; -.
+DR   PDBsum; 2A2A; -.
+DR   PDBsum; 2CKE; -.
+DR   ProteinModelPortal; Q9UIK4; -.
+DR   IntAct; Q9UIK4; 3.
+DR   STRING; Q9UIK4; -.
+DR   PhosphoSite; Q9UIK4; -.
+DR   PRIDE; Q9UIK4; -.
+DR   Ensembl; ENST00000261891; ENSP00000261891; ENSG00000035664.
+DR   Ensembl; ENST00000457488; ENSP00000408277; ENSG00000035664.
+DR   GeneID; 23604; -.
+DR   KEGG; hsa:23604; -.
+DR   UCSC; uc002amr.1; human.
+DR   CTD; 23604; -.
+DR   GeneCards; GC15M064199; -.
+DR   H-InvDB; HIX0019168; -.
+DR   HGNC; HGNC:2675; DAPK2.
+DR   PharmGKB; PA27143; -.
+DR   eggNOG; prNOG05364; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG100551; -.
+DR   InParanoid; Q9UIK4; -.
+DR   OMA; HPWIMPV; -.
+DR   OrthoDB; EOG9ZW7WM; -.
+DR   PhylomeDB; Q9UIK4; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   Reactome; REACT_578; Apoptosis.
+DR   NextBio; 46296; -.
+DR   ArrayExpress; Q9UIK4; -.
+DR   Bgee; Q9UIK4; -.
+DR   CleanEx; HS_DAPK2; -.
+DR   Genevestigator; Q9UIK4; -.
+DR   GermOnline; ENSG00000035664; Homo sapiens.
+DR   GO; GO:0005737; C:cytoplasm; IDA:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; IDA:UniProtKB.
+DR   GO; GO:0005516; F:calmodulin binding; IDA:UniProtKB.
+DR   GO; GO:0004683; F:calmodulin-dependent protein kinase activity; TAS:ProtInc.
+DR   GO; GO:0042802; F:identical protein binding; IPI:IntAct.
+DR   GO; GO:0006915; P:apoptosis; IEA:UniProtKB-KW.
+DR   GO; GO:0006917; P:induction of apoptosis; IMP:UniProtKB.
+DR   GO; GO:0007243; P:intracellular protein kinase cascade; IDA:UniProtKB.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IDA:UniProtKB.
+DR   InterPro; IPR020676; Death-assoc_prot_kinase.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR020675; Myosin_light_chain_kin-rel.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   PANTHER; PTHR22964:SF1; Death-assoc_prot_kinase; 1.
+DR   PANTHER; PTHR22964; Myosin_light_chain_kin-rel; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Apoptosis; ATP-binding; Calmodulin-binding;
+KW   Complete proteome; Cytoplasm; Kinase; Nucleotide-binding;
+KW   Phosphoprotein; Polymorphism; Serine/threonine-protein kinase;
+KW   Transferase.
+FT   CHAIN         1    370       Death-associated protein kinase 2.
+FT                                /FTId=PRO_0000085912.
+FT   DOMAIN       23    285       Protein kinase.
+FT   NP_BIND      29     37       ATP (By similarity).
+FT   REGION      277    344       Calmodulin-binding.
+FT   ACT_SITE    149    149       Proton acceptor (By similarity).
+FT   BINDING      52     52       ATP.
+FT   MOD_RES     299    299       Phosphoserine (By similarity).
+FT   MOD_RES     318    318       Phosphoserine; by autocatalysis.
+FT   MOD_RES     349    349       Phosphoserine.
+FT   VARIANT      60     60       R -> W (in dbSNP:rs56047843).
+FT                                /FTId=VAR_040436.
+FT   VARIANT     271    271       R -> W (in dbSNP:rs34270163).
+FT                                /FTId=VAR_040437.
+FT   MUTAGEN      52     52       K->A: Loss of activity, apoptotic
+FT                                function and of autophosphorylation.
+FT   MUTAGEN     299    330       Missing: Loss of ca(2+)-calmodulin
+FT                                binding, increase in activity, loss of
+FT                                autophosphorylation.
+FT   MUTAGEN     299    299       S->A: No effect on Ca(2+)-calmodulin
+FT                                independent phosphorylation or apoptotic
+FT                                activity.
+FT   MUTAGEN     318    318       S->A: Loss of Ca(2+)-calmodulin
+FT                                independent phosphorylation, increase in
+FT                                apoptotic activity.
+FT   MUTAGEN     318    318       S->D: Abolishes apoptotic activity.
+FT   MUTAGEN     320    320       S->A: No effect on Ca(2+)-calmodulin
+FT                                independent phosphorylation or apoptotic
+FT                                activity.
+FT   MUTAGEN     323    323       S->A: No effect on Ca(2+)-calmodulin
+FT                                independent phosphorylation or apoptotic
+FT                                activity.
+FT   MUTAGEN     329    329       T->A: No effect on Ca(2+)-calmodulin
+FT                                independent phosphorylation or apoptotic
+FT                                activity.
+FT   CONFLICT    241    241       A -> S (in Ref. 2; AAC35001).
+FT   CONFLICT    253    253       Q -> H (in Ref. 2; AAC35001).
+FT   HELIX        19     22
+FT   STRAND       23     31
+FT   STRAND       33     42
+FT   TURN         43     45
+FT   STRAND       48     56
+FT   STRAND       58     61
+FT   STRAND       63     66
+FT   HELIX        68     80
+FT   STRAND       89     94
+FT   STRAND       96    103
+FT   HELIX       111    116
+FT   HELIX       123    142
+FT   HELIX       152    154
+FT   STRAND      155    158
+FT   STRAND      162    164
+FT   STRAND      167    169
+FT   HELIX       191    193
+FT   HELIX       196    199
+FT   HELIX       207    222
+FT   HELIX       232    240
+FT   HELIX       248    251
+FT   HELIX       256    263
+FT   TURN        270    272
+FT   HELIX       276    281
+FT   TURN        283    285
+FT   HELIX       290    298
+FT   HELIX       303    312
+FT   TURN        320    324
+SQ   SEQUENCE   370 AA;  42898 MW;  035E914BBCD881A2 CRC64;
+     MFQASMRSPN MEPFKQQKVE DFYDIGEELG SGQFAIVKKC REKSTGLEYA AKFIKKRQSR
+     ASRRGVSREE IEREVSILRQ VLHHNVITLH DVYENRTDVV LILELVSGGE LFDFLAQKES
+     LSEEEATSFI KQILDGVNYL HTKKIAHFDL KPENIMLLDK NIPIPHIKLI DFGLAHEIED
+     GVEFKNIFGT PEFVAPEIVN YEPLGLEADM WSIGVITYIL LSGASPFLGD TKQETLANIT
+     AVSYDFDEEF FSQTSELAKD FIRKLLVKET RKRLTIQEAL RHPWITPVDN QQAMVRRESV
+     VNLENFRKQY VRRRWKLSFS IVSLCNHLTR SLMKKVHLRP DEDLRNCESD TEEDIARRKA
+     LHPRRRSSTS
+//

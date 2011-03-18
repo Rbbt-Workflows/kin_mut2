@@ -1,0 +1,287 @@
+ID   KSR1_HUMAN              Reviewed;         921 AA.
+AC   Q8IVT5; Q13476;
+DT   21-DEC-2004, integrated into UniProtKB/Swiss-Prot.
+DT   21-DEC-2004, sequence version 2.
+DT   02-NOV-2010, entry version 76.
+DE   RecName: Full=Kinase suppressor of Ras 1;
+GN   Name=KSR1; Synonyms=KSR;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=16625196; DOI=10.1038/nature04689;
+RA   Zody M.C., Garber M., Adams D.J., Sharpe T., Harrow J., Lupski J.R.,
+RA   Nicholson C., Searle S.M., Wilming L., Young S.K., Abouelleil A.,
+RA   Allen N.R., Bi W., Bloom T., Borowsky M.L., Bugalter B.E., Butler J.,
+RA   Chang J.L., Chen C.-K., Cook A., Corum B., Cuomo C.A., de Jong P.J.,
+RA   DeCaprio D., Dewar K., FitzGerald M., Gilbert J., Gibson R.,
+RA   Gnerre S., Goldstein S., Grafham D.V., Grocock R., Hafez N.,
+RA   Hagopian D.S., Hart E., Norman C.H., Humphray S., Jaffe D.B.,
+RA   Jones M., Kamal M., Khodiyar V.K., LaButti K., Laird G., Lehoczky J.,
+RA   Liu X., Lokyitsang T., Loveland J., Lui A., Macdonald P., Major J.E.,
+RA   Matthews L., Mauceli E., McCarroll S.A., Mihalev A.H., Mudge J.,
+RA   Nguyen C., Nicol R., O'Leary S.B., Osoegawa K., Schwartz D.C.,
+RA   Shaw-Smith C., Stankiewicz P., Steward C., Swarbreck D.,
+RA   Venkataraman V., Whittaker C.A., Yang X., Zimmer A.R., Bradley A.,
+RA   Hubbard T., Birren B.W., Rogers J., Lander E.S., Nusbaum C.;
+RT   "DNA sequence of human chromosome 17 and analysis of rearrangement in
+RT   the human lineage.";
+RL   Nature 440:1045-1049(2006).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 3).
+RC   TISSUE=Brain;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 241-897 (ISOFORM 2).
+RX   MEDLINE=96107327; PubMed=8521512; DOI=10.1016/0092-8674(95)90204-X;
+RA   Therrien M., Chang H.C., Solomon N.M., Karim F.D., Wassarman D.A.,
+RA   Rubin G.M.;
+RT   "KSR, a novel protein kinase required for RAS signal transduction.";
+RL   Cell 83:879-888(1995).
+RN   [4]
+RP   REVIEW.
+RX   PubMed=12007434; DOI=10.1016/S0960-9822(02)00831-X;
+RA   Roy F., Therrien M.;
+RT   "MAP kinase module: the Ksr connection.";
+RL   Curr. Biol. 12:R325-R327(2002).
+RN   [5]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-309, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=17081983; DOI=10.1016/j.cell.2006.09.026;
+RA   Olsen J.V., Blagoev B., Gnad F., Macek B., Kumar C., Mortensen P.,
+RA   Mann M.;
+RT   "Global, in vivo, and site-specific phosphorylation dynamics in
+RT   signaling networks.";
+RL   Cell 127:635-648(2006).
+RN   [6]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-268 AND SER-309, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Platelet;
+RX   PubMed=18088087; DOI=10.1021/pr0704130;
+RA   Zahedi R.P., Lewandrowski U., Wiesner J., Wortelkamp S., Moebius J.,
+RA   Schuetz C., Walter U., Gambaryan S., Sickmann A.;
+RT   "Phosphoproteome of resting human platelets.";
+RL   J. Proteome Res. 7:526-534(2008).
+RN   [7]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-268; THR-272 AND
+RP   SER-332, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18220336; DOI=10.1021/pr0705441;
+RA   Cantin G.T., Yi W., Lu B., Park S.K., Xu T., Lee J.-D.,
+RA   Yates J.R. III;
+RT   "Combining protein-based IMAC, peptide-based IMAC, and MudPIT for
+RT   efficient phosphoproteomic analysis.";
+RL   J. Proteome Res. 7:1346-1351(2008).
+RN   [8]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-268; THR-272; SER-332;
+RP   SER-404 AND SER-567, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [9]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RA   Colinge J., Superti-Furga G., Bennett K.L.;
+RL   Submitted (OCT-2008) to UniProtKB.
+RN   [10]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-309 AND SER-404, AND
+RP   MASS SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [11]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-404, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=19690332; DOI=10.1126/scisignal.2000007;
+RA   Mayya V., Lundgren D.H., Hwang S.-I., Rezaul K., Wu L., Eng J.K.,
+RA   Rodionov V., Han D.K.;
+RT   "Quantitative phosphoproteomic analysis of T cell receptor signaling
+RT   reveals system-wide modulation of protein-protein interactions.";
+RL   Sci. Signal. 2:RA46-RA46(2009).
+RN   [12]
+RP   VARIANTS [LARGE SCALE ANALYSIS] PRO-225; ALA-357 AND HIS-661.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Location-regulated scaffolding protein connecting MEK to
+CC       RAF. Promotes MEK and RAF phosphorylation and activity through
+CC       assembly of an activated signaling complex. By itself, it has no
+CC       demonstrated kinase activity.
+CC   -!- SUBUNIT: Interacts with HSPCA/HSP90, YWHAB/14-3-3, CDC37,
+CC       MAP2K/MEK, MARK3, PPP2R1A and PPP2CA. Also interacts with RAF and
+CC       MAPK/ERK, in a Ras-dependent manner (By similarity). The binding
+CC       of 14-3-3 proteins to phosphorylated KSR prevents the membrane
+CC       localization.
+CC   -!- INTERACTION:
+CC       Q7Z569:BRAP; NbExp=1; IntAct=EBI-486984, EBI-349900;
+CC       Q86Y07:VRK2; NbExp=2; IntAct=EBI-486984, EBI-1207615;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm (By similarity). Membrane;
+CC       Peripheral membrane protein (By similarity). Note=In unstimulated
+CC       cells, where the phosphorylated form is bound to a 14-3-3 protein,
+CC       sequestration in the cytoplasm occurs. Following growth factor
+CC       treatment, the protein is free for membrane translocation, and it
+CC       moves from the cytoplasm to the cell periphery (By similarity).
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=3;
+CC       Name=1;
+CC         IsoId=Q8IVT5-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q8IVT5-2; Sequence=VSP_012230, VSP_012231;
+CC         Note=No experimental confirmation available;
+CC       Name=3;
+CC         IsoId=Q8IVT5-3; Sequence=VSP_012229;
+CC         Note=No experimental confirmation available;
+CC   -!- PTM: Phosphorylated on Ser-309 and, to a higher extent, on Ser-404
+CC       by MARK3. Dephosphorylated on Ser-404 by PPP2CA. In resting cells,
+CC       phosphorylated KSR1 is cytoplasmic and in stimulated cells,
+CC       dephosphorylated KSR1 is membrane-associated (By similarity).
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. TKL Ser/Thr
+CC       protein kinase family.
+CC   -!- SIMILARITY: Contains 1 phorbol-ester/DAG-type zinc finger.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AC069366; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AC015688; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; BC042106; AAH42106.1; -; mRNA.
+DR   EMBL; U43586; AAC50354.1; -; mRNA.
+DR   IPI; IPI00013384; -.
+DR   IPI; IPI00217124; -.
+DR   IPI; IPI00651657; -.
+DR   RefSeq; NP_055053.1; -.
+DR   UniGene; Hs.133534; -.
+DR   ProteinModelPortal; Q8IVT5; -.
+DR   SMR; Q8IVT5; 343-390, 588-878.
+DR   IntAct; Q8IVT5; 11.
+DR   STRING; Q8IVT5; -.
+DR   PhosphoSite; Q8IVT5; -.
+DR   PRIDE; Q8IVT5; -.
+DR   Ensembl; ENST00000268763; ENSP00000268763; ENSG00000141068.
+DR   GeneID; 8844; -.
+DR   KEGG; hsa:8844; -.
+DR   CTD; 8844; -.
+DR   GeneCards; GC17P025799; -.
+DR   H-InvDB; HIX0025516; -.
+DR   H-InvDB; HIX0029273; -.
+DR   H-InvDB; HIX0194754; -.
+DR   H-InvDB; HIX0202633; -.
+DR   HGNC; HGNC:6465; KSR1.
+DR   HPA; CAB009623; -.
+DR   HPA; HPA011215; -.
+DR   MIM; 601132; gene.
+DR   PharmGKB; PA134901167; -.
+DR   eggNOG; prNOG06271; -.
+DR   HOGENOM; HBG714131; -.
+DR   HOVERGEN; HBG052293; -.
+DR   InParanoid; Q8IVT5; -.
+DR   Pathway_Interaction_DB; ceramidepathway; Ceramide signaling pathway.
+DR   NextBio; 33204; -.
+DR   ArrayExpress; Q8IVT5; -.
+DR   Bgee; Q8IVT5; -.
+DR   CleanEx; HS_KSR1; -.
+DR   Genevestigator; Q8IVT5; -.
+DR   GermOnline; ENSG00000141068; Homo sapiens.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; NAS:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005515; F:protein binding; IPI:IntAct.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:InterPro.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; NAS:UniProtKB.
+DR   GO; GO:0007265; P:Ras protein signal transduction; NAS:UniProtKB.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR002219; Prot_Kinase_C-like_PE/DAG-bd.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR001245; Ser-Thr/Tyr-Pkinase.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   Pfam; PF07714; Pkinase_Tyr; 1.
+DR   SMART; SM00109; C1; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+DR   PROSITE; PS00479; ZF_DAG_PE_1; 1.
+DR   PROSITE; PS50081; ZF_DAG_PE_2; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; Complete proteome; Cytoplasm; Membrane;
+KW   Metal-binding; Phosphoprotein; Polymorphism; Zinc; Zinc-finger.
+FT   CHAIN         1    921       Kinase suppressor of Ras 1.
+FT                                /FTId=PRO_0000086229.
+FT   DOMAIN      611    881       Protein kinase.
+FT   ZN_FING     345    389       Phorbol-ester/DAG-type.
+FT   COMPBIAS     17     21       Poly-Gly.
+FT   COMPBIAS    287    290       Poly-Pro.
+FT   METAL       346    346       Zinc 1 (By similarity).
+FT   METAL       358    358       Zinc 2 (By similarity).
+FT   METAL       361    361       Zinc 2 (By similarity).
+FT   METAL       371    371       Zinc 1 (By similarity).
+FT   METAL       374    374       Zinc 1 (By similarity).
+FT   METAL       379    379       Zinc 2 (By similarity).
+FT   METAL       382    382       Zinc 2 (By similarity).
+FT   METAL       389    389       Zinc 1 (By similarity).
+FT   MOD_RES     268    268       Phosphothreonine.
+FT   MOD_RES     272    272       Phosphothreonine.
+FT   MOD_RES     309    309       Phosphoserine.
+FT   MOD_RES     332    332       Phosphoserine.
+FT   MOD_RES     404    404       Phosphoserine.
+FT   MOD_RES     567    567       Phosphoserine.
+FT   VAR_SEQ       1    135       Missing (in isoform 3).
+FT                                /FTId=VSP_012229.
+FT   VAR_SEQ     502    524       VPSAGHCWKCLLIAESLKENAFN -> D (in isoform
+FT                                2).
+FT                                /FTId=VSP_012230.
+FT   VAR_SEQ     897    921       INSSKVVPRFERFGLGVLESSNPKM -> L (in
+FT                                isoform 2).
+FT                                /FTId=VSP_012231.
+FT   VARIANT     225    225       S -> P.
+FT                                /FTId=VAR_040658.
+FT   VARIANT     357    357       V -> A.
+FT                                /FTId=VAR_046048.
+FT   VARIANT     661    661       Q -> H.
+FT                                /FTId=VAR_046049.
+FT   CONFLICT    241    263       FSEGLSDTCIPLHASGRLTPRAL -> EFRHTSALTQHTAH
+FT                                TQHTSAHTQ (in Ref. 3).
+SQ   SEQUENCE   921 AA;  102032 MW;  FBF2E4976215C313 CRC64;
+     MDRAALRAAA MGEKKEGGGG GDAAEGGAGA AASRALQQCG QLQKLIDISI GSLRGLRTKC
+     AVSNDLTQQE IRTLEAKLVR YICKQRQCKL SVAPGERTPE LNSYPRFSDW LYTFNVRPEV
+     VQEIPRDLTL DALLEMNEAK VKETLRRCGA SGDECGRLQY ALTCLRKVTG LGGEHKEDSS
+     WSSLDARRES GSGPSTDTLS AASLPWPPGS SQLGRAGNSA QGPRSISVSA LPASDSPTPS
+     FSEGLSDTCI PLHASGRLTP RALHSFITPP TTPQLRRHTK LKPPRTPPPP SRKVFQLLPS
+     FPTLTRSKSH ESQLGNRIDD VSSMRFDLSH GSPQMVRRDI GLSVTHRFST KSWLSQVCHV
+     CQKSMIFGVK CKHCRLKCHN KCTKEAPACR ISFLPLTRLR RTESVPSDIN NPVDRAAEPH
+     FGTLPKALTK KEHPPAMNHL DSSSNPSSTT SSTPSSPAPF PTSSNPSSAT TPPNPSPGQR
+     DSRFNFPAAY FIHHRQQFIF PVPSAGHCWK CLLIAESLKE NAFNISAFAH AAPLPEAADG
+     TRLDDQPKAD VLEAHEAEAE EPEAGKSEAE DDEDEVDDLP SSRRPWRGPI SRKASQTSVY
+     LQEWDIPFEQ VELGEPIGQG RWGRVHRGRW HGEVAIRLLE MDGHNQDHLK LFKKEVMNYR
+     QTRHENVVLF MGACMNPPHL AIITSFCKGR TLHSFVRDPK TSLDINKTRQ IAQEIIKGMG
+     YLHAKGIVHK DLKSKNVFYD NGKVVITDFG LFGISGVVRE GRRENQLKLS HDWLCYLAPE
+     IVREMTPGKD EDQLPFSKAA DVYAFGTVWY ELQARDWPLK NQAAEASIWQ IGSGEGMKRV
+     LTSVSLGKEV SEILSACWAF DLQERPSFSL LMDMLEKLPK LNRRLSHPGH FWKSAEINSS
+     KVVPRFERFG LGVLESSNPK M
+//

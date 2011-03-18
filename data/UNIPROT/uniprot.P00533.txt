@@ -1,0 +1,1134 @@
+ID   EGFR_HUMAN              Reviewed;        1210 AA.
+AC   P00533; O00688; O00732; P06268; Q14225; Q68GS5; Q92795; Q9BZS2;
+AC   Q9GZX1; Q9H2C9; Q9H3C9; Q9UMD7; Q9UMD8; Q9UMG5;
+DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1997, sequence version 2.
+DT   05-OCT-2010, entry version 165.
+DE   RecName: Full=Epidermal growth factor receptor;
+DE            EC=2.7.10.1;
+DE   AltName: Full=Proto-oncogene c-ErbB-1;
+DE   AltName: Full=Receptor tyrosine-protein kinase erbB-1;
+DE   Flags: Precursor;
+GN   Name=EGFR; Synonyms=ERBB1;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RX   MEDLINE=84219729; PubMed=6328312; DOI=10.1038/309418a0;
+RA   Ullrich A., Coussens L., Hayflick J.S., Dull T.J., Gray A., Tam A.W.,
+RA   Lee J., Yarden Y., Libermann T.A., Schlessinger J., Downward J.,
+RA   Mayes E.L.V., Whittle N., Waterfield M.D., Seeburg P.H.;
+RT   "Human epidermal growth factor receptor cDNA sequence and aberrant
+RT   expression of the amplified gene in A431 epidermoid carcinoma cells.";
+RL   Nature 309:418-425(1984).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2).
+RC   TISSUE=Placenta;
+RX   MEDLINE=95382957; PubMed=7654368; DOI=10.1002/mrd.1080410205;
+RA   Ilekis J.V., Stark B.C., Scoccia B.;
+RT   "Possible role of variant RNA transcripts in the regulation of
+RT   epidermal growth factor receptor expression in human placenta.";
+RL   Mol. Reprod. Dev. 41:149-156(1995).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA] (ISOFORM 2).
+RC   TISSUE=Placenta;
+RX   MEDLINE=97078686; PubMed=8918811; DOI=10.1093/nar/24.20.4050;
+RA   Reiter J.L., Maihle N.J.;
+RT   "A 1.8 kb alternative transcript from the human epidermal growth
+RT   factor receptor gene encodes a truncated form of the receptor.";
+RL   Nucleic Acids Res. 24:4050-4056(1996).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE (ISOFORM 2).
+RC   TISSUE=Placenta;
+RX   MEDLINE=97256547; PubMed=9103388; DOI=10.1006/gyno.1996.4526;
+RA   Ilekis J.V., Gariti J., Niederberger C., Scoccia B.;
+RT   "Expression of a truncated epidermal growth factor receptor-like
+RT   protein (TEGFR) in ovarian cancer.";
+RL   Gynecol. Oncol. 65:36-41(1997).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA] (ISOFORMS 3 AND 4).
+RC   TISSUE=Placenta;
+RX   MEDLINE=21100872; PubMed=11161793; DOI=10.1006/geno.2000.6341;
+RA   Reiter J.L., Threadgill D.W., Eley G.D., Strunk K.E., Danielsen A.J.,
+RA   Schehl Sinclair C., Pearsall R.S., Green P.J., Yee D., Lampland A.L.,
+RA   Balasubramaniam S., Crossley T.D., Magnuson T.R., James C.D.,
+RA   Maihle N.J.;
+RT   "Comparative genomic sequence analysis and isolation of human and
+RT   mouse alternative EGFR transcripts encoding truncated receptor
+RT   isoforms.";
+RL   Genomics 71:1-20(2001).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2).
+RA   Xu L., Hong A., He X.;
+RT   "Cloning of the cDNA for a short EGF receptor from human placenta.";
+RL   Submitted (JUL-2004) to the EMBL/GenBank/DDBJ databases.
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND VARIANTS GLN-98; ARG-266;
+RP   LYS-521; ILE-674; GLY-962 AND PRO-988.
+RG   NIEHS SNPs program;
+RL   Submitted (APR-2004) to the EMBL/GenBank/DDBJ databases.
+RN   [8]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 575-687.
+RA   Reiter J.L., Threadgill D.W., Danielsen A.J., Schehl C.M.,
+RA   Lampland A.L., Balasubramaniam S., Crossley T.O., Magnuson T.R.,
+RA   Maihle N.J.;
+RT   "Human and mouse alternative EGFR transcripts encoding only the
+RT   extracellular domain of the receptor.";
+RL   Submitted (FEB-1999) to the EMBL/GenBank/DDBJ databases.
+RN   [9]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 713-924.
+RX   MEDLINE=84196372; PubMed=6326261; DOI=10.1126/science.6326261;
+RA   Lin C.R., Chen W.S., Kruiger W., Stolarsky L.S., Weber W., Evans R.M.,
+RA   Verma I.M., Gill G.N., Rosenfeld M.G.;
+RT   "Expression cloning of human EGF receptor complementary DNA: gene
+RT   amplification and three related messenger RNA products in A431
+RT   cells.";
+RL   Science 224:843-848(1984).
+RN   [10]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 150-962.
+RX   MEDLINE=84245835; PubMed=6330563; DOI=10.1038/309806a0;
+RA   Xu Y.H., Ishii S., Clark A.J.L., Sullivan M., Wilson R.K., Ma D.P.,
+RA   Roe B.A., Merlino G.T., Pastan I.;
+RT   "Human epidermal growth factor receptor cDNA is homologous to a
+RT   variety of RNAs overproduced in A431 carcinoma cells.";
+RL   Nature 309:806-810(1984).
+RN   [11]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 1028-1210.
+RX   MEDLINE=85046483; PubMed=6093780;
+RA   Simmen F.A., Gope M.L., Schulz T.Z., Wright D.A., Carpenter G.,
+RA   O'Malley B.W.;
+RT   "Isolation of an evolutionarily conserved epidermal growth factor
+RT   receptor cDNA from human A431 carcinoma cells.";
+RL   Biochem. Biophys. Res. Commun. 124:125-132(1984).
+RN   [12]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-29.
+RX   MEDLINE=88217333; PubMed=3329716;
+RA   Haley J.D., Whittle N., Bennett P., Kinchington D., Ullrich A.,
+RA   Waterfield M.D.;
+RT   "The human EGF receptor gene: structure of the 110 kb locus and
+RT   identification of sequences regulating its transcription.";
+RL   Oncogene Res. 1:375-396(1987).
+RN   [13]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-29.
+RX   MEDLINE=91107677; PubMed=1988448;
+RA   Haley J.D., Waterfield M.D.;
+RT   "Contributory effects of de novo transcription and premature
+RT   transcript termination in the regulation of human epidermal growth
+RT   factor receptor proto-oncogene RNA synthesis.";
+RL   J. Biol. Chem. 266:1746-1753(1991).
+RN   [14]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-29.
+RX   MEDLINE=85270438; PubMed=2991899; DOI=10.1073/pnas.82.15.4920;
+RA   Ishii S., Xu Y.H., Stratton R.H., Roe B.A., Merlino G.T., Pastan I.;
+RT   "Characterization and sequence of the promoter region of the human
+RT   epidermal growth factor receptor gene.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 82:4920-4924(1985).
+RN   [15]
+RP   NUCLEOTIDE SEQUENCE OF 25-49.
+RX   MEDLINE=84172183; PubMed=6324343; DOI=10.1126/science.6324343;
+RA   Weber W., Gill G.N., Spiess J.;
+RT   "Production of an epidermal growth factor receptor-related protein.";
+RL   Science 224:294-297(1984).
+RN   [16]
+RP   PROTEIN SEQUENCE OF 540.
+RA   Kohda D.;
+RL   Submitted (SEP-1997) to UniProtKB.
+RN   [17]
+RP   PROTEIN SEQUENCE OF 687-705; 986-998; 1000-1023; 1026-1030 AND
+RP   1068-1077, AND PHOSPHORYLATION AT THR-693; SER-695; SER-1070 AND
+RP   SER-1071.
+RX   MEDLINE=88330814; PubMed=3138233;
+RA   Heisermann G.J., Gill G.N.;
+RT   "Epidermal growth factor receptor threonine and serine residues
+RT   phosphorylated in vivo.";
+RL   J. Biol. Chem. 263:13152-13158(1988).
+RN   [18]
+RP   PROTEIN SEQUENCE OF 25-39.
+RX   PubMed=15340161; DOI=10.1110/ps.04682504;
+RA   Zhang Z., Henzel W.J.;
+RT   "Signal peptide prediction based on analysis of experimentally
+RT   verified cleavage sites.";
+RL   Protein Sci. 13:2819-2824(2004).
+RN   [19]
+RP   PROTEIN SEQUENCE OF 740-744 AND 746-747.
+RX   MEDLINE=85182650; PubMed=2985580;
+RA   Russo M.W., Lukas T.J., Cohen S., Staros J.V.;
+RT   "Identification of residues in the nucleotide binding site of the
+RT   epidermal growth factor receptor/kinase.";
+RL   J. Biol. Chem. 260:5205-5208(1985).
+RN   [20]
+RP   PROTEIN SEQUENCE OF 861-875 AND 914-932, UBIQUITINATION AT LYS-716;
+RP   LYS-737; LYS-754; LYS-867; LYS-929 AND LYS-970, AND MASS SPECTROMETRY.
+RX   PubMed=16543144; DOI=10.1016/j.molcel.2006.02.018;
+RA   Huang F., Kirkpatrick D., Jiang X., Gygi S.P., Sorkin A.;
+RT   "Differential regulation of EGF receptor internalization and
+RT   degradation by multiubiquitination within the kinase domain.";
+RL   Mol. Cell 21:737-748(2006).
+RN   [21]
+RP   PARTIAL PROTEIN SEQUENCE, AND DISULFIDE BONDS.
+RX   MEDLINE=98225196; PubMed=9556602; DOI=10.1074/jbc.273.18.11150;
+RA   Abe Y., Odaka M., Inagaki F., Lax I., Schlessinger J., Kohda D.;
+RT   "Disulfide bond structure of human epidermal growth factor receptor.";
+RL   J. Biol. Chem. 273:11150-11157(1998).
+RN   [22]
+RP   RECEPTOR ACTIVITY.
+RX   MEDLINE=84191554; PubMed=6325948; DOI=10.1038/309270a0;
+RA   Mroczkowski B., Mosig G., Cohen S.;
+RT   "ATP-stimulated interaction between epidermal growth factor receptor
+RT   and supercoiled DNA.";
+RL   Nature 309:270-273(1984).
+RN   [23]
+RP   REVIEW.
+RX   MEDLINE=87297456; PubMed=3039909;
+RX   DOI=10.1146/annurev.bi.56.070187.004313;
+RA   Carpenter G.;
+RT   "Receptors for epidermal growth factor and other polypeptide
+RT   mitogens.";
+RL   Annu. Rev. Biochem. 56:881-914(1987).
+RN   [24]
+RP   LIGAND-BINDING.
+RX   MEDLINE=90003233; PubMed=2790960; DOI=10.1016/0092-8674(89)90867-2;
+RA   Chen W.S., Lazar C.S., Lund K.A., Welsh J.B., Chang C.P., Walton G.M.,
+RA   Der C.J., Wiley H.S., Gill G.N., Rosenfeld M.G.;
+RT   "Functional independence of the epidermal growth factor receptor from
+RT   a domain required for ligand-induced internalization and calcium
+RT   regulation.";
+RL   Cell 59:33-43(1989).
+RN   [25]
+RP   PHOSPHORYLATION.
+RX   MEDLINE=89278137; PubMed=2543678;
+RA   Margolis B.L., Lax I., Kris R., Dombalagian M., Honegger A.M.,
+RA   Howk R., Givol D., Ullrich A., Schlessinger J.;
+RT   "All autophosphorylation sites of epidermal growth factor (EGF)
+RT   receptor and HER2/neu are located in their carboxyl-terminal tails.
+RT   Identification of a novel site in EGF receptor.";
+RL   J. Biol. Chem. 264:10667-10671(1989).
+RN   [26]
+RP   INTERACTION WITH CBL.
+RX   PubMed=7657591; DOI=10.1074/jbc.270.35.20242;
+RA   Galisteo M.L., Dikic I., Batzer A.G., Langdon W.Y., Schlessinger J.;
+RT   "Tyrosine phosphorylation of the c-cbl proto-oncogene protein product
+RT   and association with epidermal growth factor (EGF) receptor upon EGF
+RT   stimulation.";
+RL   J. Biol. Chem. 270:20242-20245(1995).
+RN   [27]
+RP   GLYCOSYLATION AT ASN-128; ASN-175; ASN-413; ASN-444 AND ASN-528.
+RX   MEDLINE=96398132; PubMed=8962717;
+RA   Smith K.D., Davies M.J., Bailey D., Renouf D.V., Hounsell E.F.;
+RT   "Analysis of the glycosylation patterns of the extracellular domain of
+RT   the epidermal growth factor receptor expressed in Chinese hamster
+RT   ovary fibroblasts.";
+RL   Growth Factors 13:121-132(1996).
+RN   [28]
+RP   INTERACTION WITH AP2M1.
+RX   PubMed=10228163; DOI=10.1093/emboj/18.9.2489;
+RA   Nesterov A., Carter R.E., Sorkina T., Gill G.N., Sorkin A.;
+RT   "Inhibition of the receptor-binding function of clathrin adaptor
+RT   protein AP-2 by dominant-negative mutant mu2 subunit and its effects
+RT   on endocytosis.";
+RL   EMBO J. 18:2489-2499(1999).
+RN   [29]
+RP   GLYCOSYLATION AT ASN-56; ASN-352; ASN-361; ASN-568 AND ASN-603.
+RX   MEDLINE=20198209; PubMed=10731668;
+RA   Sato C., Kim J.-H., Abe Y., Saito K., Yokoyama S., Kohda D.;
+RT   "Characterization of the N-oligosaccharides attached to the atypical
+RT   Asn-X-Cys sequence of recombinant human epidermal growth factor
+RT   receptor.";
+RL   J. Biochem. 127:65-72(2000).
+RN   [30]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-693, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=15302935; DOI=10.1073/pnas.0404720101;
+RA   Beausoleil S.A., Jedrychowski M., Schwartz D., Elias J.E., Villen J.,
+RA   Li J., Cohn M.A., Cantley L.C., Gygi S.P.;
+RT   "Large-scale characterization of HeLa cell nuclear phosphoproteins.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:12130-12135(2004).
+RN   [31]
+RP   IDENTIFICATION IN A COMPLEX WITH PIK3C2A AND ERBB2, IDENTIFICATION IN
+RP   A COMPLEX WITH PIK3C2B AND ERBB2, INTERACTION WITH PIK3C2B, AND
+RP   MUTAGENESIS OF TYR-1016; TYR-1092; TYR-1110; TYR-1172 AND TYR-1197.
+RX   PubMed=10805725; DOI=10.1128/MCB.20.11.3817-3830.2000;
+RA   Arcaro A., Zvelebil M.J., Wallasch C., Ullrich A., Waterfield M.D.,
+RA   Domin J.;
+RT   "Class II phosphoinositide 3-kinases are downstream targets of
+RT   activated polypeptide growth factor receptors.";
+RL   Mol. Cell. Biol. 20:3817-3830(2000).
+RN   [32]
+RP   INTERACTION WITH RIPK1.
+RX   MEDLINE=21153697; PubMed=11116146; DOI=10.1074/jbc.M008458200;
+RA   Habib A.A., Chatterjee S., Park S.-K., Ratan R.R., Lefebvre S.,
+RA   Vartanian T.;
+RT   "The epidermal growth factor receptor engages receptor interacting
+RT   protein and nuclear factor-kappa B (NF-kappa B)-inducing kinase to
+RT   activate NF-kappa B. Identification of a novel receptor-tyrosine
+RT   kinase signalosome.";
+RL   J. Biol. Chem. 276:8865-8874(2001).
+RN   [33]
+RP   INTERACTION WITH MUC1, AND FUNCTION.
+RX   PubMed=11483589; DOI=10.1074/jbc.C100359200;
+RA   Li Y., Ren J., Yu W., Li Q., Kuwahara H., Yin L., Carraway K.L. III,
+RA   Kufe D.;
+RT   "The epidermal growth factor receptor regulates interaction of the
+RT   human DF3/MUC1 carcinoma antigen with c-Src and beta-catenin.";
+RL   J. Biol. Chem. 276:35239-35242(2001).
+RN   [34]
+RP   GLYCOSYLATION AT ASN-56; ASN-128; ASN-175; ASN-196; ASN-352; ASN-361;
+RP   ASN-413; ASN-444; ASN-528; ASN-568 AND ASN-603, PHOSPHORYLATION AT
+RP   THR-693; SER-991 AND SER-1026, AND MASS SPECTROMETRY.
+RX   PubMed=16083266; DOI=10.1021/pr050113n;
+RA   Wu S.L., Kim J., Hancock W.S., Karger B.;
+RT   "Extended Range Proteomic Analysis (ERPA): a new and sensitive LC-MS
+RT   platform for high sequence coverage of complex proteins with extensive
+RT   post-translational modifications-comprehensive analysis of beta-casein
+RT   and epidermal growth factor receptor (EGFR).";
+RL   J. Proteome Res. 4:1155-1170(2005).
+RN   [35]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-998; TYR-1069; TYR-1092;
+RP   SER-1166 AND TYR-1172, AND MASS SPECTROMETRY.
+RC   TISSUE=Mammary epithelium;
+RX   PubMed=15951569; DOI=10.1074/mcp.M500089-MCP200;
+RA   Zhang Y., Wolf-Yadlin A., Ross P.L., Pappin D.J., Rush J.,
+RA   Lauffenburger D.A., White F.M.;
+RT   "Time-resolved mass spectrometry of tyrosine phosphorylation sites in
+RT   the epidermal growth factor receptor signaling network reveals dynamic
+RT   modules.";
+RL   Mol. Cell. Proteomics 4:1240-1250(2005).
+RN   [36]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-978, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Hepatoma;
+RX   PubMed=16097034; DOI=10.1002/pmic.200401217;
+RA   Gevaert K., Staes A., Van Damme J., De Groot S., Hugelier K.,
+RA   Demol H., Martens L., Goethals M., Vandekerckhove J.;
+RT   "Global phosphoproteome analysis on human HepG2 hepatocytes using
+RT   reversed-phase diagonal LC.";
+RL   Proteomics 5:3589-3599(2005).
+RN   [37]
+RP   INTERACTION WITH PELP1.
+RX   PubMed=16140940; DOI=10.1158/0008-5472.CAN-05-0614;
+RA   Vadlamudi R.K., Manavathi B., Balasenthil S., Nair S.S., Yang Z.,
+RA   Sahin A.A., Kumar R.;
+RT   "Functional implications of altered subcellular localization of PELP1
+RT   in breast cancer cells.";
+RL   Cancer Res. 65:7724-7732(2005).
+RN   [38]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-693; SER-991; SER-995;
+RP   TYR-998; SER-1064; TYR-1069; TYR-1092; TYR-1110; TYR-1138; TYR-1172
+RP   AND TYR-1197, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=17081983; DOI=10.1016/j.cell.2006.09.026;
+RA   Olsen J.V., Blagoev B., Gnad F., Macek B., Kumar C., Mortensen P.,
+RA   Mann M.;
+RT   "Global, in vivo, and site-specific phosphorylation dynamics in
+RT   signaling networks.";
+RL   Cell 127:635-648(2006).
+RN   [39]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-869; TYR-1092; TYR-1172
+RP   AND TYR-1197, AND MASS SPECTROMETRY.
+RC   TISSUE=Lung carcinoma;
+RX   PubMed=18083107; DOI=10.1016/j.cell.2007.11.025;
+RA   Rikova K., Guo A., Zeng Q., Possemato A., Yu J., Haack H., Nardone J.,
+RA   Lee K., Reeves C., Li Y., Hu Y., Tan Z., Stokes M., Sullivan L.,
+RA   Mitchell J., Wetzel R., Macneill J., Ren J.M., Yuan J.,
+RA   Bakalarski C.E., Villen J., Kornhauser J.M., Smith B., Li D., Zhou X.,
+RA   Gygi S.P., Gu T.-L., Polakiewicz R.D., Rush J., Comb M.J.;
+RT   "Global survey of phosphotyrosine signaling identifies oncogenic
+RT   kinases in lung cancer.";
+RL   Cell 131:1190-1203(2007).
+RN   [40]
+RP   TISSUE SPECIFICITY.
+RX   PubMed=17671655; DOI=10.1172/JCI31680;
+RA   Groenestege W.M.T., Thebault S., van der Wijst J., van den Berg D.,
+RA   Janssen R., Tejpar S., van den Heuvel L.P., van Cutsem E.,
+RA   Hoenderop J.G., Knoers N.V., Bindels R.J.;
+RT   "Impaired basolateral sorting of pro-EGF causes isolated recessive
+RT   renal hypomagnesemia.";
+RL   J. Clin. Invest. 117:2260-2267(2007).
+RN   [41]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-693, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=17192257; DOI=10.1074/mcp.T600062-MCP200;
+RA   Wissing J., Jaensch L., Nimtz M., Dieterich G., Hornberger R.,
+RA   Keri G., Wehland J., Daub H.;
+RT   "Proteomics analysis of protein kinases by target class-selective
+RT   prefractionation and tandem mass spectrometry.";
+RL   Mol. Cell. Proteomics 6:537-547(2007).
+RN   [42]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-991; TYR-998; SER-1166;
+RP   TYR-1069; TYR-1172 AND TYR-1197, AND MASS SPECTROMETRY.
+RC   TISSUE=Mammary epithelium;
+RX   PubMed=17389395; DOI=10.1073/pnas.0608638104;
+RA   Wolf-Yadlin A., Hautaniemi S., Lauffenburger D.A., White F.M.;
+RT   "Multiple reaction monitoring for robust quantitative proteomic
+RT   analysis of cellular signaling networks.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 104:5860-5865(2007).
+RN   [43]
+RP   INTERACTION WITH GAB2.
+RX   PubMed=19172738; DOI=10.1038/emboj.2008.159;
+RA   Brummer T., Larance M., Herrera Abreu M.T., Lyons R.J., Timpson P.,
+RA   Emmerich C.H., Fleuren E.D.G., Lehrbach G.M., Schramek D.,
+RA   Guilhaus M., James D.E., Daly R.J.;
+RT   "Phosphorylation-dependent binding of 14-3-3 terminates signalling by
+RT   the Gab2 docking protein.";
+RL   EMBO J. 27:2305-2316(2008).
+RN   [44]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-693 AND SER-991, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18220336; DOI=10.1021/pr0705441;
+RA   Cantin G.T., Yi W., Lu B., Park S.K., Xu T., Lee J.-D.,
+RA   Yates J.R. III;
+RT   "Combining protein-based IMAC, peptide-based IMAC, and MudPIT for
+RT   efficient phosphoproteomic analysis.";
+RL   J. Proteome Res. 7:1346-1351(2008).
+RN   [45]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-693; SER-695; THR-725;
+RP   SER-991; SER-1025; SER-1026; SER-1037; SER-1039; SER-1042; SER-1064;
+RP   SER-1081; SER-1166 AND TYR-1197, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [46]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-693; SER-695; SER-991;
+RP   THR-993; SER-995; TYR-998; SER-1039; THR-1041; SER-1042; SER-1045;
+RP   SER-1064 AND SER-1166, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [47]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RA   Colinge J., Superti-Furga G., Bennett K.L.;
+RL   Submitted (OCT-2008) to UniProtKB.
+RN   [48]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-693, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Embryonic kidney;
+RX   PubMed=19413330; DOI=10.1021/ac9004309;
+RA   Gauci S., Helbig A.O., Slijper M., Krijgsveld J., Heck A.J.,
+RA   Mohammed S.;
+RT   "Lys-N and trypsin cover complementary parts of the phosphoproteome in
+RT   a refined SCX-based approach.";
+RL   Anal. Chem. 81:4493-4501(2009).
+RN   [49]
+RP   GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-352; ASN-413 AND ASN-568,
+RP   AND MASS SPECTROMETRY.
+RC   TISSUE=Liver;
+RX   PubMed=19159218; DOI=10.1021/pr8008012;
+RA   Chen R., Jiang X., Sun D., Han G., Wang F., Ye M., Wang L., Zou H.;
+RT   "Glycoproteomics analysis of human liver tissue by combination of
+RT   multiple enzyme digestion and hydrazide chemistry.";
+RL   J. Proteome Res. 8:651-661(2009).
+RN   [50]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-998; TYR-1016; TYR-1092;
+RP   TYR-1110; TYR-1138; TYR-1172 AND TYR-1197, AND MASS SPECTROMETRY.
+RC   TISSUE=Mammary epithelium;
+RX   PubMed=19534553; DOI=10.1021/pr900044c;
+RA   Heibeck T.H., Ding S.-J., Opresko L.K., Zhao R., Schepmoes A.A.,
+RA   Yang F., Tolmachev A.V., Monroe M.E., Camp D.G. II, Smith R.D.,
+RA   Wiley H.S., Qian W.-J.;
+RT   "An extensive survey of tyrosine phosphorylation revealing new sites
+RT   in human mammary epithelial cells.";
+RL   J. Proteome Res. 8:3852-3861(2009).
+RN   [51]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-693, AND MASS
+RP   SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [52]
+RP   VARIANTS LUNG CANCER SER-719 AND ARG-858.
+RX   PubMed=15118125; DOI=10.1126/science.1099314;
+RA   Paez J.G., Janne P.A., Lee J.C., Tracy S., Greulich H., Gabriel S.,
+RA   Herman P., Kaye F.J., Lindeman N., Boggon T.J., Naoki K., Sasaki H.,
+RA   Fujii Y., Eck M.J., Sellers W.R., Johnson B.E., Meyerson M.;
+RT   "EGFR mutations in lung cancer: correlation with clinical response to
+RT   gefitinib therapy.";
+RL   Science 304:1497-1500(2004).
+RN   [53]
+RP   VARIANTS LUNG CANCER ALA-709; LYS-709; ALA-719; ASP-719; CYS-719;
+RP   SER-719; SER-724; LYS-734; GLU-746 DEL; PHE-747; 747-LEU--GLU-749 DEL;
+RP   PRO-748; 752-SER--ILE-759 DEL; ARG-787; MET-790; VAL-833; LEU-834;
+RP   MET-858; ARG-858; GLN-861 AND GLU-873.
+RX   PubMed=16533793; DOI=10.1158/1078-0432.CCR-05-1981;
+RA   Tam I.Y.S., Chung L.P., Suen W.S., Wang E., Wong M.C.M., Ho K.K.,
+RA   Lam W.K., Chiu S.W., Girard L., Minna J.D., Gazdar A.F., Wong M.P.;
+RT   "Distinct epidermal growth factor receptor and KRAS mutation patterns
+RT   in non-small cell lung cancer patients with different tobacco exposure
+RT   and clinicopathologic features.";
+RL   Clin. Cancer Res. 12:1647-1653(2006).
+RN   [54]
+RP   VARIANTS [LARGE SCALE ANALYSIS] LYS-521; ARG-1034 AND VAL-1210.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Receptor for EGF, but also for other members of the EGF
+CC       family, as TGF-alpha, amphiregulin, betacellulin, heparin-binding
+CC       EGF-like growth factor, GP30 and vaccinia virus growth factor. Is
+CC       involved in the control of cell growth and differentiation.
+CC       Phosphorylates MUC1 in breast cancer cells and increases the
+CC       interaction of MUC1 with SRC and CTNNB1/beta-catenin.
+CC   -!- FUNCTION: Isoform 2 may act as an antagonist of EGF action.
+CC   -!- CATALYTIC ACTIVITY: ATP + a [protein]-L-tyrosine = ADP + a
+CC       [protein]-L-tyrosine phosphate.
+CC   -!- SUBUNIT: Binds RIPK1. Interacts (via autophosphorylated C-terminal
+CC       tail) with CBL. Part of a complex with ERBB2 and either PIK3C2A or
+CC       PIK3C2B. Interacts (autophosphorylated form) with PIK3C2B; the
+CC       interaction may be indirect. Interacts with PELP1. Binds MUC1.
+CC       Interacts with AP2M1. Interacts with GAB2.
+CC   -!- INTERACTION:
+CC       Self; NbExp=3; IntAct=EBI-297353, EBI-297353;
+CC       Q29376:- (xeno); NbExp=1; IntAct=EBI-297353, EBI-1256881;
+CC       P62157:CALM (xeno); NbExp=1; IntAct=EBI-297353, EBI-397403;
+CC       P62158:CALM1; NbExp=1; IntAct=EBI-297353, EBI-397435;
+CC       P62161:Calm1 (xeno); NbExp=2; IntAct=EBI-297353, EBI-397530;
+CC       P62204:Calm1 (xeno); NbExp=1; IntAct=EBI-297353, EBI-397460;
+CC       P22681:CBL; NbExp=1; IntAct=EBI-297353, EBI-518228;
+CC       P22682:Cbl (xeno); NbExp=1; IntAct=EBI-297353, EBI-640919;
+CC       P13987:CD59; NbExp=1; IntAct=EBI-297353, EBI-297972;
+CC       P01133:EGF; NbExp=2; IntAct=EBI-297353, EBI-640857;
+CC       P04626:ERBB2; NbExp=2; IntAct=EBI-297353, EBI-641062;
+CC       P21860:ERBB3; NbExp=2; IntAct=EBI-297353, EBI-720706;
+CC       Q15303:ERBB4; NbExp=2; IntAct=EBI-297353, EBI-80371;
+CC       P62993:GRB2; NbExp=2; IntAct=EBI-297353, EBI-401755;
+CC       O00750:PIK3C2B; NbExp=4; IntAct=EBI-297353, EBI-641107;
+CC       P23467:PTPRB; NbExp=1; IntAct=EBI-297353, EBI-1265766;
+CC       P08575:PTPRC; NbExp=1; IntAct=EBI-297353, EBI-1341;
+CC       Q12913:PTPRJ; NbExp=1; IntAct=EBI-297353, EBI-2264500;
+CC       Q9UJ41:RABGEF1; NbExp=2; IntAct=EBI-297353, EBI-913954;
+CC       Q13671:RIN1; NbExp=1; IntAct=EBI-297353, EBI-366017;
+CC       P98083:Shc1 (xeno); NbExp=1; IntAct=EBI-297353, EBI-300201;
+CC       P13866:SLC5A1; NbExp=3; IntAct=EBI-297353, EBI-1772443;
+CC       Q8K424:Trpv3 (xeno); NbExp=2; IntAct=EBI-297353, EBI-2650739;
+CC       P63104:YWHAZ; NbExp=1; IntAct=EBI-297353, EBI-347088;
+CC   -!- SUBCELLULAR LOCATION: Cell membrane; Single-pass type I membrane
+CC       protein.
+CC   -!- SUBCELLULAR LOCATION: Isoform 2: Secreted.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=4;
+CC       Name=1; Synonyms=p170;
+CC         IsoId=P00533-1; Sequence=Displayed;
+CC       Name=2; Synonyms=p60, Truncated, TEGFR;
+CC         IsoId=P00533-2; Sequence=VSP_002887, VSP_002888;
+CC       Name=3; Synonyms=p110;
+CC         IsoId=P00533-3; Sequence=VSP_002889, VSP_002890;
+CC       Name=4;
+CC         IsoId=P00533-4; Sequence=VSP_002891, VSP_002892;
+CC   -!- TISSUE SPECIFICITY: Ubiquitously expressed. Isoform 2 is also
+CC       expressed in ovarian cancers.
+CC   -!- PTM: Phosphorylation of Ser-695 is partial and occurs only if Thr-
+CC       693 is phosphorylated.
+CC   -!- PTM: Monoubiquitinated and polyubiquitinated upon EGF stimulation;
+CC       which does not affect tyrosine kinase activity or signaling
+CC       capacity but may play a role in lysosomal targeting. Polyubiquitin
+CC       linkage is mainly through 'Lys-63', but linkage through 'Lys-48',
+CC       'Lys-11' and 'Lys-29' also occur.
+CC   -!- DISEASE: Defects in EGFR are associated with lung cancer
+CC       [MIM:211980].
+CC   -!- MISCELLANEOUS: Binding of EGF to the receptor leads to
+CC       dimerization, internalization of the EGF-receptor complex,
+CC       induction of the tyrosine kinase activity, stimulation of cell DNA
+CC       synthesis, and cell proliferation.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Tyr protein
+CC       kinase family. EGF receptor subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- WEB RESOURCE: Name=GeneReviews;
+CC       URL="http://www.ncbi.nlm.nih.gov/sites/GeneTests/lab/gene/EGFR";
+CC   -!- WEB RESOURCE: Name=NIEHS-SNPs;
+CC       URL="http://egp.gs.washington.edu/data/egfr/";
+CC   -!- WEB RESOURCE: Name=Wikipedia; Note=EGFR entry;
+CC       URL="http://en.wikipedia.org/wiki/Epidermal_growth_factor_receptor";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X00588; CAA25240.1; -; mRNA.
+DR   EMBL; U95089; AAB53063.1; -; mRNA.
+DR   EMBL; U48722; AAC50802.1; -; mRNA.
+DR   EMBL; U48723; AAC50804.1; -; Genomic_DNA.
+DR   EMBL; U48724; AAC50796.1; -; Genomic_DNA.
+DR   EMBL; U48725; AAC50797.1; -; Genomic_DNA.
+DR   EMBL; U48726; AAC50798.1; -; Genomic_DNA.
+DR   EMBL; U48727; AAC50799.1; -; Genomic_DNA.
+DR   EMBL; U48728; AAC50800.1; -; Genomic_DNA.
+DR   EMBL; U48729; AAC50801.1; -; Genomic_DNA.
+DR   EMBL; AF288738; AAG35786.1; -; Genomic_DNA.
+DR   EMBL; AF288738; AAG35787.1; -; Genomic_DNA.
+DR   EMBL; AF288738; AAG35788.1; -; Genomic_DNA.
+DR   EMBL; AF288738; AAG35789.1; -; Genomic_DNA.
+DR   EMBL; AF288738; AAG35790.1; -; Genomic_DNA.
+DR   EMBL; AY698024; AAT97979.1; -; mRNA.
+DR   EMBL; AY588246; AAS83109.1; -; Genomic_DNA.
+DR   EMBL; AF277897; AAK01080.1; -; mRNA.
+DR   EMBL; AF125253; AAG43240.1; -; mRNA.
+DR   EMBL; AF125539; AAG43243.1; -; Genomic_DNA.
+DR   EMBL; AF125538; AAG43243.1; JOINED; Genomic_DNA.
+DR   EMBL; X06370; CAA29668.1; -; Genomic_DNA.
+DR   EMBL; X00663; CAA25282.1; -; mRNA.
+DR   EMBL; M38425; AAA63171.1; -; Genomic_DNA.
+DR   EMBL; M11234; AAA52370.1; -; Genomic_DNA.
+DR   IPI; IPI00018274; -.
+DR   IPI; IPI00221346; -.
+DR   IPI; IPI00221347; -.
+DR   IPI; IPI00221348; -.
+DR   PIR; A00641; GQHUE.
+DR   RefSeq; NP_005219.2; -.
+DR   RefSeq; NP_958439.1; -.
+DR   RefSeq; NP_958440.1; -.
+DR   RefSeq; NP_958441.1; -.
+DR   UniGene; Hs.488293; -.
+DR   PDB; 1DNQ; Model; -; A=25-336.
+DR   PDB; 1DNR; Model; -; A=337-645.
+DR   PDB; 1IVO; X-ray; 3.30 A; A/B=25-646.
+DR   PDB; 1M14; X-ray; 2.60 A; A=695-1022.
+DR   PDB; 1M17; X-ray; 2.60 A; A=695-1022.
+DR   PDB; 1MOX; X-ray; 2.50 A; A/B=25-525.
+DR   PDB; 1NQL; X-ray; 2.80 A; A=25-642.
+DR   PDB; 1XKK; X-ray; 2.40 A; A=695-1022.
+DR   PDB; 1YY9; X-ray; 2.60 A; A=25-642.
+DR   PDB; 1Z9I; NMR; -; A=669-721.
+DR   PDB; 2EB2; X-ray; 2.50 A; A=695-1022.
+DR   PDB; 2EB3; X-ray; 2.84 A; A=695-1022.
+DR   PDB; 2EXP; Model; -; A=311-326.
+DR   PDB; 2EXQ; Model; -; A=27-536.
+DR   PDB; 2GS2; X-ray; 2.80 A; A=696-1022.
+DR   PDB; 2GS6; X-ray; 2.60 A; A=696-1022.
+DR   PDB; 2GS7; X-ray; 2.60 A; A/B=696-1022.
+DR   PDB; 2ITN; X-ray; 2.47 A; A=696-1019.
+DR   PDB; 2ITO; X-ray; 3.25 A; A=696-1022.
+DR   PDB; 2ITP; X-ray; 2.74 A; A=696-1022.
+DR   PDB; 2ITQ; X-ray; 2.68 A; A=696-1022.
+DR   PDB; 2ITT; X-ray; 2.73 A; A=696-1022.
+DR   PDB; 2ITU; X-ray; 2.80 A; A=696-1022.
+DR   PDB; 2ITV; X-ray; 2.47 A; A=696-1022.
+DR   PDB; 2ITW; X-ray; 2.88 A; A=696-1022.
+DR   PDB; 2ITX; X-ray; 2.98 A; A=696-1022.
+DR   PDB; 2ITY; X-ray; 3.42 A; A=696-1022.
+DR   PDB; 2ITZ; X-ray; 2.72 A; A=696-1022.
+DR   PDB; 2J5E; X-ray; 3.10 A; A=696-1022.
+DR   PDB; 2J5F; X-ray; 3.00 A; A=696-1022.
+DR   PDB; 2J6M; X-ray; 3.10 A; A=696-1022.
+DR   PDB; 2JIT; X-ray; 3.10 A; A/B=696-1022.
+DR   PDB; 2JIU; X-ray; 3.05 A; A/B=695-1022.
+DR   PDB; 2JIV; X-ray; 3.50 A; A/B=695-1022.
+DR   PDB; 2KS1; NMR; -; B=634-677.
+DR   PDB; 2RF9; X-ray; 3.50 A; A/B=696-1022.
+DR   PDB; 2RFD; X-ray; 3.60 A; A/B=702-1022.
+DR   PDB; 2RFE; X-ray; 2.90 A; A/B/C/D=702-1022.
+DR   PDB; 2RGP; X-ray; 2.00 A; A=702-1016.
+DR   PDB; 3B2U; X-ray; 2.58 A; A/B/E/I/M/P/S/V=335-538.
+DR   PDB; 3B2V; X-ray; 3.30 A; A=25-642.
+DR   PDB; 3BEL; X-ray; 2.30 A; A=702-1016.
+DR   PDB; 3BUO; X-ray; 2.60 A; A/C=1063-1075.
+DR   PDB; 3C09; X-ray; 3.20 A; A/D=335-538.
+DR   PDB; 3G5V; X-ray; 2.00 A; C=311-326.
+DR   PDB; 3G5Y; X-ray; 1.59 A; E=311-326.
+DR   PDB; 3GOP; X-ray; 2.80 A; A=669-1022.
+DR   PDB; 3GT8; X-ray; 2.96 A; A/B/C/D=696-1022.
+DR   PDB; 3IKA; X-ray; 2.90 A; A/B=694-1022.
+DR   PDB; 3OB2; X-ray; 2.10 A; A=1063-1074.
+DR   PDBsum; 1DNQ; -.
+DR   PDBsum; 1DNR; -.
+DR   PDBsum; 1IVO; -.
+DR   PDBsum; 1M14; -.
+DR   PDBsum; 1M17; -.
+DR   PDBsum; 1MOX; -.
+DR   PDBsum; 1NQL; -.
+DR   PDBsum; 1XKK; -.
+DR   PDBsum; 1YY9; -.
+DR   PDBsum; 1Z9I; -.
+DR   PDBsum; 2EB2; -.
+DR   PDBsum; 2EB3; -.
+DR   PDBsum; 2EXP; -.
+DR   PDBsum; 2EXQ; -.
+DR   PDBsum; 2GS2; -.
+DR   PDBsum; 2GS6; -.
+DR   PDBsum; 2GS7; -.
+DR   PDBsum; 2ITN; -.
+DR   PDBsum; 2ITO; -.
+DR   PDBsum; 2ITP; -.
+DR   PDBsum; 2ITQ; -.
+DR   PDBsum; 2ITT; -.
+DR   PDBsum; 2ITU; -.
+DR   PDBsum; 2ITV; -.
+DR   PDBsum; 2ITW; -.
+DR   PDBsum; 2ITX; -.
+DR   PDBsum; 2ITY; -.
+DR   PDBsum; 2ITZ; -.
+DR   PDBsum; 2J5E; -.
+DR   PDBsum; 2J5F; -.
+DR   PDBsum; 2J6M; -.
+DR   PDBsum; 2JIT; -.
+DR   PDBsum; 2JIU; -.
+DR   PDBsum; 2JIV; -.
+DR   PDBsum; 2KS1; -.
+DR   PDBsum; 2RF9; -.
+DR   PDBsum; 2RFD; -.
+DR   PDBsum; 2RFE; -.
+DR   PDBsum; 2RGP; -.
+DR   PDBsum; 3B2U; -.
+DR   PDBsum; 3B2V; -.
+DR   PDBsum; 3BEL; -.
+DR   PDBsum; 3BUO; -.
+DR   PDBsum; 3C09; -.
+DR   PDBsum; 3G5V; -.
+DR   PDBsum; 3G5Y; -.
+DR   PDBsum; 3GOP; -.
+DR   PDBsum; 3GT8; -.
+DR   PDBsum; 3IKA; -.
+DR   PDBsum; 3OB2; -.
+DR   ProteinModelPortal; P00533; -.
+DR   DisProt; DP00309; -.
+DR   DIP; DIP-405N; -.
+DR   DIP; DIP-5764N; -.
+DR   IntAct; P00533; 191.
+DR   MINT; MINT-206389; -.
+DR   STRING; P00533; -.
+DR   GlycoSuiteDB; P00533; -.
+DR   PhosphoSite; P00533; -.
+DR   SWISS-2DPAGE; P00533; -.
+DR   PeptideAtlas; P00533; -.
+DR   PRIDE; P00533; -.
+DR   Ensembl; ENST00000275493; ENSP00000275493; ENSG00000146648.
+DR   GeneID; 1956; -.
+DR   KEGG; hsa:1956; -.
+DR   UCSC; uc003tqi.1; human.
+DR   UCSC; uc003tqj.1; human.
+DR   UCSC; uc003tqk.1; human.
+DR   CTD; 1956; -.
+DR   GeneCards; GC07P055054; -.
+DR   H-InvDB; HIX0025338; -.
+DR   HGNC; HGNC:3236; EGFR.
+DR   HPA; CAB000035; -.
+DR   HPA; HPA001200; -.
+DR   HPA; HPA018530; -.
+DR   MIM; 131550; gene.
+DR   MIM; 211980; phenotype.
+DR   Orphanet; 360; Glioblastoma.
+DR   PharmGKB; PA7360; -.
+DR   HOVERGEN; HBG000490; -.
+DR   InParanoid; P00533; -.
+DR   OMA; MRRRHIV; -.
+DR   PhylomeDB; P00533; -.
+DR   BRENDA; 2.7.10.1; 247.
+DR   Pathway_Interaction_DB; a6b1_a6b4_integrin_pathway; a6b1 and a6b4 Integrin signaling.
+DR   Pathway_Interaction_DB; arf6cyclingpathway; Arf6 signaling events.
+DR   Pathway_Interaction_DB; endothelinpathway; Endothelins.
+DR   Pathway_Interaction_DB; lysophospholipid_pathway; LPA receptor mediated events.
+DR   Pathway_Interaction_DB; telomerasepathway; Regulation of Telomerase.
+DR   Pathway_Interaction_DB; ptp1bpathway; Signaling events mediated by PTP1B.
+DR   Pathway_Interaction_DB; syndecan_3_pathway; Syndecan-3-mediated signaling events.
+DR   Pathway_Interaction_DB; txa2pathway; Thromboxane A2 receptor signaling.
+DR   Reactome; REACT_18266; Axon guidance.
+DR   Reactome; REACT_9417; Signaling by EGFR.
+DR   DrugBank; DB00002; Cetuximab.
+DR   DrugBank; DB00530; Erlotinib.
+DR   DrugBank; DB00317; Gefitinib.
+DR   DrugBank; DB01259; Lapatinib.
+DR   DrugBank; DB00281; Lidocaine.
+DR   DrugBank; DB01269; Panitumumab.
+DR   DrugBank; DB00072; Trastuzumab.
+DR   NextBio; 7931; -.
+DR   PMAP-CutDB; P00533; -.
+DR   ArrayExpress; P00533; -.
+DR   Bgee; P00533; -.
+DR   Genevestigator; P00533; -.
+DR   GermOnline; ENSG00000146648; Homo sapiens.
+DR   GO; GO:0016323; C:basolateral plasma membrane; IDA:BHF-UCL.
+DR   GO; GO:0005768; C:endosome; IDA:UniProtKB.
+DR   GO; GO:0005615; C:extracellular space; NAS:UniProtKB.
+DR   GO; GO:0016021; C:integral to membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005634; C:nucleus; IDA:UniProtKB.
+DR   GO; GO:0070435; C:Shc-EGFR complex; ISS:BHF-UCL.
+DR   GO; GO:0051015; F:actin filament binding; IDA:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003690; F:double-stranded DNA binding; NAS:UniProtKB.
+DR   GO; GO:0005006; F:epidermal growth factor receptor activity; IDA:UniProtKB.
+DR   GO; GO:0042802; F:identical protein binding; IPI:IntAct.
+DR   GO; GO:0004710; F:MAP/ERK kinase kinase activity; NAS:UniProtKB.
+DR   GO; GO:0046982; F:protein heterodimerization activity; IDA:UniProtKB.
+DR   GO; GO:0019903; F:protein phosphatase binding; IPI:UniProtKB.
+DR   GO; GO:0004716; F:receptor signaling protein tyrosine kinase ...; IEA:InterPro.
+DR   GO; GO:0043006; P:activation of phospholipase A2 activity by ...; TAS:UniProtKB.
+DR   GO; GO:0007202; P:activation of phospholipase C activity; TAS:UniProtKB.
+DR   GO; GO:0008283; P:cell proliferation; TAS:ProtInc.
+DR   GO; GO:0016337; P:cell-cell adhesion; IMP:UniProtKB.
+DR   GO; GO:0001503; P:ossification; NAS:UniProtKB.
+DR   GO; GO:0035413; P:positive regulation of catenin protein nucl...; IMP:BHF-UCL.
+DR   GO; GO:0030335; P:positive regulation of cell migration; IMP:UniProtKB.
+DR   GO; GO:0031659; P:positive regulation of cyclin-dependent pro...; IDA:BHF-UCL.
+DR   GO; GO:0050679; P:positive regulation of epithelial cell prol...; IDA:UniProtKB.
+DR   GO; GO:0043406; P:positive regulation of MAP kinase activity; IDA:UniProtKB.
+DR   GO; GO:0045429; P:positive regulation of nitric oxide biosynt...; IDA:UniProtKB.
+DR   GO; GO:0042327; P:positive regulation of phosphorylation; IDA:UniProtKB.
+DR   GO; GO:0051897; P:positive regulation of protein kinase B sig...; IMP:BHF-UCL.
+DR   GO; GO:0051205; P:protein insertion into membrane; TAS:UniProtKB.
+DR   GO; GO:0050999; P:regulation of nitric-oxide synthase activity; IDA:UniProtKB.
+DR   GO; GO:0050730; P:regulation of peptidyl-tyrosine phosphoryla...; IMP:UniProtKB.
+DR   GO; GO:0070141; P:response to UV-A; IDA:BHF-UCL.
+DR   InterPro; IPR000494; EGF_rcpt_L.
+DR   InterPro; IPR006211; Furin-like_Cys-rich_dom.
+DR   InterPro; IPR006212; Furin_repeat.
+DR   InterPro; IPR009030; Growth_fac_rcpt.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR001245; Ser-Thr/Tyr-Pkinase.
+DR   InterPro; IPR016245; Tyr_kinase_EGF/ERB/XmrK_rcpt.
+DR   InterPro; IPR020635; Tyr_Pkinase_cat_dom.
+DR   InterPro; IPR020685; Tyr_prot_kinase.
+DR   InterPro; IPR008266; Tyr_prot_kinase_AS.
+DR   InterPro; IPR020762; Tyr_prot_kinase_EGF_rcpt.
+DR   PANTHER; PTHR23256; Tyr_prot_kinase; 1.
+DR   PANTHER; PTHR23256:SF286; Tyr_prot_kinase_EGF_rcpt; 1.
+DR   Pfam; PF00757; Furin-like; 1.
+DR   Pfam; PF07714; Pkinase_Tyr; 1.
+DR   Pfam; PF01030; Recep_L_domain; 2.
+DR   PIRSF; PIRSF000619; TyrPK_EGF-R; 1.
+DR   PRINTS; PR00109; TYRKINASE.
+DR   SMART; SM00261; FU; 3.
+DR   SMART; SM00219; TyrKc; 1.
+DR   SUPFAM; SSF57184; Grow_fac_recept; 2.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00109; PROTEIN_KINASE_TYR; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; ATP-binding; Cell membrane;
+KW   Complete proteome; Direct protein sequencing; Disease mutation;
+KW   Disulfide bond; Glycoprotein; Isopeptide bond; Kinase; Membrane;
+KW   Nucleotide-binding; Phosphoprotein; Polymorphism; Receptor; Repeat;
+KW   Secreted; Signal; Transferase; Transmembrane; Transmembrane helix;
+KW   Tumor suppressor; Tyrosine-protein kinase; Ubl conjugation.
+FT   SIGNAL        1     24
+FT   CHAIN        25   1210       Epidermal growth factor receptor.
+FT                                /FTId=PRO_0000016665.
+FT   TOPO_DOM     25    645       Extracellular (Potential).
+FT   TRANSMEM    646    668       Helical; (Potential).
+FT   TOPO_DOM    669   1210       Cytoplasmic (Potential).
+FT   REPEAT       75    300       Approximate.
+FT   REPEAT      390    600       Approximate.
+FT   DOMAIN      712    979       Protein kinase.
+FT   NP_BIND     718    726       ATP (By similarity).
+FT   COMPBIAS   1025   1071       Ser-rich.
+FT   ACT_SITE    837    837       Proton acceptor (By similarity).
+FT   BINDING     745    745       ATP (By similarity).
+FT   SITE       1016   1016       Important for interaction with PIK3C2B.
+FT   MOD_RES     678    678       Phosphothreonine; by PKC.
+FT   MOD_RES     693    693       Phosphothreonine.
+FT   MOD_RES     695    695       Phosphoserine.
+FT   MOD_RES     725    725       Phosphothreonine.
+FT   MOD_RES     869    869       Phosphotyrosine.
+FT   MOD_RES     978    978       Phosphotyrosine.
+FT   MOD_RES     991    991       Phosphoserine.
+FT   MOD_RES     993    993       Phosphothreonine.
+FT   MOD_RES     995    995       Phosphoserine.
+FT   MOD_RES     998    998       Phosphotyrosine.
+FT   MOD_RES    1016   1016       Phosphotyrosine.
+FT   MOD_RES    1025   1025       Phosphoserine.
+FT   MOD_RES    1026   1026       Phosphoserine.
+FT   MOD_RES    1037   1037       Phosphoserine.
+FT   MOD_RES    1039   1039       Phosphoserine.
+FT   MOD_RES    1041   1041       Phosphothreonine.
+FT   MOD_RES    1042   1042       Phosphoserine.
+FT   MOD_RES    1045   1045       Phosphoserine.
+FT   MOD_RES    1064   1064       Phosphoserine.
+FT   MOD_RES    1069   1069       Phosphotyrosine.
+FT   MOD_RES    1070   1070       Phosphoserine.
+FT   MOD_RES    1071   1071       Phosphoserine.
+FT   MOD_RES    1081   1081       Phosphoserine.
+FT   MOD_RES    1092   1092       Phosphotyrosine; by autocatalysis.
+FT   MOD_RES    1110   1110       Phosphotyrosine; by autocatalysis.
+FT   MOD_RES    1138   1138       Phosphotyrosine.
+FT   MOD_RES    1166   1166       Phosphoserine.
+FT   MOD_RES    1172   1172       Phosphotyrosine; by autocatalysis.
+FT   MOD_RES    1197   1197       Phosphotyrosine; by autocatalysis.
+FT   CARBOHYD     56     56       N-linked (GlcNAc...) (complex); atypical;
+FT                                partial.
+FT                                /FTId=CAR_000227.
+FT   CARBOHYD    128    128       N-linked (GlcNAc...).
+FT   CARBOHYD    175    175       N-linked (GlcNAc...).
+FT   CARBOHYD    196    196       N-linked (GlcNAc...).
+FT   CARBOHYD    352    352       N-linked (GlcNAc...).
+FT   CARBOHYD    361    361       N-linked (GlcNAc...).
+FT   CARBOHYD    413    413       N-linked (GlcNAc...).
+FT   CARBOHYD    444    444       N-linked (GlcNAc...).
+FT   CARBOHYD    528    528       N-linked (GlcNAc...).
+FT   CARBOHYD    568    568       N-linked (GlcNAc...); partial.
+FT   CARBOHYD    603    603       N-linked (GlcNAc...); partial.
+FT   DISULFID     31     58
+FT   DISULFID    157    187
+FT   DISULFID    190    199
+FT   DISULFID    194    207
+FT   DISULFID    215    223
+FT   DISULFID    219    231
+FT   DISULFID    232    240
+FT   DISULFID    236    248
+FT   DISULFID    251    260
+FT   DISULFID    264    291
+FT   DISULFID    295    307
+FT   DISULFID    311    326
+FT   DISULFID    329    333
+FT   DISULFID    337    362
+FT   DISULFID    470    499
+FT   DISULFID    506    515
+FT   DISULFID    510    523
+FT   DISULFID    526    535
+FT   DISULFID    539    555
+FT   DISULFID    558    571
+FT   DISULFID    562    579
+FT   DISULFID    582    591
+FT   DISULFID    595    617
+FT   DISULFID    620    628
+FT   DISULFID    624    636
+FT   CROSSLNK    716    716       Glycyl lysine isopeptide (Lys-Gly)
+FT                                (interchain with G-Cter in ubiquitin).
+FT   CROSSLNK    737    737       Glycyl lysine isopeptide (Lys-Gly)
+FT                                (interchain with G-Cter in ubiquitin).
+FT   CROSSLNK    754    754       Glycyl lysine isopeptide (Lys-Gly)
+FT                                (interchain with G-Cter in ubiquitin).
+FT   CROSSLNK    867    867       Glycyl lysine isopeptide (Lys-Gly)
+FT                                (interchain with G-Cter in ubiquitin).
+FT   CROSSLNK    929    929       Glycyl lysine isopeptide (Lys-Gly)
+FT                                (interchain with G-Cter in ubiquitin).
+FT   CROSSLNK    970    970       Glycyl lysine isopeptide (Lys-Gly)
+FT                                (interchain with G-Cter in ubiquitin).
+FT   VAR_SEQ     404    405       FL -> LS (in isoform 2).
+FT                                /FTId=VSP_002887.
+FT   VAR_SEQ     406   1210       Missing (in isoform 2).
+FT                                /FTId=VSP_002888.
+FT   VAR_SEQ     628    705       CTGPGLEGCPTNGPKIPSIATGMVGALLLLLVVALGIGLFM
+FT                                RRRHIVRKRTLRRLLQERELVEPLTPSGEAPNQALLR ->
+FT                                PGNESLKAMLFCLFKLSSCNQSNDGSVSHQSGSPAAQESCL
+FT                                GWIPSLLPSEFQLGWGGCSHLHAWPSASVIITASSCH (in
+FT                                isoform 3).
+FT                                /FTId=VSP_002889.
+FT   VAR_SEQ     628    628       C -> S (in isoform 4).
+FT                                /FTId=VSP_002891.
+FT   VAR_SEQ     629   1210       Missing (in isoform 4).
+FT                                /FTId=VSP_002892.
+FT   VAR_SEQ     706   1210       Missing (in isoform 3).
+FT                                /FTId=VSP_002890.
+FT   VARIANT      98     98       R -> Q (in dbSNP:rs17289589).
+FT                                /FTId=VAR_019293.
+FT   VARIANT     266    266       P -> R (in dbSNP:rs17336639).
+FT                                /FTId=VAR_019294.
+FT   VARIANT     521    521       R -> K (in dbSNP:rs2227983).
+FT                                /FTId=VAR_019295.
+FT   VARIANT     674    674       V -> I (in dbSNP:rs17337079).
+FT                                /FTId=VAR_019296.
+FT   VARIANT     709    709       E -> A (in lung cancer).
+FT                                /FTId=VAR_026084.
+FT   VARIANT     709    709       E -> K (in lung cancer).
+FT                                /FTId=VAR_026085.
+FT   VARIANT     719    719       G -> A (in lung cancer).
+FT                                /FTId=VAR_026086.
+FT   VARIANT     719    719       G -> C (in lung cancer;
+FT                                dbSNP:rs28929495).
+FT                                /FTId=VAR_026087.
+FT   VARIANT     719    719       G -> D (in lung cancer).
+FT                                /FTId=VAR_026088.
+FT   VARIANT     719    719       G -> S (in lung cancer; somatic
+FT                                mutation).
+FT                                /FTId=VAR_019297.
+FT   VARIANT     724    724       G -> S (in lung cancer).
+FT                                /FTId=VAR_026089.
+FT   VARIANT     734    734       E -> K (in lung cancer).
+FT                                /FTId=VAR_026090.
+FT   VARIANT     746    750       Missing (in lung cancer).
+FT                                /FTId=VAR_026092.
+FT   VARIANT     746    746       Missing (in lung cancer).
+FT                                /FTId=VAR_026091.
+FT   VARIANT     747    749       Missing (in lung cancer).
+FT                                /FTId=VAR_026094.
+FT   VARIANT     747    747       L -> F (in lung cancer).
+FT                                /FTId=VAR_026093.
+FT   VARIANT     748    748       R -> P (in lung cancer).
+FT                                /FTId=VAR_026095.
+FT   VARIANT     752    759       Missing (in lung cancer).
+FT                                /FTId=VAR_026096.
+FT   VARIANT     787    787       Q -> R (in lung cancer).
+FT                                /FTId=VAR_026097.
+FT   VARIANT     790    790       T -> M (in lung cancer).
+FT                                /FTId=VAR_026098.
+FT   VARIANT     833    833       L -> V (in lung cancer).
+FT                                /FTId=VAR_026099.
+FT   VARIANT     834    834       V -> L (in lung cancer).
+FT                                /FTId=VAR_026100.
+FT   VARIANT     858    858       L -> M (in lung cancer).
+FT                                /FTId=VAR_026101.
+FT   VARIANT     858    858       L -> R (in lung cancer; somatic
+FT                                mutation).
+FT                                /FTId=VAR_019298.
+FT   VARIANT     861    861       L -> Q (in lung cancer).
+FT                                /FTId=VAR_026102.
+FT   VARIANT     873    873       G -> E (in lung cancer).
+FT                                /FTId=VAR_026103.
+FT   VARIANT     962    962       R -> G (in dbSNP:rs17337451).
+FT                                /FTId=VAR_019299.
+FT   VARIANT     988    988       H -> P (in dbSNP:rs17290699).
+FT                                /FTId=VAR_019300.
+FT   VARIANT    1034   1034       L -> R (in dbSNP:rs34352568).
+FT                                /FTId=VAR_042095.
+FT   VARIANT    1210   1210       A -> V (in dbSNP:rs35918369).
+FT                                /FTId=VAR_042096.
+FT   MUTAGEN    1016   1016       Y->F: 50% decrease in interaction with
+FT                                PIK3C2B. 65% decrease in interaction with
+FT                                PIK3C2B; when associated with F-1197.
+FT                                Abolishes interaction with PIK3C2B; when
+FT                                associated with F-1197 and F-1092.
+FT   MUTAGEN    1092   1092       Y->F: No change in interaction with
+FT                                PIK3C2B. Abolishes interaction with
+FT                                PIK3C2B; when associated with F-1197 and
+FT                                F-1016.
+FT   MUTAGEN    1110   1110       Y->F: No change in interaction with
+FT                                PIK3C2B.
+FT   MUTAGEN    1172   1172       Y->F: No change in interaction with
+FT                                PIK3C2B.
+FT   MUTAGEN    1197   1197       Y->F: No change in interaction with
+FT                                PIK3C2B. 65% decrease in interaction with
+FT                                PIK3C2B; when associated with F-1016.
+FT                                Abolishes interaction with PIK3C2B; when
+FT                                associated with F-1092 and F-1016.
+FT   CONFLICT    540    540       N -> K (in Ref. 1; CAA25240).
+FT   STRAND       40     43
+FT   HELIX        44     55
+FT   STRAND       59     63
+FT   STRAND       65     67
+FT   HELIX        77     81
+FT   STRAND       84     87
+FT   STRAND       89     93
+FT   HELIX       101    103
+FT   TURN        114    116
+FT   STRAND      117    122
+FT   STRAND      145    152
+FT   HELIX       159    161
+FT   TURN        164    167
+FT   TURN        173    175
+FT   STRAND      195    197
+FT   STRAND      200    202
+FT   TURN        203    205
+FT   STRAND      211    215
+FT   STRAND      224    229
+FT   STRAND      236    238
+FT   STRAND      241    247
+FT   STRAND      249    256
+FT   STRAND      259    263
+FT   STRAND      267    271
+FT   TURN        272    275
+FT   STRAND      276    279
+FT   STRAND      285    287
+FT   STRAND      290    294
+FT   STRAND      299    301
+FT   STRAND      305    309
+FT   STRAND      321    323
+FT   STRAND      330    332
+FT   STRAND      340    342
+FT   HELIX       343    345
+FT   HELIX       353    355
+FT   HELIX       357    359
+FT   STRAND      363    367
+FT   STRAND      369    371
+FT   HELIX       373    377
+FT   TURN        380    383
+FT   HELIX       389    397
+FT   STRAND      400    403
+FT   STRAND      405    408
+FT   HELIX       418    420
+FT   TURN        433    435
+FT   STRAND      436    442
+FT   STRAND      458    464
+FT   HELIX       472    474
+FT   HELIX       477    480
+FT   STRAND      492    494
+FT   HELIX       496    498
+FT   TURN        499    503
+FT   TURN        507    509
+FT   STRAND      515    519
+FT   STRAND      522    525
+FT   STRAND      540    543
+FT   STRAND      548    557
+FT   STRAND      571    575
+FT   STRAND      579    587
+FT   STRAND      590    594
+FT   STRAND      597    600
+FT   STRAND      602    611
+FT   STRAND      616    619
+FT   STRAND      629    632
+FT   TURN        633    635
+FT   STRAND      704    706
+FT   TURN        709    711
+FT   STRAND      712    720
+FT   STRAND      722    731
+FT   STRAND      740    747
+FT   HELIX       756    768
+FT   STRAND      777    791
+FT   HELIX       798    804
+FT   STRAND      806    808
+FT   HELIX       811    830
+FT   HELIX       840    842
+FT   STRAND      843    847
+FT   STRAND      850    853
+FT   HELIX       858    861
+FT   TURN        862    865
+FT   TURN        878    880
+FT   HELIX       883    888
+FT   HELIX       893    908
+FT   TURN        914    917
+FT   HELIX       920    922
+FT   HELIX       923    929
+FT   HELIX       941    950
+FT   HELIX       955    957
+FT   HELIX       961    973
+FT   HELIX       975    978
+FT   TURN        982    986
+FT   HELIX       996   1002
+FT   HELIX      1013   1016
+SQ   SEQUENCE   1210 AA;  134277 MW;  D8A2A50B4EFB6ED2 CRC64;
+     MRPSGTAGAA LLALLAALCP ASRALEEKKV CQGTSNKLTQ LGTFEDHFLS LQRMFNNCEV
+     VLGNLEITYV QRNYDLSFLK TIQEVAGYVL IALNTVERIP LENLQIIRGN MYYENSYALA
+     VLSNYDANKT GLKELPMRNL QEILHGAVRF SNNPALCNVE SIQWRDIVSS DFLSNMSMDF
+     QNHLGSCQKC DPSCPNGSCW GAGEENCQKL TKIICAQQCS GRCRGKSPSD CCHNQCAAGC
+     TGPRESDCLV CRKFRDEATC KDTCPPLMLY NPTTYQMDVN PEGKYSFGAT CVKKCPRNYV
+     VTDHGSCVRA CGADSYEMEE DGVRKCKKCE GPCRKVCNGI GIGEFKDSLS INATNIKHFK
+     NCTSISGDLH ILPVAFRGDS FTHTPPLDPQ ELDILKTVKE ITGFLLIQAW PENRTDLHAF
+     ENLEIIRGRT KQHGQFSLAV VSLNITSLGL RSLKEISDGD VIISGNKNLC YANTINWKKL
+     FGTSGQKTKI ISNRGENSCK ATGQVCHALC SPEGCWGPEP RDCVSCRNVS RGRECVDKCN
+     LLEGEPREFV ENSECIQCHP ECLPQAMNIT CTGRGPDNCI QCAHYIDGPH CVKTCPAGVM
+     GENNTLVWKY ADAGHVCHLC HPNCTYGCTG PGLEGCPTNG PKIPSIATGM VGALLLLLVV
+     ALGIGLFMRR RHIVRKRTLR RLLQERELVE PLTPSGEAPN QALLRILKET EFKKIKVLGS
+     GAFGTVYKGL WIPEGEKVKI PVAIKELREA TSPKANKEIL DEAYVMASVD NPHVCRLLGI
+     CLTSTVQLIT QLMPFGCLLD YVREHKDNIG SQYLLNWCVQ IAKGMNYLED RRLVHRDLAA
+     RNVLVKTPQH VKITDFGLAK LLGAEEKEYH AEGGKVPIKW MALESILHRI YTHQSDVWSY
+     GVTVWELMTF GSKPYDGIPA SEISSILEKG ERLPQPPICT IDVYMIMVKC WMIDADSRPK
+     FRELIIEFSK MARDPQRYLV IQGDERMHLP SPTDSNFYRA LMDEEDMDDV VDADEYLIPQ
+     QGFFSSPSTS RTPLLSSLSA TSNNSTVACI DRNGLQSCPI KEDSFLQRYS SDPTGALTED
+     SIDDTFLPVP EYINQSVPKR PAGSVQNPVY HNQPLNPAPS RDPHYQDPHS TAVGNPEYLN
+     TVQPTCVNST FDSPAHWAQK GSHQISLDNP DYQQDFFPKE AKPNGIFKGS TAENAEYLRV
+     APQSSEFIGA
+//

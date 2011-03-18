@@ -1,0 +1,633 @@
+ID   MTOR_HUMAN              Reviewed;        2549 AA.
+AC   P42345; Q4LE76; Q5TER1; Q6LE87; Q96QG3; Q9Y4I3;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 1.
+DT   02-NOV-2010, entry version 111.
+DE   RecName: Full=Serine/threonine-protein kinase mTOR;
+DE            EC=2.7.11.1;
+DE   AltName: Full=FK506-binding protein 12-rapamycin complex-associated protein 1;
+DE   AltName: Full=FKBP12-rapamycin complex-associated protein;
+DE   AltName: Full=Mammalian target of rapamycin;
+DE            Short=mTOR;
+DE   AltName: Full=Mechanistic target of rapamycin;
+DE   AltName: Full=Rapamycin target protein 1;
+DE            Short=RAPT1;
+GN   Name=MTOR; Synonyms=FRAP, FRAP1, FRAP2;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Brain;
+RX   MEDLINE=94277209; PubMed=8008069; DOI=10.1038/369756a0;
+RA   Brown E.J., Albers M.W., Shin T.B., Ichikawa K., Keith C.T.,
+RA   Lane W.S., Schreiber S.L.;
+RT   "A mammalian protein targeted by G1-arresting rapamycin-receptor
+RT   complex.";
+RL   Nature 369:756-758(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   MEDLINE=98317532; PubMed=9653645; DOI=10.1006/geno.1997.5186;
+RA   Onyango P., Lubyova B., Gardellin P., Kurzbauer R., Weith A.;
+RT   "Molecular cloning and expression analysis of five novel genes in
+RT   chromosome 1p36.";
+RL   Genomics 50:187-198(1998).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RA   Nakajima D., Saito K., Yamakawa H., Kikuno R.F., Nakayama M.,
+RA   Ohara R., Okazaki N., Koga H., Nagase T., Ohara O.;
+RT   "Preparation of a set of expression-ready clones of mammalian long
+RT   cDNAs encoding large proteins by the ORF trap cloning method.";
+RL   Submitted (MAR-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=16710414; DOI=10.1038/nature04727;
+RA   Gregory S.G., Barlow K.F., McLay K.E., Kaul R., Swarbreck D.,
+RA   Dunham A., Scott C.E., Howe K.L., Woodfine K., Spencer C.C.A.,
+RA   Jones M.C., Gillson C., Searle S., Zhou Y., Kokocinski F.,
+RA   McDonald L., Evans R., Phillips K., Atkinson A., Cooper R., Jones C.,
+RA   Hall R.E., Andrews T.D., Lloyd C., Ainscough R., Almeida J.P.,
+RA   Ambrose K.D., Anderson F., Andrew R.W., Ashwell R.I.S., Aubin K.,
+RA   Babbage A.K., Bagguley C.L., Bailey J., Beasley H., Bethel G.,
+RA   Bird C.P., Bray-Allen S., Brown J.Y., Brown A.J., Buckley D.,
+RA   Burton J., Bye J., Carder C., Chapman J.C., Clark S.Y., Clarke G.,
+RA   Clee C., Cobley V., Collier R.E., Corby N., Coville G.J., Davies J.,
+RA   Deadman R., Dunn M., Earthrowl M., Ellington A.G., Errington H.,
+RA   Frankish A., Frankland J., French L., Garner P., Garnett J., Gay L.,
+RA   Ghori M.R.J., Gibson R., Gilby L.M., Gillett W., Glithero R.J.,
+RA   Grafham D.V., Griffiths C., Griffiths-Jones S., Grocock R.,
+RA   Hammond S., Harrison E.S.I., Hart E., Haugen E., Heath P.D.,
+RA   Holmes S., Holt K., Howden P.J., Hunt A.R., Hunt S.E., Hunter G.,
+RA   Isherwood J., James R., Johnson C., Johnson D., Joy A., Kay M.,
+RA   Kershaw J.K., Kibukawa M., Kimberley A.M., King A., Knights A.J.,
+RA   Lad H., Laird G., Lawlor S., Leongamornlert D.A., Lloyd D.M.,
+RA   Loveland J., Lovell J., Lush M.J., Lyne R., Martin S.,
+RA   Mashreghi-Mohammadi M., Matthews L., Matthews N.S.W., McLaren S.,
+RA   Milne S., Mistry S., Moore M.J.F., Nickerson T., O'Dell C.N.,
+RA   Oliver K., Palmeiri A., Palmer S.A., Parker A., Patel D., Pearce A.V.,
+RA   Peck A.I., Pelan S., Phelps K., Phillimore B.J., Plumb R., Rajan J.,
+RA   Raymond C., Rouse G., Saenphimmachak C., Sehra H.K., Sheridan E.,
+RA   Shownkeen R., Sims S., Skuce C.D., Smith M., Steward C.,
+RA   Subramanian S., Sycamore N., Tracey A., Tromans A., Van Helmond Z.,
+RA   Wall M., Wallis J.M., White S., Whitehead S.L., Wilkinson J.E.,
+RA   Willey D.L., Williams H., Wilming L., Wray P.W., Wu Z., Coulson A.,
+RA   Vaudin M., Sulston J.E., Durbin R.M., Hubbard T., Wooster R.,
+RA   Dunham I., Carter N.P., McVean G., Ross M.T., Harrow J., Olson M.V.,
+RA   Beck S., Rogers J., Bentley D.R.;
+RT   "The DNA sequence and biological annotation of human chromosome 1.";
+RL   Nature 441:315-321(2006).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Cerebellum;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1362-2549.
+RX   MEDLINE=21318995; PubMed=11426320; DOI=10.1038/sj.gene.6363745;
+RA   Stover C., Endo Y., Takahashi M., Lynch N., Constantinescu C.,
+RA   Vorup-Jensen T., Thiel S., Friedl H., Hankeln T., Hall R., Gregory S.,
+RA   Fujita T., Schwaeble W.;
+RT   "The human gene for mannan-binding lectin-associated serine protease-2
+RT   (MASP-2), the effector component of the lectin route of complement
+RT   activation, is part of a tightly linked gene cluster on chromosome
+RT   1p36.2-3.";
+RL   Genes Immun. 2:119-127(2001).
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 1987-2146, AND TISSUE SPECIFICITY.
+RC   TISSUE=B-cell;
+RX   MEDLINE=95108000; PubMed=7809080; DOI=10.1073/pnas.91.26.12574;
+RA   Chiu M.I., Katz H., Berlin V.;
+RT   "RAPT1, a mammalian homolog of yeast Tor, interacts with the
+RT   FKBP12/rapamycin complex.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 91:12574-12578(1994).
+RN   [8]
+RP   SUBCELLULAR LOCATION, AND AUTOPHOSPHORYLATION.
+RX   PubMed=9434772; DOI=10.1006/bbrc.1997.7878;
+RA   Withers D.J., Ouwens D.M., Nave B.T., van der Zon G.C.M.,
+RA   Alarcon C.M., Cardenas M.E., Heitman J., Maassen J.A., Shepherd P.R.;
+RT   "Expression, enzyme activity, and subcellular localization of
+RT   mammalian target of rapamycin in insulin-responsive cells.";
+RL   Biochem. Biophys. Res. Commun. 241:704-709(1997).
+RN   [9]
+RP   INTERACTION WITH UBQLN1.
+RX   PubMed=11853878; DOI=10.1016/S0167-4889(01)00164-1;
+RA   Wu S., Mikhailov A., Kallo-Hosein H., Hara K., Yonezawa K., Avruch J.;
+RT   "Characterization of ubiquilin 1, an mTOR-interacting protein.";
+RL   Biochim. Biophys. Acta 1542:41-56(2002).
+RN   [10]
+RP   FUNCTION, AND INTERACTION WITH RPTOR.
+RX   MEDLINE=22145923; PubMed=12150925; DOI=10.1016/S0092-8674(02)00808-5;
+RA   Kim D.-H., Sarbassov D.D., Ali S.M., King J.E., Latek R.R.,
+RA   Erdjument-Bromage H., Tempst P., Sabatini D.M.;
+RT   "mTOR interacts with raptor to form a nutrient-sensitive complex that
+RT   signals to the growth machinery.";
+RL   Cell 110:163-175(2002).
+RN   [11]
+RP   FUNCTION, AND INTERACTION WITH RPTOR.
+RX   MEDLINE=22145924; PubMed=12150926; DOI=10.1016/S0092-8674(02)00833-4;
+RA   Hara K., Maruki Y., Long X., Yoshino K., Oshiro N., Hidayat S.,
+RA   Tokunaga C., Avruch J., Yonezawa K.;
+RT   "Raptor, a binding partner of target of rapamycin (TOR), mediates TOR
+RT   action.";
+RL   Cell 110:177-189(2002).
+RN   [12]
+RP   INTERACTION WITH MLST8 AND RPTOR, IDENTIFICATION IN THE TORC1 COMPLEX,
+RP   AND TISSUE SPECIFICITY.
+RX   PubMed=12408816; DOI=10.1016/S1097-2765(02)00636-6;
+RA   Loewith R., Jacinto E., Wullschleger S., Lorberg A., Crespo J.L.,
+RA   Bonenfant D., Oppliger W., Jenoe P., Hall M.N.;
+RT   "Two TOR complexes, only one of which is rapamycin sensitive, have
+RT   distinct roles in cell growth control.";
+RL   Mol. Cell 10:457-468(2002).
+RN   [13]
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=11930000; DOI=10.1073/pnas.261702698;
+RA   Desai B.N., Myers B.R., Schreiber S.L.;
+RT   "FKBP12-rapamycin-associated protein associates with mitochondria and
+RT   senses osmotic stress via mitochondrial dysfunction.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:4319-4324(2002).
+RN   [14]
+RP   FUNCTION, AND INTERACTION WITH MLST8.
+RX   PubMed=12718876; DOI=10.1016/S1097-2765(03)00114-X;
+RA   Kim D.-H., Sarbassov D.D., Ali S.M., Latek R.R., Guntur K.V.P.,
+RA   Erdjument-Bromage H., Tempst P., Sabatini D.M.;
+RT   "GbetaL, a positive regulator of the rapamycin-sensitive pathway
+RT   required for the nutrient-sensitive interaction between raptor and
+RT   mTOR.";
+RL   Mol. Cell 11:895-904(2003).
+RN   [15]
+RP   FUNCTION, IDENTIFICATION IN THE TORC2 COMPLEX, AND INTERACTION WITH
+RP   RICTOR.
+RX   PubMed=15268862; DOI=10.1016/j.cub.2004.06.054;
+RA   Sarbassov D.D., Ali S.M., Kim D.-H., Guertin D.A., Latek R.R.,
+RA   Erdjument-Bromage H., Tempst P., Sabatini D.M.;
+RT   "Rictor, a novel binding partner of mTOR, defines a rapamycin-
+RT   insensitive and raptor-independent pathway that regulates the
+RT   cytoskeleton.";
+RL   Curr. Biol. 14:1296-1302(2004).
+RN   [16]
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=14578359; DOI=10.1074/jbc.M305912200;
+RA   Drenan R.M., Liu X., Bertram P.G., Zheng X.F.S.;
+RT   "FKBP12-rapamycin-associated protein or mammalian target of rapamycin
+RT   (FRAP/mTOR) localization in the endoplasmic reticulum and the Golgi
+RT   apparatus.";
+RL   J. Biol. Chem. 279:772-778(2004).
+RN   [17]
+RP   FUNCTION, IDENTIFICATION IN THE TORC2 COMPLEX, INTERACTION WITH
+RP   RICTOR, AND AUTOPHOSPHORYLATION.
+RX   PubMed=15467718; DOI=10.1038/ncb1183;
+RA   Jacinto E., Loewith R., Schmidt A., Lin S., Ruegg M.A., Hall A.,
+RA   Hall M.N.;
+RT   "Mammalian TOR complex 2 controls the actin cytoskeleton and is
+RT   rapamycin insensitive.";
+RL   Nat. Cell Biol. 6:1122-1128(2004).
+RN   [18]
+RP   FUNCTION IN PHOSPHORYLATION OF AKT1.
+RX   PubMed=15718470; DOI=10.1126/science.1106148;
+RA   Sarbassov D.D., Guertin D.A., Ali S.M., Sabatini D.M.;
+RT   "Phosphorylation and regulation of Akt/PKB by the rictor-mTOR
+RT   complex.";
+RL   Science 307:1098-1101(2005).
+RN   [19]
+RP   IDENTIFICATION IN THE TORC2 COMPLEX, AND INTERACTION WITH PRR5.
+RX   PubMed=17599906; DOI=10.1074/jbc.M704343200;
+RA   Woo S.-Y., Kim D.-H., Jun C.-B., Kim Y.-M., Haar E.V., Lee S.-I.,
+RA   Hegg J.W., Bandhakavi S., Griffin T.J., Kim D.-H.;
+RT   "PRR5, a novel component of mTOR complex 2, regulates platelet-derived
+RT   growth factor receptor beta expression and signaling.";
+RL   J. Biol. Chem. 282:25604-25612(2007).
+RN   [20]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-1162, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18187866; DOI=10.2116/analsci.24.161;
+RA   Imami K., Sugiyama N., Kyono Y., Tomita M., Ishihama Y.;
+RT   "Automated phosphoproteome analysis for cultured cancer cells by two-
+RT   dimensional nanoLC-MS using a calcined titania/C18 biphasic column.";
+RL   Anal. Sci. 24:161-166(2008).
+RN   [21]
+RP   IDENTIFICATION IN THE TORC1 AND TORC2 COMPLEXES, AND FUNCTION IN
+RP   PHOSPHORYLATION OF S6K AND SGK1.
+RX   PubMed=18925875; DOI=10.1042/BJ20081668;
+RA   Garcia-Martinez J.M., Alessi D.R.;
+RT   "mTOR complex 2 (mTORC2) controls hydrophobic motif phosphorylation
+RT   and activation of serum- and glucocorticoid-induced protein kinase 1
+RT   (SGK1).";
+RL   Biochem. J. 416:375-385(2008).
+RN   [22]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-567 AND SER-1261, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [23]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-2478 AND SER-2481, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [24]
+RP   FUNCTION, AND SUBCELLULAR LOCATION.
+RX   PubMed=18497260; DOI=10.1126/science.1157535;
+RA   Sancak Y., Peterson T.R., Shaul Y.D., Lindquist R.A., Thoreen C.C.,
+RA   Bar-Peled L., Sabatini D.M.;
+RT   "The Rag GTPases bind raptor and mediate amino acid signaling to
+RT   mTORC1.";
+RL   Science 320:1496-1501(2008).
+RN   [25]
+RP   INTERACTION WITH DEPDC6.
+RX   PubMed=19446321; DOI=10.1016/j.cell.2009.03.046;
+RA   Peterson T.R., Laplante M., Thoreen C.C., Sancak Y., Kang S.A.,
+RA   Kuehl W.M., Gray N.S., Sabatini D.M.;
+RT   "DEPTOR is an mTOR inhibitor frequently overexpressed in multiple
+RT   myeloma cells and required for their survival.";
+RL   Cell 137:873-886(2009).
+RN   [26]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RA   Colinge J., Superti-Furga G., Bennett K.L.;
+RL   Submitted (OCT-2008) to UniProtKB.
+RN   [27]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-567; SER-916; SER-1261;
+RP   THR-1829; THR-1839; THR-1840; THR-1841; SER-1843; SER-1847; SER-1849;
+RP   SER-1851; THR-1856; SER-1859; SER-1863; SER-2448; TYR-2449 AND
+RP   THR-2471, AND MASS SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [28]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT LYS-1218, AND MASS SPECTROMETRY.
+RX   PubMed=19608861; DOI=10.1126/science.1175371;
+RA   Choudhary C., Kumar C., Gnad F., Nielsen M.L., Rehman M., Walther T.,
+RA   Olsen J.V., Mann M.;
+RT   "Lysine acetylation targets protein complexes and co-regulates major
+RT   cellular functions.";
+RL   Science 325:834-840(2009).
+RN   [29]
+RP   INTERACTION WITH TELO2 AND TTI1.
+RX   PubMed=20427287; DOI=10.1074/jbc.M110.121699;
+RA   Kaizuka T., Hara T., Oshiro N., Kikkawa U., Yonezawa K., Takehana K.,
+RA   Iemura S., Natsume T., Mizushima N.;
+RT   "Tti1 and Tel2 are critical factors in mammalian target of rapamycin
+RT   complex assembly.";
+RL   J. Biol. Chem. 285:20109-20116(2010).
+RN   [30]
+RP   X-RAY CRYSTALLOGRAPHY (2.7 ANGSTROMS) OF 2018-2112.
+RX   MEDLINE=96279639; PubMed=8662507; DOI=10.1126/science.273.5272.239;
+RA   Choi J., Chen J., Schreiber S.L., Clardy J.;
+RT   "Structure of the FKBP12-rapamycin complex interacting with the
+RT   binding domain of human FRAP.";
+RL   Science 273:239-242(1996).
+RN   [31]
+RP   X-RAY CRYSTALLOGRAPHY (2.2 ANGSTROMS) OF 2018-2112.
+RX   MEDLINE=99190960; PubMed=10089303; DOI=10.1107/S0907444998014747;
+RA   Liang J., Choi J., Clardy J.;
+RT   "Refined structure of the FKBP12-rapamycin-FRB ternary complex at 2.2
+RT   A resolution.";
+RL   Acta Crystallogr. D 55:736-744(1999).
+RN   [32]
+RP   VARIANTS [LARGE SCALE ANALYSIS] SER-8; THR-135; VAL-1083; VAL-1134;
+RP   PHE-1178; VAL-2011; TYR-2215 AND LEU-2476.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Kinase subunit of both mTORC1 and mTORC2, which regulate
+CC       cell growth and survival in response to nutrient and hormonal
+CC       signals. mTORC1 is activated in response to growth factors or
+CC       amino-acids. Amino-acid-signaling to mTORC1 is mediated by Rag
+CC       GTPases, which cause amino-acid-induced relocalization of mTOR
+CC       within the endomembrane system. Growth factor-stimulated mTORC1
+CC       activation involves AKT1-mediated phosphorylation of TSC1-TSC2,
+CC       which leads to the activation of the RHEB GTPase that potently
+CC       activates the protein kinase activity of mTORC1. Activated mTORC1
+CC       up-regulates protein synthesis by phosphorylating key regulators
+CC       of mRNA translation and ribosome synthesis. mTORC1 phosphorylates
+CC       EIF4EBP1 and releases it from inhibiting the elongation initiation
+CC       factor 4E (eiF4E). mTORC1 phosphorylates and activates S6K1 at
+CC       'Thr-421', which then promotes protein synthesis by
+CC       phosphorylating PDCD4 and targeting it for degradation. mTORC2 is
+CC       also activated by growth factors, but seems to be nutrient-
+CC       insensitive. mTORC2 seems to function upstream of Rho GTPases to
+CC       regulate the actin cytoskeleton, probably by activating one or
+CC       more Rho-type guanine nucleotide exchange factors. mTORC2 promotes
+CC       the serum-induced formation of stress-fibers or F-actin. mTORC2
+CC       plays a critical role in AKT1 'Ser-473' phosphorylation, which may
+CC       facilitate the phosphorylation of the activation loop of AKT1 on
+CC       'Thr-308' by PDK1 which is a prerequisite for full activation.
+CC       mTORC2 regulates the phosphorylation of SGK1 at 'Ser-422'. mTORC2
+CC       also modulates the phosphorylation of PRKCA on 'Ser-657'.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- ENZYME REGULATION: Kinase activity is positively regulated by RHEB
+CC       and negatively regulated by DEPDC6.
+CC   -!- SUBUNIT: Interacts with PPAPDC3 (By similarity). Part of the
+CC       mammalian target of rapamycin complex 1 (mTORC1) which contains
+CC       MTOR/FRAP1, MLST8, RPTOR and AKT1S1. mTORC1 binds to and is
+CC       inhibited by FKBP12-rapamycin. Part of the mammalian target of
+CC       rapamycin complex 2 (mTORC2) which contains FRAP1, MLST8, PROTOR1,
+CC       RICTOR and MAPKAP1. Contrary to mTORC1, mTORC2 does not bind to
+CC       and is not sensitive to FKBP12-rapamycin. Binds directly to
+CC       PROTOR1 and RICTOR within the mTORC2 complex. Interacts with
+CC       UBQLN1. Interacts with DEPDC6. Interacts with TTI1 and TELO2.
+CC   -!- INTERACTION:
+CC       Q8TB45:DEPDC6; NbExp=2; IntAct=EBI-359260, EBI-2359040;
+CC       Q13541:EIF4EBP1; NbExp=1; IntAct=EBI-359260, EBI-74090;
+CC       P62942:FKBP1A; NbExp=1; IntAct=EBI-359260, EBI-1027571;
+CC       Q9BVC4:MLST8; NbExp=1; IntAct=EBI-359260, EBI-1387471;
+CC       Q8TCU6:PREX1; NbExp=7; IntAct=EBI-359260, EBI-1046542;
+CC       Q70Z35:PREX2; NbExp=2; IntAct=EBI-359260, EBI-1790593;
+CC       Q6R327:RICTOR; NbExp=1; IntAct=EBI-359260, EBI-1387196;
+CC       Q8N122:RPTOR; NbExp=3; IntAct=EBI-359260, EBI-1567928;
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane; Peripheral
+CC       membrane protein; Cytoplasmic side. Golgi apparatus membrane;
+CC       Peripheral membrane protein; Cytoplasmic side. Mitochondrion outer
+CC       membrane; Peripheral membrane protein; Cytoplasmic side.
+CC   -!- TISSUE SPECIFICITY: Expressed in numerous tissues, with highest
+CC       levels in testis.
+CC   -!- PTM: Autophosphorylated; when part of mTORC1 or mTORC2.
+CC   -!- SIMILARITY: Belongs to the PI3/PI4-kinase family.
+CC   -!- SIMILARITY: Contains 1 FAT domain.
+CC   -!- SIMILARITY: Contains 1 FATC domain.
+CC   -!- SIMILARITY: Contains 7 HEAT repeats.
+CC   -!- SIMILARITY: Contains 1 PI3K/PI4K domain.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAC39933.1; Type=Frameshift; Positions=956, 999;
+CC       Sequence=BAE06077.1; Type=Erroneous initiation; Note=Translation N-terminally shortened;
+CC   -!- WEB RESOURCE: Name=Atlas of Genetics and Cytogenetics in Oncology
+CC       and Haematology;
+CC       URL="http://atlasgeneticsoncology.org/Genes/FRAP1ID40639ch1p36.html";
+CC   -!- WEB RESOURCE: Name=Wikipedia; Note=Mammalian target of rapamycin
+CC       entry;
+CC       URL="http://en.wikipedia.org/wiki/Mammalian_target_of_rapamycin";
+CC   -!- WEB RESOURCE: Name=Target mTOR; Note=mTOR signaling pathway and
+CC       mTOR inhibition resource;
+CC       URL="http://www.targetmtor.com/index.jsp";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; L34075; AAA58486.1; -; mRNA.
+DR   EMBL; U88966; AAC39933.1; ALT_FRAME; mRNA.
+DR   EMBL; AB209995; BAE06077.1; ALT_INIT; mRNA.
+DR   EMBL; AL109811; CAI22105.1; -; Genomic_DNA.
+DR   EMBL; AL049653; CAI22105.1; JOINED; Genomic_DNA.
+DR   EMBL; AL391561; CAI22105.1; JOINED; Genomic_DNA.
+DR   EMBL; AL391561; CAI17228.1; -; Genomic_DNA.
+DR   EMBL; AL049653; CAI17228.1; JOINED; Genomic_DNA.
+DR   EMBL; AL109811; CAI17228.1; JOINED; Genomic_DNA.
+DR   EMBL; AL049653; CAI22145.1; -; Genomic_DNA.
+DR   EMBL; AL109811; CAI22145.1; JOINED; Genomic_DNA.
+DR   EMBL; AL391561; CAI22145.1; JOINED; Genomic_DNA.
+DR   EMBL; BC117166; AAI17167.1; -; mRNA.
+DR   EMBL; AJ300188; CAC15570.1; -; Genomic_DNA.
+DR   EMBL; L35478; AAC41713.1; -; mRNA.
+DR   IPI; IPI00031410; -.
+DR   PIR; S45340; S45340.
+DR   RefSeq; NP_004949.1; -.
+DR   UniGene; Hs.338207; -.
+DR   PDB; 1AUE; X-ray; 2.33 A; A/B=2015-2114.
+DR   PDB; 1FAP; X-ray; 2.70 A; B=2018-2112.
+DR   PDB; 1NSG; X-ray; 2.20 A; B=2019-2112.
+DR   PDB; 2FAP; X-ray; 2.20 A; B=2019-2112.
+DR   PDB; 2GAQ; NMR; -; A=2015-2114.
+DR   PDB; 2NPU; NMR; -; A=2015-2114.
+DR   PDB; 3FAP; X-ray; 1.85 A; B=2019-2112.
+DR   PDB; 4FAP; X-ray; 2.80 A; B=2019-2112.
+DR   PDBsum; 1AUE; -.
+DR   PDBsum; 1FAP; -.
+DR   PDBsum; 1NSG; -.
+DR   PDBsum; 2FAP; -.
+DR   PDBsum; 2GAQ; -.
+DR   PDBsum; 2NPU; -.
+DR   PDBsum; 3FAP; -.
+DR   PDBsum; 4FAP; -.
+DR   ProteinModelPortal; P42345; -.
+DR   SMR; P42345; 22-213, 187-215, 2517-2549.
+DR   DIP; DIP-790N; -.
+DR   IntAct; P42345; 80.
+DR   MINT; MINT-121301; -.
+DR   STRING; P42345; -.
+DR   PhosphoSite; P42345; -.
+DR   PRIDE; P42345; -.
+DR   Ensembl; ENST00000361445; ENSP00000354558; ENSG00000198793.
+DR   GeneID; 2475; -.
+DR   KEGG; hsa:2475; -.
+DR   UCSC; uc001asd.1; human.
+DR   CTD; 2475; -.
+DR   GeneCards; GC01M011166; -.
+DR   HGNC; HGNC:3942; MTOR.
+DR   HPA; CAB005057; -.
+DR   MIM; 601231; gene.
+DR   PharmGKB; PA28360; -.
+DR   eggNOG; prNOG04608; -.
+DR   HOVERGEN; HBG005744; -.
+DR   InParanoid; P42345; -.
+DR   OMA; DKYCKDL; -.
+DR   OrthoDB; EOG9BP3XD; -.
+DR   PhylomeDB; P42345; -.
+DR   Pathway_Interaction_DB; pi3kciaktpathway; Class I PI3K signaling events mediated by Akt.
+DR   Pathway_Interaction_DB; endothelinpathway; Endothelins.
+DR   Pathway_Interaction_DB; ifngpathway; IFN-gamma pathway.
+DR   Pathway_Interaction_DB; il12_2pathway; IL12-mediated signaling events.
+DR   Pathway_Interaction_DB; il2_pi3kpathway; IL2 signaling events mediated by PI3K.
+DR   Pathway_Interaction_DB; il4_2pathway; IL4-mediated signaling events.
+DR   Pathway_Interaction_DB; mtor_4pathway; mTOR signaling pathway.
+DR   Pathway_Interaction_DB; telomerasepathway; Regulation of Telomerase.
+DR   Reactome; REACT_11061; Signalling by NGF.
+DR   Reactome; REACT_498; Signaling by Insulin receptor.
+DR   Reactome; REACT_6900; Signaling in Immune system.
+DR   NextBio; 9805; -.
+DR   ArrayExpress; P42345; -.
+DR   Bgee; P42345; -.
+DR   CleanEx; HS_FRAP1; -.
+DR   Genevestigator; P42345; -.
+DR   GermOnline; ENSG00000198793; Homo sapiens.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0000139; C:Golgi membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005741; C:mitochondrial outer membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005942; C:phosphoinositide 3-kinase complex; NAS:UniProtKB.
+DR   GO; GO:0031931; C:TORC1 complex; IDA:UniProtKB.
+DR   GO; GO:0031932; C:TORC2 complex; IDA:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0051219; F:phosphoprotein binding; IPI:UniProtKB.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IDA:UniProtKB.
+DR   GO; GO:0016049; P:cell growth; TAS:UniProtKB.
+DR   GO; GO:0018105; P:peptidyl-serine phosphorylation; IMP:UniProtKB.
+DR   GO; GO:0046777; P:protein amino acid autophosphorylation; IDA:MGI.
+DR   GO; GO:0030163; P:protein catabolic process; TAS:UniProtKB.
+DR   GO; GO:0043200; P:response to amino acid stimulus; IDA:UniProtKB.
+DR   GO; GO:0007584; P:response to nutrient; NAS:UniProtKB.
+DR   GO; GO:0031929; P:TOR signaling cascade; IMP:UniProtKB.
+DR   InterPro; IPR011989; ARM-like.
+DR   InterPro; IPR016024; ARM-type_fold.
+DR   InterPro; IPR003152; FATC.
+DR   InterPro; IPR009076; FKBP_rapamycin-assoc_FKBP12-bd.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000403; PI3/4_kinase_cat.
+DR   InterPro; IPR018936; PI3/4_kinase_CS.
+DR   InterPro; IPR003151; PIK-rel_kinase_FAT.
+DR   InterPro; IPR014009; PIK_FAT.
+DR   Gene3D; G3DSA:1.25.10.10; ARM-like; 3.
+DR   Gene3D; G3DSA:1.20.120.150; FRAP_FKBP12_bd; 1.
+DR   Gene3D; G3DSA:1.10.1070.11; PI3/4_kinase_cat; 3.
+DR   Pfam; PF02259; FAT; 1.
+DR   Pfam; PF02260; FATC; 1.
+DR   Pfam; PF00454; PI3_PI4_kinase; 1.
+DR   Pfam; PF08771; Rapamycin_bind; 1.
+DR   SMART; SM00146; PI3Kc; 1.
+DR   SUPFAM; SSF48371; ARM-type_fold; 2.
+DR   SUPFAM; SSF47212; FRAP_FKBP12_bind; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS51189; FAT; 1.
+DR   PROSITE; PS51190; FATC; 1.
+DR   PROSITE; PS50077; HEAT_REPEAT; FALSE_NEG.
+DR   PROSITE; PS00915; PI3_4_KINASE_1; 1.
+DR   PROSITE; PS00916; PI3_4_KINASE_2; 1.
+DR   PROSITE; PS50290; PI3_4_KINASE_3; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; ATP-binding; Complete proteome;
+KW   Endoplasmic reticulum; Golgi apparatus; Kinase; Membrane;
+KW   Mitochondrion; Mitochondrion outer membrane; Nucleotide-binding;
+KW   Phosphoprotein; Polymorphism; Repeat; Transferase.
+FT   CHAIN         1   2549       Serine/threonine-protein kinase mTOR.
+FT                                /FTId=PRO_0000088808.
+FT   REPEAT       16     53       HEAT 1.
+FT   REPEAT      650    688       HEAT 2.
+FT   REPEAT      859    897       HEAT 3.
+FT   REPEAT      988   1025       HEAT 4.
+FT   REPEAT     1069   1106       HEAT 5.
+FT   REPEAT     1109   1148       HEAT 6.
+FT   REPEAT     1150   1186       HEAT 7.
+FT   DOMAIN     1382   1982       FAT.
+FT   DOMAIN     2182   2516       PI3K/PI4K.
+FT   DOMAIN     2517   2549       FATC.
+FT   MOD_RES     567    567       Phosphoserine.
+FT   MOD_RES     916    916       Phosphoserine.
+FT   MOD_RES    1162   1162       Phosphothreonine.
+FT   MOD_RES    1218   1218       N6-acetyllysine.
+FT   MOD_RES    1261   1261       Phosphoserine.
+FT   MOD_RES    1829   1829       Phosphothreonine.
+FT   MOD_RES    1839   1839       Phosphothreonine.
+FT   MOD_RES    1840   1840       Phosphothreonine.
+FT   MOD_RES    1841   1841       Phosphothreonine.
+FT   MOD_RES    1843   1843       Phosphoserine.
+FT   MOD_RES    1847   1847       Phosphoserine.
+FT   MOD_RES    1849   1849       Phosphoserine.
+FT   MOD_RES    1851   1851       Phosphoserine.
+FT   MOD_RES    1856   1856       Phosphothreonine.
+FT   MOD_RES    1859   1859       Phosphoserine.
+FT   MOD_RES    1863   1863       Phosphoserine.
+FT   MOD_RES    2448   2448       Phosphoserine.
+FT   MOD_RES    2449   2449       Phosphotyrosine.
+FT   MOD_RES    2471   2471       Phosphothreonine.
+FT   MOD_RES    2478   2478       Phosphoserine.
+FT   MOD_RES    2481   2481       Phosphoserine.
+FT   VARIANT       8      8       A -> S (in a lung large cell carcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_041537.
+FT   VARIANT     135    135       M -> T (in a metastatic melanoma sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_041538.
+FT   VARIANT    1083   1083       M -> V (in dbSNP:rs56164650).
+FT                                /FTId=VAR_041539.
+FT   VARIANT    1134   1134       A -> V (in dbSNP:rs28730685).
+FT                                /FTId=VAR_041540.
+FT   VARIANT    1178   1178       S -> F (in dbSNP:rs55975118).
+FT                                /FTId=VAR_041541.
+FT   VARIANT    2011   2011       M -> V (in an ovarian mucinous carcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_041542.
+FT   VARIANT    2215   2215       S -> Y (in a colorectal adenocarcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_041543.
+FT   VARIANT    2476   2476       P -> L (in a glioblastoma multiforme
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_041544.
+FT   CONFLICT    353    353       K -> N (in Ref. 2; AAC39933).
+FT   CONFLICT    359    359       S -> N (in Ref. 2; AAC39933).
+FT   CONFLICT    364    364       D -> N (in Ref. 2; AAC39933).
+FT   CONFLICT    390    390       M -> L (in Ref. 2; AAC39933).
+FT   CONFLICT    430    430       R -> L (in Ref. 2; AAC39933).
+FT   CONFLICT    455    457       VLD -> GVE (in Ref. 2; AAC39933).
+FT   CONFLICT    461    461       A -> G (in Ref. 2; AAC39933).
+FT   CONFLICT    482    484       VFT -> FFN (in Ref. 2; AAC39933).
+FT   CONFLICT    489    489       L -> V (in Ref. 2; AAC39933).
+FT   CONFLICT    513    513       L -> I (in Ref. 2; AAC39933).
+FT   CONFLICT    539    539       L -> V (in Ref. 2; AAC39933).
+FT   CONFLICT    553    553       R -> C (in Ref. 2; AAC39933).
+FT   CONFLICT    857    857       P -> L (in Ref. 3; BAE06077).
+FT   CONFLICT   1075   1075       I -> S (in Ref. 2; AAC39933).
+FT   HELIX      2023   2039
+FT   HELIX      2044   2059
+FT   HELIX      2065   2091
+FT   HELIX      2095   2110
+SQ   SEQUENCE   2549 AA;  288892 MW;  7D9AD6E784882AB4 CRC64;
+     MLGTGPAAAT TAATTSSNVS VLQQFASGLK SRNEETRAKA AKELQHYVTM ELREMSQEES
+     TRFYDQLNHH IFELVSSSDA NERKGGILAI ASLIGVEGGN ATRIGRFANY LRNLLPSNDP
+     VVMEMASKAI GRLAMAGDTF TAEYVEFEVK RALEWLGADR NEGRRHAAVL VLRELAISVP
+     TFFFQQVQPF FDNIFVAVWD PKQAIREGAV AALRACLILT TQREPKEMQK PQWYRHTFEE
+     AEKGFDETLA KEKGMNRDDR IHGALLILNE LVRISSMEGE RLREEMEEIT QQQLVHDKYC
+     KDLMGFGTKP RHITPFTSFQ AVQPQQSNAL VGLLGYSSHQ GLMGFGTSPS PAKSTLVESR
+     CCRDLMEEKF DQVCQWVLKC RNSKNSLIQM TILNLLPRLA AFRPSAFTDT QYLQDTMNHV
+     LSCVKKEKER TAAFQALGLL SVAVRSEFKV YLPRVLDIIR AALPPKDFAH KRQKAMQVDA
+     TVFTCISMLA RAMGPGIQQD IKELLEPMLA VGLSPALTAV LYDLSRQIPQ LKKDIQDGLL
+     KMLSLVLMHK PLRHPGMPKG LAHQLASPGL TTLPEASDVG SITLALRTLG SFEFEGHSLT
+     QFVRHCADHF LNSEHKEIRM EAARTCSRLL TPSIHLISGH AHVVSQTAVQ VVADVLSKLL
+     VVGITDPDPD IRYCVLASLD ERFDAHLAQA ENLQALFVAL NDQVFEIREL AICTVGRLSS
+     MNPAFVMPFL RKMLIQILTE LEHSGIGRIK EQSARMLGHL VSNAPRLIRP YMEPILKALI
+     LKLKDPDPDP NPGVINNVLA TIGELAQVSG LEMRKWVDEL FIIIMDMLQD SSLLAKRQVA
+     LWTLGQLVAS TGYVVEPYRK YPTLLEVLLN FLKTEQNQGT RREAIRVLGL LGALDPYKHK
+     VNIGMIDQSR DASAVSLSES KSSQDSSDYS TSEMLVNMGN LPLDEFYPAV SMVALMRIFR
+     DQSLSHHHTM VVQAITFIFK SLGLKCVQFL PQVMPTFLNV IRVCDGAIRE FLFQQLGMLV
+     SFVKSHIRPY MDEIVTLMRE FWVMNTSIQS TIILLIEQIV VALGGEFKLY LPQLIPHMLR
+     VFMHDNSPGR IVSIKLLAAI QLFGANLDDY LHLLLPPIVK LFDAPEAPLP SRKAALETVD
+     RLTESLDFTD YASRIIHPIV RTLDQSPELR STAMDTLSSL VFQLGKKYQI FIPMVNKVLV
+     RHRINHQRYD VLICRIVKGY TLADEEEDPL IYQHRMLRSG QGDALASGPV ETGPMKKLHV
+     STINLQKAWG AARRVSKDDW LEWLRRLSLE LLKDSSSPSL RSCWALAQAY NPMARDLFNA
+     AFVSCWSELN EDQQDELIRS IELALTSQDI AEVTQTLLNL AEFMEHSDKG PLPLRDDNGI
+     VLLGERAAKC RAYAKALHYK ELEFQKGPTP AILESLISIN NKLQQPEAAA GVLEYAMKHF
+     GELEIQATWY EKLHEWEDAL VAYDKKMDTN KDDPELMLGR MRCLEALGEW GQLHQQCCEK
+     WTLVNDETQA KMARMAAAAA WGLGQWDSME EYTCMIPRDT HDGAFYRAVL ALHQDLFSLA
+     QQCIDKARDL LDAELTAMAG ESYSRAYGAM VSCHMLSELE EVIQYKLVPE RREIIRQIWW
+     ERLQGCQRIV EDWQKILMVR SLVVSPHEDM RTWLKYASLC GKSGRLALAH KTLVLLLGVD
+     PSRQLDHPLP TVHPQVTYAY MKNMWKSARK IDAFQHMQHF VQTMQQQAQH AIATEDQQHK
+     QELHKLMARC FLKLGEWQLN LQGINESTIP KVLQYYSAAT EHDRSWYKAW HAWAVMNFEA
+     VLHYKHQNQA RDEKKKLRHA SGANITNATT AATTAATATT TASTEGSNSE SEAESTENSP
+     TPSPLQKKVT EDLSKTLLMY TVPAVQGFFR SISLSRGNNL QDTLRVLTLW FDYGHWPDVN
+     EALVEGVKAI QIDTWLQVIP QLIARIDTPR PLVGRLIHQL LTDIGRYHPQ ALIYPLTVAS
+     KSTTTARHNA ANKILKNMCE HSNTLVQQAM MVSEELIRVA ILWHEMWHEG LEEASRLYFG
+     ERNVKGMFEV LEPLHAMMER GPQTLKETSF NQAYGRDLME AQEWCRKYMK SGNVKDLTQA
+     WDLYYHVFRR ISKQLPQLTS LELQYVSPKL LMCRDLELAV PGTYDPNQPI IRIQSIAPSL
+     QVITSKQRPR KLTLMGSNGH EFVFLLKGHE DLRQDERVMQ LFGLVNTLLA NDPTSLRKNL
+     SIQRYAVIPL STNSGLIGWV PHCDTLHALI RDYREKKKIL LNIEHRIMLR MAPDYDHLTL
+     MQKVEVFEHA VNNTAGDDLA KLLWLKSPSS EVWFDRRTNY TRSLAVMSMV GYILGLGDRH
+     PSNLMLDRLS GKILHIDFGD CFEVAMTREK FPEKIPFRLT RMLTNAMEVT GLDGNYRITC
+     HTVMEVLREH KDSVMAVLEA FVYDPLLNWR LMDTNTKGNK RSRTRTDSYS AGQSVEILDG
+     VELGEPAHKK TGTTVPESIH SFIGDGLVKP EALNKKAIQI INRVRDKLTG RDFSHDDTLD
+     VPTQVELLIK QATSHENLCQ CYIGWCPFW
+//

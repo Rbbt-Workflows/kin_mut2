@@ -1,0 +1,625 @@
+ID   PINK1_HUMAN             Reviewed;         581 AA.
+AC   Q9BXM7; Q8N6T9; Q8NBU3; Q96DE4;
+DT   07-JUN-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2001, sequence version 1.
+DT   02-NOV-2010, entry version 91.
+DE   RecName: Full=Serine/threonine-protein kinase PINK1, mitochondrial;
+DE            EC=2.7.11.1;
+DE   AltName: Full=BRPK;
+DE   AltName: Full=PTEN-induced putative kinase protein 1;
+DE   Flags: Precursor;
+GN   Name=PINK1;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), AND TISSUE SPECIFICITY.
+RC   TISSUE=Endometrium;
+RX   MEDLINE=21385714; PubMed=11494141; DOI=10.1038/sj.onc.1204608;
+RA   Unoki M., Nakamura Y.;
+RT   "Growth-suppressive effects of BPOZ and EGR2, two genes involved in
+RT   the PTEN signaling pathway.";
+RL   Oncogene 20:4457-4465(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), FUNCTION, AND
+RP   AUTOPHOSPHORYLATION.
+RC   TISSUE=Placenta;
+RX   PubMed=14607334; DOI=10.1016/S0304-3835(03)00443-9;
+RA   Nakajima A., Kataoka K., Hong M., Sakaguchi M., Huh N.-H.;
+RT   "BRPK, a novel protein kinase showing increased expression in mouse
+RT   cancer cell lines with higher metastatic potential.";
+RL   Cancer Lett. 201:195-201(2003).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2), AND VARIANTS
+RP   THR-340 AND THR-521.
+RC   TISSUE=Placenta;
+RX   PubMed=14702039; DOI=10.1038/ng1285;
+RA   Ota T., Suzuki Y., Nishikawa T., Otsuki T., Sugiyama T., Irie R.,
+RA   Wakamatsu A., Hayashi K., Sato H., Nagai K., Kimura K., Makita H.,
+RA   Sekine M., Obayashi M., Nishi T., Shibahara T., Tanaka T., Ishii S.,
+RA   Yamamoto J., Saito K., Kawai Y., Isono Y., Nakamura Y., Nagahari K.,
+RA   Murakami K., Yasuda T., Iwayanagi T., Wagatsuma M., Shiratori A.,
+RA   Sudo H., Hosoiri T., Kaku Y., Kodaira H., Kondo H., Sugawara M.,
+RA   Takahashi M., Kanda K., Yokoi T., Furuya T., Kikkawa E., Omura Y.,
+RA   Abe K., Kamihara K., Katsuta N., Sato K., Tanikawa M., Yamazaki M.,
+RA   Ninomiya K., Ishibashi T., Yamashita H., Murakawa K., Fujimori K.,
+RA   Tanai H., Kimata M., Watanabe M., Hiraoka S., Chiba Y., Ishida S.,
+RA   Ono Y., Takiguchi S., Watanabe S., Yosida M., Hotuta T., Kusano J.,
+RA   Kanehori K., Takahashi-Fujii A., Hara H., Tanase T.-O., Nomura Y.,
+RA   Togiya S., Komai F., Hara R., Takeuchi K., Arita M., Imose N.,
+RA   Musashino K., Yuuki H., Oshima A., Sasaki N., Aotsuka S.,
+RA   Yoshikawa Y., Matsunawa H., Ichihara T., Shiohata N., Sano S.,
+RA   Moriya S., Momiyama H., Satoh N., Takami S., Terashima Y., Suzuki O.,
+RA   Nakagawa S., Senoh A., Mizoguchi H., Goto Y., Shimizu F., Wakebe H.,
+RA   Hishigaki H., Watanabe T., Sugiyama A., Takemoto M., Kawakami B.,
+RA   Yamazaki M., Watanabe K., Kumagai A., Itakura S., Fukuzumi Y.,
+RA   Fujimori Y., Komiyama M., Tashiro H., Tanigami A., Fujiwara T.,
+RA   Ono T., Yamada K., Fujii Y., Ozaki K., Hirao M., Ohmori Y.,
+RA   Kawabata A., Hikiji T., Kobatake N., Inagaki H., Ikema Y., Okamoto S.,
+RA   Okitani R., Kawakami T., Noguchi S., Itoh T., Shigeta K., Senba T.,
+RA   Matsumura K., Nakajima Y., Mizuno T., Morinaga M., Sasaki M.,
+RA   Togashi T., Oyama M., Hata H., Watanabe M., Komatsu T.,
+RA   Mizushima-Sugano J., Satoh T., Shirai Y., Takahashi Y., Nakagawa K.,
+RA   Okumura K., Nagase T., Nomura N., Kikuchi H., Masuho Y., Yamashita R.,
+RA   Nakai K., Yada T., Nakamura Y., Ohara O., Isogai T., Sugano S.;
+RT   "Complete sequencing and characterization of 21,243 full-length human
+RT   cDNAs.";
+RL   Nat. Genet. 36:40-45(2004).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=16710414; DOI=10.1038/nature04727;
+RA   Gregory S.G., Barlow K.F., McLay K.E., Kaul R., Swarbreck D.,
+RA   Dunham A., Scott C.E., Howe K.L., Woodfine K., Spencer C.C.A.,
+RA   Jones M.C., Gillson C., Searle S., Zhou Y., Kokocinski F.,
+RA   McDonald L., Evans R., Phillips K., Atkinson A., Cooper R., Jones C.,
+RA   Hall R.E., Andrews T.D., Lloyd C., Ainscough R., Almeida J.P.,
+RA   Ambrose K.D., Anderson F., Andrew R.W., Ashwell R.I.S., Aubin K.,
+RA   Babbage A.K., Bagguley C.L., Bailey J., Beasley H., Bethel G.,
+RA   Bird C.P., Bray-Allen S., Brown J.Y., Brown A.J., Buckley D.,
+RA   Burton J., Bye J., Carder C., Chapman J.C., Clark S.Y., Clarke G.,
+RA   Clee C., Cobley V., Collier R.E., Corby N., Coville G.J., Davies J.,
+RA   Deadman R., Dunn M., Earthrowl M., Ellington A.G., Errington H.,
+RA   Frankish A., Frankland J., French L., Garner P., Garnett J., Gay L.,
+RA   Ghori M.R.J., Gibson R., Gilby L.M., Gillett W., Glithero R.J.,
+RA   Grafham D.V., Griffiths C., Griffiths-Jones S., Grocock R.,
+RA   Hammond S., Harrison E.S.I., Hart E., Haugen E., Heath P.D.,
+RA   Holmes S., Holt K., Howden P.J., Hunt A.R., Hunt S.E., Hunter G.,
+RA   Isherwood J., James R., Johnson C., Johnson D., Joy A., Kay M.,
+RA   Kershaw J.K., Kibukawa M., Kimberley A.M., King A., Knights A.J.,
+RA   Lad H., Laird G., Lawlor S., Leongamornlert D.A., Lloyd D.M.,
+RA   Loveland J., Lovell J., Lush M.J., Lyne R., Martin S.,
+RA   Mashreghi-Mohammadi M., Matthews L., Matthews N.S.W., McLaren S.,
+RA   Milne S., Mistry S., Moore M.J.F., Nickerson T., O'Dell C.N.,
+RA   Oliver K., Palmeiri A., Palmer S.A., Parker A., Patel D., Pearce A.V.,
+RA   Peck A.I., Pelan S., Phelps K., Phillimore B.J., Plumb R., Rajan J.,
+RA   Raymond C., Rouse G., Saenphimmachak C., Sehra H.K., Sheridan E.,
+RA   Shownkeen R., Sims S., Skuce C.D., Smith M., Steward C.,
+RA   Subramanian S., Sycamore N., Tracey A., Tromans A., Van Helmond Z.,
+RA   Wall M., Wallis J.M., White S., Whitehead S.L., Wilkinson J.E.,
+RA   Willey D.L., Williams H., Wilming L., Wray P.W., Wu Z., Coulson A.,
+RA   Vaudin M., Sulston J.E., Durbin R.M., Hubbard T., Wooster R.,
+RA   Dunham I., Carter N.P., McVean G., Ross M.T., Harrow J., Olson M.V.,
+RA   Beck S., Rogers J., Bentley D.R.;
+RT   "The DNA sequence and biological annotation of human chromosome 1.";
+RL   Nature 441:315-321(2006).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   TISSUE=Leukocyte, and Lung;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [6]
+RP   SUBCELLULAR LOCATION, AND MEMBRANE TOPOLOGY.
+RX   PubMed=18687899; DOI=10.1073/pnas.0802814105;
+RA   Zhou C., Huang Y., Shao Y., May J., Prou D., Perier C., Dauer W.,
+RA   Schon E.A., Przedborski S.;
+RT   "The kinase domain of mitochondrial PINK1 faces the cytoplasm.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:12022-12027(2008).
+RN   [7]
+RP   VARIANTS PARK6 PHE-92; PRO-168 AND HIS-464, AND VARIANTS LEU-296;
+RP   THR-340; THR-442; LYS-476; THR-521 AND ASN-525.
+RX   PubMed=15349860; DOI=10.1002/ana.20256;
+RA   Valente E.M., Salvi S., Ialongo T., Marongiu R., Elia A.E., Caputo V.,
+RA   Romito L., Albanese A., Dallapiccola B., Bentivoglio A.R.;
+RT   "PINK1 mutations are associated with sporadic early-onset
+RT   parkinsonism.";
+RL   Ann. Neurol. 56:336-341(2004).
+RN   [8]
+RP   VARIANTS PARK6 GLN-271; PRO-347 AND GLY-417.
+RX   PubMed=15349870; DOI=10.1002/ana.20251;
+RA   Hatano Y., Li Y., Sato K., Asakawa S., Yamamura Y., Tomiyama H.,
+RA   Yoshino H., Asahina M., Kobayashi S., Hassin-Baer S., Lu C.-S.,
+RA   Ng A.R., Rosales R.L., Shimizu N., Toda T., Mizuno Y., Hattori N.;
+RT   "Novel PINK1 mutations in early-onset parkinsonism.";
+RL   Ann. Neurol. 56:424-427(2004).
+RN   [9]
+RP   ERRATUM.
+RA   Hatano Y., Li Y., Sato K., Asakawa S., Yamamura Y., Tomiyama H.,
+RA   Yoshino H., Asahina M., Kobayashi S., Hassin-Baer S., Lu C.-S.,
+RA   Ng A.R., Rosales R.L., Shimizu N., Toda T., Mizuno Y., Hattori N.;
+RL   Ann. Neurol. 56:603-603(2004).
+RN   [10]
+RP   VARIANTS PARK6 LYS-240; PRO-347 AND PRO-489, AND VARIANTS GLY-231;
+RP   ILE-235; GLY-263; LEU-318; THR-339; THR-340; HIS-362; SER-425; LYS-476
+RP   AND THR-521.
+RX   PubMed=15596610; DOI=10.1001/archneur.61.12.1898;
+RA   Rogaeva E., Johnson J., Lang A.E., Gulick C., Gwinn-Hardy K.,
+RA   Kawarai T., Sato C., Morgan A., Werner J., Nussbaum R., Petit A.,
+RA   Okun M.S., McInerney A., Mandel R., Groen J.L., Fernandez H.H.,
+RA   Postuma R., Foote K.D., Salehi-Rad S., Liang Y., Reimsnider S.,
+RA   Tandon A., Hardy J., St George-Hyslop P., Singleton A.B.;
+RT   "Analysis of the PINK1 gene in a large cohort of cases with Parkinson
+RT   disease.";
+RL   Arch. Neurol. 61:1898-1904(2004).
+RN   [11]
+RP   VARIANT PARK6 HIS-147.
+RX   PubMed=15505171;
+RA   Healy D.G., Abou-Sleiman P.M., Gibson J.M., Ross O.A., Jain S.,
+RA   Gandhi S., Gosal D., Muqit M.M.K., Wood N.W., Lynch T.;
+RT   "PINK1 (PARK6) associated Parkinson disease in Ireland.";
+RL   Neurology 63:1486-1488(2004).
+RN   [12]
+RP   VARIANT PARK6 ASP-309, CHARACTERIZATION OF VARIANT PARK6 ASP-309,
+RP   FUNCTION, AND SUBCELLULAR LOCATION.
+RX   PubMed=15087508; DOI=10.1126/science.1096284;
+RA   Valente E.M., Abou-Sleiman P.M., Caputo V., Muqit M.M.K., Harvey K.,
+RA   Gispert S., Ali Z., Del Turco D., Bentivoglio A.R., Healy D.G.,
+RA   Albanese A., Nussbaum R., Gonzalez-Maldonado R., Deller T., Salvi S.,
+RA   Cortelli P., Gilks W.P., Latchman D.S., Harvey R.J., Dallapiccola B.,
+RA   Auburger G., Wood N.W.;
+RT   "Hereditary early-onset Parkinson's disease caused by mutations in
+RT   PINK1.";
+RL   Science 304:1158-1160(2004).
+RN   [13]
+RP   VARIANT PARK6 VAL-268.
+RX   PubMed=16207217; DOI=10.1111/j.1399-0004.2005.00500.x;
+RA   Tan E.K., Yew K., Chua E., Shen H., Jamora R.D., Lee E., Puong K.Y.,
+RA   Zhao Y., Pavanni R., Wong M.C., Puvan K., Yih Y., Tan L.C.S.;
+RT   "Analysis of PINK1 in Asian patients with familial parkinsonism.";
+RL   Clin. Genet. 68:468-470(2005).
+RN   [14]
+RP   VARIANTS PARK6 HIS-279 AND GLN-534 INS, AND VARIANT LEU-115.
+RX   PubMed=15970950; DOI=10.1038/sj.ejhg.5201455;
+RA   Klein C., Djarmati A., Hedrich K., Schaefer N., Scaglione C.,
+RA   Marchese R., Kock N., Schuele B., Hiller A., Lohnau T., Winkler S.,
+RA   Wiegers K., Hering R., Bauer P., Riess O., Abbruzzese G.,
+RA   Martinelli P., Pramstaller P.P.;
+RT   "PINK1, Parkin, and DJ-1 mutations in Italian patients with early-
+RT   onset parkinsonism.";
+RL   Eur. J. Hum. Genet. 13:1086-1093(2005).
+RN   [15]
+RP   CHARACTERIZATION OF VARIANTS PARK6 PRO-168 AND ASP-309.
+RX   PubMed=16207731; DOI=10.1093/hmg/ddi377;
+RA   Silvestri L., Caputo V., Bellacchio E., Atorino L., Dallapiccola B.,
+RA   Valente E.M., Casari G.;
+RT   "Mitochondrial import and enzymatic activity of PINK1 mutants
+RT   associated to recessive parkinsonism.";
+RL   Hum. Mol. Genet. 14:3477-3492(2005).
+RN   [16]
+RP   VARIANT PARK6 ARG-388.
+RX   PubMed=15955953; DOI=10.1212/01.WNL.0000164009.36740.4E;
+RA   Li Y., Tomiyama H., Sato K., Hatano Y., Yoshino H., Atsumi M.,
+RA   Kitaguchi M., Sasaki S., Kawaguchi S., Miyajima H., Toda T.,
+RA   Mizuno Y., Hattori N.;
+RT   "Clinicogenetic study of PINK1 mutations in autosomal recessive early-
+RT   onset parkinsonism.";
+RL   Neurology 64:1955-1957(2005).
+RN   [17]
+RP   VARIANTS PARK6 PRO-168 AND LEU-196, AND VARIANTS LEU-115; THR-340;
+RP   LYS-476 AND THR-521.
+RX   PubMed=16009891; DOI=10.1212/01.wnl.0000167546.39375.82;
+RG   The Italian Parkinson genetics network;
+RA   Bonifati V., Rohe C.F., Breedveld G.J., Fabrizio E., De Mari M.,
+RA   Tassorelli C., Tavella A., Marconi R., Nicholl D.J., Chien H.F.,
+RA   Fincati E., Abbruzzese G., Marini P., De Gaetano A., Horstink M.W.,
+RA   Maat-Kievit J.A., Sampaio C., Antonini A., Stocchi F., Montagna P.,
+RA   Toni V., Guidi M., Dalla Libera A., Tinazzi M., De Pandis F.,
+RA   Fabbrini G., Goldwurm S., de Klein A., Barbosa E., Lopiano L.,
+RA   Martignoni E., Lamberti P., Vanacore N., Meco G., Oostra B.A.;
+RT   "Early-onset parkinsonism associated with PINK1 mutations: frequency,
+RT   genotypes, and phenotypes.";
+RL   Neurology 65:87-95(2005).
+RN   [18]
+RP   VARIANTS ILE-317; THR-339; THR-383; SER-411; HIS-431; SER-451;
+RP   SER-461; LYS-476; PRO-501 AND ARG-575, AND CHARACTERIZATION OF
+RP   VARIANTS HIS-431; SER-451; LYS-476; PRO-501 AND ARG-575.
+RX   PubMed=16969854; DOI=10.1002/ana.20960;
+RA   Abou-Sleiman P.M., Muqit M.M.K., McDonald N.Q., Yang Y.X., Gandhi S.,
+RA   Healy D.G., Harvey K., Harvey R.J., Deas E., Bhatia K., Quinn N.,
+RA   Lees A., Latchman D.S., Wood N.W.;
+RT   "A heterozygous effect for PINK1 mutations in Parkinson's disease?";
+RL   Ann. Neurol. 60:414-419(2006).
+RN   [19]
+RP   VARIANT PARK6 ASP-217.
+RX   PubMed=16966503; DOI=10.1001/archneur.63.9.1257;
+RA   Leutenegger A.-L., Salih M.A.M., Ibanez P., Mukhtar M.M., Lesage S.,
+RA   Arabi A., Lohmann E., Duerr A., Ahmed A.E.M., Brice A.;
+RT   "Juvenile-onset Parkinsonism as a result of the first mutation in the
+RT   adenosine triphosphate orientation domain of PINK1.";
+RL   Arch. Neurol. 63:1257-1261(2006).
+RN   [20]
+RP   VARIANT PARK6 MET-313.
+RX   PubMed=17030667; DOI=10.1001/archneur.63.10.1483;
+RA   Chishti M.A., Bohlega S., Ahmed M., Loualich A., Carroll P., Sato C.,
+RA   St George-Hyslop P., Westaway D., Rogaeva E.;
+RT   "T313M PINK1 mutation in an extended highly consanguineous Saudi
+RT   family with early-onset Parkinson disease.";
+RL   Arch. Neurol. 63:1483-1485(2006).
+RN   [21]
+RP   VARIANTS PARK6 GLY-125; LYS-240; PRO-369; ALA-386 AND VAL-409.
+RX   PubMed=16401616; DOI=10.1093/brain/awl005;
+RG   The French Parkinson's disease genetics study group;
+RA   Ibanez P., Lesage S., Lohmann E., Thobois S., De Michele G., Borg M.,
+RA   Agid Y., Durr A., Brice A.;
+RT   "Mutational analysis of the PINK1 gene in early-onset parkinsonism in
+RT   Europe and North Africa.";
+RL   Brain 129:686-694(2006).
+RN   [22]
+RP   VARIANT PARK6 LEU-399.
+RX   PubMed=16632486; DOI=10.1093/hmg/ddl104;
+RA   Tang B., Xiong H., Sun P., Zhang Y., Wang D., Hu Z., Zhu Z., Ma H.,
+RA   Pan Q., Xia J.-H., Xia K., Zhang Z.;
+RT   "Association of PINK1 and DJ-1 confers digenic inheritance of early-
+RT   onset Parkinson's disease.";
+RL   Hum. Mol. Genet. 15:1816-1825(2006).
+RN   [23]
+RP   VARIANT PARK6 THR-280, AND VARIANTS THR-340 AND THR-521.
+RX   PubMed=16482571; DOI=10.1002/mds.20810;
+RA   Tan E.-K., Yew K., Chua E., Puvan K., Shen H., Lee E., Puong K.-Y.,
+RA   Zhao Y., Pavanni R., Wong M.-C., Jamora D., de Silva D., Moe K.-T.,
+RA   Woon F.-P., Yuen Y., Tan L.;
+RT   "PINK1 mutations in sporadic early-onset Parkinson's disease.";
+RL   Mov. Disord. 21:789-793(2006).
+RN   [24]
+RP   VARIANT PARK6 GLN-407, AND VARIANTS THR-340 AND THR-521.
+RX   PubMed=16257123; DOI=10.1016/j.neulet.2005.10.005;
+RA   Fung H.-C., Chen C.-M., Hardy J., Singleton A.B., Lee-Chen G.-J.,
+RA   Wu Y.-R.;
+RT   "Analysis of the PINK1 gene in a cohort of patients with sporadic
+RT   early-onset parkinsonism in Taiwan.";
+RL   Neurosci. Lett. 394:33-36(2006).
+RN   [25]
+RP   VARIANTS [LARGE SCALE ANALYSIS] TRP-148; SER-196; LEU-209; LEU-215;
+RP   THR-339; THR-340; ILE-341; PHE-377; THR-477 AND THR-521.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+RN   [26]
+RP   VARIANTS PHE-67; PRO-68; TRP-98; SER-111; VAL-124; MET-145; ASN-186;
+RP   ILE-257 VAL-268; GLN-276; LEU-296; ILE-317; LEU-322; THR-339; THR-383;
+RP   VAL-395; THR-442; LYS-476; ASN-525 AND THR-537.
+RX   PubMed=18330912; DOI=10.1002/humu.20719;
+RG   The Italian PD study group;
+RA   Marongiu R., Ferraris A., Ialongo T., Michiorri S., Soleti F.,
+RA   Ferrari F., Elia A.E., Ghezzi D., Albanese A., Altavista M.C.,
+RA   Antonini A., Barone P., Brusa L., Cortelli P., Martinelli P.,
+RA   Pellecchia M.T., Pezzoli G., Scaglione C., Stanzione P., Tinazzi M.,
+RA   Zecchinelli A., Zeviani M., Cassetta E., Garavaglia B.,
+RA   Dallapiccola B., Bentivoglio A.R., Valente E.M.;
+RT   "PINK1 heterozygous rare variants: prevalence, significance and
+RT   phenotypic spectrum.";
+RL   Hum. Mutat. 29:565-565(2008).
+CC   -!- FUNCTION: Protects against mitochondrial dysfunction during
+CC       cellular stress, potentially by phosphorylating mitochondrial
+CC       proteins.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- COFACTOR: Magnesium.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion outer membrane; Single-pass
+CC       membrane protein.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q9BXM7-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q9BXM7-2; Sequence=VSP_050754, VSP_050755;
+CC         Note=No experimental confirmation available;
+CC   -!- TISSUE SPECIFICITY: Highly expressed in heart, skeletal muscle and
+CC       testis, and at lower levels in brain, placenta, liver, kidney,
+CC       pancreas, prostate, ovary and small intestine. Present in the
+CC       embryonic testis from an early stage of development.
+CC   -!- PTM: Autophosphorylated.
+CC   -!- DISEASE: Defects in PINK1 are the cause of Parkinson disease type
+CC       6 (PARK6) [MIM:605909]. A neurodegenerative disorder characterized
+CC       by parkinsonian signs such as rigidity, resting tremor and
+CC       bradykinesia. A subset of patients manifest additional symptoms
+CC       including hyperreflexia, autonomic instability, dementia and
+CC       psychiatric disturbances. Symptoms show diurnal fluctuation and
+CC       can improve after sleep.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Ser/Thr
+CC       protein kinase family.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- WEB RESOURCE: Name=GeneReviews;
+CC       URL="http://www.ncbi.nlm.nih.gov/sites/GeneTests/lab/gene/PINK1";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AB053323; BAB55647.1; -; mRNA.
+DR   EMBL; AF316873; AAK28062.1; -; mRNA.
+DR   EMBL; AK075225; BAC11484.1; -; mRNA.
+DR   EMBL; AL391357; CAH73475.1; -; Genomic_DNA.
+DR   EMBL; BC009534; AAH09534.1; -; mRNA.
+DR   EMBL; BC028215; AAH28215.1; -; mRNA.
+DR   IPI; IPI00307065; -.
+DR   IPI; IPI00411562; -.
+DR   RefSeq; NP_115785.1; -.
+DR   UniGene; Hs.389171; -.
+DR   ProteinModelPortal; Q9BXM7; -.
+DR   SMR; Q9BXM7; 151-503, 311-534.
+DR   DIP; DIP-29427N; -.
+DR   IntAct; Q9BXM7; 2.
+DR   STRING; Q9BXM7; -.
+DR   PRIDE; Q9BXM7; -.
+DR   Ensembl; ENST00000321556; ENSP00000364204; ENSG00000158828.
+DR   GeneID; 65018; -.
+DR   KEGG; hsa:65018; -.
+DR   UCSC; uc001bdm.1; human.
+DR   UCSC; uc001bdn.1; human.
+DR   CTD; 65018; -.
+DR   GeneCards; GC01P020959; -.
+DR   H-InvDB; HIX0000218; -.
+DR   H-InvDB; HIX0200135; -.
+DR   HGNC; HGNC:14581; PINK1.
+DR   HPA; CAB026191; -.
+DR   HPA; HPA001931; -.
+DR   MIM; 168600; phenotype.
+DR   MIM; 605909; phenotype.
+DR   MIM; 608309; gene.
+DR   Orphanet; 2828; Genetic Parkinson disease.
+DR   PharmGKB; PA33325; -.
+DR   eggNOG; prNOG04091; -.
+DR   HOGENOM; HBG716083; -.
+DR   HOVERGEN; HBG053601; -.
+DR   InParanoid; Q9BXM7; -.
+DR   OMA; WNISAGS; -.
+DR   OrthoDB; EOG9TXFCH; -.
+DR   PhylomeDB; Q9BXM7; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   NextBio; 67218; -.
+DR   ArrayExpress; Q9BXM7; -.
+DR   Bgee; Q9BXM7; -.
+DR   CleanEx; HS_PINK1; -.
+DR   Genevestigator; Q9BXM7; -.
+DR   GermOnline; ENSG00000158828; Homo sapiens.
+DR   GO; GO:0005829; C:cytosol; IDA:BHF-UCL.
+DR   GO; GO:0016021; C:integral to membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005741; C:mitochondrial outer membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IDA:UniProtKB.
+DR   GO; GO:0055131; F:C3HC4-type RING finger domain binding; IPI:BHF-UCL.
+DR   GO; GO:0010857; F:calcium-dependent protein kinase activity; IDA:BHF-UCL.
+DR   GO; GO:0000287; F:magnesium ion binding; IDA:UniProtKB.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IDA:UniProtKB.
+DR   GO; GO:0008219; P:cell death; IEA:UniProtKB-KW.
+DR   GO; GO:0007243; P:intracellular protein kinase cascade; IDA:UniProtKB.
+DR   GO; GO:0018105; P:peptidyl-serine phosphorylation; IDA:BHF-UCL.
+DR   GO; GO:0043123; P:positive regulation of I-kappaB kinase/NF-k...; IDA:BHF-UCL.
+DR   GO; GO:0090200; P:positive regulation of release of cytochrom...; IMP:BHF-UCL.
+DR   GO; GO:0043254; P:regulation of protein complex assembly; IDA:BHF-UCL.
+DR   GO; GO:0031396; P:regulation of protein ubiquitination; IDA:BHF-UCL.
+DR   GO; GO:0006950; P:response to stress; IDA:UniProtKB.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; FALSE_NEG.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; ATP-binding; Complete proteome;
+KW   Disease mutation; Kinase; Magnesium; Membrane; Metal-binding;
+KW   Mitochondrion; Mitochondrion outer membrane; Neurodegeneration;
+KW   Nucleotide-binding; Parkinsonism; Phosphoprotein; Polymorphism;
+KW   Serine/threonine-protein kinase; Transferase; Transit peptide;
+KW   Transmembrane; Transmembrane helix.
+FT   TRANSIT       1     77       Mitochondrion (Potential).
+FT   CHAIN        78    581       Serine/threonine-protein kinase PINK1,
+FT                                mitochondrial.
+FT                                /FTId=PRO_0000024369.
+FT   TOPO_DOM     78     93       Mitochondrial intermembrane (Potential).
+FT   TRANSMEM     94    110       Helical; (Potential).
+FT   TOPO_DOM    111    581       Cytoplasmic (Potential).
+FT   DOMAIN      156    511       Protein kinase.
+FT   NP_BIND     162    170       ATP (By similarity).
+FT   ACT_SITE    362    362       Proton acceptor (By similarity).
+FT   BINDING     186    186       ATP (By similarity).
+FT   VAR_SEQ       1    307       Missing (in isoform 2).
+FT                                /FTId=VSP_050754.
+FT   VAR_SEQ     308    320       LGHGRTLFLVMKN -> MCGSQRPSPLSTS (in
+FT                                isoform 2).
+FT                                /FTId=VSP_050755.
+FT   VARIANT      67     67       L -> F.
+FT                                /FTId=VAR_046566.
+FT   VARIANT      68     68       R -> P.
+FT                                /FTId=VAR_046567.
+FT   VARIANT      92     92       C -> F (in PARK6).
+FT                                /FTId=VAR_046568.
+FT   VARIANT      98     98       R -> W.
+FT                                /FTId=VAR_046569.
+FT   VARIANT     111    111       I -> S.
+FT                                /FTId=VAR_046570.
+FT   VARIANT     115    115       Q -> L.
+FT                                /FTId=VAR_046571.
+FT   VARIANT     124    124       A -> V.
+FT                                /FTId=VAR_046572.
+FT   VARIANT     125    125       C -> G (in PARK6).
+FT                                /FTId=VAR_062773.
+FT   VARIANT     145    145       T -> M (in dbSNP:rs45604240).
+FT                                /FTId=VAR_046573.
+FT   VARIANT     147    147       R -> H (in PARK6; uncertain
+FT                                pathogenicity).
+FT                                /FTId=VAR_046574.
+FT   VARIANT     148    148       L -> W (in dbSNP:rs56297806).
+FT                                /FTId=VAR_041010.
+FT   VARIANT     168    168       A -> P (in PARK6; has reduced
+FT                                autophosphorylation activity compared to
+FT                                wild-type; localizes to the mitochondria
+FT                                and immunogold experiments reveal that
+FT                                both wild-type and mutant proteins face
+FT                                the mitochondrial intermembrane space).
+FT                                /FTId=VAR_046575.
+FT   VARIANT     186    186       K -> N.
+FT                                /FTId=VAR_046576.
+FT   VARIANT     196    196       P -> L (in PARK6).
+FT                                /FTId=VAR_046577.
+FT   VARIANT     196    196       P -> S (in dbSNP:rs35802484).
+FT                                /FTId=VAR_041011.
+FT   VARIANT     209    209       P -> L (in dbSNP:rs34677717).
+FT                                /FTId=VAR_041012.
+FT   VARIANT     215    215       P -> L (in a glioblastoma multiforme
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_041013.
+FT   VARIANT     217    217       A -> D (in PARK6).
+FT                                /FTId=VAR_046578.
+FT   VARIANT     231    231       E -> G.
+FT                                /FTId=VAR_046579.
+FT   VARIANT     235    235       N -> I.
+FT                                /FTId=VAR_046580.
+FT   VARIANT     240    240       E -> K (in PARK6).
+FT                                /FTId=VAR_046581.
+FT   VARIANT     257    257       T -> I.
+FT                                /FTId=VAR_046582.
+FT   VARIANT     263    263       R -> G.
+FT                                /FTId=VAR_046583.
+FT   VARIANT     268    268       L -> V (in PARK6).
+FT                                /FTId=VAR_046584.
+FT   VARIANT     271    271       H -> Q (in PARK6).
+FT                                /FTId=VAR_046585.
+FT   VARIANT     276    276       R -> Q.
+FT                                /FTId=VAR_046586.
+FT   VARIANT     279    279       R -> H (in PARK6).
+FT                                /FTId=VAR_046587.
+FT   VARIANT     280    280       A -> T (in PARK6; early-onset).
+FT                                /FTId=VAR_062774.
+FT   VARIANT     296    296       P -> L.
+FT                                /FTId=VAR_046588.
+FT   VARIANT     305    305       P -> L (in dbSNP:rs7349186).
+FT                                /FTId=VAR_018993.
+FT   VARIANT     309    309       G -> D (in PARK6; fails to maintain
+FT                                mitochondrial membrane potential and
+FT                                protect against apoptosis following
+FT                                induction of stress; has reduced
+FT                                autophosphorylation activity compared to
+FT                                wild-type; localizes to the mitochondria
+FT                                and immunogold experiments reveal that
+FT                                both wild-type and mutant proteins face
+FT                                the mitochondrial intermembrane space).
+FT                                /FTId=VAR_018994.
+FT   VARIANT     313    313       T -> M (in PARK6).
+FT                                /FTId=VAR_046589.
+FT   VARIANT     317    317       V -> I.
+FT                                /FTId=VAR_046590.
+FT   VARIANT     318    318       M -> L.
+FT                                /FTId=VAR_046591.
+FT   VARIANT     322    322       P -> L.
+FT                                /FTId=VAR_046592.
+FT   VARIANT     339    339       A -> T (in dbSNP:rs55831733).
+FT                                /FTId=VAR_041014.
+FT   VARIANT     340    340       A -> T (in dbSNP:rs3738136).
+FT                                /FTId=VAR_018995.
+FT   VARIANT     341    341       M -> I (in dbSNP:rs35813094).
+FT                                /FTId=VAR_041015.
+FT   VARIANT     347    347       L -> P (in PARK6).
+FT                                /FTId=VAR_046593.
+FT   VARIANT     362    362       D -> H.
+FT                                /FTId=VAR_046594.
+FT   VARIANT     369    369       L -> P (in PARK6).
+FT                                /FTId=VAR_062775.
+FT   VARIANT     377    377       C -> F (in dbSNP:rs34203620).
+FT                                /FTId=VAR_041016.
+FT   VARIANT     383    383       A -> T (in dbSNP:rs45515602).
+FT                                /FTId=VAR_046595.
+FT   VARIANT     386    386       G -> A (in PARK6).
+FT                                /FTId=VAR_062776.
+FT   VARIANT     388    388       C -> R (in PARK6).
+FT                                /FTId=VAR_046596.
+FT   VARIANT     395    395       G -> V.
+FT                                /FTId=VAR_046597.
+FT   VARIANT     399    399       P -> L (in PARK6; digenic inheritance;
+FT                                associated with Ser-39 mutation in PARK7
+FT                                gene).
+FT                                /FTId=VAR_062777.
+FT   VARIANT     407    407       R -> Q (in PARK6; early-onset).
+FT                                /FTId=VAR_062778.
+FT   VARIANT     409    409       G -> V (in PARK6).
+FT                                /FTId=VAR_062779.
+FT   VARIANT     411    411       G -> S (in dbSNP:rs45478900).
+FT                                /FTId=VAR_046598.
+FT   VARIANT     417    417       E -> G (in PARK6).
+FT                                /FTId=VAR_046599.
+FT   VARIANT     425    425       P -> S.
+FT                                /FTId=VAR_046600.
+FT   VARIANT     431    431       Y -> H (may predispose to Parkinson
+FT                                disease development; shows decreased
+FT                                mitochondrial membrane potential under
+FT                                stress conditions).
+FT                                /FTId=VAR_046601.
+FT   VARIANT     442    442       I -> T.
+FT                                /FTId=VAR_046602.
+FT   VARIANT     451    451       N -> S (may predispose to Parkinson
+FT                                disease development; shows decreased
+FT                                mitochondrial membrane potential under
+FT                                stress conditions).
+FT                                /FTId=VAR_046603.
+FT   VARIANT     461    461       L -> S.
+FT                                /FTId=VAR_046604.
+FT   VARIANT     464    464       R -> H (in PARK6).
+FT                                /FTId=VAR_046605.
+FT   VARIANT     476    476       E -> K (may predispose to Parkinson
+FT                                disease development; shows decreased
+FT                                mitochondrial membrane potential under
+FT                                stress conditions).
+FT                                /FTId=VAR_046606.
+FT   VARIANT     477    477       S -> T (in dbSNP:rs34416410).
+FT                                /FTId=VAR_041017.
+FT   VARIANT     489    489       L -> P (in PARK6).
+FT                                /FTId=VAR_046607.
+FT   VARIANT     501    501       R -> P (may predispose to Parkinson
+FT                                disease development; shows decreased
+FT                                mitochondrial membrane potential under
+FT                                stress conditions).
+FT                                /FTId=VAR_046608.
+FT   VARIANT     521    521       N -> T (in dbSNP:rs1043424).
+FT                                /FTId=VAR_018996.
+FT   VARIANT     525    525       D -> N.
+FT                                /FTId=VAR_046609.
+FT   VARIANT     534    534       Q -> QQ (in PARK6).
+FT                                /FTId=VAR_046610.
+FT   VARIANT     537    537       A -> T.
+FT                                /FTId=VAR_046611.
+FT   VARIANT     575    575       C -> R (may predispose to Parkinson
+FT                                disease development; shows decreased
+FT                                mitochondrial membrane potential under
+FT                                stress conditions).
+FT                                /FTId=VAR_046612.
+FT   CONFLICT    209    209       P -> A (in Ref. 5; AAH28215).
+FT   CONFLICT    419    419       S -> P (in Ref. 3; BAC11484).
+SQ   SEQUENCE   581 AA;  62769 MW;  721FE01F63263A64 CRC64;
+     MAVRQALGRG LQLGRALLLR FTGKPGRAYG LGRPGPAAGC VRGERPGWAA GPGAEPRRVG
+     LGLPNRLRFF RQSVAGLAAR LQRQFVVRAW GCAGPCGRAV FLAFGLGLGL IEEKQAESRR
+     AVSACQEIQA IFTQKSKPGP DPLDTRRLQG FRLEEYLIGQ SIGKGCSAAV YEATMPTLPQ
+     NLEVTKSTGL LPGRGPGTSA PGEGQERAPG APAFPLAIKM MWNISAGSSS EAILNTMSQE
+     LVPASRVALA GEYGAVTYRK SKRGPKQLAP HPNIIRVLRA FTSSVPLLPG ALVDYPDVLP
+     SRLHPEGLGH GRTLFLVMKN YPCTLRQYLC VNTPSPRLAA MMLLQLLEGV DHLVQQGIAH
+     RDLKSDNILV ELDPDGCPWL VIADFGCCLA DESIGLQLPF SSWYVDRGGN GCLMAPEVST
+     ARPGPRAVID YSKADAWAVG AIAYEIFGLV NPFYGQGKAH LESRSYQEAQ LPALPESVPP
+     DVRQLVRALL QREASKRPSA RVAANVLHLS LWGEHILALK NLKLDKMVGW LLQQSAATLL
+     ANRLTEKCCV ETKMKMLFLA NLECETLCQA ALLLCSWRAA L
+//

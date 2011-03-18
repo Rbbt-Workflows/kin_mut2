@@ -1,0 +1,362 @@
+ID   GUC2D_HUMAN             Reviewed;        1103 AA.
+AC   Q02846; Q6LEA7;
+DT   01-JUL-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1996, sequence version 2.
+DT   02-NOV-2010, entry version 133.
+DE   RecName: Full=Retinal guanylyl cyclase 1;
+DE            Short=RETGC-1;
+DE            EC=4.6.1.2;
+DE   AltName: Full=Guanylate cyclase 2D, retinal;
+DE   AltName: Full=Rod outer segment membrane guanylate cyclase;
+DE            Short=ROS-GC;
+DE   Flags: Precursor;
+GN   Name=GUCY2D; Synonyms=CORD6, GUC1A4, GUC2D, RETGC, RETGC1;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Retina;
+RX   MEDLINE=93001163; PubMed=1356371; DOI=10.1016/0896-6273(92)90035-C;
+RA   Shyjan A.W., de Sauvage F.J., Gillett N.A., Goeddel D.V., Lowe D.G.;
+RT   "Molecular cloning of a retina-specific membrane guanylyl cyclase.";
+RL   Neuron 9:727-737(1992).
+RN   [2]
+RP   SEQUENCE REVISION.
+RA   Lowe D.G.;
+RL   Submitted (JAN-1995) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RA   Perrault I.;
+RL   Submitted (DEC-1997) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1009-1088.
+RX   MEDLINE=95104866; PubMed=7806240; DOI=10.1006/geno.1994.1415;
+RA   Oliveira L., Miniou P., Viegas-Pequignot E., Rozet J.-M., Dollfus H.,
+RA   Pittler S.J.;
+RT   "Human retinal guanylate cyclase (GUC2D) maps to chromosome 17p13.1.";
+RL   Genomics 22:478-481(1994).
+RN   [5]
+RP   3D-STRUCTURE MODELING OF 871-1028.
+RX   MEDLINE=98054247; PubMed=9391039; DOI=10.1073/pnas.94.25.13414;
+RA   Liu Y., Ruoho A.E., Rao V.D., Hurley J.H.;
+RT   "Catalytic mechanism of the adenylyl and guanylyl cyclases: modeling
+RT   and mutational analysis.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 94:13414-13419(1997).
+RN   [6]
+RP   VARIANT LCA1 SER-52.
+RX   MEDLINE=97099458; PubMed=8944027; DOI=10.1038/ng1296-461;
+RA   Perrault I., Rozet J.-M., Calvas P., Gerber S., Camuzat A.,
+RA   Dollfus H., Chatelin S., Souied E., Ghazi I., Leowski C.,
+RA   Bonnemaison M., le Paslier D., Frezal J., Dufier J.-L., Pittler S.,
+RA   Munnich A., Kaplan J.;
+RT   "Retinal-specific guanylate cyclase gene mutations in Leber's
+RT   congenital amaurosis.";
+RL   Nat. Genet. 14:461-464(1996).
+RN   [7]
+RP   VARIANT CORD6 837-ASP--MET-839.
+RX   MEDLINE=98349989; PubMed=9683616; DOI=10.1086/301985;
+RA   Perrault I., Rozet J.-M., Gerber S., Kelsell R.E., Souied E.,
+RA   Cabot A., Hunt D.M., Munnich A., Kaplan J.;
+RT   "A retGC-1 mutation in autosomal dominant cone-rod dystrophy.";
+RL   Am. J. Hum. Genet. 63:651-654(1998).
+RN   [8]
+RP   VARIANTS CORD6 ASP-837 AND CYS-838.
+RX   MEDLINE=98282246; PubMed=9618177; DOI=10.1093/hmg/7.7.1179;
+RA   Kelsell R.E., Gregory-Evans K., Payne A.M., Perrault I., Kaplan J.,
+RA   Yang R.-B., Garbers D.L., Bird A.C., Moore A.T., Hunt D.M.;
+RT   "Mutations in the retinal guanylate cyclase (RETGC-1) gene in dominant
+RT   cone-rod dystrophy.";
+RL   Hum. Mol. Genet. 7:1179-1184(1998).
+RN   [9]
+RP   CHARACTERIZATION OF VARIANT LCA1 SER-565.
+RX   MEDLINE=99105799; PubMed=9888789; DOI=10.1021/bi9824137;
+RA   Duda T., Venkataraman V., Goraczniak R., Lange C., Koch K.-W.,
+RA   Sharma R.K.;
+RT   "Functional consequences of a rod outer segment membrane guanylate
+RT   cyclase (ROS-GC1) gene mutation linked with Leber's congenital
+RT   amaurosis.";
+RL   Biochemistry 38:509-515(1999).
+RN   [10]
+RP   VARIANTS LCA1 TYR-105; PRO-325 AND SER-858.
+RX   PubMed=11035546; DOI=10.1076/1381-6810(200009)21:3;1-Z;FT135;
+RA   Dharmaraj S.R., Silva E.R., Pina A.-L., Li Y.Y., Yang J.M.,
+RA   Carter C.R., Loyer M.K., El-Hilali H.K., Traboulsi E.K., Sundin O.K.,
+RA   Zhu D.K., Koenekoop R.K., Maumenee I.H.;
+RT   "Mutational analysis and clinical correlation in Leber congenital
+RT   amaurosis.";
+RL   Ophthalmic Genet. 21:135-150(2000).
+RN   [11]
+RP   VARIANT LCA1 PRO-954.
+RX   PubMed=12365911;
+RA   Koenekoop R.K., Fishman G.A., Iannaccone A., Ezzeldin H.,
+RA   Ciccarelli M.L., Baldi A., Sunness J.S., Lotery A.J., Jablonski M.M.,
+RA   Pittler S.J., Maumenee I.;
+RT   "Electroretinographic abnormalities in parents of patients with Leber
+RT   congenital amaurosis who have heterozygous GUCY2D mutations.";
+RL   Arch. Ophthalmol. 120:1325-1330(2002).
+RN   [12]
+RP   VARIANTS CORD6 CYS-838 AND HIS-838, AND DISCUSSION OF PHENOTYPIC
+RP   VARIABILITY.
+RX   MEDLINE=22439680; PubMed=12552567; DOI=10.1002/humu.9109;
+RA   Udar N., Yelchits S., Chalukya M., Yellore V., Nusinowitz S.,
+RA   Silva-Garcia R., Vrabec T., Hussles Maumenee I., Donoso L.,
+RA   Small K.W.;
+RT   "Identification of GUCY2D gene mutations in CORD5 families and
+RT   evidence of incomplete penetrance.";
+RL   Hum. Mutat. 21:170-171(2003).
+RN   [13]
+RP   CHARACTERIZATION OF VARIANTS LCA1 TYR-105; PRO-325; SER-858 AND
+RP   PRO-954.
+RX   PubMed=15123990;
+RA   Tucker C.L., Ramamurthy V., Pina A.-L., Loyer M., Dharmaraj S., Li Y.,
+RA   Maumenee I.H., Hurley J.B., Koenekoop R.K.;
+RT   "Functional analyses of mutant recessive GUCY2D alleles identified in
+RT   Leber congenital amaurosis patients: protein domain comparisons and
+RT   dominant negative effects.";
+RL   Mol. Vis. 10:297-303(2004).
+RN   [14]
+RP   VARIANTS [LARGE SCALE ANALYSIS] VAL-328; ASP-431; MET-507; GLU-693;
+RP   SER-701 AND HIS-782.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Probably plays a specific functional role in the rods
+CC       and/or cones of photoreceptors. It may be the enzyme involved in
+CC       the resynthesis of cGMP required for recovery of the dark state
+CC       after phototransduction.
+CC   -!- CATALYTIC ACTIVITY: GTP = 3',5'-cyclic GMP + diphosphate.
+CC   -!- ENZYME REGULATION: Activated by GCAP-1; inhibited by calcium.
+CC   -!- INTERACTION:
+CC       P06241:FYN; NbExp=1; IntAct=EBI-1756902, EBI-515315;
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type I membrane
+CC       protein.
+CC   -!- TISSUE SPECIFICITY: Retina. Localized exclusively in the nuclei
+CC       and inner segments of the rod and cone photoreceptor cells.
+CC   -!- DISEASE: Defects in GUCY2D are the cause of Leber congenital
+CC       amaurosis type 1 (LCA1) [MIM:204000]. LCA designates a clinically
+CC       and genetically heterogeneous group of childhood retinal
+CC       degenerations, generally inherited in an autosomal recessive
+CC       manner. Affected infants have little or no retinal photoreceptor
+CC       function as tested by electroretinography. LCA represents the most
+CC       common genetic cause of congenital visual impairment in infants
+CC       and children.
+CC   -!- DISEASE: Defects in GUCY2D are the cause of cone-rod dystrophy
+CC       type 6 (CORD6) [MIM:601777]. CORDs are inherited retinal
+CC       dystrophies belonging to the group of pigmentary retinopathies.
+CC       CORDs are characterized by retinal pigment deposits visible on
+CC       fundus examination, predominantly in the macular region, and
+CC       initial loss of cone photoreceptors followed by rod degeneration.
+CC       This leads to decreased visual acuity and sensitivity in the
+CC       central visual field, followed by loss of peripheral vision.
+CC       Severe loss of vision occurs earlier than in retinitis pigmentosa.
+CC   -!- SIMILARITY: Belongs to the adenylyl cyclase class-4/guanylyl
+CC       cyclase family.
+CC   -!- SIMILARITY: Contains 1 guanylate cyclase domain.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- WEB RESOURCE: Name=Mutations of the GUCY2D gene; Note=Retina
+CC       International's Scientific Newsletter;
+CC       URL="http://www.retina-international.com/sci-news/gcmut.htm";
+CC   -!- WEB RESOURCE: Name=GeneReviews;
+CC       URL="http://www.ncbi.nlm.nih.gov/sites/GeneTests/lab/gene/GUCY2D";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M92432; AAA60547.1; -; mRNA.
+DR   EMBL; AJ222657; CAA10914.1; -; Genomic_DNA.
+DR   EMBL; L26921; AAA60366.1; -; Genomic_DNA.
+DR   IPI; IPI00027242; -.
+DR   PIR; JH0717; JH0717.
+DR   RefSeq; NP_000171.1; -.
+DR   UniGene; Hs.592109; -.
+DR   PDB; 1AWL; Model; -; A/B=871-1028.
+DR   PDBsum; 1AWL; -.
+DR   ProteinModelPortal; Q02846; -.
+DR   SMR; Q02846; 557-840, 874-1060.
+DR   IntAct; Q02846; 1.
+DR   MINT; MINT-7241905; -.
+DR   STRING; Q02846; -.
+DR   PhosphoSite; Q02846; -.
+DR   PeptideAtlas; Q02846; -.
+DR   PRIDE; Q02846; -.
+DR   Ensembl; ENST00000254854; ENSP00000254854; ENSG00000132518.
+DR   GeneID; 3000; -.
+DR   KEGG; hsa:3000; -.
+DR   NMPDR; fig|9606.3.peg.13079; -.
+DR   UCSC; uc002gjt.2; human.
+DR   CTD; 3000; -.
+DR   GeneCards; GC17P007846; -.
+DR   H-InvDB; HIX0202505; -.
+DR   HGNC; HGNC:4689; GUCY2D.
+DR   MIM; 204000; phenotype.
+DR   MIM; 600179; gene.
+DR   MIM; 601777; phenotype.
+DR   Orphanet; 1872; Cone rod dystrophy.
+DR   Orphanet; 65; Congenital Leber amaurosis.
+DR   PharmGKB; PA187; -.
+DR   eggNOG; prNOG08287; -.
+DR   HOGENOM; HBG714686; -.
+DR   HOVERGEN; HBG098487; -.
+DR   InParanoid; Q02846; -.
+DR   OMA; LGPWACD; -.
+DR   OrthoDB; EOG9BP3X3; -.
+DR   PhylomeDB; Q02846; -.
+DR   BRENDA; 4.6.1.2; 247.
+DR   Pathway_Interaction_DB; cone_pathway; Visual signal transduction: Cones.
+DR   Pathway_Interaction_DB; rhodopsin_pathway; Visual signal transduction: Rods.
+DR   NextBio; 11896; -.
+DR   ArrayExpress; Q02846; -.
+DR   Bgee; Q02846; -.
+DR   CleanEx; HS_GUCY2D; -.
+DR   Genevestigator; Q02846; -.
+DR   GermOnline; ENSG00000132518; Homo sapiens.
+DR   GO; GO:0005887; C:integral to plasma membrane; TAS:ProtInc.
+DR   GO; GO:0005640; C:nuclear outer membrane; TAS:ProtInc.
+DR   GO; GO:0005524; F:ATP binding; IEA:InterPro.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004383; F:guanylate cyclase activity; TAS:ProtInc.
+DR   GO; GO:0004672; F:protein kinase activity; IEA:InterPro.
+DR   GO; GO:0004872; F:receptor activity; TAS:ProtInc.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   GO; GO:0007168; P:receptor guanylyl cyclase signaling pathway; TAS:ProtInc.
+DR   GO; GO:0050896; P:response to stimulus; IEA:UniProtKB-KW.
+DR   GO; GO:0007601; P:visual perception; TAS:ProtInc.
+DR   InterPro; IPR001054; A/G_cyclase.
+DR   InterPro; IPR018297; A/G_cyclase_CS.
+DR   InterPro; IPR001828; ANF_lig-bd_rcpt.
+DR   InterPro; IPR011645; Haem_no_assoc-bd.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR001245; Ser-Thr/Tyr-Pkinase.
+DR   Gene3D; G3DSA:3.30.70.1230; A/G_cyclase; 1.
+DR   Pfam; PF01094; ANF_receptor; 1.
+DR   Pfam; PF00211; Guanylate_cyc; 1.
+DR   Pfam; PF07701; HNOBA; 1.
+DR   Pfam; PF07714; Pkinase_Tyr; 1.
+DR   SMART; SM00044; CYCc; 1.
+DR   SUPFAM; SSF55073; A/G_cyclase; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00452; GUANYLATE_CYCLASE_1; 1.
+DR   PROSITE; PS50125; GUANYLATE_CYCLASE_2; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; cGMP biosynthesis; Complete proteome;
+KW   Cone-rod dystrophy; Disease mutation; Disulfide bond; Glycoprotein;
+KW   GTP-binding; Leber congenital amaurosis; Lyase; Membrane;
+KW   Nucleotide-binding; Polymorphism; Sensory transduction; Signal;
+KW   Transmembrane; Transmembrane helix; Vision.
+FT   SIGNAL        1     51       Potential.
+FT   CHAIN        52   1103       Retinal guanylyl cyclase 1.
+FT                                /FTId=PRO_0000012381.
+FT   TOPO_DOM     52    462       Extracellular (Potential).
+FT   TRANSMEM    463    487       Helical; (Potential).
+FT   TOPO_DOM    488   1103       Cytoplasmic (Potential).
+FT   DOMAIN      525    808       Protein kinase.
+FT   DOMAIN      880   1010       Guanylate cyclase.
+FT   CARBOHYD    297    297       N-linked (GlcNAc...) (Potential).
+FT   DISULFID    449    449       Interchain (Probable).
+FT   DISULFID    457    457       Interchain (Probable).
+FT   VARIANT      52     52       A -> S (in LCA1; could be a rare
+FT                                polymorphism).
+FT                                /FTId=VAR_003435.
+FT   VARIANT     105    105       C -> Y (in LCA1; does not affect basal
+FT                                activity; reduces GCAP-1 induced
+FT                                activity).
+FT                                /FTId=VAR_023770.
+FT   VARIANT     325    325       L -> P (in LCA1; does not affect basal
+FT                                activity; reduces GCAP-1 induced
+FT                                activity).
+FT                                /FTId=VAR_023771.
+FT   VARIANT     328    328       A -> V (in dbSNP:rs56280231).
+FT                                /FTId=VAR_042229.
+FT   VARIANT     331    331       R -> S (in dbSNP:rs34596269).
+FT                                /FTId=VAR_049254.
+FT   VARIANT     362    362       A -> S (in LCA1).
+FT                                /FTId=VAR_009129.
+FT   VARIANT     431    431       G -> D (in a metastatic melanoma sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_042230.
+FT   VARIANT     507    507       V -> M.
+FT                                /FTId=VAR_042231.
+FT   VARIANT     565    565       F -> S (in LCA1; loss of activity).
+FT                                /FTId=VAR_009131.
+FT   VARIANT     573    573       I -> V (in LCA1).
+FT                                /FTId=VAR_009130.
+FT   VARIANT     602    602       R -> W (in dbSNP:rs34331388).
+FT                                /FTId=VAR_049255.
+FT   VARIANT     693    693       A -> E (in dbSNP:rs35146471).
+FT                                /FTId=VAR_042232.
+FT   VARIANT     701    701       P -> S (in LCA1; dbSNP:rs34598902).
+FT                                /FTId=VAR_009132.
+FT   VARIANT     722    722       R -> W (in dbSNP:rs34331388).
+FT                                /FTId=VAR_049256.
+FT   VARIANT     782    782       L -> H (rare polymorphism;
+FT                                dbSNP:rs8069344).
+FT                                /FTId=VAR_009133.
+FT   VARIANT     837    839       ERT -> DCM (in CORD6).
+FT                                /FTId=VAR_003438.
+FT   VARIANT     837    837       E -> D (in CORD6; dbSNP:rs28933695).
+FT                                /FTId=VAR_003436.
+FT   VARIANT     838    838       R -> C (in CORD6).
+FT                                /FTId=VAR_003437.
+FT   VARIANT     838    838       R -> H (in CORD6).
+FT                                /FTId=VAR_015373.
+FT   VARIANT     858    858       P -> S (in LCA1; severely impairs basal
+FT                                and GCAP-1 induced activity).
+FT                                /FTId=VAR_009134.
+FT   VARIANT     954    954       L -> P (in LCA1; severely impairs basal
+FT                                and GCAP-1 induced activity).
+FT                                /FTId=VAR_009135.
+FT   STRAND      882    885
+FT   HELIX       888    892
+FT   STRAND      896    898
+FT   HELIX       899    902
+FT   HELIX       904    913
+FT   TURN        914    917
+FT   STRAND      918    922
+FT   STRAND      934    936
+FT   HELIX       944    947
+FT   HELIX       949    966
+FT   STRAND      991    993
+FT   STRAND      998   1000
+FT   HELIX      1001   1004
+FT   HELIX      1005   1007
+FT   TURN       1008   1011
+FT   STRAND     1015   1017
+FT   HELIX      1022   1025
+SQ   SEQUENCE   1103 AA;  120059 MW;  28631557E7CBDFA4 CRC64;
+     MTACARRAGG LPDPGLCGPA WWAPSLPRLP RALPRLPLLL LLLLLQPPAL SAVFTVGVLG
+     PWACDPIFSR ARPDLAARLA AARLNRDPGL AGGPRFEVAL LPEPCRTPGS LGAVSSALAR
+     VSGLVGPVNP AACRPAELLA EEAGIALVPW GCPWTQAEGT TAPAVTPAAD ALYALLRAFG
+     WARVALVTAP QDLWVEAGRS LSTALRARGL PVASVTSMEP LDLSGAREAL RKVRDGPRVT
+     AVIMVMHSVL LGGEEQRYLL EAAEELGLTD GSLVFLPFDT IHYALSPGPE ALAALANSSQ
+     LRRAHDAVLT LTRHCPSEGS VLDSLRRAQE RRELPSDLNL QQVSPLFGTI YDAVFLLARG
+     VAEARAAAGG RWVSGAAVAR HIRDAQVPGF CGDLGGDEEP PFVLLDTDAA GDRLFATYML
+     DPARGSFLSA GTRMHFPRGG SAPGPDPSCW FDPNNICGGG LEPGLVFLGF LLVVGMGLAG
+     AFLAHYVRHR LLHMQMVSGP NKIILTVDDI TFLHPHGGTS RKVAQGSRSS LGARSMSDIR
+     SGPSQHLDSP NIGVYEGDRV WLKKFPGDQH IAIRPATKTA FSKLQELRHE NVALYLGLFL
+     ARGAEGPAAL WEGNLAVVSE HCTRGSLQDL LAQREIKLDW MFKSSLLLDL IKGIRYLHHR
+     GVAHGRLKSR NCIVDGRFVL KITDHGHGRL LEAQKVLPEP PRAEDQLWTA PELLRDPALE
+     RRGTLAGDVF SLAIIMQEVV CRSAPYAMLE LTPEEVVQRV RSPPPLCRPL VSMDQAPVEC
+     ILLMKQCWAE QPELRPSMDH TFDLFKNINK GRKTNIIDSM LRMLEQYSSN LEDLIRERTE
+     ELELEKQKTD RLLTQMLPPS VAEALKTGTP VEPEYFEQVT LYFSDIVGFT TISAMSEPIE
+     VVDLLNDLYT LFDAIIGSHD VYKVETIGDA YMVASGLPQR NGQRHAAEIA NMSLDILSAV
+     GTFRMRHMPE VPVRIRIGLH SGPCVAGVVG LTMPRYCLFG DTVNTASRME STGLPYRIHV
+     NLSTVGILRA LDSGYQVELR GRTELKGKGA EDTFWLVGRR GFNKPIPKPP DLQPGSSNHG
+     ISLQEIPPER RRKLEKARPG QFS
+//

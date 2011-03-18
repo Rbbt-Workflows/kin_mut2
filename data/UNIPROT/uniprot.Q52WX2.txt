@@ -1,0 +1,137 @@
+ID   SBK1_HUMAN              Reviewed;         424 AA.
+AC   Q52WX2;
+DT   30-MAY-2006, integrated into UniProtKB/Swiss-Prot.
+DT   24-MAY-2005, sequence version 1.
+DT   05-OCT-2010, entry version 52.
+DE   RecName: Full=Serine/threonine-protein kinase SBK1;
+DE            EC=2.7.11.1;
+DE   AltName: Full=SH3-binding kinase 1;
+GN   Name=SBK1;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RA   Wang P.Z., Wang X., Wang F., Wu J.;
+RT   "Cloning of human SBK1 cDNA and screening of its interaction
+RT   proteins.";
+RL   Zhongguo Sheng Wu Hua Xue Yu Fen Zi Sheng Wu Xue Bao 22:313-321(2006).
+RN   [2]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-63 AND TYR-64, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=17081983; DOI=10.1016/j.cell.2006.09.026;
+RA   Olsen J.V., Blagoev B., Gnad F., Macek B., Kumar C., Mortensen P.,
+RA   Mann M.;
+RT   "Global, in vivo, and site-specific phosphorylation dynamics in
+RT   signaling networks.";
+RL   Cell 127:635-648(2006).
+RN   [3]
+RP   VARIANTS [LARGE SCALE ANALYSIS] GLU-92; THR-250 AND SER-261.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: May be involved in signal-transduction pathways related
+CC       to the control of brain development (By similarity).
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm (By similarity).
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Ser/Thr
+CC       protein kinase family.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AY874862; AAX59898.1; -; mRNA.
+DR   IPI; IPI00399180; -.
+DR   RefSeq; NP_001019572.1; -.
+DR   UniGene; Hs.97837; -.
+DR   ProteinModelPortal; Q52WX2; -.
+DR   SMR; Q52WX2; 20-315, 47-321.
+DR   STRING; Q52WX2; -.
+DR   PRIDE; Q52WX2; -.
+DR   Ensembl; ENST00000341901; ENSP00000343248; ENSG00000188322.
+DR   GeneID; 388228; -.
+DR   KEGG; hsa:388228; -.
+DR   UCSC; uc002dpd.1; human.
+DR   CTD; 388228; -.
+DR   GeneCards; GC16P028211; -.
+DR   H-InvDB; HIX0012920; -.
+DR   HGNC; HGNC:17699; SBK1.
+DR   PharmGKB; PA134887617; -.
+DR   eggNOG; prNOG06561; -.
+DR   HOGENOM; HBG715181; -.
+DR   HOVERGEN; HBG108481; -.
+DR   InParanoid; Q52WX2; -.
+DR   OMA; MVKRCVQ; -.
+DR   OrthoDB; EOG9G7FJ7; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   NextBio; 101893; -.
+DR   ArrayExpress; Q52WX2; -.
+DR   Bgee; Q52WX2; -.
+DR   CleanEx; HS_SBK1; -.
+DR   Genevestigator; Q52WX2; -.
+DR   GermOnline; ENSG00000188322; Homo sapiens.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005515; F:protein binding; IEA:InterPro.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:UniProtKB-KW.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   InterPro; IPR016234; Ser/Thr_prot_kinase_Sbk1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   PIRSF; PIRSF000566; Ser/Thr_PK_Sbk1; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; FALSE_NEG.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Complete proteome; Cytoplasm; Kinase; Nucleotide-binding;
+KW   Phosphoprotein; Polymorphism; Serine/threonine-protein kinase;
+KW   Transferase.
+FT   CHAIN         1    424       Serine/threonine-protein kinase SBK1.
+FT                                /FTId=PRO_0000238451.
+FT   DOMAIN       53    318       Protein kinase.
+FT   NP_BIND      59     67       ATP (By similarity).
+FT   COMPBIAS    332    400       Pro-rich.
+FT   ACT_SITE    174    174       Proton acceptor (By similarity).
+FT   BINDING      82     82       ATP (By similarity).
+FT   MOD_RES      63     63       Phosphothreonine.
+FT   MOD_RES      64     64       Phosphotyrosine.
+FT   VARIANT      12     12       R -> H (in dbSNP:rs35448675).
+FT                                /FTId=VAR_051665.
+FT   VARIANT      92     92       K -> E (in an ovarian mucinous carcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_041068.
+FT   VARIANT     250    250       N -> T (in dbSNP:rs56072383).
+FT                                /FTId=VAR_041069.
+FT   VARIANT     261    261       A -> S.
+FT                                /FTId=VAR_041070.
+SQ   SEQUENCE   424 AA;  46252 MW;  2E07FFDA5693311F CRC64;
+     MSVGCPEPEP PRSLTCCGPG TAPGPGAGVP LLTEDMQALT LRTLAASDVT KHYELVRELG
+     KGTYGKVDLV VYKGTGTKMA LKFVNKSKTK LKNFLREVSI TNSLSSSPFI IKVFDVVFET
+     EDCYVFAQEY APAGDLFDII PPQVGLPEDT VKRCVQQLGL ALDFMHGRQL VHRDIKPENV
+     LLFDRECRRV KLADFGMTRR VGCRVKRVSG TIPYTAPEVC QAGRADGLAV DTGVDVWAFG
+     VLIFCVLTGN FPWEAASGAD AFFEEFVRWQ RGRLPGLPSQ WRRFTEPALR MFQRLLALEP
+     ERRGPAKEVF RFLKHELTSE LRRRPSHRAR KPPGDRPPAA GPLRLEAPGP LKRTVLTESG
+     SGSRPAPPAV GSVPLPVPVP VPVPVPVPVP EPGLAPQGPP GRTDGRADKS KGQVVLATAI
+     EICV
+//

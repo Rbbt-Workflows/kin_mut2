@@ -1,0 +1,265 @@
+ID   PLK3_HUMAN              Reviewed;         646 AA.
+AC   Q9H4B4; Q15767; Q5JR99; Q96CV1;
+DT   27-APR-2001, integrated into UniProtKB/Swiss-Prot.
+DT   16-AUG-2004, sequence version 2.
+DT   02-NOV-2010, entry version 100.
+DE   RecName: Full=Serine/threonine-protein kinase PLK3;
+DE            EC=2.7.11.21;
+DE   AltName: Full=Cytokine-inducible serine/threonine-protein kinase;
+DE   AltName: Full=FGF-inducible kinase;
+DE   AltName: Full=Polo-like kinase 3;
+DE            Short=PLK-3;
+DE   AltName: Full=Proliferation-related kinase;
+GN   Name=PLK3; Synonyms=CNK, FNK, PRK;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Embryo;
+RX   MEDLINE=20493044; PubMed=11039900; DOI=10.1038/sj.onc.1203845;
+RA   Holtrich U., Wolf G., Yuan J., Bereiter-Hahn J., Karn T., Weiler M.,
+RA   Kauselmann G., Rehli M., Andreesen R., Kaufmann M., Kuhl D.,
+RA   Strebhardt K.;
+RT   "Adhesion induced expression of the serine/threonine kinase Fnk in
+RT   human macrophages.";
+RL   Oncogene 19:4832-4839(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND VARIANTS SER-61; PHE-68;
+RP   PHE-283; CYS-483; LEU-498 AND PRO-618.
+RG   NIEHS SNPs program;
+RL   Submitted (SEP-2004) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=16710414; DOI=10.1038/nature04727;
+RA   Gregory S.G., Barlow K.F., McLay K.E., Kaul R., Swarbreck D.,
+RA   Dunham A., Scott C.E., Howe K.L., Woodfine K., Spencer C.C.A.,
+RA   Jones M.C., Gillson C., Searle S., Zhou Y., Kokocinski F.,
+RA   McDonald L., Evans R., Phillips K., Atkinson A., Cooper R., Jones C.,
+RA   Hall R.E., Andrews T.D., Lloyd C., Ainscough R., Almeida J.P.,
+RA   Ambrose K.D., Anderson F., Andrew R.W., Ashwell R.I.S., Aubin K.,
+RA   Babbage A.K., Bagguley C.L., Bailey J., Beasley H., Bethel G.,
+RA   Bird C.P., Bray-Allen S., Brown J.Y., Brown A.J., Buckley D.,
+RA   Burton J., Bye J., Carder C., Chapman J.C., Clark S.Y., Clarke G.,
+RA   Clee C., Cobley V., Collier R.E., Corby N., Coville G.J., Davies J.,
+RA   Deadman R., Dunn M., Earthrowl M., Ellington A.G., Errington H.,
+RA   Frankish A., Frankland J., French L., Garner P., Garnett J., Gay L.,
+RA   Ghori M.R.J., Gibson R., Gilby L.M., Gillett W., Glithero R.J.,
+RA   Grafham D.V., Griffiths C., Griffiths-Jones S., Grocock R.,
+RA   Hammond S., Harrison E.S.I., Hart E., Haugen E., Heath P.D.,
+RA   Holmes S., Holt K., Howden P.J., Hunt A.R., Hunt S.E., Hunter G.,
+RA   Isherwood J., James R., Johnson C., Johnson D., Joy A., Kay M.,
+RA   Kershaw J.K., Kibukawa M., Kimberley A.M., King A., Knights A.J.,
+RA   Lad H., Laird G., Lawlor S., Leongamornlert D.A., Lloyd D.M.,
+RA   Loveland J., Lovell J., Lush M.J., Lyne R., Martin S.,
+RA   Mashreghi-Mohammadi M., Matthews L., Matthews N.S.W., McLaren S.,
+RA   Milne S., Mistry S., Moore M.J.F., Nickerson T., O'Dell C.N.,
+RA   Oliver K., Palmeiri A., Palmer S.A., Parker A., Patel D., Pearce A.V.,
+RA   Peck A.I., Pelan S., Phelps K., Phillimore B.J., Plumb R., Rajan J.,
+RA   Raymond C., Rouse G., Saenphimmachak C., Sehra H.K., Sheridan E.,
+RA   Shownkeen R., Sims S., Skuce C.D., Smith M., Steward C.,
+RA   Subramanian S., Sycamore N., Tracey A., Tromans A., Van Helmond Z.,
+RA   Wall M., Wallis J.M., White S., Whitehead S.L., Wilkinson J.E.,
+RA   Willey D.L., Williams H., Wilming L., Wray P.W., Wu Z., Coulson A.,
+RA   Vaudin M., Sulston J.E., Durbin R.M., Hubbard T., Wooster R.,
+RA   Dunham I., Carter N.P., McVean G., Ross M.T., Harrow J., Olson M.V.,
+RA   Beck S., Rogers J., Bentley D.R.;
+RT   "The DNA sequence and biological annotation of human chromosome 1.";
+RL   Nature 441:315-321(2006).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (SEP-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA], AND VARIANT ASN-491.
+RC   TISSUE=Brain;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 28-646.
+RC   TISSUE=Placenta;
+RX   MEDLINE=96325053; PubMed=8702627; DOI=10.1074/jbc.271.32.19219;
+RA   Li B., Ouyang B., Pan H., Reissmann P.T., Slamon D.J., Arceci R.,
+RA   Lu L., Dai W.;
+RT   "Prk, a cytokine-inducible human protein serine/threonine kinase whose
+RT   expression appears to be down-regulated in lung carcinomas.";
+RL   J. Biol. Chem. 271:19402-19408(1996).
+RN   [7]
+RP   CHARACTERIZATION.
+RX   MEDLINE=98019242; PubMed=9353331; DOI=10.1074/jbc.272.45.28646;
+RA   Ouyang B., Pan H., Lu L., Li J., Stambrook P., Li B., Dai W.;
+RT   "Human Prk is a conserved protein serine/threonine kinase involved in
+RT   regulating M phase functions.";
+RL   J. Biol. Chem. 272:28646-28651(1997).
+RN   [8]
+RP   CHARACTERIZATION.
+RX   MEDLINE=20027391; PubMed=10557092; DOI=10.1038/sj.onc.1202983;
+RA   Ouyang B., Li W., Pan H., Meadows J., Hoffmann I., Dai W.;
+RT   "The physical association and phosphorylation of Cdc25C protein
+RT   phosphatase by Prk.";
+RL   Oncogene 18:6029-6036(1999).
+RN   [9]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-348, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Embryonic kidney;
+RX   PubMed=19413330; DOI=10.1021/ac9004309;
+RA   Gauci S., Helbig A.O., Slijper M., Krijgsveld J., Heck A.J.,
+RA   Mohammed S.;
+RT   "Lys-N and trypsin cover complementary parts of the phosphoproteome in
+RT   a refined SCX-based approach.";
+RL   Anal. Chem. 81:4493-4501(2009).
+CC   -!- FUNCTION: Serine/threonine protein kinase involved in regulating M
+CC       phase functions during the cell cycle. May also be part of the
+CC       signaling network controlling cellular adhesion. In vitro, is able
+CC       to phosphorylate CDC25C and casein.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- SUBUNIT: Binds to the calcium/integrin-binding protein (CIB). This
+CC       interaction probably occurs via the POLO-box domain.
+CC   -!- INTERACTION:
+CC       P04156:PRNP; NbExp=2; IntAct=EBI-751877, EBI-977302;
+CC       Q99986:VRK1; NbExp=6; IntAct=EBI-751877, EBI-1769146;
+CC   -!- SUBCELLULAR LOCATION: Membrane; Peripheral membrane protein.
+CC   -!- TISSUE SPECIFICITY: Transcripts are highly detected in placenta,
+CC       lung, followed by skeletal muscle, heart, pancreas, ovaries and
+CC       kidney and weakly detected in liver and brain. May have a short
+CC       half-live. In cells of hematopoietic origin, strongly and
+CC       exclusively detected in terminally differentiated macrophages.
+CC       Transcript expression appears to be down-regulated in primary lung
+CC       tumor.
+CC   -!- INDUCTION: Cytokine and cellular adhesion trigger FNK induction.
+CC   -!- PTM: Phosphorylated as cells enter mitosis and dephosphorylated as
+CC       cells exit mitosis (By similarity).
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Ser/Thr
+CC       protein kinase family. CDC5/Polo subfamily.
+CC   -!- SIMILARITY: Contains 2 POLO box domains.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAC50637.1; Type=Erroneous initiation;
+CC   -!- WEB RESOURCE: Name=NIEHS-SNPs;
+CC       URL="http://egp.gs.washington.edu/data/plk3/";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AJ293866; CAC10659.1; -; mRNA.
+DR   EMBL; AY764184; AAU88146.1; -; Genomic_DNA.
+DR   EMBL; AL592166; CAI13006.1; -; Genomic_DNA.
+DR   EMBL; CH471059; EAX07021.1; -; Genomic_DNA.
+DR   EMBL; BC013899; AAH13899.1; -; mRNA.
+DR   EMBL; U56998; AAC50637.1; ALT_INIT; mRNA.
+DR   IPI; IPI00304186; -.
+DR   RefSeq; NP_004064.2; -.
+DR   UniGene; Hs.632415; -.
+DR   ProteinModelPortal; Q9H4B4; -.
+DR   SMR; Q9H4B4; 52-329, 458-642.
+DR   IntAct; Q9H4B4; 20.
+DR   MINT; MINT-110679; -.
+DR   STRING; Q9H4B4; -.
+DR   PRIDE; Q9H4B4; -.
+DR   Ensembl; ENST00000372201; ENSP00000361275; ENSG00000173846.
+DR   GeneID; 1263; -.
+DR   KEGG; hsa:1263; -.
+DR   UCSC; uc001cmn.1; human.
+DR   CTD; 1263; -.
+DR   GeneCards; GC01P045265; -.
+DR   H-InvDB; HIX0199969; -.
+DR   HGNC; HGNC:2154; PLK3.
+DR   MIM; 602913; gene.
+DR   PharmGKB; PA26664; -.
+DR   eggNOG; prNOG10409; -.
+DR   HOGENOM; HBG738952; -.
+DR   HOVERGEN; HBG001843; -.
+DR   InParanoid; Q9H4B4; -.
+DR   OMA; PRSGRTY; -.
+DR   OrthoDB; EOG9NW252; -.
+DR   PhylomeDB; Q9H4B4; -.
+DR   BRENDA; 2.7.11.21; 247.
+DR   NextBio; 5111; -.
+DR   ArrayExpress; Q9H4B4; -.
+DR   Bgee; Q9H4B4; -.
+DR   CleanEx; HS_PLK3; -.
+DR   Genevestigator; Q9H4B4; -.
+DR   GermOnline; ENSG00000173846; Homo sapiens.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042801; F:polo kinase kinase activity; IEA:InterPro.
+DR   GO; GO:0005515; F:protein binding; IPI:IntAct.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; TAS:ProtInc.
+DR   InterPro; IPR020636; Ca/CaM-dep_prot_kinase-like.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000959; POLO_box_duplicated_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   InterPro; IPR015728; Ser/Thr_prot_kinase_Polo-like.
+DR   PANTHER; PTHR22982; Ca/CaM-dep_prot_kinase-like; 1.
+DR   PANTHER; PTHR22982:SF10; Polo-like_kinase; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   Pfam; PF00659; POLO_box; 2.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS50078; POLO_BOX; 2.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Complete proteome; Kinase; Membrane; Nucleotide-binding;
+KW   Phosphoprotein; Polymorphism; Repeat; Serine/threonine-protein kinase;
+KW   Transferase.
+FT   CHAIN         1    646       Serine/threonine-protein kinase PLK3.
+FT                                /FTId=PRO_0000086564.
+FT   DOMAIN       62    314       Protein kinase.
+FT   DOMAIN      470    537       POLO box 1.
+FT   DOMAIN      567    637       POLO box 2.
+FT   NP_BIND      68     76       ATP (By similarity).
+FT   ACT_SITE    185    185       Proton acceptor (By similarity).
+FT   BINDING      91     91       ATP (By similarity).
+FT   MOD_RES     348    348       Phosphothreonine.
+FT   VARIANT      61     61       T -> S (in dbSNP:rs17884581).
+FT                                /FTId=VAR_021091.
+FT   VARIANT      68     68       L -> F (in dbSNP:rs17884316).
+FT                                /FTId=VAR_021092.
+FT   VARIANT     283    283       L -> F (in dbSNP:rs17880471).
+FT                                /FTId=VAR_021093.
+FT   VARIANT     483    483       R -> C (in dbSNP:rs17884653).
+FT                                /FTId=VAR_021094.
+FT   VARIANT     491    491       D -> N (in dbSNP:rs17855444).
+FT                                /FTId=VAR_062384.
+FT   VARIANT     498    498       S -> L (in dbSNP:rs17880829).
+FT                                /FTId=VAR_021095.
+FT   VARIANT     618    618       S -> P (in dbSNP:rs17881786).
+FT                                /FTId=VAR_021096.
+FT   CONFLICT     16     16       A -> T (in Ref. 1; CAC10659).
+FT   CONFLICT     20     20       P -> T (in Ref. 1; CAC10659).
+FT   CONFLICT     99     99       A -> V (in Ref. 1; CAC10659).
+FT   CONFLICT    353    353       G -> V (in Ref. 1; CAC10659).
+FT   CONFLICT    419    419       D -> H (in Ref. 1; CAC10659).
+FT   CONFLICT    464    470       VSKWVDY -> FSEWVGF (in Ref. 1; CAC10659).
+FT   CONFLICT    522    522       P -> R (in Ref. 1; CAC10659).
+SQ   SEQUENCE   646 AA;  71629 MW;  324CA3E9DE482514 CRC64;
+     MEPAAGFLSP RPFQRAAAAP APPAGPGPPP SALRGPELEM LAGLPTSDPG RLITDPRSGR
+     TYLKGRLLGK GGFARCYEAT DTETGSAYAV KVIPQSRVAK PHQREKILNE IELHRDLQHR
+     HIVRFSHHFE DADNIYIFLE LCSRKSLAHI WKARHTLLEP EVRYYLRQIL SGLKYLHQRG
+     ILHRDLKLGN FFITENMELK VGDFGLAARL EPPEQRKKTI CGTPNYVAPE VLLRQGHGPE
+     ADVWSLGCVM YTLLCGSPPF ETADLKETYR CIKQVHYTLP ASLSLPARQL LAAILRASPR
+     DRPSIDQILR HDFFTKGYTP DRLPISSCVT VPDLTPPNPA RSLFAKVTKS LFGRKKKSKN
+     HAQERDEVSG LVSGLMRTSV GHQDARPEAP AASGPAPVSL VETAPEDSSP RGTLASSGDG
+     FEEGLTVATV VESALCALRN CIAFMPPAEQ NPAPLAQPEP LVWVSKWVDY SNKFGFGYQL
+     SSRRVAVLFN DGTHMALSAN RKTVHYNPTS TKHFSFSVGA VPRALQPQLG ILRYFASYME
+     QHLMKGGDLP SVEEVEVPAP PLLLQWVKTD QALLMLFSDG TVQVNFYGDH TKLILSGWEP
+     LLVTFVARNR SACTYLASHL RQLGCSPDLR QRLRYALRLL RDRSPA
+//

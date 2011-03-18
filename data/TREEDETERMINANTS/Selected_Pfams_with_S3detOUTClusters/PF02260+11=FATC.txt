@@ -1,0 +1,61 @@
+UI: Initial number of sequences: 25
+UI: Initial number of positions: 33
+UI: Number of outliers: 0
+UI: Final number of sequences after removing outliers: 25
+UI: Final number of positions after removing gappy columns: 33
+II: Final number of columns in the disjunctive matrix: 194
+UI: Number of axes selected: 2
+UI: Percentage of initial variance considered informative: 27.0232 %
+UI: Checking a maximum number of groups equal to: 7
+UI: Stable cluster results have been found
+SC: YES
+UI: Number of groups selected: 3
+II: Clustering index value: CH_Index = 29.4998
+II: F-Fisher: 74.4628
+II: Best solution found 446 times out of 500 iterations searching for 3 groups
+UI: Number of groups with less than 3 sequences: 0
+Is there enough group diversity to perform the analysis?:
+GD: YES
+
+Clustering of sequences: 
+CL: Q13535+3=ATR_HUMAN/2612-2644	0
+CL: Q02099+2=RAD3_SCHPO/2354-2386	0
+CL: P42345+1=FRAP_HUMAN/2517-2549	2
+CL: P38111+1=ATR_YEAST/2336-2368	0
+CL: Q13315+1=ATM_HUMAN/3024-3056	0
+CL: Q9M3G7+1=ATM_ARATH/3824-3856	0
+CL: P38110+2=ATM_YEAST/2755-2787	0
+CL: P78527+3=PRKDC_HUMAN/4096-4128	1
+CL: Q9VXG8+2=ATR_DROME/2485-2517	0
+CL: Q9DEI1+1=PRKDC_XENLA/4114-4146	1
+CL: Q5EAK6+1=ATM_DROME/2735-2767	0
+CL: Q95Q95+3=TOR_CAEEL/2665-2697	2
+CL: O74630+1=ATM_SCHPO/2780-2812	0
+CL: Q9Y7K2+2=TOR2_SCHPO/2305-2337	2
+CL: Q8WN22+1=PRKDC_CANFA/4112-4144	1
+CL: Q8QGX4+1=PRKDC_CHICK/4102-4134	1
+CL: Q9DE14+2=ATR_XENLA/2622-2654	0
+CL: Q96Q15+2=SMG1_HUMAN/3625-3657	0
+CL: O14356+1=TOR1_SCHPO/2303-2335	2
+CL: Q5Z987+1=ATR_ORYSA/2678-2710	0
+CL: P32600+3=TOR2_YEAST/2442-2474	2
+CL: P35169+3=TOR1_YEAST/2438-2470	2
+CL: Q9FKS4+2=ATR_ARATH/2670-2702	0
+CL: O01510+3=SMG1_CAEEL/2290-2322	0
+CL: Q70PP2+2=SMG1_DROME/3190-3218	0
+
+Are there any position predicted as being important for the whole family?: 
+PR: YES
+Positions predicted: 
+RE: 26 1.5 2
+
+UI: Number of positions predicted to be important for the group segregation: 1
+
+Are there any conserved position at 90 % of identity?: 
+CN: YES
+Conserved positions: 
+CP: 16
+CP: 22
+CP: 29
+
+UI: Number of conserved positions (at 90 % of identity): 3

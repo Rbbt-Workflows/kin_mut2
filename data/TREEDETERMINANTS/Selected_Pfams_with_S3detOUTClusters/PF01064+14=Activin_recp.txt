@@ -1,0 +1,59 @@
+UI: Initial number of sequences: 18
+UI: Initial number of positions: 99
+UI: Number of outliers: 0
+UI: Final number of sequences after removing outliers: 18
+UI: Final number of positions after removing gappy columns: 68
+II: Final number of columns in the disjunctive matrix: 343
+UI: Number of axes selected: 1
+UI: Percentage of initial variance considered informative: 27.7489 %
+UI: Checking a maximum number of groups equal to: 5
+UI: Stable cluster results have been found
+SC: YES
+UI: Number of groups selected: 3
+II: Clustering index value: CH_Index = 93.2207
+II: F-Fisher: 939.264
+II: Best solution found 500 times out of 500 iterations searching for 3 groups
+UI: Number of groups with less than 3 sequences: 0
+Is there enough group diversity to perform the analysis?:
+GD: YES
+
+Clustering of sequences: 
+CL: P27041+1=AVR2B_XENLA/28-119	1
+CL: P38444+1=AVR2A_RAT/28-118	1
+CL: Q28560+1=AVR2A_SHEEP/28-118	1
+CL: Q13705+3=AVR2B_HUMAN/27-117	1
+CL: P27039+1=AVR2A_XENLA/29-119	1
+CL: Q90670+1=AVR2B_CHICK/27-117	1
+CL: Q90669+1=AVR2A_CHICK/28-118	1
+CL: O00238+1=BMR1B_HUMAN/30-110	2
+CL: Q05438+1=BMR1B_CHICK/30-110	2
+CL: P36894+2=BMR1A_HUMAN/59-138	2
+CL: P36896+1=ACV1B_HUMAN/32-109	2
+CL: Q61271+1=ACV1B_MOUSE/32-109	2
+CL: Q90ZK6+1=ACVR1_CHICK/25-99	2
+CL: Q04771+1=ACVR1_HUMAN/33-107	2
+CL: P80201+1=ACVR1_RAT/33-107	2
+CL: P37023+2=ACVL1_HUMAN/32-103	0
+CL: P80203+2=ACVL1_RAT/33-104	0
+CL: Q61288+1=ACVL1_MOUSE/31-102	0
+
+Are there any position predicted as being important for the whole family?: 
+PR: YES
+Positions predicted: 
+RE: 11 1 2
+RE: 37 1 2
+
+UI: Number of positions predicted to be important for the group segregation: 2
+
+Are there any conserved position at 90 % of identity?: 
+CN: YES
+Conserved positions: 
+CP: 3
+CP: 36
+CP: 54
+CP: 84
+CP: 85
+CP: 91
+CP: 92
+
+UI: Number of conserved positions (at 90 % of identity): 7

@@ -1,0 +1,268 @@
+ID   LTK_HUMAN               Reviewed;         864 AA.
+AC   P29376; A6NNJ8;
+DT   01-DEC-1992, integrated into UniProtKB/Swiss-Prot.
+DT   03-APR-2007, sequence version 3.
+DT   05-OCT-2010, entry version 113.
+DE   RecName: Full=Leukocyte tyrosine kinase receptor;
+DE            EC=2.7.10.1;
+DE   AltName: Full=Protein tyrosine kinase 1;
+DE   Flags: Precursor;
+GN   Name=LTK; Synonyms=TYK1;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND VARIANT GLN-42.
+RC   TISSUE=Placenta;
+RX   MEDLINE=93296146; PubMed=7685902; DOI=10.1073/pnas.90.12.5404;
+RA   Toyoshima H., Kozutsumi H., Maru Y., Hagiwara K., Furaya A., Mioh H.,
+RA   Hanai N., Takaku F., Yazaki Y., Hirai H.;
+RT   "Differently spliced cDNAs of human leukocyte tyrosine kinase receptor
+RT   tyrosine kinase predict receptor proteins with and without a tyrosine
+RT   kinase domain and a soluble receptor protein.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 90:5404-5408(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2).
+RX   MEDLINE=92007735; PubMed=1655406;
+RA   Krolewski J.J., Dalla-Favera R.;
+RT   "The ltk gene encodes a novel receptor-type protein tyrosine kinase.";
+RL   EMBO J. 10:2911-2919(1991).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=16572171; DOI=10.1038/nature04601;
+RA   Zody M.C., Garber M., Sharpe T., Young S.K., Rowen L., O'Neill K.,
+RA   Whittaker C.A., Kamal M., Chang J.L., Cuomo C.A., Dewar K.,
+RA   FitzGerald M.G., Kodira C.D., Madan A., Qin S., Yang X., Abbasi N.,
+RA   Abouelleil A., Arachchi H.M., Baradarani L., Birditt B., Bloom S.,
+RA   Bloom T., Borowsky M.L., Burke J., Butler J., Cook A., DeArellano K.,
+RA   DeCaprio D., Dorris L. III, Dors M., Eichler E.E., Engels R.,
+RA   Fahey J., Fleetwood P., Friedman C., Gearin G., Hall J.L., Hensley G.,
+RA   Johnson E., Jones C., Kamat A., Kaur A., Locke D.P., Madan A.,
+RA   Munson G., Jaffe D.B., Lui A., Macdonald P., Mauceli E., Naylor J.W.,
+RA   Nesbitt R., Nicol R., O'Leary S.B., Ratcliffe A., Rounsley S., She X.,
+RA   Sneddon K.M.B., Stewart S., Sougnez C., Stone S.M., Topham K.,
+RA   Vincent D., Wang S., Zimmer A.R., Birren B.W., Hood L., Lander E.S.,
+RA   Nusbaum C.;
+RT   "Analysis of the DNA sequence and duplication history of human
+RT   chromosome 15.";
+RL   Nature 440:671-675(2006).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 416-864.
+RX   MEDLINE=90206632; PubMed=2320375;
+RA   Maru Y., Hirai H., Takaku F.;
+RT   "Human ltk: gene structure and preferential expression in human
+RT   leukemic cells.";
+RL   Oncogene Res. 5:199-204(1990).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 608-716, AND TISSUE SPECIFICITY.
+RX   MEDLINE=90191712; PubMed=2156206;
+RA   Krolewski J.J., Lee R., Eddy R., Shows T.B., Dalla-Favera R.;
+RT   "Identification and chromosomal mapping of new human tyrosine kinase
+RT   genes.";
+RL   Oncogene 5:277-282(1990).
+RN   [7]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-672; TYR-676 AND
+RP   TYR-677, AND MASS SPECTROMETRY.
+RC   TISSUE=Lung carcinoma;
+RX   PubMed=18083107; DOI=10.1016/j.cell.2007.11.025;
+RA   Rikova K., Guo A., Zeng Q., Possemato A., Yu J., Haack H., Nardone J.,
+RA   Lee K., Reeves C., Li Y., Hu Y., Tan Z., Stokes M., Sullivan L.,
+RA   Mitchell J., Wetzel R., Macneill J., Ren J.M., Yuan J.,
+RA   Bakalarski C.E., Villen J., Kornhauser J.M., Smith B., Li D., Zhou X.,
+RA   Gygi S.P., Gu T.-L., Polakiewicz R.D., Rush J., Comb M.J.;
+RT   "Global survey of phosphotyrosine signaling identifies oncogenic
+RT   kinases in lung cancer.";
+RL   Cell 131:1190-1203(2007).
+RN   [8]
+RP   VARIANTS [LARGE SCALE ANALYSIS] GLN-42; ARG-384; ASN-535; SER-569;
+RP   GLN-673; SER-745 AND SER-838.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: The exact function of this protein is not known. It is
+CC       probably a receptor with a tyrosine-protein kinase activity.
+CC   -!- CATALYTIC ACTIVITY: ATP + a [protein]-L-tyrosine = ADP + a
+CC       [protein]-L-tyrosine phosphate.
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type I membrane
+CC       protein.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=4;
+CC         Comment=Additional isoforms seem to exist;
+CC       Name=Lambda P2;
+CC         IsoId=P29376-1; Sequence=Displayed;
+CC       Name=Lambda P1;
+CC         IsoId=P29376-2; Sequence=VSP_002946, VSP_002947;
+CC       Name=Lambda P3;
+CC         IsoId=P29376-3; Sequence=VSP_002948, VSP_002949;
+CC       Name=2;
+CC         IsoId=P29376-4; Sequence=VSP_035109;
+CC   -!- TISSUE SPECIFICITY: Expressed in non-hematopoietic cell lines and
+CC       T- and B-cell lines.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Tyr protein
+CC       kinase family. Insulin receptor subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; D16105; BAA03679.1; -; mRNA.
+DR   EMBL; X60702; CAA43113.1; -; mRNA.
+DR   EMBL; AC087721; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; CH471125; EAW92496.1; -; Genomic_DNA.
+DR   EMBL; X52213; CAA36460.1; -; mRNA.
+DR   IPI; IPI00007716; -.
+DR   IPI; IPI00021365; -.
+DR   IPI; IPI00218841; -.
+DR   IPI; IPI00218843; -.
+DR   PIR; A48266; A48266.
+DR   RefSeq; NP_002335.2; -.
+DR   RefSeq; NP_996844.1; -.
+DR   UniGene; Hs.434481; -.
+DR   ProteinModelPortal; P29376; -.
+DR   SMR; P29376; 503-778.
+DR   MINT; MINT-6744900; -.
+DR   STRING; P29376; -.
+DR   PhosphoSite; P29376; -.
+DR   Ensembl; ENST00000263800; ENSP00000263800; ENSG00000062524.
+DR   GeneID; 4058; -.
+DR   UCSC; uc001zoa.2; human.
+DR   CTD; 4058; -.
+DR   GeneCards; GC15M041795; -.
+DR   H-InvDB; HIX0038138; -.
+DR   HGNC; HGNC:6721; LTK.
+DR   MIM; 151520; gene.
+DR   PharmGKB; PA30483; -.
+DR   eggNOG; prNOG19868; -.
+DR   HOGENOM; HBG444678; -.
+DR   HOVERGEN; HBG052371; -.
+DR   InParanoid; P29376; -.
+DR   OMA; GPAQSWP; -.
+DR   OrthoDB; EOG98SKDR; -.
+DR   PhylomeDB; P29376; -.
+DR   BRENDA; 2.7.10.1; 247.
+DR   NextBio; 15900; -.
+DR   ArrayExpress; P29376; -.
+DR   Bgee; P29376; -.
+DR   CleanEx; HS_LTK; -.
+DR   Genevestigator; P29376; -.
+DR   GermOnline; ENSG00000062524; Homo sapiens.
+DR   GO; GO:0005887; C:integral to plasma membrane; TAS:ProtInc.
+DR   GO; GO:0005625; C:soluble fraction; TAS:ProtInc.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005515; F:protein binding; IEA:InterPro.
+DR   GO; GO:0004714; F:transmembrane receptor protein tyrosine kin...; TAS:ProtInc.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; TAS:ProtInc.
+DR   GO; GO:0007169; P:transmembrane receptor protein tyrosine kin...; IEA:InterPro.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR001245; Ser-Thr/Tyr-Pkinase.
+DR   InterPro; IPR020635; Tyr_Pkinase_cat_dom.
+DR   InterPro; IPR020685; Tyr_prot_kinase.
+DR   InterPro; IPR020735; Tyr_prot_kinase_ALK_rcpt.
+DR   InterPro; IPR008266; Tyr_prot_kinase_AS.
+DR   InterPro; IPR002011; Tyr_prot_kinase_rcpt_2_CS.
+DR   PANTHER; PTHR23256; Tyr_prot_kinase; 1.
+DR   PANTHER; PTHR23256:SF246; Tyr_prot_kinase_ALK_rcpt; 1.
+DR   Pfam; PF07714; Pkinase_Tyr; 1.
+DR   PRINTS; PR00109; TYRKINASE.
+DR   SMART; SM00219; TyrKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00109; PROTEIN_KINASE_TYR; 1.
+DR   PROSITE; PS00239; RECEPTOR_TYR_KIN_II; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; ATP-binding; Complete proteome; Glycoprotein;
+KW   Kinase; Membrane; Nucleotide-binding; Phosphoprotein; Polymorphism;
+KW   Receptor; Signal; Transferase; Transmembrane; Transmembrane helix;
+KW   Tyrosine-protein kinase.
+FT   SIGNAL        1     16       Potential.
+FT   CHAIN        17    864       Leukocyte tyrosine kinase receptor.
+FT                                /FTId=PRO_0000016738.
+FT   TOPO_DOM     17    424       Extracellular (Potential).
+FT   TRANSMEM    425    449       Helical; (Potential).
+FT   TOPO_DOM    450    864       Cytoplasmic (Potential).
+FT   DOMAIN      510    786       Protein kinase.
+FT   NP_BIND     516    524       ATP (By similarity).
+FT   ACT_SITE    643    643       Proton acceptor (By similarity).
+FT   BINDING     544    544       ATP (By similarity).
+FT   MOD_RES     672    672       Phosphotyrosine.
+FT   MOD_RES     676    676       Phosphotyrosine; by autocatalysis (By
+FT                                similarity).
+FT   MOD_RES     677    677       Phosphotyrosine.
+FT   CARBOHYD    257    257       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    380    380       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    412    412       N-linked (GlcNAc...) (Potential).
+FT   VAR_SEQ     170    170       G -> VAAASGDGAAPAPGARAAWGPGERAFLGAGSPAQRG
+FT                                EAPGPRRFPPPLPAG (in isoform Lambda P1).
+FT                                /FTId=VSP_002946.
+FT   VAR_SEQ     171    864       Missing (in isoform Lambda P1).
+FT                                /FTId=VSP_002947.
+FT   VAR_SEQ     274    334       Missing (in isoform 2).
+FT                                /FTId=VSP_035109.
+FT   VAR_SEQ     448    448       L -> GTKRLAGTVDSRLLLSSELGWVSAAGSRRQ (in
+FT                                isoform Lambda P3).
+FT                                /FTId=VSP_002948.
+FT   VAR_SEQ     449    864       Missing (in isoform Lambda P3).
+FT                                /FTId=VSP_002949.
+FT   VARIANT      42     42       R -> Q (in dbSNP:rs2305030).
+FT                                /FTId=VAR_031569.
+FT   VARIANT     384    384       C -> R (in dbSNP:rs55683312).
+FT                                /FTId=VAR_046106.
+FT   VARIANT     535    535       D -> N (in dbSNP:rs35932273).
+FT                                /FTId=VAR_046107.
+FT   VARIANT     569    569       R -> S.
+FT                                /FTId=VAR_046108.
+FT   VARIANT     673    673       R -> Q (in dbSNP:rs55876255).
+FT                                /FTId=VAR_046109.
+FT   VARIANT     745    745       P -> S (in dbSNP:rs55900837).
+FT                                /FTId=VAR_046110.
+FT   VARIANT     838    838       P -> S (in dbSNP:rs56367146).
+FT                                /FTId=VAR_046111.
+FT   CONFLICT    220    220       V -> L (in Ref. 2; CAA43113).
+FT   CONFLICT    449    449       V -> GTKRLAGTVDSRLLLSM (in Ref. 5;
+FT                                CAA36460).
+FT   CONFLICT    652    654       SCA -> MR (in Ref. 5; CAA36460).
+SQ   SEQUENCE   864 AA;  91681 MW;  0617F378AA04298E CRC64;
+     MGCWGQLLVW FGAAGAILCS SPGSQETFLR SSPLPLASPS PRDPKVSAPP SILEPASPLN
+     SPGTEGSWLF STCGASGRHG PTQTQCDGAY AGTSVVVTVG AAGQLRGVQL WRVPGPGQYL
+     ISAYGAAGGK GAKNHLSRAH GVFVSAIFSL GLGESLYILV GQQGEDACPG GSPESQLVCL
+     GESRAVEEHA AMDGSEGVPG SRRWAGGGGG GGGATYVFRV RAGELEPLLV AAGGGGRAYL
+     RPRDRGRTQA SPEKLENRSE APGSGGRGGA AGGGGGWTSR APSPQAGRSL QEGAEGGQGC
+     SEAWATLGWA AAGGFGGGGG ACTAGGGGGG YRGGDASETD NLWADGEDGV SFIHPSSELF
+     LQPLAVTENH GEVEIRRHLN CSHCPLRDCQ WQAELQLAEC LCPEGMELAV DNVTCMDLHK
+     PPGPLVLMVA VVATSTLSLL MVCGVLILVK QKKWQGLQEM RLPSPELELS KLRTSAIRTA
+     PNPYYCQVGL GPAQSWPLPP GVTEVSPANV TLLRALGHGA FGEVYEGLVI GLPGDSSPLQ
+     VAIKTLPELC SPQDELDFLM EALIISKFRH QNIVRCVGLS LRATPRLILL ELMSGGDMKS
+     FLRHSRPHLG QPSPLVMRDL LQLAQDIAQG CHYLEENHFI HRDIAARNCL LSCAGPSRVA
+     KIGDFGMARD IYRASYYRRG DRALLPVKWM PPEAFLEGIF TSKTDSWSFG VLLWEIFSLG
+     YMPYPGRTNQ EVLDFVVGGG RMDPPRGCPG PVYRIMTQCW QHEPELRPSF ASILERLQYC
+     TQDPDVLNSL LPMELGPTPE EEGTSGLGNR SLECLRPPQP QELSPEKLKS WGGSPLGPWL
+     SSGLKPLKSR GLQPQNLWNP TYRS
+//

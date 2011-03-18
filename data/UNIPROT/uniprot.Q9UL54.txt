@@ -1,0 +1,399 @@
+ID   TAOK2_HUMAN             Reviewed;        1235 AA.
+AC   Q9UL54; A5PKY1; A7MCZ2; B2RN35; O94957; Q6UW73; Q7LC09; Q9NSW2;
+DT   25-OCT-2005, integrated into UniProtKB/Swiss-Prot.
+DT   17-OCT-2006, sequence version 2.
+DT   05-OCT-2010, entry version 84.
+DE   RecName: Full=Serine/threonine-protein kinase TAO2;
+DE            EC=2.7.11.1;
+DE   AltName: Full=Kinase from chicken homolog C;
+DE            Short=hKFC-C;
+DE   AltName: Full=Prostate-derived STE20-like kinase 1;
+DE            Short=PSK-1;
+DE   AltName: Full=Thousand and one amino acid protein 2;
+GN   Name=TAOK2; Synonyms=KIAA0881, MAP3K17, PSK, PSK1;
+GN   ORFNames=UNQ2971/PRO7431;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), FUNCTION, TISSUE SPECIFICITY,
+RP   AND MUTAGENESIS OF LYS-57.
+RC   TISSUE=Mammary carcinoma;
+RX   MEDLINE=20127920; PubMed=10660600; DOI=10.1074/jbc.275.6.4311;
+RA   Moore T.M., Garg R., Johnson C., Coptcoat M.J., Ridley A.J.,
+RA   Morris J.D.H.;
+RT   "PSK, a novel STE20-like kinase derived from prostatic carcinoma that
+RT   activates the JNK MAPK pathway and regulates actin cytoskeletal
+RT   organisation.";
+RL   J. Biol. Chem. 275:4311-4322(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2), FUNCTION, SELF-ASSOCIATION,
+RP   TISSUE SPECIFICITY, AND SUBCELLULAR LOCATION.
+RX   PubMed=13679851; DOI=10.1038/sj.onc.1206605;
+RA   Yustein J.T., Xia L., Kahlenburg J.M., Robinson D., Templeton D.,
+RA   Kung H.-J.;
+RT   "Comparative studies of a new subfamily of human Ste20-like kinases:
+RT   homodimerization, subcellular localization, and selective activation
+RT   of MKK3 and p38.";
+RL   Oncogene 22:6129-6141(2003).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2).
+RC   TISSUE=Brain;
+RX   MEDLINE=99156230; PubMed=10048485; DOI=10.1093/dnares/5.6.355;
+RA   Nagase T., Ishikawa K., Suyama M., Kikuno R., Hirosawa M.,
+RA   Miyajima N., Tanaka A., Kotani H., Nomura N., Ohara O.;
+RT   "Prediction of the coding sequences of unidentified human genes. XII.
+RT   The complete sequences of 100 new cDNA clones from brain which code
+RT   for large proteins in vitro.";
+RL   DNA Res. 5:355-364(1998).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2).
+RC   TISSUE=Fetal brain;
+RX   PubMed=14702039; DOI=10.1038/ng1285;
+RA   Ota T., Suzuki Y., Nishikawa T., Otsuki T., Sugiyama T., Irie R.,
+RA   Wakamatsu A., Hayashi K., Sato H., Nagai K., Kimura K., Makita H.,
+RA   Sekine M., Obayashi M., Nishi T., Shibahara T., Tanaka T., Ishii S.,
+RA   Yamamoto J., Saito K., Kawai Y., Isono Y., Nakamura Y., Nagahari K.,
+RA   Murakami K., Yasuda T., Iwayanagi T., Wagatsuma M., Shiratori A.,
+RA   Sudo H., Hosoiri T., Kaku Y., Kodaira H., Kondo H., Sugawara M.,
+RA   Takahashi M., Kanda K., Yokoi T., Furuya T., Kikkawa E., Omura Y.,
+RA   Abe K., Kamihara K., Katsuta N., Sato K., Tanikawa M., Yamazaki M.,
+RA   Ninomiya K., Ishibashi T., Yamashita H., Murakawa K., Fujimori K.,
+RA   Tanai H., Kimata M., Watanabe M., Hiraoka S., Chiba Y., Ishida S.,
+RA   Ono Y., Takiguchi S., Watanabe S., Yosida M., Hotuta T., Kusano J.,
+RA   Kanehori K., Takahashi-Fujii A., Hara H., Tanase T.-O., Nomura Y.,
+RA   Togiya S., Komai F., Hara R., Takeuchi K., Arita M., Imose N.,
+RA   Musashino K., Yuuki H., Oshima A., Sasaki N., Aotsuka S.,
+RA   Yoshikawa Y., Matsunawa H., Ichihara T., Shiohata N., Sano S.,
+RA   Moriya S., Momiyama H., Satoh N., Takami S., Terashima Y., Suzuki O.,
+RA   Nakagawa S., Senoh A., Mizoguchi H., Goto Y., Shimizu F., Wakebe H.,
+RA   Hishigaki H., Watanabe T., Sugiyama A., Takemoto M., Kawakami B.,
+RA   Yamazaki M., Watanabe K., Kumagai A., Itakura S., Fukuzumi Y.,
+RA   Fujimori Y., Komiyama M., Tashiro H., Tanigami A., Fujiwara T.,
+RA   Ono T., Yamada K., Fujii Y., Ozaki K., Hirao M., Ohmori Y.,
+RA   Kawabata A., Hikiji T., Kobatake N., Inagaki H., Ikema Y., Okamoto S.,
+RA   Okitani R., Kawakami T., Noguchi S., Itoh T., Shigeta K., Senba T.,
+RA   Matsumura K., Nakajima Y., Mizuno T., Morinaga M., Sasaki M.,
+RA   Togashi T., Oyama M., Hata H., Watanabe M., Komatsu T.,
+RA   Mizushima-Sugano J., Satoh T., Shirai Y., Takahashi Y., Nakagawa K.,
+RA   Okumura K., Nagase T., Nomura N., Kikuchi H., Masuho Y., Yamashita R.,
+RA   Nakai K., Yada T., Nakamura Y., Ohara O., Isogai T., Sugano S.;
+RT   "Complete sequencing and characterization of 21,243 full-length human
+RT   cDNAs.";
+RL   Nat. Genet. 36:40-45(2004).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 3).
+RC   TISSUE=Testis;
+RX   PubMed=17974005; DOI=10.1186/1471-2164-8-399;
+RA   Bechtel S., Rosenfelder H., Duda A., Schmidt C.P., Ernst U.,
+RA   Wellenreuther R., Mehrle A., Schuster C., Bahr A., Bloecker H.,
+RA   Heubner D., Hoerlein A., Michel G., Wedler H., Koehrer K.,
+RA   Ottenwaelder B., Poustka A., Wiemann S., Schupp I.;
+RT   "The full-ORF clone resource of the German cDNA consortium.";
+RL   BMC Genomics 8:399-399(2007).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1 AND 2).
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [8]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 957-1235 (ISOFORMS 1/3).
+RX   MEDLINE=22887296; PubMed=12975309; DOI=10.1101/gr.1293003;
+RA   Clark H.F., Gurney A.L., Abaya E., Baker K., Baldwin D.T., Brush J.,
+RA   Chen J., Chow B., Chui C., Crowley C., Currell B., Deuel B., Dowd P.,
+RA   Eaton D., Foster J.S., Grimaldi C., Gu Q., Hass P.E., Heldens S.,
+RA   Huang A., Kim H.S., Klimowski L., Jin Y., Johnson S., Lee J.,
+RA   Lewis L., Liao D., Mark M.R., Robbie E., Sanchez C., Schoenfeld J.,
+RA   Seshagiri S., Simmons L., Singh J., Smith V., Stinson J., Vagts A.,
+RA   Vandlen R.L., Watanabe C., Wieand D., Woods K., Xie M.-H.,
+RA   Yansura D.G., Yi S., Yu G., Yuan J., Zhang M., Zhang Z., Goddard A.D.,
+RA   Wood W.I., Godowski P.J., Gray A.M.;
+RT   "The secreted protein discovery initiative (SPDI), a large-scale
+RT   effort to identify novel human secreted and transmembrane proteins: a
+RT   bioinformatics assessment.";
+RL   Genome Res. 13:2265-2270(2003).
+RN   [9]
+RP   FUNCTION, SUBCELLULAR LOCATION, INTERACTION WITH TUBULINS, AND
+RP   MUTAGENESIS OF LYS-57.
+RX   PubMed=12639963; DOI=10.1074/jbc.M213064200;
+RA   Mitsopoulos C., Zihni C., Garg R., Ridley A.J., Morris J.D.;
+RT   "The prostate-derived sterile 20-like kinase (PSK) regulates
+RT   microtubule organization and stability.";
+RL   J. Biol. Chem. 278:18085-18091(2003).
+RN   [10]
+RP   FUNCTION, INTERACTION WITH MAP3K7, AND MUTAGENESIS OF LYS-57 AND
+RP   ASP-169.
+RX   PubMed=16893890; DOI=10.1074/jbc.M603627200;
+RA   Huangfu W.C., Omori E., Akira S., Matsumoto K., Ninomiya-Tsuji J.;
+RT   "Osmotic stress activates the TAK1-JNK pathway while blocking TAK1-
+RT   mediated NF-kappaB activation: TAO2 regulates TAK1 pathways.";
+RL   J. Biol. Chem. 281:28802-28810(2006).
+RN   [11]
+RP   FUNCTION, SUBCELLULAR LOCATION, PHOSPHORYLATION AT SER-181,
+RP   AUTOPHOSPHORYLATION, AND MUTAGENESIS OF LYS-57 AND ASP-919.
+RX   PubMed=17158878; DOI=10.1074/jbc.M608336200;
+RA   Zihni C., Mitsopoulos C., Tavares I.A., Baum B., Ridley A.J.,
+RA   Morris J.D.;
+RT   "Prostate-derived sterile 20-like kinase 1-alpha induces apoptosis.
+RT   JNK-and caspase-dependent nuclear localization is a requirement for
+RT   membrane blebbing.";
+RL   J. Biol. Chem. 282:6484-6493(2007).
+RN   [12]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-9; SER-437; SER-486;
+RP   SER-777; SER-825 AND SER-827, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [13]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-9; SER-181; SER-449;
+RP   SER-473; SER-486; SER-493 AND SER-827, PHOSPHORYLATION [LARGE SCALE
+RP   ANALYSIS] AT SER-1011 (ISOFORM 2), AND MASS SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+CC   -!- FUNCTION: Isoform 1, but not isoform 2, plays a role in apoptotic
+CC       morphological changes, including cell contraction, membrane
+CC       blebbing and apoptotic bodies formation. This function, which
+CC       requires the activation of MAPK8/JNK and nuclear localization of
+CC       C-terminally truncated isoform 1, may be linked to the
+CC       mitochondrial CASP9-associated death pathway. Isoform 1, but not
+CC       isoform 2, activates the JNK MAP kinase pathway through the
+CC       specific activation of the upstream MKK3 and MKK6 kinases. Isoform
+CC       1 binds to microtubules and affects their organization and
+CC       stability independently of its kinase activity. Prevents MAP3K7-
+CC       mediated activation of IKKA, and thus NF-kappa-B activation, but
+CC       not that of JNK. Phosphorylates itself, MBP, activated MAPK8 and
+CC       tubulins. May play a role in the osmotic stress-MAPK8 pathway.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- COFACTOR: Magnesium (By similarity).
+CC   -!- SUBUNIT: Interacts with MKK3 and MKK6 (By similarity). Self-
+CC       associates. Interacts with tubulins through the C-terminal domain.
+CC       Interacts with MAP3K7 and interfers with MAP3K7-binding to IKKA
+CC       and thus prevents NF-kappa-B activation.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasmic vesicle membrane; Multi-pass
+CC       membrane protein (Potential). Cytoplasm, cytoskeleton. Nucleus.
+CC       Note=Catalytically active full-length phosphorylated isoform 1
+CC       localizes to microtubules in the cytoplasm predominantly on
+CC       microtubule cables positioned around the nucleus. A C-terminally
+CC       truncated form of isoform 1 is present in the nucleus; isoform 2
+CC       and kinase-defective, as well as full-length isoform 1 are
+CC       excluded from the nucleus.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=3;
+CC       Name=1; Synonyms=PSK1-alpha, TAO2;
+CC         IsoId=Q9UL54-1; Sequence=Displayed;
+CC       Name=2; Synonyms=PSK1-beta;
+CC         IsoId=Q9UL54-2; Sequence=VSP_015969, VSP_015970;
+CC         Note=Phosphorylated on Ser-1011;
+CC       Name=3;
+CC         IsoId=Q9UL54-3; Sequence=VSP_015967, VSP_015968;
+CC         Note=No experimental confirmation available;
+CC   -!- TISSUE SPECIFICITY: Ubiquitously expressed, with a higher level of
+CC       expression in testis and brain.
+CC   -!- PTM: Isoforms 1 and 2 are autophosphorylated.
+CC   -!- PTM: C-terminal cleavage of isoform 1 and subsequent nuclear
+CC       localization requires CASP9 activity.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. STE Ser/Thr
+CC       protein kinase family. STE20 subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAQ89301.1; Type=Erroneous initiation; Note=Translation N-terminally extended;
+CC       Sequence=BAA74904.2; Type=Erroneous initiation; Note=Translation N-terminally shortened;
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF061943; AAD45616.1; -; mRNA.
+DR   EMBL; AF263313; AAG38503.1; -; mRNA.
+DR   EMBL; AB020688; BAA74904.2; ALT_INIT; mRNA.
+DR   EMBL; AK291473; BAF84162.1; -; mRNA.
+DR   EMBL; AL137701; CAB70882.1; -; mRNA.
+DR   EMBL; CH471238; EAW79963.1; -; Genomic_DNA.
+DR   EMBL; CH471238; EAW79964.1; -; Genomic_DNA.
+DR   EMBL; BC136653; AAI36654.1; -; mRNA.
+DR   EMBL; BC136655; AAI36656.1; -; mRNA.
+DR   EMBL; BC142663; AAI42664.1; -; mRNA.
+DR   EMBL; BC151221; AAI51222.1; -; mRNA.
+DR   EMBL; BC152413; AAI52414.1; -; mRNA.
+DR   EMBL; AY358942; AAQ89301.1; ALT_INIT; mRNA.
+DR   IPI; IPI00006283; -.
+DR   IPI; IPI00465168; -.
+DR   IPI; IPI00641071; -.
+DR   PIR; T46444; T46444.
+DR   RefSeq; NP_004774.1; -.
+DR   RefSeq; NP_057235.2; -.
+DR   UniGene; Hs.291623; -.
+DR   ProteinModelPortal; Q9UL54; -.
+DR   SMR; Q9UL54; 12-320.
+DR   IntAct; Q9UL54; 3.
+DR   STRING; Q9UL54; -.
+DR   PhosphoSite; Q9UL54; -.
+DR   PRIDE; Q9UL54; -.
+DR   Ensembl; ENST00000308893; ENSP00000310094; ENSG00000149930.
+DR   GeneID; 9344; -.
+DR   KEGG; hsa:9344; -.
+DR   UCSC; uc002dva.1; human.
+DR   UCSC; uc002dvc.1; human.
+DR   UCSC; uc002dvd.1; human.
+DR   CTD; 9344; -.
+DR   GeneCards; GC16P029985; -.
+DR   HGNC; HGNC:16835; TAOK2.
+DR   HPA; HPA010650; -.
+DR   MIM; 613199; gene.
+DR   PharmGKB; PA134907964; -.
+DR   HOVERGEN; HBG094024; -.
+DR   InParanoid; Q9UL54; -.
+DR   OMA; PYQPEME; -.
+DR   PhylomeDB; Q9UL54; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   Pathway_Interaction_DB; p38_mkk3_6pathway; p38 MAPK signaling pathway.
+DR   NextBio; 34999; -.
+DR   ArrayExpress; Q9UL54; -.
+DR   Bgee; Q9UL54; -.
+DR   CleanEx; HS_TAOK2; -.
+DR   Genevestigator; Q9UL54; -.
+DR   GermOnline; ENSG00000149930; Homo sapiens.
+DR   GO; GO:0030659; C:cytoplasmic vesicle membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005856; C:cytoskeleton; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral to membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IDA:UniProtKB.
+DR   GO; GO:0030036; P:actin cytoskeleton organization; IDA:UniProtKB.
+DR   GO; GO:0000186; P:activation of MAPKK activity; IDA:UniProtKB.
+DR   GO; GO:0006915; P:apoptosis; NAS:UniProtKB.
+DR   GO; GO:0016477; P:cell migration; NAS:UniProtKB.
+DR   GO; GO:0048041; P:focal adhesion assembly; IDA:UniProtKB.
+DR   GO; GO:0046330; P:positive regulation of JNK cascade; IDA:UniProtKB.
+DR   GO; GO:0006612; P:protein targeting to membrane; NAS:UniProtKB.
+DR   GO; GO:0001558; P:regulation of cell growth; NAS:UniProtKB.
+DR   GO; GO:0008360; P:regulation of cell shape; IDA:UniProtKB.
+DR   GO; GO:0006950; P:response to stress; IDA:UniProtKB.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; ATP-binding; Coiled coil; Complete proteome;
+KW   Cytoplasm; Cytoplasmic vesicle; Cytoskeleton; Kinase; Magnesium;
+KW   Membrane; Nucleotide-binding; Nucleus; Phosphoprotein;
+KW   Serine/threonine-protein kinase; Transferase; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN         1   1235       Serine/threonine-protein kinase TAO2.
+FT                                /FTId=PRO_0000086733.
+FT   TRANSMEM    965    985       Helical; (Potential).
+FT   TRANSMEM    987   1007       Helical; (Potential).
+FT   TRANSMEM   1012   1032       Helical; (Potential).
+FT   TRANSMEM   1043   1063       Helical; (Potential).
+FT   DOMAIN       28    281       Protein kinase.
+FT   NP_BIND      34     42       ATP (By similarity).
+FT   COILED      486    547       Potential.
+FT   COILED      574    601       Potential.
+FT   COILED      681    713       Potential.
+FT   COMPBIAS    330    336       Poly-Glu.
+FT   COMPBIAS    347    370       Ser-rich.
+FT   COMPBIAS    378    406       Glu-rich.
+FT   COMPBIAS    791    907       Glu-rich.
+FT   COMPBIAS    943   1060       Leu-rich.
+FT   ACT_SITE    151    151       Proton acceptor (By similarity).
+FT   BINDING      57     57       ATP (By similarity).
+FT   MOD_RES       9      9       Phosphoserine.
+FT   MOD_RES      43     43       Phosphotyrosine (By similarity).
+FT   MOD_RES     181    181       Phosphoserine.
+FT   MOD_RES     437    437       Phosphoserine.
+FT   MOD_RES     449    449       Phosphoserine.
+FT   MOD_RES     473    473       Phosphoserine.
+FT   MOD_RES     486    486       Phosphoserine.
+FT   MOD_RES     493    493       Phosphoserine.
+FT   MOD_RES     777    777       Phosphoserine.
+FT   MOD_RES     825    825       Phosphoserine.
+FT   MOD_RES     827    827       Phosphoserine.
+FT   VAR_SEQ       1    173       Missing (in isoform 3).
+FT                                /FTId=VSP_015967.
+FT   VAR_SEQ     174    218       SIMAPANSFVGTPYWMAPEVILAMDEGQYDGKVDVWSLGIT
+FT                                CIEL -> MMGTSQGHVARKSRNWGLNPSRLSSIPLSSTPC
+FT                                HLSPSSLSPFSV (in isoform 3).
+FT                                /FTId=VSP_015968.
+FT   VAR_SEQ     745   1049       VRAGQRPPGLPLPIPGALGPPNTGTPIEQQPCSPGQEAVLD
+FT                                QRMLGEEEEAVGERRILGKEGATLEPKQQRILGEESGAPSP
+FT                                SPQKHGSLVDEEVWGLPEEIEELRVPSLVPQERSIVGQEEA
+FT                                GTWSLWGKEDESLLDEEFELGWVQGPALTPVPEEEEEEEEG
+FT                                APIGTPRDPGDGCPSPDIPPEPPPTHLRPCPASQLPGLLSH
+FT                                GLLAGLSFAVGSSSGLLPLLLLLLLPLLAAQGGGGLQAALL
+FT                                ALEVGLVGLGASYLLLCTALHLPSSLFLLLAQGTALGAVLG
+FT                                LSWRRGLMGVPLGLGAAW -> SKELQIKKQFQETCKIQTR
+FT                                QYKALRAHLLETTPKAQHKSLLKRLKEEQTRKLAILAEQYD
+FT                                QSISEMLSSQALRLDETQEAEFQALRQQLQQELELLNAYQS
+FT                                KIKIRTESQHERELRELEQRVALRRALLEQRVEEELLALQT
+FT                                GRSERIRSLLERQAREIEAFDAESMRLGFSSMALGGIPAEA
+FT                                AAQGYPAPPPAPAWPSRPVPRSGAHWSHGPPPPGMPPPAWR
+FT                                QPSLLAPPGPPNWLGPPTQSGTPRGGALLLLRNSPQPLRRA
+FT                                ASGGSGSENVGPPAAAVPGPLSRSTSVASHILNGSSHFYS
+FT                                (in isoform 2).
+FT                                /FTId=VSP_015969.
+FT   VAR_SEQ    1050   1235       Missing (in isoform 2).
+FT                                /FTId=VSP_015970.
+FT   MUTAGEN      57     57       K->A: Loss of kinase activity. In isoform
+FT                                1, excluded from the nucleus. No effect
+FT                                on microtubule-binding.
+FT   MUTAGEN     169    169       D->A: Loss of kinase activity; No effect
+FT                                on MAP3K7-mediated activation of NF-
+FT                                kappa-B.
+FT   MUTAGEN     919    919       D->N: No effect on kinase activity, nor
+FT                                on JNK activation, but severe reduction
+FT                                in nuclear localization and apoptotic
+FT                                membrane blebbing.
+FT   CONFLICT    189    189       M -> T (in Ref. 7; AAI51222/AAI42664).
+FT   CONFLICT   1211   1211       R -> H (in Ref. 1; AAD45616).
+SQ   SEQUENCE   1235 AA;  138251 MW;  211852E690934307 CRC64;
+     MPAGGRAGSL KDPDVAELFF KDDPEKLFSD LREIGHGSFG AVYFARDVRN SEVVAIKKMS
+     YSGKQSNEKW QDIIKEVRFL QKLRHPNTIQ YRGCYLREHT AWLVMEYCLG SASDLLEVHK
+     KPLQEVEIAA VTHGALQGLA YLHSHNMIHR DVKAGNILLS EPGLVKLGDF GSASIMAPAN
+     SFVGTPYWMA PEVILAMDEG QYDGKVDVWS LGITCIELAE RKPPLFNMNA MSALYHIAQN
+     ESPVLQSGHW SEYFRNFVDS CLQKIPQDRP TSEVLLKHRF VLRERPPTVI MDLIQRTKDA
+     VRELDNLQYR KMKKILFQEA PNGPGAEAPE EEEEAEPYMH RAGTLTSLES SHSVPSMSIS
+     ASSQSSSVNS LADASDNEEE EEEEEEEEEE EEGPEAREMA MMQEGEHTVT SHSSIIHRLP
+     GSDNLYDDPY QPEITPSPLQ PPAAPAPTST TSSARRRAYC RNRDHFATIR TASLVSRQIQ
+     EHEQDSALRE QLSGYKRMRR QHQKQLLALE SRLRGEREEH SARLQRELEA QRAGFGAEAE
+     KLARRHQAIG EKEARAAQAE ERKFQQHILG QQKKELAALL EAQKRTYKLR KEQLKEELQE
+     NPSTPKREKA EWLLRQKEQL QQCQAEEEAG LLRRQRQYFE LQCRQYKRKM LLARHSLDQD
+     LLREDLNKKQ TQKDLECALL LRQHEATREL ELRQLQAVQR TRAELTRLQH QTELGNQLEY
+     NKRREQELRQ KHAAQVRQQP KSLKVRAGQR PPGLPLPIPG ALGPPNTGTP IEQQPCSPGQ
+     EAVLDQRMLG EEEEAVGERR ILGKEGATLE PKQQRILGEE SGAPSPSPQK HGSLVDEEVW
+     GLPEEIEELR VPSLVPQERS IVGQEEAGTW SLWGKEDESL LDEEFELGWV QGPALTPVPE
+     EEEEEEEGAP IGTPRDPGDG CPSPDIPPEP PPTHLRPCPA SQLPGLLSHG LLAGLSFAVG
+     SSSGLLPLLL LLLLPLLAAQ GGGGLQAALL ALEVGLVGLG ASYLLLCTAL HLPSSLFLLL
+     AQGTALGAVL GLSWRRGLMG VPLGLGAAWL LAWPGLALPL VAMAAGGRWV RQQGPRVRRG
+     ISRLWLRVLL RLSPMAFRAL QGCGAVGDRG LFALYPKTNK DGFRSRLPVP GPRRRNPRTT
+     QHPLALLARV WVLCKGWNWR LARASQGLAS HLPPWAIHTL ASWGLLRGER PTRIPRLLPR
+     SQRQLGPPAS RQPLPGTLAG RRSRTRQSRA LPPWR
+//

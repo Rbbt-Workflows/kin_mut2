@@ -1,0 +1,179 @@
+ID   MAK_HUMAN               Reviewed;         623 AA.
+AC   P20794; Q9NUH7;
+DT   01-FEB-1991, integrated into UniProtKB/Swiss-Prot.
+DT   27-APR-2001, sequence version 2.
+DT   05-OCT-2010, entry version 96.
+DE   RecName: Full=Serine/threonine-protein kinase MAK;
+DE            EC=2.7.11.22;
+DE   AltName: Full=Male germ cell-associated kinase;
+GN   Name=MAK;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   MEDLINE=22935763; PubMed=14574404; DOI=10.1038/nature02055;
+RA   Mungall A.J., Palmer S.A., Sims S.K., Edwards C.A., Ashurst J.L.,
+RA   Wilming L., Jones M.C., Horton R., Hunt S.E., Scott C.E.,
+RA   Gilbert J.G.R., Clamp M.E., Bethel G., Milne S., Ainscough R.,
+RA   Almeida J.P., Ambrose K.D., Andrews T.D., Ashwell R.I.S.,
+RA   Babbage A.K., Bagguley C.L., Bailey J., Banerjee R., Barker D.J.,
+RA   Barlow K.F., Bates K., Beare D.M., Beasley H., Beasley O., Bird C.P.,
+RA   Blakey S.E., Bray-Allen S., Brook J., Brown A.J., Brown J.Y.,
+RA   Burford D.C., Burrill W., Burton J., Carder C., Carter N.P.,
+RA   Chapman J.C., Clark S.Y., Clark G., Clee C.M., Clegg S., Cobley V.,
+RA   Collier R.E., Collins J.E., Colman L.K., Corby N.R., Coville G.J.,
+RA   Culley K.M., Dhami P., Davies J., Dunn M., Earthrowl M.E.,
+RA   Ellington A.E., Evans K.A., Faulkner L., Francis M.D., Frankish A.,
+RA   Frankland J., French L., Garner P., Garnett J., Ghori M.J.,
+RA   Gilby L.M., Gillson C.J., Glithero R.J., Grafham D.V., Grant M.,
+RA   Gribble S., Griffiths C., Griffiths M.N.D., Hall R., Halls K.S.,
+RA   Hammond S., Harley J.L., Hart E.A., Heath P.D., Heathcott R.,
+RA   Holmes S.J., Howden P.J., Howe K.L., Howell G.R., Huckle E.,
+RA   Humphray S.J., Humphries M.D., Hunt A.R., Johnson C.M., Joy A.A.,
+RA   Kay M., Keenan S.J., Kimberley A.M., King A., Laird G.K., Langford C.,
+RA   Lawlor S., Leongamornlert D.A., Leversha M., Lloyd C.R., Lloyd D.M.,
+RA   Loveland J.E., Lovell J., Martin S., Mashreghi-Mohammadi M.,
+RA   Maslen G.L., Matthews L., McCann O.T., McLaren S.J., McLay K.,
+RA   McMurray A., Moore M.J.F., Mullikin J.C., Niblett D., Nickerson T.,
+RA   Novik K.L., Oliver K., Overton-Larty E.K., Parker A., Patel R.,
+RA   Pearce A.V., Peck A.I., Phillimore B.J.C.T., Phillips S., Plumb R.W.,
+RA   Porter K.M., Ramsey Y., Ranby S.A., Rice C.M., Ross M.T., Searle S.M.,
+RA   Sehra H.K., Sheridan E., Skuce C.D., Smith S., Smith M., Spraggon L.,
+RA   Squares S.L., Steward C.A., Sycamore N., Tamlyn-Hall G., Tester J.,
+RA   Theaker A.J., Thomas D.W., Thorpe A., Tracey A., Tromans A., Tubby B.,
+RA   Wall M., Wallis J.M., West A.P., White S.S., Whitehead S.L.,
+RA   Whittaker H., Wild A., Willey D.J., Wilmer T.E., Wood J.M., Wray P.W.,
+RA   Wyatt J.C., Young L., Younger R.M., Bentley D.R., Coulson A.,
+RA   Durbin R.M., Hubbard T., Sulston J.E., Dunham I., Rogers J., Beck S.;
+RT   "The DNA sequence and analysis of human chromosome 6.";
+RL   Nature 425:805-811(2003).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 121-163.
+RX   MEDLINE=90220611; PubMed=2183027;
+RA   Matsushime H., Jinno A., Takagi N., Shibuya M.;
+RT   "A novel mammalian protein kinase gene (mak) is highly expressed in
+RT   testicular germ cells at and after meiosis.";
+RL   Mol. Cell. Biol. 10:2261-2268(1990).
+RN   [3]
+RP   VARIANTS [LARGE SCALE ANALYSIS] VAL-189; PRO-272; SER-384; SER-520 AND
+RP   LEU-550.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Could play an important function in spermatogenesis.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- TISSUE SPECIFICITY: Expressed mainly in testicular cells at and
+CC       after meiosis.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CMGC
+CC       Ser/Thr protein kinase family. CDC2/CDKX subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AL024498; CAB75823.1; -; Genomic_DNA.
+DR   EMBL; M35863; AAA36195.1; -; Genomic_DNA.
+DR   IPI; IPI00025489; -.
+DR   PIR; B34711; B34711.
+DR   RefSeq; NP_005897.1; -.
+DR   UniGene; Hs.446125; -.
+DR   ProteinModelPortal; P20794; -.
+DR   SMR; P20794; 2-285.
+DR   STRING; P20794; -.
+DR   PhosphoSite; P20794; -.
+DR   PRIDE; P20794; -.
+DR   Ensembl; ENST00000313243; ENSP00000313021; ENSG00000111837.
+DR   Ensembl; ENST00000354489; ENSP00000346484; ENSG00000111837.
+DR   GeneID; 4117; -.
+DR   KEGG; hsa:4117; -.
+DR   UCSC; uc003mzl.1; human.
+DR   CTD; 4117; -.
+DR   GeneCards; GC06M010820; -.
+DR   H-InvDB; HIX0005576; -.
+DR   HGNC; HGNC:6816; MAK.
+DR   MIM; 154235; gene.
+DR   PharmGKB; PA30564; -.
+DR   eggNOG; prNOG18980; -.
+DR   HOGENOM; HBG445725; -.
+DR   HOVERGEN; HBG014652; -.
+DR   InParanoid; P20794; -.
+DR   OMA; AGNLGSY; -.
+DR   OrthoDB; EOG9S4S1B; -.
+DR   PhylomeDB; P20794; -.
+DR   BRENDA; 2.7.11.22; 247.
+DR   NextBio; 16166; -.
+DR   ArrayExpress; P20794; -.
+DR   Bgee; P20794; -.
+DR   CleanEx; HS_MAK; -.
+DR   Genevestigator; P20794; -.
+DR   GermOnline; ENSG00000111837; Homo sapiens.
+DR   GO; GO:0005524; F:ATP binding; NAS:UniProtKB.
+DR   GO; GO:0004693; F:cyclin-dependent protein kinase activity; IEA:EC.
+DR   GO; GO:0030154; P:cell differentiation; IEA:UniProtKB-KW.
+DR   GO; GO:0007275; P:multicellular organismal development; IEA:UniProtKB-KW.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; NAS:UniProtKB.
+DR   GO; GO:0007283; P:spermatogenesis; NAS:UniProtKB.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   2: Evidence at transcript level;
+KW   ATP-binding; Complete proteome; Developmental protein;
+KW   Differentiation; Kinase; Nucleotide-binding; Polymorphism;
+KW   Serine/threonine-protein kinase; Spermatogenesis; Transferase.
+FT   CHAIN         1    623       Serine/threonine-protein kinase MAK.
+FT                                /FTId=PRO_0000086284.
+FT   DOMAIN        4    284       Protein kinase.
+FT   NP_BIND      10     18       ATP (By similarity).
+FT   COMPBIAS    309    368       Glu/Pro-rich.
+FT   ACT_SITE    125    125       Proton acceptor (By similarity).
+FT   BINDING      33     33       ATP (By similarity).
+FT   VARIANT     189    189       I -> V (in dbSNP:rs56215624).
+FT                                /FTId=VAR_042006.
+FT   VARIANT     272    272       R -> P (in a breast infiltrating ductal
+FT                                carcinoma sample; somatic mutation).
+FT                                /FTId=VAR_042007.
+FT   VARIANT     329    329       D -> E (in dbSNP:rs17579447).
+FT                                /FTId=VAR_053932.
+FT   VARIANT     384    384       N -> S (in dbSNP:rs55773478).
+FT                                /FTId=VAR_042008.
+FT   VARIANT     520    520       P -> S (in dbSNP:rs567083).
+FT                                /FTId=VAR_042009.
+FT   VARIANT     550    550       F -> L (in dbSNP:rs56217305).
+FT                                /FTId=VAR_042010.
+SQ   SEQUENCE   623 AA;  70581 MW;  67F540266F370285 CRC64;
+     MNRYTTMRQL GDGTYGSVLM GKSNESGELV AIKRMKRKFY SWDECMNLRE VKSLKKLNHA
+     NVIKLKEVIR ENDHLYFIFE YMKENLYQLM KDRNKLFPES VIRNIMYQIL QGLAFIHKHG
+     FFHRDMKPEN LLCMGPELVK IADFGLAREL RSQPPYTDYV STRWYRAPEV LLRSSVYSSP
+     IDVWAVGSIM AELYMLRPLF PGTSEVDEIF KICQVLGTPK KSDWPEGYQL ASSMNFRFPQ
+     CVPINLKTLI PNASNEAIQL MTEMLNWDPK KRPTASQALK HPYFQVGQVL GPSSNHLESK
+     QSLNKQLQPL ESKPSLVEVE PKPLPDIIDQ VVGQPQPKTS QQPLQPIQPP QNLSVQQPPK
+     QQSQEKPPQT LFPSIVKNMP TKPNGTLSHK SGRRRWGQTI FKSGDSWEEL EDYDFGASHS
+     KKPSMGVFKE KRKKDSPFRL PEPVPSGSNH STGENKSLPA VTSLKSDSEL STAPTSKQYY
+     LKQSRYLPGV NPKKVSLIAS GKEINPHTWS NQLFPKSLGP VGAELAFKRS NAGNLGSYAT
+     YNQSGYIPSF LKKEVQSAGQ RIHLAPLNAT ASEYTWNTKT GRGQFSGRTY NPTAKNLNIV
+     NRAQPIPSVH GRTDWVAKYG GHR
+//

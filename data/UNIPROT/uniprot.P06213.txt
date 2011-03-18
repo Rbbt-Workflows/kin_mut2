@@ -1,0 +1,1606 @@
+ID   INSR_HUMAN              Reviewed;        1382 AA.
+AC   P06213; Q17RW0; Q59H98; Q9UCB7; Q9UCB8; Q9UCB9;
+DT   01-JAN-1988, integrated into UniProtKB/Swiss-Prot.
+DT   05-OCT-2010, sequence version 4.
+DT   02-NOV-2010, entry version 163.
+DE   RecName: Full=Insulin receptor;
+DE            Short=IR;
+DE            EC=2.7.10.1;
+DE   AltName: CD_antigen=CD220;
+DE   Contains:
+DE     RecName: Full=Insulin receptor subunit alpha;
+DE   Contains:
+DE     RecName: Full=Insulin receptor subunit beta;
+DE   Flags: Precursor;
+GN   Name=INSR;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM LONG), AND VARIANTS GLY-2;
+RP   HIS-171; THR-448 AND LYS-492.
+RX   MEDLINE=85176928; PubMed=2859121; DOI=10.1016/0092-8674(85)90334-4;
+RA   Ebina Y., Ellis L., Jarnagin K., Edery M., Graf L., Clauser E.,
+RA   Ou J.-H., Masiarz F., Kan Y.W., Goldfine I.D., Roth R.A., Rutter W.J.;
+RT   "The human insulin receptor cDNA: the structural basis for hormone-
+RT   activated transmembrane signalling.";
+RL   Cell 40:747-758(1985).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM SHORT), PROTEIN SEQUENCE OF 28-49
+RP   AND 763-782, GLYCOSYLATION AT ASN-43 AND ASN-769, AND VARIANT GLY-2.
+RX   MEDLINE=85137889; PubMed=2983222; DOI=10.1038/313756a0;
+RA   Ullrich A., Bell J.R., Chen E.Y., Herrera R., Petruzzelli L.M.,
+RA   Dull T.J., Gray A., Coussens L., Liao Y.-C., Tsubokawa M., Mason A.,
+RA   Seeburg P.H., Grunfeld C., Rosen O.M., Ramachandran J.;
+RT   "Human insulin receptor and its relationship to the tyrosine kinase
+RT   family of oncogenes.";
+RL   Nature 313:756-761(1985).
+RN   [3]
+RP   SEQUENCE REVISION TO 899-900.
+RA   Chen E.Y.;
+RL   Submitted (JUL-1985) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND VARIANT GLY-2.
+RC   TISSUE=Fetal liver;
+RX   MEDLINE=91006864; PubMed=2210055;
+RA   Seino S., Seino M., Bell G.I.;
+RT   "Human insulin-receptor gene. Partial sequence and amplification of
+RT   exons by polymerase chain reaction.";
+RL   Diabetes 39:123-128(1990).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=15057824; DOI=10.1038/nature02399;
+RA   Grimwood J., Gordon L.A., Olsen A.S., Terry A., Schmutz J.,
+RA   Lamerdin J.E., Hellsten U., Goodstein D., Couronne O., Tran-Gyamfi M.,
+RA   Aerts A., Altherr M., Ashworth L., Bajorek E., Black S., Branscomb E.,
+RA   Caenepeel S., Carrano A.V., Caoile C., Chan Y.M., Christensen M.,
+RA   Cleland C.A., Copeland A., Dalin E., Dehal P., Denys M., Detter J.C.,
+RA   Escobar J., Flowers D., Fotopulos D., Garcia C., Georgescu A.M.,
+RA   Glavina T., Gomez M., Gonzales E., Groza M., Hammon N., Hawkins T.,
+RA   Haydu L., Ho I., Huang W., Israni S., Jett J., Kadner K., Kimball H.,
+RA   Kobayashi A., Larionov V., Leem S.-H., Lopez F., Lou Y., Lowry S.,
+RA   Malfatti S., Martinez D., McCready P.M., Medina C., Morgan J.,
+RA   Nelson K., Nolan M., Ovcharenko I., Pitluck S., Pollard M.,
+RA   Popkie A.P., Predki P., Quan G., Ramirez L., Rash S., Retterer J.,
+RA   Rodriguez A., Rogers S., Salamov A., Salazar A., She X., Smith D.,
+RA   Slezak T., Solovyev V., Thayer N., Tice H., Tsai M., Ustaszewska A.,
+RA   Vo N., Wagner M., Wheeler J., Wu K., Xie G., Yang J., Dubchak I.,
+RA   Furey T.S., DeJong P., Dickson M., Gordon D., Eichler E.E.,
+RA   Pennacchio L.A., Richardson P., Stubbs L., Rokhsar D.S., Myers R.M.,
+RA   Rubin E.M., Lucas S.M.;
+RT   "The DNA sequence and biology of human chromosome 19.";
+RL   Nature 428:529-535(2004).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM SHORT), AND VARIANT
+RP   GLY-2.
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-33, AND VARIANT GLY-2.
+RX   MEDLINE=88058985; PubMed=3680248;
+RA   Araki E., Shimada F., Uzawa H., Mori M., Ebina Y.;
+RT   "Characterization of the promoter region of the human insulin receptor
+RT   gene. Evidence for promoter activity.";
+RL   J. Biol. Chem. 262:16186-16191(1987).
+RN   [8]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-33, AND VARIANT GLY-2.
+RX   MEDLINE=90032206; PubMed=2806055; DOI=10.1016/0168-8227(89)90085-5;
+RA   Araki E., Shimada F., Fukushima H., Mori M., Shichiri M., Ebina Y.;
+RT   "Characterization of the promoter region of the human insulin receptor
+RT   gene.";
+RL   Diabetes Res. Clin. Pract. 7:S31-S33(1989).
+RN   [9]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-33, AND VARIANT GLY-2.
+RX   MEDLINE=89380228; PubMed=2777789;
+RA   Tewari D.S., Cook D.M., Taub R.;
+RT   "Characterization of the promoter region and 3' end of the human
+RT   insulin receptor gene.";
+RL   J. Biol. Chem. 264:16238-16245(1989).
+RN   [10]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-33, AND VARIANT GLY-2.
+RC   TISSUE=Skin fibroblast;
+RX   MEDLINE=91125373; PubMed=2280779;
+RA   McKeon C., Moncada V., Pham T., Salvatore P., Kadowaki T., Accili D.,
+RA   Taylor S.I.;
+RT   "Structural and functional analysis of the insulin receptor
+RT   promoter.";
+RL   Mol. Endocrinol. 4:647-656(1990).
+RN   [11]
+RP   PROTEIN SEQUENCE OF 28-44; 192-205; 299-314; 610-627 AND 763-780,
+RP   ENZYME REGULATION, AND BINDING OF MANGANESE.
+RC   TISSUE=Placenta;
+RX   MEDLINE=91009374; PubMed=2211730;
+RA   Xu Q.-Y., Paxton R.J., Fujita-Yamaguchi Y.;
+RT   "Substructural analysis of the insulin receptor by microsequence
+RT   analyses of limited tryptic fragments isolated by sodium dodecyl
+RT   sulfate-polyacrylamide gel electrophoresis in the absence or presence
+RT   of dithiothreitol.";
+RL   J. Biol. Chem. 265:18673-18681(1990).
+RN   [12]
+RP   PROTEIN SEQUENCE OF 28-45 AND 763-782, FUNCTION, AND FORMATION OF A
+RP   HYBRID RECEPTOR WITH IGF1R.
+RC   TISSUE=Placenta;
+RX   MEDLINE=94079885; PubMed=8257688; DOI=10.1021/bi00212a019;
+RA   Kasuya J., Paz I.B., Maddux B.A., Goldfine I.D., Hefta S.A.,
+RA   Fujita-Yamaguchi Y.;
+RT   "Characterization of human placental insulin-like growth factor-
+RT   I/insulin hybrid receptors by protein microsequencing and
+RT   purification.";
+RL   Biochemistry 32:13531-13536(1993).
+RN   [13]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 538-1382 (ISOFORM SHORT).
+RC   TISSUE=Brain;
+RA   Totoki Y., Toyoda A., Takeda T., Sakaki Y., Tanaka A., Yokoyama S.,
+RA   Ohara O., Nagase T., Kikuno R.F.;
+RL   Submitted (MAR-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [14]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 728-772 (ISOFORM LONG), AND ALTERNATIVE
+RP   SPLICING.
+RX   MEDLINE=89165872; PubMed=2538124; DOI=10.1016/0006-291X(89)92439-X;
+RA   Seino S., Bell G.I.;
+RT   "Alternative splicing of human insulin receptor messenger RNA.";
+RL   Biochem. Biophys. Res. Commun. 159:312-316(1989).
+RN   [15]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 744-823 (ISOFORM LONG), TISSUE
+RP   SPECIFICITY, LIGAND-BINDING, AND AUTOPHOSPHORYLATION.
+RX   MEDLINE=90316094; PubMed=2369896;
+RA   Mosthaf L., Grako K., Dull T.J., Coussens L., Ullrich A.,
+RA   McClain D.A.;
+RT   "Functionally distinct insulin receptors generated by tissue-specific
+RT   alternative splicing.";
+RL   EMBO J. 9:2409-2413(1990).
+RN   [16]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 895-1085.
+RX   MEDLINE=89252471; PubMed=2566545;
+RA   Elbein S.C.;
+RT   "Molecular and clinical characterization of an insertional
+RT   polymorphism of the insulin-receptor gene.";
+RL   Diabetes 38:737-743(1989).
+RN   [17]
+RP   PROTEIN SEQUENCE OF 927-956; 981-1019; 1182-1194 AND 1352-1369, AND
+RP   AUTOPHOSPHORYLATION.
+RC   TISSUE=Placenta;
+RX   MEDLINE=88326279; PubMed=3166375;
+RA   Tavare J.M., Denton R.M.;
+RT   "Studies on the autophosphorylation of the insulin receptor from human
+RT   placenta. Analysis of the sites phosphorylated by two-dimensional
+RT   peptide mapping.";
+RL   Biochem. J. 252:607-615(1988).
+RN   [18]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1006-1123.
+RX   MEDLINE=89298408; PubMed=2544997; DOI=10.1126/science.2544997;
+RA   Taira M., Taira M., Hashimoto N., Shimada F., Suzuki Y., Kanatsuka A.,
+RA   Nakamura F., Ebina Y., Tatibana M., Makino H.;
+RT   "Human diabetes associated with a deletion of the tyrosine kinase
+RT   domain of the insulin receptor.";
+RL   Science 245:63-66(1989).
+RN   [19]
+RP   PARTIAL PROTEIN SEQUENCE.
+RX   MEDLINE=88190050; PubMed=3447155;
+RA   Fujita-Yamaguchi Y., Hawke D., Shively J.E., Choi S.;
+RT   "Partial amino acid sequence analyses of human placental insulin
+RT   receptor.";
+RL   Protein Seq. Data Anal. 1:3-6(1987).
+RN   [20]
+RP   MUTAGENESIS OF LYS-1057.
+RX   MEDLINE=87118237; PubMed=3101064; DOI=10.1073/pnas.84.3.704;
+RA   Ebina Y., Araki E., Taira M., Shimada F., Mori M., Craik C.S.,
+RA   Siddle K., Pierce S.B., Roth R.A., Rutter W.J.;
+RT   "Replacement of lysine residue 1030 in the putative ATP-binding region
+RT   of the insulin receptor abolishes insulin- and antibody-stimulated
+RT   glucose uptake and receptor kinase activity.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 84:704-708(1987).
+RN   [21]
+RP   MUTAGENESIS OF TYR-999.
+RX   MEDLINE=88311065; PubMed=2842060; DOI=10.1016/S0092-8674(88)80008-4;
+RA   White M.F., Livingston J.N., Backer J.M., Lauris V., Dull T.J.,
+RA   Ullrich A., Kahn C.R.;
+RT   "Mutation of the insulin receptor at tyrosine 960 inhibits signal
+RT   transmission but does not affect its tyrosine kinase activity.";
+RL   Cell 54:641-649(1988).
+RN   [22]
+RP   AUTOPHOSPHORYLATION.
+RX   MEDLINE=92337603; PubMed=1321605; DOI=10.1016/S0006-291X(05)80799-5;
+RA   Dickens M., Tavare J.M.;
+RT   "Analysis of the order of autophosphorylation of human insulin
+RT   receptor tyrosines 1158, 1162 and 1163.";
+RL   Biochem. Biophys. Res. Commun. 186:244-250(1992).
+RN   [23]
+RP   DISULFIDE BONDS, AND GLYCOSYLATION AT ASN-541.
+RX   MEDLINE=93112026; PubMed=1472036; DOI=10.1016/0006-291X(92)92250-2;
+RA   Schaeffer L., Ljungqvist L.;
+RT   "Identification of a disulfide bridge connecting the alpha-subunits of
+RT   the extracellular domain of the insulin receptor.";
+RL   Biochem. Biophys. Res. Commun. 189:650-653(1992).
+RN   [24]
+RP   FUNCTION, AND FORMATION OF A HYBRID RECEPTOR WITH IGF1R.
+RX   PubMed=8452530;
+RA   Soos M.A., Field C.E., Siddle K.;
+RT   "Purified hybrid insulin/insulin-like growth factor-I receptors bind
+RT   insulin-like growth factor-I, but not insulin, with high affinity.";
+RL   Biochem. J. 290:419-426(1993).
+RN   [25]
+RP   FUNCTION, AND INTERACTION WITH PIK3R1.
+RX   PubMed=8276809;
+RA   Van Horn D.J., Myers M.G. Jr., Backer J.M.;
+RT   "Direct activation of the phosphatidylinositol 3'-kinase by the
+RT   insulin receptor.";
+RL   J. Biol. Chem. 269:29-32(1994).
+RN   [26]
+RP   INTERACTION WITH IRS1 AND SHC1, AND MUTAGENESIS OF LEU-991; TYR-992;
+RP   ASN-996; 996-ASN-PRO-997; PRO-997; TYR-999; LEU-1000 AND ALA-1002.
+RX   MEDLINE=96007458; PubMed=7559478; DOI=10.1074/jbc.270.40.23258;
+RA   He W., O'Neill T.J., Gustafson T.A.;
+RT   "Distinct modes of interaction of SHC and insulin receptor substrate-1
+RT   with the insulin receptor NPEY region via non-SH2 domains.";
+RL   J. Biol. Chem. 270:23258-23262(1995).
+RN   [27]
+RP   INTERACTION WITH IRS1; SHC1 AND PIK3R1, AND MUTAGENESIS OF ASN-996;
+RP   PRO-997; GLU-998; TYR-999 AND LYS-1057.
+RX   PubMed=7537849;
+RA   Gustafson T.A., He W., Craparo A., Schaub C.D., O'Neill T.J.;
+RT   "Phosphotyrosine-dependent interaction of SHC and insulin receptor
+RT   substrate 1 with the NPEY motif of the insulin receptor via a novel
+RT   non-SH2 domain.";
+RL   Mol. Cell. Biol. 15:2500-2508(1995).
+RN   [28]
+RP   FORMATION OF A HYBRID RECEPTOR WITH IGF1R, AND TISSUE SPECIFICITY.
+RX   PubMed=9355755;
+RA   Bailyes E.M., Nave B.T., Soos M.A., Orr S.R., Hayward A.C., Siddle K.;
+RT   "Insulin receptor/IGF-I receptor hybrids are widely distributed in
+RT   mammalian tissues: quantification of individual receptor species by
+RT   selective immunoprecipitation and immunoblotting.";
+RL   Biochem. J. 327:209-215(1997).
+RN   [29]
+RP   FORMATION OF A HYBRID RECEPTOR WITH IGF1R, AND TISSUE SPECIFICITY.
+RX   PubMed=9202395; DOI=10.1016/S0303-7207(97)04050-1;
+RA   Federici M., Porzio O., Zucaro L., Fusco A., Borboni P., Lauro D.,
+RA   Sesti G.;
+RT   "Distribution of insulin/insulin-like growth factor-I hybrid receptors
+RT   in human tissues.";
+RL   Mol. Cell. Endocrinol. 129:121-126(1997).
+RN   [30]
+RP   INTERACTION WITH SORBS1.
+RX   MEDLINE=21269187; PubMed=11374898; DOI=10.1006/geno.2001.6541;
+RA   Lin W.-H., Huang C.-J., Liu M.-W., Chang H.-M., Chen Y.-J., Tai T.-Y.,
+RA   Chuang L.-M.;
+RT   "Cloning, mapping, and characterization of the human sorbin and SH3
+RT   domain containing 1 (SORBS1) gene: a protein associated with c-Abl
+RT   during insulin signaling in the hepatoma cell line Hep3B.";
+RL   Genomics 74:12-20(2001).
+RN   [31]
+RP   FUNCTION, AND FORMATION OF A HYBRID RECEPTOR WITH IGF1R.
+RX   PubMed=12138094; DOI=10.1074/jbc.M202766200;
+RA   Pandini G., Frasca F., Mineo R., Sciacca L., Vigneri R., Belfiore A.;
+RT   "Insulin/insulin-like growth factor I hybrid receptors have different
+RT   biological characteristics depending on the insulin receptor isoform
+RT   involved.";
+RL   J. Biol. Chem. 277:39684-39695(2002).
+RN   [32]
+RP   INTERACTION WITH GRB10.
+RX   PubMed=12493740; DOI=10.1074/jbc.M208518200;
+RA   Wick K.R., Werner E.D., Langlais P., Ramos F.J., Dong L.Q.,
+RA   Shoelson S.E., Liu F.;
+RT   "Grb10 inhibits insulin-stimulated insulin receptor substrate (IRS)-
+RT   phosphatidylinositol 3-kinase/Akt signaling pathway by disrupting the
+RT   association of IRS-1/IRS-2 with the insulin receptor.";
+RL   J. Biol. Chem. 278:8460-8467(2003).
+RN   [33]
+RP   INTERACTION WITH SOCS7.
+RX   PubMed=16127460; DOI=10.1172/JCI23853;
+RA   Banks A.S., Li J., McKeag L., Hribal M.L., Kashiwada M., Accili D.,
+RA   Rothman P.B.;
+RT   "Deletion of SOCS7 leads to enhanced insulin action and enlarged
+RT   islets of Langerhans.";
+RL   J. Clin. Invest. 115:2462-2471(2005).
+RN   [34]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-1189, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Mammary epithelium;
+RX   PubMed=15951569; DOI=10.1074/mcp.M500089-MCP200;
+RA   Zhang Y., Wolf-Yadlin A., Ross P.L., Pappin D.J., Rush J.,
+RA   Lauffenburger D.A., White F.M.;
+RT   "Time-resolved mass spectrometry of tyrosine phosphorylation sites in
+RT   the epidermal growth factor receptor signaling network reveals dynamic
+RT   modules.";
+RL   Mol. Cell. Proteomics 4:1240-1250(2005).
+RN   [35]
+RP   DEPHOSPHORYLATION BY PTPRE.
+RX   PubMed=15738637; DOI=10.2108/zsj.22.169;
+RA   Nakagawa Y., Aoki N., Aoyama K., Shimizu H., Shimano H., Yamada N.,
+RA   Miyazaki H.;
+RT   "Receptor-type protein tyrosine phosphatase epsilon (PTPepsilonM) is a
+RT   negative regulator of insulin signaling in primary hepatocytes and
+RT   liver.";
+RL   Zool. Sci. 22:169-175(2005).
+RN   [36]
+RP   FUNCTION, AND FORMATION OF A HYBRID RECEPTOR WITH IGF1R.
+RX   PubMed=16831875; DOI=10.1074/jbc.M605189200;
+RA   Slaaby R., Schaeffer L., Lautrup-Larsen I., Andersen A.S., Shaw A.C.,
+RA   Mathiasen I.S., Brandt J.;
+RT   "Hybrid receptors formed by insulin receptor (IR) and insulin-like
+RT   growth factor I receptor (IGF-IR) have low insulin and high IGF-1
+RT   affinity irrespective of the IR splice variant.";
+RL   J. Biol. Chem. 281:25869-25874(2006).
+RN   [37]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-1185; TYR-1189 AND
+RP   TYR-1190, AND MASS SPECTROMETRY.
+RC   TISSUE=Lung carcinoma;
+RX   PubMed=18083107; DOI=10.1016/j.cell.2007.11.025;
+RA   Rikova K., Guo A., Zeng Q., Possemato A., Yu J., Haack H., Nardone J.,
+RA   Lee K., Reeves C., Li Y., Hu Y., Tan Z., Stokes M., Sullivan L.,
+RA   Mitchell J., Wetzel R., Macneill J., Ren J.M., Yuan J.,
+RA   Bakalarski C.E., Villen J., Kornhauser J.M., Smith B., Li D., Zhou X.,
+RA   Gygi S.P., Gu T.-L., Polakiewicz R.D., Rush J., Comb M.J.;
+RT   "Global survey of phosphotyrosine signaling identifies oncogenic
+RT   kinases in lung cancer.";
+RL   Cell 131:1190-1203(2007).
+RN   [38]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-1189, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Mammary epithelium;
+RX   PubMed=17389395; DOI=10.1073/pnas.0608638104;
+RA   Wolf-Yadlin A., Hautaniemi S., Lauffenburger D.A., White F.M.;
+RT   "Multiple reaction monitoring for robust quantitative proteomic
+RT   analysis of cellular signaling networks.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 104:5860-5865(2007).
+RN   [39]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-1354, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [40]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-400; TYR-401 AND
+RP   SER-407, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [41]
+RP   GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-242 AND ASN-541, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Liver;
+RX   PubMed=19159218; DOI=10.1021/pr8008012;
+RA   Chen R., Jiang X., Sun D., Han G., Wang F., Ye M., Wang L., Zou H.;
+RT   "Glycoproteomics analysis of human liver tissue by combination of
+RT   multiple enzyme digestion and hydrazide chemistry.";
+RL   J. Proteome Res. 8:651-661(2009).
+RN   [42]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-1064; SER-1348 AND
+RP   SER-1379, AND MASS SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [43]
+RP   GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-445 AND ASN-920, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=19349973; DOI=10.1038/nbt.1532;
+RA   Wollscheid B., Bausch-Fluck D., Henderson C., O'Brien R., Bibel M.,
+RA   Schiess R., Aebersold R., Watts J.D.;
+RT   "Mass-spectrometric identification and relative quantification of N-
+RT   linked cell surface glycoproteins.";
+RL   Nat. Biotechnol. 27:378-386(2009).
+RN   [44]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT LYS-1112, AND MASS SPECTROMETRY.
+RX   PubMed=19608861; DOI=10.1126/science.1175371;
+RA   Choudhary C., Kumar C., Gnad F., Nielsen M.L., Rehman M., Walther T.,
+RA   Olsen J.V., Mann M.;
+RT   "Lysine acetylation targets protein complexes and co-regulates major
+RT   cellular functions.";
+RL   Science 325:834-840(2009).
+RN   [45]
+RP   X-RAY CRYSTALLOGRAPHY (2.1 ANGSTROMS) OF 1005-1310.
+RX   MEDLINE=95089813; PubMed=7997262; DOI=10.1038/372746a0;
+RA   Hubbard S.R., Wei L., Ellis L., Hendrickson W.A.;
+RT   "Crystal structure of the tyrosine kinase domain of the human insulin
+RT   receptor.";
+RL   Nature 372:746-754(1994).
+RN   [46]
+RP   X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS) OF 1005-1310.
+RX   MEDLINE=97459943; PubMed=9312016; DOI=10.1093/emboj/16.18.5572;
+RA   Hubbard S.R.;
+RT   "Crystal structure of the activated insulin receptor tyrosine kinase
+RT   in complex with peptide substrate and ATP analog.";
+RL   EMBO J. 16:5572-5581(1997).
+RN   [47]
+RP   X-RAY CRYSTALLOGRAPHY (2.3 ANGSTROMS) OF 1005-1310 IN COMPLEX WITH
+RP   SH2B2.
+RX   PubMed=14690593; DOI=10.1016/S1097-2765(03)00487-8;
+RA   Hu J., Liu J., Ghirlando R., Saltiel A.R., Hubbard S.R.;
+RT   "Structural basis for recruitment of the adaptor protein APS to the
+RT   activated insulin receptor.";
+RL   Mol. Cell 12:1379-1389(2003).
+RN   [48]
+RP   VARIANT IRAN TYPE A SER-762.
+RX   MEDLINE=88204915; PubMed=3283938; DOI=10.1126/science.3283938;
+RA   Yoshimasa Y., Seino S., Whittaker J., Kakehi T., Kosaki A., Kuzuya H.,
+RA   Imura H., Bell G.I., Steiner D.F.;
+RT   "Insulin-resistant diabetes due to a point mutation that prevents
+RT   insulin proreceptor processing.";
+RL   Science 240:784-787(1988).
+RN   [49]
+RP   VARIANT LEPRECHAUNISM GLU-487.
+RX   MEDLINE=88204916; PubMed=2834824; DOI=10.1126/science.2834824;
+RA   Kadowaki T., Bevins C., Cama A., Ojamaa K., Marcus-Samuels B.,
+RA   Kadowaki H., Beitz L., McKeon C., Taylor S.I.;
+RT   "Two mutant alleles of the insulin receptor gene in a patient with
+RT   extreme insulin resistance.";
+RL   Science 240:787-790(1988).
+RN   [50]
+RP   VARIANT LEPRECHAUNISM PRO-260.
+RX   MEDLINE=90060008; PubMed=2479553;
+RA   Klinkhamer M.P., Groen N.A., van der Zon G.C.M., Lindhout D.,
+RA   Sandkuyl L.A., Krans H.M.J., Moeller W., Maassen J.A.;
+RT   "A leucine-to-proline mutation in the insulin receptor in a family
+RT   with insulin resistance.";
+RL   EMBO J. 8:2503-2507(1989).
+RN   [51]
+RP   VARIANT IRAN TYPE A VAL-1035.
+RX   MEDLINE=89298409; PubMed=2544998; DOI=10.1126/science.2544998;
+RA   Odawara M., Kadowaki T., Yamamoto R., Shibasaki Y., Tobe K.,
+RA   Accili D., Bevins C., Mikami Y., Matsuura N., Akanuma Y., Takaku F.,
+RA   Taylor S.I., Kasuga M.;
+RT   "Human diabetes associated with a mutation in the tyrosine kinase
+RT   domain of the insulin receptor.";
+RL   Science 245:66-68(1989).
+RN   [52]
+RP   VARIANT IRAN TYPE A THR-1161.
+RX   MEDLINE=90368673; PubMed=2168397;
+RA   Moller D.E., Yokota A., White M.F., Pazianos A.G., Flier J.S.;
+RT   "A naturally occurring mutation of insulin receptor alanine 1134
+RT   impairs tyrosine kinase function and is associated with dominantly
+RT   inherited insulin resistance.";
+RL   J. Biol. Chem. 265:14979-14985(1990).
+RN   [53]
+RP   CHARACTERIZATION OF VARIANT RMS LYS-42.
+RX   MEDLINE=91035445; PubMed=2121734;
+RA   Kadowaki T., Kadowaki H., Accili D., Taylor S.I.;
+RT   "Substitution of lysine for asparagine at position 15 in the alpha-
+RT   subunit of the human insulin receptor. A mutation that impairs
+RT   transport of receptors to the cell surface and decreases the affinity
+RT   of insulin binding.";
+RL   J. Biol. Chem. 265:19143-19150(1990).
+RN   [54]
+RP   VARIANT RMS LYS-42, VARIANT LEPRECHAUNISM ARG-236, AND VARIANT IRAN
+RP   TYPE A SER-489.
+RX   MEDLINE=90307970; PubMed=2365819; DOI=10.1172/JCI114693;
+RA   Kadowaki T., Kadowaki H., Rechler M.M., Serrano-Rios M., Roth J.,
+RA   Gorden P., Taylor S.I.;
+RT   "Five mutant alleles of the insulin receptor gene in patients with
+RT   genetic forms of insulin resistance.";
+RL   J. Clin. Invest. 86:254-264(1990).
+RN   [55]
+RP   VARIANT IRAN TYPE A SER-1227.
+RX   MEDLINE=91155951; PubMed=1963473;
+RA   Moller D.E., Yokota A., Ginsberg-Fellner F., Flier J.S.;
+RT   "Functional properties of a naturally occurring Trp1200-->Ser1200
+RT   mutation of the insulin receptor.";
+RL   Mol. Endocrinol. 4:1183-1191(1990).
+RN   [56]
+RP   VARIANT GLU-1095.
+RX   MEDLINE=91250037; PubMed=2040394;
+RA   O'Rahilly S., Choi W.H., Patel P., Turner R.C., Flier J.S.,
+RA   Moller D.E.;
+RT   "Detection of mutations in insulin-receptor gene in NIDDM patients by
+RT   analysis of single-stranded conformation polymorphisms.";
+RL   Diabetes 40:777-782(1991).
+RN   [57]
+RP   VARIANT IRAN TYPE A GLN-1020.
+RX   MEDLINE=91161622; PubMed=2002058;
+RA   Kusari J., Takata Y., Hatada E., Freidenberg G., Kolterman O.,
+RA   Olefsky J.M.;
+RT   "Insulin resistance and diabetes due to different mutations in the
+RT   tyrosine kinase domain of both insulin receptor gene alleles.";
+RL   J. Biol. Chem. 266:5260-5267(1991).
+RN   [58]
+RP   VARIANT INS RESISTANCE ILE-1180.
+RX   MEDLINE=91365848; PubMed=1890161;
+RA   Cama A., de la Luz Sierra M., Ottini L., Kadowaki T., Gorden P.,
+RA   Imperato-Mcginley J., Taylor S.I.;
+RT   "A mutation in the tyrosine kinase domain of the insulin receptor
+RT   associated with insulin resistance in an obese woman.";
+RL   J. Clin. Endocrinol. Metab. 73:894-901(1991).
+RN   [59]
+RP   VARIANTS LEPRECHAUNISM ALA-55 AND ARG-393.
+RX   MEDLINE=92299170; PubMed=1607067;
+RA   Barbetti F., Gejman P.V., Taylor S.I., Raben N., Cama A., Bonora E.,
+RA   Pizzo P., Moghetti P., Muggeo M., Roth J.;
+RT   "Detection of mutations in insulin receptor gene by denaturing
+RT   gradient gel electrophoresis.";
+RL   Diabetes 41:408-415(1992).
+RN   [60]
+RP   VARIANT NIDDM GLN-1191.
+RX   MEDLINE=92299185; PubMed=1607076;
+RA   Cocozza S., Porcellini A., Riccardi G., Monticelli A., Condorelli G.,
+RA   Ferrara A., Pianese L., Miele C., Capaldo B., Beguinot F., Varrone S.;
+RT   "NIDDM associated with mutation in tyrosine kinase domain of insulin
+RT   receptor gene.";
+RL   Diabetes 41:521-526(1992).
+RN   [61]
+RP   VARIANT INS RESISTANCE LEU-1205.
+RX   MEDLINE=92225265; PubMed=1563582; DOI=10.1007/BF00400927;
+RA   Kim H., Kadowaki H., Sakura H., Odawara M., Momomura K., Takahashi Y.,
+RA   Miyazaki Y., Ohtani T., Akanuma Y., Yazaki Y., Kasuga M., Taylor S.I.,
+RA   Kadowaki T.;
+RT   "Detection of mutations in the insulin receptor gene in patients with
+RT   insulin resistance by analysis of single-stranded conformational
+RT   polymorphisms.";
+RL   Diabetologia 35:261-266(1992).
+RN   [62]
+RP   VARIANT LEPRECHAUNISM ARG-58.
+RX   MEDLINE=92112725; PubMed=1730625;
+RA   van der Vorm E.R., van der Zon G.C.M., Moeller W., Krans H.M.J.,
+RA   Lindhout D., Maassen J.A.;
+RT   "An Arg for Gly substitution at position 31 in the insulin receptor,
+RT   linked to insulin resistance, inhibits receptor processing and
+RT   transport.";
+RL   J. Biol. Chem. 267:66-71(1992).
+RN   [63]
+RP   VARIANT INS RESISTANCE GLN-1158.
+RX   MEDLINE=93109267; PubMed=1470163;
+RA   Kasuga M., Kishimoto M., Hashiramoto M., Yonezawa K., Kazumi T.,
+RA   Hagino H., Shii K.;
+RT   "Insulin receptor Arg1131-->Gln: a novel mutation in the catalytic
+RT   loop of insulin receptor observed in insulin resistant diabetes.";
+RL   Nihon Geka Gakkai Zasshi 93:968-971(1992).
+RN   [64]
+RP   VARIANT MET-1012.
+RX   MEDLINE=93162359; PubMed=8432414;
+RA   Elbein S.C., Sorensen L.K., Schumacher M.C.;
+RT   "Methionine for valine substitution in exon 17 of the insulin receptor
+RT   gene in a pedigree with familial NIDDM.";
+RL   Diabetes 42:429-434(1993).
+RN   [65]
+RP   VARIANT INS RESISTANCE ASP-1075.
+RX   MEDLINE=94063262; PubMed=8243830;
+RA   Haruta T., Takata Y., Iwanishi M., Maegawa H., Imamura T., Egawa K.,
+RA   Itazu T., Kobayashi M.;
+RT   "Ala1048-->Asp mutation in the kinase domain of insulin receptor
+RT   causes defective kinase activity and insulin resistance.";
+RL   Diabetes 42:1837-1844(1993).
+RN   [66]
+RP   VARIANT MET-1012.
+RX   MEDLINE=93209491; PubMed=8458533; DOI=10.1007/BF00400701;
+RA   van der Vorm E.R., Kuipers A., Bonenkamp J.W., Kleijer W.J.,
+RA   van Maldergem L., Herwig J., Maassen J.A.;
+RT   "Patients with lipodystrophic diabetes mellitus of the Seip-
+RT   Berardinelli type, express normal insulin receptors.";
+RL   Diabetologia 36:172-174(1993).
+RN   [67]
+RP   VARIANT INS RESISTANCE LEU-1220.
+RX   MEDLINE=93300291; PubMed=8390949; DOI=10.1007/BF00402277;
+RA   Iwanishi M., Haruta T., Takata Y., Ishibashi O., Sasaoka T., Egawa K.,
+RA   Imamura T., Naitou K., Itazu T., Kobayashi M.;
+RT   "A mutation (Trp1193-->Leu1193) in the tyrosine kinase domain of the
+RT   insulin receptor associated with type A syndrome of insulin
+RT   resistance.";
+RL   Diabetologia 36:414-422(1993).
+RN   [68]
+RP   VARIANT INS RESISTANCE LEU-220.
+RX   MEDLINE=94061041; PubMed=8242067; DOI=10.1093/hmg/2.9.1437;
+RA   Carrera P., Cordera R., Ferrari M., Cremonesi L., Taramelli R.,
+RA   Andraghetti G., Carducci C., Dozio N., Pozza G., Taylor S.I.,
+RA   Micossi P., Barbetti F.;
+RT   "Substitution of Leu for Pro-193 in the insulin receptor in a patient
+RT   with a genetic form of severe insulin resistance.";
+RL   Hum. Mol. Genet. 2:1437-1441(1993).
+RN   [69]
+RP   CHARACTERIZATION OF VARIANT IRAN TYPE A GLU-1162.
+RX   MEDLINE=93216782; PubMed=8096518;
+RA   Cama A., de la Luz Sierra M., Quon M.J., Ottini L., Gorden P.,
+RA   Taylor S.I.;
+RT   "Substitution of glutamic acid for alanine 1135 in the putative
+RT   'catalytic loop' of the tyrosine kinase domain of the human insulin
+RT   receptor. A mutation that impairs proteolytic processing into subunits
+RT   and inhibits receptor tyrosine kinase activity.";
+RL   J. Biol. Chem. 268:8060-8069(1993).
+RN   [70]
+RP   VARIANT INS RESISTANCE VAL-409.
+RX   MEDLINE=93266582; PubMed=8388389;
+RA   Lebrun C., Baron V., Kaliman P., Gautier N., Dolais-Kitabgi J.,
+RA   Taylor S.I., Accili D., van Obberghen E.;
+RT   "Antibodies to the extracellular receptor domain restore the hormone-
+RT   insensitive kinase and conformation of the mutant insulin receptor
+RT   valine 382.";
+RL   J. Biol. Chem. 268:11272-11277(1993).
+RN   [71]
+RP   VARIANT LEPRECHAUNISM MET-146.
+RX   MEDLINE=93316277; PubMed=8326490;
+RA   Al-Gazali L.I., Khalil M., Devadas K.;
+RT   "A syndrome of insulin resistance resembling leprechaunism in five
+RT   sibs of consanguineous parents.";
+RL   J. Med. Genet. 30:470-475(1993).
+RN   [72]
+RP   VARIANT LEPRECHAUNISM PRO-113.
+RX   MEDLINE=93126382; PubMed=8419945; DOI=10.1073/pnas.90.1.60;
+RA   Longo N., Langley S.D., Griffin L.D., Elsas L.J.;
+RT   "Activation of glucose transport by a natural mutation in the human
+RT   insulin receptor.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 90:60-64(1993).
+RN   [73]
+RP   VARIANT IRAN TYPE A GLN-1201.
+RX   MEDLINE=94116755; PubMed=8288049;
+RA   Moller D.E., Cohen O., Yamaguchi Y., Assiz R., Grigorescu F.,
+RA   Eberle A., Morrow L.A., Moses A.C., Flier J.S.;
+RT   "Prevalence of mutations in the insulin receptor gene in subjects with
+RT   features of the type A syndrome of insulin resistance.";
+RL   Diabetes 43:247-255(1994).
+RN   [74]
+RP   VARIANT RMS SYNDROME LEU-350, VARIANTS INS RESISTANCE LEU-1205 AND
+RP   GLN-1378, AND VARIANT MET-1012.
+RX   MEDLINE=94148142; PubMed=8314008;
+RA   Krook A., Kumar S., Laing I., Boulton A.J., Wass J.A., O'Rahilly S.;
+RT   "Molecular scanning of the insulin receptor gene in syndromes of
+RT   insulin resistance.";
+RL   Diabetes 43:357-368(1994).
+RN   [75]
+RP   CHARACTERIZATION OF VARIANT IRAN TYPE A GLN-1201.
+RX   MEDLINE=94364485; PubMed=8082780; DOI=10.1016/0014-5793(94)00876-0;
+RA   Moritz W., Froesch E.R., Boeni-Schnetzler M.;
+RT   "Functional properties of a heterozygous mutation (Arg1174-->Gln) in
+RT   the tyrosine kinase domain of the insulin receptor from a type A
+RT   insulin resistant patient.";
+RL   FEBS Lett. 351:276-280(1994).
+RN   [76]
+RP   VARIANT LEPRECHAUNISM SER-439.
+RX   MEDLINE=94245758; PubMed=8188715;
+RA   van der Vorm E.R., Kuipers A., Kielkopf-Renner S., Krans H.M.J.,
+RA   Moller W., Maassen J.A.;
+RT   "A mutation in the insulin receptor that impairs proreceptor
+RT   processing but not insulin binding.";
+RL   J. Biol. Chem. 269:14297-14302(1994).
+RN   [77]
+RP   CHARACTERIZATION OF VARIANTS INS RESISTANCE ASP-1206 AND LEU-1220.
+RX   MEDLINE=95074138; PubMed=7983039;
+RA   Imamura T., Takata Y., Sasaoka T., Takada Y., Morioka H., Haruta T.,
+RA   Sawa T., Iwanishi M., Hu Y.G., Suzuki Y., Hamada J., Kobayashi M.;
+RT   "Two naturally occurring mutations in the kinase domain of insulin
+RT   receptor accelerate degradation of the insulin receptor and impair the
+RT   kinase activity.";
+RL   J. Biol. Chem. 269:31019-31027(1994).
+RN   [78]
+RP   VARIANT LEPRECHAUNISM MET-146.
+RX   MEDLINE=95115010; PubMed=7815442;
+RA   Hone J., Accili D., al-Gazali L.I., Lestringant G., Orban T.,
+RA   Taylor S.I.;
+RT   "Homozygosity for a new mutation (Ile119-->Met) in the insulin
+RT   receptor gene in five sibs with familial insulin resistance.";
+RL   J. Med. Genet. 31:715-716(1994).
+RN   [79]
+RP   VARIANT NIDDM ALA-858, AND VARIANT CYS-1361.
+RX   MEDLINE=95385853; PubMed=7657032;
+RA   Kan M., Kanai F., Iida M., Jinnouchi H., Todaka M., Imanaka T.,
+RA   Ito K., Nishioka Y., Ohnishi T., Kamohara S., Hayashi H., Murakami T.,
+RA   Kagawa S., Sano H., Hashimoto N., Yoshida S., Makino H., Ebina Y.;
+RT   "Frequency of mutations of insulin receptor gene in Japanese patients
+RT   with NIDDM.";
+RL   Diabetes 44:1081-1086(1995).
+RN   [80]
+RP   VARIANT LEPRECHAUNISM ASN-308 DEL.
+RX   MEDLINE=95263703; PubMed=7538143; DOI=10.1210/jc.80.5.1496;
+RA   Longo N., Langley S.D., Griffin L.D., Elsas L.J.;
+RT   "Two mutations in the insulin receptor gene of a patient with
+RT   leprechaunism: application to prenatal diagnosis.";
+RL   J. Clin. Endocrinol. Metab. 80:1496-1501(1995).
+RN   [81]
+RP   VARIANT PHE-1023.
+RX   MEDLINE=97045807; PubMed=8890729;
+RA   Moritz W., Boeni-Schnetzler M., Stevens W., Froesch E.R., Levy J.R.;
+RT   "In-frame exon 2 deletion in insulin receptor RNA in a family with
+RT   extreme insulin resistance in association with defective insulin
+RT   binding: a case report.";
+RL   Eur. J. Endocrinol. 135:357-363(1996).
+RN   [82]
+RP   VARIANT LEPRECHAUNISM ASN-308 DEL.
+RX   MEDLINE=96225546; PubMed=8636294; DOI=10.1210/jc.81.2.719;
+RA   Desbois-Mouthon C., Sert-Langeron C., Magre J., Oreal E., Blivet M.J.,
+RA   Flori E., Besmond C., Capeau J., Caron M.;
+RT   "Deletion of Asn281 in the alpha-subunit of the human insulin receptor
+RT   causes constitutive activation of the receptor and insulin
+RT   desensitization.";
+RL   J. Clin. Endocrinol. Metab. 81:719-727(1996).
+RN   [83]
+RP   VARIANT MET-1012.
+RX   MEDLINE=97342928; PubMed=9199575;
+RA   Hansen L., Hansen T., Clausen J.O., Echwald S.M., Urhammer S.A.,
+RA   Rasmussen S.K., Pedersen O.;
+RT   "The Val985Met insulin-receptor variant in the Danish Caucasian
+RT   population: lack of associations with non-insulin-dependent diabetes
+RT   mellitus or insulin resistance.";
+RL   Am. J. Hum. Genet. 60:1532-1535(1997).
+RN   [84]
+RP   VARIANTS INS RESISTANCE GLY-86 AND PRO-89.
+RX   MEDLINE=97318853; PubMed=9175790; DOI=10.1006/bbrc.1997.6695;
+RA   Rouard M., Macari F., Bouix O., Lautier C., Brun J.F., Lefebvre P.,
+RA   Renard E., Bringer J., Jaffiol C., Grigorescu F.;
+RT   "Identification of two novel insulin receptor mutations, Asp59Gly and
+RT   Leu62Pro, in type A syndrome of extreme insulin resistance.";
+RL   Biochem. Biophys. Res. Commun. 234:764-768(1997).
+RN   [85]
+RP   CHARACTERIZATION OF VARIANT LEPRECHAUNISM MET-937.
+RX   MEDLINE=97445067; PubMed=9299395; DOI=10.1006/bbrc.1997.7181;
+RA   Kadowaki H., Takahashi Y., Ando A., Momomura K., Kaburagi Y.,
+RA   Quin J.D., MacCuish A.C., Koda N., Fukushima Y., Taylor S.I.,
+RA   Akanuma Y., Yazaki Y., Kadowaki T.;
+RT   "Four mutant alleles of the insulin receptor gene associated with
+RT   genetic syndromes of extreme insulin resistance.";
+RL   Biochem. Biophys. Res. Commun. 237:516-520(1997).
+RN   [86]
+RP   VARIANTS LEPRECHAUNISM TRP-1119 AND LYS-1206.
+RX   MEDLINE=97393350; PubMed=9249867;
+RX   DOI=10.1002/(SICI)1097-0223(199707)17:7<657::AID-PD132>3.3.CO;2-#;
+RA   Desbois-Mouthon C., Girodon E., Ghanem N., Caron M., Pennerath A.,
+RA   Conteville P., Magre J., Besmond C., Goossens M., Capeau J.,
+RA   Amselem S.;
+RT   "Molecular analysis of the insulin receptor gene for prenatal
+RT   diagnosis of leprechaunism in two families.";
+RL   Prenat. Diagn. 17:657-663(1997).
+RN   [87]
+RP   VARIANTS LEPRECHAUNISM TYR-301 AND TRP-1201.
+RX   MEDLINE=98366902; PubMed=9703342;
+RA   Whitehead J.P., Soos M.A., Jackson R., Tasic V., Kocova M.,
+RA   O'Rahilly S.;
+RT   "Multiple molecular mechanisms of insulin receptor dysfunction in a
+RT   patient with Donohue syndrome.";
+RL   Diabetes 47:1362-1364(1998).
+RN   [88]
+RP   VARIANTS RMS THR-1143 AND TRP-1158.
+RX   MEDLINE=99371250; PubMed=10443650; DOI=10.1210/jc.84.8.2623;
+RA   Longo N., Wang Y., Pasquali M.;
+RT   "Progressive decline in insulin levels in Rabson-Mendenhall
+RT   syndrome.";
+RL   J. Clin. Endocrinol. Metab. 84:2623-2629(1999).
+RN   [89]
+RP   VARIANTS INS RESISTANCE LEU-167 AND VAL-1055.
+RX   MEDLINE=20195376; PubMed=10733238;
+RX   DOI=10.1034/j.1399-0004.2000.570110.x;
+RA   Rique S., Nogues C., Ibanez L., Marcos M.V., Ferragut J.,
+RA   Carrascosa A., Potau N.;
+RT   "Identification of three novel mutations in the insulin receptor gene
+RT   in type A insulin resistant patients.";
+RL   Clin. Genet. 57:67-69(2000).
+RN   [90]
+RP   VARIANT INS RESISTANCE TYR-280.
+RX   MEDLINE=21159654; PubMed=11260230;
+RX   DOI=10.1034/j.1399-0004.2001.590309.x;
+RA   Osawa H., Nishimiya T., Ochi M., Niiya T., Onuma H., Kitamuro F.,
+RA   Kaino Y., Kida K., Makino H.;
+RT   "Identification of novel C253Y missense and Y864X nonsense mutations
+RT   in the insulin receptor gene in type A insulin-resistant patients.";
+RL   Clin. Genet. 59:194-197(2001).
+RN   [91]
+RP   VARIANT INS RESISTANCE CYS-279.
+RX   MEDLINE=22102292; PubMed=12107746; DOI=10.1007/s00125-002-0798-5;
+RA   Hamer I., Foti M., Emkey R., Cordier-Bussat M., Philippe J.,
+RA   De Meyts P., Maeder C., Kahn C.R., Carpentier J.-L.;
+RT   "An arginine to cysteine(252) mutation in insulin receptors from a
+RT   patient with severe insulin resistance inhibits receptor
+RT   internalisation but preserves signalling events.";
+RL   Diabetologia 45:657-667(2002).
+RN   [92]
+RP   CHARACTERIZATION OF VARIANTS LEPRECHAUNISM PRO-113; VAL-119; ASN-308
+RP   DEL; THR-925 AND TRP-926, AND VARIANTS RMS THR-997; THR-1143; TRP-1158
+RP   AND TRP-1201.
+RX   MEDLINE=22021354; PubMed=12023989; DOI=10.1093/hmg/11.12.1465;
+RA   Longo N., Wang Y., Smith S.A., Langley S.D., DiMeglio L.A.,
+RA   Giannella-Neto D.;
+RT   "Genotype-phenotype correlation in inherited severe insulin
+RT   resistance.";
+RL   Hum. Mol. Genet. 11:1465-1475(2002).
+RN   [93]
+RP   VARIANT LEPRECHAUNISM VAL-362 DEL.
+RX   MEDLINE=22426011; PubMed=12538626; DOI=10.1210/en.2002-220815;
+RA   George S., Johansen A., Soos M.A., Mortensen H., Gammeltoft S.,
+RA   Saudek V., Siddle K., Hansen L., O'Rahilly S.;
+RT   "Deletion of V335 from the L2 domain of the insulin receptor results
+RT   in a conformationally abnormal receptor that is unable to bind insulin
+RT   and causes Donohue's syndrome in a human subject.";
+RL   Endocrinology 144:631-637(2003).
+RN   [94]
+RP   VARIANT IRAN TYPE A HIS-279, VARIANTS LEPRECHAUNISM GLN-120; LEU-350;
+RP   ASP-458 AND TRP-1119, CHARACTERIZATION OF VARIANT IRAN TYPE A HIS-279,
+RP   AND CHARACTERIZATION OF VARIANTS LEPRECHAUNISM GLN-120 AND ASP-458.
+RX   PubMed=12970295; DOI=10.1210/jc.2003-030034;
+RA   Maassen J.A., Tobias E.S., Kayserilli H., Tukel T., Yuksel-Apak M.,
+RA   D'Haens E., Kleijer W.J., Fery F., van der Zon G.C.M.;
+RT   "Identification and functional assessment of novel and known insulin
+RT   receptor mutations in five patients with syndromes of severe insulin
+RT   resistance.";
+RL   J. Clin. Endocrinol. Metab. 88:4251-4257(2003).
+RN   [95]
+RP   VARIANT HHF5 GLN-1201.
+RX   PubMed=15161766;
+RA   Hoejlund K., Hansen T., Lajer M., Henriksen J.E., Levin K.,
+RA   Lindholm J., Pedersen O., Bech-Nielsen H.;
+RT   "A novel syndrome of autosomal-dominant hyperinsulinemic hypoglycemia
+RT   linked to a mutation in the human insulin receptor gene.";
+RL   Diabetes 53:1592-1598(2004).
+RN   [96]
+RP   VARIANTS RMS ARG-236 AND SER-386, AND CHARACTERIZATION OF VARIANTS RMS
+RP   ARG-236 AND SER-386.
+RX   PubMed=17201797; DOI=10.1111/j.1365-2265.2006.02678.x;
+RA   Tuthill A., Semple R.K., Day R., Soos M.A., Sweeney E., Seymour P.J.,
+RA   Didi M., O'Rahilly S.;
+RT   "Functional characterization of a novel insulin receptor mutation
+RT   contributing to Rabson-Mendenhall syndrome.";
+RL   Clin. Endocrinol. (Oxf.) 66:21-26(2007).
+RN   [97]
+RP   VARIANTS [LARGE SCALE ANALYSIS] ARG-228; ARG-695; SER-811; MET-1012;
+RP   VAL-1065 AND ALA-1282.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: This receptor binds insulin and has a tyrosine-protein
+CC       kinase activity. Isoform Short has a higher affinity for insulin.
+CC       Mediates the metabolic functions of insulin. Binding to insulin
+CC       stimulates association of the receptor with downstream mediators
+CC       including IRS1 and phosphatidylinositol 3'-kinase (PI3K). Can
+CC       activate PI3K either directly by binding to the p85 regulatory
+CC       subunit, or indirectly via IRS1. When present in a hybrid receptor
+CC       with IGF1R, binds IGF1. PubMed:12138094 shows that hybrid
+CC       receptors composed of IGF1R and INSR isoform Long are activated
+CC       with a high affinity by IGF1, with low affinity by IGF2 and not
+CC       significantly activated by insulin, and that hybrid receptors
+CC       composed of IGF1R and INSR isoform Short are activated by IGF1,
+CC       IGF2 and insulin. In contrast, PubMed:16831875 shows that hybrid
+CC       receptors composed of IGF1R and INSR isoform Long and hybrid
+CC       receptors composed of IGF1R and INSR isoform Short have similar
+CC       binding characteristics, both bind IGF1 and have a low affinity
+CC       for insulin.
+CC   -!- CATALYTIC ACTIVITY: ATP + a [protein]-L-tyrosine = ADP + a
+CC       [protein]-L-tyrosine phosphate.
+CC   -!- COFACTOR: Manganese.
+CC   -!- ENZYME REGULATION: Autophosphorylation activates the kinase
+CC       activity.
+CC   -!- SUBUNIT: Tetramer of 2 alpha and 2 beta chains linked by disulfide
+CC       bonds. The alpha chains contribute to the formation of the ligand-
+CC       binding domain, while the beta chains carry the kinase domain.
+CC       Interacts with SORBS1 but dissociates from it following insulin
+CC       stimulation. Binds SH2B2. Interacts with the PTB/PID domains of
+CC       IRS1 and SHC1 in vitro when autophosphorylated on tyrosine
+CC       residues. The sequences surrounding the phosphorylated NPXY motif
+CC       contribute differentially to either IRS1 or SHC1 recognition.
+CC       Interacts with the SH2 domains of the 85 kDa regulatory subunit of
+CC       PI3K (PIK3R1) in vitro, when autophosphorylated on tyrosine
+CC       residues. Interacts with SOCS7. Forms a hybrid receptor with
+CC       IGF1R, the hybrid is a tetramer consisting of 1 alpha chain and 1
+CC       beta chain of INSR and 1 alpha chain and 1 beta chain of IGF1R.
+CC       Interacts with CAV2 (tyrosine-phosphorylated form); the
+CC       interaction is increased with 'Tyr-27'phosphorylation of CAV2.
+CC       Interacts with ARRB2 (By similarity). Interacts with GRB10; this
+CC       interaction blocks the association between IRS1/IRS2 and INSR,
+CC       significantly reduces insulin-stimulated tyrosine phosphorylation
+CC       of IRS1 and IRS2 and thus decreases insulin signaling.
+CC   -!- INTERACTION:
+CC       P18031:PTPN1; NbExp=1; IntAct=EBI-475899, EBI-968788;
+CC       Q05209:PTPN12; NbExp=1; IntAct=EBI-475899, EBI-2266035;
+CC       P23467:PTPRB; NbExp=1; IntAct=EBI-475899, EBI-1265766;
+CC       P08575:PTPRC; NbExp=1; IntAct=EBI-475899, EBI-1341;
+CC       P23470:PTPRG; NbExp=1; IntAct=EBI-475899, EBI-2258115;
+CC       Q12913:PTPRJ; NbExp=1; IntAct=EBI-475899, EBI-2264500;
+CC       Q15262:PTPRK; NbExp=1; IntAct=EBI-475899, EBI-474052;
+CC       Q16827:PTPRO; NbExp=1; IntAct=EBI-475899, EBI-723739;
+CC       Q9BX66:SORBS1; NbExp=1; IntAct=EBI-475899, EBI-433642;
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type I membrane
+CC       protein.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=Long; Synonyms=HIR-B;
+CC         IsoId=P06213-1; Sequence=Displayed;
+CC       Name=Short; Synonyms=HIR-A;
+CC         IsoId=P06213-2; Sequence=VSP_002898;
+CC   -!- TISSUE SPECIFICITY: Found as a hybrid receptor with IGF1R in
+CC       muscle, heart, kidney, adipose tissue, skeletal muscle, hepatoma,
+CC       fibroblasts, spleen and placenta (at protein level). Isoform Long
+CC       and isoform Short are expressed in the peripheral nerve, kidney,
+CC       liver, striated muscle, fibroblasts and skin. Isoform Short is
+CC       expressed also in the spleen and lymphoblasts.
+CC   -!- PTM: After being transported from the endoplasmic reticulum to the
+CC       Golgi apparatus, the single glycosylated precursor is further
+CC       glycosylated and then cleaved, followed by its transport to the
+CC       plasma membrane.
+CC   -!- PTM: Autophosphorylated on tyrosine residues in response to
+CC       insulin.
+CC   -!- PTM: Phosphorylation of Tyr-999 is required for IRS1- and SHC1-
+CC       binding.
+CC   -!- PTM: Dephosphorylated by PTPRE on Tyr-999, Tyr-1185, Tyr-1189 and
+CC       Tyr-1190 residues.
+CC   -!- DISEASE: Defects in INSR are the cause of insulin resistance (Ins
+CC       resistance) [MIM:125853].
+CC   -!- DISEASE: Defects in INSR are the cause of Rabson-Mendenhall
+CC       syndrome (RMS) [MIM:262190]; also known as Mendenhall syndrome.
+CC       RMS is a severe insulin resistance syndrome characterized by
+CC       insulin-resistant diabetes mellitus with pineal hyperplasia and
+CC       somatic abnormalities. Typical features include coarse, senile-
+CC       appearing facies, dental and skin abnormalities, abdominal
+CC       distension, and phallic enlargement. Inheritance is autosomal
+CC       recessive.
+CC   -!- DISEASE: Defects in INSR are the cause of leprechaunism
+CC       [MIM:246200]; also known as Donohue syndrome. Leprechaunism
+CC       represents the most severe form of insulin resistance syndrome,
+CC       characterized by intrauterine and postnatal growth retardation and
+CC       death in early infancy. Inheritance is autosomal recessive.
+CC   -!- DISEASE: Defects in INSR may be associated with noninsulin-
+CC       dependent diabetes mellitus (NIDDM) [MIM:125853]; also known as
+CC       diabetes mellitus type 2.
+CC   -!- DISEASE: Defects in INSR are the cause of familial
+CC       hyperinsulinemic hypoglycemia type 5 (HHF5) [MIM:609968]. Familial
+CC       hyperinsulinemic hypoglycemia [MIM:256450], also referred to as
+CC       congenital hyperinsulinism, nesidioblastosis, or persistent
+CC       hyperinsulinemic hypoglycemia of infancy (PPHI), is the most
+CC       common cause of persistent hypoglycemia in infancy and is due to
+CC       defective negative feedback regulation of insulin secretion by low
+CC       glucose levels.
+CC   -!- DISEASE: Defects in INSR are the cause of insulin-resistant
+CC       diabetes mellitus with acanthosis nigricans type A (IRAN type A)
+CC       [MIM:610549]. This syndrome is characterized by the association of
+CC       severe insulin resistance (manifested by marked hyperinsulinemia
+CC       and a failure to respond to exogenous insulin) with the skin
+CC       lesion acanthosis nigricans and ovarian hyperandrogenism in
+CC       adolescent female subjects. Women frequently present with
+CC       hirsutism, acne, amenorrhea or oligomenorrhea, and virilization.
+CC       This syndrome is different from the type B that has been
+CC       demonstrated to be secondary to the presence of circulating
+CC       autoantibodies against the insulin receptor.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Tyr protein
+CC       kinase family. Insulin receptor subfamily.
+CC   -!- SIMILARITY: Contains 3 fibronectin type-III domains.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- WEB RESOURCE: Name=Wikipedia; Note=Insulin receptor entry;
+CC       URL="http://en.wikipedia.org/wiki/Insulin_receptor";
+CC   -!- WEB RESOURCE: Name=GeneReviews;
+CC       URL="http://www.ncbi.nlm.nih.gov/sites/GeneTests/lab/gene/INSR";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M10051; AAA59174.1; -; mRNA.
+DR   EMBL; X02160; CAA26096.1; -; mRNA.
+DR   EMBL; M32972; AAA59452.1; -; Genomic_DNA.
+DR   EMBL; M23100; AAA59452.1; JOINED; Genomic_DNA.
+DR   EMBL; M32823; AAA59452.1; JOINED; Genomic_DNA.
+DR   EMBL; M32824; AAA59452.1; JOINED; Genomic_DNA.
+DR   EMBL; M32825; AAA59452.1; JOINED; Genomic_DNA.
+DR   EMBL; M32826; AAA59452.1; JOINED; Genomic_DNA.
+DR   EMBL; M32827; AAA59452.1; JOINED; Genomic_DNA.
+DR   EMBL; M32828; AAA59452.1; JOINED; Genomic_DNA.
+DR   EMBL; M32829; AAA59452.1; JOINED; Genomic_DNA.
+DR   EMBL; M32830; AAA59452.1; JOINED; Genomic_DNA.
+DR   EMBL; M32831; AAA59452.1; JOINED; Genomic_DNA.
+DR   EMBL; M32832; AAA59452.1; JOINED; Genomic_DNA.
+DR   EMBL; M32833; AAA59452.1; JOINED; Genomic_DNA.
+DR   EMBL; M32834; AAA59452.1; JOINED; Genomic_DNA.
+DR   EMBL; M32835; AAA59452.1; JOINED; Genomic_DNA.
+DR   EMBL; M32836; AAA59452.1; JOINED; Genomic_DNA.
+DR   EMBL; M32837; AAA59452.1; JOINED; Genomic_DNA.
+DR   EMBL; M32838; AAA59452.1; JOINED; Genomic_DNA.
+DR   EMBL; M32839; AAA59452.1; JOINED; Genomic_DNA.
+DR   EMBL; M32840; AAA59452.1; JOINED; Genomic_DNA.
+DR   EMBL; M32841; AAA59452.1; JOINED; Genomic_DNA.
+DR   EMBL; M32842; AAA59452.1; JOINED; Genomic_DNA.
+DR   EMBL; AC010311; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AC010526; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AC010606; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AC125387; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; BC117172; AAI17173.1; -; mRNA.
+DR   EMBL; J03466; AAA59175.1; -; Genomic_DNA.
+DR   EMBL; J05043; AAA59190.1; -; Genomic_DNA.
+DR   EMBL; M76592; AAC37604.1; -; Genomic_DNA.
+DR   EMBL; AB208861; BAD92098.1; -; mRNA.
+DR   EMBL; M24555; AAA59178.1; -; mRNA.
+DR   EMBL; M29929; AAA59176.1; -; Genomic_DNA.
+DR   EMBL; M29930; AAA59177.1; -; Genomic_DNA.
+DR   EMBL; M27197; AAA86791.1; -; Genomic_DNA.
+DR   EMBL; M27195; AAA86791.1; JOINED; Genomic_DNA.
+DR   IPI; IPI00025803; -.
+DR   IPI; IPI00220325; -.
+DR   PIR; A37348; INHUR.
+DR   RefSeq; NP_000199.2; -.
+DR   RefSeq; NP_001073285.1; -.
+DR   UniGene; Hs.465744; -.
+DR   PDB; 1GAG; X-ray; 2.70 A; A=1005-1310.
+DR   PDB; 1I44; X-ray; 2.40 A; A=1005-1310.
+DR   PDB; 1IR3; X-ray; 1.90 A; A=1005-1310.
+DR   PDB; 1IRK; X-ray; 2.10 A; A=1005-1310.
+DR   PDB; 1P14; X-ray; 1.90 A; A=1005-1298.
+DR   PDB; 1RQQ; X-ray; 2.60 A; A/B=1005-1310.
+DR   PDB; 2AUH; X-ray; 3.20 A; A=1005-1310.
+DR   PDB; 2B4S; X-ray; 2.30 A; B/D=1005-1310.
+DR   PDB; 2DTG; X-ray; 3.80 A; E=28-943.
+DR   PDB; 2HR7; X-ray; 2.32 A; A/B=28-512.
+DR   PDB; 2Z8C; X-ray; 3.25 A; A=1009-1310.
+DR   PDB; 3BU3; X-ray; 1.65 A; A=1005-1310.
+DR   PDB; 3BU5; X-ray; 2.10 A; A=1005-1310.
+DR   PDB; 3BU6; X-ray; 1.95 A; A=1005-1310.
+DR   PDB; 3EKK; X-ray; 2.10 A; A=1005-1310.
+DR   PDB; 3EKN; X-ray; 2.20 A; A=1005-1310.
+DR   PDB; 3ETA; X-ray; 2.60 A; A/B=1017-1322.
+DR   PDB; 3LOH; X-ray; 3.80 A; E=28-956.
+DR   PDBsum; 1GAG; -.
+DR   PDBsum; 1I44; -.
+DR   PDBsum; 1IR3; -.
+DR   PDBsum; 1IRK; -.
+DR   PDBsum; 1P14; -.
+DR   PDBsum; 1RQQ; -.
+DR   PDBsum; 2AUH; -.
+DR   PDBsum; 2B4S; -.
+DR   PDBsum; 2DTG; -.
+DR   PDBsum; 2HR7; -.
+DR   PDBsum; 2Z8C; -.
+DR   PDBsum; 3BU3; -.
+DR   PDBsum; 3BU5; -.
+DR   PDBsum; 3BU6; -.
+DR   PDBsum; 3EKK; -.
+DR   PDBsum; 3EKN; -.
+DR   PDBsum; 3ETA; -.
+DR   PDBsum; 3LOH; -.
+DR   ProteinModelPortal; P06213; -.
+DR   DIP; DIP-480N; -.
+DR   DIP; DIP-6025N; -.
+DR   IntAct; P06213; 26.
+DR   MINT; MINT-1516246; -.
+DR   STRING; P06213; -.
+DR   PhosphoSite; P06213; -.
+DR   PRIDE; P06213; -.
+DR   Ensembl; ENST00000302850; ENSP00000303830; ENSG00000171105.
+DR   GeneID; 3643; -.
+DR   KEGG; hsa:3643; -.
+DR   UCSC; uc002mgd.1; human.
+DR   CTD; 3643; -.
+DR   GeneCards; GC19M007067; -.
+DR   H-InvDB; HIX0040111; -.
+DR   HGNC; HGNC:6091; INSR.
+DR   HPA; CAB013113; -.
+DR   MIM; 125853; phenotype.
+DR   MIM; 147670; gene.
+DR   MIM; 246200; phenotype.
+DR   MIM; 262190; phenotype.
+DR   MIM; 609968; phenotype.
+DR   MIM; 610549; phenotype.
+DR   Orphanet; 2297; Insulin-resistance syndrome type A.
+DR   Orphanet; 508; Leprechaunism.
+DR   Orphanet; 657; Persistent hyperinsulinemic hypoglycemia of infancy.
+DR   Orphanet; 769; Rabson-Mendenhall syndrome.
+DR   PharmGKB; PA202; -.
+DR   eggNOG; prNOG17961; -.
+DR   HOGENOM; HBG316019; -.
+DR   HOVERGEN; HBG006134; -.
+DR   InParanoid; P06213; -.
+DR   BRENDA; 2.7.10.1; 247.
+DR   Pathway_Interaction_DB; insulin_pathway; Insulin Pathway.
+DR   Pathway_Interaction_DB; insulin_glucose_pathway; Insulin-mediated glucose transport.
+DR   Pathway_Interaction_DB; mtor_4pathway; mTOR signaling pathway.
+DR   Pathway_Interaction_DB; ptp1bpathway; Signaling events mediated by PTP1B.
+DR   Reactome; REACT_498; Signaling by Insulin receptor.
+DR   Reactome; REACT_9470; Signaling by FGFR.
+DR   DrugBank; DB00047; Insulin Glargine recombinant.
+DR   DrugBank; DB00030; Insulin recombinant.
+DR   DrugBank; DB00071; Insulin, porcine.
+DR   ArrayExpress; P06213; -.
+DR   Bgee; P06213; -.
+DR   CleanEx; HS_INSR; -.
+DR   Genevestigator; P06213; -.
+DR   GermOnline; ENSG00000171105; Homo sapiens.
+DR   GO; GO:0005901; C:caveola; IDA:BHF-UCL.
+DR   GO; GO:0010008; C:endosome membrane; EXP:Reactome.
+DR   GO; GO:0005899; C:insulin receptor complex; IMP:BHF-UCL.
+DR   GO; GO:0005792; C:microsome; IDA:BHF-UCL.
+DR   GO; GO:0005524; F:ATP binding; IDA:BHF-UCL.
+DR   GO; GO:0005525; F:GTP binding; IDA:BHF-UCL.
+DR   GO; GO:0043559; F:insulin binding; IDA:UniProtKB.
+DR   GO; GO:0005009; F:insulin receptor activity; IDA:UniProtKB.
+DR   GO; GO:0043560; F:insulin receptor substrate binding; IPI:UniProtKB.
+DR   GO; GO:0031994; F:insulin-like growth factor I binding; IPI:BHF-UCL.
+DR   GO; GO:0031995; F:insulin-like growth factor II binding; IPI:BHF-UCL.
+DR   GO; GO:0005159; F:insulin-like growth factor receptor binding; IDA:BHF-UCL.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0043548; F:phosphoinositide 3-kinase binding; IPI:UniProtKB.
+DR   GO; GO:0051425; F:PTB domain binding; IPI:UniProtKB.
+DR   GO; GO:0004716; F:receptor signaling protein tyrosine kinase ...; IDA:BHF-UCL.
+DR   GO; GO:0042169; F:SH2 domain binding; IPI:UniProtKB.
+DR   GO; GO:0000187; P:activation of MAPK activity; IMP:BHF-UCL.
+DR   GO; GO:0032148; P:activation of protein kinase B activity; IDA:BHF-UCL.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0007186; P:G-protein coupled receptor protein signalin...; IDA:BHF-UCL.
+DR   GO; GO:0042593; P:glucose homeostasis; IMP:BHF-UCL.
+DR   GO; GO:0003007; P:heart morphogenesis; IMP:BHF-UCL.
+DR   GO; GO:0018108; P:peptidyl-tyrosine phosphorylation; IDA:BHF-UCL.
+DR   GO; GO:0030335; P:positive regulation of cell migration; IMP:BHF-UCL.
+DR   GO; GO:0008284; P:positive regulation of cell proliferation; IDA:BHF-UCL.
+DR   GO; GO:0048639; P:positive regulation of developmental growth; IMP:BHF-UCL.
+DR   GO; GO:0045740; P:positive regulation of DNA replication; IMP:BHF-UCL.
+DR   GO; GO:0046326; P:positive regulation of glucose import; IDA:BHF-UCL.
+DR   GO; GO:0045725; P:positive regulation of glycogen biosyntheti...; IDA:BHF-UCL.
+DR   GO; GO:0045821; P:positive regulation of glycolysis; IMP:BHF-UCL.
+DR   GO; GO:0043410; P:positive regulation of MAPKKK cascade; IMP:BHF-UCL.
+DR   GO; GO:0045840; P:positive regulation of mitosis; IMP:BHF-UCL.
+DR   GO; GO:0045429; P:positive regulation of nitric oxide biosynt...; IMP:BHF-UCL.
+DR   GO; GO:0001934; P:positive regulation of protein amino acid p...; IDA:BHF-UCL.
+DR   GO; GO:0051897; P:positive regulation of protein kinase B sig...; IMP:BHF-UCL.
+DR   GO; GO:0060267; P:positive regulation of respiratory burst; IDA:BHF-UCL.
+DR   GO; GO:0046777; P:protein amino acid autophosphorylation; IMP:UniProtKB.
+DR   GO; GO:0051290; P:protein heterotetramerization; IDA:UniProtKB.
+DR   GO; GO:0045995; P:regulation of embryonic development; IMP:BHF-UCL.
+DR   GO; GO:0032583; P:regulation of gene-specific transcription; IMP:BHF-UCL.
+DR   GO; GO:0019087; P:transformation of host cell by virus; IMP:BHF-UCL.
+DR   InterPro; IPR000494; EGF_rcpt_L.
+DR   InterPro; IPR008957; Fibronectin_III_dom.
+DR   InterPro; IPR003961; FN_III.
+DR   InterPro; IPR006211; Furin-like_Cys-rich_dom.
+DR   InterPro; IPR006212; Furin_repeat.
+DR   InterPro; IPR009030; Growth_fac_rcpt.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR001245; Ser-Thr/Tyr-Pkinase.
+DR   InterPro; IPR016246; Tyr_kinase_insulin-like_rcpt.
+DR   InterPro; IPR020710; Tyr_kinase_insulin_rcpt.
+DR   InterPro; IPR020635; Tyr_Pkinase_cat_dom.
+DR   InterPro; IPR020685; Tyr_prot_kinase.
+DR   InterPro; IPR008266; Tyr_prot_kinase_AS.
+DR   InterPro; IPR002011; Tyr_prot_kinase_rcpt_2_CS.
+DR   PANTHER; PTHR23256:SF176; Tyr_kinase_insulin_rcpt; 1.
+DR   PANTHER; PTHR23256; Tyr_prot_kinase; 1.
+DR   Pfam; PF00041; fn3; 1.
+DR   Pfam; PF00757; Furin-like; 1.
+DR   Pfam; PF07714; Pkinase_Tyr; 1.
+DR   Pfam; PF01030; Recep_L_domain; 2.
+DR   PIRSF; PIRSF000620; Insulin_receptor; 1.
+DR   PRINTS; PR00109; TYRKINASE.
+DR   SMART; SM00060; FN3; 3.
+DR   SMART; SM00261; FU; 2.
+DR   SMART; SM00219; TyrKc; 1.
+DR   SUPFAM; SSF49265; FN_III-like; 2.
+DR   SUPFAM; SSF57184; Grow_fac_recept; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS50853; FN3; 3.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00109; PROTEIN_KINASE_TYR; 1.
+DR   PROSITE; PS00239; RECEPTOR_TYR_KIN_II; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Alternative splicing; ATP-binding;
+KW   Carbohydrate metabolism; Cleavage on pair of basic residues;
+KW   Complete proteome; Diabetes mellitus; Direct protein sequencing;
+KW   Disease mutation; Disulfide bond; Glycoprotein; Kinase; Manganese;
+KW   Membrane; Metal-binding; Nucleotide-binding; Phosphoprotein;
+KW   Polymorphism; Receptor; Repeat; Signal; Transferase; Transmembrane;
+KW   Transmembrane helix; Tyrosine-protein kinase.
+FT   SIGNAL        1     27
+FT   CHAIN        28    758       Insulin receptor subunit alpha.
+FT                                /FTId=PRO_0000016687.
+FT   CHAIN       763   1382       Insulin receptor subunit beta.
+FT                                /FTId=PRO_0000016689.
+FT   TOPO_DOM    763    956       Extracellular (Potential).
+FT   TRANSMEM    957    979       Helical; (Potential).
+FT   TOPO_DOM    980   1382       Cytoplasmic (Potential).
+FT   DOMAIN      622    695       Fibronectin type-III 1.
+FT   DOMAIN      757    842       Fibronectin type-III 2.
+FT   DOMAIN      850    946       Fibronectin type-III 3.
+FT   DOMAIN     1023   1298       Protein kinase.
+FT   NP_BIND    1029   1037       ATP (By similarity).
+FT   REGION      996    999       IRS1- and SHC1-binding.
+FT   REGION     1361   1364       PIK3R1-binding.
+FT   COMPBIAS    182    339       Cys-rich.
+FT   ACT_SITE   1159   1159       Proton acceptor (By similarity).
+FT   BINDING    1057   1057       ATP.
+FT   SITE        996    996       Essential for IRS1-binding and important
+FT                                but not critical for SHC1-binding.
+FT   SITE        997    997       Essential for IRS1-binding and important
+FT                                but not critical for SHC1-binding.
+FT   SITE        999    999       Important for biological activity.
+FT   MOD_RES     400    400       Phosphoserine.
+FT   MOD_RES     401    401       Phosphotyrosine.
+FT   MOD_RES     407    407       Phosphoserine.
+FT   MOD_RES     992    992       Phosphotyrosine; by autocatalysis
+FT                                (Probable).
+FT   MOD_RES     999    999       Phosphotyrosine; by autocatalysis.
+FT   MOD_RES    1011   1011       Phosphotyrosine; by autocatalysis
+FT                                (Probable).
+FT   MOD_RES    1064   1064       Phosphoserine.
+FT   MOD_RES    1112   1112       N6-acetyllysine.
+FT   MOD_RES    1185   1185       Phosphotyrosine; by autocatalysis.
+FT   MOD_RES    1189   1189       Phosphotyrosine; by autocatalysis.
+FT   MOD_RES    1190   1190       Phosphotyrosine; by autocatalysis.
+FT   MOD_RES    1348   1348       Phosphoserine.
+FT   MOD_RES    1354   1354       Phosphoserine.
+FT   MOD_RES    1355   1355       Phosphotyrosine; by autocatalysis.
+FT   MOD_RES    1361   1361       Phosphotyrosine; by autocatalysis.
+FT   MOD_RES    1379   1379       Phosphoserine.
+FT   CARBOHYD     43     43       N-linked (GlcNAc...).
+FT   CARBOHYD     52     52       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    105    105       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    138    138       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    242    242       N-linked (GlcNAc...).
+FT   CARBOHYD    282    282       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    322    322       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    364    364       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    424    424       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    445    445       N-linked (GlcNAc...).
+FT   CARBOHYD    541    541       N-linked (GlcNAc...).
+FT   CARBOHYD    633    633       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    651    651       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    698    698       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    769    769       N-linked (GlcNAc...).
+FT   CARBOHYD    782    782       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    920    920       N-linked (GlcNAc...).
+FT   CARBOHYD    933    933       N-linked (GlcNAc...) (Potential).
+FT   DISULFID    219    228       By similarity.
+FT   DISULFID    223    234       By similarity.
+FT   DISULFID    235    243       By similarity.
+FT   DISULFID    239    252       By similarity.
+FT   DISULFID    255    264       By similarity.
+FT   DISULFID    268    280       By similarity.
+FT   DISULFID    286    293       By similarity.
+FT   DISULFID    301    311       By similarity.
+FT   DISULFID    315    328       By similarity.
+FT   DISULFID    331    335       By similarity.
+FT   DISULFID    462    495
+FT   DISULFID    551    551       Interchain.
+FT   VAR_SEQ     745    756       Missing (in isoform Short).
+FT                                /FTId=VSP_002898.
+FT   VARIANT       2      2       A -> G (in dbSNP:rs7508518).
+FT                                /FTId=VAR_058395.
+FT   VARIANT      42     42       N -> K (in RMS; impairs transport to the
+FT                                plasma membrane and reduces the affinity
+FT                                to bind insulin).
+FT                                /FTId=VAR_004079.
+FT   VARIANT      55     55       V -> A (in leprechaunism; Verona-1).
+FT                                /FTId=VAR_004080.
+FT   VARIANT      58     58       G -> R (in leprechaunism; Helmond;
+FT                                inhibits processing and transport;
+FT                                dbSNP:rs52836744).
+FT                                /FTId=VAR_004081.
+FT   VARIANT      86     86       D -> G (in Ins resistance; type A).
+FT                                /FTId=VAR_015907.
+FT   VARIANT      89     89       L -> P (in Ins resistance; type A).
+FT                                /FTId=VAR_015908.
+FT   VARIANT     113    113       R -> P (in leprechaunism; Atlanta-1;
+FT                                abolishes insulin binding).
+FT                                /FTId=VAR_004082.
+FT   VARIANT     119    119       A -> V (in leprechaunism; markedly
+FT                                impairs insulin binding).
+FT                                /FTId=VAR_015909.
+FT   VARIANT     120    120       L -> Q (in leprechaunism; inhibits
+FT                                receptor processing).
+FT                                /FTId=VAR_031518.
+FT   VARIANT     146    146       I -> M (in leprechaunism; mild).
+FT                                /FTId=VAR_015539.
+FT   VARIANT     167    167       V -> L (in Ins resistance; type A).
+FT                                /FTId=VAR_015910.
+FT   VARIANT     171    171       Y -> H (in dbSNP:rs1051692).
+FT                                /FTId=VAR_058396.
+FT   VARIANT     220    220       P -> L (in Ins resistance; severe).
+FT                                /FTId=VAR_004083.
+FT   VARIANT     228    228       C -> R (in a gastric adenocarcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_041429.
+FT   VARIANT     236    236       H -> R (in leprechaunism; Winnipeg; in
+FT                                one patient with in RMS heterozygous
+FT                                compound with S-386; may impair receptor
+FT                                processing).
+FT                                /FTId=VAR_004084.
+FT   VARIANT     260    260       L -> P (in leprechaunism; Geldeimalsen).
+FT                                /FTId=VAR_004085.
+FT   VARIANT     279    279       R -> C (in Ins resistance; severe;
+FT                                inhibits receptor internalization).
+FT                                /FTId=VAR_015540.
+FT   VARIANT     279    279       R -> H (in IRAN type A; interferes with
+FT                                receptor processing).
+FT                                /FTId=VAR_031519.
+FT   VARIANT     280    280       C -> Y (in Ins resistance; type A).
+FT                                /FTId=VAR_015911.
+FT   VARIANT     301    301       C -> Y (in leprechaunism).
+FT                                /FTId=VAR_015912.
+FT   VARIANT     308    308       Missing (in leprechaunism; abolishes
+FT                                insulin binding).
+FT                                /FTId=VAR_015913.
+FT   VARIANT     350    350       S -> L (in RMS and leprechaunism).
+FT                                /FTId=VAR_015914.
+FT   VARIANT     362    362       Missing (in leprechaunism).
+FT                                /FTId=VAR_015541.
+FT   VARIANT     386    386       G -> S (in RMS; may impair receptor
+FT                                processing).
+FT                                /FTId=VAR_031520.
+FT   VARIANT     393    393       G -> R (in leprechaunism; Verona-1).
+FT                                /FTId=VAR_004086.
+FT   VARIANT     409    409       F -> V (in Ins resistance; severe).
+FT                                /FTId=VAR_004087.
+FT   VARIANT     439    439       W -> S (in leprechaunism; impairs
+FT                                transport of the receptor to the cell
+FT                                surface).
+FT                                /FTId=VAR_015542.
+FT   VARIANT     448    448       I -> T (in dbSNP:rs1051691).
+FT                                /FTId=VAR_015915.
+FT   VARIANT     458    458       N -> D (in leprechaunism; partially
+FT                                inhibits receptor processing and
+FT                                autophosphorylation; strongly impairs ERK
+FT                                phosphorylation; induces wild-type levels
+FT                                of IRS-1 phosphorylation).
+FT                                /FTId=VAR_031521.
+FT   VARIANT     487    487       K -> E (in leprechaunism; ARK-1;
+FT                                dbSNP:rs28933083).
+FT                                /FTId=VAR_004088.
+FT   VARIANT     489    489       N -> S (in IRAN type A;
+FT                                dbSNP:rs28933085).
+FT                                /FTId=VAR_004089.
+FT   VARIANT     492    492       Q -> K (in dbSNP:rs1131851).
+FT                                /FTId=VAR_015916.
+FT   VARIANT     695    695       Q -> R (in dbSNP:rs55906835).
+FT                                /FTId=VAR_041430.
+FT   VARIANT     762    762       R -> S (in IRAN type A).
+FT                                /FTId=VAR_004090.
+FT   VARIANT     811    811       G -> S (in dbSNP:rs35045353).
+FT                                /FTId=VAR_041431.
+FT   VARIANT     830    830       P -> L (in dbSNP:rs2162771).
+FT                                /FTId=VAR_055986.
+FT   VARIANT     858    858       T -> A (in NIDDM).
+FT                                /FTId=VAR_015917.
+FT   VARIANT     925    925       I -> T (in leprechaunism; abolishes
+FT                                insulin binding).
+FT                                /FTId=VAR_015918.
+FT   VARIANT     926    926       R -> W (in leprechaunism; markedly
+FT                                impairs insulin binding).
+FT                                /FTId=VAR_015919.
+FT   VARIANT     937    937       T -> M (in leprechaunism; impaired
+FT                                receptor processing).
+FT                                /FTId=VAR_015920.
+FT   VARIANT     997    997       P -> T (in RMS; reduces insulin binding).
+FT                                /FTId=VAR_015921.
+FT   VARIANT    1012   1012       V -> M (rare polymorphism;
+FT                                dbSNP:rs1799816).
+FT                                /FTId=VAR_004091.
+FT   VARIANT    1020   1020       R -> Q (in IRAN type A).
+FT                                /FTId=VAR_004092.
+FT   VARIANT    1023   1023       I -> F.
+FT                                /FTId=VAR_015922.
+FT   VARIANT    1035   1035       G -> V (in IRAN type A).
+FT                                /FTId=VAR_004093.
+FT   VARIANT    1055   1055       A -> V (in Ins resistance; type A).
+FT                                /FTId=VAR_015923.
+FT   VARIANT    1065   1065       L -> V (in dbSNP:rs56395521).
+FT                                /FTId=VAR_041432.
+FT   VARIANT    1075   1075       A -> D (in Ins resistance; type A).
+FT                                /FTId=VAR_004094.
+FT   VARIANT    1095   1095       K -> E (in a NIDDM subject).
+FT                                /FTId=VAR_015924.
+FT   VARIANT    1119   1119       R -> W (in leprechaunism).
+FT                                /FTId=VAR_015925.
+FT   VARIANT    1143   1143       I -> T (in RMS; reduces insulin binding).
+FT                                /FTId=VAR_015926.
+FT   VARIANT    1158   1158       R -> Q (in Ins resistance).
+FT                                /FTId=VAR_015927.
+FT   VARIANT    1158   1158       R -> W (in RMS; abolishes insulin
+FT                                binding).
+FT                                /FTId=VAR_015928.
+FT   VARIANT    1161   1161       A -> T (in IRAN type A;
+FT                                dbSNP:rs28933084).
+FT                                /FTId=VAR_004095.
+FT   VARIANT    1162   1162       A -> E (in IRAN type A; impairs
+FT                                proteolytic processing).
+FT                                /FTId=VAR_004096.
+FT   VARIANT    1180   1180       M -> I (in Ins resistance).
+FT                                /FTId=VAR_004097.
+FT   VARIANT    1191   1191       R -> Q (in NIDDM).
+FT                                /FTId=VAR_004098.
+FT   VARIANT    1201   1201       R -> Q (in HHF5 and IRAN type A;
+FT                                interferes with kinase activation by
+FT                                insulin; dbSNP:rs28933086).
+FT                                /FTId=VAR_015929.
+FT   VARIANT    1201   1201       R -> W (in leprechaunism and RMS; reduces
+FT                                insulin binding possibly due to reduced
+FT                                receptor levels on the cell surface).
+FT                                /FTId=VAR_015930.
+FT   VARIANT    1205   1205       P -> L (in Ins resistance; type A;
+FT                                moderate).
+FT                                /FTId=VAR_004099.
+FT   VARIANT    1206   1206       E -> D (in Ins resistance; type A;
+FT                                accelerates degradation of the protein
+FT                                and impairs kinase activity).
+FT                                /FTId=VAR_015931.
+FT   VARIANT    1206   1206       E -> K (in leprechaunism).
+FT                                /FTId=VAR_015932.
+FT   VARIANT    1220   1220       W -> L (in Ins resistance; type A;
+FT                                accelerates degradation of the protein
+FT                                and impairs kinase activity;
+FT                                dbSNP:rs52800171).
+FT                                /FTId=VAR_004100.
+FT   VARIANT    1227   1227       W -> S (in IRAN type A).
+FT                                /FTId=VAR_004101.
+FT   VARIANT    1282   1282       T -> A (in dbSNP:rs55875349).
+FT                                /FTId=VAR_041433.
+FT   VARIANT    1361   1361       Y -> C (in dbSNP:rs13306449).
+FT                                /FTId=VAR_015933.
+FT   VARIANT    1378   1378       R -> Q (in Ins resistance; type A;
+FT                                dbSNP:rs52826008).
+FT                                /FTId=VAR_015934.
+FT   MUTAGEN     991    991       L->A: Reduces interaction with IRS1 but
+FT                                has no effect on interaction with SHC1.
+FT   MUTAGEN     992    992       Y->A: Reduces interaction with IRS1 but
+FT                                has no effect on interaction with SHC1.
+FT   MUTAGEN     996    997       NP->AA: Abolishes interaction with IRS1.
+FT                                Severely disrupts, but does not abolish
+FT                                interaction with SHC1.
+FT   MUTAGEN     996    996       N->A: Abolishes interaction with IRS1 and
+FT                                significantly reduces interaction with
+FT                                SHC1. Has no effect on interaction with
+FT                                PIK3R1.
+FT   MUTAGEN     997    997       P->A: Abolishes interaction with IRS1 and
+FT                                significantly reduces interaction with
+FT                                SHC1. Has no effect on interaction with
+FT                                PIK3R1.
+FT   MUTAGEN     998    998       E->A: Does not affect interaction with
+FT                                IRS1, SHC1 or PIK3R1.
+FT   MUTAGEN     999    999       Y->E: Abolishes interaction with IRS1 and
+FT                                SHC1.
+FT   MUTAGEN     999    999       Y->F: Has no effect on insulin-stimulated
+FT                                autophosphorylation, but inhibits the
+FT                                biological activity of the receptor.
+FT                                Abolishes interaction with IRS1 and
+FT                                almost completely prevents interaction
+FT                                with SHC1. Has no effect on interaction
+FT                                with PIK3R1.
+FT   MUTAGEN    1000   1000       L->A,R: Severely reduces interaction with
+FT                                SHC1. Has no effect on interaction with
+FT                                IRS1.
+FT   MUTAGEN    1002   1002       A->D: Reduces interaction with IRS1 but
+FT                                has no effect on interaction with SHC1.
+FT   MUTAGEN    1057   1057       K->A: Abolishes the kinase activity and
+FT                                abolishes interaction with IRS1, SHC1 and
+FT                                PIK3R1.
+FT   MUTAGEN    1057   1057       K->M,R: Abolishes the kinase activity.
+FT   CONFLICT    601    601       D -> N (in Ref. 19; AA sequence).
+FT   CONFLICT    830    830       P -> E (in Ref. 19; AA sequence).
+FT   CONFLICT   1278   1278       K -> N (in Ref. 2; CAA26096).
+FT   STRAND       33     42
+FT   HELIX        45     50
+FT   STRAND       53     65
+FT   HELIX        70     72
+FT   TURN         73     75
+FT   STRAND       83     86
+FT   STRAND       88     93
+FT   TURN        100    102
+FT   STRAND      118    124
+FT   STRAND      141    149
+FT   HELIX       160    162
+FT   STRAND      171    175
+FT   HELIX       176    178
+FT   TURN        187    192
+FT   STRAND      199    201
+FT   STRAND      204    206
+FT   STRAND      209    211
+FT   HELIX       221    223
+FT   STRAND      243    247
+FT   STRAND      251    260
+FT   STRAND      263    267
+FT   STRAND      273    275
+FT   TURN        276    278
+FT   STRAND      279    281
+FT   HELIX       283    295
+FT   STRAND      298    300
+FT   STRAND      305    307
+FT   STRAND      310    314
+FT   STRAND      319    321
+FT   STRAND      327    330
+FT   STRAND      332    334
+FT   STRAND      338    348
+FT   HELIX       351    355
+FT   TURN        356    359
+FT   STRAND      361    369
+FT   HELIX       377    385
+FT   STRAND      390    393
+FT   STRAND      395    399
+FT   STRAND      404    406
+FT   TURN        422    424
+FT   STRAND      425    430
+FT   TURN        441    443
+FT   STRAND      452    458
+FT   HELIX       463    472
+FT   TURN        476    478
+FT   TURN        481    483
+FT   STRAND      486    490
+FT   STRAND      513    515
+FT   STRAND      521    523
+FT   STRAND      527    530
+FT   STRAND      534    536
+FT   TURN        539    541
+FT   STRAND      564    567
+FT   STRAND      572    574
+FT   STRAND      577    580
+FT   STRAND      591    595
+FT   STRAND      626    632
+FT   STRAND      634    636
+FT   STRAND      638    643
+FT   STRAND      648    651
+FT   STRAND      653    656
+FT   STRAND      659    662
+FT   STRAND      672    674
+FT   STRAND      805    809
+FT   STRAND      817    820
+FT   STRAND      823    826
+FT   STRAND      828    831
+FT   STRAND      840    843
+FT   STRAND      861    865
+FT   STRAND      881    884
+FT   STRAND      889    893
+FT   STRAND      902    904
+FT   STRAND      918    921
+FT   STRAND      927    929
+FT   TURN       1014   1016
+FT   HELIX      1020   1022
+FT   STRAND     1023   1031
+FT   STRAND     1033   1043
+FT   STRAND     1050   1058
+FT   HELIX      1065   1078
+FT   STRAND     1089   1093
+FT   STRAND     1095   1098
+FT   STRAND     1100   1104
+FT   HELIX      1111   1117
+FT   HELIX      1133   1152
+FT   HELIX      1162   1164
+FT   STRAND     1165   1167
+FT   STRAND     1173   1175
+FT   HELIX      1200   1202
+FT   HELIX      1205   1210
+FT   HELIX      1215   1230
+FT   TURN       1236   1239
+FT   HELIX      1242   1250
+FT   HELIX      1263   1272
+FT   HELIX      1277   1279
+FT   HELIX      1283   1290
+FT   HELIX      1291   1293
+FT   HELIX      1298   1301
+FT   HELIX      1307   1309
+SQ   SEQUENCE   1382 AA;  156333 MW;  709A955660739066 CRC64;
+     MATGGRRGAA AAPLLVAVAA LLLGAAGHLY PGEVCPGMDI RNNLTRLHEL ENCSVIEGHL
+     QILLMFKTRP EDFRDLSFPK LIMITDYLLL FRVYGLESLK DLFPNLTVIR GSRLFFNYAL
+     VIFEMVHLKE LGLYNLMNIT RGSVRIEKNN ELCYLATIDW SRILDSVEDN YIVLNKDDNE
+     ECGDICPGTA KGKTNCPATV INGQFVERCW THSHCQKVCP TICKSHGCTA EGLCCHSECL
+     GNCSQPDDPT KCVACRNFYL DGRCVETCPP PYYHFQDWRC VNFSFCQDLH HKCKNSRRQG
+     CHQYVIHNNK CIPECPSGYT MNSSNLLCTP CLGPCPKVCH LLEGEKTIDS VTSAQELRGC
+     TVINGSLIIN IRGGNNLAAE LEANLGLIEE ISGYLKIRRS YALVSLSFFR KLRLIRGETL
+     EIGNYSFYAL DNQNLRQLWD WSKHNLTITQ GKLFFHYNPK LCLSEIHKME EVSGTKGRQE
+     RNDIALKTNG DQASCENELL KFSYIRTSFD KILLRWEPYW PPDFRDLLGF MLFYKEAPYQ
+     NVTEFDGQDA CGSNSWTVVD IDPPLRSNDP KSQNHPGWLM RGLKPWTQYA IFVKTLVTFS
+     DERRTYGAKS DIIYVQTDAT NPSVPLDPIS VSNSSSQIIL KWKPPSDPNG NITHYLVFWE
+     RQAEDSELFE LDYCLKGLKL PSRTWSPPFE SEDSQKHNQS EYEDSAGECC SCPKTDSQIL
+     KELEESSFRK TFEDYLHNVV FVPRKTSSGT GAEDPRPSRK RRSLGDVGNV TVAVPTVAAF
+     PNTSSTSVPT SPEEHRPFEK VVNKESLVIS GLRHFTGYRI ELQACNQDTP EERCSVAAYV
+     SARTMPEAKA DDIVGPVTHE IFENNVVHLM WQEPKEPNGL IVLYEVSYRR YGDEELHLCV
+     SRKHFALERG CRLRGLSPGN YSVRIRATSL AGNGSWTEPT YFYVTDYLDV PSNIAKIIIG
+     PLIFVFLFSV VIGSIYLFLR KRQPDGPLGP LYASSNPEYL SASDVFPCSV YVPDEWEVSR
+     EKITLLRELG QGSFGMVYEG NARDIIKGEA ETRVAVKTVN ESASLRERIE FLNEASVMKG
+     FTCHHVVRLL GVVSKGQPTL VVMELMAHGD LKSYLRSLRP EAENNPGRPP PTLQEMIQMA
+     AEIADGMAYL NAKKFVHRDL AARNCMVAHD FTVKIGDFGM TRDIYETDYY RKGGKGLLPV
+     RWMAPESLKD GVFTTSSDMW SFGVVLWEIT SLAEQPYQGL SNEQVLKFVM DGGYLDQPDN
+     CPERVTDLMR MCWQFNPKMR PTFLEIVNLL KDDLHPSFPE VSFFHSEENK APESEELEME
+     FEDMENVPLD RSSHCQREEA GGRDGGSSLG FKRSYEEHIP YTHMNGGKKN GRILTLPRSN
+     PS
+//

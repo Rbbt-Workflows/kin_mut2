@@ -1,0 +1,312 @@
+ID   CDK6_HUMAN              Reviewed;         326 AA.
+AC   Q00534;
+DT   01-APR-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-APR-1993, sequence version 1.
+DT   05-OCT-2010, entry version 120.
+DE   RecName: Full=Cell division protein kinase 6;
+DE            EC=2.7.11.22;
+DE   AltName: Full=Serine/threonine-protein kinase PLSTIRE;
+GN   Name=CDK6;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   MEDLINE=92347325; PubMed=1639063;
+RA   Meyerson M., Enders G.H., Wu C.-L., Su L.-K., Gorka C., Nelson C.,
+RA   Harlow E., Tsai L.-H.;
+RT   "A family of human cdc2-related protein kinases.";
+RL   EMBO J. 11:2909-2917(1992).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RG   NIEHS SNPs program;
+RL   Submitted (JUL-2002) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   MEDLINE=22737999; PubMed=12853948; DOI=10.1038/nature01782;
+RA   Hillier L.W., Fulton R.S., Fulton L.A., Graves T.A., Pepin K.H.,
+RA   Wagner-McPherson C., Layman D., Maas J., Jaeger S., Walker R.,
+RA   Wylie K., Sekhon M., Becker M.C., O'Laughlin M.D., Schaller M.E.,
+RA   Fewell G.A., Delehaunty K.D., Miner T.L., Nash W.E., Cordes M., Du H.,
+RA   Sun H., Edwards J., Bradshaw-Cordum H., Ali J., Andrews S., Isak A.,
+RA   Vanbrunt A., Nguyen C., Du F., Lamar B., Courtney L., Kalicki J.,
+RA   Ozersky P., Bielicki L., Scott K., Holmes A., Harkins R., Harris A.,
+RA   Strong C.M., Hou S., Tomlinson C., Dauphin-Kohlberg S.,
+RA   Kozlowicz-Reilly A., Leonard S., Rohlfing T., Rock S.M.,
+RA   Tin-Wollam A.-M., Abbott A., Minx P., Maupin R., Strowmatt C.,
+RA   Latreille P., Miller N., Johnson D., Murray J., Woessner J.P.,
+RA   Wendl M.C., Yang S.-P., Schultz B.R., Wallis J.W., Spieth J.,
+RA   Bieri T.A., Nelson J.O., Berkowicz N., Wohldmann P.E., Cook L.L.,
+RA   Hickenbotham M.T., Eldred J., Williams D., Bedell J.A., Mardis E.R.,
+RA   Clifton S.W., Chissoe S.L., Marra M.A., Raymond C., Haugen E.,
+RA   Gillett W., Zhou Y., James R., Phelps K., Iadanoto S., Bubb K.,
+RA   Simms E., Levy R., Clendenning J., Kaul R., Kent W.J., Furey T.S.,
+RA   Baertsch R.A., Brent M.R., Keibler E., Flicek P., Bork P., Suyama M.,
+RA   Bailey J.A., Portnoy M.E., Torrents D., Chinwalla A.T., Gish W.R.,
+RA   Eddy S.R., McPherson J.D., Olson M.V., Eichler E.E., Green E.D.,
+RA   Waterston R.H., Wilson R.K.;
+RT   "The DNA sequence of human chromosome 7.";
+RL   Nature 424:157-164(2003).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Brain;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [5]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-13 AND TYR-24, AND MASS
+RP   SPECTROMETRY.
+RX   PubMed=15592455; DOI=10.1038/nbt1046;
+RA   Rush J., Moritz A., Lee K.A., Guo A., Goss V.L., Spek E.J., Zhang H.,
+RA   Zha X.-M., Polakiewicz R.D., Comb M.J.;
+RT   "Immunoaffinity profiling of tyrosine phosphorylation in cancer
+RT   cells.";
+RL   Nat. Biotechnol. 23:94-101(2005).
+RN   [6]
+RP   INDUCTION, AND MASS SPECTROMETRY.
+RX   PubMed=16548883; DOI=10.1111/j.1462-5822.2005.00644.x;
+RA   Leong W.F., Chow V.T.;
+RT   "Transcriptomic and proteomic analyses of rhabdomyosarcoma cells
+RT   reveal differential cellular gene expression in response to
+RT   enterovirus 71 infection.";
+RL   Cell. Microbiol. 8:565-580(2006).
+RN   [7]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RA   Colinge J., Superti-Furga G., Bennett K.L.;
+RL   Submitted (OCT-2008) to UniProtKB.
+RN   [8]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-24; THR-49; SER-57;
+RP   THR-70; SER-86; THR-154; SER-155; SER-223; SER-290; SER-317 AND
+RP   THR-325, AND MASS SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [9]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT LYS-43 AND LYS-264, AND MASS
+RP   SPECTROMETRY.
+RX   PubMed=19608861; DOI=10.1126/science.1175371;
+RA   Choudhary C., Kumar C., Gnad F., Nielsen M.L., Rehman M., Walther T.,
+RA   Olsen J.V., Mann M.;
+RT   "Lysine acetylation targets protein complexes and co-regulates major
+RT   cellular functions.";
+RL   Science 325:834-840(2009).
+RN   [10]
+RP   X-RAY CRYSTALLOGRAPHY (2.8 ANGSTROMS) OF COMPLEXES WITH INK4A AND
+RP   INK4D.
+RX   MEDLINE=98421670; PubMed=9751050; DOI=10.1038/26155;
+RA   Russo A.A., Tong L., Lee J.O., Jeffrey P.D., Pavletich N.P.;
+RT   "Structural basis for inhibition of the cyclin-dependent kinase Cdk6
+RT   by the tumour suppressor p16INK4a.";
+RL   Nature 395:237-243(1998).
+RN   [11]
+RP   VARIANTS [LARGE SCALE ANALYSIS] ASN-110 AND LEU-199.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Probably involved in the control of the cell cycle.
+CC       Interacts with D-type G1 cyclins.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- INTERACTION:
+CC       P24385:CCND1; NbExp=1; IntAct=EBI-295663, EBI-375001;
+CC       P30281:CCND3; NbExp=1; IntAct=EBI-295663, EBI-375013;
+CC       Q16543:CDC37; NbExp=1; IntAct=EBI-295663, EBI-295634;
+CC       P38936:CDKN1A; NbExp=1; IntAct=EBI-295663, EBI-375077;
+CC       O77617:CDKN2A (xeno); NbExp=1; IntAct=EBI-295663, EBI-1542658;
+CC       P42771:CDKN2A; NbExp=5; IntAct=EBI-295663, EBI-375053;
+CC       P42773:CDKN2C; NbExp=2; IntAct=EBI-295663, EBI-711290;
+CC       Q60773:Cdkn2d (xeno); NbExp=1; IntAct=EBI-295663, EBI-1027163;
+CC       Q7L590:MCM10; NbExp=1; IntAct=EBI-295663, EBI-374912;
+CC       P49736:MCM2; NbExp=1; IntAct=EBI-295663, EBI-374819;
+CC   -!- INDUCTION: Down-regulated in response to enterovirus 71 (EV71)
+CC       infection.
+CC   -!- POLYMORPHISM: Genetic variations in CDK6 influences stature as a
+CC       quantitative trait type 11 (STQTL11) [MIM:612223]. Adult height is
+CC       an easily observable and highly heritable complex continuous
+CC       trait. Because of this, it is a model trait for studying genetic
+CC       influence on quantitative traits.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CMGC
+CC       Ser/Thr protein kinase family. CDC2/CDKX subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- WEB RESOURCE: Name=NIEHS-SNPs;
+CC       URL="http://egp.gs.washington.edu/data/cdk6/";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X66365; CAA47008.1; -; mRNA.
+DR   EMBL; AY128534; AAM76970.1; -; Genomic_DNA.
+DR   EMBL; AC000065; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AC004128; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AC004011; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; BC052264; AAH52264.1; -; mRNA.
+DR   IPI; IPI00023529; -.
+DR   PIR; S23387; S23387.
+DR   RefSeq; NP_001138778.1; -.
+DR   RefSeq; NP_001250.1; -.
+DR   UniGene; Hs.119882; -.
+DR   PDB; 1BI7; X-ray; 3.40 A; A=1-326.
+DR   PDB; 1BI8; X-ray; 2.80 A; A/C=1-326.
+DR   PDB; 1BLX; X-ray; 1.90 A; A=1-326.
+DR   PDB; 1G3N; X-ray; 2.90 A; A/E=1-326.
+DR   PDB; 1JOW; X-ray; 3.10 A; B=1-308.
+DR   PDB; 1XO2; X-ray; 2.90 A; B=1-308.
+DR   PDB; 2EUF; X-ray; 3.00 A; B=1-308.
+DR   PDB; 2F2C; X-ray; 2.80 A; B=1-308.
+DR   PDBsum; 1BI7; -.
+DR   PDBsum; 1BI8; -.
+DR   PDBsum; 1BLX; -.
+DR   PDBsum; 1G3N; -.
+DR   PDBsum; 1JOW; -.
+DR   PDBsum; 1XO2; -.
+DR   PDBsum; 2EUF; -.
+DR   PDBsum; 2F2C; -.
+DR   ProteinModelPortal; Q00534; -.
+DR   DIP; DIP-687N; -.
+DR   IntAct; Q00534; 26.
+DR   MINT; MINT-232049; -.
+DR   STRING; Q00534; -.
+DR   PhosphoSite; Q00534; -.
+DR   PeptideAtlas; Q00534; -.
+DR   PRIDE; Q00534; -.
+DR   Ensembl; ENST00000265734; ENSP00000265734; ENSG00000105810.
+DR   Ensembl; ENST00000424848; ENSP00000397087; ENSG00000105810.
+DR   GeneID; 1021; -.
+DR   KEGG; hsa:1021; -.
+DR   UCSC; uc003ume.1; human.
+DR   CTD; 1021; -.
+DR   GeneCards; GC07M092234; -.
+DR   H-InvDB; HIX0006844; -.
+DR   HGNC; HGNC:1777; CDK6.
+DR   HPA; CAB004363; -.
+DR   HPA; HPA002637; -.
+DR   MIM; 603368; gene.
+DR   MIM; 612223; phenotype.
+DR   PharmGKB; PA103; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG014652; -.
+DR   InParanoid; Q00534; -.
+DR   OMA; NTSEMNT; -.
+DR   OrthoDB; EOG9DNHQB; -.
+DR   PhylomeDB; Q00534; -.
+DR   BRENDA; 2.7.11.22; 247.
+DR   Pathway_Interaction_DB; ar_pathway; Coregulation of Androgen receptor activity.
+DR   Pathway_Interaction_DB; il2_stat5pathway; IL2 signaling events mediated by STAT5.
+DR   Reactome; REACT_152; Cell Cycle, Mitotic.
+DR   BindingDB; Q00534; -.
+DR   NextBio; 4291; -.
+DR   ArrayExpress; Q00534; -.
+DR   Bgee; Q00534; -.
+DR   CleanEx; HS_CDK6; -.
+DR   Genevestigator; Q00534; -.
+DR   GermOnline; ENSG00000105810; Homo sapiens.
+DR   GO; GO:0000307; C:cyclin-dependent protein kinase holoenzyme ...; IDA:BHF-UCL.
+DR   GO; GO:0005737; C:cytoplasm; IDA:BHF-UCL.
+DR   GO; GO:0005634; C:nucleus; IDA:BHF-UCL.
+DR   GO; GO:0001726; C:ruffle; IDA:BHF-UCL.
+DR   GO; GO:0005524; F:ATP binding; IDA:BHF-UCL.
+DR   GO; GO:0030332; F:cyclin binding; IPI:BHF-UCL.
+DR   GO; GO:0004693; F:cyclin-dependent protein kinase activity; IDA:BHF-UCL.
+DR   GO; GO:0043697; P:cell dedifferentiation; IMP:BHF-UCL.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0000080; P:G1 phase of mitotic cell cycle; IEP:BHF-UCL.
+DR   GO; GO:0042063; P:gliogenesis; IMP:BHF-UCL.
+DR   GO; GO:0045786; P:negative regulation of cell cycle; IDA:UniProtKB.
+DR   GO; GO:0050680; P:negative regulation of epithelial cell prol...; IMP:BHF-UCL.
+DR   GO; GO:0045668; P:negative regulation of osteoblast different...; IDA:BHF-UCL.
+DR   GO; GO:0001954; P:positive regulation of cell-matrix adhesion; IDA:BHF-UCL.
+DR   GO; GO:0048146; P:positive regulation of fibroblast prolifera...; IMP:BHF-UCL.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IDA:BHF-UCL.
+DR   GO; GO:0045646; P:regulation of erythrocyte differentiation; IMP:BHF-UCL.
+DR   GO; GO:0010468; P:regulation of gene expression; IDA:BHF-UCL.
+DR   GO; GO:0009615; P:response to virus; IEP:UniProtKB.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; ATP-binding; Cell cycle; Cell division;
+KW   Complete proteome; Kinase; Nucleotide-binding; Phosphoprotein;
+KW   Polymorphism; Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    326       Cell division protein kinase 6.
+FT                                /FTId=PRO_0000085789.
+FT   DOMAIN       13    300       Protein kinase.
+FT   NP_BIND      19     27       ATP (By similarity).
+FT   ACT_SITE    145    145       Proton acceptor.
+FT   BINDING      43     43       ATP (By similarity).
+FT   MOD_RES      13     13       Phosphotyrosine.
+FT   MOD_RES      24     24       Phosphotyrosine.
+FT   MOD_RES      43     43       N6-acetyllysine.
+FT   MOD_RES      49     49       Phosphothreonine.
+FT   MOD_RES      57     57       Phosphoserine.
+FT   MOD_RES      70     70       Phosphothreonine.
+FT   MOD_RES      86     86       Phosphoserine.
+FT   MOD_RES     154    154       Phosphothreonine.
+FT   MOD_RES     155    155       Phosphoserine.
+FT   MOD_RES     223    223       Phosphoserine.
+FT   MOD_RES     264    264       N6-acetyllysine.
+FT   MOD_RES     290    290       Phosphoserine.
+FT   MOD_RES     317    317       Phosphoserine.
+FT   MOD_RES     325    325       Phosphothreonine.
+FT   VARIANT     110    110       D -> N (in dbSNP:rs35654944).
+FT                                /FTId=VAR_041978.
+FT   VARIANT     199    199       P -> L (in a metastatic melanoma sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_041979.
+FT   HELIX         9     11
+FT   STRAND       13     22
+FT   STRAND       25     32
+FT   TURN         33     37
+FT   STRAND       39     49
+FT   HELIX        58     70
+FT   STRAND       79     87
+FT   STRAND       89     99
+FT   HELIX       105    111
+FT   HELIX       119    138
+FT   HELIX       148    150
+FT   STRAND      151    153
+FT   STRAND      159    161
+FT   HELIX       172    176
+FT   HELIX       188    191
+FT   HELIX       199    214
+FT   HELIX       224    235
+FT   HELIX       240    242
+FT   HELIX       251    253
+FT   HELIX       262    264
+FT   HELIX       271    280
+FT   TURN        285    287
+FT   HELIX       291    295
+FT   HELIX       298    300
+SQ   SEQUENCE   326 AA;  36938 MW;  571733EE6BE7FD4A CRC64;
+     MEKDGLCRAD QQYECVAEIG EGAYGKVFKA RDLKNGGRFV ALKRVRVQTG EEGMPLSTIR
+     EVAVLRHLET FEHPNVVRLF DVCTVSRTDR ETKLTLVFEH VDQDLTTYLD KVPEPGVPTE
+     TIKDMMFQLL RGLDFLHSHR VVHRDLKPQN ILVTSSGQIK LADFGLARIY SFQMALTSVV
+     VTLWYRAPEV LLQSSYATPV DLWSVGCIFA EMFRRKPLFR GSSDVDQLGK ILDVIGLPGE
+     EDWPRDVALP RQAFHSKSAQ PIEKFVTDID ELGKDLLLKC LTFNPAKRIS AYSALSHPYF
+     QDLERCKENL DSHLPPSQNT SELNTA
+//

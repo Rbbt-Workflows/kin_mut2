@@ -1,0 +1,123 @@
+ID   PRKY_HUMAN              Reviewed;         277 AA.
+AC   O43930; O15348; O15349;
+DT   16-JAN-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1998, sequence version 1.
+DT   05-OCT-2010, entry version 87.
+DE   RecName: Full=Serine/threonine-protein kinase PRKY;
+DE            EC=2.7.11.1;
+GN   Name=PRKY;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND CHROMOSOMAL TRANSLOCATION WITH
+RP   PRKX.
+RX   MEDLINE=98027074; PubMed=9302280; DOI=10.1093/hmg/6.11.1985;
+RA   Schiebel K., Winkelmann M., Mertz A., Xu X., Page D.C., Weil D.,
+RA   Petit C., Rappold G.A.;
+RT   "Abnormal XY interchange between a novel isolated protein kinase gene,
+RT   PRKY, and its homologue, PRKX, accounts for one third of all (Y+)XX
+RT   males and (Y-)XY females.";
+RL   Hum. Mol. Genet. 6:1985-1989(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Lung;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 68-178.
+RC   TISSUE=Fetal brain;
+RX   MEDLINE=97298711; PubMed=9154127;
+RA   Schiebel K., Mertz A., Winkelmann M., Glaeser B., Schempp W.,
+RA   Rappold G.;
+RT   "FISH localization of the human Y-homologue of protein kinase PRKX to
+RT   Yp11.2 and two pseudogenes to 15q26 and Xq12->13.";
+RL   Cytogenet. Cell Genet. 76:49-52(1997).
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- DISEASE: Note=A chromosomal aberration involving PRKY is a cause
+CC       of sex reversal disorder. Translocation t(X;Y)(p22;p11) with PRKX.
+CC       Chromosomal translocations proximal to PRKY account for about 30%
+CC       of the cases of sex reversal disorder in XX males and XY females.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Ser/Thr
+CC       protein kinase family. cAMP subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; Y13927; CAA74244.1; -; Genomic_DNA.
+DR   EMBL; Y13928; CAA74244.1; JOINED; Genomic_DNA.
+DR   EMBL; Y13929; CAA74244.1; JOINED; Genomic_DNA.
+DR   EMBL; Y13930; CAA74244.1; JOINED; Genomic_DNA.
+DR   EMBL; Y13931; CAA74244.1; JOINED; Genomic_DNA.
+DR   EMBL; Y13932; CAA74244.1; JOINED; Genomic_DNA.
+DR   EMBL; Y15801; CAA75792.1; -; mRNA.
+DR   EMBL; BC074851; AAH74851.1; -; mRNA.
+DR   EMBL; BC074852; AAH74852.1; -; mRNA.
+DR   EMBL; Y10484; CAA71508.1; -; mRNA.
+DR   EMBL; Y10485; CAA71509.1; -; mRNA.
+DR   IPI; IPI00288889; -.
+DR   UniGene; Hs.632287; -.
+DR   UniGene; Hs.721406; -.
+DR   ProteinModelPortal; O43930; -.
+DR   SMR; O43930; 45-268.
+DR   STRING; O43930; -.
+DR   PhosphoSite; O43930; -.
+DR   PRIDE; O43930; -.
+DR   Ensembl; ENST00000311978; ENSP00000310643; ENSG00000099725.
+DR   Ensembl; ENST00000362758; ENSP00000372489; ENSG00000099725.
+DR   UCSC; uc004fre.1; human.
+DR   GeneCards; GC0YP007185; -.
+DR   HGNC; HGNC:9444; PRKY.
+DR   MIM; 400008; gene.
+DR   PharmGKB; PA33789; -.
+DR   eggNOG; maNOG06074; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG108317; -.
+DR   InParanoid; O43930; -.
+DR   OMA; ICAMEYL; -.
+DR   OrthoDB; EOG9MKR1W; -.
+DR   PhylomeDB; O43930; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   NextBio; 21824; -.
+DR   ArrayExpress; O43930; -.
+DR   Bgee; O43930; -.
+DR   CleanEx; HS_PRKY; -.
+DR   Genevestigator; O43930; -.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; TAS:ProtInc.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; TAS:ProtInc.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; FALSE_NEG.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   2: Evidence at transcript level;
+KW   ATP-binding; Chromosomal rearrangement; Complete proteome; Kinase;
+KW   Nucleotide-binding; Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    277       Serine/threonine-protein kinase PRKY.
+FT                                /FTId=PRO_0000086584.
+FT   DOMAIN       49    277       Protein kinase.
+FT   NP_BIND      55     63       ATP (By similarity).
+FT   ACT_SITE    172    172       Proton acceptor (By similarity).
+FT   BINDING      78     78       ATP (By similarity).
+FT   CONFLICT     69     70       KT -> FR (in Ref. 3; CAA71508).
+FT   CONFLICT     88     90       RKQ -> NSG (in Ref. 3; CAA71509).
+SQ   SEQUENCE   277 AA;  31708 MW;  8DC7B21124BF8EAF CRC64;
+     MEAPGPAQAA AAESNSREVT EDAADWAPAL CPSPEARSPE APAYRLQDCD ALVTMGTGTF
+     GRVHLVKEKT AKHFFALKVM SIPDVIRRKQ EQHVHNEKSV LKEVSHPFLI RLFWTWHEER
+     FLYMLMEYVP GGELFSYLRN RGHFSSTTGL FYSAEIICAI EYLHSKEIVY RDLKPENILL
+     DRDGHIKLTD FGFAKKLVDR TWTLCGTPEY LAPEVIQSKG HGRAVDWWAL GILIFEMLSG
+     FPPFFDDNPF GIYQKILAGK LYFPRHLDFH VKTGRMM
+//

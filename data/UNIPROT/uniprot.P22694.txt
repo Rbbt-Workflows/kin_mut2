@@ -1,0 +1,408 @@
+ID   KAPCB_HUMAN             Reviewed;         351 AA.
+AC   P22694; B4E2Q1; Q14VH1; Q59GC0; Q5BNE9; Q5BNF0; Q5BNF1; Q5BNF2;
+AC   Q5BNF3; Q5CZ92; Q5T1K3; Q7Z3M1; Q8IYR5; Q8IZQ0; Q96B09;
+DT   01-AUG-1991, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   05-OCT-2010, entry version 119.
+DE   RecName: Full=cAMP-dependent protein kinase catalytic subunit beta;
+DE            Short=PKA C-beta;
+DE            EC=2.7.11.11;
+GN   Name=PRKACB;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RC   TISSUE=Testis;
+RX   MEDLINE=90258940; PubMed=2342480;
+RA   Beebe S.J., Oyen O., Sandberg M., Froysa A., Hansson V., Jahnsen T.;
+RT   "Molecular cloning of a tissue-specific protein kinase (C gamma) from
+RT   human testis -- representing a third isoform for the catalytic subunit
+RT   of cAMP-dependent protein kinase.";
+RL   Mol. Endocrinol. 4:465-475(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 2 AND 7).
+RC   TISSUE=Retina, and Salivary gland;
+RX   PubMed=17974005; DOI=10.1186/1471-2164-8-399;
+RA   Bechtel S., Rosenfelder H., Duda A., Schmidt C.P., Ernst U.,
+RA   Wellenreuther R., Mehrle A., Schuster C., Bahr A., Bloecker H.,
+RA   Heubner D., Hoerlein A., Michel G., Wedler H., Koehrer K.,
+RA   Ottenwaelder B., Poustka A., Wiemann S., Schupp I.;
+RT   "The full-ORF clone resource of the German cDNA consortium.";
+RL   BMC Genomics 8:399-399(2007).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 6).
+RC   TISSUE=Brain;
+RA   Totoki Y., Toyoda A., Takeda T., Sakaki Y., Tanaka A., Yokoyama S.,
+RA   Ohara O., Nagase T., Kikuno R.F.;
+RL   Submitted (MAR-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 3).
+RC   TISSUE=Trachea;
+RX   PubMed=14702039; DOI=10.1038/ng1285;
+RA   Ota T., Suzuki Y., Nishikawa T., Otsuki T., Sugiyama T., Irie R.,
+RA   Wakamatsu A., Hayashi K., Sato H., Nagai K., Kimura K., Makita H.,
+RA   Sekine M., Obayashi M., Nishi T., Shibahara T., Tanaka T., Ishii S.,
+RA   Yamamoto J., Saito K., Kawai Y., Isono Y., Nakamura Y., Nagahari K.,
+RA   Murakami K., Yasuda T., Iwayanagi T., Wagatsuma M., Shiratori A.,
+RA   Sudo H., Hosoiri T., Kaku Y., Kodaira H., Kondo H., Sugawara M.,
+RA   Takahashi M., Kanda K., Yokoi T., Furuya T., Kikkawa E., Omura Y.,
+RA   Abe K., Kamihara K., Katsuta N., Sato K., Tanikawa M., Yamazaki M.,
+RA   Ninomiya K., Ishibashi T., Yamashita H., Murakawa K., Fujimori K.,
+RA   Tanai H., Kimata M., Watanabe M., Hiraoka S., Chiba Y., Ishida S.,
+RA   Ono Y., Takiguchi S., Watanabe S., Yosida M., Hotuta T., Kusano J.,
+RA   Kanehori K., Takahashi-Fujii A., Hara H., Tanase T.-O., Nomura Y.,
+RA   Togiya S., Komai F., Hara R., Takeuchi K., Arita M., Imose N.,
+RA   Musashino K., Yuuki H., Oshima A., Sasaki N., Aotsuka S.,
+RA   Yoshikawa Y., Matsunawa H., Ichihara T., Shiohata N., Sano S.,
+RA   Moriya S., Momiyama H., Satoh N., Takami S., Terashima Y., Suzuki O.,
+RA   Nakagawa S., Senoh A., Mizoguchi H., Goto Y., Shimizu F., Wakebe H.,
+RA   Hishigaki H., Watanabe T., Sugiyama A., Takemoto M., Kawakami B.,
+RA   Yamazaki M., Watanabe K., Kumagai A., Itakura S., Fukuzumi Y.,
+RA   Fujimori Y., Komiyama M., Tashiro H., Tanigami A., Fujiwara T.,
+RA   Ono T., Yamada K., Fujii Y., Ozaki K., Hirao M., Ohmori Y.,
+RA   Kawabata A., Hikiji T., Kobatake N., Inagaki H., Ikema Y., Okamoto S.,
+RA   Okitani R., Kawakami T., Noguchi S., Itoh T., Shigeta K., Senba T.,
+RA   Matsumura K., Nakajima Y., Mizuno T., Morinaga M., Sasaki M.,
+RA   Togashi T., Oyama M., Hata H., Watanabe M., Komatsu T.,
+RA   Mizushima-Sugano J., Satoh T., Shirai Y., Takahashi Y., Nakagawa K.,
+RA   Okumura K., Nagase T., Nomura N., Kikuchi H., Masuho Y., Yamashita R.,
+RA   Nakai K., Yada T., Nakamura Y., Ohara O., Isogai T., Sugano S.;
+RT   "Complete sequencing and characterization of 21,243 full-length human
+RT   cDNAs.";
+RL   Nat. Genet. 36:40-45(2004).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RG   SeattleSNPs variation discovery resource;
+RL   Submitted (JUN-2006) to the EMBL/GenBank/DDBJ databases.
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=16710414; DOI=10.1038/nature04727;
+RA   Gregory S.G., Barlow K.F., McLay K.E., Kaul R., Swarbreck D.,
+RA   Dunham A., Scott C.E., Howe K.L., Woodfine K., Spencer C.C.A.,
+RA   Jones M.C., Gillson C., Searle S., Zhou Y., Kokocinski F.,
+RA   McDonald L., Evans R., Phillips K., Atkinson A., Cooper R., Jones C.,
+RA   Hall R.E., Andrews T.D., Lloyd C., Ainscough R., Almeida J.P.,
+RA   Ambrose K.D., Anderson F., Andrew R.W., Ashwell R.I.S., Aubin K.,
+RA   Babbage A.K., Bagguley C.L., Bailey J., Beasley H., Bethel G.,
+RA   Bird C.P., Bray-Allen S., Brown J.Y., Brown A.J., Buckley D.,
+RA   Burton J., Bye J., Carder C., Chapman J.C., Clark S.Y., Clarke G.,
+RA   Clee C., Cobley V., Collier R.E., Corby N., Coville G.J., Davies J.,
+RA   Deadman R., Dunn M., Earthrowl M., Ellington A.G., Errington H.,
+RA   Frankish A., Frankland J., French L., Garner P., Garnett J., Gay L.,
+RA   Ghori M.R.J., Gibson R., Gilby L.M., Gillett W., Glithero R.J.,
+RA   Grafham D.V., Griffiths C., Griffiths-Jones S., Grocock R.,
+RA   Hammond S., Harrison E.S.I., Hart E., Haugen E., Heath P.D.,
+RA   Holmes S., Holt K., Howden P.J., Hunt A.R., Hunt S.E., Hunter G.,
+RA   Isherwood J., James R., Johnson C., Johnson D., Joy A., Kay M.,
+RA   Kershaw J.K., Kibukawa M., Kimberley A.M., King A., Knights A.J.,
+RA   Lad H., Laird G., Lawlor S., Leongamornlert D.A., Lloyd D.M.,
+RA   Loveland J., Lovell J., Lush M.J., Lyne R., Martin S.,
+RA   Mashreghi-Mohammadi M., Matthews L., Matthews N.S.W., McLaren S.,
+RA   Milne S., Mistry S., Moore M.J.F., Nickerson T., O'Dell C.N.,
+RA   Oliver K., Palmeiri A., Palmer S.A., Parker A., Patel D., Pearce A.V.,
+RA   Peck A.I., Pelan S., Phelps K., Phillimore B.J., Plumb R., Rajan J.,
+RA   Raymond C., Rouse G., Saenphimmachak C., Sehra H.K., Sheridan E.,
+RA   Shownkeen R., Sims S., Skuce C.D., Smith M., Steward C.,
+RA   Subramanian S., Sycamore N., Tracey A., Tromans A., Van Helmond Z.,
+RA   Wall M., Wallis J.M., White S., Whitehead S.L., Wilkinson J.E.,
+RA   Willey D.L., Williams H., Wilming L., Wray P.W., Wu Z., Coulson A.,
+RA   Vaudin M., Sulston J.E., Durbin R.M., Hubbard T., Wooster R.,
+RA   Dunham I., Carter N.P., McVean G., Ross M.T., Harrow J., Olson M.V.,
+RA   Beck S., Rogers J., Bentley D.R.;
+RT   "The DNA sequence and biological annotation of human chromosome 1.";
+RL   Nature 441:315-321(2006).
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (SEP-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [8]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1 AND 8).
+RC   TISSUE=Brain;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [9]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 1-30 (ISOFORMS 2; 5 AND 6), NUCLEOTIDE
+RP   SEQUENCE [MRNA] OF 1-16 (ISOFORM 3), NUCLEOTIDE SEQUENCE [MRNA] OF
+RP   1-13 (ISOFORM 4), AND TISSUE SPECIFICITY.
+RX   MEDLINE=21474004; PubMed=11589697;
+RX   DOI=10.1046/j.0014-2956.2001.02429.x;
+RA   Orstavik S., Reinton N., Frengen E., Langeland B.T., Jahnsen T.,
+RA   Skalhegg B.S.;
+RT   "Identification of novel splice variants of the human catalytic
+RT   subunit Cbeta of cAMP-dependent protein kinase.";
+RL   Eur. J. Biochem. 268:5066-5073(2001).
+RN   [10]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 1-15 (ISOFORM 1), AND FUNCTION.
+RX   PubMed=12420224; DOI=10.1038/sj.onc.1205986;
+RA   Wu K.-J., Mattioli M., Morse H.C., Dalla-Favera R.;
+RT   "c-MYC activates protein kinase A (PKA) by direct transcriptional
+RT   activation of the PKA catalytic subunit beta (PKA-CB) gene.";
+RL   Oncogene 21:7872-7882(2002).
+RN   [11]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RA   Colinge J., Superti-Furga G., Bennett K.L.;
+RL   Submitted (OCT-2008) to UniProtKB.
+RN   [12]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT LYS-267, AND MASS SPECTROMETRY.
+RX   PubMed=19608861; DOI=10.1126/science.1175371;
+RA   Choudhary C., Kumar C., Gnad F., Nielsen M.L., Rehman M., Walther T.,
+RA   Olsen J.V., Mann M.;
+RT   "Lysine acetylation targets protein complexes and co-regulates major
+RT   cellular functions.";
+RL   Science 325:834-840(2009).
+RN   [13]
+RP   VARIANT [LARGE SCALE ANALYSIS] GLN-106.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Mediates cAMP-dependent signaling triggered by receptor
+CC       binding to GPCRs. PKA activation regulates diverse cellular
+CC       processes such as cell proliferation, the cell cycle,
+CC       differentiation and regulation of microtubule dynamics, chromatin
+CC       condensation and decondensation, nuclear envelope disassembly and
+CC       reassembly, as well as regulation of intracellular transport
+CC       mechanisms and ion flux.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- COFACTOR: Magnesium.
+CC   -!- ENZYME REGULATION: Activated by cAMP.
+CC   -!- SUBUNIT: A number of inactive tetrameric holoenzymes are produced
+CC       by the combination of homo- or heterodimers of the different
+CC       regulatory subunits associated with two catalytic subunits. cAMP
+CC       causes the dissociation of the inactive holoenzyme into a dimer of
+CC       regulatory subunits bound to four cAMP and two free monomeric
+CC       catalytic subunits.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm (By similarity). Nucleus (By
+CC       similarity). Note=Translocates into the nucleus (monomeric
+CC       catalytic subunit) (By similarity). The inactive holoenzyme is
+CC       found in the cytoplasm (By similarity).
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=8;
+CC       Name=1; Synonyms=Beta1;
+CC         IsoId=P22694-1; Sequence=Displayed;
+CC       Name=2; Synonyms=Beta2;
+CC         IsoId=P22694-2; Sequence=VSP_017364;
+CC       Name=3; Synonyms=Beta3;
+CC         IsoId=P22694-3; Sequence=VSP_017369, VSP_017370;
+CC         Note=Incomplete sequence;
+CC       Name=4; Synonyms=Beta4;
+CC         IsoId=P22694-4; Sequence=VSP_017368, VSP_017371;
+CC         Note=Incomplete sequence;
+CC       Name=5; Synonyms=Beta4ab;
+CC         IsoId=P22694-5; Sequence=VSP_017366;
+CC         Note=Incomplete sequence;
+CC       Name=6; Synonyms=Beta4abc;
+CC         IsoId=P22694-6; Sequence=VSP_017365;
+CC       Name=7;
+CC         IsoId=P22694-7; Sequence=VSP_017367;
+CC         Note=No experimental confirmation available;
+CC       Name=8;
+CC         IsoId=P22694-8; Sequence=VSP_036556, VSP_036557;
+CC   -!- TISSUE SPECIFICITY: Isoform 1 is most abundant in the brain, with
+CC       low level expression in kidney. Isoform 2 is predominantly
+CC       expressed in thymus, spleen and kidney. Isoform 3 and isoform 4
+CC       are only expressed in the brain.
+CC   -!- PTM: Asn-3 is partially deaminated to Asp giving rise to 2 major
+CC       isoelectric variants, called CB and CA respectively (By
+CC       similarity).
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. AGC Ser/Thr
+CC       protein kinase family. cAMP subfamily.
+CC   -!- SIMILARITY: Contains 1 AGC-kinase C-terminal domain.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=BAD92426.1; Type=Frameshift; Positions=322;
+CC   -!- WEB RESOURCE: Name=SeattleSNPs;
+CC       URL="http://pga.gs.washington.edu/data/prkacb/";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M34181; AAA60170.1; -; mRNA.
+DR   EMBL; BX537705; CAD97818.1; -; mRNA.
+DR   EMBL; BX641026; CAE46017.1; -; mRNA.
+DR   EMBL; AB209189; BAD92426.1; ALT_SEQ; mRNA.
+DR   EMBL; CR936631; CAI56774.1; -; mRNA.
+DR   EMBL; AK304375; BAG65213.1; -; mRNA.
+DR   EMBL; DQ667174; ABG25919.1; -; Genomic_DNA.
+DR   EMBL; AL359504; CAI14540.1; -; Genomic_DNA.
+DR   EMBL; AL450063; CAI14540.1; JOINED; Genomic_DNA.
+DR   EMBL; AL359504; CAI14541.1; -; Genomic_DNA.
+DR   EMBL; AL450063; CAI14541.1; JOINED; Genomic_DNA.
+DR   EMBL; AL450063; CAI16844.1; -; Genomic_DNA.
+DR   EMBL; AL359504; CAI16844.1; JOINED; Genomic_DNA.
+DR   EMBL; AL450063; CAI16845.1; -; Genomic_DNA.
+DR   EMBL; AL359504; CAI16845.1; JOINED; Genomic_DNA.
+DR   EMBL; AL450063; CAI16846.1; -; Genomic_DNA.
+DR   EMBL; CH471097; EAW73248.1; -; Genomic_DNA.
+DR   EMBL; BC016285; AAH16285.1; -; mRNA.
+DR   EMBL; BC035058; AAH35058.1; -; mRNA.
+DR   EMBL; AY927364; AAX19487.1; -; mRNA.
+DR   EMBL; AY927365; AAX19488.1; -; mRNA.
+DR   EMBL; AY927366; AAX19489.1; -; mRNA.
+DR   EMBL; AY927367; AAX19490.1; -; mRNA.
+DR   EMBL; AY927368; AAX19491.1; -; mRNA.
+DR   EMBL; AF538872; AAN16454.1; -; Genomic_DNA.
+DR   IPI; IPI00376119; -.
+DR   IPI; IPI00395654; -.
+DR   IPI; IPI00414365; -.
+DR   IPI; IPI00645788; -.
+DR   IPI; IPI00737155; -.
+DR   IPI; IPI00738231; -.
+DR   IPI; IPI00739094; -.
+DR   IPI; IPI00739595; -.
+DR   PIR; A34724; OKHUCB.
+DR   RefSeq; NP_002722.1; -.
+DR   RefSeq; NP_891993.1; -.
+DR   RefSeq; NP_997461.1; -.
+DR   UniGene; Hs.487325; -.
+DR   ProteinModelPortal; P22694; -.
+DR   SMR; P22694; 14-351.
+DR   IntAct; P22694; 3.
+DR   MINT; MINT-1178341; -.
+DR   STRING; P22694; -.
+DR   PhosphoSite; P22694; -.
+DR   PRIDE; P22694; -.
+DR   Ensembl; ENST00000370689; ENSP00000359723; ENSG00000142875.
+DR   GeneID; 5567; -.
+DR   KEGG; hsa:5567; -.
+DR   UCSC; uc001djj.1; human.
+DR   UCSC; uc001djl.1; human.
+DR   UCSC; uc001djn.1; human.
+DR   UCSC; uc001djp.1; human.
+DR   CTD; 5567; -.
+DR   GeneCards; GC01P084543; -.
+DR   H-InvDB; HIX0017291; -.
+DR   HGNC; HGNC:9381; PRKACB.
+DR   HPA; CAB010363; -.
+DR   HPA; HPA029754; -.
+DR   MIM; 176892; gene.
+DR   PharmGKB; PA33749; -.
+DR   eggNOG; prNOG06368; -.
+DR   HOVERGEN; HBG108317; -.
+DR   OMA; MAAHKEL; -.
+DR   OrthoDB; EOG9MKR1W; -.
+DR   PhylomeDB; P22694; -.
+DR   BRENDA; 2.7.11.11; 247.
+DR   Pathway_Interaction_DB; p75ntrpathway; p75(NTR)-mediated signaling.
+DR   Reactome; REACT_11061; Signalling by NGF.
+DR   Reactome; REACT_13685; Synaptic Transmission.
+DR   Reactome; REACT_1505; Integration of energy metabolism.
+DR   Reactome; REACT_15295; Opioid Signalling.
+DR   Reactome; REACT_15380; Diabetes pathways.
+DR   Reactome; REACT_22258; Metabolism of lipids and lipoproteins.
+DR   Reactome; REACT_474; Metabolism of carbohydrates.
+DR   NextBio; 21570; -.
+DR   ArrayExpress; P22694; -.
+DR   Bgee; P22694; -.
+DR   Genevestigator; P22694; -.
+DR   GermOnline; ENSG00000142875; Homo sapiens.
+DR   GO; GO:0005952; C:cAMP-dependent protein kinase complex; TAS:UniProtKB.
+DR   GO; GO:0005829; C:cytosol; EXP:Reactome.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IDA:UniProtKB.
+DR   GO; GO:0004691; F:cAMP-dependent protein kinase activity; IDA:UniProtKB.
+DR   GO; GO:0000287; F:magnesium ion binding; IDA:UniProtKB.
+DR   GO; GO:0034199; P:activation of protein kinase A activity; EXP:Reactome.
+DR   GO; GO:0007188; P:G-protein signaling, coupled to cAMP nucleo...; TAS:UniProtKB.
+DR   GO; GO:0009755; P:hormone-mediated signaling pathway; EXP:Reactome.
+DR   GO; GO:0007243; P:intracellular protein kinase cascade; EXP:Reactome.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IDA:UniProtKB.
+DR   InterPro; IPR000961; AGC-kinase_C.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00133; S_TK_X; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS51285; AGC_KINASE_CTER; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Alternative splicing; ATP-binding; cAMP;
+KW   Complete proteome; Cytoplasm; Kinase; Lipoprotein; Myristate;
+KW   Nucleotide-binding; Nucleus; Phosphoprotein; Polymorphism;
+KW   Serine/threonine-protein kinase; Transferase.
+FT   INIT_MET      1      1       Removed (By similarity).
+FT   CHAIN         2    351       cAMP-dependent protein kinase catalytic
+FT                                subunit beta.
+FT                                /FTId=PRO_0000086060.
+FT   DOMAIN       44    298       Protein kinase.
+FT   DOMAIN      299    351       AGC-kinase C-terminal.
+FT   NP_BIND      50     58       ATP (By similarity).
+FT   ACT_SITE    167    167       Proton acceptor (By similarity).
+FT   BINDING      73     73       ATP (By similarity).
+FT   MOD_RES       3      3       Deamidated asparagine (By similarity).
+FT   MOD_RES      69     69       Phosphotyrosine (By similarity).
+FT   MOD_RES     198    198       Phosphothreonine (By similarity).
+FT   MOD_RES     267    267       N6-acetyllysine.
+FT   MOD_RES     339    339       Phosphoserine (By similarity).
+FT   LIPID         2      2       N-myristoyl glycine (By similarity).
+FT   VAR_SEQ       1     16       MGNAATAKKGSEVESV -> MAAYREPPCNQYTGTTTALQK
+FT                                LEGFASRLFHRHSKGTAHDQKTALENDSLHFSEHTALWDRS
+FT                                M (in isoform 2).
+FT                                /FTId=VSP_017364.
+FT   VAR_SEQ       1     15       MGNAATAKKGSEVES -> MSARKSSDASACSSSEISDSF
+FT                                (in isoform 6).
+FT                                /FTId=VSP_017365.
+FT   VAR_SEQ       1     14       MGNAATAKKGSEVE -> MSARKSSDASACSSSEI (in
+FT                                isoform 5).
+FT                                /FTId=VSP_017366.
+FT   VAR_SEQ       1     14       MGNAATAKKGSEVE -> MGLSRKSSDASACSSSEI (in
+FT                                isoform 7).
+FT                                /FTId=VSP_017367.
+FT   VAR_SEQ       1     13       Missing (in isoform 4).
+FT                                /FTId=VSP_017368.
+FT   VAR_SEQ       1     12       Missing (in isoform 3).
+FT                                /FTId=VSP_017369.
+FT   VAR_SEQ      13     16       VESV -> MGLL (in isoform 3).
+FT                                /FTId=VSP_017370.
+FT   VAR_SEQ      14     14       E -> M (in isoform 4).
+FT                                /FTId=VSP_017371.
+FT   VAR_SEQ     256    257       VR -> NF (in isoform 8).
+FT                                /FTId=VSP_036556.
+FT   VAR_SEQ     258    351       Missing (in isoform 8).
+FT                                /FTId=VSP_036557.
+FT   VARIANT     106    106       R -> Q (in dbSNP:rs36117118).
+FT                                /FTId=VAR_040594.
+FT   CONFLICT     80     80       V -> G (in Ref. 3; CAI56774).
+FT   CONFLICT    159    159       H -> N (in Ref. 8; AAH35058).
+FT   CONFLICT    163    163       L -> I (in Ref. 8; AAH35058).
+FT   CONFLICT    233    233       A -> V (in Ref. 3; CAI56774).
+FT   CONFLICT    261    261       H -> N (in Ref. 8; AAH35058).
+SQ   SEQUENCE   351 AA;  40623 MW;  5C7443FBBA1C9BEC CRC64;
+     MGNAATAKKG SEVESVKEFL AKAKEDFLKK WENPTQNNAG LEDFERKKTL GTGSFGRVML
+     VKHKATEQYY AMKILDKQKV VKLKQIEHTL NEKRILQAVN FPFLVRLEYA FKDNSNLYMV
+     MEYVPGGEMF SHLRRIGRFS EPHARFYAAQ IVLTFEYLHS LDLIYRDLKP ENLLIDHQGY
+     IQVTDFGFAK RVKGRTWTLC GTPEYLAPEI ILSKGYNKAV DWWALGVLIY EMAAGYPPFF
+     ADQPIQIYEK IVSGKVRFPS HFSSDLKDLL RNLLQVDLTK RFGNLKNGVS DIKTHKWFAT
+     TDWIAIYQRK VEAPFIPKFR GSGDTSNFDD YEEEDIRVSI TEKCAKEFGE F
+//

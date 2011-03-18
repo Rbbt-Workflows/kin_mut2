@@ -1,0 +1,227 @@
+ID   TEX14_HUMAN             Reviewed;        1497 AA.
+AC   Q8IWB6; A6NH19; Q7RTP3; Q8ND97; Q9BXT9;
+DT   25-JUL-2006, integrated into UniProtKB/Swiss-Prot.
+DT   25-JUL-2006, sequence version 2.
+DT   05-OCT-2010, entry version 73.
+DE   RecName: Full=Testis-expressed protein 14;
+DE   AltName: Full=Protein kinase-like protein SgK307;
+DE   AltName: Full=Sugen kinase 307;
+DE   AltName: Full=Testis-expressed sequence 14;
+GN   Name=TEX14; Synonyms=SGK307;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 3).
+RC   TISSUE=Testis;
+RX   PubMed=17974005; DOI=10.1186/1471-2164-8-399;
+RA   Bechtel S., Rosenfelder H., Duda A., Schmidt C.P., Ernst U.,
+RA   Wellenreuther R., Mehrle A., Schuster C., Bahr A., Bloecker H.,
+RA   Heubner D., Hoerlein A., Michel G., Wedler H., Koehrer K.,
+RA   Ottenwaelder B., Poustka A., Wiemann S., Schupp I.;
+RT   "The full-ORF clone resource of the German cDNA consortium.";
+RL   BMC Genomics 8:399-399(2007).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=16625196; DOI=10.1038/nature04689;
+RA   Zody M.C., Garber M., Adams D.J., Sharpe T., Harrow J., Lupski J.R.,
+RA   Nicholson C., Searle S.M., Wilming L., Young S.K., Abouelleil A.,
+RA   Allen N.R., Bi W., Bloom T., Borowsky M.L., Bugalter B.E., Butler J.,
+RA   Chang J.L., Chen C.-K., Cook A., Corum B., Cuomo C.A., de Jong P.J.,
+RA   DeCaprio D., Dewar K., FitzGerald M., Gilbert J., Gibson R.,
+RA   Gnerre S., Goldstein S., Grafham D.V., Grocock R., Hafez N.,
+RA   Hagopian D.S., Hart E., Norman C.H., Humphray S., Jaffe D.B.,
+RA   Jones M., Kamal M., Khodiyar V.K., LaButti K., Laird G., Lehoczky J.,
+RA   Liu X., Lokyitsang T., Loveland J., Lui A., Macdonald P., Major J.E.,
+RA   Matthews L., Mauceli E., McCarroll S.A., Mihalev A.H., Mudge J.,
+RA   Nguyen C., Nicol R., O'Leary S.B., Osoegawa K., Schwartz D.C.,
+RA   Shaw-Smith C., Stankiewicz P., Steward C., Swarbreck D.,
+RA   Venkataraman V., Whittaker C.A., Yang X., Zimmer A.R., Bradley A.,
+RA   Hubbard T., Birren B.W., Rogers J., Lander E.S., Nusbaum C.;
+RT   "DNA sequence of human chromosome 17 and analysis of rearrangement in
+RT   the human lineage.";
+RL   Nature 440:1045-1049(2006).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 480-1497 (ISOFORM 3), AND TISSUE
+RP   SPECIFICITY.
+RC   TISSUE=Testis;
+RX   MEDLINE=21175748; PubMed=11279525; DOI=10.1038/86927;
+RA   Wang P.J., McCarrey J.R., Yang F., Page D.C.;
+RT   "An abundance of X-linked genes expressed in spermatogonia.";
+RL   Nat. Genet. 27:422-426(2001).
+RN   [5]
+RP   IDENTIFICATION, AND ALTERNATIVE SPLICING (ISOFORM 2).
+RX   MEDLINE=22597567; PubMed=12711554; DOI=10.1016/S1567-133X(03)00036-X;
+RA   Wu M.-H., Rajkovic A., Burns K.H., Yan W., Lin Y.-N., Matzuk M.M.;
+RT   "Sequence and expression of testis-expressed gene 14 (Tex14): a gene
+RT   encoding a protein kinase preferentially expressed during
+RT   spermatogenesis.";
+RL   Gene Expr. Patterns 3:231-236(2003).
+RN   [6]
+RP   VARIANTS [LARGE SCALE ANALYSIS] GLY-88; GLU-321; CYS-443 AND MET-559.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Required for spermatogenesis and male fertility. May be
+CC       required for normal structure of the intercellular bridge that
+CC       connects spermatocytes and spermatogonia. Has no protein kinase
+CC       activity (in vitro) (By similarity).
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm (By similarity). Note=Detected in
+CC       the intercellular bridges that connect male germ cell daughter
+CC       cells after cell division (By similarity).
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=3;
+CC       Name=1;
+CC         IsoId=Q8IWB6-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q8IWB6-2; Sequence=VSP_019868;
+CC       Name=3;
+CC         IsoId=Q8IWB6-3; Sequence=VSP_019868, VSP_019869;
+CC   -!- TISSUE SPECIFICITY: Detected in testis.
+CC   -!- DOMAIN: The protein kinase domain is predicted to be catalytically
+CC       inactive.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily.
+CC   -!- SIMILARITY: Contains 3 ANK repeats.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- CAUTION: Ser-376 is present instead of the conserved Asp which is
+CC       expected to be an active site residue.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAK31980.1; Type=Erroneous initiation;
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AL834143; CAD38856.2; -; mRNA.
+DR   EMBL; AC005666; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; BC040526; AAH40526.1; -; mRNA.
+DR   EMBL; AF285601; AAK31980.1; ALT_INIT; mRNA.
+DR   EMBL; BK000998; DAA01359.1; -; mRNA.
+DR   IPI; IPI00217259; -.
+DR   IPI; IPI00783967; -.
+DR   IPI; IPI00784285; -.
+DR   RefSeq; NP_112562.3; -.
+DR   RefSeq; NP_938207.2; -.
+DR   UniGene; Hs.390221; -.
+DR   ProteinModelPortal; Q8IWB6; -.
+DR   SMR; Q8IWB6; 24-130, 255-529.
+DR   STRING; Q8IWB6; -.
+DR   PhosphoSite; Q8IWB6; -.
+DR   PRIDE; Q8IWB6; -.
+DR   Ensembl; ENST00000240361; ENSP00000240361; ENSG00000121101.
+DR   GeneID; 56155; -.
+DR   KEGG; hsa:56155; -.
+DR   UCSC; uc002iwr.1; human.
+DR   UCSC; uc002iws.1; human.
+DR   UCSC; uc010dcz.1; human.
+DR   CTD; 56155; -.
+DR   GeneCards; GC17M056634; -.
+DR   HGNC; HGNC:11737; TEX14.
+DR   HPA; HPA030620; -.
+DR   MIM; 605792; gene.
+DR   PharmGKB; PA36454; -.
+DR   eggNOG; prNOG05481; -.
+DR   HOGENOM; HBG282275; -.
+DR   HOVERGEN; HBG094035; -.
+DR   InParanoid; Q8IWB6; -.
+DR   OMA; FSFFSGP; -.
+DR   OrthoDB; EOG9SN480; -.
+DR   NextBio; 61762; -.
+DR   ArrayExpress; Q8IWB6; -.
+DR   Bgee; Q8IWB6; -.
+DR   CleanEx; HS_TEX14; -.
+DR   Genevestigator; Q8IWB6; -.
+DR   GermOnline; ENSG00000121101; Homo sapiens.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004672; F:protein kinase activity; IEA:InterPro.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   InterPro; IPR002110; Ankyrin_rpt.
+DR   InterPro; IPR020683; Ankyrin_rpt-contain_dom.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR001245; Ser-Thr/Tyr-Pkinase.
+DR   Gene3D; G3DSA:1.25.40.20; ANK; 1.
+DR   Pfam; PF07714; Pkinase_Tyr; 1.
+DR   SMART; SM00248; ANK; 3.
+DR   SUPFAM; SSF48403; ANK; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS50297; ANK_REP_REGION; 1.
+DR   PROSITE; PS50088; ANK_REPEAT; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; ANK repeat; ATP-binding; Coiled coil;
+KW   Complete proteome; Cytoplasm; Nucleotide-binding; Polymorphism;
+KW   Repeat.
+FT   CHAIN         1   1497       Testis-expressed protein 14.
+FT                                /FTId=PRO_0000246995.
+FT   REPEAT       27     54       ANK 1.
+FT   REPEAT       55     84       ANK 2.
+FT   REPEAT       88    117       ANK 3.
+FT   DOMAIN      227    518       Protein kinase.
+FT   NP_BIND     233    241       ATP (By similarity).
+FT   COILED      747    778       Potential.
+FT   BINDING     273    273       ATP (By similarity).
+FT   VAR_SEQ     213    218       Missing (in isoform 2 and isoform 3).
+FT                                /FTId=VSP_019868.
+FT   VAR_SEQ    1064   1103       Missing (in isoform 3).
+FT                                /FTId=VSP_019869.
+FT   VARIANT      88     88       D -> G (in dbSNP:rs56292204).
+FT                                /FTId=VAR_041388.
+FT   VARIANT     321    321       K -> E (in a gastric adenocarcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_041389.
+FT   VARIANT     443    443       S -> C.
+FT                                /FTId=VAR_041390.
+FT   VARIANT     559    559       I -> M.
+FT                                /FTId=VAR_041391.
+FT   CONFLICT   1326   1326       H -> R (in Ref. 4; AAK31980).
+FT   CONFLICT   1387   1387       L -> P (in Ref. 1; CAD38856).
+SQ   SEQUENCE   1497 AA;  167901 MW;  D7DC446A1A18FC4D CRC64;
+     MSRAVRLPVP CPVQLGTLRN DSLEAQLHEY VKQGNYVKVK KILKKGIYVD AVNSLGQTAL
+     FVAALLGLRK FVDVLVDYGS DPNHRCFDGS TPVHAAAFSG NQWILSKLLD AGGDLRLHDE
+     RGQNPKTWAL TAGKERSTQI VEFMQRCASH MQAIIQGFSY DLLKKIDSPQ RLVYSPSWCG
+     GLVQGNPNGS PNRLLKAGVI SAQNIYSFGF GKAMPWFQFY LTGATQMAYL GSLPVIGEKE
+     VIQADDEPTF SFFSGPYMVM TNLVWNGSRV TVKELNLPTH PHCSRLRLAD LLIAEQEHSS
+     KLRHPYLLQL MAVCLSQDLE KTRLVYERIT IGTLFSVLHE RRSQFPVLHM EVIVHLLLQI
+     SDALRYLHFQ GFIHRSLSSY AVHIISPGEA RLTNLEYMLE SEDRGVQRDL TRVPLPTQLY
+     NWAAPEVILQ KAATVKSDIY SFSMIMQEIL TDDIPWKGLD GSVVKKAVVS GNYLEADVRL
+     PKPYYDIVKS GIHVKQKDRT MNLQDIRYIL KNDLKDFTGA QRTQPTESPR VQRYGLHPDV
+     NVYLGLTSEH PRETPDMEII ELKEMGSQPH SPRVHSLFTE GTLDPQAPDP CLMARETQNQ
+     DAPCPAPFMA EEASSPSTGQ PSLCSFEINE IYSGCLILED DIEEPPGAAS SLEADGPNQV
+     DELKSMEEEL DKMEREACCF GSEDESSSKA ETEYSFDDWD WQNGSLSSLS LPESTREAKS
+     NLNNMSTTEE YLISKCVLDL KIMQTIMHEN DDRLRNIEQI LDEVEMKQKE QEERMSLWAT
+     SREFTNAYKL PLAVGPPSLN YIPPVLQLSG GQKPDTSGNY PTLPRFPRML PTLCDPGKQN
+     TDEQFQCTQG AKDSLETSRI QNTSSQGRPR ESTAQAKATQ FNSALFTLSS HRQGPSASPS
+     CHWDSTRMSV EPVSSEIYNA ESRNKDDGKV HLKWKMEVKE MAKKAATGQL TVPPWHPQSS
+     LTLESEAENE PDALLQPPIR SPENTDWQRV IEYHRENDEP RGNGKFDKTG NNDCDSDQHG
+     RQPRLGSFTS IRHPSPRQKE QPEHSEAFQA SSDTLVAVEK SYSHQSMQST CSPESSEDIT
+     DEFLTPDGEY FYSSTAQENL ALETSSPIEE DFEGIQGAFA QPQVSGEEKF QMRKILGKNA
+     EILPRSQFQP VRSTEDEQEE TSKESPKELK EKDISLTDIQ DLSSISYEPD SSFKEASCKT
+     PKINHAPTSV STPLSPGSVS SAASQYKDCL ESITFQVKTE FASCWNSQEF IQTLSDDFIS
+     VRERAKKLDS LLTSSETPPS RLTGLKRLSS FIGAGSPSLV KACDSSPPHA TQRRSLPKVE
+     AFSQHHIDEL PPPSQELLDD IELLKQQQGS STVLHENTAS DGGGTANDQR HLEEQETDSK
+     KEDSSMLLSK ETEDLGEDTE RAHSTLDEDL ERWLQPPEES VELQDLPKGS ERETNIKDQK
+     VGEEKRKRED SITPERRKSE GVLGTSEEDE LKSCFWKRLG WSESSRIIVL DQSDLSD
+//

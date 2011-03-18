@@ -1,0 +1,272 @@
+ID   MAPK5_HUMAN             Reviewed;         473 AA.
+AC   Q8IW41; B3KVA5; O60491; Q86X46; Q9BVX9; Q9UG86;
+DT   13-SEP-2004, integrated into UniProtKB/Swiss-Prot.
+DT   13-SEP-2004, sequence version 2.
+DT   05-OCT-2010, entry version 81.
+DE   RecName: Full=MAP kinase-activated protein kinase 5;
+DE            Short=MAPK-activated protein kinase 5;
+DE            Short=MAPKAP kinase 5;
+DE            Short=MAPKAPK-5;
+DE            EC=2.7.11.1;
+DE   AltName: Full=p38-regulated/activated protein kinase;
+GN   Name=MAPKAPK5; Synonyms=PRAK;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] (ISOFORM 2), MUTAGENESIS OF THR-182,
+RP   FUNCTION, TISSUE SPECIFICITY, PHOSPHORYLATION AT THR-182, AND ENZYME
+RP   REGULATION.
+RC   TISSUE=Placenta;
+RX   MEDLINE=98292457; PubMed=9628874; DOI=10.1093/emboj/17.12.3372;
+RA   New L., Jiang Y., Zhao M., Liu K., Zhu W., Flood L.J., Kato Y.,
+RA   Parry G.C.N., Han J.;
+RT   "PRAK, a novel protein kinase regulated by the p38 MAP kinase.";
+RL   EMBO J. 17:3372-3384(1998).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2).
+RX   PubMed=14702039; DOI=10.1038/ng1285;
+RA   Ota T., Suzuki Y., Nishikawa T., Otsuki T., Sugiyama T., Irie R.,
+RA   Wakamatsu A., Hayashi K., Sato H., Nagai K., Kimura K., Makita H.,
+RA   Sekine M., Obayashi M., Nishi T., Shibahara T., Tanaka T., Ishii S.,
+RA   Yamamoto J., Saito K., Kawai Y., Isono Y., Nakamura Y., Nagahari K.,
+RA   Murakami K., Yasuda T., Iwayanagi T., Wagatsuma M., Shiratori A.,
+RA   Sudo H., Hosoiri T., Kaku Y., Kodaira H., Kondo H., Sugawara M.,
+RA   Takahashi M., Kanda K., Yokoi T., Furuya T., Kikkawa E., Omura Y.,
+RA   Abe K., Kamihara K., Katsuta N., Sato K., Tanikawa M., Yamazaki M.,
+RA   Ninomiya K., Ishibashi T., Yamashita H., Murakawa K., Fujimori K.,
+RA   Tanai H., Kimata M., Watanabe M., Hiraoka S., Chiba Y., Ishida S.,
+RA   Ono Y., Takiguchi S., Watanabe S., Yosida M., Hotuta T., Kusano J.,
+RA   Kanehori K., Takahashi-Fujii A., Hara H., Tanase T.-O., Nomura Y.,
+RA   Togiya S., Komai F., Hara R., Takeuchi K., Arita M., Imose N.,
+RA   Musashino K., Yuuki H., Oshima A., Sasaki N., Aotsuka S.,
+RA   Yoshikawa Y., Matsunawa H., Ichihara T., Shiohata N., Sano S.,
+RA   Moriya S., Momiyama H., Satoh N., Takami S., Terashima Y., Suzuki O.,
+RA   Nakagawa S., Senoh A., Mizoguchi H., Goto Y., Shimizu F., Wakebe H.,
+RA   Hishigaki H., Watanabe T., Sugiyama A., Takemoto M., Kawakami B.,
+RA   Yamazaki M., Watanabe K., Kumagai A., Itakura S., Fukuzumi Y.,
+RA   Fujimori Y., Komiyama M., Tashiro H., Tanigami A., Fujiwara T.,
+RA   Ono T., Yamada K., Fujii Y., Ozaki K., Hirao M., Ohmori Y.,
+RA   Kawabata A., Hikiji T., Kobatake N., Inagaki H., Ikema Y., Okamoto S.,
+RA   Okitani R., Kawakami T., Noguchi S., Itoh T., Shigeta K., Senba T.,
+RA   Matsumura K., Nakajima Y., Mizuno T., Morinaga M., Sasaki M.,
+RA   Togashi T., Oyama M., Hata H., Watanabe M., Komatsu T.,
+RA   Mizushima-Sugano J., Satoh T., Shirai Y., Takahashi Y., Nakagawa K.,
+RA   Okumura K., Nagase T., Nomura N., Kikuchi H., Masuho Y., Yamashita R.,
+RA   Nakai K., Yada T., Nakamura Y., Ohara O., Isogai T., Sugano S.;
+RT   "Complete sequencing and characterization of 21,243 full-length human
+RT   cDNAs.";
+RL   Nat. Genet. 36:40-45(2004).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1 AND 2).
+RC   TISSUE=Cervix, Pancreas, and Placenta;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 133-473 (ISOFORM 2).
+RC   TISSUE=Brain;
+RX   PubMed=17974005; DOI=10.1186/1471-2164-8-399;
+RA   Bechtel S., Rosenfelder H., Duda A., Schmidt C.P., Ernst U.,
+RA   Wellenreuther R., Mehrle A., Schuster C., Bahr A., Bloecker H.,
+RA   Heubner D., Hoerlein A., Michel G., Wedler H., Koehrer K.,
+RA   Ottenwaelder B., Poustka A., Wiemann S., Schupp I.;
+RT   "The full-ORF clone resource of the German cDNA consortium.";
+RL   BMC Genomics 8:399-399(2007).
+RN   [6]
+RP   INTERACTION WITH SQSTM1, ENZYME REGULATION, AND SUBCELLULAR LOCATION.
+RX   PubMed=10708586; DOI=10.1006/bbrc.2000.2333;
+RA   Sudo T., Maruyama M., Osada H.;
+RT   "p62 functions as a p38 MAP kinase regulator.";
+RL   Biochem. Biophys. Res. Commun. 269:521-525(2000).
+RN   [7]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-182, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [8]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-214 AND SER-472, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Embryonic kidney;
+RX   PubMed=19413330; DOI=10.1021/ac9004309;
+RA   Gauci S., Helbig A.O., Slijper M., Krijgsveld J., Heck A.J.,
+RA   Mohammed S.;
+RT   "Lys-N and trypsin cover complementary parts of the phosphoproteome in
+RT   a refined SCX-based approach.";
+RL   Anal. Chem. 81:4493-4501(2009).
+RN   [9]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-182 AND SER-472, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=19690332; DOI=10.1126/scisignal.2000007;
+RA   Mayya V., Lundgren D.H., Hwang S.-I., Rezaul K., Wu L., Eng J.K.,
+RA   Rodionov V., Han D.K.;
+RT   "Quantitative phosphoproteomic analysis of T cell receptor signaling
+RT   reveals system-wide modulation of protein-protein interactions.";
+RL   Sci. Signal. 2:RA46-RA46(2009).
+RN   [10]
+RP   VARIANTS [LARGE SCALE ANALYSIS] ILE-67 AND LYS-282.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Mediates stress-induced small heat shock protein 27
+CC       phosphorylation.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- ENZYME REGULATION: p38 alpha and beta-dependent phosphorylation
+CC       increases its activity. Activated by stress-related extracellular
+CC       stimuli; such as H(2)O(2), arsenite, anisomycin TNF alpha and also
+CC       PMA and the calcium ionophore A23187; but to a lesser extent. In
+CC       vitro, activated by SQSTM1.
+CC   -!- SUBUNIT: Interacts with SQSTM1.
+CC   -!- INTERACTION:
+CC       P04637:TP53; NbExp=1; IntAct=EBI-1201460, EBI-366083;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm (Probable). Nucleus. Note=Also
+CC       observed in the nucleus.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q8IW41-1; Sequence=Displayed;
+CC         Note=No experimental confirmation available;
+CC       Name=2;
+CC         IsoId=Q8IW41-2; Sequence=VSP_011597;
+CC   -!- TISSUE SPECIFICITY: Expressed ubiquitously.
+CC   -!- PTM: Phosphorylated on Thr-182; which is the regulatory
+CC       phosphorylation site and is located on the T-loop/loop 12.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CAMK
+CC       Ser/Thr protein kinase family.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF032437; AAC39863.1; -; Genomic_DNA.
+DR   EMBL; AK122767; BAG53717.1; -; mRNA.
+DR   EMBL; CH471054; EAW97981.1; -; Genomic_DNA.
+DR   EMBL; BC000833; AAH00833.1; -; mRNA.
+DR   EMBL; BC041049; AAH41049.1; -; mRNA.
+DR   EMBL; BC047284; AAH47284.2; -; mRNA.
+DR   EMBL; AL110301; CAB53747.1; -; mRNA.
+DR   IPI; IPI00160672; -.
+DR   IPI; IPI00217131; -.
+DR   PIR; T34519; T34519.
+DR   RefSeq; NP_003659.2; -.
+DR   RefSeq; NP_620777.1; -.
+DR   UniGene; Hs.413901; -.
+DR   ProteinModelPortal; Q8IW41; -.
+DR   SMR; Q8IW41; 10-362.
+DR   IntAct; Q8IW41; 2.
+DR   STRING; Q8IW41; -.
+DR   PhosphoSite; Q8IW41; -.
+DR   PRIDE; Q8IW41; -.
+DR   Ensembl; ENST00000202788; ENSP00000202788; ENSG00000089022.
+DR   GeneID; 8550; -.
+DR   KEGG; hsa:8550; -.
+DR   UCSC; uc001tsz.1; human.
+DR   UCSC; uc001tta.1; human.
+DR   CTD; 8550; -.
+DR   GeneCards; GC12P112282; -.
+DR   HGNC; HGNC:6889; MAPKAPK5.
+DR   HPA; CAB004546; -.
+DR   HPA; HPA015515; -.
+DR   MIM; 606723; gene.
+DR   PharmGKB; PA30633; -.
+DR   eggNOG; prNOG06554; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG106948; -.
+DR   InParanoid; Q8IW41; -.
+DR   OMA; EYSINWT; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   Pathway_Interaction_DB; p38alphabetadownstreampathway; Signaling mediated by p38-alpha and p38-beta.
+DR   NextBio; 32036; -.
+DR   ArrayExpress; Q8IW41; -.
+DR   Bgee; Q8IW41; -.
+DR   CleanEx; HS_MAPKAPK5; -.
+DR   Genevestigator; Q8IW41; -.
+DR   GermOnline; ENSG00000089022; Homo sapiens.
+DR   GO; GO:0005737; C:cytoplasm; IDA:HPA.
+DR   GO; GO:0005634; C:nucleus; IDA:HPA.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004708; F:MAP kinase kinase activity; TAS:ProtInc.
+DR   GO; GO:0005515; F:protein binding; IPI:IntAct.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; TAS:ProtInc.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   GO; GO:0007165; P:signal transduction; TAS:ProtInc.
+DR   InterPro; IPR020636; Ca/CaM-dep_prot_kinase-like.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR020646; MAP_kin-act_prot_kinase.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   PANTHER; PTHR22982; Ca/CaM-dep_prot_kinase-like; 1.
+DR   PANTHER; PTHR22982:SF22; MAP_kin-act_prot_kinase; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; FALSE_NEG.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; ATP-binding; Coiled coil; Complete proteome;
+KW   Cytoplasm; Kinase; Nucleotide-binding; Nucleus; Phosphoprotein;
+KW   Polymorphism; Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    473       MAP kinase-activated protein kinase 5.
+FT                                /FTId=PRO_0000086296.
+FT   DOMAIN       22    304       Protein kinase.
+FT   NP_BIND      28     36       ATP (By similarity).
+FT   COILED      409    440       Potential.
+FT   ACT_SITE    148    148       Proton acceptor (By similarity).
+FT   BINDING      51     51       ATP (By similarity).
+FT   MOD_RES     182    182       Phosphothreonine.
+FT   MOD_RES     214    214       Phosphothreonine.
+FT   MOD_RES     472    472       Phosphoserine.
+FT   VAR_SEQ     407    408       Missing (in isoform 2).
+FT                                /FTId=VSP_011597.
+FT   VARIANT      67     67       M -> I (in dbSNP:rs34132040).
+FT                                /FTId=VAR_040758.
+FT   VARIANT     282    282       R -> K (in dbSNP:rs34843470).
+FT                                /FTId=VAR_040759.
+FT   MUTAGEN     182    182       T->A: No p38 beta-induced activation.
+FT   CONFLICT    273    273       I -> T (in Ref. 5; CAB53747).
+FT   CONFLICT    291    291       E -> R (in Ref. 1; AAC39863).
+SQ   SEQUENCE   473 AA;  54220 MW;  F3D9DDC83CC0C49D CRC64;
+     MSEESDMDKA IKETSILEEY SINWTQKLGA GISGPVRVCV KKSTQERFAL KILLDRPKAR
+     NEVRLHMMCA THPNIVQIIE VFANSVQFPH ESSPRARLLI VMEMMEGGEL FHRISQHRHF
+     TEKQASQVTK QIALALRHCH LLNIAHRDLK PENLLFKDNS LDAPVKLCDF GFAKIDQGDL
+     MTPQFTPYYV APQVLEAQRR HQKEKSGIIP TSPTPYTYNK SCDLWSLGVI IYVMLCGYPP
+     FYSKHHSRTI PKDMRRKIMT GSFEFPEEEW SQISEMAKDV VRKLLKVKPE ERLTIEGVLD
+     HPWLNSTEAL DNVLPSAQLM MDKAVVAGIQ QAHAEQLANM RIQDLKVSLK PLHSVNNPIL
+     RKRKLLGTKP KDSVYIHDHE NGAEDSNVAL EKLRDVIAQC ILPQAGKGEN EDEKLNEVMQ
+     EAWKYNRECK LLRDTLQSFS WNGRGFTDKV DRLKLAEIVK QVIEEQTTSH ESQ
+//

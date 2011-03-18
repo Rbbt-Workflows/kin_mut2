@@ -1,0 +1,216 @@
+ID   DCLK2_HUMAN             Reviewed;         766 AA.
+AC   Q8N568; Q59GC8; Q8N399;
+DT   15-FEB-2005, integrated into UniProtKB/Swiss-Prot.
+DT   18-MAY-2010, sequence version 4.
+DT   02-NOV-2010, entry version 73.
+DE   RecName: Full=Serine/threonine-protein kinase DCLK2;
+DE            EC=2.7.11.1;
+DE   AltName: Full=CaMK-like CREB regulatory kinase 2;
+DE            Short=CL2;
+DE            Short=CLICK-II;
+DE            Short=CLICK2;
+DE   AltName: Full=Doublecortin domain-containing protein 3B;
+DE   AltName: Full=Doublecortin-like and CAM kinase-like 2;
+DE   AltName: Full=Doublecortin-like kinase 2;
+GN   Name=DCLK2; Synonyms=DCAMKL2, DCDC3B, DCK2;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   TISSUE=Brain;
+RA   Totoki Y., Toyoda A., Takeda T., Sakaki Y., Tanaka A., Yokoyama S.,
+RA   Ohara O., Nagase T., Kikuno R.F.;
+RL   Submitted (MAR-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=15815621; DOI=10.1038/nature03466;
+RA   Hillier L.W., Graves T.A., Fulton R.S., Fulton L.A., Pepin K.H.,
+RA   Minx P., Wagner-McPherson C., Layman D., Wylie K., Sekhon M.,
+RA   Becker M.C., Fewell G.A., Delehaunty K.D., Miner T.L., Nash W.E.,
+RA   Kremitzki C., Oddy L., Du H., Sun H., Bradshaw-Cordum H., Ali J.,
+RA   Carter J., Cordes M., Harris A., Isak A., van Brunt A., Nguyen C.,
+RA   Du F., Courtney L., Kalicki J., Ozersky P., Abbott S., Armstrong J.,
+RA   Belter E.A., Caruso L., Cedroni M., Cotton M., Davidson T., Desai A.,
+RA   Elliott G., Erb T., Fronick C., Gaige T., Haakenson W., Haglund K.,
+RA   Holmes A., Harkins R., Kim K., Kruchowski S.S., Strong C.M.,
+RA   Grewal N., Goyea E., Hou S., Levy A., Martinka S., Mead K.,
+RA   McLellan M.D., Meyer R., Randall-Maher J., Tomlinson C.,
+RA   Dauphin-Kohlberg S., Kozlowicz-Reilly A., Shah N.,
+RA   Swearengen-Shahid S., Snider J., Strong J.T., Thompson J., Yoakum M.,
+RA   Leonard S., Pearman C., Trani L., Radionenko M., Waligorski J.E.,
+RA   Wang C., Rock S.M., Tin-Wollam A.-M., Maupin R., Latreille P.,
+RA   Wendl M.C., Yang S.-P., Pohl C., Wallis J.W., Spieth J., Bieri T.A.,
+RA   Berkowicz N., Nelson J.O., Osborne J., Ding L., Meyer R., Sabo A.,
+RA   Shotland Y., Sinha P., Wohldmann P.E., Cook L.L., Hickenbotham M.T.,
+RA   Eldred J., Williams D., Jones T.A., She X., Ciccarelli F.D.,
+RA   Izaurralde E., Taylor J., Schmutz J., Myers R.M., Cox D.R., Huang X.,
+RA   McPherson J.D., Mardis E.R., Clifton S.W., Warren W.C.,
+RA   Chinwalla A.T., Eddy S.R., Marra M.A., Ovcharenko I., Furey T.S.,
+RA   Miller W., Eichler E.E., Bork P., Suyama M., Torrents D.,
+RA   Waterston R.H., Wilson R.K.;
+RT   "Generation and annotation of the DNA sequences of human chromosomes 2
+RT   and 4.";
+RL   Nature 434:724-731(2005).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 68-766 (ISOFORM 3).
+RC   TISSUE=Amygdala;
+RX   PubMed=17974005; DOI=10.1186/1471-2164-8-399;
+RA   Bechtel S., Rosenfelder H., Duda A., Schmidt C.P., Ernst U.,
+RA   Wellenreuther R., Mehrle A., Schuster C., Bahr A., Bloecker H.,
+RA   Heubner D., Hoerlein A., Michel G., Wedler H., Koehrer K.,
+RA   Ottenwaelder B., Poustka A., Wiemann S., Schupp I.;
+RT   "The full-ORF clone resource of the German cDNA consortium.";
+RL   BMC Genomics 8:399-399(2007).
+RN   [4]
+RP   VARIANTS [LARGE SCALE ANALYSIS] CYS-119; HIS-372 AND VAL-583.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Protein kinase with a significantly reduced Ca2+/CAM
+CC       affinity and dependence compared to other members of the CaMK
+CC       family. May play a role in the down-regulation of CRE-dependent
+CC       gene activation probably by phosphorylation of the CREB
+CC       coactivator CRTC2/TORC2 and the resulting retention of TORC2 in
+CC       the cytoplasm (By similarity).
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- SUBUNIT: Binds to and stabilizes microtubules (By similarity).
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytoskeleton. Note=Colocalizes
+CC       with microtubules (By similarity).
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=3;
+CC       Name=1;
+CC         IsoId=Q8N568-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q8N568-2; Sequence=VSP_012794;
+CC         Note=By homology to mouse isoform 2;
+CC       Name=3;
+CC         IsoId=Q8N568-3; Sequence=VSP_012793;
+CC   -!- DOMAIN: The doublecortin domains are involved in the
+CC       colocalization with microtubules (By similarity).
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CAMK
+CC       Ser/Thr protein kinase family. CaMK subfamily.
+CC   -!- SIMILARITY: Contains 2 doublecortin domains.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=BAD92418.1; Type=Erroneous initiation; Note=Translation N-terminally shortened;
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AB209181; BAD92418.1; ALT_INIT; mRNA.
+DR   EMBL; AC093748; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AC105343; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AC108934; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AC118064; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AL834498; CAD39156.1; -; mRNA.
+DR   IPI; IPI00296360; -.
+DR   IPI; IPI00552471; -.
+DR   IPI; IPI00552604; -.
+DR   RefSeq; NP_001035350.2; -.
+DR   UniGene; Hs.591683; -.
+DR   ProteinModelPortal; Q8N568; -.
+DR   SMR; Q8N568; 64-169, 191-293, 386-687.
+DR   PhosphoSite; Q8N568; -.
+DR   Ensembl; ENST00000296550; ENSP00000296550; ENSG00000170390.
+DR   GeneID; 166614; -.
+DR   KEGG; hsa:166614; -.
+DR   UCSC; uc003ilm.2; human.
+DR   UCSC; uc003ilo.2; human.
+DR   CTD; 166614; -.
+DR   GeneCards; GC04P150999; -.
+DR   H-InvDB; HIX0004559; -.
+DR   HGNC; HGNC:19002; DCLK2.
+DR   HPA; HPA015770; -.
+DR   MIM; 613166; gene.
+DR   HOVERGEN; HBG003790; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   NextBio; 88597; -.
+DR   ArrayExpress; Q8N568; -.
+DR   Bgee; Q8N568; -.
+DR   CleanEx; HS_DCLK2; -.
+DR   Genevestigator; Q8N568; -.
+DR   GermOnline; ENSG00000170390; Homo sapiens.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-KW.
+DR   GO; GO:0005856; C:cytoskeleton; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   InterPro; IPR020636; Ca/CaM-dep_prot_kinase-like.
+DR   InterPro; IPR003533; Doublecortin_dom.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR020649; Ser/Thr_prot_kinase_DCLK.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Gene3D; G3DSA:3.10.20.230; G3DSA:3.10.20.230; 2.
+DR   PANTHER; PTHR22982; Ca/CaM-dep_prot_kinase-like; 1.
+DR   PANTHER; PTHR22982:SF27; Ser/Thr_prot_kinase_DCLK; 1.
+DR   Pfam; PF03607; DCX; 2.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00537; DCX; 2.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS50309; DC; 2.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; ATP-binding; Complete proteome; Cytoplasm;
+KW   Cytoskeleton; Kinase; Nucleotide-binding; Phosphoprotein;
+KW   Polymorphism; Repeat; Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    766       Serine/threonine-protein kinase DCLK2.
+FT                                /FTId=PRO_0000085922.
+FT   DOMAIN       72    158       Doublecortin 1.
+FT   DOMAIN      197    280       Doublecortin 2.
+FT   DOMAIN      394    651       Protein kinase.
+FT   NP_BIND     400    408       ATP (By similarity).
+FT   COMPBIAS    293    362       Ser-rich.
+FT   COMPBIAS    713    753       Pro-rich.
+FT   ACT_SITE    515    515       Proton acceptor (By similarity).
+FT   BINDING     423    423       ATP (By similarity).
+FT   MOD_RES       6      6       Phosphoserine (By similarity).
+FT   VAR_SEQ     321    321       V -> VKRGGHYSSAYSTAKSPV (in isoform 3).
+FT                                /FTId=VSP_012793.
+FT   VAR_SEQ     352    352       Missing (in isoform 2).
+FT                                /FTId=VSP_012794.
+FT   VARIANT     119    119       G -> C (in dbSNP:rs56327537).
+FT                                /FTId=VAR_040441.
+FT   VARIANT     372    372       R -> H (in dbSNP:rs34386880).
+FT                                /FTId=VAR_040442.
+FT   VARIANT     583    583       I -> V (in dbSNP:rs35745104).
+FT                                /FTId=VAR_040443.
+FT   CONFLICT    694    694       A -> V (in Ref. 3; CAD39156).
+FT   CONFLICT    748    748       P -> C (in Ref. 1; BAD92418 and 3;
+FT                                CAD39156).
+SQ   SEQUENCE   766 AA;  83606 MW;  024F3223874AE83C CRC64;
+     MASTRSIELE HFEERDKRPR PGSRRGAPSS SGGSSSSGPK GNGLIPSPAH SAHCSFYRTR
+     TLQALSSEKK AKKARFYRNG DRYFKGLVFA ISSDRFRSFD ALLIELTRSL SDNVNLPQGV
+     RTIYTIDGSR KVTSLDELLE GESYVCASNE PFRKVDYTKN INPNWSVNIK GGTSRALAAA
+     SSVKSEVKES KDFIKPKLVT VIRSGVKPRK AVRILLNKKT AHSFEQVLTD ITEAIKLDSG
+     VVKRLCTLDG KQVTCLQDFF GDDDVFIACG PEKFRYAQDD FVLDHSECRV LKSSYSRSSA
+     VKYSGSKSPG PSRRSKSPAS VNGTPSSQLS TPKSTKSSSS SPTSPGSFRG LKQISAHGRS
+     SSNVNGGPEL DRCISPEGVN GNRCSESSTL LEKYKIGKVI GDGNFAVVKE CIDRSTGKEF
+     ALKIIDKAKC CGKEHLIENE VSILRRVKHP NIIMLVEEME TATELFLVME LVKGGDLFDA
+     ITSSTKYTER DGSAMVYNLA NALRYLHGLS IVHRDIKPEN LLVCEYPDGT KSLKLGDFGL
+     ATVVEGPLYT VCGTPTYVAP EIIAETGYGL KVDIWAAGVI TYILLCGFPP FRSENNLQED
+     LFDQILAGKL EFPAPYWDNI TDSAKELISQ MLQVNVEARC TAGQILSHPW VSDDASQENN
+     MQAEVTGKLK QHFNNALPKQ NSTTTGVSVI MNTALDKEGQ IFCSKHCQDS GRPGMEPISP
+     VPPSVEEIPV PGEAVPAPTP PESPTPHPPP AAPGGERAGT WRRHRD
+//

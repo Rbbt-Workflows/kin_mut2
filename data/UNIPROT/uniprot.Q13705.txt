@@ -1,0 +1,265 @@
+ID   AVR2B_HUMAN             Reviewed;         512 AA.
+AC   Q13705; Q4VAV0;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   16-MAY-2006, sequence version 3.
+DT   02-NOV-2010, entry version 114.
+DE   RecName: Full=Activin receptor type-2B;
+DE            EC=2.7.11.30;
+DE   AltName: Full=Activin receptor type IIB;
+DE            Short=ACTR-IIB;
+DE   Flags: Precursor;
+GN   Name=ACVR2B;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Brain;
+RX   MEDLINE=94214127; PubMed=8161782;
+RA   Hilden K., Tuuri T., Eramaa M., Ritvos O.;
+RT   "Expression of type II activin receptor genes during differentiation
+RT   of human K562 cells and cDNA cloning of the human type IIB activin
+RT   receptor.";
+RL   Blood 83:2163-2170(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND VARIANT ASP-459.
+RX   MEDLINE=98284539; PubMed=9621519; DOI=10.1007/s100380050054;
+RA   Ishikawa S., Kai M., Murata Y., Tamari M., Daigo Y., Murano T.,
+RA   Ogawa M., Nakamura Y.;
+RT   "Genomic organization and mapping of the human activin receptor type
+RT   IIB (hActR-IIB) gene.";
+RL   J. Hum. Genet. 43:132-134(1998).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], ALTERNATIVE SPLICING, AND VARIANTS
+RP   HTX4 HIS-40 AND ILE-494.
+RX   MEDLINE=99113885; PubMed=9916847;
+RX   DOI=10.1002/(SICI)1096-8628(19990101)82:1<70::AID-AJMG14>3.0.CO;2-Y;
+RA   Kosaki R., Gebbia M., Kosaki K., Lewin M., Bowers P., Towbin J.A.,
+RA   Casey B.;
+RT   "Left-right axis malformations associated with mutations in ACVR2B,
+RT   the gene for human activin receptor type IIB.";
+RL   Am. J. Med. Genet. 82:70-76(1999).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [5]
+RP   VARIANT [LARGE SCALE ANALYSIS] ARG-176.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: On ligand binding, forms a receptor complex consisting
+CC       of two type II and two type I transmembrane serine/threonine
+CC       kinases. Type II receptors phosphorylate and activate type I
+CC       receptors which autophosphorylate, then bind and activate SMAD
+CC       transcriptional regulators. Receptor for activin A, activin B and
+CC       inhibin A.
+CC   -!- CATALYTIC ACTIVITY: ATP + [receptor-protein] = ADP + [receptor-
+CC       protein] phosphate.
+CC   -!- COFACTOR: Magnesium or manganese (By similarity).
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type I membrane
+CC       protein.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=ActR-IIB2;
+CC         IsoId=Q13705-1; Sequence=Displayed;
+CC       Name=ActR-IIB1;
+CC         IsoId=Q13705-2; Sequence=Not described;
+CC         Note=Produced from the insertion in the transcript of 82 base
+CC         pairs, leading to frameshift and protein truncation. May be not
+CC         functional;
+CC   -!- DISEASE: Defects in ACVR2B are the cause of visceral heterotaxy
+CC       autosomal type 4 (HTX4) [MIM:602730]. A form of visceral
+CC       heterotaxy, a complex disorder due to disruption of the normal
+CC       left-right asymmetry of the thoracoabdominal organs. It results in
+CC       an abnormal arrangement of visceral organs, and a wide variety of
+CC       congenital defects. Clinical features of visceral heterotaxy type
+CC       4 include dextrocardia, right aortic arch and a right-sided
+CC       spleen, anomalies of the inferior and the superior vena cava,
+CC       atrial ventricular canal defect with dextro-transposed great
+CC       arteries, pulmonary stenosis, polysplenia and midline liver.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. TKL Ser/Thr
+CC       protein kinase family. TGFB receptor subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- WEB RESOURCE: Name=GeneReviews;
+CC       URL="http://www.ncbi.nlm.nih.gov/sites/GeneTests/lab/gene/ACVR2B";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X77533; CAA54671.1; -; mRNA.
+DR   EMBL; AB008681; BAA24180.2; -; Genomic_DNA.
+DR   EMBL; AF060202; AAC64515.1; -; Genomic_DNA.
+DR   EMBL; AF060199; AAC64515.1; JOINED; Genomic_DNA.
+DR   EMBL; AF060200; AAC64515.1; JOINED; Genomic_DNA.
+DR   EMBL; AF060201; AAC64515.1; JOINED; Genomic_DNA.
+DR   EMBL; BC096243; AAH96243.1; -; mRNA.
+DR   EMBL; BC096244; AAH96244.1; -; mRNA.
+DR   EMBL; BC099642; AAH99642.1; -; mRNA.
+DR   IPI; IPI00437565; -.
+DR   PIR; I37134; I37134.
+DR   RefSeq; NP_001097.2; -.
+DR   UniGene; Hs.174273; -.
+DR   PDB; 2H62; X-ray; 1.85 A; D=19-116.
+DR   PDB; 2QLU; X-ray; 2.00 A; A=190-487.
+DR   PDBsum; 2H62; -.
+DR   PDBsum; 2QLU; -.
+DR   ProteinModelPortal; Q13705; -.
+DR   SMR; Q13705; 24-117.
+DR   STRING; Q13705; -.
+DR   PRIDE; Q13705; -.
+DR   Ensembl; ENST00000352511; ENSP00000340361; ENSG00000114739.
+DR   GeneID; 93; -.
+DR   KEGG; hsa:93; -.
+DR   UCSC; uc003cif.1; human.
+DR   CTD; 93; -.
+DR   GeneCards; GC03P038470; -.
+DR   H-InvDB; HIX0030708; -.
+DR   HGNC; HGNC:174; ACVR2B.
+DR   HPA; CAB025115; -.
+DR   MIM; 602730; gene+phenotype.
+DR   Orphanet; 157769; Situs ambiguus.
+DR   PharmGKB; PA24495; -.
+DR   eggNOG; prNOG16481; -.
+DR   HOVERGEN; HBG054502; -.
+DR   InParanoid; Q13705; -.
+DR   OMA; NLETELW; -.
+DR   OrthoDB; EOG99S8RM; -.
+DR   PhylomeDB; Q13705; -.
+DR   BRENDA; 2.7.11.30; 247.
+DR   Reactome; REACT_12034; Signaling by BMP.
+DR   NextBio; 351; -.
+DR   ArrayExpress; Q13705; -.
+DR   Bgee; Q13705; -.
+DR   CleanEx; HS_ACVR2B; -.
+DR   Genevestigator; Q13705; -.
+DR   GermOnline; ENSG00000114739; Homo sapiens.
+DR   GO; GO:0009986; C:cell surface; IDA:UniProtKB.
+DR   GO; GO:0005737; C:cytoplasm; IDA:HGNC.
+DR   GO; GO:0005887; C:integral to plasma membrane; TAS:ProtInc.
+DR   GO; GO:0017002; F:activin receptor activity; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0019838; F:growth factor binding; IPI:HGNC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0032924; P:activin receptor signaling pathway; IEA:InterPro.
+DR   GO; GO:0009952; P:anterior/posterior pattern formation; IMP:HGNC.
+DR   GO; GO:0030509; P:BMP signaling pathway; IDA:BHF-UCL.
+DR   GO; GO:0032927; P:positive regulation of activin receptor sig...; IDA:HGNC.
+DR   GO; GO:0030501; P:positive regulation of bone mineralization; IMP:BHF-UCL.
+DR   GO; GO:0045669; P:positive regulation of osteoblast different...; IMP:BHF-UCL.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   GO; GO:0045449; P:regulation of transcription; IDA:HGNC.
+DR   InterPro; IPR000333; Activin_II_recpt.
+DR   InterPro; IPR015768; Activin_II_recpt_C.
+DR   InterPro; IPR000472; Activin_rcpt.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   PANTHER; PTHR23255:SF10; Activin_II_recpt_C; 1.
+DR   Pfam; PF01064; Activin_recp; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   PRINTS; PR00653; ACTIVIN2R.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; FALSE_NEG.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; ATP-binding; Complete proteome;
+KW   Disease mutation; Disulfide bond; Glycoprotein; Heterotaxy; Kinase;
+KW   Magnesium; Manganese; Membrane; Metal-binding; Nucleotide-binding;
+KW   Polymorphism; Receptor; Serine/threonine-protein kinase; Signal;
+KW   Transferase; Transmembrane; Transmembrane helix.
+FT   SIGNAL        1     18       Potential.
+FT   CHAIN        19    512       Activin receptor type-2B.
+FT                                /FTId=PRO_0000024404.
+FT   TOPO_DOM     19    137       Extracellular (Potential).
+FT   TRANSMEM    138    158       Helical; (Potential).
+FT   TOPO_DOM    159    512       Cytoplasmic (Potential).
+FT   DOMAIN      190    480       Protein kinase.
+FT   NP_BIND     196    204       ATP (By similarity).
+FT   ACT_SITE    321    321       Proton acceptor (By similarity).
+FT   BINDING     217    217       ATP (By similarity).
+FT   CARBOHYD     42     42       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD     65     65       N-linked (GlcNAc...) (Potential).
+FT   DISULFID     29     59       By similarity.
+FT   DISULFID     49     77       By similarity.
+FT   DISULFID     84    103       By similarity.
+FT   DISULFID     90    102       By similarity.
+FT   DISULFID    104    109       By similarity.
+FT   VARIANT      40     40       R -> H (in HTX4).
+FT                                /FTId=VAR_013281.
+FT   VARIANT     176    176       P -> R (in dbSNP:rs35882617).
+FT                                /FTId=VAR_041396.
+FT   VARIANT     459    459       E -> D (in dbSNP:rs500611).
+FT                                /FTId=VAR_050594.
+FT   VARIANT     494    494       V -> I (in HTX4).
+FT                                /FTId=VAR_013282.
+FT   CONFLICT     16     17       CA -> WP (in Ref. 1; CAA54671).
+FT   CONFLICT     64     64       R -> A (in Ref. 1 and 2).
+FT   CONFLICT    459    459       E -> A (in Ref. 3; AAC64515).
+FT   STRAND       27     33
+FT   HELIX        36     39
+FT   STRAND       43     49
+FT   STRAND       57     66
+FT   STRAND       69     79
+FT   HELIX        82     84
+FT   STRAND       88     91
+FT   STRAND       98    106
+FT   TURN        107    110
+FT   STRAND      111    114
+FT   STRAND      191    197
+FT   STRAND      200    209
+FT   STRAND      212    219
+FT   HELIX       221    223
+FT   HELIX       224    235
+FT   STRAND      247    253
+FT   TURN        256    258
+FT   STRAND      260    266
+FT   HELIX       273    279
+FT   HELIX       284    302
+FT   STRAND      305    308
+FT   TURN        309    311
+FT   STRAND      312    314
+FT   STRAND      316    318
+FT   HELIX       324    326
+FT   STRAND      327    329
+FT   STRAND      335    337
+FT   STRAND      344    346
+FT   HELIX       362    364
+FT   HELIX       367    370
+FT   HELIX       378    398
+FT   TURN        413    417
+FT   HELIX       424    431
+FT   HELIX       442    446
+FT   HELIX       448    460
+FT   HELIX       465    467
+FT   HELIX       471    482
+SQ   SEQUENCE   512 AA;  57724 MW;  B377FEF92EF74937 CRC64;
+     MTAPWVALAL LWGSLCAGSG RGEAETRECI YYNANWELER TNQSGLERCE GEQDKRLHCY
+     ASWRNSSGTI ELVKKGCWLD DFNCYDRQEC VATEENPQVY FCCCEGNFCN ERFTHLPEAG
+     GPEVTYEPPP TAPTLLTVLA YSLLPIGGLS LIVLLAFWMY RHRKPPYGHV DIHEDPGPPP
+     PSPLVGLKPL QLLEIKARGR FGCVWKAQLM NDFVAVKIFP LQDKQSWQSE REIFSTPGMK
+     HENLLQFIAA EKRGSNLEVE LWLITAFHDK GSLTDYLKGN IITWNELCHV AETMSRGLSY
+     LHEDVPWCRG EGHKPSIAHR DFKSKNVLLK SDLTAVLADF GLAVRFEPGK PPGDTHGQVG
+     TRRYMAPEVL EGAINFQRDA FLRIDMYAMG LVLWELVSRC KAADGPVDEY MLPFEEEIGQ
+     HPSLEELQEV VVHKKMRPTI KDHWLKHPGL AQLCVTIEEC WDHDAEARLS AGCVEERVSL
+     IRRSVNGTTS DCLVSLVTSV TNVDLPPKES SI
+//

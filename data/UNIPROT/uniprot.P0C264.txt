@@ -1,0 +1,93 @@
+ID   SG110_HUMAN             Reviewed;         359 AA.
+AC   P0C264;
+DT   28-NOV-2006, integrated into UniProtKB/Swiss-Prot.
+DT   23-OCT-2007, sequence version 2.
+DT   05-OCT-2010, entry version 27.
+DE   RecName: Full=Putative uncharacterized serine/threonine-protein kinase SgK110;
+DE            EC=2.7.11.1;
+DE   AltName: Full=Sugen kinase 110;
+GN   Name=SGK110;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=15057824; DOI=10.1038/nature02399;
+RA   Grimwood J., Gordon L.A., Olsen A.S., Terry A., Schmutz J.,
+RA   Lamerdin J.E., Hellsten U., Goodstein D., Couronne O., Tran-Gyamfi M.,
+RA   Aerts A., Altherr M., Ashworth L., Bajorek E., Black S., Branscomb E.,
+RA   Caenepeel S., Carrano A.V., Caoile C., Chan Y.M., Christensen M.,
+RA   Cleland C.A., Copeland A., Dalin E., Dehal P., Denys M., Detter J.C.,
+RA   Escobar J., Flowers D., Fotopulos D., Garcia C., Georgescu A.M.,
+RA   Glavina T., Gomez M., Gonzales E., Groza M., Hammon N., Hawkins T.,
+RA   Haydu L., Ho I., Huang W., Israni S., Jett J., Kadner K., Kimball H.,
+RA   Kobayashi A., Larionov V., Leem S.-H., Lopez F., Lou Y., Lowry S.,
+RA   Malfatti S., Martinez D., McCready P.M., Medina C., Morgan J.,
+RA   Nelson K., Nolan M., Ovcharenko I., Pitluck S., Pollard M.,
+RA   Popkie A.P., Predki P., Quan G., Ramirez L., Rash S., Retterer J.,
+RA   Rodriguez A., Rogers S., Salamov A., Salazar A., She X., Smith D.,
+RA   Slezak T., Solovyev V., Thayer N., Tice H., Tsai M., Ustaszewska A.,
+RA   Vo N., Wagner M., Wheeler J., Wu K., Xie G., Yang J., Dubchak I.,
+RA   Furey T.S., DeJong P., Dickson M., Gordon D., Eichler E.E.,
+RA   Pennacchio L.A., Richardson P., Stubbs L., Rokhsar D.S., Myers R.M.,
+RA   Rubin E.M., Lucas S.M.;
+RT   "The DNA sequence and biology of human chromosome 19.";
+RL   Nature 428:529-535(2004).
+RN   [2]
+RP   IDENTIFICATION.
+RX   PubMed=12471243; DOI=10.1126/science.1075762;
+RA   Manning G., Whyte D.B., Martinez R., Hunter T., Sudarsanam S.;
+RT   "The protein kinase complement of the human genome.";
+RL   Science 298:1912-1934(2002).
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Ser/Thr
+CC       protein kinase family. STKL subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AC008735; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   IPI; IPI00807580; -.
+DR   ProteinModelPortal; P0C264; -.
+DR   SMR; P0C264; 37-308, 39-342.
+DR   Ensembl; ENST00000429736; ENSP00000392778; ENSG00000231274.
+DR   GeneCards; GC19M056053; -.
+DR   HOGENOM; HBG715181; -.
+DR   HOVERGEN; HBG108481; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   Genevestigator; P0C264; -.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Kinase; Nucleotide-binding;
+KW   Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    359       Putative uncharacterized
+FT                                serine/threonine-protein kinase SgK110.
+FT                                /FTId=PRO_0000262995.
+FT   DOMAIN       43    309       Protein kinase.
+FT   NP_BIND      49     57       ATP (By similarity).
+FT   COMPBIAS    189    278       Pro-rich.
+FT   ACT_SITE    163    163       Proton acceptor (By similarity).
+FT   BINDING      72     72       ATP (By similarity).
+SQ   SEQUENCE   359 AA;  38488 MW;  3E6AFF74412256C9 CRC64;
+     MERRASETPE DGDPEEDTAT ALQRLVELTT SRVTPVRSLR DQYHLIRKLG SGSYGRVLLA
+     QPHQGGPAVA LKLLRRDLVL RSTFLREFCV GRCVSAHPGL LQTLAGPLQT PRYFAFAQEY
+     APCGDLSGML QERGLPELLV KRVVAQLAGA LDFLHSRGLV HADVKPDNVL VFDPVCSRVA
+     LGDLGLTRPE GSPTPAPPVP LPTAPPELCL LLPPDTLPLR PAVDSWGLGV LLFCAATACF
+     PWDVALAPNP EFEAFAGWVT TKPQPPQPPP PWDQFAPPAL ALLQGLLDLD PETRSPPLAV
+     LDFLGDDWGL QGNREGPGVL GSAVSYEDRE EGGSSLEEWT DEGDDSKSGG RTGTDGGAP
+//

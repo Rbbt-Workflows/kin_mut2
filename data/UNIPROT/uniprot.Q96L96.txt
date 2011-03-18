@@ -1,0 +1,220 @@
+ID   ALPK3_HUMAN             Reviewed;        1907 AA.
+AC   Q96L96; Q9P2L6;
+DT   28-NOV-2006, integrated into UniProtKB/Swiss-Prot.
+DT   18-MAY-2010, sequence version 2.
+DT   05-OCT-2010, entry version 59.
+DE   RecName: Full=Alpha-protein kinase 3;
+DE            EC=2.7.11.-;
+DE   AltName: Full=Muscle alpha-protein kinase;
+GN   Name=ALPK3; Synonyms=KIAA1330, MAK;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND VARIANT LEU-1299.
+RX   MEDLINE=99147092; PubMed=10021370; DOI=10.1016/S0960-9822(99)80006-2;
+RA   Ryazanov A.G., Pavur K.S., Dorovkov M.V.;
+RT   "Alpha-kinases: a new class of protein kinases with a novel catalytic
+RT   domain.";
+RL   Curr. Biol. 9:R43-R45(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 963-1907, AND VARIANT
+RP   LEU-1299.
+RC   TISSUE=Brain;
+RX   MEDLINE=20181126; PubMed=10718198; DOI=10.1093/dnares/7.1.65;
+RA   Nagase T., Kikuno R., Ishikawa K., Hirosawa M., Ohara O.;
+RT   "Prediction of the coding sequences of unidentified human genes. XVI.
+RT   The complete sequences of 150 new cDNA clones from brain which code
+RT   for large proteins in vitro.";
+RL   DNA Res. 7:65-73(2000).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=16572171; DOI=10.1038/nature04601;
+RA   Zody M.C., Garber M., Sharpe T., Young S.K., Rowen L., O'Neill K.,
+RA   Whittaker C.A., Kamal M., Chang J.L., Cuomo C.A., Dewar K.,
+RA   FitzGerald M.G., Kodira C.D., Madan A., Qin S., Yang X., Abbasi N.,
+RA   Abouelleil A., Arachchi H.M., Baradarani L., Birditt B., Bloom S.,
+RA   Bloom T., Borowsky M.L., Burke J., Butler J., Cook A., DeArellano K.,
+RA   DeCaprio D., Dorris L. III, Dors M., Eichler E.E., Engels R.,
+RA   Fahey J., Fleetwood P., Friedman C., Gearin G., Hall J.L., Hensley G.,
+RA   Johnson E., Jones C., Kamat A., Kaur A., Locke D.P., Madan A.,
+RA   Munson G., Jaffe D.B., Lui A., Macdonald P., Mauceli E., Naylor J.W.,
+RA   Nesbitt R., Nicol R., O'Leary S.B., Ratcliffe A., Rounsley S., She X.,
+RA   Sneddon K.M.B., Stewart S., Sougnez C., Stone S.M., Topham K.,
+RA   Vincent D., Wang S., Zimmer A.R., Birren B.W., Hood L., Lander E.S.,
+RA   Nusbaum C.;
+RT   "Analysis of the DNA sequence and duplication history of human
+RT   chromosome 15.";
+RL   Nature 440:671-675(2006).
+RN   [4]
+RP   VARIANTS [LARGE SCALE ANALYSIS] HIS-336; ILE-338; SER-414; GLU-433;
+RP   GLU-579; ARG-602; ASP-663; MET-761; LEU-836; ASP-929; LEU-1299;
+RP   GLU-1364; TRP-1412; ASP-1557 AND PRO-1622.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Kinases that recognize phosphorylation sites in which
+CC       the surrounding peptides have an alpha-helical conformation. Plays
+CC       a role in cardiomyocyte differentiation (By similarity).
+CC   -!- SUBCELLULAR LOCATION: Nucleus (By similarity).
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Alpha-type
+CC       protein kinase family. ALPK subfamily.
+CC   -!- SIMILARITY: Contains 1 alpha-type protein kinase domain.
+CC   -!- SIMILARITY: Contains 1 Ig-like (immunoglobulin-like) domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AY044449; AAK95951.1; -; mRNA.
+DR   EMBL; AB037751; BAA92568.1; -; mRNA.
+DR   EMBL; AC012291; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   IPI; IPI00064935; -.
+DR   RefSeq; NP_065829.3; -.
+DR   UniGene; Hs.459183; -.
+DR   HSSP; P56276; 1TLK.
+DR   ProteinModelPortal; Q96L96; -.
+DR   SMR; Q96L96; 278-371, 1474-1564, 1676-1831.
+DR   STRING; Q96L96; -.
+DR   PhosphoSite; Q96L96; -.
+DR   PRIDE; Q96L96; -.
+DR   Ensembl; ENST00000258888; ENSP00000258888; ENSG00000136383.
+DR   GeneID; 57538; -.
+DR   KEGG; hsa:57538; -.
+DR   UCSC; uc002ble.1; human.
+DR   CTD; 57538; -.
+DR   GeneCards; GC15P085359; -.
+DR   H-InvDB; HIX0012537; -.
+DR   HGNC; HGNC:17574; ALPK3.
+DR   HPA; HPA026558; -.
+DR   PharmGKB; PA134921552; -.
+DR   eggNOG; prNOG16977; -.
+DR   HOGENOM; HBG283405; -.
+DR   HOVERGEN; HBG074162; -.
+DR   InParanoid; Q96L96; -.
+DR   NextBio; 63964; -.
+DR   ArrayExpress; Q96L96; -.
+DR   Bgee; Q96L96; -.
+DR   CleanEx; HS_ALPK3; -.
+DR   CleanEx; HS_MAK; -.
+DR   Genevestigator; Q96L96; -.
+DR   GermOnline; ENSG00000136383; Homo sapiens.
+DR   GO; GO:0005634; C:nucleus; ISS:HGNC.
+DR   GO; GO:0005524; F:ATP binding; IEA:InterPro.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0007507; P:heart development; ISS:HGNC.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   InterPro; IPR007110; Ig-like.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR013098; Ig_I-set.
+DR   InterPro; IPR003598; Ig_sub2.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR004166; MHCK_EF2_kinase.
+DR   Gene3D; G3DSA:2.60.40.10; Ig-like_fold; 2.
+DR   Pfam; PF02816; Alpha_kinase; 1.
+DR   Pfam; PF07679; I-set; 1.
+DR   SMART; SM00811; Alpha_kinase; 1.
+DR   SMART; SM00408; IGc2; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS51158; ALPHA_KINASE; 1.
+DR   PROSITE; PS50835; IG_LIKE; 2.
+PE   2: Evidence at transcript level;
+KW   Complete proteome; Developmental protein; Disulfide bond;
+KW   Immunoglobulin domain; Kinase; Nucleus; Polymorphism; Repeat;
+KW   Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1   1907       Alpha-protein kinase 3.
+FT                                /FTId=PRO_0000260031.
+FT   DOMAIN      279    370       Ig-like 1.
+FT   DOMAIN     1476   1564       Ig-like 2.
+FT   DOMAIN     1592   1827       Alpha-type protein kinase.
+FT   COMPBIAS    170    175       Poly-Ala.
+FT   COMPBIAS    517    521       Poly-Lys.
+FT   COMPBIAS    766    771       Poly-Ser.
+FT   COMPBIAS   1166   1172       Poly-Leu.
+FT   DISULFID   1498   1548       By similarity.
+FT   VARIANT     336    336       R -> H (in dbSNP:rs34407151).
+FT                                /FTId=VAR_041524.
+FT   VARIANT     338    338       T -> I.
+FT                                /FTId=VAR_041525.
+FT   VARIANT     414    414       T -> S (in dbSNP:rs3803403).
+FT                                /FTId=VAR_028989.
+FT   VARIANT     433    433       Q -> E (in a lung large cell carcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_041526.
+FT   VARIANT     579    579       G -> E (in dbSNP:rs3803405).
+FT                                /FTId=VAR_028990.
+FT   VARIANT     602    602       Q -> R.
+FT                                /FTId=VAR_041527.
+FT   VARIANT     663    663       G -> D.
+FT                                /FTId=VAR_041528.
+FT   VARIANT     761    761       T -> M (in dbSNP:rs16974569).
+FT                                /FTId=VAR_028991.
+FT   VARIANT     836    836       R -> L.
+FT                                /FTId=VAR_041529.
+FT   VARIANT     929    929       E -> D.
+FT                                /FTId=VAR_041530.
+FT   VARIANT    1013   1013       E -> K (in dbSNP:rs35633849).
+FT                                /FTId=VAR_057743.
+FT   VARIANT    1137   1137       A -> G (in dbSNP:rs34173528).
+FT                                /FTId=VAR_057744.
+FT   VARIANT    1299   1299       P -> L (in dbSNP:rs306197).
+FT                                /FTId=VAR_028992.
+FT   VARIANT    1364   1364       G -> E (in a metastatic melanoma sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_041531.
+FT   VARIANT    1412   1412       R -> W.
+FT                                /FTId=VAR_041532.
+FT   VARIANT    1557   1557       A -> D (in dbSNP:rs34775428).
+FT                                /FTId=VAR_041533.
+FT   VARIANT    1622   1622       L -> P (in dbSNP:rs187316).
+FT                                /FTId=VAR_028993.
+FT   VARIANT    1873   1873       A -> V (in dbSNP:rs36002219).
+FT                                /FTId=VAR_057745.
+FT   CONFLICT    210    210       S -> T (in Ref. 1; AAK95951).
+SQ   SEQUENCE   1907 AA;  201272 MW;  3896A1EC187BF5C7 CRC64;
+     MEVAWLVYVL GQQPLARQGE GQSRLVPGRG LVLWLPGLPR SSPSWPAVDL APLAPARPRG
+     PLICHTGHEQ AGREPGPGSS TKGPVLHDQD TRCAFLPRPP GPLQTRRYCR HQGRQGSGLG
+     AGPGAGTWAP APPGVSKPRC PGRARPGEGQ QQVTTARPPA INRGARQPRA GAAAAGRGPG
+     AGAWRTGEAA ASAGPAVGEG GAMGSRRAPS RGWGAGGRSG AGGDGEDDGP VWIPSPASRS
+     YLLSVRPETS LSSNRLSHPS SGRSTFCSII AQLTEETQPL FETTLKSRSV SEDSDVRFTC
+     IVTGYPEPEV TWYKDDTELD RYCGLPKYEI THQGNRHTLQ LYRCREEDAA IYQASAQNSK
+     GIVSCSGVLE VGTMTEYKIH QRWFAKLKRK AAAKLREIEQ SWKHEKAVPG EVDTLRKLSP
+     DRFQRKRRLS GAQAPGPSVP TREPEGGTLA AWQEGETETA QHSGLGLINS FASGEVTTNG
+     EAAPENGEDG EHGLLTYICD AMELGPQRAL KEESGAKKKK KDEESKQGLR KPELEKAAQS
+     RRSSENCIPS SDEPDSCGTQ GPVGVEQVQT QPRGRAARGP GSSGTDSTRK PASAVGTPDK
+     AQKAPGPGPG QEVYFSLKDM YLENTQAVRP LGEEGPQTLS VRAPGESPKG KAPLRARSEG
+     VPGAPGQPTH SLTPQPTRPF NRKRFAPPKP KGEATTDSKP ISSLSQAPEC GAQSLGKAPP
+     QASVQVPTPP ARRRHGTRDS TLQGQAGHRT PGEVLECQTT TAPTMSASSS SDVASIGVST
+     SGSQGIIEPM DMETQEDGRT SANQRTGSKK NVQADGKIQV DGRTRGDGTQ TAQRTRADRK
+     TQVDAGTQES KRPQSDRSAQ KGMMTQGRAE TQLETTQAGE KIQEDRKAQA DKGTQEDRRM
+     QGEKGMQGEK GTQSEGSAPT AMEGQSEQEV ATSLGPPSRT PKLPPTAGPR APLNIECFVQ
+     TPEGSCFPKK PGCLPRSEEA VVTASRNHEQ TVLGPLSGNL MLPAQPPHEG SVEQVGGERC
+     RGPQSSGPVE AKQEDSPFQC PKEERPGGVP CMDQGGCPLA GLSQEVPTMP SLPGTGLTAS
+     PKAGPCSTPT SQHGSTATFL PSEDQVLMSS APTLHLGLGT PTQSHPPETM ATSSEGACAQ
+     VPDVEGRTPG PRSCDPGLID SLKNYLLLLL KLSSTETSGA GGESQVGAAT GGLVPSATLT
+     PTVEVAGLSP RTSRRILERV ENNHLVQSAQ TLLLSPCTSR RLTGLLDREV QAGRQALAAA
+     RGSWGPGPSS LTVPAIVVDE EDPGLASEGA SEGEGEVSPE GPGLLGASQE SSMAGRLGEA
+     GGQAAPGQGP SAESIAQEPS QEEKFPGEAL TGLPAATPEE LALGARRKRF LPKVRAAGDG
+     EATTPEERES PTVSPRGPRK SLVPGSPGTP GRERRSPTQG RKASMLEVPR AEEELAAGDL
+     GPSPKAGGLD TEVALDEGKQ ETLAKPRKAK DLLKAPQVIR KIRVEQFPDA SGSLKLWCQF
+     FNILSDSVLT WAKDQRPVGE VGRSAGDEGP AALAIVQASP VDCGVYRCTI HNEHGSASTD
+     FCLSPEVLSG FISREEGEVG EEIEMTPMVF AKGLADSGCW GDKLFGRLVS EELRGGGYGC
+     GLRKASQAKV IYGLEPIFES GRTCIIKVSS LLVFGPSSET SLVGRNYDVT IQGCKIQNMS
+     REYCKIFAAE ARAAPGFGEV PEIIPLYLIY RPANNIPYAT LEEDLGKPLE SYCSREWGCA
+     EAPTASGSSE AMQKCQTFQH WLYQWTNGSF LVTDLAGVDW KMTDVQIATK LRGYQGLKES
+     CFPALLDRFA SSHQCNAYCE LLGLTPLKGP EAAHPQAKAK GSKSPSAGRK GSQLSPQPQK
+     KGLPSPQGTR KSAPSSKATP QASEPVTTQL LGQPPTQEEG SKAQGMR
+//

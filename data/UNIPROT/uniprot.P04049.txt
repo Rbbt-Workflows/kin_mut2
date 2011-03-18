@@ -1,0 +1,677 @@
+ID   RAF1_HUMAN              Reviewed;         648 AA.
+AC   P04049; B0LPH8; B2R5N3; Q15278; Q9UC20;
+DT   01-NOV-1986, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1986, sequence version 1.
+DT   02-NOV-2010, entry version 144.
+DE   RecName: Full=RAF proto-oncogene serine/threonine-protein kinase;
+DE            EC=2.7.11.1;
+DE   AltName: Full=Proto-oncogene c-RAF;
+DE            Short=cRaf;
+DE   AltName: Full=Raf-1;
+GN   Name=RAF1; Synonyms=RAF;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RX   MEDLINE=86120351; PubMed=3003687; DOI=10.1093/nar/14.2.1009;
+RA   Bonner T.I., Oppermann H., Seeburg P., Kerby S.B., Gunnell M.A.,
+RA   Young A.C., Rapp U.R.;
+RT   "The complete coding sequence of the human raf oncogene and the
+RT   corresponding structure of the c-raf-1 gene.";
+RL   Nucleic Acids Res. 14:1009-1015(1986).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1), AND VARIANT
+RP   LEU-308.
+RX   PubMed=14702039; DOI=10.1038/ng1285;
+RA   Ota T., Suzuki Y., Nishikawa T., Otsuki T., Sugiyama T., Irie R.,
+RA   Wakamatsu A., Hayashi K., Sato H., Nagai K., Kimura K., Makita H.,
+RA   Sekine M., Obayashi M., Nishi T., Shibahara T., Tanaka T., Ishii S.,
+RA   Yamamoto J., Saito K., Kawai Y., Isono Y., Nakamura Y., Nagahari K.,
+RA   Murakami K., Yasuda T., Iwayanagi T., Wagatsuma M., Shiratori A.,
+RA   Sudo H., Hosoiri T., Kaku Y., Kodaira H., Kondo H., Sugawara M.,
+RA   Takahashi M., Kanda K., Yokoi T., Furuya T., Kikkawa E., Omura Y.,
+RA   Abe K., Kamihara K., Katsuta N., Sato K., Tanikawa M., Yamazaki M.,
+RA   Ninomiya K., Ishibashi T., Yamashita H., Murakawa K., Fujimori K.,
+RA   Tanai H., Kimata M., Watanabe M., Hiraoka S., Chiba Y., Ishida S.,
+RA   Ono Y., Takiguchi S., Watanabe S., Yosida M., Hotuta T., Kusano J.,
+RA   Kanehori K., Takahashi-Fujii A., Hara H., Tanase T.-O., Nomura Y.,
+RA   Togiya S., Komai F., Hara R., Takeuchi K., Arita M., Imose N.,
+RA   Musashino K., Yuuki H., Oshima A., Sasaki N., Aotsuka S.,
+RA   Yoshikawa Y., Matsunawa H., Ichihara T., Shiohata N., Sano S.,
+RA   Moriya S., Momiyama H., Satoh N., Takami S., Terashima Y., Suzuki O.,
+RA   Nakagawa S., Senoh A., Mizoguchi H., Goto Y., Shimizu F., Wakebe H.,
+RA   Hishigaki H., Watanabe T., Sugiyama A., Takemoto M., Kawakami B.,
+RA   Yamazaki M., Watanabe K., Kumagai A., Itakura S., Fukuzumi Y.,
+RA   Fujimori Y., Komiyama M., Tashiro H., Tanigami A., Fujiwara T.,
+RA   Ono T., Yamada K., Fujii Y., Ozaki K., Hirao M., Ohmori Y.,
+RA   Kawabata A., Hikiji T., Kobatake N., Inagaki H., Ikema Y., Okamoto S.,
+RA   Okitani R., Kawakami T., Noguchi S., Itoh T., Shigeta K., Senba T.,
+RA   Matsumura K., Nakajima Y., Mizuno T., Morinaga M., Sasaki M.,
+RA   Togashi T., Oyama M., Hata H., Watanabe M., Komatsu T.,
+RA   Mizushima-Sugano J., Satoh T., Shirai Y., Takahashi Y., Nakagawa K.,
+RA   Okumura K., Nagase T., Nomura N., Kikuchi H., Masuho Y., Yamashita R.,
+RA   Nakai K., Yada T., Nakamura Y., Ohara O., Isogai T., Sugano S.;
+RT   "Complete sequencing and characterization of 21,243 full-length human
+RT   cDNAs.";
+RL   Nat. Genet. 36:40-45(2004).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND VARIANT LEU-308.
+RG   NIEHS SNPs program;
+RL   Submitted (DEC-2007) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   TISSUE=Pancreas;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 228-648.
+RX   MEDLINE=85295973; PubMed=2993863;
+RA   Bonner T.I., Kerby S.B., Sutrave P., Gunnell M.A., Mark G., Rapp U.R.;
+RT   "Structure and biological activity of human homologs of the raf/mil
+RT   oncogene.";
+RL   Mol. Cell. Biol. 5:1400-1407(1985).
+RN   [7]
+RP   PROTEIN SEQUENCE OF 254-278, AND PHOSPHORYLATION AT THR-269.
+RX   MEDLINE=96069769; PubMed=7477354; DOI=10.1038/378307a0;
+RA   Yao B., Zhang Y., Delikat S., Mathias S., Basu S., Kolesnick R.;
+RT   "Phosphorylation of Raf by ceramide-activated protein kinase.";
+RL   Nature 378:307-310(1995).
+RN   [8]
+RP   PARTIAL NUCLEOTIDE SEQUENCE [GENOMIC DNA], ALTERNATIVE SPLICING, AND
+RP   TISSUE SPECIFICITY.
+RC   TISSUE=Placenta;
+RX   MEDLINE=91360260; PubMed=1886707;
+RA   Dozier C., Ansieau S., Ferreira E., Coll J., Stehelin D.;
+RT   "An alternatively spliced c-mil/raf mRNA is predominantly expressed in
+RT   chicken muscular tissues and conserved among vertebrate species.";
+RL   Oncogene 6:1307-1311(1991).
+RN   [9]
+RP   PHOSPHORYLATION AT SER-43; SER-259; THR-268; SER-499 AND SER-621.
+RX   MEDLINE=93352516; PubMed=8349614;
+RA   Morrison D.K., Heidecker G., Rapp U.R., Copeland T.D.;
+RT   "Identification of the major phosphorylation sites of the Raf-1
+RT   kinase.";
+RL   J. Biol. Chem. 268:17309-17316(1993).
+RN   [10]
+RP   INTERACTION WITH YWHAZ, AND FUNCTION.
+RX   PubMed=9360956; DOI=10.1074/jbc.272.46.28882;
+RA   Dubois T., Rommel C., Howell S., Steinhussen U., Soneji Y.,
+RA   Morrice N., Moelling K., Aitken A.;
+RT   "14-3-3 is phosphorylated by casein kinase I on residue 233.
+RT   Phosphorylation at this site in vivo regulates Raf/14-3-3
+RT   interaction.";
+RL   J. Biol. Chem. 272:28882-28888(1997).
+RN   [11]
+RP   PHOSPHORYLATION.
+RX   MEDLINE=99039505; PubMed=9823899; DOI=10.1038/24184;
+RA   King A.J., Sun H., Diaz B., Barnard D., Miao W., Bagrodia S.,
+RA   Marshall M.S.;
+RT   "The protein kinase Pak3 positively regulates Raf-1 activity through
+RT   phosphorylation of serine 338.";
+RL   Nature 396:180-183(1998).
+RN   [12]
+RP   ERRATUM.
+RA   King A.J., Sun H., Diaz B., Barnard D., Miao W., Bagrodia S.,
+RA   Marshall M.S.;
+RL   Nature 406:439-439(2000).
+RN   [13]
+RP   COMPETITION WITH RIN1.
+RX   MEDLINE=21644479; PubMed=11784866;
+RX   DOI=10.1128/MCB.22.13.4638-4651.2002;
+RA   Wang Y., Waldron R.T., Dhaka A., Patel A., Riley M.M., Rozengurt E.,
+RA   Colicelli J.;
+RT   "The RAS effector RIN1 directly competes with RAF and is regulated by
+RT   14-3-3 proteins.";
+RL   Mol. Cell. Biol. 22:916-926(2002).
+RN   [14]
+RP   PHOSPHORYLATION AT SER-259.
+RX   PubMed=15047712; DOI=10.1074/jbc.M314192200;
+RA   Kunapuli P., Kasyapa C.S., Hawthorn L., Cowell J.K.;
+RT   "LGI1, a putative tumor metastasis suppressor gene, controls in vitro
+RT   invasiveness and expression of matrix metalloproteinases in glioma
+RT   cells through the ERK1/2 pathway.";
+RL   J. Biol. Chem. 279:23151-23157(2004).
+RN   [15]
+RP   ERRATUM.
+RA   Kunapuli P., Kasyapa C.S., Hawthorn L., Cowell J.K.;
+RL   J. Biol. Chem. 282:2752-2752(2007).
+RN   [16]
+RP   INTERACTION WITH STK3, AND FUNCTION.
+RX   PubMed=15618521; DOI=10.1126/science.1103233;
+RA   O'Neill E., Rushworth L., Baccarini M., Kolch W.;
+RT   "Role of the kinase MST2 in suppression of apoptosis by the proto-
+RT   oncogene product Raf-1.";
+RL   Science 306:2267-2270(2004).
+RN   [17]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-294 AND SER-301, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=17081983; DOI=10.1016/j.cell.2006.09.026;
+RA   Olsen J.V., Blagoev B., Gnad F., Macek B., Kumar C., Mortensen P.,
+RA   Mann M.;
+RT   "Global, in vivo, and site-specific phosphorylation dynamics in
+RT   signaling networks.";
+RL   Cell 127:635-648(2006).
+RN   [18]
+RP   IDENTIFICATION IN A COMPLEX WITH PP1CA; PPP1CB; PPP1CC; SHOC2 AND
+RP   MRAS, PHOSPHORYLATION AT SER-259, AND MUTAGENESIS OF SER-259.
+RX   PubMed=16630891; DOI=10.1016/j.molcel.2006.03.027;
+RA   Rodriguez-Viciana P., Oses-Prieto J., Burlingame A., Fried M.,
+RA   McCormick F.;
+RT   "A phosphatase holoenzyme comprised of Shoc2/Sur8 and the catalytic
+RT   subunit of PP1 functions as an M-Ras effector to modulate Raf
+RT   activity.";
+RL   Mol. Cell 22:217-230(2006).
+RN   [19]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-252, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Embryonic kidney;
+RX   PubMed=17525332; DOI=10.1126/science.1140321;
+RA   Matsuoka S., Ballif B.A., Smogorzewska A., McDonald E.R. III,
+RA   Hurov K.E., Luo J., Bakalarski C.E., Zhao Z., Solimini N.,
+RA   Lerenthal Y., Shiloh Y., Gygi S.P., Elledge S.J.;
+RT   "ATM and ATR substrate analysis reveals extensive protein networks
+RT   responsive to DNA damage.";
+RL   Science 316:1160-1166(2007).
+RN   [20]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-621, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=19007248; DOI=10.1021/ac801708p;
+RA   Wang B., Malik R., Nigg E.A., Korner R.;
+RT   "Evaluation of the low-specificity protease elastase for large-scale
+RT   phosphoproteome analysis.";
+RL   Anal. Chem. 80:9526-9533(2008).
+RN   [21]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-257 AND THR-258, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18220336; DOI=10.1021/pr0705441;
+RA   Cantin G.T., Yi W., Lu B., Park S.K., Xu T., Lee J.-D.,
+RA   Yates J.R. III;
+RT   "Combining protein-based IMAC, peptide-based IMAC, and MudPIT for
+RT   efficient phosphoproteomic analysis.";
+RL   J. Proteome Res. 7:1346-1351(2008).
+RN   [22]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-43; SER-244 AND SER-259,
+RP   AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [23]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-642, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [24]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RA   Colinge J., Superti-Furga G., Bennett K.L.;
+RL   Submitted (OCT-2008) to UniProtKB.
+RN   [25]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-257, AND MASS
+RP   SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [26]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-289; SER-301 AND
+RP   SER-612, AND MASS SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=19690332; DOI=10.1126/scisignal.2000007;
+RA   Mayya V., Lundgren D.H., Hwang S.-I., Rezaul K., Wu L., Eng J.K.,
+RA   Rodionov V., Han D.K.;
+RT   "Quantitative phosphoproteomic analysis of T cell receptor signaling
+RT   reveals system-wide modulation of protein-protein interactions.";
+RL   Sci. Signal. 2:RA46-RA46(2009).
+RN   [27]
+RP   X-RAY CRYSTALLOGRAPHY (2.2 ANGSTROMS) OF 51-131.
+RX   MEDLINE=95312074; PubMed=7791872; DOI=10.1038/375554a0;
+RA   Nassar N., Horn G., Herrmann C., Scherer A., McCormick F.,
+RA   Wittinghofer A.;
+RT   "The 2.2 A crystal structure of the Ras-binding domain of the
+RT   serine/threonine kinase c-Raf1 in complex with Rap1A and a GTP
+RT   analogue.";
+RL   Nature 375:554-560(1995).
+RN   [28]
+RP   X-RAY CRYSTALLOGRAPHY (2.0 ANGSTROMS) OF 56-131.
+RX   MEDLINE=96313130; PubMed=8756332; DOI=10.1038/nsb0896-723;
+RA   Nassar N., Horn G., Herrmann C., Block C., Janknecht R.,
+RA   Wittinghofer A.;
+RT   "Ras/Rap effector specificity determined by charge reversal.";
+RL   Nat. Struct. Biol. 3:723-729(1996).
+RN   [29]
+RP   STRUCTURE BY NMR OF 55-132.
+RX   MEDLINE=95284022; PubMed=7766599; DOI=10.1021/bi00021a001;
+RA   Emerson S.D., Madison V.S., Palermo R.E., Waugh D.S., Scheffler J.E.,
+RA   Tsao K.L., Kiefer S.E., Liu S.P., Fry D.C.;
+RT   "Solution structure of the Ras-binding domain of c-Raf-1 and
+RT   identification of its Ras interaction surface.";
+RL   Biochemistry 34:6911-6918(1995).
+RN   [30]
+RP   STRUCTURE BY NMR OF 136-187.
+RX   MEDLINE=96323218; PubMed=8710867; DOI=10.1073/pnas.93.16.8312;
+RA   Mott H.R., Carpenter J.W., Zhong S., Ghosh S., Bell R.M.,
+RA   Campbell S.L.;
+RT   "The solution structure of the Raf-1 cysteine-rich domain: a novel ras
+RT   and phospholipid binding site.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 93:8312-8317(1996).
+RN   [31]
+RP   VARIANTS NS5 SER-256; PHE-259; ARG-260; LEU-261; SER-261; ASN-486;
+RP   GLY-486; ILE-491; ARG-491 AND THR-612, VARIANT HYPERTROPHIC
+RP   CARDIOMYOPATHY ILE-260, VARIANT LEOPARD SYNDROME-2 VAL-613, VARIANT
+RP   NS5/LEOPARD SYNDROME-2 LEU-257, CHARACTERIZATION OF VARIANTS NS5
+RP   SER-261; ASN-486 AND ILE-491, AND CHARACTERIZATION OF VARIANT LEOPARD
+RP   SYNDROME-2 VAL-613.
+RX   PubMed=17603483; DOI=10.1038/ng2073;
+RA   Pandit B., Sarkozy A., Pennacchio L.A., Carta C., Oishi K.,
+RA   Martinelli S., Pogna E.A., Schackwitz W., Ustaszewska A.,
+RA   Landstrom A., Bos J.M., Ommen S.R., Esposito G., Lepri F., Faul C.,
+RA   Mundel P., Lopez Siguero J.P., Tenconi R., Selicorni A., Rossi C.,
+RA   Mazzanti L., Torrente I., Marino B., Digilio M.C., Zampino G.,
+RA   Ackerman M.J., Dallapiccola B., Tartaglia M., Gelb B.D.;
+RT   "Gain-of-function RAF1 mutations cause Noonan and LEOPARD syndromes
+RT   with hypertrophic cardiomyopathy.";
+RL   Nat. Genet. 39:1007-1012(2007).
+RN   [32]
+RP   VARIANTS NS5 LEU-257; ALA-261; SER-261; ALA-263 AND VAL-613, AND
+RP   CHARACTERIZATION OF VARIANTS NS5 LEU-257; ALA-261; SER-261; ALA-263
+RP   AND VAL-613.
+RX   PubMed=17603482; DOI=10.1038/ng2078;
+RA   Razzaque M.A., Nishizawa T., Komoike Y., Yagi H., Furutani M., Amo R.,
+RA   Kamisago M., Momma K., Katayama H., Nakagawa M., Fujiwara Y.,
+RA   Matsushima M., Mizuno K., Tokuyama M., Hirota H., Muneuchi J.,
+RA   Higashinakagawa T., Matsuoka R.;
+RT   "Germline gain-of-function mutations in RAF1 cause Noonan syndrome.";
+RL   Nat. Genet. 39:1013-1017(2007).
+RN   [33]
+RP   VARIANTS [LARGE SCALE ANALYSIS] ALA-259 AND HIS-335.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Involved in the transduction of mitogenic signals from
+CC       the cell membrane to the nucleus. Part of the Ras-dependent
+CC       signaling pathway from receptors to the nucleus. Protects cells
+CC       from apoptosis mediated by STK3.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- COFACTOR: Binds 2 zinc ions per subunit.
+CC   -!- SUBUNIT: Forms a multiprotein complex with Ras (M-Ras/MRAS), SHOC2
+CC       and protein phosphatase 1 (PPP1CA, PPP1CB and PPP1CC). Interacts
+CC       with Ras proteins; the interaction is antagonized by RIN1. Weakly
+CC       interacts with RIT1 (By similarity). Interacts with STK3; the
+CC       interaction inhibits its pro-apoptotic activity. Interacts (when
+CC       phosphorylated at Ser-259) with YWHAZ (unphosphorylated at 'Thr-
+CC       232').
+CC   -!- INTERACTION:
+CC       P15056:BRAF; NbExp=9; IntAct=EBI-365996, EBI-365980;
+CC       P49368:CCT3; NbExp=3; IntAct=EBI-365996, EBI-356673;
+CC       P30304:CDC25A; NbExp=1; IntAct=EBI-365996, EBI-747671;
+CC       Q9UNS2:COPS3; NbExp=2; IntAct=EBI-365996, EBI-350590;
+CC       P31327:CPS1; NbExp=2; IntAct=EBI-365996, EBI-536811;
+CC       P01112:HRAS; NbExp=5; IntAct=EBI-365996, EBI-350145;
+CC       P08238:HSP90AB1; NbExp=1; IntAct=EBI-365996, EBI-352572;
+CC       P11021:HSPA5; NbExp=3; IntAct=EBI-365996, EBI-354921;
+CC       Q9NVR2:INTS10; NbExp=2; IntAct=EBI-365996, EBI-536703;
+CC       Q02750:MAP2K1; NbExp=1; IntAct=EBI-365996, EBI-492564;
+CC       O43482:OIP5; NbExp=3; IntAct=EBI-365996, EBI-536879;
+CC       Q13177:PAK2; NbExp=2; IntAct=EBI-365996, EBI-1045887;
+CC       P14618:PKM2; NbExp=3; IntAct=EBI-365996, EBI-353408;
+CC       P62834:RAP1A; NbExp=2; IntAct=EBI-365996, EBI-491414;
+CC       P53805:RCAN1; NbExp=3; IntAct=EBI-365996, EBI-1541887;
+CC       Q3ZCQ8:TIMM50; NbExp=3; IntAct=EBI-365996, EBI-355175;
+CC       P31946:YWHAB; NbExp=6; IntAct=EBI-365996, EBI-359815;
+CC       P61981:YWHAG; NbExp=1; IntAct=EBI-365996, EBI-359832;
+CC       Q04917:YWHAH; NbExp=1; IntAct=EBI-365996, EBI-306940;
+CC       P27348:YWHAQ; NbExp=1; IntAct=EBI-365996, EBI-359854;
+CC       P63104:YWHAZ; NbExp=2; IntAct=EBI-365996, EBI-347088;
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1; Synonyms=6C;
+CC         IsoId=P04049-1; Sequence=Displayed;
+CC       Name=2; Synonyms=1A;
+CC         IsoId=P04049-2; Sequence=VSP_034649;
+CC   -!- TISSUE SPECIFICITY: In skeletal muscle, isoform 1 is more abundant
+CC       than isoform 2.
+CC   -!- PTM: Phosphorylated upon DNA damage, probably by ATM or ATR.
+CC       Phosphorylation at Thr-269 increases its kinase activity.
+CC       Phosphorylation at Ser-259 induces the interaction with YWHAZ and
+CC       inactivates kinase activity. Dephosphorylation of Ser-259 by the
+CC       complex containing protein phosphatase 1, SHOC2 and M-Ras/MRAS
+CC       relieves inactivation, leading to stimulate RAF1 activity.
+CC   -!- DISEASE: Defects in RAF1 are the cause of Noonan syndrome type 5
+CC       (NS5) [MIM:611553]. Noonan syndrome (NS) is a disorder
+CC       characterized by dysmorphic facial features, short stature,
+CC       hypertelorism, cardiac anomalies, deafness, motor delay, and a
+CC       bleeding diathesis. It is a genetically heterogeneous and
+CC       relatively common syndrome, with an estimated incidence of 1 in
+CC       1000-2500 live births.
+CC   -!- DISEASE: Defects in RAF1 are the cause of LEOPARD syndrome type 2
+CC       (LEOPARD syndrome-2) [MIM:611554]. LEOPARD syndrome is an
+CC       autosomal dominant disorder allelic with Noonan syndrome. The
+CC       acronym LEOPARD stands for lentigines, electrocardiographic
+CC       conduction abnormalities, ocular hypertelorism, pulmonic stenosis,
+CC       abnormalities of genitalia, retardation of growth, and deafness.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. TKL Ser/Thr
+CC       protein kinase family. RAF subfamily.
+CC   -!- SIMILARITY: Contains 1 phorbol-ester/DAG-type zinc finger.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- SIMILARITY: Contains 1 RBD (Ras-binding) domain.
+CC   -!- WEB RESOURCE: Name=GeneReviews;
+CC       URL="http://www.ncbi.nlm.nih.gov/sites/GeneTests/lab/gene/RAF1";
+CC   -!- WEB RESOURCE: Name=NIEHS-SNPs;
+CC       URL="http://egp.gs.washington.edu/data/raf1/";
+CC   -!- WEB RESOURCE: Name=Atlas of Genetics and Cytogenetics in Oncology
+CC       and Haematology;
+CC       URL="http://atlasgeneticsoncology.org/Genes/RAF1ID42032ch3p25.html";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X03484; CAA27204.1; -; mRNA.
+DR   EMBL; AY271661; AAP03432.1; -; Genomic_DNA.
+DR   EMBL; AK312248; BAG35180.1; -; mRNA.
+DR   EMBL; EU332868; ABY87557.1; -; Genomic_DNA.
+DR   EMBL; CH471055; EAW64134.1; -; Genomic_DNA.
+DR   EMBL; BC018119; AAH18119.1; -; mRNA.
+DR   EMBL; L00212; AAA60247.1; -; Genomic_DNA.
+DR   EMBL; L00206; AAA60247.1; JOINED; Genomic_DNA.
+DR   EMBL; L00207; AAA60247.1; JOINED; Genomic_DNA.
+DR   EMBL; L00208; AAA60247.1; JOINED; Genomic_DNA.
+DR   EMBL; L00209; AAA60247.1; JOINED; Genomic_DNA.
+DR   EMBL; L00210; AAA60247.1; JOINED; Genomic_DNA.
+DR   EMBL; L00211; AAA60247.1; JOINED; Genomic_DNA.
+DR   EMBL; L00213; AAA60247.1; JOINED; Genomic_DNA.
+DR   EMBL; M11376; AAA60247.1; JOINED; Genomic_DNA.
+DR   EMBL; X54851; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   IPI; IPI00021786; -.
+DR   IPI; IPI00900312; -.
+DR   PIR; A00637; TVHUF6.
+DR   PIR; S60341; S60341.
+DR   RefSeq; NP_002871.1; -.
+DR   UniGene; Hs.159130; -.
+DR   PDB; 1C1Y; X-ray; 1.90 A; B=55-131.
+DR   PDB; 1FAQ; NMR; -; A=136-187.
+DR   PDB; 1FAR; NMR; -; A=136-187.
+DR   PDB; 1GUA; X-ray; 2.00 A; B=51-131.
+DR   PDB; 1RFA; NMR; -; A=55-132.
+DR   PDB; 3CU8; X-ray; 2.40 A; P/Q=256-264.
+DR   PDB; 3IQJ; X-ray; 1.15 A; P=255-264.
+DR   PDB; 3IQU; X-ray; 1.05 A; P=255-260.
+DR   PDB; 3IQV; X-ray; 1.20 A; P=255-260.
+DR   PDB; 3KUC; X-ray; 1.92 A; B=51-131.
+DR   PDB; 3KUD; X-ray; 2.15 A; B=51-131.
+DR   PDB; 3NKX; X-ray; 2.40 A; P/Q=255-264.
+DR   PDB; 3OMV; X-ray; 4.00 A; A/B=323-618.
+DR   PDBsum; 1C1Y; -.
+DR   PDBsum; 1FAQ; -.
+DR   PDBsum; 1FAR; -.
+DR   PDBsum; 1GUA; -.
+DR   PDBsum; 1RFA; -.
+DR   PDBsum; 3CU8; -.
+DR   PDBsum; 3IQJ; -.
+DR   PDBsum; 3IQU; -.
+DR   PDBsum; 3IQV; -.
+DR   PDBsum; 3KUC; -.
+DR   PDBsum; 3KUD; -.
+DR   PDBsum; 3NKX; -.
+DR   PDBsum; 3OMV; -.
+DR   ProteinModelPortal; P04049; -.
+DR   SMR; P04049; 342-615.
+DR   DisProt; DP00171; -.
+DR   DIP; DIP-1048N; -.
+DR   IntAct; P04049; 97.
+DR   MINT; MINT-86694; -.
+DR   STRING; P04049; -.
+DR   PhosphoSite; P04049; -.
+DR   PRIDE; P04049; -.
+DR   Ensembl; ENST00000251849; ENSP00000251849; ENSG00000132155.
+DR   GeneID; 5894; -.
+DR   KEGG; hsa:5894; -.
+DR   UCSC; uc003bxf.2; human.
+DR   CTD; 5894; -.
+DR   GeneCards; GC03M012600; -.
+DR   H-InvDB; HIX0003068; -.
+DR   HGNC; HGNC:9829; RAF1.
+DR   HPA; CAB019291; -.
+DR   HPA; HPA002640; -.
+DR   MIM; 164760; gene.
+DR   MIM; 611553; phenotype.
+DR   MIM; 611554; phenotype.
+DR   Orphanet; 500; LEOPARD syndrome.
+DR   Orphanet; 648; Noonan syndrome.
+DR   PharmGKB; PA142671136; -.
+DR   eggNOG; prNOG06206; -.
+DR   HOVERGEN; HBG001886; -.
+DR   InParanoid; P04049; -.
+DR   OMA; DGPSCIS; -.
+DR   OrthoDB; EOG9QC3QR; -.
+DR   PhylomeDB; P04049; -.
+DR   BRENDA; 2.7.10.2; 247.
+DR   BRENDA; 2.7.11.1; 247.
+DR   Pathway_Interaction_DB; bcr_5pathway; BCR signaling pathway.
+DR   Pathway_Interaction_DB; ceramidepathway; Ceramide signaling pathway.
+DR   Pathway_Interaction_DB; pi3kciaktpathway; Class I PI3K signaling events mediated by Akt.
+DR   Pathway_Interaction_DB; cd8tcrdownstreampathway; Downstream signaling in naive CD8+ T cells.
+DR   Pathway_Interaction_DB; endothelinpathway; Endothelins.
+DR   Pathway_Interaction_DB; fcer1pathway; Fc-epsilon receptor I signaling in mast cells.
+DR   Pathway_Interaction_DB; igf1_pathway; IGF1 pathway.
+DR   Pathway_Interaction_DB; il2_1pathway; IL2-mediated signaling events.
+DR   Pathway_Interaction_DB; p38_mk2pathway; p38 signaling mediated by MAPKAP kinases.
+DR   Pathway_Interaction_DB; tcrraspathway; Ras signaling in the CD4+ TCR pathway.
+DR   Pathway_Interaction_DB; met_pathway; Signaling events activated by Hepatocyte Growth Factor Receptor (c-Met).
+DR   Pathway_Interaction_DB; kitpathway; Signaling events mediated by Stem cell factor receptor (c-Kit).
+DR   Pathway_Interaction_DB; mapktrkpathway; Trk receptor signaling mediated by the MAPK pathway.
+DR   Reactome; REACT_11061; Signalling by NGF.
+DR   Reactome; REACT_13685; Synaptic Transmission.
+DR   Reactome; REACT_16888; Signaling by PDGF.
+DR   Reactome; REACT_18266; Axon guidance.
+DR   Reactome; REACT_498; Signaling by Insulin receptor.
+DR   Reactome; REACT_9417; Signaling by EGFR.
+DR   BindingDB; P04049; -.
+DR   DrugBank; DB00398; Sorafenib.
+DR   NextBio; 22930; -.
+DR   PMAP-CutDB; P04049; -.
+DR   ArrayExpress; P04049; -.
+DR   Bgee; P04049; -.
+DR   CleanEx; HS_RAF1; -.
+DR   Genevestigator; P04049; -.
+DR   GermOnline; ENSG00000132155; Homo sapiens.
+DR   GO; GO:0005829; C:cytosol; EXP:Reactome.
+DR   GO; GO:0005741; C:mitochondrial outer membrane; TAS:ProtInc.
+DR   GO; GO:0005886; C:plasma membrane; EXP:Reactome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005515; F:protein binding; IPI:UniProtKB.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0005057; F:receptor signaling protein activity; IEA:InterPro.
+DR   GO; GO:0006915; P:apoptosis; TAS:ProtInc.
+DR   GO; GO:0008283; P:cell proliferation; TAS:ProtInc.
+DR   GO; GO:0008285; P:negative regulation of cell proliferation; IDA:BHF-UCL.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; TAS:ProtInc.
+DR   GO; GO:0007265; P:Ras protein signal transduction; EXP:Reactome.
+DR   InterPro; IPR020454; DAG/PE-bd.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR002219; Prot_Kinase_C-like_PE/DAG-bd.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR003116; Raf-like_ras-bd.
+DR   InterPro; IPR001245; Ser-Thr/Tyr-Pkinase.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   Pfam; PF00130; C1_1; 1.
+DR   Pfam; PF07714; Pkinase_Tyr; 1.
+DR   Pfam; PF02196; RBD; 1.
+DR   PRINTS; PR00008; DAGPEDOMAIN.
+DR   SMART; SM00109; C1; 1.
+DR   SMART; SM00455; RBD; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+DR   PROSITE; PS50898; RBD; 1.
+DR   PROSITE; PS00479; ZF_DAG_PE_1; 1.
+DR   PROSITE; PS50081; ZF_DAG_PE_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; ATP-binding; Complete proteome;
+KW   Direct protein sequencing; Disease mutation; Kinase; Metal-binding;
+KW   Nucleotide-binding; Phosphoprotein; Polymorphism; Proto-oncogene;
+KW   Serine/threonine-protein kinase; Transferase; Zinc; Zinc-finger.
+FT   CHAIN         1    648       RAF proto-oncogene serine/threonine-
+FT                                protein kinase.
+FT                                /FTId=PRO_0000086596.
+FT   DOMAIN       56    131       RBD.
+FT   DOMAIN      349    609       Protein kinase.
+FT   ZN_FING     138    184       Phorbol-ester/DAG-type.
+FT   NP_BIND     355    363       ATP (By similarity).
+FT   ACT_SITE    468    468       Proton acceptor.
+FT   METAL       139    139       Zinc 1.
+FT   METAL       152    152       Zinc 2.
+FT   METAL       155    155       Zinc 2.
+FT   METAL       165    165       Zinc 1.
+FT   METAL       168    168       Zinc 1.
+FT   METAL       173    173       Zinc 2.
+FT   METAL       176    176       Zinc 2.
+FT   METAL       184    184       Zinc 1.
+FT   BINDING     375    375       ATP (By similarity).
+FT   MOD_RES      43     43       Phosphoserine.
+FT   MOD_RES     244    244       Phosphoserine.
+FT   MOD_RES     252    252       Phosphoserine.
+FT   MOD_RES     257    257       Phosphoserine.
+FT   MOD_RES     258    258       Phosphothreonine.
+FT   MOD_RES     259    259       Phosphoserine; by PKC.
+FT   MOD_RES     268    268       Phosphothreonine; by autocatalysis.
+FT   MOD_RES     269    269       Phosphothreonine; by PKA.
+FT   MOD_RES     289    289       Phosphoserine.
+FT   MOD_RES     294    294       Phosphoserine.
+FT   MOD_RES     301    301       Phosphoserine.
+FT   MOD_RES     338    338       Phosphoserine; by PAK2 and PAK3.
+FT   MOD_RES     499    499       Phosphoserine; by PKC.
+FT   MOD_RES     612    612       Phosphoserine.
+FT   MOD_RES     621    621       Phosphoserine.
+FT   MOD_RES     642    642       Phosphoserine.
+FT   VAR_SEQ     278    278       E -> ENNNLSASPRAWSRRFCLRGR (in isoform
+FT                                2).
+FT                                /FTId=VSP_034649.
+FT   VARIANT     256    256       R -> S (in NS5).
+FT                                /FTId=VAR_037807.
+FT   VARIANT     257    257       S -> L (in NS5 and LEOPARD sndrome-2;
+FT                                shows in vitro greater kinase activity
+FT                                and enhanced ERK activation than wild-
+FT                                type).
+FT                                /FTId=VAR_037808.
+FT   VARIANT     259    259       S -> A (in an ovarian serous carcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_041037.
+FT   VARIANT     259    259       S -> F (in NS5).
+FT                                /FTId=VAR_037809.
+FT   VARIANT     260    260       T -> I (in hypertrophic cardiomyopathy).
+FT                                /FTId=VAR_037810.
+FT   VARIANT     260    260       T -> R (in NS5).
+FT                                /FTId=VAR_037811.
+FT   VARIANT     261    261       P -> A (in NS5; shows in vitro greater
+FT                                kinase activity and enhanced MAPK1
+FT                                activation than wild-type).
+FT                                /FTId=VAR_037812.
+FT   VARIANT     261    261       P -> L (in NS5; shows greater kinase
+FT                                activity and enhanced MAPK1 activation
+FT                                than wild-type).
+FT                                /FTId=VAR_037813.
+FT   VARIANT     261    261       P -> S (in NS5; shows in vitro greater
+FT                                kinase activity and enhanced MAPK1
+FT                                activation than wild-type).
+FT                                /FTId=VAR_037814.
+FT   VARIANT     263    263       V -> A (in NS5; shows in vitro greater
+FT                                kinase activity and enhanced MAPK1
+FT                                activation than wild-type).
+FT                                /FTId=VAR_037815.
+FT   VARIANT     308    308       P -> L (in dbSNP:rs5746220).
+FT                                /FTId=VAR_018840.
+FT   VARIANT     335    335       Q -> H (in a lung adenocarcinoma sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_041038.
+FT   VARIANT     486    486       D -> G (in NS5).
+FT                                /FTId=VAR_037816.
+FT   VARIANT     486    486       D -> N (in NS5; has reduced or absent
+FT                                kinase activity).
+FT                                /FTId=VAR_037817.
+FT   VARIANT     491    491       T -> I (in NS5; has reduced or absent
+FT                                kinase activity).
+FT                                /FTId=VAR_037818.
+FT   VARIANT     491    491       T -> R (in NS5).
+FT                                /FTId=VAR_037819.
+FT   VARIANT     612    612       S -> T (in NS5).
+FT                                /FTId=VAR_037820.
+FT   VARIANT     613    613       L -> V (in NS5 and LEOPARD syndrome-2;
+FT                                shows in vitro greater kinase activity
+FT                                and enhanced MAPK1 activation than wild-
+FT                                type).
+FT                                /FTId=VAR_037821.
+FT   MUTAGEN     259    259       S->A: Increased ERK activation.
+FT   CONFLICT    240    240       F -> L (in Ref. 6; AAA60247).
+FT   CONFLICT    542    542       M -> I (in Ref. 6; AAA60247).
+FT   STRAND       57     62
+FT   TURN         63     65
+FT   STRAND       66     71
+FT   HELIX        78     87
+FT   TURN         88     90
+FT   HELIX        93     95
+FT   STRAND       96    102
+FT   HELIX       103    105
+FT   STRAND      106    112
+FT   HELIX       118    121
+FT   STRAND      125    130
+FT   STRAND      142    144
+FT   STRAND      155    159
+FT   STRAND      161    164
+FT   TURN        166    169
+FT   STRAND      177    182
+SQ   SEQUENCE   648 AA;  73052 MW;  EF821B5349711BC3 CRC64;
+     MEHIQGAWKT ISNGFGFKDA VFDGSSCISP TIVQQFGYQR RASDDGKLTD PSKTSNTIRV
+     FLPNKQRTVV NVRNGMSLHD CLMKALKVRG LQPECCAVFR LLHEHKGKKA RLDWNTDAAS
+     LIGEELQVDF LDHVPLTTHN FARKTFLKLA FCDICQKFLL NGFRCQTCGY KFHEHCSTKV
+     PTMCVDWSNI RQLLLFPNST IGDSGVPALP SLTMRRMRES VSRMPVSSQH RYSTPHAFTF
+     NTSSPSSEGS LSQRQRSTST PNVHMVSTTL PVDSRMIEDA IRSHSESASP SALSSSPNNL
+     SPTGWSQPKT PVPAQRERAP VSGTQEKNKI RPRGQRDSSY YWEIEASEVM LSTRIGSGSF
+     GTVYKGKWHG DVAVKILKVV DPTPEQFQAF RNEVAVLRKT RHVNILLFMG YMTKDNLAIV
+     TQWCEGSSLY KHLHVQETKF QMFQLIDIAR QTAQGMDYLH AKNIIHRDMK SNNIFLHEGL
+     TVKIGDFGLA TVKSRWSGSQ QVEQPTGSVL WMAPEVIRMQ DNNPFSFQSD VYSYGIVLYE
+     LMTGELPYSH INNRDQIIFM VGRGYASPDL SKLYKNCPKA MKRLVADCVK KVKEERPLFP
+     QILSSIELLQ HSLPKINRSA SEPSLHRAAH TEDINACTLT TSPRLPVF
+//

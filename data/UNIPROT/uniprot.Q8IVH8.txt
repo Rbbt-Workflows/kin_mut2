@@ -1,0 +1,279 @@
+ID   M4K3_HUMAN              Reviewed;         894 AA.
+AC   Q8IVH8; Q6IQ39; Q8IVH7; Q9UDM5; Q9Y6R5;
+DT   28-MAR-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   02-NOV-2010, entry version 79.
+DE   RecName: Full=Mitogen-activated protein kinase kinase kinase kinase 3;
+DE            EC=2.7.11.1;
+DE   AltName: Full=Germinal center kinase-related protein kinase;
+DE            Short=GLK;
+DE   AltName: Full=MAPK/ERK kinase kinase kinase 3;
+DE            Short=MEK kinase kinase 3;
+DE            Short=MEKKK 3;
+GN   Name=MAP4K3; Synonyms=RAB8IPL1;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2), FUNCTION, TISSUE SPECIFICITY,
+RP   AND MUTAGENESIS OF LYS-48.
+RC   TISSUE=Macrophage, and Skeletal muscle;
+RX   MEDLINE=97420743; PubMed=9275185; DOI=10.1073/pnas.94.18.9687;
+RA   Diener K., Wang X.S., Chen C., Meyer C.F., Keesler G., Zukowski M.,
+RA   Tan T.-H., Yao Z.;
+RT   "Activation of the c-Jun N-terminal kinase pathway by a novel protein
+RT   kinase related to human germinal center kinase.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 94:9687-9692(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] (ISOFORMS 1 AND 3).
+RA   Gorry M.C., Zhang Y., Marks J.J., Suppe B., Hart S., Cortelli J.,
+RA   Pallos D., Hart T.C.;
+RT   "Physical/genetic map of the 2p22-2p21 region on chromosome 2.";
+RL   Submitted (NOV-2001) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (SEP-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 3).
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE OF 1-712 (ISOFORM 1).
+RA   Edwards J., Wohldmann P., Hawkins M., Harkins R.;
+RL   Submitted (JUN-1999) to the EMBL/GenBank/DDBJ databases.
+RN   [6]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-327; SER-398 AND
+RP   SER-893, AND MASS SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [7]
+RP   VARIANTS [LARGE SCALE ANALYSIS] LEU-200; GLN-424 AND SER-669.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: May play a role in the response to environmental stress.
+CC       Appears to act upstream of the JUN N-terminal pathway.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- COFACTOR: Magnesium.
+CC   -!- SUBUNIT: Interacts with SH3GL2. Interaction appears to regulate
+CC       MAP4K3-mediated JNK activation (By similarity).
+CC   -!- INTERACTION:
+CC       P62993:GRB2; NbExp=1; IntAct=EBI-1758170, EBI-401755;
+CC       P16333:NCK1; NbExp=1; IntAct=EBI-1758170, EBI-389883;
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=3;
+CC       Name=1;
+CC         IsoId=Q8IVH8-1; Sequence=Displayed;
+CC         Note=No experimental confirmation available;
+CC       Name=2;
+CC         IsoId=Q8IVH8-2; Sequence=VSP_007052;
+CC       Name=3;
+CC         IsoId=Q8IVH8-3; Sequence=VSP_007053;
+CC         Note=No experimental confirmation available;
+CC   -!- TISSUE SPECIFICITY: Ubiquitously expressed in all tissues
+CC       examined, with high levels in heart, brain, placenta, skeletal
+CC       muscle, kidney and pancreas and lower levels in lung and liver.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. STE Ser/Thr
+CC       protein kinase family. STE20 subfamily.
+CC   -!- SIMILARITY: Contains 1 CNH domain.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF000145; AAC15472.1; -; mRNA.
+DR   EMBL; AF445413; AAN75849.1; -; Genomic_DNA.
+DR   EMBL; AF445385; AAN75849.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445386; AAN75849.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445387; AAN75849.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445388; AAN75849.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445390; AAN75849.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445391; AAN75849.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445392; AAN75849.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445393; AAN75849.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445394; AAN75849.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445395; AAN75849.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445396; AAN75849.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445397; AAN75849.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445398; AAN75849.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445399; AAN75849.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445400; AAN75849.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445401; AAN75849.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445402; AAN75849.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445403; AAN75849.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445404; AAN75849.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445405; AAN75849.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445406; AAN75849.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445407; AAN75849.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445408; AAN75849.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445409; AAN75849.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445410; AAN75849.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445411; AAN75849.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445412; AAN75849.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445413; AAN75850.1; -; Genomic_DNA.
+DR   EMBL; AF445385; AAN75850.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445386; AAN75850.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445387; AAN75850.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445388; AAN75850.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445390; AAN75850.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445391; AAN75850.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445392; AAN75850.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445393; AAN75850.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445394; AAN75850.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445395; AAN75850.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445397; AAN75850.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445398; AAN75850.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445399; AAN75850.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445400; AAN75850.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445401; AAN75850.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445402; AAN75850.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445403; AAN75850.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445404; AAN75850.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445405; AAN75850.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445406; AAN75850.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445407; AAN75850.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445408; AAN75850.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445409; AAN75850.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445410; AAN75850.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445411; AAN75850.1; JOINED; Genomic_DNA.
+DR   EMBL; AF445412; AAN75850.1; JOINED; Genomic_DNA.
+DR   EMBL; CH471053; EAX00346.1; -; Genomic_DNA.
+DR   EMBL; BC071579; AAH71579.1; -; mRNA.
+DR   EMBL; AC007684; AAF19240.1; -; Genomic_DNA.
+DR   IPI; IPI00217024; -.
+DR   IPI; IPI00219509; -.
+DR   IPI; IPI00219510; -.
+DR   RefSeq; NP_003609.2; -.
+DR   UniGene; Hs.655750; -.
+DR   ProteinModelPortal; Q8IVH8; -.
+DR   SMR; Q8IVH8; 8-285.
+DR   DIP; DIP-48924N; -.
+DR   IntAct; Q8IVH8; 2.
+DR   MINT; MINT-3037145; -.
+DR   STRING; Q8IVH8; -.
+DR   PhosphoSite; Q8IVH8; -.
+DR   PRIDE; Q8IVH8; -.
+DR   Ensembl; ENST00000263881; ENSP00000263881; ENSG00000011566.
+DR   GeneID; 8491; -.
+DR   KEGG; hsa:8491; -.
+DR   UCSC; uc002rro.1; human.
+DR   UCSC; uc002rrp.1; human.
+DR   CTD; 8491; -.
+DR   GeneCards; GC02M039476; -.
+DR   H-InvDB; HIX0001996; -.
+DR   HGNC; HGNC:6865; MAP4K3.
+DR   HPA; HPA030380; -.
+DR   MIM; 604921; gene.
+DR   PharmGKB; PA30611; -.
+DR   HOGENOM; HBG315791; -.
+DR   HOVERGEN; HBG036702; -.
+DR   InParanoid; Q8IVH8; -.
+DR   OMA; SDNTRIF; -.
+DR   PhylomeDB; Q8IVH8; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   Pathway_Interaction_DB; tnfpathway; TNF receptor signaling pathway.
+DR   NextBio; 31767; -.
+DR   ArrayExpress; Q8IVH8; -.
+DR   Bgee; Q8IVH8; -.
+DR   CleanEx; HS_MAP4K3; -.
+DR   Genevestigator; Q8IVH8; -.
+DR   GermOnline; ENSG00000011566; Homo sapiens.
+DR   GO; GO:0005524; F:ATP binding; IDA:UniProtKB.
+DR   GO; GO:0005515; F:protein binding; IPI:IntAct.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IDA:UniProtKB.
+DR   GO; GO:0005083; F:small GTPase regulator activity; IEA:InterPro.
+DR   GO; GO:0007254; P:JNK cascade; TAS:ProtInc.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IDA:UniProtKB.
+DR   InterPro; IPR001180; Citron.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR021160; MAPKKKK.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00780; CNH; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   PIRSF; PIRSF038172; MAPKKKK; 1.
+DR   SMART; SM00036; CNH; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS50219; CNH; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; FALSE_NEG.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; ATP-binding; Complete proteome; Kinase;
+KW   Nucleotide-binding; Phosphoprotein; Polymorphism;
+KW   Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    894       Mitogen-activated protein kinase kinase
+FT                                kinase kinase 3.
+FT                                /FTId=PRO_0000086277.
+FT   DOMAIN       16    273       Protein kinase.
+FT   DOMAIN      556    867       CNH.
+FT   NP_BIND      22     30       ATP (By similarity).
+FT   ACT_SITE    136    136       Proton acceptor (By similarity).
+FT   BINDING      45     45       ATP (By similarity).
+FT   BINDING      48     48       ATP.
+FT   MOD_RES     327    327       Phosphothreonine.
+FT   MOD_RES     398    398       Phosphoserine.
+FT   MOD_RES     893    893       Phosphoserine.
+FT   VAR_SEQ       1     12       MNPGFDLSRRNP -> MA (in isoform 2).
+FT                                /FTId=VSP_007052.
+FT   VAR_SEQ     352    372       Missing (in isoform 3).
+FT                                /FTId=VSP_007053.
+FT   VARIANT     200    200       V -> L (in dbSNP:rs35957290).
+FT                                /FTId=VAR_040743.
+FT   VARIANT     424    424       H -> Q (in dbSNP:rs56317466).
+FT                                /FTId=VAR_040744.
+FT   VARIANT     669    669       T -> S (in a lung squamous cell carcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_040745.
+FT   MUTAGEN      48     48       K->E: Loss of kinase activity and ability
+FT                                to activate JNK family.
+FT   CONFLICT    392    392       N -> D (in Ref. 1; AAC15472).
+SQ   SEQUENCE   894 AA;  101316 MW;  6EB77BBB34E5B733 CRC64;
+     MNPGFDLSRR NPQEDFELIQ RIGSGTYGDV YKARNVNTGE LAAIKVIKLE PGEDFAVVQQ
+     EIIMMKDCKH PNIVAYFGSY LRRDKLWICM EFCGGGSLQD IYHVTGPLSE LQIAYVSRET
+     LQGLYYLHSK GKMHRDIKGA NILLTDNGHV KLADFGVSAQ ITATIAKRKS FIGTPYWMAP
+     EVAAVERKGG YNQLCDLWAV GITAIELAEL QPPMFDLHPM RALFLMTKSN FQPPKLKDKM
+     KWSNSFHHFV KMALTKNPKK RPTAEKLLQH PFVTQHLTRS LAIELLDKVN NPDHSTYHDF
+     DDDDPEPLVA VPHRIHSTSR NVREEKTRSE ITFGQVKFDP PLRKETEPHH ELPDSDGFLD
+     SSEEIYYTAR SNLDLQLEYG QGHQGGYFLG ANKSLLKSVE EELHQRGHVA HLEDDEGDDD
+     ESKHSTLKAK IPPPLPPKPK SIFIPQEMHS TEDENQGTIK RCPMSGSPAK PSQVPPRPPP
+     PRLPPHKPVA LGNGMSSFQL NGERDGSLCQ QQNEHRGTNL SRKEKKDVPK PISNGLPPTP
+     KVHMGACFSK VFNGCPLKIH CASSWINPDT RDQYLIFGAE EGIYTLNLNE LHETSMEQLF
+     PRRCTWLYVM NNCLLSISGK ASQLYSHNLP GLFDYARQMQ KLPVAIPAHK LPDRILPRKF
+     SVSAKIPETK WCQKCCVVRN PYTGHKYLCG ALQTSIVLLE WVEPMQKFML IKHIDFPIPC
+     PLRMFEMLVV PEQEYPLVCV GVSRGRDFNQ VVRFETVNPN STSSWFTESD TPQTNVTHVT
+     QLERDTILVC LDCCIKIVNL QGRLKSSRKL SSELTFDFQI ESIVCLQDSV LAFWKHGMQG
+     RSFRSNEVTQ EISDSTRIFR LLGSDRVVVL ESRPTDNPTA NSNLYILAGH ENSY
+//

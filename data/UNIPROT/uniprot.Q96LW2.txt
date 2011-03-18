@@ -1,0 +1,139 @@
+ID   SG494_HUMAN             Reviewed;         274 AA.
+AC   Q96LW2; B4DFP4; Q49A48;
+DT   03-OCT-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2001, sequence version 1.
+DT   05-OCT-2010, entry version 65.
+DE   RecName: Full=Uncharacterized serine/threonine-protein kinase SgK494;
+DE            EC=2.7.11.1;
+DE   AltName: Full=Sugen kinase 494;
+GN   Name=SGK494;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1 AND 2).
+RC   TISSUE=Amygdala, and Cerebellum;
+RX   PubMed=14702039; DOI=10.1038/ng1285;
+RA   Ota T., Suzuki Y., Nishikawa T., Otsuki T., Sugiyama T., Irie R.,
+RA   Wakamatsu A., Hayashi K., Sato H., Nagai K., Kimura K., Makita H.,
+RA   Sekine M., Obayashi M., Nishi T., Shibahara T., Tanaka T., Ishii S.,
+RA   Yamamoto J., Saito K., Kawai Y., Isono Y., Nakamura Y., Nagahari K.,
+RA   Murakami K., Yasuda T., Iwayanagi T., Wagatsuma M., Shiratori A.,
+RA   Sudo H., Hosoiri T., Kaku Y., Kodaira H., Kondo H., Sugawara M.,
+RA   Takahashi M., Kanda K., Yokoi T., Furuya T., Kikkawa E., Omura Y.,
+RA   Abe K., Kamihara K., Katsuta N., Sato K., Tanikawa M., Yamazaki M.,
+RA   Ninomiya K., Ishibashi T., Yamashita H., Murakawa K., Fujimori K.,
+RA   Tanai H., Kimata M., Watanabe M., Hiraoka S., Chiba Y., Ishida S.,
+RA   Ono Y., Takiguchi S., Watanabe S., Yosida M., Hotuta T., Kusano J.,
+RA   Kanehori K., Takahashi-Fujii A., Hara H., Tanase T.-O., Nomura Y.,
+RA   Togiya S., Komai F., Hara R., Takeuchi K., Arita M., Imose N.,
+RA   Musashino K., Yuuki H., Oshima A., Sasaki N., Aotsuka S.,
+RA   Yoshikawa Y., Matsunawa H., Ichihara T., Shiohata N., Sano S.,
+RA   Moriya S., Momiyama H., Satoh N., Takami S., Terashima Y., Suzuki O.,
+RA   Nakagawa S., Senoh A., Mizoguchi H., Goto Y., Shimizu F., Wakebe H.,
+RA   Hishigaki H., Watanabe T., Sugiyama A., Takemoto M., Kawakami B.,
+RA   Yamazaki M., Watanabe K., Kumagai A., Itakura S., Fukuzumi Y.,
+RA   Fujimori Y., Komiyama M., Tashiro H., Tanigami A., Fujiwara T.,
+RA   Ono T., Yamada K., Fujii Y., Ozaki K., Hirao M., Ohmori Y.,
+RA   Kawabata A., Hikiji T., Kobatake N., Inagaki H., Ikema Y., Okamoto S.,
+RA   Okitani R., Kawakami T., Noguchi S., Itoh T., Shigeta K., Senba T.,
+RA   Matsumura K., Nakajima Y., Mizuno T., Morinaga M., Sasaki M.,
+RA   Togashi T., Oyama M., Hata H., Watanabe M., Komatsu T.,
+RA   Mizushima-Sugano J., Satoh T., Shirai Y., Takahashi Y., Nakagawa K.,
+RA   Okumura K., Nagase T., Nomura N., Kikuchi H., Masuho Y., Yamashita R.,
+RA   Nakai K., Yada T., Nakamura Y., Ohara O., Isogai T., Sugano S.;
+RT   "Complete sequencing and characterization of 21,243 full-length human
+RT   cDNAs.";
+RL   Nat. Genet. 36:40-45(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2).
+RC   TISSUE=Brain;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   IDENTIFICATION.
+RX   PubMed=12471243; DOI=10.1126/science.1075762;
+RA   Manning G., Whyte D.B., Martinez R., Hunter T., Sudarsanam S.;
+RT   "The protein kinase complement of the human genome.";
+RL   Science 298:1912-1934(2002).
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q96LW2-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q96LW2-2; Sequence=VSP_020678, VSP_020679;
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Ser/Thr
+CC       protein kinase family.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AK057735; BAB71555.1; -; mRNA.
+DR   EMBL; AK294189; BAG57505.1; -; mRNA.
+DR   EMBL; BC045622; AAH45622.1; -; mRNA.
+DR   IPI; IPI00641744; -.
+DR   IPI; IPI00956412; -.
+DR   UniGene; Hs.514033; -.
+DR   ProteinModelPortal; Q96LW2; -.
+DR   SMR; Q96LW2; 105-271.
+DR   IntAct; Q96LW2; 1.
+DR   PRIDE; Q96LW2; -.
+DR   Ensembl; ENST00000301037; ENSP00000301037; ENSG00000167524.
+DR   Ensembl; ENST00000378976; ENSP00000368259; ENSG00000167524.
+DR   UCSC; uc002hbr.1; human.
+DR   UCSC; uc010crp.1; human.
+DR   GeneCards; GC17M026930; -.
+DR   H-InvDB; HIX0013653; -.
+DR   eggNOG; prNOG14584; -.
+DR   HOGENOM; HBG268311; -.
+DR   HOVERGEN; HBG093948; -.
+DR   InParanoid; Q96LW2; -.
+DR   OMA; FLPEFPI; -.
+DR   PhylomeDB; Q96LW2; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   NextBio; 81420; -.
+DR   ArrayExpress; Q96LW2; -.
+DR   Bgee; Q96LW2; -.
+DR   Genevestigator; Q96LW2; -.
+DR   GermOnline; ENSG00000167524; Homo sapiens.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; FALSE_NEG.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; ATP-binding; Complete proteome; Kinase;
+KW   Nucleotide-binding; Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    274       Uncharacterized serine/threonine-protein
+FT                                kinase SgK494.
+FT                                /FTId=PRO_0000250646.
+FT   DOMAIN      107    274       Protein kinase.
+FT   NP_BIND     113    121       ATP (By similarity).
+FT   ACT_SITE    229    229       Proton acceptor (By similarity).
+FT   BINDING     136    136       ATP (By similarity).
+FT   VAR_SEQ     160    171       RQINHPFVHSLG -> VISMTWASCIEM (in isoform
+FT                                2).
+FT                                /FTId=VSP_020678.
+FT   VAR_SEQ     172    274       Missing (in isoform 2).
+FT                                /FTId=VSP_020679.
+SQ   SEQUENCE   274 AA;  31044 MW;  078726BA9DE13670 CRC64;
+     MGAVSCRQGQ HTQQGEHTRV AVPHKQGGNI RGPWARGWKS LWTGLGTIRS DLEELWELRG
+     HHYLHQESLK PAPVLVEKPL PEWPVPQFIN LFLPEFPIRP IRGQQQLKIL GLVAKGSFGT
+     VLKVLDCTQK AVFAVKVVPK VKVLQRDTVR QCKEEVSIQR QINHPFVHSL GDSWQGKRHL
+     FIMCSYCSTD LYSLWSAVGC FPEASIRLFA AELVLVLCYL HDLGIMHRDV KMENILLDER
+     GHLKLTDFGL SRHVPQGAQA YTICGTLQYM GERG
+//

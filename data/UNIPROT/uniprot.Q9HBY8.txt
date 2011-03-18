@@ -1,0 +1,232 @@
+ID   SGK2_HUMAN              Reviewed;         427 AA.
+AC   Q9HBY8; Q52PK5; Q5H8Y6; Q5H8Z1; Q5TZR3; Q9UKG6;
+DT   22-FEB-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   05-OCT-2010, entry version 91.
+DE   RecName: Full=Serine/threonine-protein kinase Sgk2;
+DE            EC=2.7.11.1;
+DE   AltName: Full=Serum/glucocorticoid-regulated kinase 2;
+GN   Name=SGK2;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1 AND 2), TISSUE SPECIFICITY,
+RP   PHOSPHORYLATION AT THR-253, AND MUTAGENESIS OF SER-416.
+RX   MEDLINE=20018032; PubMed=10548550; DOI=10.1042/0264-6021:3440189;
+RA   Kobayashi T., Deak M., Morrice N., Cohen P.;
+RT   "Characterization of the structure and regulation of two novel
+RT   isoforms of serum- and glucocorticoid-induced protein kinase.";
+RL   Biochem. J. 344:189-197(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 3).
+RA   Li H., Nong W., Zhou G., Ke R., Shen C., Zhong G., Zheng Z., Liang M.,
+RA   Xiao W., Lin L., Yang S.;
+RL   Submitted (MAR-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RA   Kalnine N., Chen X., Rolfs A., Halleck A., Hines L., Eisenstein S.,
+RA   Koundinya M., Raphael J., Moreira D., Kelley T., LaBaer J., Lin Y.,
+RA   Phelan M., Farmer A.;
+RT   "Cloning of human full-length CDSs in BD Creator(TM) system donor
+RT   vector.";
+RL   Submitted (OCT-2004) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   MEDLINE=21638749; PubMed=11780052; DOI=10.1038/414865a;
+RA   Deloukas P., Matthews L.H., Ashurst J.L., Burton J., Gilbert J.G.R.,
+RA   Jones M., Stavrides G., Almeida J.P., Babbage A.K., Bagguley C.L.,
+RA   Bailey J., Barlow K.F., Bates K.N., Beard L.M., Beare D.M.,
+RA   Beasley O.P., Bird C.P., Blakey S.E., Bridgeman A.M., Brown A.J.,
+RA   Buck D., Burrill W.D., Butler A.P., Carder C., Carter N.P.,
+RA   Chapman J.C., Clamp M., Clark G., Clark L.N., Clark S.Y., Clee C.M.,
+RA   Clegg S., Cobley V.E., Collier R.E., Connor R.E., Corby N.R.,
+RA   Coulson A., Coville G.J., Deadman R., Dhami P.D., Dunn M.,
+RA   Ellington A.G., Frankland J.A., Fraser A., French L., Garner P.,
+RA   Grafham D.V., Griffiths C., Griffiths M.N.D., Gwilliam R., Hall R.E.,
+RA   Hammond S., Harley J.L., Heath P.D., Ho S., Holden J.L., Howden P.J.,
+RA   Huckle E., Hunt A.R., Hunt S.E., Jekosch K., Johnson C.M., Johnson D.,
+RA   Kay M.P., Kimberley A.M., King A., Knights A., Laird G.K., Lawlor S.,
+RA   Lehvaeslaiho M.H., Leversha M.A., Lloyd C., Lloyd D.M., Lovell J.D.,
+RA   Marsh V.L., Martin S.L., McConnachie L.J., McLay K., McMurray A.A.,
+RA   Milne S.A., Mistry D., Moore M.J.F., Mullikin J.C., Nickerson T.,
+RA   Oliver K., Parker A., Patel R., Pearce T.A.V., Peck A.I.,
+RA   Phillimore B.J.C.T., Prathalingam S.R., Plumb R.W., Ramsay H.,
+RA   Rice C.M., Ross M.T., Scott C.E., Sehra H.K., Shownkeen R., Sims S.,
+RA   Skuce C.D., Smith M.L., Soderlund C., Steward C.A., Sulston J.E.,
+RA   Swann R.M., Sycamore N., Taylor R., Tee L., Thomas D.W., Thorpe A.,
+RA   Tracey A., Tromans A.C., Vaudin M., Wall M., Wallis J.M.,
+RA   Whitehead S.L., Whittaker P., Willey D.L., Williams L., Williams S.A.,
+RA   Wilming L., Wray P.W., Hubbard T., Durbin R.M., Bentley D.R., Beck S.,
+RA   Rogers J.;
+RT   "The DNA sequence and comparative analysis of human chromosome 20.";
+RL   Nature 414:865-871(2001).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   TISSUE=Brain, and Colon;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [6]
+RP   FUNCTION.
+RX   MEDLINE=22284526; PubMed=12397388; DOI=10.1007/s00424-002-0873-2;
+RA   Gamper N., Fillon S., Feng Y., Friedrich B., Lang P.A., Henke G.,
+RA   Huber S.M., Kobayashi T., Cohen P., Lang F.;
+RT   "K(+) channel activation by all three isoforms of serum- and
+RT   glucocorticoid-dependent protein kinase SGK.";
+RL   Pflugers Arch. 445:60-66(2002).
+RN   [7]
+RP   VARIANTS [LARGE SCALE ANALYSIS] THR-12; LYS-259 AND TYR-349.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Involved in the activation of potassium channels.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- ENZYME REGULATION: Two specific sites, one in the kinase domain
+CC       (Thr-253) and the other in the C-terminal regulatory region (Ser-
+CC       416), need to be phosphorylated for its full activation.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=3;
+CC       Name=2; Synonyms=beta;
+CC         IsoId=Q9HBY8-1; Sequence=Displayed;
+CC       Name=1; Synonyms=alpha;
+CC         IsoId=Q9HBY8-2; Sequence=VSP_004932;
+CC       Name=3;
+CC         IsoId=Q9HBY8-3; Sequence=VSP_026682;
+CC         Note=No experimental confirmation available;
+CC   -!- TISSUE SPECIFICITY: Highly expressed in liver, kidney and
+CC       pancreas, and at lower levels in brain.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. AGC Ser/Thr
+CC       protein kinase family.
+CC   -!- SIMILARITY: Contains 1 AGC-kinase C-terminal domain.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- CAUTION: Not regulated by serum or glucocorticoids.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF169034; AAF12757.2; -; mRNA.
+DR   EMBL; AF186470; AAG17012.1; -; mRNA.
+DR   EMBL; AY987010; AAX88805.1; -; mRNA.
+DR   EMBL; BT020098; AAV38901.1; -; mRNA.
+DR   EMBL; Z98752; CAC18509.1; -; Genomic_DNA.
+DR   EMBL; Z98752; CAI42312.1; -; Genomic_DNA.
+DR   EMBL; Z98752; CAI42315.1; -; Genomic_DNA.
+DR   EMBL; BC014037; AAH14037.3; -; mRNA.
+DR   EMBL; BC065511; AAH65511.1; -; mRNA.
+DR   IPI; IPI00009887; -.
+DR   IPI; IPI00217154; -.
+DR   IPI; IPI00853438; -.
+DR   RefSeq; NP_057360.2; -.
+DR   RefSeq; NP_733794.1; -.
+DR   UniGene; Hs.300863; -.
+DR   ProteinModelPortal; Q9HBY8; -.
+DR   SMR; Q9HBY8; 93-421.
+DR   STRING; Q9HBY8; -.
+DR   PhosphoSite; Q9HBY8; -.
+DR   PRIDE; Q9HBY8; -.
+DR   Ensembl; ENST00000341458; ENSP00000340608; ENSG00000101049.
+DR   GeneID; 10110; -.
+DR   KEGG; hsa:10110; -.
+DR   UCSC; uc002xkr.1; human.
+DR   UCSC; uc002xkv.1; human.
+DR   CTD; 10110; -.
+DR   GeneCards; GC20P042187; -.
+DR   HGNC; HGNC:13900; SGK2.
+DR   HPA; HPA011387; -.
+DR   MIM; 607589; gene.
+DR   PharmGKB; PA37824; -.
+DR   eggNOG; prNOG10252; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG108317; -.
+DR   InParanoid; Q9HBY8; -.
+DR   OMA; KKEQNHI; -.
+DR   PhylomeDB; Q9HBY8; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   NextBio; 38243; -.
+DR   ArrayExpress; Q9HBY8; -.
+DR   Bgee; Q9HBY8; -.
+DR   CleanEx; HS_SGK2; -.
+DR   Genevestigator; Q9HBY8; -.
+DR   GermOnline; ENSG00000101049; Homo sapiens.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0015459; F:potassium channel regulator activity; IDA:UniProtKB.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; TAS:ProtInc.
+DR   GO; GO:0017080; F:sodium channel regulator activity; NAS:UniProtKB.
+DR   GO; GO:0007243; P:intracellular protein kinase cascade; TAS:ProtInc.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; NAS:UniProtKB.
+DR   GO; GO:0006979; P:response to oxidative stress; TAS:ProtInc.
+DR   InterPro; IPR000961; AGC-kinase_C.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR017892; Pkinase_C.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   Pfam; PF00433; Pkinase_C; 1.
+DR   SMART; SM00133; S_TK_X; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS51285; AGC_KINASE_CTER; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; ATP-binding; Complete proteome; Kinase;
+KW   Nucleotide-binding; Phosphoprotein; Polymorphism;
+KW   Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    427       Serine/threonine-protein kinase Sgk2.
+FT                                /FTId=PRO_0000086646.
+FT   DOMAIN       95    352       Protein kinase.
+FT   DOMAIN      353    427       AGC-kinase C-terminal.
+FT   NP_BIND     101    109       ATP (By similarity).
+FT   MOTIF       128    138       Nuclear localization signal (By
+FT                                similarity).
+FT   ACT_SITE    219    219       Proton acceptor (By similarity).
+FT   BINDING     124    124       ATP (By similarity).
+FT   MOD_RES     253    253       Phosphothreonine; by PDPK1.
+FT   MOD_RES     416    416       Phosphoserine (Potential).
+FT   VAR_SEQ       1     60       Missing (in isoform 1).
+FT                                /FTId=VSP_004932.
+FT   VAR_SEQ      19     52       Missing (in isoform 3).
+FT                                /FTId=VSP_026682.
+FT   VARIANT      12     12       S -> T (in dbSNP:rs33969356).
+FT                                /FTId=VAR_041073.
+FT   VARIANT     259    259       E -> K (in a lung adenocarcinoma sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_041074.
+FT   VARIANT     349    349       H -> Y (in dbSNP:rs35793869).
+FT                                /FTId=VAR_041075.
+FT   MUTAGEN     416    416       S->D: Increased activation.
+FT   CONFLICT    137    137       Missing (in Ref. 4; CAI42315).
+FT   CONFLICT    168    168       K -> E (in Ref. 2; AAX88805).
+FT   CONFLICT    208    208       G -> D (in Ref. 3; AAV38901).
+FT   CONFLICT    337    337       L -> P (in Ref. 2; AAX88805).
+SQ   SEQUENCE   427 AA;  47604 MW;  D8F0FA6DF54B1370 CRC64;
+     MQGLLTSGRK PSGGGRCTGR GGWRGQWCLK PWMGGADPPT PTLSCLLLPV PPELPDHCYR
+     MNSSPAGTPS PQPSRANGNI NLGPSANPNA QPTDFDFLKV IGKGNYGKVL LAKRKSDGAF
+     YAVKVLQKKS ILKKKEQSHI MAERSVLLKN VRHPFLVGLR YSFQTPEKLY FVLDYVNGGE
+     LFFHLQRERR FLEPRARFYA AEVASAIGYL HSLNIIYRDL KPENILLDCQ GHVVLTDFGL
+     CKEGVEPEDT TSTFCGTPEY LAPEVLRKEP YDRAVDWWCL GAVLYEMLHG LPPFYSQDVS
+     QMYENILHQP LQIPGGRTVA ACDLLQSLLH KDQRQRLGSK ADFLEIKNHV FFSPINWDDL
+     YHKRLTPPFN PNVTGPADLK HFDPEFTQEA VSKSIGCTPD TVASSSGASS AFLGFSYAPE
+     DDDILDC
+//

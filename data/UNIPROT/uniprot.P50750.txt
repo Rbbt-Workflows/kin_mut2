@@ -1,0 +1,448 @@
+ID   CDK9_HUMAN              Reviewed;         372 AA.
+AC   P50750; Q5JU24; Q5JU25; Q5U006; Q96TF1;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   21-JUN-2005, sequence version 3.
+DT   05-OCT-2010, entry version 123.
+DE   RecName: Full=Cell division protein kinase 9;
+DE            EC=2.7.11.22;
+DE            EC=2.7.11.23;
+DE   AltName: Full=C-2K;
+DE   AltName: Full=Cell division cycle 2-like protein kinase 4;
+DE   AltName: Full=Cyclin-dependent kinase 9;
+DE   AltName: Full=Serine/threonine-protein kinase PITALRE;
+GN   Name=CDK9; Synonyms=CDC2L4;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RX   MEDLINE=94224836; PubMed=8170997; DOI=10.1073/pnas.91.9.3834;
+RA   Grana X., de Luca A., Sang N., Fu Y., Claudio P.P., Rosenblatt J.,
+RA   Morgan D.O., Giordano A.;
+RT   "PITALRE, a nuclear CDC2-related protein kinase that phosphorylates
+RT   the retinoblastoma protein in vitro.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 91:3834-3838(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), AND VARIANT ALA-231.
+RX   MEDLINE=95209665; PubMed=7695608; DOI=10.1006/bbrc.1995.1375;
+RA   Best J.L., Presky D.H., Swerlick R.A., Burns D.K., Chu W.;
+RT   "Cloning of a full-length cDNA sequence encoding a cdc2-related
+RT   protein kinase from human endothelial cells.";
+RL   Biochem. Biophys. Res. Commun. 208:562-568(1995).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND VARIANT ALA-231.
+RX   MEDLINE=20363726; PubMed=10903437; DOI=10.1016/S0378-1119(00)00215-8;
+RA   Liu H., Rice A.P.;
+RT   "Genomic organization and characterization of promoter function of the
+RT   human CDK9 gene.";
+RL   Gene 252:51-59(2000).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RA   Kalnine N., Chen X., Rolfs A., Halleck A., Hines L., Eisenstein S.,
+RA   Koundinya M., Raphael J., Moreira D., Kelley T., LaBaer J., Lin Y.,
+RA   Phelan M., Farmer A.;
+RT   "Cloning of human full-length CDSs in BD Creator(TM) system donor
+RT   vector.";
+RL   Submitted (OCT-2004) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RG   NIEHS SNPs program;
+RL   Submitted (JUN-2002) to the EMBL/GenBank/DDBJ databases.
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=15164053; DOI=10.1038/nature02465;
+RA   Humphray S.J., Oliver K., Hunt A.R., Plumb R.W., Loveland J.E.,
+RA   Howe K.L., Andrews T.D., Searle S., Hunt S.E., Scott C.E., Jones M.C.,
+RA   Ainscough R., Almeida J.P., Ambrose K.D., Ashwell R.I.S.,
+RA   Babbage A.K., Babbage S., Bagguley C.L., Bailey J., Banerjee R.,
+RA   Barker D.J., Barlow K.F., Bates K., Beasley H., Beasley O., Bird C.P.,
+RA   Bray-Allen S., Brown A.J., Brown J.Y., Burford D., Burrill W.,
+RA   Burton J., Carder C., Carter N.P., Chapman J.C., Chen Y., Clarke G.,
+RA   Clark S.Y., Clee C.M., Clegg S., Collier R.E., Corby N., Crosier M.,
+RA   Cummings A.T., Davies J., Dhami P., Dunn M., Dutta I., Dyer L.W.,
+RA   Earthrowl M.E., Faulkner L., Fleming C.J., Frankish A.,
+RA   Frankland J.A., French L., Fricker D.G., Garner P., Garnett J.,
+RA   Ghori J., Gilbert J.G.R., Glison C., Grafham D.V., Gribble S.,
+RA   Griffiths C., Griffiths-Jones S., Grocock R., Guy J., Hall R.E.,
+RA   Hammond S., Harley J.L., Harrison E.S.I., Hart E.A., Heath P.D.,
+RA   Henderson C.D., Hopkins B.L., Howard P.J., Howden P.J., Huckle E.,
+RA   Johnson C., Johnson D., Joy A.A., Kay M., Keenan S., Kershaw J.K.,
+RA   Kimberley A.M., King A., Knights A., Laird G.K., Langford C.,
+RA   Lawlor S., Leongamornlert D.A., Leversha M., Lloyd C., Lloyd D.M.,
+RA   Lovell J., Martin S., Mashreghi-Mohammadi M., Matthews L., McLaren S.,
+RA   McLay K.E., McMurray A., Milne S., Nickerson T., Nisbett J.,
+RA   Nordsiek G., Pearce A.V., Peck A.I., Porter K.M., Pandian R.,
+RA   Pelan S., Phillimore B., Povey S., Ramsey Y., Rand V., Scharfe M.,
+RA   Sehra H.K., Shownkeen R., Sims S.K., Skuce C.D., Smith M.,
+RA   Steward C.A., Swarbreck D., Sycamore N., Tester J., Thorpe A.,
+RA   Tracey A., Tromans A., Thomas D.W., Wall M., Wallis J.M., West A.P.,
+RA   Whitehead S.L., Willey D.L., Williams S.A., Wilming L., Wray P.W.,
+RA   Young L., Ashurst J.L., Coulson A., Blocker H., Durbin R.M.,
+RA   Sulston J.E., Hubbard T., Jackson M.J., Bentley D.R., Beck S.,
+RA   Rogers J., Dunham I.;
+RT   "DNA sequence and analysis of human chromosome 9.";
+RL   Nature 429:369-374(2004).
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   TISSUE=Cervix;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [8]
+RP   FUNCTION.
+RX   PubMed=9857195; DOI=10.1093/emboj/17.24.7395;
+RA   Wada T., Takagi T., Yamaguchi Y., Watanabe D., Handa H.;
+RT   "Evidence that P-TEFb alleviates the negative effect of DSIF on RNA
+RT   polymerase II-dependent transcription in vitro.";
+RL   EMBO J. 17:7395-7403(1998).
+RN   [9]
+RP   FUNCTION, AND IDENTIFICATION IN A COMPLEX WITH HTATSF1; CCNT1; RNA POL
+RP   II; SUPT5H AND NCL.
+RX   PubMed=10393184; DOI=10.1093/emboj/18.13.3688;
+RA   Parada C.A., Roeder R.G.;
+RT   "A novel RNA polymerase II-containing complex potentiates Tat-enhanced
+RT   HIV-1 transcription.";
+RL   EMBO J. 18:3688-3701(1999).
+RN   [10]
+RP   FUNCTION, AND INTERACTION WITH CCNK.
+RX   MEDLINE=20044695; PubMed=10574912; DOI=10.1074/jbc.274.49.34527;
+RA   Fu T.J., Peng J., Lee G., Price D.H., Flores O.;
+RT   "Cyclin K functions as a CDK9 regulatory subunit and participates in
+RT   RNA polymerase II transcription.";
+RL   J. Biol. Chem. 274:34527-34530(1999).
+RN   [11]
+RP   FUNCTION.
+RX   MEDLINE=20369654; PubMed=10912001; DOI=10.1016/S1097-2765(00)80272-5;
+RA   Wada T., Orphanides G., Hasegawa J., Kim D.-K., Shima D.,
+RA   Yamaguchi Y., Fukuda A., Hisatake K., Oh S., Reinberg D., Handa H.;
+RT   "FACT relieves DSIF/NELF-mediated inhibition of transcriptional
+RT   elongation and reveals functional differences between P-TEFb and
+RT   TFIIH.";
+RL   Mol. Cell 5:1067-1072(2000).
+RN   [12]
+RP   FUNCTION.
+RX   PubMed=10757782; DOI=10.1128/MCB.20.9.2970-2983.2000;
+RA   Ivanov D., Kwak Y.T., Guo J., Gaynor R.B.;
+RT   "Domains in the SPT5 protein that modulate its transcriptional
+RT   regulatory properties.";
+RL   Mol. Cell. Biol. 20:2970-2983(2000).
+RN   [13]
+RP   FUNCTION, AND MUTAGENESIS OF ASP-167 AND THR-186.
+RX   PubMed=11145967; DOI=10.1074/jbc.M010908200;
+RA   Kim J.B., Sharp P.A.;
+RT   "Positive transcription elongation factor B phosphorylates hSPT5 and
+RT   RNA polymerase II carboxyl-terminal domain independently of cyclin-
+RT   dependent kinase-activating kinase.";
+RL   J. Biol. Chem. 276:12317-12323(2001).
+RN   [14]
+RP   FUNCTION.
+RX   PubMed=11112772; DOI=10.1074/jbc.M006130200;
+RA   Ping Y.-H., Rana T.M.;
+RT   "DSIF and NELF interact with RNA polymerase II elongation complex and
+RT   HIV-1 Tat stimulates P-TEFb-mediated phosphorylation of RNA polymerase
+RT   II and DSIF during transcription elongation.";
+RL   J. Biol. Chem. 276:12951-12958(2001).
+RN   [15]
+RP   FUNCTION.
+RX   PubMed=11575923; DOI=10.1006/jmbi.2001.4991;
+RA   Lavoie S.B., Albert A.L., Handa H., Vincent M., Bensaude O.;
+RT   "The peptidyl-prolyl isomerase Pin1 interacts with hSpt5
+RT   phosphorylated by Cdk9.";
+RL   J. Mol. Biol. 312:675-685(2001).
+RN   [16]
+RP   INTERACTION WITH AFF4.
+RX   MEDLINE=22060826; PubMed=12065898; DOI=10.1159/000059424;
+RA   Estable M.C., Naghavi M.H., Kato H., Xiao H., Qin J., Vahlne A.,
+RA   Roeder R.G.;
+RT   "MCEF, the newest member of the AF4 family of transcription factors
+RT   involved in leukemia, is a positive transcription elongation factor-b-
+RT   associated protein.";
+RL   J. Biomed. Sci. 9:234-245(2002).
+RN   [17]
+RP   FUNCTION.
+RX   PubMed=11809800; DOI=10.1128/MCB.22.4.1079-1093.2002;
+RA   Bourgeois C.F., Kim Y.K., Churcher M.J., West M.J., Karn J.;
+RT   "Spt5 cooperates with human immunodeficiency virus type 1 Tat by
+RT   preventing premature RNA release at terminator sequences.";
+RL   Mol. Cell. Biol. 22:1079-1093(2002).
+RN   [18]
+RP   INTERACTION WITH SUPT5H.
+RX   MEDLINE=22605552; PubMed=12718890; DOI=10.1016/S1097-2765(03)00101-1;
+RA   Kwak Y.T., Guo J., Prajapati S., Park K.-J., Surabhi R.M., Miller B.,
+RA   Gehrig P., Gaynor R.B.;
+RT   "Methylation of SPT5 regulates its interaction with RNA polymerase II
+RT   and transcriptional elongation properties.";
+RL   Mol. Cell 11:1055-1066(2003).
+RN   [19]
+RP   FUNCTION.
+RX   PubMed=15564463; DOI=10.1128/JVI.78.24.13522-13533.2004;
+RA   Zhou M., Deng L., Lacoste V., Park H.U., Pumfery A., Kashanchi F.,
+RA   Brady J.N., Kumar A.;
+RT   "Coordination of transcription factor phosphorylation and histone
+RT   methylation by the P-TEFb kinase during human immunodeficiency virus
+RT   type 1 transcription.";
+RL   J. Virol. 78:13522-13533(2004).
+RN   [20]
+RP   FUNCTION.
+RX   PubMed=14701750; DOI=10.1128/MCB.24.2.787-795.2004;
+RA   Fujinaga K., Irwin D., Huang Y., Taube R., Kurosu T., Peterlin B.M.;
+RT   "Dynamics of human immunodeficiency virus transcription: P-TEFb
+RT   phosphorylates RD and dissociates negative effectors from the
+RT   transactivation response element.";
+RL   Mol. Cell. Biol. 24:787-795(2004).
+RN   [21]
+RP   IDENTIFICATION IN THE 7SK SNRNP COMPLEX.
+RX   PubMed=17643375; DOI=10.1016/j.molcel.2007.06.027;
+RA   Jeronimo C., Forget D., Bouchard A., Li Q., Chua G., Poitras C.,
+RA   Therien C., Bergeron D., Bourassa S., Greenblatt J., Chabot B.,
+RA   Poirier G.G., Hughes T.R., Blanchette M., Price D.H., Coulombe B.;
+RT   "Systematic analysis of the protein interaction network for the human
+RT   transcription machinery reveals the identity of the 7SK capping
+RT   enzyme.";
+RL   Mol. Cell 27:262-274(2007).
+RN   [22]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-186, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=17192257; DOI=10.1074/mcp.T600062-MCP200;
+RA   Wissing J., Jaensch L., Nimtz M., Dieterich G., Hornberger R.,
+RA   Keri G., Wehland J., Daub H.;
+RT   "Proteomics analysis of protein kinases by target class-selective
+RT   prefractionation and tandem mass spectrometry.";
+RL   Mol. Cell. Proteomics 6:537-547(2007).
+RN   [23]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-186; SER-347 AND
+RP   SER-353, PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-27; SER-35;
+RP   SER-52 AND SER-56 (ISOFORM 2), AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [24]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RA   Colinge J., Superti-Furga G., Bennett K.L.;
+RL   Submitted (OCT-2008) to UniProtKB.
+RN   [25]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-185; THR-186; SER-347;
+RP   THR-350 AND SER-353, PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-27;
+RP   SER-35; SER-43; SER-52; THR-54; THR-55 AND SER-56; (ISOFORM 2), AND
+RP   MASS SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [26]
+RP   VARIANT [LARGE SCALE ANALYSIS] LEU-59.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Member of the cyclin-dependent kinase pair (CDK9/cyclin-
+CC       T) complex, also called positive transcription elongation factor b
+CC       (P-TEFb), which facilitates the transition from abortive to
+CC       production elongation by phosphorylating the CTD (C-terminal
+CC       domain) of the large subunit of RNA polymerase II (RNAP II),
+CC       SUPT5H and RDBP. The CDK9/cyclin-K complex has also a kinase
+CC       activity toward CTD of RNAP II and can substitute for P-TEFb in
+CC       vitro.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- CATALYTIC ACTIVITY: ATP + [DNA-directed RNA polymerase] = ADP +
+CC       [DNA-directed RNA polymerase] phosphate.
+CC   -!- SUBUNIT: Associates with CCNT1/cyclin-T1 to form P-TEFb. P-TEFb
+CC       forms a complex with AFF4/AF5Q31. Also associates with
+CC       CCNK/cyclin-K. Component of a complex which is at least composed
+CC       of HTATSF1/Tat-SF1, P-TEFb complex, RNA pol II, SUPT5H, and
+CC       NCL/nucleolin. Component of the 7SK snRNP complex at least
+CC       composed of P-TEFb (composed of CDK9 and CCNT1/cyclin-T1), HEXIM1,
+CC       HEXIM2, BCDIN3, SART3 proteins and 7SK and U6 snRNAs.
+CC   -!- SUBCELLULAR LOCATION: Nucleus.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=P50750-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=P50750-2; Sequence=VSP_016288;
+CC         Note=Phosphorylated on Ser-27, Ser-35, Ser-52, Thr-54, Thr55 and
+CC         Ser-56;
+CC   -!- TISSUE SPECIFICITY: Ubiquitous.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CMGC
+CC       Ser/Thr protein kinase family. CDC2/CDKX subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAI39767.1; Type=Erroneous gene model prediction;
+CC   -!- WEB RESOURCE: Name=NIEHS-SNPs;
+CC       URL="http://egp.gs.washington.edu/data/cdk9/";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; L25676; AAA35668.1; -; mRNA.
+DR   EMBL; X80230; CAA56516.1; -; mRNA.
+DR   EMBL; AF255306; AAF72183.1; -; Genomic_DNA.
+DR   EMBL; BT019903; AAV38706.1; -; mRNA.
+DR   EMBL; AF517840; AAM54039.1; -; Genomic_DNA.
+DR   EMBL; AL162586; CAI39767.1; ALT_SEQ; Genomic_DNA.
+DR   EMBL; AL162586; CAI39768.1; -; Genomic_DNA.
+DR   EMBL; BC001968; AAH01968.1; -; mRNA.
+DR   IPI; IPI00301923; -.
+DR   IPI; IPI00552413; -.
+DR   PIR; A55262; A55262.
+DR   RefSeq; NP_001252.1; -.
+DR   UniGene; Hs.150423; -.
+DR   UniGene; Hs.706809; -.
+DR   PDB; 1PF6; Model; -; A=1-372.
+DR   PDB; 3BLH; X-ray; 2.48 A; A=2-330.
+DR   PDB; 3BLQ; X-ray; 2.90 A; A=2-330.
+DR   PDB; 3BLR; X-ray; 2.80 A; A=2-330.
+DR   PDB; 3MI9; X-ray; 2.10 A; A=1-345.
+DR   PDB; 3MIA; X-ray; 3.00 A; A=1-345.
+DR   PDBsum; 1PF6; -.
+DR   PDBsum; 3BLH; -.
+DR   PDBsum; 3BLQ; -.
+DR   PDBsum; 3BLR; -.
+DR   PDBsum; 3MI9; -.
+DR   PDBsum; 3MIA; -.
+DR   ProteinModelPortal; P50750; -.
+DR   DIP; DIP-29016N; -.
+DR   IntAct; P50750; 40.
+DR   MINT; MINT-1532814; -.
+DR   STRING; P50750; -.
+DR   PhosphoSite; P50750; -.
+DR   PRIDE; P50750; -.
+DR   Ensembl; ENST00000373264; ENSP00000362361; ENSG00000136807.
+DR   Ensembl; ENST00000373265; ENSP00000362362; ENSG00000136807.
+DR   GeneID; 1025; -.
+DR   KEGG; hsa:1025; -.
+DR   UCSC; uc004bse.2; human.
+DR   CTD; 1025; -.
+DR   GeneCards; GC09P130547; -.
+DR   H-InvDB; HIX0008409; -.
+DR   HGNC; HGNC:1780; CDK9.
+DR   HPA; CAB004216; -.
+DR   HPA; HPA006738; -.
+DR   MIM; 603251; gene.
+DR   PharmGKB; PA26316; -.
+DR   eggNOG; prNOG12297; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG014652; -.
+DR   InParanoid; P50750; -.
+DR   OMA; WRRKWRG; -.
+DR   PhylomeDB; P50750; -.
+DR   BRENDA; 2.7.11.22; 247.
+DR   BRENDA; 2.7.11.23; 247.
+DR   Reactome; REACT_1788; Transcription.
+DR   Reactome; REACT_1892; Elongation arrest and recovery.
+DR   Reactome; REACT_6185; HIV Infection.
+DR   Reactome; REACT_71; Gene Expression.
+DR   Reactome; REACT_769; Pausing and recovery of elongation.
+DR   BindingDB; P50750; -.
+DR   NextBio; 4305; -.
+DR   ArrayExpress; P50750; -.
+DR   Bgee; P50750; -.
+DR   CleanEx; HS_CDK9; -.
+DR   Genevestigator; P50750; -.
+DR   GermOnline; ENSG00000136807; Homo sapiens.
+DR   GO; GO:0008023; C:transcription elongation factor complex; TAS:ProtInc.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004693; F:cyclin-dependent protein kinase activity; TAS:ProtInc.
+DR   GO; GO:0003677; F:DNA binding; IDA:MGI.
+DR   GO; GO:0005515; F:protein binding; IPI:UniProtKB.
+DR   GO; GO:0008353; F:RNA polymerase II carboxy-terminal domain k...; IDA:UniProtKB.
+DR   GO; GO:0008283; P:cell proliferation; TAS:ProtInc.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IDA:MGI.
+DR   GO; GO:0045449; P:regulation of transcription; IEA:UniProtKB-KW.
+DR   GO; GO:0006368; P:RNA elongation from RNA polymerase II promoter; TAS:ProtInc.
+DR   GO; GO:0006367; P:transcription initiation from RNA polymeras...; TAS:ProtInc.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; ATP-binding; Complete proteome;
+KW   Kinase; Nucleotide-binding; Nucleus; Phosphoprotein; Polymorphism;
+KW   Serine/threonine-protein kinase; Transcription;
+KW   Transcription regulation; Transferase.
+FT   CHAIN         1    372       Cell division protein kinase 9.
+FT                                /FTId=PRO_0000085800.
+FT   DOMAIN       19    315       Protein kinase.
+FT   NP_BIND      25     33       ATP (By similarity).
+FT   ACT_SITE    149    149       Proton acceptor (By similarity).
+FT   BINDING      48     48       ATP (By similarity).
+FT   MOD_RES     185    185       Phosphotyrosine.
+FT   MOD_RES     186    186       Phosphothreonine.
+FT   MOD_RES     347    347       Phosphoserine.
+FT   MOD_RES     350    350       Phosphothreonine.
+FT   MOD_RES     353    353       Phosphoserine.
+FT   VAR_SEQ       1      1       M -> MQRDAPPRAPAPAPRLPAPPIGAAASSGGGGGGGSG
+FT                                GGGGGASAAPAPPGLSGTTSPRGPGGGRRAEEAGSAPRGRK
+FT                                WPWRRKWRGRGGAWSAAAAGPGAGAAAAATGGGGGALEAAM
+FT                                (in isoform 2).
+FT                                /FTId=VSP_016288.
+FT   VARIANT      59     59       F -> L (in dbSNP:rs55640715).
+FT                                /FTId=VAR_041982.
+FT   VARIANT     231    231       G -> A.
+FT                                /FTId=VAR_013456.
+FT   MUTAGEN     167    167       D->N: Abrogates kinase activity.
+FT   MUTAGEN     186    186       T->A: Abrogates autophosphorylation; no
+FT                                effect on kinase activity.
+FT   CONFLICT    163    163       L -> P (in Ref. 4; AAV38706).
+FT   HELIX        16     18
+FT   STRAND       19     27
+FT   STRAND       29     38
+FT   TURN         39     41
+FT   STRAND       44     49
+FT   HELIX        61     72
+FT   STRAND       81     86
+FT   STRAND       99    104
+FT   HELIX       110    114
+FT   HELIX       123    142
+FT   HELIX       152    154
+FT   STRAND      155    157
+FT   STRAND      163    165
+FT   HELIX       192    194
+FT   HELIX       197    200
+FT   HELIX       209    224
+FT   HELIX       234    245
+FT   TURN        250    252
+FT   HELIX       275    283
+FT   HELIX       286    295
+FT   TURN        300    302
+FT   HELIX       306    311
+FT   HELIX       313    315
+FT   STRAND      316    319
+SQ   SEQUENCE   372 AA;  42778 MW;  69E851CC6F7A0388 CRC64;
+     MAKQYDSVEC PFCDEVSKYE KLAKIGQGTF GEVFKARHRK TGQKVALKKV LMENEKEGFP
+     ITALREIKIL QLLKHENVVN LIEICRTKAS PYNRCKGSIY LVFDFCEHDL AGLLSNVLVK
+     FTLSEIKRVM QMLLNGLYYI HRNKILHRDM KAANVLITRD GVLKLADFGL ARAFSLAKNS
+     QPNRYTNRVV TLWYRPPELL LGERDYGPPI DLWGAGCIMA EMWTRSPIMQ GNTEQHQLAL
+     ISQLCGSITP EVWPNVDNYE LYEKLELVKG QKRKVKDRLK AYVRDPYALD LIDKLLVLDP
+     AQRIDSDDAL NHDFFWSDPM PSDLKGMLST HLTSMFEYLA PPRRKGSQIT QQSTNQSRNP
+     ATTNQTEFER VF
+//

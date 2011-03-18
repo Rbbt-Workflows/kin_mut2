@@ -1,0 +1,74 @@
+UI: Initial number of sequences: 50
+UI: Initial number of positions: 101
+UI: Number of outliers: 0
+UI: Final number of sequences after removing outliers: 50
+UI: Final number of positions after removing gappy columns: 84
+II: Final number of columns in the disjunctive matrix: 841
+UI: Number of axes selected: 3
+UI: Percentage of initial variance considered informative: 25.7827 %
+UI: Checking a maximum number of groups equal to: 13
+UI: Stable cluster results have been found
+SC: YES
+UI: Number of groups selected: 5
+II: Clustering index value: CH_Index = 36.5969
+II: F-Fisher: 119.108
+II: Best solution found 229 times out of 500 iterations searching for 5 groups
+UI: Number of groups with less than 3 sequences: 0
+Is there enough group diversity to perform the analysis?:
+GD: YES
+
+Clustering of sequences: 
+CL: Q8K3Z0+1=CAR15_MOUSE/11-101	3
+CL: Q9HC29+1=CAR15_HUMAN/31-121	3
+CL: P70343+1=CASP4_MOUSE/3-90	1
+CL: P58801+1=RIPK2_MOUSE/436-523	3
+CL: Q9MZV7+1=CASP1_CANFA/3-90	0
+CL: Q62881+1=NOL3_RAT/9-96	3
+CL: O75601+1=CASPD_BOVIN/3-90	1
+CL: P55865+1=CAS1A_XENLA/2-89	0
+CL: P55867+1=CAS1B_XENLA/2-89	0
+CL: O43353+2=RIPK2_HUMAN/437-524	3
+CL: P29466+1=CASP1_HUMAN/3-90	0
+CL: P29452+1=CASP1_MOUSE/3-90	0
+CL: Q9N2I1+1=CASP1_PIG/3-90	0
+CL: O60936+1=NOL3_HUMAN/9-96	3
+CL: P57730+1=ICBR_HUMAN/3-90	0
+CL: Q9TV13+1=CASP1_HORSE/3-90	0
+CL: Q9MZV6+1=CASP1_FELCA/3-90	0
+CL: Q8K3Z0+1=CAR15_MOUSE/111-198	3
+CL: P49662+1=CASP4_HUMAN/3-90	1
+CL: P43527+1=CASP1_RAT/3-90	0
+CL: Q9H257+1=CARD9_HUMAN/11-97	4
+CL: Q9HC29+1=CAR15_HUMAN/131-217	3
+CL: P51878+1=CASP5_HUMAN/45-131	1
+CL: Q9BXL7+2=CAR11_HUMAN/16-102	4
+CL: Q99KF0+2=CAR14_MOUSE/20-106	4
+CL: Q9EPY0+1=CARD9_RAT/11-97	4
+CL: Q9BWT7+2=CAR10_HUMAN/28-114	4
+CL: Q9BXL6+1=CAR14_HUMAN/20-106	4
+CL: P58660+1=CAR10_MOUSE/28-114	4
+CL: Q8BHB0+1=CARD4_MOUSE/20-105	2
+CL: Q8R5F7+1=IFIH1_MOUSE/115-200	2
+CL: Q9Y239+1=CARD4_HUMAN/20-105	2
+CL: Q9BYX4+2=IFIH1_HUMAN/115-200	2
+CL: P42575+2=CASP2_HUMAN/37-121	2
+CL: Q9EPV5+1=APAF_RAT/6-90	2
+CL: O62640+1=PIAP_PIG/198-282	2
+CL: Q90660+1=BIR_CHICK/451-535	2
+CL: Q13489+2=BIRC3_HUMAN/444-528	2
+CL: O88879+2=APAF_MOUSE/6-90	2
+CL: Q13490+2=BIRC2_HUMAN/458-542	2
+CL: Q9Y2G2+1=CARD8_HUMAN/345-429	2
+CL: Q62210+1=BIRC2_MOUSE/452-536	2
+CL: Q5RAV7+1=CARD8_PONPY/341-425	2
+CL: Q98943+2=CASP2_CHICK/12-96	2
+CL: O14727+2=APAF_HUMAN/6-90	2
+CL: Q9EPB4+1=ASC_MOUSE/110-193	3
+CL: O08863+1=BIRC3_MOUSE/441-524	2
+CL: Q8HXK9+1=ASC_BOVIN/112-195	3
+CL: Q9C000+1=NALP1_HUMAN/1379-1462	3
+CL: Q9ULZ3+2=ASC_HUMAN/112-195	3
+
+Are there any position predicted as being important for the whole family?: 
+PR: NO
+UI: There are no positions predicted to be important for the group segregation

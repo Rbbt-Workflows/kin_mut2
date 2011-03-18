@@ -1,0 +1,377 @@
+ID   CSK21_HUMAN             Reviewed;         391 AA.
+AC   P68400; P19138; P20426; Q14013; Q5U065;
+DT   23-NOV-2004, integrated into UniProtKB/Swiss-Prot.
+DT   23-NOV-2004, sequence version 1.
+DT   05-OCT-2010, entry version 80.
+DE   RecName: Full=Casein kinase II subunit alpha;
+DE            Short=CK II alpha;
+DE            EC=2.7.11.1;
+GN   Name=CSNK2A1; Synonyms=CK2A1;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   MEDLINE=89323123; PubMed=2752008; DOI=10.1021/bi00435a066;
+RA   Meisner H., Heller-Harrison R., Buxton J., Czech M.P.;
+RT   "Molecular cloning of the human casein kinase II alpha subunit.";
+RL   Biochemistry 28:4072-4076(1989).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   MEDLINE=91070071; PubMed=2174700; DOI=10.1021/bi00488a034;
+RA   Lozeman F.J., Litchfield D.W., Piening C., Takio K., Walsh K.A.,
+RA   Krebs E.G.;
+RT   "Isolation and characterization of human cDNA clones encoding the
+RT   alpha and the alpha' subunits of casein kinase II.";
+RL   Biochemistry 29:8436-8447(1990).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   MEDLINE=93131026; PubMed=8420794; DOI=10.1016/0014-5793(93)81197-8;
+RA   Devilat I., Carvallo P.;
+RT   "Structure and sequence of an intronless gene for human casein kinase
+RT   II-alpha subunit.";
+RL   FEBS Lett. 316:114-118(1993).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RA   Kalnine N., Chen X., Rolfs A., Halleck A., Hines L., Eisenstein S.,
+RA   Koundinya M., Raphael J., Moreira D., Kelley T., LaBaer J., Lin Y.,
+RA   Phelan M., Farmer A.;
+RT   "Cloning of human full-length CDSs in BD Creator(TM) system donor
+RT   vector.";
+RL   Submitted (OCT-2004) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RX   PubMed=19054851; DOI=10.1038/nmeth.1273;
+RA   Goshima N., Kawamura Y., Fukumoto A., Miura A., Honma R., Satoh R.,
+RA   Wakamatsu A., Yamamoto J., Kimura K., Nishikawa T., Andoh T., Iida Y.,
+RA   Ishikawa K., Ito E., Kagawa N., Kaminaga C., Kanehori K., Kawakami B.,
+RA   Kenmochi K., Kimura R., Kobayashi M., Kuroita T., Kuwayama H.,
+RA   Maruyama Y., Matsuo K., Minami K., Mitsubori M., Mori M.,
+RA   Morishita R., Murase A., Nishikawa A., Nishikawa S., Okamoto T.,
+RA   Sakagami N., Sakamoto Y., Sasaki Y., Seki T., Sono S., Sugiyama A.,
+RA   Sumiya T., Takayama T., Takayama Y., Takeda H., Togashi T., Yahata K.,
+RA   Yamada H., Yanagisawa Y., Endo Y., Imamoto F., Kisu Y., Tanaka S.,
+RA   Isogai T., Imai J., Watanabe S., Nomura N.;
+RT   "Human protein factory for converting the transcriptome into an in
+RT   vitro-expressed proteome.";
+RL   Nat. Methods 5:1011-1017(2008).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   MEDLINE=21638749; PubMed=11780052; DOI=10.1038/414865a;
+RA   Deloukas P., Matthews L.H., Ashurst J.L., Burton J., Gilbert J.G.R.,
+RA   Jones M., Stavrides G., Almeida J.P., Babbage A.K., Bagguley C.L.,
+RA   Bailey J., Barlow K.F., Bates K.N., Beard L.M., Beare D.M.,
+RA   Beasley O.P., Bird C.P., Blakey S.E., Bridgeman A.M., Brown A.J.,
+RA   Buck D., Burrill W.D., Butler A.P., Carder C., Carter N.P.,
+RA   Chapman J.C., Clamp M., Clark G., Clark L.N., Clark S.Y., Clee C.M.,
+RA   Clegg S., Cobley V.E., Collier R.E., Connor R.E., Corby N.R.,
+RA   Coulson A., Coville G.J., Deadman R., Dhami P.D., Dunn M.,
+RA   Ellington A.G., Frankland J.A., Fraser A., French L., Garner P.,
+RA   Grafham D.V., Griffiths C., Griffiths M.N.D., Gwilliam R., Hall R.E.,
+RA   Hammond S., Harley J.L., Heath P.D., Ho S., Holden J.L., Howden P.J.,
+RA   Huckle E., Hunt A.R., Hunt S.E., Jekosch K., Johnson C.M., Johnson D.,
+RA   Kay M.P., Kimberley A.M., King A., Knights A., Laird G.K., Lawlor S.,
+RA   Lehvaeslaiho M.H., Leversha M.A., Lloyd C., Lloyd D.M., Lovell J.D.,
+RA   Marsh V.L., Martin S.L., McConnachie L.J., McLay K., McMurray A.A.,
+RA   Milne S.A., Mistry D., Moore M.J.F., Mullikin J.C., Nickerson T.,
+RA   Oliver K., Parker A., Patel R., Pearce T.A.V., Peck A.I.,
+RA   Phillimore B.J.C.T., Prathalingam S.R., Plumb R.W., Ramsay H.,
+RA   Rice C.M., Ross M.T., Scott C.E., Sehra H.K., Shownkeen R., Sims S.,
+RA   Skuce C.D., Smith M.L., Soderlund C., Steward C.A., Sulston J.E.,
+RA   Swann R.M., Sycamore N., Taylor R., Tee L., Thomas D.W., Thorpe A.,
+RA   Tracey A., Tromans A.C., Vaudin M., Wall M., Wallis J.M.,
+RA   Whitehead S.L., Whittaker P., Willey D.L., Williams L., Williams S.A.,
+RA   Wilming L., Wray P.W., Hubbard T., Durbin R.M., Bentley D.R., Beck S.,
+RA   Rogers J.;
+RT   "The DNA sequence and comparative analysis of human chromosome 20.";
+RL   Nature 414:865-871(2001).
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (SEP-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [8]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Lung, Muscle, and Uterus;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [9]
+RP   FUNCTION, AND INTERACTION WITH SSRP1 AND SUPT16H.
+RX   PubMed=11239457; DOI=10.1016/S1097-2765(01)00176-9;
+RA   Keller D.M., Zeng X., Wang Y., Zhang Q.H., Kapoor M., Shu H.,
+RA   Goodman R., Lozano G., Zhao Y., Lu H.;
+RT   "A DNA damage-induced p53 serine 392 kinase complex contains CK2,
+RT   hSpt16, and SSRP1.";
+RL   Mol. Cell 7:283-292(2001).
+RN   [10]
+RP   INTERACTION WITH SSRP1 AND SUPT16H.
+RX   PubMed=12393879; DOI=10.1074/jbc.M209820200;
+RA   Keller D.M., Lu H.;
+RT   "p53 serine 392 phosphorylation increases after UV through induction
+RT   of the assembly of the CK2.hSPT16.SSRP1 complex.";
+RL   J. Biol. Chem. 277:50206-50213(2002).
+RN   [11]
+RP   INTERACTION WITH RNPS1.
+RX   PubMed=15684395; DOI=10.1128/MCB.25.4.1446-1457.2005;
+RA   Trembley J.H., Tatsumi S., Sakashita E., Loyer P., Slaughter C.A.,
+RA   Suzuki H., Endo H., Kidd V.J., Mayeda A.;
+RT   "Activation of pre-mRNA splicing by human RNPS1 is regulated by CK2
+RT   phosphorylation.";
+RL   Mol. Cell. Biol. 25:1446-1457(2005).
+RN   [12]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-2; SER-194; SER-362 AND
+RP   SER-370, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [13]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RA   Colinge J., Superti-Furga G., Bennett K.L.;
+RL   Submitted (OCT-2008) to UniProtKB.
+RN   [14]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-2; SER-7; TYR-50;
+RP   TYR-125; THR-127; TYR-255; SER-277 AND SER-287, AND MASS SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [15]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT LYS-102, AND MASS SPECTROMETRY.
+RX   PubMed=19608861; DOI=10.1126/science.1175371;
+RA   Choudhary C., Kumar C., Gnad F., Nielsen M.L., Rehman M., Walther T.,
+RA   Olsen J.V., Mann M.;
+RT   "Lysine acetylation targets protein complexes and co-regulates major
+RT   cellular functions.";
+RL   Science 325:834-840(2009).
+RN   [16]
+RP   X-RAY CRYSTALLOGRAPHY (3.1 ANGSTROMS) OF 1-337, AND SUBUNIT.
+RX   PubMed=11092945; DOI=10.1107/S0907444900013627;
+RA   Niefind K., Guerra B., Ermakowa I., Issinger O.G.;
+RT   "Crystallization and preliminary characterization of crystals of human
+RT   protein kinase CK2.";
+RL   Acta Crystallogr. D 56:1680-1684(2000).
+RN   [17]
+RP   X-RAY CRYSTALLOGRAPHY (2.4 ANGSTROMS) OF 1-329.
+RX   PubMed=14646071; DOI=10.1107/S0907444903018900;
+RA   Pechkova E., Zanotti G., Nicolini C.;
+RT   "Three-dimensional atomic structure of a catalytic subunit mutant of
+RT   human protein kinase CK2.";
+RL   Acta Crystallogr. D 59:2133-2139(2003).
+RN   [18]
+RP   X-RAY CRYSTALLOGRAPHY (2.5 ANGSTROMS) OF 2-335.
+RX   PubMed=12860116; DOI=10.1016/S0022-2836(03)00638-7;
+RA   Ermakova I., Boldyreff B., Issinger O.G., Niefind K.;
+RT   "Crystal structure of a C-terminal deletion mutant of human protein
+RT   kinase CK2 catalytic subunit.";
+RL   J. Mol. Biol. 330:925-934(2003).
+CC   -!- FUNCTION: Casein kinases are operationally defined by their
+CC       preferential utilization of acidic proteins such as caseins as
+CC       substrates. The alpha and alpha' chains contain the catalytic
+CC       site. Participates in Wnt signaling. CK2 phosphorylates 'Ser-392'
+CC       of p53/TP53 following UV irradiation.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- SUBUNIT: Tetramer composed of an alpha chain, an alpha' and two
+CC       beta chains. Also component of a CK2-SPT16-SSRP1 complex composed
+CC       of SSRP1, SUPT16H, CSNK2A1, CSNK2A2 and CSNK2B, the complex
+CC       associating following UV irradiation. Interacts with RNPS1.
+CC   -!- INTERACTION:
+CC       P49407:ARRB1; NbExp=1; IntAct=EBI-347804, EBI-743313;
+CC       P67870:CSNK2B; NbExp=3; IntAct=EBI-347804, EBI-348169;
+CC       O60282:KIF5C; NbExp=2; IntAct=EBI-347804, EBI-717170;
+CC       P29590:PML; NbExp=2; IntAct=EBI-347804, EBI-295890;
+CC       Q15287:RNPS1; NbExp=1; IntAct=EBI-347804, EBI-395959;
+CC       Q01105:SET; NbExp=1; IntAct=EBI-347804, EBI-1053182;
+CC       Q01082:SPTBN1; NbExp=1; IntAct=EBI-347804, EBI-351561;
+CC       P31946:YWHAB; NbExp=1; IntAct=EBI-347804, EBI-359815;
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Ser/Thr
+CC       protein kinase family. CK2 subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; J02853; AAA56821.1; -; mRNA.
+DR   EMBL; M55265; AAA35503.1; -; mRNA.
+DR   EMBL; X70251; CAA49758.1; -; Genomic_DNA.
+DR   EMBL; S53149; ABB72474.1; -; mRNA.
+DR   EMBL; BT019792; AAV38595.1; -; mRNA.
+DR   EMBL; AB451279; BAG70093.1; -; mRNA.
+DR   EMBL; AL049761; CAB65624.1; -; Genomic_DNA.
+DR   EMBL; CH471133; EAX10665.1; -; Genomic_DNA.
+DR   EMBL; BC011668; AAH11668.1; -; mRNA.
+DR   EMBL; BC053532; AAH53532.1; -; mRNA.
+DR   EMBL; BC071167; AAH71167.1; -; mRNA.
+DR   IPI; IPI00744507; -.
+DR   PIR; A30319; A30319.
+DR   RefSeq; NP_001886.1; -.
+DR   RefSeq; NP_808227.1; -.
+DR   RefSeq; NP_808228.1; -.
+DR   UniGene; Hs.644056; -.
+DR   UniGene; Hs.654675; -.
+DR   PDB; 1JWH; X-ray; 3.10 A; A/B=1-337.
+DR   PDB; 1NA7; X-ray; 2.40 A; A=1-329.
+DR   PDB; 1PJK; X-ray; 2.50 A; A=2-335.
+DR   PDB; 2PVR; X-ray; 1.60 A; A=2-335.
+DR   PDB; 2ZJW; X-ray; 2.40 A; A=1-335.
+DR   PDB; 3BQC; X-ray; 1.50 A; A=1-335.
+DR   PDB; 3C13; X-ray; 1.95 A; A=1-335.
+DR   PDB; 3FWQ; X-ray; 2.30 A; A/B=1-335.
+DR   PDB; 3H30; X-ray; 1.56 A; A/B=1-334.
+DR   PDB; 3JUH; X-ray; 1.66 A; A/B=1-335.
+DR   PDB; 3MB6; X-ray; 1.75 A; A=1-331.
+DR   PDB; 3MB7; X-ray; 1.65 A; A=1-331.
+DR   PDBsum; 1JWH; -.
+DR   PDBsum; 1NA7; -.
+DR   PDBsum; 1PJK; -.
+DR   PDBsum; 2PVR; -.
+DR   PDBsum; 2ZJW; -.
+DR   PDBsum; 3BQC; -.
+DR   PDBsum; 3C13; -.
+DR   PDBsum; 3FWQ; -.
+DR   PDBsum; 3H30; -.
+DR   PDBsum; 3JUH; -.
+DR   PDBsum; 3MB6; -.
+DR   PDBsum; 3MB7; -.
+DR   ProteinModelPortal; P68400; -.
+DR   DIP; DIP-32682N; -.
+DR   IntAct; P68400; 38.
+DR   MINT; MINT-142347; -.
+DR   STRING; P68400; -.
+DR   PhosphoSite; P68400; -.
+DR   PRIDE; P68400; -.
+DR   Ensembl; ENST00000217244; ENSP00000217244; ENSG00000101266.
+DR   Ensembl; ENST00000349736; ENSP00000339247; ENSG00000101266.
+DR   GeneID; 1457; -.
+DR   KEGG; hsa:1457; -.
+DR   UCSC; uc002wdw.1; human.
+DR   CTD; 1457; -.
+DR   GeneCards; GC20M000414; -.
+DR   H-InvDB; HIX0015555; -.
+DR   HGNC; HGNC:2457; CSNK2A1.
+DR   HPA; CAB020680; -.
+DR   MIM; 115440; gene.
+DR   PharmGKB; PA26957; -.
+DR   eggNOG; prNOG12460; -.
+DR   HOVERGEN; HBG107282; -.
+DR   PhylomeDB; P68400; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   Pathway_Interaction_DB; alphasynuclein_pathway; Alpha-synuclein signaling.
+DR   Pathway_Interaction_DB; nfkappabatypicalpathway; Atypical NF-kappaB pathway.
+DR   Pathway_Interaction_DB; bcr_5pathway; BCR signaling pathway.
+DR   Pathway_Interaction_DB; wnt_canonical_pathway; Canonical Wnt signaling pathway.
+DR   Pathway_Interaction_DB; lis1pathway; Lissencephaly gene (LIS1) in neuronal migration and development.
+DR   Pathway_Interaction_DB; pdgfrapathway; PDGFR-alpha signaling pathway.
+DR   Pathway_Interaction_DB; ps1pathway; Presenilin action in Notch and Wnt signaling.
+DR   Pathway_Interaction_DB; nfat_3pathway; Role of Calcineurin-dependent NFAT signaling in lymphocytes.
+DR   Pathway_Interaction_DB; p38alphabetadownstreampathway; Signaling mediated by p38-alpha and p38-beta.
+DR   Reactome; REACT_18266; Axon guidance.
+DR   NextBio; 5989; -.
+DR   ArrayExpress; P68400; -.
+DR   Bgee; P68400; -.
+DR   CleanEx; HS_CSNK2A1; -.
+DR   Genevestigator; P68400; -.
+DR   GermOnline; ENSG00000101266; Homo sapiens.
+DR   GO; GO:0016581; C:NuRD complex; IDA:BHF-UCL.
+DR   GO; GO:0005886; C:plasma membrane; TAS:ProtInc.
+DR   GO; GO:0016580; C:Sin3 complex; IDA:BHF-UCL.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0047485; F:protein N-terminus binding; IPI:UniProtKB.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; TAS:UniProtKB.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; TAS:ProtInc.
+DR   GO; GO:0007165; P:signal transduction; TAS:ProtInc.
+DR   GO; GO:0016055; P:Wnt receptor signaling pathway; IEA:UniProtKB-KW.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; ATP-binding; Complete proteome; Kinase;
+KW   Nucleotide-binding; Phosphoprotein; Serine/threonine-protein kinase;
+KW   Transferase; Wnt signaling pathway.
+FT   CHAIN         1    391       Casein kinase II subunit alpha.
+FT                                /FTId=PRO_0000085883.
+FT   DOMAIN       39    324       Protein kinase.
+FT   NP_BIND      45     53       ATP (By similarity).
+FT   ACT_SITE    156    156       Proton acceptor.
+FT   BINDING      68     68       ATP (By similarity).
+FT   MOD_RES       2      2       Phosphoserine.
+FT   MOD_RES       7      7       Phosphoserine.
+FT   MOD_RES      50     50       Phosphotyrosine.
+FT   MOD_RES     102    102       N6-acetyllysine.
+FT   MOD_RES     125    125       Phosphotyrosine.
+FT   MOD_RES     127    127       Phosphothreonine.
+FT   MOD_RES     194    194       Phosphoserine.
+FT   MOD_RES     255    255       Phosphotyrosine.
+FT   MOD_RES     277    277       Phosphoserine.
+FT   MOD_RES     287    287       Phosphoserine.
+FT   MOD_RES     362    362       Phosphoserine.
+FT   MOD_RES     370    370       Phosphoserine.
+FT   CONFLICT    128    128       L -> F (in Ref. 3; CAA49758).
+FT   CONFLICT    256    256       D -> G (in Ref. 3; CAA49758).
+FT   CONFLICT    287    287       S -> R (in Ref. 3; CAA49758).
+FT   CONFLICT    351    351       M -> V (in Ref. 3; CAA49758).
+FT   STRAND       10     12
+FT   HELIX        15     18
+FT   HELIX        21     24
+FT   HELIX        26     28
+FT   HELIX        36     38
+FT   STRAND       39     47
+FT   STRAND       49     58
+FT   TURN         59     61
+FT   STRAND       64     70
+FT   HELIX        75     87
+FT   STRAND       97    102
+FT   TURN        104    106
+FT   STRAND      108    113
+FT   HELIX       121    124
+FT   HELIX       130    149
+FT   HELIX       159    161
+FT   STRAND      162    165
+FT   TURN        166    169
+FT   STRAND      170    173
+FT   HELIX       195    197
+FT   HELIX       200    203
+FT   HELIX       212    227
+FT   STRAND      230    233
+FT   HELIX       238    249
+FT   HELIX       252    260
+FT   HELIX       267    270
+FT   TURN        281    284
+FT   TURN        287    289
+FT   HELIX       290    292
+FT   HELIX       295    304
+FT   HELIX       315    319
+FT   HELIX       322    324
+SQ   SEQUENCE   391 AA;  45144 MW;  D3B6F5D13FF7422D CRC64;
+     MSGPVPSRAR VYTDVNTHRP REYWDYESHV VEWGNQDDYQ LVRKLGRGKY SEVFEAINIT
+     NNEKVVVKIL KPVKKKKIKR EIKILENLRG GPNIITLADI VKDPVSRTPA LVFEHVNNTD
+     FKQLYQTLTD YDIRFYMYEI LKALDYCHSM GIMHRDVKPH NVMIDHEHRK LRLIDWGLAE
+     FYHPGQEYNV RVASRYFKGP ELLVDYQMYD YSLDMWSLGC MLASMIFRKE PFFHGHDNYD
+     QLVRIAKVLG TEDLYDYIDK YNIELDPRFN DILGRHSRKR WERFVHSENQ HLVSPEALDF
+     LDKLLRYDHQ SRLTAREAME HPYFYTVVKD QARMGSSSMP GGSTPVSSAN MMSGISSVPT
+     PSPLGPLAGS PVIAAANPLG MPVPAAAGAQ Q
+//

@@ -1,0 +1,61 @@
+UI: Initial number of sequences: 15
+UI: Initial number of positions: 209
+UI: Number of outliers: 0
+UI: Final number of sequences after removing outliers: 15
+UI: Final number of positions after removing gappy columns: 102
+II: Final number of columns in the disjunctive matrix: 527
+UI: Number of axes selected: 2
+UI: Percentage of initial variance considered informative: 38.4441 %
+UI: Checking a maximum number of groups equal to: 4
+UI: Stable cluster results have been found
+SC: YES
+UI: Number of groups selected: 4
+II: Clustering index value: CH_Index = 17.3993
+II: F-Fisher: 69.1583
+II: Best solution found 366 times out of 500 iterations searching for 4 groups
+UI: Number of groups with less than 3 sequences: 2
+Is there enough group diversity to perform the analysis?:
+GD: YES
+
+Clustering of sequences: 
+CL: Q6P158+2=DHX57_HUMAN/243-419	1
+CL: Q6P5D3+2=DHX57_MOUSE/243-419	1
+CL: Q99M03+1=CU006_MOUSE/5-133	2
+CL: P57060+1=CU006_HUMAN/34-162	2
+CL: Q9D9S3+1=RWDD2_MOUSE/7-131	2
+CL: Q9UIY3+1=RWDD2_HUMAN/7-131	2
+CL: Q9QZ05+2=E2AK4_MOUSE/18-134	2
+CL: Q9P2K8+2=E2AK4_HUMAN/18-134	2
+CL: Q5E9N3+1=RNF25_BOVIN/11-125	3
+CL: Q96BH1+1=RNF25_HUMAN/11-125	3
+CL: Q9QZR0+2=RNF25_MOUSE/11-124	3
+CL: Q8VIL2+1=RWDD3_MOUSE/1-111	3
+CL: Q9Y3V2+2=RWDD3_HUMAN/1-111	3
+CL: Q9CPR1+1=RWDD4_MOUSE/2-108	0
+CL: Q6NW29+3=RWDD4_HUMAN/2-108	0
+
+Are there any position predicted as being important for the whole family?: 
+PR: YES
+Positions predicted: 
+RE: 178 3.5 2
+RE: 6 4 2
+RE: 157 4 2
+RE: 68 4 2
+RE: 205 5 2
+RE: 198 5 2
+RE: 4 5.5 2
+RE: 176 6 2
+RE: 18 6 2
+
+UI: Number of positions predicted to be important for the group segregation: 9
+
+Are there any conserved position at 90 % of identity?: 
+CN: YES
+Conserved positions: 
+CP: 9
+CP: 13
+CP: 154
+CP: 155
+CP: 183
+
+UI: Number of conserved positions (at 90 % of identity): 5

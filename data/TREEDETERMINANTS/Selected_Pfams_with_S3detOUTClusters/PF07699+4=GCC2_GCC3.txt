@@ -1,0 +1,63 @@
+UI: Initial number of sequences: 19
+UI: Initial number of positions: 51
+UI: Number of outliers: 0
+UI: Final number of sequences after removing outliers: 19
+UI: Final number of positions after removing gappy columns: 43
+II: Final number of columns in the disjunctive matrix: 184
+UI: Number of axes selected: 1
+UI: Percentage of initial variance considered informative: 25.2443 %
+UI: Checking a maximum number of groups equal to: 5
+UI: Stable cluster results have been found
+SC: YES
+UI: Number of groups selected: 2
+II: Clustering index value: CH_Index = 47.3678
+II: F-Fisher: 102.659
+II: Best solution found 500 times out of 500 iterations searching for 2 groups
+UI: Number of groups with less than 3 sequences: 0
+Is there enough group diversity to perform the analysis?:
+GD: YES
+
+Clustering of sequences: 
+CL: Q9NQ36+1=SCUB2_HUMAN/644-694	1
+CL: Q9JJS0+1=SCUB2_MOUSE/642-692	1
+CL: Q8IWY4+2=SCUB1_HUMAN/636-683	1
+CL: Q8IWY4+2=SCUB1_HUMAN/690-737	0
+CL: Q8IWY4+2=SCUB1_HUMAN/746-793	1
+CL: Q9JJS0+1=SCUB2_MOUSE/699-746	0
+CL: Q6NZL8+2=SCUB1_MOUSE/666-713	1
+CL: Q8IX30+1=SCUB3_HUMAN/642-689	1
+CL: Q9NQ36+1=SCUB2_HUMAN/701-748	0
+CL: Q8IX30+1=SCUB3_HUMAN/752-799	1
+CL: Q66PY1+1=SCUB3_MOUSE/696-743	0
+CL: Q8IX30+1=SCUB3_HUMAN/696-743	0
+CL: Q66PY1+1=SCUB3_MOUSE/752-799	1
+CL: Q9NQ36+1=SCUB2_HUMAN/757-804	1
+CL: Q6NZL8+2=SCUB1_MOUSE/720-767	0
+CL: P06882+4=THYG_RAT/1464-1509	0
+CL: O08710+2=THYG_MOUSE/1464-1509	0
+CL: P01267+1=THYG_BOVIN/1467-1512	0
+CL: P01266+5=THYG_HUMAN/1465-1510	0
+
+Are there any position predicted as being important for the whole family?: 
+PR: YES
+Positions predicted: 
+RE: 4 3 2
+RE: 47 3.5 2
+RE: 6 4.5 2
+RE: 23 6 2
+
+UI: Number of positions predicted to be important for the group segregation: 4
+
+Are there any conserved position at 90 % of identity?: 
+CN: YES
+Conserved positions: 
+CP: 1
+CP: 11
+CP: 14
+CP: 17
+CP: 20
+CP: 28
+CP: 31
+CP: 51
+
+UI: Number of conserved positions (at 90 % of identity): 8

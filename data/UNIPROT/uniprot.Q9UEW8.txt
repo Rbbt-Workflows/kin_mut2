@@ -1,0 +1,215 @@
+ID   STK39_HUMAN             Reviewed;         547 AA.
+AC   Q9UEW8; O14774; Q9UER4;
+DT   01-DEC-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2000, sequence version 2.
+DT   05-OCT-2010, entry version 100.
+DE   RecName: Full=STE20/SPS1-related proline-alanine-rich protein kinase;
+DE            Short=Ste-20-related kinase;
+DE            EC=2.7.11.1;
+DE   AltName: Full=DCHT;
+DE   AltName: Full=Serine/threonine-protein kinase 39;
+GN   Name=STK39; Synonyms=SPAK;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Brain;
+RX   MEDLINE=20438689; PubMed=10980603; DOI=10.1038/sj.onc.1203784;
+RA   Johnston A.M., Naselli G., Gonez L.J., Martin R.M., Harrison L.C.,
+RA   de Aizpurua H.J.;
+RT   "SPAK, a STE20/SPS1-related kinase that activates the p38 pathway.";
+RL   Oncogene 19:4290-4297(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RA   Melnick M.B., Petitt M., Perrimon N., Comb M.J.;
+RT   "New human member of the Ste20 family.";
+RL   Submitted (OCT-1997) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 281-547.
+RC   TISSUE=Testis;
+RA   Baytel D., Don J.;
+RL   Submitted (AUG-1997) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-372, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=17081983; DOI=10.1016/j.cell.2006.09.026;
+RA   Olsen J.V., Blagoev B., Gnad F., Macek B., Kumar C., Mortensen P.,
+RA   Mann M.;
+RT   "Global, in vivo, and site-specific phosphorylation dynamics in
+RT   signaling networks.";
+RL   Cell 127:635-648(2006).
+RN   [5]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-356, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=16964243; DOI=10.1038/nbt1240;
+RA   Beausoleil S.A., Villen J., Gerber S.A., Rush J., Gygi S.P.;
+RT   "A probability-based approach for high-throughput protein
+RT   phosphorylation analysis and site localization.";
+RL   Nat. Biotechnol. 24:1285-1292(2006).
+RN   [6]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-387, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Prostate cancer;
+RX   PubMed=17487921; DOI=10.1002/elps.200600782;
+RA   Giorgianni F., Zhao Y., Desiderio D.M., Beranova-Giorgianni S.;
+RT   "Toward a global characterization of the phosphoproteome in prostate
+RT   cancer cells: identification of phosphoproteins in the LNCaP cell
+RT   line.";
+RL   Electrophoresis 28:2027-2034(2007).
+RN   [7]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-372; SER-373 AND
+RP   SER-387, AND MASS SPECTROMETRY.
+RC   TISSUE=Platelet;
+RX   PubMed=18088087; DOI=10.1021/pr0704130;
+RA   Zahedi R.P., Lewandrowski U., Wiesner J., Wortelkamp S., Moebius J.,
+RA   Schuetz C., Walter U., Gambaryan S., Sickmann A.;
+RT   "Phosphoproteome of resting human platelets.";
+RL   J. Proteome Res. 7:526-534(2008).
+RN   [8]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RA   Colinge J., Superti-Furga G., Bennett K.L.;
+RL   Submitted (OCT-2008) to UniProtKB.
+RN   [9]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT ALA-2, PHOSPHORYLATION [LARGE
+RP   SCALE ANALYSIS] AT SER-387, AND MASS SPECTROMETRY.
+RC   TISSUE=Embryonic kidney;
+RX   PubMed=19413330; DOI=10.1021/ac9004309;
+RA   Gauci S., Helbig A.O., Slijper M., Krijgsveld J., Heck A.J.,
+RA   Mohammed S.;
+RT   "Lys-N and trypsin cover complementary parts of the phosphoproteome in
+RT   a refined SCX-based approach.";
+RL   Anal. Chem. 81:4493-4501(2009).
+RN   [10]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-373 AND SER-387, AND
+RP   MASS SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [11]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-387, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=19690332; DOI=10.1126/scisignal.2000007;
+RA   Mayya V., Lundgren D.H., Hwang S.-I., Rezaul K., Wu L., Eng J.K.,
+RA   Rodionov V., Han D.K.;
+RT   "Quantitative phosphoproteomic analysis of T cell receptor signaling
+RT   reveals system-wide modulation of protein-protein interactions.";
+RL   Sci. Signal. 2:RA46-RA46(2009).
+RN   [12]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT LYS-351, AND MASS SPECTROMETRY.
+RX   PubMed=19608861; DOI=10.1126/science.1175371;
+RA   Choudhary C., Kumar C., Gnad F., Nielsen M.L., Rehman M., Walther T.,
+RA   Olsen J.V., Mann M.;
+RT   "Lysine acetylation targets protein complexes and co-regulates major
+RT   cellular functions.";
+RL   Science 325:834-840(2009).
+CC   -!- FUNCTION: May act as a mediator of stress-activated signals.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm (Probable). Nucleus (Probable).
+CC       Note=Nucleus when caspase-cleaved (Probable).
+CC   -!- TISSUE SPECIFICITY: Predominantly expressed in brain and pancreas
+CC       followed by heart, lung, kidney, skeletal muscle, liver, placenta
+CC       and testis.
+CC   -!- DOMAIN: PAPA box (proline-alanine repeats) may target the kinase
+CC       to a specific subcellular location by facilitating interaction
+CC       with intracellular proteins such as actin or actin-like proteins.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. STE Ser/Thr
+CC       protein kinase family. STE20 subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF099989; AAC72238.1; -; mRNA.
+DR   EMBL; AF030403; AAD01901.1; -; mRNA.
+DR   EMBL; AF017635; AAB70552.1; -; mRNA.
+DR   IPI; IPI00004363; -.
+DR   RefSeq; NP_037365.2; -.
+DR   UniGene; Hs.276271; -.
+DR   ProteinModelPortal; Q9UEW8; -.
+DR   SMR; Q9UEW8; 55-346, 454-547.
+DR   IntAct; Q9UEW8; 1.
+DR   STRING; Q9UEW8; -.
+DR   PhosphoSite; Q9UEW8; -.
+DR   PeptideAtlas; Q9UEW8; -.
+DR   PRIDE; Q9UEW8; -.
+DR   Ensembl; ENST00000355999; ENSP00000348278; ENSG00000198648.
+DR   GeneID; 27347; -.
+DR   KEGG; hsa:27347; -.
+DR   CTD; 27347; -.
+DR   GeneCards; GC02M168774; -.
+DR   H-InvDB; HIX0023910; -.
+DR   HGNC; HGNC:17717; STK39.
+DR   MIM; 607648; gene.
+DR   PharmGKB; PA38243; -.
+DR   eggNOG; prNOG09752; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG108518; -.
+DR   InParanoid; Q9UEW8; -.
+DR   PhylomeDB; Q9UEW8; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   Pathway_Interaction_DB; tcrpathway; TCR signaling in naive CD4+ T cells.
+DR   NextBio; 50438; -.
+DR   ArrayExpress; Q9UEW8; -.
+DR   Bgee; Q9UEW8; -.
+DR   CleanEx; HS_STK39; -.
+DR   Genevestigator; Q9UEW8; -.
+DR   GermOnline; ENSG00000198648; Homo sapiens.
+DR   GO; GO:0005737; C:cytoplasm; NAS:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; NAS:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; NAS:UniProtKB.
+DR   GO; GO:0004702; F:receptor signaling protein serine/threonine...; NAS:UniProtKB.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; NAS:UniProtKB.
+DR   GO; GO:0006950; P:response to stress; NAS:UniProtKB.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; FALSE_NEG.
+PE   1: Evidence at protein level;
+KW   Acetylation; ATP-binding; Complete proteome; Cytoplasm; Kinase;
+KW   Nucleotide-binding; Nucleus; Phosphoprotein;
+KW   Serine/threonine-protein kinase; Transferase.
+FT   INIT_MET      1      1       Removed.
+FT   CHAIN         2    547       STE20/SPS1-related proline-alanine-rich
+FT                                protein kinase.
+FT                                /FTId=PRO_0000086722.
+FT   DOMAIN       65    339       Protein kinase.
+FT   NP_BIND      71     79       ATP (By similarity).
+FT   MOTIF       362    368       Nuclear localization signal (Potential).
+FT   MOTIF       389    393       Caspase cleavage related site.
+FT   COMPBIAS     14     55       Ala/Pro-rich.
+FT   ACT_SITE    194    194       Proton acceptor (By similarity).
+FT   BINDING      94     94       ATP (By similarity).
+FT   MOD_RES       2      2       N-acetylalanine.
+FT   MOD_RES     351    351       N6-acetyllysine.
+FT   MOD_RES     356    356       Phosphothreonine.
+FT   MOD_RES     372    372       Phosphoserine.
+FT   MOD_RES     373    373       Phosphoserine.
+FT   MOD_RES     387    387       Phosphoserine.
+FT   CONFLICT    175    175       L -> F (in Ref. 1; AAD01901).
+SQ   SEQUENCE   547 AA;  59642 MW;  DE1C71CD46A79986 CRC64;
+     MAEPSGSPVH VQLPQQAAPV TAAAAAAPAA ATAAPAPAAP AAPAPAPAPA PAAQAVGWPI
+     CRDAYELQEV IGSGATAVVQ AALCKPRQER VAIKRINLEK CQTSMDELLK EIQAMSQCSH
+     PNVVTYYTSF VVKDELWLVM KLLSGGSMLD IIKYIVNRGE HKNGVLEEAI IATILKEVLE
+     GLDYLHRNGQ IHRDLKAGNI LLGEDGSVQI ADFGVSAFLA TGGDVTRNKV RKTFVGTPCW
+     MAPEVMEQVR GYDFKADMWS FGITAIELAT GAAPYHKYPP MKVLMLTLQN DPPTLETGVE
+     DKEMMKKYGK SFRKLLSLCL QKDPSKRPTA AELLKCKFFQ KAKNREYLIE KLLTRTPDIA
+     QRAKKVRRVP GSSGHLHKTE DGDWEWSDDE MDEKSEEGKA AFSQEKSRRV KEENPEIAVS
+     ASTIPEQIQS LSVHDSQGPP NANEDYREAS SCAVNLVLRL RNSRKELNDI RFEFTPGRDT
+     ADGVSQELFS AGLVDGHDVV IVAANLQKIV DDPKALKTLT FKLASGCDGS EIPDEVKLIG
+     FAQLSVS
+//

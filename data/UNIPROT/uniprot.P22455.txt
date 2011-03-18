@@ -1,0 +1,343 @@
+ID   FGFR4_HUMAN             Reviewed;         802 AA.
+AC   P22455; O43785; Q14309; Q71TW8; Q8TDA0;
+DT   01-AUG-1991, integrated into UniProtKB/Swiss-Prot.
+DT   27-APR-2001, sequence version 2.
+DT   02-NOV-2010, entry version 125.
+DE   RecName: Full=Fibroblast growth factor receptor 4;
+DE            Short=FGFR-4;
+DE            EC=2.7.10.1;
+DE   AltName: CD_antigen=CD334;
+DE   Flags: Precursor;
+GN   Name=FGFR4; Synonyms=JTK2, TKF;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RX   MEDLINE=91224085; PubMed=1709094;
+RA   Partanen J.M., Maekelae T.P., Eerola E., Korhonen J., Hirvonen H.,
+RA   Claesson-Welsh L., Alitalo K.;
+RT   "FGFR-4, a novel acidic fibroblast growth factor receptor with a
+RT   distinct expression pattern.";
+RL   EMBO J. 10:1347-1354(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RC   TISSUE=Mammary gland;
+RX   MEDLINE=93194827; PubMed=7680645;
+RA   Ron D., Reich R., Chedid M., Lengel C., Cohen O.E., Chan A.M.,
+RA   Neufeld G., Miki T., Tronick S.R.;
+RT   "Fibroblast growth factor receptor 4 is a high affinity receptor for
+RT   both acidic and basic fibroblast growth factor but not for
+RT   keratinocyte growth factor.";
+RL   J. Biol. Chem. 268:5388-5394(1993).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2), VARIANT LEU-136, TISSUE
+RP   SPECIFICITY, AND SUBCELLULAR LOCATION.
+RC   TISSUE=Intestine;
+RX   MEDLINE=20133241; PubMed=10631118; DOI=10.1006/bbrc.1999.2010;
+RA   Takaishi S., Sawada M., Morita Y., Seno H., Fukuzawa H., Chiba T.;
+RT   "Identification of a novel alternative splicing of human FGF receptor
+RT   4: soluble-form splice variant expressed in human gastrointestinal
+RT   epithelial cells.";
+RL   Biochem. Biophys. Res. Commun. 267:658-662(2000).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   MEDLINE=98119018; PubMed=9457674; DOI=10.1007/s003359900703;
+RA   Kostrzewa M., Muller U.;
+RT   "Genomic structure and complete sequence of the human FGFR4 gene.";
+RL   Mamm. Genome 9:131-135(1998).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND VARIANT LEU-136.
+RA   Lind D.L., Cox D.R.;
+RT   "Sequence variation in fibroblast growth factor receptors 3 and 4.";
+RL   Submitted (FEB-2002) to the EMBL/GenBank/DDBJ databases.
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND VARIANTS ILE-10; LEU-136 AND
+RP   ARG-388.
+RG   NIEHS SNPs program;
+RL   Submitted (APR-2007) to the EMBL/GenBank/DDBJ databases.
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA], AND VARIANT LEU-136.
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [8]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   TISSUE=Muscle;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [9]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 609-676.
+RC   TISSUE=Blood;
+RX   MEDLINE=91062389; PubMed=2247464; DOI=10.1073/pnas.87.22.8913;
+RA   Partanen J., Maekelae T.P., Alitalo R., Lehvaeslaiho H., Alitalo K.;
+RT   "Putative tyrosine kinases expressed in K-562 human leukemia cells.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 87:8913-8917(1990).
+RN   [10]
+RP   PROTEIN SEQUENCE OF 22-38.
+RX   PubMed=15340161; DOI=10.1110/ps.04682504;
+RA   Zhang Z., Henzel W.J.;
+RT   "Signal peptide prediction based on analysis of experimentally
+RT   verified cleavage sites.";
+RL   Protein Sci. 13:2819-2824(2004).
+RN   [11]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-573, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [12]
+RP   VARIANTS [LARGE SCALE ANALYSIS] ILE-10; LEU-136; ALA-179; SER-426;
+RP   ASN-516; MET-550; THR-712 AND ASN-772.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Receptor for acidic fibroblast growth factor. Does not
+CC       bind to basic fibroblast growth factor. Binds FGF19.
+CC   -!- CATALYTIC ACTIVITY: ATP + a [protein]-L-tyrosine = ADP + a
+CC       [protein]-L-tyrosine phosphate.
+CC   -!- SUBUNIT: Interacts with KLB (By similarity).
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type I membrane
+CC       protein. Note=Isoform 2 may be secreted.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=P22455-1; Sequence=Displayed;
+CC       Name=2; Synonyms=Soluble-form;
+CC         IsoId=P22455-2; Sequence=VSP_035108;
+CC   -!- TISSUE SPECIFICITY: Expressed in gastrointestinal epithelial
+CC       cells, pancreas, and gastric and pancreatic cancer cell lines.
+CC   -!- PTM: Glycosylated (By similarity).
+CC   -!- PTM: Phosphorylated on tyrosine residue (By similarity).
+CC       Phosphorylation requires the presence of a functional
+CC       (phosphorylated) FGFR1 and not necessarily by means of FGFR
+CC       heterodimerization (By similarity).
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Tyr protein
+CC       kinase family. Fibroblast growth factor receptor subfamily.
+CC   -!- SIMILARITY: Contains 3 Ig-like C2-type (immunoglobulin-like)
+CC       domains.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- WEB RESOURCE: Name=NIEHS-SNPs;
+CC       URL="http://egp.gs.washington.edu/data/fgfr4/";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X57205; CAA40490.1; -; mRNA.
+DR   EMBL; L03840; AAB59389.1; -; mRNA.
+DR   EMBL; AF202063; AAF27432.1; -; mRNA.
+DR   EMBL; Y13901; CAA74200.1; -; Genomic_DNA.
+DR   EMBL; AF487555; AAM13666.1; -; Genomic_DNA.
+DR   EMBL; EF571596; ABQ01235.1; -; Genomic_DNA.
+DR   EMBL; CH471195; EAW85036.1; -; Genomic_DNA.
+DR   EMBL; BC011847; AAH11847.1; -; mRNA.
+DR   EMBL; M59373; AAA63208.1; -; mRNA.
+DR   IPI; IPI00304578; -.
+DR   IPI; IPI00420109; -.
+DR   PIR; S15345; TVHUF4.
+DR   RefSeq; NP_002002.3; -.
+DR   RefSeq; NP_075252.2; -.
+DR   RefSeq; NP_998812.1; -.
+DR   UniGene; Hs.165950; -.
+DR   PDB; 1QCT; Model; -; B/E=36-353.
+DR   PDBsum; 1QCT; -.
+DR   ProteinModelPortal; P22455; -.
+DR   SMR; P22455; 146-355, 454-747, 464-773.
+DR   DIP; DIP-5149N; -.
+DR   STRING; P22455; -.
+DR   PhosphoSite; P22455; -.
+DR   PRIDE; P22455; -.
+DR   Ensembl; ENST00000292408; ENSP00000292408; ENSG00000160867.
+DR   Ensembl; ENST00000393648; ENSP00000377259; ENSG00000160867.
+DR   GeneID; 2264; -.
+DR   KEGG; hsa:2264; -.
+DR   UCSC; uc003mfl.1; human.
+DR   CTD; 2264; -.
+DR   GeneCards; GC05P176446; -.
+DR   H-InvDB; HIX0200758; -.
+DR   HGNC; HGNC:3691; FGFR4.
+DR   HPA; CAB005196; -.
+DR   HPA; HPA027273; -.
+DR   HPA; HPA027369; -.
+DR   HPA; HPA028251; -.
+DR   MIM; 134935; gene.
+DR   PharmGKB; PA28130; -.
+DR   eggNOG; prNOG11483; -.
+DR   HOVERGEN; HBG000345; -.
+DR   OrthoDB; EOG93JFPX; -.
+DR   PhylomeDB; P22455; -.
+DR   BRENDA; 2.7.10.1; 247.
+DR   Pathway_Interaction_DB; fgf_pathway; FGF signaling pathway.
+DR   Reactome; REACT_498; Signaling by Insulin receptor.
+DR   Reactome; REACT_9470; Signaling by FGFR.
+DR   DrugBank; DB00039; Palifermin.
+DR   NextBio; 9195; -.
+DR   ArrayExpress; P22455; -.
+DR   Bgee; P22455; -.
+DR   CleanEx; HS_FGFR4; -.
+DR   Genevestigator; P22455; -.
+DR   GermOnline; ENSG00000160867; Homo sapiens.
+DR   GO; GO:0005887; C:integral to plasma membrane; TAS:ProtInc.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0017134; F:fibroblast growth factor binding; IPI:UniProtKB.
+DR   GO; GO:0005007; F:fibroblast growth factor receptor activity; IPI:MGI.
+DR   GO; GO:0008284; P:positive regulation of cell proliferation; IGI:MGI.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   InterPro; IPR007110; Ig-like.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR013098; Ig_I-set.
+DR   InterPro; IPR003598; Ig_sub2.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR001245; Ser-Thr/Tyr-Pkinase.
+DR   InterPro; IPR020933; Tyr_kin_fibroblast_GF_rcpt_reg.
+DR   InterPro; IPR016248; Tyr_kinase_fibroblast_GF_rcpt.
+DR   InterPro; IPR020635; Tyr_Pkinase_cat_dom.
+DR   InterPro; IPR020685; Tyr_prot_kinase.
+DR   InterPro; IPR008266; Tyr_prot_kinase_AS.
+DR   Gene3D; G3DSA:2.60.40.10; Ig-like_fold; 3.
+DR   PANTHER; PTHR23256:SF276; Tyr_kinase_fibroblast_GF_rcpt; 1.
+DR   PANTHER; PTHR23256; Tyr_prot_kinase; 1.
+DR   Pfam; PF07679; I-set; 2.
+DR   Pfam; PF07714; Pkinase_Tyr; 1.
+DR   PIRSF; PIRSF000628; FGFR; 1.
+DR   PRINTS; PR00109; TYRKINASE.
+DR   SMART; SM00408; IGc2; 3.
+DR   SMART; SM00219; TyrKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS50835; IG_LIKE; 2.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00109; PROTEIN_KINASE_TYR; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; ATP-binding; Complete proteome;
+KW   Direct protein sequencing; Disulfide bond; Glycoprotein;
+KW   Immunoglobulin domain; Kinase; Membrane; Nucleotide-binding;
+KW   Phosphoprotein; Polymorphism; Receptor; Repeat; Signal; Transferase;
+KW   Transmembrane; Transmembrane helix; Tyrosine-protein kinase.
+FT   SIGNAL        1     21
+FT   CHAIN        22    802       Fibroblast growth factor receptor 4.
+FT                                /FTId=PRO_0000016787.
+FT   TOPO_DOM     22    369       Extracellular (Potential).
+FT   TRANSMEM    370    390       Helical; (Potential).
+FT   TOPO_DOM    391    802       Cytoplasmic (Potential).
+FT   DOMAIN       22    118       Ig-like C2-type 1.
+FT   DOMAIN      152    240       Ig-like C2-type 2.
+FT   DOMAIN      249    349       Ig-like C2-type 3.
+FT   DOMAIN      467    755       Protein kinase.
+FT   NP_BIND     473    481       ATP (By similarity).
+FT   ACT_SITE    612    612       Proton acceptor (By similarity).
+FT   BINDING     503    503       ATP (By similarity).
+FT   MOD_RES     573    573       Phosphoserine.
+FT   MOD_RES     643    643       Phosphotyrosine; by autocatalysis (By
+FT                                similarity).
+FT   CARBOHYD    112    112       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    258    258       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    290    290       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    311    311       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    322    322       N-linked (GlcNAc...) (Potential).
+FT   DISULFID     57    101       Potential.
+FT   DISULFID    172    224       Potential.
+FT   DISULFID    271    333       Potential.
+FT   VAR_SEQ     353    416       EEDPTWTAAAPEARYTDIILYASGSLALAVLLLLAGLYRGQ
+FT                                ALHGRHPRPPATVQKLSRFPLAR -> GTGRIPHLTCDSLT
+FT                                PAGRTKSPTL (in isoform 2).
+FT                                /FTId=VSP_035108.
+FT   VARIANT      10     10       V -> I (in dbSNP:rs1966265).
+FT                                /FTId=VAR_029185.
+FT   VARIANT     136    136       P -> L (in dbSNP:rs376618).
+FT                                /FTId=VAR_042211.
+FT   VARIANT     179    179       T -> A (in dbSNP:rs55675160).
+FT                                /FTId=VAR_042212.
+FT   VARIANT     388    388       G -> R (in dbSNP:rs351855).
+FT                                /FTId=VAR_014797.
+FT   VARIANT     426    426       G -> S (in dbSNP:rs55879131).
+FT                                /FTId=VAR_046102.
+FT   VARIANT     516    516       D -> N (in dbSNP:rs34158682).
+FT                                /FTId=VAR_042213.
+FT   VARIANT     529    529       R -> Q (in dbSNP:rs34284947).
+FT                                /FTId=VAR_049720.
+FT   VARIANT     550    550       V -> M (in breast pleomorphic lobular
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_046103.
+FT   VARIANT     712    712       P -> T (in a lung adenocarcinoma sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_046104.
+FT   VARIANT     772    772       S -> N (in a lung neuroendocrine
+FT                                carcinoma sample; somatic mutation).
+FT                                /FTId=VAR_046105.
+FT   CONFLICT    121    121       L -> S (in Ref. 3; AAF27432).
+FT   CONFLICT    194    194       E -> G (in Ref. 3; AAF27432).
+FT   CONFLICT    297    297       D -> V (in Ref. 1; CAA40490).
+FT   STRAND       45     47
+FT   STRAND       65     67
+FT   STRAND       75     81
+FT   HELIX        93     95
+FT   STRAND      100    102
+FT   STRAND      114    116
+FT   STRAND      160    163
+FT   STRAND      168    171
+FT   TURN        176    178
+FT   TURN        180    183
+FT   STRAND      189    191
+FT   TURN        192    194
+FT   STRAND      199    205
+FT   STRAND      208    213
+FT   HELIX       216    218
+FT   STRAND      220    227
+FT   STRAND      229    242
+FT   STRAND      256    260
+FT   STRAND      263    265
+FT   STRAND      267    271
+FT   STRAND      273    275
+FT   STRAND      277    285
+FT   STRAND      295    298
+FT   STRAND      301    304
+FT   STRAND      312    322
+FT   HELIX       325    327
+FT   STRAND      331    336
+FT   STRAND      342    349
+SQ   SEQUENCE   802 AA;  87954 MW;  B22B259831BB889F CRC64;
+     MRLLLALLGV LLSVPGPPVL SLEASEEVEL EPCLAPSLEQ QEQELTVALG QPVRLCCGRA
+     ERGGHWYKEG SRLAPAGRVR GWRGRLEIAS FLPEDAGRYL CLARGSMIVL QNLTLITGDS
+     LTSSNDDEDP KSHRDPSNRH SYPQQAPYWT HPQRMEKKLH AVPAGNTVKF RCPAAGNPTP
+     TIRWLKDGQA FHGENRIGGI RLRHQHWSLV MESVVPSDRG TYTCLVENAV GSIRYNYLLD
+     VLERSPHRPI LQAGLPANTT AVVGSDVELL CKVYSDAQPH IQWLKHIVIN GSSFGADGFP
+     YVQVLKTADI NSSEVEVLYL RNVSAEDAGE YTCLAGNSIG LSYQSAWLTV LPEEDPTWTA
+     AAPEARYTDI ILYASGSLAL AVLLLLAGLY RGQALHGRHP RPPATVQKLS RFPLARQFSL
+     ESGSSGKSSS SLVRGVRLSS SGPALLAGLV SLDLPLDPLW EFPRDRLVLG KPLGEGCFGQ
+     VVRAEAFGMD PARPDQASTV AVKMLKDNAS DKDLADLVSE MEVMKLIGRH KNIINLLGVC
+     TQEGPLYVIV ECAAKGNLRE FLRARRPPGP DLSPDGPRSS EGPLSFPVLV SCAYQVARGM
+     QYLESRKCIH RDLAARNVLV TEDNVMKIAD FGLARGVHHI DYYKKTSNGR LPVKWMAPEA
+     LFDRVYTHQS DVWSFGILLW EIFTLGGSPY PGIPVEELFS LLREGHRMDR PPHCPPELYG
+     LMRECWHAAP SQRPTFKQLV EALDKVLLAV SEEYLDLRLT FGPYSPSGGD ASSTCSSSDS
+     VFSHDPLPLG SSSFPFGSGV QT
+//

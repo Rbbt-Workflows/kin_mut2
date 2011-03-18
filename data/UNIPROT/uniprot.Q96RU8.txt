@@ -1,0 +1,205 @@
+ID   TRIB1_HUMAN             Reviewed;         372 AA.
+AC   Q96RU8; C5HU08; O15180; Q9H2Y8;
+DT   06-DEC-2005, integrated into UniProtKB/Swiss-Prot.
+DT   06-DEC-2005, sequence version 2.
+DT   05-OCT-2010, entry version 69.
+DE   RecName: Full=Tribbles homolog 1;
+DE            Short=TRB-1;
+DE   AltName: Full=G-protein-coupled receptor-induced gene 2 protein;
+DE            Short=GIG-2;
+DE   AltName: Full=SKIP1;
+GN   Name=TRIB1; Synonyms=C8FW, GIG2, TRB1;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, TISSUE SPECIFICITY, AND
+RP   INTERACTION WITH MAP2K1 AND MAP2K4.
+RX   PubMed=15299019; DOI=10.1074/jbc.M407732200;
+RA   Kiss-Toth E., Bagstaff S.M., Sung H.Y., Jozsa V., Dempsey C.,
+RA   Caunt J.C., Oxley K.M., Wyllie D.H., Polgar T., Harte M.,
+RA   O'Neill L.A.J., Qwarnstrom E.E., Dower S.K.;
+RT   "Human tribbles, a protein family controlling mitogen-activated
+RT   protein kinase cascades.";
+RL   J. Biol. Chem. 279:42703-42708(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Kidney;
+RA   Mayhaus M., von der Kammer H., Klaudiny J., Albrecht C., Hoffmann B.,
+RA   Nitsch R.M.;
+RT   "Identification of a novel nuclear factor Gig2, as an m1-acetylcholine
+RT   receptor-induced gene.";
+RL   Submitted (NOV-1999) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Lymph node;
+RX   PubMed=17974005; DOI=10.1186/1471-2164-8-399;
+RA   Bechtel S., Rosenfelder H., Duda A., Schmidt C.P., Ernst U.,
+RA   Wellenreuther R., Mehrle A., Schuster C., Bahr A., Bloecker H.,
+RA   Heubner D., Hoerlein A., Michel G., Wedler H., Koehrer K.,
+RA   Ottenwaelder B., Poustka A., Wiemann S., Schupp I.;
+RT   "The full-ORF clone resource of the German cDNA consortium.";
+RL   BMC Genomics 8:399-399(2007).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RG   NHLBI resequencing and genotyping service (RS&G);
+RL   Submitted (DEC-2008) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Placenta;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 149-372.
+RC   TISSUE=Thyroid;
+RX   MEDLINE=98000262; PubMed=9342215;
+RX   DOI=10.1111/j.1432-1033.1997.t01-1-00660.x;
+RA   Wilkin F., Suarez-Huerta N., Robaye B., Peetermans J., Libert F.,
+RA   Dumont J.E., Maenhaut C.;
+RT   "Characterization of a phosphoprotein whose mRNA is regulated by the
+RT   mitogenic pathways in dog thyroid cells.";
+RL   Eur. J. Biochem. 248:660-668(1997).
+RN   [8]
+RP   VARIANTS [LARGE SCALE ANALYSIS] ARG-173; MET-215; ILE-267; CYS-298;
+RP   ALA-360; ASP-360 AND LEU-371.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Interacts with MAPK kinases and regulates activation of
+CC       MAP kinases. May not display kinase activity.
+CC   -!- INTERACTION:
+CC       P18054:ALOX12; NbExp=2; IntAct=EBI-492555, EBI-1633210;
+CC       Q02750:MAP2K1; NbExp=1; IntAct=EBI-492555, EBI-492564;
+CC       P45985:MAP2K4; NbExp=1; IntAct=EBI-492555, EBI-447868;
+CC   -!- TISSUE SPECIFICITY: Expressed in most human tissues with the
+CC       highest levels in skeletal muscle, thyroid gland, pancreas,
+CC       peripheral blood leukocytes, and bone marrow.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CAMK
+CC       Ser/Thr protein kinase family. Tribbles subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF250310; AAK58174.1; -; mRNA.
+DR   EMBL; AF205437; AAG35663.1; -; mRNA.
+DR   EMBL; AL832388; CAI46181.1; -; mRNA.
+DR   EMBL; FJ515869; ACS13752.1; -; Genomic_DNA.
+DR   EMBL; CH471060; EAW92085.1; -; Genomic_DNA.
+DR   EMBL; BC063292; AAH63292.1; -; mRNA.
+DR   EMBL; AJ000480; CAA04119.1; -; mRNA.
+DR   IPI; IPI00290308; -.
+DR   RefSeq; NP_079471.1; -.
+DR   UniGene; Hs.444947; -.
+DR   ProteinModelPortal; Q96RU8; -.
+DR   SMR; Q96RU8; 104-341.
+DR   IntAct; Q96RU8; 4.
+DR   STRING; Q96RU8; -.
+DR   PRIDE; Q96RU8; -.
+DR   Ensembl; ENST00000311922; ENSP00000312150; ENSG00000173334.
+DR   GeneID; 10221; -.
+DR   KEGG; hsa:10221; -.
+DR   UCSC; uc003yrx.1; human.
+DR   CTD; 10221; -.
+DR   GeneCards; GC08P126511; -.
+DR   H-InvDB; HIX0034269; -.
+DR   HGNC; HGNC:16891; TRIB1.
+DR   MIM; 609461; gene.
+DR   PharmGKB; PA134963922; -.
+DR   eggNOG; prNOG04785; -.
+DR   HOGENOM; HBG506191; -.
+DR   HOVERGEN; HBG067729; -.
+DR   InParanoid; Q96RU8; -.
+DR   OMA; DFGDMHS; -.
+DR   OrthoDB; EOG9Z91G6; -.
+DR   PhylomeDB; Q96RU8; -.
+DR   NextBio; 38704; -.
+DR   ArrayExpress; Q96RU8; -.
+DR   Bgee; Q96RU8; -.
+DR   CleanEx; HS_TRIB1; -.
+DR   Genevestigator; Q96RU8; -.
+DR   GermOnline; ENSG00000173334; Homo sapiens.
+DR   GO; GO:0005737; C:cytoplasm; IDA:BHF-UCL.
+DR   GO; GO:0005634; C:nucleus; IDA:BHF-UCL.
+DR   GO; GO:0005524; F:ATP binding; IEA:InterPro.
+DR   GO; GO:0031434; F:mitogen-activated protein kinase kinase bin...; IDA:BHF-UCL.
+DR   GO; GO:0004672; F:protein kinase activity; IEA:InterPro.
+DR   GO; GO:0004860; F:protein kinase inhibitor activity; IMP:BHF-UCL.
+DR   GO; GO:0008134; F:transcription factor binding; IPI:BHF-UCL.
+DR   GO; GO:0031625; F:ubiquitin protein ligase binding; ISS:BHF-UCL.
+DR   GO; GO:0055106; F:ubiquitin-protein ligase regulator activity; ISS:BHF-UCL.
+DR   GO; GO:0007254; P:JNK cascade; IMP:BHF-UCL.
+DR   GO; GO:0031665; P:negative regulation of lipopolysaccharide-m...; IMP:BHF-UCL.
+DR   GO; GO:0006469; P:negative regulation of protein kinase activity; IMP:BHF-UCL.
+DR   GO; GO:0014912; P:negative regulation of smooth muscle cell m...; IMP:BHF-UCL.
+DR   GO; GO:0048662; P:negative regulation of smooth muscle cell p...; IMP:BHF-UCL.
+DR   GO; GO:0043433; P:negative regulation of transcription factor...; IMP:BHF-UCL.
+DR   GO; GO:0032436; P:positive regulation of proteasomal ubiquiti...; ISS:BHF-UCL.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   GO; GO:0043405; P:regulation of MAP kinase activity; IDA:UniProtKB.
+DR   GO; GO:0032496; P:response to lipopolysaccharide; IMP:BHF-UCL.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+PE   1: Evidence at protein level;
+KW   Complete proteome; Polymorphism; Protein kinase inhibitor.
+FT   CHAIN         1    372       Tribbles homolog 1.
+FT                                /FTId=PRO_0000131859.
+FT   DOMAIN        1    338       Protein kinase.
+FT   VARIANT     173    173       S -> R (in dbSNP:rs56285697).
+FT                                /FTId=VAR_042364.
+FT   VARIANT     215    215       T -> M (in dbSNP:rs34349706).
+FT                                /FTId=VAR_042365.
+FT   VARIANT     267    267       V -> I (in dbSNP:rs56056430).
+FT                                /FTId=VAR_042366.
+FT   VARIANT     298    298       R -> C (in dbSNP:rs55953723).
+FT                                /FTId=VAR_042367.
+FT   VARIANT     360    360       E -> A (in dbSNP:rs35454769).
+FT                                /FTId=VAR_042368.
+FT   VARIANT     360    360       E -> D (in dbSNP:rs16900603).
+FT                                /FTId=VAR_042369.
+FT   VARIANT     371    371       F -> L (in a lung large cell carcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_042370.
+FT   CONFLICT    149    150       VI -> SV (in Ref. 7; CAA04119).
+FT   CONFLICT    163    163       D -> S (in Ref. 1 and 7).
+SQ   SEQUENCE   372 AA;  41009 MW;  5F54E50924B1365B CRC64;
+     MRVGPVRSAM SGASQPRGPA LLFPATRGVP AKRLLDADDA AAVAAKCPRL SECSSPPDYL
+     SPPGSPCSPQ PPPAAPGAGG GSGSAPGPSR IADYLLLPLA EREHVSRALC IHTGRELRCK
+     VFPIKHYQDK IRPYIQLPSH SNITGIVEVI LGETKAYVFF EKDFGDMHSY VRSRKRLREE
+     EAARLFKQIV SAVAHCHQSA IVLGDLKLRK FVFSTEERTQ LRLESLEDTH IMKGEDDALS
+     DKHGCPAYVS PEILNTTGTY SGKAADVWSL GVMLYTLLVG RYPFHDSDPS ALFSKIRRGQ
+     FCIPEHISPK ARCLIRSLLR REPSERLTAP EILLHPWFES VLEPGYIDSE IGTSDQIVPE
+     YQEDSDISSF FC
+//

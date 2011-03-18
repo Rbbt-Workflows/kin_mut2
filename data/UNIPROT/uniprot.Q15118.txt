@@ -1,0 +1,238 @@
+ID   PDK1_HUMAN              Reviewed;         436 AA.
+AC   Q15118; B2R6T1;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   02-NOV-2010, entry version 97.
+DE   RecName: Full=[Pyruvate dehydrogenase [lipoamide]] kinase isozyme 1, mitochondrial;
+DE            EC=2.7.11.2;
+DE   AltName: Full=Pyruvate dehydrogenase kinase isoform 1;
+DE   Flags: Precursor;
+GN   Name=PDK1;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Liver;
+RX   MEDLINE=96081973; PubMed=7499431; DOI=10.1074/jbc.270.48.28989;
+RA   Gudi R., Bowker-Kinley M.M., Kedishvili N.Y., Zhao Y., Popov K.M.;
+RT   "Diversity of the pyruvate dehydrogenase kinase gene family in
+RT   humans.";
+RL   J. Biol. Chem. 270:28989-28994(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RX   PubMed=14702039; DOI=10.1038/ng1285;
+RA   Ota T., Suzuki Y., Nishikawa T., Otsuki T., Sugiyama T., Irie R.,
+RA   Wakamatsu A., Hayashi K., Sato H., Nagai K., Kimura K., Makita H.,
+RA   Sekine M., Obayashi M., Nishi T., Shibahara T., Tanaka T., Ishii S.,
+RA   Yamamoto J., Saito K., Kawai Y., Isono Y., Nakamura Y., Nagahari K.,
+RA   Murakami K., Yasuda T., Iwayanagi T., Wagatsuma M., Shiratori A.,
+RA   Sudo H., Hosoiri T., Kaku Y., Kodaira H., Kondo H., Sugawara M.,
+RA   Takahashi M., Kanda K., Yokoi T., Furuya T., Kikkawa E., Omura Y.,
+RA   Abe K., Kamihara K., Katsuta N., Sato K., Tanikawa M., Yamazaki M.,
+RA   Ninomiya K., Ishibashi T., Yamashita H., Murakawa K., Fujimori K.,
+RA   Tanai H., Kimata M., Watanabe M., Hiraoka S., Chiba Y., Ishida S.,
+RA   Ono Y., Takiguchi S., Watanabe S., Yosida M., Hotuta T., Kusano J.,
+RA   Kanehori K., Takahashi-Fujii A., Hara H., Tanase T.-O., Nomura Y.,
+RA   Togiya S., Komai F., Hara R., Takeuchi K., Arita M., Imose N.,
+RA   Musashino K., Yuuki H., Oshima A., Sasaki N., Aotsuka S.,
+RA   Yoshikawa Y., Matsunawa H., Ichihara T., Shiohata N., Sano S.,
+RA   Moriya S., Momiyama H., Satoh N., Takami S., Terashima Y., Suzuki O.,
+RA   Nakagawa S., Senoh A., Mizoguchi H., Goto Y., Shimizu F., Wakebe H.,
+RA   Hishigaki H., Watanabe T., Sugiyama A., Takemoto M., Kawakami B.,
+RA   Yamazaki M., Watanabe K., Kumagai A., Itakura S., Fukuzumi Y.,
+RA   Fujimori Y., Komiyama M., Tashiro H., Tanigami A., Fujiwara T.,
+RA   Ono T., Yamada K., Fujii Y., Ozaki K., Hirao M., Ohmori Y.,
+RA   Kawabata A., Hikiji T., Kobatake N., Inagaki H., Ikema Y., Okamoto S.,
+RA   Okitani R., Kawakami T., Noguchi S., Itoh T., Shigeta K., Senba T.,
+RA   Matsumura K., Nakajima Y., Mizuno T., Morinaga M., Sasaki M.,
+RA   Togashi T., Oyama M., Hata H., Watanabe M., Komatsu T.,
+RA   Mizushima-Sugano J., Satoh T., Shirai Y., Takahashi Y., Nakagawa K.,
+RA   Okumura K., Nagase T., Nomura N., Kikuchi H., Masuho Y., Yamashita R.,
+RA   Nakai K., Yada T., Nakamura Y., Ohara O., Isogai T., Sugano S.;
+RT   "Complete sequencing and characterization of 21,243 full-length human
+RT   cDNAs.";
+RL   Nat. Genet. 36:40-45(2004).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (SEP-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Skin;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [5]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RA   Colinge J., Superti-Furga G., Bennett K.L.;
+RL   Submitted (OCT-2008) to UniProtKB.
+RN   [6]
+RP   X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS) OF 30-436 IN COMPLEX WITH THE
+RP   INHIBITORS AZD7545 AND DICHLOROACETATE, FUNCTION, AND ENZYME
+RP   REGULATION.
+RX   PubMed=17683942; DOI=10.1016/j.str.2007.07.001;
+RA   Kato M., Li J., Chuang J.L., Chuang D.T.;
+RT   "Distinct structural mechanisms for inhibition of pyruvate
+RT   dehydrogenase kinase isoforms by AZD7545, dichloroacetate, and
+RT   radicicol.";
+RL   Structure 15:992-1004(2007).
+RN   [7]
+RP   VARIANT [LARGE SCALE ANALYSIS] THR-412.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Inhibits the mitochondrial pyruvate dehydrogenase
+CC       complex by phosphorylation of the E1 alpha subunit, thus
+CC       contributing to the regulation of glucose metabolism.
+CC   -!- CATALYTIC ACTIVITY: ATP + [pyruvate dehydrogenase (acetyl-
+CC       transferring)] = ADP + [pyruvate dehydrogenase (acetyl-
+CC       transferring)] phosphate.
+CC   -!- ENZYME REGULATION: Inhibited by AZD7545, dichloroacetate and
+CC       radicicol.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion matrix.
+CC   -!- TISSUE SPECIFICITY: Expressed predominantly in the heart.
+CC   -!- SIMILARITY: Belongs to the PDK/BCKDK protein kinase family.
+CC   -!- SIMILARITY: Contains 1 histidine kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; L42450; AAC42009.1; -; mRNA.
+DR   EMBL; AK312700; BAG35578.1; -; mRNA.
+DR   EMBL; CH471058; EAX11173.1; -; Genomic_DNA.
+DR   EMBL; BC039158; AAH39158.1; -; mRNA.
+DR   IPI; IPI00014831; -.
+DR   PIR; I55465; I55465.
+DR   RefSeq; NP_002601.1; -.
+DR   UniGene; Hs.470633; -.
+DR   PDB; 2Q8F; X-ray; 2.03 A; A=30-436.
+DR   PDB; 2Q8G; X-ray; 1.90 A; A=30-436.
+DR   PDB; 2Q8H; X-ray; 2.00 A; A=30-436.
+DR   PDBsum; 2Q8F; -.
+DR   PDBsum; 2Q8G; -.
+DR   PDBsum; 2Q8H; -.
+DR   ProteinModelPortal; Q15118; -.
+DR   DIP; DIP-29497N; -.
+DR   MINT; MINT-2881420; -.
+DR   STRING; Q15118; -.
+DR   PhosphoSite; Q15118; -.
+DR   PRIDE; Q15118; -.
+DR   Ensembl; ENST00000282077; ENSP00000282077; ENSG00000152256.
+DR   Ensembl; ENST00000410055; ENSP00000386985; ENSG00000152256.
+DR   GeneID; 5163; -.
+DR   KEGG; hsa:5163; -.
+DR   UCSC; uc002uhr.2; human.
+DR   CTD; 5163; -.
+DR   GeneCards; GC02P173384; -.
+DR   H-InvDB; HIX0002597; -.
+DR   HGNC; HGNC:8809; PDK1.
+DR   HPA; CAB017554; -.
+DR   HPA; HPA027376; -.
+DR   MIM; 602524; gene.
+DR   PharmGKB; PA33154; -.
+DR   eggNOG; prNOG08616; -.
+DR   HOVERGEN; HBG000511; -.
+DR   PhylomeDB; Q15118; -.
+DR   BRENDA; 2.7.11.2; 247.
+DR   Reactome; REACT_1046; Pyruvate metabolism and Citric Acid (TCA) cycle.
+DR   NextBio; 19974; -.
+DR   ArrayExpress; Q15118; -.
+DR   Bgee; Q15118; -.
+DR   CleanEx; HS_PDK1; -.
+DR   Genevestigator; Q15118; -.
+DR   GO; GO:0005759; C:mitochondrial matrix; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004740; F:pyruvate dehydrogenase (acetyl-transferring...; TAS:ProtInc.
+DR   GO; GO:0000155; F:two-component sensor activity; IEA:InterPro.
+DR   GO; GO:0006006; P:glucose metabolic process; TAS:ProtInc.
+DR   GO; GO:0018106; P:peptidyl-histidine phosphorylation; IEA:InterPro.
+DR   GO; GO:0010510; P:regulation of acetyl-CoA biosynthetic proce...; EXP:Reactome.
+DR   GO; GO:0007264; P:small GTPase mediated signal transduction; TAS:ProtInc.
+DR   InterPro; IPR003594; ATPase-like_ATP-bd.
+DR   InterPro; IPR018955; BCDHK/PDK_N.
+DR   InterPro; IPR005467; Sig_transdc_His_kinase_core.
+DR   Gene3D; G3DSA:3.30.565.10; ATP_bd_ATPase; 1.
+DR   Gene3D; G3DSA:1.20.140.20; G3DSA:1.20.140.20; 1.
+DR   Pfam; PF10436; BCDHK_Adom3; 1.
+DR   Pfam; PF02518; HATPase_c; 1.
+DR   SMART; SM00387; HATPase_c; 1.
+DR   SUPFAM; SSF55874; ATP_bd_ATPase; 1.
+DR   PROSITE; PS50109; HIS_KIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; ATP-binding; Carbohydrate metabolism; Complete proteome;
+KW   Glucose metabolism; Kinase; Mitochondrion; Nucleotide-binding;
+KW   Polymorphism; Transferase; Transit peptide.
+FT   TRANSIT       1     28       Mitochondrion (Potential).
+FT   CHAIN        29    436       [Pyruvate dehydrogenase [lipoamide]]
+FT                                kinase isozyme 1, mitochondrial.
+FT                                /FTId=PRO_0000023437.
+FT   DOMAIN      163    393       Histidine kinase.
+FT   NP_BIND     279    286       ATP (By similarity).
+FT   NP_BIND     337    338       ATP (By similarity).
+FT   NP_BIND     354    359       ATP (By similarity).
+FT   BINDING     318    318       ATP (By similarity).
+FT   VARIANT     134    134       A -> T (in dbSNP:rs35661499).
+FT                                /FTId=VAR_050477.
+FT   VARIANT     412    412       N -> T (in dbSNP:rs34250425).
+FT                                /FTId=VAR_042295.
+FT   HELIX        42     50
+FT   HELIX        59     66
+FT   HELIX        72     94
+FT   HELIX        99    102
+FT   HELIX       105    121
+FT   HELIX       122    124
+FT   HELIX       132    148
+FT   TURN        149    151
+FT   HELIX       152    166
+FT   HELIX       172    202
+FT   STRAND      219    224
+FT   HELIX       225    244
+FT   STRAND      250    259
+FT   STRAND      265    268
+FT   HELIX       270    291
+FT   TURN        293    296
+FT   STRAND      301    307
+FT   STRAND      309    318
+FT   HELIX       325    328
+FT   HELIX       329    332
+FT   TURN        334    337
+FT   HELIX       358    368
+FT   STRAND      372    378
+FT   TURN        379    381
+FT   STRAND      382    392
+FT   TURN        393    395
+FT   HELIX       405    411
+SQ   SEQUENCE   436 AA;  49244 MW;  D14CD594E0EA45A2 CRC64;
+     MRLARLLRGA ALAGPGPGLR AAGFSRSFSS DSGSSPASER GVPGQVDFYA RFSPSPLSMK
+     QFLDFGSVNA CEKTSFMFLR QELPVRLANI MKEISLLPDN LLRTPSVQLV QSWYIQSLQE
+     LLDFKDKSAE DAKAIYDFTD TVIRIRNRHN DVIPTMAQGV IEYKESFGVD PVTSQNVQYF
+     LDRFYMSRIS IRMLLNQHSL LFGGKGKGSP SHRKHIGSIN PNCNVLEVIK DGYENARRLC
+     DLYYINSPEL ELEELNAKSP GQPIQVVYVP SHLYHMVFEL FKNAMRATME HHANRGVYPP
+     IQVHVTLGNE DLTVKMSDRG GGVPLRKIDR LFNYMYSTAP RPRVETSRAV PLAGFGYGLP
+     ISRLYAQYFQ GDLKLYSLEG YGTDAVIYIK ALSTDSIERL PVYNKAAWKH YNTNHEADDW
+     CVPSREPKDM TTFRSA
+//

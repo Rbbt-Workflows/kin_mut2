@@ -1,0 +1,468 @@
+ID   AURKB_HUMAN             Reviewed;         344 AA.
+AC   Q96GD4; O14630; O60446; O95083; Q96DV5; Q9UQ46;
+DT   17-JAN-2003, integrated into UniProtKB/Swiss-Prot.
+DT   17-JAN-2003, sequence version 2.
+DT   02-NOV-2010, entry version 115.
+DE   RecName: Full=Serine/threonine-protein kinase 12;
+DE            EC=2.7.11.1;
+DE   AltName: Full=Aurora kinase B;
+DE   AltName: Full=Aurora- and IPL1-like midbody-associated protein 1;
+DE            Short=AIM-1;
+DE   AltName: Full=Aurora/IPL1-related kinase 2;
+DE            Short=ARK-2;
+DE            Short=Aurora-related kinase 2;
+DE   AltName: Full=STK-1;
+DE   AltName: Full=Serine/threonine-protein kinase aurora-B;
+GN   Name=AURKB; Synonyms=AIK2, AIM1, ARK2, STK12;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   MEDLINE=98183439; PubMed=9514916; DOI=10.1006/bbrc.1998.8250;
+RA   Shindo M., Nakano H., Kuroyanagi H., Shirasawa T., Mihara M.,
+RA   Gilbert D.J., Jenkins N.A., Copeland N.G., Yagita H., Okumura K.;
+RT   "cDNA cloning, expression, subcellular localization, and chromosomal
+RT   assignment of mammalian aurora homologues, aurora-related kinase (ARK)
+RT   1 and 2.";
+RL   Biochem. Biophys. Res. Commun. 244:285-292(1998).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RX   MEDLINE=99025855; PubMed=9809983;
+RA   Tatsuka M., Katayama H., Ota T., Tanaka T., Odashima S., Suzuki F.,
+RA   Terada Y.;
+RT   "Multinuclearity and increased ploidy caused by overexpression of the
+RT   aurora- and Ipl1-like midbody-associated protein mitotic kinase in
+RT   human cancer cells.";
+RL   Cancer Res. 58:4811-4816(1998).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RC   TISSUE=Liver, and Spleen;
+RX   MEDLINE=99077743; PubMed=9858806;
+RA   Kimura M., Matsuda Y., Yoshioka T., Sumi N., Okano Y.;
+RT   "Identification and characterization of STK12/Aik2: a human gene
+RT   related to aurora of Drosophila and yeast IPL1.";
+RL   Cytogenet. Cell Genet. 82:147-152(1998).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   MEDLINE=21364697; PubMed=11471245;
+RA   Prigent C., Gill R., Trower M., Sanseau P.;
+RT   "In silico cloning of a new protein kinase, Aik2, related to
+RT   Drosophila aurora using the new tool: EST Blast.";
+RL   In Silico Biol. 1:123-128(1999).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RA   Zhang Q., Yu L., Bi A.;
+RT   "Cloning of a novel human gene homologous to mouse STK-1.";
+RL   Submitted (JUL-1997) to the EMBL/GenBank/DDBJ databases.
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RA   Kalnine N., Chen X., Rolfs A., Halleck A., Hines L., Eisenstein S.,
+RA   Koundinya M., Raphael J., Moreira D., Kelley T., LaBaer J., Lin Y.,
+RA   Phelan M., Farmer A.;
+RT   "Cloning of human full-length CDSs in BD Creator(TM) system donor
+RT   vector.";
+RL   Submitted (MAY-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA], AND VARIANT MET-298.
+RC   TISSUE=Lung, Lymph, and Muscle;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [8]
+RP   REVIEW.
+RX   MEDLINE=21306577; PubMed=11413462; DOI=10.1038/35048096;
+RA   Nigg E.A.;
+RT   "Mitotic kinases as regulators of cell division and its checkpoints.";
+RL   Nat. Rev. Mol. Cell Biol. 2:21-32(2001).
+RN   [9]
+RP   FUNCTION IN PHOSPHORYLATION OF HISTONE H3.
+RX   PubMed=11856369; DOI=10.1046/j.1356-9597.2001.00498.x;
+RA   Goto H., Yasui Y., Nigg E.A., Inagaki M.;
+RT   "Aurora-B phosphorylates Histone H3 at serine28 with regard to the
+RT   mitotic chromosome condensation.";
+RL   Genes Cells 7:11-17(2002).
+RN   [10]
+RP   FUNCTION IN PHOSPHORYLATION OF HISTONE H3.
+RX   PubMed=11784863; DOI=10.1128/MCB.22.3.874-885.2002;
+RA   Crosio C., Fimia G.M., Loury R., Kimura M., Okano Y., Zhou H., Sen S.,
+RA   Allis C.D., Sassone-Corsi P.;
+RT   "Mitotic phosphorylation of histone H3: spatio-temporal regulation by
+RT   mammalian Aurora kinases.";
+RL   Mol. Cell. Biol. 22:874-885(2002).
+RN   [11]
+RP   FUNCTION, AND INTERACTION WITH RACGAP1.
+RX   PubMed=12689593; DOI=10.1016/S1534-5807(03)00089-3;
+RA   Minoshima Y., Kawashima T., Hirose K., Tonozuka Y., Kawajiri A.,
+RA   Bao Y.C., Deng X., Tatsuka M., Narumiya S., May W.S. Jr., Nosaka T.,
+RA   Semba K., Inoue T., Satoh T., Inagaki M., Kitamura T.;
+RT   "Phosphorylation by aurora B converts MgcRacGAP to a RhoGAP during
+RT   cytokinesis.";
+RL   Dev. Cell 4:549-560(2003).
+RN   [12]
+RP   INTERACTION WITH PSMA3.
+RX   PubMed=14674694; DOI=10.1023/A:1027317014159;
+RA   Shu F., Guo S., Dang Y., Qi M., Zhou G., Guo Z., Zhang Y., Wu C.,
+RA   Zhao S., Yu L.;
+RT   "Human Aurora-B binds to a proteasome alpha-subunit HC8 and undergoes
+RT   degradation in a proteasome-dependent manner.";
+RL   Mol. Cell. Biochem. 254:157-162(2003).
+RN   [13]
+RP   FUNCTION.
+RX   PubMed=15020684; DOI=10.1242/jcs.01006;
+RA   Johnson V.L., Scott M.I., Holt S.V., Hussein D., Taylor S.S.;
+RT   "Bub1 is required for kinetochore localization of BubR1, Cenp-E, Cenp-
+RT   F and Mad2, and chromosome congression.";
+RL   J. Cell Sci. 117:1577-1589(2004).
+RN   [14]
+RP   INTERACTION WITH CDCA8.
+RX   PubMed=15249581; DOI=10.1083/jcb.200404001;
+RA   Gassmann R., Carvalho A., Henzing A.J., Ruchaud S., Hudson D.F.,
+RA   Honda R., Nigg E.A., Gerloff D.L., Earnshaw W.C.;
+RT   "Borealin: a novel chromosomal passenger required for stability of the
+RT   bipolar mitotic spindle.";
+RL   J. Cell Biol. 166:179-191(2004).
+RN   [15]
+RP   FUNCTION, AND INTERACTION WITH CDCA1 AND NDC80.
+RX   PubMed=14602875; DOI=10.1074/mcp.M300072-MCP200;
+RA   Tien A.-C., Lin M.-H., Su L.-J., Hong Y.-R., Cheng T.-S., Lee Y.-C.G.,
+RA   Lin W.-J., Still I.H., Huang C.-Y.F.;
+RT   "Identification of the substrates and interaction proteins of aurora
+RT   kinases from a protein-protein interaction model.";
+RL   Mol. Cell. Proteomics 3:93-104(2004).
+RN   [16]
+RP   INTERACTION WITH TACC1.
+RX   PubMed=15064709; DOI=10.1038/sj.onc.1207593;
+RA   Delaval B., Ferrand A., Conte N., Larroque C., Hernandez-Verdun D.,
+RA   Prigent C., Birnbaum D.;
+RT   "Aurora B -TACC1 protein complex in cytokinesis.";
+RL   Oncogene 23:4516-4522(2004).
+RN   [17]
+RP   SUBCELLULAR LOCATION, INTERACTION WITH SEPT1, AND MUTAGENESIS OF
+RP   LYS-106.
+RX   PubMed=16179162; DOI=10.1016/j.bbrc.2005.06.212;
+RA   Qi M., Yu W., Liu S., Jia H., Tang L., Shen M., Yan X., Saiyin H.,
+RA   Lang Q., Wan B., Zhao S., Yu L.;
+RT   "Septin1, a new interaction partner for human serine/threonine kinase
+RT   aurora-B.";
+RL   Biochem. Biophys. Res. Commun. 336:994-1000(2005).
+RN   [18]
+RP   INTERACTION WITH EVI5.
+RX   PubMed=16764853; DOI=10.1016/j.yexcr.2006.03.032;
+RA   Faitar S.L., Sossey-Alaoui K., Ranalli T.A., Cowell J.K.;
+RT   "EVI5 protein associates with the INCENP-aurora B kinase-survivin
+RT   chromosomal passenger complex and is involved in the completion of
+RT   cytokinesis.";
+RL   Exp. Cell Res. 312:2325-2335(2006).
+RN   [19]
+RP   FUNCTION.
+RX   PubMed=17617734;
+RA   Pouwels J., Kukkonen A.M., Lan W., Daum J.R., Gorbsky G.J.,
+RA   Stukenberg T., Kallio M.J.;
+RT   "Shugoshin 1 plays a central role in kinetochore assembly and is
+RT   required for kinetochore targeting of Plk1.";
+RL   Cell Cycle 6:1579-1585(2007).
+RN   [20]
+RP   UBIQUITINATION.
+RX   PubMed=17543862; DOI=10.1016/j.devcel.2007.03.019;
+RA   Sumara I., Quadroni M., Frei C., Olma M.H., Sumara G., Ricci R.,
+RA   Peter M.;
+RT   "A Cul3-based E3 ligase removes Aurora B from mitotic chromosomes,
+RT   regulating mitotic progression and completion of cytokinesis in human
+RT   cells.";
+RL   Dev. Cell 12:887-900(2007).
+RN   [21]
+RP   INTERACTION WITH BIRC5.
+RX   PubMed=18591255; DOI=10.1128/MCB.02039-07;
+RA   Xia F., Canovas P.M., Guadagno T.M., Altieri D.C.;
+RT   "A survivin-ran complex regulates spindle formation in tumor cells.";
+RL   Mol. Cell. Biol. 28:5299-5311(2008).
+RN   [22]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-7; TYR-12 AND THR-232,
+RP   AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix adenocarcinoma;
+RX   PubMed=16565220; DOI=10.1073/pnas.0507066103;
+RA   Nousiainen M., Sillje H.H.W., Sauer G., Nigg E.A., Koerner R.;
+RT   "Phosphoproteome analysis of the human mitotic spindle.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:5391-5396(2006).
+RN   [23]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-7; THR-16; THR-35;
+RP   SER-45; SER-61; SER-62 AND THR-64, ACETYLATION [LARGE SCALE ANALYSIS]
+RP   AT ALA-2, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=19007248; DOI=10.1021/ac801708p;
+RA   Wang B., Malik R., Nigg E.A., Korner R.;
+RT   "Evaluation of the low-specificity protease elastase for large-scale
+RT   phosphoproteome analysis.";
+RL   Anal. Chem. 80:9526-9533(2008).
+RN   [24]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-232, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18220336; DOI=10.1021/pr0705441;
+RA   Cantin G.T., Yi W., Lu B., Park S.K., Xu T., Lee J.-D.,
+RA   Yates J.R. III;
+RT   "Combining protein-based IMAC, peptide-based IMAC, and MudPIT for
+RT   efficient phosphoproteomic analysis.";
+RL   J. Proteome Res. 7:1346-1351(2008).
+RN   [25]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-7; THR-35; SER-45;
+RP   SER-61; THR-64; TYR-92; SER-227; THR-232; THR-236 AND SER-313, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [26]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-35, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [27]
+RP   UBIQUITINATION.
+RX   PubMed=19995937; DOI=10.1083/jcb.200906117;
+RA   Maerki S., Olma M.H., Staubli T., Steigemann P., Gerlich D.W.,
+RA   Quadroni M., Sumara I., Peter M.;
+RT   "The Cul3-KLHL21 E3 ubiquitin ligase targets aurora B to midzone
+RT   microtubules in anaphase and is required for cytokinesis.";
+RL   J. Cell Biol. 187:791-800(2009).
+RN   [28]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-61, AND MASS
+RP   SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [29]
+RP   INTERACTION WITH INCENP.
+RX   PubMed=20562864; DOI=10.1038/ncb2075;
+RA   Nozawa R.S., Nagao K., Masuda H.T., Iwasaki O., Hirota T., Nozaki N.,
+RA   Kimura H., Obuse C.;
+RT   "Human POGZ modulates dissociation of HP1alpha from mitotic chromosome
+RT   arms through Aurora B activation.";
+RL   Nat. Cell Biol. 12:719-727(2010).
+RN   [30]
+RP   VARIANT MET-298.
+RX   PubMed=16762494; DOI=10.1016/j.canlet.2006.05.002;
+RA   Tchatchou S., Wirtenberger M., Hemminki K., Sutter C., Meindl A.,
+RA   Wappenschmidt B., Kiechle M., Bugert P., Schmutzler R.K.,
+RA   Bartram C.R., Burwinkel B.;
+RT   "Aurora kinases A and B and familial breast cancer risk.";
+RL   Cancer Lett. 247:266-272(2007).
+RN   [31]
+RP   VARIANTS [LARGE SCALE ANALYSIS] VAL-52 AND MET-179.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: May be directly involved in regulating the cleavage of
+CC       polar spindle microtubules and is a key regulator for the onset of
+CC       cytokinesis during mitosis. Component of the chromosomal passenger
+CC       complex (CPC), a complex that acts as a key regulator of mitosis.
+CC       The CPC complex has essential functions at the centromere in
+CC       ensuring correct chromosome alignment and segregation and is
+CC       required for chromatin-induced microtubule stabilization and
+CC       spindle assembly. Phosphorylates 'Ser-10' and 'Ser-28' of histone
+CC       H3 during mitosis. Required for kinetochore localization of BUB1
+CC       and SGOL1. Interacts with INCENP.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- COFACTOR: Magnesium.
+CC   -!- SUBUNIT: Interacts with TACC1. Associates with RACGAP1 during M
+CC       phase. Component of the CPC at least composed of BIRC5/survivin
+CC       CDCA8/borealin, INCENP and AURKB/Aurora-B. Interacts with CDCA1
+CC       and NDC80. Interacts with EVI5. Interacts with SEPT1. Interacts
+CC       with PSMA3.
+CC   -!- INTERACTION:
+CC       O15392:BIRC5; NbExp=6; IntAct=EBI-624291, EBI-518823;
+CC       P06493:CDC2; NbExp=1; IntAct=EBI-624291, EBI-444308;
+CC       Q9NQS7:INCENP; NbExp=1; IntAct=EBI-624291, EBI-307907;
+CC       P62136:PPP1CA; NbExp=1; IntAct=EBI-624291, EBI-357253;
+CC       Q8WYJ6:SEPT1; NbExp=3; IntAct=EBI-624291, EBI-693002;
+CC       O75410:TACC1; NbExp=3; IntAct=EBI-624291, EBI-624237;
+CC   -!- SUBCELLULAR LOCATION: Nucleus. Chromosome. Chromosome, centromere.
+CC       Cytoplasm, cytoskeleton, spindle. Note=Localizes on chromosome
+CC       arms and inner centromeres from prophase through metaphase and
+CC       then transferring to the spindle midzone and midbody from anaphase
+CC       through cytokinesis. Colocalized with gamma tubulin in the mid-
+CC       body.
+CC   -!- TISSUE SPECIFICITY: High level expression seen in the thymus. It
+CC       is also expressed in the spleen, lung, testis, colon, placenta and
+CC       fetal liver. Expressed during S and G2/M phase and expression is
+CC       up-regulated in cancer cells during M phase.
+CC   -!- PTM: Ubiquitinated by different BCR (BTB-CUL3-RBX1) E3 ubiquitin
+CC       ligase complexes. Ubiquitinated by the BCR(KLHL9-KLHL13) E3
+CC       ubiquitin ligase complex, ubiquitination leads to removal from
+CC       mitotic chromosomes and is required for cytokinesis. During
+CC       anaphase, the BCR(KLHL21) E3 ubiquitin ligase complex recruits the
+CC       CPC complex from chromosomes to the spindle midzone and mediates
+CC       the ubiquitination of AURKB. Ubiquitination of AURKB by
+CC       BCR(KLHL21) E3 ubiquitin ligase complex may not lead to its
+CC       degradation by the proteasome.
+CC   -!- DISEASE: Note=Disruptive regulation of expression is a possibile
+CC       mechanism of the perturbation of chromosomal integrity in cancer
+CC       cells through its dominant-negative effect on cytokinesis.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Ser/Thr
+CC       protein kinase family. Aurora subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAH13300.2; Type=Erroneous initiation;
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF008552; AAC12709.1; -; mRNA.
+DR   EMBL; AB011450; BAA32136.1; -; mRNA.
+DR   EMBL; AB011446; BAA82709.1; -; mRNA.
+DR   EMBL; AF004022; AAB65786.1; -; mRNA.
+DR   EMBL; AF015254; AAC98891.1; -; mRNA.
+DR   EMBL; BT019534; AAV38341.1; -; mRNA.
+DR   EMBL; BC000442; AAH00442.3; -; mRNA.
+DR   EMBL; BC009751; AAH09751.1; -; mRNA.
+DR   EMBL; BC013300; AAH13300.2; ALT_INIT; mRNA.
+DR   EMBL; BC080581; AAH80581.1; -; mRNA.
+DR   IPI; IPI00176642; -.
+DR   RefSeq; NP_004208.2; -.
+DR   UniGene; Hs.442658; -.
+DR   ProteinModelPortal; Q96GD4; -.
+DR   SMR; Q96GD4; 70-337.
+DR   DIP; DIP-34530N; -.
+DR   IntAct; Q96GD4; 42.
+DR   MINT; MINT-1413997; -.
+DR   STRING; Q96GD4; -.
+DR   PhosphoSite; Q96GD4; -.
+DR   PRIDE; Q96GD4; -.
+DR   Ensembl; ENST00000316199; ENSP00000313950; ENSG00000178999.
+DR   GeneID; 9212; -.
+DR   KEGG; hsa:9212; -.
+DR   UCSC; uc002gkm.1; human.
+DR   CTD; 9212; -.
+DR   GeneCards; GC17M008108; -.
+DR   H-InvDB; HIX0019005; -.
+DR   HGNC; HGNC:11390; AURKB.
+DR   HPA; CAB005862; -.
+DR   MIM; 604970; gene.
+DR   PharmGKB; PA36199; -.
+DR   eggNOG; prNOG08834; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG108519; -.
+DR   InParanoid; Q96GD4; -.
+DR   OrthoDB; EOG9ZW7WT; -.
+DR   PhylomeDB; Q96GD4; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   Pathway_Interaction_DB; aurora_a_pathway; Aurora A signaling.
+DR   Pathway_Interaction_DB; aurora_b_pathway; Aurora B signaling.
+DR   Pathway_Interaction_DB; aurora_c_pathway; Aurora C signaling.
+DR   Pathway_Interaction_DB; foxm1pathway; FOXM1 transcription factor network.
+DR   Pathway_Interaction_DB; aurora_kinase_pathway; Signaling by Aurora kinases.
+DR   Reactome; REACT_152; Cell Cycle, Mitotic.
+DR   Reactome; REACT_383; DNA Replication.
+DR   NextBio; 34535; -.
+DR   ArrayExpress; Q96GD4; -.
+DR   Bgee; Q96GD4; -.
+DR   CleanEx; HS_AIM1; -.
+DR   CleanEx; HS_AURKB; -.
+DR   Genevestigator; Q96GD4; -.
+DR   GermOnline; ENSG00000178999; Homo sapiens.
+DR   GO; GO:0032133; C:chromosome passenger complex; IPI:UniProtKB.
+DR   GO; GO:0000780; C:condensed nuclear chromosome, centromeric r...; IDA:BHF-UCL.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-KW.
+DR   GO; GO:0005819; C:spindle; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005515; F:protein binding; IPI:UniProtKB.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0007067; P:mitosis; IEA:UniProtKB-KW.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   GO; GO:0034501; P:protein localization to kinetochore; IMP:UniProtKB.
+DR   InterPro; IPR020636; Ca/CaM-dep_prot_kinase-like.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   InterPro; IPR020663; Spindle_assmbl_checkpoint_kin.
+DR   PANTHER; PTHR22982; Ca/CaM-dep_prot_kinase-like; 1.
+DR   PANTHER; PTHR22982:SF49; Spindle_assmbl_checkpoint_kin; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; ATP-binding; Cell cycle; Cell division; Centromere;
+KW   Chromosome; Complete proteome; Cytoplasm; Cytoskeleton; Kinase;
+KW   Magnesium; Metal-binding; Mitosis; Nucleotide-binding; Nucleus;
+KW   Phosphoprotein; Polymorphism; Serine/threonine-protein kinase;
+KW   Transferase; Ubl conjugation.
+FT   INIT_MET      1      1       Removed.
+FT   CHAIN         2    344       Serine/threonine-protein kinase 12.
+FT                                /FTId=PRO_0000085656.
+FT   DOMAIN       77    327       Protein kinase.
+FT   NP_BIND      83     91       ATP (By similarity).
+FT   ACT_SITE    200    200       Proton acceptor (By similarity).
+FT   BINDING     106    106       ATP (By similarity).
+FT   MOD_RES       2      2       N-acetylalanine.
+FT   MOD_RES       7      7       Phosphoserine.
+FT   MOD_RES      12     12       Phosphotyrosine.
+FT   MOD_RES      16     16       Phosphothreonine.
+FT   MOD_RES      35     35       Phosphothreonine.
+FT   MOD_RES      45     45       Phosphoserine.
+FT   MOD_RES      61     61       Phosphoserine.
+FT   MOD_RES      62     62       Phosphoserine.
+FT   MOD_RES      64     64       Phosphothreonine.
+FT   MOD_RES      92     92       Phosphotyrosine.
+FT   MOD_RES     227    227       Phosphoserine.
+FT   MOD_RES     232    232       Phosphothreonine.
+FT   MOD_RES     236    236       Phosphothreonine.
+FT   MOD_RES     313    313       Phosphoserine.
+FT   VARIANT      52     52       A -> V.
+FT                                /FTId=VAR_040383.
+FT   VARIANT     100    100       H -> Q (in dbSNP:rs3027254).
+FT                                /FTId=VAR_027970.
+FT   VARIANT     179    179       T -> M.
+FT                                /FTId=VAR_040384.
+FT   VARIANT     298    298       T -> M (in dbSNP:rs1059476).
+FT                                /FTId=VAR_027971.
+FT   MUTAGEN     106    106       K->R: Loss of kinase activity.
+FT   CONFLICT     14     15       RQ -> DK (in Ref. 5; AAC98891).
+FT   CONFLICT     70     70       R -> RR (in Ref. 7; AAH13300).
+FT   CONFLICT    161    161       E -> M (in Ref. 4 and 5).
+FT   CONFLICT    167    169       QKS -> HKT (in Ref. 4; AAB65786).
+FT   CONFLICT    179    179       T -> TVRR (in Ref. 4; AAB65786).
+FT   CONFLICT    180    180       I -> VRAV (in Ref. 5).
+FT   CONFLICT    226    226       P -> T (in Ref. 3; BAA82709).
+FT   CONFLICT    249    250       MH -> ID (in Ref. 3; BAA82709).
+FT   CONFLICT    271    271       Missing (in Ref. 3; BAA82709).
+SQ   SEQUENCE   344 AA;  39280 MW;  8325E3EF5A1FB170 CRC64;
+     MAQKENSYPW PYGRQTAPSG LSTLPQRVLR KEPVTPSALV LMSRSNVQPT AAPGQKVMEN
+     SSGTPDILTR HFTIDDFEIG RPLGKGKFGN VYLAREKKSH FIVALKVLFK SQIEKEGVEH
+     QLRREIEIQA HLHHPNILRL YNYFYDRRRI YLILEYAPRG ELYKELQKSC TFDEQRTATI
+     MEELADALMY CHGKKVIHRD IKPENLLLGL KGELKIADFG WSVHAPSLRR KTMCGTLDYL
+     PPEMIEGRMH NEKVDLWCIG VLCYELLVGN PPFESASHNE TYRRIVKVDL KFPASVPTGA
+     QDLISKLLRH NPSERLPLAQ VSAHPWVRAN SRRVLPPSAL QSVA
+//

@@ -1,0 +1,199 @@
+UI: Initial number of sequences: 131
+UI: Initial number of positions: 435
+UI: Number of outliers: 0
+UI: Final number of sequences after removing outliers: 131
+UI: Final number of positions after removing gappy columns: 242
+II: Final number of columns in the disjunctive matrix: 2626
+UI: Number of axes selected: 3
+UI: Percentage of initial variance considered informative: 7.75132 %
+UI: Checking a maximum number of groups equal to: 33
+UI: Stable cluster results have been found
+SC: YES
+UI: Number of groups selected: 4
+II: Clustering index value: CH_Index = 125.571
+II: F-Fisher: 304.018
+II: Best solution found 102 times out of 1310 iterations searching for 4 groups
+UI: Number of groups with less than 3 sequences: 0
+Is there enough group diversity to perform the analysis?:
+GD: YES
+
+Clustering of sequences: 
+CL: MAP2K2_Mmus/1-299	0
+CL: MAP2K2_Hsap/1-298	0
+CL: MAP2K1_Hsap/1-294	0
+CL: SSK2_Scer/1-293	3
+CL: mek-2_Cele/1-288	0
+CL: Y59A8B.23_Cele/1-279	2
+CL: Dsor1_Dmel/1-278	0
+CL: 11359_Tthe/1-278	3
+CL: STE7_Scer/1-276	0
+CL: STLK3_Hsap/1-275	2
+CL: OSR1_Hsap/1-275	2
+CL: MAP3K7_Hsap/1-270	3
+CL: MKK2_Scer/1-268	0
+CL: MKK1_Scer/1-268	0
+CL: mig-15_Cele/1-268	2
+CL: ZC449.6_Cele/1-267	0
+CL: ninaC_Dmel/1-267	2
+CL: MYO3B_Hsap/1-267	2
+CL: MYO3A_Hsap/1-267	2
+CL: Mkk4_Dmel/1-266	0
+CL: MAP2K4_Hsap/1-266	0
+CL: MKK4_Spur/1-266	0
+CL: MAP3K1_Hsap/1-266	3
+CL: MEKK1_Spur/1-266	3
+CL: BCK1_Scer/1-266	3
+CL: mkk-4_Cele/1-265	0
+CL: msn_Dmel/1-265	2
+CL: TNIK_Hsap/1-265	2
+CL: MINK_Hsap/1-265	2
+CL: HGK_Hsap/1-265	2
+CL: SSK22_Scer/1-265	3
+CL: 6622_Tthe/1-265	3
+CL: PBS2_Scer/1-264	0
+CL: 18758_Tthe/1-264	3
+CL: MAP3K8_Hsap/1-264	3
+CL: MAP3K8_Mmus/1-264	3
+CL: VZC374L.1_Cele/1-263	0
+CL: MEK3_Spur/1-263	0
+CL: MAP3K5_Hsap/1-262	3
+CL: sek-1_Cele/1-262	0
+CL: lic_Dmel/1-262	0
+CL: MAP2K6_Hsap/1-262	0
+CL: MAP2K3_Hsap/1-262	0
+CL: nsy-1_Cele/1-262	3
+CL: MAP3K6_Hsap/1-262	3
+CL: 1909_Tthe/1-261	0
+CL: MAP2K7_Mmus/1-261	0
+CL: DDB0230012_Ddis/1-261	2
+CL: C04A11.3_Cele/1-261	2
+CL: Mekk1_Dmel/1-261	3
+CL: MAP3K3_Hsap/1-261	3
+CL: MAP3K2_Hsap/1-261	3
+CL: MEKK15_Spur/1-261	3
+CL: hep_Dmel/1-260	0
+CL: DDB0229911_Ddis/1-260	2
+CL: kin-18_Cele/1-260	2
+CL: MEKKalpha_Ddis/1-260	3
+CL: DDB0230010_Ddis/1-259	2
+CL: CG4527_Dmel/1-259	2
+CL: SLK_Hsap/1-259	2
+CL: LOK_Hsap/1-259	2
+CL: ZC404.9_Cele/1-259	2
+CL: MAP3K4_Hsap/1-259	3
+CL: Pk92B_Dmel/1-259	3
+CL: MEKK2_Spur/1-259	3
+CL: KHS2_Hsap/1-258	2
+CL: HPK1_Hsap/1-258	2
+CL: GCK_Hsap/1-258	2
+CL: KHS_Spur/1-258	2
+CL: CG7097_Dmel/1-258	2
+CL: KHS1_Hsap/1-258	2
+CL: DDB0216374_Ddis/1-258	2
+CL: 4322_Tthe/1-258	3
+CL: 26687_Tthe/1-257	0
+CL: DDB0216378_Ddis/1-257	2
+CL: 15684_Tthe/1-256	3
+CL: jkk-1_Cele/1-255	0
+CL: PakC_Ddis/1-255	1
+CL: SPS1_Scer/1-255	2
+CL: mek-1_Cele/1-254	0
+CL: MAP2K5_Hsap/1-244	0
+CL: 25909_Tthe/1-254	2
+CL: PakA_Ddis/1-254	1
+CL: TAOK_Spur/1-254	2
+CL: CG14217_Dmel/1-254	2
+CL: TAO3_Hsap/1-254	2
+CL: TAO1_Hsap/1-254	2
+CL: TAO2_Hsap/1-254	2
+CL: KIC1_Scer/1-254	2
+CL: PakE_Ddis/1-254	2
+CL: Krs1_Ddis/1-254	2
+CL: 19075_Tthe/1-253	2
+CL: Pak3_Dmel/1-253	1
+CL: PakH_Ddis/1-253	2
+CL: PakF_Ddis/1-253	2
+CL: 1462_Tthe/1-253	2
+CL: DDB0216377_Ddis/1-253	2
+CL: MkcA_Ddis/1-252	2
+CL: Y38F1A.10_Cele/1-252	1
+CL: STE20_Scer/1-252	1
+CL: pak-1_Cele/1-252	1
+CL: Pak_Dmel/1-252	1
+CL: PAK1_Spur/1-252	1
+CL: PAK2_Hsap/1-252	1
+CL: PAK1_Hsap/1-252	1
+CL: C45B11.1_Cele/1-252	1
+CL: PAK6_Hsap/1-252	1
+CL: mbt_Dmel/1-252	1
+CL: PAK5_Hsap/1-252	1
+CL: PAK4_Hsap/1-252	1
+CL: gck-1_Cele/1-252	2
+CL: F14H12.4_Cele/1-252	2
+CL: CG11228_Dmel/1-252	2
+CL: MST_Spur/1-252	2
+CL: MST1_Hsap/1-252	2
+CL: SvkA_Ddis/1-251	2
+CL: CG5169_Dmel/1-251	2
+CL: MST4_Hsap/1-251	2
+CL: MST3_Hsap/1-251	2
+CL: YSK1_Hsap/1-251	2
+CL: 29596_Tthe/1-251	2
+CL: DDB0216375_Ddis/1-251	2
+CL: MkcB_Ddis/1-250	2
+CL: 5838_Tthe/1-250	2
+CL: MkcC_Ddis/1-249	1
+CL: PakB_Ddis/1-249	1
+CL: CDC15_Scer/1-248	2
+CL: FRAY_Spur/1-247	2
+CL: MkcF_Ddis/1-246	3
+CL: PakG_Ddis/1-246	2
+CL: 17909_Tthe/1-245	2
+
+Are there any position predicted as being important for the whole family?: 
+PR: YES
+Positions predicted: 
+RE: 296 1 2
+RE: 297 2.5 2
+RE: 84 5 2
+
+UI: Number of positions predicted to be important for the group segregation: 3
+
+Are there any conserved position at 90 % of identity?: 
+CN: YES
+Conserved positions: 
+CP: 11
+CP: 13
+CP: 16
+CP: 18
+CP: 34
+CP: 36
+CP: 66
+CP: 111
+CP: 151
+CP: 168
+CP: 176
+CP: 177
+CP: 178
+CP: 180
+CP: 183
+CP: 185
+CP: 193
+CP: 197
+CP: 200
+CP: 201
+CP: 202
+CP: 261
+CP: 266
+CP: 268
+CP: 269
+CP: 290
+CP: 292
+CP: 293
+CP: 295
+CP: 300
+CP: 307
+CP: 422
+CP: 428
+
+UI: Number of conserved positions (at 90 % of identity): 33

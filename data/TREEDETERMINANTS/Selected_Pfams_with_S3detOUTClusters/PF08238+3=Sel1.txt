@@ -1,0 +1,89 @@
+UI: Initial number of sequences: 54
+UI: Initial number of positions: 53
+UI: Number of outliers: 0
+UI: Final number of sequences after removing outliers: 54
+UI: Final number of positions after removing gappy columns: 33
+II: Final number of columns in the disjunctive matrix: 357
+UI: Number of axes selected: 3
+UI: Percentage of initial variance considered informative: 20.1053 %
+UI: Checking a maximum number of groups equal to: 14
+UI: Stable cluster results have been found
+SC: YES
+UI: Number of groups selected: 2
+II: Clustering index value: CH_Index = 34.946
+II: F-Fisher: 20.9375
+II: Best solution found 188 times out of 540 iterations searching for 2 groups
+UI: Number of groups with less than 3 sequences: 0
+Is there enough group diversity to perform the analysis?:
+GD: YES
+
+Clustering of sequences: 
+CL: Q05787+1=HRD3_YEAST/552-595	0
+CL: P39000+1=YES6_YEAST/390-429	0
+CL: O08796+1=EF2K_MOUSE/661-700	1
+CL: P34226+1=SKT5_YEAST/343-382	0
+CL: O00418+1=EF2K_HUMAN/663-701	1
+CL: P34226+1=SKT5_YEAST/461-498	0
+CL: Q07622+1=ACK1_YEAST/535-572	0
+CL: P60924+1=K0141_RAT/314-351	1
+CL: Q14154+3=K0141_HUMAN/313-350	1
+CL: O59732+1=CHR1_SCHPO/365-402	0
+CL: Q9DCV6+1=K0141_MOUSE/314-351	1
+CL: P34226+1=SKT5_YEAST/386-423	0
+CL: O94486+1=CHR2_SCHPO/415-452	0
+CL: P39000+1=YES6_YEAST/433-470	0
+CL: Q09897+1=CHR3_SCHPO/826-863	0
+CL: O94486+1=CHR2_SCHPO/224-260	0
+CL: Q6DFB8+1=K0372_XENLA/454-490	0
+CL: O94614+4=CHR4_SCHPO/438-474	0
+CL: Q9UBV2+3=SEL1L_HUMAN/373-409	0
+CL: O94614+4=CHR4_SCHPO/475-511	0
+CL: Q09897+1=CHR3_SCHPO/638-674	0
+CL: Q07622+1=ACK1_YEAST/495-531	0
+CL: Q07622+1=ACK1_YEAST/408-444	0
+CL: Q09897+1=CHR3_SCHPO/789-825	0
+CL: Q6PGP7+1=K0372_HUMAN/454-490	0
+CL: P60924+1=K0141_RAT/278-313	0
+CL: Q9UBV2+3=SEL1L_HUMAN/483-518	0
+CL: P34226+1=SKT5_YEAST/271-306	0
+CL: Q9DCV6+1=K0141_MOUSE/386-421	0
+CL: Q9Z2G6+2=SEL1L_MOUSE/179-214	0
+CL: Q9UBV2+3=SEL1L_HUMAN/447-482	0
+CL: Q80Z70+2=SEL1L_RAT/183-218	0
+CL: P39000+1=YES6_YEAST/318-353	0
+CL: Q9UBV2+3=SEL1L_HUMAN/664-699	0
+CL: Q9UBV2+3=SEL1L_HUMAN/219-254	0
+CL: Q14154+3=K0141_HUMAN/277-312	0
+CL: Q9UBV2+3=SEL1L_HUMAN/183-218	0
+CL: Q9Z2G6+2=SEL1L_MOUSE/215-250	0
+CL: Q05787+1=HRD3_YEAST/628-663	0
+CL: P87159+1=NIF1_SCHPO/583-618	0
+CL: Q09897+1=CHR3_SCHPO/864-899	0
+CL: Q14154+3=K0141_HUMAN/385-420	0
+CL: P34226+1=SKT5_YEAST/307-342	0
+CL: P60924+1=K0141_RAT/386-421	0
+CL: Q07622+1=ACK1_YEAST/576-611	0
+CL: P39000+1=YES6_YEAST/354-389	0
+CL: Q9DCV6+1=K0141_MOUSE/352-385	1
+CL: P60924+1=K0141_RAT/352-385	1
+CL: Q14154+3=K0141_HUMAN/351-384	1
+CL: O01991+1=EF2K_CAEEL/715-748	1
+CL: Q6PGP7+1=K0372_HUMAN/493-525	1
+CL: Q6DFB8+1=K0372_XENLA/493-525	1
+CL: P60924+1=K0141_RAT/246-277	1
+CL: Q14154+3=K0141_HUMAN/245-276	1
+
+Are there any position predicted as being important for the whole family?: 
+PR: YES
+Positions predicted: 
+RE: 53 2 2
+RE: 18 2.5 2
+RE: 38 4 2
+RE: 19 8 2
+RE: 37 9.5 2
+
+UI: Number of positions predicted to be important for the group segregation: 5
+
+Are there any conserved position at 90 % of identity?: 
+CN: NO
+UI: There are no conserved positions at 90 % of identity

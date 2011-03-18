@@ -1,0 +1,396 @@
+ID   CDK7_HUMAN              Reviewed;         346 AA.
+AC   P50613; Q9BS60; Q9UE19;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1996, sequence version 1.
+DT   05-OCT-2010, entry version 129.
+DE   RecName: Full=Cell division protein kinase 7;
+DE            EC=2.7.11.22;
+DE            EC=2.7.11.23;
+DE   AltName: Full=39 kDa protein kinase;
+DE   AltName: Full=CAK1;
+DE   AltName: Full=CDK-activating kinase;
+DE            Short=CAK;
+DE   AltName: Full=STK1;
+DE   AltName: Full=TFIIH basal transcription factor complex kinase subunit;
+DE   AltName: Full=p39 Mo15;
+GN   Name=CDK7; Synonyms=MO15;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Placenta;
+RX   MEDLINE=95014737; PubMed=7929589; DOI=10.1083/jcb.127.2.467;
+RA   Tassan J.-P., Schultz S.J., Bartek J., Nigg E.A.;
+RT   "Cell cycle analysis of the activity, subcellular localization, and
+RT   subunit composition of human CAK (CDK-activating kinase).";
+RL   J. Cell Biol. 127:467-478(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Mammary gland;
+RX   MEDLINE=94268838; PubMed=8208544;
+RA   Levedakou E.N., He M., Baptist E.W., Craven R.J., Cance W.G.,
+RA   Welcsh P.L., Simmons A., Naylor S.L., Leach R.J., Lewis T.B.,
+RA   Bowcock A., Liu E.T.;
+RT   "Two novel human serine/threonine kinases with homologies to the cell
+RT   cycle regulating Xenopus MO15, and NIMA kinases: cloning and
+RT   characterization of their expression pattern.";
+RL   Oncogene 9:1977-1988(1994).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   MEDLINE=95022621; PubMed=7936635;
+RA   Darbon J.-M., Devault A., Taviaux S., Fesquet D., Martinez A.-M.,
+RA   Galas S., Cavadore J.-C., Doree M., Blanchard J.-M.;
+RT   "Cloning, expression and subcellular localization of the human homolog
+RT   of p40MO15 catalytic subunit of cdk-activating kinase.";
+RL   Oncogene 9:3127-3138(1994).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Fibroblast;
+RX   MEDLINE=94268852; PubMed=8208556;
+RA   Wu L., Yee A., Liu L., Carbonaro-Hall D., Venkatesan N., Tolo T.,
+RA   Hall F.L.;
+RT   "Molecular cloning of the human CAK1 gene encoding a cyclin-dependent
+RT   kinase-activating kinase.";
+RL   Oncogene 9:2089-2096(1994).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Lung, and Thymus;
+RA   Kobelt D., Karn T., Hock B., Holtrich U., Braeuninger A., Wolf G.,
+RA   Strebhardt K., Ruebsamen-Waigmann H.;
+RT   "Human and Xenopus MO15 mRNA are highly conserved but show different
+RT   patterns of expression in adult tissues.";
+RL   Oncol. Rep. 1:1269-1275(1994).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND VARIANTS ALA-163 AND MET-285.
+RG   NIEHS SNPs program;
+RL   Submitted (JUL-2002) to the EMBL/GenBank/DDBJ databases.
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Cervix, and Urinary bladder;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [8]
+RP   MUTAGENESIS OF THR-170.
+RX   MEDLINE=94349374; PubMed=8069918; DOI=10.1016/0092-8674(94)90535-5;
+RA   Fisher R.P., Morgan D.O.;
+RT   "A novel cyclin associates with MO15/CDK7 to form the CDK-activating
+RT   kinase.";
+RL   Cell 78:713-724(1994).
+RN   [9]
+RP   PHOSPHORYLATION AT SER-164 AND THR-170, AND MUTAGENESIS OF SER-164 AND
+RP   THR-170.
+RX   MEDLINE=99051317; PubMed=9832506;
+RA   Akoulitchev S., Reinberg D.;
+RT   "The molecular mechanism of mitotic inhibition of TFIIH is mediated by
+RT   phosphorylation of CDK7.";
+RL   Genes Dev. 12:3541-3550(1998).
+RN   [10]
+RP   IDENTIFICATION IN THE TFIIH BASAL TRANSCRIPTION FACTOR.
+RX   PubMed=9852112; DOI=10.1074/jbc.273.51.34444;
+RA   Kershnar E., Wu S.-Y., Chiang C.-M.;
+RT   "Immunoaffinity purification and functional characterization of human
+RT   transcription factor IIH and RNA polymerase II from clonal cell lines
+RT   that conditionally express epitope-tagged subunits of the multiprotein
+RT   complexes.";
+RL   J. Biol. Chem. 273:34444-34453(1998).
+RN   [11]
+RP   FUNCTION.
+RX   MEDLINE=99149021; PubMed=10024882; DOI=10.1016/S1097-2765(00)80177-X;
+RA   Tirode F., Busso D., Coin F., Egly J.-M.;
+RT   "Reconstitution of the transcription factor TFIIH: assignment of
+RT   functions for the three enzymatic subunits, XPB, XPD, and cdk7.";
+RL   Mol. Cell 3:87-95(1999).
+RN   [12]
+RP   INTERACTION WITH PUF60.
+RX   MEDLINE=20337922; PubMed=10882074; DOI=10.1016/S1097-2765(00)80428-1;
+RA   Liu J., He L., Collins I., Ge H., Libutti D., Li J., Egly J.-M.,
+RA   Levens D.;
+RT   "The FBP interacting repressor targets TFIIH to inhibit activated
+RT   transcription.";
+RL   Mol. Cell 5:331-341(2000).
+RN   [13]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-164 AND THR-170, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=17192257; DOI=10.1074/mcp.T600062-MCP200;
+RA   Wissing J., Jaensch L., Nimtz M., Dieterich G., Hornberger R.,
+RA   Keri G., Wehland J., Daub H.;
+RT   "Proteomics analysis of protein kinases by target class-selective
+RT   prefractionation and tandem mass spectrometry.";
+RL   Mol. Cell. Proteomics 6:537-547(2007).
+RN   [14]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-170, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18220336; DOI=10.1021/pr0705441;
+RA   Cantin G.T., Yi W., Lu B., Park S.K., Xu T., Lee J.-D.,
+RA   Yates J.R. III;
+RT   "Combining protein-based IMAC, peptide-based IMAC, and MudPIT for
+RT   efficient phosphoproteomic analysis.";
+RL   J. Proteome Res. 7:1346-1351(2008).
+RN   [15]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-7; SER-164; THR-170;
+RP   THR-287 AND SER-321, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [16]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-164 AND THR-170, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [17]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RA   Colinge J., Superti-Furga G., Bennett K.L.;
+RL   Submitted (OCT-2008) to UniProtKB.
+RN   [18]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-169 AND THR-170, AND
+RP   MASS SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [19]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-170, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=19690332; DOI=10.1126/scisignal.2000007;
+RA   Mayya V., Lundgren D.H., Hwang S.-I., Rezaul K., Wu L., Eng J.K.,
+RA   Rodionov V., Han D.K.;
+RT   "Quantitative phosphoproteomic analysis of T cell receptor signaling
+RT   reveals system-wide modulation of protein-protein interactions.";
+RL   Sci. Signal. 2:RA46-RA46(2009).
+RN   [20]
+RP   X-RAY CRYSTALLOGRAPHY (3.02 ANGSTROMS) IN COMPLEX WITH ATP, ACTIVE
+RP   SITE, AND PHOSPHORYLATION AT THR-170.
+RX   PubMed=15530371; DOI=10.1016/j.str.2004.08.013;
+RA   Lolli G., Lowe E.D., Brown N.R., Johnson L.N.;
+RT   "The crystal structure of human CDK7 and its protein recognition
+RT   properties.";
+RL   Structure 12:2067-2079(2004).
+RN   [21]
+RP   VARIANT [LARGE SCALE ANALYSIS] MET-285.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Cyclin-dependent kinases (CDKs) are activated by the
+CC       binding to a cyclin and mediate the progression through the cell
+CC       cycle. Each different complex controls a specific transition
+CC       between two subsequent phases in the cell cycle. CDK7 is the
+CC       catalytic subunit of the CDK-activating kinase (CAK) complex, a
+CC       serine-threonine kinase. CAK activates the cyclin-associated
+CC       kinases CDK1, CDK2, CDK4 and CDK6 by threonine phosphorylation.
+CC       CAK complexed to the core-TFIIH basal transcription factor
+CC       activates RNA polymerase II by serine phosphorylation of the
+CC       repetitive C-terminus domain (CTD) of its large subunit (POLR2A),
+CC       allowing its escape from the promoter and elongation of the
+CC       transcripts. Involved in cell cycle control and in RNA
+CC       transcription by RNA polymerase II. Its expression and activity
+CC       are constant throughout the cell cycle.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- CATALYTIC ACTIVITY: ATP + [DNA-directed RNA polymerase] = ADP +
+CC       [DNA-directed RNA polymerase] phosphate.
+CC   -!- ENZYME REGULATION: Inactivated by phosphorylation.
+CC   -!- SUBUNIT: Associates primarily with cyclin H and MAT1 to form the
+CC       CAK complex. CAK can further associate with the core-TFIIH to form
+CC       the TFIIH basal transcription factor. Interacts with PUF60.
+CC   -!- SUBCELLULAR LOCATION: Nucleus.
+CC   -!- TISSUE SPECIFICITY: Ubiquitous.
+CC   -!- PTM: Phosphorylation of Ser-164 during mitosis inactivates the
+CC       enzyme.
+CC   -!- PTM: Phosphorylation of Thr-170 is required for activity.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CMGC
+CC       Ser/Thr protein kinase family. CDC2/CDKX subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- WEB RESOURCE: Name=NIEHS-SNPs;
+CC       URL="http://egp.gs.washington.edu/data/cdk7/";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X79193; CAA55785.1; -; mRNA.
+DR   EMBL; L20320; AAA36657.1; -; mRNA.
+DR   EMBL; X77743; CAA54793.1; -; mRNA.
+DR   EMBL; X77303; CAA54508.1; -; mRNA.
+DR   EMBL; Y13120; CAA73587.1; -; mRNA.
+DR   EMBL; AY130859; AAM77799.1; -; Genomic_DNA.
+DR   EMBL; BC000834; AAH00834.1; -; mRNA.
+DR   EMBL; BC005298; AAH05298.1; -; mRNA.
+DR   IPI; IPI00000685; -.
+DR   PIR; A54820; A54820.
+DR   PIR; I37215; I37215.
+DR   RefSeq; NP_001790.1; -.
+DR   UniGene; Hs.184298; -.
+DR   PDB; 1LG3; Model; -; A=1-307.
+DR   PDB; 1PA8; Model; -; A=181-346.
+DR   PDB; 1UA2; X-ray; 3.02 A; A/B/C/D=1-346.
+DR   PDB; 2HIC; Model; -; B=13-311.
+DR   PDBsum; 1LG3; -.
+DR   PDBsum; 1PA8; -.
+DR   PDBsum; 1UA2; -.
+DR   PDBsum; 2HIC; -.
+DR   ProteinModelPortal; P50613; -.
+DR   DIP; DIP-5995N; -.
+DR   IntAct; P50613; 17.
+DR   STRING; P50613; -.
+DR   PhosphoSite; P50613; -.
+DR   PeptideAtlas; P50613; -.
+DR   PRIDE; P50613; -.
+DR   Ensembl; ENST00000256443; ENSP00000256443; ENSG00000134058.
+DR   GeneID; 1022; -.
+DR   KEGG; hsa:1022; -.
+DR   NMPDR; fig|9606.3.peg.25336; -.
+DR   UCSC; uc003jvs.2; human.
+DR   CTD; 1022; -.
+DR   GeneCards; GC05P068530; -.
+DR   HGNC; HGNC:1778; CDK7.
+DR   HPA; CAB004364; -.
+DR   HPA; HPA007932; -.
+DR   MIM; 601955; gene.
+DR   PharmGKB; PA26314; -.
+DR   eggNOG; prNOG09228; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG014652; -.
+DR   InParanoid; P50613; -.
+DR   OMA; FMDTDLE; -.
+DR   OrthoDB; EOG980MGK; -.
+DR   PhylomeDB; P50613; -.
+DR   BRENDA; 2.7.11.22; 247.
+DR   BRENDA; 2.7.11.23; 247.
+DR   Pathway_Interaction_DB; retinoic_acid_pathway; Retinoic acid receptors-mediated signaling.
+DR   Reactome; REACT_152; Cell Cycle, Mitotic.
+DR   Reactome; REACT_1675; mRNA Processing.
+DR   Reactome; REACT_1788; Transcription.
+DR   Reactome; REACT_216; DNA Repair.
+DR   Reactome; REACT_6185; HIV Infection.
+DR   Reactome; REACT_71; Gene Expression.
+DR   BindingDB; P50613; -.
+DR   NextBio; 4295; -.
+DR   ArrayExpress; P50613; -.
+DR   Bgee; P50613; -.
+DR   CleanEx; HS_CDK7; -.
+DR   Genevestigator; P50613; -.
+DR   GermOnline; ENSG00000134058; Homo sapiens.
+DR   GO; GO:0005675; C:holo TFIIH complex; IDA:UniProtKB.
+DR   GO; GO:0005739; C:mitochondrion; IDA:HPA.
+DR   GO; GO:0050681; F:androgen receptor binding; NAS:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004693; F:cyclin-dependent protein kinase activity; TAS:ProtInc.
+DR   GO; GO:0008094; F:DNA-dependent ATPase activity; IDA:UniProtKB.
+DR   GO; GO:0008022; F:protein C-terminus binding; IPI:UniProtKB.
+DR   GO; GO:0008353; F:RNA polymerase II carboxy-terminal domain k...; IDA:UniProtKB.
+DR   GO; GO:0003713; F:transcription coactivator activity; NAS:UniProtKB.
+DR   GO; GO:0030521; P:androgen receptor signaling pathway; NAS:UniProtKB.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0008283; P:cell proliferation; TAS:ProtInc.
+DR   GO; GO:0000718; P:nucleotide-excision repair, DNA damage removal; EXP:Reactome.
+DR   GO; GO:0045944; P:positive regulation of transcription from R...; IDA:UniProtKB.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   GO; GO:0000079; P:regulation of cyclin-dependent protein kina...; TAS:ProtInc.
+DR   GO; GO:0006368; P:RNA elongation from RNA polymerase II promoter; EXP:Reactome.
+DR   GO; GO:0006367; P:transcription initiation from RNA polymeras...; EXP:Reactome.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; ATP-binding; Cell cycle; Cell division;
+KW   Complete proteome; DNA damage; DNA repair; Kinase; Nucleotide-binding;
+KW   Nucleus; Phosphoprotein; Polymorphism;
+KW   Serine/threonine-protein kinase; Transcription;
+KW   Transcription regulation; Transferase.
+FT   CHAIN         1    346       Cell division protein kinase 7.
+FT                                /FTId=PRO_0000085791.
+FT   DOMAIN       12    295       Protein kinase.
+FT   NP_BIND      18     26       ATP.
+FT   ACT_SITE    137    137       Proton acceptor.
+FT   BINDING      41     41       ATP.
+FT   MOD_RES       7      7       Phosphoserine.
+FT   MOD_RES     164    164       Phosphoserine.
+FT   MOD_RES     169    169       Phosphotyrosine.
+FT   MOD_RES     170    170       Phosphothreonine.
+FT   MOD_RES     287    287       Phosphothreonine.
+FT   MOD_RES     321    321       Phosphoserine.
+FT   VARIANT     163    163       G -> A.
+FT                                /FTId=VAR_023118.
+FT   VARIANT     285    285       T -> M (in dbSNP:rs34584424).
+FT                                /FTId=VAR_023119.
+FT   MUTAGEN      41     41       K->A: Total loss of activity.
+FT   MUTAGEN     164    164       S->A: No mitotic repression of
+FT                                transcriptional activity of the
+FT                                reconstituted TFIIH complex.
+FT   MUTAGEN     170    170       T->A: Total loss of activity. Total loss
+FT                                of transcriptional activity of the
+FT                                reconstituted TFIIH complex.
+FT   CONFLICT    130    130       Q -> R (in Ref. 7; AAH05298).
+FT   CONFLICT    249    249       F -> C (in Ref. 5; CAA73587).
+FT   CONFLICT    321    321       S -> A (in Ref. 5; CAA73587).
+FT   STRAND       14     21
+FT   STRAND       24     30
+FT   STRAND       36     42
+FT   HELIX        58     68
+FT   STRAND       77     81
+FT   STRAND       88     92
+FT   STRAND       95     97
+FT   HELIX        98    102
+FT   HELIX       113    130
+FT   HELIX       140    142
+FT   STRAND      143    145
+FT   STRAND      151    153
+FT   HELIX       157    159
+FT   TURN        161    163
+FT   HELIX       181    184
+FT   HELIX       192    208
+FT   HELIX       218    229
+FT   TURN        234    236
+FT   STRAND      237    239
+FT   HELIX       257    260
+FT   HELIX       266    276
+FT   TURN        280    282
+FT   HELIX       286    290
+FT   HELIX       293    295
+FT   STRAND      297    299
+FT   STRAND      304    307
+SQ   SEQUENCE   346 AA;  39038 MW;  0A94BFA7DD416CEB CRC64;
+     MALDVKSRAK RYEKLDFLGE GQFATVYKAR DKNTNQIVAI KKIKLGHRSE AKDGINRTAL
+     REIKLLQELS HPNIIGLLDA FGHKSNISLV FDFMETDLEV IIKDNSLVLT PSHIKAYMLM
+     TLQGLEYLHQ HWILHRDLKP NNLLLDENGV LKLADFGLAK SFGSPNRAYT HQVVTRWYRA
+     PELLFGARMY GVGVDMWAVG CILAELLLRV PFLPGDSDLD QLTRIFETLG TPTEEQWPDM
+     CSLPDYVTFK SFPGIPLHHI FSAAGDDLLD LIQGLFLFNP CARITATQAL KMKYFSNRPG
+     PTPGCQLPRP NCPVETLKEQ SNPALAIKRK RTEALEQGGL PKKLIF
+//

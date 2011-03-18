@@ -1,0 +1,143 @@
+ID   CDKL3_HUMAN             Reviewed;         592 AA.
+AC   Q8IVW4; Q9P114;
+DT   22-NOV-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   02-NOV-2010, entry version 76.
+DE   RecName: Full=Cyclin-dependent kinase-like 3;
+DE            EC=2.7.11.22;
+DE   AltName: Full=Serine/threonine-protein kinase NKIAMRE;
+GN   Name=CDKL3; Synonyms=NKIAMRE;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2).
+RC   TISSUE=Fetal heart;
+RA   Midmer M., Haq R., Zanke B.W.;
+RT   "NKIAMRE a novel kinase deleted in human leukemia.";
+RL   Submitted (FEB-1999) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   VARIANT [LARGE SCALE ANALYSIS] THR-394.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm (By similarity).
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q8IVW4-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q8IVW4-2; Sequence=VSP_016148;
+CC         Note=No experimental confirmation available;
+CC   -!- DOMAIN: The [NKR]KIAxRE motif seems to be a cyclin-binding region.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CMGC
+CC       Ser/Thr protein kinase family. CDC2/CDKX subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF130372; AAF36509.1; -; mRNA.
+DR   EMBL; BC041799; AAH41799.1; -; mRNA.
+DR   IPI; IPI00217158; -.
+DR   IPI; IPI00655579; -.
+DR   RefSeq; NP_001107047.1; -.
+DR   RefSeq; NP_057592.2; -.
+DR   UniGene; Hs.719926; -.
+DR   ProteinModelPortal; Q8IVW4; -.
+DR   SMR; Q8IVW4; 5-289.
+DR   STRING; Q8IVW4; -.
+DR   PRIDE; Q8IVW4; -.
+DR   Ensembl; ENST00000265334; ENSP00000265334; ENSG00000006837.
+DR   GeneID; 51265; -.
+DR   KEGG; hsa:51265; -.
+DR   UCSC; uc003kzf.2; human.
+DR   UCSC; uc003kzg.2; human.
+DR   CTD; 51265; -.
+DR   GeneCards; GC05M133662; -.
+DR   H-InvDB; HIX0005173; -.
+DR   HGNC; HGNC:15483; CDKL3.
+DR   HPA; HPA007446; -.
+DR   HPA; HPA027751; -.
+DR   MIM; 608459; gene.
+DR   PharmGKB; PA26319; -.
+DR   eggNOG; prNOG04437; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG080204; -.
+DR   InParanoid; Q8IVW4; -.
+DR   OMA; PHLQNIF; -.
+DR   OrthoDB; EOG9GJ27J; -.
+DR   PhylomeDB; Q8IVW4; -.
+DR   BRENDA; 2.7.11.22; 247.
+DR   NextBio; 54449; -.
+DR   ArrayExpress; Q8IVW4; -.
+DR   Bgee; Q8IVW4; -.
+DR   Genevestigator; Q8IVW4; -.
+DR   GermOnline; ENSG00000006837; Homo sapiens.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004693; F:cyclin-dependent protein kinase activity; IEA:EC.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; ATP-binding; Complete proteome; Cytoplasm;
+KW   Kinase; Nucleotide-binding; Polymorphism;
+KW   Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    592       Cyclin-dependent kinase-like 3.
+FT                                /FTId=PRO_0000085820.
+FT   DOMAIN        4    286       Protein kinase.
+FT   NP_BIND      10     18       ATP (By similarity).
+FT   MOTIF        44     50       [NKR]KIAxRE.
+FT   ACT_SITE    125    125       Proton acceptor (By similarity).
+FT   BINDING      33     33       ATP (By similarity).
+FT   VAR_SEQ     456    592       Missing (in isoform 2).
+FT                                /FTId=VSP_016148.
+FT   VARIANT     394    394       M -> T (in dbSNP:rs35687772).
+FT                                /FTId=VAR_041991.
+FT   CONFLICT    345    345       K -> E (in Ref. 1; AAF36509).
+SQ   SEQUENCE   592 AA;  67514 MW;  2B1AF08906EB7697 CRC64;
+     MEMYETLGKV GEGSYGTVMK CKHKNTGQIV AIKIFYERPE QSVNKIAMRE IKFLKQFHHE
+     NLVNLIEVFR QKKKIHLVFE FIDHTVLDEL QHYCHGLESK RLRKYLFQIL RAIDYLHSNN
+     IIHRDIKPEN ILVSQSGITK LCDFGFARTL AAPGDIYTDY VATRWYRAPE LVLKDTSYGK
+     PVDIWALGCM IIEMATGNPY LPSSSDLDLL HKIVLKVGNL SPHLQNIFSK SPIFAGVVLP
+     QVQHPKNARK KYPKLNGLLA DIVHACLQID PADRISSSDL LHHEYFTRDG FIEKFMPELK
+     AKLLQEAKVN SLIKPKESSK ENELRKDERK TVYTNTLLSS SVLGKEIEKE KKPKEIKVRV
+     IKVKGGRGDI SEPKKKEYEG GLGQQDANEN VHPMSPDTKL VTIEPPNPIN PSTNCNGLKE
+     NPHCGGSVTM PPINLTNSNL MAANLSSNLF HPSVRLTERA KKRRTSSQSI GQVMPNSRQE
+     DPGPIQSQME KGIFNERTGH SDQMANENKR KLNFSRSDRK EFHFPELPVT IQSKDTKGME
+     VKQIKMLKRE SKKTESSKIP TLLNVDQNQE KQEGGDGHCE GKNLKRNRFF FW
+//

@@ -1,0 +1,111 @@
+UI: Initial number of sequences: 41
+UI: Initial number of positions: 319
+UI: Number of outliers: 0
+UI: Final number of sequences after removing outliers: 41
+UI: Final number of positions after removing gappy columns: 220
+II: Final number of columns in the disjunctive matrix: 1453
+UI: Number of axes selected: 2
+UI: Percentage of initial variance considered informative: 16.23 %
+UI: Checking a maximum number of groups equal to: 11
+UI: Stable cluster results have been found
+SC: YES
+UI: Number of groups selected: 3
+II: Clustering index value: CH_Index = 105.449
+II: F-Fisher: 431.045
+II: Best solution found 434 times out of 500 iterations searching for 3 groups
+UI: Number of groups with less than 3 sequences: 0
+Is there enough group diversity to perform the analysis?:
+GD: YES
+
+Clustering of sequences: 
+CL: VRK3_Hsap/1-295	2
+CL: CG9962_Dmel/1-283	1
+CL: gish_Dmel/1-283	1
+CL: C03C10.1_Cele/1-283	1
+CL: CG7094_Dmel/1-279	1
+CL: CkIalpha_Dmel/1-279	1
+CL: CG2577_Dmel/1-274	1
+CL: VRK1_Hsap/1-267	2
+CL: VRK1_Mmus/1-267	2
+CL: dco_Dmel/1-265	1
+CL: CK1g1_Hsap/1-264	1
+CL: BcDNA:LD0_Dmel/1-264	2
+CL: VRK2_Hsap/1-264	2
+CL: VRK2_Mmus/1-264	2
+CL: CK1g2_Hsap/1-263	1
+CL: YCK1_Scer/1-261	1
+CL: YCK2_Scer/1-261	1
+CL: CK1_Ddis/1-261	1
+CL: CK1a2_Hsap/1-261	1
+CL: CK1a_Mmus/1-261	1
+CL: CK1e_Hsap/1-261	1
+CL: HRR25_Scer/1-259	1
+CL: CG12147_Dmel/1-258	1
+CL: TTBK1_Hsap/1-256	0
+CL: TTBK2_Hsap/1-256	0
+CL: R90.1_Cele/1-255	0
+CL: Y106G6E.6_Cele/1-255	1
+CL: CG11533_Dmel/1-254	0
+CL: DDB0216336_Ddis/1-253	0
+CL: F28B12.3_Cele/1-253	2
+CL: 8793_Tthe/1-247	1
+CL: F46F2.2_Cele/1-245	1
+CL: 5508_Tthe/1-241	1
+CL: 29795_Tthe/1-237	1
+CL: 26759_Tthe/1-233	1
+CL: 3738_Tthe/1-229	1
+CL: CK1a1_Spur/1-228	1
+CL: CK1d_Spur/1-228	1
+CL: CK1a2_Spur/1-225	1
+CL: 18951_Tthe/1-221	1
+CL: TTBK_Spur/1-215	0
+
+Are there any position predicted as being important for the whole family?: 
+PR: YES
+Positions predicted: 
+RE: 152 1 2
+RE: 82 1.5 2
+RE: 220 2 2
+RE: 201 2 2
+RE: 196 2.66667 3
+RE: 58 3.5 2
+RE: 229 3.5 2
+RE: 223 3.5 2
+RE: 214 3.5 2
+RE: 36 4.5 2
+RE: 202 4.5 2
+RE: 132 5 2
+
+UI: Number of positions predicted to be important for the group segregation: 12
+
+Are there any conserved position at 90 % of identity?: 
+CN: YES
+Conserved positions: 
+CP: 8
+CP: 10
+CP: 12
+CP: 13
+CP: 38
+CP: 40
+CP: 51
+CP: 54
+CP: 106
+CP: 109
+CP: 141
+CP: 149
+CP: 151
+CP: 154
+CP: 172
+CP: 174
+CP: 175
+CP: 198
+CP: 199
+CP: 204
+CP: 208
+CP: 215
+CP: 218
+CP: 234
+CP: 235
+CP: 236
+
+UI: Number of conserved positions (at 90 % of identity): 26

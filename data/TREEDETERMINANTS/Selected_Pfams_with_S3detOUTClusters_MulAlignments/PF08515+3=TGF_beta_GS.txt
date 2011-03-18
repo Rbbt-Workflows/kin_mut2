@@ -1,0 +1,13 @@
+P80203+2=ACVL1_RAT/173-201                                                      SMLGDFLVSDCTTGSGSGLPFLVQRTVAR
+O00238+1=BMR1B_HUMAN/174-202                                                    ESLRDLIEQSQSSGSGSGLPLLVQRTIAK
+P36894+2=BMR1A_HUMAN/204-232                                                    ESLKDLIDQSQSSGSGSGLPLLVQRTIAK
+P37172+2=ACVR1_MOUSE/178-206                                                    STLAELLDHSCTSGSGSGLPFLVQRTVAR
+P36897+1=TGFR1_HUMAN/175-203                                                    TTLKDLIYDMTTSGSGSGLPLLVQRTIAR
+P70539+1=ACV1C_RAT/165-193                                                      KTLKDLIYDATASGSGSGPPLLVQRTIAR
+P36896+1=ACV1B_HUMAN/177-205                                                    KTLQDLVYDLSTSGSGSGLPLFVQRTVAR
+P37023+2=ACVL1_HUMAN/172-200                                                    SMLGDLLDSDCTTGSGSGLPFLVQRTVAR
+Q04771+1=ACVR1_HUMAN/178-206                                                    STLADLLDHSCTSGSGSGLPFLVQRTVAR
+Q61288+1=ACVL1_MOUSE/171-199                                                    SMLGDFLDSDCTTGSGSGLPFLVQRTVAR
+Q8NER5+1=ACV1C_HUMAN/165-193                                                    KTLKDLIYDVTASGSGSGLPLLVQRTIAR
+P20792+1=DAF1_CAEEL/265-291                                                     KDMLDVLEE--TSGSGMGPTTLHKLTIGG
+Q09488+1=SMA6_CAEEL/238-263                                                     MESKSMLED---SGSGSGQAALIQRTVRQ

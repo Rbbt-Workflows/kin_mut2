@@ -1,0 +1,219 @@
+ID   RPKL1_HUMAN             Reviewed;         549 AA.
+AC   Q9Y6S9; A6NGM9; Q69YT9; Q6ZMQ6; Q96NR9; Q9BSU9;
+DT   18-APR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1999, sequence version 1.
+DT   02-NOV-2010, entry version 75.
+DE   RecName: Full=Ribosomal protein S6 kinase-like 1;
+DE            EC=2.7.11.1;
+GN   Name=RPS6KL1;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 4).
+RC   TISSUE=Cerebellum;
+RX   PubMed=14702039; DOI=10.1038/ng1285;
+RA   Ota T., Suzuki Y., Nishikawa T., Otsuki T., Sugiyama T., Irie R.,
+RA   Wakamatsu A., Hayashi K., Sato H., Nagai K., Kimura K., Makita H.,
+RA   Sekine M., Obayashi M., Nishi T., Shibahara T., Tanaka T., Ishii S.,
+RA   Yamamoto J., Saito K., Kawai Y., Isono Y., Nakamura Y., Nagahari K.,
+RA   Murakami K., Yasuda T., Iwayanagi T., Wagatsuma M., Shiratori A.,
+RA   Sudo H., Hosoiri T., Kaku Y., Kodaira H., Kondo H., Sugawara M.,
+RA   Takahashi M., Kanda K., Yokoi T., Furuya T., Kikkawa E., Omura Y.,
+RA   Abe K., Kamihara K., Katsuta N., Sato K., Tanikawa M., Yamazaki M.,
+RA   Ninomiya K., Ishibashi T., Yamashita H., Murakawa K., Fujimori K.,
+RA   Tanai H., Kimata M., Watanabe M., Hiraoka S., Chiba Y., Ishida S.,
+RA   Ono Y., Takiguchi S., Watanabe S., Yosida M., Hotuta T., Kusano J.,
+RA   Kanehori K., Takahashi-Fujii A., Hara H., Tanase T.-O., Nomura Y.,
+RA   Togiya S., Komai F., Hara R., Takeuchi K., Arita M., Imose N.,
+RA   Musashino K., Yuuki H., Oshima A., Sasaki N., Aotsuka S.,
+RA   Yoshikawa Y., Matsunawa H., Ichihara T., Shiohata N., Sano S.,
+RA   Moriya S., Momiyama H., Satoh N., Takami S., Terashima Y., Suzuki O.,
+RA   Nakagawa S., Senoh A., Mizoguchi H., Goto Y., Shimizu F., Wakebe H.,
+RA   Hishigaki H., Watanabe T., Sugiyama A., Takemoto M., Kawakami B.,
+RA   Yamazaki M., Watanabe K., Kumagai A., Itakura S., Fukuzumi Y.,
+RA   Fujimori Y., Komiyama M., Tashiro H., Tanigami A., Fujiwara T.,
+RA   Ono T., Yamada K., Fujii Y., Ozaki K., Hirao M., Ohmori Y.,
+RA   Kawabata A., Hikiji T., Kobatake N., Inagaki H., Ikema Y., Okamoto S.,
+RA   Okitani R., Kawakami T., Noguchi S., Itoh T., Shigeta K., Senba T.,
+RA   Matsumura K., Nakajima Y., Mizuno T., Morinaga M., Sasaki M.,
+RA   Togashi T., Oyama M., Hata H., Watanabe M., Komatsu T.,
+RA   Mizushima-Sugano J., Satoh T., Shirai Y., Takahashi Y., Nakagawa K.,
+RA   Okumura K., Nagase T., Nomura N., Kikuchi H., Masuho Y., Yamashita R.,
+RA   Nakai K., Yada T., Nakamura Y., Ohara O., Isogai T., Sugano S.;
+RT   "Complete sequencing and characterization of 21,243 full-length human
+RT   cDNAs.";
+RL   Nat. Genet. 36:40-45(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   MEDLINE=22459283; PubMed=12508121; DOI=10.1038/nature01348;
+RA   Heilig R., Eckenberg R., Petit J.-L., Fonknechten N., Da Silva C.,
+RA   Cattolico L., Levy M., Barbe V., De Berardinis V., Ureta-Vidal A.,
+RA   Pelletier E., Vico V., Anthouard V., Rowen L., Madan A., Qin S.,
+RA   Sun H., Du H., Pepin K., Artiguenave F., Robert C., Cruaud C.,
+RA   Bruels T., Jaillon O., Friedlander L., Samson G., Brottier P.,
+RA   Cure S., Segurens B., Aniere F., Samain S., Crespeau H., Abbasi N.,
+RA   Aiach N., Boscus D., Dickhoff R., Dors M., Dubois I., Friedman C.,
+RA   Gouyvenoux M., James R., Madan A., Mairey-Estrada B., Mangenot S.,
+RA   Martins N., Menard M., Oztas S., Ratcliffe A., Shaffer T., Trask B.,
+RA   Vacherie B., Bellemere C., Belser C., Besnard-Gonnet M.,
+RA   Bartol-Mavel D., Boutard M., Briez-Silla S., Combette S.,
+RA   Dufosse-Laurent V., Ferron C., Lechaplais C., Louesse C., Muselet D.,
+RA   Magdelenat G., Pateau E., Petit E., Sirvain-Trukniewicz P., Trybou A.,
+RA   Vega-Czarny N., Bataille E., Bluet E., Bordelais I., Dubois M.,
+RA   Dumont C., Guerin T., Haffray S., Hammadi R., Muanga J., Pellouin V.,
+RA   Robert D., Wunderle E., Gauguet G., Roy A., Sainte-Marthe L.,
+RA   Verdier J., Verdier-Discala C., Hillier L.W., Fulton L., McPherson J.,
+RA   Matsuda F., Wilson R., Scarpelli C., Gyapay G., Wincker P., Saurin W.,
+RA   Quetier F., Waterston R., Hood L., Weissenbach J.;
+RT   "The DNA sequence and analysis of human chromosome 14.";
+RL   Nature 421:601-607(2003).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2).
+RC   TISSUE=Lung;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 507-549.
+RC   TISSUE=Testis;
+RX   PubMed=17974005; DOI=10.1186/1471-2164-8-399;
+RA   Bechtel S., Rosenfelder H., Duda A., Schmidt C.P., Ernst U.,
+RA   Wellenreuther R., Mehrle A., Schuster C., Bahr A., Bloecker H.,
+RA   Heubner D., Hoerlein A., Michel G., Wedler H., Koehrer K.,
+RA   Ottenwaelder B., Poustka A., Wiemann S., Schupp I.;
+RT   "The full-ORF clone resource of the German cDNA consortium.";
+RL   BMC Genomics 8:399-399(2007).
+RN   [5]
+RP   VARIANTS [LARGE SCALE ANALYSIS] GLN-21; LEU-121 AND TRP-332.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=3;
+CC       Name=1;
+CC         IsoId=Q9Y6S9-1; Sequence=Displayed;
+CC         Note=No experimental confirmation available;
+CC       Name=2;
+CC         IsoId=Q9Y6S9-2; Sequence=VSP_036440, VSP_036441;
+CC         Note=No experimental confirmation available;
+CC       Name=4;
+CC         IsoId=Q9Y6S9-4; Sequence=VSP_017931, VSP_017932;
+CC         Note=No experimental confirmation available;
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Ser/Thr
+CC       protein kinase family. S6 kinase subfamily.
+CC   -!- SIMILARITY: Contains 1 MIT domain.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AK054800; BAB70808.1; -; mRNA.
+DR   EMBL; AC006530; AAD30182.1; -; Genomic_DNA.
+DR   EMBL; BC004540; AAH04540.1; -; mRNA.
+DR   EMBL; AL390152; CAH10661.1; -; mRNA.
+DR   IPI; IPI00164583; -.
+DR   IPI; IPI00479160; -.
+DR   IPI; IPI00747638; -.
+DR   RefSeq; NP_113652.1; -.
+DR   UniGene; Hs.414481; -.
+DR   ProteinModelPortal; Q9Y6S9; -.
+DR   SMR; Q9Y6S9; 46-131, 157-547, 384-548.
+DR   Ensembl; ENST00000358328; ENSP00000351086; ENSG00000198208.
+DR   GeneID; 83694; -.
+DR   KEGG; hsa:83694; -.
+DR   UCSC; uc001xqw.1; human.
+DR   UCSC; uc001xqy.1; human.
+DR   CTD; 83694; -.
+DR   GeneCards; GC14M075372; -.
+DR   H-InvDB; HIX0202061; -.
+DR   HGNC; HGNC:20222; RPS6KL1.
+DR   HPA; HPA027451; -.
+DR   HPA; HPA027794; -.
+DR   PharmGKB; PA134868364; -.
+DR   eggNOG; prNOG13205; -.
+DR   HOGENOM; HBG445193; -.
+DR   HOVERGEN; HBG084136; -.
+DR   InParanoid; Q9Y6S9; -.
+DR   OMA; DQAGHIR; -.
+DR   PhylomeDB; Q9Y6S9; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   NextBio; 72663; -.
+DR   ArrayExpress; Q9Y6S9; -.
+DR   Bgee; Q9Y6S9; -.
+DR   CleanEx; HS_RPS6KL1; -.
+DR   Genevestigator; Q9Y6S9; -.
+DR   GermOnline; ENSG00000198208; Homo sapiens.
+DR   GO; GO:0005840; C:ribosome; IEA:UniProtKB-KW.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR007330; MIT.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   Pfam; PF04212; MIT; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00745; MIT; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; FALSE_NEG.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; FALSE_NEG.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; ATP-binding; Complete proteome; Kinase;
+KW   Nucleotide-binding; Polymorphism; Ribonucleoprotein;
+KW   Ribosomal protein; Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    549       Ribosomal protein S6 kinase-like 1.
+FT                                /FTId=PRO_0000232641.
+FT   DOMAIN       87    115       MIT.
+FT   DOMAIN      145    539       Protein kinase.
+FT   NP_BIND     151    159       ATP (By similarity).
+FT   ACT_SITE    412    412       Proton acceptor (By similarity).
+FT   BINDING     177    177       ATP (By similarity).
+FT   VAR_SEQ     131    161       Missing (in isoform 2).
+FT                                /FTId=VSP_036440.
+FT   VAR_SEQ     223    255       GTLWSHLLSQAHSRHSGLSSGSTQERMKAQLNP -> EQAW
+FT                                GPLSAPQAFGVCRQPLKCGALAGRGGSRL (in isoform
+FT                                4).
+FT                                /FTId=VSP_017931.
+FT   VAR_SEQ     256    549       Missing (in isoform 4).
+FT                                /FTId=VSP_017932.
+FT   VAR_SEQ     549    549       G -> GTSLETHLRTLIHWLSGPKPDCPG (in isoform
+FT                                2).
+FT                                /FTId=VSP_036441.
+FT   VARIANT      21     21       R -> Q (in dbSNP:rs7156590).
+FT                                /FTId=VAR_041065.
+FT   VARIANT     121    121       P -> L (in dbSNP:rs2286913).
+FT                                /FTId=VAR_041066.
+FT   VARIANT     332    332       R -> W.
+FT                                /FTId=VAR_041067.
+FT   CONFLICT     64     64       D -> G (in Ref. 1; BAB70808).
+SQ   SEQUENCE   549 AA;  60036 MW;  C5955B004EAC959A CRC64;
+     MSLVACECLP SPGLEPEPCS RARSQAHVYL EQIRNRVALG VPDMTKRDYL VDAATQIRLA
+     LERDVSEDYE AAFNHYQNGV DVLLRGIHVD PNKERREAVK LKITKYLRRA EEIFNCHLQR
+     PLSSGASPSA GFSSLRLRPI RTLSSAVEQL RGCRVVGVIE KVQLVQDPAT GGTFVVKSLP
+     RCHMVSRERL TIIPHGVPYM TKLLRYFVSE DSIFLHLEHV QGGTLWSHLL SQAHSRHSGL
+     SSGSTQERMK AQLNPHLNLL TPARLPSGHA PGQDRIALEP PRTSPNLLLA GEAPSTRPQR
+     EAEGEPTART STSGSSDLPK APGGHLHLQA RRAGQNSDAG PPRGLTWVPE GAGPVLGGCG
+     RGMDQSCLSA DGAGRGCGRA TWSVREEQVK QWAAEMLVAL EALHEQGVLC RDLHPGNLLL
+     DQAGHIRLTY FGQWSEVEPQ CCGEAVDNLY SAPEVGGISE LTEACDWWSF GSLLYELLTG
+     MALSQSHPSG IQAHTQLQLP EWLSRPAASL LTELLQFEPT RRLGMGEGGV SKLKSHPFFS
+     TIQWSKLVG
+//

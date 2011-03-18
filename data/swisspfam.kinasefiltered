@@ -1,0 +1,1471 @@
+>AAK1_HUMAN       |================================================| Q2M2I8.2 863 a.a.
+Pkinase          1   _______________                                (51174) PF00069.18 Protein kinase domain  46-312
+>AAPK1_HUMAN      |===============================================| Q13131.4 559 a.a.
+Pkinase          1   _____________________                         (51174) PF00069.18 Protein kinase domain  27-279
+>AAPK2_HUMAN      |==============================================| P54646.2 552 a.a.
+Pkinase          1  _____________________                         (51174) PF00069.18 Protein kinase domain  16-268
+>ABL1_HUMAN       |==================================================| P00519.4 1130 a.a.
+F_actin_bind     1                                          _________ (33) PF08919.3 F-actin binding  953-1130
+Pkinase_Tyr      1           ___________                              (10688) PF07714.10 Protein tyrosine kinase  242-493
+SH2              1      ___                                           (2861) PF00017.17 SH2 domain  127-202
+SH3_1            1   __                                               (5643) PF00018.21 SH3 domain  67-113
+>ABL2_HUMAN       |==================================================| P42684.1 1182 a.a.
+F_actin_bind     1                                           ________ (33) PF08919.3 F-actin binding  1020-1182
+Pkinase_Tyr      1            ___________                             (10688) PF07714.10 Protein tyrosine kinase  288-539
+SH2              1        ___                                         (2861) PF00017.17 SH2 domain  173-248
+SH3_1            1     __                                             (5643) PF00018.21 SH3 domain  113-159
+>ACK1_HUMAN       |==================================================| Q07912.3 1038 a.a.
+GTPase_binding   1                      ___                           (31) PF09027.3 GTPase binding  447-514
+Inhibitor_Mig-6  1                                     ____           (27) PF11555.1 EGFR receptor inhibitor Mig-6  774-841
+Pkinase_Tyr      1      _____________                                 (10688) PF07714.10 Protein tyrosine kinase  126-385
+>ACV1B_HUMAN      |==============================================| P36896.1 505 a.a.
+Activin_recp     1   _______                                      (361) PF01064.16 Activin types I and II receptor domain  32-109
+Pkinase          1                   __________________________   (51174) PF00069.18 Protein kinase domain  207-494
+TGF_beta_GS      1                 __                             (238) PF08515.5 Transforming growth factor beta type I GS-motif  177-205
+>ACV1C_HUMAN      |==================================================| Q8NER5.1 493 a.a.
+Activin_recp     1   ________                                         (361) PF01064.16 Activin types I and II receptor domain  26-100
+Pkinase          1                    _____________________________   (51174) PF00069.18 Protein kinase domain  195-482
+TGF_beta_GS      1                 ___                                (238) PF08515.5 Transforming growth factor beta type I GS-motif  165-193
+>ACVL1_HUMAN      |==============================================| P37023.2 503 a.a.
+Activin_recp     1   _______                                      (361) PF01064.16 Activin types I and II receptor domain  32-103
+Pkinase          1                   __________________________   (51174) PF00069.18 Protein kinase domain  202-490
+TGF_beta_GS      1                ___                             (238) PF08515.5 Transforming growth factor beta type I GS-motif  172-200
+>ACVR1_HUMAN      |===============================================| Q04771.1 509 a.a.
+Activin_recp     1   _______                                       (361) PF01064.16 Activin types I and II receptor domain  33-107
+Pkinase          1                   ___________________________   (51174) PF00069.18 Protein kinase domain  208-495
+TGF_beta_GS      1                 __                              (238) PF08515.5 Transforming growth factor beta type I GS-motif  178-206
+>ADCK1_HUMAN      |=================================================| Q86TW2.2 530 a.a.
+ABC1             1             ___________                           (2366) PF03109.9 ABC1 family  143-259
+>ADCK2_HUMAN      |=================================================| Q7Z695.1 626 a.a.
+ABC1             1                      ________                     (2366) PF03109.9 ABC1 family  286-389
+>ADCK3_HUMAN      |==================================================| Q8NI60.1 647 a.a.
+ABC1             1                         _________                  (2366) PF03109.9 ABC1 family  318-434
+>ADCK4_HUMAN      |==================================================| Q96D53.2 544 a.a.
+ABC1             1                  ___________                       (2366) PF03109.9 ABC1 family  197-313
+>ADCK5_HUMAN      |=================================================| Q3MIX3.2 580 a.a.
+ABC1             1                __________                         (2366) PF03109.9 ABC1 family  188-304
+>AKT1_HUMAN       |================================================| P31749.2 480 a.a.
+PH               1 __________                                       (4822) PF00169.22 PH domain  6-108
+Pkinase          1               __________________________         (51174) PF00069.18 Protein kinase domain  150-408
+Pkinase_C        1                                           _____  (1403) PF00433.17 Protein kinase C terminal domain  428-478
+>AKT2_HUMAN       |=================================================| P31751.2 481 a.a.
+PH               1 __________                                        (4822) PF00169.22 PH domain  6-108
+Pkinase          1                _________________________          (51174) PF00069.18 Protein kinase domain  152-409
+Pkinase_C        1                                           _____   (1403) PF00433.17 Protein kinase C terminal domain  429-478
+>AKT3_HUMAN       |================================================| Q9Y243.1 479 a.a.
+PH               1 __________                                       (4822) PF00169.22 PH domain  6-107
+Pkinase          1               __________________________         (51174) PF00069.18 Protein kinase domain  148-405
+Pkinase_C        1                                           _____  (1403) PF00433.17 Protein kinase C terminal domain  425-477
+>ALK_HUMAN        |==================================================| Q9UM73.2 1620 a.a.
+MAM              2         ____  _____                                (1105) PF00629.16 MAM domain  266-427 480-636
+Pkinase_Tyr      1                                  ________          (10688) PF07714.10 Protein tyrosine kinase  1116-1383
+>ALPK1_HUMAN      |==================================================| Q96QP1.2 1244 a.a.
+Alpha_kinase     1                                          ________  (209) PF02816.11 Alpha-kinase family  1041-1229
+>ALPK2_HUMAN      |==================================================| Q86TB3.3 2170 a.a.
+Alpha_kinase     1                                            _____   (209) PF02816.11 Alpha-kinase family  1925-2125
+I-set            2 __                                      __         (19898) PF07679.9 Immunoglobulin I-set domain  12-104 1790-1875
+>ALPK3_HUMAN      |=================================================| Q96L96.1 1907 a.a.
+Alpha_kinase     1                                          _____    (209) PF02816.11 Alpha-kinase family  1619-1819
+I-set            1        __                                         (19898) PF07679.9 Immunoglobulin I-set domain  279-371
+>AMHR2_HUMAN      |================================================| Q16671.1 573 a.a.
+Activin_recp     1    _______                                       (361) PF01064.16 Activin types I and II receptor domain  43-124
+Pkinase          1                 __________________________       (51174) PF00069.18 Protein kinase domain  203-505
+>ANKK1_HUMAN      |================================================| Q8NFD2.1 765 a.a.
+Ank             10                         ______ _ _____ __ ___    (41621) PF00023.23 Ankyrin repeat  394-426 427-459 460-491 493-524 526-558 559-591 592-623 626-656 658-690 691-723
+Pkinase_Tyr      1  ________________                                (10688) PF07714.10 Protein tyrosine kinase  25-285
+>ANPRA_HUMAN      |=================================================| P16066.1 1061 a.a.
+ANF_receptor     1   ________________                                (5573) PF01094.21 Receptor family ligand binding region  54-416
+Guanylate_cyc    1                                        ________   (4141) PF00211.13 Adenylate and Guanylate cyclase catalytic domain  867-1053
+Pkinase_Tyr      1                         ____________              (10688) PF07714.10 Protein tyrosine kinase  542-801
+>ANPRB_HUMAN      |==================================================| P20594.1 1047 a.a.
+ANF_receptor     1   _________________                                (5573) PF01094.21 Receptor family ligand binding region  44-399
+Guanylate_cyc    1                                         _________  (4141) PF00211.13 Adenylate and Guanylate cyclase catalytic domain  852-1038
+Pkinase_Tyr      1                         _____________              (10688) PF07714.10 Protein tyrosine kinase  518-786
+>ARAF_HUMAN       |===============================================| P10398.2 606 a.a.
+C1_1             1        ____                                     (1921) PF00130.15 Phorbol esters/diacylglycerol binding domain (C1 domain)  99-147
+Pkinase_Tyr      1                        ____________________     (10688) PF07714.10 Protein tyrosine kinase  310-567
+RBD              1  ______                                         (230) PF02196.8 Raf-like Ras-binding domain  19-91
+>ARBK1_HUMAN      |==================================================| P25098.2 689 a.a.
+PH               1                                        _______     (4822) PF00169.22 PH domain  559-652
+Pkinase          1              ___________________                   (51174) PF00069.18 Protein kinase domain  191-453
+RGS              1    _________                                       (1182) PF00615.12 Regulator of G protein signaling domain  54-174
+>ARBK2_HUMAN      |==================================================| P35626.2 688 a.a.
+PH               1                                        _______     (4822) PF00169.22 PH domain  559-652
+Pkinase          1              ___________________                   (51174) PF00069.18 Protein kinase domain  191-453
+RGS              1    _________                                       (1182) PF00615.12 Regulator of G protein signaling domain  54-174
+>ATM_HUMAN        |==================================================| Q13315.2 3056 a.a.
+FAT              1                                  _______           (533) PF02259.16 FAT domain  2096-2489
+FATC             1                                                 __ (565) PF02260.13 FATC domain  3024-3056
+PI3_PI4_kinase   1                                            ____    (1752) PF00454.20 Phosphatidylinositol 3- and 4-kinase  2711-2962
+TAN              1 __                                                 (70) PF11640.1 Telomere-length maintenance and DNA damage repair  5-166
+>ATR_HUMAN        |==================================================| Q13535.3 2644 a.a.
+FAT              1                                  ______            (533) PF02259.16 FAT domain  1771-2092
+FATC             1                                                  _ (565) PF02260.13 FATC domain  2612-2644
+PI3_PI4_kinase   1                                            _____   (1752) PF00454.20 Phosphatidylinositol 3- and 4-kinase  2321-2567
+UME              1                      __                            (100) PF08064.6 UME (NUC010) domain  1119-1225
+>AURKB_HUMAN      |==================================================| Q96GD4.2 344 a.a.
+Pkinase          1           ____________________________________     (51174) PF00069.18 Protein kinase domain  77-327
+>AURKC_HUMAN      |=============================================| Q9UQB9.1 309 a.a.
+Pkinase          1       ___________________________________     (51174) PF00069.18 Protein kinase domain  43-293
+>AVR2A_HUMAN      |===============================================| P27037.1 513 a.a.
+Activin_recp     1   ________                                      (361) PF01064.16 Activin types I and II receptor domain  28-118
+Pkinase          1                  __________________________     (51174) PF00069.18 Protein kinase domain  192-479
+>AVR2B_HUMAN      |===============================================| Q13705.3 512 a.a.
+Activin_recp     1   ________                                      (361) PF01064.16 Activin types I and II receptor domain  27-117
+Pkinase          1                  __________________________     (51174) PF00069.18 Protein kinase domain  190-478
+>BCKD_HUMAN       |==============================================| O14874.2 412 a.a.
+BCDHK_Adom3      1        _________________                       (361) PF10436.2 Mitochondrial branched-chain alpha-ketoacid dehydrogenase kinase  68-223
+HATPase_c        1                              _______________   (57843) PF02518.19 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase  264-403
+>BLK_HUMAN        |==============================================| P51451.3 505 a.a.
+Pkinase_Tyr      1                      _______________________   (10688) PF07714.10 Protein tyrosine kinase  241-490
+SH2              1            _______                             (2861) PF00017.17 SH2 domain  124-205
+SH3_1            1      _____                                     (5643) PF00018.21 SH3 domain  64-110
+>BMP2K_HUMAN      |=================================================| Q9NSY1.2 1161 a.a.
+Pkinase          1   ___________                                     (51174) PF00069.18 Protein kinase domain  51-316
+>BMPR2_HUMAN      |==================================================| Q13873.2 1038 a.a.
+Activin_recp     1  _____                                             (361) PF01064.16 Activin types I and II receptor domain  33-131
+Pkinase          1          ______________                            (51174) PF00069.18 Protein kinase domain  203-501
+>BMR1A_HUMAN      |=================================================| P36894.2 532 a.a.
+Activin_recp     1      _______                                      (361) PF01064.16 Activin types I and II receptor domain  59-138
+Pkinase          1                      __________________________   (51174) PF00069.18 Protein kinase domain  234-521
+TGF_beta_GS      1                   ___                             (238) PF08515.5 Transforming growth factor beta type I GS-motif  204-232
+>BMR1B_HUMAN      |==============================================| O00238.1 502 a.a.
+Activin_recp     1   ________                                     (361) PF01064.16 Activin types I and II receptor domain  30-110
+Pkinase          1                   __________________________   (51174) PF00069.18 Protein kinase domain  204-491
+TGF_beta_GS      1                ___                             (238) PF08515.5 Transforming growth factor beta type I GS-motif  174-202
+>BMX_HUMAN        |=================================================| P51813.1 675 a.a.
+BTK              1         __                                        (132) PF00779.12 BTK motif  118-149
+PH               1 _______                                           (4822) PF00169.22 PH domain  5-111
+Pkinase_Tyr      1                              __________________   (10688) PF07714.10 Protein tyrosine kinase  417-666
+SH2              1                      _____                        (2861) PF00017.17 SH2 domain  296-377
+>BRAF1_HUMAN      |================================================| P15056.4 766 a.a.
+C1_1             1               ___                                (1921) PF00130.15 Phorbol esters/diacylglycerol binding domain (C1 domain)  235-282
+Pkinase_Tyr      1                             ________________     (10688) PF07714.10 Protein tyrosine kinase  457-714
+RBD              1          _____                                   (230) PF02196.8 Raf-like Ras-binding domain  155-227
+>BRSK1_HUMAN      |==================================================| Q8TDC3.1 794 a.a.
+Pkinase          1    _______________                                 (51174) PF00069.18 Protein kinase domain  50-301
+>BRSK2_HUMAN      |==================================================| Q8IWQ3.3 736 a.a.
+Pkinase          1  _________________                                 (51174) PF00069.18 Protein kinase domain  19-270
+>BTK_HUMAN        |================================================| Q06187.3 659 a.a.
+BTK              1          ___                                     (132) PF00779.12 BTK motif  140-171
+PH               1 _________                                        (4822) PF00169.22 PH domain  4-133
+Pkinase_Tyr      1                             __________________   (10688) PF07714.10 Protein tyrosine kinase  402-651
+SH2              1                     _____                        (2861) PF00017.17 SH2 domain  281-362
+SH3_1            1                ____                              (5643) PF00018.21 SH3 domain  220-266
+>BUB1B_HUMAN      |================================================| O60566.3 1050 a.a.
+Mad3_BUB1_I      1   ______                                         (185) PF08311.5 Mad3/BUB1 homology region 1  55-179
+Pkinase          1                                     _______      (51174) PF00069.18 Protein kinase domain  808-957
+>BUB1_HUMAN       |==================================================| O43683.1 1085 a.a.
+Mad3_BUB1_I      1 _____                                              (185) PF08311.5 Mad3/BUB1 homology region 1  4-126
+Pkinase          1                                    ___________     (51174) PF00069.18 Protein kinase domain  787-1030
+>CAMKV_HUMAN      |==============================================| Q8NCB2.2 501 a.a.
+Pkinase          1   ________________________                     (51174) PF00069.18 Protein kinase domain  24-286
+>CCRK_HUMAN       |==================================================| Q8IZL9.1 346 a.a.
+Pkinase          1 _________________________________________          (51174) PF00069.18 Protein kinase domain  4-288
+>CD2L1_HUMAN      |==================================================| P21127.3 795 a.a.
+Pkinase          1                            __________________      (51174) PF00069.18 Protein kinase domain  438-723
+>CD2L2_HUMAN      |=================================================| Q9UQ88.3 780 a.a.
+Pkinase          1                           __________________      (51174) PF00069.18 Protein kinase domain  423-708
+>CD2L5_HUMAN      |=================================================| Q14004.2 1512 a.a.
+Pkinase          1                       __________                  (51174) PF00069.18 Protein kinase domain  705-998
+>CD2L6_HUMAN      |==============================================| Q9BWU1.1 502 a.a.
+Pkinase          1   ____________________________                 (51174) PF00069.18 Protein kinase domain  23-335
+>CD2L7_HUMAN      |==================================================| Q9NYV4.1 1490 a.a.
+Pkinase          1                         __________                 (51174) PF00069.18 Protein kinase domain  727-1020
+>CDC2_HUMAN       |==================================================| P06493.1 297 a.a.
+Pkinase          1 _______________________________________________    (51174) PF00069.18 Protein kinase domain  4-287
+>CDC7_HUMAN       |================================================| O00311.1 574 a.a.
+Pkinase          2     ______________           __________________  (51174) PF00069.18 Protein kinase domain  58-224 353-569
+>CDK10_HUMAN      |=============================================| Q15131.1 360 a.a.
+Pkinase          1     ____________________________________      (51174) PF00069.18 Protein kinase domain  39-323
+>CDK2_HUMAN       |==================================================| P24941.2 298 a.a.
+Pkinase          1 _______________________________________________    (51174) PF00069.18 Protein kinase domain  4-286
+>CDK3_HUMAN       |============================================| Q00526.1 305 a.a.
+Pkinase          1 ________________________________________     (51174) PF00069.18 Protein kinase domain  4-286
+>CDK4_HUMAN       |============================================| P11802.2 303 a.a.
+Pkinase          1 __________________________________________   (51174) PF00069.18 Protein kinase domain  6-295
+>CDK5_HUMAN       |=================================================| Q00535.3 292 a.a.
+Pkinase          1 _______________________________________________   (51174) PF00069.18 Protein kinase domain  4-286
+>CDK6_HUMAN       |===============================================| Q00534.1 326 a.a.
+Pkinase          1  _________________________________________      (51174) PF00069.18 Protein kinase domain  13-300
+>CDK7_HUMAN       |==================================================| P50613.1 346 a.a.
+Pkinase          1  _________________________________________         (51174) PF00069.18 Protein kinase domain  12-295
+>CDK8_HUMAN       |===============================================| P49336.1 464 a.a.
+Pkinase          1   _______________________________               (51174) PF00069.18 Protein kinase domain  23-335
+>CDK9_HUMAN       |===============================================| P50750.3 372 a.a.
+Pkinase          1   _____________________________________         (51174) PF00069.18 Protein kinase domain  19-315
+>CDKL1_HUMAN      |=============================================| Q00532.5 357 a.a.
+Pkinase          1 ___________________________________           (51174) PF00069.18 Protein kinase domain  4-287
+>CDKL2_HUMAN      |==================================================| Q92772.1 493 a.a.
+Pkinase          1 ____________________________                       (51174) PF00069.18 Protein kinase domain  4-287
+>CDKL3_HUMAN      |==================================================| Q8IVW4.1 592 a.a.
+Pkinase          1 _______________________                            (51174) PF00069.18 Protein kinase domain  4-286
+>CDKL4_HUMAN      |=============================================| Q5MAI5.1 315 a.a.
+Pkinase          1 ________________________________________      (51174) PF00069.18 Protein kinase domain  4-286
+>CDKL5_HUMAN      |==================================================| O76039.1 1030 a.a.
+Pkinase          1 ______________                                     (51174) PF00069.18 Protein kinase domain  13-297
+>CHK1_HUMAN       |================================================| O14757.1 476 a.a.
+Pkinase          1 __________________________                       (51174) PF00069.18 Protein kinase domain  9-265
+>CHK2_HUMAN       |==================================================| O96017.1 543 a.a.
+FHA              1           _______                                  (4399) PF00498.19 FHA domain  113-192
+Pkinase          1                    _________________________       (51174) PF00069.18 Protein kinase domain  220-486
+>CLK1_HUMAN       |=================================================| P49759.2 484 a.a.
+Pkinase          1                 _______________________________   (51174) PF00069.18 Protein kinase domain  161-477
+>CLK2_HUMAN       |==================================================| P49760.1 499 a.a.
+Pkinase          1                 _______________________________    (51174) PF00069.18 Protein kinase domain  163-479
+>CLK3_HUMAN       |==================================================| P49761.3 638 a.a.
+Pkinase          1                        ________________________    (51174) PF00069.18 Protein kinase domain  304-620
+>CLK4_HUMAN       |=================================================| Q9HAZ1.1 481 a.a.
+Pkinase          1                ________________________________   (51174) PF00069.18 Protein kinase domain  159-475
+>CSF1R_HUMAN      |=================================================| P07333.2 972 a.a.
+Pkinase_Tyr      1                              ________________     (10688) PF07714.10 Protein tyrosine kinase  582-910
+ig               1           ____                                    (1578) PF00047.18 Immunoglobulin domain  217-280
+>CSK21_HUMAN      |=================================================| P68400.1 391 a.a.
+Pkinase          1     ____________________________________          (51174) PF00069.18 Protein kinase domain  39-324
+>CSK22_HUMAN      |============================================| P19784.1 350 a.a.
+Pkinase          1     ____________________________________     (51174) PF00069.18 Protein kinase domain  40-325
+>CSKP_HUMAN       |=================================================| O14936.3 926 a.a.
+Guanylate_kin    1                                       __________  (2756) PF00625.14 Guanylate kinase  738-912
+L27              2                   ___ __                          (345) PF02828.9 L27 domain  346-401 405-458
+PDZ              1                          ____                     (13044) PF00595.17 PDZ domain (Also known as DHR or GLGF)  481-568
+Pkinase          1 ______________                                    (51174) PF00069.18 Protein kinase domain  12-276
+SH3_2            1                                 ___               (1523) PF07653.10 Variant SH3 domain  616-680
+>CSK_HUMAN        |=============================================| P41240.1 450 a.a.
+Pkinase_Tyr      1                    _________________________  (10688) PF07714.10 Protein tyrosine kinase  195-440
+SH2              1         _______                               (2861) PF00017.17 SH2 domain  82-156
+SH3_1            1  _____                                        (5643) PF00018.21 SH3 domain  15-62
+>CTRO_HUMAN       |==================================================| O14578.2 2027 a.a.
+CNH              1                                       _______      (564) PF00780.15 CNH domain  1597-1869
+Pkinase          1   ______                                           (51174) PF00069.18 Protein kinase domain  97-360
+Pkinase_C        1          _                                         (1403) PF00433.17 Protein kinase C terminal domain  378-424
+>DAPK1_HUMAN      |==================================================| P53355.5 1430 a.a.
+Ank              6                _______                             (41621) PF00023.23 Ankyrin repeat  444-476 477-509 510-542 543-575 576-608 609-641
+Death            1                                              ___   (1116) PF00531.15 Death domain  1311-1396
+Pkinase          1 _________                                          (51174) PF00069.18 Protein kinase domain  13-275
+>DAPK2_HUMAN      |===============================================| Q9UIK4.1 370 a.a.
+Pkinase          1   _________________________________             (51174) PF00069.18 Protein kinase domain  23-285
+>DAPK3_HUMAN      |==============================================| O43293.1 454 a.a.
+Pkinase          1  __________________________                    (51174) PF00069.18 Protein kinase domain  13-275
+>DCLK1_HUMAN      |==================================================| O15075.2 740 a.a.
+DCX              2     _____    ____                                  (295) PF03607.10 Doublecortin  74-138 203-264
+Pkinase          1                          __________________        (51174) PF00069.18 Protein kinase domain  390-647
+>DCLK2_HUMAN      |================================================| Q8N568.3 766 a.a.
+DCX              2      ____    ____                                (295) PF03607.10 Doublecortin  89-153 214-275
+Pkinase          1                         ________________         (51174) PF00069.18 Protein kinase domain  394-651
+>DCLK3_HUMAN      |==================================================| Q9C098.2 648 a.a.
+Pkinase          1                            ____________________    (51174) PF00069.18 Protein kinase domain  356-613
+>DDR1_HUMAN       |=================================================| Q08345.1 913 a.a.
+F5_F8_type_C     1   _______                                         (4076) PF00754.18 F5/8 type C domain  46-182
+Pkinase_Tyr      1                                 _______________   (10688) PF07714.10 Protein tyrosine kinase  610-905
+>DDR2_HUMAN       |================================================| Q16832.2 855 a.a.
+F5_F8_type_C     1   ________                                       (4076) PF00754.18 F5/8 type C domain  45-182
+Pkinase_Tyr      1                                ________________  (10688) PF07714.10 Protein tyrosine kinase  563-849
+>DMPK_HUMAN       |==================================================| Q09013.2 639 a.a.
+DMPK_coil        1                                     _____          (46) PF08826.3 DMPK coiled coil domain like  480-540
+Pkinase          1       ____________________                         (51174) PF00069.18 Protein kinase domain  81-349
+>DUSTY_HUMAN      |=================================================| Q6XUX3.1 929 a.a.
+Pkinase          1                                   _____________   (51174) PF00069.18 Protein kinase domain  653-906
+>DYR1A_HUMAN      |================================================| Q13627.2 763 a.a.
+Pkinase          1          ____________________                    (51174) PF00069.18 Protein kinase domain  159-479
+>DYR1B_HUMAN      |=================================================| Q9Y463.1 629 a.a.
+Pkinase          1         _________________________                 (51174) PF00069.18 Protein kinase domain  111-431
+>DYRK2_HUMAN      |===============================================| Q92630.3 601 a.a.
+Pkinase          1                  ________________________       (51174) PF00069.18 Protein kinase domain  222-535
+>DYRK3_HUMAN      |=================================================| O43781.3 588 a.a.
+Pkinase          1                  __________________________       (51174) PF00069.18 Protein kinase domain  209-522
+>DYRK4_HUMAN      |================================================| Q9NR20.2 520 a.a.
+Pkinase          1          ___________________________             (51174) PF00069.18 Protein kinase domain  104-400
+>E2AK1_HUMAN      |=================================================| Q9BQI3.2 630 a.a.
+Pkinase          2             _______      ___________________      (51174) PF00069.18 Protein kinase domain  167-249 338-583
+>E2AK2_HUMAN      |==============================================| P19525.2 551 a.a.
+Pkinase          1                       ______________________   (51174) PF00069.18 Protein kinase domain  267-537
+dsrm             2 ______  _____                                  (3437) PF00035.18 Double-stranded RNA binding motif  10-75 101-165
+>E2AK3_HUMAN      |=================================================| Q9NZJ5.2 1115 a.a.
+Pkinase          2                          ____        _________    (51174) PF00069.18 Protein kinase domain  592-675 862-1076
+>E2AK4_HUMAN      |==================================================| Q9P2K8.2 1649 a.a.
+Pkinase          3          _______ ___   _______                     (51174) PF00069.18 Protein kinase domain  324-539 590-663 764-1001
+RWD              1 ____                                               (743) PF05773.15 RWD domain  18-134
+>EF2K_HUMAN       |=================================================| O00418.2 725 a.a.
+Alpha_kinase     1          ____________                             (209) PF02816.11 Alpha-kinase family  138-318
+Sel1             3                                   ___ __    __    (16197) PF08238.5 Sel1 repeat  523-563 565-609 665-700
+>EGFR_HUMAN       |=================================================| P00533.2 1210 a.a.
+Furin-like       1        ______                                     (398) PF00757.13 Furin-like cysteine rich region  177-338
+Pkinase_Tyr      1                             __________            (10688) PF07714.10 Protein tyrosine kinase  712-968
+Recep_L_domain   2   ____        _____                               (1169) PF01030.17 Receptor L domain  57-168 361-481
+>EPHA1_HUMAN      |=================================================| P21709.3 976 a.a.
+Ephrin_lbd       1  _________                                        (235) PF01404.12 Ephrin receptor ligand binding domain  27-204
+Pkinase_Tyr      1                                _____________      (10688) PF07714.10 Protein tyrosine kinase  624-880
+SAM_1            1                                              ___  (1691) PF00536.23 SAM domain (Sterile alpha motif)  911-975
+fn3              2                 _____ ____                        (15520) PF00041.14 Fibronectin type III domain  334-431 451-528
+>EPHA2_HUMAN      |=================================================| P29317.2 976 a.a.
+Ephrin_lbd       1  _________                                        (235) PF01404.12 Ephrin receptor ligand binding domain  28-201
+Pkinase_Tyr      1                               _____________       (10688) PF07714.10 Protein tyrosine kinase  613-871
+SAM_1            1                                              ___  (1691) PF00536.23 SAM domain (Sterile alpha motif)  902-966
+fn3              2                 _____ ___                         (15520) PF00041.14 Fibronectin type III domain  330-424 437-519
+>EPHA3_HUMAN      |==================================================| P29320.2 983 a.a.
+Ephrin_lbd       1  _________                                         (235) PF01404.12 Ephrin receptor ligand binding domain  29-202
+GCC2_GCC3        1              __                                    (686) PF07699.6 GCC2 and GCC3  262-306
+Pkinase_Tyr      1                                ____________        (10688) PF07714.10 Protein tyrosine kinase  621-878
+SAM_2            1                                              ___   (1079) PF07647.10 SAM domain (Sterile alpha motif)  908-973
+fn3              2                 _____ ____                         (15520) PF00041.14 Fibronectin type III domain  327-423 437-521
+>EPHA4_HUMAN      |==================================================| P54764.1 986 a.a.
+Ephrin_lbd       1  _________                                         (235) PF01404.12 Ephrin receptor ligand binding domain  30-204
+Pkinase_Tyr      1                                ____________        (10688) PF07714.10 Protein tyrosine kinase  621-878
+SAM_2            1                                              ___   (1079) PF07647.10 SAM domain (Sterile alpha motif)  908-973
+fn3              2                 _____ ____                         (15520) PF00041.14 Fibronectin type III domain  330-424 442-525
+>EPHA5_HUMAN      |==================================================| P54756.2 1037 a.a.
+Ephrin_lbd       1   _________                                        (235) PF01404.12 Ephrin receptor ligand binding domain  60-233
+Pkinase_Tyr      1                                 ____________       (10688) PF07714.10 Protein tyrosine kinase  675-932
+SAM_1            1                                              ___   (1691) PF00536.23 SAM domain (Sterile alpha motif)  964-1027
+fn3              2                  ____ ____                         (15520) PF00041.14 Fibronectin type III domain  359-453 470-552
+>EPHA6_HUMAN      |==================================================| Q9UF33.2 1035 a.a.
+Ephrin_lbd       1  ________                                          (235) PF01404.12 Ephrin receptor ligand binding domain  33-206
+Pkinase_Tyr      1                                    _________       (10688) PF07714.10 Protein tyrosine kinase  736-929
+SAM_1            1                                              ___   (1691) PF00536.23 SAM domain (Sterile alpha motif)  959-1022
+fn3              2                _____ ____                          (15520) PF00041.14 Fibronectin type III domain  332-426 441-526
+>EPHA7_HUMAN      |==================================================| Q15375.3 998 a.a.
+Ephrin_lbd       1  _________                                         (235) PF01404.12 Ephrin receptor ligand binding domain  32-205
+GCC2_GCC3        1              __                                    (686) PF07699.6 GCC2 and GCC3  268-312
+Pkinase_Tyr      1                                _____________       (10688) PF07714.10 Protein tyrosine kinase  633-890
+SAM_2            1                                              ____  (1079) PF07647.10 SAM domain (Sterile alpha motif)  920-985
+fn3              2                 _____ ____                         (15520) PF00041.14 Fibronectin type III domain  333-427 444-527
+>EPHA8_HUMAN      |================================================| P29322.2 1005 a.a.
+Ephrin_lbd       1  ________                                        (235) PF01404.12 Ephrin receptor ligand binding domain  31-204
+Pkinase_Tyr      1                               ____________       (10688) PF07714.10 Protein tyrosine kinase  635-892
+SAM_1            1                                             ___  (1691) PF00536.23 SAM domain (Sterile alpha motif)  933-992
+fn3              2                _____ ___                         (15520) PF00041.14 Fibronectin type III domain  330-424 438-524
+>EPHAA_HUMAN      |================================================| Q5JZY3.1 1008 a.a.
+Ephrin_lbd       1  _________                                       (235) PF01404.12 Ephrin receptor ligand binding domain  35-211
+Pkinase_Tyr      1                               ____________       (10688) PF07714.10 Protein tyrosine kinase  645-900
+SAM_1            1                                             ___  (1691) PF00536.23 SAM domain (Sterile alpha motif)  931-995
+fn3              2                 ____ ____                        (15520) PF00041.14 Fibronectin type III domain  339-436 458-537
+>EPHB1_HUMAN      |==================================================| P54762.1 984 a.a.
+Ephrin_lbd       1 _________                                          (235) PF01404.12 Ephrin receptor ligand binding domain  19-196
+Pkinase_Tyr      1                               _____________        (10688) PF07714.10 Protein tyrosine kinase  619-878
+SAM_1            1                                              ___   (1691) PF00536.23 SAM domain (Sterile alpha motif)  909-973
+fn3              2                 ____ ____                          (15520) PF00041.14 Fibronectin type III domain  324-418 435-518
+>EPHB2_HUMAN      |================================================| P29323.5 1055 a.a.
+Ephrin_lbd       1 ________                                         (235) PF01404.12 Ephrin receptor ligand binding domain  20-197
+GCC2_GCC3        1            __                                    (686) PF07699.6 GCC2 and GCC3  260-305
+Pkinase_Tyr      1                             ____________         (10688) PF07714.10 Protein tyrosine kinase  621-880
+SAM_1            1                                          ___     (1691) PF00536.23 SAM domain (Sterile alpha motif)  911-975
+fn3              2               _____ ___                          (15520) PF00041.14 Fibronectin type III domain  326-421 435-520
+>EPHB3_HUMAN      |==================================================| P54753.2 998 a.a.
+Ephrin_lbd       1  _________                                         (235) PF01404.12 Ephrin receptor ligand binding domain  39-212
+GCC2_GCC3        1              ___                                   (686) PF07699.6 GCC2 and GCC3  274-320
+Pkinase_Tyr      1                                _____________       (10688) PF07714.10 Protein tyrosine kinase  633-892
+SAM_1            1                                               ___  (1691) PF00536.23 SAM domain (Sterile alpha motif)  923-987
+fn3              2                  ____ ____                         (15520) PF00041.14 Fibronectin type III domain  341-437 454-535
+>EPHB4_HUMAN      |==================================================| P54760.2 987 a.a.
+Ephrin_lbd       1 _________                                          (235) PF01404.12 Ephrin receptor ligand binding domain  17-197
+GCC2_GCC3        1             ___                                    (686) PF07699.6 GCC2 and GCC3  258-304
+Pkinase_Tyr      1                               _____________        (10688) PF07714.10 Protein tyrosine kinase  615-874
+SAM_1            1                                              ___   (1691) PF00536.23 SAM domain (Sterile alpha motif)  905-969
+fn3              2                 ____ ____                          (15520) PF00041.14 Fibronectin type III domain  325-417 435-519
+>EPHB6_HUMAN      |================================================| O15197.3 1006 a.a.
+Ephrin_lbd       1 __________                                       (235) PF01404.12 Ephrin receptor ligand binding domain  18-217
+GCC2_GCC3        1              __                                  (686) PF07699.6 GCC2 and GCC3  289-330
+Pkinase_Tyr      1                                ___________       (10688) PF07714.10 Protein tyrosine kinase  655-900
+SAM_2            1                                             ___  (1079) PF07647.10 SAM domain (Sterile alpha motif)  930-995
+fn3              2                 _____ ____                       (15520) PF00041.14 Fibronectin type III domain  356-456 474-557
+>ERBB2_HUMAN      |=================================================| P04626.1 1255 a.a.
+Furin-like       1        ______                                     (398) PF00757.13 Furin-like cysteine rich region  183-343
+Pkinase_Tyr      1                            __________             (10688) PF07714.10 Protein tyrosine kinase  720-976
+Recep_L_domain   2  _____        ____                                (1169) PF01030.17 Receptor L domain  52-173 366-486
+>ERBB3_HUMAN      |==================================================| P21860.1 1342 a.a.
+Furin-like       1       ______                                       (398) PF00757.13 Furin-like cysteine rich region  169-332
+Pkinase_Tyr      1                           _________                (10688) PF07714.10 Protein tyrosine kinase  709-965
+Recep_L_domain   2   ____       ____                                  (1169) PF01030.17 Receptor L domain  55-167 353-474
+>ERBB4_HUMAN      |=================================================| Q15303.1 1308 a.a.
+Furin-like       1       ______                                      (398) PF00757.13 Furin-like cysteine rich region  176-335
+Pkinase_Tyr      1                           __________              (10688) PF07714.10 Protein tyrosine kinase  718-974
+Recep_L_domain   2   ____       ____                                 (1169) PF01030.17 Receptor L domain  55-167 358-478
+>ERN1_HUMAN       |=================================================| O75460.2 977 a.a.
+Pkinase          1                             _____________         (51174) PF00069.18 Protein kinase domain  571-832
+Ribonuc_2-5A     1                                          _______  (164) PF06479.5 Ribonuclease 2-5A  837-963
+>ERN2_HUMAN       |=================================================| Q76MJ5.2 926 a.a.
+Pkinase          1                            ______________         (51174) PF00069.18 Protein kinase domain  520-781
+Ribonuc_2-5A     1                                          _______  (164) PF06479.5 Ribonuclease 2-5A  786-912
+>FAK1_HUMAN       |================================================| Q05397.2 1052 a.a.
+FERM_M           1       _____                                      (1174) PF00373.11 FERM central domain  134-258
+Focal_AT         1                                          _______ (68) PF03623.6 Focal adhesion targeting region  914-1052
+Pkinase_Tyr      1                    ___________                   (10688) PF07714.10 Protein tyrosine kinase  422-676
+>FAK2_HUMAN       |=================================================| Q14289.2 1009 a.a.
+FERM_M           1       ______                                      (1174) PF00373.11 FERM central domain  141-257
+Focal_AT         1                                          _______  (68) PF03623.6 Focal adhesion targeting region  870-1008
+Pkinase_Tyr      1                     ____________                  (10688) PF07714.10 Protein tyrosine kinase  425-679
+>FASTK_HUMAN      |==================================================| Q14296.1 549 a.a.
+FAST_1           1                          ______                    (112) PF06743.8 FAST kinase-like protein, subdomain 1  277-345
+FAST_2           1                                 ________           (105) PF08368.5 FAST kinase-like protein, subdomain 2  353-444
+RAP              1                                            _____   (314) PF08373.3 RAP domain  480-536
+>FER_HUMAN        |=================================================| P16591.2 822 a.a.
+FCH              1 _____                                             (741) PF00611.16 Fes/CIP4 homology domain  1-92
+Pkinase_Tyr      1                                  ______________   (10688) PF07714.10 Protein tyrosine kinase  563-814
+SH2              1                            ____                   (2861) PF00017.17 SH2 domain  460-531
+>FES_HUMAN        |=================================================| P07332.3 822 a.a.
+FCH              1 _____                                             (741) PF00611.16 Fes/CIP4 homology domain  1-94
+Pkinase_Tyr      1                                 _______________   (10688) PF07714.10 Protein tyrosine kinase  561-814
+SH2              1                            ____                   (2861) PF00017.17 SH2 domain  460-530
+>FGFR1_HUMAN      |=================================================| P11362.3 822 a.a.
+I-set            3   ____   _____ ______                             (19898) PF07679.9 Immunoglobulin I-set domain  38-118 160-247 259-358
+Pkinase_Tyr      1                             ________________      (10688) PF07714.10 Protein tyrosine kinase  478-754
+>FGFR2_HUMAN      |=================================================| P21802.1 821 a.a.
+I-set            2          _____ ______                             (19898) PF07679.9 Immunoglobulin I-set domain  161-248 260-359
+Pkinase_Tyr      1                             ________________      (10688) PF07714.10 Protein tyrosine kinase  481-757
+>FGFR3_HUMAN      |================================================| P22607.1 806 a.a.
+I-set            2          _____ _____                             (19898) PF07679.9 Immunoglobulin I-set domain  160-245 257-356
+Pkinase_Tyr      1                            _________________     (10688) PF07714.10 Protein tyrosine kinase  472-748
+ig               1    ___                                           (1578) PF00047.18 Immunoglobulin domain  54-110
+>FGFR4_HUMAN      |================================================| P22455.2 802 a.a.
+I-set            2         ______ _____                             (19898) PF07679.9 Immunoglobulin I-set domain  153-241 253-350
+Pkinase_Tyr      1                            ________________      (10688) PF07714.10 Protein tyrosine kinase  467-743
+>FGR_HUMAN        |=================================================| P09769.2 529 a.a.
+Pkinase_Tyr      1                        _______________________    (10688) PF07714.10 Protein tyrosine kinase  263-512
+SH2              1              _______                              (2861) PF00017.17 SH2 domain  144-226
+SH3_1            1        ____                                       (5643) PF00018.21 SH3 domain  83-130
+>FLT3_HUMAN       |==================================================| P36888.2 993 a.a.
+Pkinase_Tyr      1                               _________________    (10688) PF07714.10 Protein tyrosine kinase  610-943
+ig               1              ___                                   (1578) PF00047.18 Immunoglobulin domain  265-332
+>FRAP_HUMAN       |==================================================| P42345.1 2549 a.a.
+DUF3385          1                 ____                               (160) PF11865.1 Domain of unknown function (DUF3385)  854-1024
+FAT              1                              ________              (533) PF02259.16 FAT domain  1513-1908
+FATC             1                                                  _ (565) PF02260.13 FATC domain  2517-2549
+PI3_PI4_kinase   1                                           _____    (1752) PF00454.20 Phosphatidylinositol 3- and 4-kinase  2181-2431
+Rapamycin_bind   1                                        __          (182) PF08771.4 Rapamycin binding domain  2015-2114
+>FRK_HUMAN        |==============================================| P42685.1 505 a.a.
+Pkinase_Tyr      1                      _______________________   (10688) PF07714.10 Protein tyrosine kinase  234-487
+SH2              1           _______                              (2861) PF00017.17 SH2 domain  116-193
+SH3_1            1     _____                                      (5643) PF00018.21 SH3 domain  48-102
+>FYN_HUMAN        |=================================================| P06241.3 537 a.a.
+Pkinase_Tyr      1                         _______________________   (10688) PF07714.10 Protein tyrosine kinase  271-520
+SH2              1              ________                             (2861) PF00017.17 SH2 domain  149-231
+SH3_1            1        _____                                      (5643) PF00018.21 SH3 domain  88-135
+>GAK_HUMAN        |=================================================| O14976.2 1311 a.a.
+DnaJ             1                                               ___ (11917) PF00226.24 DnaJ domain  1256-1311
+PTEN_C2          1                      _____                        (286) PF10409.2 C2 domain of PTEN tumour-suppressor protein  570-709
+Pkinase          1  __________                                       (51174) PF00069.18 Protein kinase domain  40-313
+>GRK4_HUMAN       |=================================================| P32298.3 578 a.a.
+Pkinase          1                ______________________             (51174) PF00069.18 Protein kinase domain  187-449
+RGS              1     __________                                    (1182) PF00615.12 Regulator of G protein signaling domain  52-171
+>GRK5_HUMAN       |==================================================| P34947.1 590 a.a.
+Pkinase          1                ______________________              (51174) PF00069.18 Protein kinase domain  186-448
+RGS              1     __________                                     (1182) PF00615.12 Regulator of G protein signaling domain  52-170
+>GRK6_HUMAN       |================================================| P43250.2 576 a.a.
+Pkinase          1                ______________________            (51174) PF00069.18 Protein kinase domain  186-448
+RGS              1     __________                                   (1182) PF00615.12 Regulator of G protein signaling domain  52-170
+>GRK7_HUMAN       |===============================================| Q8WTQ7.1 553 a.a.
+Pkinase          1                ______________________           (51174) PF00069.18 Protein kinase domain  191-449
+RGS              1     __________                                  (1182) PF00615.12 Regulator of G protein signaling domain  55-175
+>GSK3A_HUMAN      |=================================================| P49840.2 483 a.a.
+Pkinase          1            _____________________________          (51174) PF00069.18 Protein kinase domain  119-403
+>GSK3B_HUMAN      |===============================================| P49841.2 420 a.a.
+Pkinase          1       _______________________________           (51174) PF00069.18 Protein kinase domain  56-340
+>GUC2C_HUMAN      |=================================================| P25092.1 1073 a.a.
+ANF_receptor     1   _______________                                 (5573) PF01094.21 Receptor family ligand binding region  53-386
+Guanylate_cyc    1                                      ________     (4141) PF00211.13 Adenylate and Guanylate cyclase catalytic domain  815-1002
+Pkinase_Tyr      1                       ___________                 (10688) PF07714.10 Protein tyrosine kinase  499-745
+>GUC2D_HUMAN      |================================================| Q02846.2 1103 a.a.
+ANF_receptor     1    ______________                                (5573) PF01094.21 Receptor family ligand binding region  72-400
+Guanylate_cyc    1                                      _________   (4141) PF00211.13 Adenylate and Guanylate cyclase catalytic domain  871-1058
+HNOBA            1                                    __            (396) PF07701.7 Heme NO binding associated  811-865
+Pkinase_Tyr      1                         ___________              (10688) PF07714.10 Protein tyrosine kinase  553-805
+>GUC2F_HUMAN      |=================================================| P51841.1 1108 a.a.
+ANF_receptor     1    ______________                                 (5573) PF01094.21 Receptor family ligand binding region  72-412
+Guanylate_cyc    1                                       ________    (4141) PF00211.13 Adenylate and Guanylate cyclase catalytic domain  875-1062
+HNOBA            1                                    __             (396) PF07701.7 Heme NO binding associated  815-869
+Pkinase_Tyr      1                          __________               (10688) PF07714.10 Protein tyrosine kinase  583-809
+>HASP_HUMAN       |==================================================| Q8TF76.2 798 a.a.
+DUF3635          1                                             ______ (96) PF12330.1 Domain of unknown function (DUF3635)  708-798
+Pkinase          1                               _____________        (51174) PF00069.18 Protein kinase domain  484-698
+>HCK_HUMAN        |================================================| P08631.5 526 a.a.
+Pkinase_Tyr      1                        _______________________   (10688) PF07714.10 Protein tyrosine kinase  262-511
+SH2              1              _______                             (2861) PF00017.17 SH2 domain  144-226
+SH3_1            1        ____                                      (5643) PF00018.21 SH3 domain  84-130
+>HIPK1_HUMAN      |=================================================| Q86Z02.1 1210 a.a.
+Pkinase          1        _____________                              (51174) PF00069.18 Protein kinase domain  190-518
+>HIPK2_HUMAN      |==================================================| Q9H2X6.2 1198 a.a.
+Pkinase          1         _____________                              (51174) PF00069.18 Protein kinase domain  199-527
+>HIPK3_HUMAN      |=================================================| Q9H422.1 1215 a.a.
+Pkinase          1        ______________                             (51174) PF00069.18 Protein kinase domain  197-525
+>HIPK4_HUMAN      |================================================| Q8NE63.1 616 a.a.
+Pkinase          1 __________________________                       (51174) PF00069.18 Protein kinase domain  11-347
+>HUNK_HUMAN       |================================================| P57058.1 714 a.a.
+Pkinase          1     _________________                            (51174) PF00069.18 Protein kinase domain  63-320
+>ICK_HUMAN        |=================================================| Q9UPZ9.1 632 a.a.
+Pkinase          1 _____________________                             (51174) PF00069.18 Protein kinase domain  4-284
+>IGF1R_HUMAN      |=================================================| P08069.1 1367 a.a.
+Furin-like       1       _____                                       (398) PF00757.13 Furin-like cysteine rich region  175-333
+Pkinase_Tyr      1                                    __________     (10688) PF07714.10 Protein tyrosine kinase  999-1266
+Recep_L_domain   2  ____       ____                                  (1169) PF01030.17 Receptor L domain  51-161 352-466
+fn3              1                              ___                  (15520) PF00041.14 Fibronectin type III domain  833-917
+>IKKA_HUMAN       |==================================================| O15111.1 745 a.a.
+IKKbetaNEMObind  1                                                __  (26) PF12179.1 I-kappa-kinase-beta NEMO binding domain  706-743
+Pkinase          1 ___________________                                (51174) PF00069.18 Protein kinase domain  15-297
+>IKKB_HUMAN       |================================================| O14920.1 756 a.a.
+IKKbetaNEMObind  1                                             __   (26) PF12179.1 I-kappa-kinase-beta NEMO binding domain  705-742
+Pkinase          1 __________________                               (51174) PF00069.18 Protein kinase domain  15-296
+>IKKE_HUMAN       |================================================| Q14164.1 716 a.a.
+Pkinase          1 ____________________                             (51174) PF00069.18 Protein kinase domain  9-302
+>ILK_HUMAN        |==============================================| Q13418.2 452 a.a.
+Ank              3    ___ ______                                  (41621) PF00023.23 Ankyrin repeat  33-65 67-98 99-131
+Pkinase_Tyr      1                    _________________________   (10688) PF07714.10 Protein tyrosine kinase  193-446
+>INSRR_HUMAN      |==================================================| P14616.2 1297 a.a.
+Furin-like       1       ______                                       (398) PF00757.13 Furin-like cysteine rich region  173-329
+Pkinase_Tyr      1                                      __________    (10688) PF07714.10 Protein tyrosine kinase  979-1246
+Recep_L_domain   2  _____       ____                                  (1169) PF01030.17 Receptor L domain  47-159 346-460
+fn3              1                                ___                 (15520) PF00041.14 Fibronectin type III domain  818-902
+>INSR_HUMAN       |==================================================| P06213.3 1382 a.a.
+Furin-like       1       ______                                       (398) PF00757.13 Furin-like cysteine rich region  179-340
+Pkinase_Tyr      1                                     __________     (10688) PF07714.10 Protein tyrosine kinase  1023-1290
+Recep_L_domain   2  ____       ____                                   (1169) PF01030.17 Receptor L domain  52-164 359-473
+fn3              1                               ___                  (15520) PF00041.14 Fibronectin type III domain  855-937
+>IRAK1_HUMAN      |================================================| P51617.2 712 a.a.
+Death            1  _____                                           (1116) PF00531.15 Death domain  28-103
+Pkinase          1               ____________________               (51174) PF00069.18 Protein kinase domain  212-518
+>IRAK2_HUMAN      |=================================================| O43187.2 625 a.a.
+Death            1  ______                                           (1116) PF00531.15 Death domain  14-94
+Pkinase          1                 _____________________             (51174) PF00069.18 Protein kinase domain  210-485
+>IRAK3_HUMAN      |==================================================| Q9Y616.1 596 a.a.
+Death            1   ______                                           (1116) PF00531.15 Death domain  26-106
+Pkinase          1              _______________________               (51174) PF00069.18 Protein kinase domain  165-443
+>IRAK4_HUMAN      |==============================================| Q9NWZ3.1 460 a.a.
+Pkinase          1                   ___________________________  (51174) PF00069.18 Protein kinase domain  187-455
+>ITK_HUMAN        |================================================| Q08881.1 620 a.a.
+BTK              1          __                                      (132) PF00779.12 BTK motif  118-149
+PH               1 ________                                         (4822) PF00169.22 PH domain  5-111
+Pkinase_Tyr      1                            ____________________  (10688) PF07714.10 Protein tyrosine kinase  363-612
+SH2              1                   ______                         (2861) PF00017.17 SH2 domain  239-323
+SH3_1            1              ____                                (5643) PF00018.21 SH3 domain  177-223
+>JAK1_HUMAN       |=================================================| P23458.2 1154 a.a.
+Pkinase_Tyr      2                         ___________ ___________   (10688) PF07714.10 Protein tyrosine kinase  583-845 875-1149
+>JAK2_HUMAN       |==================================================| O60674.2 1132 a.a.
+Pkinase_Tyr      2                        ____________ ____________   (10688) PF07714.10 Protein tyrosine kinase  545-805 849-1123
+SH2              1                  ___                               (2861) PF00017.17 SH2 domain  400-481
+>JAK3_HUMAN       |=================================================| P52333.2 1124 a.a.
+Pkinase_Tyr      2                       ___________  ____________   (10688) PF07714.10 Protein tyrosine kinase  521-777 822-1095
+>KALRN_HUMAN      |==================================================| O60229.2 2985 a.a.
+I-set            1                                          _         (19898) PF07679.9 Immunoglobulin I-set domain  2470-2564
+Pkinase          1                                             ____   (51174) PF00069.18 Protein kinase domain  2683-2937
+RhoGEF           2                      ___        ___                (2104) PF00621.13 RhoGEF domain  1285-1455 1932-2102
+Spectrin         4      _  __    __  __                               (5318) PF00435.14 Spectrin repeat  310-416 536-642 890-1003 1130-1236
+fn3              1                                           __       (15520) PF00041.14 Fibronectin type III domain  2569-2653
+>KAPCA_HUMAN      |============================================| P17612.2 351 a.a.
+Pkinase          1      ________________________________        (51174) PF00069.18 Protein kinase domain  44-298
+>KAPCB_HUMAN      |============================================| P22694.2 351 a.a.
+Pkinase          1      ________________________________        (51174) PF00069.18 Protein kinase domain  44-298
+>KAPCG_HUMAN      |============================================| P22612.3 351 a.a.
+Pkinase          1      ________________________________        (51174) PF00069.18 Protein kinase domain  44-298
+>KC1AL_HUMAN      |=================================================| Q8N752.2 337 a.a.
+Pkinase          1   _______________________________________         (51174) PF00069.18 Protein kinase domain  17-292
+>KC1A_HUMAN       |=================================================| P48729.2 337 a.a.
+Pkinase          1   _______________________________________         (51174) PF00069.18 Protein kinase domain  17-292
+>KC1D_HUMAN       |===============================================| P48730.2 415 a.a.
+Pkinase          1 _______________________________                 (51174) PF00069.18 Protein kinase domain  9-280
+>KC1E_HUMAN       |===============================================| P49674.1 416 a.a.
+Pkinase          1 _______________________________                 (51174) PF00069.18 Protein kinase domain  9-280
+>KC1G1_HUMAN      |===============================================| Q9HCP0.1 422 a.a.
+CK1gamma_C       1                                     _______     (79) PF12605.1 Casein kinase 1 gamma C terminal  331-392
+Pkinase          1     _______________________________             (51174) PF00069.18 Protein kinase domain  44-315
+>KC1G2_HUMAN      |===============================================| P78368.1 415 a.a.
+CK1gamma_C       1                                     ______      (79) PF12605.1 Casein kinase 1 gamma C terminal  332-385
+Pkinase          1      _____________________________              (51174) PF00069.18 Protein kinase domain  46-312
+>KC1G3_HUMAN      |==================================================| Q9Y6M4.2 447 a.a.
+CK1gamma_C       1                                     __________     (79) PF12605.1 Casein kinase 1 gamma C terminal  328-417
+Pkinase          1     ______________________________                 (51174) PF00069.18 Protein kinase domain  43-308
+>KCC1A_HUMAN      |===============================================| Q14012.1 370 a.a.
+Pkinase          1   ________________________________              (51174) PF00069.18 Protein kinase domain  20-276
+>KCC1B_HUMAN      |=================================================| Q6P2M8.2 343 a.a.
+Pkinase          1   ____________________________________            (51174) PF00069.18 Protein kinase domain  15-270
+>KCC1D_HUMAN      |=================================================| Q8IU85.1 385 a.a.
+Pkinase          1   ________________________________                (51174) PF00069.18 Protein kinase domain  23-279
+>KCC1G_HUMAN      |================================================| Q96NX5.3 476 a.a.
+Pkinase          1   _________________________                      (51174) PF00069.18 Protein kinase domain  23-277
+>KCC2A_HUMAN      |================================================| Q9UQM7.1 478 a.a.
+CaMKII_AD        1                                   _____________  (431) PF08332.3 Calcium/calmodulin dependent protein kinase II Association  346-473
+Pkinase          1  __________________________                      (51174) PF00069.18 Protein kinase domain  13-271
+>KCC2B_HUMAN      |================================================| Q13554.2 664 a.a.
+CaMKII_AD        1                                      __________  (431) PF08332.3 Calcium/calmodulin dependent protein kinase II Association  532-659
+Pkinase          1 ___________________                              (51174) PF00069.18 Protein kinase domain  14-272
+>KCC2D_HUMAN      |==================================================| Q13557.3 499 a.a.
+CaMKII_AD        1                                   _____________    (431) PF08332.3 Calcium/calmodulin dependent protein kinase II Association  346-473
+Pkinase          1  __________________________                        (51174) PF00069.18 Protein kinase domain  14-272
+>KCC2G_HUMAN      |===============================================| Q13555.3 558 a.a.
+CaMKII_AD        1                                    ___________  (431) PF08332.3 Calcium/calmodulin dependent protein kinase II Association  426-553
+Pkinase          1  _____________________                          (51174) PF00069.18 Protein kinase domain  14-272
+>KCC4_HUMAN       |================================================| Q16566.1 473 a.a.
+Pkinase          1     __________________________                   (51174) PF00069.18 Protein kinase domain  46-300
+>KGP1A_HUMAN      |================================================| Q13976.3 671 a.a.
+Pkinase          1                          ___________________     (51174) PF00069.18 Protein kinase domain  360-619
+cNMP_binding     2         ______   ______                          (11189) PF00027.22 Cyclic nucleotide-binding domain  121-205 239-329
+>KGP2_HUMAN       |================================================| Q13237.1 762 a.a.
+Pkinase          1                             ________________     (51174) PF00069.18 Protein kinase domain  453-711
+cNMP_binding     2            _____  ______                         (11189) PF00027.22 Cyclic nucleotide-binding domain  186-271 304-396
+>KIT_HUMAN        |=================================================| P10721.1 976 a.a.
+Pkinase_Tyr      1                              _________________    (10688) PF07714.10 Protein tyrosine kinase  589-924
+ig               1            ___                                    (1578) PF00047.18 Immunoglobulin domain  226-292
+>KKCC1_HUMAN      |==============================================| Q8N5S9.2 505 a.a.
+Pkinase          1            __________________________          (51174) PF00069.18 Protein kinase domain  128-409
+>KKCC2_HUMAN      |=================================================| Q96RR4.1 588 a.a.
+Pkinase          1              ________________________             (51174) PF00069.18 Protein kinase domain  165-446
+>KPCA_HUMAN       |================================================| P17252.3 672 a.a.
+C1_1             2   ____ ____                                      (1921) PF00130.15 Phorbol esters/diacylglycerol binding domain (C1 domain)  37-89 102-154
+C2               1             ______                               (7273) PF00168.23 C2 domain  173-260
+Pkinase          1                         __________________       (51174) PF00069.18 Protein kinase domain  339-597
+Pkinase_C        1                                             ___  (1403) PF00433.17 Protein kinase C terminal domain  622-662
+>KPCB_HUMAN       |================================================| P05771.4 671 a.a.
+C1_1             2   ____ ____                                      (1921) PF00130.15 Phorbol esters/diacylglycerol binding domain (C1 domain)  37-89 102-154
+C2               1             ______                               (7273) PF00168.23 C2 domain  173-260
+Pkinase          1                         __________________       (51174) PF00069.18 Protein kinase domain  342-600
+Pkinase_C        1                                             ___  (1403) PF00433.17 Protein kinase C terminal domain  620-666
+>KPCD1_HUMAN      |================================================| Q15139.2 912 a.a.
+C1_1             2        ___    ___                                (1921) PF00130.15 Phorbol esters/diacylglycerol binding domain (C1 domain)  147-198 271-323
+PH               1                       ______                     (4822) PF00169.22 PH domain  423-541
+Pkinase          1                               ______________     (51174) PF00069.18 Protein kinase domain  585-839
+>KPCD2_HUMAN      |=================================================| Q9BZL6.1 878 a.a.
+C1_1             2        ___    ___                                 (1921) PF00130.15 Phorbol esters/diacylglycerol binding domain (C1 domain)  139-191 265-317
+PH               1                       ______                      (4822) PF00169.22 PH domain  398-507
+Pkinase          1                               ______________      (51174) PF00069.18 Protein kinase domain  553-807
+>KPCD3_HUMAN      |==================================================| O94806.1 890 a.a.
+C1_1             2         ___    ___                                 (1921) PF00130.15 Phorbol esters/diacylglycerol binding domain (C1 domain)  155-206 272-324
+PH               1                        ______                      (4822) PF00169.22 PH domain  417-532
+Pkinase          1                                 ______________     (51174) PF00069.18 Protein kinase domain  577-832
+>KPCD_HUMAN       |=================================================| Q05655.2 676 a.a.
+C1_1             2            ____ ____                              (1921) PF00130.15 Phorbol esters/diacylglycerol binding domain (C1 domain)  159-211 231-283
+Pkinase          1                         ___________________       (51174) PF00069.18 Protein kinase domain  349-603
+Pkinase_C        1                                             ___   (1403) PF00433.17 Protein kinase C terminal domain  623-669
+>KPCE_HUMAN       |==================================================| Q02156.1 737 a.a.
+C1_1             2            ___  ___                                (1921) PF00130.15 Phorbol esters/diacylglycerol binding domain (C1 domain)  170-222 243-295
+C2               1 ______                                             (7273) PF00168.23 C2 domain  8-99
+Pkinase          1                            _________________       (51174) PF00069.18 Protein kinase domain  408-668
+Pkinase_C        1                                              ___   (1403) PF00433.17 Protein kinase C terminal domain  688-734
+>KPCG_HUMAN       |==================================================| P05129.3 697 a.a.
+C1_1             2   ____ ___                                         (1921) PF00130.15 Phorbol esters/diacylglycerol binding domain (C1 domain)  36-88 101-153
+C2               1             ______                                 (7273) PF00168.23 C2 domain  173-260
+Pkinase          1                          __________________        (51174) PF00069.18 Protein kinase domain  351-604
+Pkinase_C        1                                              ___   (1403) PF00433.17 Protein kinase C terminal domain  639-679
+>KPCI_HUMAN       |==================================================| P41743.2 596 a.a.
+C1_1             1            _____                                   (1921) PF00130.15 Phorbol esters/diacylglycerol binding domain (C1 domain)  141-193
+PB1              1   ______                                           (939) PF00564.17 PB1 domain  25-107
+Pkinase          1                      ______________________        (51174) PF00069.18 Protein kinase domain  254-522
+Pkinase_C        1                                              ____  (1403) PF00433.17 Protein kinase C terminal domain  542-588
+>KPCL_HUMAN       |=================================================| P24723.3 683 a.a.
+C1_1             2             ____ ____                             (1921) PF00130.15 Phorbol esters/diacylglycerol binding domain (C1 domain)  172-225 246-298
+C2               1 _______                                           (7273) PF00168.23 C2 domain  12-102
+Pkinase          1                          __________________       (51174) PF00069.18 Protein kinase domain  355-614
+Pkinase_C        1                                              ___  (1403) PF00433.17 Protein kinase C terminal domain  634-680
+>KPCT_HUMAN       |================================================| Q04759.3 706 a.a.
+C1_1             2           ____ ___                               (1921) PF00130.15 Phorbol esters/diacylglycerol binding domain (C1 domain)  160-212 232-284
+Pkinase          1                          _________________       (51174) PF00069.18 Protein kinase domain  380-634
+Pkinase_C        1                                            ___   (1403) PF00433.17 Protein kinase C terminal domain  654-700
+>KPCZ_HUMAN       |==================================================| Q05513.4 592 a.a.
+C1_1             1           _____                                    (1921) PF00130.15 Phorbol esters/diacylglycerol binding domain (C1 domain)  131-183
+PB1              1  _______                                           (939) PF00564.17 PB1 domain  15-98
+Pkinase          1                     _______________________        (51174) PF00069.18 Protein kinase domain  252-518
+Pkinase_C        1                                             ____   (1403) PF00433.17 Protein kinase C terminal domain  538-584
+>KPSH1_HUMAN      |================================================| P11801.4 424 a.a.
+Pkinase          1           _____________________________          (51174) PF00069.18 Protein kinase domain  98-355
+>KPSH2_HUMAN      |=================================================| Q96QS6.1 385 a.a.
+Pkinase          1        _________________________________          (51174) PF00069.18 Protein kinase domain  63-320
+>KS6A1_HUMAN      |=================================================| Q15418.2 735 a.a.
+Pkinase          2     _________________      __________________     (51174) PF00069.18 Protein kinase domain  62-321 418-675
+Pkinase_C        1                       ___                         (1403) PF00433.17 Protein kinase C terminal domain  341-385
+>KS6A2_HUMAN      |=================================================| Q15349.2 733 a.a.
+Pkinase          2    __________________      _________________      (51174) PF00069.18 Protein kinase domain  59-318 415-672
+Pkinase_C        1                       ___                         (1403) PF00433.17 Protein kinase C terminal domain  338-382
+>KS6A3_HUMAN      |==================================================| P51812.1 740 a.a.
+Pkinase          2     _________________       _________________      (51174) PF00069.18 Protein kinase domain  68-327 422-679
+Pkinase_C        1                        __                          (1403) PF00433.17 Protein kinase C terminal domain  350-389
+>KS6A4_HUMAN      |=================================================| O75676.1 772 a.a.
+Pkinase          2   ________________       _________________        (51174) PF00069.18 Protein kinase domain  33-301 413-674
+Pkinase_C        1                     __                            (1403) PF00433.17 Protein kinase C terminal domain  321-365
+>KS6A5_HUMAN      |================================================| O75582.1 802 a.a.
+Pkinase          2   ________________       _______________         (51174) PF00069.18 Protein kinase domain  49-318 427-687
+Pkinase_C        1                    ___                           (1403) PF00433.17 Protein kinase C terminal domain  338-381
+>KS6A6_HUMAN      |==================================================| Q9UK32.1 745 a.a.
+Pkinase          2     __________________      _________________      (51174) PF00069.18 Protein kinase domain  73-330 426-683
+Pkinase_C        1                        ___                         (1403) PF00433.17 Protein kinase C terminal domain  352-394
+>KS6B1_HUMAN      |================================================| P23443.2 525 a.a.
+Pkinase          1         ________________________                 (51174) PF00069.18 Protein kinase domain  91-352
+Pkinase_C        1                                  ____            (1403) PF00433.17 Protein kinase C terminal domain  373-417
+>KS6B2_HUMAN      |=================================================| Q9UBS0.1 482 a.a.
+Pkinase          1       __________________________                  (51174) PF00069.18 Protein kinase domain  67-328
+Pkinase_C        1                                   _____           (1403) PF00433.17 Protein kinase C terminal domain  348-393
+>KS6C1_HUMAN      |=================================================| Q96S38.2 1066 a.a.
+MIT              1           ___                                     (495) PF04212.11 MIT (microtubule interacting and transport) domain  239-307
+PX               1 _____                                             (2400) PF00787.17 PX domain  9-127
+Pkinase          1                                        _________  (51174) PF00069.18 Protein kinase domain  867-1056
+>KSR1_HUMAN       |=================================================| Q8IVT5.2 921 a.a.
+Pkinase_Tyr      1                                 ______________    (10688) PF07714.10 Protein tyrosine kinase  611-875
+>KSR2_HUMAN       |================================================| Q6VAB6.2 950 a.a.
+Pkinase_Tyr      1                                  _____________   (10688) PF07714.10 Protein tyrosine kinase  666-928
+>KSYK_HUMAN       |=================================================| P43405.1 635 a.a.
+Pkinase_Tyr      1                             ____________________  (10688) PF07714.10 Protein tyrosine kinase  371-626
+SH2              2  ______     ______                                (2861) PF00017.17 SH2 domain  15-92 168-244
+>LATS1_HUMAN      |==================================================| O95835.1 1130 a.a.
+Pkinase          2                               ________ ____        (51174) PF00069.18 Protein kinase domain  705-879 895-1010
+Pkinase_C        1                                             ___    (1403) PF00433.17 Protein kinase C terminal domain  1029-1084
+UBA              1     __                                             (3729) PF00627.24 UBA/TS-N domain  101-138
+>LATS2_HUMAN      |==================================================| Q9NRM7.2 1088 a.a.
+Pkinase          2                               _______ ______       (51174) PF00069.18 Protein kinase domain  668-833 858-973
+Pkinase_C        1                                              __    (1403) PF00433.17 Protein kinase C terminal domain  992-1046
+>LCK_HUMAN        |===============================================| P06239.6 509 a.a.
+Pkinase_Tyr      1                       ______________________    (10688) PF07714.10 Protein tyrosine kinase  245-494
+SH2              1            ________                             (2861) PF00017.17 SH2 domain  127-209
+SH3_1            1       ____                                      (5643) PF00018.21 SH3 domain  67-113
+>LIMK1_HUMAN      |==================================================| P53667.3 647 a.a.
+LIM              2  _____ ___                                         (5884) PF00412.15 LIM domain  25-80 84-142
+PDZ              1             _______                                (13044) PF00595.17 PDZ domain (Also known as DHR or GLGF)  165-255
+Pkinase_Tyr      1                           ____________________     (10688) PF07714.10 Protein tyrosine kinase  339-604
+>LIMK2_HUMAN      |==================================================| P53671.1 638 a.a.
+LIM              2 _____ ___                                          (5884) PF00412.15 LIM domain  12-68 72-128
+PDZ              1            _______                                 (13044) PF00595.17 PDZ domain (Also known as DHR or GLGF)  152-236
+Pkinase_Tyr      1                          _____________________     (10688) PF07714.10 Protein tyrosine kinase  331-601
+>LMTK1_HUMAN      |==================================================| Q6ZMQ8.2 1374 a.a.
+Pkinase_Tyr      1     __________                                     (10688) PF07714.10 Protein tyrosine kinase  125-395
+>LMTK2_HUMAN      |=================================================| Q8IWU2.2 1503 a.a.
+Pkinase_Tyr      1     _________                                     (10688) PF07714.10 Protein tyrosine kinase  137-407
+>LMTK3_HUMAN      |=================================================| Q96Q04.2 1460 a.a.
+Pkinase_Tyr      1     _________                                     (10688) PF07714.10 Protein tyrosine kinase  133-408
+>LRRK1_HUMAN      |==================================================| Q38SD2.2 2038 a.a.
+LRR_1            3        _ _                                         (51443) PF00560.26 Leucine Rich Repeat  326-345 353-374 404-426
+Miro             1                 ___                                (578) PF08477.6 Miro-like protein  663-783
+Pkinase          1                               _______              (51174) PF00069.18 Protein kinase domain  1266-1543
+>LRRK2_HUMAN      |==================================================| Q5S007.1 2527 a.a.
+LRR_1            3                     _ _ _                          (51443) PF00560.26 Leucine Rich Repeat  1036-1057 1130-1152 1246-1267
+Miro             1                           __                       (578) PF08477.6 Miro-like protein  1336-1455
+Pkinase          1                                     _____          (51174) PF00069.18 Protein kinase domain  1882-2132
+>LTK_HUMAN        |================================================| P29376.3 864 a.a.
+Pkinase_Tyr      1                             _______________      (10688) PF07714.10 Protein tyrosine kinase  510-777
+>LYN_HUMAN        |===============================================| P07948.3 512 a.a.
+Pkinase_Tyr      1                       _______________________   (10688) PF07714.10 Protein tyrosine kinase  247-497
+SH2              1            ________                             (2861) PF00017.17 SH2 domain  129-211
+SH3_1            1       ____                                      (5643) PF00018.21 SH3 domain  69-115
+>M3K10_HUMAN      |================================================| Q02779.3 954 a.a.
+Pkinase_Tyr      1     _____________                                (10688) PF07714.10 Protein tyrosine kinase  98-357
+>M3K11_HUMAN      |==================================================| Q16584.1 847 a.a.
+Pkinase_Tyr      1       ________________                             (10688) PF07714.10 Protein tyrosine kinase  117-376
+>M3K12_HUMAN      |================================================| Q12852.2 859 a.a.
+Pkinase_Tyr      1       ______________                             (10688) PF07714.10 Protein tyrosine kinase  126-364
+>M3K13_HUMAN      |=================================================| O43283.1 966 a.a.
+Pkinase_Tyr      1         ____________                              (10688) PF07714.10 Protein tyrosine kinase  168-407
+>M3K14_HUMAN      |==================================================| Q99558.2 947 a.a.
+Pkinase          1                      _____________                 (51174) PF00069.18 Protein kinase domain  401-650
+>M3K15_HUMAN      |=================================================| Q6ZN16.2 1313 a.a.
+Pkinase          1                         _________                 (51174) PF00069.18 Protein kinase domain  654-908
+>M3K1_HUMAN       |=================================================| Q13233.4 1512 a.a.
+Pkinase          1                                         ________  (51174) PF00069.18 Protein kinase domain  1243-1508
+>M3K2_HUMAN       |================================================| Q9Y2U5.2 619 a.a.
+PB1              1    ______                                        (939) PF00564.17 PB1 domain  43-122
+Pkinase          1                            ____________________  (51174) PF00069.18 Protein kinase domain  356-616
+>M3K3_HUMAN       |=================================================| Q99759.2 626 a.a.
+PB1              1    ______                                         (939) PF00564.17 PB1 domain  44-123
+Pkinase          1                            ____________________   (51174) PF00069.18 Protein kinase domain  362-622
+>M3K4_HUMAN       |=================================================| Q9Y6R4.1 1607 a.a.
+Pkinase          1                                         ________  (51174) PF00069.18 Protein kinase domain  1342-1600
+>M3K5_HUMAN       |==================================================| Q99683.1 1374 a.a.
+Pkinase          1                         _________                  (51174) PF00069.18 Protein kinase domain  682-938
+>M3K6_HUMAN       |==================================================| O95382.2 1288 a.a.
+Pkinase          1                         __________                 (51174) PF00069.18 Protein kinase domain  650-906
+>M3K7_HUMAN       |===============================================| O43318.1 606 a.a.
+Pkinase_Tyr      1   ___________________                           (10688) PF07714.10 Protein tyrosine kinase  36-284
+>M3K8_HUMAN       |===============================================| P41279.2 467 a.a.
+Pkinase          1              _________________________          (51174) PF00069.18 Protein kinase domain  140-388
+>M3K9_HUMAN       |================================================| P80192.3 1104 a.a.
+Pkinase          1       ___________                                (51174) PF00069.18 Protein kinase domain  144-404
+>M3KL4_HUMAN      |==================================================| Q5TCX8.1 1036 a.a.
+Pkinase_Tyr      1      _____________                                 (10688) PF07714.10 Protein tyrosine kinase  124-398
+SH3_1            1   __                                               (5643) PF00018.21 SH3 domain  44-94
+>M4K1_HUMAN       |=================================================| Q92918.1 833 a.a.
+CNH              1                              _________________    (564) PF00780.15 CNH domain  505-797
+Pkinase          1 ________________                                  (51174) PF00069.18 Protein kinase domain  17-274
+>M4K2_HUMAN       |=================================================| Q12851.2 820 a.a.
+CNH              1                             __________________    (564) PF00780.15 CNH domain  492-790
+Pkinase          1 ________________                                  (51174) PF00069.18 Protein kinase domain  16-273
+>M4K3_HUMAN       |==================================================| Q8IVH8.1 894 a.a.
+CNH              1                                _________________   (564) PF00780.15 CNH domain  566-864
+Pkinase          1 _______________                                    (51174) PF00069.18 Protein kinase domain  16-273
+>M4K4_HUMAN       |==================================================| O95819.2 1239 a.a.
+CNH              1                                      ___________   (564) PF00780.15 CNH domain  930-1210
+Pkinase          1 ___________                                        (51174) PF00069.18 Protein kinase domain  25-289
+>M4K5_HUMAN       |==================================================| Q9Y4K4.1 846 a.a.
+CNH              1                               __________________   (564) PF00780.15 CNH domain  516-816
+Pkinase          1  _______________                                   (51174) PF00069.18 Protein kinase domain  20-277
+>MAK_HUMAN        |================================================| P20794.2 623 a.a.
+Pkinase          1 _____________________                            (51174) PF00069.18 Protein kinase domain  4-284
+>MAPK2_HUMAN      |=============================================| P49137.1 400 a.a.
+Pkinase          1        _____________________________          (51174) PF00069.18 Protein kinase domain  64-325
+>MAPK3_HUMAN      |================================================| Q16644.1 382 a.a.
+Pkinase          1      _________________________________           (51174) PF00069.18 Protein kinase domain  44-304
+>MAPK5_HUMAN      |================================================| Q8IW41.2 473 a.a.
+Pkinase          1   ____________________________                   (51174) PF00069.18 Protein kinase domain  22-304
+>MARK1_HUMAN      |==================================================| Q9P0L2.2 795 a.a.
+KA1              1                                               ____ (278) PF02149.12 Kinase associated domain 1  749-795
+Pkinase          1    ________________                                (51174) PF00069.18 Protein kinase domain  60-311
+>MARK2_HUMAN      |==================================================| Q7KZI7.2 788 a.a.
+KA1              1                                               ____ (278) PF02149.12 Kinase associated domain 1  742-788
+Pkinase          1    ________________                                (51174) PF00069.18 Protein kinase domain  53-304
+>MARK3_HUMAN      |=================================================| P27448.2 776 a.a.
+KA1              1                                              ____ (278) PF02149.12 Kinase associated domain 1  730-776
+Pkinase          1    _________________                              (51174) PF00069.18 Protein kinase domain  56-330
+>MARK4_HUMAN      |===============================================| Q96L34.1 752 a.a.
+KA1              1                                             ___ (278) PF02149.12 Kinase associated domain 1  706-752
+Pkinase          1    ________________                             (51174) PF00069.18 Protein kinase domain  59-310
+UBA              1                     __                          (3729) PF00627.24 UBA/TS-N domain  331-366
+>MAST1_HUMAN      |==================================================| Q9Y2H9.2 1570 a.a.
+DUF1908          1  _________                                         (67) PF08926.4 Domain of unknown function (DUF1908)  61-338
+PDZ              1                               __                   (13044) PF00595.17 PDZ domain (Also known as DHR or GLGF)  968-1052
+Pkinase          1            _________                               (51174) PF00069.18 Protein kinase domain  374-647
+>MAST2_HUMAN      |==================================================| Q6P0Q8.2 1798 a.a.
+DUF1908          1      ________                                      (67) PF08926.4 Domain of unknown function (DUF1908)  201-476
+PDZ              1                               ___                  (13044) PF00595.17 PDZ domain (Also known as DHR or GLGF)  1105-1188
+Pkinase          1               _______                              (51174) PF00069.18 Protein kinase domain  512-785
+>MAST3_HUMAN      |=================================================| O60307.2 1309 a.a.
+DUF1908          1   __________                                      (67) PF08926.4 Domain of unknown function (DUF1908)  58-332
+PDZ              1                                    ___            (13044) PF00595.17 PDZ domain (Also known as DHR or GLGF)  951-1034
+Pkinase          1              __________                           (51174) PF00069.18 Protein kinase domain  367-640
+>MAST4_HUMAN      |==================================================| O15021.3 2626 a.a.
+DUF1908          1     ______                                         (67) PF08926.4 Domain of unknown function (DUF1908)  258-535
+PDZ              1                      __                            (13044) PF00595.17 PDZ domain (Also known as DHR or GLGF)  1144-1229
+Pkinase          1           _____                                    (51174) PF00069.18 Protein kinase domain  573-846
+>MASTL_HUMAN      |=================================================| Q96GX5.1 879 a.a.
+Pkinase          2  __________                             ______    (51174) PF00069.18 Protein kinase domain  35-203 733-835
+>MATK_HUMAN       |===============================================| P42679.1 507 a.a.
+Pkinase_Tyr      1                      ______________________     (10688) PF07714.10 Protein tyrosine kinase  235-478
+SH2              1            ______                               (2861) PF00017.17 SH2 domain  122-196
+SH3_1            1      ____                                       (5643) PF00018.21 SH3 domain  59-100
+>MELK_HUMAN       |===============================================| Q14680.3 651 a.a.
+KA1              1                                            ____ (278) PF02149.12 Kinase associated domain 1  605-651
+Pkinase          1 __________________                              (51174) PF00069.18 Protein kinase domain  11-263
+>MERTK_HUMAN      |==================================================| Q12866.2 999 a.a.
+I-set            1     _____                                          (19898) PF07679.9 Immunoglobulin I-set domain  94-187
+Pkinase_Tyr      1                              _____________         (10688) PF07714.10 Protein tyrosine kinase  587-854
+fn3              1               ____                                 (15520) PF00041.14 Fibronectin type III domain  285-371
+>MET_HUMAN        |==================================================| P08581.4 1390 a.a.
+PSI              1                   __                               (772) PF01437.18 Plexin repeat  519-562
+Pkinase_Tyr      1                                       _________    (10688) PF07714.10 Protein tyrosine kinase  1078-1337
+Sema             1  ________________                                  (693) PF01403.12 Sema domain  52-500
+TIG              3                     ___ __ __                      (2555) PF01833.17 IPT/TIG domain  563-654 657-738 742-828
+>MINK1_HUMAN      |==================================================| Q8N4C8.1 1332 a.a.
+CNH              1                                      ___________   (564) PF00780.15 CNH domain  1023-1303
+Pkinase          1 __________                                         (51174) PF00069.18 Protein kinase domain  25-289
+>MK01_HUMAN       |=============================================| P28482.3 360 a.a.
+Pkinase          1    ____________________________________       (51174) PF00069.18 Protein kinase domain  25-313
+>MK03_HUMAN       |================================================| P27361.4 379 a.a.
+Pkinase          1      ____________________________________        (51174) PF00069.18 Protein kinase domain  42-330
+>MK04_HUMAN       |=================================================| P31152.2 587 a.a.
+Pkinase          1  _________________________                        (51174) PF00069.18 Protein kinase domain  20-312
+>MK06_HUMAN       |=================================================| Q16659.1 721 a.a.
+Pkinase          1  ____________________                             (51174) PF00069.18 Protein kinase domain  20-316
+>MK07_HUMAN       |================================================| Q13164.2 816 a.a.
+Pkinase          1    _________________                             (51174) PF00069.18 Protein kinase domain  55-347
+>MK08_HUMAN       |================================================| P45983.2 427 a.a.
+Pkinase          1   _________________________________              (51174) PF00069.18 Protein kinase domain  26-321
+>MK09_HUMAN       |================================================| P45984.2 424 a.a.
+Pkinase          1   _________________________________              (51174) PF00069.18 Protein kinase domain  26-321
+>MK10_HUMAN       |===============================================| P53779.2 464 a.a.
+Pkinase          1       _____________________________             (51174) PF00069.18 Protein kinase domain  64-359
+>MK11_HUMAN       |==============================================| Q15759.2 364 a.a.
+Pkinase          1   ____________________________________         (51174) PF00069.18 Protein kinase domain  24-308
+>MK12_HUMAN       |==============================================| P53778.3 367 a.a.
+Pkinase          1    ___________________________________         (51174) PF00069.18 Protein kinase domain  27-311
+>MK13_HUMAN       |==============================================| O15264.1 365 a.a.
+Pkinase          1    ___________________________________         (51174) PF00069.18 Protein kinase domain  25-308
+>MK14_HUMAN       |=============================================| Q16539.3 360 a.a.
+Pkinase          1   ____________________________________        (51174) PF00069.18 Protein kinase domain  24-308
+>MK15_HUMAN       |==================================================| Q8TD08.1 544 a.a.
+Pkinase          1  __________________________                        (51174) PF00069.18 Protein kinase domain  13-304
+>MKNK1_HUMAN      |===============================================| Q9BUB5.1 465 a.a.
+Pkinase          1     _________________________________           (51174) PF00069.18 Protein kinase domain  50-374
+>MKNK2_HUMAN      |===============================================| Q9HBH9.3 465 a.a.
+Pkinase          1         ____________________________            (51174) PF00069.18 Protein kinase domain  84-368
+>MLKL_HUMAN       |================================================| Q8NB16.1 471 a.a.
+Pkinase_Tyr      1                     __________________________   (10688) PF07714.10 Protein tyrosine kinase  209-466
+>MLTK_HUMAN       |================================================| Q9NYL2.2 800 a.a.
+Pkinase_Tyr      1 _______________                                  (10688) PF07714.10 Protein tyrosine kinase  16-260
+SAM_1            1                    _____                         (1691) PF00536.23 SAM domain (Sterile alpha motif)  337-408
+>MOK_HUMAN        |===============================================| Q9UQ07.1 419 a.a.
+Pkinase          1 _______________________________                 (51174) PF00069.18 Protein kinase domain  4-285
+>MOS_HUMAN        |==================================================| P00540.1 346 a.a.
+Pkinase          1         ________________________________________   (51174) PF00069.18 Protein kinase domain  60-338
+>MP2K1_HUMAN      |==================================================| Q02750.2 393 a.a.
+Pkinase          1         _____________________________________      (51174) PF00069.18 Protein kinase domain  68-361
+>MP2K2_HUMAN      |=============================================| P36507.1 400 a.a.
+Pkinase          1        __________________________________     (51174) PF00069.18 Protein kinase domain  72-369
+>MP2K3_HUMAN      |==================================================| P46734.2 347 a.a.
+Pkinase          1          _____________________________________     (51174) PF00069.18 Protein kinase domain  64-325
+>MP2K4_HUMAN      |==================================================| P45985.1 399 a.a.
+Pkinase          1             _________________________________      (51174) PF00069.18 Protein kinase domain  102-367
+>MP2K5_HUMAN      |==================================================| Q13163.2 448 a.a.
+PB1              1  __________                                        (939) PF00564.17 PB1 domain  18-101
+Pkinase          1                   ____________________________     (51174) PF00069.18 Protein kinase domain  166-419
+>MP2K6_HUMAN      |================================================| P52564.1 334 a.a.
+Pkinase          1        _____________________________________     (51174) PF00069.18 Protein kinase domain  53-314
+>MP2K7_HUMAN      |===============================================| O14733.2 419 a.a.
+Pkinase          1              _____________________________      (51174) PF00069.18 Protein kinase domain  120-380
+>MRCKA_HUMAN      |==================================================| Q5VT25.1 1732 a.a.
+C1_1             1                             __                     (1921) PF00130.15 Phorbol esters/diacylglycerol binding domain (C1 domain)  1013-1065
+CNH              1                                    _______         (564) PF00780.15 CNH domain  1232-1496
+DMPK_coil        1                          _                         (46) PF08826.3 DMPK coiled coil domain like  881-941
+Pkinase          1   _______                                          (51174) PF00069.18 Protein kinase domain  77-343
+Pkinase_C        1           _                                        (1403) PF00433.17 Protein kinase C terminal domain  361-407
+>MRCKB_HUMAN      |=================================================| Q9Y5S2.2 1711 a.a.
+C1_1             1                              _                    (1921) PF00130.15 Phorbol esters/diacylglycerol binding domain (C1 domain)  1026-1078
+CNH              1                                    ________       (564) PF00780.15 CNH domain  1245-1510
+DMPK_coil        1                          _                        (46) PF08826.3 DMPK coiled coil domain like  878-939
+Pkinase          1   _______                                         (51174) PF00069.18 Protein kinase domain  76-342
+Pkinase_C        1           _                                       (1403) PF00433.17 Protein kinase C terminal domain  360-407
+>MRCKG_HUMAN      |=================================================| Q6DT37.1 1551 a.a.
+C1_1             1                            __                     (1921) PF00130.15 Phorbol esters/diacylglycerol binding domain (C1 domain)  879-929
+CNH              1                                   ________        (564) PF00780.15 CNH domain  1097-1363
+DMPK_coil        1                        __                         (46) PF08826.3 DMPK coiled coil domain like  744-801
+PH               1                              ____                 (4822) PF00169.22 PH domain  948-1066
+Pkinase          1   ________                                        (51174) PF00069.18 Protein kinase domain  71-337
+Pkinase_C        1            _                                      (1403) PF00433.17 Protein kinase C terminal domain  355-402
+>MST4_HUMAN       |===============================================| Q9P289.2 416 a.a.
+Pkinase          1   ____________________________                  (51174) PF00069.18 Protein kinase domain  24-274
+>MUSK_HUMAN       |=================================================| O15146.1 869 a.a.
+Fz               1                  _______                          (721) PF01392.15 Fz domain  317-448
+I-set            3  _____ ____ ____                                  (19898) PF07679.9 Immunoglobulin I-set domain  28-117 121-208 212-298
+Pkinase_Tyr      1                                ________________   (10688) PF07714.10 Protein tyrosine kinase  575-856
+>MYLK2_HUMAN      |==================================================| Q9H1R3.3 596 a.a.
+Pkinase          1                        ______________________      (51174) PF00069.18 Protein kinase domain  285-540
+>MYLK3_HUMAN      |=================================================| Q32MK0.3 819 a.a.
+Pkinase          1                               _______________     (51174) PF00069.18 Protein kinase domain  515-770
+>MYLK4_HUMAN      |=================================================| Q86YV6.2 388 a.a.
+Pkinase          1              ________________________________     (51174) PF00069.18 Protein kinase domain  106-361
+>MYLK_HUMAN       |==================================================| Q15746.3 1914 a.a.
+I-set            9 ___ __    __ __ __ _        __ ___            __   (19898) PF07679.9 Immunoglobulin I-set domain  33-123 161-250 414-504 514-600 623-712 721-811 1098-1187 1238-1327 1809-1899
+Pkinase          1                                      _______       (51174) PF00069.18 Protein kinase domain  1464-1719
+fn3              1                                   __               (15520) PF00041.14 Fibronectin type III domain  1332-1416
+>MYO3A_HUMAN      |=================================================| Q8NEV4.2 1616 a.a.
+IQ               3                                 _       _         (5853) PF00612.20 IQ calmodulin-binding motif  1057-1076 1083-1101 1347-1367
+Myosin_head      1           _____________________                   (2357) PF00063.14 Myosin head (motor domain)  340-1041
+Pkinase          1 ________                                          (51174) PF00069.18 Protein kinase domain  21-287
+>MYO3B_HUMAN      |==================================================| Q8WXR4.3 1341 a.a.
+IQ               1                                         _          (5853) PF00612.20 IQ calmodulin-binding motif  1088-1108
+Myosin_head      1             __________________________             (2357) PF00063.14 Myosin head (motor domain)  345-1046
+Pkinase          1 __________                                         (51174) PF00069.18 Protein kinase domain  27-293
+>NEK10_HUMAN      |=================================================| Q6ZWH5.2 1172 a.a.
+Pkinase          1                      ___________                  (51174) PF00069.18 Protein kinase domain  519-783
+>NEK11_HUMAN      |==================================================| Q8NG66.1 645 a.a.
+Pkinase          1   ____________________                             (51174) PF00069.18 Protein kinase domain  29-287
+>NEK1_HUMAN       |=================================================| Q96PY6.2 1258 a.a.
+Pkinase          1 _________                                         (51174) PF00069.18 Protein kinase domain  4-258
+>NEK2_HUMAN       |==================================================| P51955.1 445 a.a.
+Pkinase          1 ______________________________                     (51174) PF00069.18 Protein kinase domain  8-271
+>NEK3_HUMAN       |==============================================| P51956.2 506 a.a.
+Pkinase          1 _______________________                        (51174) PF00069.18 Protein kinase domain  4-257
+>NEK4_HUMAN       |==================================================| P51957.2 841 a.a.
+Pkinase          1 _______________                                    (51174) PF00069.18 Protein kinase domain  6-261
+>NEK5_HUMAN       |================================================| Q6P3R8.1 708 a.a.
+Pkinase          1 _________________                                (51174) PF00069.18 Protein kinase domain  4-259
+>NEK6_HUMAN       |=============================================| Q9HC98.2 313 a.a.
+Pkinase          1       _____________________________________   (51174) PF00069.18 Protein kinase domain  45-306
+>NEK7_HUMAN       |============================================| Q8TDX7.1 302 a.a.
+Pkinase          1     _____________________________________    (51174) PF00069.18 Protein kinase domain  34-292
+>NEK8_HUMAN       |==================================================| Q86SG6.1 692 a.a.
+Pkinase          1 __________________                                 (51174) PF00069.18 Protein kinase domain  4-258
+RCC1             4                              ___ ___     ___ ___   (6979) PF00415.11 Regulator of chromosome condensation (RCC1) repeat  410-458 463-510 579-628 631-681
+>NEK9_HUMAN       |=================================================| Q8TD19.2 979 a.a.
+Pkinase          1   _____________                                   (51174) PF00069.18 Protein kinase domain  52-308
+RCC1             4                    ___ _ __   ___                 (6979) PF00415.11 Regulator of chromosome condensation (RCC1) repeat  390-441 444-495 499-547 615-665
+>NIM1_HUMAN       |=================================================| Q8IY84.1 436 a.a.
+Pkinase          1         ____________________________              (51174) PF00069.18 Protein kinase domain  74-325
+>NLK_HUMAN        |===============================================| Q9UBE8.1 515 a.a.
+Pkinase          1            __________________________           (51174) PF00069.18 Protein kinase domain  126-415
+>NRBP_HUMAN       |=================================================| Q9UHY1.1 535 a.a.
+Pkinase          1        ______________________                     (51174) PF00069.18 Protein kinase domain  80-327
+>NRK_HUMAN        |==================================================| Q7Z2Y5.2 1582 a.a.
+CNH              1                                      ___________   (564) PF00780.15 CNH domain  1213-1549
+Pkinase          1 _________                                          (51174) PF00069.18 Protein kinase domain  25-313
+>NTKL_HUMAN       |================================================| Q96KG9.1 808 a.a.
+Pkinase          1  _____________                                   (51174) PF00069.18 Protein kinase domain  32-249
+>NTRK1_HUMAN      |==================================================| P04629.4 796 a.a.
+Pkinase_Tyr      1                                _________________   (10688) PF07714.10 Protein tyrosine kinase  510-781
+>NTRK2_HUMAN      |=================================================| Q16620.1 822 a.a.
+I-set            2            _____ _____                            (19898) PF07679.9 Immunoglobulin I-set domain  197-283 298-377
+LRRNT            1  __                                               (1893) PF01462.11 Leucine rich repeat N-terminal domain  31-60
+Pkinase_Tyr      1                                ________________   (10688) PF07714.10 Protein tyrosine kinase  538-807
+>NTRK3_HUMAN      |==================================================| Q16288.2 839 a.a.
+I-set            1                   _____                            (19898) PF07679.9 Immunoglobulin I-set domain  317-392
+LRRNT            1  __                                                (1893) PF01462.11 Leucine rich repeat N-terminal domain  31-58
+Pkinase_Tyr      1                                _________________   (10688) PF07714.10 Protein tyrosine kinase  538-824
+ig               1              ____                                  (1578) PF00047.18 Immunoglobulin domain  224-289
+>NUAK1_HUMAN      |================================================| O60285.1 661 a.a.
+Pkinase          1    __________________                            (51174) PF00069.18 Protein kinase domain  55-306
+>NUAK2_HUMAN      |=================================================| Q9H093.1 628 a.a.
+Pkinase          1     ___________________                           (51174) PF00069.18 Protein kinase domain  53-303
+>OBSCN_HUMAN      |==================================================| Q5VST9.3 7968 a.a.
+I-set           48 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _  _ _      _    (19898) PF07679.9 Immunoglobulin I-set domain  10-99 110-201 241-328 333-415 713-784 803-883 892-969 984-1062 1076-1155 1168-1249 1260-1337 1352-1430 1443-1526 1535-1615 1627-1711 1716-1804 1899-1984 2166-2251 2290-2373 2468-2556 2558-2642 2647-2732 2736-2822 2827-2912 2916-3000 3096-3180 3185-3269 3274-3357 3362-3446 3450-3534 3538-3621 3626-3709 3714-3798 3802-3886 3890-3976 3979-4065 4068-4154 4159-4246 4250-4337 4626-4712 4898-4988 5126-5216 5260-5350 5371-5466 6014-6104 6108-6199 6357-6446 7463-7552
+IQ               1                               _                    (5853) PF00612.20 IQ calmodulin-binding motif  4873-4893
+Pkinase          2                                         __     __  (51174) PF00069.18 Protein kinase domain  6468-6721 7672-7924
+RhoGEF           1                                    _               (2104) PF00621.13 RhoGEF domain  5697-5876
+fn3              2    _                        _                      (15520) PF00041.14 Fibronectin type III domain  514-600 4524-4607
+>OXSR1_HUMAN      |================================================| O95747.1 527 a.a.
+OSR1_C           1                                        ___       (107) PF12202.1 Oxidative-stress-responsive kinase 1 C terminal  434-465
+Pkinase          1  _________________________                       (51174) PF00069.18 Protein kinase domain  17-291
+>PACE1_HUMAN      |==================================================| Q8IZE3.3 742 a.a.
+Pkinase          1  _________________                                 (51174) PF00069.18 Protein kinase domain  25-277
+>PAK1_HUMAN       |==================================================| Q13153.2 545 a.a.
+PBD              1       ______                                       (715) PF00786.21 P21-Rho-binding domain  74-132
+Pkinase          1                         _______________________    (51174) PF00069.18 Protein kinase domain  270-521
+>PAK2_HUMAN       |================================================| Q13177.3 524 a.a.
+PBD              1       _____                                      (715) PF00786.21 P21-Rho-binding domain  73-131
+Pkinase          1                       _______________________    (51174) PF00069.18 Protein kinase domain  249-500
+>PAK3_HUMAN       |===============================================| O75914.2 559 a.a.
+PBD              1      ______                                     (715) PF00786.21 P21-Rho-binding domain  69-142
+Pkinase          1                        _____________________    (51174) PF00069.18 Protein kinase domain  283-534
+>PAK4_HUMAN       |==================================================| O96013.1 591 a.a.
+PBD              1 _____                                              (715) PF00786.21 P21-Rho-binding domain  10-66
+Pkinase          1                           _____________________    (51174) PF00069.18 Protein kinase domain  322-572
+>PAK6_HUMAN       |=================================================| Q9NQU5.1 681 a.a.
+PBD              1 ____                                              (715) PF00786.21 P21-Rho-binding domain  11-67
+Pkinase          1                              __________________   (51174) PF00069.18 Protein kinase domain  408-658
+>PAK7_HUMAN       |================================================| Q9P286.1 719 a.a.
+PBD              1 ____                                             (715) PF00786.21 P21-Rho-binding domain  10-67
+Pkinase          1                              _________________   (51174) PF00069.18 Protein kinase domain  450-700
+>PAN3_HUMAN       |==================================================| Q58A45.2 741 a.a.
+>PASK_HUMAN       |=================================================| Q96RG2.3 1323 a.a.
+PAS              1     ____                                          (13139) PF00989.17 PAS fold  130-235
+Pkinase          1                                     __________    (51174) PF00069.18 Protein kinase domain  999-1251
+>PCTK1_HUMAN      |==================================================| Q00536.1 496 a.a.
+Pkinase          1                 ____________________________       (51174) PF00069.18 Protein kinase domain  165-446
+>PCTK2_HUMAN      |================================================| Q00537.2 523 a.a.
+Pkinase          1                  __________________________      (51174) PF00069.18 Protein kinase domain  192-473
+>PCTK3_HUMAN      |================================================| Q07002.3 472 a.a.
+Pkinase          1               ____________________________       (51174) PF00069.18 Protein kinase domain  142-423
+>PDK1L_HUMAN      |=================================================| Q8N165.1 341 a.a.
+Pkinase          1  _____________________________________________    (51174) PF00069.18 Protein kinase domain  8-328
+>PDK1_HUMAN       |=================================================| Q15118.1 436 a.a.
+BCDHK_Adom3      1       __________________                          (361) PF10436.2 Mitochondrial branched-chain alpha-ketoacid dehydrogenase kinase  55-221
+HATPase_c        1                              ______________       (57843) PF02518.19 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase  268-392
+>PDK2_HUMAN       |==============================================| Q15119.2 407 a.a.
+BCDHK_Adom3      1    __________________                          (361) PF10436.2 Mitochondrial branched-chain alpha-ketoacid dehydrogenase kinase  29-193
+HATPase_c        1                           ______________       (57843) PF02518.19 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase  240-363
+>PDK3_HUMAN       |==============================================| Q15120.1 406 a.a.
+BCDHK_Adom3      1   ___________________                          (361) PF10436.2 Mitochondrial branched-chain alpha-ketoacid dehydrogenase kinase  25-189
+HATPase_c        1                           ______________       (57843) PF02518.19 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase  236-361
+>PDK4_HUMAN       |==============================================| Q16654.1 411 a.a.
+BCDHK_Adom3      1    __________________                          (361) PF10436.2 Mitochondrial branched-chain alpha-ketoacid dehydrogenase kinase  33-196
+HATPase_c        1                           ______________       (57843) PF02518.19 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase  243-367
+>PDPK1_HUMAN      |===============================================| O15530.1 556 a.a.
+Pkinase          1       ______________________                    (51174) PF00069.18 Protein kinase domain  82-341
+>PDPK2_HUMAN      |==================================================| Q6A1A2.1 396 a.a.
+Pkinase          1       _________________________________            (51174) PF00069.18 Protein kinase domain  55-314
+>PFTK1_HUMAN      |===============================================| O94921.3 469 a.a.
+Pkinase          1              ____________________________       (51174) PF00069.18 Protein kinase domain  135-419
+>PFTK2_HUMAN      |================================================| Q96Q40.1 384 a.a.
+Pkinase          1       ____________________________________       (51174) PF00069.18 Protein kinase domain  52-336
+>PGFRA_HUMAN      |==================================================| P16234.1 1089 a.a.
+I-set            2          ____ ____                                 (19898) PF07679.9 Immunoglobulin I-set domain  216-307 319-411
+Pkinase_Tyr      1                           _________________        (10688) PF07714.10 Protein tyrosine kinase  593-950
+>PGFRB_HUMAN      |=================================================| P09619.1 1106 a.a.
+I-set            2          ____ ___                                 (19898) PF07679.9 Immunoglobulin I-set domain  215-310 327-413
+Pkinase_Tyr      1                           _______________         (10688) PF07714.10 Protein tyrosine kinase  600-958
+ig               1   __                                              (1578) PF00047.18 Immunoglobulin domain  47-102
+>PHKG1_HUMAN      |=================================================| Q16816.3 387 a.a.
+Pkinase          1   __________________________________              (51174) PF00069.18 Protein kinase domain  20-288
+>PHKG2_HUMAN      |==============================================| P15735.1 406 a.a.
+Pkinase          1   ______________________________               (51174) PF00069.18 Protein kinase domain  24-291
+>PI3R4_HUMAN      |=================================================| Q99570.3 1358 a.a.
+HEAT             1               __                                  (3876) PF02985.15 HEAT repeat  418-448
+Pkinase          1 ___________                                       (51174) PF00069.18 Protein kinase domain  26-312
+WD40             3                                    _       __  __ (93618) PF00400.25 WD domain, G-beta repeat  983-1021 1230-1269 1324-1358
+>PIM1_HUMAN       |=============================================| P11309.3 404 a.a.
+Pkinase          1               ____________________________    (51174) PF00069.18 Protein kinase domain  129-381
+>PIM2_HUMAN       |=============================================| Q9P1W9.1 311 a.a.
+Pkinase          1     ____________________________________      (51174) PF00069.18 Protein kinase domain  32-286
+>PIM3_HUMAN       |===============================================| Q86V86.3 326 a.a.
+Pkinase          1      ____________________________________       (51174) PF00069.18 Protein kinase domain  40-293
+>PINK1_HUMAN      |=================================================| Q9BXM7.1 581 a.a.
+Pkinase          1                      _____________________        (51174) PF00069.18 Protein kinase domain  262-509
+>PKN1_HUMAN       |==================================================| Q16512.1 942 a.a.
+HR1              3  ____ ____ ____                                    (445) PF02185.9 Hr1 repeat  37-105 126-198 213-285
+Pkinase          1                                 ______________     (51174) PF00069.18 Protein kinase domain  615-874
+Pkinase_C        1                                                __  (1403) PF00433.17 Protein kinase C terminal domain  894-940
+>PKN2_HUMAN       |==================================================| Q16513.1 984 a.a.
+HR1              3   ___ ____ ___                                     (445) PF02185.9 Hr1 repeat  47-114 136-207 217-289
+Pkinase          1                                 _____________      (51174) PF00069.18 Protein kinase domain  657-916
+Pkinase_C        1                                               ___  (1403) PF00433.17 Protein kinase C terminal domain  936-983
+>PKN3_HUMAN       |==================================================| Q6P5Z2.1 889 a.a.
+HR1              3 ____ ____ ___                                      (445) PF02185.9 Hr1 repeat  18-85 105-176 178-250
+Pkinase          1                                ______________      (51174) PF00069.18 Protein kinase domain  559-818
+Pkinase_C        1                                               ___  (1403) PF00433.17 Protein kinase C terminal domain  838-885
+>PLK1_HUMAN       |===============================================| P53350.1 603 a.a.
+POLO_box         2                                 ____   _____    (338) PF00659.11 POLO box duplicated region  417-480 515-584
+Pkinase          1     ___________________                         (51174) PF00069.18 Protein kinase domain  53-305
+>PLK2_HUMAN       |=================================================| Q9NYY3.3 685 a.a.
+POLO_box         2                                     ____   _____  (338) PF00659.11 POLO box duplicated region  510-573 606-677
+Pkinase          1      __________________                           (51174) PF00069.18 Protein kinase domain  82-334
+>PLK3_HUMAN       |==================================================| Q9H4B4.2 646 a.a.
+POLO_box         2                                     _____  ______  (338) PF00659.11 POLO box duplicated region  470-533 567-637
+Pkinase          1     ____________________                           (51174) PF00069.18 Protein kinase domain  62-314
+>PLK4_HUMAN       |=================================================| O00444.3 970 a.a.
+POLO_box         1                                             ___   (338) PF00659.11 POLO box duplicated region  892-956
+Pkinase          1 _____________                                     (51174) PF00069.18 Protein kinase domain  12-265
+>PLK5_HUMAN       |================================================| Q496M5.3 336 a.a.
+>PMYT1_HUMAN      |==================================================| Q99640.1 499 a.a.
+Pkinase          1           _________________________                (51174) PF00069.18 Protein kinase domain  110-359
+>PRKDC_HUMAN      |==================================================| P78527.3 4128 a.a.
+FAT              1                                     _____          (533) PF02259.16 FAT domain  3023-3470
+FATC             1                                                  _ (565) PF02260.13 FATC domain  4096-4128
+NUC194           1                      _____                         (26) PF08163.5 NUC194 domain  1813-2210
+PI3_PI4_kinase   1                                              ___   (1752) PF00454.20 Phosphatidylinositol 3- and 4-kinase  3747-4015
+>PRKX_HUMAN       |=============================================| P51817.1 358 a.a.
+Pkinase          1       _______________________________         (51174) PF00069.18 Protein kinase domain  49-303
+>PRKY_HUMAN       |===============================================| O43930.1 277 a.a.
+Pkinase          1         _____________________________________   (51174) PF00069.18 Protein kinase domain  50-272
+>PRP4B_HUMAN      |================================================| Q13523.2 1007 a.a.
+Pkinase          1                                 _______________  (51174) PF00069.18 Protein kinase domain  687-1003
+>PRPK_HUMAN       |===========================================| Q96S44.2 253 a.a.
+Kdo              1         _____________________________       (694) PF06293.7 Lipopolysaccharide kinase (Kdo/WaaP) family  50-225
+>PTK6_HUMAN       |==============================================| Q13882.1 451 a.a.
+Pkinase_Tyr      1                    _________________________   (10688) PF07714.10 Protein tyrosine kinase  191-441
+SH2              1        ________                                (2861) PF00017.17 SH2 domain  78-155
+>PTK7_HUMAN       |=================================================| Q13308.2 1070 a.a.
+I-set            7  ____ ___ ____ ___ ___ ___ ___                    (19898) PF07679.9 Immunoglobulin I-set domain  32-119 128-219 225-308 328-408 412-498 502-588 592-681
+Pkinase_Tyr      1                                     ____________  (10688) PF07714.10 Protein tyrosine kinase  796-1061
+>PXK_HUMAN        |=================================================| Q7Z7A4.1 578 a.a.
+PX               1  _________                                        (2400) PF00787.17 PX domain  20-122
+Pkinase          1                ________________________           (51174) PF00069.18 Protein kinase domain  186-479
+>QSK_HUMAN        |=================================================| Q9Y2K2.3 1263 a.a.
+Pkinase          1 _________                                         (51174) PF00069.18 Protein kinase domain  8-259
+>RAF1_HUMAN       |==================================================| P04049.1 648 a.a.
+C1_1             1           ____                                     (1921) PF00130.15 Phorbol esters/diacylglycerol binding domain (C1 domain)  139-187
+Pkinase_Tyr      1                           ____________________     (10688) PF07714.10 Protein tyrosine kinase  349-606
+RBD              1     ______                                         (230) PF02196.8 Raf-like Ras-binding domain  56-131
+>RET_HUMAN        |=================================================| P07949.3 1114 a.a.
+Cadherin         1        ____                                       (11323) PF00028.10 Cadherin domain  172-262
+Pkinase_Tyr      1                                ____________       (10688) PF07714.10 Protein tyrosine kinase  724-1005
+>RIOK1_HUMAN      |================================================| Q9BRS2.2 568 a.a.
+RIO1             1                 _______________                  (802) PF01163.15 RIO1 family  193-381
+>RIOK2_HUMAN      |==============================================| Q9BVS4.2 552 a.a.
+RIO1             1         _______________                        (802) PF01163.15 RIO1 family  108-284
+Rio2_N           1 _______                                        (213) PF09202.4 Rio2, N-terminal  9-91
+>RIOK3_HUMAN      |================================================| O14730.2 519 a.a.
+RIO1             1                        ___________________       (802) PF01163.15 RIO1 family  264-464
+>RIPK1_HUMAN      |================================================| Q13546.3 671 a.a.
+Death            1                                          ______  (1116) PF00531.15 Death domain  584-668
+Pkinase_Tyr      1  ___________________                             (10688) PF07714.10 Protein tyrosine kinase  18-285
+>RIPK2_HUMAN      |==================================================| O43353.2 540 a.a.
+CARD             1                                        ________    (591) PF00619.14 Caspase recruitment domain  437-524
+Pkinase          1  _________________________                         (51174) PF00069.18 Protein kinase domain  18-290
+>RIPK3_HUMAN      |================================================| Q9Y572.2 518 a.a.
+Pkinase          1  ________________________                        (51174) PF00069.18 Protein kinase domain  21-283
+>RIPK4_HUMAN      |=================================================| P57078.1 832 a.a.
+Ank             10                             ____________ ___ __   (41621) PF00023.23 Ankyrin repeat  485-517 518-550 551-583 584-616 617-650 651-682 686-716 717-748 751-777 782-814
+Pkinase          1  _______________                                  (51174) PF00069.18 Protein kinase domain  22-282
+>RK_HUMAN         |===============================================| Q15835.1 563 a.a.
+Pkinase          1                ______________________           (51174) PF00069.18 Protein kinase domain  190-455
+RGS              1     __________                                  (1182) PF00615.12 Regulator of G protein signaling domain  57-174
+>RN5A_HUMAN       |==================================================| Q05823.2 741 a.a.
+Ank              4    __ ____ __                                      (41621) PF00023.23 Ankyrin repeat  58-88 91-123 124-156 167-200
+Pkinase          1                         __________                 (51174) PF00069.18 Protein kinase domain  366-523
+Ribonuc_2-5A     1                                        _________   (164) PF06479.5 Ribonuclease 2-5A  591-722
+>ROCK1_HUMAN      |=================================================| Q13464.1 1354 a.a.
+HR1              1                 ___                               (445) PF02185.9 Hr1 repeat  458-537
+PH               1                                        ________   (4822) PF00169.22 PH domain  1119-1316
+Pkinase          1   __________                                      (51174) PF00069.18 Protein kinase domain  76-338
+Pkinase_C        1             __                                    (1403) PF00433.17 Protein kinase C terminal domain  358-402
+Rho_Binding      1                                  ___              (43) PF08912.4 Rho Binding  948-1014
+>ROCK2_HUMAN      |==================================================| O75116.3 1388 a.a.
+HR1              1                 ___                                (445) PF02185.9 Hr1 repeat  475-554
+PH               1                                          _______   (4822) PF00169.22 PH domain  1151-1349
+Pkinase          1    _________                                       (51174) PF00069.18 Protein kinase domain  92-354
+Pkinase_C        1              _                                     (1403) PF00433.17 Protein kinase C terminal domain  374-419
+Rho_Binding      1                                   ___              (43) PF08912.4 Rho Binding  978-1046
+>RON_HUMAN        |=================================================| Q04912.1 1400 a.a.
+PSI              1                   _                               (772) PF01437.18 Plexin repeat  526-568
+Pkinase_Tyr      1                                      _________    (10688) PF07714.10 Protein tyrosine kinase  1082-1341
+Sema             1  ________________                                 (693) PF01403.12 Sema domain  58-507
+TIG              2                    ____ __                        (2555) PF01833.17 IPT/TIG domain  569-680 684-766
+>ROR1_HUMAN       |==================================================| Q01973.2 937 a.a.
+Fz               1         _______                                    (721) PF01392.15 Fz domain  170-297
+I-set            1    ____                                            (19898) PF07679.9 Immunoglobulin I-set domain  58-148
+Kringle          1                 ____                               (1028) PF00051.11 Kringle domain  313-391
+Pkinase_Tyr      1                         _______________            (10688) PF07714.10 Protein tyrosine kinase  473-746
+>ROR2_HUMAN       |==================================================| Q01974.2 943 a.a.
+Fz               1          ______                                    (721) PF01392.15 Fz domain  174-301
+I-set            1    _____                                           (19898) PF07679.9 Immunoglobulin I-set domain  62-152
+Kringle          1                 ____                               (1028) PF00051.11 Kringle domain  316-394
+Pkinase_Tyr      1                         _______________            (10688) PF07714.10 Protein tyrosine kinase  473-746
+>ROS_HUMAN        |==================================================| P08922.3 2347 a.a.
+Pkinase_Tyr      1                                          ______    (10688) PF07714.10 Protein tyrosine kinase  1945-2215
+fn3              4   _ _                 __           __              (15520) PF00041.14 Fibronectin type III domain  100-176 196-275 1056-1140 1659-1741
+>RPKL1_HUMAN      |==================================================| Q9Y6S9.1 549 a.a.
+MIT              1     ______                                         (495) PF04212.11 MIT (microtubule interacting and transport) domain  49-117
+Pkinase          1                                   _______________  (51174) PF00069.18 Protein kinase domain  377-539
+>RYK_HUMAN        |===============================================| P34925.2 604 a.a.
+Pkinase_Tyr      1                          ____________________   (10688) PF07714.10 Protein tyrosine kinase  327-593
+WIF              1     __________                                  (97) PF02019.11 WIF domain  63-191
+>SBK1_HUMAN       |================================================| Q52WX2.1 424 a.a.
+Pkinase          1      ______________________________              (51174) PF00069.18 Protein kinase domain  53-315
+>SBK2_HUMAN       |==================================================| P0C263.2 348 a.a.
+Pkinase          1         _______________________________________    (51174) PF00069.18 Protein kinase domain  62-329
+>SCYL2_HUMAN      |=================================================| Q6P3W7.1 929 a.a.
+Pkinase          1  ________________                                 (51174) PF00069.18 Protein kinase domain  32-327
+>SG110_HUMAN      |=============================================| P0C264.2 359 a.a.
+Pkinase          1      ________________________________         (51174) PF00069.18 Protein kinase domain  43-303
+>SG196_HUMAN      |============================================| Q9H5K3.1 350 a.a.
+Pkinase_Tyr      1           __________________                 (10688) PF07714.10 Protein tyrosine kinase  81-226
+>SG223_HUMAN      |=================================================| Q86YV5.2 1406 a.a.
+Pkinase          1                                      ________     (51174) PF00069.18 Protein kinase domain  1079-1325
+>SG269_HUMAN      |==================================================| Q9H792.4 1746 a.a.
+Pkinase          1                                          ______    (51174) PF00069.18 Protein kinase domain  1443-1663
+>SG494_HUMAN      |==============================================| Q96LW2.1 274 a.a.
+Pkinase          1                  ____________________________  (51174) PF00069.18 Protein kinase domain  107-272
+>SGK1_HUMAN       |================================================| O00141.2 431 a.a.
+Pkinase          1           _____________________________          (51174) PF00069.18 Protein kinase domain  98-355
+Pkinase_C        1                                          ______  (1403) PF00433.17 Protein kinase C terminal domain  375-427
+>SGK2_HUMAN       |================================================| Q9HBY8.1 427 a.a.
+Pkinase          1           _____________________________          (51174) PF00069.18 Protein kinase domain  95-352
+Pkinase_C        1                                          _____   (1403) PF00433.17 Protein kinase C terminal domain  372-421
+>SGK3_HUMAN       |==================================================| Q96BR1.1 496 a.a.
+PX               1  ___________                                       (2400) PF00787.17 PX domain  11-120
+Pkinase          1                 _________________________          (51174) PF00069.18 Protein kinase domain  162-419
+Pkinase_C        1                                            ______  (1403) PF00433.17 Protein kinase C terminal domain  439-491
+>SGK71_HUMAN      |=================================================| Q8NE28.4 680 a.a.
+Pkinase          1  ____________________                             (51174) PF00069.18 Protein kinase domain  28-297
+>SIK1_HUMAN       |=================================================| P57059.2 783 a.a.
+Pkinase          1  ________________                                 (51174) PF00069.18 Protein kinase domain  27-278
+>SIK2_HUMAN       |=================================================| Q9H0K1.1 926 a.a.
+Pkinase          1  _____________                                    (51174) PF00069.18 Protein kinase domain  20-271
+>SLK_HUMAN        |==================================================| Q9H2G2.1 1235 a.a.
+PKK              2                                   _____ ______     (109) PF12474.1 Polo kinase kinase   851-990 1019-1160
+Pkinase          1  __________                                        (51174) PF00069.18 Protein kinase domain  34-292
+>SMG1_HUMAN       |==================================================| Q96Q15.2 3657 a.a.
+FATC             1                                                 __ (565) PF02260.13 FATC domain  3625-3657
+PI3_PI4_kinase   1                             ____                   (1752) PF00454.20 Phosphatidylinositol 3- and 4-kinase  2145-2423
+>SNRK_HUMAN       |================================================| Q9NRH2.2 765 a.a.
+Pkinase          1 ________________                                 (51174) PF00069.18 Protein kinase domain  16-269
+>SPEG_HUMAN       |==================================================| Q15772.4 3267 a.a.
+I-set            9 _         __ _ _ __  _ _               _           (19898) PF07679.9 Immunoglobulin I-set domain  43-125 722-811 869-959 968-1058 1064-1153 1188-1277 1390-1481 1485-1574 2584-2674
+Pkinase          2                         ____                ____   (51174) PF00069.18 Protein kinase domain  1601-1854 2966-3218
+>SRC_HUMAN        |=================================================| P12931.3 536 a.a.
+Pkinase_Tyr      1                         _______________________   (10688) PF07714.10 Protein tyrosine kinase  270-519
+SH2              1              ________                             (2861) PF00017.17 SH2 domain  151-233
+SH3_1            1         ____                                      (5643) PF00018.21 SH3 domain  90-137
+>SRMS_HUMAN       |=================================================| Q9H3Y6.1 488 a.a.
+Pkinase_Tyr      1                       __________________________  (10688) PF07714.10 Protein tyrosine kinase  230-480
+SH2              1            ________                               (2861) PF00017.17 SH2 domain  120-197
+>SRPK1_HUMAN      |===============================================| Q96SB4.2 655 a.a.
+Pkinase          2      ___________                 _____________  (51174) PF00069.18 Protein kinase domain  80-232 476-653
+>SRPK2_HUMAN      |==================================================| P78362.2 688 a.a.
+Pkinase          2      ___________                    _____________  (51174) PF00069.18 Protein kinase domain  81-230 516-686
+>SRPK3_HUMAN      |=================================================| Q9UPE1.1 533 a.a.
+Pkinase          2        _____________            ________________  (51174) PF00069.18 Protein kinase domain  79-228 353-531
+>ST17A_HUMAN      |==============================================| Q9UEE5.1 414 a.a.
+Pkinase          1       _____________________________            (51174) PF00069.18 Protein kinase domain  61-321
+>ST17B_HUMAN      |===============================================| O94768.1 372 a.a.
+Pkinase          1     ________________________________            (51174) PF00069.18 Protein kinase domain  33-293
+>ST32A_HUMAN      |==================================================| Q8WU08.2 396 a.a.
+Pkinase          1   _________________________________                (51174) PF00069.18 Protein kinase domain  23-281
+>ST32B_HUMAN      |==============================================| Q9NY57.1 414 a.a.
+Pkinase          1   _____________________________                (51174) PF00069.18 Protein kinase domain  23-283
+>ST32C_HUMAN      |=================================================| Q86UX6.1 486 a.a.
+Pkinase          1          __________________________               (51174) PF00069.18 Protein kinase domain  93-352
+>ST38L_HUMAN      |===============================================| Q9Y2H1.3 464 a.a.
+Pkinase          1         ______________________________          (51174) PF00069.18 Protein kinase domain  90-383
+Pkinase_C        1                                         ____    (1403) PF00433.17 Protein kinase C terminal domain  401-447
+>STK10_HUMAN      |=================================================| O94804.1 968 a.a.
+PKK              2                              _______ _______      (109) PF12474.1 Polo kinase kinase   586-725 754-895
+Pkinase          1  _____________                                    (51174) PF00069.18 Protein kinase domain  36-294
+>STK11_HUMAN      |=================================================| Q15831.1 433 a.a.
+Pkinase          1      _____________________________                (51174) PF00069.18 Protein kinase domain  49-309
+>STK16_HUMAN      |============================================| O75716.4 305 a.a.
+Pkinase          1   _______________________________________    (51174) PF00069.18 Protein kinase domain  20-290
+>STK24_HUMAN      |==================================================| Q9Y6E0.1 443 a.a.
+Pkinase          1    ____________________________                    (51174) PF00069.18 Protein kinase domain  36-286
+>STK25_HUMAN      |================================================| O00506.1 426 a.a.
+Pkinase          1   ____________________________                   (51174) PF00069.18 Protein kinase domain  20-270
+>STK31_HUMAN      |=================================================| Q9BXU1.2 1019 a.a.
+Pkinase          1                                      _________    (51174) PF00069.18 Protein kinase domain  793-966
+TUDOR            1  ______                                           (1121) PF00567.17 Tudor domain  28-147
+>STK33_HUMAN      |===============================================| Q9BYT3.1 514 a.a.
+Pkinase          1           ________________________              (51174) PF00069.18 Protein kinase domain  116-381
+>STK35_HUMAN      |=============================================| Q8TDR2.1 401 a.a.
+Pkinase          1        ____________________________________   (51174) PF00069.18 Protein kinase domain  69-394
+>STK36_HUMAN      |=================================================| Q9NRP7.2 1315 a.a.
+Pkinase          1 _________                                         (51174) PF00069.18 Protein kinase domain  4-254
+>STK38_HUMAN      |===============================================| Q15208.1 465 a.a.
+Pkinase          1         ______________________________          (51174) PF00069.18 Protein kinase domain  89-382
+Pkinase_C        1                                        _____    (1403) PF00433.17 Protein kinase C terminal domain  400-449
+>STK39_HUMAN      |==================================================| Q9UEW8.2 547 a.a.
+OSR1_C           1                                          ___       (107) PF12202.1 Oxidative-stress-responsive kinase 1 C terminal  454-485
+Pkinase          1      _________________________                     (51174) PF00069.18 Protein kinase domain  65-339
+>STK3_HUMAN       |==================================================| Q13188.2 491 a.a.
+Mst1_SARAH       1                                            _____   (65) PF11629.1 C terminal SARAH domain of Mst1  436-484
+Pkinase          1   _________________________                        (51174) PF00069.18 Protein kinase domain  27-278
+>STK40_HUMAN      |=================================================| Q8N2I9.2 435 a.a.
+Pkinase          1     ________________________________              (51174) PF00069.18 Protein kinase domain  40-328
+>STK4_HUMAN       |=================================================| Q13043.2 487 a.a.
+Mst1_SARAH       1                                            _____  (65) PF11629.1 C terminal SARAH domain of Mst1  432-480
+Pkinase          1   __________________________                      (51174) PF00069.18 Protein kinase domain  30-281
+>STK6_HUMAN       |=============================================| O14965.2 403 a.a.
+Pkinase          1               ____________________________    (51174) PF00069.18 Protein kinase domain  133-383
+>STRAA_HUMAN      |================================================| Q7RTN6.1 431 a.a.
+Pkinase          1        ___________________________________       (51174) PF00069.18 Protein kinase domain  69-379
+>STRAB_HUMAN      |===============================================| Q9C0K7.1 418 a.a.
+Pkinase          1       ___________________________________       (51174) PF00069.18 Protein kinase domain  58-369
+>STYK1_HUMAN      |===============================================| Q6J9G0.3 422 a.a.
+Pkinase_Tyr      1             ______________________________      (10688) PF07714.10 Protein tyrosine kinase  114-380
+>TAOK1_HUMAN      |================================================| Q7L7X3.1 1001 a.a.
+Pkinase          1  ____________                                    (51174) PF00069.18 Protein kinase domain  28-281
+>TAOK2_HUMAN      |==================================================| Q9UL54.2 1235 a.a.
+Pkinase          1  __________                                        (51174) PF00069.18 Protein kinase domain  28-281
+>TAOK3_HUMAN      |==================================================| Q9H2K8.2 898 a.a.
+Pkinase          1  ______________                                    (51174) PF00069.18 Protein kinase domain  24-277
+>TBCK_HUMAN       |==================================================| Q8TEA7.2 893 a.a.
+Pkinase          1  ______________                                    (51174) PF00069.18 Protein kinase domain  33-273
+Rhodanese        1                                            ______  (11594) PF00581.13 Rhodanese-like domain  783-883
+TBC              1                           ___________              (2779) PF00566.11 TBC domain  469-671
+>TBK1_HUMAN       |=================================================| Q9UHD2.1 729 a.a.
+Pkinase          1 _____________________                             (51174) PF00069.18 Protein kinase domain  9-329
+>TEC_HUMAN        |=================================================| P42680.2 631 a.a.
+BTK              1          __                                       (132) PF00779.12 BTK motif  118-149
+PH               1 ________                                          (4822) PF00169.22 PH domain  5-111
+Pkinase_Tyr      1                             ___________________   (10688) PF07714.10 Protein tyrosine kinase  370-619
+SH2              1                   _______                         (2861) PF00017.17 SH2 domain  247-330
+SH3_1            1               ___                                 (5643) PF00018.21 SH3 domain  185-231
+>TESK1_HUMAN      |=================================================| Q15569.2 626 a.a.
+Pkinase          1     ___________________                           (51174) PF00069.18 Protein kinase domain  57-311
+>TESK2_HUMAN      |================================================| Q96S53.1 571 a.a.
+Pkinase_Tyr      1     _____________________                        (10688) PF07714.10 Protein tyrosine kinase  59-309
+>TEX14_HUMAN      |==================================================| Q8IWB6.2 1497 a.a.
+Pkinase_Tyr      1         _________                                  (10688) PF07714.10 Protein tyrosine kinase  262-510
+>TGFR1_HUMAN      |==============================================| P36897.1 503 a.a.
+Activin_recp     1    _______                                     (361) PF01064.16 Activin types I and II receptor domain  34-114
+Pkinase          1                   __________________________   (51174) PF00069.18 Protein kinase domain  205-492
+TGF_beta_GS      1                ___                             (238) PF08515.5 Transforming growth factor beta type I GS-motif  175-203
+>TGFR2_HUMAN      |================================================| P37173.2 567 a.a.
+Pkinase          1                     ________________________     (51174) PF00069.18 Protein kinase domain  244-538
+ecTbetaR2        1    __________                                    (27) PF08917.3 Transforming growth factor beta receptor 2 ectodomain  47-165
+>TIE1_HUMAN       |==================================================| P35590.1 1138 a.a.
+Pkinase_Tyr      1                                     ____________   (10688) PF07714.10 Protein tyrosine kinase  839-1107
+fn3              3                    ____ ___ ___                    (15520) PF00041.14 Fibronectin type III domain  448-533 549-632 645-729
+>TIE2_HUMAN       |=================================================| Q02763.2 1124 a.a.
+Ig_Tie2_1        1 _____                                             (18) PF10430.2 Tie-2 Ig-like domain 1  23-118
+Pkinase_Tyr      1                                    ____________   (10688) PF07714.10 Protein tyrosine kinase  824-1092
+fn3              3                    ____ ___ ___                   (15520) PF00041.14 Fibronectin type III domain  445-530 544-626 640-724
+>TITIN_HUMAN      |==================================================| Q8WZ42.2 34350 a.a.
+I-set           162 _ _ _ _ _ _ _ _  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ (19898) PF07679.9 Immunoglobulin I-set domain  6-97 104-193 943-1032 1082-1172 1291-1381 1457-1547 1556-1647 1703-1794 1841-1929 2078-2168 2174-2262 2267-2352 2356-2436 2445-2530 2533-2617 2621-2706 2707-2785 2795-2879 2882-2967 2969-3054 3058-3142 3147-3233 3239-3328 3345-3433 3503-3592 3621-3711 4289-4377 4383-4472 4478-4567 4571-4660 4664-4754 4758-4845 4851-4940 4944-5033 5040-5129 5133-5222 5226-5316 5320-5409 5413-5502 5506-5595 5602-5691 5695-5784 5788-5878 5882-5971 5975-6064 6068-6157 6164-6253 6257-6346 6350-6440 6444-6533 6537-6627 6631-6720 6727-6816 6820-6909 6913-7001 7006-7095 7102-7191 7198-7287 7291-7381 7385-7474 7478-7568 7572-7661 7668-7757 7761-7850 7854-7943 7947-8036 8043-8132 8139-8228 8232-8322 8326-8415 8419-8509 8513-8602 8609-8698 8702-8791 8795-8884 8888-8977 8984-9073 9080-9169 9176-9266 9273-9362 9381-9471 9583-9669 9672-9757 9761-9850 12043-12134 12413-12496 12501-12585 12590-12675 12767-12849 12856-12941 12945-13027 13124-13204 13212-13295 13301-13382 13390-13475 13479-13563 13567-13656 13661-13744 13750-13832 13839-13924 13927-14013 14327-14411 14621-14707 15314-15403 15610-15725 16036-16120 16327-16421 16741-16835 17047-17140 17454-17539 17750-17835 18149-18233 18439-18527 18839-18925 19128-19220 19536-19622 19828-19915 20226-20312 20624-20710 20919-20999 21309-21396 21704-21791 21997-22082 22388-22478 22790-22875 23075-23164 23470-23560 23873-23957 24157-24245 24552-24642 24953-25039 25239-25328 25637-25725 26035-26122 26322-26411 26718-26806 27114-27201 27404-27493 27803-27889 28201-28289 28491-28577 28892-28975 29286-29372 29577-29664 29979-30064 30376-30461 30666-30755 31067-31151 31460-31549 31562-31646 31855-31946 31955-32045 32496-32585 32617-32709 32722-32812 33301-33390 33488-33577 33645-33734 33779-33868 33966-34053 34061-34150 34256-34347
+PPAK            15               _ _                                  (194) PF02818.8 PPAK motif  10186-10211 10267-10294 10295-10321 10503-10530 10560-10586 10587-10614 10615-10642 10762-10788 10927-10954 10955-10982 10983-11010 11392-11417 11476-11503 11644-11671 11698-11725
+Pkinase          1                                               _    (51174) PF00069.18 Protein kinase domain  32178-32432
+Titin_Z          6 _                                                  (61) PF09042.4 Titin Z  413-455 464-505 510-549 552-593 598-639 644-685
+fn3             132                     _ _ _ _ _ _ _ _ _ _ _ _ _ _    (15520) PF00041.14 Fibronectin type III domain  14018-14103 14119-14204 14220-14305 14416-14500 14516-14600 14712-14795 14811-14896 14912-14996 15012-15096 15112-15197 15213-15299 15407-15491 15508-15593 15730-15815 15831-15915 15930-16015 16125-16208 16223-16308 16426-16511 16527-16617 16633-16720 16840-16924 16940-17030 17145-17229 17245-17334 17349-17434 17545-17628 17645-17730 17840-17924 17940-18025 18041-18128 18238-18321 18338-18421 18532-18616 18632-18716 18732-18818 18929-19013 19029-19113 19225-19309 19324-19409 19425-19516 19627-19711 19727-19812 19920-20004 20020-20105 20118-20205 20317-20400 20419-20501 20517-20603 20715-20799 20812-20894 21006-21089 21104-21189 21202-21288 21401-21485 21500-21585 21601-21687 21796-21880 21893-21976 22087-22171 22187-22272 22285-22371 22483-22568 22583-22668 22684-22770 22880-22964 22977-23060 23169-23253 23269-23354 23367-23453 23565-23650 23665-23750 23766-23852 23962-24046 24059-24143 24251-24335 24351-24436 24449-24535 24647-24732 24747-24832 24848-24934 25044-25127 25141-25224 25333-25417 25433-25518 25531-25617 25730-25815 25830-25915 25931-26017 26127-26211 26224-26307 26416-26500 26515-26600 26613-26699 26811-26896 26911-26996 27012-27096 27206-27290 27303-27386 27498-27582 27598-27683 27696-27782 27894-27979 27994-28079 28095-28181 28294-28377 28390-28473 28585-28669 28685-28770 28783-28868 28981-29064 29080-29166 29182-29266 29377-29461 29474-29557 29670-29753 29769-29854 29867-29956 30068-30152 30168-30254 30270-30356 30466-30549 30563-30648 30760-30844 30860-30945 30961-31046 31157-31240 31257-31343 31359-31444 31651-31736 31753-31838 32050-32133
+>TLK1_HUMAN       |================================================| Q9UKI8.2 766 a.a.
+Pkinase          1                             _________________    (51174) PF00069.18 Protein kinase domain  456-734
+>TLK2_HUMAN       |=================================================| Q86UE8.2 772 a.a.
+Pkinase          1                             __________________    (51174) PF00069.18 Protein kinase domain  462-741
+>TNI3K_HUMAN      |==================================================| Q59H18.2 936 a.a.
+Ank              6           __ _ __  _   _                           (41621) PF00023.23 Ankyrin repeat  201-232 234-266 269-298 301-334 370-397 440-472
+Pkinase_Tyr      1                              ______________        (10688) PF07714.10 Protein tyrosine kinase  564-820
+>TNIK_HUMAN       |=================================================| Q9UKE5.1 1360 a.a.
+CNH              1                                      __________   (564) PF00780.15 CNH domain  1051-1331
+Pkinase          1 __________                                        (51174) PF00069.18 Protein kinase domain  25-289
+>TNK1_HUMAN       |================================================| Q13470.3 666 a.a.
+Pkinase_Tyr      1         __________________                       (10688) PF07714.10 Protein tyrosine kinase  116-377
+>TOPK_HUMAN       |==============================================| Q96KB5.3 322 a.a.
+Pkinase          1     _________________________________________  (51174) PF00069.18 Protein kinase domain  33-318
+>TRIB1_HUMAN      |===============================================| Q96RU8.2 372 a.a.
+Pkinase          1              _____________________________      (51174) PF00069.18 Protein kinase domain  105-338
+>TRIB2_HUMAN      |=================================================| Q92519.1 343 a.a.
+Pkinase          1           __________________________________      (51174) PF00069.18 Protein kinase domain  72-308
+>TRIB3_HUMAN      |=============================================| Q96RU7.2 358 a.a.
+Pkinase          1          ______________________________       (51174) PF00069.18 Protein kinase domain  78-315
+>TRIO_HUMAN       |==================================================| O75962.1 3038 a.a.
+I-set            1                                            _       (19898) PF07679.9 Immunoglobulin I-set domain  2626-2717
+Pkinase          1                                             _____  (51174) PF00069.18 Protein kinase domain  2737-2991
+RhoGEF           2                     ___        ___                 (2104) PF00621.13 RhoGEF domain  1237-1407 1914-2085
+SH3_1            1                           _                        (5643) PF00018.21 SH3 domain  1603-1654
+Spectrin         4     __  __   __  __                                (5318) PF00435.14 Spectrin repeat  281-387 507-613 848-952 1079-1185
+>TRPM6_HUMAN      |==================================================| Q9BX84.2 2022 a.a.
+Alpha_kinase     1                                            _____   (209) PF02816.11 Alpha-kinase family  1774-1972
+Ion_trans        1                      _____                         (6469) PF00520.24 Ion transport protein  873-1069
+>TRPM7_HUMAN      |==================================================| Q96QT4.1 1865 a.a.
+Alpha_kinase     1                                           _____    (209) PF02816.11 Alpha-kinase family  1618-1816
+Ion_trans        1                        _____                       (6469) PF00520.24 Ion transport protein  887-1096
+>TSSK1_HUMAN      |==============================================| Q9BXA7.1 367 a.a.
+Pkinase          1  _________________________________             (51174) PF00069.18 Protein kinase domain  12-272
+>TSSK2_HUMAN      |=============================================| Q96PF2.2 358 a.a.
+Pkinase          1  _________________________________            (51174) PF00069.18 Protein kinase domain  12-272
+>TSSK3_HUMAN      |=============================================| Q96PN8.1 268 a.a.
+Pkinase          1  ___________________________________________  (51174) PF00069.18 Protein kinase domain  10-265
+>TSSK4_HUMAN      |===============================================| Q6SA08.1 328 a.a.
+Pkinase          1    ______________________________________       (51174) PF00069.18 Protein kinase domain  25-293
+>TSSK6_HUMAN      |==============================================| Q9BXA6.1 273 a.a.
+Pkinase          1  ___________________________________________   (51174) PF00069.18 Protein kinase domain  12-267
+>TTBK1_HUMAN      |=================================================| Q5TCY1.2 1321 a.a.
+Pkinase          1  __________                                       (51174) PF00069.18 Protein kinase domain  34-300
+>TTBK2_HUMAN      |==================================================| Q6IQ55.2 1244 a.a.
+Pkinase          1 __________                                         (51174) PF00069.18 Protein kinase domain  21-268
+>TTK_HUMAN        |================================================| P33981.2 857 a.a.
+Pkinase          1                              ______________      (51174) PF00069.18 Protein kinase domain  525-791
+>TXK_HUMAN        |================================================| P42681.3 527 a.a.
+Pkinase_Tyr      1                         _______________________  (10688) PF07714.10 Protein tyrosine kinase  271-520
+SH2              1              ________                            (2861) PF00017.17 SH2 domain  150-231
+SH3_1            1        _____                                     (5643) PF00018.21 SH3 domain  88-134
+>TYK2_HUMAN       |==================================================| P29597.3 1187 a.a.
+Pkinase_Tyr      2                         ____________ ___________   (10688) PF07714.10 Protein tyrosine kinase  589-866 897-1169
+>TYRO3_HUMAN      |==================================================| Q06418.1 890 a.a.
+I-set            1   _____                                            (19898) PF07679.9 Immunoglobulin I-set domain  44-135
+Pkinase_Tyr      1                             _______________        (10688) PF07714.10 Protein tyrosine kinase  518-786
+fn3              2             _____ ____                             (15520) PF00041.14 Fibronectin type III domain  226-310 324-406
+>UFO_HUMAN        |==================================================| P30530.3 894 a.a.
+Pkinase_Tyr      1                              _______________       (10688) PF07714.10 Protein tyrosine kinase  536-803
+V-set            1  ______                                            (6060) PF07686.10 Immunoglobulin V-set domain  34-134
+fn3              2             _____ _____                            (15520) PF00041.14 Fibronectin type III domain  226-321 335-418
+>UHMK1_HUMAN      |===============================================| Q8TAS1.2 419 a.a.
+Pkinase          1   _______________________________               (51174) PF00069.18 Protein kinase domain  23-304
+RRM_1            1                                       ______    (25222) PF00076.15 RNA recognition motif. (a.k.a. RRM, RBD, or RNP domain)  344-400
+>ULK1_HUMAN       |================================================| O75385.1 1050 a.a.
+DUF3543          1                                      __________  (118) PF12063.1 Domain of unknown function (DUF3543)  833-1049
+Pkinase          1 ____________                                     (51174) PF00069.18 Protein kinase domain  16-278
+>ULK2_HUMAN       |==================================================| Q8IYT8.2 1036 a.a.
+DUF3543          1                                       ___________  (118) PF12063.1 Domain of unknown function (DUF3543)  816-1034
+Pkinase          1 ____________                                       (51174) PF00069.18 Protein kinase domain  9-271
+>ULK3_HUMAN       |===========================================| Q6PHR2.1 214 a.a.
+Pkinase          1   ________________________________________  (51174) PF00069.18 Protein kinase domain  14-210
+>ULK4_HUMAN       |==================================================| Q96C45.2 1275 a.a.
+Pkinase          1 __________                                         (51174) PF00069.18 Protein kinase domain  4-280
+>VGFR1_HUMAN      |==================================================| P17948.2 1338 a.a.
+I-set            4         ____ __     ____ __                        (19898) PF07679.9 Immunoglobulin I-set domain  232-328 337-426 563-651 661-748
+Pkinase_Tyr      1                               ____________         (10688) PF07714.10 Protein tyrosine kinase  827-1154
+>VGFR2_HUMAN      |=================================================| P35968.2 1356 a.a.
+I-set            2            ___         ___                        (19898) PF07679.9 Immunoglobulin I-set domain  334-417 667-754
+Pkinase_Tyr      1                              ____________         (10688) PF07714.10 Protein tyrosine kinase  834-1160
+V-set            1         ___                                       (6060) PF07686.10 Immunoglobulin V-set domain  225-324
+>VGFR3_HUMAN      |==================================================| P35916.2 1298 a.a.
+I-set            2         ____              ___                      (19898) PF07679.9 Immunoglobulin I-set domain  232-327 678-765
+Pkinase_Tyr      1                                 ____________       (10688) PF07714.10 Protein tyrosine kinase  845-1169
+>VRK1_HUMAN       |==================================================| Q99986.1 396 a.a.
+Pkinase          1     ____________________________________           (51174) PF00069.18 Protein kinase domain  37-325
+>VRK2_HUMAN       |===============================================| Q86Y07.3 508 a.a.
+Pkinase          1   __________________________                    (51174) PF00069.18 Protein kinase domain  29-312
+>VRK3_HUMAN       |================================================| Q8IV63.2 474 a.a.
+Pkinase          1                       _______________________    (51174) PF00069.18 Protein kinase domain  229-452
+>WEE1_HUMAN       |==================================================| P30291.2 646 a.a.
+Pkinase          1                       _____________________        (51174) PF00069.18 Protein kinase domain  299-569
+>WEE2_HUMAN       |================================================| P0C1S8.2 567 a.a.
+Pkinase          1                  _______________________         (51174) PF00069.18 Protein kinase domain  212-486
+>WNK1_HUMAN       |==================================================| Q9H4A3.1 2382 a.a.
+OSR1_C           1           _                                        (107) PF12202.1 Oxidative-stress-responsive kinase 1 C terminal  500-537
+Pkinase          1     _____                                          (51174) PF00069.18 Protein kinase domain  221-479
+>WNK2_HUMAN       |==================================================| Q9Y3S1.4 2297 a.a.
+OSR1_C           1           _                                        (107) PF12202.1 Oxidative-stress-responsive kinase 1 C terminal  474-511
+Pkinase          1     _____                                          (51174) PF00069.18 Protein kinase domain  195-453
+>WNK3_HUMAN       |==================================================| Q9BYP7.2 1743 a.a.
+OSR1_C           1             _                                      (107) PF12202.1 Oxidative-stress-responsive kinase 1 C terminal  426-463
+Pkinase          1     _______                                        (51174) PF00069.18 Protein kinase domain  147-405
+>WNK4_HUMAN       |==================================================| Q96J92.1 1243 a.a.
+OSR1_C           1                   _                                (107) PF12202.1 Oxidative-stress-responsive kinase 1 C terminal  453-489
+Pkinase          1       ___________                                  (51174) PF00069.18 Protein kinase domain  174-432
+>YES_HUMAN        |==================================================| P07947.3 543 a.a.
+Pkinase_Tyr      1                          ______________________    (10688) PF07714.10 Protein tyrosine kinase  277-526
+SH2              1               _______                              (2861) PF00017.17 SH2 domain  158-240
+SH3_1            1         _____                                      (5643) PF00018.21 SH3 domain  97-144
+>YSK4_HUMAN       |==================================================| Q56UN5.1 1328 a.a.
+Pkinase          1                                        __________  (51174) PF00069.18 Protein kinase domain  1061-1324
+>ZAP70_HUMAN      |================================================| P43403.1 619 a.a.
+Pkinase_Tyr      1                          ____________________    (10688) PF07714.10 Protein tyrosine kinase  338-593
+SH2              2 ______      ______                               (2861) PF00017.17 SH2 domain  10-87 163-239

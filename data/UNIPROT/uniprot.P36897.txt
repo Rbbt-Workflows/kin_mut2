@@ -1,0 +1,576 @@
+ID   TGFR1_HUMAN             Reviewed;         503 AA.
+AC   P36897;
+DT   01-JUN-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1994, sequence version 1.
+DT   02-NOV-2010, entry version 130.
+DE   RecName: Full=TGF-beta receptor type-1;
+DE            Short=TGFR-1;
+DE            EC=2.7.11.30;
+DE   AltName: Full=Activin receptor-like kinase 5;
+DE            Short=ALK-5;
+DE   AltName: Full=Serine/threonine-protein kinase receptor R4;
+DE            Short=SKR4;
+DE   AltName: Full=TGF-beta type I receptor;
+DE   AltName: Full=Transforming growth factor-beta receptor type I;
+DE            Short=TGF-beta receptor type I;
+DE            Short=TbetaR-I;
+DE   Flags: Precursor;
+GN   Name=TGFBR1;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   MEDLINE=94061986; PubMed=8242743; DOI=10.1016/0092-8674(93)90489-D;
+RA   Franzen P., ten Dijke P., Ichijo H., Yamashita H., Schulz P.,
+RA   Heldin C.-H., Miyazono K.;
+RT   "Cloning of a TGF beta type I receptor that forms a heteromeric
+RT   complex with the TGF beta type II receptor.";
+RL   Cell 75:681-692(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   MEDLINE=98086485; PubMed=9417915; DOI=10.1006/geno.1997.5023;
+RA   Vellucci V.F., Reiss M.;
+RT   "Cloning and genomic organization of the human transforming growth
+RT   factor-beta type I receptor gene.";
+RL   Genomics 46:278-283(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RA   Lynch M.A., Song H., DeGroff V.L., Alam K.Y., Adams E.M.,
+RA   Weghorst C.M.;
+RT   "The genomic structure of the gene encoding the human transforming
+RT   growth factor beta type I receptor.";
+RL   Submitted (NOV-1997) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RG   NIEHS SNPs program;
+RL   Submitted (DEC-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   FUNCTION, PHOSPHORYLATION AT THR-185; THR-186; SER-187; SER-189 AND
+RP   SER-191, SUBCELLULAR LOCATION, SUBUNIT, AND MUTAGENESIS OF
+RP   185-THR-THR-186; SER-187; SER-189; SER-191; THR-200 AND THR-204.
+RX   PubMed=7774578;
+RA   Wieser R., Wrana J.L., Massague J.;
+RT   "GS domain mutations that constitutively activate T beta R-I, the
+RT   downstream signaling component in the TGF-beta receptor complex.";
+RL   EMBO J. 14:2199-2208(1995).
+RN   [6]
+RP   INTERACTION WITH CD109.
+RX   PubMed=16754747; DOI=10.1096/fj.05-5229fje;
+RA   Finnson K.W., Tam B.Y.Y., Liu K., Marcoux A., Lepage P., Roy S.,
+RA   Bizet A.A., Philip A.;
+RT   "Identification of CD109 as part of the TGF-beta receptor system in
+RT   human keratinocytes.";
+RL   FASEB J. 20:1525-1527(2006).
+RN   [7]
+RP   INTERACTION WITH RBPMS.
+RX   PubMed=17099224; DOI=10.1093/nar/gkl914;
+RA   Sun Y., Ding L., Zhang H., Han J., Yang X., Yan J., Zhu Y., Li J.,
+RA   Song H., Ye Q.;
+RT   "Potentiation of Smad-mediated transcriptional activation by the RNA-
+RT   binding protein RBPMS.";
+RL   Nucleic Acids Res. 34:6314-6326(2006).
+RN   [8]
+RP   INTERACTION WITH TRAF6.
+RX   PubMed=18758450; DOI=10.1038/ncb1780;
+RA   Sorrentino A., Thakur N., Grimsby S., Marcusson A., von Bulow V.,
+RA   Schuster N., Zhang S., Heldin C.H., Landstrom M.;
+RT   "The type I TGF-beta receptor engages TRAF6 to activate TAK1 in a
+RT   receptor kinase-independent manner.";
+RL   Nat. Cell Biol. 10:1199-1207(2008).
+RN   [9]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-165, AND MASS
+RP   SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [10]
+RP   3D-STRUCTURE MODELING OF 34-114.
+RX   MEDLINE=96096781; PubMed=8521960; DOI=10.1016/0014-5793(95)01239-7;
+RA   Jokiranta T.S., Tissari J., Teleman O., Meri S.;
+RT   "Extracellular domain of type I receptor for transforming growth
+RT   factor-beta: molecular modelling using protectin (CD59) as a
+RT   template.";
+RL   FEBS Lett. 376:31-36(1995).
+RN   [11]
+RP   X-RAY CRYSTALLOGRAPHY (2.6 ANGSTROMS) OF 162-503 IN COMPLEX WITH
+RP   FKBP1A.
+RX   PubMed=10025408; DOI=10.1016/S0092-8674(00)80555-3;
+RA   Huse M., Chen Y.-G., Massague J., Kuriyan J.;
+RT   "Crystal structure of the cytoplasmic domain of the type I TGF beta
+RT   receptor in complex with FKBP12.";
+RL   Cell 96:425-436(1999).
+RN   [12]
+RP   X-RAY CRYSTALLOGRAPHY (2.9 ANGSTROMS) OF 162-503, PHOSPHORYLATION, AND
+RP   INTERACTION WITH SMAD2 AND FKBP1A.
+RX   PubMed=11583628; DOI=10.1016/S1097-2765(01)00332-X;
+RA   Huse M., Muir T.W., Xu L., Chen Y.-G., Kuriyan J., Massague J.;
+RT   "The TGF beta receptor activation process: an inhibitor- to substrate-
+RT   binding switch.";
+RL   Mol. Cell 8:671-682(2001).
+RN   [13]
+RP   X-RAY CRYSTALLOGRAPHY (2.3 ANGSTROMS) OF 175-500 IN COMPLEX WITH
+RP   SYNTHETIC INHIBITOR.
+RX   PubMed=15177479; DOI=10.1016/j.bmcl.2004.04.007;
+RA   Sawyer J.S., Beight D.W., Britt K.S., Anderson B.D., Campbell R.M.,
+RA   Goodson T. Jr., Herron D.K., Li H.-Y., McMillen W.T., Mort N.,
+RA   Parsons S., Smith E.C.R., Wagner J.R., Yan L., Zhang F.,
+RA   Yingling J.M.;
+RT   "Synthesis and activity of new aryl- and heteroaryl-substituted 5,6-
+RT   dihydro-4H-pyrrolo[1,2-b]pyrazole inhibitors of the transforming
+RT   growth factor-beta type I receptor kinase domain.";
+RL   Bioorg. Med. Chem. Lett. 14:3581-3584(2004).
+RN   [14]
+RP   X-RAY CRYSTALLOGRAPHY (2.0 ANGSTROMS) OF 201-503 IN COMPLEX WITH
+RP   SYNTHETIC INHIBITOR.
+RX   PubMed=15317461; DOI=10.1021/jm0400247;
+RA   Gellibert F., Woolven J., Fouchet M.-H., Mathews N., Goodland H.,
+RA   Lovegrove V., Laroze A., Nguyen V.-L., Sautet S., Wang R., Janson C.,
+RA   Smith W., Krysa G., Boullay V., De Gouville A.-C., Huet S.,
+RA   Hartley D.;
+RT   "Identification of 1,5-naphthyridine derivatives as a novel series of
+RT   potent and selective TGF-beta type I receptor inhibitors.";
+RL   J. Med. Chem. 47:4494-4506(2004).
+RN   [15]
+RP   VARIANT TGFBR1*6A ALA-24--26-ALA DEL, AND VARIANT TGFBR1*10A ALA-26
+RP   INS.
+RX   PubMed=9661882;
+RA   Pasche B., Luo Y., Rao P.H., Nimer S.D., Dmitrovsky E., Caron P.,
+RA   Luzzatto L., Offit K., Cordon-Cardo C., Renault B., Satagopan J.M.,
+RA   Murty V.V.V.S., Massague J.;
+RT   "Type I transforming growth factor beta receptor maps to 9q22 and
+RT   exhibits a polymorphism and a rare variant within a polyalanine
+RT   tract.";
+RL   Cancer Res. 58:2727-2732(1998).
+RN   [16]
+RP   ANALYSIS OF VARIANT TGFBR1*6A ALA-24--26-ALA DEL IN CANCER RISK.
+RX   PubMed=12947057; DOI=10.1200/JCO.2003.11.524;
+RA   Kaklamani V.G., Hou N., Bian Y., Reich J., Offit K., Michel L.S.,
+RA   Rubinstein W.S., Rademaker A., Pasche B.;
+RT   "TGFBR1*6A and cancer risk: a meta-analysis of seven case-control
+RT   studies.";
+RL   J. Clin. Oncol. 21:3236-3243(2003).
+RN   [17]
+RP   ANALYSIS OF VARIANT TGFBR1*6A ALA-24--26-ALA DEL IN PROSTATE CANCER.
+RX   PubMed=15385056; DOI=10.1186/1471-2156-5-28;
+RA   Kaklamani V.G., Baddi L., Rosman D., Liu J., Ellis N., Oddoux C.,
+RA   Ostrer H., Chen Y., Ahsan H., Offit K., Pasche B.;
+RT   "No major association between TGFBR1*6A and prostate cancer.";
+RL   BMC Genet. 5:28-28(2004).
+RN   [18]
+RP   VARIANTS LDS1A ILE-200; ARG-318; GLY-400 AND PRO-487.
+RX   PubMed=15731757; DOI=10.1038/ng1511;
+RA   Loeys B.L., Chen J., Neptune E.R., Judge D.P., Podowski M., Holm T.,
+RA   Meyers J., Leitch C.C., Katsanis N., Sharifi N., Xu F.L., Myers L.A.,
+RA   Spevak P.J., Cameron D.E., De Backer J.F., Hellemans J., Chen Y.,
+RA   Davis E.C., Webb C.L., Kress W., Coucke P.J., Rifkin D.B.,
+RA   De Paepe A.M., Dietz H.C.;
+RT   "A syndrome of altered cardiovascular, craniofacial, neurocognitive
+RT   and skeletal development caused by mutations in TGFBR1 or TGFBR2.";
+RL   Nat. Genet. 37:275-281(2005).
+RN   [19]
+RP   ANALYSIS OF VARIANT TGFBR1*6A ALA-24--26-ALA DEL IN PROSTATE CANCER.
+RX   PubMed=15505640; DOI=10.1038/sj.pcan.4500765;
+RA   Suarez B.K., Pal P., Jin C.H., Kaushal R., Sun G., Jin L., Pasche B.,
+RA   Deka R., Catalona W.J.;
+RT   "TGFBR1(*)6A is not associated with prostate cancer in men of European
+RT   ancestry.";
+RL   Prostate Cancer Prostatic Dis. 8:50-53(2005).
+RN   [20]
+RP   VARIANT LDS1A LEU-241.
+RX   PubMed=16596670; DOI=10.1002/ajmg.a.31202;
+RA   Ades L.C., Sullivan K., Biggin A., Haan E.A., Brett M., Holman K.J.,
+RA   Dixon J., Robertson S., Holmes A.D., Rogers J., Bennetts B.;
+RT   "FBN1, TGFBR1, and the Marfan-craniosynostosis/mental retardation
+RT   disorders revisited.";
+RL   Am. J. Med. Genet. A 140:1047-1058(2006).
+RN   [21]
+RP   VARIANT LDS1A LEU-241, VARIANT AAT5 GLN-487, AND VARIANT HIS-267.
+RX   PubMed=16791849; DOI=10.1002/humu.20353;
+RA   Matyas G., Arnold E., Carrel T., Baumgartner D., Boileau C.,
+RA   Berger W., Steinmann B.;
+RT   "Identification and in silico analyses of novel TGFBR1 and TGFBR2
+RT   mutations in Marfan syndrome-related disorders.";
+RL   Hum. Mutat. 27:760-769(2006).
+RN   [22]
+RP   VARIANTS LDS2A GLU-232; TRP-487; PRO-487 AND GLN-487.
+RX   PubMed=16928994; DOI=10.1056/NEJMoa055695;
+RA   Loeys B.L., Schwarze U., Holm T., Callewaert B.L., Thomas G.H.,
+RA   Pannu H., De Backer J.F., Oswald G.L., Symoens S., Manouvrier S.,
+RA   Roberts A.E., Faravelli F., Greco M.A., Pyeritz R.E., Milewicz D.M.,
+RA   Coucke P.J., Cameron D.E., Braverman A.C., Byers P.H., De Paepe A.M.,
+RA   Dietz H.C.;
+RT   "Aneurysm syndromes caused by mutations in the TGF-beta receptor.";
+RL   N. Engl. J. Med. 355:788-798(2006).
+RN   [23]
+RP   VARIANTS [LARGE SCALE ANALYSIS] ILE-153 AND CYS-291.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+RN   [24]
+RP   VARIANT [LARGE SCALE ANALYSIS] VAL-139.
+RX   PubMed=18987736; DOI=10.1038/nature07485;
+RA   Ley T.J., Mardis E.R., Ding L., Fulton B., McLellan M.D., Chen K.,
+RA   Dooling D., Dunford-Shore B.H., McGrath S., Hickenbotham M., Cook L.,
+RA   Abbott R., Larson D.E., Koboldt D.C., Pohl C., Smith S., Hawkins A.,
+RA   Abbott S., Locke D., Hillier L.W., Miner T., Fulton L., Magrini V.,
+RA   Wylie T., Glasscock J., Conyers J., Sander N., Shi X., Osborne J.R.,
+RA   Minx P., Gordon D., Chinwalla A., Zhao Y., Ries R.E., Payton J.E.,
+RA   Westervelt P., Tomasson M.H., Watson M., Baty J., Ivanovich J.,
+RA   Heath S., Shannon W.D., Nagarajan R., Walter M.J., Link D.C.,
+RA   Graubert T.A., DiPersio J.F., Wilson R.K.;
+RT   "DNA sequencing of a cytogenetically normal acute myeloid leukaemia
+RT   genome.";
+RL   Nature 456:66-72(2008).
+CC   -!- FUNCTION: On ligand binding, forms a receptor complex consisting
+CC       of two type II and two type I transmembrane serine/threonine
+CC       kinases. Type II receptors phosphorylate and activate type I
+CC       receptors which autophosphorylate, then bind and activate SMAD
+CC       transcriptional regulators. Receptor for TGF-beta.
+CC   -!- CATALYTIC ACTIVITY: ATP + [receptor-protein] = ADP + [receptor-
+CC       protein] phosphate.
+CC   -!- COFACTOR: Magnesium or manganese (By similarity).
+CC   -!- SUBUNIT: Interacts with CD109 and RBPMS. The unphosphorylated
+CC       protein interacts with FKBP1A and is stabilized the inactive
+CC       conformation. Phosphorylation of the GS region abrogates FKBP1A
+CC       binding. Interacts with SMAD2 when phosphorylated on several
+CC       residues in the GS region. Interacts with TRAF6.
+CC   -!- INTERACTION:
+CC       Q9Y3F4:STRAP; NbExp=1; IntAct=EBI-1027557, EBI-727414;
+CC       P63104:YWHAZ; NbExp=2; IntAct=EBI-1027557, EBI-347088;
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type I membrane
+CC       protein.
+CC   -!- TISSUE SPECIFICITY: Found in all tissues examined, most abundant
+CC       in placenta and least abundant in brain and heart.
+CC   -!- PTM: Phosphorylated at basal levels in the absence of ligand
+CC       binding. Activated by multiple phosphorylation, mainly in the GS
+CC       region.
+CC   -!- DISEASE: Defects in TGFBR1 are the cause of Loeys-Dietz syndrome
+CC       type 1A (LDS1A) [MIM:609192]; also known as Furlong syndrome or
+CC       Loeys-Dietz aortic aneurysm syndrome (LDAS). LDS1 is an aortic
+CC       aneurysm syndrome with widespread systemic involvement. The
+CC       disorder is characterized by arterial tortuosity and aneurysms,
+CC       craniosynostosis, hypertelorism, and bifid uvula or cleft palate.
+CC       Other findings include exotropy, micrognathia and retrognathia,
+CC       structural brain abnormalities, intellectual deficit, congenital
+CC       heart disease, translucent skin, joint hyperlaxity and aneurysm
+CC       with dissection throughout the arterial tree.
+CC   -!- DISEASE: Defects in TGFBR1 are the cause of Loeys-Dietz syndrome
+CC       type 2A (LDS2A) [MIM:608967]. LDS2 is an aortic aneurysm syndrome
+CC       with widespread systemic involvement. Physical findings include
+CC       prominent joint laxity, easy bruising, wide and atrophic scars,
+CC       velvety and translucent skin with easily visible veins,
+CC       spontaneous rupture of the spleen or bowel, diffuse arterial
+CC       aneurysms and dissections, and catastrophic complications of
+CC       pregnancy, including rupture of the gravid uterus and the
+CC       arteries, either during pregnancy or in the immediate postpartum
+CC       period. LDS2 is characterized by the absence of craniofacial
+CC       abnormalities with the exception of bifid uvula that can be
+CC       present in some patients.
+CC   -!- DISEASE: Defects in TGFBR1 are the cause of aortic aneurysm
+CC       familial thoracic type 5 (AAT5) [MIM:608967]. Aneurysms and
+CC       dissections of the aorta usually result from degenerative changes
+CC       in the aortic wall. Thoracic aortic aneurysms and dissections are
+CC       primarily associated with a characteristic histologic appearance
+CC       known as 'medial necrosis' in which there is degeneration and
+CC       fragmentation of elastic fibers, loss of smooth muscle cells, and
+CC       an accumulation of basophilic ground substance.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. TKL Ser/Thr
+CC       protein kinase family. TGFB receptor subfamily.
+CC   -!- SIMILARITY: Contains 1 GS domain.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- WEB RESOURCE: Name=GeneReviews;
+CC       URL="http://www.ncbi.nlm.nih.gov/sites/GeneTests/lab/gene/TGFBR1";
+CC   -!- WEB RESOURCE: Name=NIEHS-SNPs;
+CC       URL="http://egp.gs.washington.edu/data/tgfbr1/";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; L11695; AAA16073.1; -; mRNA.
+DR   EMBL; AF054598; AAC08998.1; -; Genomic_DNA.
+DR   EMBL; AF054590; AAC08998.1; JOINED; Genomic_DNA.
+DR   EMBL; AF054591; AAC08998.1; JOINED; Genomic_DNA.
+DR   EMBL; AF054592; AAC08998.1; JOINED; Genomic_DNA.
+DR   EMBL; AF054593; AAC08998.1; JOINED; Genomic_DNA.
+DR   EMBL; AF054594; AAC08998.1; JOINED; Genomic_DNA.
+DR   EMBL; AF054595; AAC08998.1; JOINED; Genomic_DNA.
+DR   EMBL; AF054596; AAC08998.1; JOINED; Genomic_DNA.
+DR   EMBL; AF054597; AAC08998.1; JOINED; Genomic_DNA.
+DR   EMBL; AF035670; AAD02042.1; -; Genomic_DNA.
+DR   EMBL; AF035662; AAD02042.1; JOINED; Genomic_DNA.
+DR   EMBL; AF035663; AAD02042.1; JOINED; Genomic_DNA.
+DR   EMBL; AF035664; AAD02042.1; JOINED; Genomic_DNA.
+DR   EMBL; AF035665; AAD02042.1; JOINED; Genomic_DNA.
+DR   EMBL; AF035666; AAD02042.1; JOINED; Genomic_DNA.
+DR   EMBL; AF035667; AAD02042.1; JOINED; Genomic_DNA.
+DR   EMBL; AF035668; AAD02042.1; JOINED; Genomic_DNA.
+DR   EMBL; AF035669; AAD02042.1; JOINED; Genomic_DNA.
+DR   EMBL; AY497473; AAR32097.1; -; Genomic_DNA.
+DR   IPI; IPI00005733; -.
+DR   PIR; A49432; A49432.
+DR   RefSeq; NP_004603.1; -.
+DR   UniGene; Hs.494622; -.
+DR   PDB; 1B6C; X-ray; 2.60 A; B/D/F/H=162-503.
+DR   PDB; 1IAS; X-ray; 2.90 A; A/B/C/D/E=162-503.
+DR   PDB; 1PY5; X-ray; 2.30 A; A=175-500.
+DR   PDB; 1RW8; X-ray; 2.40 A; A=200-500.
+DR   PDB; 1TBI; Model; -; A=34-114.
+DR   PDB; 1VJY; X-ray; 2.00 A; A=201-503.
+DR   PDB; 2PJY; X-ray; 3.00 A; C=33-111.
+DR   PDB; 2WOT; X-ray; 1.85 A; A=200-503.
+DR   PDB; 2WOU; X-ray; 2.30 A; A=200-503.
+DR   PDB; 3FAA; X-ray; 3.35 A; A/B/C/D/E=162-503.
+DR   PDB; 3GXL; X-ray; 1.80 A; A=201-503.
+DR   PDB; 3HMM; X-ray; 1.70 A; A=201-503.
+DR   PDB; 3KCF; X-ray; 2.80 A; A/B/C/D/E=162-503.
+DR   PDB; 3KFD; X-ray; 3.00 A; I/J/K/L=31-115.
+DR   PDBsum; 1B6C; -.
+DR   PDBsum; 1IAS; -.
+DR   PDBsum; 1PY5; -.
+DR   PDBsum; 1RW8; -.
+DR   PDBsum; 1TBI; -.
+DR   PDBsum; 1VJY; -.
+DR   PDBsum; 2PJY; -.
+DR   PDBsum; 2WOT; -.
+DR   PDBsum; 2WOU; -.
+DR   PDBsum; 3FAA; -.
+DR   PDBsum; 3GXL; -.
+DR   PDBsum; 3HMM; -.
+DR   PDBsum; 3KCF; -.
+DR   PDBsum; 3KFD; -.
+DR   ProteinModelPortal; P36897; -.
+DR   DIP; DIP-5935N; -.
+DR   IntAct; P36897; 10.
+DR   MINT; MINT-152959; -.
+DR   STRING; P36897; -.
+DR   PhosphoSite; P36897; -.
+DR   PRIDE; P36897; -.
+DR   Ensembl; ENST00000374994; ENSP00000364133; ENSG00000106799.
+DR   GeneID; 7046; -.
+DR   UCSC; uc004azc.1; human.
+DR   CTD; 7046; -.
+DR   GeneCards; GC09P101867; -.
+DR   H-InvDB; HIX0008228; -.
+DR   HGNC; HGNC:11772; TGFBR1.
+DR   HPA; CAB002441; -.
+DR   HPA; CAB031481; -.
+DR   MIM; 190181; gene.
+DR   MIM; 608967; phenotype.
+DR   MIM; 609192; phenotype.
+DR   Orphanet; 60030; Aortic aneurysm syndrome, Loeys-Dietz type.
+DR   Orphanet; 91387; Familial thoracic aortic aneurysm.
+DR   Orphanet; 97295; Furlong syndrome.
+DR   PharmGKB; PA36485; -.
+DR   eggNOG; prNOG07264; -.
+DR   HOGENOM; HBG314718; -.
+DR   HOVERGEN; HBG054502; -.
+DR   InParanoid; P36897; -.
+DR   OMA; KIELPTT; -.
+DR   OrthoDB; EOG9GTP07; -.
+DR   PhylomeDB; P36897; -.
+DR   BRENDA; 2.7.10.2; 247.
+DR   BRENDA; 2.7.11.30; 247.
+DR   Pathway_Interaction_DB; glypican_1pathway; Glypican 1 network.
+DR   Pathway_Interaction_DB; tgfbrpathway; TGF-beta receptor signaling.
+DR   Reactome; REACT_6844; Signaling by TGF beta.
+DR   NextBio; 27533; -.
+DR   ArrayExpress; P36897; -.
+DR   Bgee; P36897; -.
+DR   CleanEx; HS_TGFBR1; -.
+DR   Genevestigator; P36897; -.
+DR   GermOnline; ENSG00000106799; Homo sapiens.
+DR   GO; GO:0070022; C:transforming growth factor beta receptor co...; IC:BHF-UCL.
+DR   GO; GO:0005524; F:ATP binding; IDA:HGNC.
+DR   GO; GO:0070411; F:I-SMAD binding; IPI:BHF-UCL.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0050431; F:transforming growth factor beta binding; IDA:BHF-UCL.
+DR   GO; GO:0005025; F:transforming growth factor beta receptor ac...; IDA:BHF-UCL.
+DR   GO; GO:0005114; F:type II transforming growth factor beta rec...; IDA:BHF-UCL.
+DR   GO; GO:0000186; P:activation of MAPKK activity; IDA:BHF-UCL.
+DR   GO; GO:0009952; P:anterior/posterior pattern formation; ISS:BHF-UCL.
+DR   GO; GO:0048844; P:artery morphogenesis; ISS:BHF-UCL.
+DR   GO; GO:0030199; P:collagen fibril organization; ISS:BHF-UCL.
+DR   GO; GO:0048701; P:embryonic cranial skeleton morphogenesis; ISS:BHF-UCL.
+DR   GO; GO:0008354; P:germ cell migration; ISS:BHF-UCL.
+DR   GO; GO:0007507; P:heart development; ISS:BHF-UCL.
+DR   GO; GO:0001822; P:kidney development; ISS:BHF-UCL.
+DR   GO; GO:0048663; P:neuron fate commitment; ISS:BHF-UCL.
+DR   GO; GO:0060021; P:palate development; ISS:BHF-UCL.
+DR   GO; GO:0060017; P:parathyroid gland development; ISS:BHF-UCL.
+DR   GO; GO:0060389; P:pathway-restricted SMAD protein phosphoryla...; IDA:BHF-UCL.
+DR   GO; GO:0018105; P:peptidyl-serine phosphorylation; IDA:BHF-UCL.
+DR   GO; GO:0018107; P:peptidyl-threonine phosphorylation; IDA:BHF-UCL.
+DR   GO; GO:0060037; P:pharyngeal system development; ISS:BHF-UCL.
+DR   GO; GO:0030307; P:positive regulation of cell growth; IDA:BHF-UCL.
+DR   GO; GO:0008284; P:positive regulation of cell proliferation; IMP:HGNC.
+DR   GO; GO:0051272; P:positive regulation of cellular component m...; IMP:BHF-UCL.
+DR   GO; GO:0010862; P:positive regulation of pathway-restricted S...; IDA:BHF-UCL.
+DR   GO; GO:0051897; P:positive regulation of protein kinase B sig...; IDA:BHF-UCL.
+DR   GO; GO:0060391; P:positive regulation of SMAD protein nuclear...; IDA:BHF-UCL.
+DR   GO; GO:0045885; P:positive regulation of survival gene produc...; IMP:BHF-UCL.
+DR   GO; GO:0045941; P:positive regulation of transcription; IDA:BHF-UCL.
+DR   GO; GO:0070723; P:response to cholesterol; IDA:BHF-UCL.
+DR   GO; GO:0048538; P:thymus development; ISS:BHF-UCL.
+DR   GO; GO:0007179; P:transforming growth factor beta receptor si...; IDA:BHF-UCL.
+DR   InterPro; IPR000472; Activin_rcpt.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR003605; TGF_beta_rcpt_GS.
+DR   Pfam; PF01064; Activin_recp; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   Pfam; PF08515; TGF_beta_GS; 1.
+DR   SMART; SM00467; GS; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS51256; GS; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Aortic aneurysm; ATP-binding; Complete proteome;
+KW   Craniosynostosis; Disease mutation; Disulfide bond; Glycoprotein;
+KW   Kinase; Magnesium; Manganese; Membrane; Metal-binding;
+KW   Nucleotide-binding; Phosphoprotein; Polymorphism; Receptor;
+KW   Serine/threonine-protein kinase; Signal; Transferase; Transmembrane;
+KW   Transmembrane helix.
+FT   SIGNAL        1     24       Potential.
+FT   CHAIN        25    503       TGF-beta receptor type-1.
+FT                                /FTId=PRO_0000024423.
+FT   TOPO_DOM     25    125       Extracellular (Potential).
+FT   TRANSMEM    126    147       Helical; (Potential).
+FT   TOPO_DOM    148    503       Cytoplasmic (Potential).
+FT   DOMAIN      175    204       GS.
+FT   DOMAIN      205    495       Protein kinase.
+FT   NP_BIND     211    219       ATP (By similarity).
+FT   ACT_SITE    333    333       Proton acceptor (By similarity).
+FT   BINDING     232    232       ATP (By similarity).
+FT   MOD_RES     165    165       Phosphoserine.
+FT   MOD_RES     185    185       Phosphothreonine.
+FT   MOD_RES     186    186       Phosphothreonine.
+FT   MOD_RES     187    187       Phosphoserine.
+FT   MOD_RES     189    189       Phosphoserine.
+FT   MOD_RES     191    191       Phosphoserine.
+FT   CARBOHYD     45     45       N-linked (GlcNAc...) (Potential).
+FT   DISULFID     36     54
+FT   DISULFID     38     41
+FT   DISULFID     48     71
+FT   DISULFID     86    100
+FT   DISULFID    101    106
+FT   VARIANT      24     26       Missing (in allele TGFBR1*6A; could be a
+FT                                tumor susceptibility allele).
+FT                                /FTId=VAR_022342.
+FT   VARIANT      26     26       A -> AA (in allele TGFBR1*10A; rare
+FT                                polymorphism).
+FT                                /FTId=VAR_022343.
+FT   VARIANT     139    139       I -> V.
+FT                                /FTId=VAR_054160.
+FT   VARIANT     153    153       V -> I (in dbSNP:rs56014374).
+FT                                /FTId=VAR_041412.
+FT   VARIANT     200    200       T -> I (in LDS1A).
+FT                                /FTId=VAR_022344.
+FT   VARIANT     232    232       K -> E (in LDS2A).
+FT                                /FTId=VAR_029481.
+FT   VARIANT     241    241       S -> L (in LDS1A).
+FT                                /FTId=VAR_029482.
+FT   VARIANT     267    267       N -> H (in a patient with Marfan
+FT                                syndrome).
+FT                                /FTId=VAR_029483.
+FT   VARIANT     291    291       Y -> C (in dbSNP:rs35974499).
+FT                                /FTId=VAR_041413.
+FT   VARIANT     318    318       M -> R (in LDS1A).
+FT                                /FTId=VAR_022345.
+FT   VARIANT     400    400       D -> G (in LDS1A).
+FT                                /FTId=VAR_022346.
+FT   VARIANT     487    487       R -> P (in LDS1A and LDS2A).
+FT                                /FTId=VAR_022347.
+FT   VARIANT     487    487       R -> Q (in LDS2A and AAT5).
+FT                                /FTId=VAR_029484.
+FT   VARIANT     487    487       R -> W (in LDS2A).
+FT                                /FTId=VAR_029485.
+FT   MUTAGEN     185    186       TT->VV: Loss of phosphorylation on
+FT                                threonine residues. Loss of threonine
+FT                                phosphorylation, reduced phosphorylation
+FT                                on serine residues and loss of response
+FT                                to TGF-beta; when associated with A-187;
+FT                                A-189 and A-191.
+FT   MUTAGEN     187    187       S->A: Loss of threonine phosphorylation,
+FT                                reduced phosphorylation on serine
+FT                                residues and loss of response to TGF-
+FT                                beta; when associated with 185-VV-186; A-
+FT                                189 and A-191.
+FT   MUTAGEN     189    189       S->A: Loss of threonine phosphorylation,
+FT                                reduced phosphorylation on serine
+FT                                residues and loss of response to TGF-
+FT                                beta; when associated with 185-VV-186; A-
+FT                                187 and A-191.
+FT   MUTAGEN     191    191       S->A: Loss of threonine phosphorylation,
+FT                                reduced phosphorylation on serine
+FT                                residues and loss of response to TGF-
+FT                                beta; when associated with 185-VV-186; A-
+FT                                187 and A-189.
+FT   MUTAGEN     200    200       T->D: Loss of response to TGF-beta.
+FT   MUTAGEN     200    200       T->V: Loss of phosphorylation. Loss of
+FT                                response to TGF-beta.
+FT   MUTAGEN     204    204       T->D: Constitutive activation.
+FT   MUTAGEN     204    204       T->V: Reduced phosphorylation. Reduced
+FT                                response to TGF-beta.
+FT   HELIX       177    183
+FT   STRAND      191    193
+FT   HELIX       195    199
+FT   HELIX       202    204
+FT   STRAND      206    212
+FT   STRAND      215    217
+FT   STRAND      219    224
+FT   STRAND      227    234
+FT   HELIX       239    251
+FT   STRAND      262    267
+FT   STRAND      271    273
+FT   STRAND      276    280
+FT   HELIX       288    294
+FT   HELIX       299    317
+FT   STRAND      328    330
+FT   HELIX       336    338
+FT   STRAND      339    341
+FT   STRAND      347    349
+FT   STRAND      356    359
+FT   TURN        360    363
+FT   STRAND      364    366
+FT   HELIX       376    378
+FT   HELIX       381    384
+FT   HELIX       393    413
+FT   TURN        427    431
+FT   HELIX       438    445
+FT   HELIX       456    459
+FT   HELIX       462    472
+FT   HELIX       479    481
+FT   HELIX       485    499
+SQ   SEQUENCE   503 AA;  55960 MW;  179F11404725DDCB CRC64;
+     MEAAVAAPRP RLLLLVLAAA AAAAAALLPG ATALQCFCHL CTKDNFTCVT DGLCFVSVTE
+     TTDKVIHNSM CIAEIDLIPR DRPFVCAPSS KTGSVTTTYC CNQDHCNKIE LPTTVKSSPG
+     LGPVELAAVI AGPVCFVCIS LMLMVYICHN RTVIHHRVPN EEDPSLDRPF ISEGTTLKDL
+     IYDMTTSGSG SGLPLLVQRT IARTIVLQES IGKGRFGEVW RGKWRGEEVA VKIFSSREER
+     SWFREAEIYQ TVMLRHENIL GFIAADNKDN GTWTQLWLVS DYHEHGSLFD YLNRYTVTVE
+     GMIKLALSTA SGLAHLHMEI VGTQGKPAIA HRDLKSKNIL VKKNGTCCIA DLGLAVRHDS
+     ATDTIDIAPN HRVGTKRYMA PEVLDDSINM KHFESFKRAD IYAMGLVFWE IARRCSIGGI
+     HEDYQLPYYD LVPSDPSVEE MRKVVCEQKL RPNIPNRWQS CEALRVMAKI MRECWYANGA
+     ARLTALRIKK TLSQLSQQEG IKM
+//

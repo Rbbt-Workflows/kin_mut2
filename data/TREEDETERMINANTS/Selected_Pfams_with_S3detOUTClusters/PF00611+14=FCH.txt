@@ -1,0 +1,52 @@
+UI: Initial number of sequences: 28
+UI: Initial number of positions: 111
+UI: Number of outliers: 0
+UI: Final number of sequences after removing outliers: 28
+UI: Final number of positions after removing gappy columns: 84
+II: Final number of columns in the disjunctive matrix: 570
+UI: Number of axes selected: 4
+UI: Percentage of initial variance considered informative: 54.0309 %
+UI: Checking a maximum number of groups equal to: 7
+UI: Stable cluster results have been found
+SC: YES
+UI: Number of groups selected: 7
+II: Clustering index value: CH_Index = 28.6293
+II: F-Fisher: 179.571
+II: Best solution found 96 times out of 500 iterations searching for 7 groups
+UI: Number of groups with less than 3 sequences: 1
+Is there enough group diversity to perform the analysis?:
+GD: YES
+
+Clustering of sequences: 
+CL: P98171+2=RHG04_HUMAN/22-124	1
+CL: Q91Z69+2=SRGP1_MOUSE/22-121	1
+CL: O43295+3=SRGP2_HUMAN/22-120	1
+CL: O75044+2=FNBP2_HUMAN/22-120	1
+CL: O94868+3=FCSD2_HUMAN/12-108	0
+CL: Q3USJ8+2=FCSD2_MOUSE/12-108	0
+CL: P07332+3=FES_HUMAN/1-94	4
+CL: O43586+1=PPIP1_HUMAN/5-98	5
+CL: P18106+3=FPS_DROME/1-94	4
+CL: Q96RU3+2=FNBP1_HUMAN/1-94	3
+CL: Q15642+3=CIP4_HUMAN/1-94	3
+CL: Q8CJ53+2=CIP4_MOUSE/1-94	3
+CL: Q6GNV5+1=FNBP1_XENLA/1-94	3
+CL: P16879+1=FES_MOUSE/1-94	4
+CL: P97814+1=PPIP1_MOUSE/5-98	5
+CL: Q5T0N5+2=FBP1L_HUMAN/1-93	3
+CL: Q6DCZ7+1=FBP1L_XENLA/1-93	3
+CL: P16591+2=FER_HUMAN/1-92	4
+CL: Q9H939+3=PPIP2_HUMAN/9-98	5
+CL: Q99M15+3=PPIP2_MOUSE/9-98	5
+CL: Q9UKS6+2=PACN3_HUMAN/14-102	2
+CL: Q9UNF0+2=PACN2_HUMAN/16-104	2
+CL: Q9BY11+1=PACN1_HUMAN/17-105	2
+CL: Q9DDA9+1=PACN2_XENLA/16-104	2
+CL: O13154+1=PACN2_CHICK/16-104	2
+CL: Q8K285+1=FCHO1_MOUSE/6-92	6
+CL: O14526+2=FCHO1_HUMAN/6-92	6
+CL: Q0JRZ9+2=FCHO2_HUMAN/8-94	6
+
+Are there any position predicted as being important for the whole family?: 
+PR: NO
+UI: There are no positions predicted to be important for the group segregation

@@ -1,0 +1,295 @@
+ID   GSK3A_HUMAN             Reviewed;         483 AA.
+AC   P49840; O14959;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2000, sequence version 2.
+DT   02-NOV-2010, entry version 105.
+DE   RecName: Full=Glycogen synthase kinase-3 alpha;
+DE            Short=GSK-3 alpha;
+DE            EC=2.7.11.26;
+GN   Name=GSK3A;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Foreskin;
+RA   He X., Saint-Jeannet J.P., Woodgett J.R., Varmus H.E., Dawid I.B.;
+RT   "Glycogen synthase kinase 3 and dorsoventral patterning in Xenopus
+RT   embryos.";
+RL   Submitted (MAR-1995) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Brain;
+RA   Hoshino T., Kondo K., Ishiguro K., Takashima A., Imahori K.;
+RT   "Isolation of cDNA clones for human glycogen synthase kinase 3alpha.";
+RL   Submitted (NOV-1997) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=15057824; DOI=10.1038/nature02399;
+RA   Grimwood J., Gordon L.A., Olsen A.S., Terry A., Schmutz J.,
+RA   Lamerdin J.E., Hellsten U., Goodstein D., Couronne O., Tran-Gyamfi M.,
+RA   Aerts A., Altherr M., Ashworth L., Bajorek E., Black S., Branscomb E.,
+RA   Caenepeel S., Carrano A.V., Caoile C., Chan Y.M., Christensen M.,
+RA   Cleland C.A., Copeland A., Dalin E., Dehal P., Denys M., Detter J.C.,
+RA   Escobar J., Flowers D., Fotopulos D., Garcia C., Georgescu A.M.,
+RA   Glavina T., Gomez M., Gonzales E., Groza M., Hammon N., Hawkins T.,
+RA   Haydu L., Ho I., Huang W., Israni S., Jett J., Kadner K., Kimball H.,
+RA   Kobayashi A., Larionov V., Leem S.-H., Lopez F., Lou Y., Lowry S.,
+RA   Malfatti S., Martinez D., McCready P.M., Medina C., Morgan J.,
+RA   Nelson K., Nolan M., Ovcharenko I., Pitluck S., Pollard M.,
+RA   Popkie A.P., Predki P., Quan G., Ramirez L., Rash S., Retterer J.,
+RA   Rodriguez A., Rogers S., Salamov A., Salazar A., She X., Smith D.,
+RA   Slezak T., Solovyev V., Thayer N., Tice H., Tsai M., Ustaszewska A.,
+RA   Vo N., Wagner M., Wheeler J., Wu K., Xie G., Yang J., Dubchak I.,
+RA   Furey T.S., DeJong P., Dickson M., Gordon D., Eichler E.E.,
+RA   Pennacchio L.A., Richardson P., Stubbs L., Rokhsar D.S., Myers R.M.,
+RA   Rubin E.M., Lucas S.M.;
+RT   "The DNA sequence and biology of human chromosome 19.";
+RL   Nature 428:529-535(2004).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Eye, and Pancreas;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [5]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-279, AND MASS
+RP   SPECTROMETRY.
+RX   PubMed=15592455; DOI=10.1038/nbt1046;
+RA   Rush J., Moritz A., Lee K.A., Guo A., Goss V.L., Spek E.J., Zhang H.,
+RA   Zha X.-M., Polakiewicz R.D., Comb M.J.;
+RT   "Immunoaffinity profiling of tyrosine phosphorylation in cancer
+RT   cells.";
+RL   Nat. Biotechnol. 23:94-101(2005).
+RN   [6]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-279, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Lung carcinoma;
+RX   PubMed=18083107; DOI=10.1016/j.cell.2007.11.025;
+RA   Rikova K., Guo A., Zeng Q., Possemato A., Yu J., Haack H., Nardone J.,
+RA   Lee K., Reeves C., Li Y., Hu Y., Tan Z., Stokes M., Sullivan L.,
+RA   Mitchell J., Wetzel R., Macneill J., Ren J.M., Yuan J.,
+RA   Bakalarski C.E., Villen J., Kornhauser J.M., Smith B., Li D., Zhou X.,
+RA   Gygi S.P., Gu T.-L., Polakiewicz R.D., Rush J., Comb M.J.;
+RT   "Global survey of phosphotyrosine signaling identifies oncogenic
+RT   kinases in lung cancer.";
+RL   Cell 131:1190-1203(2007).
+RN   [7]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-21 AND TYR-279, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=17192257; DOI=10.1074/mcp.T600062-MCP200;
+RA   Wissing J., Jaensch L., Nimtz M., Dieterich G., Hornberger R.,
+RA   Keri G., Wehland J., Daub H.;
+RT   "Proteomics analysis of protein kinases by target class-selective
+RT   prefractionation and tandem mass spectrometry.";
+RL   Mol. Cell. Proteomics 6:537-547(2007).
+RN   [8]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-279, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Mammary epithelium;
+RX   PubMed=17389395; DOI=10.1073/pnas.0608638104;
+RA   Wolf-Yadlin A., Hautaniemi S., Lauffenburger D.A., White F.M.;
+RT   "Multiple reaction monitoring for robust quantitative proteomic
+RT   analysis of cellular signaling networks.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 104:5860-5865(2007).
+RN   [9]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-279, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Platelet;
+RX   PubMed=18088087; DOI=10.1021/pr0704130;
+RA   Zahedi R.P., Lewandrowski U., Wiesner J., Wortelkamp S., Moebius J.,
+RA   Schuetz C., Walter U., Gambaryan S., Sickmann A.;
+RT   "Phosphoproteome of resting human platelets.";
+RL   J. Proteome Res. 7:526-534(2008).
+RN   [10]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-2 AND SER-72, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [11]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RA   Colinge J., Superti-Furga G., Bennett K.L.;
+RL   Submitted (OCT-2008) to UniProtKB.
+RN   [12]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-21; TYR-279 AND SER-282,
+RP   AND MASS SPECTROMETRY.
+RC   TISSUE=Embryonic kidney;
+RX   PubMed=19413330; DOI=10.1021/ac9004309;
+RA   Gauci S., Helbig A.O., Slijper M., Krijgsveld J., Heck A.J.,
+RA   Mohammed S.;
+RT   "Lys-N and trypsin cover complementary parts of the phosphoproteome in
+RT   a refined SCX-based approach.";
+RL   Anal. Chem. 81:4493-4501(2009).
+RN   [13]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-2; THR-19; SER-20;
+RP   SER-21; SER-39; SER-41; SER-63; SER-65; SER-72; SER-77; THR-84; SER-97
+RP   AND THR-480, AND MASS SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [14]
+RP   VARIANT [LARGE SCALE ANALYSIS] PHE-461.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Implicated in the hormonal control of several regulatory
+CC       proteins including glycogen synthase, MYB and the transcription
+CC       factor JUN (By similarity).
+CC   -!- CATALYTIC ACTIVITY: ATP + [tau protein] = ADP + [tau protein]
+CC       phosphate.
+CC   -!- SUBUNIT: Monomer. Interacts with ARRB2 (By similarity).
+CC   -!- INTERACTION:
+CC       Q8N0Z3:CCDC52; NbExp=1; IntAct=EBI-1044067, EBI-2361917;
+CC       O75398:DEAF1; NbExp=2; IntAct=EBI-1044067, EBI-718185;
+CC       Q16584:MAP3K11; NbExp=1; IntAct=EBI-1044067, EBI-49961;
+CC       P10636:MAPT; NbExp=1; IntAct=EBI-1044067, EBI-366182;
+CC       Q14596:NBR1; NbExp=1; IntAct=EBI-1044067, EBI-742698;
+CC       Q9NP79:VTA1; NbExp=1; IntAct=EBI-1044067, EBI-740160;
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CMGC
+CC       Ser/Thr protein kinase family. GSK-3 subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; L40027; AAA62432.1; -; mRNA.
+DR   EMBL; D63424; BAA23608.1; -; mRNA.
+DR   EMBL; AC006486; AAD11986.1; -; Genomic_DNA.
+DR   EMBL; BC027984; AAH27984.1; -; mRNA.
+DR   EMBL; BC051865; AAH51865.1; -; mRNA.
+DR   IPI; IPI00292228; -.
+DR   RefSeq; NP_063937.2; -.
+DR   UniGene; Hs.466828; -.
+DR   PDB; 2DFM; Model; -; A=98-449.
+DR   PDBsum; 2DFM; -.
+DR   ProteinModelPortal; P49840; -.
+DR   SMR; P49840; 99-446.
+DR   IntAct; P49840; 36.
+DR   MINT; MINT-1688290; -.
+DR   STRING; P49840; -.
+DR   PhosphoSite; P49840; -.
+DR   PeptideAtlas; P49840; -.
+DR   PRIDE; P49840; -.
+DR   Ensembl; ENST00000222330; ENSP00000222330; ENSG00000105723.
+DR   Ensembl; ENST00000453535; ENSP00000412663; ENSG00000105723.
+DR   GeneID; 2931; -.
+DR   KEGG; hsa:2931; -.
+DR   UCSC; uc002otb.1; human.
+DR   CTD; 2931; -.
+DR   GeneCards; GC19M042734; -.
+DR   H-InvDB; HIX0015173; -.
+DR   HGNC; HGNC:4616; GSK3A.
+DR   HPA; CAB004422; -.
+DR   HPA; HPA028423; -.
+DR   MIM; 606784; gene.
+DR   PharmGKB; PA29008; -.
+DR   eggNOG; prNOG04955; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG014652; -.
+DR   InParanoid; P49840; -.
+DR   OMA; DQQVEIS; -.
+DR   OrthoDB; EOG9R52NK; -.
+DR   PhylomeDB; P49840; -.
+DR   BRENDA; 2.7.11.26; 247.
+DR   Pathway_Interaction_DB; wnt_canonical_pathway; Canonical Wnt signaling pathway.
+DR   Pathway_Interaction_DB; pi3kciaktpathway; Class I PI3K signaling events mediated by Akt.
+DR   Pathway_Interaction_DB; foxm1pathway; FOXM1 transcription factor network.
+DR   Reactome; REACT_11061; Signalling by NGF.
+DR   Reactome; REACT_15380; Diabetes pathways.
+DR   NextBio; 11615; -.
+DR   ArrayExpress; P49840; -.
+DR   Bgee; P49840; -.
+DR   CleanEx; HS_GSK3A; -.
+DR   Genevestigator; P49840; -.
+DR   GermOnline; ENSG00000105723; Homo sapiens.
+DR   GO; GO:0030877; C:beta-catenin destruction complex; NAS:BHF-UCL.
+DR   GO; GO:0005829; C:cytosol; TAS:BHF-UCL.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0034236; F:protein kinase A catalytic subunit binding; IPI:BHF-UCL.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IDA:BHF-UCL.
+DR   GO; GO:0050321; F:tau-protein kinase activity; IEA:EC.
+DR   GO; GO:0008286; P:insulin receptor signaling pathway; ISS:BHF-UCL.
+DR   GO; GO:0046325; P:negative regulation of glucose import; IMP:BHF-UCL.
+DR   GO; GO:0046627; P:negative regulation of insulin receptor sig...; IMP:BHF-UCL.
+DR   GO; GO:0051348; P:negative regulation of transferase activity; IMP:BHF-UCL.
+DR   GO; GO:0010905; P:negative regulation of UDP-glucose cataboli...; IC:BHF-UCL.
+DR   GO; GO:0045732; P:positive regulation of protein catabolic pr...; NAS:BHF-UCL.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IDA:BHF-UCL.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; ATP-binding; Complete proteome; Kinase;
+KW   Nucleotide-binding; Phosphoprotein; Polymorphism;
+KW   Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    483       Glycogen synthase kinase-3 alpha.
+FT                                /FTId=PRO_0000085978.
+FT   DOMAIN      119    403       Protein kinase.
+FT   NP_BIND     125    133       ATP (By similarity).
+FT   COMPBIAS      1     83       Gly-rich.
+FT   ACT_SITE    244    244       Proton acceptor (By similarity).
+FT   BINDING     148    148       ATP (By similarity).
+FT   MOD_RES       2      2       Phosphoserine.
+FT   MOD_RES      19     19       Phosphothreonine.
+FT   MOD_RES      20     20       Phosphoserine.
+FT   MOD_RES      21     21       Phosphoserine.
+FT   MOD_RES      39     39       Phosphoserine.
+FT   MOD_RES      41     41       Phosphoserine.
+FT   MOD_RES      63     63       Phosphoserine.
+FT   MOD_RES      65     65       Phosphoserine.
+FT   MOD_RES      72     72       Phosphoserine.
+FT   MOD_RES      77     77       Phosphoserine.
+FT   MOD_RES      84     84       Phosphothreonine.
+FT   MOD_RES      97     97       Phosphoserine.
+FT   MOD_RES     279    279       Phosphotyrosine.
+FT   MOD_RES     282    282       Phosphoserine.
+FT   MOD_RES     480    480       Phosphothreonine.
+FT   VARIANT     109    109       Q -> E (in dbSNP:rs35978177).
+FT                                /FTId=VAR_051625.
+FT   VARIANT     461    461       L -> F (in dbSNP:rs35454502).
+FT                                /FTId=VAR_040539.
+FT   CONFLICT    449    449       A -> S (in Ref. 1; AAA62432).
+SQ   SEQUENCE   483 AA;  50981 MW;  F18C012C03B7D786 CRC64;
+     MSGGGPSGGG PGGSGRARTS SFAEPGGGGG GGGGGPGGSA SGPGGTGGGK ASVGAMGGGV
+     GASSSGGGPG GSGGGGSGGP GAGTSFPPPG VKLGRDSGKV TTVVATLGQG PERSQEVAYT
+     DIKVIGNGSF GVVYQARLAE TRELVAIKKV LQDKRFKNRE LQIMRKLDHC NIVRLRYFFY
+     SSGEKKDELY LNLVLEYVPE TVYRVARHFT KAKLTIPILY VKVYMYQLFR SLAYIHSQGV
+     CHRDIKPQNL LVDPDTAVLK LCDFGSAKQL VRGEPNVSYI CSRYYRAPEL IFGATDYTSS
+     IDVWSAGCVL AELLLGQPIF PGDSGVDQLV EIIKVLGTPT REQIREMNPN YTEFKFPQIK
+     AHPWTKVFKS RTPPEAIALC SSLLEYTPSS RLSPLEACAH SFFDELRCLG TQLPNNRPLP
+     PLFNFSAGEL SIQPSLNAIL IPPHLRSPAG TTTLTPSSQA LTETPTSSDW QSTDATPTLT
+     NSS
+//

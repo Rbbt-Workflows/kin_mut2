@@ -1,0 +1,321 @@
+ID   MP2K1_HUMAN             Reviewed;         393 AA.
+AC   Q02750;
+DT   01-JUL-1993, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   02-NOV-2010, entry version 120.
+DE   RecName: Full=Dual specificity mitogen-activated protein kinase kinase 1;
+DE            Short=MAP kinase kinase 1;
+DE            Short=MAPKK 1;
+DE            EC=2.7.12.2;
+DE   AltName: Full=ERK activator kinase 1;
+DE   AltName: Full=MAPK/ERK kinase 1;
+DE            Short=MEK 1;
+GN   Name=MAP2K1; Synonyms=MEK1, PRKMK1;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   MEDLINE=93100262; PubMed=1281467;
+RA   Seger R., Seger D., Lozeman F.J., Ahn N.G., Graves L.M.,
+RA   Campbell J.S., Ericsson L., Harrylock M., Jensen A.M., Krebs E.G.;
+RT   "Human T-cell mitogen-activated protein kinase kinases are related to
+RT   yeast signal transduction kinases.";
+RL   J. Biol. Chem. 267:25628-25631(1992).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   MEDLINE=93266604; PubMed=8388392;
+RA   Zheng C.-F., Guan K.-L.;
+RT   "Cloning and characterization of two distinct human extracellular
+RT   signal-regulated kinase activator kinases, MEK1 and MEK2.";
+RL   J. Biol. Chem. 268:11435-11439(1993).
+RN   [3]
+RP   PHOSPHORYLATION AT SER-218 AND SER-222, AND MUTAGENESIS.
+RX   MEDLINE=94178255; PubMed=8131746;
+RA   Zheng C.-F., Guan K.-L.;
+RT   "Activation of MEK family kinases requires phosphorylation of two
+RT   conserved Ser/Thr residues.";
+RL   EMBO J. 13:1123-1131(1994).
+RN   [4]
+RP   CLEAVAGE BY ANTHRAX LETHAL FACTOR, AND PROTEIN SEQUENCE OF 9-17.
+RX   MEDLINE=98230732; PubMed=9563949; DOI=10.1126/science.280.5364.734;
+RA   Duesbery N.S., Webb C.P., Leppla S.H., Gordon V.M., Klimpel K.R.,
+RA   Copeland T.D., Ahn N.G., Oskarsson M.K., Fukasawa K., Paull K.D.,
+RA   Vande Woude G.F.;
+RT   "Proteolytic inactivation of MAP-kinase-kinase by anthrax lethal
+RT   factor.";
+RL   Science 280:734-737(1998).
+RN   [5]
+RP   CLEAVAGE BY ANTHRAX LETHAL FACTOR.
+RX   MEDLINE=20558083; PubMed=11104681; DOI=10.1042/0264-6021:3520739;
+RA   Vitale G., Bernardi L., Napolitani G., Mock M., Montecucco C.;
+RT   "Susceptibility of mitogen-activated protein kinase kinase family
+RT   members to proteolysis by anthrax lethal factor.";
+RL   Biochem. J. 352:739-745(2000).
+RN   [6]
+RP   INTERACTION WITH YOPJ, AND ACETYLATION.
+RX   PubMed=16728640; DOI=10.1126/science.1126867;
+RA   Mukherjee S., Keitany G., Li Y., Wang Y., Ball H.L., Goldsmith E.J.,
+RA   Orth K.;
+RT   "Yersinia YopJ acetylates and inhibits kinase activation by blocking
+RT   phosphorylation.";
+RL   Science 312:1211-1214(2006).
+RN   [7]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-222, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=17192257; DOI=10.1074/mcp.T600062-MCP200;
+RA   Wissing J., Jaensch L., Nimtz M., Dieterich G., Hornberger R.,
+RA   Keri G., Wehland J., Daub H.;
+RT   "Proteomics analysis of protein kinases by target class-selective
+RT   prefractionation and tandem mass spectrometry.";
+RL   Mol. Cell. Proteomics 6:537-547(2007).
+RN   [8]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-231; THR-286 AND
+RP   THR-386, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [9]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RA   Colinge J., Superti-Furga G., Bennett K.L.;
+RL   Submitted (OCT-2008) to UniProtKB.
+RN   [10]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-385, AND MASS
+RP   SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [11]
+RP   VARIANTS CFC SYNDROME SER-53 AND CYS-130.
+RX   PubMed=16439621; DOI=10.1126/science.1124642;
+RA   Rodriguez-Viciana P., Tetsu O., Tidyman W.E., Estep A.L., Conger B.A.,
+RA   Cruz M.S., McCormick F., Rauen K.A.;
+RT   "Germline mutations in genes within the MAPK pathway cause cardio-
+RT   facio-cutaneous syndrome.";
+RL   Science 311:1287-1290(2006).
+CC   -!- FUNCTION: Catalyzes the concomitant phosphorylation of a threonine
+CC       and a tyrosine residue in a Thr-Glu-Tyr sequence located in MAP
+CC       kinases. Activates ERK1 and ERK2 MAP kinases.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- ENZYME REGULATION: Activated by phosphorylation.
+CC   -!- SUBUNIT: Interacts with MORG1. Interacts with ARRB2 (By
+CC       similarity). Interacts with Yersinia yopJ.
+CC   -!- INTERACTION:
+CC       Q9NR09:BIRC6; NbExp=1; IntAct=EBI-492564, EBI-1765160;
+CC       P04049:RAF1; NbExp=1; IntAct=EBI-492564, EBI-365996;
+CC       Q96RU8:TRIB1; NbExp=1; IntAct=EBI-492564, EBI-492555;
+CC       Q96RU7:TRIB3; NbExp=1; IntAct=EBI-492564, EBI-492476;
+CC       Q86Y07:VRK2; NbExp=2; IntAct=EBI-492564, EBI-1207615;
+CC   -!- PTM: Phosphorylation on Ser/Thr by MAP kinase kinase kinases (RAF
+CC       or MEKK1) regulates positively the kinase activity.
+CC   -!- PTM: Acetylation by Yersinia yopJ prevents phosphorylation and
+CC       activation, thus blocking the MAPK signaling pathway.
+CC   -!- DISEASE: Defects in MAP2K1 are a cause of cardiofaciocutaneous
+CC       syndrome (CFC syndrome) [MIM:115150]; also known as cardio-facio-
+CC       cutaneous syndrome. CFC syndrome is characterized by a distinctive
+CC       facial appearance, heart defects and mental retardation. Heart
+CC       defects include pulmonic stenosis, atrial septal defects and
+CC       hypertrophic cardiomyopathy. Some affected individuals present
+CC       with ectodermal abnormalities such as sparse, friable hair,
+CC       hyperkeratotic skin lesions and a generalized ichthyosis-like
+CC       condition. Typical facial features are similar to Noonan syndrome.
+CC       They include high forehead with bitemporal constriction,
+CC       hypoplastic supraorbital ridges, downslanting palpebral fissures,
+CC       a depressed nasal bridge, and posteriorly angulated ears with
+CC       prominent helices. The inheritance of CFC syndrome is autosomal
+CC       dominant.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. STE Ser/Thr
+CC       protein kinase family. MAP kinase kinase subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- WEB RESOURCE: Name=GeneReviews;
+CC       URL="http://www.ncbi.nlm.nih.gov/sites/GeneTests/lab/gene/MAP2K1";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; L05624; AAA36318.1; -; mRNA.
+DR   EMBL; L11284; -; NOT_ANNOTATED_CDS; mRNA.
+DR   IPI; IPI00219604; -.
+DR   PIR; A45100; A45100.
+DR   RefSeq; NP_002746.1; -.
+DR   UniGene; Hs.145442; -.
+DR   PDB; 1S9J; X-ray; 2.40 A; A=62-392.
+DR   PDB; 2P55; X-ray; 2.80 A; A=62-393.
+DR   PDB; 3DV3; X-ray; 2.30 A; A=62-382.
+DR   PDB; 3DY7; X-ray; 2.70 A; A=62-393.
+DR   PDB; 3E8N; X-ray; 2.50 A; A=62-393.
+DR   PDB; 3EQB; X-ray; 2.62 A; A=62-393.
+DR   PDB; 3EQC; X-ray; 1.80 A; A=35-393.
+DR   PDB; 3EQD; X-ray; 2.10 A; A=35-393.
+DR   PDB; 3EQF; X-ray; 2.70 A; A=35-393.
+DR   PDB; 3EQG; X-ray; 2.50 A; A=35-393.
+DR   PDB; 3EQH; X-ray; 2.00 A; A=35-393.
+DR   PDB; 3EQI; X-ray; 1.90 A; A=35-393.
+DR   PDB; 3MBL; X-ray; 2.60 A; A=62-382.
+DR   PDBsum; 1S9J; -.
+DR   PDBsum; 2P55; -.
+DR   PDBsum; 3DV3; -.
+DR   PDBsum; 3DY7; -.
+DR   PDBsum; 3E8N; -.
+DR   PDBsum; 3EQB; -.
+DR   PDBsum; 3EQC; -.
+DR   PDBsum; 3EQD; -.
+DR   PDBsum; 3EQF; -.
+DR   PDBsum; 3EQG; -.
+DR   PDBsum; 3EQH; -.
+DR   PDBsum; 3EQI; -.
+DR   PDBsum; 3MBL; -.
+DR   ProteinModelPortal; Q02750; -.
+DR   DIP; DIP-201N; -.
+DR   IntAct; Q02750; 27.
+DR   MINT; MINT-99632; -.
+DR   STRING; Q02750; -.
+DR   PhosphoSite; Q02750; -.
+DR   PeptideAtlas; Q02750; -.
+DR   PRIDE; Q02750; -.
+DR   Ensembl; ENST00000307102; ENSP00000302486; ENSG00000169032.
+DR   GeneID; 5604; -.
+DR   KEGG; hsa:5604; -.
+DR   UCSC; uc010bhq.1; human.
+DR   CTD; 5604; -.
+DR   GeneCards; GC15P066679; -.
+DR   H-InvDB; HIX0038157; -.
+DR   HGNC; HGNC:6840; MAP2K1.
+DR   HPA; CAB003834; -.
+DR   HPA; HPA026430; -.
+DR   MIM; 115150; phenotype.
+DR   MIM; 176872; gene.
+DR   Orphanet; 1340; Cardiofaciocutaneous syndrome.
+DR   PharmGKB; PA30584; -.
+DR   eggNOG; prNOG13928; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG108518; -.
+DR   InParanoid; Q02750; -.
+DR   OMA; ELMFGCP; -.
+DR   OrthoDB; EOG966Z66; -.
+DR   PhylomeDB; Q02750; -.
+DR   BRENDA; 2.7.12.2; 247.
+DR   Pathway_Interaction_DB; bcr_5pathway; BCR signaling pathway.
+DR   Pathway_Interaction_DB; anthraxpathway; Cellular roles of Anthrax toxin.
+DR   Pathway_Interaction_DB; ceramidepathway; Ceramide signaling pathway.
+DR   Pathway_Interaction_DB; pi3kcibpathway; Class IB PI3K non-lipid kinase events.
+DR   Pathway_Interaction_DB; cd8tcrdownstreampathway; Downstream signaling in naive CD8+ T cells.
+DR   Pathway_Interaction_DB; endothelinpathway; Endothelins.
+DR   Pathway_Interaction_DB; ephbfwdpathway; EPHB forward signaling.
+DR   Pathway_Interaction_DB; fcer1pathway; Fc-epsilon receptor I signaling in mast cells.
+DR   Pathway_Interaction_DB; foxm1pathway; FOXM1 transcription factor network.
+DR   Pathway_Interaction_DB; hedgehog_glipathway; Hedgehog signaling events mediated by Gli proteins.
+DR   Pathway_Interaction_DB; ifngpathway; IFN-gamma pathway.
+DR   Pathway_Interaction_DB; il2_1pathway; IL2-mediated signaling events.
+DR   Pathway_Interaction_DB; trkrpathway; Neurotrophic factor-mediated Trk receptor signaling.
+DR   Pathway_Interaction_DB; tcrraspathway; Ras signaling in the CD4+ TCR pathway.
+DR   Pathway_Interaction_DB; met_pathway; Signaling events activated by Hepatocyte Growth Factor Receptor (c-Met).
+DR   Pathway_Interaction_DB; kitpathway; Signaling events mediated by Stem cell factor receptor (c-Kit).
+DR   Pathway_Interaction_DB; mapktrkpathway; Trk receptor signaling mediated by the MAPK pathway.
+DR   Reactome; REACT_11061; Signalling by NGF.
+DR   Reactome; REACT_16888; Signaling by PDGF.
+DR   Reactome; REACT_18266; Axon guidance.
+DR   Reactome; REACT_498; Signaling by Insulin receptor.
+DR   Reactome; REACT_6900; Signaling in Immune system.
+DR   Reactome; REACT_9417; Signaling by EGFR.
+DR   NextBio; 21776; -.
+DR   PMAP-CutDB; Q02750; -.
+DR   ArrayExpress; Q02750; -.
+DR   Bgee; Q02750; -.
+DR   CleanEx; HS_MAP2K1; -.
+DR   Genevestigator; Q02750; -.
+DR   GermOnline; ENSG00000169032; Homo sapiens.
+DR   GO; GO:0005829; C:cytosol; EXP:Reactome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004708; F:MAP kinase kinase activity; TAS:ProtInc.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; EXP:Reactome.
+DR   GO; GO:0004713; F:protein tyrosine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0007050; P:cell cycle arrest; IMP:BHF-UCL.
+DR   GO; GO:0006935; P:chemotaxis; TAS:ProtInc.
+DR   GO; GO:0008285; P:negative regulation of cell proliferation; IDA:BHF-UCL.
+DR   GO; GO:0007265; P:Ras protein signal transduction; EXP:Reactome.
+DR   GO; GO:0010149; P:senescence; IMP:BHF-UCL.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; ATP-binding; Complete proteome;
+KW   Direct protein sequencing; Disease mutation; Kinase;
+KW   Nucleotide-binding; Phosphoprotein; Serine/threonine-protein kinase;
+KW   Transferase; Tyrosine-protein kinase.
+FT   INIT_MET      1      1       Removed (By similarity).
+FT   CHAIN         2    393       Dual specificity mitogen-activated
+FT                                protein kinase kinase 1.
+FT                                /FTId=PRO_0000086365.
+FT   DOMAIN       68    361       Protein kinase.
+FT   NP_BIND      74     82       ATP (By similarity).
+FT   COMPBIAS    262    307       Pro-rich.
+FT   ACT_SITE    190    190       Proton acceptor (By similarity).
+FT   BINDING      97     97       ATP.
+FT   SITE          8      9       Cleavage; by anthrax lethal factor.
+FT   MOD_RES     218    218       Phosphoserine; by RAF.
+FT   MOD_RES     222    222       Phosphoserine; by RAF.
+FT   MOD_RES     231    231       Phosphoserine.
+FT   MOD_RES     286    286       Phosphothreonine.
+FT   MOD_RES     385    385       Phosphoserine.
+FT   MOD_RES     386    386       Phosphothreonine.
+FT   VARIANT      53     53       F -> S (in CFC syndrome).
+FT                                /FTId=VAR_035093.
+FT   VARIANT     130    130       Y -> C (in CFC syndrome).
+FT                                /FTId=VAR_035094.
+FT   MUTAGEN      97     97       K->R: Inactivation.
+FT   MUTAGEN     150    150       S->A: No loss of activity.
+FT   MUTAGEN     212    212       S->A: No loss of activity.
+FT   MUTAGEN     218    218       S->A: Inactivation.
+FT   MUTAGEN     222    222       S->A: Inactivation.
+FT   HELIX        65     67
+FT   STRAND       68     75
+FT   STRAND       82     87
+FT   TURN         88     91
+FT   STRAND       92    100
+FT   HELIX       107    114
+FT   HELIX       115    120
+FT   STRAND      129    134
+FT   STRAND      136    144
+FT   HELIX       151    158
+FT   HELIX       163    184
+FT   HELIX       193    195
+FT   STRAND      196    198
+FT   STRAND      204    206
+FT   HELIX       213    218
+FT   HELIX       232    236
+FT   HELIX       244    258
+FT   HELIX       270    274
+FT   HELIX       310    318
+FT   HELIX       332    341
+FT   TURN        346    348
+FT   HELIX       352    356
+FT   HELIX       359    366
+FT   HELIX       371    379
+SQ   SEQUENCE   393 AA;  43439 MW;  0344118FFC842D51 CRC64;
+     MPKKKPTPIQ LNPAPDGSAV NGTSSAETNL EALQKKLEEL ELDEQQRKRL EAFLTQKQKV
+     GELKDDDFEK ISELGAGNGG VVFKVSHKPS GLVMARKLIH LEIKPAIRNQ IIRELQVLHE
+     CNSPYIVGFY GAFYSDGEIS ICMEHMDGGS LDQVLKKAGR IPEQILGKVS IAVIKGLTYL
+     REKHKIMHRD VKPSNILVNS RGEIKLCDFG VSGQLIDSMA NSFVGTRSYM SPERLQGTHY
+     SVQSDIWSMG LSLVEMAVGR YPIPPPDAKE LELMFGCQVE GDAAETPPRP RTPGRPLSSY
+     GMDSRPPMAI FELLDYIVNE PPPKLPSGVF SLEFQDFVNK CLIKNPAERA DLKQLMVHAF
+     IKRSDAEEVD FAGWLCSTIG LNQPSTPTHA AGV
+//

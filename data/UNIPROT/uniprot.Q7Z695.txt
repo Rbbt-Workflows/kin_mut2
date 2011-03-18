@@ -1,0 +1,159 @@
+ID   ADCK2_HUMAN             Reviewed;         626 AA.
+AC   Q7Z695; Q96CN6; Q9Y6T5;
+DT   09-JAN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2003, sequence version 1.
+DT   02-NOV-2010, entry version 56.
+DE   RecName: Full=Uncharacterized aarF domain-containing protein kinase 2;
+DE            EC=2.7.11.-;
+GN   Name=ADCK2; Synonyms=AARF;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RA   Huang C.Q., Shan Y.X., Cheng Z.;
+RL   Submitted (MAY-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   MEDLINE=22737999; PubMed=12853948; DOI=10.1038/nature01782;
+RA   Hillier L.W., Fulton R.S., Fulton L.A., Graves T.A., Pepin K.H.,
+RA   Wagner-McPherson C., Layman D., Maas J., Jaeger S., Walker R.,
+RA   Wylie K., Sekhon M., Becker M.C., O'Laughlin M.D., Schaller M.E.,
+RA   Fewell G.A., Delehaunty K.D., Miner T.L., Nash W.E., Cordes M., Du H.,
+RA   Sun H., Edwards J., Bradshaw-Cordum H., Ali J., Andrews S., Isak A.,
+RA   Vanbrunt A., Nguyen C., Du F., Lamar B., Courtney L., Kalicki J.,
+RA   Ozersky P., Bielicki L., Scott K., Holmes A., Harkins R., Harris A.,
+RA   Strong C.M., Hou S., Tomlinson C., Dauphin-Kohlberg S.,
+RA   Kozlowicz-Reilly A., Leonard S., Rohlfing T., Rock S.M.,
+RA   Tin-Wollam A.-M., Abbott A., Minx P., Maupin R., Strowmatt C.,
+RA   Latreille P., Miller N., Johnson D., Murray J., Woessner J.P.,
+RA   Wendl M.C., Yang S.-P., Schultz B.R., Wallis J.W., Spieth J.,
+RA   Bieri T.A., Nelson J.O., Berkowicz N., Wohldmann P.E., Cook L.L.,
+RA   Hickenbotham M.T., Eldred J., Williams D., Bedell J.A., Mardis E.R.,
+RA   Clifton S.W., Chissoe S.L., Marra M.A., Raymond C., Haugen E.,
+RA   Gillett W., Zhou Y., James R., Phelps K., Iadanoto S., Bubb K.,
+RA   Simms E., Levy R., Clendenning J., Kaul R., Kent W.J., Furey T.S.,
+RA   Baertsch R.A., Brent M.R., Keibler E., Flicek P., Bork P., Suyama M.,
+RA   Bailey J.A., Portnoy M.E., Torrents D., Chinwalla A.T., Gish W.R.,
+RA   Eddy S.R., McPherson J.D., Olson M.V., Eichler E.E., Green E.D.,
+RA   Waterston R.H., Wilson R.K.;
+RT   "The DNA sequence of human chromosome 7.";
+RL   Nature 424:157-164(2003).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 1-388.
+RC   TISSUE=Muscle;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   VARIANTS [LARGE SCALE ANALYSIS] PRO-307; LEU-418; LEU-622 AND LEU-626.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: The function of this protein is not yet clear. It is not
+CC       known if it has protein kinase activity and what type of substrate
+CC       it would phosphorylate (Ser, Thr or Tyr).
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass membrane protein
+CC       (Potential).
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. ADCK
+CC       protein kinase family.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAH14107.1; Type=Miscellaneous discrepancy; Note=Aberrant splicing;
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AY302592; AAP60021.1; -; mRNA.
+DR   EMBL; AC006344; AAD43192.1; -; Genomic_DNA.
+DR   EMBL; AC006452; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; BC014107; AAH14107.1; ALT_SEQ; mRNA.
+DR   IPI; IPI00815807; -.
+DR   RefSeq; NP_443085.2; -.
+DR   UniGene; Hs.534141; -.
+DR   ProteinModelPortal; Q7Z695; -.
+DR   STRING; Q7Z695; -.
+DR   PRIDE; Q7Z695; -.
+DR   Ensembl; ENST00000072869; ENSP00000072869; ENSG00000133597.
+DR   GeneID; 90956; -.
+DR   KEGG; hsa:90956; -.
+DR   NMPDR; fig|9606.3.peg.29547; -.
+DR   UCSC; uc003vvy.1; human.
+DR   UCSC; uc003vvz.2; human.
+DR   CTD; 90956; -.
+DR   GeneCards; GC07P140372; -.
+DR   H-InvDB; HIX0007147; -.
+DR   H-InvDB; HIX0123444; -.
+DR   HGNC; HGNC:19039; ADCK2.
+DR   PharmGKB; PA134902329; -.
+DR   HOGENOM; HBG621148; -.
+DR   HOVERGEN; HBG080821; -.
+DR   InParanoid; Q7Z695; -.
+DR   OMA; RASECRD; -.
+DR   OrthoDB; EOG9BCH6C; -.
+DR   PhylomeDB; Q7Z695; -.
+DR   NextBio; 77044; -.
+DR   ArrayExpress; Q7Z695; -.
+DR   Bgee; Q7Z695; -.
+DR   CleanEx; HS_ADCK2; -.
+DR   Genevestigator; Q7Z695; -.
+DR   GO; GO:0016021; C:integral to membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:UniProtKB-KW.
+DR   InterPro; IPR004147; ABC_1.
+DR   Pfam; PF03109; ABC1; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; FALSE_NEG.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; FALSE_NEG.
+PE   2: Evidence at transcript level;
+KW   ATP-binding; Complete proteome; Kinase; Membrane; Nucleotide-binding;
+KW   Polymorphism; Serine/threonine-protein kinase; Transferase;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN         1    626       Uncharacterized aarF domain-containing
+FT                                protein kinase 2.
+FT                                /FTId=PRO_0000271792.
+FT   TRANSMEM    103    123       Helical; (Potential).
+FT   DOMAIN      200    618       Protein kinase.
+FT   NP_BIND     206    214       ATP (By similarity).
+FT   ACT_SITE    445    445       Proton acceptor (By similarity).
+FT   BINDING     311    311       ATP (By similarity).
+FT   VARIANT      66     66       S -> G (in dbSNP:rs2968558).
+FT                                /FTId=VAR_060990.
+FT   VARIANT     307    307       S -> P (in dbSNP:rs1140034).
+FT                                /FTId=VAR_029992.
+FT   VARIANT     418    418       V -> L.
+FT                                /FTId=VAR_041418.
+FT   VARIANT     418    418       V -> M (in dbSNP:rs3748092).
+FT                                /FTId=VAR_029993.
+FT   VARIANT     622    622       P -> L (in dbSNP:rs1046515).
+FT                                /FTId=VAR_029994.
+FT   VARIANT     626    626       P -> L (in dbSNP:rs55922126).
+FT                                /FTId=VAR_041419.
+SQ   SEQUENCE   626 AA;  68982 MW;  F8E25DB672017AF4 CRC64;
+     MVAPWRVSVR VCLSHLRCFE LRQGLSLLRP SECPRDARLC WLLLGTLPKV VSLCGDVGEG
+     APDVLSRRRV RCSGAAGAGP AESLPRAGPL GGVFLHLRLW LRAGALLVKF FPLLLLYPLT
+     YLAPSVSTLW LHLLLKATET SGPTYIKLGQ WASTRRDLFS EAFCAQFSKL HVRVTPHPWT
+     HTERFLRQAF GDDWGSILSF ENREPVGSGC VAQVYKAYAN TAFLETDSVQ RLGRASCLPP
+     FSHTGAVGGL RELFGYLGNG RKPPENLADQ SFLERLLLPK ADLVGSNAGV SRAQVPGHQP
+     EATNLISVAV KVLHPGLLAQ VHMDLLLMKI GSRVLGVLPG IKWLSLPEIV EEFEKLMVQQ
+     IDLRYEAQNL EHFQVNFRNV KAVKFPTPLR PFVTREVLVE TYEESVPVSS YQQAGIPVDL
+     KRKIARLGIN MLLKMIFVDN FVHADLHPGN ILVQGANGLS SSQEAQLQQA DICDTLVVAV
+     PSSLCPLRLV LLDAGIVAEL QAPDLRNFRA VFMAVVMGQG QRVAELILHH ARASECRDVE
+     GFKTEMAMLV TQARKNTITL EKLHVSSLLS SVFKLLMTHK VKLESNFASI VFAIMVLEGL
+     GRSLDPKLDI LEAARPFLLT GPVCPP
+//

@@ -1,0 +1,494 @@
+ID   KPCB_HUMAN              Reviewed;         671 AA.
+AC   P05771; C5IFJ8; O43744; P05127; Q15138; Q93060; Q9UE49; Q9UE50;
+AC   Q9UEH8; Q9UJ30; Q9UJ33;
+DT   13-AUG-1987, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 4.
+DT   05-OCT-2010, entry version 147.
+DE   RecName: Full=Protein kinase C beta type;
+DE            Short=PKC-B;
+DE            Short=PKC-beta;
+DE            EC=2.7.11.13;
+GN   Name=PRKCB; Synonyms=PKCB, PRKCB1;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM BETA-II).
+RX   MEDLINE=86289426; PubMed=3755548; DOI=10.1126/science.3755548;
+RA   Coussens L., Parker P.J., Rhee L., Yang-Feng T.L., Chen E.,
+RA   Waterfield M.D., Francke U., Ullrich A.;
+RT   "Multiple, distinct forms of bovine and human protein kinase C suggest
+RT   diversity in cellular signaling pathways.";
+RL   Science 233:859-866(1986).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS BETA-I AND BETA-II).
+RX   MEDLINE=88030028; PubMed=3666134; DOI=10.1016/0014-5793(87)80524-0;
+RA   Kubo K., Ohno S., Suzuki K.;
+RT   "Primary structures of human protein kinase C beta I and beta II
+RT   differ only in their C-terminal sequences.";
+RL   FEBS Lett. 223:138-142(1987).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RG   NIEHS SNPs program;
+RL   Submitted (APR-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   MEDLINE=99425270; PubMed=10493829; DOI=10.1006/geno.1999.5927;
+RA   Loftus B.J., Kim U.-J., Sneddon V.P., Kalush F., Brandon R.,
+RA   Fuhrmann J., Mason T., Crosby M.L., Barnstead M., Cronin L.,
+RA   Mays A.D., Cao Y., Xu R.X., Kang H.-L., Mitchell S., Eichler E.E.,
+RA   Harris P.C., Venter J.C., Adams M.D.;
+RT   "Genome duplications and other features in 12 Mb of DNA sequence from
+RT   human chromosome 16p and 16q.";
+RL   Genomics 60:295-308(1999).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (SEP-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Hippocampus;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-69.
+RX   MEDLINE=95186059; PubMed=7880442; DOI=10.1089/dna.1995.14.213;
+RA   Mahajna J., King P., Parker P., Haley J.;
+RT   "Autoregulation of cloned human protein kinase C beta and gamma gene
+RT   promoters in U937 cells.";
+RL   DNA Cell Biol. 14:213-222(1995).
+RN   [8]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-58.
+RX   MEDLINE=92210589; PubMed=1556124;
+RA   Niino Y.S., Ohno S., Suzuki K.;
+RT   "Positive and negative regulation of the transcription of the human
+RT   protein kinase C beta gene.";
+RL   J. Biol. Chem. 267:6158-6163(1992).
+RN   [9]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-57.
+RX   MEDLINE=93015985; PubMed=1400396;
+RA   Obeid L.M., Blobe G.C., Karolak L.A., Hannun Y.A.;
+RT   "Cloning and characterization of the major promoter of the human
+RT   protein kinase C beta gene. Regulation by phorbol esters.";
+RL   J. Biol. Chem. 267:20804-20810(1992).
+RN   [10]
+RP   PROTEIN SEQUENCE OF 2-19, AND ACETYLATION AT ALA-2.
+RC   TISSUE=Platelet;
+RX   MEDLINE=22608298; PubMed=12665801; DOI=10.1038/nbt810;
+RA   Gevaert K., Goethals M., Martens L., Van Damme J., Staes A.,
+RA   Thomas G.R., Vandekerckhove J.;
+RT   "Exploring proteomes and analyzing protein processing by mass
+RT   spectrometric identification of sorted N-terminal peptides.";
+RL   Nat. Biotechnol. 21:566-569(2003).
+RN   [11]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 97-176.
+RA   Greenham J.A., Adams M.D., Doggett N.A., Mole S.E.;
+RT   "The genomic structure of the human protein kinase C beta gene
+RT   (PRKCB).";
+RL   Submitted (NOV-1997) to the EMBL/GenBank/DDBJ databases.
+RN   [12]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 609-671.
+RC   TISSUE=Fetal brain;
+RX   MEDLINE=88054462; PubMed=3677994;
+RA   Coussens L., Rhee L., Parker P.J., Ullrich A.;
+RT   "Alternative splicing increases the diversity of the human protein
+RT   kinase C family.";
+RL   DNA 6:389-394(1987).
+RN   [13]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 622-671.
+RX   MEDLINE=88015556; PubMed=3658678; DOI=10.1093/nar/15.17.7179;
+RA   Kubo K., Ohno S., Suzuki K.;
+RT   "Nucleotide sequence of the 3' portion of a human gene for protein
+RT   kinase C beta-I/beta-II.";
+RL   Nucleic Acids Res. 15:7179-7180(1987).
+RN   [14]
+RP   ENZYME REGULATION.
+RX   PubMed=16103100; DOI=10.1158/0008-5472.CAN-05-0071;
+RA   Graff J.R., McNulty A.M., Hanna K.R., Konicek B.W., Lynch R.L.,
+RA   Bailey S.N., Banks C., Capen A., Goode R., Lewis J.E., Sams L.,
+RA   Huss K.L., Campbell R.M., Iversen P.W., Neubauer B.L., Brown T.J.,
+RA   Musib L., Geeganage S., Thornton D.;
+RT   "The protein kinase Cbeta-selective inhibitor, Enzastaurin
+RT   (LY317615.HCl), suppresses signaling through the AKT pathway, induces
+RT   apoptosis, and suppresses growth of human colon cancer and
+RT   glioblastoma xenografts.";
+RL   Cancer Res. 65:7462-7469(2005).
+RN   [15]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-500 AND THR-504, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=17192257; DOI=10.1074/mcp.T600062-MCP200;
+RA   Wissing J., Jaensch L., Nimtz M., Dieterich G., Hornberger R.,
+RA   Keri G., Wehland J., Daub H.;
+RT   "Proteomics analysis of protein kinases by target class-selective
+RT   prefractionation and tandem mass spectrometry.";
+RL   Mol. Cell. Proteomics 6:537-547(2007).
+RN   [16]
+RP   INTERACTION WITH PHLPP1 AND PHLPP2.
+RX   PubMed=18162466; DOI=10.1074/jbc.M707319200;
+RA   Gao T., Brognard J., Newton A.C.;
+RT   "The phosphatase PHLPP controls the cellular levels of protein kinase
+RT   C.";
+RL   J. Biol. Chem. 283:6300-6311(2008).
+RN   [17]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-642, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Platelet;
+RX   PubMed=18088087; DOI=10.1021/pr0704130;
+RA   Zahedi R.P., Lewandrowski U., Wiesner J., Wortelkamp S., Moebius J.,
+RA   Schuetz C., Walter U., Gambaryan S., Sickmann A.;
+RT   "Phosphoproteome of resting human platelets.";
+RL   J. Proteome Res. 7:526-534(2008).
+RN   [18]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RA   Colinge J., Superti-Furga G., Bennett K.L.;
+RL   Submitted (OCT-2008) to UniProtKB.
+RN   [19]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-500 AND THR-504,
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-641 AND SER-660 (ISOFORM
+RP   BETA-II), AND MASS SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [20]
+RP   FUNCTION IN HISTONE H3 PHOSPHORYLATION, CATALYTIC ACTIVITY,
+RP   SUBCELLULAR LOCATION, AND INTERACTION WITH KDM1A; PKN1 AND ANDR.
+RX   PubMed=20228790; DOI=10.1038/nature08839;
+RA   Metzger E., Imhof A., Patel D., Kahl P., Hoffmeyer K., Friedrichs N.,
+RA   Muller J.M., Greschik H., Kirfel J., Ji S., Kunowska N.,
+RA   Beisenherz-Huss C., Gunther T., Buettner R., Schule R.;
+RT   "Phosphorylation of histone H3T6 by PKCbeta(I) controls demethylation
+RT   at histone H3K4.";
+RL   Nature 464:792-796(2010).
+RN   [21]
+RP   X-RAY CRYSTALLOGRAPHY (2.6 ANGSTROMS) OF 321-660 IN COMPLEX WITH
+RP   INHIBITOR, AND PHOSPHORYLATION AT THR-500; THR-642 AND SER-661.
+RX   PubMed=17115692; DOI=10.1021/bi061128h;
+RA   Grodsky N., Li Y., Bouzida D., Love R., Jensen J., Nodes B.,
+RA   Nonomiya J., Grant S.;
+RT   "Structure of the catalytic domain of human protein kinase C beta II
+RT   complexed with a bisindolylmaleimide inhibitor.";
+RL   Biochemistry 45:13970-13981(2006).
+RN   [22]
+RP   VARIANTS [LARGE SCALE ANALYSIS] MET-144; MET-496 AND HIS-588.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Calcium-activated and phospholipid-dependent
+CC       serine/threonine-protein kinase involved in various processes such
+CC       as regulation of the B-cell receptor (BCR) signalosome, apoptosis
+CC       and transcription regulation. Plays a key role in B-cell
+CC       activation and function by regulating BCR-induced NF-kappa-B
+CC       activation and B-cell suvival. Required for recruitment and
+CC       activation of the IKK kinase to lipid rafts and mediates
+CC       phosphorylation of CARD11/CARMA1 at 'Ser-559', 'Ser-644' and 'Ser-
+CC       652', leading to activate the NF-kappa-B signaling. Involved in
+CC       apoptosis following oxidative damage: in case of oxidative
+CC       conditions, specifically phosphorylates 'Ser-36' of isoform p66Shc
+CC       of SHC1, leading to mitochondrial accumulation of p66Shc, where
+CC       p66Shc acts as a reactive oxygen species producer. Acts as a
+CC       coactivator of androgen receptor (ANDR)-dependent transcription,
+CC       by being recruited to ANDR target genes and specifically mediating
+CC       phosphorylation of 'Thr-6' of histone H3 (H3T6ph), a specific tag
+CC       for epigenetic transcriptional activation that prevents
+CC       demethylation of histone H3 'Lys-4' (H3K4me) by LSD1/KDM1A. Also
+CC       involved in triglyceride homeostasis. Serves as the receptor for
+CC       phorbol esters, a class of tumor promoters.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- COFACTOR: Binds 3 calcium ions per subunit. The ions are bound to
+CC       the C2 domain (By similarity).
+CC   -!- ENZYME REGULATION: Activated by diacylglycerol which in turn
+CC       phosphorylates a range of cellular proteins. Specifically
+CC       inhibited by Enzastaurin (LY317615).
+CC   -!- SUBUNIT: Interacts with PDK1 (By similarity). Interacts in vitro
+CC       with PRKCBP1. Interacts with PHLPP1 and PHLPP2; both proteins
+CC       mediate its dephosphorylation. Interacts with KDM1A/LSD1, PKN1 and
+CC       ANDR.
+CC   -!- INTERACTION:
+CC       Q42384:PRL1 (xeno); NbExp=1; IntAct=EBI-706216, EBI-1382964;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm (By similarity). Nucleus.
+CC       Membrane; Peripheral membrane protein (By similarity).
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=Beta-I; Synonyms=PRKCB1;
+CC         IsoId=P05771-1; Sequence=Displayed;
+CC       Name=Beta-II; Synonyms=PRKCB2;
+CC         IsoId=P05771-2; Sequence=VSP_004738;
+CC         Note=Phosphorylated on Thr-641 and Ser-660;
+CC   -!- PTM: Phosphorylation on Thr-500 within the activation loop renders
+CC       it competent to autophosphorylate. Subsequent autophosphorylation
+CC       of Thr-642 maintains catalytic competence, and autophosphorylation
+CC       on Ser-661 appears to release the kinase into the cytosol.
+CC       Autophosphorylation on other sites i.e. in the N-terminal and
+CC       hinge regions have no effect on enzyme activity (By similarity).
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. AGC Ser/Thr
+CC       protein kinase family. PKC subfamily.
+CC   -!- SIMILARITY: Contains 1 AGC-kinase C-terminal domain.
+CC   -!- SIMILARITY: Contains 1 C2 domain.
+CC   -!- SIMILARITY: Contains 2 phorbol-ester/DAG-type zinc fingers.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- WEB RESOURCE: Name=NIEHS-SNPs;
+CC       URL="http://egp.gs.washington.edu/data/prkcb1/";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M13975; AAA60095.1; -; mRNA.
+DR   EMBL; X06318; CAA29634.1; -; mRNA.
+DR   EMBL; X07109; CAA30130.1; -; mRNA.
+DR   EMBL; FJ907246; ACS14045.1; -; Genomic_DNA.
+DR   EMBL; AC130454; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AC002299; AAB97933.1; -; Genomic_DNA.
+DR   EMBL; AC002299; AAB97934.1; -; Genomic_DNA.
+DR   EMBL; CH471145; EAW55797.1; -; Genomic_DNA.
+DR   EMBL; BC036472; AAH36472.1; -; mRNA.
+DR   EMBL; X62532; CAA44393.1; -; Genomic_DNA.
+DR   EMBL; S47311; AAD13852.1; -; Genomic_DNA.
+DR   EMBL; D10022; BAA00912.1; -; Genomic_DNA.
+DR   EMBL; AJ002799; CAA05725.1; -; Genomic_DNA.
+DR   EMBL; AJ002800; CAA05725.1; JOINED; Genomic_DNA.
+DR   EMBL; M18254; AAA60096.1; -; Genomic_DNA.
+DR   EMBL; M18255; AAA60097.1; -; Genomic_DNA.
+DR   EMBL; X05972; CAA29396.1; -; Genomic_DNA.
+DR   EMBL; X05971; CAA29395.1; -; Genomic_DNA.
+DR   IPI; IPI00010466; -.
+DR   IPI; IPI00219628; -.
+DR   PIR; B24664; KIHUC2.
+DR   PIR; S00159; KIHUC1.
+DR   RefSeq; NP_002729.2; -.
+DR   RefSeq; NP_997700.1; -.
+DR   UniGene; Hs.460355; -.
+DR   PDB; 2I0E; X-ray; 2.60 A; A/B=321-661.
+DR   PDBsum; 2I0E; -.
+DR   ProteinModelPortal; P05771; -.
+DR   SMR; P05771; 37-106, 93-168, 157-288, 339-668.
+DR   IntAct; P05771; 6.
+DR   MINT; MINT-240997; -.
+DR   STRING; P05771; -.
+DR   PhosphoSite; P05771; -.
+DR   PRIDE; P05771; -.
+DR   Ensembl; ENST00000321728; ENSP00000318315; ENSG00000166501.
+DR   GeneID; 5579; -.
+DR   KEGG; hsa:5579; -.
+DR   UCSC; uc002dmc.1; human.
+DR   UCSC; uc002dmd.1; human.
+DR   CTD; 5579; -.
+DR   GeneCards; GC16P023847; -.
+DR   H-InvDB; HIX0012899; -.
+DR   HGNC; HGNC:9395; PRKCB.
+DR   HPA; CAB003843; -.
+DR   MIM; 176970; gene.
+DR   PharmGKB; PA33761; -.
+DR   eggNOG; prNOG17877; -.
+DR   HOVERGEN; HBG108317; -.
+DR   OMA; QAHIDRE; -.
+DR   OrthoDB; EOG9SN471; -.
+DR   PhylomeDB; P05771; -.
+DR   BRENDA; 2.7.11.13; 247.
+DR   Pathway_Interaction_DB; cd8tcrdownstreampathway; Downstream signaling in naive CD8+ T cells.
+DR   Pathway_Interaction_DB; endothelinpathway; Endothelins.
+DR   Pathway_Interaction_DB; fcer1pathway; Fc-epsilon receptor I signaling in mast cells.
+DR   Pathway_Interaction_DB; il2_1pathway; IL2-mediated signaling events.
+DR   Pathway_Interaction_DB; tcrjnkpathway; JNK signaling in the CD4+ TCR pathway.
+DR   Pathway_Interaction_DB; tcrraspathway; Ras signaling in the CD4+ TCR pathway.
+DR   Pathway_Interaction_DB; nfat_3pathway; Role of Calcineurin-dependent NFAT signaling in lymphocytes.
+DR   Pathway_Interaction_DB; vegfr1_2_pathway; Signaling events mediated by VEGFR1 and VEGFR2.
+DR   Pathway_Interaction_DB; tcrpathway; TCR signaling in naive CD4+ T cells.
+DR   Pathway_Interaction_DB; cd8tcrpathway; TCR signaling in naive CD8+ T cells.
+DR   Pathway_Interaction_DB; txa2pathway; Thromboxane A2 receptor signaling.
+DR   Pathway_Interaction_DB; vegfr1_pathway; VEGFR1 specific signals.
+DR   Reactome; REACT_13685; Synaptic Transmission.
+DR   Reactome; REACT_14797; Signaling by GPCR.
+DR   Reactome; REACT_604; Hemostasis.
+DR   DrugBank; DB00163; Vitamin E.
+DR   NextBio; 21632; -.
+DR   PMAP-CutDB; P05771; -.
+DR   ArrayExpress; P05771; -.
+DR   Bgee; P05771; -.
+DR   Genevestigator; P05771; -.
+DR   GermOnline; ENSG00000166501; Homo sapiens.
+DR   GO; GO:0005829; C:cytosol; EXP:Reactome.
+DR   GO; GO:0005634; C:nucleus; IDA:UniProtKB.
+DR   GO; GO:0005886; C:plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0050681; F:androgen receptor binding; IDA:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003682; F:chromatin binding; IDA:UniProtKB.
+DR   GO; GO:0042393; F:histone binding; IDA:UniProtKB.
+DR   GO; GO:0035403; F:histone kinase activity (H3-T6 specific); IDA:UniProtKB.
+DR   GO; GO:0030374; F:ligand-dependent nuclear receptor transcrip...; IMP:UniProtKB.
+DR   GO; GO:0004697; F:protein kinase C activity; TAS:ProtInc.
+DR   GO; GO:0005080; F:protein kinase C binding; IPI:UniProtKB.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0006915; P:apoptosis; IEA:UniProtKB-KW.
+DR   GO; GO:0042113; P:B cell activation; ISS:UniProtKB.
+DR   GO; GO:0050853; P:B cell receptor signaling pathway; ISS:UniProtKB.
+DR   GO; GO:0042953; P:lipoprotein transport; TAS:BHF-UCL.
+DR   GO; GO:0043123; P:positive regulation of I-kappaB kinase/NF-k...; ISS:UniProtKB.
+DR   GO; GO:0034339; P:regulation of transcription from RNA polyme...; IMP:UniProtKB.
+DR   GO; GO:0007165; P:signal transduction; NAS:ProtInc.
+DR   GO; GO:0006350; P:transcription; IEA:UniProtKB-KW.
+DR   InterPro; IPR000961; AGC-kinase_C.
+DR   InterPro; IPR000008; C2_Ca-dep.
+DR   InterPro; IPR008973; C2_Ca/lipid-bd_dom_CaLB.
+DR   InterPro; IPR018029; C2_membr_targeting.
+DR   InterPro; IPR020477; C2_region.
+DR   InterPro; IPR020454; DAG/PE-bd.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR015745; PKC.
+DR   InterPro; IPR017892; Pkinase_C.
+DR   InterPro; IPR002219; Prot_Kinase_C-like_PE/DAG-bd.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR014375; Protein_kinase_C_a/b/g.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   PANTHER; PTHR22985:SF86; PKC; 1.
+DR   Pfam; PF00130; C1_1; 2.
+DR   Pfam; PF00168; C2; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   Pfam; PF00433; Pkinase_C; 1.
+DR   PIRSF; PIRSF000550; PKC_alpha; 1.
+DR   PRINTS; PR00360; C2DOMAIN.
+DR   PRINTS; PR00008; DAGPEDOMAIN.
+DR   SMART; SM00109; C1; 2.
+DR   SMART; SM00239; C2; 1.
+DR   SMART; SM00133; S_TK_X; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF49562; C2_CaLB; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS51285; AGC_KINASE_CTER; 1.
+DR   PROSITE; PS50004; C2; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+DR   PROSITE; PS00479; ZF_DAG_PE_1; 2.
+DR   PROSITE; PS50081; ZF_DAG_PE_2; 2.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Adaptive immunity; Alternative splicing;
+KW   Apoptosis; ATP-binding; Calcium; Chromatin regulator;
+KW   Complete proteome; Cytoplasm; Direct protein sequencing; Immunity;
+KW   Kinase; Membrane; Metal-binding; Nucleotide-binding; Nucleus;
+KW   Phosphoprotein; Polymorphism; Repeat; Serine/threonine-protein kinase;
+KW   Transcription; Transcription regulation; Transferase; Zinc;
+KW   Zinc-finger.
+FT   INIT_MET      1      1       Removed.
+FT   CHAIN         2    671       Protein kinase C beta type.
+FT                                /FTId=PRO_0000055684.
+FT   DOMAIN      173    260       C2.
+FT   DOMAIN      342    600       Protein kinase.
+FT   DOMAIN      601    671       AGC-kinase C-terminal.
+FT   ZN_FING      36     86       Phorbol-ester/DAG-type 1.
+FT   ZN_FING     101    151       Phorbol-ester/DAG-type 2.
+FT   NP_BIND     348    356       ATP (By similarity).
+FT   ACT_SITE    466    466       Proton acceptor (By similarity).
+FT   METAL       186    186       Calcium 1; via carbonyl oxygen (By
+FT                                similarity).
+FT   METAL       187    187       Calcium 1 (By similarity).
+FT   METAL       187    187       Calcium 2 (By similarity).
+FT   METAL       193    193       Calcium 2 (By similarity).
+FT   METAL       246    246       Calcium 1 (By similarity).
+FT   METAL       246    246       Calcium 2 (By similarity).
+FT   METAL       247    247       Calcium 2; via carbonyl oxygen (By
+FT                                similarity).
+FT   METAL       248    248       Calcium 1 (By similarity).
+FT   METAL       248    248       Calcium 2 (By similarity).
+FT   METAL       248    248       Calcium 3 (By similarity).
+FT   METAL       251    251       Calcium 3 (By similarity).
+FT   METAL       252    252       Calcium 3; via carbonyl oxygen (By
+FT                                similarity).
+FT   METAL       254    254       Calcium 1 (By similarity).
+FT   METAL       254    254       Calcium 3 (By similarity).
+FT   BINDING     371    371       ATP (By similarity).
+FT   MOD_RES       2      2       N-acetylalanine.
+FT   MOD_RES      16     16       Phosphoserine; by autocatalysis
+FT                                (Potential).
+FT   MOD_RES      17     17       Phosphothreonine; by autocatalysis
+FT                                (Potential).
+FT   MOD_RES     195    195       Phosphotyrosine (By similarity).
+FT   MOD_RES     314    314       Phosphothreonine; by autocatalysis
+FT                                (Potential).
+FT   MOD_RES     324    324       Phosphothreonine; by autocatalysis
+FT                                (Potential).
+FT   MOD_RES     500    500       Phosphothreonine.
+FT   MOD_RES     504    504       Phosphothreonine.
+FT   MOD_RES     635    635       Phosphothreonine; by autocatalysis.
+FT   MOD_RES     642    642       Phosphothreonine.
+FT   MOD_RES     661    661       Phosphoserine; by autocatalysis.
+FT   VAR_SEQ     622    671       RDKRDTSNFDKEFTRQPVELTPTDKLFIMNLDQNEFAGFSY
+FT                                TNPEFVINV -> CGRNAENFDRFFTRHPPVLTPPDQEVIR
+FT                                NIDQSEFEGFSFVNSEFLKPEVKS (in isoform
+FT                                Beta-II).
+FT                                /FTId=VSP_004738.
+FT   VARIANT     144    144       V -> M (in a colorectal adenocarcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_042304.
+FT   VARIANT     496    496       V -> M (in a glioblastoma multiforme
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_042305.
+FT   VARIANT     588    588       P -> H (in dbSNP:rs35631544).
+FT                                /FTId=VAR_042306.
+FT   CONFLICT     69     69       V -> G (in Ref. 7; CAA44393).
+FT   STRAND      342    351
+FT   STRAND      354    361
+FT   STRAND      364    374
+FT   HELIX       375    380
+FT   HELIX       384    394
+FT   STRAND      406    411
+FT   STRAND      413    421
+FT   HELIX       428    435
+FT   HELIX       440    459
+FT   HELIX       469    471
+FT   STRAND      472    474
+FT   STRAND      480    482
+FT   HELIX       505    507
+FT   HELIX       510    513
+FT   HELIX       521    536
+FT   HELIX       546    555
+FT   HELIX       566    575
+FT   HELIX       590    595
+FT   HELIX       598    600
+FT   HELIX       605    609
+FT   HELIX       629    636
+FT   HELIX       646    651
+FT   TURN        654    657
+SQ   SEQUENCE   671 AA;  76869 MW;  3937E7B667108C68 CRC64;
+     MADPAAGPPP SEGEESTVRF ARKGALRQKN VHEVKNHKFT ARFFKQPTFC SHCTDFIWGF
+     GKQGFQCQVC CFVVHKRCHE FVTFSCPGAD KGPASDDPRS KHKFKIHTYS SPTFCDHCGS
+     LLYGLIHQGM KCDTCMMNVH KRCVMNVPSL CGTDHTERRG RIYIQAHIDR DVLIVLVRDA
+     KNLVPMDPNG LSDPYVKLKL IPDPKSESKQ KTKTIKCSLN PEWNETFRFQ LKESDKDRRL
+     SVEIWDWDLT SRNDFMGSLS FGISELQKAS VDGWFKLLSQ EEGEYFNVPV PPEGSEANEE
+     LRQKFERAKI SQGTKVPEEK TTNTVSKFDN NGNRDRMKLT DFNFLMVLGK GSFGKVMLSE
+     RKGTDELYAV KILKKDVVIQ DDDVECTMVE KRVLALPGKP PFLTQLHSCF QTMDRLYFVM
+     EYVNGGDLMY HIQQVGRFKE PHAVFYAAEI AIGLFFLQSK GIIYRDLKLD NVMLDSEGHI
+     KIADFGMCKE NIWDGVTTKT FCGTPDYIAP EIIAYQPYGK SVDWWAFGVL LYEMLAGQAP
+     FEGEDEDELF QSIMEHNVAY PKSMSKEAVA ICKGLMTKHP GKRLGCGPEG ERDIKEHAFF
+     RYIDWEKLER KEIQPPYKPK ARDKRDTSNF DKEFTRQPVE LTPTDKLFIM NLDQNEFAGF
+     SYTNPEFVIN V
+//

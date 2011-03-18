@@ -1,0 +1,220 @@
+ID   TIE1_HUMAN              Reviewed;        1138 AA.
+AC   P35590;
+DT   01-JUN-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1994, sequence version 1.
+DT   02-NOV-2010, entry version 110.
+DE   RecName: Full=Tyrosine-protein kinase receptor Tie-1;
+DE            EC=2.7.10.1;
+DE   Flags: Precursor;
+GN   Name=TIE1; Synonyms=TIE;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   MEDLINE=92195316; PubMed=1312667;
+RA   Partanen J., Armstrong E., Maekelae T.P., Korhonen J., Sandberg M.,
+RA   Renkonen R., Knuutila S., Huebner K., Alitalo K.;
+RT   "A novel endothelial cell surface receptor tyrosine kinase with
+RT   extracellular epidermal growth factor homology domains.";
+RL   Mol. Cell. Biol. 12:1698-1707(1992).
+RN   [2]
+RP   SEQUENCE REVISION.
+RA   Partanen J.M.;
+RL   Submitted (JUL-1993) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Lung;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   PROTEIN SEQUENCE OF 22-36.
+RX   PubMed=15340161; DOI=10.1110/ps.04682504;
+RA   Zhang Z., Henzel W.J.;
+RT   "Signal peptide prediction based on analysis of experimentally
+RT   verified cleavage sites.";
+RL   Protein Sci. 13:2819-2824(2004).
+RN   [5]
+RP   VARIANTS [LARGE SCALE ANALYSIS] MET-448; VAL-1104 AND HIS-1109.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Probable protein tyrosine-kinase transmembrane receptor.
+CC   -!- CATALYTIC ACTIVITY: ATP + a [protein]-L-tyrosine = ADP + a
+CC       [protein]-L-tyrosine phosphate.
+CC   -!- INTERACTION:
+CC       P08575:PTPRC; NbExp=1; IntAct=EBI-2256865, EBI-1341;
+CC       P23470:PTPRG; NbExp=1; IntAct=EBI-2256865, EBI-2258115;
+CC       Q12913:PTPRJ; NbExp=1; IntAct=EBI-2256865, EBI-2264500;
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type I membrane
+CC       protein.
+CC   -!- TISSUE SPECIFICITY: Specifically expressed in developing vascular
+CC       endothelial cells.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Tyr protein
+CC       kinase family. Tie subfamily.
+CC   -!- SIMILARITY: Contains 3 EGF-like domains.
+CC   -!- SIMILARITY: Contains 3 fibronectin type-III domains.
+CC   -!- SIMILARITY: Contains 2 Ig-like C2-type (immunoglobulin-like)
+CC       domains.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X60957; CAA43290.1; -; mRNA.
+DR   EMBL; BC038239; AAH38239.1; -; mRNA.
+DR   IPI; IPI00019530; -.
+DR   RefSeq; NP_005415.1; -.
+DR   UniGene; Hs.78824; -.
+DR   ProteinModelPortal; P35590; -.
+DR   SMR; P35590; 22-447, 223-733, 828-1136.
+DR   IntAct; P35590; 5.
+DR   STRING; P35590; -.
+DR   PhosphoSite; P35590; -.
+DR   PRIDE; P35590; -.
+DR   Ensembl; ENST00000372476; ENSP00000361554; ENSG00000066056.
+DR   GeneID; 7075; -.
+DR   KEGG; hsa:7075; -.
+DR   UCSC; uc001ciu.1; human.
+DR   CTD; 7075; -.
+DR   GeneCards; GC01P043766; -.
+DR   H-InvDB; HIX0000505; -.
+DR   HGNC; HGNC:11809; TIE1.
+DR   MIM; 600222; gene.
+DR   PharmGKB; PA36516; -.
+DR   eggNOG; prNOG13463; -.
+DR   HOGENOM; HBG714722; -.
+DR   HOVERGEN; HBG007316; -.
+DR   InParanoid; P35590; -.
+DR   OMA; KVTHTVN; -.
+DR   OrthoDB; EOG97Q0RK; -.
+DR   PhylomeDB; P35590; -.
+DR   BRENDA; 2.7.10.1; 247.
+DR   NextBio; 27671; -.
+DR   ArrayExpress; P35590; -.
+DR   Bgee; P35590; -.
+DR   CleanEx; HS_TIE1; -.
+DR   Genevestigator; P35590; -.
+DR   GermOnline; ENSG00000066056; Homo sapiens.
+DR   GO; GO:0005887; C:integral to plasma membrane; TAS:ProtInc.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005515; F:protein binding; IPI:IntAct.
+DR   GO; GO:0004714; F:transmembrane receptor protein tyrosine kin...; TAS:ProtInc.
+DR   GO; GO:0007498; P:mesoderm development; TAS:ProtInc.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   GO; GO:0007169; P:transmembrane receptor protein tyrosine kin...; IEA:InterPro.
+DR   InterPro; IPR006210; EGF-like.
+DR   InterPro; IPR013032; EGF-like_reg_CS.
+DR   InterPro; IPR000742; EGF_3.
+DR   InterPro; IPR008957; Fibronectin_III_dom.
+DR   InterPro; IPR003961; FN_III.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR003599; Ig_sub.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR001245; Ser-Thr/Tyr-Pkinase.
+DR   InterPro; IPR020635; Tyr_Pkinase_cat_dom.
+DR   InterPro; IPR020685; Tyr_prot_kinase.
+DR   InterPro; IPR008266; Tyr_prot_kinase_AS.
+DR   InterPro; IPR020696; Tyr_prot_kinase_rcpt_Tie1.
+DR   Gene3D; G3DSA:2.60.40.10; Ig-like_fold; 5.
+DR   PANTHER; PTHR23256; Tyr_prot_kinase; 1.
+DR   PANTHER; PTHR23256:SF91; Tyr_prot_kinase_rcpt_Tie1; 1.
+DR   Pfam; PF00041; fn3; 3.
+DR   Pfam; PF07714; Pkinase_Tyr; 1.
+DR   PRINTS; PR00109; TYRKINASE.
+DR   SMART; SM00181; EGF; 2.
+DR   SMART; SM00060; FN3; 3.
+DR   SMART; SM00409; IG; 1.
+DR   SMART; SM00219; TyrKc; 1.
+DR   SUPFAM; SSF49265; FN_III-like; 3.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00022; EGF_1; 3.
+DR   PROSITE; PS01186; EGF_2; 3.
+DR   PROSITE; PS50026; EGF_3; 2.
+DR   PROSITE; PS50853; FN3; 3.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00109; PROTEIN_KINASE_TYR; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Complete proteome; Direct protein sequencing;
+KW   Disulfide bond; EGF-like domain; Glycoprotein; Immunoglobulin domain;
+KW   Kinase; Membrane; Nucleotide-binding; Phosphoprotein; Polymorphism;
+KW   Receptor; Repeat; Signal; Transferase; Transmembrane;
+KW   Transmembrane helix; Tyrosine-protein kinase.
+FT   SIGNAL        1     21
+FT   CHAIN        22   1138       Tyrosine-protein kinase receptor Tie-1.
+FT                                /FTId=PRO_0000024471.
+FT   TOPO_DOM     22    759       Extracellular (Potential).
+FT   TRANSMEM    760    784       Helical; (Potential).
+FT   TOPO_DOM    785   1138       Cytoplasmic (Potential).
+FT   DOMAIN       43    105       Ig-like C2-type 1.
+FT   DOMAIN      214    256       EGF-like 1.
+FT   DOMAIN      258    303       EGF-like 2.
+FT   DOMAIN      305    345       EGF-like 3.
+FT   DOMAIN      372    426       Ig-like C2-type 2.
+FT   DOMAIN      446    537       Fibronectin type-III 1.
+FT   DOMAIN      545    637       Fibronectin type-III 2.
+FT   DOMAIN      644    736       Fibronectin type-III 3.
+FT   DOMAIN      839   1118       Protein kinase.
+FT   NP_BIND     845    853       ATP (By similarity).
+FT   ACT_SITE    979    979       Proton acceptor (By similarity).
+FT   BINDING     870    870       ATP (By similarity).
+FT   MOD_RES    1007   1007       Phosphotyrosine; by autocatalysis (By
+FT                                similarity).
+FT   CARBOHYD     83     83       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    161    161       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    503    503       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    596    596       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    709    709       N-linked (GlcNAc...) (Potential).
+FT   DISULFID    228    237       By similarity.
+FT   DISULFID    231    244       By similarity.
+FT   DISULFID    246    255       By similarity.
+FT   DISULFID    315    327       By similarity.
+FT   DISULFID    321    333       By similarity.
+FT   DISULFID    335    344       By similarity.
+FT   VARIANT     448    448       V -> M (in dbSNP:rs56302794).
+FT                                /FTId=VAR_041852.
+FT   VARIANT    1104   1104       A -> V (in dbSNP:rs35573981).
+FT                                /FTId=VAR_041853.
+FT   VARIANT    1109   1109       R -> H (in dbSNP:rs34993202).
+FT                                /FTId=VAR_041854.
+SQ   SEQUENCE   1138 AA;  125090 MW;  3B42BE33678C58A1 CRC64;
+     MVWRVPPFLL PILFLASHVG AAVDLTLLAN LRLTDPQRFF LTCVSGEAGA GRGSDAWGPP
+     LLLEKDDRIV RTPPGPPLRL ARNGSHQVTL RGFSKPSDLV GVFSCVGGAG ARRTRVIYVH
+     NSPGAHLLPD KVTHTVNKGD TAVLSARVHK EKQTDVIWKS NGSYFYTLDW HEAQDGRFLL
+     QLPNVQPPSS GIYSATYLEA SPLGSAFFRL IVRGCGAGRW GPGCTKECPG CLHGGVCHDH
+     DGECVCPPGF TGTRCEQACR EGRFGQSCQE QCPGISGCRG LTFCLPDPYG CSCGSGWRGS
+     QCQEACAPGH FGADCRLQCQ CQNGGTCDRF SGCVCPSGWH GVHCEKSDRI PQILNMASEL
+     EFNLETMPRI NCAAAGNPFP VRGSIELRKP DGTVLLSTKA IVEPEKTTAE FEVPRLVLAD
+     SGFWECRVST SGGQDSRRFK VNVKVPPVPL AAPRLLTKQS RQLVVSPLVS FSGDGPISTV
+     RLHYRPQDST MDWSTIVVDP SENVTLMNLR PKTGYSVRVQ LSRPGEGGEG AWGPPTLMTT
+     DCPEPLLQPW LEGWHVEGTD RLRVSWSLPL VPGPLVGDGF LLRLWDGTRG QERRENVSSP
+     QARTALLTGL TPGTHYQLDV QLYHCTLLGP ASPPAHVLLP PSGPPAPRHL HAQALSDSEI
+     QLTWKHPEAL PGPISKYVVE VQVAGGAGDP LWIDVDRPEE TSTIIRGLNA STRYLFRMRA
+     SIQGLGDWSN TVEESTLGNG LQAEGPVQES RAAEEGLDQQ LILAVVGSVS ATCLTILAAL
+     LTLVCIRRSC LHRRRTFTYQ SGSGEETILQ FSSGTLTLTR RPKLQPEPLS YPVLEWEDIT
+     FEDLIGEGNF GQVIRAMIKK DGLKMNAAIK MLKEYASEND HRDFAGELEV LCKLGHHPNI
+     INLLGACKNR GYLYIAIEYA PYGNLLDFLR KSRVLETDPA FAREHGTAST LSSRQLLRFA
+     SDAANGMQYL SEKQFIHRDL AARNVLVGEN LASKIADFGL SRGEEVYVKK TMGRLPVRWM
+     AIESLNYSVY TTKSDVWSFG VLLWEIVSLG GTPYCGMTCA ELYEKLPQGY RMEQPRNCDD
+     EVYELMRQCW RDRPYERPPF AQIALQLGRM LEARKAYVNM SLFENFTYAG IDATAEEA
+//

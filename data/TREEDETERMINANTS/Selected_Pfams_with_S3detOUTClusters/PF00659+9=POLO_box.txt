@@ -1,0 +1,54 @@
+UI: Initial number of sequences: 18
+UI: Initial number of positions: 73
+UI: Number of outliers: 0
+UI: Final number of sequences after removing outliers: 18
+UI: Final number of positions after removing gappy columns: 64
+II: Final number of columns in the disjunctive matrix: 352
+UI: Number of axes selected: 1
+UI: Percentage of initial variance considered informative: 25.59 %
+UI: Checking a maximum number of groups equal to: 5
+UI: Stable cluster results have been found
+SC: YES
+UI: Number of groups selected: 2
+II: Clustering index value: CH_Index = 157.708
+II: F-Fisher: 1054.31
+II: Best solution found 500 times out of 500 iterations searching for 2 groups
+UI: Number of groups with less than 3 sequences: 0
+Is there enough group diversity to perform the analysis?:
+GD: YES
+
+Clustering of sequences: 
+CL: Q9NYY3+3=PLK2_HUMAN/606-677	1
+CL: Q9H4B4+2=PLK3_HUMAN/567-637	1
+CL: Q62673+1=PLK1_RAT/515-584	1
+CL: P53350+1=PLK1_HUMAN/515-584	1
+CL: P34331+3=PLK1_CAEEL/520-589	1
+CL: P62205+1=PLK1_XENTR/509-578	1
+CL: Q9N2L7+1=PLK2_CAEEL/511-580	1
+CL: Q20845+1=PLK3_CAEEL/505-573	1
+CL: P52304+2=POLO_DROME/496-564	1
+CL: P50528+1=PLO1_SCHPO/500-567	0
+CL: P34331+3=PLK1_CAEEL/420-485	0
+CL: Q9N2L7+1=PLK2_CAEEL/412-476	0
+CL: Q9H4B4+2=PLK3_HUMAN/470-533	0
+CL: P53350+1=PLK1_HUMAN/417-480	0
+CL: Q4FZD7+1=PLK5_MOUSE/420-483	0
+CL: Q9NYY3+3=PLK2_HUMAN/510-573	0
+CL: P62205+1=PLK1_XENTR/411-474	0
+CL: P52304+2=POLO_DROME/398-461	0
+
+Are there any position predicted as being important for the whole family?: 
+PR: YES
+Positions predicted: 
+RE: 6 1 2
+RE: 72 1 2
+RE: 17 1.5 2
+RE: 19 2.5 2
+RE: 71 5 2
+RE: 68 5.5 2
+
+UI: Number of positions predicted to be important for the group segregation: 6
+
+Are there any conserved position at 90 % of identity?: 
+CN: NO
+UI: There are no conserved positions at 90 % of identity

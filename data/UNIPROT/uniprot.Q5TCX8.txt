@@ -1,0 +1,331 @@
+ID   M3KL4_HUMAN             Reviewed;        1036 AA.
+AC   Q5TCX8; B2RN34; Q5TCX7; Q5TCX9; Q8WWN1; Q8WWN2; Q96JM1;
+DT   19-JUL-2005, integrated into UniProtKB/Swiss-Prot.
+DT   21-DEC-2004, sequence version 1.
+DT   05-OCT-2010, entry version 64.
+DE   RecName: Full=Mitogen-activated protein kinase kinase kinase MLK4;
+DE            EC=2.7.11.25;
+DE   AltName: Full=Mixed lineage kinase 4;
+GN   Name=MLK4; Synonyms=KIAA1804;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1 AND 2).
+RC   TISSUE=Heart;
+RA   Kvasha S., Protopopov A., Rynditch A., Zabarovsky E., Kashuba V.;
+RT   "MLK4, a new member of mixed lineage kinases.";
+RL   Submitted (APR-2001) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 3).
+RC   TISSUE=Brain;
+RX   MEDLINE=21245130; PubMed=11347906; DOI=10.1093/dnares/8.2.85;
+RA   Nagase T., Nakayama M., Nakajima D., Kikuno R., Ohara O.;
+RT   "Prediction of the coding sequences of unidentified human genes. XX.
+RT   The complete sequences of 100 new cDNA clones from brain which code
+RT   for large proteins in vitro.";
+RL   DNA Res. 8:85-95(2001).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=16710414; DOI=10.1038/nature04727;
+RA   Gregory S.G., Barlow K.F., McLay K.E., Kaul R., Swarbreck D.,
+RA   Dunham A., Scott C.E., Howe K.L., Woodfine K., Spencer C.C.A.,
+RA   Jones M.C., Gillson C., Searle S., Zhou Y., Kokocinski F.,
+RA   McDonald L., Evans R., Phillips K., Atkinson A., Cooper R., Jones C.,
+RA   Hall R.E., Andrews T.D., Lloyd C., Ainscough R., Almeida J.P.,
+RA   Ambrose K.D., Anderson F., Andrew R.W., Ashwell R.I.S., Aubin K.,
+RA   Babbage A.K., Bagguley C.L., Bailey J., Beasley H., Bethel G.,
+RA   Bird C.P., Bray-Allen S., Brown J.Y., Brown A.J., Buckley D.,
+RA   Burton J., Bye J., Carder C., Chapman J.C., Clark S.Y., Clarke G.,
+RA   Clee C., Cobley V., Collier R.E., Corby N., Coville G.J., Davies J.,
+RA   Deadman R., Dunn M., Earthrowl M., Ellington A.G., Errington H.,
+RA   Frankish A., Frankland J., French L., Garner P., Garnett J., Gay L.,
+RA   Ghori M.R.J., Gibson R., Gilby L.M., Gillett W., Glithero R.J.,
+RA   Grafham D.V., Griffiths C., Griffiths-Jones S., Grocock R.,
+RA   Hammond S., Harrison E.S.I., Hart E., Haugen E., Heath P.D.,
+RA   Holmes S., Holt K., Howden P.J., Hunt A.R., Hunt S.E., Hunter G.,
+RA   Isherwood J., James R., Johnson C., Johnson D., Joy A., Kay M.,
+RA   Kershaw J.K., Kibukawa M., Kimberley A.M., King A., Knights A.J.,
+RA   Lad H., Laird G., Lawlor S., Leongamornlert D.A., Lloyd D.M.,
+RA   Loveland J., Lovell J., Lush M.J., Lyne R., Martin S.,
+RA   Mashreghi-Mohammadi M., Matthews L., Matthews N.S.W., McLaren S.,
+RA   Milne S., Mistry S., Moore M.J.F., Nickerson T., O'Dell C.N.,
+RA   Oliver K., Palmeiri A., Palmer S.A., Parker A., Patel D., Pearce A.V.,
+RA   Peck A.I., Pelan S., Phelps K., Phillimore B.J., Plumb R., Rajan J.,
+RA   Raymond C., Rouse G., Saenphimmachak C., Sehra H.K., Sheridan E.,
+RA   Shownkeen R., Sims S., Skuce C.D., Smith M., Steward C.,
+RA   Subramanian S., Sycamore N., Tracey A., Tromans A., Van Helmond Z.,
+RA   Wall M., Wallis J.M., White S., Whitehead S.L., Wilkinson J.E.,
+RA   Willey D.L., Williams H., Wilming L., Wray P.W., Wu Z., Coulson A.,
+RA   Vaudin M., Sulston J.E., Durbin R.M., Hubbard T., Wooster R.,
+RA   Dunham I., Carter N.P., McVean G., Ross M.T., Harrow J., Olson M.V.,
+RA   Beck S., Rogers J., Bentley D.R.;
+RT   "The DNA sequence and biological annotation of human chromosome 1.";
+RL   Nature 441:315-321(2006).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [6]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-514; SER-528 AND
+RP   SER-614, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [7]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-614, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [8]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-528; SER-543 AND
+RP   SER-546, AND MASS SPECTROMETRY.
+RC   TISSUE=Embryonic kidney;
+RX   PubMed=19413330; DOI=10.1021/ac9004309;
+RA   Gauci S., Helbig A.O., Slijper M., Krijgsveld J., Heck A.J.,
+RA   Mohammed S.;
+RT   "Lys-N and trypsin cover complementary parts of the phosphoproteome in
+RT   a refined SCX-based approach.";
+RL   Anal. Chem. 81:4493-4501(2009).
+RN   [9]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-114; SER-455; SER-528;
+RP   THR-592; SER-614 AND SER-773, AND MASS SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [10]
+RP   VARIANTS [LARGE SCALE ANALYSIS] ASN-420; ASP-563; PHE-597; ILE-728;
+RP   ASP-741; GLY-784; TRP-892; ILE-900; CYS-977 AND LEU-982.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Activates the JUN N-terminal pathway (By similarity).
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- COFACTOR: Magnesium (By similarity).
+CC   -!- ENZYME REGULATION: Homodimerization via the leucine zipper domains
+CC       is required for autophosphorylation and subsequent activation (By
+CC       similarity).
+CC   -!- SUBUNIT: Homodimer (By similarity).
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=3;
+CC       Name=1; Synonyms=MLK4beta;
+CC         IsoId=Q5TCX8-1; Sequence=Displayed;
+CC       Name=2; Synonyms=MLK4alpha;
+CC         IsoId=Q5TCX8-2; Sequence=VSP_051733, VSP_051734;
+CC         Note=Ref.1 (CAC84639) sequence is in conflict in position:
+CC         566:R->P;
+CC       Name=3;
+CC         IsoId=Q5TCX8-3; Sequence=VSP_051731, VSP_051732;
+CC         Note=No experimental confirmation available;
+CC   -!- PTM: Autophosphorylation on serine and threonine residues within
+CC       the activation loop plays a role in enzyme activation (By
+CC       similarity).
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. STE Ser/Thr
+CC       protein kinase family. MAP kinase kinase kinase subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- SIMILARITY: Contains 1 SH3 domain.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=BAB47433.1; Type=Erroneous initiation;
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AJ311797; CAC84639.1; -; mRNA.
+DR   EMBL; AJ311798; CAC84640.1; -; mRNA.
+DR   EMBL; AB058707; BAB47433.1; ALT_INIT; mRNA.
+DR   EMBL; AL133380; CAI23045.1; -; Genomic_DNA.
+DR   EMBL; AL133380; CAI23046.1; -; Genomic_DNA.
+DR   EMBL; AL133380; CAI23047.1; -; Genomic_DNA.
+DR   EMBL; CH471098; EAW69988.1; -; Genomic_DNA.
+DR   EMBL; BC136648; AAI36649.1; -; mRNA.
+DR   EMBL; BC136649; AAI36650.1; -; mRNA.
+DR   IPI; IPI00142487; -.
+DR   IPI; IPI00607654; -.
+DR   IPI; IPI00607875; -.
+DR   RefSeq; NP_115811.2; -.
+DR   UniGene; Hs.547779; -.
+DR   ProteinModelPortal; Q5TCX8; -.
+DR   SMR; Q5TCX8; 42-401.
+DR   IntAct; Q5TCX8; 1.
+DR   STRING; Q5TCX8; -.
+DR   PhosphoSite; Q5TCX8; -.
+DR   PRIDE; Q5TCX8; -.
+DR   Ensembl; ENST00000366624; ENSP00000355583; ENSG00000143674.
+DR   GeneID; 84451; -.
+DR   KEGG; hsa:84451; -.
+DR   NMPDR; fig|9606.3.peg.3263; -.
+DR   UCSC; uc001hvs.1; human.
+DR   UCSC; uc001hvt.2; human.
+DR   UCSC; uc001hvu.2; human.
+DR   CTD; 84451; -.
+DR   GeneCards; GC01P233463; -.
+DR   H-InvDB; HIX0001705; -.
+DR   HPA; HPA007636; -.
+DR   eggNOG; prNOG05813; -.
+DR   HOGENOM; HBG716519; -.
+DR   HOVERGEN; HBG067662; -.
+DR   InParanoid; Q5TCX8; -.
+DR   OMA; ANYVAPC; -.
+DR   OrthoDB; EOG9QC3RC; -.
+DR   PhylomeDB; Q5TCX8; -.
+DR   BRENDA; 2.7.11.25; 247.
+DR   NextBio; 74235; -.
+DR   ArrayExpress; Q5TCX8; -.
+DR   Bgee; Q5TCX8; -.
+DR   Genevestigator; Q5TCX8; -.
+DR   GermOnline; ENSG00000143674; Homo sapiens.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004709; F:MAP kinase kinase kinase activity; IEA:EC.
+DR   GO; GO:0042803; F:protein homodimerization activity; ISS:UniProtKB.
+DR   GO; GO:0007257; P:activation of JUN kinase activity; ISS:UniProtKB.
+DR   GO; GO:0046777; P:protein amino acid autophosphorylation; ISS:UniProtKB.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR015785; MAPKKK-like.
+DR   InterPro; IPR016231; MAPKKK9/10/11.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR001245; Ser-Thr/Tyr-Pkinase.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR001452; SH3_domain.
+DR   InterPro; IPR020635; Tyr_Pkinase_cat_dom.
+DR   PANTHER; PTHR23257:SF87; MAPKKK-like; 1.
+DR   Pfam; PF07714; Pkinase_Tyr; 1.
+DR   Pfam; PF00018; SH3_1; 1.
+DR   PIRSF; PIRSF000556; MAPKKK9_11; 1.
+DR   PRINTS; PR00452; SH3DOMAIN.
+DR   PRINTS; PR00109; TYRKINASE.
+DR   SMART; SM00326; SH3; 1.
+DR   SMART; SM00219; TyrKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   SUPFAM; SSF50044; SH3; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+DR   PROSITE; PS50002; SH3; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; ATP-binding; Complete proteome; Kinase;
+KW   Nucleotide-binding; Phosphoprotein; Polymorphism; Repeat;
+KW   Serine/threonine-protein kinase; SH3 domain; Transferase.
+FT   CHAIN         1   1036       Mitogen-activated protein kinase kinase
+FT                                kinase MLK4.
+FT                                /FTId=PRO_0000086268.
+FT   DOMAIN       38    102       SH3.
+FT   DOMAIN      124    401       Protein kinase.
+FT   DOMAIN      425    446       Leucine-zipper 1.
+FT   DOMAIN      460    481       Leucine-zipper 2.
+FT   NP_BIND     130    138       ATP (By similarity).
+FT   COMPBIAS     15     37       Ser-rich.
+FT   ACT_SITE    263    263       Proton acceptor (By similarity).
+FT   BINDING     151    151       ATP (By similarity).
+FT   MOD_RES     114    114       Phosphoserine.
+FT   MOD_RES     299    299       Phosphothreonine; by autocatalysis (By
+FT                                similarity).
+FT   MOD_RES     303    303       Phosphoserine; by autocatalysis and
+FT                                MAP4K1 (By similarity).
+FT   MOD_RES     455    455       Phosphoserine.
+FT   MOD_RES     514    514       Phosphoserine.
+FT   MOD_RES     528    528       Phosphoserine.
+FT   MOD_RES     543    543       Phosphoserine.
+FT   MOD_RES     546    546       Phosphoserine.
+FT   MOD_RES     547    547       Phosphoserine (By similarity).
+FT   MOD_RES     592    592       Phosphothreonine.
+FT   MOD_RES     614    614       Phosphoserine.
+FT   MOD_RES     732    732       Phosphoserine (By similarity).
+FT   MOD_RES     773    773       Phosphoserine.
+FT   MOD_RES     806    806       Phosphoserine (By similarity).
+FT   VAR_SEQ       1    554       Missing (in isoform 3).
+FT                                /FTId=VSP_051731.
+FT   VAR_SEQ     555    559       RAIQL -> MFFLVT (in isoform 3).
+FT                                /FTId=VSP_051732.
+FT   VAR_SEQ     559    570       LTSDESNKTWGR -> CELSALPRGLLC (in isoform
+FT                                2).
+FT                                /FTId=VSP_051733.
+FT   VAR_SEQ     571   1036       Missing (in isoform 2).
+FT                                /FTId=VSP_051734.
+FT   VARIANT     420    420       D -> N (in dbSNP:rs35465006).
+FT                                /FTId=VAR_040729.
+FT   VARIANT     563    563       E -> D (in dbSNP:rs35758282).
+FT                                /FTId=VAR_040730.
+FT   VARIANT     597    597       S -> F (in dbSNP:rs34984140).
+FT                                /FTId=VAR_040731.
+FT   VARIANT     728    728       V -> I (in dbSNP:rs3795375).
+FT                                /FTId=VAR_040732.
+FT   VARIANT     741    741       E -> D (in dbSNP:rs3795374).
+FT                                /FTId=VAR_040733.
+FT   VARIANT     784    784       C -> G (in dbSNP:rs963981).
+FT                                /FTId=VAR_040734.
+FT   VARIANT     892    892       R -> W (in dbSNP:rs55681416).
+FT                                /FTId=VAR_040735.
+FT   VARIANT     900    900       T -> I (in dbSNP:rs34499091).
+FT                                /FTId=VAR_040736.
+FT   VARIANT     977    977       R -> C (in dbSNP:rs56065162).
+FT                                /FTId=VAR_040737.
+FT   VARIANT     982    982       P -> L (in dbSNP:rs34794284).
+FT                                /FTId=VAR_040738.
+FT   CONFLICT    274    274       K -> E (in Ref. 1; CAC84639/CAC84640).
+FT   CONFLICT    330    330       Y -> C (in Ref. 1; CAC84639/CAC84640).
+FT   CONFLICT    687    687       E -> G (in Ref. 1; CAC84640).
+FT   CONFLICT    701    701       S -> T (in Ref. 1; CAC84640).
+FT   CONFLICT    705    705       T -> A (in Ref. 1; CAC84640).
+FT   CONFLICT    781    781       P -> S (in Ref. 1; CAC84640).
+FT   CONFLICT    872    872       Q -> R (in Ref. 1; CAC84640).
+FT   CONFLICT   1002   1002       A -> V (in Ref. 1; CAC84640).
+FT   CONFLICT   1016   1016       C -> G (in Ref. 1; CAC84640).
+SQ   SEQUENCE   1036 AA;  113957 MW;  2520984802143069 CRC64;
+     MALRGAAGAT DTPVSSAGGA PGGSASSSST SSGGSASAGA GLWAALYDYE ARGEDELSLR
+     RGQLVEVLSQ DAAVSGDEGW WAGQVQRRLG IFPANYVAPC RPAASPAPPP SRPSSPVHVA
+     FERLELKELI GAGGFGQVYR ATWQGQEVAV KAARQDPEQD AAAAAESVRR EARLFAMLRH
+     PNIIELRGVC LQQPHLCLVL EFARGGALNR ALAAANAAPD PRAPGPRRAR RIPPHVLVNW
+     AVQIARGMLY LHEEAFVPIL HRDLKSSNIL LLEKIEHDDI CNKTLKITDF GLAREWHRTT
+     KMSTAGTYAW MAPEVIKSSL FSKGSDIWSY GVLLWELLTG EVPYRGIDGL AVAYGVAVNK
+     LTLPIPSTCP EPFAKLMKEC WQQDPHIRPS FALILEQLTA IEGAVMTEMP QESFHSMQDD
+     WKLEIQQMFD ELRTKEKELR SREEELTRAA LQQKSQEELL KRREQQLAER EIDVLERELN
+     ILIFQLNQEK PKVKKRKGKF KRSRLKLKDG HRISLPSDFQ HKITVQASPN LDKRRSLNSS
+     SSSPPSSPTM MPRLRAIQLT SDESNKTWGR NTVFRQEEFE DVKRNFKKKG CTWGPNSIQM
+     KDRTDCKERI RPLSDGNSPW STILIKNQKT MPLASLFVDQ PGSCEEPKLS PDGLEHRKPK
+     QIKLPSQAYI DLPLGKDAQR ENPAEAESWE EAASANAATV SIEMTPTNSL SRSPQRKKTE
+     SALYGCTVLL ASVALGLDLR ELHKAQAAEE PLPKEEKKKR EGIFQRASKS RRSASPPTSL
+     PSTCGEASSP PSLPLSSALG ILSTPSFSTK CLLQMDSEDP LVDSAPVTCD SEMLTPDFCP
+     TAPGSGREPA LMPRLDTDCS VSRNLPSSFL QQTCGNVPYC ASSKHRPSHH RRTMSDGNPT
+     PTGATIISAT GASALPLCPS PAPHSHLPRE VSPKKHSTVH IVPQRRPASL RSRSDLPQAY
+     PQTAVSQLAQ TACVVGRPGP HPTQFLAAKE RTKSHVPSLL DADVEGQSRD YTVPLCRMRS
+     KTSRPSIYEL EKEFLS
+//

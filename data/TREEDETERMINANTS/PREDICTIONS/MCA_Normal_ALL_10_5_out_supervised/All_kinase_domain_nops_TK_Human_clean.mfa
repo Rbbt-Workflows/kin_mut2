@@ -1,0 +1,6 @@
+UI: Initial number of sequences: 203
+UI: Initial number of positions: 469
+UI: Number of outliers: 0
+UI: Final number of sequences after removing outliers: 203
+UI: Final number of positions after removing gappy columns: 242
+II: Final number of columns in the disjunctive matrix: 2958

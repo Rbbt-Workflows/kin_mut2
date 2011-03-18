@@ -1,0 +1,95 @@
+UI: Initial number of sequences: 38
+UI: Initial number of positions: 386
+UI: Number of outliers: 0
+UI: Final number of sequences after removing outliers: 38
+UI: Final number of positions after removing gappy columns: 225
+II: Final number of columns in the disjunctive matrix: 1719
+UI: Number of axes selected: 2
+UI: Percentage of initial variance considered informative: 11.9766 %
+UI: Checking a maximum number of groups equal to: 10
+UI: Stable cluster results have been found
+SC: YES
+UI: Number of groups selected: 5
+II: Clustering index value: CH_Index = 61.2182
+II: F-Fisher: 394.863
+II: Best solution found 114 times out of 500 iterations searching for 5 groups
+UI: Number of groups with less than 3 sequences: 1
+Is there enough group diversity to perform the analysis?:
+GD: YES
+
+Clustering of sequences: 
+CL: Gyc76C_Dmel/1-294	2
+CL: gcy-23_Cele/1-281	4
+CL: CYGF_Hsap/1-280	0
+CL: CYGF_Mmus/1-280	0
+CL: gcy-18_Cele/1-279	4
+CL: CG9783_Dmel/1-279	2
+CL: T01A4.1_Cele/1-279	2
+CL: ANPb_Hsap/1-277	2
+CL: ANPa_Hsap/1-276	2
+CL: gcy-8_Cele/1-275	4
+CL: CYGD_Hsap/1-274	0
+CL: HSER_Hsap/1-273	2
+CL: CYGD_Mmus/1-273	0
+CL: gcy-4_Cele/1-272	1
+CL: HSER_Mmus/1-272	2
+CL: CYGX_Mmus/1-271	0
+CL: CG3216_Dmel/1-271	2
+CL: odr-1_Cele/1-270	3
+CL: gcy-27_Cele/1-270	3
+CL: Gyc32E_Dmel/1-269	2
+CL: KSGC_Mmus/1-268	2
+CL: CG4224_Dmel/1-268	2
+CL: gcy-6_Cele/1-257	1
+CL: gcy-17_Cele/1-257	1
+CL: gcy-5_Cele/1-256	1
+CL: gcy-3_Cele/1-255	1
+CL: gcy-1_Cele/1-255	1
+CL: gcy-20_Cele/1-254	1
+CL: gcy-14_Cele/1-254	1
+CL: gcy-19_Cele/1-253	1
+CL: CG10738_Dmel/1-253	2
+CL: gcy-22_Cele/1-252	1
+CL: gcy-21_Cele/1-251	2
+CL: Npr4_Spur/1-241	2
+CL: Npr2_Spur/1-241	2
+CL: Npr1_Spur/1-240	2
+CL: Npr5_Spur/1-238	2
+CL: Gcy1_Spur/1-237	2
+
+Are there any position predicted as being important for the whole family?: 
+PR: YES
+Positions predicted: 
+RE: 151 1 2
+RE: 134 1 2
+RE: 103 2.5 2
+RE: 101 3 2
+
+UI: Number of positions predicted to be important for the group segregation: 4
+
+Are there any conserved position at 90 % of identity?: 
+CN: YES
+Conserved positions: 
+CP: 102
+CP: 133
+CP: 135
+CP: 152
+CP: 155
+CP: 162
+CP: 166
+CP: 171
+CP: 178
+CP: 179
+CP: 181
+CP: 186
+CP: 200
+CP: 239
+CP: 240
+CP: 269
+CP: 325
+CP: 351
+CP: 352
+CP: 359
+CP: 360
+
+UI: Number of conserved positions (at 90 % of identity): 21

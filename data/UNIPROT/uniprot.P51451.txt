@@ -1,0 +1,206 @@
+ID   BLK_HUMAN               Reviewed;         505 AA.
+AC   P51451; Q16291;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   21-AUG-2007, sequence version 3.
+DT   02-NOV-2010, entry version 102.
+DE   RecName: Full=Tyrosine-protein kinase Blk;
+DE            EC=2.7.10.2;
+DE   AltName: Full=B lymphocyte kinase;
+DE   AltName: Full=p55-Blk;
+GN   Name=BLK;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   MEDLINE=95123078; PubMed=7822795;
+RA   Islam K.B., Rabbani H., Larsson C., Sanders R., Smith C.I.;
+RT   "Molecular cloning, characterization, and chromosomal localization of
+RT   a human lymphoid tyrosine kinase related to murine Blk.";
+RL   J. Immunol. 154:1265-1272(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   MEDLINE=95148218; PubMed=7845672;
+RA   Drebin J.A., Hartzell S.W., Griffin C., Campbell M.J.,
+RA   Niederhuber J.E.;
+RT   "Molecular cloning and chromosomal localization of the human homologue
+RT   of a B-lymphocyte specific protein tyrosine kinase (blk).";
+RL   Oncogene 10:477-486(1995).
+RN   [3]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RA   Colinge J., Superti-Furga G., Bennett K.L.;
+RL   Submitted (OCT-2008) to UniProtKB.
+RN   [4]
+RP   FUNCTION AS REGULATOR OF INSULIN SECRETION, TISSUE SPECIFICITY,
+RP   INVOLVEMENT IN MODY11, VARIANT THR-71, AND CHARACTERIZATION OF VARIANT
+RP   THR-71.
+RX   PubMed=19667185; DOI=10.1073/pnas.0906474106;
+RA   Borowiec M., Liew C.W., Thompson R., Boonyasrisawat W., Hu J.,
+RA   Mlynarski W.M., El Khattabi I., Kim S.H., Marselli L., Rich S.S.,
+RA   Krolewski A.S., Bonner-Weir S., Sharma A., Sale M., Mychaleckyj J.C.,
+RA   Kulkarni R.N., Doria A.;
+RT   "Mutations at the BLK locus linked to maturity onset diabetes of the
+RT   young and beta-cell dysfunction.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 106:14460-14465(2009).
+RN   [5]
+RP   VARIANTS [LARGE SCALE ANALYSIS] ILE-48; THR-71 AND THR-71.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Modulator of beta-cells function, acting through the up-
+CC       regulation of PDX1 and NKX6-1 and consequent stimulation of
+CC       insulin secretion in response to glucose.
+CC   -!- CATALYTIC ACTIVITY: ATP + a [protein]-L-tyrosine = ADP + a
+CC       [protein]-L-tyrosine phosphate.
+CC   -!- TISSUE SPECIFICITY: Expressed in lymphatic organs, pancreatic
+CC       islets, Leydig cells, striate ducts of salivary glands and hair
+CC       follicles.
+CC   -!- DISEASE: Defects in BLK are a cause of maturity-onset diabetes of
+CC       the young type 11 (MODY11) [MIM:613375]. MODY11 is a form of
+CC       diabetes that is characterized by an autosomal dominant mode of
+CC       inheritance, onset in childhood or early adulthood (usually before
+CC       25 years of age), a primary defect in insulin secretion and
+CC       frequent insulin-independence at the beginning of the disease.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Tyr protein
+CC       kinase family. SRC subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- SIMILARITY: Contains 1 SH2 domain.
+CC   -!- SIMILARITY: Contains 1 SH3 domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; Z33998; CAA83965.1; -; mRNA.
+DR   EMBL; S76617; AAB33265.1; -; mRNA.
+DR   IPI; IPI00941870; -.
+DR   PIR; I37206; I37206.
+DR   RefSeq; NP_001706.2; -.
+DR   UniGene; Hs.146591; -.
+DR   ProteinModelPortal; P51451; -.
+DR   SMR; P51451; 63-505.
+DR   IntAct; P51451; 2.
+DR   MINT; MINT-1494192; -.
+DR   STRING; P51451; -.
+DR   PhosphoSite; P51451; -.
+DR   PRIDE; P51451; -.
+DR   Ensembl; ENST00000259089; ENSP00000259089; ENSG00000136573.
+DR   GeneID; 640; -.
+DR   KEGG; hsa:640; -.
+DR   UCSC; uc003wty.1; human.
+DR   CTD; 640; -.
+DR   GeneCards; GC08P011388; -.
+DR   H-InvDB; HIX0007315; -.
+DR   HGNC; HGNC:1057; BLK.
+DR   HPA; CAB005093; -.
+DR   MIM; 191305; gene.
+DR   MIM; 613375; phenotype.
+DR   Orphanet; 552; MODY syndrome.
+DR   PharmGKB; PA25368; -.
+DR   eggNOG; prNOG04145; -.
+DR   HOVERGEN; HBG008761; -.
+DR   InParanoid; P51451; -.
+DR   PhylomeDB; P51451; -.
+DR   BRENDA; 2.7.10.2; 247.
+DR   Pathway_Interaction_DB; alphasynuclein_pathway; Alpha-synuclein signaling.
+DR   Pathway_Interaction_DB; amb2_neutrophils_pathway; amb2 Integrin signaling.
+DR   Pathway_Interaction_DB; pi3kcipathway; Class I PI3K signaling events.
+DR   Pathway_Interaction_DB; epha_fwdpathway; EPHA forward signaling.
+DR   Pathway_Interaction_DB; ephrinbrevpathway; Ephrin B reverse signaling.
+DR   Pathway_Interaction_DB; glypican_1pathway; Glypican 1 network.
+DR   Pathway_Interaction_DB; pdgfrbpathway; PDGFR-beta signaling pathway.
+DR   Pathway_Interaction_DB; p38alphabetapathway; Regulation of p38-alpha and p38-beta.
+DR   Pathway_Interaction_DB; ptp1bpathway; Signaling events mediated by PTP1B.
+DR   Pathway_Interaction_DB; txa2pathway; Thromboxane A2 receptor signaling.
+DR   NextBio; 2596; -.
+DR   ArrayExpress; P51451; -.
+DR   Bgee; P51451; -.
+DR   CleanEx; HS_BLK; -.
+DR   Genevestigator; P51451; -.
+DR   GermOnline; ENSG00000136573; Homo sapiens.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004715; F:non-membrane spanning protein tyrosine kina...; IEA:EC.
+DR   GO; GO:0005515; F:protein binding; IEA:InterPro.
+DR   GO; GO:0007243; P:intracellular protein kinase cascade; TAS:ProtInc.
+DR   GO; GO:0032024; P:positive regulation of insulin secretion; IMP:UniProtKB.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR001245; Ser-Thr/Tyr-Pkinase.
+DR   InterPro; IPR000980; SH2.
+DR   InterPro; IPR001452; SH3_domain.
+DR   InterPro; IPR020750; Tyr_kinase_non-rcpt_Blk.
+DR   InterPro; IPR020635; Tyr_Pkinase_cat_dom.
+DR   InterPro; IPR020685; Tyr_prot_kinase.
+DR   Gene3D; G3DSA:3.30.505.10; SH2; 1.
+DR   PANTHER; PTHR23256:SF261; Tyr_kinase_non-rcpt_Blk; 1.
+DR   PANTHER; PTHR23256; Tyr_prot_kinase; 1.
+DR   Pfam; PF07714; Pkinase_Tyr; 1.
+DR   Pfam; PF00017; SH2; 1.
+DR   Pfam; PF00018; SH3_1; 1.
+DR   PRINTS; PR00401; SH2DOMAIN.
+DR   PRINTS; PR00452; SH3DOMAIN.
+DR   PRINTS; PR00109; TYRKINASE.
+DR   SMART; SM00252; SH2; 1.
+DR   SMART; SM00326; SH3; 1.
+DR   SMART; SM00219; TyrKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   SUPFAM; SSF50044; SH3; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00109; PROTEIN_KINASE_TYR; FALSE_NEG.
+DR   PROSITE; PS50001; SH2; 1.
+DR   PROSITE; PS50002; SH3; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Complete proteome; Diabetes mellitus; Kinase;
+KW   Lipoprotein; Myristate; Nucleotide-binding; Phosphoprotein;
+KW   Polymorphism; SH2 domain; SH3 domain; Transferase;
+KW   Tyrosine-protein kinase.
+FT   INIT_MET      1      1       Removed (By similarity).
+FT   CHAIN         2    505       Tyrosine-protein kinase Blk.
+FT                                /FTId=PRO_0000088061.
+FT   DOMAIN       58    118       SH3.
+FT   DOMAIN      124    220       SH2.
+FT   DOMAIN      241    494       Protein kinase.
+FT   NP_BIND     247    255       ATP (By similarity).
+FT   ACT_SITE    360    360       Proton acceptor (By similarity).
+FT   BINDING     269    269       ATP (By similarity).
+FT   MOD_RES     389    389       Phosphotyrosine; by autocatalysis (By
+FT                                similarity).
+FT   LIPID         2      2       N-myristoyl glycine (By similarity).
+FT   VARIANT      48     48       T -> I (in dbSNP:rs35339715).
+FT                                /FTId=VAR_041672.
+FT   VARIANT      71     71       A -> T (associated with MODY11; reduces
+FT                                the enhancing effect of BLK on insulin
+FT                                secretion; reduces the inducing effect of
+FT                                BLK on the expression of PDX1 and NKX6-1;
+FT                                found as somatic mutation in a colorectal
+FT                                adenocarcinoma sample; dbSNP:rs55758736).
+FT                                /FTId=VAR_041673.
+FT   CONFLICT    287    287       V -> M (in Ref. 1; CAA83965).
+FT   CONFLICT    407    407       I -> Y (in Ref. 2; AAB33265).
+SQ   SEQUENCE   505 AA;  57706 MW;  B5F739BEF8389176 CRC64;
+     MGLVSSKKPD KEKPIKEKDK GQWSPLKVSA QDKDAPPLPP LVVFNHLTPP PPDEHLDEDK
+     HFVVALYDYT AMNDRDLQML KGEKLQVLKG TGDWWLARSL VTGREGYVPS NFVARVESLE
+     MERWFFRSQG RKEAERQLLA PINKAGSFLI RESETNKGAF SLSVKDVTTQ GELIKHYKIR
+     CLDEGGYYIS PRITFPSLQA LVQHYSKKGD GLCQRLTLPC VRPAPQNPWA QDEWEIPRQS
+     LRLVRKLGSG QFGEVWMGYY KNNMKVAIKT LKEGTMSPEA FLGEANVMKA LQHERLVRLY
+     AVVTKEPIYI VTEYMARGCL LDFLKTDEGS RLSLPRLIDM SAQIAEGMAY IERMNSIHRD
+     LRAANILVSE ALCCKIADFG LARIIDSEYT AQEGAKFPIK WTAPEAIHFG VFTIKADVWS
+     FGVLLMEVVT YGRVPYPGMS NPEVIRNLER GYRMPRPDTC PPELYRGVIA ECWRSRPEER
+     PTFEFLQSVL EDFYTATERQ YELQP
+//

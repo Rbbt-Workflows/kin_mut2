@@ -1,0 +1,312 @@
+ID   TAOK3_HUMAN             Reviewed;         898 AA.
+AC   Q9H2K8; Q658N1; Q8IUM4; Q9HC79; Q9NZM9; Q9UHG7;
+DT   25-OCT-2005, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2005, sequence version 2.
+DT   05-OCT-2010, entry version 79.
+DE   RecName: Full=Serine/threonine-protein kinase TAO3;
+DE            EC=2.7.11.1;
+DE   AltName: Full=Cutaneous T-cell lymphoma-associated antigen HD-CL-09;
+DE            Short=CTCL-associated antigen HD-CL-09;
+DE   AltName: Full=Dendritic cell-derived protein kinase;
+DE   AltName: Full=JNK/SAPK-inhibitory kinase;
+DE   AltName: Full=Jun kinase-inhibitory kinase;
+DE   AltName: Full=Kinase from chicken homolog A;
+DE            Short=hKFC-A;
+DE   AltName: Full=Thousand and one amino acid protein 3;
+GN   Name=TAOK3; Synonyms=DPK, JIK, KDS, MAP3K18;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PHOSPHORYLATION, MUTAGENESIS OF THR-181
+RP   AND TYR-183, AND FUNCTION.
+RX   MEDLINE=20026851; PubMed=10559204; DOI=10.1074/jbc.274.47.33287;
+RA   Tassi E., Biesova Z., Di Fiore P.P., Gutkind J.S., Wong W.T.;
+RT   "Human JIK, a novel member of the STE20 kinase family that inhibits
+RT   JNK and is negatively regulated by epidermal growth factor.";
+RL   J. Biol. Chem. 274:33287-33295(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, AND TISSUE SPECIFICITY.
+RC   TISSUE=Dendritic cell;
+RX   MEDLINE=20384190; PubMed=10924369; DOI=10.1006/bbrc.2000.3244;
+RA   Zhang W., Chen T., Wan T., He L., Li N., Yuan Z., Cao X.;
+RT   "Cloning of DPK, a novel dendritic cell-derived protein kinase
+RT   activating the ERK1/ERK2 and JNK/SAPK pathways.";
+RL   Biochem. Biophys. Res. Commun. 274:872-879(2000).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA], SELF-ASSOCIATION, TISSUE SPECIFICITY,
+RP   VARIANT ASN-47, AND SUBCELLULAR LOCATION.
+RX   PubMed=13679851; DOI=10.1038/sj.onc.1206605;
+RA   Yustein J.T., Xia L., Kahlenburg J.M., Robinson D., Templeton D.,
+RA   Kung H.-J.;
+RT   "Comparative studies of a new subfamily of human Ste20-like kinases:
+RT   homodimerization, subcellular localization, and selective activation
+RT   of MKK3 and p38.";
+RL   Oncogene 22:6129-6141(2003).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND VARIANT ASN-47.
+RA   Carter T.G., Benton B., Fruhling D., Monks C.R.F., Windmiller D.,
+RA   Kupfer A., Manfredi J., Johnson G.L., Pleiman C.M.;
+RT   "KDS and TAO1, two related proteins with kinase domain homology to
+RT   STE20, differentially relocate in mitogen stimulated T lymphocytes.";
+RL   Submitted (AUG-1999) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RA   Kalnine N., Chen X., Rolfs A., Halleck A., Hines L., Eisenstein S.,
+RA   Koundinya M., Raphael J., Moreira D., Kelley T., LaBaer J., Lin Y.,
+RA   Phelan M., Farmer A.;
+RT   "Cloning of human full-length CDSs in BD Creator(TM) system donor
+RT   vector.";
+RL   Submitted (MAY-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Placenta;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 191-898.
+RC   TISSUE=Stomach;
+RX   PubMed=17974005; DOI=10.1186/1471-2164-8-399;
+RA   Bechtel S., Rosenfelder H., Duda A., Schmidt C.P., Ernst U.,
+RA   Wellenreuther R., Mehrle A., Schuster C., Bahr A., Bloecker H.,
+RA   Heubner D., Hoerlein A., Michel G., Wedler H., Koehrer K.,
+RA   Ottenwaelder B., Poustka A., Wiemann S., Schupp I.;
+RT   "The full-ORF clone resource of the German cDNA consortium.";
+RL   BMC Genomics 8:399-399(2007).
+RN   [8]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 304-898.
+RC   TISSUE=T-cell lymphoma;
+RX   PubMed=14996095; DOI=10.1111/j.1365-2133.2004.05651.x;
+RA   Hartmann T.B., Thiel D., Dummer R., Schadendorf D., Eichmueller S.;
+RT   "SEREX identification of new tumour-associated antigens in cutaneous
+RT   T-cell lymphoma.";
+RL   Br. J. Dermatol. 150:252-258(2004).
+RN   [9]
+RP   INTERACTION WITH ERN1 AND TRAF2.
+RX   PubMed=11278723; DOI=10.1074/jbc.M010677200;
+RA   Yoneda T., Imaizumi K., Oono K., Yui D., Gomi F., Katayama T.,
+RA   Tohyama M.;
+RT   "Activation of caspase-12, an endoplastic reticulum (ER) resident
+RT   caspase, through tumor necrosis factor receptor-associated factor 2-
+RT   dependent mechanism in response to the ER stress.";
+RL   J. Biol. Chem. 276:13935-13940(2001).
+RN   [10]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-324 AND SER-331, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Embryonic kidney;
+RX   PubMed=17525332; DOI=10.1126/science.1140321;
+RA   Matsuoka S., Ballif B.A., Smogorzewska A., McDonald E.R. III,
+RA   Hurov K.E., Luo J., Bakalarski C.E., Zhao Z., Solimini N.,
+RA   Lerenthal Y., Shiloh Y., Gygi S.P., Elledge S.J.;
+RT   "ATM and ATR substrate analysis reveals extensive protein networks
+RT   responsive to DNA damage.";
+RL   Science 316:1160-1166(2007).
+RN   [11]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-324 AND SER-331, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [12]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-324 AND SER-442, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [13]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RA   Colinge J., Superti-Furga G., Bennett K.L.;
+RL   Submitted (OCT-2008) to UniProtKB.
+RN   [14]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-316; SER-324; SER-331
+RP   AND SER-442, AND MASS SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [15]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-324 AND SER-331, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=19690332; DOI=10.1126/scisignal.2000007;
+RA   Mayya V., Lundgren D.H., Hwang S.-I., Rezaul K., Wu L., Eng J.K.,
+RA   Rodionov V., Han D.K.;
+RT   "Quantitative phosphoproteomic analysis of T cell receptor signaling
+RT   reveals system-wide modulation of protein-protein interactions.";
+RL   Sci. Signal. 2:RA46-RA46(2009).
+RN   [16]
+RP   VARIANTS [LARGE SCALE ANALYSIS] THR-20; ASN-47; TYR-392 AND TYR-727.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Inhibits the basal activity of Jun kinase. Negatively
+CC       regulated by epidermal growth factor (EGF). When overexpressed,
+CC       may activate ERK1/ERK2 and JNK/SAPK.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- SUBUNIT: Self-associates. Interacts with ERN1 and TRAF2.
+CC       Interaction with TRAF2 is facilitated under ER stress conditions,
+CC       such as treatment with tunicamycin, and may promote TRAF2
+CC       phosphorylation.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm. Cell membrane; Peripheral
+CC       membrane protein. Note=Also localized to the peripheral cell
+CC       membrane.
+CC   -!- TISSUE SPECIFICITY: Ubiquitously expressed at a low level, and
+CC       highly expressed in peripheral blood leukocytes (PBLs), thymus,
+CC       spleen, kidney, skeletal muscle, heart and liver.
+CC   -!- PTM: Autophosphorylated. Phosphorylated upon DNA damage, probably
+CC       by ATM or ATR.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. STE Ser/Thr
+CC       protein kinase family. STE20 subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAN09723.1; Type=Erroneous initiation; Note=Translation N-terminally extended;
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF179867; AAF14559.1; -; mRNA.
+DR   EMBL; AF135158; AAG09131.1; -; mRNA.
+DR   EMBL; AF263311; AAG38501.1; -; mRNA.
+DR   EMBL; AF181985; AAF25817.1; -; mRNA.
+DR   EMBL; BT007185; AAP35849.1; -; mRNA.
+DR   EMBL; BC002756; AAH02756.1; -; mRNA.
+DR   EMBL; AL833731; CAH56239.1; -; mRNA.
+DR   EMBL; AF328731; AAN09723.1; ALT_INIT; mRNA.
+DR   IPI; IPI00410485; -.
+DR   RefSeq; NP_057365.3; -.
+DR   UniGene; Hs.644420; -.
+DR   ProteinModelPortal; Q9H2K8; -.
+DR   SMR; Q9H2K8; 8-315.
+DR   IntAct; Q9H2K8; 6.
+DR   STRING; Q9H2K8; -.
+DR   PhosphoSite; Q9H2K8; -.
+DR   PRIDE; Q9H2K8; -.
+DR   Ensembl; ENST00000392533; ENSP00000376317; ENSG00000135090.
+DR   GeneID; 51347; -.
+DR   KEGG; hsa:51347; -.
+DR   UCSC; uc001twx.1; human.
+DR   CTD; 51347; -.
+DR   GeneCards; GC12M118587; -.
+DR   H-InvDB; HIX0011047; -.
+DR   HGNC; HGNC:18133; TAOK3.
+DR   HPA; HPA017160; -.
+DR   PharmGKB; PA134975064; -.
+DR   eggNOG; prNOG17675; -.
+DR   HOGENOM; HBG382294; -.
+DR   HOVERGEN; HBG088996; -.
+DR   InParanoid; Q9H2K8; -.
+DR   OMA; NGPLNES; -.
+DR   OrthoDB; EOG93BQ7S; -.
+DR   PhylomeDB; Q9H2K8; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   Pathway_Interaction_DB; p38_mkk3_6pathway; p38 MAPK signaling pathway.
+DR   NextBio; 54794; -.
+DR   ArrayExpress; Q9H2K8; -.
+DR   Bgee; Q9H2K8; -.
+DR   CleanEx; HS_TAOK3; -.
+DR   Genevestigator; Q9H2K8; -.
+DR   GermOnline; ENSG00000135090; Homo sapiens.
+DR   GO; GO:0005739; C:mitochondrion; IDA:HPA.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004860; F:protein kinase inhibitor activity; TAS:ProtInc.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IDA:HGNC.
+DR   GO; GO:0000165; P:MAPKKK cascade; IMP:HGNC.
+DR   GO; GO:0046329; P:negative regulation of JNK cascade; IDA:HGNC.
+DR   GO; GO:0046330; P:positive regulation of JNK cascade; IMP:HGNC.
+DR   GO; GO:0046777; P:protein amino acid autophosphorylation; IDA:HGNC.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Cell membrane; Coiled coil; Complete proteome; Cytoplasm;
+KW   Kinase; Membrane; Nucleotide-binding; Phosphoprotein; Polymorphism;
+KW   Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    898       Serine/threonine-protein kinase TAO3.
+FT                                /FTId=PRO_0000086737.
+FT   DOMAIN       24    277       Protein kinase.
+FT   NP_BIND      30     38       ATP (By similarity).
+FT   COILED      452    502       Potential.
+FT   COILED      548    649       Potential.
+FT   COILED      754    879       Potential.
+FT   COMPBIAS    343    393       Ser-rich.
+FT   ACT_SITE    147    147       Proton acceptor (By similarity).
+FT   BINDING      53     53       ATP (By similarity).
+FT   MOD_RES     316    316       Phosphothreonine.
+FT   MOD_RES     324    324       Phosphoserine.
+FT   MOD_RES     331    331       Phosphoserine.
+FT   MOD_RES     346    346       Phosphoserine (By similarity).
+FT   MOD_RES     349    349       Phosphoserine (By similarity).
+FT   MOD_RES     442    442       Phosphoserine.
+FT   VARIANT      20     20       P -> T (in a lung adenocarcinoma sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_041205.
+FT   VARIANT      47     47       S -> N (in dbSNP:rs428073).
+FT                                /FTId=VAR_023691.
+FT   VARIANT     392    392       S -> Y (in a lung small cell carcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_041206.
+FT   VARIANT     727    727       C -> Y (in dbSNP:rs55857273).
+FT                                /FTId=VAR_041207.
+FT   MUTAGEN     181    181       T->A: No autophosphorylation and no
+FT                                kinase activity; when associated with F-
+FT                                183.
+FT   MUTAGEN     183    183       Y->F: No autophosphorylation and no
+FT                                kinase activity; when associated with A-
+FT                                181.
+FT   CONFLICT    136    136       A -> T (in Ref. 3; AAG38501).
+FT   CONFLICT    173    173       S -> P (in Ref. 3; AAG38501).
+FT   CONFLICT    356    378       STGSQSSSVNSMQEVMDESSSEL -> TWNQPEQGNGQPGQ
+FT                                QPFHSKHVR (in Ref. 1; AAF14559).
+FT   CONFLICT    668    668       Q -> R (in Ref. 3; AAG38501).
+SQ   SEQUENCE   898 AA;  105406 MW;  AE7E30745B09763C CRC64;
+     MRKGVLKDPE IADLFYKDDP EELFIGLHEI GHGSFGAVYF ATNAHTSEVV AIKKMSYSGK
+     QTHEKWQDIL KEVKFLRQLK HPNTIEYKGC YLKEHTAWLV MEYCLGSASD LLEVHKKPLQ
+     EVEIAAITHG ALHGLAYLHS HALIHRDIKA GNILLTEPGQ VKLADFGSAS MASPANSFVG
+     TPYWMAPEVI LAMDEGQYDG KVDIWSLGIT CIELAERKPP LFNMNAMSAL YHIAQNDSPT
+     LQSNEWTDSF RRFVDYCLQK IPQERPTSAE LLRHDFVRRD RPLRVLIDLI QRTKDAVREL
+     DNLQYRKMKK ILFQETRNGP LNESQEDEED SEHGTSLNRE MDSLGSNHSI PSMSVSTGSQ
+     SSSVNSMQEV MDESSSELVM MHDDESTINS SSSVVHKKDH VFIRDEAGHG DPRPEPRPTQ
+     SVQSQALHYR NRERFATIKS ASLVTRQIHE HEQENELREQ MSGYKRMRRQ HQKQLIALEN
+     KLKAEMDEHR LKLQKEVETH ANNSSIELEK LAKKQVAIIE KEAKVAAADE KKFQQQILAQ
+     QKKDLTTFLE SQKKQYKICK EKIKEEMNED HSTPKKEKQE RISKHKENLQ HTQAEEEAHL
+     LTQQRLYYDK NCRFFKRKIM IKRHEVEQQN IREELNKKRT QKEMEHAMLI RHDESTRELE
+     YRQLHTLQKL RMDLIRLQHQ TELENQLEYN KRRERELHRK HVMELRQQPK NLKAMEMQIK
+     KQFQDTCKVQ TKQYKALKNH QLEVTPKNEH KTILKTLKDE QTRKLAILAE QYEQSINEMM
+     ASQALRLDEA QEAECQALRL QLQQEMELLN AYQSKIKMQT EAQHERELQK LEQRVSLRRA
+     HLEQKIEEEL AALQKERSER IKNLLERQER EIETFDMESL RMGFGNLVTL DFPKEDYR
+//

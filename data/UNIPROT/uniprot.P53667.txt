@@ -1,0 +1,399 @@
+ID   LIMK1_HUMAN             Reviewed;         647 AA.
+AC   P53667; O15283; Q15820; Q15821; Q75MU3; Q9Y5Q1;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   07-MAR-2006, sequence version 3.
+DT   02-NOV-2010, entry version 117.
+DE   RecName: Full=LIM domain kinase 1;
+DE            Short=LIMK-1;
+DE            EC=2.7.11.1;
+GN   Name=LIMK1; Synonyms=LIMK;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RX   MEDLINE=94239736; PubMed=8183554;
+RA   Mizuno K., Okano I., Ohashi K., Nunoue K., Kuma K., Miyata T.,
+RA   Nakamura T.;
+RT   "Identification of a human cDNA encoding a novel protein kinase with
+RT   two repeats of the LIM/double zinc finger motif.";
+RL   Oncogene 9:1605-1612(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] (ISOFORMS 1 AND 2), AND VARIANT
+RP   TYR-580.
+RC   TISSUE=Hippocampus, and Placenta;
+RX   MEDLINE=96291399; PubMed=8689688; DOI=10.1016/S0092-8674(00)80077-X;
+RA   Frangiskakis J.M., Ewart A.K., Morris C.A., Mervis C.B., Bertrand J.,
+RA   Robinson B.F., Klein B.P., Ensing G.J., Everett L.A., Green E.D.,
+RA   Proeschel C., Gutowski N.J., Noble M., Atkinson D.L., Odelberg S.J.,
+RA   Keating M.T.;
+RT   "LIM-kinase1 hemizygosity implicated in impaired visuospatial
+RT   constructive cognition.";
+RL   Cell 86:59-69(1996).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], VARIANT TYR-580, AND GENE DELETION
+RP   IN WILLIAMS-BEUREN SYNDROME.
+RX   MEDLINE=96411691; PubMed=8812460; DOI=10.1006/geno.1996.0469;
+RA   Osborne L.R., Martindale D.W., Scherer S.W., Shi X.-M., Huizenga J.,
+RA   Heng H.H.Q., Costa T., Pober B., Lew L., Brinkman J., Rommens J.,
+RA   Koop B.F., Tsui L.-C.;
+RT   "Identification of genes from a 500-kb region at 7q11.23 that is
+RT   commonly deleted in Williams syndrome patients.";
+RL   Genomics 36:328-336(1996).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 3), FUNCTION, SELF-ASSOCIATION,
+RP   SUBCELLULAR LOCATION, AND MUTAGENESIS OF CYS-84; 177-GLY-LEU-178;
+RP   ASP-460; 496-ARG--ARG-506; 503-ARG--GLY-505 AND THR-508.
+RC   TISSUE=Epidermal carcinoma;
+RX   MEDLINE=99214220; PubMed=10196227; DOI=10.1074/jbc.274.16.11352;
+RA   Edwards D.C., Gill G.N.;
+RT   "Structural features of LIM kinase that control effects on the actin
+RT   cytoskeleton.";
+RL   J. Biol. Chem. 274:11352-11361(1999).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   MEDLINE=22737999; PubMed=12853948; DOI=10.1038/nature01782;
+RA   Hillier L.W., Fulton R.S., Fulton L.A., Graves T.A., Pepin K.H.,
+RA   Wagner-McPherson C., Layman D., Maas J., Jaeger S., Walker R.,
+RA   Wylie K., Sekhon M., Becker M.C., O'Laughlin M.D., Schaller M.E.,
+RA   Fewell G.A., Delehaunty K.D., Miner T.L., Nash W.E., Cordes M., Du H.,
+RA   Sun H., Edwards J., Bradshaw-Cordum H., Ali J., Andrews S., Isak A.,
+RA   Vanbrunt A., Nguyen C., Du F., Lamar B., Courtney L., Kalicki J.,
+RA   Ozersky P., Bielicki L., Scott K., Holmes A., Harkins R., Harris A.,
+RA   Strong C.M., Hou S., Tomlinson C., Dauphin-Kohlberg S.,
+RA   Kozlowicz-Reilly A., Leonard S., Rohlfing T., Rock S.M.,
+RA   Tin-Wollam A.-M., Abbott A., Minx P., Maupin R., Strowmatt C.,
+RA   Latreille P., Miller N., Johnson D., Murray J., Woessner J.P.,
+RA   Wendl M.C., Yang S.-P., Schultz B.R., Wallis J.W., Spieth J.,
+RA   Bieri T.A., Nelson J.O., Berkowicz N., Wohldmann P.E., Cook L.L.,
+RA   Hickenbotham M.T., Eldred J., Williams D., Bedell J.A., Mardis E.R.,
+RA   Clifton S.W., Chissoe S.L., Marra M.A., Raymond C., Haugen E.,
+RA   Gillett W., Zhou Y., James R., Phelps K., Iadanoto S., Bubb K.,
+RA   Simms E., Levy R., Clendenning J., Kaul R., Kent W.J., Furey T.S.,
+RA   Baertsch R.A., Brent M.R., Keibler E., Flicek P., Bork P., Suyama M.,
+RA   Bailey J.A., Portnoy M.E., Torrents D., Chinwalla A.T., Gish W.R.,
+RA   Eddy S.R., McPherson J.D., Olson M.V., Eichler E.E., Green E.D.,
+RA   Waterston R.H., Wilson R.K.;
+RT   "The DNA sequence of human chromosome 7.";
+RL   Nature 424:157-164(2003).
+RN   [6]
+RP   FUNCTION, AND INTERACTION WITH ROCK1.
+RX   PubMed=10436159; DOI=10.1126/science.285.5429.895;
+RA   Maekawa M., Ishizaki T., Boku S., Watanabe N., Fujita A., Iwamatsu A.,
+RA   Obinata T., Ohashi K., Mizuno K., Narumiya S.;
+RT   "Signaling from Rho to the actin cytoskeleton through protein kinases
+RT   ROCK and LIM-kinase.";
+RL   Science 285:895-898(1999).
+RN   [7]
+RP   PHOSPHORYLATION AT THR-508, MUTAGENESIS OF THR-508, AND INTERACTION
+RP   WITH ROCK1.
+RX   PubMed=10652353; DOI=10.1074/jbc.275.5.3577;
+RA   Ohashi K., Nagata K., Maekawa M., Ishizaki T., Narumiya S., Mizuno K.;
+RT   "Rho-associated kinase ROCK activates LIM-kinase 1 by phosphorylation
+RT   at threonine 508 within the activation loop.";
+RL   J. Biol. Chem. 275:3577-3582(2000).
+RN   [8]
+RP   FUNCTION.
+RX   MEDLINE=21822082; PubMed=11832213; DOI=10.1016/S0092-8674(01)00638-9;
+RA   Niwa R., Nagata-Ohashi K., Takeichi M., Mizuno K., Uemura T.;
+RT   "Control of actin reorganization by Slingshot, a family of
+RT   phosphatases that dephosphorylate ADF/cofilin.";
+RL   Cell 108:233-246(2002).
+RN   [9]
+RP   FUNCTION.
+RX   PubMed=12807904; DOI=10.1074/jbc.M305802200;
+RA   Kaji N., Ohashi K., Shuin M., Niwa R., Uemura T., Mizuno K.;
+RT   "Cell cycle-associated changes in Slingshot phosphatase activity and
+RT   roles in cytokinesis in animal cells.";
+RL   J. Biol. Chem. 278:33450-33455(2003).
+RN   [10]
+RP   SPLICE ISOFORM(S) THAT ARE POTENTIAL NMD TARGET(S).
+RX   PubMed=14759258; DOI=10.1186/gb-2004-5-2-r8;
+RA   Hillman R.T., Green R.E., Brenner S.E.;
+RT   "An unappreciated role for RNA surveillance.";
+RL   Genome Biol. 5:R8.1-R8.16(2004).
+RN   [11]
+RP   FUNCTION, INTERACTION WITH SSH1, PHOSPHORYLATION AT THR-508, AND
+RP   DEPHOSPHORYLATION.
+RX   PubMed=15660133; DOI=10.1038/sj.emboj.7600543;
+RA   Soosairajah J., Maiti S., Wiggan O., Sarmiere P., Moussi N.,
+RA   Sarcevic B., Sampath R., Bamburg J.R., Bernard O.;
+RT   "Interplay between components of a novel LIM kinase-slingshot
+RT   phosphatase complex regulates cofilin.";
+RL   EMBO J. 24:473-486(2005).
+RN   [12]
+RP   FUNCTION, AND SUBCELLULAR LOCATION.
+RX   PubMed=16230460; DOI=10.1083/jcb.200504029;
+RA   Nishita M., Tomizawa C., Yamamoto M., Horita Y., Ohashi K., Mizuno K.;
+RT   "Spatial and temporal regulation of cofilin activity by LIM kinase and
+RT   Slingshot is critical for directional cell migration.";
+RL   J. Cell Biol. 171:349-359(2005).
+RN   [13]
+RP   INTERACTION WITH TPPP.
+RX   PubMed=18028908; DOI=10.1016/j.yexcr.2007.08.012;
+RA   Acevedo K., Li R., Soo P., Suryadinata R., Sarcevic B., Valova V.A.,
+RA   Graham M.E., Robinson P.J., Bernard O.;
+RT   "The phosphorylation of p25/TPPP by LIM kinase 1 inhibits its ability
+RT   to assemble microtubules.";
+RL   Exp. Cell Res. 313:4091-4106(2007).
+RN   [14]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-298 AND SER-310, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=17192257; DOI=10.1074/mcp.T600062-MCP200;
+RA   Wissing J., Jaensch L., Nimtz M., Dieterich G., Hornberger R.,
+RA   Keri G., Wehland J., Daub H.;
+RT   "Proteomics analysis of protein kinases by target class-selective
+RT   prefractionation and tandem mass spectrometry.";
+RL   Mol. Cell. Proteomics 6:537-547(2007).
+RN   [15]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-210; THR-229; SER-298;
+RP   SER-310 AND SER-337, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [16]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-302; SER-307 AND
+RP   SER-310, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [17]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-298 AND SER-310, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Embryonic kidney;
+RX   PubMed=19413330; DOI=10.1021/ac9004309;
+RA   Gauci S., Helbig A.O., Slijper M., Krijgsveld J., Heck A.J.,
+RA   Mohammed S.;
+RT   "Lys-N and trypsin cover complementary parts of the phosphoproteome in
+RT   a refined SCX-based approach.";
+RL   Anal. Chem. 81:4493-4501(2009).
+RN   [18]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-210; THR-229; THR-261;
+RP   THR-270; SER-296; SER-298; SER-302; SER-307; SER-310 AND SER-313, AND
+RP   MASS SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [19]
+RP   VARIANTS [LARGE SCALE ANALYSIS] ALA-190; ASN-247 AND GLN-422.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Protein kinase which regulates actin filament dynamics.
+CC       Phosphorylates and inactivates the actin binding/depolymerizing
+CC       factor cofilin, thereby stabilizing the actin cytoskeleton.
+CC       Stimulates axonal outgrowth and may be involved in brain
+CC       development. Isoform 3 has a dominant negative effect on actin
+CC       cytoskeletal changes.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- SUBUNIT: Self-associates. The LIM domain interacts with the
+CC       cytoplasmic domain of NRG1. Binds ROCK1. Interacts with SSH1.
+CC       Interacts with NISCH (By similarity). Interacts with RLIM and RNF6
+CC       (By similarity). Interacts with TPPP.
+CC   -!- INTERACTION:
+CC       O95835:LATS1; NbExp=3; IntAct=EBI-444403, EBI-444209;
+CC       Q13177:PAK2; NbExp=2; IntAct=EBI-444403, EBI-1045887;
+CC       P63104:YWHAZ; NbExp=1; IntAct=EBI-444403, EBI-347088;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm. Cell projection, growth cone (By
+CC       similarity).
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=3;
+CC       Name=1;
+CC         IsoId=P53667-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=P53667-2; Sequence=VSP_003125;
+CC       Name=3;
+CC         IsoId=P53667-3; Sequence=VSP_003126, VSP_003127;
+CC         Note=May be produced at very low levels due to a premature stop
+CC         codon in the mRNA, leading to nonsense-mediated mRNA decay;
+CC   -!- TISSUE SPECIFICITY: Highest expression in both adult and fetal
+CC       nervous system. Detected ubiquitously throughout the different
+CC       regions of adult brain, with highest levels in the cerebral
+CC       cortex. Expressed to a lesser extent in heart and skeletal muscle.
+CC   -!- PTM: Autophosphorylated (By similarity).
+CC   -!- PTM: Phosphorylated on serine and/or threonine residues by ROCK1.
+CC       May be dephosphorylated and inactivated by SSH1.
+CC   -!- PTM: Ubiquitinated. 'Lys-48'-linked polyubiquitination by RNF6
+CC       leads to proteasomal degradation through the 26S proteasome,
+CC       modulating LIMK1 levels in the growth cone and its effect on
+CC       axonal outgrowth. Also polyubiquitinated by RLIM (By similarity).
+CC   -!- DISEASE: Note=LIMK1 is located in the Williams-Beuren syndrome
+CC       (WBS) critical region. WBS results from a hemizygous deletion of
+CC       several genes on chromosome 7q11.23, thought to arise as a
+CC       consequence of unequal crossing over between highly homologous
+CC       low-copy repeat sequences flanking the deleted region.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. TKL Ser/Thr
+CC       protein kinase family.
+CC   -!- SIMILARITY: Contains 2 LIM zinc-binding domains.
+CC   -!- SIMILARITY: Contains 1 PDZ (DHR) domain.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; D26309; BAA05371.1; -; mRNA.
+DR   EMBL; U62293; AAB17545.1; -; Genomic_DNA.
+DR   EMBL; U62293; AAB17546.1; -; Genomic_DNA.
+DR   EMBL; U63721; AAC13885.1; -; Genomic_DNA.
+DR   EMBL; U63721; AAC13886.1; -; Genomic_DNA.
+DR   EMBL; AF134379; AAD25742.1; -; mRNA.
+DR   EMBL; AC005056; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AC005057; AAS07438.1; -; Genomic_DNA.
+DR   IPI; IPI00216433; -.
+DR   IPI; IPI00216434; -.
+DR   IPI; IPI00291702; -.
+DR   PIR; JP0078; JP0078.
+DR   RefSeq; NP_002305.1; -.
+DR   UniGene; Hs.647035; -.
+DR   ProteinModelPortal; P53667; -.
+DR   SMR; P53667; 20-140, 154-277, 335-607, 339-640.
+DR   IntAct; P53667; 10.
+DR   MINT; MINT-2833166; -.
+DR   STRING; P53667; -.
+DR   PhosphoSite; P53667; -.
+DR   PRIDE; P53667; -.
+DR   Ensembl; ENST00000336180; ENSP00000336740; ENSG00000106683.
+DR   GeneID; 3984; -.
+DR   KEGG; hsa:3984; -.
+DR   UCSC; uc003uaa.1; human.
+DR   CTD; 3984; -.
+DR   GeneCards; GC07P073497; -.
+DR   H-InvDB; HIX0201131; -.
+DR   HGNC; HGNC:6613; LIMK1.
+DR   HPA; HPA028064; -.
+DR   HPA; HPA028516; -.
+DR   MIM; 601329; gene.
+DR   Orphanet; 904; Williams syndrome.
+DR   PharmGKB; PA30386; -.
+DR   eggNOG; prNOG16629; -.
+DR   HOVERGEN; HBG052328; -.
+DR   InParanoid; P53667; -.
+DR   PhylomeDB; P53667; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   Pathway_Interaction_DB; caspase_pathway; Caspase cascade in apoptosis.
+DR   Reactome; REACT_18266; Axon guidance.
+DR   NextBio; 15626; -.
+DR   ArrayExpress; P53667; -.
+DR   Bgee; P53667; -.
+DR   CleanEx; HS_LIMK1; -.
+DR   Genevestigator; P53667; -.
+DR   GermOnline; ENSG00000106683; Homo sapiens.
+DR   GO; GO:0005737; C:cytoplasm; IDA:BHF-UCL.
+DR   GO; GO:0030426; C:growth cone; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0031072; F:heat shock protein binding; IDA:BHF-UCL.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; TAS:ProtInc.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0030036; P:actin cytoskeleton organization; TAS:ProtInc.
+DR   GO; GO:0051444; P:negative regulation of ubiquitin-protein li...; IDA:BHF-UCL.
+DR   GO; GO:0032233; P:positive regulation of actin filament bundl...; IDA:BHF-UCL.
+DR   GO; GO:0045773; P:positive regulation of axon extension; ISS:UniProtKB.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IDA:BHF-UCL.
+DR   GO; GO:0007266; P:Rho protein signal transduction; TAS:ProtInc.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR001478; PDZ/DHR/GLGF.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR001245; Ser-Thr/Tyr-Pkinase.
+DR   InterPro; IPR001781; Znf_LIM.
+DR   Gene3D; G3DSA:2.10.110.10; Znf_LIM; 2.
+DR   Pfam; PF00412; LIM; 2.
+DR   Pfam; PF00595; PDZ; 1.
+DR   Pfam; PF07714; Pkinase_Tyr; 1.
+DR   PRINTS; PR00109; TYRKINASE.
+DR   SMART; SM00132; LIM; 2.
+DR   SMART; SM00228; PDZ; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   SUPFAM; SSF50156; PDZ; 1.
+DR   PROSITE; PS00478; LIM_DOMAIN_1; 2.
+DR   PROSITE; PS50023; LIM_DOMAIN_2; 2.
+DR   PROSITE; PS50106; PDZ; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; FALSE_NEG.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; ATP-binding; Cell projection; Complete proteome;
+KW   Cytoplasm; Kinase; LIM domain; Metal-binding; Nucleotide-binding;
+KW   Phosphoprotein; Polymorphism; Repeat; Serine/threonine-protein kinase;
+KW   Transferase; Ubl conjugation; Williams-Beuren syndrome; Zinc.
+FT   CHAIN         1    647       LIM domain kinase 1.
+FT                                /FTId=PRO_0000075803.
+FT   DOMAIN       25     75       LIM zinc-binding 1.
+FT   DOMAIN       84    137       LIM zinc-binding 2.
+FT   DOMAIN      165    258       PDZ.
+FT   DOMAIN      339    604       Protein kinase.
+FT   NP_BIND     345    353       ATP (By similarity).
+FT   ACT_SITE    460    460       By similarity.
+FT   BINDING     368    368       ATP (By similarity).
+FT   MOD_RES     210    210       Phosphoserine.
+FT   MOD_RES     229    229       Phosphothreonine.
+FT   MOD_RES     261    261       Phosphothreonine.
+FT   MOD_RES     270    270       Phosphothreonine.
+FT   MOD_RES     296    296       Phosphoserine.
+FT   MOD_RES     298    298       Phosphoserine.
+FT   MOD_RES     302    302       Phosphoserine.
+FT   MOD_RES     307    307       Phosphoserine.
+FT   MOD_RES     310    310       Phosphoserine.
+FT   MOD_RES     313    313       Phosphoserine.
+FT   MOD_RES     337    337       Phosphoserine.
+FT   MOD_RES     508    508       Phosphothreonine; by ROCK1.
+FT   VAR_SEQ       1     14       Missing (in isoform 2).
+FT                                /FTId=VSP_003125.
+FT   VAR_SEQ     294    305       LRSCSIDRSPGA -> FARTWVALSPSA (in isoform
+FT                                3).
+FT                                /FTId=VSP_003126.
+FT   VAR_SEQ     306    647       Missing (in isoform 3).
+FT                                /FTId=VSP_003127.
+FT   VARIANT     190    190       G -> A (in dbSNP:rs35827364).
+FT                                /FTId=VAR_042246.
+FT   VARIANT     247    247       S -> N (in dbSNP:rs55661242).
+FT                                /FTId=VAR_042247.
+FT   VARIANT     422    422       R -> Q (in dbSNP:rs55679316).
+FT                                /FTId=VAR_042248.
+FT   VARIANT     580    580       F -> Y (in dbSNP:rs178412).
+FT                                /FTId=VAR_050148.
+FT   MUTAGEN      84     84       C->S: Enhances actin aggregation.
+FT   MUTAGEN     177    178       GL->EA: Enhances actin aggregation.
+FT   MUTAGEN     460    460       D->N: Abrogates kinase activity.
+FT   MUTAGEN     496    506       Missing: Reduces actin aggregation.
+FT   MUTAGEN     503    505       RKK->GAA: Abolishes kinase activity.
+FT   MUTAGEN     508    508       T->A: Abolishes activation by ROCK1.
+FT   MUTAGEN     508    508       T->EE: Enhances kinase activity.
+FT   MUTAGEN     508    508       T->V,E: Reduces kinase activity.
+SQ   SEQUENCE   647 AA;  72585 MW;  9838BEFBE7006447 CRC64;
+     MRLTLLCCTW REERMGEEGS ELPVCASCGQ RIYDGQYLQA LNADWHADCF RCCDCSASLS
+     HQYYEKDGQL FCKKDYWARY GESCHGCSEQ ITKGLVMVAG ELKYHPECFI CLTCGTFIGD
+     GDTYTLVEHS KLYCGHCYYQ TVVTPVIEQI LPDSPGSHLP HTVTLVSIPA SSHGKRGLSV
+     SIDPPHGPPG CGTEHSHTVR VQGVDPGCMS PDVKNSIHVG DRILEINGTP IRNVPLDEID
+     LLIQETSRLL QLTLEHDPHD TLGHGLGPET SPLSSPAYTP SGEAGSSARQ KPVLRSCSID
+     RSPGAGSLGS PASQRKDLGR SESLRVVCRP HRIFRPSDLI HGEVLGKGCF GQAIKVTHRE
+     TGEVMVMKEL IRFDEETQRT FLKEVKVMRC LEHPNVLKFI GVLYKDKRLN FITEYIKGGT
+     LRGIIKSMDS QYPWSQRVSF AKDIASGMAY LHSMNIIHRD LNSHNCLVRE NKNVVVADFG
+     LARLMVDEKT QPEGLRSLKK PDRKKRYTVV GNPYWMAPEM INGRSYDEKV DVFSFGIVLC
+     EIIGRVNADP DYLPRTMDFG LNVRGFLDRY CPPNCPPSFF PITVRCCDLD PEKRPSFVKL
+     EHWLETLRMH LAGHLPLGPQ LEQLDRGFWE TYRRGESGLP AHPEVPD
+//

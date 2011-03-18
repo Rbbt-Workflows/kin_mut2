@@ -1,0 +1,296 @@
+ID   ROR1_HUMAN              Reviewed;         937 AA.
+AC   Q01973; Q5VVX6; Q92776;
+DT   27-APR-2001, integrated into UniProtKB/Swiss-Prot.
+DT   28-NOV-2006, sequence version 2.
+DT   02-NOV-2010, entry version 112.
+DE   RecName: Full=Tyrosine-protein kinase transmembrane receptor ROR1;
+DE            EC=2.7.10.1;
+DE   AltName: Full=Neurotrophic tyrosine kinase, receptor-related 1;
+DE   Flags: Precursor;
+GN   Name=ROR1; Synonyms=NTRKR1;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM LONG), AND VARIANT MET-518.
+RX   MEDLINE=93100347; PubMed=1334494;
+RA   Masiakowski P., Carroll R.D.;
+RT   "A novel family of cell surface receptors with tyrosine kinase-like
+RT   domain.";
+RL   J. Biol. Chem. 267:26181-26190(1992).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM SHORT).
+RX   MEDLINE=97030043; PubMed=8875995;
+RA   Reddy U.R., Phatak S., Pleasure D.;
+RT   "Human neural tissues express a truncated Ror1 receptor tyrosine
+RT   kinase, lacking both extracellular and transmembrane domains.";
+RL   Oncogene 13:1555-1559(1996).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=16710414; DOI=10.1038/nature04727;
+RA   Gregory S.G., Barlow K.F., McLay K.E., Kaul R., Swarbreck D.,
+RA   Dunham A., Scott C.E., Howe K.L., Woodfine K., Spencer C.C.A.,
+RA   Jones M.C., Gillson C., Searle S., Zhou Y., Kokocinski F.,
+RA   McDonald L., Evans R., Phillips K., Atkinson A., Cooper R., Jones C.,
+RA   Hall R.E., Andrews T.D., Lloyd C., Ainscough R., Almeida J.P.,
+RA   Ambrose K.D., Anderson F., Andrew R.W., Ashwell R.I.S., Aubin K.,
+RA   Babbage A.K., Bagguley C.L., Bailey J., Beasley H., Bethel G.,
+RA   Bird C.P., Bray-Allen S., Brown J.Y., Brown A.J., Buckley D.,
+RA   Burton J., Bye J., Carder C., Chapman J.C., Clark S.Y., Clarke G.,
+RA   Clee C., Cobley V., Collier R.E., Corby N., Coville G.J., Davies J.,
+RA   Deadman R., Dunn M., Earthrowl M., Ellington A.G., Errington H.,
+RA   Frankish A., Frankland J., French L., Garner P., Garnett J., Gay L.,
+RA   Ghori M.R.J., Gibson R., Gilby L.M., Gillett W., Glithero R.J.,
+RA   Grafham D.V., Griffiths C., Griffiths-Jones S., Grocock R.,
+RA   Hammond S., Harrison E.S.I., Hart E., Haugen E., Heath P.D.,
+RA   Holmes S., Holt K., Howden P.J., Hunt A.R., Hunt S.E., Hunter G.,
+RA   Isherwood J., James R., Johnson C., Johnson D., Joy A., Kay M.,
+RA   Kershaw J.K., Kibukawa M., Kimberley A.M., King A., Knights A.J.,
+RA   Lad H., Laird G., Lawlor S., Leongamornlert D.A., Lloyd D.M.,
+RA   Loveland J., Lovell J., Lush M.J., Lyne R., Martin S.,
+RA   Mashreghi-Mohammadi M., Matthews L., Matthews N.S.W., McLaren S.,
+RA   Milne S., Mistry S., Moore M.J.F., Nickerson T., O'Dell C.N.,
+RA   Oliver K., Palmeiri A., Palmer S.A., Parker A., Patel D., Pearce A.V.,
+RA   Peck A.I., Pelan S., Phelps K., Phillimore B.J., Plumb R., Rajan J.,
+RA   Raymond C., Rouse G., Saenphimmachak C., Sehra H.K., Sheridan E.,
+RA   Shownkeen R., Sims S., Skuce C.D., Smith M., Steward C.,
+RA   Subramanian S., Sycamore N., Tracey A., Tromans A., Van Helmond Z.,
+RA   Wall M., Wallis J.M., White S., Whitehead S.L., Wilkinson J.E.,
+RA   Willey D.L., Williams H., Wilming L., Wray P.W., Wu Z., Coulson A.,
+RA   Vaudin M., Sulston J.E., Durbin R.M., Hubbard T., Wooster R.,
+RA   Dunham I., Carter N.P., McVean G., Ross M.T., Harrow J., Olson M.V.,
+RA   Beck S., Rogers J., Bentley D.R.;
+RT   "The DNA sequence and biological annotation of human chromosome 1.";
+RL   Nature 441:315-321(2006).
+RN   [4]
+RP   VARIANT [LARGE SCALE ANALYSIS] ASP-562.
+RX   PubMed=16959974; DOI=10.1126/science.1133427;
+RA   Sjoeblom T., Jones S., Wood L.D., Parsons D.W., Lin J., Barber T.D.,
+RA   Mandelker D., Leary R.J., Ptak J., Silliman N., Szabo S.,
+RA   Buckhaults P., Farrell C., Meeh P., Markowitz S.D., Willis J.,
+RA   Dawson D., Willson J.K.V., Gazdar A.F., Hartigan J., Wu L., Liu C.,
+RA   Parmigiani G., Park B.H., Bachman K.E., Papadopoulos N.,
+RA   Vogelstein B., Kinzler K.W., Velculescu V.E.;
+RT   "The consensus coding sequences of human breast and colorectal
+RT   cancers.";
+RL   Science 314:268-274(2006).
+RN   [5]
+RP   VARIANTS [LARGE SCALE ANALYSIS] GLU-144; LEU-150; VAL-301; MET-518;
+RP   ILE-567; ARG-624; CYS-646 AND ASN-776.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Tyrosine-protein kinase receptor whose role is not yet
+CC       clear.
+CC   -!- CATALYTIC ACTIVITY: ATP + a [protein]-L-tyrosine = ADP + a
+CC       [protein]-L-tyrosine phosphate.
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type I membrane
+CC       protein.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=Long;
+CC         IsoId=Q01973-1; Sequence=Displayed;
+CC       Name=Short; Synonyms=T-ROR1;
+CC         IsoId=Q01973-2; Sequence=VSP_005008;
+CC   -!- TISSUE SPECIFICITY: Expressed strongly in human heart, lung and
+CC       kidney, but weakly in the CNS. Isoform Short is strongly expressed
+CC       in fetal and adult CNS and in a variety of human cancers,
+CC       including those originating from CNS or PNS neuroectoderm.
+CC   -!- DEVELOPMENTAL STAGE: Expressed at high levels during early
+CC       embryonic development. The expression levels drop strongly around
+CC       day 16 and there are only very low levels in adult tissues.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Tyr protein
+CC       kinase family. ROR subfamily.
+CC   -!- SIMILARITY: Contains 1 FZ (frizzled) domain.
+CC   -!- SIMILARITY: Contains 1 Ig-like C2-type (immunoglobulin-like)
+CC       domain.
+CC   -!- SIMILARITY: Contains 1 kringle domain.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M97675; AAA60275.1; -; mRNA.
+DR   EMBL; U38894; AAC50714.1; -; mRNA.
+DR   EMBL; AL445205; CAH71706.1; -; Genomic_DNA.
+DR   EMBL; AL137859; CAH71706.1; JOINED; Genomic_DNA.
+DR   EMBL; AL161742; CAH71706.1; JOINED; Genomic_DNA.
+DR   EMBL; AL137859; CAI21732.1; -; Genomic_DNA.
+DR   EMBL; AL445205; CAI21732.1; JOINED; Genomic_DNA.
+DR   EMBL; AL161742; CAI21732.1; JOINED; Genomic_DNA.
+DR   EMBL; AL161742; CAI21932.1; -; Genomic_DNA.
+DR   EMBL; AL445205; CAI21932.1; JOINED; Genomic_DNA.
+DR   EMBL; AL137859; CAI21932.1; JOINED; Genomic_DNA.
+DR   IPI; IPI00010405; -.
+DR   IPI; IPI00472950; -.
+DR   PIR; A45082; A45082.
+DR   RefSeq; NP_005003.2; -.
+DR   UniGene; Hs.654491; -.
+DR   ProteinModelPortal; Q01973; -.
+DR   SMR; Q01973; 61-149, 311-393, 466-749.
+DR   DIP; DIP-29734N; -.
+DR   DIP; DIP-5713N; -.
+DR   STRING; Q01973; -.
+DR   PhosphoSite; Q01973; -.
+DR   PRIDE; Q01973; -.
+DR   Ensembl; ENST00000371079; ENSP00000360120; ENSG00000185483.
+DR   GeneID; 4919; -.
+DR   UCSC; uc001dbj.2; human.
+DR   CTD; 4919; -.
+DR   GeneCards; GC01P064171; -.
+DR   HGNC; HGNC:10256; ROR1.
+DR   MIM; 602336; gene.
+DR   PharmGKB; PA34628; -.
+DR   HOVERGEN; HBG017736; -.
+DR   InParanoid; Q01973; -.
+DR   OMA; KRQLLPC; -.
+DR   OrthoDB; EOG9WDGX5; -.
+DR   PhylomeDB; Q01973; -.
+DR   BRENDA; 2.7.10.1; 247.
+DR   NextBio; 18939; -.
+DR   ArrayExpress; Q01973; -.
+DR   Bgee; Q01973; -.
+DR   CleanEx; HS_ROR1; -.
+DR   Genevestigator; Q01973; -.
+DR   GermOnline; ENSG00000185483; Homo sapiens.
+DR   GO; GO:0005737; C:cytoplasm; TAS:ProtInc.
+DR   GO; GO:0005887; C:integral to plasma membrane; TAS:ProtInc.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004714; F:transmembrane receptor protein tyrosine kin...; TAS:ProtInc.
+DR   GO; GO:0017147; F:Wnt-protein binding; IPI:UniProtKB.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   GO; GO:0007169; P:transmembrane receptor protein tyrosine kin...; TAS:ProtInc.
+DR   InterPro; IPR020067; Frizzled_dom.
+DR   InterPro; IPR007110; Ig-like.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR013098; Ig_I-set.
+DR   InterPro; IPR003598; Ig_sub2.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000001; Kringle.
+DR   InterPro; IPR013806; Kringle-like.
+DR   InterPro; IPR018056; Kringle_CS.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR001245; Ser-Thr/Tyr-Pkinase.
+DR   InterPro; IPR016247; Tyr_kinase_rcpt_ROR_subgr.
+DR   InterPro; IPR020635; Tyr_Pkinase_cat_dom.
+DR   InterPro; IPR020685; Tyr_prot_kinase.
+DR   InterPro; IPR008266; Tyr_prot_kinase_AS.
+DR   InterPro; IPR020763; Tyr_prot_kinase_rcpt_ROR.
+DR   Gene3D; G3DSA:2.60.40.10; Ig-like_fold; 1.
+DR   Gene3D; G3DSA:2.40.20.10; Kringle; 1.
+DR   PANTHER; PTHR23256; Tyr_prot_kinase; 1.
+DR   PANTHER; PTHR23256:SF275; Tyr_prot_kinase_rcpt_ROR; 1.
+DR   Pfam; PF01392; Fz; 1.
+DR   Pfam; PF07679; I-set; 1.
+DR   Pfam; PF00051; Kringle; 1.
+DR   Pfam; PF07714; Pkinase_Tyr; 1.
+DR   PIRSF; PIRSF000624; TyrPK_TMrec_ROR; 1.
+DR   PRINTS; PR00109; TYRKINASE.
+DR   SMART; SM00408; IGc2; 1.
+DR   SMART; SM00130; KR; 1.
+DR   SMART; SM00219; TyrKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   SUPFAM; SSF57440; Kringle-like; 1.
+DR   PROSITE; PS50038; FZ; 1.
+DR   PROSITE; PS50835; IG_LIKE; 1.
+DR   PROSITE; PS00021; KRINGLE_1; 1.
+DR   PROSITE; PS50070; KRINGLE_2; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; FALSE_NEG.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00109; PROTEIN_KINASE_TYR; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; ATP-binding; Complete proteome; Disulfide bond;
+KW   Glycoprotein; Immunoglobulin domain; Kinase; Kringle; Membrane;
+KW   Nucleotide-binding; Phosphoprotein; Polymorphism; Receptor; Signal;
+KW   Transferase; Transmembrane; Transmembrane helix;
+KW   Tyrosine-protein kinase.
+FT   SIGNAL        1     29       Potential.
+FT   CHAIN        30    937       Tyrosine-protein kinase transmembrane
+FT                                receptor ROR1.
+FT                                /FTId=PRO_0000024458.
+FT   TOPO_DOM     30    406       Extracellular (Potential).
+FT   TRANSMEM    407    427       Helical; (Potential).
+FT   TOPO_DOM    428    937       Cytoplasmic (Potential).
+FT   DOMAIN       42    147       Ig-like C2-type.
+FT   DOMAIN      165    299       FZ.
+FT   DOMAIN      312    391       Kringle.
+FT   DOMAIN      473    746       Protein kinase.
+FT   NP_BIND     479    487       ATP (By similarity).
+FT   COMPBIAS    753    782       Ser/Thr-rich.
+FT   COMPBIAS    784    851       Pro-rich.
+FT   COMPBIAS    853    876       Ser/Thr-rich.
+FT   ACT_SITE    615    615       Proton acceptor (By similarity).
+FT   BINDING     506    506       ATP (By similarity).
+FT   MOD_RES     645    645       Phosphotyrosine; by autocatalysis (By
+FT                                similarity).
+FT   CARBOHYD     47     47       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD     66     66       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    184    184       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    315    315       N-linked (GlcNAc...) (Potential).
+FT   DISULFID     79    131       By similarity.
+FT   DISULFID    170    235       By similarity.
+FT   DISULFID    178    228       By similarity.
+FT   DISULFID    219    260       By similarity.
+FT   DISULFID    248    296       By similarity.
+FT   DISULFID    252    282       By similarity.
+FT   DISULFID    313    391       By similarity.
+FT   DISULFID    334    374       By similarity.
+FT   DISULFID    362    386       By similarity.
+FT   VAR_SEQ       1    549       Missing (in isoform Short).
+FT                                /FTId=VSP_005008.
+FT   VARIANT     144    144       G -> E (in a metastatic melanoma sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_041779.
+FT   VARIANT     150    150       F -> L (in an ovarian mucinous carcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_041780.
+FT   VARIANT     301    301       I -> V (in a renal clear cell carcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_041781.
+FT   VARIANT     518    518       T -> M (in dbSNP:rs7527017).
+FT                                /FTId=VAR_041782.
+FT   VARIANT     562    562       E -> D (in a breast cancer sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_035713.
+FT   VARIANT     567    567       R -> I (in a colorectal adenocarcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_041783.
+FT   VARIANT     624    624       G -> R (in dbSNP:rs55832740).
+FT                                /FTId=VAR_041784.
+FT   VARIANT     646    646       Y -> C (in dbSNP:rs34109134).
+FT                                /FTId=VAR_041785.
+FT   VARIANT     776    776       S -> N (in a colorectal adenocarcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_041786.
+SQ   SEQUENCE   937 AA;  104283 MW;  0EC0E4762A90C6C7 CRC64;
+     MHRPRRRGTR PPLLALLAAL LLAARGAAAQ ETELSVSAEL VPTSSWNISS ELNKDSYLTL
+     DEPMNNITTS LGQTAELHCK VSGNPPPTIR WFKNDAPVVQ EPRRLSFRST IYGSRLRIRN
+     LDTTDTGYFQ CVATNGKEVV SSTGVLFVKF GPPPTASPGY SDEYEEDGFC QPYRGIACAR
+     FIGNRTVYME SLHMQGEIEN QITAAFTMIG TSSHLSDKCS QFAIPSLCHY AFPYCDETSS
+     VPKPRDLCRD ECEILENVLC QTEYIFARSN PMILMRLKLP NCEDLPQPES PEAANCIRIG
+     IPMADPINKN HKCYNSTGVD YRGTVSVTKS GRQCQPWNSQ YPHTHTFTAL RFPELNGGHS
+     YCRNPGNQKE APWCFTLDEN FKSDLCDIPA CDSKDSKEKN KMEILYILVP SVAIPLAIAL
+     LFFFICVCRN NQKSSSAPVQ RQPKHVRGQN VEMSMLNAYK PKSKAKELPL SAVRFMEELG
+     ECAFGKIYKG HLYLPGMDHA QLVAIKTLKD YNNPQQWTEF QQEASLMAEL HHPNIVCLLG
+     AVTQEQPVCM LFEYINQGDL HEFLIMRSPH SDVGCSSDED GTVKSSLDHG DFLHIAIQIA
+     AGMEYLSSHF FVHKDLAARN ILIGEQLHVK ISDLGLSREI YSADYYRVQS KSLLPIRWMP
+     PEAIMYGKFS SDSDIWSFGV VLWEIFSFGL QPYYGFSNQE VIEMVRKRQL LPCSEDCPPR
+     MYSLMTECWN EIPSRRPRFK DIHVRLRSWE GLSSHTSSTT PSGGNATTQT TSLSASPVSN
+     LSNPRYPNYM FPSQGITPQG QIAGFIGPPI PQNQRFIPIN GYPIPPGYAA FPAAHYQPTG
+     PPRVIQHCPP PKSRSPSSAS GSTSTGHVTS LPSSGSNQEA NIPLLPHMSI PNHPGGMGIT
+     VFGNKSQKPY KIDSKQASLL GDANIHGHTE SMISAEL
+//

@@ -1,0 +1,417 @@
+ID   DYR1A_HUMAN             Reviewed;         763 AA.
+AC   Q13627; O60769; Q92582; Q92810; Q9UNM5;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   15-JUL-1998, sequence version 2.
+DT   05-OCT-2010, entry version 113.
+DE   RecName: Full=Dual specificity tyrosine-phosphorylation-regulated kinase 1A;
+DE            EC=2.7.12.1;
+DE   AltName: Full=Dual specificity YAK1-related kinase;
+DE   AltName: Full=HP86;
+DE   AltName: Full=Protein kinase minibrain homolog;
+DE            Short=MNBH;
+DE            Short=hMNB;
+GN   Name=DYRK1A; Synonyms=DYRK, MNB, MNBH;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM LONG), VARIANT PRO-679, AND TISSUE
+RP   SPECIFICITY.
+RC   TISSUE=Fetal brain;
+RX   MEDLINE=97131512; PubMed=8975710; DOI=10.1006/geno.1996.0636;
+RA   Song W.J., Sternberg L.R., Kasten-Sportes C., van Keuren M.L.,
+RA   Chung S.H., Slack A.C., Miller D.E., Glover T.W., Chiang P.W., Lou L.,
+RA   Kurnit D.W.;
+RT   "Isolation of human and murine homologues of the Drosophila minibrain
+RT   gene: human homologue maps to 21q22.2 in the Down syndrome 'critical
+RT   region'.";
+RL   Genomics 38:331-339(1996).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM LONG), TISSUE SPECIFICITY, AND
+RP   POSSIBLE INVOLVEMENT IN DOWN SYNDROME.
+RX   MEDLINE=97026291; PubMed=8872470; DOI=10.1093/hmg/5.9.1305;
+RA   Guimera J., Casas C., Pucharcos C., Solans A., Domenech A.,
+RA   Planas A.M., Ashley J., Lovett M., Estivill X., Pritchard M.A.;
+RT   "A human homologue of Drosophila minibrain (MNB) is expressed in the
+RT   neuronal regions affected in Down syndrome and maps to the critical
+RT   region.";
+RL   Hum. Mol. Genet. 5:1305-1310(1996).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), FUNCTION, TISSUE SPECIFICITY,
+RP   AND DEVELOPMENTAL STAGE.
+RC   TISSUE=Fetal brain;
+RX   MEDLINE=96332410; PubMed=8769099; DOI=10.1006/bbrc.1996.1135;
+RA   Shindoh N., Kudoh J., Maeda H., Yamaki A., Minoshima S., Shimizu Y.,
+RA   Shimizu N.;
+RT   "Cloning of a human homolog of the Drosophila minibrain/rat Dyrk gene
+RT   from 'the Down syndrome critical region' of chromosome 21.";
+RL   Biochem. Biophys. Res. Commun. 225:92-99(1996).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RC   TISSUE=Promyelocytic leukemia;
+RX   PubMed=9037601;
+RA   Ohira M., Seki N., Nagase T., Suzuki E., Nomura N., Ohara O.,
+RA   Hattori M., Sakaki Y., Eki T., Murakami Y., Saito T., Ichikawa H.,
+RA   Ohki M.;
+RT   "Gene identification in 1.6-Mb region of the Down syndrome region on
+RT   chromosome 21.";
+RL   Genome Res. 7:47-58(1997).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 4), TISSUE SPECIFICITY, POSSIBLE
+RP   INVOLVEMENT IN DOWN SYNDROME, VARIANTS PHE-415 AND HIS-681, AND
+RP   ALTERNATIVE SPLICING.
+RX   MEDLINE=99263503; PubMed=10329007; DOI=10.1006/geno.1999.5775;
+RA   Guimera J., Casas C., Estivill X., Pritchard M.A.;
+RT   "Human minibrain homologue (MNBH/DYRK1): characterization, alternative
+RT   splicing, differential tissue expression, and overexpression in Down
+RT   syndrome.";
+RL   Genomics 57:407-418(1999).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 234-380.
+RC   TISSUE=Fetal brain;
+RX   MEDLINE=98163741; PubMed=9503011; DOI=10.1006/geno.1997.5146;
+RA   Dahmane N., Ait-Ghezala G., Gosset P., Chamoun Z.,
+RA   Dufresne-Zacharia M.-C., Lopes C., Rabatel N., Gassanova-Maugenre S.,
+RA   Chettouh Z., Abramowski V., Fayet E., Yaspo M.-L., Korn B.,
+RA   Blouin J.-L., Lehrach H., Poustka A., Antonarakis S.E., Sinet P.-M.,
+RA   Creau N., Delabar J.-M.;
+RT   "Transcriptional map of the 2.5-Mb CBR-ERG region of chromosome 21
+RT   involved in Down syndrome.";
+RL   Genomics 48:12-23(1998).
+RN   [7]
+RP   INTERACTION WITH RANBP9, AND ENZYME REGULATION.
+RX   PubMed=14500717; DOI=10.1074/jbc.M307556200;
+RA   Zou Y., Lim S., Lee K., Deng X., Friedman E.;
+RT   "Serine/threonine kinase Mirk/Dyrk1B is an inhibitor of epithelial
+RT   cell migration and is negatively regulated by the Met adaptor Ran-
+RT   binding protein M.";
+RL   J. Biol. Chem. 278:49573-49581(2003).
+RN   [8]
+RP   INTERACTION WITH WDR68.
+RX   PubMed=14593110; DOI=10.1074/jbc.M301769200;
+RA   Skurat A.V., Dietrich A.D.;
+RT   "Phosphorylation of Ser640 in muscle glycogen synthase by DYRK family
+RT   protein kinases.";
+RL   J. Biol. Chem. 279:2490-2498(2004).
+RN   [9]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-145 AND TYR-321, AND
+RP   MASS SPECTROMETRY.
+RX   PubMed=15592455; DOI=10.1038/nbt1046;
+RA   Rush J., Moritz A., Lee K.A., Guo A., Goss V.L., Spek E.J., Zhang H.,
+RA   Zha X.-M., Polakiewicz R.D., Comb M.J.;
+RT   "Immunoaffinity profiling of tyrosine phosphorylation in cancer
+RT   cells.";
+RL   Nat. Biotechnol. 23:94-101(2005).
+RN   [10]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-145, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Lung carcinoma;
+RX   PubMed=18083107; DOI=10.1016/j.cell.2007.11.025;
+RA   Rikova K., Guo A., Zeng Q., Possemato A., Yu J., Haack H., Nardone J.,
+RA   Lee K., Reeves C., Li Y., Hu Y., Tan Z., Stokes M., Sullivan L.,
+RA   Mitchell J., Wetzel R., Macneill J., Ren J.M., Yuan J.,
+RA   Bakalarski C.E., Villen J., Kornhauser J.M., Smith B., Li D., Zhou X.,
+RA   Gygi S.P., Gu T.-L., Polakiewicz R.D., Rush J., Comb M.J.;
+RT   "Global survey of phosphotyrosine signaling identifies oncogenic
+RT   kinases in lung cancer.";
+RL   Cell 131:1190-1203(2007).
+RN   [11]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-321, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=17192257; DOI=10.1074/mcp.T600062-MCP200;
+RA   Wissing J., Jaensch L., Nimtz M., Dieterich G., Hornberger R.,
+RA   Keri G., Wehland J., Daub H.;
+RT   "Proteomics analysis of protein kinases by target class-selective
+RT   prefractionation and tandem mass spectrometry.";
+RL   Mol. Cell. Proteomics 6:537-547(2007).
+RN   [12]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-321, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Mammary epithelium;
+RX   PubMed=17389395; DOI=10.1073/pnas.0608638104;
+RA   Wolf-Yadlin A., Hautaniemi S., Lauffenburger D.A., White F.M.;
+RT   "Multiple reaction monitoring for robust quantitative proteomic
+RT   analysis of cellular signaling networks.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 104:5860-5865(2007).
+RN   [13]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-321, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Platelet;
+RX   PubMed=18088087; DOI=10.1021/pr0704130;
+RA   Zahedi R.P., Lewandrowski U., Wiesner J., Wortelkamp S., Moebius J.,
+RA   Schuetz C., Walter U., Gambaryan S., Sickmann A.;
+RT   "Phosphoproteome of resting human platelets.";
+RL   J. Proteome Res. 7:526-534(2008).
+RN   [14]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-321; SER-748 AND
+RP   SER-758, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [15]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-321, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Embryonic kidney;
+RX   PubMed=19413330; DOI=10.1021/ac9004309;
+RA   Gauci S., Helbig A.O., Slijper M., Krijgsveld J., Heck A.J.,
+RA   Mohammed S.;
+RT   "Lys-N and trypsin cover complementary parts of the phosphoproteome in
+RT   a refined SCX-based approach.";
+RL   Anal. Chem. 81:4493-4501(2009).
+RN   [16]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-321, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Mammary epithelium;
+RX   PubMed=19534553; DOI=10.1021/pr900044c;
+RA   Heibeck T.H., Ding S.-J., Opresko L.K., Zhao R., Schepmoes A.A.,
+RA   Yang F., Tolmachev A.V., Monroe M.E., Camp D.G. II, Smith R.D.,
+RA   Wiley H.S., Qian W.-J.;
+RT   "An extensive survey of tyrosine phosphorylation revealing new sites
+RT   in human mammary epithelial cells.";
+RL   J. Proteome Res. 8:3852-3861(2009).
+RN   [17]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-145; TYR-321 AND
+RP   SER-324, AND MASS SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=19690332; DOI=10.1126/scisignal.2000007;
+RA   Mayya V., Lundgren D.H., Hwang S.-I., Rezaul K., Wu L., Eng J.K.,
+RA   Rodionov V., Han D.K.;
+RT   "Quantitative phosphoproteomic analysis of T cell receptor signaling
+RT   reveals system-wide modulation of protein-protein interactions.";
+RL   Sci. Signal. 2:RA46-RA46(2009).
+RN   [18]
+RP   VARIANT [LARGE SCALE ANALYSIS] PRO-679.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: May play a role in a signaling pathway regulating
+CC       nuclear functions of cell proliferation. Phosphorylates serine,
+CC       threonine and tyrosine residues in its sequence and in exogenous
+CC       substrates.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- ENZYME REGULATION: Inhibited by RANBP9.
+CC   -!- SUBUNIT: Interacts RAD54L2/ARIP4 (By similarity). Interacts with
+CC       RANBP9. Interacts with WDR68.
+CC   -!- INTERACTION:
+CC       P31946:YWHAB; NbExp=3; IntAct=EBI-1053596, EBI-359815;
+CC   -!- SUBCELLULAR LOCATION: Nucleus speckle.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=5;
+CC         Comment=Additional isoforms seem to exist;
+CC       Name=Long;
+CC         IsoId=Q13627-1; Sequence=Displayed;
+CC       Name=1;
+CC         IsoId=Q13627-2; Sequence=VSP_004917;
+CC       Name=2;
+CC         IsoId=Q13627-3; Sequence=VSP_004918, VSP_004919;
+CC       Name=3;
+CC         IsoId=Q13627-4; Sequence=VSP_004920, VSP_004921;
+CC       Name=4;
+CC         IsoId=Q13627-5; Sequence=VSP_004922, VSP_004923;
+CC   -!- TISSUE SPECIFICITY: Ubiquitous. Highest levels in skeletal muscle,
+CC       testis, fetal lung and fetal kidney.
+CC   -!- DEVELOPMENTAL STAGE: Expressed in the developing central nervous
+CC       system. Overexpressed 1.5-fold in fetal Down syndrome brain.
+CC   -!- PTM: Autophosphorylated on tyrosine residues.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CMGC
+CC       Ser/Thr protein kinase family. MNB/DYRK subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U58496; AAC50939.1; -; mRNA.
+DR   EMBL; U52373; AAB18639.1; -; mRNA.
+DR   EMBL; D85759; BAA12866.1; -; mRNA.
+DR   EMBL; D86550; BAA13110.1; -; mRNA.
+DR   EMBL; AF108830; AAD31169.1; -; mRNA.
+DR   EMBL; AJ001870; CAA05059.1; -; mRNA.
+DR   IPI; IPI00014344; -.
+DR   IPI; IPI00219250; -.
+DR   IPI; IPI00219251; -.
+DR   IPI; IPI00219252; -.
+DR   IPI; IPI00941492; -.
+DR   PIR; JC4898; JC4898.
+DR   RefSeq; NP_001387.2; -.
+DR   RefSeq; NP_567824.1; -.
+DR   RefSeq; NP_569120.1; -.
+DR   RefSeq; NP_569122.1; -.
+DR   UniGene; Hs.368240; -.
+DR   PDB; 2VX3; X-ray; 2.40 A; A/B/C/D=127-485.
+DR   PDB; 2WO6; X-ray; 2.50 A; A/B=127-485.
+DR   PDBsum; 2VX3; -.
+DR   PDBsum; 2WO6; -.
+DR   ProteinModelPortal; Q13627; -.
+DR   IntAct; Q13627; 13.
+DR   MINT; MINT-1205413; -.
+DR   STRING; Q13627; -.
+DR   PhosphoSite; Q13627; -.
+DR   PRIDE; Q13627; -.
+DR   Ensembl; ENST00000398960; ENSP00000381932; ENSG00000157540.
+DR   GeneID; 1859; -.
+DR   KEGG; hsa:1859; -.
+DR   UCSC; uc002ywi.1; human.
+DR   UCSC; uc002ywj.1; human.
+DR   UCSC; uc002ywk.1; human.
+DR   UCSC; uc002ywl.1; human.
+DR   CTD; 1859; -.
+DR   GeneCards; GC21P038739; -.
+DR   HGNC; HGNC:3091; DYRK1A.
+DR   HPA; HPA015323; -.
+DR   HPA; HPA015810; -.
+DR   MIM; 600855; gene.
+DR   PharmGKB; PA27545; -.
+DR   eggNOG; prNOG04928; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG051425; -.
+DR   InParanoid; Q13627; -.
+DR   OMA; HRHSGGH; -.
+DR   BRENDA; 2.7.12.1; 247.
+DR   NextBio; 7615; -.
+DR   ArrayExpress; Q13627; -.
+DR   Bgee; Q13627; -.
+DR   CleanEx; HS_DYRK1A; -.
+DR   Genevestigator; Q13627; -.
+DR   GermOnline; ENSG00000157540; Homo sapiens.
+DR   GO; GO:0016607; C:nuclear speck; ISS:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004715; F:non-membrane spanning protein tyrosine kina...; IDA:MGI.
+DR   GO; GO:0043621; F:protein self-association; ISS:UniProtKB.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; ISS:UniProtKB.
+DR   GO; GO:0007399; P:nervous system development; TAS:ProtInc.
+DR   GO; GO:0018108; P:peptidyl-tyrosine phosphorylation; ISS:UniProtKB.
+DR   GO; GO:0046777; P:protein amino acid autophosphorylation; ISS:UniProtKB.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; ATP-binding; Complete proteome;
+KW   Kinase; Nucleotide-binding; Nucleus; Phosphoprotein; Polymorphism;
+KW   Serine/threonine-protein kinase; Transferase; Tyrosine-protein kinase.
+FT   CHAIN         1    763       Dual specificity tyrosine-
+FT                                phosphorylation-regulated kinase 1A.
+FT                                /FTId=PRO_0000085931.
+FT   DOMAIN      159    479       Protein kinase.
+FT   NP_BIND     165    173       ATP (By similarity).
+FT   MOTIF       117    134       Bipartite nuclear localization signal
+FT                                (Potential).
+FT   COMPBIAS    509    515       Poly-Ser.
+FT   COMPBIAS    599    602       Poly-His.
+FT   COMPBIAS    607    619       Poly-His.
+FT   COMPBIAS    656    672       Ser/Thr-rich.
+FT   COMPBIAS    664    671       Poly-Ser.
+FT   ACT_SITE    287    287       Proton acceptor (By similarity).
+FT   BINDING     188    188       ATP (By similarity).
+FT   MOD_RES     145    145       Phosphotyrosine.
+FT   MOD_RES     219    219       Phosphotyrosine; by autocatalysis (By
+FT                                similarity).
+FT   MOD_RES     319    319       Phosphotyrosine; by autocatalysis (By
+FT                                similarity).
+FT   MOD_RES     321    321       Phosphotyrosine; by autocatalysis.
+FT   MOD_RES     324    324       Phosphoserine.
+FT   MOD_RES     748    748       Phosphoserine.
+FT   MOD_RES     758    758       Phosphoserine.
+FT   VAR_SEQ      70     78       Missing (in isoform 1).
+FT                                /FTId=VSP_004917.
+FT   VAR_SEQ     516    540       GGSSGTSNSGRARSDPTHQHRHSGG -> VEQHWMPGAFRM
+FT                                TVSFTLEVHDVPV (in isoform 3).
+FT                                /FTId=VSP_004920.
+FT   VAR_SEQ     516    529       GGSSGTSNSGRARS -> GASAISCSSWLVRH (in
+FT                                isoform 2).
+FT                                /FTId=VSP_004918.
+FT   VAR_SEQ     530    763       Missing (in isoform 2).
+FT                                /FTId=VSP_004919.
+FT   VAR_SEQ     541    763       Missing (in isoform 3).
+FT                                /FTId=VSP_004921.
+FT   VAR_SEQ     559    584       RQQFPAPLGWSGTEAPTQVTVETHPV -> SSHVVHLLVSP
+FT                                AILRWSSTGCQVPLE (in isoform 4).
+FT                                /FTId=VSP_004922.
+FT   VAR_SEQ     585    763       Missing (in isoform 4).
+FT                                /FTId=VSP_004923.
+FT   VARIANT     415    415       Y -> F.
+FT                                /FTId=VAR_009395.
+FT   VARIANT     679    679       A -> P (in dbSNP:rs55720916).
+FT                                /FTId=VAR_040453.
+FT   VARIANT     681    681       Q -> H.
+FT                                /FTId=VAR_009396.
+FT   CONFLICT     32     32       G -> A (in Ref. 1; AAC50939).
+FT   CONFLICT     47     47       N -> S (in Ref. 1; AAC50939).
+FT   CONFLICT     57     57       S -> P (in Ref. 1; AAC50939).
+FT   CONFLICT    123    123       Q -> R (in Ref. 1; AAC50939).
+FT   CONFLICT    266    266       A -> V (in Ref. 6; CAA05059).
+FT   CONFLICT    357    357       G -> R (in Ref. 6; CAA05059).
+FT   CONFLICT    397    397       K -> N (in Ref. 1; AAC50939).
+FT   CONFLICT    592    592       A -> G (in Ref. 1; AAC50939).
+FT   TURN        156    158
+FT   STRAND      159    164
+FT   STRAND      173    178
+FT   TURN        179    182
+FT   STRAND      183    189
+FT   HELIX       194    212
+FT   HELIX       216    220
+FT   STRAND      224    230
+FT   STRAND      233    239
+FT   HELIX       245    251
+FT   TURN        252    254
+FT   HELIX       259    276
+FT   TURN        279    281
+FT   HELIX       290    292
+FT   STRAND      293    297
+FT   STRAND      303    305
+FT   HELIX       325    327
+FT   HELIX       330    333
+FT   HELIX       341    346
+FT   HELIX       350    355
+FT   HELIX       366    376
+FT   HELIX       382    385
+FT   HELIX       391    394
+FT   STRAND      395    397
+FT   STRAND      403    405
+FT   HELIX       423    426
+FT   HELIX       446    459
+FT   TURN        464    466
+FT   HELIX       470    473
+FT   HELIX       477    479
+SQ   SEQUENCE   763 AA;  85584 MW;  7C3A52A3CBB04FB5 CRC64;
+     MHTGGETSAC KPSSVRLAPS FSFHAAGLQM AGQMPHSHQY SDRRQPNISD QQVSALSYSD
+     QIQQPLTNQV MPDIVMLQRR MPQTFRDPAT APLRKLSVDL IKTYKHINEV YYAKKKRRHQ
+     QGQGDDSSHK KERKVYNDGY DDDNYDYIVK NGEKWMDRYE IDSLIGKGSF GQVVKAYDRV
+     EQEWVAIKII KNKKAFLNQA QIEVRLLELM NKHDTEMKYY IVHLKRHFMF RNHLCLVFEM
+     LSYNLYDLLR NTNFRGVSLN LTRKFAQQMC TALLFLATPE LSIIHCDLKP ENILLCNPKR
+     SAIKIVDFGS SCQLGQRIYQ YIQSRFYRSP EVLLGMPYDL AIDMWSLGCI LVEMHTGEPL
+     FSGANEVDQM NKIVEVLGIP PAHILDQAPK ARKFFEKLPD GTWNLKKTKD GKREYKPPGT
+     RKLHNILGVE TGGPGGRRAG ESGHTVADYL KFKDLILRML DYDPKTRIQP YYALQHSFFK
+     KTADEGTNTS NSVSTSPAME QSQSSGTTSS TSSSSGGSSG TSNSGRARSD PTHQHRHSGG
+     HFTAAVQAMD CETHSPQVRQ QFPAPLGWSG TEAPTQVTVE THPVQETTFH VAPQQNALHH
+     HHGNSSHHHH HHHHHHHHHG QQALGNRTRP RVYNSPTNSS STQDSMEVGH SHHSMTSLSS
+     STTSSSTSSS STGNQGNQAY QNRPVAANTL DFGQNGAMDV NLTVYSNPRQ ETGIAGHPTY
+     QFSANTGPAH YMTEGHLTMR QGADREESPM TGVCVQQSPV ASS
+//

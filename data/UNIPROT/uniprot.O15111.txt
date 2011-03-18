@@ -1,0 +1,417 @@
+ID   IKKA_HUMAN              Reviewed;         745 AA.
+AC   O15111; O14666; Q13132; Q5W0I4; Q92467;
+DT   01-JUN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1998, sequence version 1.
+DT   02-NOV-2010, entry version 120.
+DE   RecName: Full=Inhibitor of nuclear factor kappa-B kinase subunit alpha;
+DE            Short=I-kappa-B kinase alpha;
+DE            Short=IKK-A;
+DE            Short=IKK-alpha;
+DE            Short=IkBKA;
+DE            Short=IkappaB kinase;
+DE            EC=2.7.11.10;
+DE   AltName: Full=Conserved helix-loop-helix ubiquitous kinase;
+DE   AltName: Full=I-kappa-B kinase 1;
+DE            Short=IKK1;
+DE   AltName: Full=Nuclear factor NF-kappa-B inhibitor kinase alpha;
+DE            Short=NFKBIKA;
+DE   AltName: Full=Transcription factor 16;
+DE            Short=TCF-16;
+GN   Name=CHUK; Synonyms=IKKA, TCF16;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND MUTAGENESIS OF LYS-44.
+RC   TISSUE=T-cell;
+RX   MEDLINE=97386461; PubMed=9244310; DOI=10.1016/S0092-8674(00)80344-X;
+RA   Regnier C.H., Song H.Y., Gao X., Goeddel D.V., Cao Z., Rothe M.;
+RT   "Identification and characterization of an IkappaB kinase.";
+RL   Cell 90:373-383(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PARTIAL PROTEIN SEQUENCE.
+RX   MEDLINE=97394468; PubMed=9252186; DOI=10.1038/41493;
+RA   DiDonato J.A., Hayakawa M., Rothwarf D.M., Zandi E., Karin M.;
+RT   "A cytokine-responsive IkappaB kinase that activates the transcription
+RT   factor NF-kappaB.";
+RL   Nature 388:548-554(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PARTIAL PROTEIN SEQUENCE, VARIANT VAL-268,
+RP   AND MUTAGENESIS OF LYS-44 AND SER-176.
+RC   TISSUE=Cervix carcinoma;
+RX   MEDLINE=98008813; PubMed=9346484; DOI=10.1126/science.278.5339.860;
+RA   Mercurio F., Zhu H., Murray B.W., Shevchenko A., Bennett B.L.,
+RA   Li J.W., Young D.B., Barbosa M., Mann M., Manning A., Rao A.;
+RT   "IKK-1 and IKK-2: cytokine-activated IkappaB kinases essential for NF-
+RT   kappaB activation.";
+RL   Science 278:860-866(1997).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Heart;
+RX   MEDLINE=99032998; PubMed=9813230; DOI=10.1016/S0378-1119(98)00462-4;
+RA   Hu M.C.-T., Wang Y.-P.;
+RT   "IkappaB kinase-alpha and -beta genes are coexpressed in adult and
+RT   embryonic tissues but localized to different human chromosomes.";
+RL   Gene 222:31-40(1998).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND VARIANT VAL-268.
+RG   SeattleSNPs variation discovery resource;
+RL   Submitted (JUN-2004) to the EMBL/GenBank/DDBJ databases.
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA], AND VARIANT VAL-268.
+RX   PubMed=15164054; DOI=10.1038/nature02462;
+RA   Deloukas P., Earthrowl M.E., Grafham D.V., Rubenfield M., French L.,
+RA   Steward C.A., Sims S.K., Jones M.C., Searle S., Scott C., Howe K.,
+RA   Hunt S.E., Andrews T.D., Gilbert J.G.R., Swarbreck D., Ashurst J.L.,
+RA   Taylor A., Battles J., Bird C.P., Ainscough R., Almeida J.P.,
+RA   Ashwell R.I.S., Ambrose K.D., Babbage A.K., Bagguley C.L., Bailey J.,
+RA   Banerjee R., Bates K., Beasley H., Bray-Allen S., Brown A.J.,
+RA   Brown J.Y., Burford D.C., Burrill W., Burton J., Cahill P., Camire D.,
+RA   Carter N.P., Chapman J.C., Clark S.Y., Clarke G., Clee C.M., Clegg S.,
+RA   Corby N., Coulson A., Dhami P., Dutta I., Dunn M., Faulkner L.,
+RA   Frankish A., Frankland J.A., Garner P., Garnett J., Gribble S.,
+RA   Griffiths C., Grocock R., Gustafson E., Hammond S., Harley J.L.,
+RA   Hart E., Heath P.D., Ho T.P., Hopkins B., Horne J., Howden P.J.,
+RA   Huckle E., Hynds C., Johnson C., Johnson D., Kana A., Kay M.,
+RA   Kimberley A.M., Kershaw J.K., Kokkinaki M., Laird G.K., Lawlor S.,
+RA   Lee H.M., Leongamornlert D.A., Laird G., Lloyd C., Lloyd D.M.,
+RA   Loveland J., Lovell J., McLaren S., McLay K.E., McMurray A.,
+RA   Mashreghi-Mohammadi M., Matthews L., Milne S., Nickerson T.,
+RA   Nguyen M., Overton-Larty E., Palmer S.A., Pearce A.V., Peck A.I.,
+RA   Pelan S., Phillimore B., Porter K., Rice C.M., Rogosin A., Ross M.T.,
+RA   Sarafidou T., Sehra H.K., Shownkeen R., Skuce C.D., Smith M.,
+RA   Standring L., Sycamore N., Tester J., Thorpe A., Torcasso W.,
+RA   Tracey A., Tromans A., Tsolas J., Wall M., Walsh J., Wang H.,
+RA   Weinstock K., West A.P., Willey D.L., Whitehead S.L., Wilming L.,
+RA   Wray P.W., Young L., Chen Y., Lovering R.C., Moschonas N.K.,
+RA   Siebert R., Fechtel K., Bentley D., Durbin R.M., Hubbard T.,
+RA   Doucette-Stamm L., Beck S., Smith D.R., Rogers J.;
+RT   "The DNA sequence and comparative analysis of human chromosome 10.";
+RL   Nature 429:375-381(2004).
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 32-745.
+RC   TISSUE=Cervix carcinoma;
+RX   MEDLINE=96258427; PubMed=8777433;
+RA   Connelly M.A., Marcu K.B.;
+RT   "CHUK, a new member of the helix-loop-helix and leucine zipper
+RT   families of interacting proteins, contains a serine-threonine kinase
+RT   catalytic domain.";
+RL   Cell. Mol. Biol. Res. 41:537-549(1995).
+RN   [8]
+RP   PROTEIN SEQUENCE OF 169-181, INACTIVATION BY YERSINIA YOPJ,
+RP   ACETYLATION AT THR-179, AND MASS SPECTROMETRY.
+RX   PubMed=17116858; DOI=10.1073/pnas.0608995103;
+RA   Mittal R., Peak-Chew S.Y., McMahon H.T.;
+RT   "Acetylation of MEK2 and I kappa B kinase (IKK) activation loop
+RT   residues by YopJ inhibits signaling.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:18574-18579(2006).
+RN   [9]
+RP   IDENTIFICATION IN A COMPLEX WITH IKBKB; NFKBIA; RELA; IKBKAP AND
+RP   MAP3K14.
+RX   MEDLINE=98421679; PubMed=9751059; DOI=10.1038/26254;
+RA   Cohen L., Henzel W.J., Baeuerle P.A.;
+RT   "IKAP is a scaffold protein of the IkappaB kinase complex.";
+RL   Nature 395:292-296(1998).
+RN   [10]
+RP   PHOSPHORYLATION AT SER-176, AND MUTAGENESIS OF SER-176; THR-179 AND
+RP   SER-180.
+RX   MEDLINE=98188283; PubMed=9520446; DOI=10.1073/pnas.95.7.3792;
+RA   Ling L., Cao Z., Goeddel D.V.;
+RT   "NF-kappaB-inducing kinase activates IKK-alpha by phosphorylation of
+RT   Ser-176.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 95:3792-3797(1998).
+RN   [11]
+RP   PHOSPHORYLATION AT THR-23, AND MUTAGENESIS OF THR-23.
+RX   MEDLINE=99413720; PubMed=10485710; DOI=10.1038/43466;
+RA   Ozes O.N., Mayo L.D., Gustin J.A., Pfeffer S.R., Pfeffer L.M.,
+RA   Donner D.B.;
+RT   "NF-kappaB activation by tumour necrosis factor requires the Akt
+RT   serine-threonine kinase.";
+RL   Nature 401:82-85(1999).
+RN   [12]
+RP   IKKA-IKKB BINDING.
+RX   MEDLINE=99212141; PubMed=10195894; DOI=10.1126/science.284.5412.309;
+RA   Delhase M., Hayakawa M., Chen Y., Karin M.;
+RT   "Positive and negative regulation of IkappaB kinase activity through
+RT   IKKbeta subunit phosphorylation.";
+RL   Science 284:309-313(1999).
+RN   [13]
+RP   IKK PHOSPHORYLATION.
+RX   MEDLINE=99038238; PubMed=9819420;
+RA   Nemoto S., DiDonato J.A., Lin A.;
+RT   "Coordinate regulation of IkappaB kinases by mitogen-activated protein
+RT   kinase kinase kinase 1 and NF-kappaB-inducing kinase.";
+RL   Mol. Cell. Biol. 18:7336-7343(1998).
+RN   [14]
+RP   REVIEW.
+RX   MEDLINE=20178139; PubMed=10712233;
+RA   Jobin C., Sartor R.B.;
+RT   "The I kappa B/NF-kappa B system: a key determinant of mucosal
+RT   inflammation and protection.";
+RL   Am. J. Physiol. 278:C451-C462(2000).
+RN   [15]
+RP   SUBUNIT OF A COMPLEX CONTAINING CREBBP; NCOA2; NCOA3; IKKB AND IKBKG.
+RX   MEDLINE=21968797; PubMed=11971985;
+RX   DOI=10.1128/MCB.22.10.3549-3561.2002;
+RA   Wu R.-C., Qin J., Hashimoto Y., Wong J., Xu J., Tsai S.Y., Tsai M.-J.,
+RA   O'Malley B.W.;
+RT   "Regulation of SRC-3 (pCIP/ACTR/AIB-1/RAC-3/TRAM-1) coactivator
+RT   activity by I kappa B kinase.";
+RL   Mol. Cell. Biol. 22:3549-3561(2002).
+RN   [16]
+RP   COMPOSITION OF THE IKK COMPLEX.
+RX   PubMed=12612076; DOI=10.1128/MCB.23.6.2029-2041.2003;
+RA   Tegethoff S., Behlke J., Scheidereit C.;
+RT   "Tetrameric oligomerization of IkappaB kinase gamma (IKKgamma) is
+RT   obligatory for IKK complex activity and NF-kappaB activation.";
+RL   Mol. Cell. Biol. 23:2029-2041(2003).
+RN   [17]
+RP   SUBCELLULAR LOCATION, AND FUNCTION IN PHOSPHORYLATION OF HISTONE H3.
+RX   PubMed=12789342; DOI=10.1038/nature01576;
+RA   Yamamoto Y., Verma U.N., Prajapati S., Kwak Y.T., Gaynor R.B.;
+RT   "Histone H3 phosphorylation by IKK-alpha is critical for cytokine-
+RT   induced gene expression.";
+RL   Nature 423:655-659(2003).
+RN   [18]
+RP   INTERACTION WITH NALP2.
+RX   PubMed=15456791; DOI=10.1074/jbc.M406741200;
+RA   Bruey J.-M., Bruey-Sedano N., Newman R., Chandler S., Stehlik C.,
+RA   Reed J.C.;
+RT   "PAN1/NALP2/PYPAF2, an inducible inflammatory mediator that regulates
+RT   NF-kappaB and caspase-1 activation in macrophages.";
+RL   J. Biol. Chem. 279:51897-51907(2004).
+RN   [19]
+RP   INTERACTION WITH ARRB1 AND ARRB2.
+RX   PubMed=15173580; DOI=10.1073/pnas.0402851101;
+RA   Witherow D.S., Garrison T.R., Miller W.E., Lefkowitz R.J.;
+RT   "beta-Arrestin inhibits NF-kappaB activity by means of its interaction
+RT   with the NF-kappaB inhibitor IkappaBalpha.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:8603-8607(2004).
+RN   [20]
+RP   INTERACTION WITH MAVS.
+RX   PubMed=16177806; DOI=10.1038/nature04193;
+RA   Meylan E., Curran J., Hofmann K., Moradpour D., Binder M.,
+RA   Bartenschlager R., Tschopp J.;
+RT   "Cardif is an adaptor protein in the RIG-I antiviral pathway and is
+RT   targeted by hepatitis C virus.";
+RL   Nature 437:1167-1172(2005).
+RN   [21]
+RP   FUNCTION, AND INTERACTION WITH NLRC5.
+RX   PubMed=20434986; DOI=10.1016/j.cell.2010.03.040;
+RA   Cui J., Zhu L., Xia X., Wang H.Y., Legras X., Hong J., Ji J., Shen P.,
+RA   Zheng S., Chen Z.J., Wang R.F.;
+RT   "NLRC5 negatively regulates the NF-kappaB and type I interferon
+RT   signaling pathways.";
+RL   Cell 141:483-496(2010).
+RN   [22]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RA   Colinge J., Superti-Furga G., Bennett K.L.;
+RL   Submitted (OCT-2008) to UniProtKB.
+RN   [23]
+RP   VARIANTS [LARGE SCALE ANALYSIS] CYS-126; ALA-155 AND VAL-268.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Acts as part of the IKK complex in the conventional
+CC       pathway of NF-kappa-B activation and phosphorylates inhibitors of
+CC       NF-kappa-B thus leading to the dissociation of the inhibitor/NF-
+CC       kappa-B complex and ultimately the degradation of the inhibitor.
+CC       As part of the non-canonical pathway of NF-kappa-B activation, the
+CC       MAP3K14-activated CHUK/IKKA homodimer phosphorylates NFKB2/p100
+CC       associated with RelB, inducing its proteolytic processing to
+CC       NFKB2/p52 and the formation of NF-kappa-B RelB-p52 complexes. Also
+CC       phosphorylates NCOA3. Phosphorylates 'Ser-10' of histone H3 at NF-
+CC       kappa-B-regulated promoters during inflammatory responses
+CC       triggered by cytokines.
+CC   -!- CATALYTIC ACTIVITY: ATP + [I-kappa-B protein] = ADP + [I-kappa-B
+CC       phosphoprotein].
+CC   -!- ENZYME REGULATION: Activated when phosphorylated and inactivated
+CC       when dephosphorylated.
+CC   -!- SUBUNIT: Component of the I-kappa-B-kinase (IKK) core complex
+CC       consisting of CHUK, IKBKB and IKBKG; probably four alpha/CHUK-
+CC       beta/IKBKB dimers are associated with four gamma/IKBKG subunits.
+CC       The IKK core complex seems to associate with regulatory or adapter
+CC       proteins to form a IKK-signalosome holo-complex. The IKK complex
+CC       associates with TERF2IP/RAP1, leading to promote IKK-mediated
+CC       phosphorylation of RELA/p65. Part of a complex composed of NCOA2,
+CC       NCOA3, CHUK/IKKA, IKBKB, IKBKG and CREBBP. Part of a 70-90 kDa
+CC       complex at least consisting of CHUK/IKKA, IKBKB, NFKBIA, RELA,
+CC       IKBKAP and MAP3K14. Directly interacts with IKK-gamma/NEMO and
+CC       TRPC4AP (By similarity). May interact with TRAF2. Interacts with
+CC       NALP2. May interact with MAVS/IPS1. Interacts with ARRB1 and
+CC       ARRB2. Interacts with NLRC5; prevents CHUK phosphorylation and
+CC       kinase activity.
+CC   -!- INTERACTION:
+CC       Self; NbExp=1; IntAct=EBI-81249, EBI-81249;
+CC       Q13451:FKBP5; NbExp=1; IntAct=EBI-81249, EBI-306914;
+CC       O14920:IKBKB; NbExp=3; IntAct=EBI-81249, EBI-81266;
+CC       Q9Y6K9:IKBKG; NbExp=3; IntAct=EBI-81249, EBI-81279;
+CC       Q99558:MAP3K14; NbExp=2; IntAct=EBI-81249, EBI-358011;
+CC       Q7Z434:MAVS; NbExp=1; IntAct=EBI-81249, EBI-995373;
+CC       Q9Y6Q9:NCOA3; NbExp=1; IntAct=EBI-81249, EBI-81196;
+CC       P25963:NFKBIA; NbExp=3; IntAct=EBI-81249, EBI-307386;
+CC       Q04206:RELA; NbExp=1; IntAct=EBI-81249, EBI-73886;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm. Nucleus. Note=Shuttles between
+CC       the cytoplasm and the nucleus.
+CC   -!- TISSUE SPECIFICITY: Widely expressed.
+CC   -!- PTM: Phosphorylated by MAP3K14/NIK, AKT and to a lesser extent by
+CC       MEKK1, and dephosphorylated by PP2A. Autophosphorylated.
+CC   -!- PTM: Acetylation of Thr-179 by Yersinia yopJ prevents
+CC       phosphorylation and activation, thus blocking the I-kappa-B
+CC       signaling pathway.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Ser/Thr
+CC       protein kinase family. I-kappa-B kinase subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- WEB RESOURCE: Name=SeattleSNPs;
+CC       URL="http://pga.gs.washington.edu/data/chuk/";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF012890; AAC51662.1; -; mRNA.
+DR   EMBL; AF009225; AAC51671.1; -; mRNA.
+DR   EMBL; AF080157; AAD08996.1; -; mRNA.
+DR   EMBL; AY652653; AAT49098.1; -; Genomic_DNA.
+DR   EMBL; AL138921; CAH72401.1; -; Genomic_DNA.
+DR   EMBL; U22512; AAC50713.1; -; mRNA.
+DR   IPI; IPI00005104; -.
+DR   RefSeq; NP_001269.3; -.
+DR   UniGene; Hs.198998; -.
+DR   PDB; 3BRT; X-ray; 2.25 A; A/C=732-745.
+DR   PDBsum; 3BRT; -.
+DR   ProteinModelPortal; O15111; -.
+DR   SMR; O15111; 20-289, 709-744.
+DR   DIP; DIP-27526N; -.
+DR   IntAct; O15111; 78.
+DR   MINT; MINT-88648; -.
+DR   STRING; O15111; -.
+DR   PhosphoSite; O15111; -.
+DR   PRIDE; O15111; -.
+DR   Ensembl; ENST00000370397; ENSP00000359424; ENSG00000213341.
+DR   GeneID; 1147; -.
+DR   KEGG; hsa:1147; -.
+DR   UCSC; uc001kqp.1; human.
+DR   CTD; 1147; -.
+DR   GeneCards; GC10M101938; -.
+DR   H-InvDB; HIX0201495; -.
+DR   HGNC; HGNC:1974; CHUK.
+DR   HPA; CAB004240; -.
+DR   HPA; CAB018564; -.
+DR   HPA; HPA001402; -.
+DR   MIM; 600664; gene.
+DR   PharmGKB; PA26510; -.
+DR   eggNOG; prNOG14699; -.
+DR   HOGENOM; HBG358635; -.
+DR   HOVERGEN; HBG018241; -.
+DR   InParanoid; O15111; -.
+DR   BRENDA; 2.7.11.10; 247.
+DR   Pathway_Interaction_DB; nfkappabalternativepathway; Alternative NF-kappaB pathway.
+DR   Pathway_Interaction_DB; bcr_5pathway; BCR signaling pathway.
+DR   Pathway_Interaction_DB; nfkappabcanonicalpathway; Canonical NF-kappaB pathway.
+DR   Pathway_Interaction_DB; pi3kciaktpathway; Class I PI3K signaling events mediated by Akt.
+DR   Pathway_Interaction_DB; faspathway; FAS signaling pathway (CD95).
+DR   Pathway_Interaction_DB; fcer1pathway; Fc-epsilon receptor I signaling in mast cells.
+DR   Pathway_Interaction_DB; foxopathway; FoxO family signaling.
+DR   Pathway_Interaction_DB; hivnefpathway; HIV-1 Nef: Negative effector of Fas and TNF-alpha.
+DR   Pathway_Interaction_DB; il1pathway; IL1-mediated signaling events.
+DR   Pathway_Interaction_DB; avb3_opn_pathway; Osteopontin-mediated events.
+DR   Pathway_Interaction_DB; p75ntrpathway; p75(NTR)-mediated signaling.
+DR   Pathway_Interaction_DB; tcrpathway; TCR signaling in naive CD4+ T cells.
+DR   Pathway_Interaction_DB; cd8tcrpathway; TCR signaling in naive CD8+ T cells.
+DR   Pathway_Interaction_DB; tnfpathway; TNF receptor signaling pathway.
+DR   Pathway_Interaction_DB; trail_pathway; TRAIL signaling pathway.
+DR   Reactome; REACT_11061; Signalling by NGF.
+DR   Reactome; REACT_6900; Signaling in Immune system.
+DR   NextBio; 4772; -.
+DR   ArrayExpress; O15111; -.
+DR   Bgee; O15111; -.
+DR   CleanEx; HS_CHUK; -.
+DR   Genevestigator; O15111; -.
+DR   GermOnline; ENSG00000107566; Homo sapiens.
+DR   GO; GO:0005634; C:nucleus; IDA:HPA.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042802; F:identical protein binding; IPI:IntAct.
+DR   GO; GO:0008384; F:IkappaB kinase activity; TAS:ProtInc.
+DR   GO; GO:0007252; P:I-kappaB phosphorylation; TAS:ProtInc.
+DR   GO; GO:0006955; P:immune response; TAS:ProtInc.
+DR   InterPro; IPR022007; IKKbetaNEMObind.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF12179; IKKbetaNEMObind; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; ATP-binding; Complete proteome; Cytoplasm;
+KW   Direct protein sequencing; Kinase; Nucleotide-binding; Nucleus;
+KW   Phosphoprotein; Polymorphism; Serine/threonine-protein kinase;
+KW   Transferase.
+FT   CHAIN         1    745       Inhibitor of nuclear factor kappa-B
+FT                                kinase subunit alpha.
+FT                                /FTId=PRO_0000086011.
+FT   DOMAIN       15    302       Protein kinase.
+FT   DOMAIN      455    476       Leucine-zipper.
+FT   NP_BIND      21     29       ATP (By similarity).
+FT   REGION      738    743       NEMO-binding.
+FT   ACT_SITE    144    144       Proton acceptor (By similarity).
+FT   BINDING      44     44       ATP (By similarity).
+FT   MOD_RES      23     23       Phosphothreonine; by PKB/AKT1.
+FT   MOD_RES     176    176       Phosphoserine; by MAP3K14.
+FT   MOD_RES     179    179       O-acetylthreonine; by Yersinia yopJ.
+FT   VARIANT     126    126       S -> C (in dbSNP:rs34427437).
+FT                                /FTId=VAR_040565.
+FT   VARIANT     155    155       V -> A (in dbSNP:rs2230803).
+FT                                /FTId=VAR_040566.
+FT   VARIANT     268    268       I -> V (in dbSNP:rs2230804).
+FT                                /FTId=VAR_021359.
+FT   MUTAGEN      23     23       T->A: Loss of phosphorylation and
+FT                                decrease of kinase activity.
+FT   MUTAGEN      44     44       K->A: Loss of kinase activity.
+FT   MUTAGEN      44     44       K->M: Loss of autophosphorylation.
+FT   MUTAGEN     176    176       S->A: Loss of phosphorylation and of
+FT                                activity.
+FT   MUTAGEN     176    176       S->E: Full activation.
+FT   MUTAGEN     179    179       T->A: No change in phosphorylation.
+FT   MUTAGEN     180    180       S->A: No change in phosphorylation.
+FT   CONFLICT    543    543       E -> G (in Ref. 2; AAC51671).
+FT   CONFLICT    604    604       L -> R (in Ref. 7; AAC50713).
+FT   CONFLICT    679    680       TS -> AY (in Ref. 7; AAC50713).
+FT   CONFLICT    684    684       P -> A (in Ref. 3; no nucleotide entry
+FT                                and 7; AAC50713).
+FT   CONFLICT    686    687       TS -> DL (in Ref. 7; AAC50713).
+SQ   SEQUENCE   745 AA;  84654 MW;  7A90B59BC98A56C2 CRC64;
+     MERPPGLRPG AGGPWEMRER LGTGGFGNVC LYQHRELDLK IAIKSCRLEL STKNRERWCH
+     EIQIMKKLNH ANVVKACDVP EELNILIHDV PLLAMEYCSG GDLRKLLNKP ENCCGLKESQ
+     ILSLLSDIGS GIRYLHENKI IHRDLKPENI VLQDVGGKII HKIIDLGYAK DVDQGSLCTS
+     FVGTLQYLAP ELFENKPYTA TVDYWSFGTM VFECIAGYRP FLHHLQPFTW HEKIKKKDPK
+     CIFACEEMSG EVRFSSHLPQ PNSLCSLIVE PMENWLQLML NWDPQQRGGP VDLTLKQPRC
+     FVLMDHILNL KIVHILNMTS AKIISFLLPP DESLHSLQSR IERETGINTG SQELLSETGI
+     SLDPRKPASQ CVLDGVRGCD SYMVYLFDKS KTVYEGPFAS RSLSDCVNYI VQDSKIQLPI
+     IQLRKVWAEA VHYVSGLKED YSRLFQGQRA AMLSLLRYNA NLTKMKNTLI SASQQLKAKL
+     EFFHKSIQLD LERYSEQMTY GISSEKMLKA WKEMEEKAIH YAEVGVIGYL EDQIMSLHAE
+     IMELQKSPYG RRQGDLMESL EQRAIDLYKQ LKHRPSDHSY SDSTEMVKII VHTVQSQDRV
+     LKELFGHLSK LLGCKQKIID LLPKVEVALS NIKEADNTVM FMQGKRQKEI WHLLKIACTQ
+     SSARSLVGSS LEGAVTPQTS AWLPPTSAEH DHSLSCVVTP QDGETSAQMI EENLNCLGHL
+     STIIHEANEE QGNSMMNLDW SWLTE
+//

@@ -1,0 +1,682 @@
+ID   STK6_HUMAN              Reviewed;         403 AA.
+AC   O14965; O60445; O75873; Q9BQD6; Q9UPG5;
+DT   27-JAN-2003, integrated into UniProtKB/Swiss-Prot.
+DT   27-JAN-2003, sequence version 2.
+DT   02-NOV-2010, entry version 126.
+DE   RecName: Full=Serine/threonine-protein kinase 6;
+DE            EC=2.7.11.1;
+DE   AltName: Full=Aurora kinase A;
+DE   AltName: Full=Aurora/IPL1-related kinase 1;
+DE            Short=ARK-1;
+DE            Short=Aurora-related kinase 1;
+DE            Short=hARK1;
+DE   AltName: Full=Breast tumor-amplified kinase;
+DE   AltName: Full=Serine/threonine-protein kinase 15;
+DE   AltName: Full=Serine/threonine-protein kinase aurora-A;
+GN   Name=AURKA; Synonyms=AIK, ARK1, AURA, BTAK, STK15, STK6;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Blood;
+RX   MEDLINE=97298083; PubMed=9153231; DOI=10.1074/jbc.272.21.13766;
+RA   Kimura M., Kotani S., Hattori T., Sumi N., Yoshioka T., Todokoro K.,
+RA   Okano Y.;
+RT   "Cell cycle-dependent expression and spindle pole localization of a
+RT   novel human protein kinase, Aik, related to Aurora of Drosophila and
+RT   yeast Ipl1.";
+RL   J. Biol. Chem. 272:13766-13771(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND VARIANT ILE-57.
+RX   MEDLINE=98183439; PubMed=9514916; DOI=10.1006/bbrc.1998.8250;
+RA   Shindo M., Nakano H., Kuroyanagi H., Shirasawa T., Mihara M.,
+RA   Gilbert D.J., Jenkins N.A., Copeland N.G., Yagita H., Okumura K.;
+RT   "cDNA cloning, expression, subcellular localization, and chromosomal
+RT   assignment of mammalian aurora homologues, aurora-related kinase (ARK)
+RT   1 and 2.";
+RL   Biochem. Biophys. Res. Commun. 244:285-292(1998).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND VARIANT ILE-31.
+RC   TISSUE=Mammary gland;
+RX   MEDLINE=98442657; PubMed=9771714; DOI=10.1038/2496;
+RA   Zhou H., Kuang J., Zhong L., Kuo W.-L., Gray J.W., Sahin A.,
+RA   Brinkley B.R., Sen S.;
+RT   "Tumour amplified kinase STK15/BTAK induces centrosome amplification,
+RT   aneuploidy and transformation.";
+RL   Nat. Genet. 20:189-193(1998).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RA   Wang L., Thibodeau S.N.;
+RT   "Mutational analysis of the STK15 gene in human tumors.";
+RL   Submitted (OCT-1999) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   MEDLINE=21638749; PubMed=11780052; DOI=10.1038/414865a;
+RA   Deloukas P., Matthews L.H., Ashurst J.L., Burton J., Gilbert J.G.R.,
+RA   Jones M., Stavrides G., Almeida J.P., Babbage A.K., Bagguley C.L.,
+RA   Bailey J., Barlow K.F., Bates K.N., Beard L.M., Beare D.M.,
+RA   Beasley O.P., Bird C.P., Blakey S.E., Bridgeman A.M., Brown A.J.,
+RA   Buck D., Burrill W.D., Butler A.P., Carder C., Carter N.P.,
+RA   Chapman J.C., Clamp M., Clark G., Clark L.N., Clark S.Y., Clee C.M.,
+RA   Clegg S., Cobley V.E., Collier R.E., Connor R.E., Corby N.R.,
+RA   Coulson A., Coville G.J., Deadman R., Dhami P.D., Dunn M.,
+RA   Ellington A.G., Frankland J.A., Fraser A., French L., Garner P.,
+RA   Grafham D.V., Griffiths C., Griffiths M.N.D., Gwilliam R., Hall R.E.,
+RA   Hammond S., Harley J.L., Heath P.D., Ho S., Holden J.L., Howden P.J.,
+RA   Huckle E., Hunt A.R., Hunt S.E., Jekosch K., Johnson C.M., Johnson D.,
+RA   Kay M.P., Kimberley A.M., King A., Knights A., Laird G.K., Lawlor S.,
+RA   Lehvaeslaiho M.H., Leversha M.A., Lloyd C., Lloyd D.M., Lovell J.D.,
+RA   Marsh V.L., Martin S.L., McConnachie L.J., McLay K., McMurray A.A.,
+RA   Milne S.A., Mistry D., Moore M.J.F., Mullikin J.C., Nickerson T.,
+RA   Oliver K., Parker A., Patel R., Pearce T.A.V., Peck A.I.,
+RA   Phillimore B.J.C.T., Prathalingam S.R., Plumb R.W., Ramsay H.,
+RA   Rice C.M., Ross M.T., Scott C.E., Sehra H.K., Shownkeen R., Sims S.,
+RA   Skuce C.D., Smith M.L., Soderlund C., Steward C.A., Sulston J.E.,
+RA   Swann R.M., Sycamore N., Taylor R., Tee L., Thomas D.W., Thorpe A.,
+RA   Tracey A., Tromans A.C., Vaudin M., Wall M., Wallis J.M.,
+RA   Whitehead S.L., Whittaker P., Willey D.L., Williams L., Williams S.A.,
+RA   Wilming L., Wray P.W., Hubbard T., Durbin R.M., Bentley D.R., Beck S.,
+RA   Rogers J.;
+RT   "The DNA sequence and comparative analysis of human chromosome 20.";
+RL   Nature 414:865-871(2001).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Cervix, Colon, Kidney, and Muscle;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [7]
+RP   UBIQUITINATION, PROTEASOMAL DEGRADATION, AND MUTAGENESIS OF ARG-205.
+RX   PubMed=10851084; DOI=10.1038/sj.onc.1203609;
+RA   Honda K., Mihara H., Kato Y., Yamaguchi A., Tanaka H., Yasuda H.,
+RA   Furukawa K., Urano T.;
+RT   "Degradation of human Aurora2 protein kinase by the anaphase-promoting
+RT   complex-ubiquitin-proteasome pathway.";
+RL   Oncogene 19:2812-2819(2000).
+RN   [8]
+RP   INDUCTION.
+RX   MEDLINE=21895866; PubMed=11790771; DOI=10.1074/jbc.M108252200;
+RA   Tanaka M., Ueda A., Kanamori H., Ideguchi H., Yang J., Kitajima S.,
+RA   Ishigatsubo Y.;
+RT   "Cell-cycle-dependent regulation of human aurora A transcription is
+RT   mediated by periodic repression of E4TF1.";
+RL   J. Biol. Chem. 277:10719-10726(2002).
+RN   [9]
+RP   INTERACTION WITH TACC1.
+RX   PubMed=14603251; DOI=10.1038/sj.onc.1206972;
+RA   Conte N., Delaval B., Ginestier C., Ferrand A., Isnardon D.,
+RA   Larroque C., Prigent C., Seraphin B., Jacquemier J., Birnbaum D.;
+RT   "TACC1-chTOG-Aurora A protein complex in breast cancer.";
+RL   Oncogene 22:8102-8116(2003).
+RN   [10]
+RP   FUNCTION, INTERACTION WITH BRCA1, PHOSPHORYLATION AT THR-288, AND
+RP   MUTAGENESIS OF LYS-162.
+RX   PubMed=14990569; DOI=10.1074/jbc.M311780200;
+RA   Ouchi M., Fujiuchi N., Sasai K., Katayama H., Minamishima Y.A.,
+RA   Ongusaha P.P., Deng C., Sen S., Lee S.W., Ouchi T.;
+RT   "BRCA1 phosphorylation by Aurora-A in the regulation of G2 to M
+RT   transition.";
+RL   J. Biol. Chem. 279:19643-19648(2004).
+RN   [11]
+RP   INTERACTION WITH CPEB1.
+RX   PubMed=15966895; DOI=10.1111/j.1365-2443.2005.00870.x;
+RA   Sasayama T., Marumoto T., Kunitoku N., Zhang D., Tamaki N.,
+RA   Kohmura E., Saya H., Hirota T.;
+RT   "Over-expression of Aurora-A targets cytoplasmic polyadenylation
+RT   element binding protein and promotes mRNA polyadenylation of Cdk1 and
+RT   cyclin B1.";
+RL   Genes Cells 10:627-638(2005).
+RN   [12]
+RP   INTERACTION WITH BORA.
+RX   PubMed=16890155; DOI=10.1016/j.devcel.2006.06.002;
+RA   Hutterer A., Berdnik D., Wirtz-Peitz F., Zigman M., Schleiffer A.,
+RA   Knoblich J.A.;
+RT   "Mitotic activation of the kinase Aurora-A requires its binding
+RT   partner Bora.";
+RL   Dev. Cell 11:147-157(2006).
+RN   [13]
+RP   FUNCTION.
+RX   PubMed=18056443; DOI=10.1158/0008-5472.CAN-07-2578;
+RA   Sankaran S., Crone D.E., Palazzo R.E., Parvin J.D.;
+RT   "Aurora-A kinase regulates breast cancer associated gene 1 inhibition
+RT   of centrosome-dependent microtubule nucleation.";
+RL   Cancer Res. 67:11186-11194(2007).
+RN   [14]
+RP   INTERACTION WITH ARHGEF2.
+RX   PubMed=17488622; DOI=10.1016/j.devcel.2007.03.014;
+RA   Birkenfeld J., Nalbant P., Bohl B.P., Pertz O., Hahn K.M.,
+RA   Bokoch G.M.;
+RT   "GEF-H1 modulates localized RhoA activation during cytokinesis under
+RT   the control of mitotic kinases.";
+RL   Dev. Cell 12:699-712(2007).
+RN   [15]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-369, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Embryonic kidney;
+RX   PubMed=17525332; DOI=10.1126/science.1140321;
+RA   Matsuoka S., Ballif B.A., Smogorzewska A., McDonald E.R. III,
+RA   Hurov K.E., Luo J., Bakalarski C.E., Zhao Z., Solimini N.,
+RA   Lerenthal Y., Shiloh Y., Gygi S.P., Elledge S.J.;
+RT   "ATM and ATR substrate analysis reveals extensive protein networks
+RT   responsive to DNA damage.";
+RL   Science 316:1160-1166(2007).
+RN   [16]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-51, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=19007248; DOI=10.1021/ac801708p;
+RA   Wang B., Malik R., Nigg E.A., Korner R.;
+RT   "Evaluation of the low-specificity protease elastase for large-scale
+RT   phosphoproteome analysis.";
+RL   Anal. Chem. 80:9526-9533(2008).
+RN   [17]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-41; SER-51 AND SER-83,
+RP   AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [18]
+RP   FUNCTION.
+RX   PubMed=18615013; DOI=10.1038/nature07185;
+RA   Macurek L., Lindqvist A., Lim D., Lampson M.A., Klompmaker R.,
+RA   Freire R., Clouin C., Taylor S.S., Yaffe M.B., Medema R.H.;
+RT   "Polo-like kinase-1 is activated by aurora A to promote checkpoint
+RT   recovery.";
+RL   Nature 455:119-123(2008).
+RN   [19]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RA   Colinge J., Superti-Furga G., Bennett K.L.;
+RL   Submitted (OCT-2008) to UniProtKB.
+RN   [20]
+RP   FUNCTION, AUTOPHOSPHORYLATION, AND INTERACTION WITH PARD3.
+RX   PubMed=19812038; DOI=10.1074/jbc.M109.055897;
+RA   Khazaei M.R., Puschel A.W.;
+RT   "Phosphorylation of the par polarity complex protein Par3 at serine
+RT   962 is mediated by aurora A and regulates its function in neuronal
+RT   polarity.";
+RL   J. Biol. Chem. 284:33571-33579(2009).
+RN   [21]
+RP   FUNCTION, SUBCELLULAR LOCATION, AND INTERACTION WITH KIF2A.
+RX   PubMed=19351716; DOI=10.1242/jcs.044321;
+RA   Jang C.Y., Coppinger J.A., Seki A., Yates J.R. III, Fang G.;
+RT   "Plk1 and Aurora A regulate the depolymerase activity and the cellular
+RT   localization of Kif2a.";
+RL   J. Cell Sci. 122:1334-1341(2009).
+RN   [22]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-53, AND MASS
+RP   SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [23]
+RP   FUNCTION, INTERACTION WITH TPX2, PHOSPHORYLATION AT THR-287 AND
+RP   THR-288, AND MUTAGENESIS OF THR287.
+RX   PubMed=19668197; DOI=10.1038/ncb1919;
+RA   Mori D., Yamada M., Mimori-Kiyosue Y., Shirai Y., Suzuki A., Ohno S.,
+RA   Saya H., Wynshaw-Boris A., Hirotsune S.;
+RT   "An essential role of the aPKC-Aurora A-NDEL1 pathway in neurite
+RT   elongation by modulation of microtubule dynamics.";
+RL   Nat. Cell Biol. 11:1057-1068(2009).
+RN   [24]
+RP   INTERACTION WITH TPX2, MUTAGENESIS OF GLY-198, SUBCELLULAR LOCATION,
+RP   AND FUNCTION.
+RX   PubMed=19357306; DOI=10.1073/pnas.0900833106;
+RA   Fu J., Bian M., Liu J., Jiang Q., Zhang C.;
+RT   "A single amino acid change converts Aurora-A into Aurora-B-like
+RT   kinase in terms of partner specificity and cellular function.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 106:6939-6944(2009).
+RN   [25]
+RP   X-RAY CRYSTALLOGRAPHY (2.9 ANGSTROMS) OF 107-403 IN COMPLEX WITH
+RP   ADENOSINE, AND CATALYTIC ACTIVITY.
+RX   PubMed=12237287; DOI=10.1074/jbc.C200426200;
+RA   Cheetham G.M., Knegtel R.M., Coll J.T., Renwick S.B., Swenson L.,
+RA   Weber P., Lippke J.A., Austen D.A.;
+RT   "Crystal structure of aurora-2, an oncogenic serine/threonine
+RT   kinase.";
+RL   J. Biol. Chem. 277:42419-42422(2002).
+RN   [26]
+RP   X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS) OF 125-391 IN COMPLEX WITH ADP.
+RX   MEDLINE=22357219; PubMed=12467573; DOI=10.1016/S0969-2126(02)00907-3;
+RA   Nowakowski J., Cronin C.N., McRee D.E., Knuth M.W., Nelson C.G.,
+RA   Pavletich N.P., Rogers J., Sang B.C., Scheibe D.N., Swanson R.V.,
+RA   Thompson D.A.;
+RT   "Structures of the cancer-related Aurora-A, FAK, and EphA2 protein
+RT   kinases from nanovolume crystallography.";
+RL   Structure 10:1659-1667(2002).
+RN   [27]
+RP   X-RAY CRYSTALLOGRAPHY (2.5 ANGSTROMS) OF 122-403 IN COMPLEX WITH TPX2,
+RP   MUTAGENESIS OF ASP-274, ACTIVE SITE, AND PHOSPHORYLATION AT THR-287
+RP   AND THR-288.
+RX   PubMed=14580337; DOI=10.1016/S1097-2765(03)00392-7;
+RA   Bayliss R., Sardon T., Vernos I., Conti E.;
+RT   "Structural basis of Aurora-A activation by TPX2 at the mitotic
+RT   spindle.";
+RL   Mol. Cell 12:851-862(2003).
+RN   [28]
+RP   X-RAY CRYSTALLOGRAPHY (2.1 ANGSTROMS) OF 123-401 IN COMPLEXES WITH
+RP   ADPNP AND 5-AMINOPYRIMIDINYL QUINAZOLINE INHIBITOR, AND CATALYTIC
+RP   ACTIVITY.
+RX   PubMed=16337122; DOI=10.1016/j.bmcl.2005.11.053;
+RA   Heron N.M., Anderson M., Blowers D.P., Breed J., Eden J.M., Green S.,
+RA   Hill G.B., Johnson T., Jung F.H., McMiken H.H., Mortlock A.A.,
+RA   Pannifer A.D., Pauptit R.A., Pink J., Roberts N.J., Rowsell S.;
+RT   "SAR and inhibitor complex structure determination of a novel class of
+RT   potent and specific Aurora kinase inhibitors.";
+RL   Bioorg. Med. Chem. Lett. 16:1320-1323(2006).
+RN   [29]
+RP   X-RAY CRYSTALLOGRAPHY (2.0 ANGSTROMS) OF 100-403 IN COMPLEXES WITH
+RP   SYNTHETIC INHIBITORS, AND FUNCTION.
+RX   PubMed=17125279; DOI=10.1021/jm060897w;
+RA   Fancelli D., Moll J., Varasi M., Bravo R., Artico R., Berta D.,
+RA   Bindi S., Cameron A., Candiani I., Cappella P., Carpinelli P.,
+RA   Croci W., Forte B., Giorgini M.L., Klapwijk J., Marsiglio A.,
+RA   Pesenti E., Rocchetti M., Roletto F., Severino D., Soncini C.,
+RA   Storici P., Tonani R., Zugnoni P., Vianello P.;
+RT   "1,4,5,6-tetrahydropyrrolo[3,4-c]pyrazoles: identification of a potent
+RT   aurora kinase inhibitor with a favorable antitumor kinase inhibition
+RT   profile.";
+RL   J. Med. Chem. 49:7247-7251(2006).
+RN   [30]
+RP   X-RAY CRYSTALLOGRAPHY (2.3 ANGSTROMS) OF 125-391 IN COMPLEX WITH
+RP   VX-680 AND TPX2, PHOSPHORYLATION AT THR-288, MASS SPECTROMETRY, AND
+RP   SUBUNIT.
+RX   PubMed=18662907; DOI=10.1110/ps.036590.108;
+RA   Zhao B., Smallwood A., Yang J., Koretke K., Nurse K., Calamari A.,
+RA   Kirkpatrick R.B., Lai Z.;
+RT   "Modulation of kinase-inhibitor interactions by auxiliary protein
+RT   binding: crystallography studies on Aurora A interactions with VX-680
+RT   and with TPX2.";
+RL   Protein Sci. 17:1791-1797(2008).
+RN   [31]
+RP   X-RAY CRYSTALLOGRAPHY (2.5 ANGSTROMS) OF 127-388 IN COMPLEX WITH ADP,
+RP   CHARACTERIZATION OF VARIANTS ARG-155 AND MET-174, AND INTERACTION WITH
+RP   TPX2.
+RX   PubMed=19801554; DOI=10.1074/jbc.M109.032722;
+RA   Bibby R.A., Tang C., Faisal A., Drosopoulos K., Lubbe S., Houlston R.,
+RA   Bayliss R., Linardopoulos S.;
+RT   "A cancer-associated aurora A mutant is mislocalized and misregulated
+RT   due to loss of interaction with TPX2.";
+RL   J. Biol. Chem. 284:33177-33184(2009).
+RN   [32]
+RP   X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS) OF 123-401 IN COMPLEX WITH
+RP   SYNTHETIC INHIBITOR, AND CATALYTIC ACTIVITY.
+RX   PubMed=19140666; DOI=10.1021/jm801270e;
+RA   Coumar M.S., Leou J.S., Shukla P., Wu J.S., Dixit A.K., Lin W.H.,
+RA   Chang C.Y., Lien T.W., Tan U.K., Chen C.H., Hsu J.T., Chao Y.S.,
+RA   Wu S.Y., Hsieh H.P.;
+RT   "Structure-based drug design of novel Aurora kinase A inhibitors:
+RT   structural basis for potency and specificity.";
+RL   J. Med. Chem. 52:1050-1062(2009).
+RN   [33]
+RP   X-RAY CRYSTALLOGRAPHY (2.2 ANGSTROMS) OF 125-391 IN COMPLEX WITH
+RP   SYNTHETIC INHIBITOR, AND CATALYTIC ACTIVITY.
+RX   PubMed=19402633; DOI=10.1021/jm9000314;
+RA   Aliagas-Martin I., Burdick D., Corson L., Dotson J., Drummond J.,
+RA   Fields C., Huang O.W., Hunsaker T., Kleinheinz T., Krueger E.,
+RA   Liang J., Moffat J., Phillips G., Pulk R., Rawson T.E., Ultsch M.,
+RA   Walker L., Wiesmann C., Zhang B., Zhu B.Y., Cochran A.G.;
+RT   "A class of 2,4-bisanilinopyrimidine Aurora A inhibitors with
+RT   unusually high selectivity against Aurora B.";
+RL   J. Med. Chem. 52:3300-3307(2009).
+RN   [34]
+RP   VARIANTS ILE-31 AND ILE-57.
+RX   PubMed=15867347; DOI=10.1158/0008-5472.CAN-04-2149;
+RA   Kimura M.T., Mori T., Conroy J., Nowak N.J., Satomi S., Tamai K.,
+RA   Nagase H.;
+RT   "Two functional coding single nucleotide polymorphisms in STK15
+RT   (Aurora-A) coordinately increase esophageal cancer risk.";
+RL   Cancer Res. 65:3548-3554(2005).
+RN   [35]
+RP   VARIANTS ILE-31 AND ILE-57.
+RX   PubMed=16011022;
+RA   Chen L., Ao X., Ren Q., Wang Z.N., Lu C., Xu Y., Jiang L., Luo Y.,
+RA   Xu H.M., Zhang X.;
+RT   "Linkage disequilibrium and haplotype analysis of two single
+RT   nucleotide polymorphisms in STK15 in Chinese.";
+RL   Yi Chuan Xue Bao 32:331-336(2005).
+RN   [36]
+RP   VARIANT ILE-31.
+RX   PubMed=16762494; DOI=10.1016/j.canlet.2006.05.002;
+RA   Tchatchou S., Wirtenberger M., Hemminki K., Sutter C., Meindl A.,
+RA   Wappenschmidt B., Kiechle M., Bugert P., Schmutzler R.K.,
+RA   Bartram C.R., Burwinkel B.;
+RT   "Aurora kinases A and B and familial breast cancer risk.";
+RL   Cancer Lett. 247:266-272(2007).
+RN   [37]
+RP   VARIANTS [LARGE SCALE ANALYSIS] ILE-31; LEU-50; ILE-57; ARG-155;
+RP   MET-174 AND VAL-373.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Contributes to the regulation of cell cycle progression.
+CC       Required for normal mitosis. Associates with the centrosome and
+CC       the spindle microtubules during mitosis and functions in
+CC       centrosome maturation, spindle assembly, maintenance of spindle
+CC       bipolarity, centrosome separation and mitotic checkpoint control.
+CC       Phosphorylates numerous target proteins, including ARHGEF2, BRCA1,
+CC       KIF2A, NDEL1, PARD3, PLK1 and BORA. Regulates KIF2A tubulin
+CC       depolymerase activity (By similarity). Required for normal axon
+CC       formation. Plays a role in microtubule remodeling during neurite
+CC       extension. Important for microtubule formation and/or
+CC       stabilization.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- SUBUNIT: Interacts with TPX2. Interacts with TACC1 and CPEB1.
+CC       Interacts with its substrates BORA, BRCA1, KIF2A, PARD3 and
+CC       ARHGEF2. Interaction with BORA promotes phosphorylation of PLK1.
+CC   -!- INTERACTION:
+CC       Q9NWT8:AURKAIP1; NbExp=2; IntAct=EBI-448680, EBI-448665;
+CC       P42771:CDKN2A; NbExp=1; IntAct=EBI-448680, EBI-375053;
+CC       Q01469:FABP5; NbExp=1; IntAct=EBI-448680, EBI-1054073;
+CC       P04198:MYCN; NbExp=2; IntAct=EBI-448680, EBI-878369;
+CC       P61026:RAB10; NbExp=1; IntAct=EBI-448680, EBI-726075;
+CC       P04179:SOD2; NbExp=1; IntAct=EBI-448680, EBI-716989;
+CC       O75410:TACC1; NbExp=1; IntAct=EBI-448680, EBI-624237;
+CC       Q9ULW0:TPX2; NbExp=1; IntAct=EBI-448680, EBI-1037322;
+CC       P68036:UBE2L3; NbExp=1; IntAct=EBI-448680, EBI-711173;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytoskeleton, centrosome.
+CC       Cytoplasm, cytoskeleton, spindle pole. Note=Detected at the
+CC       neurite hillock in developing neurons (By similarity). Localizes
+CC       on centrosomes in interphase cells and at each spindle pole in
+CC       mitosis.
+CC   -!- TISSUE SPECIFICITY: Highly expressed in testis and weakly in
+CC       skeletal muscle, thymus and spleen. Also highly expressed in
+CC       colon, ovarian, prostate, neuroblastoma, breast and cervical
+CC       cancer cell lines.
+CC   -!- INDUCTION: Expression is cell-cycle regulated, low in G1/S,
+CC       accumulates during G2/M, and decreases rapidly after.
+CC   -!- PTM: Activated by phosphorylation at Thr-288; this brings about a
+CC       change in the conformation of the activation segment.
+CC       Phosphorylation at Thr-288 varies during the cell cycle and is
+CC       highest during M phase. Autophosphorylated at Thr-288 upon TPX2
+CC       binding. Phosphorylated upon DNA damage, probably by ATM or ATR.
+CC   -!- PTM: Ubiquitinated by CHFR, leading to its degradation by the
+CC       proteasome (By similarity). Ubiquitinated by the anaphase-
+CC       promoting complex (APC), leading to its degradation by the
+CC       proteasome.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Ser/Thr
+CC       protein kinase family. Aurora subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- CAUTION: Although authors have considered STK6 and STK15 as two
+CC       different proteins, it is clear that they are the same protein.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=BAA23592.1; Type=Frameshift; Positions=105, 125, 129, 235, 241;
+CC   -!- WEB RESOURCE: Name=Atlas of Genetics and Cytogenetics in Oncology
+CC       and Haematology;
+CC       URL="http://atlasgeneticsoncology.org/Genes/AURKAID730ch20q13.html";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; D84212; BAA23592.1; ALT_FRAME; mRNA.
+DR   EMBL; AF008551; AAC12708.1; -; mRNA.
+DR   EMBL; AF011467; AAC23448.1; -; Genomic_DNA.
+DR   EMBL; AF011468; AAC63902.1; -; mRNA.
+DR   EMBL; AF195947; AAF29508.1; -; Genomic_DNA.
+DR   EMBL; AF195942; AAF29508.1; JOINED; Genomic_DNA.
+DR   EMBL; AF195943; AAF29508.1; JOINED; Genomic_DNA.
+DR   EMBL; AF195944; AAF29508.1; JOINED; Genomic_DNA.
+DR   EMBL; AF195945; AAF29508.1; JOINED; Genomic_DNA.
+DR   EMBL; AF195946; AAF29508.1; JOINED; Genomic_DNA.
+DR   EMBL; AL121914; CAC12717.1; -; Genomic_DNA.
+DR   EMBL; BC001280; AAH01280.1; -; mRNA.
+DR   EMBL; BC002499; AAH02499.1; -; mRNA.
+DR   EMBL; BC006423; AAH06423.1; -; mRNA.
+DR   EMBL; BC027464; AAH27464.1; -; mRNA.
+DR   IPI; IPI00298940; -.
+DR   PIR; JC5974; JC5974.
+DR   RefSeq; NP_003591.2; -.
+DR   RefSeq; NP_940835.1; -.
+DR   RefSeq; NP_940836.1; -.
+DR   RefSeq; NP_940837.1; -.
+DR   RefSeq; NP_940838.1; -.
+DR   RefSeq; NP_940839.1; -.
+DR   UniGene; Hs.250822; -.
+DR   PDB; 1MQ4; X-ray; 1.90 A; A=125-391.
+DR   PDB; 1MUO; X-ray; 2.90 A; A=107-403.
+DR   PDB; 1OL5; X-ray; 2.50 A; A=122-403.
+DR   PDB; 1OL6; X-ray; 3.00 A; A=122-403.
+DR   PDB; 1OL7; X-ray; 2.75 A; A=122-403.
+DR   PDB; 2BMC; X-ray; 2.60 A; A/B/C/D/E/F=100-403.
+DR   PDB; 2C6D; X-ray; 2.20 A; A=124-398.
+DR   PDB; 2C6E; X-ray; 2.10 A; A/B=123-401.
+DR   PDB; 2DWB; X-ray; 2.50 A; A=122-403.
+DR   PDB; 2J4Z; X-ray; 2.00 A; A/B=100-403.
+DR   PDB; 2J50; X-ray; 3.00 A; A/B=126-403.
+DR   PDB; 2NP8; X-ray; 2.25 A; A=125-391.
+DR   PDB; 2W1C; X-ray; 3.24 A; A=122-389.
+DR   PDB; 2W1D; X-ray; 2.97 A; A=122-389.
+DR   PDB; 2W1E; X-ray; 2.93 A; A=122-389.
+DR   PDB; 2W1F; X-ray; 2.85 A; A=122-389.
+DR   PDB; 2W1G; X-ray; 2.71 A; A=122-389.
+DR   PDB; 2WQE; X-ray; 2.50 A; A=127-388.
+DR   PDB; 2WTV; X-ray; 2.40 A; A/B/C/D=122-403.
+DR   PDB; 2WTW; X-ray; 3.30 A; A=122-403.
+DR   PDB; 2X6D; X-ray; 2.80 A; A=122-403.
+DR   PDB; 2X6E; X-ray; 3.35 A; A=122-403.
+DR   PDB; 2X81; X-ray; 2.91 A; A=125-391.
+DR   PDB; 2XNE; X-ray; 2.80 A; A=122-392.
+DR   PDB; 2XNG; X-ray; 2.60 A; A=122-403.
+DR   PDB; 3COH; X-ray; 2.70 A; A/B=125-391.
+DR   PDB; 3E5A; X-ray; 2.30 A; A=125-391.
+DR   PDB; 3EFW; X-ray; 2.29 A; A/B=1-403.
+DR   PDB; 3FDN; X-ray; 1.90 A; A=123-401.
+DR   PDB; 3H0Y; X-ray; 2.50 A; A=125-391.
+DR   PDB; 3H0Z; X-ray; 2.92 A; A/B/C=125-391.
+DR   PDB; 3H10; X-ray; 2.20 A; A/B/D=125-391.
+DR   PDB; 3HA6; X-ray; 2.36 A; A=125-391.
+DR   PDB; 3LAU; X-ray; 2.10 A; A=125-399.
+DR   PDB; 3MYG; X-ray; 2.40 A; A=125-391.
+DR   PDB; 3NRM; X-ray; 3.05 A; A=126-403.
+DR   PDBsum; 1MQ4; -.
+DR   PDBsum; 1MUO; -.
+DR   PDBsum; 1OL5; -.
+DR   PDBsum; 1OL6; -.
+DR   PDBsum; 1OL7; -.
+DR   PDBsum; 2BMC; -.
+DR   PDBsum; 2C6D; -.
+DR   PDBsum; 2C6E; -.
+DR   PDBsum; 2DWB; -.
+DR   PDBsum; 2J4Z; -.
+DR   PDBsum; 2J50; -.
+DR   PDBsum; 2NP8; -.
+DR   PDBsum; 2W1C; -.
+DR   PDBsum; 2W1D; -.
+DR   PDBsum; 2W1E; -.
+DR   PDBsum; 2W1F; -.
+DR   PDBsum; 2W1G; -.
+DR   PDBsum; 2WQE; -.
+DR   PDBsum; 2WTV; -.
+DR   PDBsum; 2WTW; -.
+DR   PDBsum; 2X6D; -.
+DR   PDBsum; 2X6E; -.
+DR   PDBsum; 2X81; -.
+DR   PDBsum; 2XNE; -.
+DR   PDBsum; 2XNG; -.
+DR   PDBsum; 3COH; -.
+DR   PDBsum; 3E5A; -.
+DR   PDBsum; 3EFW; -.
+DR   PDBsum; 3FDN; -.
+DR   PDBsum; 3H0Y; -.
+DR   PDBsum; 3H0Z; -.
+DR   PDBsum; 3H10; -.
+DR   PDBsum; 3HA6; -.
+DR   PDBsum; 3LAU; -.
+DR   PDBsum; 3MYG; -.
+DR   PDBsum; 3NRM; -.
+DR   ProteinModelPortal; O14965; -.
+DR   DIP; DIP-33068N; -.
+DR   IntAct; O14965; 30.
+DR   STRING; O14965; -.
+DR   PhosphoSite; O14965; -.
+DR   PRIDE; O14965; -.
+DR   Ensembl; ENST00000312783; ENSP00000321591; ENSG00000087586.
+DR   Ensembl; ENST00000347343; ENSP00000216911; ENSG00000087586.
+DR   Ensembl; ENST00000371356; ENSP00000360407; ENSG00000087586.
+DR   Ensembl; ENST00000395909; ENSP00000379245; ENSG00000087586.
+DR   Ensembl; ENST00000395911; ENSP00000379247; ENSG00000087586.
+DR   Ensembl; ENST00000395913; ENSP00000379249; ENSG00000087586.
+DR   Ensembl; ENST00000395914; ENSP00000379250; ENSG00000087586.
+DR   Ensembl; ENST00000395915; ENSP00000379251; ENSG00000087586.
+DR   GeneID; 6790; -.
+DR   KEGG; hsa:6790; -.
+DR   CTD; 6790; -.
+DR   GeneCards; GC20M054944; -.
+DR   H-InvDB; HIX0015930; -.
+DR   HGNC; HGNC:11393; AURKA.
+DR   HPA; CAB001454; -.
+DR   HPA; HPA002636; -.
+DR   MIM; 603072; gene.
+DR   PharmGKB; PA36201; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG108519; -.
+DR   InParanoid; O14965; -.
+DR   PhylomeDB; O14965; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   Pathway_Interaction_DB; aurora_a_pathway; Aurora A signaling.
+DR   Pathway_Interaction_DB; aurora_b_pathway; Aurora B signaling.
+DR   Pathway_Interaction_DB; aurora_kinase_pathway; Signaling by Aurora kinases.
+DR   Reactome; REACT_152; Cell Cycle, Mitotic.
+DR   BindingDB; O14965; -.
+DR   NextBio; 26512; -.
+DR   ArrayExpress; O14965; -.
+DR   Bgee; O14965; -.
+DR   CleanEx; HS_AURKA; -.
+DR   Genevestigator; O14965; -.
+DR   GermOnline; ENSG00000087586; Homo sapiens.
+DR   GO; GO:0005634; C:nucleus; TAS:ProtInc.
+DR   GO; GO:0005876; C:spindle microtubule; IDA:BHF-UCL.
+DR   GO; GO:0031616; C:spindle pole centrosome; IDA:BHF-UCL.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0019901; F:protein kinase binding; IPI:UniProtKB.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0007067; P:mitosis; TAS:ProtInc.
+DR   GO; GO:0048015; P:phosphoinositide-mediated signaling; NAS:UniProtKB.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; TAS:ProtInc.
+DR   GO; GO:0031647; P:regulation of protein stability; IMP:UniProtKB.
+DR   GO; GO:0007051; P:spindle organization; NAS:UniProtKB.
+DR   InterPro; IPR020636; Ca/CaM-dep_prot_kinase-like.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   InterPro; IPR020663; Spindle_assmbl_checkpoint_kin.
+DR   PANTHER; PTHR22982; Ca/CaM-dep_prot_kinase-like; 1.
+DR   PANTHER; PTHR22982:SF49; Spindle_assmbl_checkpoint_kin; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; ATP-binding; Cell cycle; Cell division;
+KW   Complete proteome; Cytoplasm; Cytoskeleton; Kinase; Microtubule;
+KW   Mitosis; Nucleotide-binding; Phosphoprotein; Polymorphism;
+KW   Proto-oncogene; Serine/threonine-protein kinase; Transferase;
+KW   Ubl conjugation.
+FT   CHAIN         1    403       Serine/threonine-protein kinase 6.
+FT                                /FTId=PRO_0000086692.
+FT   DOMAIN      133    383       Protein kinase.
+FT   NP_BIND     210    213       ATP.
+FT   REGION      280    293       Activation segment.
+FT   ACT_SITE    256    256       Proton acceptor.
+FT   BINDING     143    143       ATP; via amide nitrogen.
+FT   BINDING     162    162       ATP.
+FT   BINDING     274    274       ATP.
+FT   MOD_RES      41     41       Phosphoserine.
+FT   MOD_RES      51     51       Phosphoserine.
+FT   MOD_RES      53     53       Phosphoserine.
+FT   MOD_RES      83     83       Phosphoserine.
+FT   MOD_RES     287    287       Phosphothreonine.
+FT   MOD_RES     288    288       Phosphothreonine.
+FT   MOD_RES     369    369       Phosphoserine.
+FT   VARIANT      11     11       G -> R (in dbSNP:rs6069717).
+FT                                /FTId=VAR_030840.
+FT   VARIANT      31     31       F -> I (in dbSNP:rs2273535).
+FT                                /FTId=VAR_030841.
+FT   VARIANT      50     50       P -> L (in dbSNP:rs34572020).
+FT                                /FTId=VAR_041127.
+FT   VARIANT      57     57       V -> I (in dbSNP:rs1047972).
+FT                                /FTId=VAR_030842.
+FT   VARIANT     104    104       S -> L (in dbSNP:rs2230743).
+FT                                /FTId=VAR_061745.
+FT   VARIANT     155    155       S -> R (in a colorectal adenocarcinoma
+FT                                sample; somatic mutation; reduces
+FT                                interaction with TPX2).
+FT                                /FTId=VAR_041128.
+FT   VARIANT     174    174       V -> M (in a metastatic melanoma sample;
+FT                                somatic mutation; constitutively enhanced
+FT                                kinase activity).
+FT                                /FTId=VAR_041129.
+FT   VARIANT     373    373       M -> V (in dbSNP:rs33923703).
+FT                                /FTId=VAR_041130.
+FT   MUTAGEN     162    162       K->R: Loss of kinase activity.
+FT   MUTAGEN     198    198       G->N: Reduces interaction with TPX2.
+FT                                Reduces kinase activity tenfold. Promotes
+FT                                interaction with the AURKB binding
+FT                                partners INCENP and BIRC5 that are
+FT                                normally not bound by AURKA.
+FT   MUTAGEN     205    205       R->A: Reduces ubiquitination and
+FT                                proteasomal degradation.
+FT   MUTAGEN     274    274       D->N: Abolishes autophosphorylation.
+FT   MUTAGEN     287    287       T->A: No direct effect on catalytic
+FT                                activity.
+FT   MUTAGEN     287    287       T->E: Enhances interaction with TPX2.
+FT   HELIX       130    132
+FT   STRAND      133    141
+FT   STRAND      143    152
+FT   TURN        153    155
+FT   STRAND      158    165
+FT   HELIX       166    172
+FT   HELIX       175    187
+FT   STRAND      196    201
+FT   STRAND      203    210
+FT   HELIX       218    225
+FT   HELIX       230    249
+FT   HELIX       259    261
+FT   STRAND      262    264
+FT   STRAND      270    272
+FT   HELIX       275    277
+FT   STRAND      279    283
+FT   HELIX       298    301
+FT   HELIX       309    324
+FT   HELIX       334    343
+FT   HELIX       354    363
+FT   HELIX       368    370
+FT   HELIX       374    378
+FT   HELIX       381    386
+SQ   SEQUENCE   403 AA;  45809 MW;  125F3594834CD157 CRC64;
+     MDRSKENCIS GPVKATAPVG GPKRVLVTQQ FPCQNPLPVN SGQAQRVLCP SNSSQRVPLQ
+     AQKLVSSHKP VQNQKQKQLQ ATSVPHPVSR PLNNTQKSKQ PLPSAPENNP EEELASKQKN
+     EESKKRQWAL EDFEIGRPLG KGKFGNVYLA REKQSKFILA LKVLFKAQLE KAGVEHQLRR
+     EVEIQSHLRH PNILRLYGYF HDATRVYLIL EYAPLGTVYR ELQKLSKFDE QRTATYITEL
+     ANALSYCHSK RVIHRDIKPE NLLLGSAGEL KIADFGWSVH APSSRRTTLC GTLDYLPPEM
+     IEGRMHDEKV DLWSLGVLCY EFLVGKPPFE ANTYQETYKR ISRVEFTFPD FVTEGARDLI
+     SRLLKHNPSQ RPMLREVLEH PWITANSSKP SNCQNKESAS KQS
+//

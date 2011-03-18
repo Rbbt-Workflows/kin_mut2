@@ -1,0 +1,698 @@
+ID   BRAF_HUMAN              Reviewed;         766 AA.
+AC   P15056; A4D1T4; Q13878; Q3MIN6; Q9UDP8; Q9Y6T3;
+DT   01-NOV-1990, integrated into UniProtKB/Swiss-Prot.
+DT   19-JUL-2004, sequence version 4.
+DT   02-NOV-2010, entry version 141.
+DE   RecName: Full=Serine/threonine-protein kinase B-raf;
+DE            EC=2.7.11.1;
+DE   AltName: Full=Proto-oncogene B-Raf;
+DE   AltName: Full=p94;
+DE   AltName: Full=v-Raf murine sarcoma viral oncogene homolog B1;
+GN   Name=BRAF; Synonyms=BRAF1, RAFB1;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PARTIAL PROTEIN SEQUENCE, AND
+RP   PHOSPHORYLATION AT THR-373.
+RC   TISSUE=Testis;
+RX   MEDLINE=92375040; PubMed=1508179;
+RA   Stephens R.M., Sithanandam G., Copeland T.D., Kaplan D.R., Rapp U.R.,
+RA   Morrison D.K.;
+RT   "95-kilodalton B-Raf serine/threonine kinase: identification of the
+RT   protein and its major autophosphorylation site.";
+RL   Mol. Cell. Biol. 12:3733-3742(1992).
+RN   [2]
+RP   SEQUENCE REVISION TO 31-33.
+RA   Albert S., Wixler L., Rapp U.R.;
+RL   Submitted (JAN-2004) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RG   NIEHS SNPs program;
+RL   Submitted (MAR-2008) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   MEDLINE=22616434; PubMed=12690205; DOI=10.1126/science.1083423;
+RA   Scherer S.W., Cheung J., MacDonald J.R., Osborne L.R., Nakabayashi K.,
+RA   Herbrick J.-A., Carson A.R., Parker-Katiraee L., Skaug J., Khaja R.,
+RA   Zhang J., Hudek A.K., Li M., Haddad M., Duggan G.E., Fernandez B.A.,
+RA   Kanematsu E., Gentles S., Christopoulos C.C., Choufani S.,
+RA   Kwasnicka D., Zheng X.H., Lai Z., Nusskern D.R., Zhang Q., Gu Z.,
+RA   Lu F., Zeesman S., Nowaczyk M.J., Teshima I., Chitayat D., Shuman C.,
+RA   Weksberg R., Zackai E.H., Grebe T.A., Cox S.R., Kirkpatrick S.J.,
+RA   Rahman N., Friedman J.M., Heng H.H.Q., Pelicci P.G., Lo-Coco F.,
+RA   Belloni E., Shaffer L.G., Pober B., Morton C.C., Gusella J.F.,
+RA   Bruns G.A.P., Korf B.R., Quade B.J., Ligon A.H., Ferguson H.,
+RA   Higgins A.W., Leach N.T., Herrick S.R., Lemyre E., Farra C.G.,
+RA   Kim H.-G., Summers A.M., Gripp K.W., Roberts W., Szatmari P.,
+RA   Winsor E.J.T., Grzeschik K.-H., Teebi A., Minassian B.A., Kere J.,
+RA   Armengol L., Pujana M.A., Estivill X., Wilson M.D., Koop B.F.,
+RA   Tosi S., Moore G.E., Boright A.P., Zlotorynski E., Kerem B.,
+RA   Kroisel P.M., Petek E., Oscier D.G., Mould S.J., Doehner H.,
+RA   Doehner K., Rommens J.M., Vincent J.B., Venter J.C., Li P.W.,
+RA   Mural R.J., Adams M.D., Tsui L.-C.;
+RT   "Human chromosome 7: DNA sequence and biology.";
+RL   Science 300:767-772(2003).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   MEDLINE=22737999; PubMed=12853948; DOI=10.1038/nature01782;
+RA   Hillier L.W., Fulton R.S., Fulton L.A., Graves T.A., Pepin K.H.,
+RA   Wagner-McPherson C., Layman D., Maas J., Jaeger S., Walker R.,
+RA   Wylie K., Sekhon M., Becker M.C., O'Laughlin M.D., Schaller M.E.,
+RA   Fewell G.A., Delehaunty K.D., Miner T.L., Nash W.E., Cordes M., Du H.,
+RA   Sun H., Edwards J., Bradshaw-Cordum H., Ali J., Andrews S., Isak A.,
+RA   Vanbrunt A., Nguyen C., Du F., Lamar B., Courtney L., Kalicki J.,
+RA   Ozersky P., Bielicki L., Scott K., Holmes A., Harkins R., Harris A.,
+RA   Strong C.M., Hou S., Tomlinson C., Dauphin-Kohlberg S.,
+RA   Kozlowicz-Reilly A., Leonard S., Rohlfing T., Rock S.M.,
+RA   Tin-Wollam A.-M., Abbott A., Minx P., Maupin R., Strowmatt C.,
+RA   Latreille P., Miller N., Johnson D., Murray J., Woessner J.P.,
+RA   Wendl M.C., Yang S.-P., Schultz B.R., Wallis J.W., Spieth J.,
+RA   Bieri T.A., Nelson J.O., Berkowicz N., Wohldmann P.E., Cook L.L.,
+RA   Hickenbotham M.T., Eldred J., Williams D., Bedell J.A., Mardis E.R.,
+RA   Clifton S.W., Chissoe S.L., Marra M.A., Raymond C., Haugen E.,
+RA   Gillett W., Zhou Y., James R., Phelps K., Iadanoto S., Bubb K.,
+RA   Simms E., Levy R., Clendenning J., Kaul R., Kent W.J., Furey T.S.,
+RA   Baertsch R.A., Brent M.R., Keibler E., Flicek P., Bork P., Suyama M.,
+RA   Bailey J.A., Portnoy M.E., Torrents D., Chinwalla A.T., Gish W.R.,
+RA   Eddy S.R., McPherson J.D., Olson M.V., Eichler E.E., Green E.D.,
+RA   Waterston R.H., Wilson R.K.;
+RT   "The DNA sequence of human chromosome 7.";
+RL   Nature 424:157-164(2003).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-200.
+RC   TISSUE=Placenta;
+RX   MEDLINE=92334878; PubMed=1630826;
+RA   Eychene A., Barnier J.V., Apiou F., Dutrillaux B., Calothy G.;
+RT   "Chromosomal assignment of two human B-raf(Rmil) proto-oncogene loci:
+RT   B-raf-1 encoding the p94Braf/Rmil and B-raf-2, a processed
+RT   pseudogene.";
+RL   Oncogene 7:1657-1660(1992).
+RN   [8]
+RP   PROTEIN SEQUENCE OF 2-51; 56-95; 151-158; 189-199; 253-260; 294-354;
+RP   361-424; 444-507; 510-522; 559-570; 579-626; 663-680; 692-698;
+RP   702-719; 727-735 AND 753-766, CLEAVAGE OF INITIATOR METHIONINE,
+RP   ACETYLATION AT ALA-2, PHOSPHORYLATION AT SER-365; THR-396; SER-399;
+RP   THR-401 AND SER-729, AND MASS SPECTROMETRY.
+RC   TISSUE=Colon carcinoma, and Hepatoma;
+RA   Bienvenut W.V., Boldt K., von Kriegsheim A.F., Zebisch A., Kolch W.;
+RL   Submitted (DEC-2008) to UniProtKB.
+RN   [9]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 117-766.
+RC   TISSUE=Testis;
+RX   MEDLINE=91133728; PubMed=2284096;
+RA   Sithanandam G., Kolch W., Duh F.-M., Rapp U.R.;
+RT   "Complete coding sequence of a human B-raf cDNA and detection of B-raf
+RT   protein kinase with isozyme specific antibodies.";
+RL   Oncogene 5:1775-1780(1990).
+RN   [10]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 439-766.
+RX   MEDLINE=88302178; PubMed=3043188;
+RA   Ikawa S., Fukui M., Ueyama Y., Tamaoki N., Yamamoto T., Toyoshima K.;
+RT   "B-raf, a new member of the raf family, is activated by DNA
+RT   rearrangement.";
+RL   Mol. Cell. Biol. 8:2651-2654(1988).
+RN   [11]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-401 AND SER-729, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=15302935; DOI=10.1073/pnas.0404720101;
+RA   Beausoleil S.A., Jedrychowski M., Schwartz D., Elias J.E., Villen J.,
+RA   Li J., Cohn M.A., Cantley L.C., Gygi S.P.;
+RT   "Large-scale characterization of HeLa cell nuclear phosphoproteins.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:12130-12135(2004).
+RN   [12]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-401, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=16964243; DOI=10.1038/nbt1240;
+RA   Beausoleil S.A., Villen J., Gerber S.A., Rush J., Gygi S.P.;
+RT   "A probability-based approach for high-throughput protein
+RT   phosphorylation analysis and site localization.";
+RL   Nat. Biotechnol. 24:1285-1292(2006).
+RN   [13]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-419, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=17924679; DOI=10.1021/pr070152u;
+RA   Yu L.-R., Zhu Z., Chan K.C., Issaq H.J., Dimitrov D.S., Veenstra T.D.;
+RT   "Improved titanium dioxide enrichment of phosphopeptides from HeLa
+RT   cells and high confident phosphopeptide identification by cross-
+RT   validation of MS/MS and MS/MS/MS spectra.";
+RL   J. Proteome Res. 6:4150-4162(2007).
+RN   [14]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-151; SER-365; THR-401;
+RP   SER-419; SER-446; SER-729 AND SER-750, AND MASS SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=17192257; DOI=10.1074/mcp.T600062-MCP200;
+RA   Wissing J., Jaensch L., Nimtz M., Dieterich G., Hornberger R.,
+RA   Keri G., Wehland J., Daub H.;
+RT   "Proteomics analysis of protein kinases by target class-selective
+RT   prefractionation and tandem mass spectrometry.";
+RL   Mol. Cell. Proteomics 6:537-547(2007).
+RN   [15]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-373, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18220336; DOI=10.1021/pr0705441;
+RA   Cantin G.T., Yi W., Lu B., Park S.K., Xu T., Lee J.-D.,
+RA   Yates J.R. III;
+RT   "Combining protein-based IMAC, peptide-based IMAC, and MudPIT for
+RT   efficient phosphoproteomic analysis.";
+RL   J. Proteome Res. 7:1346-1351(2008).
+RN   [16]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-729, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [17]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-401; SER-446; SER-447
+RP   AND SER-729, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [18]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-401 AND SER-729, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Embryonic kidney;
+RX   PubMed=19413330; DOI=10.1021/ac9004309;
+RA   Gauci S., Helbig A.O., Slijper M., Krijgsveld J., Heck A.J.,
+RA   Mohammed S.;
+RT   "Lys-N and trypsin cover complementary parts of the phosphoproteome in
+RT   a refined SCX-based approach.";
+RL   Anal. Chem. 81:4493-4501(2009).
+RN   [19]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-419, AND MASS
+RP   SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [20]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-465 AND SER-614, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=19690332; DOI=10.1126/scisignal.2000007;
+RA   Mayya V., Lundgren D.H., Hwang S.-I., Rezaul K., Wu L., Eng J.K.,
+RA   Rodionov V., Han D.K.;
+RT   "Quantitative phosphoproteomic analysis of T cell receptor signaling
+RT   reveals system-wide modulation of protein-protein interactions.";
+RL   Sci. Signal. 2:RA46-RA46(2009).
+RN   [21]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT LYS-418, AND MASS SPECTROMETRY.
+RX   PubMed=19608861; DOI=10.1126/science.1175371;
+RA   Choudhary C., Kumar C., Gnad F., Nielsen M.L., Rehman M., Walther T.,
+RA   Olsen J.V., Mann M.;
+RT   "Lysine acetylation targets protein complexes and co-regulates major
+RT   cellular functions.";
+RL   Science 325:834-840(2009).
+RN   [22]
+RP   VARIANTS LUNG CANCER VAL-466 AND ARG-597.
+RX   MEDLINE=22349173; PubMed=12460919;
+RA   Naoki K., Chen T.-H., Richards W.G., Sugarbaker D.J., Meyerson M.;
+RT   "Missense mutations of the BRAF gene in human lung adenocarcinoma.";
+RL   Cancer Res. 62:7001-7003(2002).
+RN   [23]
+RP   VARIANTS CANCER GLU-464; VAL-464; ALA-466; GLU-466; VAL-466; ALA-469;
+RP   GLU-469; LYS-586; LEU-595; ARG-596; ARG-597; VAL-597; GLU-600 AND
+RP   ASP-600, AND CHARACTERIZATION OF VARIANTS CANCER VAL-464; ALA-469;
+RP   VAL-597 AND GLU-600.
+RX   MEDLINE=22082291; PubMed=12068308; DOI=10.1038/nature00766;
+RA   Davies H., Bignell G.R., Cox C., Stephens P., Edkins S., Clegg S.,
+RA   Teague J., Woffendin H., Garnett M.J., Bottomley W., Davis N.,
+RA   Dicks E., Ewing R., Floyd Y., Gray K., Hall S., Hawes R., Hughes J.,
+RA   Kosmidou V., Menzies A., Mould C., Parker A., Stevens C., Watt S.,
+RA   Hooper S., Wilson R., Jayatilake H., Gusterson B.A., Cooper C.,
+RA   Shipley J., Hargrave D., Pritchard-Jones K., Maitland N.,
+RA   Chenevix-Trench G., Riggins G.J., Bigner D.D., Palmieri G., Cossu A.,
+RA   Flanagan A., Nicholson A., Ho J.W.C., Leung S.Y., Yuen S.T.,
+RA   Weber B.L., Seigler H.F., Darrow T.L., Paterson H., Marais R.,
+RA   Marshall C.J., Wooster R., Stratton M.R., Futreal P.A.;
+RT   "Mutations of the BRAF gene in human cancer.";
+RL   Nature 417:949-954(2002).
+RN   [24]
+RP   VARIANTS COLORECTAL CANCER ILE-462; SER-463; GLU-464; GLU-600 AND
+RP   GLU-601.
+RX   MEDLINE=22187000; PubMed=12198537; DOI=10.1038/418934a;
+RA   Rajagopalan H., Bardelli A., Lengauer C., Kinzler K.W., Vogelstein B.,
+RA   Velculescu V.E.;
+RT   "Tumorigenesis: RAF/RAS oncogenes and mismatch-repair status.";
+RL   Nature 418:934-934(2002).
+RN   [25]
+RP   VARIANTS NHL ALA-469; ARG-469 AND GLY-594.
+RX   MEDLINE=22973595; PubMed=14612909; DOI=10.1038/sj.bjc.6601371;
+RA   Lee J.W., Yoo N.J., Soung Ark W.S., Kim S.Y., Lee J.H., Park J.Y.,
+RA   Cho Y.G., Kim C.J., Ko Y.H., Kim S.H., Nam S.W., Lee J.Y., Lee S.H.;
+RT   "BRAF mutations in non-Hodgkin's lymphoma.";
+RL   Br. J. Cancer 89:1958-1960(2003).
+RN   [26]
+RP   CHARACTERIZATION OF VARIANT MELANOMA GLU-600.
+RX   MEDLINE=22861930; PubMed=14500344;
+RA   Hingorani S.R., Jacobetz M.A., Robertson G.P., Herlyn M.,
+RA   Tuveson D.A.;
+RT   "Suppression of BRAF(V599E) in human melanoma abrogates
+RT   transformation.";
+RL   Cancer Res. 63:5198-5202(2003).
+RN   [27]
+RP   VARIANTS CFC SYNDROME PRO-246; ARG-257; GLU-469; PHE-485; GLU-499;
+RP   LYS-501; GLY-501 AND ASP-581.
+RX   PubMed=16474404; DOI=10.1038/ng1749;
+RA   Niihori T., Aoki Y., Narumi Y., Neri G., Cave H., Verloes A.,
+RA   Okamoto N., Hennekam R.C.M., Gillessen-Kaesbach G., Wieczorek D.,
+RA   Kavamura M.I., Kurosawa K., Ohashi H., Wilson L., Heron D.,
+RA   Bonneau D., Corona G., Kaname T., Naritomi K., Baumann C.,
+RA   Matsumoto N., Kato K., Kure S., Matsubara Y.;
+RT   "Germline KRAS and BRAF mutations in cardio-facio-cutaneous
+RT   syndrome.";
+RL   Nat. Genet. 38:294-296(2006).
+RN   [28]
+RP   VARIANT [LARGE SCALE ANALYSIS] GLU-600.
+RX   PubMed=16959974; DOI=10.1126/science.1133427;
+RA   Sjoeblom T., Jones S., Wood L.D., Parsons D.W., Lin J., Barber T.D.,
+RA   Mandelker D., Leary R.J., Ptak J., Silliman N., Szabo S.,
+RA   Buckhaults P., Farrell C., Meeh P., Markowitz S.D., Willis J.,
+RA   Dawson D., Willson J.K.V., Gazdar A.F., Hartigan J., Wu L., Liu C.,
+RA   Parmigiani G., Park B.H., Bachman K.E., Papadopoulos N.,
+RA   Vogelstein B., Kinzler K.W., Velculescu V.E.;
+RT   "The consensus coding sequences of human breast and colorectal
+RT   cancers.";
+RL   Science 314:268-274(2006).
+RN   [29]
+RP   VARIANTS CFC SYNDROME ARG-257; ALA-467; SER-468; GLU-469; PHE-485;
+RP   GLU-499; LYS-501; GLY-501; ASP-581; LEU-595 AND VAL-596.
+RX   PubMed=16439621; DOI=10.1126/science.1124642;
+RA   Rodriguez-Viciana P., Tetsu O., Tidyman W.E., Estep A.L., Conger B.A.,
+RA   Cruz M.S., McCormick F., Rauen K.A.;
+RT   "Germline mutations in genes within the MAPK pathway cause cardio-
+RT   facio-cutaneous syndrome.";
+RL   Science 311:1287-1290(2006).
+RN   [30]
+RP   VARIANTS [LARGE SCALE ANALYSIS] SER-301; ALA-469; VAL-469; SER-581;
+RP   ARG-596; ARG-597; VAL-597; GLU-600; GLU-600 AND GLU-600.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+RN   [31]
+RP   VARIANTS ARG-241; MET-241; PRO-241; CYS-531 AND VAL-597, AND VARIANTS
+RP   CFC SYNDROME PHE-245; PRO-246; ARG-257; LYS-275; GLU-469; PHE-485;
+RP   ASN-499; LYS-501; PRO-525; LEU-595; ARG-599; GLN-601; GLU-638 AND
+RP   ARG-709.
+RX   PubMed=19206169; DOI=10.1002/humu.20955;
+RA   Sarkozy A., Carta C., Moretti S., Zampino G., Digilio M.C.,
+RA   Pantaleoni F., Scioletti A.P., Esposito G., Cordeddu V., Lepri F.,
+RA   Petrangeli V., Dentici M.L., Mancini G.M., Selicorni A., Rossi C.,
+RA   Mazzanti L., Marino B., Ferrero G.B., Silengo M.C., Memo L.,
+RA   Stanzial F., Faravelli F., Stuppia L., Puxeddu E., Gelb B.D.,
+RA   Dallapiccola B., Tartaglia M.;
+RT   "Germline BRAF mutations in Noonan, LEOPARD, and cardiofaciocutaneous
+RT   syndromes: molecular diversity and associated phenotypic spectrum.";
+RL   Hum. Mutat. 30:695-702(2009).
+CC   -!- FUNCTION: Involved in the transduction of mitogenic signals from
+CC       the cell membrane to the nucleus. May play a role in the
+CC       postsynaptic responses of hippocampal neuron.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- COFACTOR: Binds 2 zinc ions per subunit (By similarity).
+CC   -!- SUBUNIT: Interacts with RIT1 (By similarity).
+CC   -!- INTERACTION:
+CC       P04049:RAF1; NbExp=9; IntAct=EBI-365980, EBI-365996;
+CC       P31946:YWHAB; NbExp=1; IntAct=EBI-365980, EBI-359815;
+CC       P61981:YWHAG; NbExp=1; IntAct=EBI-365980, EBI-359832;
+CC       P27348:YWHAQ; NbExp=1; IntAct=EBI-365980, EBI-359854;
+CC       P63104:YWHAZ; NbExp=1; IntAct=EBI-365980, EBI-347088;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm.
+CC   -!- TISSUE SPECIFICITY: Brain and testis.
+CC   -!- DISEASE: Defects in BRAF are a cause of cardiofaciocutaneous
+CC       syndrome (CFC syndrome) [MIM:115150]; also known as cardio-facio-
+CC       cutaneous syndrome. CFC syndrome is characterized by a distinctive
+CC       facial appearance, heart defects and mental retardation. Heart
+CC       defects include pulmonic stenosis, atrial septal defects and
+CC       hypertrophic cardiomyopathy. Some affected individuals present
+CC       with ectodermal abnormalities such as sparse, friable hair,
+CC       hyperkeratotic skin lesions and a generalized ichthyosis-like
+CC       condition. Typical facial features are similar to Noonan syndrome.
+CC       They include high forehead with bitemporal constriction,
+CC       hypoplastic supraorbital ridges, downslanting palpebral fissures,
+CC       a depressed nasal bridge, and posteriorly angulated ears with
+CC       prominent helices. The inheritance of CFC syndrome is autosomal
+CC       dominant.
+CC   -!- DISEASE: Note=Defects in BRAF are found in a wide range of
+CC       cancers. They are also found in patients with developmental
+CC       disorders such as Noonan and LEOPARD syndromes that have
+CC       overlapping features with cardiofaciocutaneous syndrome.
+CC   -!- DISEASE: Defects in BRAF are involved in lung cancer [MIM:211980].
+CC   -!- DISEASE: Defects in BRAF are involved in non-Hodgkin lymphoma
+CC       (NHL) [MIM:605027]. NHL is a cancer that starts in cells of the
+CC       lymph system, which is part of the body's immune system. NHLs can
+CC       occur at any age and are often marked by enlarged lymph nodes,
+CC       fever and weight loss.
+CC   -!- DISEASE: Defects in BRAF may be a cause of colorectal cancer (CRC)
+CC       [MIM:114500].
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. TKL Ser/Thr
+CC       protein kinase family. RAF subfamily.
+CC   -!- SIMILARITY: Contains 1 phorbol-ester/DAG-type zinc finger.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- SIMILARITY: Contains 1 RBD (Ras-binding) domain.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAD43193.1; Type=Erroneous gene model prediction;
+CC   -!- WEB RESOURCE: Name=Atlas of Genetics and Cytogenetics in Oncology
+CC       and Haematology;
+CC       URL="http://atlasgeneticsoncology.org/Genes/BRAFID828.html";
+CC   -!- WEB RESOURCE: Name=GeneReviews;
+CC       URL="http://www.ncbi.nlm.nih.gov/sites/GeneTests/lab/gene/BRAF";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M95712; AAA35609.2; -; mRNA.
+DR   EMBL; AC006344; AAD43193.1; ALT_SEQ; Genomic_DNA.
+DR   EMBL; EU600171; ACD11489.1; -; Genomic_DNA.
+DR   EMBL; AC006347; AAD15551.1; -; Genomic_DNA.
+DR   EMBL; CH236950; EAL24023.1; -; Genomic_DNA.
+DR   EMBL; BC101757; AAI01758.1; -; mRNA.
+DR   EMBL; BC112079; AAI12080.1; -; mRNA.
+DR   EMBL; X65187; CAA46301.1; -; Genomic_DNA.
+DR   EMBL; M21001; AAA96495.1; -; mRNA.
+DR   IPI; IPI00303797; -.
+DR   PIR; A57977; TVHUBF.
+DR   RefSeq; NP_004324.2; -.
+DR   UniGene; Hs.550061; -.
+DR   PDB; 1UWH; X-ray; 2.95 A; A/B=448-723.
+DR   PDB; 1UWJ; X-ray; 3.50 A; A/B=448-723.
+DR   PDB; 2FB8; X-ray; 2.90 A; A/B=445-723.
+DR   PDB; 2L05; NMR; -; A=149-232.
+DR   PDB; 3C4C; X-ray; 2.57 A; A/B=444-719.
+DR   PDB; 3C4D; X-ray; 2.65 A; A/B=444-719.
+DR   PDB; 3D4Q; X-ray; 2.80 A; A/B=433-726.
+DR   PDB; 3IDP; X-ray; 2.70 A; A/B=434-727.
+DR   PDB; 3II5; X-ray; 2.79 A; A/B=432-726.
+DR   PDB; 3NY5; X-ray; 1.99 A; A/B/C/D=153-237.
+DR   PDBsum; 1UWH; -.
+DR   PDBsum; 1UWJ; -.
+DR   PDBsum; 2FB8; -.
+DR   PDBsum; 2L05; -.
+DR   PDBsum; 3C4C; -.
+DR   PDBsum; 3C4D; -.
+DR   PDBsum; 3D4Q; -.
+DR   PDBsum; 3IDP; -.
+DR   PDBsum; 3II5; -.
+DR   PDBsum; 3NY5; -.
+DR   ProteinModelPortal; P15056; -.
+DR   SMR; P15056; 157-227, 232-283.
+DR   DIP; DIP-1045N; -.
+DR   IntAct; P15056; 52.
+DR   MINT; MINT-1574728; -.
+DR   STRING; P15056; -.
+DR   PhosphoSite; P15056; -.
+DR   PRIDE; P15056; -.
+DR   Ensembl; ENST00000288602; ENSP00000288602; ENSG00000157764.
+DR   GeneID; 673; -.
+DR   KEGG; hsa:673; -.
+DR   UCSC; uc003vwc.2; human.
+DR   CTD; 673; -.
+DR   GeneCards; GC07M140424; -.
+DR   H-InvDB; HIX0007148; -.
+DR   HGNC; HGNC:1097; BRAF.
+DR   HPA; CAB004552; -.
+DR   HPA; HPA001328; -.
+DR   MIM; 114500; phenotype.
+DR   MIM; 115150; phenotype.
+DR   MIM; 164757; gene.
+DR   MIM; 211980; phenotype.
+DR   MIM; 605027; phenotype.
+DR   Orphanet; 1340; Cardiofaciocutaneous syndrome.
+DR   Orphanet; 500; LEOPARD syndrome.
+DR   PharmGKB; PA25408; -.
+DR   HOGENOM; HBG506535; -.
+DR   HOVERGEN; HBG001886; -.
+DR   InParanoid; P15056; -.
+DR   OMA; MKRLMAD; -.
+DR   OrthoDB; EOG9QC3QR; -.
+DR   PhylomeDB; P15056; -.
+DR   BRENDA; 2.7.10.2; 247.
+DR   BRENDA; 2.7.11.1; 247.
+DR   Pathway_Interaction_DB; cd8tcrdownstreampathway; Downstream signaling in naive CD8+ T cells.
+DR   Pathway_Interaction_DB; tcrraspathway; Ras signaling in the CD4+ TCR pathway.
+DR   Pathway_Interaction_DB; mapktrkpathway; Trk receptor signaling mediated by the MAPK pathway.
+DR   Reactome; REACT_11061; Signalling by NGF.
+DR   DrugBank; DB00398; Sorafenib.
+DR   NextBio; 2776; -.
+DR   PMAP-CutDB; P15056; -.
+DR   ArrayExpress; P15056; -.
+DR   Bgee; P15056; -.
+DR   CleanEx; HS_BRAF; -.
+DR   Genevestigator; P15056; -.
+DR   GermOnline; ENSG00000157764; Homo sapiens.
+DR   GO; GO:0005737; C:cytoplasm; IDA:HPA.
+DR   GO; GO:0005634; C:nucleus; IDA:HPA.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006916; P:anti-apoptosis; TAS:ProtInc.
+DR   GO; GO:0009887; P:organ morphogenesis; TAS:ProtInc.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; TAS:ProtInc.
+DR   GO; GO:0007264; P:small GTPase mediated signal transduction; EXP:Reactome.
+DR   InterPro; IPR020454; DAG/PE-bd.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR002219; Prot_Kinase_C-like_PE/DAG-bd.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR003116; Raf-like_ras-bd.
+DR   InterPro; IPR001245; Ser-Thr/Tyr-Pkinase.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   Pfam; PF00130; C1_1; 1.
+DR   Pfam; PF07714; Pkinase_Tyr; 1.
+DR   Pfam; PF02196; RBD; 1.
+DR   PRINTS; PR00008; DAGPEDOMAIN.
+DR   SMART; SM00109; C1; 1.
+DR   SMART; SM00455; RBD; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+DR   PROSITE; PS50898; RBD; 1.
+DR   PROSITE; PS00479; ZF_DAG_PE_1; 1.
+DR   PROSITE; PS50081; ZF_DAG_PE_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; ATP-binding; Cardiomyopathy;
+KW   Complete proteome; Cytoplasm; Direct protein sequencing;
+KW   Disease mutation; Kinase; Metal-binding; Nucleotide-binding;
+KW   Phosphoprotein; Polymorphism; Proto-oncogene;
+KW   Serine/threonine-protein kinase; Transferase; Zinc; Zinc-finger.
+FT   INIT_MET      1      1       Removed.
+FT   CHAIN         2    766       Serine/threonine-protein kinase B-raf.
+FT                                /FTId=PRO_0000085665.
+FT   DOMAIN      155    227       RBD.
+FT   DOMAIN      457    717       Protein kinase.
+FT   ZN_FING     234    280       Phorbol-ester/DAG-type.
+FT   NP_BIND     463    471       ATP (By similarity).
+FT   COMPBIAS      6     11       Poly-Gly.
+FT   COMPBIAS    122    129       Poly-Ser.
+FT   COMPBIAS    428    432       Poly-Ser.
+FT   ACT_SITE    576    576       Proton acceptor (By similarity).
+FT   METAL       235    235       Zinc 1 (By similarity).
+FT   METAL       248    248       Zinc 2 (By similarity).
+FT   METAL       251    251       Zinc 2 (By similarity).
+FT   METAL       261    261       Zinc 1 (By similarity).
+FT   METAL       264    264       Zinc 1 (By similarity).
+FT   METAL       269    269       Zinc 2 (By similarity).
+FT   METAL       272    272       Zinc 2 (By similarity).
+FT   METAL       280    280       Zinc 1 (By similarity).
+FT   BINDING     483    483       ATP (By similarity).
+FT   MOD_RES       2      2       N-acetylalanine.
+FT   MOD_RES     151    151       Phosphoserine.
+FT   MOD_RES     365    365       Phosphoserine.
+FT   MOD_RES     373    373       Phosphothreonine; by autocatalysis.
+FT   MOD_RES     396    396       Phosphothreonine.
+FT   MOD_RES     399    399       Phosphoserine.
+FT   MOD_RES     401    401       Phosphothreonine.
+FT   MOD_RES     418    418       N6-acetyllysine.
+FT   MOD_RES     419    419       Phosphoserine.
+FT   MOD_RES     446    446       Phosphoserine.
+FT   MOD_RES     447    447       Phosphoserine.
+FT   MOD_RES     465    465       Phosphoserine.
+FT   MOD_RES     614    614       Phosphoserine.
+FT   MOD_RES     729    729       Phosphoserine.
+FT   MOD_RES     750    750       Phosphoserine.
+FT   VARIANT     241    241       T -> M (in a patient with Noonan
+FT                                syndrome).
+FT                                /FTId=VAR_058620.
+FT   VARIANT     241    241       T -> P (in a patient with LEOPARD
+FT                                syndrome).
+FT                                /FTId=VAR_058621.
+FT   VARIANT     241    241       T -> R (in a patient with Noonan
+FT                                syndrome).
+FT                                /FTId=VAR_058622.
+FT   VARIANT     245    245       L -> F (in CFC syndrome).
+FT                                /FTId=VAR_058623.
+FT   VARIANT     246    246       A -> P (in CFC syndrome).
+FT                                /FTId=VAR_026113.
+FT   VARIANT     257    257       Q -> R (in CFC syndrome).
+FT                                /FTId=VAR_026114.
+FT   VARIANT     275    275       E -> K (in CFC syndrome).
+FT                                /FTId=VAR_058624.
+FT   VARIANT     301    301       P -> S (in dbSNP:rs34776339).
+FT                                /FTId=VAR_040391.
+FT   VARIANT     462    462       R -> I (in colorectal cancer).
+FT                                /FTId=VAR_018613.
+FT   VARIANT     463    463       I -> S (in colorectal cancer).
+FT                                /FTId=VAR_018614.
+FT   VARIANT     464    464       G -> E (in colorectal cancer).
+FT                                /FTId=VAR_018615.
+FT   VARIANT     464    464       G -> V (in a colorectal cancer cell line;
+FT                                elevated kinase activity; efficiently
+FT                                induces cell transformation).
+FT                                /FTId=VAR_018616.
+FT   VARIANT     466    466       G -> A (in melanoma).
+FT                                /FTId=VAR_018617.
+FT   VARIANT     466    466       G -> E (in melanoma).
+FT                                /FTId=VAR_018618.
+FT   VARIANT     466    466       G -> V (in lung cancer).
+FT                                /FTId=VAR_018512.
+FT   VARIANT     467    467       S -> A (in CFC syndrome).
+FT                                /FTId=VAR_035096.
+FT   VARIANT     468    468       F -> S (in CFC syndrome).
+FT                                /FTId=VAR_035097.
+FT   VARIANT     469    469       G -> A (in NHL; also in a lung
+FT                                adenocarcinoma sample; somatic mutation;
+FT                                elevated kinase activity; efficiently
+FT                                induces cell transformation).
+FT                                /FTId=VAR_018620.
+FT   VARIANT     469    469       G -> E (in CFC syndrome and colon
+FT                                cancer).
+FT                                /FTId=VAR_018621.
+FT   VARIANT     469    469       G -> R (in NHL).
+FT                                /FTId=VAR_018622.
+FT   VARIANT     469    469       G -> V (in a colorectal adenocarcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_040392.
+FT   VARIANT     485    485       L -> F (in CFC syndrome).
+FT                                /FTId=VAR_026115.
+FT   VARIANT     499    499       K -> E (in CFC syndrome).
+FT                                /FTId=VAR_026116.
+FT   VARIANT     499    499       K -> N (in CFC syndrome).
+FT                                /FTId=VAR_058625.
+FT   VARIANT     501    501       E -> G (in CFC syndrome).
+FT                                /FTId=VAR_026117.
+FT   VARIANT     501    501       E -> K (in CFC syndrome).
+FT                                /FTId=VAR_026118.
+FT   VARIANT     525    525       L -> P (in CFC syndrome).
+FT                                /FTId=VAR_058626.
+FT   VARIANT     531    531       W -> C (in a patient with Noonan
+FT                                syndrome).
+FT                                /FTId=VAR_058627.
+FT   VARIANT     581    581       N -> D (in CFC syndrome).
+FT                                /FTId=VAR_026119.
+FT   VARIANT     581    581       N -> S (in a colorectal adenocarcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_040393.
+FT   VARIANT     586    586       E -> K (in ovarian cancer).
+FT                                /FTId=VAR_018623.
+FT   VARIANT     594    594       D -> G (in NHL).
+FT                                /FTId=VAR_018624.
+FT   VARIANT     595    595       F -> L (in colon cancer and CFC
+FT                                syndrome).
+FT                                /FTId=VAR_018625.
+FT   VARIANT     596    596       G -> R (in a colorectal adenocarcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_018626.
+FT   VARIANT     596    596       G -> V (in CFC syndrome).
+FT                                /FTId=VAR_035098.
+FT   VARIANT     597    597       L -> R (in lung cancer and ovarian
+FT                                cancer; ovarian serous carcinoma sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_018513.
+FT   VARIANT     597    597       L -> V (in a patient with Noonan
+FT                                syndrome; also in a lung adenocarcinoma
+FT                                sample; somatic mutation; elevated kinase
+FT                                activity; efficiently induces cell
+FT                                transformation).
+FT                                /FTId=VAR_018627.
+FT   VARIANT     599    599       T -> R (in CFC syndrome).
+FT                                /FTId=VAR_058628.
+FT   VARIANT     600    600       V -> D (in a melanoma cell line; requires
+FT                                2 nucleotide substitutions).
+FT                                /FTId=VAR_018628.
+FT   VARIANT     600    600       V -> E (in sarcoma, colorectal
+FT                                adenocarcinoma, metastatic melanoma,
+FT                                ovarian serous carcinoma; somatic
+FT                                mutation; most common mutation; elevated
+FT                                kinase activity; efficiently induces cell
+FT                                transformation; suppression of mutation
+FT                                in melanoma causes growth arrest and
+FT                                promotes apoptosis).
+FT                                /FTId=VAR_018629.
+FT   VARIANT     601    601       K -> E (in colorectal cancer).
+FT                                /FTId=VAR_018630.
+FT   VARIANT     601    601       K -> Q (in CFC syndrome).
+FT                                /FTId=VAR_058629.
+FT   VARIANT     638    638       D -> E (in CFC syndrome).
+FT                                /FTId=VAR_058630.
+FT   VARIANT     709    709       Q -> R (in CFC syndrome).
+FT                                /FTId=VAR_058631.
+FT   CONFLICT    766    766       H -> D (in Ref. 10; AAA96495).
+FT   STRAND      461    465
+FT   STRAND      470    484
+FT   HELIX       494    505
+FT   STRAND      516    520
+FT   STRAND      522    524
+FT   STRAND      526    530
+FT   STRAND      534    536
+FT   HELIX       537    542
+FT   HELIX       550    569
+FT   HELIX       579    581
+FT   STRAND      582    585
+FT   STRAND      588    592
+FT   HELIX       617    619
+FT   HELIX       622    625
+FT   HELIX       635    651
+FT   TURN        655    658
+FT   HELIX       662    670
+FT   HELIX       678    680
+FT   HELIX       687    696
+FT   HELIX       701    703
+FT   HELIX       707    719
+SQ   SEQUENCE   766 AA;  84437 MW;  0798C2AAB487E813 CRC64;
+     MAALSGGGGG GAEPGQALFN GDMEPEAGAG AGAAASSAAD PAIPEEVWNI KQMIKLTQEH
+     IEALLDKFGG EHNPPSIYLE AYEEYTSKLD ALQQREQQLL ESLGNGTDFS VSSSASMDTV
+     TSSSSSSLSV LPSSLSVFQN PTDVARSNPK SPQKPIVRVF LPNKQRTVVP ARCGVTVRDS
+     LKKALMMRGL IPECCAVYRI QDGEKKPIGW DTDISWLTGE ELHVEVLENV PLTTHNFVRK
+     TFFTLAFCDF CRKLLFQGFR CQTCGYKFHQ RCSTEVPLMC VNYDQLDLLF VSKFFEHHPI
+     PQEEASLAET ALTSGSSPSA PASDSIGPQI LTSPSPSKSI PIPQPFRPAD EDHRNQFGQR
+     DRSSSAPNVH INTIEPVNID DLIRDQGFRG DGGSTTGLSA TPPASLPGSL TNVKALQKSP
+     GPQRERKSSS SSEDRNRMKT LGRRDSSDDW EIPDGQITVG QRIGSGSFGT VYKGKWHGDV
+     AVKMLNVTAP TPQQLQAFKN EVGVLRKTRH VNILLFMGYS TKPQLAIVTQ WCEGSSLYHH
+     LHIIETKFEM IKLIDIARQT AQGMDYLHAK SIIHRDLKSN NIFLHEDLTV KIGDFGLATV
+     KSRWSGSHQF EQLSGSILWM APEVIRMQDK NPYSFQSDVY AFGIVLYELM TGQLPYSNIN
+     NRDQIIFMVG RGYLSPDLSK VRSNCPKAMK RLMAECLKKK RDERPLFPQI LASIELLARS
+     LPKIHRSASE PSLNRAGFQT EDFSLYACAS PKTPIQAGGY GAFPVH
+//

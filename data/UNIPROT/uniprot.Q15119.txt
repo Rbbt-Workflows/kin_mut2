@@ -1,0 +1,247 @@
+ID   PDK2_HUMAN              Reviewed;         407 AA.
+AC   Q15119; A8K3A7; Q6P515; Q9BS05;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   06-JUN-2002, sequence version 2.
+DT   02-NOV-2010, entry version 104.
+DE   RecName: Full=[Pyruvate dehydrogenase [lipoamide]] kinase isozyme 2, mitochondrial;
+DE            EC=2.7.11.2;
+DE   AltName: Full=Pyruvate dehydrogenase kinase isoform 2;
+DE   Flags: Precursor;
+GN   Name=PDK2;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Liver;
+RX   MEDLINE=96081973; PubMed=7499431; DOI=10.1074/jbc.270.48.28989;
+RA   Gudi R., Bowker-Kinley M.M., Kedishvili N.Y., Zhao Y., Popov K.M.;
+RT   "Diversity of the pyruvate dehydrogenase kinase gene family in
+RT   humans.";
+RL   J. Biol. Chem. 270:28989-28994(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Brain;
+RX   PubMed=14702039; DOI=10.1038/ng1285;
+RA   Ota T., Suzuki Y., Nishikawa T., Otsuki T., Sugiyama T., Irie R.,
+RA   Wakamatsu A., Hayashi K., Sato H., Nagai K., Kimura K., Makita H.,
+RA   Sekine M., Obayashi M., Nishi T., Shibahara T., Tanaka T., Ishii S.,
+RA   Yamamoto J., Saito K., Kawai Y., Isono Y., Nakamura Y., Nagahari K.,
+RA   Murakami K., Yasuda T., Iwayanagi T., Wagatsuma M., Shiratori A.,
+RA   Sudo H., Hosoiri T., Kaku Y., Kodaira H., Kondo H., Sugawara M.,
+RA   Takahashi M., Kanda K., Yokoi T., Furuya T., Kikkawa E., Omura Y.,
+RA   Abe K., Kamihara K., Katsuta N., Sato K., Tanikawa M., Yamazaki M.,
+RA   Ninomiya K., Ishibashi T., Yamashita H., Murakawa K., Fujimori K.,
+RA   Tanai H., Kimata M., Watanabe M., Hiraoka S., Chiba Y., Ishida S.,
+RA   Ono Y., Takiguchi S., Watanabe S., Yosida M., Hotuta T., Kusano J.,
+RA   Kanehori K., Takahashi-Fujii A., Hara H., Tanase T.-O., Nomura Y.,
+RA   Togiya S., Komai F., Hara R., Takeuchi K., Arita M., Imose N.,
+RA   Musashino K., Yuuki H., Oshima A., Sasaki N., Aotsuka S.,
+RA   Yoshikawa Y., Matsunawa H., Ichihara T., Shiohata N., Sano S.,
+RA   Moriya S., Momiyama H., Satoh N., Takami S., Terashima Y., Suzuki O.,
+RA   Nakagawa S., Senoh A., Mizoguchi H., Goto Y., Shimizu F., Wakebe H.,
+RA   Hishigaki H., Watanabe T., Sugiyama A., Takemoto M., Kawakami B.,
+RA   Yamazaki M., Watanabe K., Kumagai A., Itakura S., Fukuzumi Y.,
+RA   Fujimori Y., Komiyama M., Tashiro H., Tanigami A., Fujiwara T.,
+RA   Ono T., Yamada K., Fujii Y., Ozaki K., Hirao M., Ohmori Y.,
+RA   Kawabata A., Hikiji T., Kobatake N., Inagaki H., Ikema Y., Okamoto S.,
+RA   Okitani R., Kawakami T., Noguchi S., Itoh T., Shigeta K., Senba T.,
+RA   Matsumura K., Nakajima Y., Mizuno T., Morinaga M., Sasaki M.,
+RA   Togashi T., Oyama M., Hata H., Watanabe M., Komatsu T.,
+RA   Mizushima-Sugano J., Satoh T., Shirai Y., Takahashi Y., Nakagawa K.,
+RA   Okumura K., Nagase T., Nomura N., Kikuchi H., Masuho Y., Yamashita R.,
+RA   Nakai K., Yada T., Nakamura Y., Ohara O., Isogai T., Sugano S.;
+RT   "Complete sequencing and characterization of 21,243 full-length human
+RT   cDNAs.";
+RL   Nat. Genet. 36:40-45(2004).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (SEP-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA], AND VARIANT ARG-342.
+RC   TISSUE=Lung, Prostate, and Skin;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [5]
+RP   X-RAY CRYSTALLOGRAPHY (2.2 ANGSTROMS) OF 16-407 IN COMPLEX WITH ATP
+RP   AND THE INHIBITORS AZD7545; NOV3R; PFZ3 AND DICHLOROACETATE.
+RX   PubMed=16401071; DOI=10.1021/bi051402s;
+RA   Knoechel T.R., Tucker A.D., Robinson C.M., Phillips C., Taylor W.,
+RA   Bungay P.J., Kasten S.A., Roche T.E., Brown D.G.;
+RT   "Regulatory roles of the N-terminal domain based on crystal structures
+RT   of human pyruvate dehydrogenase kinase 2 containing physiological and
+RT   synthetic ligands.";
+RL   Biochemistry 45:402-415(2006).
+RN   [6]
+RP   VARIANT [LARGE SCALE ANALYSIS] ARG-342.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Inhibits the mitochondrial pyruvate dehydrogenase
+CC       complex by phosphorylation of the E1 alpha subunit, thus
+CC       contributing to the regulation of glucose metabolism.
+CC   -!- CATALYTIC ACTIVITY: ATP + [pyruvate dehydrogenase (acetyl-
+CC       transferring)] = ADP + [pyruvate dehydrogenase (acetyl-
+CC       transferring)] phosphate.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion matrix.
+CC   -!- TISSUE SPECIFICITY: Expressed in many tissues, with the highest
+CC       level in heart and skeletal muscle, intermediate levels in brain,
+CC       kidney, pancreas and liver, and low levels in placenta and lung.
+CC   -!- SIMILARITY: Belongs to the PDK/BCKDK protein kinase family.
+CC   -!- SIMILARITY: Contains 1 histidine kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; L42451; AAC42010.1; -; mRNA.
+DR   EMBL; AK290522; BAF83211.1; -; mRNA.
+DR   EMBL; CH471109; EAW94642.1; -; Genomic_DNA.
+DR   EMBL; BC005811; AAH05811.1; -; mRNA.
+DR   EMBL; BC040478; AAH40478.1; -; mRNA.
+DR   EMBL; BC063137; AAH63137.1; -; mRNA.
+DR   IPI; IPI00014832; -.
+DR   PIR; I70159; I70159.
+DR   RefSeq; NP_002602.2; -.
+DR   UniGene; Hs.256667; -.
+DR   PDB; 2BTZ; X-ray; 2.20 A; A=16-407.
+DR   PDB; 2BU2; X-ray; 2.40 A; A=16-407.
+DR   PDB; 2BU5; X-ray; 2.35 A; A=16-407.
+DR   PDB; 2BU6; X-ray; 2.40 A; A=16-407.
+DR   PDB; 2BU7; X-ray; 2.40 A; A=16-407.
+DR   PDB; 2BU8; X-ray; 2.50 A; A=16-407.
+DR   PDBsum; 2BTZ; -.
+DR   PDBsum; 2BU2; -.
+DR   PDBsum; 2BU5; -.
+DR   PDBsum; 2BU6; -.
+DR   PDBsum; 2BU7; -.
+DR   PDBsum; 2BU8; -.
+DR   ProteinModelPortal; Q15119; -.
+DR   IntAct; Q15119; 3.
+DR   MINT; MINT-1379180; -.
+DR   STRING; Q15119; -.
+DR   PRIDE; Q15119; -.
+DR   Ensembl; ENST00000007708; ENSP00000007708; ENSG00000005882.
+DR   GeneID; 5164; -.
+DR   KEGG; hsa:5164; -.
+DR   UCSC; uc002iqc.1; human.
+DR   CTD; 5164; -.
+DR   GeneCards; GC17P048172; -.
+DR   H-InvDB; HIX0013970; -.
+DR   HGNC; HGNC:8810; PDK2.
+DR   HPA; HPA008287; -.
+DR   MIM; 602525; gene.
+DR   PharmGKB; PA33155; -.
+DR   eggNOG; prNOG13973; -.
+DR   HOGENOM; HBG382024; -.
+DR   HOVERGEN; HBG000511; -.
+DR   InParanoid; Q15119; -.
+DR   OMA; LTTPSVQ; -.
+DR   OrthoDB; EOG941SX1; -.
+DR   PhylomeDB; Q15119; -.
+DR   BRENDA; 2.7.11.2; 247.
+DR   Reactome; REACT_1046; Pyruvate metabolism and Citric Acid (TCA) cycle.
+DR   NextBio; 19978; -.
+DR   ArrayExpress; Q15119; -.
+DR   Bgee; Q15119; -.
+DR   CleanEx; HS_PDK2; -.
+DR   Genevestigator; Q15119; -.
+DR   GermOnline; ENSG00000005882; Homo sapiens.
+DR   GO; GO:0005759; C:mitochondrial matrix; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005634; C:nucleus; IDA:HPA.
+DR   GO; GO:0005524; F:ATP binding; IDA:UniProtKB.
+DR   GO; GO:0004740; F:pyruvate dehydrogenase (acetyl-transferring...; TAS:ProtInc.
+DR   GO; GO:0000155; F:two-component sensor activity; IEA:InterPro.
+DR   GO; GO:0006006; P:glucose metabolic process; TAS:ProtInc.
+DR   GO; GO:0018106; P:peptidyl-histidine phosphorylation; IEA:InterPro.
+DR   GO; GO:0010510; P:regulation of acetyl-CoA biosynthetic proce...; EXP:Reactome.
+DR   InterPro; IPR003594; ATPase-like_ATP-bd.
+DR   InterPro; IPR018955; BCDHK/PDK_N.
+DR   InterPro; IPR005467; Sig_transdc_His_kinase_core.
+DR   Gene3D; G3DSA:3.30.565.10; ATP_bd_ATPase; 1.
+DR   Gene3D; G3DSA:1.20.140.20; G3DSA:1.20.140.20; 1.
+DR   Pfam; PF10436; BCDHK_Adom3; 1.
+DR   Pfam; PF02518; HATPase_c; 1.
+DR   SMART; SM00387; HATPase_c; 1.
+DR   SUPFAM; SSF55874; ATP_bd_ATPase; 1.
+DR   PROSITE; PS50109; HIS_KIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; ATP-binding; Carbohydrate metabolism; Complete proteome;
+KW   Glucose metabolism; Kinase; Mitochondrion; Nucleotide-binding;
+KW   Polymorphism; Transferase; Transit peptide.
+FT   TRANSIT       1      ?       Mitochondrion (Potential).
+FT   CHAIN         ?    407       [Pyruvate dehydrogenase [lipoamide]]
+FT                                kinase isozyme 2, mitochondrial.
+FT                                /FTId=PRO_0000023440.
+FT   DOMAIN      135    364       Histidine kinase.
+FT   NP_BIND     251    258       ATP.
+FT   NP_BIND     309    310       ATP (By similarity).
+FT   NP_BIND     325    330       ATP.
+FT   BINDING     290    290       ATP.
+FT   VARIANT     342    342       G -> R (in a glioblastoma multiforme
+FT                                sample; somatic mutation;
+FT                                dbSNP:rs17855787).
+FT                                /FTId=VAR_042296.
+FT   CONFLICT     80     80       S -> T (in Ref. 1; AAC42010).
+FT   CONFLICT    407    407       S -> T (in Ref. 1; AAC42010).
+FT   HELIX        16     23
+FT   HELIX        33     40
+FT   STRAND       41     43
+FT   HELIX        46     68
+FT   HELIX        73     77
+FT   HELIX        79     96
+FT   TURN         97    100
+FT   TURN        106    109
+FT   HELIX       110    123
+FT   HELIX       126    141
+FT   HELIX       145    175
+FT   STRAND      191    196
+FT   HELIX       197    216
+FT   STRAND      222    228
+FT   STRAND      237    240
+FT   HELIX       242    262
+FT   TURN        263    266
+FT   STRAND      273    279
+FT   STRAND      281    290
+FT   HELIX       297    303
+FT   TURN        306    309
+FT   HELIX       329    339
+FT   STRAND      343    349
+FT   TURN        350    352
+FT   STRAND      353    363
+FT   TURN        364    366
+FT   HELIX       376    379
+FT   HELIX       380    382
+SQ   SEQUENCE   407 AA;  46154 MW;  77DBA03EF922EF03 CRC64;
+     MRWVWALLKN ASLAGAPKYI EHFSKFSPSP LSMKQFLDFG SSNACEKTSF TFLRQELPVR
+     LANIMKEINL LPDRVLSTPS VQLVQSWYVQ SLLDIMEFLD KDPEDHRTLS QFTDALVTIR
+     NRHNDVVPTM AQGVLEYKDT YGDDPVSNQN IQYFLDRFYL SRISIRMLIN QHTLIFDGST
+     NPAHPKHIGS IDPNCNVSEV VKDAYDMAKL LCDKYYMASP DLEIQEINAA NSKQPIHMVY
+     VPSHLYHMLF ELFKNAMRAT VESHESSLIL PPIKVMVALG EEDLSIKMSD RGGGVPLRKI
+     ERLFSYMYST APTPQPGTGG TPLAGFGYGL PISRLYAKYF QGDLQLFSME GFGTDAVIYL
+     KALSTDSVER LPVYNKSAWR HYQTIQEAGD WCVPSTEPKN TSTYRVS
+//

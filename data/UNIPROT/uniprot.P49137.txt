@@ -1,0 +1,351 @@
+ID   MAPK2_HUMAN             Reviewed;         400 AA.
+AC   P49137; Q5SY30; Q5SY41; Q8IYD6;
+DT   01-FEB-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1996, sequence version 1.
+DT   05-OCT-2010, entry version 110.
+DE   RecName: Full=MAP kinase-activated protein kinase 2;
+DE            Short=MAPK-activated protein kinase 2;
+DE            Short=MAPKAP kinase 2;
+DE            Short=MAPKAPK-2;
+DE            Short=MK2;
+DE            EC=2.7.11.1;
+GN   Name=MAPKAPK2;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   MEDLINE=94235003; PubMed=8179591; DOI=10.1006/bbrc.1994.1566;
+RA   Zu Y.-L., Wu F., Gilchrist A., Ai Y., Labadia M.E., Huang C.K.;
+RT   "The primary structure of a human MAP kinase activated protein kinase
+RT   2.";
+RL   Biochem. Biophys. Res. Commun. 200:1118-1124(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=16710414; DOI=10.1038/nature04727;
+RA   Gregory S.G., Barlow K.F., McLay K.E., Kaul R., Swarbreck D.,
+RA   Dunham A., Scott C.E., Howe K.L., Woodfine K., Spencer C.C.A.,
+RA   Jones M.C., Gillson C., Searle S., Zhou Y., Kokocinski F.,
+RA   McDonald L., Evans R., Phillips K., Atkinson A., Cooper R., Jones C.,
+RA   Hall R.E., Andrews T.D., Lloyd C., Ainscough R., Almeida J.P.,
+RA   Ambrose K.D., Anderson F., Andrew R.W., Ashwell R.I.S., Aubin K.,
+RA   Babbage A.K., Bagguley C.L., Bailey J., Beasley H., Bethel G.,
+RA   Bird C.P., Bray-Allen S., Brown J.Y., Brown A.J., Buckley D.,
+RA   Burton J., Bye J., Carder C., Chapman J.C., Clark S.Y., Clarke G.,
+RA   Clee C., Cobley V., Collier R.E., Corby N., Coville G.J., Davies J.,
+RA   Deadman R., Dunn M., Earthrowl M., Ellington A.G., Errington H.,
+RA   Frankish A., Frankland J., French L., Garner P., Garnett J., Gay L.,
+RA   Ghori M.R.J., Gibson R., Gilby L.M., Gillett W., Glithero R.J.,
+RA   Grafham D.V., Griffiths C., Griffiths-Jones S., Grocock R.,
+RA   Hammond S., Harrison E.S.I., Hart E., Haugen E., Heath P.D.,
+RA   Holmes S., Holt K., Howden P.J., Hunt A.R., Hunt S.E., Hunter G.,
+RA   Isherwood J., James R., Johnson C., Johnson D., Joy A., Kay M.,
+RA   Kershaw J.K., Kibukawa M., Kimberley A.M., King A., Knights A.J.,
+RA   Lad H., Laird G., Lawlor S., Leongamornlert D.A., Lloyd D.M.,
+RA   Loveland J., Lovell J., Lush M.J., Lyne R., Martin S.,
+RA   Mashreghi-Mohammadi M., Matthews L., Matthews N.S.W., McLaren S.,
+RA   Milne S., Mistry S., Moore M.J.F., Nickerson T., O'Dell C.N.,
+RA   Oliver K., Palmeiri A., Palmer S.A., Parker A., Patel D., Pearce A.V.,
+RA   Peck A.I., Pelan S., Phelps K., Phillimore B.J., Plumb R., Rajan J.,
+RA   Raymond C., Rouse G., Saenphimmachak C., Sehra H.K., Sheridan E.,
+RA   Shownkeen R., Sims S., Skuce C.D., Smith M., Steward C.,
+RA   Subramanian S., Sycamore N., Tracey A., Tromans A., Van Helmond Z.,
+RA   Wall M., Wallis J.M., White S., Whitehead S.L., Wilkinson J.E.,
+RA   Willey D.L., Williams H., Wilming L., Wray P.W., Wu Z., Coulson A.,
+RA   Vaudin M., Sulston J.E., Durbin R.M., Hubbard T., Wooster R.,
+RA   Dunham I., Carter N.P., McVean G., Ross M.T., Harrow J., Olson M.V.,
+RA   Beck S., Rogers J., Bentley D.R.;
+RT   "The DNA sequence and biological annotation of human chromosome 1.";
+RL   Nature 441:315-321(2006).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (SEP-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   TISSUE=Skin, and Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 5-400.
+RX   MEDLINE=94107253; PubMed=8280084;
+RA   Stokoe D., Caudwell B., Cohen P.T.W., Cohen P.;
+RT   "The substrate specificity and structure of mitogen-activated protein
+RT   (MAP) kinase-activated protein kinase-2.";
+RL   Biochem. J. 296:843-849(1993).
+RN   [6]
+RP   FUNCTION.
+RX   PubMed=14499342; DOI=10.1016/S0898-6568(03)00074-3;
+RA   Coxon P.Y., Rane M.J., Uriarte S., Powell D.W., Singh S., Butt W.,
+RA   Chen Q., McLeish K.R.;
+RT   "MAPK-activated protein kinase-2 participates in p38 MAPK-dependent
+RT   and ERK-dependent functions in human neutrophils.";
+RL   Cell. Signal. 15:993-1001(2003).
+RN   [7]
+RP   INTERACTION WITH PHC2.
+RX   PubMed=15094067; DOI=10.1016/S0014-5793(04)00351-5;
+RA   Yannoni Y.M., Gaestel M., Lin L.L.;
+RT   "P66(ShcA) interacts with MAPKAP kinase 2 and regulates its
+RT   activity.";
+RL   FEBS Lett. 564:205-211(2004).
+RN   [8]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-63, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Embryonic kidney;
+RX   PubMed=17287340; DOI=10.1073/pnas.0611217104;
+RA   Molina H., Horn D.M., Tang N., Mathivanan S., Pandey A.;
+RT   "Global proteomic profiling of phosphopeptides using electron transfer
+RT   dissociation tandem mass spectrometry.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 104:2199-2204(2007).
+RN   [9]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RA   Colinge J., Superti-Furga G., Bennett K.L.;
+RL   Submitted (OCT-2008) to UniProtKB.
+RN   [10]
+RP   VARIANTS [LARGE SCALE ANALYSIS] GLY-173 AND SER-361.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Its physiological substrate seems to be the small heat
+CC       shock protein (HSP27/HSP25). In vitro can phosphorylate glycogen
+CC       synthase at 'Ser-7' and tyrosine hydroxylase (on 'Ser-19' and
+CC       'Ser-40'). This kinase phosphorylates Ser in the peptide sequence,
+CC       Hyd-X-R-X(2)-S, where Hyd is a large hydrophobic residue (By
+CC       similarity). Mediates both ERK and p38 MAPK/MAPK14 dependent
+CC       neutrophil responses. Participates in TNF alpha-stimulated
+CC       exocytosis of secretory vesicles in neutrophils. Plays a role in
+CC       phagocytosis-induced respiratory burst activity.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- ENZYME REGULATION: Seems to be activated by two distinct pathways:
+CC       the first involves the stimulation of p42/p44 MAPK by growth
+CC       factors, the second, triggered by stress and heat shock, depends
+CC       on the activation of MPK2 and upstream MAPKK/MAPKKK.
+CC   -!- SUBUNIT: Interacts with PHC2.
+CC   -!- INTERACTION:
+CC       P30304:CDC25A; NbExp=1; IntAct=EBI-993299, EBI-747671;
+CC       Q00613:HSF1; NbExp=4; IntAct=EBI-993299, EBI-719620;
+CC       Q16539:MAPK14; NbExp=1; IntAct=EBI-993299, EBI-73946;
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=P49137-1; Sequence=Displayed;
+CC         Note=Has a nuclear localization signal;
+CC       Name=2;
+CC         IsoId=P49137-2; Sequence=VSP_004910;
+CC   -!- TISSUE SPECIFICITY: Expressed in all tissues examined.
+CC   -!- PTM: Phosphorylated and activated by MAP kinase.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CAMK
+CC       Ser/Thr protein kinase family.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U12779; AAA20851.1; -; mRNA.
+DR   EMBL; AL591846; CAI13543.1; -; Genomic_DNA.
+DR   EMBL; AL591846; CAI13544.1; -; Genomic_DNA.
+DR   EMBL; CH471100; EAW93526.1; -; Genomic_DNA.
+DR   EMBL; CH471100; EAW93529.1; -; Genomic_DNA.
+DR   EMBL; BC036060; AAH36060.2; -; mRNA.
+DR   EMBL; BC052584; AAH52584.1; -; mRNA.
+DR   EMBL; X75346; CAA53094.1; -; mRNA.
+DR   IPI; IPI00026054; -.
+DR   IPI; IPI00215763; -.
+DR   PIR; JC2204; JC2204.
+DR   PIR; S39793; S39793.
+DR   RefSeq; NP_004750.1; -.
+DR   RefSeq; NP_116584.2; -.
+DR   UniGene; Hs.643566; -.
+DR   UniGene; Hs.713747; -.
+DR   PDB; 1KWP; X-ray; 2.80 A; A/B=1-400.
+DR   PDB; 1NXK; X-ray; 2.70 A; A/B/C/D=1-400.
+DR   PDB; 1NY3; X-ray; 3.00 A; A=1-400.
+DR   PDB; 2JBO; X-ray; 3.10 A; A=41-364.
+DR   PDB; 2JBP; X-ray; 3.31 A; A/B/C/D/E/F/G/H/I/J/K/L=41-364.
+DR   PDB; 2OKR; X-ray; 2.00 A; C/F=370-393.
+DR   PDB; 2ONL; X-ray; 4.00 A; C/D=1-400.
+DR   PDB; 2OZA; X-ray; 2.70 A; A=47-400.
+DR   PDB; 2P3G; X-ray; 3.80 A; X=45-371.
+DR   PDB; 2PZY; X-ray; 2.90 A; A/B/C/D=41-364.
+DR   PDB; 3A2C; X-ray; 2.90 A; A/B/C/D/E/F/G/H/I/J/K/L=41-364.
+DR   PDB; 3FPM; X-ray; 3.30 A; A=41-364.
+DR   PDB; 3FYJ; X-ray; 3.80 A; X=45-371.
+DR   PDB; 3FYK; X-ray; 3.50 A; X=45-371.
+DR   PDB; 3GOK; X-ray; 3.20 A; A/B/C/D/E/F/G/H/I/J/K/L=41-364.
+DR   PDB; 3KA0; X-ray; 2.90 A; A=47-366.
+DR   PDB; 3KC3; X-ray; 2.90 A; A/B/C/D/E/F/G/H/I/J/K/L=41-364.
+DR   PDB; 3KGA; X-ray; 2.55 A; A=47-364.
+DR   PDB; 3M2W; X-ray; 2.41 A; A=47-364.
+DR   PDBsum; 1KWP; -.
+DR   PDBsum; 1NXK; -.
+DR   PDBsum; 1NY3; -.
+DR   PDBsum; 2JBO; -.
+DR   PDBsum; 2JBP; -.
+DR   PDBsum; 2OKR; -.
+DR   PDBsum; 2ONL; -.
+DR   PDBsum; 2OZA; -.
+DR   PDBsum; 2P3G; -.
+DR   PDBsum; 2PZY; -.
+DR   PDBsum; 3A2C; -.
+DR   PDBsum; 3FPM; -.
+DR   PDBsum; 3FYJ; -.
+DR   PDBsum; 3FYK; -.
+DR   PDBsum; 3GOK; -.
+DR   PDBsum; 3KA0; -.
+DR   PDBsum; 3KC3; -.
+DR   PDBsum; 3KGA; -.
+DR   PDBsum; 3M2W; -.
+DR   ProteinModelPortal; P49137; -.
+DR   IntAct; P49137; 11.
+DR   MINT; MINT-1539725; -.
+DR   STRING; P49137; -.
+DR   PhosphoSite; P49137; -.
+DR   PRIDE; P49137; -.
+DR   Ensembl; ENST00000367103; ENSP00000356070; ENSG00000162889.
+DR   GeneID; 9261; -.
+DR   KEGG; hsa:9261; -.
+DR   UCSC; uc001hem.1; human.
+DR   CTD; 9261; -.
+DR   GeneCards; GC01P206858; -.
+DR   H-InvDB; HIX0023634; -.
+DR   HGNC; HGNC:6887; MAPKAPK2.
+DR   HPA; CAB010297; -.
+DR   MIM; 602006; gene.
+DR   PharmGKB; PA30631; -.
+DR   eggNOG; prNOG06010; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG106948; -.
+DR   InParanoid; P49137; -.
+DR   OMA; IVNIIDV; -.
+DR   OrthoDB; EOG96DPN7; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   Pathway_Interaction_DB; il2_1pathway; IL2-mediated signaling events.
+DR   Pathway_Interaction_DB; p38_mk2pathway; p38 signaling mediated by MAPKAP kinases.
+DR   Pathway_Interaction_DB; p38alphabetadownstreampathway; Signaling mediated by p38-alpha and p38-beta.
+DR   Pathway_Interaction_DB; mapktrkpathway; Trk receptor signaling mediated by the MAPK pathway.
+DR   Reactome; REACT_11061; Signalling by NGF.
+DR   Reactome; REACT_15314; Hormone biosynthesis.
+DR   Reactome; REACT_22258; Metabolism of lipids and lipoproteins.
+DR   Reactome; REACT_6900; Signaling in Immune system.
+DR   NextBio; 34715; -.
+DR   ArrayExpress; P49137; -.
+DR   Bgee; P49137; -.
+DR   CleanEx; HS_MAPKAPK2; -.
+DR   Genevestigator; P49137; -.
+DR   GermOnline; ENSG00000162889; Homo sapiens.
+DR   GO; GO:0005829; C:cytosol; EXP:Reactome.
+DR   GO; GO:0005634; C:nucleus; TAS:ProtInc.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005515; F:protein binding; IPI:IntAct.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; TAS:ProtInc.
+DR   GO; GO:0004871; F:signal transducer activity; TAS:ProtInc.
+DR   GO; GO:0000165; P:MAPKKK cascade; TAS:ProtInc.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; TAS:ProtInc.
+DR   GO; GO:0007265; P:Ras protein signal transduction; EXP:Reactome.
+DR   InterPro; IPR020636; Ca/CaM-dep_prot_kinase-like.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR020646; MAP_kin-act_prot_kinase.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   PANTHER; PTHR22982; Ca/CaM-dep_prot_kinase-like; 1.
+DR   PANTHER; PTHR22982:SF22; MAP_kin-act_prot_kinase; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; ATP-binding; Complete proteome;
+KW   Kinase; Nucleotide-binding; Phosphoprotein; Polymorphism;
+KW   Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    400       MAP kinase-activated protein kinase 2.
+FT                                /FTId=PRO_0000086288.
+FT   DOMAIN       64    325       Protein kinase.
+FT   NP_BIND      70     78       ATP (By similarity).
+FT   COMPBIAS     10     40       Pro-rich.
+FT   COMPBIAS     35     40       Poly-Pro.
+FT   ACT_SITE    186    186       Proton acceptor.
+FT   BINDING      93     93       ATP (By similarity).
+FT   MOD_RES      63     63       Phosphotyrosine.
+FT   MOD_RES     328    328       Phosphoserine; by autocatalysis (By
+FT                                similarity).
+FT   MOD_RES     334    334       Phosphothreonine; by MAPK (By
+FT                                similarity).
+FT   MOD_RES     338    338       Phosphothreonine (By similarity).
+FT   VAR_SEQ     354    400       EEMTSALATMRVDYEQIKIKKIEDASNPLLLKRRKKARALE
+FT                                AAALAH -> GCLHDKNSDQATWLTRL (in isoform
+FT                                2).
+FT                                /FTId=VSP_004910.
+FT   VARIANT     173    173       A -> G (in dbSNP:rs35671930).
+FT                                /FTId=VAR_040753.
+FT   VARIANT     361    361       A -> S (in dbSNP:rs55894011).
+FT                                /FTId=VAR_040754.
+FT   CONFLICT    116    116       H -> D (in Ref. 5; CAA53094).
+FT   CONFLICT    247    248       WS -> LV (in Ref. 5; CAA53094).
+FT   HELIX        59     61
+FT   HELIX        69     74
+FT   TURN         84     86
+FT   STRAND       91     96
+FT   TURN         99    101
+FT   HELIX       102    109
+FT   STRAND      120    127
+FT   STRAND      133    138
+FT   STRAND      143    145
+FT   HELIX       146    150
+FT   HELIX       160    179
+FT   HELIX       189    191
+FT   STRAND      192    200
+FT   STRAND      203    205
+FT   HELIX       237    258
+FT   STRAND      267    269
+FT   HELIX       273    276
+FT   TURN        289    294
+FT   HELIX       297    305
+FT   STRAND      310    312
+FT   HELIX       316    320
+FT   HELIX       323    326
+FT   STRAND      329    331
+FT   STRAND      335    337
+FT   HELIX       338    344
+FT   TURN        345    347
+FT   HELIX       348    363
+FT   STRAND      366    369
+FT   TURN        375    377
+FT   HELIX       381    389
+SQ   SEQUENCE   400 AA;  45568 MW;  E4EFFF11CCF288DC CRC64;
+     MLSNSQGQSP PVPFPAPAPP PQPPTPALPH PPAQPPPPPP QQFPQFHVKS GLQIKKNAII
+     DDYKVTSQVL GLGINGKVLQ IFNKRTQEKF ALKMLQDCPK ARREVELHWR ASQCPHIVRI
+     VDVYENLYAG RKCLLIVMEC LDGGELFSRI QDRGDQAFTE REASEIMKSI GEAIQYLHSI
+     NIAHRDVKPE NLLYTSKRPN AILKLTDFGF AKETTSHNSL TTPCYTPYYV APEVLGPEKY
+     DKSCDMWSLG VIMYILLCGY PPFYSNHGLA ISPGMKTRIR MGQYEFPNPE WSEVSEEVKM
+     LIRNLLKTEP TQRMTITEFM NHPWIMQSTK VPQTPLHTSR VLKEDKERWE DVKEEMTSAL
+     ATMRVDYEQI KIKKIEDASN PLLLKRRKKA RALEAAALAH
+//

@@ -1,0 +1,192 @@
+ID   CLK4_HUMAN              Reviewed;         481 AA.
+AC   Q9HAZ1;
+DT   19-SEP-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   05-OCT-2010, entry version 79.
+DE   RecName: Full=Dual specificity protein kinase CLK4;
+DE            EC=2.7.12.1;
+DE   AltName: Full=CDC-like kinase 4;
+GN   Name=CLK4;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, TISSUE SPECIFICITY,
+RP   AUTOPHOSPHORYLATION, AND MUTAGENESIS OF LYS-189.
+RC   TISSUE=Kidney;
+RX   MEDLINE=21100912; PubMed=11170754; DOI=10.1006/geno.2000.6447;
+RA   Schultz J., Jones T., Bork P., Sheer D., Blencke S., Steyrer S.,
+RA   Wellbrock U., Bevec D., Ullrich A., Wallasch C.;
+RT   "Molecular characterization of a cDNA encoding functional human CLK4
+RT   kinase and localization to chromosome 5q35.";
+RL   Genomics 71:368-370(2001).
+RN   [2]
+RP   ERRATUM.
+RA   Schultz J., Jones T., Bork P., Sheer D., Blencke S., Steyrer S.,
+RA   Wellbrock U., Bevec D., Ullrich A., Wallasch C.;
+RL   Genomics 74:251-251(2001).
+RN   [3]
+RP   INTERACTION WITH UBL5.
+RX   MEDLINE=22709234; PubMed=12824502; DOI=10.1110/ps.0382803;
+RA   McNally T., Huang Q., Janis R.S., Liu Z., Olejniczak E.T.,
+RA   Reilly R.M.;
+RT   "Structural analysis of UBL5, a novel ubiquitin-like modifier.";
+RL   Protein Sci. 12:1562-1566(2003).
+RN   [4]
+RP   INTERACTION WITH UBL5.
+RX   MEDLINE=22592248; PubMed=12705895; DOI=10.1016/S0006-291X(03)00549-7;
+RA   Kantham L., Kerr-Bayles L., Godde N., Quick M., Webb R.,
+RA   Sunderland T., Bond J., Walder K., Augert G., Collier G.;
+RT   "Beacon interacts with cdc2/cdc28-like kinases.";
+RL   Biochem. Biophys. Res. Commun. 304:125-129(2003).
+RN   [5]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-138, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=17081983; DOI=10.1016/j.cell.2006.09.026;
+RA   Olsen J.V., Blagoev B., Gnad F., Macek B., Kumar C., Mortensen P.,
+RA   Mann M.;
+RT   "Global, in vivo, and site-specific phosphorylation dynamics in
+RT   signaling networks.";
+RL   Cell 127:635-648(2006).
+RN   [6]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-136 AND SER-138, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [7]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-136 AND SER-138, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [8]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-136 AND SER-138, AND
+RP   MASS SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [9]
+RP   VARIANTS [LARGE SCALE ANALYSIS] PHE-352 AND VAL-363.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Phosphorylates serine- and arginine-rich (SR) proteins
+CC       of the spliceosomal complex may be a constituent of a network of
+CC       regulatory mechanisms that enable SR proteins to control RNA
+CC       splicing. Phosphorylates serines, threonines and tyrosines.
+CC       Required for the regulation of alternative splicing of MAPT/TAU.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- SUBUNIT: Interacts with UBL5.
+CC   -!- SUBCELLULAR LOCATION: Nucleus (By similarity).
+CC   -!- TISSUE SPECIFICITY: Expressed in liver, kidney, heart, muscle and
+CC       brain.
+CC   -!- PTM: Autophosphorylates on all three types of residues.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CMGC
+CC       Ser/Thr protein kinase family. Lammer subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF294429; AAG10074.1; -; mRNA.
+DR   IPI; IPI00180143; -.
+DR   RefSeq; NP_065717.1; -.
+DR   UniGene; Hs.406557; -.
+DR   ProteinModelPortal; Q9HAZ1; -.
+DR   SMR; Q9HAZ1; 146-479.
+DR   IntAct; Q9HAZ1; 1.
+DR   STRING; Q9HAZ1; -.
+DR   PhosphoSite; Q9HAZ1; -.
+DR   PRIDE; Q9HAZ1; -.
+DR   Ensembl; ENST00000316308; ENSP00000316948; ENSG00000113240.
+DR   GeneID; 57396; -.
+DR   KEGG; hsa:57396; -.
+DR   UCSC; uc003mjf.1; human.
+DR   CTD; 57396; -.
+DR   GeneCards; GC05M177962; -.
+DR   H-InvDB; HIX0024806; -.
+DR   HGNC; HGNC:13659; CLK4.
+DR   MIM; 607969; gene.
+DR   PharmGKB; PA26598; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG107720; -.
+DR   InParanoid; Q9HAZ1; -.
+DR   OMA; ECIDHDM; -.
+DR   OrthoDB; EOG9X3KM2; -.
+DR   PhylomeDB; Q9HAZ1; -.
+DR   BRENDA; 2.7.12.1; 247.
+DR   NextBio; 63494; -.
+DR   ArrayExpress; Q9HAZ1; -.
+DR   Bgee; Q9HAZ1; -.
+DR   CleanEx; HS_CLK4; -.
+DR   Genevestigator; Q9HAZ1; -.
+DR   GermOnline; ENSG00000113240; Homo sapiens.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0004713; F:protein tyrosine kinase activity; IEA:UniProtKB-KW.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Complete proteome; Kinase; Nucleotide-binding; Nucleus;
+KW   Phosphoprotein; Polymorphism; Serine/threonine-protein kinase;
+KW   Transferase; Tyrosine-protein kinase.
+FT   CHAIN         1    481       Dual specificity protein kinase CLK4.
+FT                                /FTId=PRO_0000085873.
+FT   DOMAIN      159    475       Protein kinase.
+FT   NP_BIND     165    173       ATP (By similarity).
+FT   ACT_SITE    286    286       Proton acceptor (By similarity).
+FT   BINDING     189    189       ATP (By similarity).
+FT   MOD_RES     136    136       Phosphoserine.
+FT   MOD_RES     138    138       Phosphoserine.
+FT   VARIANT     352    352       L -> F (in dbSNP:rs35272416).
+FT                                /FTId=VAR_040414.
+FT   VARIANT     363    363       I -> V (in dbSNP:rs55746655).
+FT                                /FTId=VAR_040415.
+FT   MUTAGEN     189    189       K->R: Loss of function.
+SQ   SEQUENCE   481 AA;  57492 MW;  F402C36835CDA306 CRC64;
+     MRHSKRTHCP DWDSRESWGH ESYRGSHKRK RRSHSSTQEN RHCKPHHQFK ESDCHYLEAR
+     SLNERDYRDR RYVDEYRNDY CEGYVPRHYH RDIESGYRIH CSKSSVRSRR SSPKRKRNRH
+     CSSHQSRSKS HRRKRSRSIE DDEEGHLICQ SGDVLRARYE IVDTLGEGAF GKVVECIDHG
+     MDGMHVAVKI VKNVGRYREA ARSEIQVLEH LNSTDPNSVF RCVQMLEWFD HHGHVCIVFE
+     LLGLSTYDFI KENSFLPFQI DHIRQMAYQI CQSINFLHHN KLTHTDLKPE NILFVKSDYV
+     VKYNSKMKRD ERTLKNTDIK VVDFGSATYD DEHHSTLVST RHYRAPEVIL ALGWSQPCDV
+     WSIGCILIEY YLGFTVFQTH DSKEHLAMME RILGPIPQHM IQKTRKRKYF HHNQLDWDEH
+     SSAGRYVRRR CKPLKEFMLC HDEEHEKLFD LVRRMLEYDP TQRITLDEAL QHPFFDLLKK
+     K
+//

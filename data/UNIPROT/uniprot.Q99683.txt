@@ -1,0 +1,407 @@
+ID   M3K5_HUMAN              Reviewed;        1374 AA.
+AC   Q99683; Q5THN3; Q99461;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1997, sequence version 1.
+DT   05-OCT-2010, entry version 116.
+DE   RecName: Full=Mitogen-activated protein kinase kinase kinase 5;
+DE            EC=2.7.11.25;
+DE   AltName: Full=Apoptosis signal-regulating kinase 1;
+DE            Short=ASK-1;
+DE   AltName: Full=MAPK/ERK kinase kinase 5;
+DE            Short=MEK kinase 5;
+DE            Short=MEKK 5;
+GN   Name=MAP3K5; Synonyms=ASK1, MAPKKK5, MEKK5;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND FUNCTION.
+RX   MEDLINE=97094945; PubMed=8940179; DOI=10.1074/jbc.271.49.31607;
+RA   Wang X.S., Diener K., Jannuzzi D., Trollinger D., Tan T.-H.,
+RA   Lichenstein H., Zukowski M., Yao Z.;
+RT   "Molecular cloning and characterization of a novel protein kinase with
+RT   a catalytic domain homologous to mitogen-activated protein kinase
+RT   kinase kinase.";
+RL   J. Biol. Chem. 271:31607-31611(1996).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND FUNCTION.
+RX   MEDLINE=97130104; PubMed=8974401; DOI=10.1126/science.275.5296.90;
+RA   Ichijo H., Nishida E., Irie K., ten Dijke P., Saitoh M., Moriguchi T.,
+RA   Takagi M., Matsumoto K., Miyazono K., Gotoh Y.;
+RT   "Induction of apoptosis by ASK1, a mammalian MAPKKK that activates
+RT   SAPK/JNK and p38 signaling pathways.";
+RL   Science 275:90-94(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   MEDLINE=22935763; PubMed=14574404; DOI=10.1038/nature02055;
+RA   Mungall A.J., Palmer S.A., Sims S.K., Edwards C.A., Ashurst J.L.,
+RA   Wilming L., Jones M.C., Horton R., Hunt S.E., Scott C.E.,
+RA   Gilbert J.G.R., Clamp M.E., Bethel G., Milne S., Ainscough R.,
+RA   Almeida J.P., Ambrose K.D., Andrews T.D., Ashwell R.I.S.,
+RA   Babbage A.K., Bagguley C.L., Bailey J., Banerjee R., Barker D.J.,
+RA   Barlow K.F., Bates K., Beare D.M., Beasley H., Beasley O., Bird C.P.,
+RA   Blakey S.E., Bray-Allen S., Brook J., Brown A.J., Brown J.Y.,
+RA   Burford D.C., Burrill W., Burton J., Carder C., Carter N.P.,
+RA   Chapman J.C., Clark S.Y., Clark G., Clee C.M., Clegg S., Cobley V.,
+RA   Collier R.E., Collins J.E., Colman L.K., Corby N.R., Coville G.J.,
+RA   Culley K.M., Dhami P., Davies J., Dunn M., Earthrowl M.E.,
+RA   Ellington A.E., Evans K.A., Faulkner L., Francis M.D., Frankish A.,
+RA   Frankland J., French L., Garner P., Garnett J., Ghori M.J.,
+RA   Gilby L.M., Gillson C.J., Glithero R.J., Grafham D.V., Grant M.,
+RA   Gribble S., Griffiths C., Griffiths M.N.D., Hall R., Halls K.S.,
+RA   Hammond S., Harley J.L., Hart E.A., Heath P.D., Heathcott R.,
+RA   Holmes S.J., Howden P.J., Howe K.L., Howell G.R., Huckle E.,
+RA   Humphray S.J., Humphries M.D., Hunt A.R., Johnson C.M., Joy A.A.,
+RA   Kay M., Keenan S.J., Kimberley A.M., King A., Laird G.K., Langford C.,
+RA   Lawlor S., Leongamornlert D.A., Leversha M., Lloyd C.R., Lloyd D.M.,
+RA   Loveland J.E., Lovell J., Martin S., Mashreghi-Mohammadi M.,
+RA   Maslen G.L., Matthews L., McCann O.T., McLaren S.J., McLay K.,
+RA   McMurray A., Moore M.J.F., Mullikin J.C., Niblett D., Nickerson T.,
+RA   Novik K.L., Oliver K., Overton-Larty E.K., Parker A., Patel R.,
+RA   Pearce A.V., Peck A.I., Phillimore B.J.C.T., Phillips S., Plumb R.W.,
+RA   Porter K.M., Ramsey Y., Ranby S.A., Rice C.M., Ross M.T., Searle S.M.,
+RA   Sehra H.K., Sheridan E., Skuce C.D., Smith S., Smith M., Spraggon L.,
+RA   Squares S.L., Steward C.A., Sycamore N., Tamlyn-Hall G., Tester J.,
+RA   Theaker A.J., Thomas D.W., Thorpe A., Tracey A., Tromans A., Tubby B.,
+RA   Wall M., Wallis J.M., West A.P., White S.S., Whitehead S.L.,
+RA   Whittaker H., Wild A., Willey D.J., Wilmer T.E., Wood J.M., Wray P.W.,
+RA   Wyatt J.C., Young L., Younger R.M., Bentley D.R., Coulson A.,
+RA   Durbin R.M., Hubbard T., Sulston J.E., Dunham I., Rogers J., Beck S.;
+RT   "The DNA sequence and analysis of human chromosome 6.";
+RL   Nature 425:805-811(2003).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Eye, and Lung;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [5]
+RP   INTERACTION WITH DAXX, AND MUTAGENESIS OF LYS-709.
+RX   MEDLINE=98416247; PubMed=9743501; DOI=10.1126/science.281.5384.1860;
+RA   Chang H.Y., Nishitoh H., Yang X., Ichijo H., Baltimore D.;
+RT   "Activation of apoptosis signal-regulating kinase 1 (ASK1) by the
+RT   adapter protein Daxx.";
+RL   Science 281:1860-1863(1998).
+RN   [6]
+RP   INTERACTION WITH ARRB2.
+RX   PubMed=11090355; DOI=10.1126/science.290.5496.1574;
+RA   McDonald P.H., Chow C.W., Miller W.E., Laporte S.A., Field M.E.,
+RA   Lin F.-T., Davis R.J., Lefkowitz R.J.;
+RT   "Beta-arrestin 2: a receptor-regulated MAPK scaffold for the
+RT   activation of JNK3.";
+RL   Science 290:1574-1577(2000).
+RN   [7]
+RP   INTERACTION WITH HIV-1 NEF, AND INHIBITION BY HIV-1 NEF.
+RX   MEDLINE=21195973; PubMed=11298454; DOI=10.1038/35071111;
+RA   Geleziunas R., Xu W., Takeda K., Ichijo H., Greene W.C.;
+RT   "HIV-1 Nef inhibits ASK1-dependent death signalling providing a
+RT   potential mechanism for protecting the infected host cell.";
+RL   Nature 410:834-838(2001).
+RN   [8]
+RP   FUNCTION, HOMODIMERIZATION, ENZYME REGULATION, AND PHOSPHORYLATION AT
+RP   THR-838.
+RX   PubMed=11920685; DOI=10.1002/jcp.10080;
+RA   Tobiume K., Saitoh M., Ichijo H.;
+RT   "Activation of apoptosis signal-regulating kinase 1 by the stress-
+RT   induced activating phosphorylation of pre-formed oligomer.";
+RL   J. Cell. Physiol. 191:95-104(2002).
+RN   [9]
+RP   INTERACTION WITH DAB2IP.
+RX   PubMed=12813029;
+RA   Zhang R., He X., Liu W., Lu M., Hsieh J.-T., Min W.;
+RT   "AIP1 mediates TNF-alpha-induced ASK1 activation by facilitating
+RT   dissociation of ASK1 from its inhibitor 14-3-3.";
+RL   J. Clin. Invest. 111:1933-1943(2003).
+RN   [10]
+RP   INTERACTION WITH DAB2IP.
+RX   PubMed=15310755; DOI=10.1074/jbc.M407617200;
+RA   Zhang H., Zhang R., Luo Y., D'Alessio A., Pober J.S., Min W.;
+RT   "AIP1/DAB2IP, a novel member of the Ras-GAP family, transduces TRAF2-
+RT   induced ASK1-JNK activation.";
+RL   J. Biol. Chem. 279:44955-44965(2004).
+RN   [11]
+RP   ENZYME REGULATION, PHOSPHORYLATION AT SER-966 AND SER-1033,
+RP   MUTAGENESIS OF SER-966 AND SER-1033, AND INTERACTION WITH YWHAG.
+RX   PubMed=15094778; DOI=10.1038/sj.onc.1207668;
+RA   Fujii K., Goldman E.H., Park H.R., Zhang L., Chen J., Fu H.;
+RT   "Negative control of apoptosis signal-regulating kinase 1 through
+RT   phosphorylation of Ser-1034.";
+RL   Oncogene 23:5099-5104(2004).
+RN   [12]
+RP   INTERACTION WITH PPM1L.
+RX   PubMed=17456047; DOI=10.1042/BJ20070231;
+RA   Saito J., Toriumi S., Awano K., Ichijo H., Sasaki K., Kobayashi T.,
+RA   Tamura S.;
+RT   "Regulation of apoptosis signal-regulating kinase 1 by protein
+RT   phosphatase 2Cepsilon.";
+RL   Biochem. J. 405:591-596(2007).
+RN   [13]
+RP   ENZYME REGULATION, INTERACTION WITH MAP3K5, PHOSPHORYLATION AT
+RP   THR-838, AND MUTAGENESIS OF LYS-709.
+RX   PubMed=17210579; DOI=10.1074/jbc.M607177200;
+RA   Takeda K., Shimozono R., Noguchi T., Umeda T., Morimoto Y., Naguro I.,
+RA   Tobiume K., Saitoh M., Matsuzawa A., Ichijo H.;
+RT   "Apoptosis signal-regulating kinase (ASK) 2 functions as a mitogen-
+RT   activated protein kinase kinase kinase in a heteromeric complex with
+RT   ASK1.";
+RL   J. Biol. Chem. 282:7522-7531(2007).
+RN   [14]
+RP   INTERACTION WITH ARRB2.
+RX   PubMed=18408005; DOI=10.1074/jbc.M710006200;
+RA   Guo C., Whitmarsh A.J.;
+RT   "The beta-arrestin-2 scaffold protein promotes c-Jun N-terminal
+RT   kinase-3 activation by binding to its nonconserved N terminus.";
+RL   J. Biol. Chem. 283:15903-15911(2008).
+RN   [15]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-1029 AND SER-1033, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Platelet;
+RX   PubMed=18088087; DOI=10.1021/pr0704130;
+RA   Zahedi R.P., Lewandrowski U., Wiesner J., Wortelkamp S., Moebius J.,
+RA   Schuetz C., Walter U., Gambaryan S., Sickmann A.;
+RT   "Phosphoproteome of resting human platelets.";
+RL   J. Proteome Res. 7:526-534(2008).
+RN   [16]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-1029 AND SER-1033, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [17]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-836; THR-838; SER-958;
+RP   THR-976; SER-977; SER-978; SER-979; SER-984; SER-986; THR-989 AND
+RP   SER-1033, AND MASS SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [18]
+RP   INTERACTION WITH PGAM5, AND PHOSPHORYLATION.
+RX   PubMed=19590015; DOI=10.1073/pnas.0901823106;
+RA   Takeda K., Komuro Y., Hayakawa T., Oguchi H., Ishida Y., Murakami S.,
+RA   Noguchi T., Kinoshita H., Sekine Y., Iemura S., Natsume T., Ichijo H.;
+RT   "Mitochondrial phosphoglycerate mutase 5 uses alternate catalytic
+RT   activity as a protein serine/threonine phosphatase to activate ASK1.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 106:12301-12305(2009).
+RN   [19]
+RP   VARIANTS [LARGE SCALE ANALYSIS] ARG-1006; THR-1214; VAL-1250; ILE-1314
+RP   AND ASN-1315.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Component of a protein kinase signal transduction
+CC       cascade. Phosphorylates and activates MAP2K4 and MAP2K6, which in
+CC       turn activate the JNK and p38 MAP kinases, respectively.
+CC       Overexpression induces apoptotic cell death.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- COFACTOR: Magnesium.
+CC   -!- ENZYME REGULATION: Contains an N-terminal autoinhibitory domain.
+CC       Activated by phosphorylation at Thr-838, inhibited by
+CC       phosphorylation at Ser-966 and Ser-1033. Binds to, and stabilizes
+CC       MAP3K6 and is activated by MAP3K6 by phosphorylation on Thr-838.
+CC   -!- SUBUNIT: Homodimer when inactive. Binds both upstream activators
+CC       and downstream substrates in multimolecular complexes. Associates
+CC       with and inhibited by HIV-1 Nef. Interacts with DAB2IP and PPM1L.
+CC       Interacts with ARRB2.
+CC   -!- INTERACTION:
+CC       Self; NbExp=1; IntAct=EBI-476263, EBI-476263;
+CC       P31749:AKT1; NbExp=2; IntAct=EBI-476263, EBI-296087;
+CC       Q9UER7:DAXX; NbExp=4; IntAct=EBI-476263, EBI-77321;
+CC       P25445:FAS; NbExp=1; IntAct=EBI-476263, EBI-494743;
+CC       P15626:Gstm2 (xeno); NbExp=1; IntAct=EBI-476263, EBI-1209729;
+CC       P09211:GSTP1; NbExp=1; IntAct=EBI-476263, EBI-353467;
+CC       Q9WTR2:Map3k6 (xeno); NbExp=1; IntAct=EBI-476263, EBI-1254790;
+CC       O08815:Slk (xeno); NbExp=1; IntAct=EBI-476263, EBI-986112;
+CC       Q12933:TRAF2; NbExp=1; IntAct=EBI-476263, EBI-355744;
+CC       P63104:YWHAZ; NbExp=1; IntAct=EBI-476263, EBI-347088;
+CC   -!- TISSUE SPECIFICITY: Abundantly expressed in heart and pancreas.
+CC   -!- INDUCTION: By TNF. Inhibited by HIV-1 Nef.
+CC   -!- PTM: Dephosphorylated and activated by PGAM5.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. STE Ser/Thr
+CC       protein kinase family. MAP kinase kinase kinase subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U67156; AAC50894.1; -; mRNA.
+DR   EMBL; D84476; BAA12684.2; -; mRNA.
+DR   EMBL; AL024508; CAI20176.1; -; Genomic_DNA.
+DR   EMBL; AL121933; CAI20176.1; JOINED; Genomic_DNA.
+DR   EMBL; AL121933; CAI15470.1; -; Genomic_DNA.
+DR   EMBL; AL024508; CAI15470.1; JOINED; Genomic_DNA.
+DR   EMBL; BC054503; AAH54503.1; -; mRNA.
+DR   EMBL; BC088829; AAH88829.1; -; mRNA.
+DR   IPI; IPI00412433; -.
+DR   RefSeq; NP_005914.1; -.
+DR   UniGene; Hs.186486; -.
+DR   PDB; 2CLQ; X-ray; 2.30 A; A/B=659-951.
+DR   PDBsum; 2CLQ; -.
+DR   ProteinModelPortal; Q99683; -.
+DR   DIP; DIP-29516N; -.
+DR   IntAct; Q99683; 29.
+DR   MINT; MINT-99796; -.
+DR   STRING; Q99683; -.
+DR   PRIDE; Q99683; -.
+DR   Ensembl; ENST00000359015; ENSP00000351908; ENSG00000197442.
+DR   GeneID; 4217; -.
+DR   KEGG; hsa:4217; -.
+DR   UCSC; uc003qhc.1; human.
+DR   CTD; 4217; -.
+DR   GeneCards; GC06M136919; -.
+DR   H-InvDB; HIX0025089; -.
+DR   HGNC; HGNC:6857; MAP3K5.
+DR   HPA; CAB007824; -.
+DR   MIM; 602448; gene.
+DR   PharmGKB; PA30601; -.
+DR   HOVERGEN; HBG006305; -.
+DR   InParanoid; Q99683; -.
+DR   OMA; ESMSAEA; -.
+DR   OrthoDB; EOG9909VQ; -.
+DR   PhylomeDB; Q99683; -.
+DR   BRENDA; 2.7.11.25; 247.
+DR   BRENDA; 2.7.12.2; 247.
+DR   Pathway_Interaction_DB; pi3kciaktpathway; Class I PI3K signaling events mediated by Akt.
+DR   Pathway_Interaction_DB; hivnefpathway; HIV-1 Nef: Negative effector of Fas and TNF-alpha.
+DR   Pathway_Interaction_DB; mtor_4pathway; mTOR signaling pathway.
+DR   Pathway_Interaction_DB; p38_mkk3_6pathway; p38 MAPK signaling pathway.
+DR   Pathway_Interaction_DB; met_pathway; Signaling events activated by Hepatocyte Growth Factor Receptor (c-Met).
+DR   Pathway_Interaction_DB; tnfpathway; TNF receptor signaling pathway.
+DR   NextBio; 16633; -.
+DR   ArrayExpress; Q99683; -.
+DR   Bgee; Q99683; -.
+DR   CleanEx; HS_MAP3K5; -.
+DR   Genevestigator; Q99683; -.
+DR   GermOnline; ENSG00000197442; Homo sapiens.
+DR   GO; GO:0005524; F:ATP binding; IDA:UniProtKB.
+DR   GO; GO:0008656; F:caspase activator activity; IDA:UniProtKB.
+DR   GO; GO:0000287; F:magnesium ion binding; IDA:UniProtKB.
+DR   GO; GO:0004709; F:MAP kinase kinase kinase activity; IDA:UniProtKB.
+DR   GO; GO:0042803; F:protein homodimerization activity; IDA:UniProtKB.
+DR   GO; GO:0007257; P:activation of JUN kinase activity; TAS:ProtInc.
+DR   GO; GO:0006915; P:apoptosis; IEA:UniProtKB-KW.
+DR   GO; GO:0008624; P:induction of apoptosis by extracellular sig...; TAS:ProtInc.
+DR   GO; GO:0044419; P:interspecies interaction between organisms; IEA:UniProtKB-KW.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   InterPro; IPR010993; Sterile_alpha_motif_homology.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   SUPFAM; SSF47769; SAM_homology; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Apoptosis; ATP-binding; Complete proteome;
+KW   Host-virus interaction; Kinase; Magnesium; Metal-binding;
+KW   Nucleotide-binding; Phosphoprotein; Polymorphism;
+KW   Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1   1374       Mitogen-activated protein kinase kinase
+FT                                kinase 5.
+FT                                /FTId=PRO_0000086249.
+FT   DOMAIN      680    938       Protein kinase.
+FT   NP_BIND     686    694       ATP (By similarity).
+FT   ACT_SITE    803    803       Proton acceptor (By similarity).
+FT   BINDING     709    709       ATP.
+FT   MOD_RES     836    836       Phosphothreonine.
+FT   MOD_RES     838    838       Phosphothreonine.
+FT   MOD_RES     958    958       Phosphoserine.
+FT   MOD_RES     966    966       Phosphoserine.
+FT   MOD_RES     976    976       Phosphothreonine.
+FT   MOD_RES     977    977       Phosphoserine.
+FT   MOD_RES     978    978       Phosphoserine.
+FT   MOD_RES     979    979       Phosphoserine.
+FT   MOD_RES     984    984       Phosphoserine.
+FT   MOD_RES     986    986       Phosphoserine.
+FT   MOD_RES     989    989       Phosphothreonine.
+FT   MOD_RES    1029   1029       Phosphoserine.
+FT   MOD_RES    1033   1033       Phosphoserine.
+FT   VARIANT    1006   1006       G -> R (in dbSNP:rs45626535).
+FT                                /FTId=VAR_040693.
+FT   VARIANT    1214   1214       I -> T (in dbSNP:rs56379668).
+FT                                /FTId=VAR_040694.
+FT   VARIANT    1250   1250       I -> V (in dbSNP:rs35551087).
+FT                                /FTId=VAR_040695.
+FT   VARIANT    1314   1314       T -> I (in dbSNP:rs45599539).
+FT                                /FTId=VAR_040696.
+FT   VARIANT    1315   1315       D -> N (in dbSNP:rs41288957).
+FT                                /FTId=VAR_040697.
+FT   MUTAGEN     709    709       K->M: Loss of kinase activity. Inhibits
+FT                                activation of JNK and apoptosis mediated
+FT                                by TNFRSF6 and DAXX.
+FT   MUTAGEN     709    709       K->R: Loss of kinase activity. Abolishes
+FT                                DAXX-mediated apoptosis.
+FT   MUTAGEN     966    966       S->A: Enhanced induction of apoptosis,
+FT                                increased kinase activity, and loss of
+FT                                YWHAG binding.
+FT   MUTAGEN    1033   1033       S->A: Enhanced induction of apoptosis and
+FT                                increased kinase activity.
+FT   STRAND      671    714
+FT   HELIX       720    730
+FT   STRAND      731    761
+FT   HELIX       762    767
+FT   STRAND      768    770
+FT   STRAND      773    776
+FT   HELIX       777    796
+FT   STRAND      797    830
+FT   STRAND      838    846
+FT   HELIX       848    853
+FT   STRAND      855    861
+FT   HELIX       862    876
+FT   STRAND      880    888
+FT   HELIX       889    897
+FT   STRAND      898    900
+FT   STRAND      905    908
+FT   HELIX       909    916
+FT   STRAND      917    928
+FT   HELIX       929    933
+SQ   SEQUENCE   1374 AA;  154537 MW;  265BDC65968AF985 CRC64;
+     MSTEADEGIT FSVPPFAPSG FCTIPEGGIC RRGGAAAVGE GEEHQLPPPP PGSFWNVESA
+     AAPGIGCPAA TSSSSATRGR GSSVGGGSRR TTVAYVINEA SQGQLVVAES EALQSLREAC
+     ETVGATLETL HFGKLDFGET TVLDRFYNAD IAVVEMSDAF RQPSLFYHLG VRESFSMANN
+     IILYCDTNSD SLQSLKEIIC QKNTMCTGNY TFVPYMITPH NKVYCCDSSF MKGLTELMQP
+     NFELLLGPIC LPLVDRFIQL LKVAQASSSQ YFRESILNDI RKARNLYTGK ELAAELARIR
+     QRVDNIEVLT ADIVINLLLS YRDIQDYDSI VKLVETLEKL PTFDLASHHH VKFHYAFALN
+     RRNLPGDRAK ALDIMIPMVQ SEGQVASDMY CLVGRIYKDM FLDSNFTDTE SRDHGASWFK
+     KAFESEPTLQ SGINYAVLLL AAGHQFESSF ELRKVGVKLS SLLGKKGNLE KLQSYWEVGF
+     FLGASVLAND HMRVIQASEK LFKLKTPAWY LKSIVETILI YKHFVKLTTE QPVAKQELVD
+     FWMDFLVEAT KTDVTVVRFP VLILEPTKIY QPSYLSINNE VEEKTISIWH VLPDDKKGIH
+     EWNFSASSVR GVSISKFEER CCFLYVLHNS DDFQIYFCTE LHCKKFFEMV NTITEEKGRS
+     TEEGDCESDL LEYDYEYDEN GDRVVLGKGT YGIVYAGRDL SNQVRIAIKE IPERDSRYSQ
+     PLHEEIALHK HLKHKNIVQY LGSFSENGFI KIFMEQVPGG SLSALLRSKW GPLKDNEQTI
+     GFYTKQILEG LKYLHDNQIV HRDIKGDNVL INTYSGVLKI SDFGTSKRLA GINPCTETFT
+     GTLQYMAPEI IDKGPRGYGK AADIWSLGCT IIEMATGKPP FYELGEPQAA MFKVGMFKVH
+     PEIPESMSAE AKAFILKCFE PDPDKRACAN DLLVDEFLKV SSKKKKTQPK LSALSAGSNE
+     YLRSISLPVP VLVEDTSSSS EYGSVSPDTE LKVDPFSFKT RAKSCGERDV KGIRTLFLGI
+     PDENFEDHSA PPSPEEKDSG FFMLRKDSER RATLHRILTE DQDKIVRNLM ESLAQGAEEP
+     KLKWEHITTL IASLREFVRS TDRKIIATTL SKLKLELDFD SHGISQVQVV LFGFQDAVNK
+     VLRNHNIKPH WMFALDSIIR KAVQTAITIL VPELRPHFSL ASESDTADQE DLDVEDDHEE
+     QPSNQTVRRP QAVIEDAVAT SGVSTLSSTV SHDSQSAHRS LNVQLGRMKI ETNRLLEELV
+     RKEKELQALL HRAIEEKDQE IKHLKLKSQP IEIPELPVFH LNSSGTNTED SELTDWLRVN
+     GADEDTISRF LAEDYTLLDV LYYVTRDDLK CLRLRGGMLC TLWKAIIDFR NKQT
+//

@@ -1,0 +1,424 @@
+ID   NEK2_HUMAN              Reviewed;         445 AA.
+AC   P51955; Q53FD6; Q5VXZ1; Q6NZX8; Q7Z634; Q86XH2; Q96QN9;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1996, sequence version 1.
+DT   05-OCT-2010, entry version 119.
+DE   RecName: Full=Serine/threonine-protein kinase Nek2;
+DE            EC=2.7.11.1;
+DE   AltName: Full=HSPK 21;
+DE   AltName: Full=Never in mitosis A-related kinase 2;
+DE            Short=NimA-related protein kinase 2;
+DE   AltName: Full=NimA-like protein kinase 1;
+GN   Name=NEK2; Synonyms=NEK2A, NLK1;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RC   TISSUE=Nasopharynx, Placenta, and T-cell;
+RX   MEDLINE=94368699; PubMed=7522034;
+RA   Schultz S.J., Fry A.M., Suetterlin C., Ried T., Nigg E.A.;
+RT   "Cell cycle-dependent expression of Nek2, a novel human protein kinase
+RT   related to the NIMA mitotic regulator of Aspergillus nidulans.";
+RL   Cell Growth Differ. 5:625-635(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1 AND 2), FUNCTION, TISSUE
+RP   SPECIFICITY, SUBCELLULAR LOCATION, DEVELOPMENTAL STAGE, AND
+RP   DIMERIZATION.
+RX   MEDLINE=21607591; PubMed=11742531; DOI=10.1042/0264-6021:3610077;
+RA   Hames R.S., Fry A.M.;
+RT   "Alternative splice variants of the human centrosome kinase Nek2
+RT   exhibit distinct patterns of expression in mitosis.";
+RL   Biochem. J. 361:77-85(2002).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RA   Lu K.P., Hunter T.;
+RT   "Molecular cloning and expression of NLK1, a human NIMA-like kinase.";
+RL   Submitted (JUL-1994) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RA   Kalnine N., Chen X., Rolfs A., Halleck A., Hines L., Eisenstein S.,
+RA   Koundinya M., Raphael J., Moreira D., Kelley T., LaBaer J., Lin Y.,
+RA   Phelan M., Farmer A.;
+RT   "Cloning of human full-length CDSs in BD Creator(TM) system donor
+RT   vector.";
+RL   Submitted (OCT-2004) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1), AND VARIANT
+RP   SER-354.
+RC   TISSUE=Testis;
+RA   Suzuki Y., Sugano S., Totoki Y., Toyoda A., Takeda T., Sakaki Y.,
+RA   Tanaka A., Yokoyama S.;
+RL   Submitted (APR-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=16710414; DOI=10.1038/nature04727;
+RA   Gregory S.G., Barlow K.F., McLay K.E., Kaul R., Swarbreck D.,
+RA   Dunham A., Scott C.E., Howe K.L., Woodfine K., Spencer C.C.A.,
+RA   Jones M.C., Gillson C., Searle S., Zhou Y., Kokocinski F.,
+RA   McDonald L., Evans R., Phillips K., Atkinson A., Cooper R., Jones C.,
+RA   Hall R.E., Andrews T.D., Lloyd C., Ainscough R., Almeida J.P.,
+RA   Ambrose K.D., Anderson F., Andrew R.W., Ashwell R.I.S., Aubin K.,
+RA   Babbage A.K., Bagguley C.L., Bailey J., Beasley H., Bethel G.,
+RA   Bird C.P., Bray-Allen S., Brown J.Y., Brown A.J., Buckley D.,
+RA   Burton J., Bye J., Carder C., Chapman J.C., Clark S.Y., Clarke G.,
+RA   Clee C., Cobley V., Collier R.E., Corby N., Coville G.J., Davies J.,
+RA   Deadman R., Dunn M., Earthrowl M., Ellington A.G., Errington H.,
+RA   Frankish A., Frankland J., French L., Garner P., Garnett J., Gay L.,
+RA   Ghori M.R.J., Gibson R., Gilby L.M., Gillett W., Glithero R.J.,
+RA   Grafham D.V., Griffiths C., Griffiths-Jones S., Grocock R.,
+RA   Hammond S., Harrison E.S.I., Hart E., Haugen E., Heath P.D.,
+RA   Holmes S., Holt K., Howden P.J., Hunt A.R., Hunt S.E., Hunter G.,
+RA   Isherwood J., James R., Johnson C., Johnson D., Joy A., Kay M.,
+RA   Kershaw J.K., Kibukawa M., Kimberley A.M., King A., Knights A.J.,
+RA   Lad H., Laird G., Lawlor S., Leongamornlert D.A., Lloyd D.M.,
+RA   Loveland J., Lovell J., Lush M.J., Lyne R., Martin S.,
+RA   Mashreghi-Mohammadi M., Matthews L., Matthews N.S.W., McLaren S.,
+RA   Milne S., Mistry S., Moore M.J.F., Nickerson T., O'Dell C.N.,
+RA   Oliver K., Palmeiri A., Palmer S.A., Parker A., Patel D., Pearce A.V.,
+RA   Peck A.I., Pelan S., Phelps K., Phillimore B.J., Plumb R., Rajan J.,
+RA   Raymond C., Rouse G., Saenphimmachak C., Sehra H.K., Sheridan E.,
+RA   Shownkeen R., Sims S., Skuce C.D., Smith M., Steward C.,
+RA   Subramanian S., Sycamore N., Tracey A., Tromans A., Van Helmond Z.,
+RA   Wall M., Wallis J.M., White S., Whitehead S.L., Wilkinson J.E.,
+RA   Willey D.L., Williams H., Wilming L., Wray P.W., Wu Z., Coulson A.,
+RA   Vaudin M., Sulston J.E., Durbin R.M., Hubbard T., Wooster R.,
+RA   Dunham I., Carter N.P., McVean G., Ross M.T., Harrow J., Olson M.V.,
+RA   Beck S., Rogers J., Bentley D.R.;
+RT   "The DNA sequence and biological annotation of human chromosome 1.";
+RL   Nature 441:315-321(2006).
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1 AND 3).
+RC   TISSUE=Mammary gland, Skin, and Uterus;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [8]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 83-203.
+RX   MEDLINE=94100173; PubMed=8274451;
+RA   Schultz S.J., Nigg E.A.;
+RT   "Identification of 21 novel human protein kinases, including 3 members
+RT   of a family related to the cell cycle regulator nimA of Aspergillus
+RT   nidulans.";
+RL   Cell Growth Differ. 4:821-830(1993).
+RN   [9]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 305-445, FUNCTION, SUBCELLULAR LOCATION,
+RP   AND INTERACTION WITH MAD1L1.
+RX   PubMed=14978040; DOI=10.1074/jbc.M314205200;
+RA   Lou Y., Yao J., Zereshki A., Dou Z., Ahmed K., Wang H., Hu J.,
+RA   Wang Y., Yao X.;
+RT   "NEK2A interacts with MAD1 and possibly functions as a novel
+RT   integrator of the spindle checkpoint signaling.";
+RL   J. Biol. Chem. 279:20049-20057(2004).
+RN   [10]
+RP   FUNCTION, SUBCELLULAR LOCATION, ENZYME REGULATION, AND MUTAGENESIS OF
+RP   LYS-37.
+RX   PubMed=15161910; DOI=10.1074/jbc.M404104200;
+RA   Noguchi K., Fukazawa H., Murakami Y., Uehara Y.;
+RT   "Nucleolar Nek11 is a novel target of Nek2A in G1/S-arrested cells.";
+RL   J. Biol. Chem. 279:32716-32727(2004).
+RN   [11]
+RP   FUNCTION, SUBCELLULAR LOCATION, AND INTERACTION WITH SGOL1.
+RX   PubMed=17621308; DOI=10.1038/cr.2007.55;
+RA   Fu G., Ding X., Yuan K., Aikhionbare F., Yao J., Cai X., Jiang K.,
+RA   Yao X.;
+RT   "Phosphorylation of human Sgo1 by NEK2A is essential for chromosome
+RT   congression in mitosis.";
+RL   Cell Res. 17:608-618(2007).
+RN   [12]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-397, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Platelet;
+RX   PubMed=18088087; DOI=10.1021/pr0704130;
+RA   Zahedi R.P., Lewandrowski U., Wiesner J., Wortelkamp S., Moebius J.,
+RA   Schuetz C., Walter U., Gambaryan S., Sickmann A.;
+RT   "Phosphoproteome of resting human platelets.";
+RL   J. Proteome Res. 7:526-534(2008).
+RN   [13]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-184; SER-296 AND
+RP   SER-300, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [14]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-296; SER-299 AND
+RP   SER-300, AND MASS SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [15]
+RP   X-RAY CRYSTALLOGRAPHY (2.2 ANGSTROMS) OF 1-271 IN COMPLEX WITH
+RP   INHIBITOR SU11652, PHOSPHORYLATION AT THR-170; SER-171; THR-175;
+RP   THR-179; SER-241; SER-356; SER-387; SER-390; SER-397; SER-402 AND
+RP   SER-428, MUTAGENESIS OF LYS-37; ASP-141; THR-170; SER-171; THR-175;
+RP   THR-179 AND SER-241, AND MASS SPECTROMETRY.
+RX   PubMed=17197699; DOI=10.1074/jbc.M609721200;
+RA   Rellos P., Ivins F.J., Baxter J.E., Pike A., Nott T.J.,
+RA   Parkinson D.M., Das S., Howell S., Fedorov O., Shen Q.Y., Fry A.M.,
+RA   Knapp S., Smerdon S.J.;
+RT   "Structure and regulation of the human Nek2 centrosomal kinase.";
+RL   J. Biol. Chem. 282:6833-6842(2007).
+RN   [16]
+RP   VARIANTS [LARGE SCALE ANALYSIS] SER-354 AND TYR-410.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Protein kinase that is involved in mitotic regulation.
+CC       Integral component of the mitotic spindle-assembly checkpoint
+CC       which is necessary for proper chromosome segregation during
+CC       metaphase-anaphase transition. Required for association of MAD2L1
+CC       to kinetochore. Phosphorylates SGOL1. May have a role at the G2-M
+CC       transition. May also play a role in meiosis. Isoform 1 but not
+CC       isoform 2 appears to play a role in centrosome splitting. Isoform
+CC       1 phosphorylates and activates NEK11 in G1/S-arrested cells.
+CC       Isoform 2, which is not present in the nucleolus, does not.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- COFACTOR: Magnesium.
+CC   -!- SUBUNIT: Isoform 1 and isoform 2 form homo- and heterodimers.
+CC       Interacts with TERF1, SGOL1 and MAD1L1.
+CC   -!- INTERACTION:
+CC       Q6GQ04:- (xeno); NbExp=2; IntAct=EBI-633182, EBI-995003;
+CC       P30260:CDC27; NbExp=1; IntAct=EBI-633182, EBI-994813;
+CC       Q8NG66:NEK11; NbExp=5; IntAct=EBI-633182, EBI-633195;
+CC   -!- SUBCELLULAR LOCATION: Nucleus. Chromosome, centromere (By
+CC       similarity). Chromosome, centromere, kinetochore. Note=Co-
+CC       localizes with SGOL1 and MAD1L1 at the kinetochore. Not associated
+CC       with kinetochore in the interphase but becomes associated with it
+CC       upon the breakdown of the nuclear envelope.
+CC   -!- SUBCELLULAR LOCATION: Isoform 1: Nucleus, nucleolus. Note=Has a
+CC       nucleolar targeting/ retention activity via a coiled-coil domain
+CC       at the C-terminal end.
+CC   -!- SUBCELLULAR LOCATION: Isoform 2: Cytoplasm. Note=Predominantly
+CC       cytoplasmic.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=3;
+CC       Name=1; Synonyms=A;
+CC         IsoId=P51955-1; Sequence=Displayed;
+CC       Name=2; Synonyms=B;
+CC         IsoId=P51955-2; Sequence=VSP_015578, VSP_015579;
+CC       Name=3;
+CC         IsoId=P51955-3; Sequence=VSP_015576, VSP_015577;
+CC         Note=No experimental confirmation available;
+CC   -!- TISSUE SPECIFICITY: Isoform 1 and isoform 2 are expressed in
+CC       peripheral blood T-cells and a wide variety of transformed cell
+CC       types.
+CC   -!- DEVELOPMENTAL STAGE: Accumulates throughout S phase and shows
+CC       maximal levels in late G2. This expression pattern is highly
+CC       reminiscent of that of A and B cyclins. Isoform 1 and isoform 2
+CC       expression is low in the G1 phase and increases in the S/G2
+CC       phases. Isoform 1 is absent from cells arrested in the G2/M
+CC       prometaphase. Isoform 2 remains present in cells arrested in the
+CC       G2/M prometaphase.
+CC   -!- PTM: It is unsure whether Thr-170 or Ser-171 is phosphorylated.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. NEK Ser/Thr
+CC       protein kinase family. NIMA subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAH65932.1; Type=Frameshift; Positions=213;
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; Z29066; CAA82309.1; -; mRNA.
+DR   EMBL; AY045701; AAK92212.1; -; mRNA.
+DR   EMBL; U11050; AAA19558.1; -; mRNA.
+DR   EMBL; BT019729; AAV38534.1; -; mRNA.
+DR   EMBL; AK223353; BAD97073.1; -; mRNA.
+DR   EMBL; AL356310; CAH72901.1; -; Genomic_DNA.
+DR   EMBL; AC096637; CAH72901.1; JOINED; Genomic_DNA.
+DR   EMBL; BC043502; AAH43502.2; -; mRNA.
+DR   EMBL; BC052807; AAH52807.1; -; mRNA.
+DR   EMBL; BC065932; AAH65932.1; ALT_FRAME; mRNA.
+DR   EMBL; Z25425; CAA80912.1; -; mRNA.
+DR   IPI; IPI00021331; -.
+DR   IPI; IPI00641713; -.
+DR   IPI; IPI00647904; -.
+DR   PIR; G01452; G01452.
+DR   PIR; I38215; I38215.
+DR   RefSeq; NP_002488.1; -.
+DR   UniGene; Hs.153704; -.
+DR   PDB; 2JAV; X-ray; 2.20 A; A=1-271.
+DR   PDB; 2W5A; X-ray; 1.55 A; A=1-271.
+DR   PDB; 2W5B; X-ray; 2.40 A; A=1-271.
+DR   PDB; 2W5H; X-ray; 2.33 A; A=1-271.
+DR   PDB; 2WQO; X-ray; 2.17 A; A=1-271.
+DR   PDBsum; 2JAV; -.
+DR   PDBsum; 2W5A; -.
+DR   PDBsum; 2W5B; -.
+DR   PDBsum; 2W5H; -.
+DR   PDBsum; 2WQO; -.
+DR   ProteinModelPortal; P51955; -.
+DR   IntAct; P51955; 21.
+DR   STRING; P51955; -.
+DR   PhosphoSite; P51955; -.
+DR   PRIDE; P51955; -.
+DR   Ensembl; ENST00000366999; ENSP00000355966; ENSG00000117650.
+DR   GeneID; 4751; -.
+DR   KEGG; hsa:4751; -.
+DR   UCSC; uc001hir.1; human.
+DR   UCSC; uc001his.2; human.
+DR   CTD; 4751; -.
+DR   GeneCards; GC01M211836; -.
+DR   H-InvDB; HIX0023615; -.
+DR   HGNC; HGNC:7745; NEK2.
+DR   HPA; CAB017530; -.
+DR   MIM; 604043; gene.
+DR   PharmGKB; PA31546; -.
+DR   eggNOG; prNOG07028; -.
+DR   HOVERGEN; HBG006461; -.
+DR   InParanoid; P51955; -.
+DR   OMA; QELCVRE; -.
+DR   OrthoDB; EOG97M4HR; -.
+DR   PhylomeDB; P51955; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   Pathway_Interaction_DB; foxm1pathway; FOXM1 transcription factor network.
+DR   Reactome; REACT_152; Cell Cycle, Mitotic.
+DR   Reactome; REACT_8017; APC-Cdc20 mediated degradation of Nek2A.
+DR   NextBio; 18310; -.
+DR   PMAP-CutDB; P51955; -.
+DR   ArrayExpress; P51955; -.
+DR   Bgee; P51955; -.
+DR   CleanEx; HS_NEK2; -.
+DR   Genevestigator; P51955; -.
+DR   GermOnline; ENSG00000117650; Homo sapiens.
+DR   GO; GO:0005813; C:centrosome; TAS:ProtInc.
+DR   GO; GO:0000777; C:condensed chromosome kinetochore; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005829; C:cytosol; EXP:Reactome.
+DR   GO; GO:0005730; C:nucleolus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0019903; F:protein phosphatase binding; IPI:UniProtKB.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; TAS:ProtInc.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0051299; P:centrosome separation; IDA:UniProtKB.
+DR   GO; GO:0007126; P:meiosis; IEA:UniProtKB-KW.
+DR   GO; GO:0046777; P:protein amino acid autophosphorylation; IMP:UniProtKB.
+DR   GO; GO:0007088; P:regulation of mitosis; TAS:ProtInc.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; FALSE_NEG.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; ATP-binding; Cell cycle;
+KW   Cell division; Centromere; Chromosome; Chromosome partition;
+KW   Coiled coil; Complete proteome; Cytoplasm; Kinase; Kinetochore;
+KW   Magnesium; Meiosis; Metal-binding; Mitosis; Nucleotide-binding;
+KW   Nucleus; Phosphoprotein; Polymorphism;
+KW   Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    445       Serine/threonine-protein kinase Nek2.
+FT                                /FTId=PRO_0000086421.
+FT   DOMAIN        8    271       Protein kinase.
+FT   NP_BIND      14     22       ATP (By similarity).
+FT   REGION      329    445       Necessary for interaction with MAD1L1.
+FT   COILED      303    362       Potential.
+FT   COILED      406    430       Potential.
+FT   ACT_SITE    141    141       Proton acceptor (By similarity).
+FT   BINDING      37     37       ATP.
+FT   MOD_RES     170    170       Phosphothreonine; by autocatalysis
+FT                                (Probable).
+FT   MOD_RES     171    171       Phosphoserine; by autocatalysis
+FT                                (Probable).
+FT   MOD_RES     175    175       Phosphothreonine; by autocatalysis.
+FT   MOD_RES     179    179       Phosphothreonine; by autocatalysis.
+FT   MOD_RES     184    184       Phosphoserine.
+FT   MOD_RES     241    241       Phosphoserine; by autocatalysis.
+FT   MOD_RES     296    296       Phosphoserine.
+FT   MOD_RES     299    299       Phosphoserine.
+FT   MOD_RES     300    300       Phosphoserine.
+FT   MOD_RES     356    356       Phosphoserine.
+FT   MOD_RES     387    387       Phosphoserine.
+FT   MOD_RES     390    390       Phosphoserine.
+FT   MOD_RES     397    397       Phosphoserine.
+FT   MOD_RES     402    402       Phosphoserine.
+FT   MOD_RES     428    428       Phosphoserine.
+FT   VAR_SEQ     323    326       REER -> KKKK (in isoform 3).
+FT                                /FTId=VSP_015576.
+FT   VAR_SEQ     327    445       Missing (in isoform 3).
+FT                                /FTId=VSP_015577.
+FT   VAR_SEQ     371    384       ELLNLPSSVIKKKV -> GMRINLVNRSWCYK (in
+FT                                isoform 2).
+FT                                /FTId=VSP_015578.
+FT   VAR_SEQ     385    445       Missing (in isoform 2).
+FT                                /FTId=VSP_015579.
+FT   VARIANT     354    354       N -> S (in dbSNP:rs2230489).
+FT                                /FTId=VAR_019990.
+FT   VARIANT     410    410       C -> Y (in dbSNP:rs56102977).
+FT                                /FTId=VAR_040907.
+FT   MUTAGEN      37     37       K->R: Loss of kinase activity and of
+FT                                ability to activate NEK11.
+FT   MUTAGEN     141    141       D->A: Loss of autophosphorylation.
+FT   MUTAGEN     170    170       T->A: No effect on kinase activity.
+FT   MUTAGEN     170    170       T->E: Kinase activity increased by two
+FT                                fold.
+FT   MUTAGEN     171    171       S->A: No effect on kinase activity.
+FT   MUTAGEN     171    171       S->D: Kinase activity increased by two
+FT                                fold.
+FT   MUTAGEN     175    175       T->A: Kinase activity decreased by two
+FT                                fold.
+FT   MUTAGEN     175    175       T->E: Kinase activity increased by two
+FT                                fold.
+FT   MUTAGEN     179    179       T->A: Loss of kinase activity.
+FT   MUTAGEN     179    179       T->E: Loss of kinase activity.
+FT   MUTAGEN     241    241       S->A: Loss of kinase activity.
+FT   MUTAGEN     241    241       S->D: Loss of kinase activity.
+FT   CONFLICT     84     85       IV -> LY (in Ref. 8; CAA80912).
+FT   CONFLICT    325    325       E -> K (in Ref. 5; BAD97073).
+FT   HELIX         5      7
+FT   STRAND        8     16
+FT   STRAND       18     27
+FT   TURN         28     30
+FT   STRAND       33     39
+FT   HELIX        46     58
+FT   STRAND       70     75
+FT   STRAND       82     87
+FT   HELIX        94    104
+FT   HELIX       110    130
+FT   HELIX       144    146
+FT   STRAND      147    149
+FT   STRAND      155    157
+FT   HELIX       160    165
+FT   HELIX       185    188
+FT   HELIX       195    211
+FT   HELIX       221    230
+FT   HELIX       242    251
+FT   HELIX       256    258
+FT   HELIX       262    266
+SQ   SEQUENCE   445 AA;  51763 MW;  D33A37778ABB6D9E CRC64;
+     MPSRAEDYEV LYTIGTGSYG RCQKIRRKSD GKILVWKELD YGSMTEAEKQ MLVSEVNLLR
+     ELKHPNIVRY YDRIIDRTNT TLYIVMEYCE GGDLASVITK GTKERQYLDE EFVLRVMTQL
+     TLALKECHRR SDGGHTVLHR DLKPANVFLD GKQNVKLGDF GLARILNHDT SFAKTFVGTP
+     YYMSPEQMNR MSYNEKSDIW SLGCLLYELC ALMPPFTAFS QKELAGKIRE GKFRRIPYRY
+     SDELNEIITR MLNLKDYHRP SVEEILENPL IADLVADEQR RNLERRGRQL GEPEKSQDSS
+     PVLSELKLKE IQLQERERAL KAREERLEQK EQELCVRERL AEDKLARAEN LLKNYSLLKE
+     RKFLSLASNP ELLNLPSSVI KKKVHFSGES KENIMRSENS ESQLTSKSKC KDLKKRLHAA
+     QLRAQALSDI EKNYQLKSRQ ILGMR
+//

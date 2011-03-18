@@ -1,0 +1,15 @@
+Q15283+2=RASA2_HUMAN/707-743                                                    NQNRLSFYHPSVYLNGNWLCCQETGENTLGCKPCTAG
+Q28013+1=RASA3_BOVIN/679-715                                                    NQKRLAVYHPSAYLNGHWLCCRASSDTAAGCSPCTGG
+O95294+2=RASL1_HUMAN/674-710                                                    NPNKLAACHPGAFRSARWTCCLQAERSAAGCSRTHSA
+Q9QYJ2+2=RASA3_RAT/679-715                                                      NQKRLTVFHPSAYLNGHWLCCRASSDTAIGCTPCTGG
+Q8JH64+1=BTK_CHICK/134-170                                                      NSDLVQKYHPCFWIDGQYLCCSQTAKNAMGCKILESR
+P24604+2=TEC_MOUSE/113-149                                                      NNNIMIKYHPKFWADGSYQCCRQTEKLAPGCEKYNLF
+P48423+2=GAP1_DROME/862-898                                                     NSIRMQYFHPSAFVSGFYSCCGRSDENSPGCKKVLDK
+O43374+2=RASL2_HUMAN/675-711                                                    NTGLLGSYHPGVFRGDKWSCCHQKEKTGQGCDKTRSR
+P51813+1=BMX_HUMAN/113-149                                                      NPHLLVKYHSGFFVDGKFLCCQQSCKAAPGCTLWEAY
+Q06187+3=BTK_HUMAN/135-171                                                      NSDLVQKYHPCFWIDGQYLCCSQTAKNAMGCQILENR
+Q14644+2=RASA3_HUMAN/679-715                                                    NQKRLTVYHPSAYLSGHWLCCRAPSDSAPGCSPCTGG
+Q08881+1=ITK_HUMAN/113-149                                                      NNSLVPKYHPNFWMDGKWRCCSQLEKLATGCAQYDPT
+Q63713+1=RASA2_RAT/706-742                                                      NHNRLSSFHPSAYLNGNWLCCQETSEGTPGCKPCTAG
+Q03526+1=ITK_MOUSE/119-155                                                      NNSLVSKYHPNFWMDGRWRCCSQLEKPAVGCAPYDPS
+Q9Z268+1=RASL1_MOUSE/674-710                                                    NPGKLVACHPGAFRSGRWTCCLQAERSAAGCSRTHSA

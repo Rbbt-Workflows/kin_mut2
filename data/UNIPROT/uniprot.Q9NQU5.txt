@@ -1,0 +1,270 @@
+ID   PAK6_HUMAN              Reviewed;         681 AA.
+AC   Q9NQU5;
+DT   19-SEP-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   05-OCT-2010, entry version 98.
+DE   RecName: Full=Serine/threonine-protein kinase PAK 6;
+DE            EC=2.7.11.1;
+DE   AltName: Full=PAK-5;
+DE   AltName: Full=p21-activated kinase 6;
+DE            Short=PAK-6;
+GN   Name=PAK6; Synonyms=PAK5;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   MEDLINE=21226785; PubMed=11278661; DOI=10.1074/jbc.M010311200;
+RA   Yang F., Li X., Sharma M., Zarnegar M., Lim B., Sun Z.;
+RT   "Androgen receptor specifically interacts with a novel p21-activated
+RT   kinase, PAK6.";
+RL   J. Biol. Chem. 276:15345-15353(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RA   Wagner T., Puls A., Frischauf A.M., Hall A.;
+RT   "Pak5, a new member of the p21-activated kinase family, affects Cdc42
+RT   signalling to the actin cytoskeleton.";
+RL   Submitted (FEB-1999) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Brain;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-560, AND MASS
+RP   SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [5]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-560, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=19690332; DOI=10.1126/scisignal.2000007;
+RA   Mayya V., Lundgren D.H., Hwang S.-I., Rezaul K., Wu L., Eng J.K.,
+RA   Rodionov V., Han D.K.;
+RT   "Quantitative phosphoproteomic analysis of T cell receptor signaling
+RT   reveals system-wide modulation of protein-protein interactions.";
+RL   Sci. Signal. 2:RA46-RA46(2009).
+RN   [6]
+RP   X-RAY CRYSTALLOGRAPHY (1.6 ANGSTROMS) OF 383-681, AND PHOSPHORYLATION
+RP   AT SER-560.
+RA   Filippakopoulos P., Berridge G., Bray J., Burgess N., Colebrook S.,
+RA   Das S., Eswaran J., Gileadi O., Papagrigoriou E., Savitsky P.,
+RA   Smee C., Turnbull A., Sundstrom M., Arrowsmith C., Weigelt J.,
+RA   Edwards A., Von Delft F., Knapp S.;
+RT   "Crystal structure of the human p21-activated kinase 6.";
+RL   Submitted (FEB-2006) to the EMBL/GenBank/DDBJ databases.
+RN   [7]
+RP   X-RAY CRYSTALLOGRAPHY (2.4 ANGSTROMS) OF 11-45 IN COMPLEX WITH CDC42.
+RG   Structural genomics consortium (SGC);
+RT   "The crystal structure of human CDC42 in complex with the CRIB domain
+RT   of human p21-activated kinase 6 (PAK6).";
+RL   Submitted (JAN-2007) to the PDB data bank.
+RN   [8]
+RP   VARIANT [LARGE SCALE ANALYSIS] HIS-3.
+RX   PubMed=16959974; DOI=10.1126/science.1133427;
+RA   Sjoeblom T., Jones S., Wood L.D., Parsons D.W., Lin J., Barber T.D.,
+RA   Mandelker D., Leary R.J., Ptak J., Silliman N., Szabo S.,
+RA   Buckhaults P., Farrell C., Meeh P., Markowitz S.D., Willis J.,
+RA   Dawson D., Willson J.K.V., Gazdar A.F., Hartigan J., Wu L., Liu C.,
+RA   Parmigiani G., Park B.H., Bachman K.E., Papadopoulos N.,
+RA   Vogelstein B., Kinzler K.W., Velculescu V.E.;
+RT   "The consensus coding sequences of human breast and colorectal
+RT   cancers.";
+RL   Science 314:268-274(2006).
+RN   [9]
+RP   VARIANTS [LARGE SCALE ANALYSIS] VAL-76; LYS-184; GLU-205; THR-208;
+RP   MET-210; ARG-215; LEU-337; VAL-376 AND ARG-514.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: The activated kinase acts on a variety of targets (By
+CC       similarity).
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- SUBUNIT: Interacts tightly with GTP-bound but not GDP-bound
+CC       CDC42/p21 and RAC1 (By similarity). Interacts with the androgen
+CC       receptor.
+CC   -!- INTERACTION:
+CC       P27348:YWHAQ; NbExp=1; IntAct=EBI-1053685, EBI-359854;
+CC   -!- PTM: Autophosphorylated when activated by CDC42/p21 (By
+CC       similarity).
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. STE Ser/Thr
+CC       protein kinase family. STE20 subfamily.
+CC   -!- SIMILARITY: Contains 1 CRIB domain.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF276893; AAF82800.1; -; mRNA.
+DR   EMBL; AJ236915; CAC18720.1; -; mRNA.
+DR   EMBL; BC035596; AAH35596.1; -; mRNA.
+DR   IPI; IPI00024584; -.
+DR   RefSeq; NP_001122100.1; -.
+DR   RefSeq; NP_001122101.1; -.
+DR   RefSeq; NP_064553.1; -.
+DR   UniGene; Hs.513645; -.
+DR   PDB; 2C30; X-ray; 1.60 A; A=383-681.
+DR   PDB; 2ODB; X-ray; 2.40 A; B=11-45.
+DR   PDBsum; 2C30; -.
+DR   PDBsum; 2ODB; -.
+DR   ProteinModelPortal; Q9NQU5; -.
+DR   SMR; Q9NQU5; 4-66.
+DR   IntAct; Q9NQU5; 1.
+DR   STRING; Q9NQU5; -.
+DR   PhosphoSite; Q9NQU5; -.
+DR   PRIDE; Q9NQU5; -.
+DR   Ensembl; ENST00000260404; ENSP00000260404; ENSG00000137843.
+DR   Ensembl; ENST00000441369; ENSP00000406873; ENSG00000137843.
+DR   Ensembl; ENST00000453867; ENSP00000401153; ENSG00000137843.
+DR   GeneID; 56924; -.
+DR   KEGG; hsa:56924; -.
+DR   UCSC; uc001zlb.2; human.
+DR   CTD; 56924; -.
+DR   GeneCards; GC15P040509; -.
+DR   HGNC; HGNC:16061; PAK6.
+DR   HPA; HPA031124; -.
+DR   MIM; 608110; gene.
+DR   PharmGKB; PA32921; -.
+DR   eggNOG; prNOG11420; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG108518; -.
+DR   InParanoid; Q9NQU5; -.
+DR   OMA; SPSPKTQ; -.
+DR   OrthoDB; EOG9HX7M4; -.
+DR   PhylomeDB; Q9NQU5; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   Reactome; REACT_18266; Axon guidance.
+DR   NextBio; 62436; -.
+DR   ArrayExpress; Q9NQU5; -.
+DR   Bgee; Q9NQU5; -.
+DR   CleanEx; HS_PAK6; -.
+DR   Genevestigator; Q9NQU5; -.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005515; F:protein binding; IPI:IntAct.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000095; PAK_box_Rho-bd.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR015750; Ser/Thr_kinase_Pak-rel.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   PANTHER; PTHR22986:SF84; Pak_like; 1.
+DR   Pfam; PF00786; PBD; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00285; PBD; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS50108; CRIB; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; FALSE_NEG.
+PE   1: Evidence at protein level;
+KW   3D-structure; ATP-binding; Complete proteome; Kinase;
+KW   Nucleotide-binding; Phosphoprotein; Polymorphism;
+KW   Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    681       Serine/threonine-protein kinase PAK 6.
+FT                                /FTId=PRO_0000086476.
+FT   DOMAIN       12     25       CRIB.
+FT   DOMAIN      407    658       Protein kinase.
+FT   NP_BIND     413    421       ATP (By similarity).
+FT   REGION       26    406       Linker.
+FT   ACT_SITE    526    526       Proton acceptor (By similarity).
+FT   BINDING     436    436       ATP (By similarity).
+FT   MOD_RES     560    560       Phosphoserine.
+FT   VARIANT       3      3       R -> H (in a colorectal cancer sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_035631.
+FT   VARIANT      76     76       M -> V (in dbSNP:rs2412504).
+FT                                /FTId=VAR_019993.
+FT   VARIANT     103    103       R -> C (in dbSNP:rs36081263).
+FT                                /FTId=VAR_051655.
+FT   VARIANT     151    151       T -> I (in dbSNP:rs35593179).
+FT                                /FTId=VAR_051656.
+FT   VARIANT     184    184       E -> K (in dbSNP:rs56349744).
+FT                                /FTId=VAR_040972.
+FT   VARIANT     205    205       G -> E (in dbSNP:rs55920845).
+FT                                /FTId=VAR_040973.
+FT   VARIANT     208    208       P -> T (in dbSNP:rs35501648).
+FT                                /FTId=VAR_040974.
+FT   VARIANT     210    210       T -> M (in dbSNP:rs34869667).
+FT                                /FTId=VAR_040975.
+FT   VARIANT     215    215       H -> R (in dbSNP:rs3743135).
+FT                                /FTId=VAR_019994.
+FT   VARIANT     337    337       P -> L (in dbSNP:rs3743137).
+FT                                /FTId=VAR_019995.
+FT   VARIANT     376    376       A -> V (in dbSNP:rs55806501).
+FT                                /FTId=VAR_040976.
+FT   VARIANT     475    475       E -> K (in dbSNP:rs34445577).
+FT                                /FTId=VAR_051657.
+FT   VARIANT     514    514       L -> R (in a lung small cell carcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_040977.
+FT   STRAND       16     27
+FT   TURN         28     31
+FT   STRAND       32     35
+FT   HELIX        38     44
+FT   HELIX       387    395
+FT   HELIX       403    406
+FT   STRAND      407    416
+FT   STRAND      419    426
+FT   TURN        427    429
+FT   STRAND      432    439
+FT   TURN        440    442
+FT   HELIX       446    456
+FT   STRAND      467    473
+FT   STRAND      476    481
+FT   HELIX       489    493
+FT   HELIX       500    519
+FT   HELIX       529    531
+FT   STRAND      532    534
+FT   STRAND      540    542
+FT   STRAND      553    555
+FT   HELIX       565    567
+FT   HELIX       570    573
+FT   HELIX       581    596
+FT   TURN        600    603
+FT   HELIX       606    615
+FT   HELIX       624    626
+FT   HELIX       629    638
+FT   TURN        643    645
+FT   HELIX       649    653
+FT   HELIX       656    660
+FT   HELIX       664    667
+FT   HELIX       668    673
+SQ   SEQUENCE   681 AA;  74869 MW;  F20A4FA257649BB9 CRC64;
+     MFRKKKKKRP EISAPQNFQH RVHTSFDPKE GKFVGLPPQW QNILDTLRRP KPVVDPSRIT
+     RVQLQPMKTV VRGSAMPVDG YISGLLNDIQ KLSVISSNTL RGRSPTSRRR AQSLGLLGDE
+     HWATDPDMYL QSPQSERTDP HGLYLSCNGG TPAGHKQMPW PEPQSPRVLP NGLAAKAQSL
+     GPAEFQGASQ RCLQLGACLQ SSPPGASPPT GTNRHGMKAA KHGSEEARPQ SCLVGSATGR
+     PGGEGSPSPK TRESSLKRRL FRSMFLSTAA TAPPSSSKPG PPPQSKPNSS FRPPQKDNPP
+     SLVAKAQSLP SDQPVGTFSP LTTSDTSSPQ KSLRTAPATG QLPGRSSPAG SPRTWHAQIS
+     TSNLYLPQDP TVAKGALAGE DTGVVTHEQF KAALRMVVDQ GDPRLLLDSY VKIGEGSTGI
+     VCLAREKHSG RQVAVKMMDL RKQQRRELLF NEVVIMRDYQ HFNVVEMYKS YLVGEELWVL
+     MEFLQGGALT DIVSQVRLNE EQIATVCEAV LQALAYLHAQ GVIHRDIKSD SILLTLDGRV
+     KLSDFGFCAQ ISKDVPKRKS LVGTPYWMAP EVISRSLYAT EVDIWSLGIM VIEMVDGEPP
+     YFSDSPVQAM KRLRDSPPPK LKNSHKVSPV LRDFLERMLV RDPQERATAQ ELLDHPFLLQ
+     TGLPECLVPL IQLYRKQTST C
+//

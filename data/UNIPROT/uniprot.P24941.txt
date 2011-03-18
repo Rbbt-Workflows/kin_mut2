@@ -1,0 +1,933 @@
+ID   CDK2_HUMAN              Reviewed;         298 AA.
+AC   P24941; A8K7C6;
+DT   01-MAR-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1992, sequence version 2.
+DT   02-NOV-2010, entry version 146.
+DE   RecName: Full=Cell division protein kinase 2;
+DE            EC=2.7.11.22;
+DE   AltName: Full=p33 protein kinase;
+GN   Name=CDK2;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   MEDLINE=91330891; PubMed=1714386;
+RA   Elledge S.J., Spottswood M.R.;
+RT   "A new human p34 protein kinase, CDK2, identified by complementation
+RT   of a cdc28 mutation in Saccharomyces cerevisiae, is a homolog of
+RT   Xenopus Eg1.";
+RL   EMBO J. 10:2653-2659(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   MEDLINE=91367262; PubMed=1653904; DOI=10.1038/353174a0;
+RA   Tsai L.-H., Harlow E., Meyerson M.;
+RT   "Isolation of the human cdk2 gene that encodes the cyclin A- and
+RT   adenovirus E1A-associated p33 kinase.";
+RL   Nature 353:174-177(1991).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   MEDLINE=92020980; PubMed=1717994; DOI=10.1073/pnas.88.20.9006;
+RA   Ninomiya-Tsuji J., Nomoto S., Yasuda H., Reed S.I., Matsumoto K.;
+RT   "Cloning of a human cDNA encoding a CDC2-related kinase by
+RT   complementation of a budding yeast cdc28 mutation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 88:9006-9010(1991).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RA   Kalnine N., Chen X., Rolfs A., Halleck A., Hines L., Eisenstein S.,
+RA   Koundinya M., Raphael J., Moreira D., Kelley T., LaBaer J., Lin Y.,
+RA   Phelan M., Farmer A.;
+RT   "Cloning of human full-length CDSs in BD Creator(TM) system donor
+RT   vector.";
+RL   Submitted (MAY-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND VARIANT SER-290.
+RG   NIEHS SNPs program;
+RL   Submitted (MAY-2002) to the EMBL/GenBank/DDBJ databases.
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RX   PubMed=14702039; DOI=10.1038/ng1285;
+RA   Ota T., Suzuki Y., Nishikawa T., Otsuki T., Sugiyama T., Irie R.,
+RA   Wakamatsu A., Hayashi K., Sato H., Nagai K., Kimura K., Makita H.,
+RA   Sekine M., Obayashi M., Nishi T., Shibahara T., Tanaka T., Ishii S.,
+RA   Yamamoto J., Saito K., Kawai Y., Isono Y., Nakamura Y., Nagahari K.,
+RA   Murakami K., Yasuda T., Iwayanagi T., Wagatsuma M., Shiratori A.,
+RA   Sudo H., Hosoiri T., Kaku Y., Kodaira H., Kondo H., Sugawara M.,
+RA   Takahashi M., Kanda K., Yokoi T., Furuya T., Kikkawa E., Omura Y.,
+RA   Abe K., Kamihara K., Katsuta N., Sato K., Tanikawa M., Yamazaki M.,
+RA   Ninomiya K., Ishibashi T., Yamashita H., Murakawa K., Fujimori K.,
+RA   Tanai H., Kimata M., Watanabe M., Hiraoka S., Chiba Y., Ishida S.,
+RA   Ono Y., Takiguchi S., Watanabe S., Yosida M., Hotuta T., Kusano J.,
+RA   Kanehori K., Takahashi-Fujii A., Hara H., Tanase T.-O., Nomura Y.,
+RA   Togiya S., Komai F., Hara R., Takeuchi K., Arita M., Imose N.,
+RA   Musashino K., Yuuki H., Oshima A., Sasaki N., Aotsuka S.,
+RA   Yoshikawa Y., Matsunawa H., Ichihara T., Shiohata N., Sano S.,
+RA   Moriya S., Momiyama H., Satoh N., Takami S., Terashima Y., Suzuki O.,
+RA   Nakagawa S., Senoh A., Mizoguchi H., Goto Y., Shimizu F., Wakebe H.,
+RA   Hishigaki H., Watanabe T., Sugiyama A., Takemoto M., Kawakami B.,
+RA   Yamazaki M., Watanabe K., Kumagai A., Itakura S., Fukuzumi Y.,
+RA   Fujimori Y., Komiyama M., Tashiro H., Tanigami A., Fujiwara T.,
+RA   Ono T., Yamada K., Fujii Y., Ozaki K., Hirao M., Ohmori Y.,
+RA   Kawabata A., Hikiji T., Kobatake N., Inagaki H., Ikema Y., Okamoto S.,
+RA   Okitani R., Kawakami T., Noguchi S., Itoh T., Shigeta K., Senba T.,
+RA   Matsumura K., Nakajima Y., Mizuno T., Morinaga M., Sasaki M.,
+RA   Togashi T., Oyama M., Hata H., Watanabe M., Komatsu T.,
+RA   Mizushima-Sugano J., Satoh T., Shirai Y., Takahashi Y., Nakagawa K.,
+RA   Okumura K., Nagase T., Nomura N., Kikuchi H., Masuho Y., Yamashita R.,
+RA   Nakai K., Yada T., Nakamura Y., Ohara O., Isogai T., Sugano S.;
+RT   "Complete sequencing and characterization of 21,243 full-length human
+RT   cDNAs.";
+RL   Nat. Genet. 36:40-45(2004).
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [8]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Placenta;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [9]
+RP   PHOSPHORYLATION AT THR-14; TYR-15 AND THR-160, AND MUTAGENESIS OF
+RP   THR-14; TYR-15 AND THR-160.
+RX   MEDLINE=93010995; PubMed=1396589;
+RA   Gu Y., Rosenblatt J., O'Morgan D.O.;
+RT   "Cell cycle regulation of CDK2 activity by phosphorylation of Thr160
+RT   and Tyr15.";
+RL   EMBO J. 11:3995-4005(1992).
+RN   [10]
+RP   INTERACTION WITH CCNB3.
+RX   PubMed=12185076; DOI=10.1074/jbc.M203951200;
+RA   Nguyen T.B., Manova K., Capodieci P., Lindon C., Bottega S.,
+RA   Wang X.-Y., Refik-Rogers J., Pines J., Wolgemuth D.J., Koff A.;
+RT   "Characterization and expression of mammalian cyclin b3, a
+RT   prepachytene meiotic cyclin.";
+RL   J. Biol. Chem. 277:41960-41969(2002).
+RN   [11]
+RP   INTERACTION WITH SPDYA.
+RX   PubMed=11980914; DOI=10.1083/jcb.200109045;
+RA   Porter L.A., Dellinger R.W., Tynan J.A., Barnes E.A., Kong M.,
+RA   Lenormand J.-L., Donoghue D.J.;
+RT   "Human Speedy: a novel cell cycle regulator that enhances
+RT   proliferation through activation of Cdk2.";
+RL   J. Cell Biol. 157:357-366(2002).
+RN   [12]
+RP   INTERACTION WITH SPDYA.
+RX   PubMed=12839962;
+RA   Barnes E.A., Porter L.A., Lenormand J.-L., Dellinger R.W.,
+RA   Donoghue D.J.;
+RT   "Human Spy1 promotes survival of mammalian cells following DNA
+RT   damage.";
+RL   Cancer Res. 63:3701-3707(2003).
+RN   [13]
+RP   INTERACTION WITH SPDYA, AND IDENTIFICATION IN A COMPLEX WITH CDKN1B
+RP   AND SPDYA.
+RX   PubMed=12972555; DOI=10.1091/mbc.E02-12-0820;
+RA   Porter L.A., Kong-Beltran M., Donoghue D.J.;
+RT   "Spy1 interacts with p27Kip1 to allow G1/S progression.";
+RL   Mol. Biol. Cell 14:3664-3674(2003).
+RN   [14]
+RP   INTERACTION WITH UHRF2, AND IDENTIFICATION IN A COMPLEX WITH UHRF2 AND
+RP   CCNE1.
+RX   PubMed=15178429; DOI=10.1016/j.bbrc.2004.04.190;
+RA   Li Y., Mori T., Hata H., Homma Y., Kochi H.;
+RT   "NIRF induces G1 arrest and associates with Cdk2.";
+RL   Biochem. Biophys. Res. Commun. 319:464-468(2004).
+RN   [15]
+RP   PHOSPHORYLATION AT THR-160.
+RX   PubMed=14597612; DOI=10.1074/jbc.M309995200;
+RA   Liu Y., Wu C., Galaktionov K.;
+RT   "p42, a novel cyclin-dependent kinase-activating kinase in mammalian
+RT   cells.";
+RL   J. Biol. Chem. 279:4507-4514(2004).
+RN   [16]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-14, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=15302935; DOI=10.1073/pnas.0404720101;
+RA   Beausoleil S.A., Jedrychowski M., Schwartz D., Elias J.E., Villen J.,
+RA   Li J., Cohn M.A., Cantley L.C., Gygi S.P.;
+RT   "Large-scale characterization of HeLa cell nuclear phosphoproteins.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:12130-12135(2004).
+RN   [17]
+RP   INTERACTION WITH SPDYA AND SPDYC.
+RX   PubMed=15611625;
+RA   Cheng A., Xiong W., Ferrell J.E. Jr., Solomon M.J.;
+RT   "Identification and comparative analysis of multiple mammalian
+RT   Speedy/Ringo proteins.";
+RL   Cell Cycle 4:155-165(2005).
+RN   [18]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-15 AND TYR-19, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Lung carcinoma;
+RX   PubMed=18083107; DOI=10.1016/j.cell.2007.11.025;
+RA   Rikova K., Guo A., Zeng Q., Possemato A., Yu J., Haack H., Nardone J.,
+RA   Lee K., Reeves C., Li Y., Hu Y., Tan Z., Stokes M., Sullivan L.,
+RA   Mitchell J., Wetzel R., Macneill J., Ren J.M., Yuan J.,
+RA   Bakalarski C.E., Villen J., Kornhauser J.M., Smith B., Li D., Zhou X.,
+RA   Gygi S.P., Gu T.-L., Polakiewicz R.D., Rush J., Comb M.J.;
+RT   "Global survey of phosphotyrosine signaling identifies oncogenic
+RT   kinases in lung cancer.";
+RL   Cell 131:1190-1203(2007).
+RN   [19]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-14; TYR-15; TYR-19 AND
+RP   THR-160, AND MASS SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=17192257; DOI=10.1074/mcp.T600062-MCP200;
+RA   Wissing J., Jaensch L., Nimtz M., Dieterich G., Hornberger R.,
+RA   Keri G., Wehland J., Daub H.;
+RT   "Proteomics analysis of protein kinases by target class-selective
+RT   prefractionation and tandem mass spectrometry.";
+RL   Mol. Cell. Proteomics 6:537-547(2007).
+RN   [20]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-15 AND SER-46, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [21]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RA   Colinge J., Superti-Furga G., Bennett K.L.;
+RL   Submitted (OCT-2008) to UniProtKB.
+RN   [22]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-15, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Mammary epithelium;
+RX   PubMed=19534553; DOI=10.1021/pr900044c;
+RA   Heibeck T.H., Ding S.-J., Opresko L.K., Zhao R., Schepmoes A.A.,
+RA   Yang F., Tolmachev A.V., Monroe M.E., Camp D.G. II, Smith R.D.,
+RA   Wiley H.S., Qian W.-J.;
+RT   "An extensive survey of tyrosine phosphorylation revealing new sites
+RT   in human mammary epithelial cells.";
+RL   J. Proteome Res. 8:3852-3861(2009).
+RN   [23]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-14; TYR-15; TYR-19;
+RP   SER-46; THR-158 AND TYR-159, AND MASS SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [24]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-15 AND THR-160, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=19690332; DOI=10.1126/scisignal.2000007;
+RA   Mayya V., Lundgren D.H., Hwang S.-I., Rezaul K., Wu L., Eng J.K.,
+RA   Rodionov V., Han D.K.;
+RT   "Quantitative phosphoproteomic analysis of T cell receptor signaling
+RT   reveals system-wide modulation of protein-protein interactions.";
+RL   Sci. Signal. 2:RA46-RA46(2009).
+RN   [25]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT LYS-6, AND MASS SPECTROMETRY.
+RX   PubMed=19608861; DOI=10.1126/science.1175371;
+RA   Choudhary C., Kumar C., Gnad F., Nielsen M.L., Rehman M., Walther T.,
+RA   Olsen J.V., Mann M.;
+RT   "Lysine acetylation targets protein complexes and co-regulates major
+RT   cellular functions.";
+RL   Science 325:834-840(2009).
+RN   [26]
+RP   X-RAY CRYSTALLOGRAPHY (2.4 ANGSTROMS).
+RX   MEDLINE=93288132; PubMed=8510751; DOI=10.1038/363595a0;
+RA   de Bondt H.L., Rosenblatt J., Jancarik J., Jones H.D., Morgan D.O.,
+RA   Kim S.-H.;
+RT   "Crystal structure of cyclin-dependent kinase 2.";
+RL   Nature 363:595-602(1993).
+RN   [27]
+RP   X-RAY CRYSTALLOGRAPHY (2.3 ANGSTROMS) OF COMPLEX WITH CYCLIN A.
+RX   MEDLINE=95356811; PubMed=7630397; DOI=10.1038/376313a0;
+RA   Jeffrey P.D., Russo A.A., Polyak K., Gibbs E., Hurwitz J.,
+RA   Massague J., Pavletich N.P.;
+RT   "Mechanism of CDK activation revealed by the structure of a cyclinA-
+RT   CDK2 complex.";
+RL   Nature 376:313-320(1995).
+RN   [28]
+RP   X-RAY CRYSTALLOGRAPHY (2.6 ANGSTROMS) OF COMPLEX WITG CKS1.
+RX   MEDLINE=96182647; PubMed=8601310; DOI=10.1016/S0092-8674(00)81065-X;
+RA   Bourne Y., Watson M.H., Hickey M.J., Holmes W., Rocque W., Reed S.I.,
+RA   Tainer J.A.;
+RT   "Crystal structure and mutational analysis of the human CDK2 kinase
+RT   complex with cell cycle-regulatory protein CksHs1.";
+RL   Cell 84:863-874(1996).
+RN   [29]
+RP   X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS).
+RX   MEDLINE=97075215; PubMed=8917641; DOI=10.1021/jm960402a;
+RA   Schulze-Gahmen U., de Bondt H.L., Kim S.-H.;
+RT   "High-resolution crystal structures of human cyclin-dependent kinase 2
+RT   with and without ATP: bound waters and natural ligand as guides for
+RT   inhibitor design.";
+RL   J. Med. Chem. 39:4540-4546(1996).
+RN   [30]
+RP   X-RAY CRYSTALLOGRAPHY (2.3 ANGSTROMS) OF COMPLEX WITH CG2A AND KIP1.
+RX   MEDLINE=96300318; PubMed=8684460; DOI=10.1038/382325a0;
+RA   Russo A.A., Jeffrey P.D., Patten A.K., Massague J., Pavletich N.P.;
+RT   "Crystal structure of the p27Kip1 cyclin-dependent-kinase inhibitor
+RT   bound to the cyclin A-Cdk2 complex.";
+RL   Nature 382:325-331(1996).
+RN   [31]
+RP   X-RAY CRYSTALLOGRAPHY (2.6 ANGSTROMS) OF COMPLEX WITH CG2A.
+RX   MEDLINE=96313126; PubMed=8756328; DOI=10.1038/nsb0896-696;
+RA   Russo A.A., Jeffrey P.D., Pavletich N.P.;
+RT   "Structural basis of cyclin-dependent kinase activation by
+RT   phosphorylation.";
+RL   Nat. Struct. Biol. 3:696-700(1996).
+RN   [32]
+RP   X-RAY CRYSTALLOGRAPHY (2.33 ANGSTROMS) OF COMPLEX WITH L868276.
+RX   MEDLINE=96181476; PubMed=8610110; DOI=10.1073/pnas.93.7.2735;
+RA   de Azevedo W.F. Jr., Mueller-Dieckmann H.-J., Schulze-Gahmen U.,
+RA   Worland P.J., Sausville E., Kim S.-H.;
+RT   "Structural basis for specificity and potency of a flavonoid inhibitor
+RT   of human CDK2, a cell cycle kinase.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 93:2735-2740(1996).
+RN   [33]
+RP   X-RAY CRYSTALLOGRAPHY (2.0 ANGSTROMS).
+RX   MEDLINE=97475219; PubMed=9334743; DOI=10.1038/nsb1097-796;
+RA   Lawrie A.M., Noble M.E.M., Tunnah P., Brown N.R., Johnson L.N.,
+RA   Endicott J.A.;
+RT   "Protein kinase inhibition by staurosporine revealed in details of the
+RT   molecular interaction with CDK2.";
+RL   Nat. Struct. Biol. 4:796-801(1997).
+RN   [34]
+RP   X-RAY CRYSTALLOGRAPHY (2.05 ANGSTROMS).
+RX   MEDLINE=98342369; PubMed=9677190; DOI=10.1126/science.281.5376.533;
+RA   Gray N.S., Wodicka L., Thunnissen A.-M.W.H., Norman T.C., Kwon S.,
+RA   Espinoza F.H., Morgan D.O., Barnes G., Leclerc S., Meijer L.,
+RA   Kim S.H., Lockhart D.J., Schultz P.G.;
+RT   "Exploiting chemical libraries, structure, and genomics in the search
+RT   for kinase inhibitors.";
+RL   Science 281:533-538(1998).
+RN   [35]
+RP   X-RAY CRYSTALLOGRAPHY (2.9 ANGSTROMS) OF 1-288 IN COMPLEX WITH CCNB1,
+RP   AND FUNCTION.
+RX   PubMed=17495531;
+RA   Brown N.R., Lowe E.D., Petri E., Skamnaki V., Antrobus R.,
+RA   Johnson L.N.;
+RT   "Cyclin B and cyclin A confer different substrate recognition
+RT   properties on CDK2.";
+RL   Cell Cycle 6:1350-1359(2007).
+RN   [36]
+RP   VARIANTS [LARGE SCALE ANALYSIS] LEU-45 AND SER-290.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Involved in the control of the cell cycle. Interacts
+CC       with cyclins A, B1, B3, D, or E. Activity of CDK2 is maximal
+CC       during S phase and G2.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- ENZYME REGULATION: Phosphorylation at Thr-14 or Tyr-15 inactivates
+CC       the enzyme, while phosphorylation at Thr-160 activates it.
+CC   -!- SUBUNIT: Found in a complex with CABLES1, CCNA1 and CCNE1.
+CC       Interacts with CABLES1 (By similarity). Interacts with UHRF2. Part
+CC       of a complex consisting of UHRF2, CDK2 and CCNE1. Interacts with
+CC       the Speedy/Ringo proteins SPDYA and SPDYC. Found in a complex with
+CC       both SPDYA and CDKN1B/KIP1.
+CC   -!- INTERACTION:
+CC       Self; NbExp=1; IntAct=EBI-375096, EBI-375096;
+CC       P49662:CASP4; NbExp=1; IntAct=EBI-375096, EBI-1057327;
+CC       O95067:CCNB2; NbExp=1; IntAct=EBI-375096, EBI-375024;
+CC       P24864:CCNE1; NbExp=4; IntAct=EBI-375096, EBI-519526;
+CC       O96020:CCNE2; NbExp=5; IntAct=EBI-375096, EBI-375033;
+CC       Q96Q40:CDK15; NbExp=1; IntAct=EBI-375096, EBI-1051975;
+CC       P38936:CDKN1A; NbExp=5; IntAct=EBI-375096, EBI-375077;
+CC       P46527:CDKN1B; NbExp=6; IntAct=EBI-375096, EBI-519280;
+CC       Q16667:CDKN3; NbExp=1; IntAct=EBI-375096, EBI-1031527;
+CC       P11171:EPB41; NbExp=1; IntAct=EBI-375096, EBI-1050906;
+CC       Q9H1Q7:FAM113A; NbExp=1; IntAct=EBI-375096, EBI-748452;
+CC       P22087:FBL; NbExp=1; IntAct=EBI-375096, EBI-358318;
+CC       P25205:MCM3; NbExp=1; IntAct=EBI-375096, EBI-355153;
+CC       Q14CX7:NAA25; NbExp=1; IntAct=EBI-375096, EBI-1048503;
+CC       Q15843:NEDD8; NbExp=1; IntAct=EBI-375096, EBI-716247;
+CC       O15294:OGT; NbExp=1; IntAct=EBI-375096, EBI-539828;
+CC       Q13416:ORC2L; NbExp=1; IntAct=EBI-375096, EBI-374957;
+CC       P30086:PEBP1; NbExp=1; IntAct=EBI-375096, EBI-716384;
+CC       P62136:PPP1CA; NbExp=1; IntAct=EBI-375096, EBI-357253;
+CC       P36873:PPP1CC; NbExp=1; IntAct=EBI-375096, EBI-356283;
+CC       O75365:PTP4A3; NbExp=1; IntAct=EBI-375096, EBI-1043866;
+CC       Q96JH8:RADIL; NbExp=1; IntAct=EBI-375096, EBI-744267;
+CC       P06400:RB1; NbExp=1; IntAct=EBI-375096, EBI-491274;
+CC       Q99523:SORT1; NbExp=1; IntAct=EBI-375096, EBI-1057058;
+CC       Q15714:TSC22D1; NbExp=1; IntAct=EBI-375096, EBI-712609;
+CC       P61081:UBE2M; NbExp=1; IntAct=EBI-375096, EBI-1041660;
+CC       Q96PU4:UHRF2; NbExp=4; IntAct=EBI-375096, EBI-625304;
+CC       P40337:VHL; NbExp=1; IntAct=EBI-375096, EBI-301246;
+CC       Q9P2S5:WDR8; NbExp=1; IntAct=EBI-375096, EBI-1054904;
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CMGC
+CC       Ser/Thr protein kinase family. CDC2/CDKX subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- WEB RESOURCE: Name=NIEHS-SNPs;
+CC       URL="http://egp.gs.washington.edu/data/cdk2/";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X61622; CAA43807.1; -; mRNA.
+DR   EMBL; X62071; CAA43985.1; -; mRNA.
+DR   EMBL; M68520; AAA35667.1; -; mRNA.
+DR   EMBL; BT006821; AAP35467.1; -; mRNA.
+DR   EMBL; AF512553; AAM34794.1; -; Genomic_DNA.
+DR   EMBL; AK291941; BAF84630.1; -; mRNA.
+DR   EMBL; CH471054; EAW96858.1; -; Genomic_DNA.
+DR   EMBL; BC003065; AAH03065.1; -; mRNA.
+DR   IPI; IPI00031681; -.
+DR   PIR; A41227; A41227.
+DR   RefSeq; NP_001789.2; -.
+DR   RefSeq; NP_439892.2; -.
+DR   UniGene; Hs.19192; -.
+DR   UniGene; Hs.689624; -.
+DR   PDB; 1AQ1; X-ray; 2.00 A; A=1-298.
+DR   PDB; 1B38; X-ray; 2.00 A; A=1-298.
+DR   PDB; 1B39; X-ray; 2.10 A; A=1-298.
+DR   PDB; 1BUH; X-ray; 2.60 A; A=1-298.
+DR   PDB; 1CKP; X-ray; 2.05 A; A=1-298.
+DR   PDB; 1DI8; X-ray; 2.20 A; A=1-298.
+DR   PDB; 1DM2; X-ray; 2.10 A; A=1-298.
+DR   PDB; 1E1V; X-ray; 1.95 A; A=1-298.
+DR   PDB; 1E1X; X-ray; 1.85 A; A=1-298.
+DR   PDB; 1E9H; X-ray; 2.50 A; A/C=1-296.
+DR   PDB; 1F5Q; X-ray; 2.50 A; A/C=1-298.
+DR   PDB; 1FIN; X-ray; 2.30 A; A/C=1-298.
+DR   PDB; 1FQ1; X-ray; 3.00 A; B=1-298.
+DR   PDB; 1FVT; X-ray; 2.20 A; A=1-298.
+DR   PDB; 1FVV; X-ray; 2.80 A; A/C=1-298.
+DR   PDB; 1G5S; X-ray; 2.61 A; A=1-298.
+DR   PDB; 1GIH; X-ray; 2.80 A; A=1-298.
+DR   PDB; 1GII; X-ray; 2.00 A; A=1-298.
+DR   PDB; 1GIJ; X-ray; 2.20 A; A=1-298.
+DR   PDB; 1GY3; X-ray; 2.70 A; A/C=1-296.
+DR   PDB; 1GZ8; X-ray; 1.30 A; A=1-298.
+DR   PDB; 1H00; X-ray; 1.60 A; A=1-298.
+DR   PDB; 1H01; X-ray; 1.79 A; A=1-298.
+DR   PDB; 1H07; X-ray; 1.85 A; A=1-298.
+DR   PDB; 1H08; X-ray; 1.80 A; A=1-298.
+DR   PDB; 1H0V; X-ray; 1.90 A; A=1-298.
+DR   PDB; 1H0W; X-ray; 2.10 A; A=1-298.
+DR   PDB; 1H1P; X-ray; 2.10 A; A/C=1-298.
+DR   PDB; 1H1Q; X-ray; 2.50 A; A/C=1-298.
+DR   PDB; 1H1R; X-ray; 2.00 A; A/C=1-298.
+DR   PDB; 1H1S; X-ray; 2.00 A; A/C=1-298.
+DR   PDB; 1H24; X-ray; 2.50 A; A/C=1-298.
+DR   PDB; 1H25; X-ray; 2.50 A; A/C=1-298.
+DR   PDB; 1H26; X-ray; 2.24 A; A/C=1-298.
+DR   PDB; 1H27; X-ray; 2.20 A; A/C=1-298.
+DR   PDB; 1H28; X-ray; 2.80 A; A/C=1-298.
+DR   PDB; 1HCK; X-ray; 1.90 A; A=1-298.
+DR   PDB; 1HCL; X-ray; 1.80 A; A=1-298.
+DR   PDB; 1JST; X-ray; 2.60 A; A/C=1-298.
+DR   PDB; 1JSU; X-ray; 2.30 A; A=1-298.
+DR   PDB; 1JSV; X-ray; 1.96 A; A=1-298.
+DR   PDB; 1JVP; X-ray; 1.53 A; P=1-298.
+DR   PDB; 1KE5; X-ray; 2.20 A; A=1-298.
+DR   PDB; 1KE6; X-ray; 2.00 A; A=1-298.
+DR   PDB; 1KE7; X-ray; 2.00 A; A=1-298.
+DR   PDB; 1KE8; X-ray; 2.00 A; A=1-298.
+DR   PDB; 1KE9; X-ray; 2.00 A; A=1-298.
+DR   PDB; 1OGU; X-ray; 2.60 A; A/C=1-298.
+DR   PDB; 1OI9; X-ray; 2.10 A; A/C=1-298.
+DR   PDB; 1OIQ; X-ray; 2.31 A; A=1-298.
+DR   PDB; 1OIR; X-ray; 1.91 A; A=1-298.
+DR   PDB; 1OIT; X-ray; 1.60 A; A=1-298.
+DR   PDB; 1OIU; X-ray; 2.00 A; A/C=1-298.
+DR   PDB; 1OIY; X-ray; 2.40 A; A/C=1-298.
+DR   PDB; 1OKV; X-ray; 2.40 A; A/C=1-298.
+DR   PDB; 1OKW; X-ray; 2.50 A; A/C=1-298.
+DR   PDB; 1OL1; X-ray; 2.90 A; A/C=1-298.
+DR   PDB; 1OL2; X-ray; 2.60 A; A/C=1-298.
+DR   PDB; 1P2A; X-ray; 2.50 A; A=1-298.
+DR   PDB; 1P5E; X-ray; 2.22 A; A/C=1-298.
+DR   PDB; 1PF8; X-ray; 2.51 A; A=1-298.
+DR   PDB; 1PKD; X-ray; 2.30 A; A/C=1-296.
+DR   PDB; 1PW2; X-ray; 1.95 A; A=1-298.
+DR   PDB; 1PXI; X-ray; 1.95 A; A=1-298.
+DR   PDB; 1PXJ; X-ray; 2.30 A; A=1-298.
+DR   PDB; 1PXK; X-ray; 2.80 A; A=1-298.
+DR   PDB; 1PXL; X-ray; 2.50 A; A=1-298.
+DR   PDB; 1PXM; X-ray; 2.53 A; A=1-298.
+DR   PDB; 1PXN; X-ray; 2.50 A; A=1-298.
+DR   PDB; 1PXO; X-ray; 1.96 A; A=1-298.
+DR   PDB; 1PXP; X-ray; 2.30 A; A=1-298.
+DR   PDB; 1PYE; X-ray; 2.00 A; A=1-298.
+DR   PDB; 1QMZ; X-ray; 2.20 A; A/C=1-298.
+DR   PDB; 1R78; X-ray; 2.00 A; A=1-298.
+DR   PDB; 1URC; X-ray; 2.60 A; A/C=1-298.
+DR   PDB; 1URW; X-ray; 1.60 A; A=1-298.
+DR   PDB; 1V1K; X-ray; 2.31 A; A=1-298.
+DR   PDB; 1VYW; X-ray; 2.30 A; A/C=1-298.
+DR   PDB; 1VYZ; X-ray; 2.21 A; A=1-298.
+DR   PDB; 1W0X; X-ray; 2.20 A; C=1-298.
+DR   PDB; 1W8C; X-ray; 2.05 A; A=1-298.
+DR   PDB; 1W98; X-ray; 2.15 A; A=1-297.
+DR   PDB; 1WCC; X-ray; 2.20 A; A=1-298.
+DR   PDB; 1Y8Y; X-ray; 2.00 A; A=1-298.
+DR   PDB; 1Y91; X-ray; 2.15 A; A=1-298.
+DR   PDB; 1YKR; X-ray; 1.80 A; A=1-298.
+DR   PDB; 2A0C; X-ray; 1.95 A; X=1-298.
+DR   PDB; 2A4L; X-ray; 2.40 A; A=1-298.
+DR   PDB; 2B52; X-ray; 1.88 A; A=1-298.
+DR   PDB; 2B53; X-ray; 2.00 A; A=1-298.
+DR   PDB; 2B54; X-ray; 1.85 A; A=1-298.
+DR   PDB; 2B55; X-ray; 1.85 A; A=1-298.
+DR   PDB; 2BHE; X-ray; 1.90 A; A=1-298.
+DR   PDB; 2BHH; X-ray; 2.60 A; A=1-298.
+DR   PDB; 2BKZ; X-ray; 2.60 A; A/C=1-298.
+DR   PDB; 2BPM; X-ray; 2.40 A; A/C=1-298.
+DR   PDB; 2BTR; X-ray; 1.85 A; A=1-298.
+DR   PDB; 2BTS; X-ray; 1.99 A; A=1-298.
+DR   PDB; 2C4G; X-ray; 2.70 A; A/C=1-298.
+DR   PDB; 2C5N; X-ray; 2.10 A; A/C=1-298.
+DR   PDB; 2C5O; X-ray; 2.10 A; A/C=1-298.
+DR   PDB; 2C5V; X-ray; 2.90 A; A/C=1-298.
+DR   PDB; 2C5X; X-ray; 2.90 A; A/C=1-298.
+DR   PDB; 2C5Y; X-ray; 2.25 A; A=1-298.
+DR   PDB; 2C68; X-ray; 1.95 A; A=1-298.
+DR   PDB; 2C69; X-ray; 2.10 A; A=1-298.
+DR   PDB; 2C6I; X-ray; 1.80 A; A=1-298.
+DR   PDB; 2C6K; X-ray; 1.90 A; A=1-298.
+DR   PDB; 2C6L; X-ray; 2.30 A; A=1-298.
+DR   PDB; 2C6M; X-ray; 1.90 A; A=1-298.
+DR   PDB; 2C6O; X-ray; 2.10 A; A=1-298.
+DR   PDB; 2C6T; X-ray; 2.61 A; A/C=1-298.
+DR   PDB; 2CCH; X-ray; 1.70 A; A/C=1-298.
+DR   PDB; 2CCI; X-ray; 2.70 A; A/C=1-298.
+DR   PDB; 2CJM; X-ray; 2.30 A; A/C=1-298.
+DR   PDB; 2CLX; X-ray; 1.80 A; A=1-298.
+DR   PDB; 2DS1; X-ray; 2.00 A; A=1-298.
+DR   PDB; 2DUV; X-ray; 2.20 A; A=1-298.
+DR   PDB; 2EXM; X-ray; 1.80 A; A=1-298.
+DR   PDB; 2FVD; X-ray; 1.85 A; A=1-298.
+DR   PDB; 2G9X; X-ray; 2.50 A; A/C=1-298.
+DR   PDB; 2HIC; Model; -; A=1-298.
+DR   PDB; 2I40; X-ray; 2.80 A; A/C=1-298.
+DR   PDB; 2IW6; X-ray; 2.30 A; A/C=1-298.
+DR   PDB; 2IW8; X-ray; 2.30 A; A/C=1-298.
+DR   PDB; 2IW9; X-ray; 2.00 A; A/C=1-298.
+DR   PDB; 2J9M; X-ray; 2.50 A; A=1-298.
+DR   PDB; 2JGZ; X-ray; 2.90 A; A=1-288.
+DR   PDB; 2R3F; X-ray; 1.50 A; A=1-298.
+DR   PDB; 2R3G; X-ray; 1.55 A; A=1-298.
+DR   PDB; 2R3H; X-ray; 1.50 A; A=1-298.
+DR   PDB; 2R3I; X-ray; 1.28 A; A=1-298.
+DR   PDB; 2R3J; X-ray; 1.65 A; A=1-298.
+DR   PDB; 2R3K; X-ray; 1.70 A; A=1-298.
+DR   PDB; 2R3L; X-ray; 1.65 A; A=1-298.
+DR   PDB; 2R3M; X-ray; 1.70 A; A=1-298.
+DR   PDB; 2R3N; X-ray; 1.63 A; A=1-298.
+DR   PDB; 2R3O; X-ray; 1.80 A; A=1-298.
+DR   PDB; 2R3P; X-ray; 1.66 A; A=1-298.
+DR   PDB; 2R3Q; X-ray; 1.35 A; A=1-298.
+DR   PDB; 2R3R; X-ray; 1.47 A; A=1-298.
+DR   PDB; 2R64; X-ray; 2.30 A; A=1-298.
+DR   PDB; 2UUE; X-ray; 2.06 A; A/C=1-298.
+DR   PDB; 2UZB; X-ray; 2.70 A; A/C=1-298.
+DR   PDB; 2UZD; X-ray; 2.72 A; A/C=1-298.
+DR   PDB; 2UZE; X-ray; 2.40 A; A/C=1-298.
+DR   PDB; 2UZL; X-ray; 2.40 A; A/C=1-298.
+DR   PDB; 2UZN; X-ray; 2.30 A; A=1-298.
+DR   PDB; 2UZO; X-ray; 2.30 A; A=1-298.
+DR   PDB; 2V0D; X-ray; 2.20 A; A=1-298.
+DR   PDB; 2V22; X-ray; 2.60 A; A/C=1-298.
+DR   PDB; 2VTA; X-ray; 2.00 A; A=1-298.
+DR   PDB; 2VTH; X-ray; 1.90 A; A=1-298.
+DR   PDB; 2VTI; X-ray; 2.00 A; A=1-298.
+DR   PDB; 2VTJ; X-ray; 2.20 A; A=1-298.
+DR   PDB; 2VTL; X-ray; 2.00 A; A=1-298.
+DR   PDB; 2VTM; X-ray; 2.25 A; A=1-298.
+DR   PDB; 2VTN; X-ray; 2.20 A; A=1-298.
+DR   PDB; 2VTO; X-ray; 2.19 A; A=1-298.
+DR   PDB; 2VTP; X-ray; 2.15 A; A=1-298.
+DR   PDB; 2VTQ; X-ray; 1.90 A; A=1-298.
+DR   PDB; 2VTR; X-ray; 1.90 A; A=1-298.
+DR   PDB; 2VTS; X-ray; 1.90 A; A=1-298.
+DR   PDB; 2VTT; X-ray; 1.68 A; A=1-298.
+DR   PDB; 2VU3; X-ray; 1.85 A; A=1-298.
+DR   PDB; 2VV9; X-ray; 1.90 A; A=1-298.
+DR   PDB; 2W05; X-ray; 1.90 A; A=1-298.
+DR   PDB; 2W06; X-ray; 2.04 A; A=1-298.
+DR   PDB; 2W17; X-ray; 2.15 A; A=1-298.
+DR   PDB; 2W1H; X-ray; 2.15 A; A=1-298.
+DR   PDB; 2WEV; X-ray; 2.30 A; A/C=1-298.
+DR   PDB; 2WFY; X-ray; 2.53 A; A/C=1-298.
+DR   PDB; 2WHB; X-ray; 2.90 A; A/C=1-298.
+DR   PDB; 2WIH; X-ray; 2.50 A; A/C=1-298.
+DR   PDB; 2WIP; X-ray; 2.80 A; A/C=1-298.
+DR   PDB; 2WMA; X-ray; 2.80 A; A/C=1-298.
+DR   PDB; 2WMB; X-ray; 2.60 A; A/C=1-298.
+DR   PDB; 2WPA; X-ray; 2.51 A; A/C=1-298.
+DR   PDB; 2WXV; X-ray; 2.60 A; A/C=1-298.
+DR   PDB; 2X1N; X-ray; 2.75 A; A/C=1-298.
+DR   PDB; 3BHT; X-ray; 2.00 A; A/C=1-298.
+DR   PDB; 3BHU; X-ray; 2.30 A; A/C=1-298.
+DR   PDB; 3BHV; X-ray; 2.10 A; A/C=1-298.
+DR   PDB; 3DDP; X-ray; 2.70 A; A/C=1-298.
+DR   PDB; 3DDQ; X-ray; 1.80 A; A/C=1-298.
+DR   PDB; 3DOG; X-ray; 2.70 A; A/C=1-298.
+DR   PDB; 3EID; X-ray; 3.15 A; A/C=1-298.
+DR   PDB; 3EJ1; X-ray; 3.22 A; A/C=1-298.
+DR   PDB; 3EOC; X-ray; 3.20 A; A/C=1-298.
+DR   PDB; 3EZR; X-ray; 1.90 A; A=1-298.
+DR   PDB; 3EZV; X-ray; 1.99 A; A=1-298.
+DR   PDB; 3F5X; X-ray; 2.40 A; A/C=1-298.
+DR   PDB; 3FZ1; X-ray; 1.90 A; A=1-298.
+DR   PDB; 3IG7; X-ray; 1.80 A; A=1-298.
+DR   PDB; 3IGG; X-ray; 1.80 A; A=1-298.
+DR   PDB; 3LFN; X-ray; 2.28 A; A=1-298.
+DR   PDB; 3LFQ; X-ray; 2.03 A; A=1-298.
+DR   PDB; 3LFS; X-ray; 2.40 A; A=1-298.
+DR   PDBsum; 1AQ1; -.
+DR   PDBsum; 1B38; -.
+DR   PDBsum; 1B39; -.
+DR   PDBsum; 1BUH; -.
+DR   PDBsum; 1CKP; -.
+DR   PDBsum; 1DI8; -.
+DR   PDBsum; 1DM2; -.
+DR   PDBsum; 1E1V; -.
+DR   PDBsum; 1E1X; -.
+DR   PDBsum; 1E9H; -.
+DR   PDBsum; 1F5Q; -.
+DR   PDBsum; 1FIN; -.
+DR   PDBsum; 1FQ1; -.
+DR   PDBsum; 1FVT; -.
+DR   PDBsum; 1FVV; -.
+DR   PDBsum; 1G5S; -.
+DR   PDBsum; 1GIH; -.
+DR   PDBsum; 1GII; -.
+DR   PDBsum; 1GIJ; -.
+DR   PDBsum; 1GY3; -.
+DR   PDBsum; 1GZ8; -.
+DR   PDBsum; 1H00; -.
+DR   PDBsum; 1H01; -.
+DR   PDBsum; 1H07; -.
+DR   PDBsum; 1H08; -.
+DR   PDBsum; 1H0V; -.
+DR   PDBsum; 1H0W; -.
+DR   PDBsum; 1H1P; -.
+DR   PDBsum; 1H1Q; -.
+DR   PDBsum; 1H1R; -.
+DR   PDBsum; 1H1S; -.
+DR   PDBsum; 1H24; -.
+DR   PDBsum; 1H25; -.
+DR   PDBsum; 1H26; -.
+DR   PDBsum; 1H27; -.
+DR   PDBsum; 1H28; -.
+DR   PDBsum; 1HCK; -.
+DR   PDBsum; 1HCL; -.
+DR   PDBsum; 1JST; -.
+DR   PDBsum; 1JSU; -.
+DR   PDBsum; 1JSV; -.
+DR   PDBsum; 1JVP; -.
+DR   PDBsum; 1KE5; -.
+DR   PDBsum; 1KE6; -.
+DR   PDBsum; 1KE7; -.
+DR   PDBsum; 1KE8; -.
+DR   PDBsum; 1KE9; -.
+DR   PDBsum; 1OGU; -.
+DR   PDBsum; 1OI9; -.
+DR   PDBsum; 1OIQ; -.
+DR   PDBsum; 1OIR; -.
+DR   PDBsum; 1OIT; -.
+DR   PDBsum; 1OIU; -.
+DR   PDBsum; 1OIY; -.
+DR   PDBsum; 1OKV; -.
+DR   PDBsum; 1OKW; -.
+DR   PDBsum; 1OL1; -.
+DR   PDBsum; 1OL2; -.
+DR   PDBsum; 1P2A; -.
+DR   PDBsum; 1P5E; -.
+DR   PDBsum; 1PF8; -.
+DR   PDBsum; 1PKD; -.
+DR   PDBsum; 1PW2; -.
+DR   PDBsum; 1PXI; -.
+DR   PDBsum; 1PXJ; -.
+DR   PDBsum; 1PXK; -.
+DR   PDBsum; 1PXL; -.
+DR   PDBsum; 1PXM; -.
+DR   PDBsum; 1PXN; -.
+DR   PDBsum; 1PXO; -.
+DR   PDBsum; 1PXP; -.
+DR   PDBsum; 1PYE; -.
+DR   PDBsum; 1QMZ; -.
+DR   PDBsum; 1R78; -.
+DR   PDBsum; 1URC; -.
+DR   PDBsum; 1URW; -.
+DR   PDBsum; 1V1K; -.
+DR   PDBsum; 1VYW; -.
+DR   PDBsum; 1VYZ; -.
+DR   PDBsum; 1W0X; -.
+DR   PDBsum; 1W8C; -.
+DR   PDBsum; 1W98; -.
+DR   PDBsum; 1WCC; -.
+DR   PDBsum; 1Y8Y; -.
+DR   PDBsum; 1Y91; -.
+DR   PDBsum; 1YKR; -.
+DR   PDBsum; 2A0C; -.
+DR   PDBsum; 2A4L; -.
+DR   PDBsum; 2B52; -.
+DR   PDBsum; 2B53; -.
+DR   PDBsum; 2B54; -.
+DR   PDBsum; 2B55; -.
+DR   PDBsum; 2BHE; -.
+DR   PDBsum; 2BHH; -.
+DR   PDBsum; 2BKZ; -.
+DR   PDBsum; 2BPM; -.
+DR   PDBsum; 2BTR; -.
+DR   PDBsum; 2BTS; -.
+DR   PDBsum; 2C4G; -.
+DR   PDBsum; 2C5N; -.
+DR   PDBsum; 2C5O; -.
+DR   PDBsum; 2C5V; -.
+DR   PDBsum; 2C5X; -.
+DR   PDBsum; 2C5Y; -.
+DR   PDBsum; 2C68; -.
+DR   PDBsum; 2C69; -.
+DR   PDBsum; 2C6I; -.
+DR   PDBsum; 2C6K; -.
+DR   PDBsum; 2C6L; -.
+DR   PDBsum; 2C6M; -.
+DR   PDBsum; 2C6O; -.
+DR   PDBsum; 2C6T; -.
+DR   PDBsum; 2CCH; -.
+DR   PDBsum; 2CCI; -.
+DR   PDBsum; 2CJM; -.
+DR   PDBsum; 2CLX; -.
+DR   PDBsum; 2DS1; -.
+DR   PDBsum; 2DUV; -.
+DR   PDBsum; 2EXM; -.
+DR   PDBsum; 2FVD; -.
+DR   PDBsum; 2G9X; -.
+DR   PDBsum; 2HIC; -.
+DR   PDBsum; 2I40; -.
+DR   PDBsum; 2IW6; -.
+DR   PDBsum; 2IW8; -.
+DR   PDBsum; 2IW9; -.
+DR   PDBsum; 2J9M; -.
+DR   PDBsum; 2JGZ; -.
+DR   PDBsum; 2R3F; -.
+DR   PDBsum; 2R3G; -.
+DR   PDBsum; 2R3H; -.
+DR   PDBsum; 2R3I; -.
+DR   PDBsum; 2R3J; -.
+DR   PDBsum; 2R3K; -.
+DR   PDBsum; 2R3L; -.
+DR   PDBsum; 2R3M; -.
+DR   PDBsum; 2R3N; -.
+DR   PDBsum; 2R3O; -.
+DR   PDBsum; 2R3P; -.
+DR   PDBsum; 2R3Q; -.
+DR   PDBsum; 2R3R; -.
+DR   PDBsum; 2R64; -.
+DR   PDBsum; 2UUE; -.
+DR   PDBsum; 2UZB; -.
+DR   PDBsum; 2UZD; -.
+DR   PDBsum; 2UZE; -.
+DR   PDBsum; 2UZL; -.
+DR   PDBsum; 2UZN; -.
+DR   PDBsum; 2UZO; -.
+DR   PDBsum; 2V0D; -.
+DR   PDBsum; 2V22; -.
+DR   PDBsum; 2VTA; -.
+DR   PDBsum; 2VTH; -.
+DR   PDBsum; 2VTI; -.
+DR   PDBsum; 2VTJ; -.
+DR   PDBsum; 2VTL; -.
+DR   PDBsum; 2VTM; -.
+DR   PDBsum; 2VTN; -.
+DR   PDBsum; 2VTO; -.
+DR   PDBsum; 2VTP; -.
+DR   PDBsum; 2VTQ; -.
+DR   PDBsum; 2VTR; -.
+DR   PDBsum; 2VTS; -.
+DR   PDBsum; 2VTT; -.
+DR   PDBsum; 2VU3; -.
+DR   PDBsum; 2VV9; -.
+DR   PDBsum; 2W05; -.
+DR   PDBsum; 2W06; -.
+DR   PDBsum; 2W17; -.
+DR   PDBsum; 2W1H; -.
+DR   PDBsum; 2WEV; -.
+DR   PDBsum; 2WFY; -.
+DR   PDBsum; 2WHB; -.
+DR   PDBsum; 2WIH; -.
+DR   PDBsum; 2WIP; -.
+DR   PDBsum; 2WMA; -.
+DR   PDBsum; 2WMB; -.
+DR   PDBsum; 2WPA; -.
+DR   PDBsum; 2WXV; -.
+DR   PDBsum; 2X1N; -.
+DR   PDBsum; 3BHT; -.
+DR   PDBsum; 3BHU; -.
+DR   PDBsum; 3BHV; -.
+DR   PDBsum; 3DDP; -.
+DR   PDBsum; 3DDQ; -.
+DR   PDBsum; 3DOG; -.
+DR   PDBsum; 3EID; -.
+DR   PDBsum; 3EJ1; -.
+DR   PDBsum; 3EOC; -.
+DR   PDBsum; 3EZR; -.
+DR   PDBsum; 3EZV; -.
+DR   PDBsum; 3F5X; -.
+DR   PDBsum; 3FZ1; -.
+DR   PDBsum; 3IG7; -.
+DR   PDBsum; 3IGG; -.
+DR   PDBsum; 3LFN; -.
+DR   PDBsum; 3LFQ; -.
+DR   PDBsum; 3LFS; -.
+DR   ProteinModelPortal; P24941; -.
+DR   DIP; DIP-161N; -.
+DR   IntAct; P24941; 122.
+DR   MINT; MINT-96328; -.
+DR   STRING; P24941; -.
+DR   PhosphoSite; P24941; -.
+DR   PRIDE; P24941; -.
+DR   Ensembl; ENST00000266970; ENSP00000266970; ENSG00000123374.
+DR   GeneID; 1017; -.
+DR   KEGG; hsa:1017; -.
+DR   UCSC; uc001sit.2; human.
+DR   CTD; 1017; -.
+DR   GeneCards; GC12P056360; -.
+DR   H-InvDB; HIX0010710; -.
+DR   HGNC; HGNC:1771; CDK2.
+DR   HPA; CAB013115; -.
+DR   MIM; 116953; gene.
+DR   PharmGKB; PA101; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG014652; -.
+DR   InParanoid; P24941; -.
+DR   OMA; LDLKKYM; -.
+DR   OrthoDB; EOG95QKZV; -.
+DR   PhylomeDB; P24941; -.
+DR   BRENDA; 2.7.11.22; 247.
+DR   Pathway_Interaction_DB; bard1pathway; BARD1 signaling events.
+DR   Pathway_Interaction_DB; foxm1pathway; FOXM1 transcription factor network.
+DR   Pathway_Interaction_DB; foxopathway; FoxO family signaling.
+DR   Pathway_Interaction_DB; il2_1pathway; IL2-mediated signaling events.
+DR   Pathway_Interaction_DB; smad2_3nuclearpathway; Regulation of nuclear SMAD2/3 signaling.
+DR   Pathway_Interaction_DB; prlsignalingeventspathway; Signaling events mediated by PRL.
+DR   Reactome; REACT_152; Cell Cycle, Mitotic.
+DR   Reactome; REACT_1538; Cell Cycle Checkpoints.
+DR   Reactome; REACT_383; DNA Replication.
+DR   BindingDB; P24941; -.
+DR   NextBio; 4273; -.
+DR   ArrayExpress; P24941; -.
+DR   Bgee; P24941; -.
+DR   CleanEx; HS_CDK2; -.
+DR   Genevestigator; P24941; -.
+DR   GermOnline; ENSG00000123374; Homo sapiens.
+DR   GO; GO:0000307; C:cyclin-dependent protein kinase holoenzyme ...; IDA:UniProtKB.
+DR   GO; GO:0005829; C:cytosol; EXP:Reactome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004693; F:cyclin-dependent protein kinase activity; EXP:Reactome.
+DR   GO; GO:0042802; F:identical protein binding; IPI:IntAct.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0006260; P:DNA replication; EXP:Reactome.
+DR   GO; GO:0000086; P:G2/M transition of mitotic cell cycle; TAS:ProtInc.
+DR   GO; GO:0007067; P:mitosis; IEA:UniProtKB-KW.
+DR   GO; GO:0008284; P:positive regulation of cell proliferation; TAS:ProtInc.
+DR   GO; GO:0007265; P:Ras protein signal transduction; IEP:BHF-UCL.
+DR   GO; GO:0006275; P:regulation of DNA replication; TAS:ProtInc.
+DR   GO; GO:0007089; P:traversing start control point of mitotic c...; TAS:ProtInc.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; ATP-binding; Cell cycle; Cell division;
+KW   Complete proteome; Kinase; Mitosis; Nucleotide-binding;
+KW   Phosphoprotein; Polymorphism; Serine/threonine-protein kinase;
+KW   Transferase.
+FT   CHAIN         1    298       Cell division protein kinase 2.
+FT                                /FTId=PRO_0000085769.
+FT   DOMAIN        4    286       Protein kinase.
+FT   NP_BIND      10     18       ATP.
+FT   NP_BIND      81     83       ATP.
+FT   NP_BIND     129    132       ATP.
+FT   ACT_SITE    127    127       Proton acceptor.
+FT   BINDING      33     33       ATP.
+FT   BINDING      86     86       ATP.
+FT   BINDING     145    145       ATP.
+FT   MOD_RES       6      6       N6-acetyllysine.
+FT   MOD_RES      14     14       Phosphothreonine.
+FT   MOD_RES      15     15       Phosphotyrosine; by WEE1.
+FT   MOD_RES      19     19       Phosphotyrosine.
+FT   MOD_RES      46     46       Phosphoserine.
+FT   MOD_RES     158    158       Phosphothreonine.
+FT   MOD_RES     159    159       Phosphotyrosine.
+FT   MOD_RES     160    160       Phosphothreonine; by CAK and CCRK.
+FT   VARIANT      15     15       Y -> S (in dbSNP:rs3087335).
+FT                                /FTId=VAR_016157.
+FT   VARIANT      18     18       V -> L (in dbSNP:rs11554376).
+FT                                /FTId=VAR_053927.
+FT   VARIANT      45     45       P -> L (in a glioblastoma multiforme
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_041972.
+FT   VARIANT     290    290       T -> S (in dbSNP:rs2069413).
+FT                                /FTId=VAR_019988.
+FT   MUTAGEN      14     14       T->A: 2-fold increase in activity.
+FT   MUTAGEN      15     15       Y->F: 2-fold increase in activity.
+FT   MUTAGEN     160    160       T->A: Abolishes activity.
+FT   STRAND        4     12
+FT   STRAND       14     23
+FT   TURN         24     26
+FT   STRAND       29     35
+FT   HELIX        46     55
+FT   STRAND       66     72
+FT   STRAND       75     81
+FT   STRAND       84     86
+FT   HELIX        87     93
+FT   TURN         94     97
+FT   HELIX       101    120
+FT   HELIX       130    132
+FT   STRAND      133    135
+FT   STRAND      141    143
+FT   HELIX       148    152
+FT   HELIX       171    174
+FT   HELIX       183    198
+FT   HELIX       208    219
+FT   TURN        224    226
+FT   HELIX       230    232
+FT   HELIX       248    251
+FT   HELIX       257    266
+FT   TURN        271    273
+FT   HELIX       277    281
+FT   HELIX       284    286
+SQ   SEQUENCE   298 AA;  33930 MW;  F90A0F4E70910B51 CRC64;
+     MENFQKVEKI GEGTYGVVYK ARNKLTGEVV ALKKIRLDTE TEGVPSTAIR EISLLKELNH
+     PNIVKLLDVI HTENKLYLVF EFLHQDLKKF MDASALTGIP LPLIKSYLFQ LLQGLAFCHS
+     HRVLHRDLKP QNLLINTEGA IKLADFGLAR AFGVPVRTYT HEVVTLWYRA PEILLGCKYY
+     STAVDIWSLG CIFAEMVTRR ALFPGDSEID QLFRIFRTLG TPDEVVWPGV TSMPDYKPSF
+     PKWARQDFSK VVPPLDEDGR SLLSQMLHYD PNKRISAKAA LAHPFFQDVT KPVPHLRL
+//

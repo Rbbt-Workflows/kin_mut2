@@ -1,0 +1,657 @@
+ID   AKT1_HUMAN              Reviewed;         480 AA.
+AC   P31749; Q9BWB6;
+DT   01-JUL-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-2005, sequence version 2.
+DT   05-OCT-2010, entry version 139.
+DE   RecName: Full=RAC-alpha serine/threonine-protein kinase;
+DE            EC=2.7.11.1;
+DE   AltName: Full=Protein kinase B;
+DE            Short=PKB;
+DE   AltName: Full=Proto-oncogene c-Akt;
+DE   AltName: Full=RAC-PK-alpha;
+GN   Name=AKT1; Synonyms=PKB, RAC;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND CATALYTIC ACTIVITY.
+RX   MEDLINE=91239529; PubMed=1851997; DOI=10.1073/pnas.88.10.4171;
+RA   Jones P.F., Jakubowicz T., Pitossi F.J., Maurer F., Hemmings B.A.;
+RT   "Molecular cloning and identification of a serine/threonine protein
+RT   kinase of the second-messenger subfamily.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 88:4171-4175(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   MEDLINE=21399046; PubMed=11508278; DOI=10.1007/s001250100577;
+RA   Matsubara A., Wasson J.C., Donelan S.S., Welling C.M., Glaser B.,
+RA   Permutt M.A.;
+RT   "Isolation and characterization of the human AKT1 gene, identification
+RT   of 13 single nucleotide polymorphisms (SNPs), and their lack of
+RT   association with Type II diabetes.";
+RL   Diabetologia 44:910-913(2001).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Muscle, and Ovary;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 63-480, FUNCTION, CATALYTIC ACTIVITY,
+RP   AND TISSUE SPECIFICITY.
+RC   TISSUE=Foreskin;
+RX   MEDLINE=92037600; PubMed=1718748;
+RX   DOI=10.1111/j.1432-1033.1991.tb16305.x;
+RA   Coffer P.J., Woodgett J.R.;
+RT   "Molecular cloning and characterisation of a novel putative protein-
+RT   serine kinase related to the cAMP-dependent and protein kinase C
+RT   families.";
+RL   Eur. J. Biochem. 201:475-481(1991).
+RN   [5]
+RP   ERRATUM, AND SEQUENCE REVISION.
+RX   MEDLINE=92249329; PubMed=1533586;
+RA   Coffer P.J., Woodgett J.R.;
+RL   Eur. J. Biochem. 205:1217-1218(1992).
+RN   [6]
+RP   ENZYME REGULATION, AND PHOSPHORYLATION AT SER-473.
+RX   MEDLINE=98409636; PubMed=9736715; DOI=10.1073/pnas.95.19.11211;
+RA   Delcommenne M., Tan C., Gray V., Rue L., Woodgett J.R., Dedhar S.;
+RT   "Phosphoinositide-3-OH kinase-dependent regulation of glycogen
+RT   synthase kinase 3 and protein kinase B/AKT by the integrin-linked
+RT   kinase.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 95:11211-11216(1998).
+RN   [7]
+RP   MUTAGENESIS OF THR-308 AND SER-473, AND PHOSPHORYLATION AT THR-308 AND
+RP   SER-473.
+RX   MEDLINE=97133284; PubMed=8978681;
+RA   Alessi D.R., Andjelkovic M., Caudwell F.B., Cron P., Morrice N.,
+RA   Cohen P., Hemmings B.A.;
+RT   "Mechanism of activation of protein kinase B by insulin and IGF-1.";
+RL   EMBO J. 15:6541-6551(1996).
+RN   [8]
+RP   FUNCTION, ENZYME REGULATION, AND PHOSPHORYLATION AT THR-308 BY PDPK1.
+RX   PubMed=9512493;
+RA   Walker K.S., Deak M., Paterson A., Hudson K., Cohen P., Alessi D.R.;
+RT   "Activation of protein kinase B beta and gamma isoforms by insulin in
+RT   vivo and by 3-phosphoinositide-dependent protein kinase-1 in vitro:
+RT   comparison with protein kinase B alpha.";
+RL   Biochem. J. 331:299-308(1998).
+RN   [9]
+RP   INTERACTION WITH MTCP1; TCL1A AND TCL1B.
+RX   PubMed=10983986; DOI=10.1016/S1097-2765(00)00039-3;
+RA   Laine J., Kuenstle G., Obata T., Sha M., Noguchi M.;
+RT   "The protooncogene TCL1 is an Akt kinase coactivator.";
+RL   Mol. Cell 6:395-407(2000).
+RN   [10]
+RP   INTERACTION WITH TCL1A.
+RX   PubMed=10716693; DOI=10.1073/pnas.040557697;
+RA   Pekarsky Y., Koval A., Hallas C., Bichi R., Tresini M., Malstrom S.,
+RA   Russo G., Tsichlis P., Croce C.M.;
+RT   "Tcl1 enhances Akt kinase activity and mediates its nuclear
+RT   translocation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 97:3028-3033(2000).
+RN   [11]
+RP   INTERACTION WITH THEM4, AND SUBCELLULAR LOCATION.
+RX   PubMed=11598301; DOI=10.1126/science.1062030;
+RA   Maira S.-M., Galetic I., Brazil D.P., Kaech S., Ingley E., Thelen M.,
+RA   Hemmings B.A.;
+RT   "Carboxyl-terminal modulator protein (CTMP), a negative regulator of
+RT   PKB/Akt and v-Akt at the plasma membrane.";
+RL   Science 294:374-380(2001).
+RN   [12]
+RP   FUNCTION IN PHOSPHORYLATION OF TBC1D4.
+RX   MEDLINE=22063368; PubMed=11994271; DOI=10.1074/jbc.C200198200;
+RA   Kane S., Sano H., Liu S.C.H., Asara J.M., Lane W.S., Garner C.C.,
+RA   Lienhard G.E.;
+RT   "A method to identify serine kinase substrates. Akt phosphorylates a
+RT   novel adipocyte protein with a Rab GTPase-activating protein (GAP)
+RT   domain.";
+RL   J. Biol. Chem. 277:22115-22118(2002).
+RN   [13]
+RP   INTERACTION WITH CDKN1B, AND FUNCTION.
+RX   PubMed=12042314; DOI=10.1074/jbc.M203668200;
+RA   Fujita N., Sato S., Katayama K., Tsuruo T.;
+RT   "Akt-dependent phosphorylation of p27Kip1 promotes binding to 14-3-3
+RT   and cytoplasmic localization.";
+RL   J. Biol. Chem. 277:28706-28713(2002).
+RN   [14]
+RP   PHOSPHORYLATION AT TYR-474, AND MUTAGENESIS OF TYR-474.
+RX   MEDLINE=22254844; PubMed=12149249; DOI=10.1074/jbc.M203387200;
+RA   Conus N.M., Hannan K.M., Cristiano B.E., Hemmings B.A., Pearson R.B.;
+RT   "Direct identification of tyrosine 474 as a regulatory phosphorylation
+RT   site for the Akt protein kinase.";
+RL   J. Biol. Chem. 277:38021-38028(2002).
+RN   [15]
+RP   FUNCTION IN PHOSPHORYLATION OF TSC2.
+RX   PubMed=12150915; DOI=10.1016/S1097-2765(02)00568-3;
+RA   Manning B.D., Tee A.R., Logsdon M.N., Blenis J., Cantley L.C.;
+RT   "Identification of the tuberous sclerosis complex-2 tumor suppressor
+RT   gene product tuberin as a target of the phosphoinositide 3-kinase/akt
+RT   pathway.";
+RL   Mol. Cell 10:151-162(2002).
+RN   [16]
+RP   INTERACTION WITH TCL1A.
+RX   PubMed=11839817; DOI=10.1128/MCB.22.5.1513-1525.2002;
+RA   Kuenstle G., Laine J., Pierron G., Kagami S., Nakajima H., Hoh F.,
+RA   Roumestand C., Stern M.H., Noguchi M.;
+RT   "Identification of Akt association and oligomerization domains of the
+RT   Akt kinase coactivator TCL1.";
+RL   Mol. Cell. Biol. 22:1513-1525(2002).
+RN   [17]
+RP   INTERACTION WITH CDKN1B, FUNCTION, AND MUTAGENESIS OF THR-308 AND
+RP   SER-473.
+RX   PubMed=12244301; DOI=10.1038/nm759;
+RA   Shin I., Yakes F.M., Rojo F., Shin N.-Y., Bakin A.V., Baselga J.,
+RA   Arteaga C.L.;
+RT   "PKB/Akt mediates cell-cycle progression by phosphorylation of
+RT   p27(Kip1) at threonine 157 and modulation of its cellular
+RT   localization.";
+RL   Nat. Med. 8:1145-1152(2002).
+RN   [18]
+RP   INTERACTION WITH AGAP2, AND PHOSPHORYLATION AT SER-473.
+RX   PubMed=14761976; DOI=10.1074/jbc.M312175200;
+RA   Ahn J.-Y., Rong R., Kroll T.G., Van Meir E.G., Snyder S.H., Ye K.;
+RT   "PIKE (phosphatidylinositol 3-kinase enhancer)-A GTPase stimulates Akt
+RT   activity and mediates cellular invasion.";
+RL   J. Biol. Chem. 279:16441-16451(2004).
+RN   [19]
+RP   PHOSPHORYLATION AT SER-473.
+RX   PubMed=15047712; DOI=10.1074/jbc.M314192200;
+RA   Kunapuli P., Kasyapa C.S., Hawthorn L., Cowell J.K.;
+RT   "LGI1, a putative tumor metastasis suppressor gene, controls in vitro
+RT   invasiveness and expression of matrix metalloproteinases in glioma
+RT   cells through the ERK1/2 pathway.";
+RL   J. Biol. Chem. 279:23151-23157(2004).
+RN   [20]
+RP   ERRATUM.
+RA   Kunapuli P., Kasyapa C.S., Hawthorn L., Cowell J.K.;
+RL   J. Biol. Chem. 282:2752-2752(2007).
+RN   [21]
+RP   INTERACTION WITH AKTIP.
+RX   PubMed=14749367; DOI=10.1128/MCB.24.4.1493-1504.2004;
+RA   Remy I., Michnick S.W.;
+RT   "Regulation of apoptosis by the Ft1 protein, a new modulator of
+RT   protein kinase B/Akt.";
+RL   Mol. Cell. Biol. 24:1493-1504(2004).
+RN   [22]
+RP   INTERACTION WITH AGAP2.
+RX   PubMed=15118108; DOI=10.1073/pnas.0400921101;
+RA   Ahn J.-Y., Hu Y., Kroll T.G., Allard P., Ye K.;
+RT   "PIKE-A is amplified in human cancers and prevents apoptosis by up-
+RT   regulating Akt.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:6993-6998(2004).
+RN   [23]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND INTERACTION WITH CCDC88A.
+RX   PubMed=16139227; DOI=10.1016/j.devcel.2005.08.001;
+RA   Enomoto A., Murakami H., Asai N., Morone N., Watanabe T., Kawai K.,
+RA   Murakumo Y., Usukura J., Kaibuchi K., Takahashi M.;
+RT   "Akt/PKB regulates actin organization and cell motility via
+RT   Girdin/APE.";
+RL   Dev. Cell 9:389-402(2005).
+RN   [24]
+RP   PHOSPHORYLATION AT THR-308 AND SER-473.
+RX   PubMed=15718470; DOI=10.1126/science.1106148;
+RA   Sarbassov D.D., Guertin D.A., Ali S.M., Sabatini D.M.;
+RT   "Phosphorylation and regulation of Akt/PKB by the rictor-mTOR
+RT   complex.";
+RL   Science 307:1098-1101(2005).
+RN   [25]
+RP   PHOSPHORYLATION AT SER-473.
+RX   PubMed=17013611; DOI=10.1007/s00401-006-0128-y;
+RA   Schick V., Majores M., Engels G., Spitoni S., Koch A., Elger C.E.,
+RA   Simon M., Knobbe C., Bluemcke I., Becker A.J.;
+RT   "Activation of Akt independent of PTEN and CTMP tumor-suppressor gene
+RT   mutations in epilepsy-associated Taylor-type focal cortical
+RT   dysplasias.";
+RL   Acta Neuropathol. 112:715-725(2006).
+RN   [26]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-124; SER-126 AND
+RP   SER-129, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=17081983; DOI=10.1016/j.cell.2006.09.026;
+RA   Olsen J.V., Blagoev B., Gnad F., Macek B., Kumar C., Mortensen P.,
+RA   Mann M.;
+RT   "Global, in vivo, and site-specific phosphorylation dynamics in
+RT   signaling networks.";
+RL   Cell 127:635-648(2006).
+RN   [27]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-124; SER-126 AND
+RP   SER-129, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [28]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RA   Colinge J., Superti-Furga G., Bennett K.L.;
+RL   Submitted (OCT-2008) to UniProtKB.
+RN   [29]
+RP   UBIQUITINATION BY TTC3.
+RX   PubMed=20059950; DOI=10.1016/j.devcel.2009.09.007;
+RA   Suizu F., Hiramuki Y., Okumura F., Matsuda M., Okumura A.J.,
+RA   Hirata N., Narita M., Kohno T., Yokota J., Bohgaki M., Obuse C.,
+RA   Hatakeyama S., Obata T., Noguchi M.;
+RT   "The E3 ligase TTC3 facilitates ubiquitination and degradation of
+RT   phosphorylated Akt.";
+RL   Dev. Cell 17:800-810(2009).
+RN   [30]
+RP   UBIQUITINATION, INTERACTION WITH TRAF6, AND MUTAGENESIS OF LYS-8;
+RP   LYS-14 AND GLU-17.
+RX   PubMed=19713527; DOI=10.1126/science.1175065;
+RA   Yang W.-L., Wang J., Chan C.-H., Lee S.-W., Campos A.D., Lamothe B.,
+RA   Hur L., Grabiner B.C., Lin X., Darnay B.G., Lin H.-K.;
+RT   "The E3 ligase TRAF6 regulates Akt ubiquitination and activation.";
+RL   Science 325:1134-1138(2009).
+RN   [31]
+RP   VARIANT BREAST CANCER LYS-17, AND CHARACTERIZATION OF VARIANT BREAST
+RP   CANCER LYS-17.
+RX   PubMed=17611497; DOI=10.1038/nature05933;
+RA   Carpten J.D., Faber A.L., Horn C., Donoho G.P., Briggs S.L.,
+RA   Robbins C.M., Hostetter G., Boguslawski S., Moses T.Y., Savage S.,
+RA   Uhlik M., Lin A., Du J., Qian Y.-W., Zeckner D.J., Tucker-Kellogg G.,
+RA   Touchman J., Patel K., Mousses S., Bittner M., Schevitz R.,
+RA   Lai M.-H.T., Blanchard K.L., Thomas J.E.;
+RT   "A transforming mutation in the pleckstrin homology domain of AKT1 in
+RT   cancer.";
+RL   Nature 448:439-444(2007).
+CC   -!- FUNCTION: Plays a role as a key modulator of the AKT-mTOR
+CC       signaling pathway controlling the tempo of the process of newborn
+CC       neurons integration during adult neurogenesis, including correct
+CC       neuron positioning, dendritic development and synapse formation
+CC       (By similarity). General protein kinase capable of phosphorylating
+CC       several known proteins. Phosphorylates TBC1D4. Signals downstream
+CC       of phosphatidylinositol 3-kinase (PI(3)K) to mediate the effects
+CC       of various growth factors such as platelet-derived growth factor
+CC       (PDGF), epidermal growth factor (EGF), insulin and insulin-like
+CC       growth factor I (IGF-I). Plays a role in glucose transport by
+CC       mediating insulin-induced translocation of the GLUT4 glucose
+CC       transporter to the cell surface. Mediates the antiapoptotic
+CC       effects of IGF-I. Mediates insulin-stimulated protein synthesis by
+CC       phosphorylating TSC2 at 'Ser-939' and 'Thr-1462', thereby
+CC       activating mTORC1 signaling and leading to both phosphorylation of
+CC       4E-BP1 and in activation of RPS6KB1. Promotes glycogen synthesis
+CC       by mediating the insulin-induced activation of glycogen synthase.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- ENZYME REGULATION: Three specific sites, one in the kinase domain
+CC       (Thr-308) and the two other ones in the C-terminal regulatory
+CC       region (Ser-473 and Tyr-474), need to be phosphorylated for its
+CC       full activation.
+CC   -!- SUBUNIT: Interacts with AGAP2 isoform 2 (PIKE-A) in the presence
+CC       of guanine nucleotides. The C-terminus interacts with CCDC88A/GRDN
+CC       and THEM4. Interacts with AKTIP. Interacts (via PH domain) with
+CC       MTCP1, TCL1A AND TCL1B. Interacts with CDKN1B; the interaction
+CC       phosphorylates CDKN1B promoting 14-3-3 binding and cell-cycle
+CC       progression. Interacts with TRAF6. Interacts with GRB10; the
+CC       interaction leads to GRB10 phosphorylation thus promoting
+CC       YWHAE/14-3-3-binding (By similarity).
+CC   -!- INTERACTION:
+CC       Self; NbExp=1; IntAct=EBI-296087, EBI-296087;
+CC       P29067:Arrb2 (xeno); NbExp=2; IntAct=EBI-296087, EBI-1636616;
+CC       Q8IXJ9:ASXL1; NbExp=1; IntAct=EBI-296087, EBI-1646500;
+CC       O95999:BCL10; NbExp=3; IntAct=EBI-296087, EBI-958922;
+CC       O43521:BCL2L11; NbExp=1; IntAct=EBI-296087, EBI-526406;
+CC       Q16543:CDC37; NbExp=1; IntAct=EBI-296087, EBI-295634;
+CC       P49841:GSK3B; NbExp=1; IntAct=EBI-296087, EBI-373586;
+CC       Q99683:MAP3K5; NbExp=2; IntAct=EBI-296087, EBI-476263;
+CC       O60437:PPL; NbExp=1; IntAct=EBI-296087, EBI-368321;
+CC       Q9NUC0:SERTAD4; NbExp=1; IntAct=EBI-296087, EBI-1773811;
+CC       Q15047:SETDB1; NbExp=6; IntAct=EBI-296087, EBI-79691;
+CC       Q7Z6J0:SH3RF1; NbExp=1; IntAct=EBI-296087, EBI-311339;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm. Nucleus. Cell membrane.
+CC       Note=Nucleus after activation by integrin-linked protein kinase 1
+CC       (ILK1). Nuclear translocation is enhanced by interaction with
+CC       TCL1A.
+CC   -!- TISSUE SPECIFICITY: Expressed in all human cell types so far
+CC       analyzed.
+CC   -!- DOMAIN: Binding of the PH domain to the phosphatidylinositol 3-
+CC       kinase alpha (PI(3)K) results in its targeting to the plasma
+CC       membrane.
+CC   -!- DOMAIN: The AGC-kinase C-terminal mediates interaction with THEM4.
+CC   -!- PTM: Phosphorylation on Thr-308, Ser-473 and Tyr-474 is required
+CC       for full activity. Ser-473 phosphorylation by mTORC2 favors Thr-
+CC       308 phosphorylation by PDPK1. Ser-473 phosphorylation is enhanced
+CC       by interaction with AGAP2 isoform 2 (PIKE-A). Ser-473
+CC       phosphorylation is enhanced in focal cortical dysplasias with
+CC       Taylor-type balloon cells.
+CC   -!- PTM: Ubiquitinated; undergoes both 'Lys-48'- and 'Lys-63'-linked
+CC       polyubiquitination. TRAF6-induced 'Lys-63'-linked AKT1
+CC       ubiquitination is critical for phosphorylation and activation.
+CC       When ubiquitinated, it translocates to the plasma membrane, where
+CC       it becomes phosphorylated. When fully phosphorylated and
+CC       translocated into the nucleus, undergoes 'Lys-48'-
+CC       polyubiquitination catalyzed by TTC3, leading to its degradation
+CC       by the proteasome.
+CC   -!- DISEASE: Defects in AKT1 are a cause of susceptibility to breast
+CC       cancer (BC) [MIM:114480]. A common malignancy originating from
+CC       breast epithelial tissue. Breast neoplasms can be distinguished by
+CC       their histologic pattern. Invasive ductal carcinoma is by far the
+CC       most common type. Breast cancer is etiologically and genetically
+CC       heterogeneous. Important genetic factors have been indicated by
+CC       familial occurrence and bilateral involvement. Mutations at more
+CC       than one locus can be involved in different families or even in
+CC       the same case.
+CC   -!- DISEASE: Defects in AKT1 are associated with colorectal cancer
+CC       (CRC) [MIM:114500].
+CC   -!- DISEASE: Defects in AKT1 are associated with susceptibility to
+CC       ovarian cancer [MIM:604370]; also called susceptibility to
+CC       familial breast-ovarian cancer type 1 (BROVCA1).
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. AGC Ser/Thr
+CC       protein kinase family. RAC subfamily.
+CC   -!- SIMILARITY: Contains 1 AGC-kinase C-terminal domain.
+CC   -!- SIMILARITY: Contains 1 PH domain.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M63167; AAA36539.1; -; mRNA.
+DR   EMBL; AF283830; AAL55732.1; -; Genomic_DNA.
+DR   EMBL; AF283819; AAL55732.1; JOINED; Genomic_DNA.
+DR   EMBL; AF283820; AAL55732.1; JOINED; Genomic_DNA.
+DR   EMBL; AF283821; AAL55732.1; JOINED; Genomic_DNA.
+DR   EMBL; AF283822; AAL55732.1; JOINED; Genomic_DNA.
+DR   EMBL; AF283823; AAL55732.1; JOINED; Genomic_DNA.
+DR   EMBL; AF283824; AAL55732.1; JOINED; Genomic_DNA.
+DR   EMBL; AF283825; AAL55732.1; JOINED; Genomic_DNA.
+DR   EMBL; AF283826; AAL55732.1; JOINED; Genomic_DNA.
+DR   EMBL; AF283827; AAL55732.1; JOINED; Genomic_DNA.
+DR   EMBL; AF283828; AAL55732.1; JOINED; Genomic_DNA.
+DR   EMBL; AF283829; AAL55732.1; JOINED; Genomic_DNA.
+DR   EMBL; BC000479; AAH00479.1; -; mRNA.
+DR   EMBL; BC084538; AAH84538.1; -; mRNA.
+DR   EMBL; X61037; CAA43372.1; -; mRNA.
+DR   IPI; IPI00012866; -.
+DR   PIR; A39360; A39360.
+DR   RefSeq; NP_001014431.1; -.
+DR   RefSeq; NP_001014432.1; -.
+DR   RefSeq; NP_005154.2; -.
+DR   UniGene; Hs.525622; -.
+DR   PDB; 1H10; X-ray; 1.40 A; A=1-123.
+DR   PDB; 1UNP; X-ray; 1.65 A; A=1-121.
+DR   PDB; 1UNQ; X-ray; 0.98 A; A=1-123.
+DR   PDB; 1UNR; X-ray; 1.25 A; A=1-123.
+DR   PDB; 2UVM; X-ray; 1.94 A; A=1-123.
+DR   PDB; 2UZR; X-ray; 1.94 A; A=1-123.
+DR   PDB; 2UZS; X-ray; 2.46 A; A=1-123.
+DR   PDB; 3CQU; X-ray; 2.20 A; A=144-480.
+DR   PDB; 3CQW; X-ray; 2.00 A; A=144-480.
+DR   PDBsum; 1H10; -.
+DR   PDBsum; 1UNP; -.
+DR   PDBsum; 1UNQ; -.
+DR   PDBsum; 1UNR; -.
+DR   PDBsum; 2UVM; -.
+DR   PDBsum; 2UZR; -.
+DR   PDBsum; 2UZS; -.
+DR   PDBsum; 3CQU; -.
+DR   PDBsum; 3CQW; -.
+DR   ProteinModelPortal; P31749; -.
+DR   DIP; DIP-24269N; -.
+DR   IntAct; P31749; 38.
+DR   MINT; MINT-203775; -.
+DR   STRING; P31749; -.
+DR   PhosphoSite; P31749; -.
+DR   PRIDE; P31749; -.
+DR   Ensembl; ENST00000349310; ENSP00000270202; ENSG00000142208.
+DR   Ensembl; ENST00000402615; ENSP00000385326; ENSG00000142208.
+DR   Ensembl; ENST00000407796; ENSP00000384293; ENSG00000142208.
+DR   GeneID; 207; -.
+DR   KEGG; hsa:207; -.
+DR   UCSC; uc001ypk.1; human.
+DR   CTD; 207; -.
+DR   GeneCards; GC14M105235; -.
+DR   H-InvDB; HIX0012019; -.
+DR   HGNC; HGNC:391; AKT1.
+DR   HPA; CAB003765; -.
+DR   HPA; HPA002891; -.
+DR   MIM; 114480; phenotype.
+DR   MIM; 114500; phenotype.
+DR   MIM; 164730; gene.
+DR   MIM; 604370; phenotype.
+DR   PharmGKB; PA24684; -.
+DR   eggNOG; prNOG10074; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG108317; -.
+DR   InParanoid; P31749; -.
+DR   OMA; RFFASIV; -.
+DR   OrthoDB; EOG97H886; -.
+DR   PhylomeDB; P31749; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   Pathway_Interaction_DB; a6b1_a6b4_integrin_pathway; a6b1 and a6b4 Integrin signaling.
+DR   Pathway_Interaction_DB; amb2_neutrophils_pathway; amb2 Integrin signaling.
+DR   Pathway_Interaction_DB; angiopoietinreceptor_pathway; Angiopoietin receptor Tie2-mediated signaling.
+DR   Pathway_Interaction_DB; aurora_a_pathway; Aurora A signaling.
+DR   Pathway_Interaction_DB; bcr_5pathway; BCR signaling pathway.
+DR   Pathway_Interaction_DB; ceramidepathway; Ceramide signaling pathway.
+DR   Pathway_Interaction_DB; pi3kciaktpathway; Class I PI3K signaling events mediated by Akt.
+DR   Pathway_Interaction_DB; ar_pathway; Coregulation of Androgen receptor activity.
+DR   Pathway_Interaction_DB; endothelinpathway; Endothelins.
+DR   Pathway_Interaction_DB; fcer1pathway; Fc-epsilon receptor I signaling in mast cells.
+DR   Pathway_Interaction_DB; fgf_pathway; FGF signaling pathway.
+DR   Pathway_Interaction_DB; hnf3bpathway; FOXA2 and FOXA3 transcription factor networks.
+DR   Pathway_Interaction_DB; foxopathway; FoxO family signaling.
+DR   Pathway_Interaction_DB; hedgehog_glipathway; Hedgehog signaling events mediated by Gli proteins.
+DR   Pathway_Interaction_DB; hif1_tfpathway; HIF-1-alpha transcription factor network.
+DR   Pathway_Interaction_DB; ifngpathway; IFN-gamma pathway.
+DR   Pathway_Interaction_DB; igf1_pathway; IGF1 pathway.
+DR   Pathway_Interaction_DB; il2_pi3kpathway; IL2 signaling events mediated by PI3K.
+DR   Pathway_Interaction_DB; il4_2pathway; IL4-mediated signaling events.
+DR   Pathway_Interaction_DB; il6_7pathway; IL6-mediated signaling events.
+DR   Pathway_Interaction_DB; insulin_pathway; Insulin Pathway.
+DR   Pathway_Interaction_DB; insulin_glucose_pathway; Insulin-mediated glucose transport.
+DR   Pathway_Interaction_DB; avb3_integrin_pathway; Integrins in angiogenesis.
+DR   Pathway_Interaction_DB; lysophospholipid_pathway; LPA receptor mediated events.
+DR   Pathway_Interaction_DB; mtor_4pathway; mTOR signaling pathway.
+DR   Pathway_Interaction_DB; p75ntrpathway; p75(NTR)-mediated signaling.
+DR   Pathway_Interaction_DB; pdgfrbpathway; PDGFR-beta signaling pathway.
+DR   Pathway_Interaction_DB; er_nongenomic_pathway; Plasma membrane estrogen receptor signaling.
+DR   Pathway_Interaction_DB; reelinpathway; Reelin signaling pathway.
+DR   Pathway_Interaction_DB; smad2_3nuclearpathway; Regulation of nuclear SMAD2/3 signaling.
+DR   Pathway_Interaction_DB; telomerasepathway; Regulation of Telomerase.
+DR   Pathway_Interaction_DB; retinoic_acid_pathway; Retinoic acid receptors-mediated signaling.
+DR   Pathway_Interaction_DB; s1p_s1p3_pathway; S1P3 pathway.
+DR   Pathway_Interaction_DB; met_pathway; Signaling events activated by Hepatocyte Growth Factor Receptor (c-Met).
+DR   Pathway_Interaction_DB; ptp1bpathway; Signaling events mediated by PTP1B.
+DR   Pathway_Interaction_DB; kitpathway; Signaling events mediated by Stem cell factor receptor (c-Kit).
+DR   Pathway_Interaction_DB; hedgehog_2pathway; Signaling events mediated by the Hedgehog family.
+DR   Pathway_Interaction_DB; vegfr1_2_pathway; Signaling events mediated by VEGFR1 and VEGFR2.
+DR   Pathway_Interaction_DB; tcrpathway; TCR signaling in naive CD4+ T cells.
+DR   Pathway_Interaction_DB; cd8tcrpathway; TCR signaling in naive CD8+ T cells.
+DR   Pathway_Interaction_DB; txa2pathway; Thromboxane A2 receptor signaling.
+DR   Pathway_Interaction_DB; pi3kplctrkpathway; Trk receptor signaling mediated by PI3K and PLC-gamma.
+DR   Pathway_Interaction_DB; vegfr1_pathway; VEGFR1 specific signals.
+DR   Pathway_Interaction_DB; lymphangiogenesis_pathway; VEGFR3 signaling in lymphatic endothelium.
+DR   Reactome; REACT_11061; Signalling by NGF.
+DR   Reactome; REACT_12508; Metabolism of nitric oxide.
+DR   Reactome; REACT_13698; Regulation of beta-cell development.
+DR   Reactome; REACT_14797; Signaling by GPCR.
+DR   Reactome; REACT_578; Apoptosis.
+DR   Reactome; REACT_604; Hemostasis.
+DR   Reactome; REACT_6900; Signaling in Immune system.
+DR   BindingDB; P31749; -.
+DR   DrugBank; DB00171; Adenosine triphosphate.
+DR   DrugBank; DB01169; Arsenic trioxide.
+DR   NextBio; 828; -.
+DR   PMAP-CutDB; P31749; -.
+DR   ArrayExpress; P31749; -.
+DR   Bgee; P31749; -.
+DR   CleanEx; HS_AKT1; -.
+DR   Genevestigator; P31749; -.
+DR   GermOnline; ENSG00000142208; Homo sapiens.
+DR   GO; GO:0005829; C:cytosol; EXP:Reactome.
+DR   GO; GO:0005654; C:nucleoplasm; EXP:Reactome.
+DR   GO; GO:0005886; C:plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; IC:UniProtKB.
+DR   GO; GO:0019899; F:enzyme binding; ISS:BHF-UCL.
+DR   GO; GO:0042802; F:identical protein binding; IPI:IntAct.
+DR   GO; GO:0030235; F:nitric-oxide synthase regulator activity; IMP:BHF-UCL.
+DR   GO; GO:0005547; F:phosphatidylinositol-3,4,5-trisphosphate bi...; IDA:UniProtKB.
+DR   GO; GO:0043325; F:phosphatidylinositol-3,4-bisphosphate binding; IDA:UniProtKB.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IDA:UniProtKB.
+DR   GO; GO:0008633; P:activation of pro-apoptotic gene products; EXP:Reactome.
+DR   GO; GO:0006924; P:activation-induced cell death of T cells; IMP:MGI.
+DR   GO; GO:0007186; P:G-protein coupled receptor protein signalin...; TAS:ProtInc.
+DR   GO; GO:0005978; P:glycogen biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0008286; P:insulin receptor signaling pathway; IMP:UniProtKB.
+DR   GO; GO:0048009; P:insulin-like growth factor receptor signali...; IMP:UniProtKB.
+DR   GO; GO:0031999; P:negative regulation of fatty acid beta-oxid...; IMP:BHF-UCL.
+DR   GO; GO:0010748; P:negative regulation of plasma membrane long...; IMP:BHF-UCL.
+DR   GO; GO:0006469; P:negative regulation of protein kinase activity; IMP:BHF-UCL.
+DR   GO; GO:0006809; P:nitric oxide biosynthetic process; TAS:ProtInc.
+DR   GO; GO:0018105; P:peptidyl-serine phosphorylation; IDA:UniProtKB.
+DR   GO; GO:0030307; P:positive regulation of cell growth; IDA:UniProtKB.
+DR   GO; GO:0031659; P:positive regulation of cyclin-dependent pro...; IDA:BHF-UCL.
+DR   GO; GO:0090004; P:positive regulation of establishment of pro...; IMP:BHF-UCL.
+DR   GO; GO:0045600; P:positive regulation of fat cell differentia...; IMP:BHF-UCL.
+DR   GO; GO:0046326; P:positive regulation of glucose import; IMP:BHF-UCL.
+DR   GO; GO:0045725; P:positive regulation of glycogen biosyntheti...; IMP:BHF-UCL.
+DR   GO; GO:0046889; P:positive regulation of lipid biosynthetic p...; IMP:BHF-UCL.
+DR   GO; GO:0045429; P:positive regulation of nitric oxide biosynt...; IMP:BHF-UCL.
+DR   GO; GO:0051000; P:positive regulation of nitric-oxide synthas...; IMP:BHF-UCL.
+DR   GO; GO:0046777; P:protein amino acid autophosphorylation; TAS:UniProtKB.
+DR   GO; GO:0000060; P:protein import into nucleus, translocation; IMP:UniProtKB.
+DR   GO; GO:0010975; P:regulation of neuron projection development; ISS:UniProtKB.
+DR   GO; GO:0006417; P:regulation of translation; IEA:UniProtKB-KW.
+DR   GO; GO:0034405; P:response to fluid shear stress; IMP:BHF-UCL.
+DR   GO; GO:0009408; P:response to heat; TAS:ProtInc.
+DR   GO; GO:0070141; P:response to UV-A; IDA:BHF-UCL.
+DR   InterPro; IPR000961; AGC-kinase_C.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR011993; PH_type.
+DR   InterPro; IPR017892; Pkinase_C.
+DR   InterPro; IPR001849; Pleckstrin_homology.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   InterPro; IPR015744; Serine/threonine_Kinase_Rac.
+DR   Gene3D; G3DSA:2.30.29.30; PH_type; 1.
+DR   PANTHER; PTHR22985:SF69; Akt; 1.
+DR   Pfam; PF00169; PH; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   Pfam; PF00433; Pkinase_C; 1.
+DR   SMART; SM00233; PH; 1.
+DR   SMART; SM00133; S_TK_X; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS51285; AGC_KINASE_CTER; 1.
+DR   PROSITE; PS50003; PH_DOMAIN; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Apoptosis; ATP-binding; Carbohydrate metabolism;
+KW   Cell membrane; Complete proteome; Cytoplasm; Disease mutation;
+KW   Glucose metabolism; Glycogen biosynthesis; Glycogen metabolism;
+KW   Kinase; Membrane; Neurogenesis; Nucleotide-binding; Nucleus;
+KW   Phosphoprotein; Polymorphism; Proto-oncogene;
+KW   Serine/threonine-protein kinase; Sugar transport; Transferase;
+KW   Translation regulation; Transport; Ubl conjugation.
+FT   CHAIN         1    480       RAC-alpha serine/threonine-protein
+FT                                kinase.
+FT                                /FTId=PRO_0000085605.
+FT   DOMAIN        5    108       PH.
+FT   DOMAIN      150    408       Protein kinase.
+FT   DOMAIN      409    480       AGC-kinase C-terminal.
+FT   NP_BIND     156    164       ATP (By similarity).
+FT   ACT_SITE    274    274       Proton acceptor (By similarity).
+FT   BINDING     179    179       ATP (By similarity).
+FT   MOD_RES     124    124       Phosphoserine.
+FT   MOD_RES     126    126       Phosphoserine.
+FT   MOD_RES     129    129       Phosphoserine.
+FT   MOD_RES     308    308       Phosphothreonine; by PDPK1.
+FT   MOD_RES     473    473       Phosphoserine.
+FT   MOD_RES     474    474       Phosphotyrosine.
+FT   VARIANT      17     17       E -> K (in breast cancer, colorectal
+FT                                cancer and ovarian cancer; somatic
+FT                                mutation; alters the PH domain
+FT                                conformation; results in activation of
+FT                                the protein; alters the subcellular
+FT                                location of the protein to the plasma
+FT                                membrane).
+FT                                /FTId=VAR_055422.
+FT   VARIANT     167    167       V -> A (in dbSNP:rs11555433).
+FT                                /FTId=VAR_051617.
+FT   MUTAGEN       8      8       K->R: Substantial reduction of
+FT                                ubiquitination, phosphorylation at T-308
+FT                                and S-473, AKT activation as well as
+FT                                IGF1-induced membrane recruitment.
+FT                                Decrease in ubiquitination and
+FT                                phosphorylation at T-308 as well as
+FT                                impaired association with the membrane;
+FT                                when associated with K-17.
+FT   MUTAGEN      14     14       K->R: Substantial reduction of
+FT                                ubiquitination, phosphorylation at T-308
+FT                                and S-473, AKT activation, loss of
+FT                                binding to PIP3 as well as IGF1-induced
+FT                                membrane recruitment.
+FT   MUTAGEN      17     17       E->K: Increase in basal ubiquitination,
+FT                                phosphorylation at T-308 and important
+FT                                increase in membrane recruitment.
+FT                                Decrease in ubiquitination,
+FT                                phosphorylation at T-308 as well as
+FT                                impaired association with the membrane;
+FT                                when associated with R-8.
+FT   MUTAGEN     308    308       T->D: 5-fold activation and 18-fold
+FT                                activation; when associated with D-473.
+FT   MUTAGEN     473    473       S->D: 7-fold activation and 25-fold
+FT                                activation; when associated with D-308.
+FT   MUTAGEN     474    474       Y->F: 55% inhibition of activation.
+FT   CONFLICT    173    174       GR -> A (in Ref. 4; CAA43372).
+FT   CONFLICT    202    202       L -> Q (in Ref. 4; CAA43372).
+FT   CONFLICT    212    212       A -> R (in Ref. 4; CAA43372).
+FT   CONFLICT    246    246       S -> A (in Ref. 4; CAA43372).
+FT   CONFLICT    409    409       A -> T (in Ref. 4; CAA43372).
+FT   CONFLICT    476    476       A -> P (in Ref. 4; CAA43372).
+FT   CONFLICT    478    478       G -> A (in Ref. 4; CAA43372).
+FT   CONFLICT    478    478       G -> S (in Ref. 1; AAA36539 and 2;
+FT                                AAL55732).
+FT   STRAND        6     15
+FT   STRAND       17     19
+FT   STRAND       22     30
+FT   STRAND       33     40
+FT   STRAND       52     56
+FT   STRAND       61     65
+FT   STRAND       67     79
+FT   STRAND       82     89
+FT   HELIX        93    118
+FT   HELIX       147    149
+FT   STRAND      150    159
+FT   STRAND      162    169
+FT   TURN        170    172
+FT   STRAND      175    182
+FT   HELIX       183    188
+FT   HELIX       192    204
+FT   STRAND      213    218
+FT   STRAND      220    228
+FT   HELIX       235    242
+FT   HELIX       247    266
+FT   HELIX       277    279
+FT   STRAND      280    282
+FT   STRAND      288    290
+FT   HELIX       313    315
+FT   HELIX       318    321
+FT   HELIX       329    344
+FT   HELIX       354    363
+FT   HELIX       374    383
+FT   HELIX       388    390
+FT   TURN        396    398
+FT   HELIX       399    403
+FT   HELIX       406    408
+FT   HELIX       413    418
+FT   HELIX       440    443
+SQ   SEQUENCE   480 AA;  55686 MW;  6EAFF4F8AD436714 CRC64;
+     MSDVAIVKEG WLHKRGEYIK TWRPRYFLLK NDGTFIGYKE RPQDVDQREA PLNNFSVAQC
+     QLMKTERPRP NTFIIRCLQW TTVIERTFHV ETPEEREEWT TAIQTVADGL KKQEEEEMDF
+     RSGSPSDNSG AEEMEVSLAK PKHRVTMNEF EYLKLLGKGT FGKVILVKEK ATGRYYAMKI
+     LKKEVIVAKD EVAHTLTENR VLQNSRHPFL TALKYSFQTH DRLCFVMEYA NGGELFFHLS
+     RERVFSEDRA RFYGAEIVSA LDYLHSEKNV VYRDLKLENL MLDKDGHIKI TDFGLCKEGI
+     KDGATMKTFC GTPEYLAPEV LEDNDYGRAV DWWGLGVVMY EMMCGRLPFY NQDHEKLFEL
+     ILMEEIRFPR TLGPEAKSLL SGLLKKDPKQ RLGGGSEDAK EIMQHRFFAG IVWQHVYEKK
+     LSPPFKPQVT SETDTRYFDE EFTAQMITIT PPDQDDSMEC VDSERRPHFP QFSYSASGTA
+//

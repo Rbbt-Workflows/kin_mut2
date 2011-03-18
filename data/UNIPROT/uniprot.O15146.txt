@@ -1,0 +1,322 @@
+ID   MUSK_HUMAN              Reviewed;         869 AA.
+AC   O15146; Q32MJ8; Q32MJ9; Q5VZW7; Q5VZW8;
+DT   19-JUL-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1998, sequence version 1.
+DT   02-NOV-2010, entry version 96.
+DE   RecName: Full=Muscle, skeletal receptor tyrosine-protein kinase;
+DE            EC=2.7.10.1;
+DE   AltName: Full=Muscle-specific tyrosine-protein kinase receptor;
+DE            Short=MuSK;
+DE            Short=Muscle-specific kinase receptor;
+DE   Flags: Precursor;
+GN   Name=MUSK;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RX   MEDLINE=96009854; PubMed=7546737; DOI=10.1016/0896-6273(95)90146-9;
+RA   Valenzuela D.M., Stitt T.N., DiStefano P.S., Rojas E., Mattsson K.,
+RA   Compton D.L., Nunez L., Park J.S., Stark J.L., Gies D.R., Thomas S.,
+RA   LeBeau M.M., Fernald A.A., Copeland N.G., Jenkins N.A., Burden S.J.,
+RA   Glass D.J., Yancopoulos G.D.;
+RT   "Receptor tyrosine kinase specific for the skeletal muscle lineage:
+RT   expression in embryonic muscle, at the neuromuscular junction, and
+RT   after injury.";
+RL   Neuron 15:573-584(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RA   Valenzuela D.M., Rojas E., Yancopoulos G.D.;
+RL   Submitted (MAY-1997) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=15164053; DOI=10.1038/nature02465;
+RA   Humphray S.J., Oliver K., Hunt A.R., Plumb R.W., Loveland J.E.,
+RA   Howe K.L., Andrews T.D., Searle S., Hunt S.E., Scott C.E., Jones M.C.,
+RA   Ainscough R., Almeida J.P., Ambrose K.D., Ashwell R.I.S.,
+RA   Babbage A.K., Babbage S., Bagguley C.L., Bailey J., Banerjee R.,
+RA   Barker D.J., Barlow K.F., Bates K., Beasley H., Beasley O., Bird C.P.,
+RA   Bray-Allen S., Brown A.J., Brown J.Y., Burford D., Burrill W.,
+RA   Burton J., Carder C., Carter N.P., Chapman J.C., Chen Y., Clarke G.,
+RA   Clark S.Y., Clee C.M., Clegg S., Collier R.E., Corby N., Crosier M.,
+RA   Cummings A.T., Davies J., Dhami P., Dunn M., Dutta I., Dyer L.W.,
+RA   Earthrowl M.E., Faulkner L., Fleming C.J., Frankish A.,
+RA   Frankland J.A., French L., Fricker D.G., Garner P., Garnett J.,
+RA   Ghori J., Gilbert J.G.R., Glison C., Grafham D.V., Gribble S.,
+RA   Griffiths C., Griffiths-Jones S., Grocock R., Guy J., Hall R.E.,
+RA   Hammond S., Harley J.L., Harrison E.S.I., Hart E.A., Heath P.D.,
+RA   Henderson C.D., Hopkins B.L., Howard P.J., Howden P.J., Huckle E.,
+RA   Johnson C., Johnson D., Joy A.A., Kay M., Keenan S., Kershaw J.K.,
+RA   Kimberley A.M., King A., Knights A., Laird G.K., Langford C.,
+RA   Lawlor S., Leongamornlert D.A., Leversha M., Lloyd C., Lloyd D.M.,
+RA   Lovell J., Martin S., Mashreghi-Mohammadi M., Matthews L., McLaren S.,
+RA   McLay K.E., McMurray A., Milne S., Nickerson T., Nisbett J.,
+RA   Nordsiek G., Pearce A.V., Peck A.I., Porter K.M., Pandian R.,
+RA   Pelan S., Phillimore B., Povey S., Ramsey Y., Rand V., Scharfe M.,
+RA   Sehra H.K., Shownkeen R., Sims S.K., Skuce C.D., Smith M.,
+RA   Steward C.A., Swarbreck D., Sycamore N., Tester J., Thorpe A.,
+RA   Tracey A., Tromans A., Thomas D.W., Wall M., Wallis J.M., West A.P.,
+RA   Whitehead S.L., Willey D.L., Williams S.A., Wilming L., Wray P.W.,
+RA   Young L., Ashurst J.L., Coulson A., Blocker H., Durbin R.M.,
+RA   Sulston J.E., Hubbard T., Jackson M.J., Bentley D.R., Beck S.,
+RA   Rogers J., Dunham I.;
+RT   "DNA sequence and analysis of human chromosome 9.";
+RL   Nature 429:369-374(2004).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 2 AND 3).
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [5]
+RP   VARIANT CONGENITAL MYASTHENIC SYNDROME MET-790.
+RX   PubMed=15496425; DOI=10.1093/hmg/ddh333;
+RA   Chevessier F., Faraut B., Ravel-Chapuis A., Richard P., Gaudon K.,
+RA   Bauche S., Prioleau C., Herbst R., Goillot E., Ioos C., Azulay J.-P.,
+RA   Attarian S., Leroy J.-P., Fournier E., Legay C., Schaeffer L.,
+RA   Koenig J., Fardeau M., Eymard B., Pouget J., Hantai D.;
+RT   "MUSK, a new target for mutations causing congenital myasthenic
+RT   syndrome.";
+RL   Hum. Mol. Genet. 13:3229-3240(2004).
+RN   [6]
+RP   VARIANTS [LARGE SCALE ANALYSIS] GLY-27; MET-100; GLU-107; GLY-159;
+RP   SER-222; ILE-413; PHE-629; ALA-644; SER-664; LEU-696; ASP-782;
+RP   SER-819; LEU-829 AND HIS-858.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Receptor tyrosine kinase that is a key mediator of
+CC       agrin's action and is involved in neuromuscular junction (NMJ)
+CC       organization (By similarity).
+CC   -!- CATALYTIC ACTIVITY: ATP + a [protein]-L-tyrosine = ADP + a
+CC       [protein]-L-tyrosine phosphate.
+CC   -!- SUBUNIT: Interacts with DOK7, which probably regulates its
+CC       activity (By similarity). Interacts with PDZRN3; this interaction
+CC       is enhanced by agrin (By similarity).
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type I membrane
+CC       protein (Potential).
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=3;
+CC       Name=1;
+CC         IsoId=O15146-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=O15146-2; Sequence=VSP_035958, VSP_035959, VSP_035960;
+CC       Name=3;
+CC         IsoId=O15146-3; Sequence=VSP_035959, VSP_035960;
+CC   -!- PTM: Ubiquitinated by PDZRN3. Ubiquitination promotes endocytosis
+CC       and lysosomal degradation (By similarity).
+CC   -!- DISEASE: Defects in MUSK is a cause of autosomal recessive
+CC       congenital myasthenic syndrome (CMS) [MIM:608931]. Congenital
+CC       myasthenic syndromes are inherited disorders of neuromuscular
+CC       transmission that stem from mutations in presynaptic, synaptic, or
+CC       postsynaptic proteins. MUSK mutations lead to decreased agrin-
+CC       dependent AChR aggregation, a critical step in the formation of
+CC       the neuromuscular junction.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Tyr protein
+CC       kinase family.
+CC   -!- SIMILARITY: Contains 1 FZ (frizzled) domain.
+CC   -!- SIMILARITY: Contains 3 Ig-like C2-type (immunoglobulin-like)
+CC       domains.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAH69977.1; Type=Erroneous gene model prediction;
+CC       Sequence=CAH69978.1; Type=Erroneous gene model prediction;
+CC       Sequence=CAI17349.1; Type=Erroneous gene model prediction;
+CC       Sequence=CAI17350.1; Type=Erroneous gene model prediction;
+CC   -!- WEB RESOURCE: Name=GeneReviews;
+CC       URL="http://www.ncbi.nlm.nih.gov/sites/GeneTests/lab/gene/MUSK";
+CC   -!- WEB RESOURCE: Name=Wikipedia; Note=MuSK entry;
+CC       URL="http://en.wikipedia.org/wiki/MuSK_protein";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF006464; AAB63044.1; -; mRNA.
+DR   EMBL; AL157881; CAH69977.1; ALT_SEQ; Genomic_DNA.
+DR   EMBL; AL513328; CAH69977.1; JOINED; Genomic_DNA.
+DR   EMBL; AL513328; CAI17349.1; ALT_SEQ; Genomic_DNA.
+DR   EMBL; AL157881; CAI17349.1; JOINED; Genomic_DNA.
+DR   EMBL; AL157881; CAH69978.1; ALT_SEQ; Genomic_DNA.
+DR   EMBL; AL513328; CAH69978.1; JOINED; Genomic_DNA.
+DR   EMBL; AL513328; CAI17350.1; ALT_SEQ; Genomic_DNA.
+DR   EMBL; AL157881; CAI17350.1; JOINED; Genomic_DNA.
+DR   EMBL; BC109098; AAI09099.1; -; mRNA.
+DR   EMBL; BC109099; AAI09100.1; -; mRNA.
+DR   IPI; IPI00289243; -.
+DR   IPI; IPI00655599; -.
+DR   IPI; IPI00915471; -.
+DR   RefSeq; NP_001159752.1; -.
+DR   RefSeq; NP_001159753.1; -.
+DR   RefSeq; NP_005583.1; -.
+DR   UniGene; Hs.521653; -.
+DR   ProteinModelPortal; O15146; -.
+DR   SMR; O15146; 25-211, 26-290, 217-296, 561-861.
+DR   MINT; MINT-2983114; -.
+DR   STRING; O15146; -.
+DR   PhosphoSite; O15146; -.
+DR   PRIDE; O15146; -.
+DR   Ensembl; ENST00000374448; ENSP00000363571; ENSG00000030304.
+DR   GeneID; 4593; -.
+DR   KEGG; hsa:4593; -.
+DR   UCSC; uc004bey.2; human.
+DR   CTD; 4593; -.
+DR   GeneCards; GC09P113431; -.
+DR   H-InvDB; HIX0034744; -.
+DR   HGNC; HGNC:7525; MUSK.
+DR   MIM; 600878; gene.
+DR   MIM; 601296; gene.
+DR   MIM; 608931; phenotype.
+DR   Orphanet; 98913; Postsynaptic congenital myasthenic syndromes.
+DR   PharmGKB; PA31326; -.
+DR   eggNOG; prNOG06153; -.
+DR   HOVERGEN; HBG052539; -.
+DR   InParanoid; O15146; -.
+DR   BRENDA; 2.7.10.1; 247.
+DR   NextBio; 17656; -.
+DR   ArrayExpress; O15146; -.
+DR   Bgee; O15146; -.
+DR   CleanEx; HS_MUSK; -.
+DR   Genevestigator; O15146; -.
+DR   GermOnline; ENSG00000030304; Homo sapiens.
+DR   GO; GO:0005887; C:integral to plasma membrane; TAS:ProtInc.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005515; F:protein binding; IEA:InterPro.
+DR   GO; GO:0004714; F:transmembrane receptor protein tyrosine kin...; TAS:ProtInc.
+DR   GO; GO:0007528; P:neuromuscular junction development; IEA:InterPro.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   GO; GO:0007169; P:transmembrane receptor protein tyrosine kin...; TAS:ProtInc.
+DR   InterPro; IPR020067; Frizzled_dom.
+DR   InterPro; IPR007110; Ig-like.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR013098; Ig_I-set.
+DR   InterPro; IPR003598; Ig_sub2.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR001245; Ser-Thr/Tyr-Pkinase.
+DR   InterPro; IPR020716; Tyr_kin_muscle/skeletal_rcpt.
+DR   InterPro; IPR020635; Tyr_Pkinase_cat_dom.
+DR   InterPro; IPR020685; Tyr_prot_kinase.
+DR   InterPro; IPR008266; Tyr_prot_kinase_AS.
+DR   Gene3D; G3DSA:1.10.2000.10; Frizzled_Cys-rich; 1.
+DR   Gene3D; G3DSA:2.60.40.10; Ig-like_fold; 3.
+DR   PANTHER; PTHR23256:SF187; Tyr_kin_muscle/skeletal_rcpt; 1.
+DR   PANTHER; PTHR23256; Tyr_prot_kinase; 1.
+DR   Pfam; PF01392; Fz; 1.
+DR   Pfam; PF07679; I-set; 3.
+DR   Pfam; PF07714; Pkinase_Tyr; 1.
+DR   PRINTS; PR00109; TYRKINASE.
+DR   SMART; SM00408; IGc2; 3.
+DR   SMART; SM00219; TyrKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS50038; FZ; 1.
+DR   PROSITE; PS50835; IG_LIKE; 3.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00109; PROTEIN_KINASE_TYR; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; ATP-binding; Complete proteome;
+KW   Disease mutation; Disulfide bond; Glycoprotein; Immunoglobulin domain;
+KW   Kinase; Membrane; Nucleotide-binding; Phosphoprotein; Polymorphism;
+KW   Receptor; Repeat; Signal; Transferase; Transmembrane;
+KW   Transmembrane helix; Tyrosine-protein kinase; Ubl conjugation.
+FT   SIGNAL        1     23       Potential.
+FT   CHAIN        24    869       Muscle, skeletal receptor tyrosine-
+FT                                protein kinase.
+FT                                /FTId=PRO_0000024446.
+FT   TOPO_DOM     24    495       Extracellular (Potential).
+FT   TRANSMEM    496    516       Helical; (Potential).
+FT   TOPO_DOM    517    869       Cytoplasmic (Potential).
+FT   DOMAIN       28    116       Ig-like 1.
+FT   DOMAIN      121    205       Ig-like 2.
+FT   DOMAIN      212    302       Ig-like 3.
+FT   DOMAIN      312    450       FZ.
+FT   DOMAIN      575    856       Protein kinase.
+FT   NP_BIND     581    589       ATP (By similarity).
+FT   ACT_SITE    725    725       Proton acceptor (By similarity).
+FT   BINDING     609    609       ATP (By similarity).
+FT   MOD_RES     755    755       Phosphotyrosine; by autocatalysis (By
+FT                                similarity).
+FT   CARBOHYD    222    222       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    338    338       N-linked (GlcNAc...) (Potential).
+FT   DISULFID     49     99       By similarity.
+FT   DISULFID    142    190       By similarity.
+FT   DISULFID    233    282       By similarity.
+FT   DISULFID    317    382       By similarity.
+FT   DISULFID    325    375       By similarity.
+FT   DISULFID    366    406       By similarity.
+FT   DISULFID    394    447       By similarity.
+FT   DISULFID    398    434       By similarity.
+FT   VAR_SEQ     209    209       E -> EEESEPEQDTK (in isoform 2).
+FT                                /FTId=VSP_035958.
+FT   VAR_SEQ     307    394       Missing (in isoform 2 and isoform 3).
+FT                                /FTId=VSP_035959.
+FT   VAR_SEQ     454    462       DYNKENLKT -> A (in isoform 2 and isoform
+FT                                3).
+FT                                /FTId=VSP_035960.
+FT   VARIANT      27     27       A -> G (in dbSNP:rs56054734).
+FT                                /FTId=VAR_041748.
+FT   VARIANT     100    100       T -> M (in dbSNP:rs35142681).
+FT                                /FTId=VAR_041749.
+FT   VARIANT     107    107       G -> E (in dbSNP:rs55786136).
+FT                                /FTId=VAR_041750.
+FT   VARIANT     159    159       S -> G (in dbSNP:rs35176182).
+FT                                /FTId=VAR_041751.
+FT   VARIANT     222    222       N -> S (in dbSNP:rs55826142).
+FT                                /FTId=VAR_041752.
+FT   VARIANT     413    413       M -> I (in dbSNP:rs2274419).
+FT                                /FTId=VAR_021930.
+FT   VARIANT     629    629       L -> F (in dbSNP:rs34267283).
+FT                                /FTId=VAR_041753.
+FT   VARIANT     644    644       V -> A (in dbSNP:rs41279055).
+FT                                /FTId=VAR_041754.
+FT   VARIANT     664    664       N -> S (in dbSNP:rs55963442).
+FT                                /FTId=VAR_041755.
+FT   VARIANT     696    696       P -> L (in dbSNP:rs56126328).
+FT                                /FTId=VAR_041756.
+FT   VARIANT     782    782       E -> D (in dbSNP:rs34614566).
+FT                                /FTId=VAR_041757.
+FT   VARIANT     790    790       V -> M (in a case of congenital
+FT                                myasthenic syndrome; does not affect
+FT                                catalytic kinase activity; reduces
+FT                                protein expression and stability).
+FT                                /FTId=VAR_023046.
+FT   VARIANT     819    819       N -> S (in a lung neuroendocrine
+FT                                carcinoma sample; somatic mutation).
+FT                                /FTId=VAR_041758.
+FT   VARIANT     829    829       V -> L (in dbSNP:rs578430).
+FT                                /FTId=VAR_033837.
+FT   VARIANT     858    858       R -> H (in dbSNP:rs34115159).
+FT                                /FTId=VAR_041759.
+SQ   SEQUENCE   869 AA;  97056 MW;  3DDC20E179FA010C CRC64;
+     MRELVNIPLV HILTLVAFSG TEKLPKAPVI TTPLETVDAL VEEVATFMCA VESYPQPEIS
+     WTRNKILIKL FDTRYSIREN GQLLTILSVE DSDDGIYCCT ANNGVGGAVE SCGALQVKMK
+     PKITRPPINV KIIEGLKAVL PCTTMGNPKP SVSWIKGDSP LRENSRIAVL ESGSLRIHNV
+     QKEDAGQYRC VAKNSLGTAY SKVVKLEVEV FARILRAPES HNVTFGSFVT LHCTATGIPV
+     PTITWIENGN AVSSGSIQES VKDRVIDSRL QLFITKPGLY TCIATNKHGE KFSTAKAAAT
+     ISIAEWSKPQ KDNKGYCAQY RGEVCNAVLA KDALVFLNTS YADPEEAQEL LVHTAWNELK
+     VVSPVCRPAA EALLCNHIFQ ECSPGVVPTP IPICREYCLA VKELFCAKEW LVMEEKTHRG
+     LYRSEMHLLS VPECSKLPSM HWDPTACARL PHLDYNKENL KTFPPMTSSK PSVDIPNLPS
+     SSSSSFSVSP TYSMTVIISI MSSFAIFVLL TITTLYCCRR RKQWKNKKRE SAAVTLTTLP
+     SELLLDRLHP NPMYQRMPLL LNPKLLSLEY PRNNIEYVRD IGEGAFGRVF QARAPGLLPY
+     EPFTMVAVKM LKEEASADMQ ADFQREAALM AEFDNPNIVK LLGVCAVGKP MCLLFEYMAY
+     GDLNEFLRSM SPHTVCSLSH SDLSMRAQVS SPGPPPLSCA EQLCIARQVA AGMAYLSERK
+     FVHRDLATRN CLVGENMVVK IADFGLSRNI YSADYYKANE NDAIPIRWMP PESIFYNRYT
+     TESDVWAYGV VLWEIFSYGL QPYYGMAHEE VIYYVRDGNI LSCPENCPVE LYNLMRLCWS
+     KLPADRPSFT SIHRILERMC ERAEGTVSV
+//

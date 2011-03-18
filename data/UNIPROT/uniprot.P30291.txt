@@ -1,0 +1,323 @@
+ID   WEE1_HUMAN              Reviewed;         646 AA.
+AC   P30291;
+DT   01-APR-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1996, sequence version 2.
+DT   05-OCT-2010, entry version 118.
+DE   RecName: Full=Wee1-like protein kinase;
+DE            Short=WEE1hu;
+DE            EC=2.7.10.2;
+DE   AltName: Full=Wee1A kinase;
+GN   Name=WEE1;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND CHARACTERIZATION.
+RX   MEDLINE=95262628; PubMed=7743995;
+RA   Watanabe N., Broome M., Hunter T.;
+RT   "Regulation of the human WEE1Hu CDK tyrosine 15-kinase during the cell
+RT   cycle.";
+RL   EMBO J. 14:1878-1891(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   TISSUE=Blood;
+RX   PubMed=11528126;
+RA   Cichutek A., Brueckmann T., Seipel B., Hauser H., Schlaubitz S.,
+RA   Prawitt D., Hankeln T., Schmidt E.R., Winterpacht A., Zabel B.U.;
+RT   "Comparative architectural aspects of regions of conserved synteny on
+RT   human chromosome 11p15.3 and mouse chromosome 7 (including genes WEE1
+RT   and LMO1).";
+RL   Cytogenet. Cell Genet. 93:277-283(2001).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 1-214.
+RA   Igarashi M.;
+RL   Submitted (JUN-1994) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 215-646.
+RX   MEDLINE=91351318; PubMed=1840647; DOI=10.1038/353080a0;
+RA   Igarashi M., Nagata A., Jinno S., Suto K., Okayama H.;
+RT   "Wee1(+)-like gene in human cells.";
+RL   Nature 353:80-83(1991).
+RN   [5]
+RP   CHARACTERIZATION, AND MUTAGENESIS OF LYS-328.
+RX   MEDLINE=93154348; PubMed=8428596;
+RA   McGowan C.H., Russell P.;
+RT   "Human Wee1 kinase inhibits cell division by phosphorylating p34cdc2
+RT   exclusively on Tyr15.";
+RL   EMBO J. 12:75-85(1993).
+RN   [6]
+RP   PHOSPHORYLATION AT SER-642.
+RC   TISSUE=Testis;
+RX   PubMed=15150265; DOI=10.1074/jbc.M404728200;
+RA   Lu R., Niida H., Nakanishi M.;
+RT   "Human SAD1 kinase is involved in UV-induced DNA damage checkpoint
+RT   function.";
+RL   J. Biol. Chem. 279:31164-31170(2004).
+RN   [7]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-139, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=15302935; DOI=10.1073/pnas.0404720101;
+RA   Beausoleil S.A., Jedrychowski M., Schwartz D., Elias J.E., Villen J.,
+RA   Li J., Cohn M.A., Cantley L.C., Gygi S.P.;
+RT   "Large-scale characterization of HeLa cell nuclear phosphoproteins.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:12130-12135(2004).
+RN   [8]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-127; SER-139 AND
+RP   SER-165, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=17081983; DOI=10.1016/j.cell.2006.09.026;
+RA   Olsen J.V., Blagoev B., Gnad F., Macek B., Kumar C., Mortensen P.,
+RA   Mann M.;
+RT   "Global, in vivo, and site-specific phosphorylation dynamics in
+RT   signaling networks.";
+RL   Cell 127:635-648(2006).
+RN   [9]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-139 AND THR-173, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=17192257; DOI=10.1074/mcp.T600062-MCP200;
+RA   Wissing J., Jaensch L., Nimtz M., Dieterich G., Hornberger R.,
+RA   Keri G., Wehland J., Daub H.;
+RT   "Proteomics analysis of protein kinases by target class-selective
+RT   prefractionation and tandem mass spectrometry.";
+RL   Mol. Cell. Proteomics 6:537-547(2007).
+RN   [10]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-139, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18220336; DOI=10.1021/pr0705441;
+RA   Cantin G.T., Yi W., Lu B., Park S.K., Xu T., Lee J.-D.,
+RA   Yates J.R. III;
+RT   "Combining protein-based IMAC, peptide-based IMAC, and MudPIT for
+RT   efficient phosphoproteomic analysis.";
+RL   J. Proteome Res. 7:1346-1351(2008).
+RN   [11]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-67; SER-127; SER-139;
+RP   SER-150; THR-173; THR-190 AND SER-312, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [12]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-139, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=19690332; DOI=10.1126/scisignal.2000007;
+RA   Mayya V., Lundgren D.H., Hwang S.-I., Rezaul K., Wu L., Eng J.K.,
+RA   Rodionov V., Han D.K.;
+RT   "Quantitative phosphoproteomic analysis of T cell receptor signaling
+RT   reveals system-wide modulation of protein-protein interactions.";
+RL   Sci. Signal. 2:RA46-RA46(2009).
+RN   [13]
+RP   X-RAY CRYSTALLOGRAPHY (1.81 ANGSTROMS) OF 291-575 IN COMPLEX WITH
+RP   MAGNESIUM AND AN INHIBITOR.
+RX   PubMed=15837193; DOI=10.1016/j.str.2004.12.017;
+RA   Squire C.J., Dickson J.M., Ivanovic I., Baker E.N.;
+RT   "Structure and inhibition of the human cell cycle checkpoint kinase,
+RT   Wee1A kinase: an atypical tyrosine kinase with a key role in CDK1
+RT   regulation.";
+RL   Structure 13:541-550(2005).
+RN   [14]
+RP   VARIANTS [LARGE SCALE ANALYSIS] CYS-210 AND ILE-472.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: May act as a negative regulator of entry into mitosis
+CC       (G2 to M transition) by protecting the nucleus from
+CC       cytoplasmically activated cyclin B1-complexed CDK1 before the
+CC       onset of mitosis. Its activity increases during S and G2 phases
+CC       and decreases at M phase when it is hyperphosphorylated. A
+CC       correlated decrease in protein level occurs at M/G1 phase,
+CC       probably due to its degradation. Specifically phosphorylates and
+CC       inactivates cyclin B1-complexed CDK1 reaching a maximum during G2
+CC       phase and a minimum as cells enter M phase. Phosphorylation of
+CC       cyclin B1-CDK1 occurs exclusively on 'Tyr-15' and phosphorylation
+CC       of monomeric CDK1 does not occur.
+CC   -!- CATALYTIC ACTIVITY: ATP + a [protein]-L-tyrosine = ADP + a
+CC       [protein]-L-tyrosine phosphate.
+CC   -!- COFACTOR: Binds 2 magnesium ions per subunit.
+CC   -!- ENZYME REGULATION: Synthesis is increased during S and G2 phases,
+CC       presumably by an increase in transcription; activity is decreased
+CC       by phosphorylation during m phase. Protein levels fall in M phase
+CC       as a result of decreased synthesis combined with degradation.
+CC       Activity seems to be negatively regulated by phosphorylation upon
+CC       entry into mitosis, although N-terminal phosphorylation might also
+CC       regulate the protein stability via protection from proteolysis or
+CC       might regulate the subcellular location.
+CC   -!- INTERACTION:
+CC       Q9Y297:BTRC; NbExp=1; IntAct=EBI-914695, EBI-307461;
+CC       Q9UKB1:FBXW11; NbExp=1; IntAct=EBI-914695, EBI-355189;
+CC       P53350:PLK1; NbExp=1; IntAct=EBI-914695, EBI-476768;
+CC   -!- SUBCELLULAR LOCATION: Nucleus.
+CC   -!- PTM: Phosphorylated during M and G1 phases. Also
+CC       autophosphorylated.
+CC   -!- PTM: Ubiquitinated and degraded at the onset of G2/M phase (By
+CC       similarity).
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Ser/Thr
+CC       protein kinase family. WEE1 subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U10564; AAB60401.1; -; mRNA.
+DR   EMBL; AJ277546; CAC14173.1; -; Genomic_DNA.
+DR   EMBL; X62048; CAA43979.1; -; mRNA.
+DR   IPI; IPI00025830; -.
+DR   PIR; S55048; S55048.
+DR   RefSeq; NP_003381.1; -.
+DR   UniGene; Hs.249441; -.
+DR   PDB; 1X8B; X-ray; 1.81 A; A=291-575.
+DR   PDB; 2IN6; X-ray; 1.90 A; A=291-575.
+DR   PDB; 2IO6; X-ray; 2.20 A; A=291-575.
+DR   PDB; 2Z2W; X-ray; 2.22 A; A=291-575.
+DR   PDB; 3BI6; X-ray; 2.20 A; A=291-575.
+DR   PDB; 3BIZ; X-ray; 2.20 A; A=291-575.
+DR   PDB; 3CQE; X-ray; 2.50 A; A=291-575.
+DR   PDB; 3CR0; X-ray; 2.30 A; A=291-575.
+DR   PDBsum; 1X8B; -.
+DR   PDBsum; 2IN6; -.
+DR   PDBsum; 2IO6; -.
+DR   PDBsum; 2Z2W; -.
+DR   PDBsum; 3BI6; -.
+DR   PDBsum; 3BIZ; -.
+DR   PDBsum; 3CQE; -.
+DR   PDBsum; 3CR0; -.
+DR   ProteinModelPortal; P30291; -.
+DR   SMR; P30291; 299-602.
+DR   IntAct; P30291; 19.
+DR   MINT; MINT-129561; -.
+DR   STRING; P30291; -.
+DR   PhosphoSite; P30291; -.
+DR   PRIDE; P30291; -.
+DR   Ensembl; ENST00000450114; ENSP00000402084; ENSG00000166483.
+DR   GeneID; 7465; -.
+DR   UCSC; uc001mhs.1; human.
+DR   CTD; 7465; -.
+DR   GeneCards; GC11P009550; -.
+DR   H-InvDB; HIX0026153; -.
+DR   HGNC; HGNC:12761; WEE1.
+DR   HPA; CAB004619; -.
+DR   MIM; 193525; gene.
+DR   PharmGKB; PA366; -.
+DR   eggNOG; prNOG19905; -.
+DR   HOGENOM; HBG713564; -.
+DR   HOVERGEN; HBG005050; -.
+DR   InParanoid; P30291; -.
+DR   OMA; RTYWNDS; -.
+DR   OrthoDB; EOG9BZQN2; -.
+DR   PhylomeDB; P30291; -.
+DR   BRENDA; 2.7.10.2; 247.
+DR   Reactome; REACT_152; Cell Cycle, Mitotic.
+DR   Reactome; REACT_1538; Cell Cycle Checkpoints.
+DR   NextBio; 29236; -.
+DR   PMAP-CutDB; P30291; -.
+DR   ArrayExpress; P30291; -.
+DR   Bgee; P30291; -.
+DR   CleanEx; HS_WEE1; -.
+DR   Genevestigator; P30291; -.
+DR   GermOnline; ENSG00000166483; Homo sapiens.
+DR   GO; GO:0005654; C:nucleoplasm; EXP:Reactome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:InterPro.
+DR   GO; GO:0004715; F:non-membrane spanning protein tyrosine kina...; IEA:EC.
+DR   GO; GO:0005515; F:protein binding; IPI:IntAct.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:InterPro.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0007067; P:mitosis; IEA:UniProtKB-KW.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR017164; Wee1-like_protein_kinase.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   PIRSF; PIRSF037281; Wee1-like_protein_kinase; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; ATP-binding; Cell cycle; Cell division;
+KW   Complete proteome; Kinase; Magnesium; Metal-binding; Mitosis;
+KW   Nucleotide-binding; Nucleus; Phosphoprotein; Polymorphism;
+KW   Transferase; Tyrosine-protein kinase; Ubl conjugation.
+FT   CHAIN         1    646       Wee1-like protein kinase.
+FT                                /FTId=PRO_0000086810.
+FT   DOMAIN      299    569       Protein kinase.
+FT   NP_BIND     305    313       ATP (By similarity).
+FT   COMPBIAS      9     12       Poly-Pro.
+FT   COMPBIAS     34     43       Poly-Glu.
+FT   ACT_SITE    426    426       Proton acceptor (By similarity).
+FT   METAL       431    431       Magnesium; via carbonyl oxygen.
+FT   METAL       463    463       Magnesium; via carbonyl oxygen.
+FT   BINDING     328    328       ATP (By similarity).
+FT   MOD_RES      67     67       Phosphoserine.
+FT   MOD_RES     123    123       Phosphoserine; by CDK1 (Potential).
+FT   MOD_RES     127    127       Phosphoserine.
+FT   MOD_RES     139    139       Phosphoserine.
+FT   MOD_RES     150    150       Phosphoserine.
+FT   MOD_RES     165    165       Phosphoserine.
+FT   MOD_RES     173    173       Phosphothreonine.
+FT   MOD_RES     190    190       Phosphothreonine.
+FT   MOD_RES     312    312       Phosphoserine.
+FT   MOD_RES     642    642       Phosphoserine; by BRSK1; in vitro.
+FT   VARIANT     210    210       G -> C (in dbSNP:rs34412975).
+FT                                /FTId=VAR_041302.
+FT   VARIANT     472    472       S -> I (in dbSNP:rs56411856).
+FT                                /FTId=VAR_041303.
+FT   MUTAGEN     328    328       K->R: Abolishes activity.
+FT   CONFLICT     65     65       A -> E (in Ref. 3; CAA43979).
+FT   HELIX       294    298
+FT   STRAND      299    308
+FT   STRAND      311    318
+FT   TURN        319    321
+FT   STRAND      324    331
+FT   HELIX       338    352
+FT   STRAND      362    368
+FT   STRAND      371    377
+FT   HELIX       384    394
+FT   HELIX       400    419
+FT   HELIX       429    431
+FT   STRAND      432    435
+FT   STRAND      458    461
+FT   HELIX       480    482
+FT   HELIX       485    488
+FT   HELIX       495    510
+FT   STRAND      518    520
+FT   HELIX       521    527
+FT   HELIX       540    549
+FT   HELIX       554    556
+FT   HELIX       560    564
+SQ   SEQUENCE   646 AA;  71597 MW;  DB00623D304562A0 CRC64;
+     MSFLSRQQPP PPRRAGAACT LRQKLIFSPC SDCEEEEEEE EEEGSGHSTG EDSAFQEPDS
+     PLPPARSPTE PGPERRRSPG PAPGSPGELE EDLLLPGACP GADEAGGGAE GDSWEEEGFG
+     SSSPVKSPAA PYFLGSSFSP VRCGGPGDAS PRGCGARRAG EGRRSPRPDH PGTPPHKTFR
+     KLRLFDTPHT PKSLLSKARG IDSSSVKLRG SSLFMDTEKS GKREFDVRQT PQVNINPFTP
+     DSLLLHSSGQ CRRRKRTYWN DSCGEDMEAS DYELEDETRP AKRITITESN MKSRYTTEFH
+     ELEKIGSGEF GSVFKCVKRL DGCIYAIKRS KKPLAGSVDE QNALREVYAH AVLGQHSHVV
+     RYFSAWAEDD HMLIQNEYCN GGSLADAISE NYRIMSYFKE AELKDLLLQV GRGLRYIHSM
+     SLVHMDIKPS NIFISRTSIP NAASEEGDED DWASNKVMFK IGDLGHVTRI SSPQVEEGDS
+     RFLANEVLQE NYTHLPKADI FALALTVVCA AGAEPLPRNG DQWHEIRQGR LPRIPQVLSQ
+     EFTELLKVMI HPDPERRPSA MALVKHSVLL SASRKSAEQL RIELNAEKFK NSLLQKELKK
+     AQMAKAAAEE RALFTDRMAT RSTTQSNRTS RLIGKKMNRS VSLTIY
+//

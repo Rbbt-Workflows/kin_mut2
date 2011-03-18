@@ -1,0 +1,273 @@
+ID   KC1G2_HUMAN             Reviewed;         415 AA.
+AC   P78368; B5BU42; O00704; Q8WUB1;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1997, sequence version 1.
+DT   05-OCT-2010, entry version 108.
+DE   RecName: Full=Casein kinase I isoform gamma-2;
+DE            Short=CKI-gamma 2;
+DE            EC=2.7.11.1;
+GN   Name=CSNK1G2;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Testis;
+RX   MEDLINE=98066772; PubMed=9403068; DOI=10.1006/geno.1997.4991;
+RA   Kitabayashi A.N., Kusuda J., Hirai M., Hashimoto K.;
+RT   "Cloning and chromosomal mapping of human casein kinase I gamma 2
+RT   (CSNK1G2).";
+RL   Genomics 46:133-137(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RA   Kalnine N., Chen X., Rolfs A., Halleck A., Hines L., Eisenstein S.,
+RA   Koundinya M., Raphael J., Moreira D., Kelley T., LaBaer J., Lin Y.,
+RA   Phelan M., Farmer A.;
+RT   "Cloning of human full-length CDSs in BD Creator(TM) system donor
+RT   vector.";
+RL   Submitted (AUG-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RX   PubMed=19054851; DOI=10.1038/nmeth.1273;
+RA   Goshima N., Kawamura Y., Fukumoto A., Miura A., Honma R., Satoh R.,
+RA   Wakamatsu A., Yamamoto J., Kimura K., Nishikawa T., Andoh T., Iida Y.,
+RA   Ishikawa K., Ito E., Kagawa N., Kaminaga C., Kanehori K., Kawakami B.,
+RA   Kenmochi K., Kimura R., Kobayashi M., Kuroita T., Kuwayama H.,
+RA   Maruyama Y., Matsuo K., Minami K., Mitsubori M., Mori M.,
+RA   Morishita R., Murase A., Nishikawa A., Nishikawa S., Okamoto T.,
+RA   Sakagami N., Sakamoto Y., Sasaki Y., Seki T., Sono S., Sugiyama A.,
+RA   Sumiya T., Takayama T., Takayama Y., Takeda H., Togashi T., Yahata K.,
+RA   Yamada H., Yanagisawa Y., Endo Y., Imamoto F., Kisu Y., Tanaka S.,
+RA   Isogai T., Imai J., Watanabe S., Nomura N.;
+RT   "Human protein factory for converting the transcriptome into an in
+RT   vitro-expressed proteome.";
+RL   Nat. Methods 5:1011-1017(2008).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=15057824; DOI=10.1038/nature02399;
+RA   Grimwood J., Gordon L.A., Olsen A.S., Terry A., Schmutz J.,
+RA   Lamerdin J.E., Hellsten U., Goodstein D., Couronne O., Tran-Gyamfi M.,
+RA   Aerts A., Altherr M., Ashworth L., Bajorek E., Black S., Branscomb E.,
+RA   Caenepeel S., Carrano A.V., Caoile C., Chan Y.M., Christensen M.,
+RA   Cleland C.A., Copeland A., Dalin E., Dehal P., Denys M., Detter J.C.,
+RA   Escobar J., Flowers D., Fotopulos D., Garcia C., Georgescu A.M.,
+RA   Glavina T., Gomez M., Gonzales E., Groza M., Hammon N., Hawkins T.,
+RA   Haydu L., Ho I., Huang W., Israni S., Jett J., Kadner K., Kimball H.,
+RA   Kobayashi A., Larionov V., Leem S.-H., Lopez F., Lou Y., Lowry S.,
+RA   Malfatti S., Martinez D., McCready P.M., Medina C., Morgan J.,
+RA   Nelson K., Nolan M., Ovcharenko I., Pitluck S., Pollard M.,
+RA   Popkie A.P., Predki P., Quan G., Ramirez L., Rash S., Retterer J.,
+RA   Rodriguez A., Rogers S., Salamov A., Salazar A., She X., Smith D.,
+RA   Slezak T., Solovyev V., Thayer N., Tice H., Tsai M., Ustaszewska A.,
+RA   Vo N., Wagner M., Wheeler J., Wu K., Xie G., Yang J., Dubchak I.,
+RA   Furey T.S., DeJong P., Dickson M., Gordon D., Eichler E.E.,
+RA   Pennacchio L.A., Richardson P., Stubbs L., Rokhsar D.S., Myers R.M.,
+RA   Rubin E.M., Lucas S.M.;
+RT   "The DNA sequence and biology of human chromosome 19.";
+RL   Nature 428:529-535(2004).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (SEP-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Colon, and Muscle;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [7]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-366 AND THR-367, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [8]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-366, AND MASS
+RP   SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [9]
+RP   VARIANTS [LARGE SCALE ANALYSIS] LEU-189; GLY-194; THR-196; CYS-206;
+RP   HIS-206; SER-207; GLN-208; CYS-217 AND MET-223.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Casein kinases are operationally defined by their
+CC       preferential utilization of acidic proteins such as caseins as
+CC       substrates. It can phosphorylate a large number of proteins.
+CC       Participates in Wnt signaling (By similarity).
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- SUBUNIT: Monomer (By similarity).
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm.
+CC   -!- TISSUE SPECIFICITY: Testis.
+CC   -!- PTM: Autophosphorylated (By similarity).
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CK1 Ser/Thr
+CC       protein kinase family. Casein kinase I subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U89896; AAB88627.1; -; mRNA.
+DR   EMBL; BT009922; AAP88924.1; -; mRNA.
+DR   EMBL; AF001177; AAC00212.1; -; Transcribed_RNA.
+DR   EMBL; AB451278; BAG70092.1; -; mRNA.
+DR   EMBL; AB451410; BAG70224.1; -; mRNA.
+DR   EMBL; AC005306; AAC26983.1; -; Genomic_DNA.
+DR   EMBL; CH471139; EAW69430.1; -; Genomic_DNA.
+DR   EMBL; BC018693; AAH18693.1; -; mRNA.
+DR   EMBL; BC018699; AAH18699.1; -; mRNA.
+DR   EMBL; BC020972; AAH20972.1; -; mRNA.
+DR   IPI; IPI00297767; -.
+DR   RefSeq; NP_001310.3; -.
+DR   UniGene; Hs.651905; -.
+DR   PDB; 2C47; X-ray; 2.40 A; A/B/C/D=43-353.
+DR   PDBsum; 2C47; -.
+DR   ProteinModelPortal; P78368; -.
+DR   IntAct; P78368; 3.
+DR   MINT; MINT-1473562; -.
+DR   STRING; P78368; -.
+DR   PhosphoSite; P78368; -.
+DR   PRIDE; P78368; -.
+DR   Ensembl; ENST00000255641; ENSP00000255641; ENSG00000133275.
+DR   GeneID; 1455; -.
+DR   KEGG; hsa:1455; -.
+DR   UCSC; uc002lul.2; human.
+DR   CTD; 1455; -.
+DR   GeneCards; GC19P001920; -.
+DR   H-InvDB; HIX0014602; -.
+DR   HGNC; HGNC:2455; CSNK1G2.
+DR   MIM; 602214; gene.
+DR   PharmGKB; PA26955; -.
+DR   eggNOG; prNOG15819; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG000176; -.
+DR   InParanoid; P78368; -.
+DR   OMA; RMSKTGG; -.
+DR   OrthoDB; EOG9CG2TK; -.
+DR   PhylomeDB; P78368; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   Pathway_Interaction_DB; foxopathway; FoxO family signaling.
+DR   Pathway_Interaction_DB; hedgehog_glipathway; Hedgehog signaling events mediated by Gli proteins.
+DR   Reactome; REACT_22258; Metabolism of lipids and lipoproteins.
+DR   NextBio; 5975; -.
+DR   ArrayExpress; P78368; -.
+DR   Bgee; P78368; -.
+DR   CleanEx; HS_CSNK1G2; -.
+DR   Genevestigator; P78368; -.
+DR   GermOnline; ENSG00000133275; Homo sapiens.
+DR   GO; GO:0005829; C:cytosol; EXP:Reactome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; TAS:UniProtKB.
+DR   GO; GO:0007165; P:signal transduction; TAS:ProtInc.
+DR   GO; GO:0016055; P:Wnt receptor signaling pathway; IEA:UniProtKB-KW.
+DR   InterPro; IPR022247; Casein_kinase-1_gamma_C.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   Pfam; PF12605; CK1gamma_C; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; ATP-binding; Complete proteome; Cytoplasm; Kinase;
+KW   Nucleotide-binding; Phosphoprotein; Polymorphism;
+KW   Serine/threonine-protein kinase; Transferase; Wnt signaling pathway.
+FT   CHAIN         1    415       Casein kinase I isoform gamma-2.
+FT                                /FTId=PRO_0000192842.
+FT   DOMAIN       46    316       Protein kinase.
+FT   NP_BIND      52     60       ATP (By similarity).
+FT   ACT_SITE    165    165       Proton acceptor (By similarity).
+FT   BINDING      75     75       ATP (By similarity).
+FT   MOD_RES     366    366       Phosphoserine.
+FT   MOD_RES     367    367       Phosphothreonine.
+FT   VARIANT     189    189       F -> L.
+FT                                /FTId=VAR_042086.
+FT   VARIANT     194    194       E -> G.
+FT                                /FTId=VAR_042087.
+FT   VARIANT     196    196       I -> T.
+FT                                /FTId=VAR_042088.
+FT   VARIANT     206    206       Y -> C.
+FT                                /FTId=VAR_042089.
+FT   VARIANT     206    206       Y -> H.
+FT                                /FTId=VAR_042090.
+FT   VARIANT     207    207       R -> S.
+FT                                /FTId=VAR_042091.
+FT   VARIANT     208    208       E -> Q.
+FT                                /FTId=VAR_042092.
+FT   VARIANT     217    217       R -> C.
+FT                                /FTId=VAR_042093.
+FT   VARIANT     223    223       T -> M.
+FT                                /FTId=VAR_042094.
+FT   CONFLICT    113    113       K -> N (in Ref. 2; AAP88924 and 6;
+FT                                AAH20972).
+FT   STRAND       46     51
+FT   STRAND       60     65
+FT   TURN         66     68
+FT   STRAND       71     78
+FT   HELIX        86     95
+FT   TURN         96     98
+FT   STRAND      105    111
+FT   STRAND      114    120
+FT   HELIX       126    132
+FT   TURN        133    135
+FT   HELIX       139    158
+FT   HELIX       168    170
+FT   STRAND      171    173
+FT   TURN        179    182
+FT   STRAND      183    186
+FT   STRAND      193    196
+FT   TURN        198    200
+FT   TURN        216    218
+FT   HELIX       221    224
+FT   HELIX       231    247
+FT   TURN        251    254
+FT   HELIX       260    272
+FT   HELIX       276    279
+FT   TURN        280    282
+FT   HELIX       285    295
+FT   HELIX       305    318
+FT   TURN        328    331
+SQ   SEQUENCE   415 AA;  47457 MW;  036A39148A1DA038 CRC64;
+     MDFDKKGGKG ETEEGRRMSK AGGGRSSHGI RSSGTSSGVL MVGPNFRVGK KIGCGNFGEL
+     RLGKNLYTNE YVAIKLEPIK SRAPQLHLEY RFYKQLSATE GVPQVYYFGP CGKYNAMVLE
+     LLGPSLEDLF DLCDRTFTLK TVLMIAIQLI TRMEYVHTKS LIYRDVKPEN FLVGRPGTKR
+     QHAIHIIDFG LAKEYIDPET KKHIPYREHK SLTGTARYMS INTHLGKEQS RRDDLEALGH
+     MFMYFLRGSL PWQGLKADTL KERYQKIGDT KRATPIEVLC ENFPEEMATY LRYVRRLDFF
+     EKPDYDYLRK LFTDLFDRSG FVFDYEYDWA GKPLPTPIGT VHTDLPSQPQ LRDKTQPHSK
+     NQALNSTNGE LNADDPTAGH SNAPITAPAE VEVADETKCC CFFKRRKRKS LQRHK
+//

@@ -1,0 +1,891 @@
+ID   PRKDC_HUMAN             Reviewed;        4128 AA.
+AC   P78527; P78528; Q13327; Q13337; Q14175; Q59H99; Q7Z611; Q96SE6;
+AC   Q9UME3;
+DT   27-APR-2001, integrated into UniProtKB/Swiss-Prot.
+DT   31-OCT-2003, sequence version 3.
+DT   02-NOV-2010, entry version 120.
+DE   RecName: Full=DNA-dependent protein kinase catalytic subunit;
+DE            Short=DNA-PK catalytic subunit;
+DE            Short=DNA-PKcs;
+DE            EC=2.7.11.1;
+DE   AltName: Full=DNPK1;
+DE   AltName: Full=p460;
+GN   Name=PRKDC; Synonyms=HYRC, HYRC1;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Cervix carcinoma;
+RX   MEDLINE=95401275; PubMed=7671312; DOI=10.1016/0092-8674(95)90482-4;
+RA   Hartley K.O., Gell D., Smith G.C.M., Zhang H., Divecha N.,
+RA   Connelly M.A., Admon A., Lees-Miller S.P., Anderson C.W.,
+RA   Jackson S.P.;
+RT   "DNA-dependent protein kinase catalytic subunit: a relative of
+RT   phosphatidylinositol 3-kinase and the ataxia telangiectasia gene
+RT   product.";
+RL   Cell 82:849-856(1995).
+RN   [2]
+RP   SEQUENCE REVISION, AND ALTERNATIVE SPLICING.
+RA   Gell D., Anderson C.W.;
+RL   Submitted (APR-2001) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND VARIANTS SER-6; ILE-333;
+RP   SER-605; MET-680; SER-695; SER-1071; VAL-1314; VAL-1588; HIS-1603;
+RP   VAL-2095; GLU-2702; CYS-2899; ASP-3149; SER-3201; GLU-3404; THR-3434;
+RP   SER-3459; MET-3562; LEU-3836 AND VAL-3932.
+RG   NIEHS SNPs program;
+RL   Submitted (JUN-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-1689.
+RX   MEDLINE=21312114; PubMed=11418067;
+RA   Anderson C.W., Dunn J.J., Freimuth P.I., Galloway A.M.,
+RA   Allalunis-Turner M.J.;
+RT   "Frameshift mutation in PRKDC, the gene for DNA-PKcs, in the DNA
+RT   repair-defective, human, glioma-derived cell line M059J.";
+RL   Radiat. Res. 156:2-9(2001).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-49.
+RX   MEDLINE=97430835; PubMed=9284934;
+RA   Ladenburger E.M., Fackelmayer F.O., Hameister H., Knippers R.;
+RT   "MCM4 and PRKDC, human genes encoding proteins MCM4 and DNA-PKcs, are
+RT   close neighbours located on chromosome 8q12-->q13.";
+RL   Cytogenet. Cell Genet. 77:268-270(1997).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1789-2203.
+RC   TISSUE=Placenta;
+RX   MEDLINE=95365397; PubMed=7638222; DOI=10.1073/pnas.92.16.7515;
+RA   Sipley J.D., Menninger J.C., Hartley K.O., Ward D.C., Jackson S.P.,
+RA   Anderson C.W.;
+RT   "Gene for the catalytic subunit of the human DNA-activated protein
+RT   kinase maps to the site of the XRCC7 gene on chromosome 8.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 92:7515-7519(1995).
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 2255-2335.
+RC   TISSUE=Placenta;
+RA   Abe M.;
+RL   Submitted (DEC-2000) to the EMBL/GenBank/DDBJ databases.
+RN   [8]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 3199-4128 (ISOFORM 1).
+RC   TISSUE=Fetal lung;
+RX   MEDLINE=96062265; PubMed=7594449;
+RA   Poltoratsky V.P., Shi X., York J.D., Lieber M.R., Carter T.H.;
+RT   "Human DNA-activated protein kinase (DNA-PK) is homologous to
+RT   phosphatidylinositol kinases.";
+RL   J. Immunol. 155:4529-4533(1995).
+RN   [9]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 3250-4128 (ISOFORM 1).
+RA   Anderson C.W., Dunn J.J., Freimuth P.I.;
+RT   "Sequence of the 3' segment (exons 70-86) of PRKDC, the gene for human
+RT   DNA-PKcs.";
+RL   Submitted (APR-2001) to the EMBL/GenBank/DDBJ databases.
+RN   [10]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 3372-4128 (ISOFORM 2).
+RC   TISSUE=Brain;
+RA   Totoki Y., Toyoda A., Takeda T., Sakaki Y., Tanaka A., Yokoyama S.,
+RA   Ohara O., Nagase T., Kikuno F.R.;
+RL   Submitted (MAR-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [11]
+RP   PHOSPHORYLATION OF HSPCA.
+RX   MEDLINE=90008887; PubMed=2507541;
+RA   Lees-Miller S.P., Anderson C.W.;
+RT   "The human double-stranded DNA-activated protein kinase phosphorylates
+RT   the 90-kDa heat-shock protein, hsp90 alpha at two NH2-terminal
+RT   threonine residues.";
+RL   J. Biol. Chem. 264:17275-17280(1989).
+RN   [12]
+RP   PHOSPHORYLATION OF H1.
+RX   PubMed=2247066;
+RA   Carter T., Vancurova I., Sun I., Lou W., DeLeon S.;
+RT   "A DNA-activated protein kinase from HeLa cell nuclei.";
+RL   Mol. Cell. Biol. 10:6460-6471(1990).
+RN   [13]
+RP   PHOSPHORYLATION OF MYC.
+RX   PubMed=1597196; DOI=10.1111/j.1432-1033.1992.tb16964.x;
+RA   Iijima S., Teraoka H., Date T., Tsukada K.;
+RT   "DNA-activated protein kinase in Raji Burkitt's lymphoma cells.
+RT   Phosphorylation of c-Myc oncoprotein.";
+RL   Eur. J. Biochem. 206:595-603(1992).
+RN   [14]
+RP   PHOSPHORYLATION OF SRF.
+RX   PubMed=8407951;
+RA   Liu S.-H., Ma J.-T., Yueh A.Y., Lees-Miller S.P., Anderson C.W.,
+RA   Ng S.-Y.;
+RT   "The carboxyl-terminal transactivation domain of human serum response
+RT   factor contains DNA-activated protein kinase phosphorylation sites.";
+RL   J. Biol. Chem. 268:21147-21154(1993).
+RN   [15]
+RP   PHOSPHORYLATION OF JUN.
+RX   PubMed=8464713; DOI=10.1093/nar/21.5.1289;
+RA   Bannister A.J., Gottlieb T.M., Kouzarides T., Jackson S.P.;
+RT   "c-Jun is phosphorylated by the DNA-dependent protein kinase in vitro;
+RT   definition of the minimal kinase recognition motif.";
+RL   Nucleic Acids Res. 21:1289-1295(1993).
+RN   [16]
+RP   CLEAVAGE BY CASPASE-3.
+RX   PubMed=8804412; DOI=10.1016/0014-5793(96)00842-3;
+RA   Teraoka H., Yumoto Y., Watanabe F., Tsukada K., Suwa A., Enari M.,
+RA   Nagata S.;
+RT   "CPP32/Yama/apopain cleaves the catalytic component of DNA-dependent
+RT   protein kinase in the holoenzyme.";
+RL   FEBS Lett. 393:1-6(1996).
+RN   [17]
+RP   ALTERNATIVE SPLICING.
+RX   MEDLINE=97074683; PubMed=8917110; DOI=10.1016/0378-1119(96)00135-7;
+RA   Connelly M.A., Zhang H., Kieleczawa J., Anderson C.W.;
+RT   "Alternate splice-site utilization in the gene for the catalytic
+RT   subunit of the DNA-activated protein kinase, DNA-PKcs.";
+RL   Gene 175:271-273(1996).
+RN   [18]
+RP   PHOSPHORYLATION OF TP53.
+RX   PubMed=9363941; DOI=10.1016/S0092-8674(00)80416-X;
+RA   Shieh S.-Y., Ikeda M., Taya Y., Prives C.;
+RT   "DNA damage-induced phosphorylation of p53 alleviates inhibition by
+RT   MDM2.";
+RL   Cell 91:325-334(1997).
+RN   [19]
+RP   CHARACTERIZATION.
+RX   MEDLINE=98040126; PubMed=9372844; DOI=10.1016/S0921-8777(97)00035-9;
+RA   Wu X., Lieber M.R.;
+RT   "Interaction between DNA-dependent protein kinase and a novel protein,
+RT   KIP.";
+RL   Mutat. Res. 385:13-20(1997).
+RN   [20]
+RP   PHOSPHORYLATION OF XRCC6.
+RX   PubMed=9362500; DOI=10.1093/emboj/16.22.6874;
+RA   Jin S., Weaver D.T.;
+RT   "Double-strand break repair by Ku70 requires heterodimerization with
+RT   Ku80 and DNA binding functions.";
+RL   EMBO J. 16:6874-6885(1997).
+RN   [21]
+RP   PHOSPHORYLATION OF RFA2.
+RX   MEDLINE=97284742; PubMed=9139719; DOI=10.1074/jbc.272.19.12634;
+RA   Niu H., Erdjument-Bromage H., Pan Z.-Q., Lee S.-H., Tempst P.,
+RA   Hurwitz J.;
+RT   "Mapping of amino acid residues in the p34 subunit of human single-
+RT   stranded DNA-binding protein phosphorylated by DNA-dependent protein
+RT   kinase and Cdc2 kinase in vitro.";
+RL   J. Biol. Chem. 272:12634-12641(1997).
+RN   [22]
+RP   ENZYME REGULATION.
+RX   PubMed=9766667;
+RA   Sarkaria J.N., Tibbetts R.S., Busby E.C., Kennedy A.P., Hill D.E.,
+RA   Abraham R.T.;
+RT   "Inhibition of phosphoinositide 3-kinase related kinases by the
+RT   radiosensitizing agent wortmannin.";
+RL   Cancer Res. 58:4375-4382(1998).
+RN   [23]
+RP   FUNCTION, INTERACTION WITH C1D, AND MUTAGENESIS OF LEU-1510 AND
+RP   1516-GLU-LEU-1517.
+RX   PubMed=9679063;
+RA   Yavuzer U., Smith G.C.M., Bliss T., Werner D., Jackson S.P.;
+RT   "DNA end-independent activation of DNA-PK mediated via association
+RT   with the DNA-binding protein C1D.";
+RL   Genes Dev. 12:2188-2199(1998).
+RN   [24]
+RP   INTERACTION WITH ILF3.
+RX   PubMed=9442054; DOI=10.1074/jbc.273.4.2136;
+RA   Ting N.S.Y., Kao P.N., Chan D.W., Lintott L.G., Lees-Miller S.P.;
+RT   "DNA-dependent protein kinase interacts with antigen receptor response
+RT   element binding proteins NF90 and NF45.";
+RL   J. Biol. Chem. 273:2136-2145(1998).
+RN   [25]
+RP   DNA-BINDING.
+RX   PubMed=9435225; DOI=10.1073/pnas.95.2.525;
+RA   Hammarsten O., Chu G.;
+RT   "DNA-dependent protein kinase: DNA binding and activation in the
+RT   absence of Ku.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 95:525-530(1998).
+RN   [26]
+RP   PHOSPHORYLATION OF XRCC5 AND XRCC6.
+RX   PubMed=10026262; DOI=10.1021/bi982584b;
+RA   Chan D.W., Ye R., Veillette C.J., Lees-Miller S.P.;
+RT   "DNA-dependent protein kinase phosphorylation sites in Ku 70/80
+RT   heterodimer.";
+RL   Biochemistry 38:1819-1828(1999).
+RN   [27]
+RP   PHOSPHORYLATION OF PARP1.
+RX   PubMed=10467406; DOI=10.1038/sj.onc.1202823;
+RA   Ariumi Y., Masutani M., Copeland T.D., Mimori T., Sugimura T.,
+RA   Shimotohno K., Ueda K., Hatanaka M., Noda M.;
+RT   "Suppression of the poly(ADP-ribose) polymerase activity by DNA-
+RT   dependent protein kinase in vitro.";
+RL   Oncogene 18:4616-4625(1999).
+RN   [28]
+RP   PHOSPHORYLATION AT THR-2609; SER-2612; THR-2638 AND THR-2647.
+RX   MEDLINE=22304649; PubMed=12186630; DOI=10.1042/BJ20020973;
+RA   Douglas P., Sapkota G.P., Morrice N., Yu Y., Goodarzi A.A., Merkle D.,
+RA   Meek K., Alessi D.R., Lees-Miller S.P.;
+RT   "Identification of in vitro and in vivo phosphorylation sites in the
+RT   catalytic subunit of the DNA-dependent protein kinase.";
+RL   Biochem. J. 368:243-251(2002).
+RN   [29]
+RP   INTERACTION WITH DCLRE1C.
+RX   MEDLINE=21952476; PubMed=11955432; DOI=10.1016/S0092-8674(02)00671-2;
+RA   Ma Y., Pannicke U., Schwarz K., Lieber M.R.;
+RT   "Hairpin opening and overhang processing by an Artemis/DNA-dependent
+RT   protein kinase complex in nonhomologous end joining and V(D)J
+RT   recombination.";
+RL   Cell 108:781-794(2002).
+RN   [30]
+RP   PHOSPHORYLATION OF XRCC4.
+RX   MEDLINE=22397538; PubMed=12509254; DOI=10.1016/S1568-7864(01)00018-0;
+RA   Hsu H.-L., Yannone S.M., Chen D.J.;
+RT   "Defining interactions between DNA-PK and ligase IV/XRCC4.";
+RL   DNA Repair 1:225-235(2002).
+RN   [31]
+RP   MASS SPECTROMETRY, PHOSPHORYLATION AT THR-2609, MUTAGENESIS OF
+RP   THR-2609, AND SUBCELLULAR LOCATION.
+RX   PubMed=12231622; DOI=10.1101/gad.1015202;
+RA   Chan D.W., Chen B.P., Prithivirajsingh S., Kurimasa A., Story M.D.,
+RA   Qin J., Chen D.J.;
+RT   "Autophosphorylation of the DNA-dependent protein kinase catalytic
+RT   subunit is required for rejoining of DNA double-strand breaks.";
+RL   Genes Dev. 16:2333-2338(2002).
+RN   [32]
+RP   PHOSPHORYLATION OF WRN.
+RX   PubMed=11889123; DOI=10.1074/jbc.M111523200;
+RA   Karmakar P., Piotrowski J., Brosh R.M. Jr., Sommers J.A., Miller S.P.,
+RA   Cheng W.H., Snowden C.M., Ramsden D.A., Bohr V.A.;
+RT   "Werner protein is a target of DNA-dependent protein kinase in vivo
+RT   and in vitro, and its catalytic activities are regulated by
+RT   phosphorylation.";
+RL   J. Biol. Chem. 277:18291-18302(2002).
+RN   [33]
+RP   FUNCTION, AND MUTAGENESIS OF THR-2638 AND THR-2647.
+RX   PubMed=12649176;
+RA   Soubeyrand S., Pope L., Pakuts B., Hache R.J.;
+RT   "Threonines 2638/2647 in DNA-PK are essential for cellular resistance
+RT   to ionizing radiation.";
+RL   Cancer Res. 63:1198-1201(2003).
+RN   [34]
+RP   PHOSPHORYLATION OF POU2F1.
+RX   PubMed=14612514;
+RA   Schild-Poulter C., Shih A., Yarymowich N.C., Hache R.J.G.;
+RT   "Down-regulation of histone H2B by DNA-dependent protein kinase in
+RT   response to DNA damage through modulation of octamer transcription
+RT   factor 1.";
+RL   Cancer Res. 63:7197-7205(2003).
+RN   [35]
+RP   PHOSPHORYLATION OF H2AFX.
+RX   PubMed=14627815; DOI=10.1093/nar/gkg921;
+RA   Park E.-J., Chan D.W., Park J.-H., Oettinger M.A., Kwon J.;
+RT   "DNA-PK is activated by nucleosomes and phosphorylates H2AX within the
+RT   nucleosomes in an acetylation-dependent manner.";
+RL   Nucleic Acids Res. 31:6819-6827(2003).
+RN   [36]
+RP   INTERACTION WITH DCLRE1C.
+RX   PubMed=15071507; DOI=10.1038/sj.emboj.7600206;
+RA   Pannicke U., Ma Y., Hopfner K.-P., Niewolik D., Lieber M.R.,
+RA   Schwarz K.;
+RT   "Functional and biochemical dissection of the structure-specific
+RT   nuclease ARTEMIS.";
+RL   EMBO J. 23:1987-1997(2004).
+RN   [37]
+RP   INTERACTION WITH DCLRE1C.
+RX   PubMed=14744996; DOI=10.1084/jem.20031142;
+RA   Poinsignon C., Moshous D., Callebaut I., de Chasseval R., Villey I.,
+RA   de Villartay J.-P.;
+RT   "The metallo-beta-lactamase/beta-CASP domain of Artemis constitutes
+RT   the catalytic core for V(D)J recombination.";
+RL   J. Exp. Med. 199:315-321(2004).
+RN   [38]
+RP   FUNCTION, AND INTERACTION WITH DCLRE1C.
+RX   PubMed=15574326; DOI=10.1016/j.molcel.2004.11.017;
+RA   Ma Y., Lu H., Tippin B., Goodman M.F., Shimazaki N., Koiwai O.,
+RA   Hsieh C.-L., Schwarz K., Lieber M.R.;
+RT   "A biochemically defined system for mammalian nonhomologous DNA end
+RT   joining.";
+RL   Mol. Cell 16:701-713(2004).
+RN   [39]
+RP   INTERACTION WITH DCLRE1C.
+RX   PubMed=15456891; DOI=10.1128/MCB.24.20.9207-9220.2004;
+RA   Zhang X., Succi J., Feng Z., Prithivirajsingh S., Story M.D.,
+RA   Legerski R.J.;
+RT   "Artemis is a phosphorylation target of ATM and ATR and is involved in
+RT   the G2/M DNA damage checkpoint response.";
+RL   Mol. Cell. Biol. 24:9207-9220(2004).
+RN   [40]
+RP   PHOSPHORYLATION OF DHX9.
+RX   PubMed=14704337; DOI=10.1093/nar/gkg933;
+RA   Zhang S., Schlott B., Goerlach M., Grosse F.;
+RT   "DNA-dependent protein kinase (DNA-PK) phosphorylates nuclear DNA
+RT   helicase II/RNA helicase A and hnRNP proteins in an RNA-dependent
+RT   manner.";
+RL   Nucleic Acids Res. 32:1-10(2004).
+RN   [41]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-3205, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=15302935; DOI=10.1073/pnas.0404720101;
+RA   Beausoleil S.A., Jedrychowski M., Schwartz D., Elias J.E., Villen J.,
+RA   Li J., Cohn M.A., Cantley L.C., Gygi S.P.;
+RT   "Large-scale characterization of HeLa cell nuclear phosphoproteins.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:12130-12135(2004).
+RN   [42]
+RP   PHOSPHORYLATION OF H2AFX.
+RX   PubMed=16046194; DOI=10.1016/j.dnarep.2005.06.005;
+RA   Reitsema T., Klokov D., Banath J.P., Olive P.L.;
+RT   "DNA-PK is responsible for enhanced phosphorylation of histone H2AX
+RT   under hypertonic conditions.";
+RL   DNA Repair 4:1172-1181(2005).
+RN   [43]
+RP   INTERACTION WITH DCLRE1C.
+RX   PubMed=15811628; DOI=10.1016/j.dnarep.2005.02.001;
+RA   Wang J., Pluth J.M., Cooper P.K., Cowan M.J., Chen D.J., Yannone S.M.;
+RT   "Artemis deficiency confers a DNA double-strand break repair defect
+RT   and Artemis phosphorylation status is altered by DNA damage and cell
+RT   cycle progression.";
+RL   DNA Repair 4:556-570(2005).
+RN   [44]
+RP   INTERACTION WITH DCLRE1C.
+RX   PubMed=15936993; DOI=10.1016/j.dnarep.2005.04.013;
+RA   Ma Y., Schwarz K., Lieber M.R.;
+RT   "The Artemis:DNA-PKcs endonuclease cleaves DNA loops, flaps, and
+RT   gaps.";
+RL   DNA Repair 4:845-851(2005).
+RN   [45]
+RP   INTERACTION WITH XRCC5.
+RX   PubMed=15758953; DOI=10.1038/nature03442;
+RA   Falck J., Coates J., Jackson S.P.;
+RT   "Conserved modes of recruitment of ATM, ATR and DNA-PKcs to sites of
+RT   DNA damage.";
+RL   Nature 434:605-611(2005).
+RN   [46]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-3205, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=17081983; DOI=10.1016/j.cell.2006.09.026;
+RA   Olsen J.V., Blagoev B., Gnad F., Macek B., Kumar C., Mortensen P.,
+RA   Mann M.;
+RT   "Global, in vivo, and site-specific phosphorylation dynamics in
+RT   signaling networks.";
+RL   Cell 127:635-648(2006).
+RN   [47]
+RP   PHOSPHORYLATION OF XRCC1.
+RX   PubMed=16397295; DOI=10.1093/nar/gkj409;
+RA   Levy N., Martz A., Bresson A., Spenlehauer C., de Murcia G.,
+RA   Menissier-de Murcia J.;
+RT   "XRCC1 is phosphorylated by DNA-dependent protein kinase in response
+RT   to DNA damage.";
+RL   Nucleic Acids Res. 34:32-41(2006).
+RN   [48]
+RP   REVIEW.
+RX   PubMed=15592499; DOI=10.1038/sj.onc.1208332;
+RA   Collis S.J., DeWeese T.L., Jeggo P.A., Parker A.R.;
+RT   "The life and death of DNA-PK.";
+RL   Oncogene 24:949-961(2005).
+RN   [49]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-2603; THR-2609;
+RP   SER-2612; THR-2638; THR-2647 AND THR-2649, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix adenocarcinoma;
+RX   PubMed=16565220; DOI=10.1073/pnas.0507066103;
+RA   Nousiainen M., Sillje H.H.W., Sauer G., Nigg E.A., Koerner R.;
+RT   "Phosphoproteome analysis of the human mitotic spindle.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:5391-5396(2006).
+RN   [50]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-2743, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Lung carcinoma;
+RX   PubMed=18083107; DOI=10.1016/j.cell.2007.11.025;
+RA   Rikova K., Guo A., Zeng Q., Possemato A., Yu J., Haack H., Nardone J.,
+RA   Lee K., Reeves C., Li Y., Hu Y., Tan Z., Stokes M., Sullivan L.,
+RA   Mitchell J., Wetzel R., Macneill J., Ren J.M., Yuan J.,
+RA   Bakalarski C.E., Villen J., Kornhauser J.M., Smith B., Li D., Zhou X.,
+RA   Gygi S.P., Gu T.-L., Polakiewicz R.D., Rush J., Comb M.J.;
+RT   "Global survey of phosphotyrosine signaling identifies oncogenic
+RT   kinases in lung cancer.";
+RL   Cell 131:1190-1203(2007).
+RN   [51]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-2612; THR-2638 AND
+RP   THR-2647, AND MASS SPECTROMETRY.
+RC   TISSUE=Embryonic kidney;
+RX   PubMed=17525332; DOI=10.1126/science.1140321;
+RA   Matsuoka S., Ballif B.A., Smogorzewska A., McDonald E.R. III,
+RA   Hurov K.E., Luo J., Bakalarski C.E., Zhao Z., Solimini N.,
+RA   Lerenthal Y., Shiloh Y., Gygi S.P., Elledge S.J.;
+RT   "ATM and ATR substrate analysis reveals extensive protein networks
+RT   responsive to DNA damage.";
+RL   Science 316:1160-1166(2007).
+RN   [52]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-1052; SER-2117; SER-3205
+RP   AND SER-4026, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [53]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-893; SER-3205 AND
+RP   SER-4026, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [54]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RA   Colinge J., Superti-Furga G., Bennett K.L.;
+RL   Submitted (OCT-2008) to UniProtKB.
+RN   [55]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT ALA-2, AND MASS SPECTROMETRY.
+RC   TISSUE=Embryonic kidney;
+RX   PubMed=19413330; DOI=10.1021/ac9004309;
+RA   Gauci S., Helbig A.O., Slijper M., Krijgsveld J., Heck A.J.,
+RA   Mohammed S.;
+RT   "Lys-N and trypsin cover complementary parts of the phosphoproteome in
+RT   a refined SCX-based approach.";
+RL   Anal. Chem. 81:4493-4501(2009).
+RN   [56]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-511; SER-841; SER-893;
+RP   SER-2612; THR-2671; SER-2672; SER-3205 AND SER-4026, AND MASS
+RP   SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [57]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-3205, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=19690332; DOI=10.1126/scisignal.2000007;
+RA   Mayya V., Lundgren D.H., Hwang S.-I., Rezaul K., Wu L., Eng J.K.,
+RA   Rodionov V., Han D.K.;
+RT   "Quantitative phosphoproteomic analysis of T cell receptor signaling
+RT   reveals system-wide modulation of protein-protein interactions.";
+RL   Sci. Signal. 2:RA46-RA46(2009).
+RN   [58]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT LYS-117; LYS-254; LYS-828;
+RP   LYS-832; LYS-1057; LYS-1209; LYS-1970; LYS-2259; LYS-3241; LYS-3260;
+RP   LYS-3608; LYS-3621; LYS-3638 AND LYS-3642, AND MASS SPECTROMETRY.
+RX   PubMed=19608861; DOI=10.1126/science.1175371;
+RA   Choudhary C., Kumar C., Gnad F., Nielsen M.L., Rehman M., Walther T.,
+RA   Olsen J.V., Mann M.;
+RT   "Lysine acetylation targets protein complexes and co-regulates major
+RT   cellular functions.";
+RL   Science 325:834-840(2009).
+RN   [59]
+RP   INTERACTION WITH TELO2 AND TTI1.
+RX   PubMed=20427287; DOI=10.1074/jbc.M110.121699;
+RA   Kaizuka T., Hara T., Oshiro N., Kikkawa U., Yonezawa K., Takehana K.,
+RA   Iemura S., Natsume T., Mizushima N.;
+RT   "Tti1 and Tel2 are critical factors in mammalian target of rapamycin
+RT   complex assembly.";
+RL   J. Biol. Chem. 285:20109-20116(2010).
+RN   [60]
+RP   VARIANTS [LARGE SCALE ANALYSIS] SER-6; ASN-263; ILE-333; ILE-420;
+RP   SER-500; SER-605; LEU-649; SER-695; HIS-1136; VAL-1190; THR-1237;
+RP   PHE-1279; MET-1447; GLY-1619; VAL-1680; VAL-1680; PRO-2023; GLN-2598;
+RP   ASN-2810; CYS-2899; ALA-2941; ASP-3085; ASP-3149; SER-3198; SER-3201;
+RP   GLU-3404; THR-3434; MET-3562; PHE-3584; ILE-3800; LEU-3836; SER-3936
+RP   AND MET-3937.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Serine/threonine-protein kinase that acts as a molecular
+CC       sensor for DNA damage. Involved in DNA nonhomologous end joining
+CC       (NHEJ) required for double-strand break (DSB) repair and V(D)J
+CC       recombination. Must be bound to DNA to express its catalytic
+CC       properties. Promotes processing of hairpin DNA structures in V(D)J
+CC       recombination by activation of the hairpin endonuclease artemis
+CC       (DCLRE1C). The assembly of the DNA-PK complex at DNA ends is also
+CC       required for the NHEJ ligation step. Required to protect and align
+CC       broken ends of DNA. May also act as a scaffold protein to aid the
+CC       localization of DNA repair proteins to the site of damage. Found
+CC       at the ends of chromosomes, suggesting a further role in the
+CC       maintenance of telomeric stability and the prevention of
+CC       chromosomal end fusion. Also involved in modulation of
+CC       transcription. Recognizes the substrate consensus sequence [ST]-Q.
+CC       Phosphorylates 'Ser-139' of histone variant H2AX/H2AFX, thereby
+CC       regulating DNA damage response mechanism. Phosphorylates DCLRE1C,
+CC       c-Abl/ABL1, histone H1, HSPCA, c-jun/JUN, p53/TP53, PARP1, POU2F1,
+CC       DHX9, SRF, XRCC1, XRCC1, XRCC4, XRCC5, XRCC6, WRN, MYC and RFA2.
+CC       Can phosphorylate C1D not only in the presence of linear DNA but
+CC       also in the presence of supercoiled DNA. Ability to phosphorylate
+CC       TP53/p53 in the presence of supercoiled DNA is dependent on C1D.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- ENZYME REGULATION: Inhibited by wortmannin. Activity of the enzyme
+CC       seems to be attenuated by autophosphorylation.
+CC   -!- SUBUNIT: DNA-PK is a heterotrimer of PRKDC and the Ku p70-p86
+CC       (XRCC6-XRCC5) dimer. Formation of this complex may be promoted by
+CC       interaction with ILF3. Associates with the DNA-bound Ku
+CC       heterodimer, but it can also bind to and be activated by free DNA.
+CC       Interacts with DNA-PKcs-interacting protein (KIP) with the region
+CC       upstream the kinase domain. PRKDC alone also interacts with and
+CC       phosphorylates DCLRE1C, thereby activating the latent endonuclease
+CC       activity of this protein. Interacts with C1D. Interacts with TTI1
+CC       and TELO2.
+CC   -!- INTERACTION:
+CC       O43918:AIRE; NbExp=1; IntAct=EBI-352053, EBI-1753081;
+CC       P42575:CASP2; NbExp=2; IntAct=EBI-352053, EBI-520342;
+CC       P09629:HOXB7; NbExp=1; IntAct=EBI-352053, EBI-1248457;
+CC       Q9HB75:LRDD; NbExp=5; IntAct=EBI-352053, EBI-520427;
+CC   -!- SUBCELLULAR LOCATION: Nucleus.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=P78527-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=P78527-2; Sequence=VSP_004708;
+CC   -!- PTM: Phosphorylated upon DNA damage, probably by ATM or ATR.
+CC       Autophosphorylated on Thr-2609, Thr-2638 and Thr-2647. Thr-2609 is
+CC       a DNA damage-inducible phosphorylation site (inducible with
+CC       ionizing radiation, IR). Autophosphorylation induces a
+CC       conformational change that leads to remodeling of the DNA-PK
+CC       complex, requisite for efficient end processing and DNA repair.
+CC   -!- SIMILARITY: Belongs to the PI3/PI4-kinase family.
+CC   -!- SIMILARITY: Contains 1 FAT domain.
+CC   -!- SIMILARITY: Contains 1 FATC domain.
+CC   -!- SIMILARITY: Contains 2 HEAT repeats.
+CC   -!- SIMILARITY: Contains 1 PI3K/PI4K domain.
+CC   -!- SIMILARITY: Contains 3 TPR repeats.
+CC   -!- WEB RESOURCE: Name=NIEHS-SNPs;
+CC       URL="http://egp.gs.washington.edu/data/prkdc/";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U47077; AAB39925.5; -; mRNA.
+DR   EMBL; U34994; AAC50210.3; -; mRNA.
+DR   EMBL; AY316117; AAP69525.1; -; Genomic_DNA.
+DR   EMBL; U63630; AAC52019.2; -; Genomic_DNA.
+DR   EMBL; U90415; AAB51722.1; -; Genomic_DNA.
+DR   EMBL; L27425; AAA79244.1; -; Genomic_DNA.
+DR   EMBL; AB052953; BAB79635.1; -; Genomic_DNA.
+DR   EMBL; U35835; AAA79184.1; -; mRNA.
+DR   EMBL; AY030284; AAK40350.1; -; Genomic_DNA.
+DR   EMBL; AB208860; BAD92097.1; -; mRNA.
+DR   IPI; IPI00296337; -.
+DR   IPI; IPI00376215; -.
+DR   PIR; A57099; A57099.
+DR   PIR; G02083; G02083.
+DR   RefSeq; NP_001075109.1; -.
+DR   RefSeq; NP_008835.5; -.
+DR   UniGene; Hs.491682; -.
+DR   ProteinModelPortal; P78527; -.
+DR   SMR; P78527; 3716-4006.
+DR   DIP; DIP-24186N; -.
+DR   IntAct; P78527; 78.
+DR   MINT; MINT-5006046; -.
+DR   STRING; P78527; -.
+DR   PhosphoSite; P78527; -.
+DR   SWISS-2DPAGE; P78527; -.
+DR   PRIDE; P78527; -.
+DR   Ensembl; ENST00000314191; ENSP00000313420; ENSG00000121031.
+DR   GeneID; 5591; -.
+DR   KEGG; hsa:5591; -.
+DR   CTD; 5591; -.
+DR   GeneCards; GC08M048685; -.
+DR   H-InvDB; HIX0017562; -.
+DR   HGNC; HGNC:9413; PRKDC.
+DR   HPA; CAB005167; -.
+DR   MIM; 600899; gene.
+DR   PharmGKB; PA33776; -.
+DR   eggNOG; prNOG10627; -.
+DR   HOVERGEN; HBG053681; -.
+DR   InParanoid; P78527; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   Pathway_Interaction_DB; bard1pathway; BARD1 signaling events.
+DR   Pathway_Interaction_DB; pi3kciaktpathway; Class I PI3K signaling events mediated by Akt.
+DR   Pathway_Interaction_DB; ar_pathway; Coregulation of Androgen receptor activity.
+DR   Pathway_Interaction_DB; faspathway; FAS signaling pathway (CD95).
+DR   Reactome; REACT_216; DNA Repair.
+DR   NextBio; 21692; -.
+DR   ArrayExpress; P78527; -.
+DR   Bgee; P78527; -.
+DR   Genevestigator; P78527; -.
+DR   GermOnline; ENSG00000121031; Homo sapiens.
+DR   GO; GO:0005958; C:DNA-dependent protein kinase-DNA ligase 4 c...; IDA:MGI.
+DR   GO; GO:0005667; C:transcription factor complex; IDA:BHF-UCL.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004677; F:DNA-dependent protein kinase activity; IDA:MGI.
+DR   GO; GO:0008134; F:transcription factor binding; IPI:BHF-UCL.
+DR   GO; GO:0032869; P:cellular response to insulin stimulus; IMP:BHF-UCL.
+DR   GO; GO:0006303; P:double-strand break repair via nonhomologou...; IEA:InterPro.
+DR   GO; GO:0018105; P:peptidyl-serine phosphorylation; IDA:BHF-UCL.
+DR   GO; GO:0010552; P:positive regulation of gene-specific transc...; IMP:BHF-UCL.
+DR   InterPro; IPR011989; ARM-like.
+DR   InterPro; IPR016024; ARM-type_fold.
+DR   InterPro; IPR003152; FATC.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR012582; NUC194.
+DR   InterPro; IPR000403; PI3/4_kinase_cat.
+DR   InterPro; IPR018936; PI3/4_kinase_CS.
+DR   InterPro; IPR003151; PIK-rel_kinase_FAT.
+DR   InterPro; IPR014009; PIK_FAT.
+DR   Gene3D; G3DSA:1.25.10.10; ARM-like; 6.
+DR   Gene3D; G3DSA:1.10.1070.11; PI3/4_kinase_cat; 3.
+DR   Pfam; PF02259; FAT; 1.
+DR   Pfam; PF02260; FATC; 1.
+DR   Pfam; PF08163; NUC194; 1.
+DR   Pfam; PF00454; PI3_PI4_kinase; 1.
+DR   SMART; SM00146; PI3Kc; 1.
+DR   SUPFAM; SSF48371; ARM-type_fold; 3.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS51189; FAT; 1.
+DR   PROSITE; PS51190; FATC; 1.
+DR   PROSITE; PS50077; HEAT_REPEAT; FALSE_NEG.
+DR   PROSITE; PS00915; PI3_4_KINASE_1; 1.
+DR   PROSITE; PS00916; PI3_4_KINASE_2; 1.
+DR   PROSITE; PS50290; PI3_4_KINASE_3; 1.
+DR   PROSITE; PS50005; TPR; FALSE_NEG.
+DR   PROSITE; PS50293; TPR_REGION; FALSE_NEG.
+PE   1: Evidence at protein level;
+KW   Acetylation; Alternative splicing; ATP-binding; Complete proteome;
+KW   DNA damage; DNA recombination; DNA repair; DNA-binding; Kinase;
+KW   Nucleotide-binding; Nucleus; Phosphoprotein; Polymorphism; Repeat;
+KW   Serine/threonine-protein kinase; TPR repeat; Transferase.
+FT   INIT_MET      1      1       Removed.
+FT   CHAIN         2   4128       DNA-dependent protein kinase catalytic
+FT                                subunit.
+FT                                /FTId=PRO_0000225598.
+FT   REPEAT      288    323       HEAT 1.
+FT   REPEAT     1004   1040       HEAT 2.
+FT   DOMAIN     1503   1538       Leucine-zipper.
+FT   REPEAT     1723   1756       TPR 1.
+FT   DOMAIN     2883   3539       FAT.
+FT   REPEAT     2920   2948       TPR 2.
+FT   REPEAT     2949   2982       TPR 3.
+FT   DOMAIN     3747   4015       PI3K/PI4K.
+FT   DOMAIN     4096   4128       FATC.
+FT   REGION     1503   1538       Interaction with C1D.
+FT   REGION     2436   3212       KIP-binding.
+FT   SITE       2020   2021       Cleavage; by caspase-3 (Probable).
+FT   MOD_RES       2      2       N-acetylalanine.
+FT   MOD_RES     117    117       N6-acetyllysine.
+FT   MOD_RES     254    254       N6-acetyllysine.
+FT   MOD_RES     511    511       Phosphoserine.
+FT   MOD_RES     828    828       N6-acetyllysine.
+FT   MOD_RES     832    832       N6-acetyllysine.
+FT   MOD_RES     841    841       Phosphoserine.
+FT   MOD_RES     893    893       Phosphoserine.
+FT   MOD_RES    1052   1052       Phosphoserine.
+FT   MOD_RES    1057   1057       N6-acetyllysine.
+FT   MOD_RES    1209   1209       N6-acetyllysine.
+FT   MOD_RES    1970   1970       N6-acetyllysine.
+FT   MOD_RES    2117   2117       Phosphoserine.
+FT   MOD_RES    2259   2259       N6-acetyllysine.
+FT   MOD_RES    2603   2603       Phosphothreonine.
+FT   MOD_RES    2609   2609       Phosphothreonine; by autocatalysis.
+FT   MOD_RES    2612   2612       Phosphoserine; by autocatalysis.
+FT   MOD_RES    2638   2638       Phosphothreonine; by autocatalysis.
+FT   MOD_RES    2647   2647       Phosphothreonine; by autocatalysis.
+FT   MOD_RES    2649   2649       Phosphothreonine.
+FT   MOD_RES    2671   2671       Phosphothreonine.
+FT   MOD_RES    2672   2672       Phosphoserine.
+FT   MOD_RES    2743   2743       Phosphotyrosine.
+FT   MOD_RES    3205   3205       Phosphoserine.
+FT   MOD_RES    3241   3241       N6-acetyllysine.
+FT   MOD_RES    3260   3260       N6-acetyllysine.
+FT   MOD_RES    3608   3608       N6-acetyllysine.
+FT   MOD_RES    3621   3621       N6-acetyllysine.
+FT   MOD_RES    3638   3638       N6-acetyllysine.
+FT   MOD_RES    3642   3642       N6-acetyllysine.
+FT   MOD_RES    4026   4026       Phosphoserine.
+FT   VAR_SEQ    3799   3829       Missing (in isoform 2).
+FT                                /FTId=VSP_004708.
+FT   VARIANT       6      6       A -> S (in dbSNP:rs8177999).
+FT                                /FTId=VAR_019179.
+FT   VARIANT     263    263       K -> N (in a lung adenocarcinoma sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_041602.
+FT   VARIANT     333    333       M -> I (in dbSNP:rs8178017).
+FT                                /FTId=VAR_019180.
+FT   VARIANT     420    420       V -> I (in dbSNP:rs55925466).
+FT                                /FTId=VAR_041603.
+FT   VARIANT     500    500       G -> S (in a metastatic melanoma sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_041604.
+FT   VARIANT     605    605       T -> S (in dbSNP:rs8178033).
+FT                                /FTId=VAR_019181.
+FT   VARIANT     649    649       F -> L (in dbSNP:rs55811715).
+FT                                /FTId=VAR_041605.
+FT   VARIANT     680    680       I -> M (in dbSNP:rs8178040).
+FT                                /FTId=VAR_019182.
+FT   VARIANT     695    695       P -> S (in dbSNP:rs8178046).
+FT                                /FTId=VAR_019183.
+FT   VARIANT    1071   1071       N -> S (in dbSNP:rs8178070).
+FT                                /FTId=VAR_019184.
+FT   VARIANT    1136   1136       R -> H (in a colorectal adenocarcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_041606.
+FT   VARIANT    1190   1190       L -> V (in dbSNP:rs34598508).
+FT                                /FTId=VAR_041607.
+FT   VARIANT    1237   1237       A -> T.
+FT                                /FTId=VAR_041608.
+FT   VARIANT    1279   1279       L -> F.
+FT                                /FTId=VAR_041609.
+FT   VARIANT    1314   1314       G -> V (in dbSNP:rs8178090).
+FT                                /FTId=VAR_019185.
+FT   VARIANT    1447   1447       R -> M (in a lung squamous cell carcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_041610.
+FT   VARIANT    1588   1588       D -> V (in dbSNP:rs8178104).
+FT                                /FTId=VAR_019186.
+FT   VARIANT    1603   1603       Q -> H (in dbSNP:rs8178106).
+FT                                /FTId=VAR_019187.
+FT   VARIANT    1619   1619       A -> G (in dbSNP:rs56182356).
+FT                                /FTId=VAR_041611.
+FT   VARIANT    1680   1680       A -> V (in a metastatic melanoma sample;
+FT                                somatic mutation; dbSNP:rs55735910).
+FT                                /FTId=VAR_041612.
+FT   VARIANT    2023   2023       S -> P (in dbSNP:rs56042895).
+FT                                /FTId=VAR_041613.
+FT   VARIANT    2095   2095       A -> V (in dbSNP:rs8178147).
+FT                                /FTId=VAR_019188.
+FT   VARIANT    2598   2598       R -> Q (in dbSNP:rs55923149).
+FT                                /FTId=VAR_041614.
+FT   VARIANT    2702   2702       K -> E (in dbSNP:rs8178178).
+FT                                /FTId=VAR_019189.
+FT   VARIANT    2810   2810       S -> N (in a metastatic melanoma sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_041615.
+FT   VARIANT    2899   2899       R -> C (in dbSNP:rs4278157).
+FT                                /FTId=VAR_019190.
+FT   VARIANT    2941   2941       G -> A (in a lung neuroendocrine
+FT                                carcinoma sample; somatic mutation).
+FT                                /FTId=VAR_041616.
+FT   VARIANT    3085   3085       E -> D (in dbSNP:rs56135402).
+FT                                /FTId=VAR_041617.
+FT   VARIANT    3149   3149       G -> D (in dbSNP:rs8178208).
+FT                                /FTId=VAR_019191.
+FT   VARIANT    3198   3198       T -> S (in dbSNP:rs55793951).
+FT                                /FTId=VAR_041618.
+FT   VARIANT    3201   3201       P -> S (in dbSNP:rs8178216).
+FT                                /FTId=VAR_019192.
+FT   VARIANT    3404   3404       G -> E (in dbSNP:rs8178225).
+FT                                /FTId=VAR_019193.
+FT   VARIANT    3434   3434       I -> T (in dbSNP:rs7830743).
+FT                                /FTId=VAR_019194.
+FT   VARIANT    3459   3459       N -> S (in dbSNP:rs8178228).
+FT                                /FTId=VAR_019195.
+FT   VARIANT    3562   3562       L -> M (in dbSNP:rs8178232).
+FT                                /FTId=VAR_019196.
+FT   VARIANT    3584   3584       L -> F.
+FT                                /FTId=VAR_041619.
+FT   VARIANT    3702   3702       P -> L (in dbSNP:rs8178236).
+FT                                /FTId=VAR_050534.
+FT   VARIANT    3800   3800       L -> I.
+FT                                /FTId=VAR_041620.
+FT   VARIANT    3836   3836       P -> L (in dbSNP:rs8178245).
+FT                                /FTId=VAR_019197.
+FT   VARIANT    3932   3932       M -> V.
+FT                                /FTId=VAR_019198.
+FT   VARIANT    3936   3936       G -> S.
+FT                                /FTId=VAR_041621.
+FT   VARIANT    3937   3937       V -> M.
+FT                                /FTId=VAR_041622.
+FT   MUTAGEN    1510   1510       L->P: Loss of interaction with C1D.
+FT   MUTAGEN    1516   1517       EL->PD: Loss of interaction with C1D.
+FT   MUTAGEN    2609   2609       T->A: Leads to radiation sensitivity and
+FT                                impaired DSB joining. Gives rise to
+FT                                reduced phosphorylation; when associated
+FT                                with A-2612.
+FT   MUTAGEN    2612   2612       S->A: Reduced phosphorylation; when
+FT                                associated with A-2609.
+FT   MUTAGEN    2638   2638       T->A: Alleviates phosphorylation, leaves
+FT                                a fully active enzyme with compromised
+FT                                cellular resistance to ionizing radiation
+FT                                without affecting DNA end joining; when
+FT                                associated with A-2647.
+FT   MUTAGEN    2647   2647       T->A: Alleviates phosphorylation, leaves
+FT                                a fully active enzyme with compromised
+FT                                cellular resistance to ionizing radiation
+FT                                without affecting DNA end joining; when
+FT                                associated with A-2638.
+FT   CONFLICT    405    405       D -> Y (in Ref. 2; AAC50210).
+FT   CONFLICT   1008   1008       A -> S (in Ref. 2; AAC50210).
+FT   CONFLICT   3660   3660       N -> T (in Ref. 8).
+FT   CONFLICT   3817   3817       L -> W (in Ref. 8).
+FT   CONFLICT   3862   3862       A -> P (in Ref. 8).
+FT   CONFLICT   4031   4031       I -> V (in Ref. 9).
+SQ   SEQUENCE   4128 AA;  469089 MW;  AC6E747FEB09F3E5 CRC64;
+     MAGSGAGVRC SLLRLQETLS AADRCGAALA GHQLIRGLGQ ECVLSSSPAV LALQTSLVFS
+     RDFGLLVFVR KSLNSIEFRE CREEILKFLC IFLEKMGQKI APYSVEIKNT CTSVYTKDRA
+     AKCKIPALDL LIKLLQTFRS SRLMDEFKIG ELFSKFYGEL ALKKKIPDTV LEKVYELLGL
+     LGEVHPSEMI NNAENLFRAF LGELKTQMTS AVREPKLPVL AGCLKGLSSL LCNFTKSMEE
+     DPQTSREIFN FVLKAIRPQI DLKRYAVPSA GLRLFALHAS QFSTCLLDNY VSLFEVLLKW
+     CAHTNVELKK AALSALESFL KQVSNMVAKN AEMHKNKLQY FMEQFYGIIR NVDSNNKELS
+     IAIRGYGLFA GPCKVINAKD VDFMYVELIQ RCKQMFLTQT DTGDDRVYQM PSFLQSVASV
+     LLYLDTVPEV YTPVLEHLVV MQIDSFPQYS PKMQLVCCRA IVKVFLALAA KGPVLRNCIS
+     TVVHQGLIRI CSKPVVLPKG PESESEDHRA SGEVRTGKWK VPTYKDYVDL FRHLLSSDQM
+     MDSILADEAF FSVNSSSESL NHLLYDEFVK SVLKIVEKLD LTLEIQTVGE QENGDEAPGV
+     WMIPTSDPAA NLHPAKPKDF SAFINLVEFC REILPEKQAE FFEPWVYSFS YELILQSTRL
+     PLISGFYKLL SITVRNAKKI KYFEGVSPKS LKHSPEDPEK YSCFALFVKF GKEVAVKMKQ
+     YKDELLASCL TFLLSLPHNI IELDVRAYVP ALQMAFKLGL SYTPLAEVGL NALEEWSIYI
+     DRHVMQPYYK DILPCLDGYL KTSALSDETK NNWEVSALSR AAQKGFNKVV LKHLKKTKNL
+     SSNEAISLEE IRIRVVQMLG SLGGQINKNL LTVTSSDEMM KSYVAWDREK RLSFAVPFRE
+     MKPVIFLDVF LPRVTELALT ASDRQTKVAA CELLHSMVMF MLGKATQMPE GGQGAPPMYQ
+     LYKRTFPVLL RLACDVDQVT RQLYEPLVMQ LIHWFTNNKK FESQDTVALL EAILDGIVDP
+     VDSTLRDFCG RCIREFLKWS IKQITPQQQE KSPVNTKSLF KRLYSLALHP NAFKRLGASL
+     AFNNIYREFR EEESLVEQFV FEALVIYMES LALAHADEKS LGTIQQCCDA IDHLCRIIEK
+     KHVSLNKAKK RRLPRGFPPS ASLCLLDLVK WLLAHCGRPQ TECRHKSIEL FYKFVPLLPG
+     NRSPNLWLKD VLKEEGVSFL INTFEGGGCG QPSGILAQPT LLYLRGPFSL QATLCWLDLL
+     LAALECYNTF IGERTVGALQ VLGTEAQSSL LKAVAFFLES IAMHDIIAAE KCFGTGAAGN
+     RTSPQEGERY NYSKCTVVVR IMEFTTTLLN TSPEGWKLLK KDLCNTHLMR VLVQTLCEPA
+     SIGFNIGDVQ VMAHLPDVCV NLMKALKMSP YKDILETHLR EKITAQSIEE LCAVNLYGPD
+     AQVDRSRLAA VVSACKQLHR AGLLHNILPS QSTDLHHSVG TELLSLVYKG IAPGDERQCL
+     PSLDLSCKQL ASGLLELAFA FGGLCERLVS LLLNPAVLST ASLGSSQGSV IHFSHGEYFY
+     SLFSETINTE LLKNLDLAVL ELMQSSVDNT KMVSAVLNGM LDQSFRERAN QKHQGLKLAT
+     TILQHWKKCD SWWAKDSPLE TKMAVLALLA KILQIDSSVS FNTSHGSFPE VFTTYISLLA
+     DTKLDLHLKG QAVTLLPFFT SLTGGSLEEL RRVLEQLIVA HFPMQSREFP PGTPRFNNYV
+     DCMKKFLDAL ELSQSPMLLE LMTEVLCREQ QHVMEELFQS SFRRIARRGS CVTQVGLLES
+     VYEMFRKDDP RLSFTRQSFV DRSLLTLLWH CSLDALREFF STIVVDAIDV LKSRFTKLNE
+     STFDTQITKK MGYYKILDVM YSRLPKDDVH AKESKINQVF HGSCITEGNE LTKTLIKLCY
+     DAFTENMAGE NQLLERRRLY HCAAYNCAIS VICCVFNELK FYQGFLFSEK PEKNLLIFEN
+     LIDLKRRYNF PVEVEVPMER KKKYIEIRKE AREAANGDSD GPSYMSSLSY LADSTLSEEM
+     SQFDFSTGVQ SYSYSSQDPR PATGRFRRRE QRDPTVHDDV LELEMDELNR HECMAPLTAL
+     VKHMHRSLGP PQGEEDSVPR DLPSWMKFLH GKLGNPIVPL NIRLFLAKLV INTEEVFRPY
+     AKHWLSPLLQ LAASENNGGE GIHYMVVEIV ATILSWTGLA TPTGVPKDEV LANRLLNFLM
+     KHVFHPKRAV FRHNLEIIKT LVECWKDCLS IPYRLIFEKF SGKDPNSKDN SVGIQLLGIV
+     MANDLPPYDP QCGIQSSEYF QALVNNMSFV RYKEVYAAAA EVLGLILRYV MERKNILEES
+     LCELVAKQLK QHQNTMEDKF IVCLNKVTKS FPPLADRFMN AVFFLLPKFH GVLKTLCLEV
+     VLCRVEGMTE LYFQLKSKDF VQVMRHRDDE RQKVCLDIIY KMMPKLKPVE LRELLNPVVE
+     FVSHPSTTCR EQMYNILMWI HDNYRDPESE TDNDSQEIFK LAKDVLIQGL IDENPGLQLI
+     IRNFWSHETR LPSNTLDRLL ALNSLYSPKI EVHFLSLATN FLLEMTSMSP DYPNPMFEHP
+     LSECEFQEYT IDSDWRFRST VLTPMFVETQ ASQGTLQTRT QEGSLSARWP VAGQIRATQQ
+     QHDFTLTQTA DGRSSFDWLT GSSTDPLVDH TSPSSDSLLF AHKRSERLQR APLKSVGPDF
+     GKKRLGLPGD EVDNKVKGAA GRTDLLRLRR RFMRDQEKLS LMYARKGVAE QKREKEIKSE
+     LKMKQDAQVV LYRSYRHGDL PDIQIKHSSL ITPLQAVAQR DPIIAKQLFS SLFSGILKEM
+     DKFKTLSEKN NITQKLLQDF NRFLNTTFSF FPPFVSCIQD ISCQHAALLS LDPAAVSAGC
+     LASLQQPVGI RLLEEALLRL LPAELPAKRV RGKARLPPDV LRWVELAKLY RSIGEYDVLR
+     GIFTSEIGTK QITQSALLAE ARSDYSEAAK QYDEALNKQD WVDGEPTEAE KDFWELASLD
+     CYNHLAEWKS LEYCSTASID SENPPDLNKI WSEPFYQETY LPYMIRSKLK LLLQGEADQS
+     LLTFIDKAMH GELQKAILEL HYSQELSLLY LLQDDVDRAK YYIQNGIQSF MQNYSSIDVL
+     LHQSRLTKLQ SVQALTEIQE FISFISKQGN LSSQVPLKRL LNTWTNRYPD AKMDPMNIWD
+     DIITNRCFFL SKIEEKLTPL PEDNSMNVDQ DGDPSDRMEV QEQEEDISSL IRSCKFSMKM
+     KMIDSARKQN NFSLAMKLLK ELHKESKTRD DWLVSWVQSY CRLSHCRSRS QGCSEQVLTV
+     LKTVSLLDEN NVSSYLSKNI LAFRDQNILL GTTYRIIANA LSSEPACLAE IEEDKARRIL
+     ELSGSSSEDS EKVIAGLYQR AFQHLSEAVQ AAEEEAQPPS WSCGPAAGVI DAYMTLADFC
+     DQQLRKEEEN ASVIDSAELQ AYPALVVEKM LKALKLNSNE ARLKFPRLLQ IIERYPEETL
+     SLMTKEISSV PCWQFISWIS HMVALLDKDQ AVAVQHSVEE ITDNYPQAIV YPFIISSESY
+     SFKDTSTGHK NKEFVARIKS KLDQGGVIQD FINALDQLSN PELLFKDWSN DVRAELAKTP
+     VNKKNIEKMY ERMYAALGDP KAPGLGAFRR KFIQTFGKEF DKHFGKGGSK LLRMKLSDFN
+     DITNMLLLKM NKDSKPPGNL KECSPWMSDF KVEFLRNELE IPGQYDGRGK PLPEYHVRIA
+     GFDERVTVMA SLRRPKRIII RGHDEREHPF LVKGGEDLRQ DQRVEQLFQV MNGILAQDSA
+     CSQRALQLRT YSVVPMTSRL GLIEWLENTV TLKDLLLNTM SQEEKAAYLS DPRAPPCEYK
+     DWLTKMSGKH DVGAYMLMYK GANRTETVTS FRKRESKVPA DLLKRAFVRM STSPEAFLAL
+     RSHFASSHAL ICISHWILGI GDRHLNNFMV AMETGGVIGI DFGHAFGSAT QFLPVPELMP
+     FRLTRQFINL MLPMKETGLM YSIMVHALRA FRSDPGLLTN TMDVFVKEPS FDWKNFEQKM
+     LKKGGSWIQE INVAEKNWYP RQKICYAKRK LAGANPAVIT CDELLLGHEK APAFRDYVAV
+     ARGSKDHNIR AQEPESGLSE ETQVKCLMDQ ATDPNILGRT WEGWEPWM
+//

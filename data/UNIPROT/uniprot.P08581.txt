@@ -1,0 +1,816 @@
+ID   MET_HUMAN               Reviewed;        1390 AA.
+AC   P08581; O60366; Q12875; Q9UDX7; Q9UPL8;
+DT   01-AUG-1988, integrated into UniProtKB/Swiss-Prot.
+DT   07-JUL-2009, sequence version 4.
+DT   02-NOV-2010, entry version 154.
+DE   RecName: Full=Hepatocyte growth factor receptor;
+DE            Short=HGF receptor;
+DE            EC=2.7.10.1;
+DE   AltName: Full=HGF/SF receptor;
+DE   AltName: Full=Proto-oncogene c-Met;
+DE   AltName: Full=Scatter factor receptor;
+DE            Short=SF receptor;
+DE   AltName: Full=Tyrosine-protein kinase Met;
+DE   Flags: Precursor;
+GN   Name=MET;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2).
+RX   MEDLINE=87317655; PubMed=2819873; DOI=10.1073/pnas.84.18.6379;
+RA   Park M., Dean M., Kaul K., Braun M.J., Gonda M.A., Vande Woude G.;
+RT   "Sequence of MET protooncogene cDNA has features characteristic of the
+RT   tyrosine kinase family of growth-factor receptors.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 84:6379-6383(1987).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RA   Giordano S.;
+RL   Submitted (NOV-1990) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   MEDLINE=22737999; PubMed=12853948; DOI=10.1038/nature01782;
+RA   Hillier L.W., Fulton R.S., Fulton L.A., Graves T.A., Pepin K.H.,
+RA   Wagner-McPherson C., Layman D., Maas J., Jaeger S., Walker R.,
+RA   Wylie K., Sekhon M., Becker M.C., O'Laughlin M.D., Schaller M.E.,
+RA   Fewell G.A., Delehaunty K.D., Miner T.L., Nash W.E., Cordes M., Du H.,
+RA   Sun H., Edwards J., Bradshaw-Cordum H., Ali J., Andrews S., Isak A.,
+RA   Vanbrunt A., Nguyen C., Du F., Lamar B., Courtney L., Kalicki J.,
+RA   Ozersky P., Bielicki L., Scott K., Holmes A., Harkins R., Harris A.,
+RA   Strong C.M., Hou S., Tomlinson C., Dauphin-Kohlberg S.,
+RA   Kozlowicz-Reilly A., Leonard S., Rohlfing T., Rock S.M.,
+RA   Tin-Wollam A.-M., Abbott A., Minx P., Maupin R., Strowmatt C.,
+RA   Latreille P., Miller N., Johnson D., Murray J., Woessner J.P.,
+RA   Wendl M.C., Yang S.-P., Schultz B.R., Wallis J.W., Spieth J.,
+RA   Bieri T.A., Nelson J.O., Berkowicz N., Wohldmann P.E., Cook L.L.,
+RA   Hickenbotham M.T., Eldred J., Williams D., Bedell J.A., Mardis E.R.,
+RA   Clifton S.W., Chissoe S.L., Marra M.A., Raymond C., Haugen E.,
+RA   Gillett W., Zhou Y., James R., Phelps K., Iadanoto S., Bubb K.,
+RA   Simms E., Levy R., Clendenning J., Kaul R., Kent W.J., Furey T.S.,
+RA   Baertsch R.A., Brent M.R., Keibler E., Flicek P., Bork P., Suyama M.,
+RA   Bailey J.A., Portnoy M.E., Torrents D., Chinwalla A.T., Gish W.R.,
+RA   Eddy S.R., McPherson J.D., Olson M.V., Eichler E.E., Green E.D.,
+RA   Waterston R.H., Wilson R.K.;
+RT   "The DNA sequence of human chromosome 7.";
+RL   Nature 424:157-164(2003).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 1010-1390.
+RX   MEDLINE=88143699; PubMed=3325883;
+RA   Chan A.M.-L., King H.W.S., Tempest P.R., Deakin E.A., Cooper C.S.,
+RA   Brookes P.;
+RT   "Primary structure of the met protein tyrosine kinase domain.";
+RL   Oncogene 1:229-233(1987).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 1206-1264.
+RX   MEDLINE=94067791; PubMed=8247543;
+RA   Lee S.-T., Strunk K.M., Spritz R.A.;
+RT   "A survey of protein tyrosine kinase mRNAs expressed in normal human
+RT   melanocytes.";
+RL   Oncogene 8:3403-3410(1993).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 1267-1390.
+RX   MEDLINE=86065462; PubMed=4069211; DOI=10.1038/318385a0;
+RA   Dean M., Park M., le Beau M.M., Robins T.S., Diaz M.O., Rowley J.D.,
+RA   Blair D.G., Vande Woude G.F.;
+RT   "The human met oncogene is related to the tyrosine kinase oncogenes.";
+RL   Nature 318:385-388(1985).
+RN   [7]
+RP   FUNCTION.
+RX   MEDLINE=91118019; PubMed=1846706; DOI=10.1126/science.1846706;
+RA   Bottaro D.P., Rubin J.S., Faletto D.L., Chan A.M.-L., Kmiecik T.E.,
+RA   Vande Woude G.F., Aaronson S.A.;
+RT   "Identification of the hepatocyte growth factor receptor as the c-met
+RT   proto-oncogene product.";
+RL   Science 251:802-804(1991).
+RN   [8]
+RP   PHOSPHORYLATION AT TYR-1235, AND ATP-BINDING SITE LYS-1110.
+RX   MEDLINE=92011756; PubMed=1655790;
+RA   Ferracini R., Longati P., Naldini L., Vigna E., Comoglio P.M.;
+RT   "Identification of the major autophosphorylation site of the
+RT   Met/hepatocyte growth factor receptor tyrosine kinase.";
+RL   J. Biol. Chem. 266:19558-19564(1991).
+RN   [9]
+RP   INTERACTION WITH GRB10.
+RX   PubMed=10454568;
+RA   Wang J., Dai H., Yousaf N., Moussaif M., Deng Y., Boufelliga A.,
+RA   Swamy O.R., Leone M.E., Riedel H.;
+RT   "Grb10, a positive, stimulatory signaling adapter in platelet-derived
+RT   growth factor BB-, insulin-like growth factor I-, and insulin-mediated
+RT   mitogenesis.";
+RL   Mol. Cell. Biol. 19:6217-6228(1999).
+RN   [10]
+RP   INTERACTION WITH RANBP9.
+RX   PubMed=12147692; DOI=10.1074/jbc.M205111200;
+RA   Wang D., Li Z., Messing E.M., Wu G.;
+RT   "Activation of Ras/Erk pathway by a novel MET-interacting protein
+RT   RanBPM.";
+RL   J. Biol. Chem. 277:36216-36222(2002).
+RN   [11]
+RP   INTERACTION WITH PLXNB1.
+RX   MEDLINE=22194792; PubMed=12198496; DOI=10.1038/ncb843;
+RA   Giordano S., Corso S., Conrotto P., Artigiani S., Gilestro G.,
+RA   Barberis D., Tamagnone L., Comoglio P.M.;
+RT   "The semaphorin 4D receptor controls invasive growth by coupling with
+RT   Met.";
+RL   Nat. Cell Biol. 4:720-724(2002).
+RN   [12]
+RP   INTERACTION WITH RANBP9 AND RANBP10.
+RX   PubMed=14684163; DOI=10.1016/j.bbrc.2003.11.124;
+RA   Wang D., Li Z., Schoen S.R., Messing E.M., Wu G.;
+RT   "A novel MET-interacting protein shares high sequence similarity with
+RT   RanBPM, but fails to stimulate MET-induced Ras/Erk signaling.";
+RL   Biochem. Biophys. Res. Commun. 313:320-326(2004).
+RN   [13]
+RP   FUNCTION, AND INTERACTION WITH MUC20.
+RX   PubMed=15314156; DOI=10.1128/MCB.24.17.7456-7468.2004;
+RA   Higuchi T., Orita T., Katsuya K., Yamasaki Y., Akiyama K., Li H.,
+RA   Yamamoto T., Saito Y., Nakamura M.;
+RT   "MUC20 suppresses the hepatocyte growth factor-induced Grb2-Ras
+RT   pathway by binding to a multifunctional docking site of met.";
+RL   Mol. Cell. Biol. 24:7456-7468(2004).
+RN   [14]
+RP   PHOSPHORYLATION AT TYR-1356, AND INTERACTION WITH INPPL1.
+RX   PubMed=15735664; DOI=10.1038/sj.onc.1208558;
+RA   Koch A., Mancini A., El Bounkari O., Tamura T.;
+RT   "The SH2-domian-containing inositol 5-phosphatase (SHIP)-2 binds to c-
+RT   Met directly via tyrosine residue 1356 and involves hepatocyte growth
+RT   factor (HGF)-induced lamellipodium formation, cell scattering and cell
+RT   spreading.";
+RL   Oncogene 24:3436-3447(2005).
+RN   [15]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-1003; TYR-1230; TYR-1234
+RP   AND TYR-1235, AND MASS SPECTROMETRY.
+RC   TISSUE=Lung carcinoma;
+RX   PubMed=18083107; DOI=10.1016/j.cell.2007.11.025;
+RA   Rikova K., Guo A., Zeng Q., Possemato A., Yu J., Haack H., Nardone J.,
+RA   Lee K., Reeves C., Li Y., Hu Y., Tan Z., Stokes M., Sullivan L.,
+RA   Mitchell J., Wetzel R., Macneill J., Ren J.M., Yuan J.,
+RA   Bakalarski C.E., Villen J., Kornhauser J.M., Smith B., Li D., Zhou X.,
+RA   Gygi S.P., Gu T.-L., Polakiewicz R.D., Rush J., Comb M.J.;
+RT   "Global survey of phosphotyrosine signaling identifies oncogenic
+RT   kinases in lung cancer.";
+RL   Cell 131:1190-1203(2007).
+RN   [16]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-977; SER-988; SER-990
+RP   AND TYR-1003, AND MASS SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=17192257; DOI=10.1074/mcp.T600062-MCP200;
+RA   Wissing J., Jaensch L., Nimtz M., Dieterich G., Hornberger R.,
+RA   Keri G., Wehland J., Daub H.;
+RT   "Proteomics analysis of protein kinases by target class-selective
+RT   prefractionation and tandem mass spectrometry.";
+RL   Mol. Cell. Proteomics 6:537-547(2007).
+RN   [17]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-966; THR-977; SER-988;
+RP   SER-990; SER-997; SER-1000 AND TYR-1003, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [18]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-990; SER-997 AND
+RP   SER-1000, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [19]
+RP   GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-202, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Liver;
+RX   PubMed=19159218; DOI=10.1021/pr8008012;
+RA   Chen R., Jiang X., Sun D., Han G., Wang F., Ye M., Wang L., Zou H.;
+RT   "Glycoproteomics analysis of human liver tissue by combination of
+RT   multiple enzyme digestion and hydrazide chemistry.";
+RL   J. Proteome Res. 8:651-661(2009).
+RN   [20]
+RP   GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-106, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Hepatoma;
+RX   PubMed=19196183; DOI=10.1021/pr800826u;
+RA   Cao J., Shen C., Wang H., Shen H., Chen Y., Nie A., Yan G., Lu H.,
+RA   Liu Y., Yang P.;
+RT   "Identification of N-glycosylation sites on secreted proteins of human
+RT   hepatocellular carcinoma cells with a complementary proteomics
+RT   approach.";
+RL   J. Proteome Res. 8:662-672(2009).
+RN   [21]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-1234, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Mammary epithelium;
+RX   PubMed=19534553; DOI=10.1021/pr900044c;
+RA   Heibeck T.H., Ding S.-J., Opresko L.K., Zhao R., Schepmoes A.A.,
+RA   Yang F., Tolmachev A.V., Monroe M.E., Camp D.G. II, Smith R.D.,
+RA   Wiley H.S., Qian W.-J.;
+RT   "An extensive survey of tyrosine phosphorylation revealing new sites
+RT   in human mammary epithelial cells.";
+RL   J. Proteome Res. 8:3852-3861(2009).
+RN   [22]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-966; THR-977; SER-988;
+RP   SER-990; SER-997; SER-1000; TYR-1003; TYR-1234 AND THR-1289, AND MASS
+RP   SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [23]
+RP   X-RAY CRYSTALLOGRAPHY (2.4 ANGSTROMS) OF 1356-1359 IN COMPLEX WITH
+RP   GRB2.
+RX   MEDLINE=20519033; PubMed=11063574; DOI=10.1021/bi0012336;
+RA   Schiering N., Casale E., Caccia P., Giordano P., Battistini C.;
+RT   "Dimer formation through domain swapping in the crystal structure of
+RT   the Grb2-SH2-Ac-pYVNV complex.";
+RL   Biochemistry 39:13376-13382(2000).
+RN   [24]
+RP   X-RAY CRYSTALLOGRAPHY (1.8 ANGSTROMS) OF 1049-1360 IN COMPLEX WITH
+RP   INHIBITOR.
+RX   MEDLINE=22946179; PubMed=14559966; DOI=10.1073/pnas.1734128100;
+RA   Schiering N., Knapp S., Marconi M., Flocco M.M., Cui J., Perego R.,
+RA   Rusconi L., Cristiani C.;
+RT   "Crystal structure of the tyrosine kinase domain of the hepatocyte
+RT   growth factor receptor c-Met and its complex with the microbial
+RT   alkaloid K-252a.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 100:12654-12659(2003).
+RN   [25]
+RP   VARIANTS HPRC THR-1131; LEU-1188; VAL-1195; ILE-1220; HIS-1228;
+RP   ASN-1228; CYS-1230; HIS-1230 AND THR-1250, AND VARIANT VAL-320.
+RX   MEDLINE=97285124; PubMed=9140397; DOI=10.1038/ng0597-68;
+RA   Schmidt L., Duh F.-M., Chen F., Kishida T., Glenn G., Choyke P.,
+RA   Scherer S.W., Zhuang Z., Lubensky I., Dean M., Allikmets R.,
+RA   Chidambaram A., Bergerheim U.R., Feltis J.T., Casadevall C.,
+RA   Zamarron A., Bernues M., Richard S., Lips C.J.M., Walther M.M.,
+RA   Tsui L.-C., Geil L., Orcutt M.L., Stackhouse T., Lipan J., Slife L.,
+RA   Brauch H., Decker J., Niehans G., Hughson M.D., Moch H., Storkel S.,
+RA   Lerman M.I., Linehan W.M., Zbar B.;
+RT   "Germline and somatic mutations in the tyrosine kinase domain of the
+RT   MET proto-oncogene in papillary renal carcinomas.";
+RL   Nat. Genet. 16:68-73(1997).
+RN   [26]
+RP   VARIANT HPRC ARG-1094, AND CHARACTERIZATION OF VARIANT HPRC ARG-1094.
+RX   PubMed=9563489;
+RA   Schmidt L., Junker K., Weirich G., Glenn G., Choyke P., Lubensky I.,
+RA   Zhuang Z., Jeffers M., Vande Woude G., Neumann H., Walther M.,
+RA   Linehan W.M., Zbar B.;
+RT   "Two North American families with hereditary papillary renal carcinoma
+RT   and identical novel mutations in the MET proto-oncogene.";
+RL   Cancer Res. 58:1719-1722(1998).
+RN   [27]
+RP   VARIANTS HPRC ILE-1092; ARG-1094; ASP-1106; THR-1131; LEU-1188;
+RP   ASP-1230; CYS-1230 AND THR-1250.
+RX   PubMed=10433944;
+RA   Lubensky I.A., Schmidt L., Zhuang Z., Weirich G., Pack S.,
+RA   Zambrano N., Walther M.M., Choyke P., Linehan W.M., Zbar B.;
+RT   "Hereditary and sporadic papillary renal carcinomas with c-met
+RT   mutations share a distinct morphological phenotype.";
+RL   Am. J. Pathol. 155:517-526(1999).
+RN   [28]
+RP   VARIANTS HCC ILE-1173; ARG-1244 AND ILE-1250.
+RX   PubMed=9927037;
+RA   Park W.S., Dong S.M., Kim S.Y., Na E.Y., Shin M.S., Pi J.H., Kim B.J.,
+RA   Bae J.H., Hong Y.K., Lee K.S., Lee S.H., Yoo N.J., Jang J.J., Pack S.,
+RA   Zhuang Z., Schmidt L., Zbar B., Lee J.Y.;
+RT   "Somatic mutations in the kinase domain of the Met/hepatocyte growth
+RT   factor receptor gene in childhood hepatocellular carcinomas.";
+RL   Cancer Res. 59:307-310(1999).
+RN   [29]
+RP   VARIANT HPRC ILE-1092, AND CHARACTERIZATION OF VARIANT HPRC ILE-1092.
+RX   PubMed=10417759;
+RX   DOI=10.1002/(SICI)1097-0215(19990827)82:5<640::AID-IJC4>3.0.CO;2-6;
+RA   Olivero M., Valente G., Bardelli A., Longati P., Ferrero N.,
+RA   Cracco C., Terrone C., Rocca-Rossetti S., Comoglio P.M.,
+RA   Di Renzo M.F.;
+RT   "Novel mutation in the ATP-binding site of the MET oncogene tyrosine
+RT   kinase in a HPRCC family.";
+RL   Int. J. Cancer 82:640-643(1999).
+RN   [30]
+RP   VARIANTS HPRC ILE-1092; LEU-1094; TYR-1094; ASP-1106 AND ASP-1230, AND
+RP   CHARACTERIZATION OF VARIANTS HPRC ILE-1092; LEU-1094; TYR-1094;
+RP   ASP-1106 AND ASP-1230.
+RX   PubMed=10327054; DOI=10.1038/sj.onc.1202547;
+RA   Schmidt L., Junker K., Nakaigawa N., Kinjerski T., Weirich G.,
+RA   Miller M., Lubensky I., Neumann H.P.H., Brauch H., Decker J.,
+RA   Vocke C., Brown J.A., Jenkins R., Richard S., Bergerheim U.,
+RA   Gerrard B., Dean M., Linehan W.M., Zbar B.;
+RT   "Novel mutations of the MET proto-oncogene in papillary renal
+RT   carcinomas.";
+RL   Oncogene 18:2343-2350(1999).
+RN   [31]
+RP   VARIANT GASTRIC CANCER SER-991, VARIANT ILE-992, CHARACTERIZATION OF
+RP   VARIANT GASTRIC CANCER SER-991, AND CHARACTERIZATION OF VARIANT
+RP   ILE-992.
+RX   PubMed=11042681; DOI=10.1038/sj.onc.1203874;
+RA   Lee J.-H., Han S.-U., Cho H., Jennings B., Gerrard B., Dean M.,
+RA   Schmidt L., Zbar B., Vande Woude G.F.V.;
+RT   "A novel germ line juxtamembrane Met mutation in human gastric
+RT   cancer.";
+RL   Oncogene 19:4947-4953(2000).
+RN   [32]
+RP   VARIANT GASTRIC CANCER LEU-773.
+RX   PubMed=12920089; DOI=10.1136/jmg.40.8.e97;
+RA   Kim I.-J., Park J.-H., Kang H.C., Shin Y., Lim S.-B., Ku J.-L.,
+RA   Yang H.-K., Lee K.U., Park J.-G.;
+RT   "A novel germline mutation in the MET extracellular domain in a Korean
+RT   patient with the diffuse type of familial gastric cancer.";
+RL   J. Med. Genet. 40:E97-E97(2003).
+RN   [33]
+RP   INTERACTION WITH SPSB1; SPSB2; SPSB3 AND SPSB4.
+RX   PubMed=15713673; DOI=10.1074/jbc.M413897200;
+RA   Wang D., Li Z., Messing E.M., Wu G.;
+RT   "The SPRY domain-containing SOCS box protein 1 (SSB-1) interacts with
+RT   MET and enhances the hepatocyte growth factor-induced Erk-Elk-1-serum
+RT   response element pathway.";
+RL   J. Biol. Chem. 280:16393-16401(2005).
+RN   [34]
+RP   POSSIBLE INVOLVEMENT IN SUSCEPTIBILITY TO AUTS9, AND VARIANTS CYS-970
+RP   AND ILE-992.
+RX   PubMed=17053076; DOI=10.1073/pnas.0605296103;
+RA   Campbell D.B., Sutcliffe J.S., Ebert P.J., Militerni R., Bravaccio C.,
+RA   Trillo S., Elia M., Schneider C., Melmed R., Sacco R., Persico A.M.,
+RA   Levitt P.;
+RT   "A genetic variant that disrupts MET transcription is associated with
+RT   autism.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:16834-16839(2006).
+RN   [35]
+RP   VARIANTS [LARGE SCALE ANALYSIS] GLN-143; LEU-156; ASP-168; SER-375;
+RP   CYS-970 AND ILE-992.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Receptor for hepatocyte growth factor and scatter
+CC       factor. Has a tyrosine-protein kinase activity. Functions in cell
+CC       proliferation, scattering, morphogenesis and survival.
+CC   -!- CATALYTIC ACTIVITY: ATP + a [protein]-L-tyrosine = ADP + a
+CC       [protein]-L-tyrosine phosphate.
+CC   -!- SUBUNIT: Heterodimer formed of an alpha chain (50 kDa) and a beta
+CC       chain (145 kDa) which are disulfide linked. Binds PLXNB1 and GRB2.
+CC       Interacts with SPSB1, SPSB2 and SPSB4 (By similarity). Interacts
+CC       with INPP5D/SHIP1. When phosphorylated at Tyr-1356, interacts with
+CC       INPPL1/SHIP2. Interacts with RANBP9 and RANBP10, as well as SPSB1,
+CC       SPSB2, SPSB3 and SPSB4. SPSB1 binding occurs in the presence and
+CC       in the absence of HGF, however HGF treatment has a positive effect
+CC       on this interaction. Interacts with MUC20; prevents interaction
+CC       with GRB2 and suppresses hepatocyte growth factor-induced cell
+CC       proliferation. Interacts with GRB10.
+CC   -!- INTERACTION:
+CC       P14210:HGF; NbExp=2; IntAct=EBI-1039152, EBI-1039104;
+CC       P25147:inlB (xeno); NbExp=3; IntAct=EBI-1039152, EBI-1379295;
+CC       O43157:PLXNB1; NbExp=6; IntAct=EBI-1039152, EBI-1111488;
+CC       O15031:PLXNB2; NbExp=2; IntAct=EBI-1039152, EBI-722004;
+CC       Q9ULL4:PLXNB3; NbExp=2; IntAct=EBI-1039152, EBI-311073;
+CC       Q05209:PTPN12; NbExp=1; IntAct=EBI-1039152, EBI-2266035;
+CC       P26045:PTPN3; NbExp=1; IntAct=EBI-1039152, EBI-1047946;
+CC       P08575:PTPRC; NbExp=1; IntAct=EBI-1039152, EBI-1341;
+CC       P23470:PTPRG; NbExp=1; IntAct=EBI-1039152, EBI-2258115;
+CC       Q12913:PTPRJ; NbExp=1; IntAct=EBI-1039152, EBI-2264500;
+CC       Q15262:PTPRK; NbExp=1; IntAct=EBI-1039152, EBI-474052;
+CC       Q16827:PTPRO; NbExp=1; IntAct=EBI-1039152, EBI-723739;
+CC       P63104:YWHAZ; NbExp=1; IntAct=EBI-1039152, EBI-347088;
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type I membrane
+CC       protein.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=P08581-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=P08581-2; Sequence=VSP_005005;
+CC         Note=No experimental confirmation available;
+CC   -!- DOMAIN: The kinase domain is involved in SPSB1 binding.
+CC   -!- DISEASE: Note=Activation of MET after rearrangement with the TPR
+CC       gene produces an oncogenic protein.
+CC   -!- DISEASE: Note=Defects in MET may be associated with gastric
+CC       cancer.
+CC   -!- DISEASE: Defects in MET are a cause of hepatocellular carcinoma
+CC       (HCC) [MIM:114550].
+CC   -!- DISEASE: Defects in MET are a cause of hereditary papillary renal
+CC       carcinoma (HPRC) [MIM:605074]; also known as papillary renal cell
+CC       carcinoma 2 (RCCP2). HPRC is a form of inherited kidney cancer
+CC       characterized by a predisposition to develop multiple, bilateral
+CC       papillary renal tumors. The pattern of inheritance is consistent
+CC       with autosomal dominant transmission with reduced penetrance.
+CC   -!- DISEASE: Note=A common allele in the promoter region of the MET
+CC       shows genetic association with susceptibility to autism in some
+CC       families. Functional assays indicate a decrease in MET promoter
+CC       activity and altered binding of specific transcription factor
+CC       complexes.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Tyr protein
+CC       kinase family.
+CC   -!- SIMILARITY: Contains 3 IPT/TIG domains.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- SIMILARITY: Contains 1 Sema domain.
+CC   -!- WEB RESOURCE: Name=Atlas of Genetics and Cytogenetics in Oncology
+CC       and Haematology;
+CC       URL="http://atlasgeneticsoncology.org/Genes/METID131.html";
+CC   -!- WEB RESOURCE: Name=GeneReviews;
+CC       URL="http://www.ncbi.nlm.nih.gov/sites/GeneTests/lab/gene/MET";
+CC   -!- WEB RESOURCE: Name=Wikipedia; Note=C-MET entry;
+CC       URL="http://en.wikipedia.org/wiki/C-MET";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; J02958; AAA59591.1; -; mRNA.
+DR   EMBL; X54559; CAB56793.1; -; mRNA.
+DR   EMBL; AC002080; AAB54047.1; -; Genomic_DNA.
+DR   EMBL; AC002543; AAC60383.1; -; Genomic_DNA.
+DR   EMBL; AC004416; AAF66137.2; -; Genomic_DNA.
+DR   EMBL; U08818; AAB60323.1; ALT_SEQ; mRNA.
+DR   EMBL; M35074; AAA59590.1; -; mRNA.
+DR   IPI; IPI00029273; -.
+DR   IPI; IPI00294528; -.
+DR   PIR; A40175; TVHUME.
+DR   RefSeq; NP_000236.2; -.
+DR   RefSeq; NP_001120972.1; -.
+DR   UniGene; Hs.132966; -.
+DR   PDB; 1FYR; X-ray; 2.40 A; I/J/K/L=1356-1359.
+DR   PDB; 1R0P; X-ray; 1.80 A; A=1049-1360.
+DR   PDB; 1R1W; X-ray; 1.80 A; A=1049-1360.
+DR   PDB; 1SHY; X-ray; 3.22 A; B=25-567.
+DR   PDB; 1SSL; NMR; -; A=519-562.
+DR   PDB; 1UX3; Model; -; A=25-656.
+DR   PDB; 2G15; X-ray; 2.15 A; A=1038-1346.
+DR   PDB; 2RFN; X-ray; 2.50 A; A/B=1048-1351.
+DR   PDB; 2RFS; X-ray; 2.20 A; A=1048-1351.
+DR   PDB; 2UZX; X-ray; 2.80 A; B/D=25-740.
+DR   PDB; 2UZY; X-ray; 4.00 A; B/D=25-740.
+DR   PDB; 2WD1; X-ray; 2.00 A; A=1055-1346.
+DR   PDB; 2WGJ; X-ray; 2.00 A; A=1051-1348.
+DR   PDB; 2WKM; X-ray; 2.20 A; A=1051-1348.
+DR   PDB; 3A4P; X-ray; 2.54 A; A=1049-1360.
+DR   PDB; 3BUX; X-ray; 1.35 A; A/C=997-1009.
+DR   PDB; 3CE3; X-ray; 2.40 A; A=1049-1360.
+DR   PDB; 3CTH; X-ray; 2.30 A; A=1049-1360.
+DR   PDB; 3CTJ; X-ray; 2.50 A; A=1049-1360.
+DR   PDB; 3DKC; X-ray; 1.52 A; A=1049-1360.
+DR   PDB; 3DKF; X-ray; 1.80 A; A=1049-1360.
+DR   PDB; 3DKG; X-ray; 1.91 A; A=1049-1360.
+DR   PDB; 3EFJ; X-ray; 2.60 A; A/B=1048-1351.
+DR   PDB; 3EFK; X-ray; 2.20 A; A/B=1048-1351.
+DR   PDB; 3F66; X-ray; 1.40 A; A/B=1052-1349.
+DR   PDB; 3F82; X-ray; 2.50 A; A=1049-1360.
+DR   PDB; 3I5N; X-ray; 2.00 A; A=1048-1351.
+DR   PDB; 3L8V; X-ray; 2.40 A; A=1049-1360.
+DR   PDB; 3LQ8; X-ray; 2.02 A; A=1051-1348.
+DR   PDBsum; 1FYR; -.
+DR   PDBsum; 1R0P; -.
+DR   PDBsum; 1R1W; -.
+DR   PDBsum; 1SHY; -.
+DR   PDBsum; 1SSL; -.
+DR   PDBsum; 1UX3; -.
+DR   PDBsum; 2G15; -.
+DR   PDBsum; 2RFN; -.
+DR   PDBsum; 2RFS; -.
+DR   PDBsum; 2UZX; -.
+DR   PDBsum; 2UZY; -.
+DR   PDBsum; 2WD1; -.
+DR   PDBsum; 2WGJ; -.
+DR   PDBsum; 2WKM; -.
+DR   PDBsum; 3A4P; -.
+DR   PDBsum; 3BUX; -.
+DR   PDBsum; 3CE3; -.
+DR   PDBsum; 3CTH; -.
+DR   PDBsum; 3CTJ; -.
+DR   PDBsum; 3DKC; -.
+DR   PDBsum; 3DKF; -.
+DR   PDBsum; 3DKG; -.
+DR   PDBsum; 3EFJ; -.
+DR   PDBsum; 3EFK; -.
+DR   PDBsum; 3F66; -.
+DR   PDBsum; 3F82; -.
+DR   PDBsum; 3I5N; -.
+DR   PDBsum; 3L8V; -.
+DR   PDBsum; 3LQ8; -.
+DR   ProteinModelPortal; P08581; -.
+DR   SMR; P08581; 42-741.
+DR   DisProt; DP00317; -.
+DR   DIP; DIP-6023N; -.
+DR   IntAct; P08581; 25.
+DR   MINT; MINT-137376; -.
+DR   STRING; P08581; -.
+DR   PhosphoSite; P08581; -.
+DR   OGP; P08581; -.
+DR   PRIDE; P08581; -.
+DR   Ensembl; ENST00000397752; ENSP00000380860; ENSG00000105976.
+DR   GeneID; 4233; -.
+DR   KEGG; hsa:4233; -.
+DR   UCSC; uc010lkh.1; human.
+DR   CTD; 4233; -.
+DR   GeneCards; GC07P116312; -.
+DR   HGNC; HGNC:7029; MET.
+DR   HPA; CAB005282; -.
+DR   HPA; CAB018577; -.
+DR   MIM; 114550; phenotype.
+DR   MIM; 164860; gene.
+DR   MIM; 605074; phenotype.
+DR   Orphanet; 106; Autism.
+DR   Orphanet; 47044; Familial papillary renal cell carcinoma.
+DR   Orphanet; 33402; Hepatocellular carcinoma, childhood-onset.
+DR   PharmGKB; PA24993; -.
+DR   HOVERGEN; HBG006348; -.
+DR   OMA; HTPHLDR; -.
+DR   OrthoDB; EOG9NZXD4; -.
+DR   BRENDA; 2.7.10.1; 247.
+DR   Pathway_Interaction_DB; a6b1_a6b4_integrin_pathway; a6b1 and a6b4 Integrin signaling.
+DR   Pathway_Interaction_DB; arf6cyclingpathway; Arf6 signaling events.
+DR   Pathway_Interaction_DB; faspathway; FAS signaling pathway (CD95).
+DR   Pathway_Interaction_DB; fgf_pathway; FGF signaling pathway.
+DR   Pathway_Interaction_DB; met_pathway; Signaling events activated by Hepatocyte Growth Factor Receptor (c-Met).
+DR   Pathway_Interaction_DB; syndecan_1_pathway; Syndecan-1-mediated signaling events.
+DR   Reactome; REACT_18266; Axon guidance.
+DR   NextBio; 16689; -.
+DR   ArrayExpress; P08581; -.
+DR   Bgee; P08581; -.
+DR   CleanEx; HS_MET; -.
+DR   Genevestigator; P08581; -.
+DR   GermOnline; ENSG00000105976; Homo sapiens.
+DR   GO; GO:0009925; C:basal plasma membrane; IDA:MGI.
+DR   GO; GO:0005887; C:integral to plasma membrane; TAS:ProtInc.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005008; F:hepatocyte growth factor receptor activity; TAS:ProtInc.
+DR   GO; GO:0005515; F:protein binding; IPI:UniProtKB.
+DR   GO; GO:0008283; P:cell proliferation; TAS:ProtInc.
+DR   GO; GO:0007275; P:multicellular organismal development; IEA:InterPro.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR014756; Ig_E-set.
+DR   InterPro; IPR002909; IPT_TIG_rcpt.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR003659; Plexin-like.
+DR   InterPro; IPR016201; Plexin-like_fold.
+DR   InterPro; IPR002165; Plexin_repeat.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR001627; Semaphorin/CD100_Ag.
+DR   InterPro; IPR001245; Ser-Thr/Tyr-Pkinase.
+DR   InterPro; IPR020707; Tyr_kinase_hepatocyte_GF_rcpt.
+DR   InterPro; IPR020635; Tyr_Pkinase_cat_dom.
+DR   InterPro; IPR020685; Tyr_prot_kinase.
+DR   InterPro; IPR008266; Tyr_prot_kinase_AS.
+DR   InterPro; IPR016244; Tyr_prot_kinase_HGF/MSP_rcpt.
+DR   InterPro; IPR015943; WD40/YVTN_repeat-like_dom.
+DR   Gene3D; G3DSA:2.60.40.10; Ig-like_fold; 3.
+DR   Gene3D; G3DSA:2.130.10.10; WD40/YVTN_repeat-like; 1.
+DR   PANTHER; PTHR23256:SF169; Tyr_kinase_hepatocyte_GF_rcpt; 1.
+DR   PANTHER; PTHR23256; Tyr_prot_kinase; 1.
+DR   Pfam; PF07714; Pkinase_Tyr; 1.
+DR   Pfam; PF01437; PSI; 1.
+DR   Pfam; PF01403; Sema; 1.
+DR   Pfam; PF01833; TIG; 3.
+DR   PIRSF; PIRSF000617; TyrPK_HGF-R; 1.
+DR   PRINTS; PR00109; TYRKINASE.
+DR   SMART; SM00429; IPT; 4.
+DR   SMART; SM00423; PSI; 1.
+DR   SMART; SM00630; Sema; 1.
+DR   SMART; SM00219; TyrKc; 1.
+DR   SUPFAM; SSF81296; Ig_E-set; 3.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   SUPFAM; SSF103575; Plexin-like_fold; 1.
+DR   SUPFAM; SSF101912; Sema; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00109; PROTEIN_KINASE_TYR; 1.
+DR   PROSITE; PS51004; SEMA; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; ATP-binding;
+KW   Chromosomal rearrangement; Complete proteome; Disease mutation;
+KW   Disulfide bond; Glycoprotein; Kinase; Membrane; Nucleotide-binding;
+KW   Phosphoprotein; Polymorphism; Proto-oncogene; Receptor; Repeat;
+KW   Signal; Transferase; Transmembrane; Transmembrane helix;
+KW   Tyrosine-protein kinase.
+FT   SIGNAL        1     24       Potential.
+FT   CHAIN        25   1390       Hepatocyte growth factor receptor.
+FT                                /FTId=PRO_0000024440.
+FT   TOPO_DOM     25    932       Extracellular (Potential).
+FT   TRANSMEM    933    955       Helical; (Potential).
+FT   TOPO_DOM    956   1390       Cytoplasmic (Potential).
+FT   DOMAIN       27    515       Sema.
+FT   DOMAIN      563    655       IPT/TIG 1.
+FT   DOMAIN      657    739       IPT/TIG 2.
+FT   DOMAIN      742    836       IPT/TIG 3.
+FT   DOMAIN     1078   1345       Protein kinase.
+FT   NP_BIND    1084   1092       ATP (By similarity).
+FT   REGION     1212   1390       Interaction with RANBP9.
+FT   REGION     1320   1359       Interaction with MUC20.
+FT   ACT_SITE   1204   1204       Proton acceptor (By similarity).
+FT   BINDING    1110   1110       ATP.
+FT   SITE        307    308       Cleavage (Potential).
+FT   SITE       1009   1010       Breakpoint for translocation to form TPR-
+FT                                MET oncogene.
+FT   MOD_RES     966    966       Phosphoserine.
+FT   MOD_RES     977    977       Phosphothreonine.
+FT   MOD_RES     988    988       Phosphoserine.
+FT   MOD_RES     990    990       Phosphoserine.
+FT   MOD_RES     997    997       Phosphoserine.
+FT   MOD_RES    1000   1000       Phosphoserine.
+FT   MOD_RES    1003   1003       Phosphotyrosine.
+FT   MOD_RES    1230   1230       Phosphotyrosine.
+FT   MOD_RES    1234   1234       Phosphotyrosine.
+FT   MOD_RES    1235   1235       Phosphotyrosine; by autocatalysis.
+FT   MOD_RES    1289   1289       Phosphothreonine.
+FT   MOD_RES    1356   1356       Phosphotyrosine.
+FT   CARBOHYD     45     45       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    106    106       N-linked (GlcNAc...).
+FT   CARBOHYD    149    149       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    202    202       N-linked (GlcNAc...).
+FT   CARBOHYD    399    399       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    405    405       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    607    607       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    635    635       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    785    785       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    879    879       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    930    930       N-linked (GlcNAc...) (Potential).
+FT   VAR_SEQ     755    755       S -> STWWKEPLNIVSFLFCFAS (in isoform 2).
+FT                                /FTId=VSP_005005.
+FT   VARIANT     143    143       R -> Q (in dbSNP:rs35469582).
+FT                                /FTId=VAR_041738.
+FT   VARIANT     156    156       S -> L (in dbSNP:rs56311081).
+FT                                /FTId=VAR_041739.
+FT   VARIANT     168    168       E -> D (in dbSNP:rs55985569).
+FT                                /FTId=VAR_041740.
+FT   VARIANT     238    238       L -> S (in dbSNP:rs34349517).
+FT                                /FTId=VAR_032478.
+FT   VARIANT     316    316       I -> M (in dbSNP:rs35225896).
+FT                                /FTId=VAR_032479.
+FT   VARIANT     320    320       A -> V (in dbSNP:rs35776110).
+FT                                /FTId=VAR_006285.
+FT   VARIANT     375    375       N -> S (in dbSNP:rs33917957).
+FT                                /FTId=VAR_032480.
+FT   VARIANT     773    773       P -> L (in gastric cancer).
+FT                                /FTId=VAR_032481.
+FT   VARIANT     970    970       R -> C (in dbSNP:rs34589476).
+FT                                /FTId=VAR_032482.
+FT   VARIANT     991    991       P -> S (in gastric cancer; prolonged
+FT                                tyrosine phosphorylation in response to
+FT                                HGF/SF; transforming activity in athymic
+FT                                nude mice).
+FT                                /FTId=VAR_032483.
+FT   VARIANT     992    992       T -> I (in dbSNP:rs56391007).
+FT                                /FTId=VAR_032484.
+FT   VARIANT    1092   1092       V -> I (in HPRC; constitutive
+FT                                autophosphorylation).
+FT                                /FTId=VAR_032485.
+FT   VARIANT    1094   1094       H -> L (in HPRC; constitutive
+FT                                autophosphorylation; causes malignant
+FT                                transformation in cell lines).
+FT                                /FTId=VAR_032486.
+FT   VARIANT    1094   1094       H -> R (in HPRC; causes malignant
+FT                                transformation in cell lines).
+FT                                /FTId=VAR_032487.
+FT   VARIANT    1094   1094       H -> Y (in HPRC; constitutive
+FT                                autophosphorylation; causes malignant
+FT                                transformation in cell lines).
+FT                                /FTId=VAR_032488.
+FT   VARIANT    1106   1106       H -> D (in HPRC; constitutive
+FT                                autophosphorylation; causes malignant
+FT                                transformation in cell lines).
+FT                                /FTId=VAR_032489.
+FT   VARIANT    1131   1131       M -> T (in HPRC; germline mutation).
+FT                                /FTId=VAR_006286.
+FT   VARIANT    1173   1173       T -> I (in HCC).
+FT                                /FTId=VAR_032490.
+FT   VARIANT    1188   1188       V -> L (in HPRC; germline mutation).
+FT                                /FTId=VAR_006287.
+FT   VARIANT    1195   1195       L -> V (in HPRC; somatic mutation).
+FT                                /FTId=VAR_006288.
+FT   VARIANT    1220   1220       V -> I (in HPRC; germline mutation).
+FT                                /FTId=VAR_006289.
+FT   VARIANT    1228   1228       D -> H (in HPRC; somatic mutation).
+FT                                /FTId=VAR_006291.
+FT   VARIANT    1228   1228       D -> N (in HPRC; germline mutation).
+FT                                /FTId=VAR_006290.
+FT   VARIANT    1230   1230       Y -> C (in HPRC; germline mutation).
+FT                                /FTId=VAR_006292.
+FT   VARIANT    1230   1230       Y -> D (in HPRC; constitutive
+FT                                autophosphorylation; causes malignant
+FT                                transformation in cell lines).
+FT                                /FTId=VAR_032491.
+FT   VARIANT    1230   1230       Y -> H (in HPRC; somatic mutation).
+FT                                /FTId=VAR_006293.
+FT   VARIANT    1244   1244       K -> R (in HCC).
+FT                                /FTId=VAR_032492.
+FT   VARIANT    1250   1250       M -> I (in HCC).
+FT                                /FTId=VAR_032493.
+FT   VARIANT    1250   1250       M -> T (in HPRC; somatic mutation).
+FT                                /FTId=VAR_006294.
+FT   CONFLICT   1191   1191       G -> A (in Ref. 1; AAA59591).
+FT   CONFLICT   1272   1272       L -> V (in Ref. 1; AAA59591, 2; CAB56793
+FT                                and 6; AAA59590).
+FT   STRAND       45     47
+FT   STRAND       52     58
+FT   STRAND       61     66
+FT   STRAND       69     74
+FT   TURN         75     77
+FT   STRAND       80     85
+FT   STRAND       89     91
+FT   STRAND       93     95
+FT   STRAND       97     99
+FT   STRAND      102    104
+FT   STRAND      111    113
+FT   STRAND      117    123
+FT   STRAND      125    145
+FT   STRAND      154    160
+FT   STRAND      182    189
+FT   STRAND      192    199
+FT   STRAND      213    219
+FT   HELIX       231    233
+FT   HELIX       241    244
+FT   STRAND      248    255
+FT   STRAND      258    264
+FT   STRAND      276    282
+FT   STRAND      292    299
+FT   STRAND      319    323
+FT   HELIX       327    332
+FT   STRAND      341    349
+FT   STRAND      353    366
+FT   HELIX       367    375
+FT   TURN        387    389
+FT   STRAND      392    394
+FT   TURN        395    398
+FT   STRAND      418    422
+FT   STRAND      424    427
+FT   TURN        431    436
+FT   STRAND      439    447
+FT   STRAND      450    457
+FT   STRAND      460    466
+FT   STRAND      469    471
+FT   STRAND      486    495
+FT   TURN        496    498
+FT   STRAND      499    506
+FT   STRAND      509    516
+FT   HELIX       517    520
+FT   HELIX       526    530
+FT   HELIX       534    536
+FT   STRAND      539    541
+FT   STRAND      544    546
+FT   HELIX       548    550
+FT   HELIX      1055   1057
+FT   HELIX      1060   1066
+FT   HELIX      1067   1069
+FT   HELIX      1073   1075
+FT   STRAND     1076   1087
+FT   STRAND     1090   1097
+FT   STRAND     1105   1112
+FT   HELIX      1118   1132
+FT   STRAND     1144   1148
+FT   TURN       1149   1151
+FT   STRAND     1152   1158
+FT   HELIX      1165   1170
+FT   HELIX      1178   1197
+FT   HELIX      1207   1209
+FT   STRAND     1210   1212
+FT   STRAND     1218   1220
+FT   HELIX      1224   1226
+FT   TURN       1229   1233
+FT   HELIX      1247   1249
+FT   HELIX      1252   1257
+FT   HELIX      1262   1277
+FT   HELIX      1293   1297
+FT   HELIX      1310   1319
+FT   HELIX      1324   1326
+FT   HELIX      1330   1342
+FT   TURN       1354   1358
+SQ   SEQUENCE   1390 AA;  155541 MW;  9CF896D1273905C3 CRC64;
+     MKAPAVLAPG ILVLLFTLVQ RSNGECKEAL AKSEMNVNMK YQLPNFTAET PIQNVILHEH
+     HIFLGATNYI YVLNEEDLQK VAEYKTGPVL EHPDCFPCQD CSSKANLSGG VWKDNINMAL
+     VVDTYYDDQL ISCGSVNRGT CQRHVFPHNH TADIQSEVHC IFSPQIEEPS QCPDCVVSAL
+     GAKVLSSVKD RFINFFVGNT INSSYFPDHP LHSISVRRLK ETKDGFMFLT DQSYIDVLPE
+     FRDSYPIKYV HAFESNNFIY FLTVQRETLD AQTFHTRIIR FCSINSGLHS YMEMPLECIL
+     TEKRKKRSTK KEVFNILQAA YVSKPGAQLA RQIGASLNDD ILFGVFAQSK PDSAEPMDRS
+     AMCAFPIKYV NDFFNKIVNK NNVRCLQHFY GPNHEHCFNR TLLRNSSGCE ARRDEYRTEF
+     TTALQRVDLF MGQFSEVLLT SISTFIKGDL TIANLGTSEG RFMQVVVSRS GPSTPHVNFL
+     LDSHPVSPEV IVEHTLNQNG YTLVITGKKI TKIPLNGLGC RHFQSCSQCL SAPPFVQCGW
+     CHDKCVRSEE CLSGTWTQQI CLPAIYKVFP NSAPLEGGTR LTICGWDFGF RRNNKFDLKK
+     TRVLLGNESC TLTLSESTMN TLKCTVGPAM NKHFNMSIII SNGHGTTQYS TFSYVDPVIT
+     SISPKYGPMA GGTLLTLTGN YLNSGNSRHI SIGGKTCTLK SVSNSILECY TPAQTISTEF
+     AVKLKIDLAN RETSIFSYRE DPIVYEIHPT KSFISGGSTI TGVGKNLNSV SVPRMVINVH
+     EAGRNFTVAC QHRSNSEIIC CTTPSLQQLN LQLPLKTKAF FMLDGILSKY FDLIYVHNPV
+     FKPFEKPVMI SMGNENVLEI KGNDIDPEAV KGEVLKVGNK SCENIHLHSE AVLCTVPNDL
+     LKLNSELNIE WKQAISSTVL GKVIVQPDQN FTGLIAGVVS ISTALLLLLG FFLWLKKRKQ
+     IKDLGSELVR YDARVHTPHL DRLVSARSVS PTTEMVSNES VDYRATFPED QFPNSSQNGS
+     CRQVQYPLTD MSPILTSGDS DISSPLLQNT VHIDLSALNP ELVQAVQHVV IGPSSLIVHF
+     NEVIGRGHFG CVYHGTLLDN DGKKIHCAVK SLNRITDIGE VSQFLTEGII MKDFSHPNVL
+     SLLGICLRSE GSPLVVLPYM KHGDLRNFIR NETHNPTVKD LIGFGLQVAK GMKYLASKKF
+     VHRDLAARNC MLDEKFTVKV ADFGLARDMY DKEYYSVHNK TGAKLPVKWM ALESLQTQKF
+     TTKSDVWSFG VLLWELMTRG APPYPDVNTF DITVYLLQGR RLLQPEYCPD PLYEVMLKCW
+     HPKAEMRPSF SELVSRISAI FSTFIGEHYV HVNATYVNVK CVAPYPSLLS SEDNADDEVD
+     TRPASFWETS
+//

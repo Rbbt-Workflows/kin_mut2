@@ -1,0 +1,312 @@
+ID   FRK_HUMAN               Reviewed;         505 AA.
+AC   P42685; Q13128; Q9NTR5;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 1.
+DT   05-OCT-2010, entry version 113.
+DE   RecName: Full=Tyrosine-protein kinase FRK;
+DE            EC=2.7.10.2;
+DE   AltName: Full=FYN-related kinase;
+DE   AltName: Full=Nuclear tyrosine protein kinase RAK;
+DE   AltName: Full=Protein-tyrosine kinase 5;
+GN   Name=FRK; Synonyms=PTK5, RAK;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RX   MEDLINE=95210168; PubMed=7696183;
+RA   Cance W.G., Craven R.J., Bergman M., Xu L.H., Alitalo K., Liu E.T.;
+RT   "Rak, a novel nuclear tyrosine kinase expressed in epithelial cells.";
+RL   Cell Growth Differ. 5:1347-1355(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Lymphoid tissue;
+RX   MEDLINE=94171047; PubMed=7510261; DOI=10.1016/0378-1119(94)90817-6;
+RA   Lee J., Wang Z., Luoh S.-M., Wood W.I., Scadden D.T.;
+RT   "Cloning of FRK, a novel human intracellular SRC-like tyrosine kinase-
+RT   encoding gene.";
+RL   Gene 138:247-251(1994).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   MEDLINE=22935763; PubMed=14574404; DOI=10.1038/nature02055;
+RA   Mungall A.J., Palmer S.A., Sims S.K., Edwards C.A., Ashurst J.L.,
+RA   Wilming L., Jones M.C., Horton R., Hunt S.E., Scott C.E.,
+RA   Gilbert J.G.R., Clamp M.E., Bethel G., Milne S., Ainscough R.,
+RA   Almeida J.P., Ambrose K.D., Andrews T.D., Ashwell R.I.S.,
+RA   Babbage A.K., Bagguley C.L., Bailey J., Banerjee R., Barker D.J.,
+RA   Barlow K.F., Bates K., Beare D.M., Beasley H., Beasley O., Bird C.P.,
+RA   Blakey S.E., Bray-Allen S., Brook J., Brown A.J., Brown J.Y.,
+RA   Burford D.C., Burrill W., Burton J., Carder C., Carter N.P.,
+RA   Chapman J.C., Clark S.Y., Clark G., Clee C.M., Clegg S., Cobley V.,
+RA   Collier R.E., Collins J.E., Colman L.K., Corby N.R., Coville G.J.,
+RA   Culley K.M., Dhami P., Davies J., Dunn M., Earthrowl M.E.,
+RA   Ellington A.E., Evans K.A., Faulkner L., Francis M.D., Frankish A.,
+RA   Frankland J., French L., Garner P., Garnett J., Ghori M.J.,
+RA   Gilby L.M., Gillson C.J., Glithero R.J., Grafham D.V., Grant M.,
+RA   Gribble S., Griffiths C., Griffiths M.N.D., Hall R., Halls K.S.,
+RA   Hammond S., Harley J.L., Hart E.A., Heath P.D., Heathcott R.,
+RA   Holmes S.J., Howden P.J., Howe K.L., Howell G.R., Huckle E.,
+RA   Humphray S.J., Humphries M.D., Hunt A.R., Johnson C.M., Joy A.A.,
+RA   Kay M., Keenan S.J., Kimberley A.M., King A., Laird G.K., Langford C.,
+RA   Lawlor S., Leongamornlert D.A., Leversha M., Lloyd C.R., Lloyd D.M.,
+RA   Loveland J.E., Lovell J., Martin S., Mashreghi-Mohammadi M.,
+RA   Maslen G.L., Matthews L., McCann O.T., McLaren S.J., McLay K.,
+RA   McMurray A., Moore M.J.F., Mullikin J.C., Niblett D., Nickerson T.,
+RA   Novik K.L., Oliver K., Overton-Larty E.K., Parker A., Patel R.,
+RA   Pearce A.V., Peck A.I., Phillimore B.J.C.T., Phillips S., Plumb R.W.,
+RA   Porter K.M., Ramsey Y., Ranby S.A., Rice C.M., Ross M.T., Searle S.M.,
+RA   Sehra H.K., Sheridan E., Skuce C.D., Smith S., Smith M., Spraggon L.,
+RA   Squares S.L., Steward C.A., Sycamore N., Tamlyn-Hall G., Tester J.,
+RA   Theaker A.J., Thomas D.W., Thorpe A., Tracey A., Tromans A., Tubby B.,
+RA   Wall M., Wallis J.M., West A.P., White S.S., Whitehead S.L.,
+RA   Whittaker H., Wild A., Willey D.J., Wilmer T.E., Wood J.M., Wray P.W.,
+RA   Wyatt J.C., Young L., Younger R.M., Bentley D.R., Coulson A.,
+RA   Durbin R.M., Hubbard T., Sulston J.E., Dunham I., Rogers J., Beck S.;
+RT   "The DNA sequence and analysis of human chromosome 6.";
+RL   Nature 425:805-811(2003).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (SEP-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Urinary bladder;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [6]
+RP   PARTIAL NUCLEOTIDE SEQUENCE [MRNA].
+RX   MEDLINE=93293373; PubMed=8099900; DOI=10.1002/ijc.2910540409;
+RA   Cance W.G., Craven R.J., Weiner T.M., Liu E.T.;
+RT   "Novel protein kinases expressed in human breast cancer.";
+RL   Int. J. Cancer 54:571-577(1993).
+RN   [7]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-497, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Mammary epithelium;
+RX   PubMed=15951569; DOI=10.1074/mcp.M500089-MCP200;
+RA   Zhang Y., Wolf-Yadlin A., Ross P.L., Pappin D.J., Rush J.,
+RA   Lauffenburger D.A., White F.M.;
+RT   "Time-resolved mass spectrometry of tyrosine phosphorylation sites in
+RT   the epidermal growth factor receptor signaling network reveals dynamic
+RT   modules.";
+RL   Mol. Cell. Proteomics 4:1240-1250(2005).
+RN   [8]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-46; TYR-387 AND TYR-497,
+RP   AND MASS SPECTROMETRY.
+RC   TISSUE=Lung carcinoma;
+RX   PubMed=18083107; DOI=10.1016/j.cell.2007.11.025;
+RA   Rikova K., Guo A., Zeng Q., Possemato A., Yu J., Haack H., Nardone J.,
+RA   Lee K., Reeves C., Li Y., Hu Y., Tan Z., Stokes M., Sullivan L.,
+RA   Mitchell J., Wetzel R., Macneill J., Ren J.M., Yuan J.,
+RA   Bakalarski C.E., Villen J., Kornhauser J.M., Smith B., Li D., Zhou X.,
+RA   Gygi S.P., Gu T.-L., Polakiewicz R.D., Rush J., Comb M.J.;
+RT   "Global survey of phosphotyrosine signaling identifies oncogenic
+RT   kinases in lung cancer.";
+RL   Cell 131:1190-1203(2007).
+RN   [9]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-46 AND TYR-497, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Mammary epithelium;
+RX   PubMed=17389395; DOI=10.1073/pnas.0608638104;
+RA   Wolf-Yadlin A., Hautaniemi S., Lauffenburger D.A., White F.M.;
+RT   "Multiple reaction monitoring for robust quantitative proteomic
+RT   analysis of cellular signaling networks.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 104:5860-5865(2007).
+RN   [10]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-37; SER-62 AND TYR-387,
+RP   AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [11]
+RP   FUNCTION, INTERACTION WITH PTEN, AND MUTAGENESIS OF LYS-262.
+RX   PubMed=19345329; DOI=10.1016/j.ccr.2009.02.012;
+RA   Yim E.-K., Peng G., Dai H., Hu R., Li K., Lu Y., Mills G.B.,
+RA   Meric-Bernstam F., Hennessy B.T., Craven R.J., Lin S.-Y.;
+RT   "Rak functions as a tumor suppressor by regulating PTEN protein
+RT   stability and function.";
+RL   Cancer Cell 15:304-314(2009).
+RN   [12]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-46, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Mammary epithelium;
+RX   PubMed=19534553; DOI=10.1021/pr900044c;
+RA   Heibeck T.H., Ding S.-J., Opresko L.K., Zhao R., Schepmoes A.A.,
+RA   Yang F., Tolmachev A.V., Monroe M.E., Camp D.G. II, Smith R.D.,
+RA   Wiley H.S., Qian W.-J.;
+RT   "An extensive survey of tyrosine phosphorylation revealing new sites
+RT   in human mammary epithelial cells.";
+RL   J. Proteome Res. 8:3852-3861(2009).
+RN   [13]
+RP   VARIANTS [LARGE SCALE ANALYSIS] VAL-100; ARG-122 AND LEU-133.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Positively regulates PTEN protein stability through
+CC       phosphorylation of PTEN on 'Tyr-336', which in turn prevents its
+CC       ubiquitination and degradation possibly by reducing its binding to
+CC       NEDD4. May function as a tumor suppressor.
+CC   -!- CATALYTIC ACTIVITY: ATP + a [protein]-L-tyrosine = ADP + a
+CC       [protein]-L-tyrosine phosphate.
+CC   -!- SUBUNIT: Interacts (via the SH3-domain) with PTEN.
+CC   -!- INTERACTION:
+CC       P60484:PTEN; NbExp=4; IntAct=EBI-1383583, EBI-696162;
+CC       P06400:RB1; NbExp=3; IntAct=EBI-1383583, EBI-491274;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm (Probable).
+CC   -!- TISSUE SPECIFICITY: Restricted to cells lines derived from tissues
+CC       of lymphoid, brain, breast, colon and bladder origin.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Tyr protein
+CC       kinase family. SRC subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- SIMILARITY: Contains 1 SH2 domain.
+CC   -!- SIMILARITY: Contains 1 SH3 domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U22322; AAC50116.1; -; mRNA.
+DR   EMBL; U00803; AAA18284.1; -; mRNA.
+DR   EMBL; AL121963; CAB87592.2; -; Genomic_DNA.
+DR   EMBL; AL357141; CAB87592.2; JOINED; Genomic_DNA.
+DR   EMBL; AL357141; CAI16469.1; -; Genomic_DNA.
+DR   EMBL; AL121963; CAI16469.1; JOINED; Genomic_DNA.
+DR   EMBL; CH471051; EAW48241.1; -; Genomic_DNA.
+DR   EMBL; BC012916; AAH12916.1; -; mRNA.
+DR   IPI; IPI00000885; -.
+DR   PIR; I38396; I38396.
+DR   RefSeq; NP_002022.1; -.
+DR   UniGene; Hs.89426; -.
+DR   ProteinModelPortal; P42685; -.
+DR   SMR; P42685; 40-108, 106-216.
+DR   IntAct; P42685; 11.
+DR   MINT; MINT-3015573; -.
+DR   STRING; P42685; -.
+DR   PhosphoSite; P42685; -.
+DR   PRIDE; P42685; -.
+DR   Ensembl; ENST00000368626; ENSP00000357615; ENSG00000111816.
+DR   GeneID; 2444; -.
+DR   KEGG; hsa:2444; -.
+DR   UCSC; uc003pwi.1; human.
+DR   CTD; 2444; -.
+DR   GeneCards; GC06M116308; -.
+DR   H-InvDB; HIX0006158; -.
+DR   HGNC; HGNC:3955; FRK.
+DR   HPA; CAB025217; -.
+DR   MIM; 606573; gene.
+DR   PharmGKB; PA28373; -.
+DR   eggNOG; prNOG15838; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG008761; -.
+DR   InParanoid; P42685; -.
+DR   OMA; QNDAGSK; -.
+DR   OrthoDB; EOG9QRKQD; -.
+DR   PhylomeDB; P42685; -.
+DR   BRENDA; 2.7.10.2; 247.
+DR   NextBio; 9741; -.
+DR   ArrayExpress; P42685; -.
+DR   Bgee; P42685; -.
+DR   CleanEx; HS_FRK; -.
+DR   Genevestigator; P42685; -.
+DR   GermOnline; ENSG00000111816; Homo sapiens.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005634; C:nucleus; TAS:ProtInc.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004715; F:non-membrane spanning protein tyrosine kina...; TAS:ProtInc.
+DR   GO; GO:0005515; F:protein binding; IPI:UniProtKB.
+DR   GO; GO:0008285; P:negative regulation of cell proliferation; TAS:ProtInc.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; TAS:ProtInc.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR001245; Ser-Thr/Tyr-Pkinase.
+DR   InterPro; IPR000980; SH2.
+DR   InterPro; IPR001452; SH3_domain.
+DR   InterPro; IPR020702; Tyr_kinase_non-rcpt_FRK.
+DR   InterPro; IPR020635; Tyr_Pkinase_cat_dom.
+DR   InterPro; IPR020685; Tyr_prot_kinase.
+DR   InterPro; IPR008266; Tyr_prot_kinase_AS.
+DR   Gene3D; G3DSA:3.30.505.10; SH2; 1.
+DR   PANTHER; PTHR23256:SF146; Tyr_kinase_non-rcpt_FRK; 1.
+DR   PANTHER; PTHR23256; Tyr_prot_kinase; 1.
+DR   Pfam; PF07714; Pkinase_Tyr; 1.
+DR   Pfam; PF00017; SH2; 1.
+DR   Pfam; PF00018; SH3_1; 1.
+DR   PRINTS; PR00401; SH2DOMAIN.
+DR   PRINTS; PR00452; SH3DOMAIN.
+DR   PRINTS; PR00109; TYRKINASE.
+DR   SMART; SM00252; SH2; 1.
+DR   SMART; SM00326; SH3; 1.
+DR   SMART; SM00219; TyrKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   SUPFAM; SSF50044; SH3; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00109; PROTEIN_KINASE_TYR; 1.
+DR   PROSITE; PS50001; SH2; 1.
+DR   PROSITE; PS50002; SH3; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Complete proteome; Cytoplasm; Kinase; Nucleotide-binding;
+KW   Phosphoprotein; Polymorphism; SH2 domain; SH3 domain; Transferase;
+KW   Tumor suppressor; Tyrosine-protein kinase.
+FT   CHAIN         1    505       Tyrosine-protein kinase FRK.
+FT                                /FTId=PRO_0000088097.
+FT   DOMAIN       42    110       SH3.
+FT   DOMAIN      116    208       SH2.
+FT   DOMAIN      234    491       Protein kinase.
+FT   NP_BIND     240    248       ATP (By similarity).
+FT   ACT_SITE    354    354       Proton acceptor (By similarity).
+FT   BINDING     262    262       ATP (By similarity).
+FT   MOD_RES      37     37       Phosphoserine.
+FT   MOD_RES      46     46       Phosphotyrosine.
+FT   MOD_RES      62     62       Phosphoserine.
+FT   MOD_RES     387    387       Phosphotyrosine; by autocatalysis (By
+FT                                similarity).
+FT   MOD_RES     497    497       Phosphotyrosine.
+FT   VARIANT     100    100       I -> V (in dbSNP:rs34704018).
+FT                                /FTId=VAR_041702.
+FT   VARIANT     122    122       G -> R (in dbSNP:rs3756772).
+FT                                /FTId=VAR_006283.
+FT   VARIANT     133    133       S -> L (in dbSNP:rs34064900).
+FT                                /FTId=VAR_041703.
+FT   MUTAGEN     262    262       K->R: Loss of ability to phosphorylate
+FT                                PTEN.
+FT   CONFLICT    115    115       P -> A (in Ref. 1; AAC50116).
+SQ   SEQUENCE   505 AA;  58254 MW;  06EC050DDBCD930B CRC64;
+     MSNICQRLWE YLEPYLPCLS TEADKSTVIE NPGALCSPQS QRHGHYFVAL FDYQARTAED
+     LSFRAGDKLQ VLDTLHEGWW FARHLEKRRD GSSQQLQGYI PSNYVAEDRS LQAEPWFFGA
+     IGRSDAEKQL LYSENKTGSF LIRESESQKG EFSLSVLDGA VVKHYRIKRL DEGGFFLTRR
+     RIFSTLNEFV SHYTKTSDGL CVKLGKPCLK IQVPAPFDLS YKTVDQWEID RNSIQLLKRL
+     GSGQFGEVWE GLWNNTTPVA VKTLKPGSMD PNDFLREAQI MKNLRHPKLI QLYAVCTLED
+     PIYIITELMR HGSLQEYLQN DTGSKIHLTQ QVDMAAQVAS GMAYLESRNY IHRDLAARNV
+     LVGEHNIYKV ADFGLARVFK VDNEDIYESR HEIKLPVKWT APEAIRSNKF SIKSDVWSFG
+     ILLYEIITYG KMPYSGMTGA QVIQMLAQNY RLPQPSNCPQ QFYNIMLECW NAEPKERPTF
+     ETLRWKLEDY FETDSSYSDA NNFIR
+//

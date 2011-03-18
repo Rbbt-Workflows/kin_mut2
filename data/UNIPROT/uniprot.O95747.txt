@@ -1,0 +1,313 @@
+ID   OXSR1_HUMAN             Reviewed;         527 AA.
+AC   O95747; Q3LR53; Q7Z501; Q9UPQ1;
+DT   16-AUG-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1999, sequence version 1.
+DT   02-NOV-2010, entry version 97.
+DE   RecName: Full=Serine/threonine-protein kinase OSR1;
+DE            EC=2.7.11.1;
+DE   AltName: Full=Oxidative stress-responsive 1 protein;
+GN   Name=OXSR1; Synonyms=KIAA1101, OSR1;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], TISSUE SPECIFICITY, AND VARIANT ILE-304.
+RC   TISSUE=Skeletal muscle;
+RX   MEDLINE=99183305; PubMed=10083736; DOI=10.1007/s100380050121;
+RA   Tamari M., Daigo Y., Nakamura Y.;
+RT   "Isolation and characterization of a novel serine threonine kinase
+RT   gene on chromosome 3p22-21.3.";
+RL   J. Hum. Genet. 44:116-120(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Brain;
+RX   MEDLINE=99397452; PubMed=10470851; DOI=10.1093/dnares/6.3.197;
+RA   Kikuno R., Nagase T., Ishikawa K., Hirosawa M., Miyajima N.,
+RA   Tanaka A., Kotani H., Nomura N., Ohara O.;
+RT   "Prediction of the coding sequences of unidentified human genes. XIV.
+RT   The complete sequences of 100 new cDNA clones from brain which code
+RT   for large proteins in vitro.";
+RL   DNA Res. 6:197-205(1999).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND VARIANTS ILE-304 AND THR-425.
+RG   NIEHS SNPs program;
+RL   Submitted (SEP-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Brain;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 172-527.
+RA   Ding J.B., Yu L., Gong R.M., Mao N.H., Han X.F., Zhao S.Y.;
+RT   "Cloning and characterization of a novel human cDNA homologous to
+RT   human DCHT mRNA.";
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [6]
+RP   FUNCTION, AUTOPHOSPHORYLATION, ENZYME REGULATION, INTERACTION WITH
+RP   PAK1, AND MUTAGENESIS OF LYS-46.
+RX   PubMed=14707132; DOI=10.1074/jbc.M313562200;
+RA   Chen W., Yazicioglu M., Cobb M.H.;
+RT   "Characterization of OSR1, a member of the mammalian Ste20p/germinal
+RT   center kinase subfamily.";
+RL   J. Biol. Chem. 279:11129-11136(2004).
+RN   [7]
+RP   INTERACTION WITH RELL1; RELL2 AND RELT, AND MUTAGENESIS OF LYS-46.
+RX   PubMed=16389068; DOI=10.1016/j.bbrc.2005.12.033;
+RA   Cusick J.K., Xu L.-G., Bin L.-H., Han K.-J., Shu H.-B.;
+RT   "Identification of RELT homologues that associate with RELT and are
+RT   phosphorylated by OSR1.";
+RL   Biochem. Biophys. Res. Commun. 340:535-543(2006).
+RN   [8]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-339, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=17081983; DOI=10.1016/j.cell.2006.09.026;
+RA   Olsen J.V., Blagoev B., Gnad F., Macek B., Kumar C., Mortensen P.,
+RA   Mann M.;
+RT   "Global, in vivo, and site-specific phosphorylation dynamics in
+RT   signaling networks.";
+RL   Cell 127:635-648(2006).
+RN   [9]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-427, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Embryonic kidney;
+RX   PubMed=17525332; DOI=10.1126/science.1140321;
+RA   Matsuoka S., Ballif B.A., Smogorzewska A., McDonald E.R. III,
+RA   Hurov K.E., Luo J., Bakalarski C.E., Zhao Z., Solimini N.,
+RA   Lerenthal Y., Shiloh Y., Gygi S.P., Elledge S.J.;
+RT   "ATM and ATR substrate analysis reveals extensive protein networks
+RT   responsive to DNA damage.";
+RL   Science 316:1160-1166(2007).
+RN   [10]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-339 AND SER-427, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [11]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-339, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Liver;
+RX   PubMed=18318008; DOI=10.1002/pmic.200700884;
+RA   Han G., Ye M., Zhou H., Jiang X., Feng S., Jiang X., Tian R., Wan D.,
+RA   Zou H., Gu J.;
+RT   "Large-scale phosphoproteome analysis of human liver tissue by
+RT   enrichment and fractionation of phosphopeptides with strong anion
+RT   exchange chromatography.";
+RL   Proteomics 8:1346-1361(2008).
+RN   [12]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RA   Colinge J., Superti-Furga G., Bennett K.L.;
+RL   Submitted (OCT-2008) to UniProtKB.
+RN   [13]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-339 AND SER-427, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Embryonic kidney;
+RX   PubMed=19413330; DOI=10.1021/ac9004309;
+RA   Gauci S., Helbig A.O., Slijper M., Krijgsveld J., Heck A.J.,
+RA   Mohammed S.;
+RT   "Lys-N and trypsin cover complementary parts of the phosphoproteome in
+RT   a refined SCX-based approach.";
+RL   Anal. Chem. 81:4493-4501(2009).
+RN   [14]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-339 AND SER-347, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=19690332; DOI=10.1126/scisignal.2000007;
+RA   Mayya V., Lundgren D.H., Hwang S.-I., Rezaul K., Wu L., Eng J.K.,
+RA   Rodionov V., Han D.K.;
+RT   "Quantitative phosphoproteomic analysis of T cell receptor signaling
+RT   reveals system-wide modulation of protein-protein interactions.";
+RL   Sci. Signal. 2:RA46-RA46(2009).
+RN   [15]
+RP   VARIANTS [LARGE SCALE ANALYSIS] ILE-304 AND SER-433.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Regulates downstream kinases in response to
+CC       environmental stress. May also have a function in regulating the
+CC       actin cytoskeleton.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- COFACTOR: Magnesium.
+CC   -!- ENZYME REGULATION: By autophosphorylation on threonine.
+CC   -!- SUBUNIT: Binds to and phosphorylates PAK1. Interacts with chloride
+CC       channel proteins SLC12A6 isoform 2, SLC12A1 and SLC12A2 but not
+CC       with SLC12A4 and SLC12A7, possibly establishing sensor/signaling
+CC       modules that initiate the cellular response to environmental
+CC       stress. Binds to and phosphorylates RELL1, RELL2 AND RELT.
+CC   -!- INTERACTION:
+CC       Self; NbExp=1; IntAct=EBI-620853, EBI-620853;
+CC       P35465:Pak1 (xeno); NbExp=1; IntAct=EBI-620853, EBI-444379;
+CC   -!- TISSUE SPECIFICITY: Ubiquitously expressed in all tissue examined.
+CC   -!- PTM: Phosphorylated upon DNA damage, probably by ATM or ATR.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. STE Ser/Thr
+CC       protein kinase family. STE20 subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAP97192.1; Type=Erroneous initiation;
+CC       Sequence=BAA83053.2; Type=Frameshift; Positions=63;
+CC   -!- WEB RESOURCE: Name=NIEHS-SNPs;
+CC       URL="http://egp.gs.washington.edu/data/oxsr1/";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AB017642; BAA75674.1; -; mRNA.
+DR   EMBL; AB029024; BAA83053.2; ALT_FRAME; mRNA.
+DR   EMBL; DQ201638; ABA27097.1; -; Genomic_DNA.
+DR   EMBL; BC008726; AAH08726.1; -; mRNA.
+DR   EMBL; AF087893; AAP97192.1; ALT_INIT; mRNA.
+DR   IPI; IPI00010080; -.
+DR   RefSeq; NP_005100.1; -.
+DR   UniGene; Hs.475970; -.
+DR   PDB; 2V3S; X-ray; 1.70 A; A/B=433-527.
+DR   PDB; 2VWI; X-ray; 2.15 A; A/B/C/D=1-303.
+DR   PDB; 3DAK; X-ray; 2.25 A; A/B/C/D=6-295.
+DR   PDBsum; 2V3S; -.
+DR   PDBsum; 2VWI; -.
+DR   PDBsum; 3DAK; -.
+DR   ProteinModelPortal; O95747; -.
+DR   IntAct; O95747; 4.
+DR   MINT; MINT-5207465; -.
+DR   STRING; O95747; -.
+DR   PhosphoSite; O95747; -.
+DR   PeptideAtlas; O95747; -.
+DR   PRIDE; O95747; -.
+DR   Ensembl; ENST00000311806; ENSP00000311713; ENSG00000172939.
+DR   GeneID; 9943; -.
+DR   KEGG; hsa:9943; -.
+DR   UCSC; uc003chy.1; human.
+DR   CTD; 9943; -.
+DR   GeneCards; GC03P038183; -.
+DR   H-InvDB; HIX0200471; -.
+DR   HGNC; HGNC:8508; OXSR1.
+DR   HPA; CAB017181; -.
+DR   HPA; HPA008237; -.
+DR   MIM; 604046; gene.
+DR   PharmGKB; PA134973207; -.
+DR   eggNOG; prNOG09427; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG108518; -.
+DR   InParanoid; O95747; -.
+DR   OMA; KMLQRAP; -.
+DR   PhylomeDB; O95747; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   NextBio; 37516; -.
+DR   ArrayExpress; O95747; -.
+DR   Bgee; O95747; -.
+DR   CleanEx; HS_OSR1; -.
+DR   CleanEx; HS_OXSR1; -.
+DR   Genevestigator; O95747; -.
+DR   GermOnline; ENSG00000172939; Homo sapiens.
+DR   GO; GO:0005524; F:ATP binding; IDA:UniProtKB.
+DR   GO; GO:0042802; F:identical protein binding; IPI:IntAct.
+DR   GO; GO:0000287; F:magnesium ion binding; IDA:UniProtKB.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IDA:UniProtKB.
+DR   GO; GO:0007243; P:intracellular protein kinase cascade; IDA:UniProtKB.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IDA:UniProtKB.
+DR   GO; GO:0006979; P:response to oxidative stress; TAS:ProtInc.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; FALSE_NEG.
+PE   1: Evidence at protein level;
+KW   3D-structure; ATP-binding; Complete proteome; Kinase; Magnesium;
+KW   Metal-binding; Nucleotide-binding; Phosphoprotein; Polymorphism;
+KW   Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    527       Serine/threonine-protein kinase OSR1.
+FT                                /FTId=PRO_0000086456.
+FT   DOMAIN       17    291       Protein kinase.
+FT   NP_BIND      23     31       ATP (By similarity).
+FT   ACT_SITE    146    146       Proton acceptor (By similarity).
+FT   BINDING      46     46       ATP.
+FT   MOD_RES     339    339       Phosphoserine.
+FT   MOD_RES     347    347       Phosphoserine.
+FT   MOD_RES     427    427       Phosphoserine.
+FT   VARIANT     304    304       T -> I (in dbSNP:rs6599079).
+FT                                /FTId=VAR_023232.
+FT   VARIANT     425    425       S -> T (in dbSNP:rs35295772).
+FT                                /FTId=VAR_025181.
+FT   VARIANT     433    433       P -> S (in a metastatic melanoma sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_040969.
+FT   MUTAGEN      46     46       K->A: Loss of autophosphorylation and
+FT                                kinase activity.
+FT   MUTAGEN      46     46       K->M: Loss of RELT, RELL1 and RELL2
+FT                                phosphorylation. Retention of some
+FT                                autophosphorylation activity may be due
+FT                                to complex formation with other
+FT                                endogenous kinases in the assay.
+FT   CONFLICT    316    316       K -> R (in Ref. 5; AAP97192).
+FT   CONFLICT    325    325       S -> G (in Ref. 5; AAP97192).
+FT   CONFLICT    363    363       K -> R (in Ref. 5; AAP97192).
+FT   STRAND       18     24
+FT   STRAND       31     35
+FT   STRAND       42     46
+FT   STRAND       78     86
+FT   STRAND       88     93
+FT   HELIX       100    109
+FT   TURN        110    115
+FT   HELIX       120    139
+FT   HELIX       149    151
+FT   STRAND      152    154
+FT   STRAND      160    162
+FT   HELIX       166    170
+FT   HELIX       195    202
+FT   HELIX       207    222
+FT   TURN        226    229
+FT   HELIX       232    234
+FT   HELIX       235    240
+FT   HELIX       262    271
+FT   HELIX       276    278
+FT   HELIX       282    286
+FT   STRAND      434    441
+FT   STRAND      447    454
+FT   TURN        456    458
+FT   HELIX       461    470
+FT   HELIX       476    478
+FT   HELIX       479    491
+FT   TURN        493    495
+FT   STRAND      497    502
+FT   HELIX       504    506
+FT   STRAND      507    511
+FT   HELIX       515    517
+FT   STRAND      519    526
+SQ   SEQUENCE   527 AA;  58022 MW;  B46EC934E95A3A1F CRC64;
+     MSEDSSALPW SINRDDYELQ EVIGSGATAV VQAAYCAPKK EKVAIKRINL EKCQTSMDEL
+     LKEIQAMSQC HHPNIVSYYT SFVVKDELWL VMKLLSGGSV LDIIKHIVAK GEHKSGVLDE
+     STIATILREV LEGLEYLHKN GQIHRDVKAG NILLGEDGSV QIADFGVSAF LATGGDITRN
+     KVRKTFVGTP CWMAPEVMEQ VRGYDFKADI WSFGITAIEL ATGAAPYHKY PPMKVLMLTL
+     QNDPPSLETG VQDKEMLKKY GKSFRKMISL CLQKDPEKRP TAAELLRHKF FQKAKNKEFL
+     QEKTLQRAPT ISERAKKVRR VPGSSGRLHK TEDGGWEWSD DEFDEESEEG KAAISQLRSP
+     RVKESISNSE LFPTTDPVGT LLQVPEQISA HLPQPAGQIA TQPTQVSLPP TAEPAKTAQA
+     LSSGSGSQET KIPISLVLRL RNSKKELNDI RFEFTPGRDT AEGVSQELIS AGLVDGRDLV
+     IVAANLQKIV EEPQSNRSVT FKLASGVEGS DIPDDGKLIG FAQLSIS
+//

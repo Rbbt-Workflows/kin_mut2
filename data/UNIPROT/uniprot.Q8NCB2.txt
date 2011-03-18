@@ -1,0 +1,279 @@
+ID   CAMKV_HUMAN             Reviewed;         501 AA.
+AC   Q8NCB2; A6NFD4; Q6FIB8; Q8NBS8; Q8NC85; Q8NDU4; Q8WTT8; Q9BQC9;
+AC   Q9H0Q5;
+DT   19-SEP-2006, integrated into UniProtKB/Swiss-Prot.
+DT   19-SEP-2006, sequence version 2.
+DT   05-OCT-2010, entry version 75.
+DE   RecName: Full=CaM kinase-like vesicle-associated protein;
+GN   Name=CAMKV;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1 AND 3).
+RC   TISSUE=Retinoblastoma, and Teratocarcinoma;
+RX   PubMed=14702039; DOI=10.1038/ng1285;
+RA   Ota T., Suzuki Y., Nishikawa T., Otsuki T., Sugiyama T., Irie R.,
+RA   Wakamatsu A., Hayashi K., Sato H., Nagai K., Kimura K., Makita H.,
+RA   Sekine M., Obayashi M., Nishi T., Shibahara T., Tanaka T., Ishii S.,
+RA   Yamamoto J., Saito K., Kawai Y., Isono Y., Nakamura Y., Nagahari K.,
+RA   Murakami K., Yasuda T., Iwayanagi T., Wagatsuma M., Shiratori A.,
+RA   Sudo H., Hosoiri T., Kaku Y., Kodaira H., Kondo H., Sugawara M.,
+RA   Takahashi M., Kanda K., Yokoi T., Furuya T., Kikkawa E., Omura Y.,
+RA   Abe K., Kamihara K., Katsuta N., Sato K., Tanikawa M., Yamazaki M.,
+RA   Ninomiya K., Ishibashi T., Yamashita H., Murakawa K., Fujimori K.,
+RA   Tanai H., Kimata M., Watanabe M., Hiraoka S., Chiba Y., Ishida S.,
+RA   Ono Y., Takiguchi S., Watanabe S., Yosida M., Hotuta T., Kusano J.,
+RA   Kanehori K., Takahashi-Fujii A., Hara H., Tanase T.-O., Nomura Y.,
+RA   Togiya S., Komai F., Hara R., Takeuchi K., Arita M., Imose N.,
+RA   Musashino K., Yuuki H., Oshima A., Sasaki N., Aotsuka S.,
+RA   Yoshikawa Y., Matsunawa H., Ichihara T., Shiohata N., Sano S.,
+RA   Moriya S., Momiyama H., Satoh N., Takami S., Terashima Y., Suzuki O.,
+RA   Nakagawa S., Senoh A., Mizoguchi H., Goto Y., Shimizu F., Wakebe H.,
+RA   Hishigaki H., Watanabe T., Sugiyama A., Takemoto M., Kawakami B.,
+RA   Yamazaki M., Watanabe K., Kumagai A., Itakura S., Fukuzumi Y.,
+RA   Fujimori Y., Komiyama M., Tashiro H., Tanigami A., Fujiwara T.,
+RA   Ono T., Yamada K., Fujii Y., Ozaki K., Hirao M., Ohmori Y.,
+RA   Kawabata A., Hikiji T., Kobatake N., Inagaki H., Ikema Y., Okamoto S.,
+RA   Okitani R., Kawakami T., Noguchi S., Itoh T., Shigeta K., Senba T.,
+RA   Matsumura K., Nakajima Y., Mizuno T., Morinaga M., Sasaki M.,
+RA   Togashi T., Oyama M., Hata H., Watanabe M., Komatsu T.,
+RA   Mizushima-Sugano J., Satoh T., Shirai Y., Takahashi Y., Nakagawa K.,
+RA   Okumura K., Nagase T., Nomura N., Kikuchi H., Masuho Y., Yamashita R.,
+RA   Nakai K., Yada T., Nakamura Y., Ohara O., Isogai T., Sugano S.;
+RT   "Complete sequencing and characterization of 21,243 full-length human
+RT   cDNAs.";
+RL   Nat. Genet. 36:40-45(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2).
+RC   TISSUE=Brain;
+RX   MEDLINE=21154917; PubMed=11230166; DOI=10.1101/gr.GR1547R;
+RA   Wiemann S., Weil B., Wellenreuther R., Gassenhuber J., Glassl S.,
+RA   Ansorge W., Boecher M., Bloecker H., Bauersachs S., Blum H.,
+RA   Lauber J., Duesterhoeft A., Beyer A., Koehrer K., Strack N.,
+RA   Mewes H.-W., Ottenwaelder B., Obermaier B., Tampe J., Heubner D.,
+RA   Wambutt R., Korn B., Klein M., Poustka A.;
+RT   "Towards a catalog of human genes and proteins: sequencing and
+RT   analysis of 500 novel complete protein coding human cDNAs.";
+RL   Genome Res. 11:422-435(2001).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2).
+RA   Ebert L., Schick M., Neubert P., Schatten R., Henze S., Korn B.;
+RT   "Cloning of human full open reading frames in Gateway(TM) system entry
+RT   vector (pDONR201).";
+RL   Submitted (JUN-2004) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   TISSUE=Brain;
+RX   PubMed=17974005; DOI=10.1186/1471-2164-8-399;
+RA   Bechtel S., Rosenfelder H., Duda A., Schmidt C.P., Ernst U.,
+RA   Wellenreuther R., Mehrle A., Schuster C., Bahr A., Bloecker H.,
+RA   Heubner D., Hoerlein A., Michel G., Wedler H., Koehrer K.,
+RA   Ottenwaelder B., Poustka A., Wiemann S., Schupp I.;
+RT   "The full-ORF clone resource of the German cDNA consortium.";
+RL   BMC Genomics 8:399-399(2007).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=16641997; DOI=10.1038/nature04728;
+RA   Muzny D.M., Scherer S.E., Kaul R., Wang J., Yu J., Sudbrak R.,
+RA   Buhay C.J., Chen R., Cree A., Ding Y., Dugan-Rocha S., Gill R.,
+RA   Gunaratne P., Harris R.A., Hawes A.C., Hernandez J., Hodgson A.V.,
+RA   Hume J., Jackson A., Khan Z.M., Kovar-Smith C., Lewis L.R.,
+RA   Lozado R.J., Metzker M.L., Milosavljevic A., Miner G.R., Morgan M.B.,
+RA   Nazareth L.V., Scott G., Sodergren E., Song X.-Z., Steffen D., Wei S.,
+RA   Wheeler D.A., Wright M.W., Worley K.C., Yuan Y., Zhang Z., Adams C.Q.,
+RA   Ansari-Lari M.A., Ayele M., Brown M.J., Chen G., Chen Z.,
+RA   Clendenning J., Clerc-Blankenburg K.P., Chen R., Chen Z., Davis C.,
+RA   Delgado O., Dinh H.H., Dong W., Draper H., Ernst S., Fu G.,
+RA   Gonzalez-Garay M.L., Garcia D.K., Gillett W., Gu J., Hao B.,
+RA   Haugen E., Havlak P., He X., Hennig S., Hu S., Huang W., Jackson L.R.,
+RA   Jacob L.S., Kelly S.H., Kube M., Levy R., Li Z., Liu B., Liu J.,
+RA   Liu W., Lu J., Maheshwari M., Nguyen B.-V., Okwuonu G.O., Palmeiri A.,
+RA   Pasternak S., Perez L.M., Phelps K.A., Plopper F.J., Qiang B.,
+RA   Raymond C., Rodriguez R., Saenphimmachak C., Santibanez J., Shen H.,
+RA   Shen Y., Subramanian S., Tabor P.E., Verduzco D., Waldron L., Wang J.,
+RA   Wang J., Wang Q., Williams G.A., Wong G.K.-S., Yao Z., Zhang J.,
+RA   Zhang X., Zhao G., Zhou J., Zhou Y., Nelson D., Lehrach H.,
+RA   Reinhardt R., Naylor S.L., Yang H., Olson M., Weinstock G.,
+RA   Gibbs R.A.;
+RT   "The DNA sequence, annotation and analysis of human chromosome 3.";
+RL   Nature 440:1194-1198(2006).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1), AND VARIANT
+RP   CYS-491.
+RC   TISSUE=Brain, and Lung;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [8]
+RP   VARIANTS [LARGE SCALE ANALYSIS] TRP-40; SER-60; TRP-274; ASP-279 AND
+RP   LEU-472.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Does not appear to have detectable kinase activity.
+CC   -!- COFACTOR: Calcium (By similarity).
+CC   -!- SUBUNIT: Interacts with calmodulin, in the presence of calcium (By
+CC       similarity).
+CC   -!- SUBCELLULAR LOCATION: Cell membrane; Peripheral membrane protein
+CC       (By similarity). Cytoplasmic vesicle membrane; Peripheral membrane
+CC       protein (By similarity). Note=Predominantly observed in
+CC       association with the plasma membrane of soma and in neurites, both
+CC       axons and dendrites. May be associated with vesicular structures
+CC       (By similarity).
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=3;
+CC       Name=1;
+CC         IsoId=Q8NCB2-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q8NCB2-2; Sequence=VSP_020600;
+CC       Name=3;
+CC         IsoId=Q8NCB2-3; Sequence=VSP_020601;
+CC         Note=No experimental confirmation available;
+CC   -!- DOMAIN: The protein kinase domain is predicted to be catalytically
+CC       inactive.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CAMK
+CC       Ser/Thr protein kinase family.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AK074856; BAC11248.1; -; mRNA.
+DR   EMBL; AK074899; BAC11278.1; -; mRNA.
+DR   EMBL; AK075294; BAC11528.1; -; mRNA.
+DR   EMBL; AL136697; CAB66632.1; -; mRNA.
+DR   EMBL; CR533508; CAG38539.1; -; mRNA.
+DR   EMBL; AL833943; CAD38798.2; -; Transcribed_RNA.
+DR   EMBL; AC105935; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; CH471055; EAW65027.1; -; Genomic_DNA.
+DR   EMBL; BC000497; AAH00497.1; -; mRNA.
+DR   EMBL; BC001921; AAH01921.1; -; mRNA.
+DR   EMBL; BC005828; AAH05828.1; -; mRNA.
+DR   EMBL; BC017363; AAH17363.1; -; mRNA.
+DR   EMBL; BC019256; AAH19256.1; -; mRNA.
+DR   IPI; IPI00300273; -.
+DR   IPI; IPI00304600; -.
+DR   IPI; IPI00478157; -.
+DR   RefSeq; NP_076951.2; -.
+DR   UniGene; Hs.145156; -.
+DR   HSSP; P49137; 1NY3.
+DR   ProteinModelPortal; Q8NCB2; -.
+DR   SMR; Q8NCB2; 14-326.
+DR   IntAct; Q8NCB2; 1.
+DR   MINT; MINT-1379547; -.
+DR   STRING; Q8NCB2; -.
+DR   PhosphoSite; Q8NCB2; -.
+DR   Ensembl; ENST00000477224; ENSP00000419195; ENSG00000164076.
+DR   GeneID; 79012; -.
+DR   KEGG; hsa:79012; -.
+DR   UCSC; uc003cxt.1; human.
+DR   UCSC; uc003cxu.1; human.
+DR   UCSC; uc003cxv.1; human.
+DR   CTD; 79012; -.
+DR   GeneCards; GC03M049875; -.
+DR   H-InvDB; HIX0003323; -.
+DR   HGNC; HGNC:28788; CAMKV.
+DR   HPA; HPA007656; -.
+DR   PharmGKB; PA142672205; -.
+DR   eggNOG; prNOG17708; -.
+DR   HOVERGEN; HBG108055; -.
+DR   InParanoid; Q8NCB2; -.
+DR   OMA; KEYFLFL; -.
+DR   NextBio; 67661; -.
+DR   ArrayExpress; Q8NCB2; -.
+DR   Bgee; Q8NCB2; -.
+DR   CleanEx; HS_CAMKV; -.
+DR   Genevestigator; Q8NCB2; -.
+DR   GermOnline; ENSG00000164076; Homo sapiens.
+DR   GO; GO:0030659; C:cytoplasmic vesicle membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:InterPro.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:InterPro.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   InterPro; IPR020636; Ca/CaM-dep_prot_kinase-like.
+DR   InterPro; IPR020654; CaM_kinase-like_vesicle-assoc.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   PANTHER; PTHR22982; Ca/CaM-dep_prot_kinase-like; 1.
+DR   PANTHER; PTHR22982:SF35; CaM_kinase-like_vesicle-assoc; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; Cell membrane; Complete proteome;
+KW   Cytoplasmic vesicle; Membrane; Phosphoprotein; Polymorphism.
+FT   CHAIN         1    501       CaM kinase-like vesicle-associated
+FT                                protein.
+FT                                /FTId=PRO_0000250094.
+FT   DOMAIN       24    286       Protein kinase.
+FT   COMPBIAS    335    492       Ala-rich.
+FT   MOD_RES     154    154       Phosphotyrosine (By similarity).
+FT   MOD_RES     403    403       Phosphothreonine (By similarity).
+FT   MOD_RES     435    435       Phosphothreonine (By similarity).
+FT   MOD_RES     438    438       Phosphothreonine (By similarity).
+FT   MOD_RES     441    441       Phosphoserine (By similarity).
+FT   MOD_RES     459    459       Phosphothreonine (By similarity).
+FT   VAR_SEQ     188    215       Missing (in isoform 2).
+FT                                /FTId=VSP_020600.
+FT   VAR_SEQ     352    382       Missing (in isoform 3).
+FT                                /FTId=VSP_020601.
+FT   VARIANT      40     40       R -> W (in a colorectal adenocarcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_041337.
+FT   VARIANT      60     60       G -> S (in an ovarian serous carcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_041338.
+FT   VARIANT     274    274       R -> W (in a colorectal adenocarcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_041339.
+FT   VARIANT     279    279       E -> D (in dbSNP:rs56071455).
+FT                                /FTId=VAR_041340.
+FT   VARIANT     472    472       P -> L (in dbSNP:rs56307047).
+FT                                /FTId=VAR_041341.
+FT   VARIANT     491    491       Y -> C (in dbSNP:rs17849325).
+FT                                /FTId=VAR_027539.
+FT   CONFLICT     22     22       D -> G (in Ref. 3; CAG38539).
+FT   CONFLICT     64     64       R -> Q (in Ref. 1; BAC11528).
+FT   CONFLICT    285    285       W -> S (in Ref. 1; BAC11248).
+SQ   SEQUENCE   501 AA;  54354 MW;  1D6DBF8ABA0D1D70 CRC64;
+     MPFGCVTLGD KKNYNQPSEV TDRYDLGQVI KTEEFCEIFR AKDKTTGKLH TCKKFQKRDG
+     RKVRKAAKNE IGILKMVKHP NILQLVDVFV TRKEYFIFLE LATGREVFDW ILDQGYYSER
+     DTSNVVRQVL EAVAYLHSLK IVHRNLKLEN LVYYNRLKNS KIVISDFHLA KLENGLIKEP
+     CGTPEYLAPE VVGRQRYGRP VDCWAIGVIM YILLSGNPPF YEEVEEDDYE NHDKNLFRKI
+     LAGDYEFDSP YWDDISQAAK DLVTRLMEVE QDQRITAEEA ISHEWISGNA ASDKNIKDGV
+     CAQIEKNFAR AKWKKAVRVT TLMKRLRAPE QSSTAAAQSA SATDTATPGA AGGATAAAAS
+     GATSAPEGDA ARAAKSDNVA PADRSATPAT DGSATPATDG SVTPATDGSI TPATDGSVTP
+     ATDRSATPAT DGRATPATEE STVPTTQSSA MLATKAAATP EPAMAQPDST APEGATGQAP
+     PSSKGEEAAG YAQESQREEA S
+//

@@ -1,0 +1,206 @@
+ID   DYRK4_HUMAN             Reviewed;         520 AA.
+AC   Q9NR20; Q8NEF2; Q92631;
+DT   27-APR-2001, integrated into UniProtKB/Swiss-Prot.
+DT   10-MAY-2005, sequence version 2.
+DT   02-NOV-2010, entry version 97.
+DE   RecName: Full=Dual specificity tyrosine-phosphorylation-regulated kinase 4;
+DE            EC=2.7.12.1;
+GN   Name=DYRK4;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2), AND VARIANTS ILE-95 AND
+RP   SER-189.
+RC   TISSUE=Brain, and Kidney;
+RX   MEDLINE=20517346; PubMed=11062477; DOI=10.1038/81664;
+RA   White K.E., Evans W.E., O'Riordan J.L.H., Speer M.C., Econs M.J.,
+RA   Lorenz-Depiereux B., Grabowski M., Meitinger T., Strom T.M.;
+RT   "Autosomal dominant hypophosphataemic rickets is associated with
+RT   mutations in FGF23.";
+RL   Nat. Genet. 26:345-348(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 280-520 (ISOFORM 2).
+RC   TISSUE=Lung;
+RX   MEDLINE=98421512; PubMed=9748265; DOI=10.1074/jbc.273.40.25893;
+RA   Becker W., Weber Y., Wetzel K., Eirmbter K., Tejedor F.J.,
+RA   Joost H.-G.;
+RT   "Sequence characteristics, subcellular localization, and substrate
+RT   specificity of DYRK-related kinases, a novel family of dual
+RT   specificity protein kinases.";
+RL   J. Biol. Chem. 273:25893-25902(1998).
+RN   [4]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-264, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Lung carcinoma;
+RX   PubMed=18083107; DOI=10.1016/j.cell.2007.11.025;
+RA   Rikova K., Guo A., Zeng Q., Possemato A., Yu J., Haack H., Nardone J.,
+RA   Lee K., Reeves C., Li Y., Hu Y., Tan Z., Stokes M., Sullivan L.,
+RA   Mitchell J., Wetzel R., Macneill J., Ren J.M., Yuan J.,
+RA   Bakalarski C.E., Villen J., Kornhauser J.M., Smith B., Li D., Zhou X.,
+RA   Gygi S.P., Gu T.-L., Polakiewicz R.D., Rush J., Comb M.J.;
+RT   "Global survey of phosphotyrosine signaling identifies oncogenic
+RT   kinases in lung cancer.";
+RL   Cell 131:1190-1203(2007).
+RN   [5]
+RP   SUBCELLULAR LOCATION, AND MUTAGENESIS OF LYS-133.
+RX   PubMed=17292540; DOI=10.1016/j.mce.2006.12.041;
+RA   Sacher F., Moeller C., Bone W., Gottwald U., Fritsch M.;
+RT   "The expression of the testis-specific Dyrk4 kinase is highly
+RT   restricted to step 8 spermatids but is not required for male fertility
+RT   in mice.";
+RL   Mol. Cell. Endocrinol. 267:80-88(2007).
+RN   [6]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-264, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Mammary epithelium;
+RX   PubMed=19534553; DOI=10.1021/pr900044c;
+RA   Heibeck T.H., Ding S.-J., Opresko L.K., Zhao R., Schepmoes A.A.,
+RA   Yang F., Tolmachev A.V., Monroe M.E., Camp D.G. II, Smith R.D.,
+RA   Wiley H.S., Qian W.-J.;
+RT   "An extensive survey of tyrosine phosphorylation revealing new sites
+RT   in human mammary epithelial cells.";
+RL   J. Proteome Res. 8:3852-3861(2009).
+RN   [7]
+RP   VARIANT [LARGE SCALE ANALYSIS] SER-70.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Possible non-essential role in spermiogenesis (By
+CC       similarity).
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- COFACTOR: Magnesium (By similarity).
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q9NR20-1; Sequence=Displayed;
+CC         Note=May be due to a competing acceptor splice site. No
+CC         experimental confirmation available;
+CC       Name=2;
+CC         IsoId=Q9NR20-2; Sequence=VSP_013745;
+CC   -!- PTM: Autophosphorylated on tyrosine residues (By similarity).
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CMGC
+CC       Ser/Thr protein kinase family. MNB/DYRK subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAF91393.1; Type=Erroneous initiation;
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF263541; AAF91393.1; ALT_INIT; mRNA.
+DR   EMBL; BC031244; AAH31244.1; -; mRNA.
+DR   EMBL; Y09305; CAA70488.1; -; mRNA.
+DR   IPI; IPI00396286; -.
+DR   IPI; IPI00555676; -.
+DR   RefSeq; NP_003836.1; -.
+DR   UniGene; Hs.439530; -.
+DR   ProteinModelPortal; Q9NR20; -.
+DR   SMR; Q9NR20; 86-411.
+DR   STRING; Q9NR20; -.
+DR   PhosphoSite; Q9NR20; -.
+DR   PRIDE; Q9NR20; -.
+DR   Ensembl; ENST00000010132; ENSP00000010132; ENSG00000010219.
+DR   GeneID; 8798; -.
+DR   KEGG; hsa:8798; -.
+DR   UCSC; uc001qmx.1; human.
+DR   UCSC; uc001qmy.1; human.
+DR   CTD; 8798; -.
+DR   GeneCards; GC12P004699; -.
+DR   H-InvDB; HIX0201901; -.
+DR   HGNC; HGNC:3095; DYRK4.
+DR   HPA; HPA028065; -.
+DR   MIM; 609181; gene.
+DR   PharmGKB; PA27552; -.
+DR   eggNOG; prNOG08797; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG051426; -.
+DR   InParanoid; Q9NR20; -.
+DR   OMA; LMELKIL; -.
+DR   OrthoDB; EOG9QG009; -.
+DR   PhylomeDB; Q9NR20; -.
+DR   BRENDA; 2.7.12.1; 247.
+DR   NextBio; 33000; -.
+DR   ArrayExpress; Q9NR20; -.
+DR   Bgee; Q9NR20; -.
+DR   CleanEx; HS_DYRK4; -.
+DR   Genevestigator; Q9NR20; -.
+DR   GermOnline; ENSG00000010219; Homo sapiens.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; NAS:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; NAS:UniProtKB.
+DR   GO; GO:0004713; F:protein tyrosine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; NAS:UniProtKB.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; ATP-binding; Complete proteome; Cytoplasm;
+KW   Kinase; Magnesium; Metal-binding; Nucleotide-binding; Phosphoprotein;
+KW   Polymorphism; Serine/threonine-protein kinase; Transferase;
+KW   Tyrosine-protein kinase.
+FT   CHAIN         1    520       Dual specificity tyrosine-
+FT                                phosphorylation-regulated kinase 4.
+FT                                /FTId=PRO_0000085940.
+FT   DOMAIN      104    400       Protein kinase.
+FT   NP_BIND     110    118       ATP (By similarity).
+FT   ACT_SITE    230    230       Proton acceptor (By similarity).
+FT   BINDING     133    133       ATP.
+FT   MOD_RES     264    264       Phosphotyrosine.
+FT   VAR_SEQ     441    441       Missing (in isoform 2).
+FT                                /FTId=VSP_013745.
+FT   VARIANT      61     61       A -> T (in dbSNP:rs12306130).
+FT                                /FTId=VAR_033900.
+FT   VARIANT      70     70       A -> S.
+FT                                /FTId=VAR_040465.
+FT   VARIANT      95     95       V -> I.
+FT                                /FTId=VAR_010721.
+FT   VARIANT     189    189       N -> S (in dbSNP:rs3741927).
+FT                                /FTId=VAR_010722.
+FT   VARIANT     454    454       D -> V (in dbSNP:rs1801016).
+FT                                /FTId=VAR_014948.
+FT   MUTAGEN     133    133       K->R: Loss of kinase activity.
+SQ   SEQUENCE   520 AA;  59608 MW;  33FECD8249DDB223 CRC64;
+     MPASELKASE IPFHPSIKTQ DPKAEEKSPK KQKVTLTAAE ALKLFKNQLS PYEQSEILGY
+     AELWFLGLEA KKLDTAPEKF SKTSFDDEHG FYLKVLHDHI AYRYEVLETI GKGSFGQVAK
+     CLDHKNNELV ALKIIRNKKR FHQQALMELK ILEALRKKDK DNTYNVVHMK DFFYFRNHFC
+     ITFELLGINL YELMKNNNFQ GFSLSIVRRF TLSVLKCLQM LSVEKIIHCD LKPENIVLYQ
+     KGQASVKVID FGSSCYEHQK VYTYIQSRFY RSPEVILGHP YDVAIDMWSL GCITAELYTG
+     YPLFPGENEV EQLACIMEVL GLPPAGFIQT ASRRQTFFDS KGFPKNITNN RGKKRYPDSK
+     DLTMVLKTYD TSFLDFLRRC LVWEPSLRMT PDQALKHAWI HQSRNLKPQP RPQTLRKSNS
+     FFPSETRKDK VQGCHHSSRK ADEITKETTE KTKDSPTKHV QHSGDQQDCL QHGADTVQLP
+     QLVDAPKKSE AAVGAEVSMT SPGQSKNFSL KNTNVLPPIV
+//

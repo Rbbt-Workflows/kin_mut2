@@ -1,0 +1,71 @@
+UI: Initial number of sequences: 18
+UI: Initial number of positions: 274
+UI: Number of outliers: 0
+UI: Final number of sequences after removing outliers: 18
+UI: Final number of positions after removing gappy columns: 191
+II: Final number of columns in the disjunctive matrix: 1023
+UI: Number of axes selected: 2
+UI: Percentage of initial variance considered informative: 33.694 %
+UI: Checking a maximum number of groups equal to: 5
+UI: Stable cluster results have been found
+SC: YES
+UI: Number of groups selected: 3
+II: Clustering index value: CH_Index = 22.8548
+II: F-Fisher: 49.2638
+II: Best solution found 198 times out of 500 iterations searching for 3 groups
+UI: Number of groups with less than 3 sequences: 0
+Is there enough group diversity to perform the analysis?:
+GD: YES
+
+Clustering of sequences: 
+CL: Q9VEU5+1=GCYDB_DROME/213-484	1
+CL: Q9VEU6+2=GCYDA_DROME/213-481	1
+CL: Q6DNF4+1=GCY36_CAEEL/212-440	2
+CL: P92006+1=GCY34_CAEEL/219-446	2
+CL: Q6DNF7+1=GCY32_CAEEL/219-445	2
+CL: Q86C56+2=GCY31_CAEEL/200-423	1
+CL: Q8INF0+3=GCY8E_DROME/196-409	1
+CL: P16068+1=GCYB1_BOVIN/201-411	2
+CL: Q6DNF3+1=GCY37_CAEEL/216-424	2
+CL: O02298+3=GCY35_CAEEL/211-414	2
+CL: Q07093+2=GCYH_DROME/254-456	0
+CL: Q02108+2=GCYA3_HUMAN/270-471	0
+CL: P22717+1=GCYB2_RAT/197-398	2
+CL: Q9ERL9+1=GCYA3_MOUSE/270-471	0
+CL: O75343+2=GCYB2_HUMAN/180-381	2
+CL: P19687+1=GCYA1_BOVIN/271-472	0
+CL: P33402+1=GCYA2_HUMAN/311-511	0
+CL: Q9WVI4+2=GCYA2_RAT/309-509	0
+
+Are there any position predicted as being important for the whole family?: 
+PR: YES
+Positions predicted: 
+RE: 218 1.5 2
+RE: 254 2 2
+RE: 85 3 2
+RE: 260 3 2
+RE: 226 3.5 2
+RE: 214 3.5 2
+RE: 183 4 2
+RE: 261 4 3
+RE: 22 6 2
+RE: 225 6.3333 3
+RE: 166 7 2
+RE: 245 7.3333 3
+
+UI: Number of positions predicted to be important for the group segregation: 12
+
+Are there any conserved position at 90 % of identity?: 
+CN: YES
+Conserved positions: 
+CP: 18
+CP: 66
+CP: 84
+CP: 170
+CP: 172
+CP: 212
+CP: 257
+CP: 262
+CP: 266
+
+UI: Number of conserved positions (at 90 % of identity): 9

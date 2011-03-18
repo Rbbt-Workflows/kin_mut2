@@ -1,0 +1,88 @@
+UI: Initial number of sequences: 47
+UI: Initial number of positions: 207
+UI: Number of outliers: 0
+UI: Final number of sequences after removing outliers: 47
+UI: Final number of positions after removing gappy columns: 133
+II: Final number of columns in the disjunctive matrix: 1192
+UI: Number of axes selected: 3
+UI: Percentage of initial variance considered informative: 26.2666 %
+UI: Checking a maximum number of groups equal to: 12
+UI: Stable cluster results have been found
+SC: YES
+UI: Number of groups selected: 4
+II: Clustering index value: CH_Index = 29.7084
+II: F-Fisher: 65.7368
+II: Best solution found 208 times out of 500 iterations searching for 4 groups
+UI: Number of groups with less than 3 sequences: 0
+Is there enough group diversity to perform the analysis?:
+GD: YES
+
+Clustering of sequences: 
+CL: Q7Z553+2=MAMC1_HUMAN/748-921	0
+CL: Q8NFP4+1=MDGA1_HUMAN/753-918	0
+CL: Q16819+1=MEP1A_HUMAN/269-433	3
+CL: P28826+2=MEP1B_RAT/266-430	3
+CL: P28825+3=MEP1A_MOUSE/268-432	3
+CL: Q61847+1=MEP1B_MOUSE/266-430	3
+CL: Q16820+2=MEP1B_HUMAN/265-429	3
+CL: Q64230+1=MEP1A_RAT/270-434	3
+CL: P57999+2=ZAN_RABIT/152-315	0
+CL: Q9Y493+3=ZAN_HUMAN/41-204	0
+CL: O88799+1=ZAN_MOUSE/47-210	0
+CL: Q9Y493+3=ZAN_HUMAN/373-536	0
+CL: O88799+1=ZAN_MOUSE/379-542	0
+CL: Q28983+1=ZAN_PIG/149-312	0
+CL: Q9QWJ9+1=NRP1_RAT/650-811	0
+CL: P28824+1=NRP1_XENLA/651-812	0
+CL: O14786+2=NRP1_HUMAN/650-811	0
+CL: Q92729+1=PTPRU_HUMAN/27-187	2
+CL: P79795+1=NRP1_CHICK/641-801	0
+CL: O14522+5=PTPRT_HUMAN/32-191	2
+CL: Q91641+1=THIB_XENLA/171-330	2
+CL: Q8CG85+1=MAMC2_MOUSE/170-329	2
+CL: Q7Z304+2=MAMC2_HUMAN/170-329	2
+CL: Q91641+1=THIB_XENLA/511-669	0
+CL: Q15262+1=PTPRK_HUMAN/36-194	2
+CL: P98074+1=ENTK_PIG/362-519	3
+CL: P97435+1=ENTK_MOUSE/392-549	3
+CL: Q7Z304+2=MAMC2_HUMAN/509-666	0
+CL: P98073+1=ENTK_HUMAN/347-504	3
+CL: Q8CG85+1=MAMC2_MOUSE/509-666	0
+CL: Q9Y493+3=ZAN_HUMAN/211-368	1
+CL: P28827+1=PTPRM_HUMAN/27-184	2
+CL: P98072+1=ENTK_BOVIN/363-520	3
+CL: Q91641+1=THIB_XENLA/343-500	2
+CL: O88799+1=ZAN_MOUSE/217-374	1
+CL: P28828+1=PTPRM_MOUSE/27-184	2
+CL: P97793+1=ALK_MOUSE/484-640	2
+CL: O35375+1=NRP2_MOUSE/646-802	0
+CL: Q7Z304+2=MAMC2_HUMAN/342-498	2
+CL: Q8CG85+1=MAMC2_MOUSE/342-498	2
+CL: O60462+1=NRP2_HUMAN/646-802	0
+CL: Q9UM73+1=ALK_HUMAN/480-636	2
+CL: Q8CG85+1=MAMC2_MOUSE/26-169	2
+CL: Q7Z304+2=MAMC2_HUMAN/26-169	2
+CL: Q91641+1=THIB_XENLA/28-170	2
+CL: Q28983+1=ZAN_PIG/20-144	1
+CL: P57999+2=ZAN_RABIT/36-147	1
+
+Are there any position predicted as being important for the whole family?: 
+PR: YES
+Positions predicted: 
+RE: 112 6.5 2
+RE: 196 6.6667 3
+RE: 172 7 3
+
+UI: Number of positions predicted to be important for the group segregation: 3
+
+Are there any conserved position at 90 % of identity?: 
+CN: YES
+Conserved positions: 
+CP: 1
+CP: 3
+CP: 13
+CP: 80
+CP: 155
+CP: 205
+
+UI: Number of conserved positions (at 90 % of identity): 6

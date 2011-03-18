@@ -1,0 +1,39 @@
+UI: Initial number of sequences: 15
+UI: Initial number of positions: 37
+UI: Number of outliers: 0
+UI: Final number of sequences after removing outliers: 15
+UI: Final number of positions after removing gappy columns: 37
+II: Final number of columns in the disjunctive matrix: 170
+UI: Number of axes selected: 2
+UI: Percentage of initial variance considered informative: 42.6458 %
+UI: Checking a maximum number of groups equal to: 4
+UI: Stable cluster results have been found
+SC: YES
+UI: Number of groups selected: 3
+II: Clustering index value: CH_Index = 21.5774
+II: F-Fisher: 59.4011
+II: Best solution found 466 times out of 500 iterations searching for 3 groups
+UI: Number of groups with less than 3 sequences: 0
+Is there enough group diversity to perform the analysis?:
+GD: YES
+
+Clustering of sequences: 
+CL: Q15283+2=RASA2_HUMAN/707-743	0
+CL: Q28013+1=RASA3_BOVIN/679-715	0
+CL: O95294+2=RASL1_HUMAN/674-710	2
+CL: Q9QYJ2+2=RASA3_RAT/679-715	0
+CL: Q8JH64+1=BTK_CHICK/134-170	1
+CL: P24604+2=TEC_MOUSE/113-149	1
+CL: P48423+2=GAP1_DROME/862-898	0
+CL: O43374+2=RASL2_HUMAN/675-711	2
+CL: P51813+1=BMX_HUMAN/113-149	1
+CL: Q06187+3=BTK_HUMAN/135-171	1
+CL: Q14644+2=RASA3_HUMAN/679-715	0
+CL: Q08881+1=ITK_HUMAN/113-149	1
+CL: Q63713+1=RASA2_RAT/706-742	0
+CL: Q03526+1=ITK_MOUSE/119-155	1
+CL: Q9Z268+1=RASL1_MOUSE/674-710	2
+
+Are there any position predicted as being important for the whole family?: 
+PR: NO
+UI: There are no positions predicted to be important for the group segregation

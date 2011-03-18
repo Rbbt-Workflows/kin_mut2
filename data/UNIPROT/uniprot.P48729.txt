@@ -1,0 +1,330 @@
+ID   KC1A_HUMAN              Reviewed;         337 AA.
+AC   P48729; Q4JJA0; Q5U046; Q5U047; Q6FGA2; Q96HD2; Q9UDK3;
+DT   01-FEB-1996, integrated into UniProtKB/Swiss-Prot.
+DT   23-MAY-2003, sequence version 2.
+DT   05-OCT-2010, entry version 110.
+DE   RecName: Full=Casein kinase I isoform alpha;
+DE            Short=CKI-alpha;
+DE            EC=2.7.11.1;
+DE   AltName: Full=CK1;
+GN   Name=CSNK1A1;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RC   TISSUE=Brain;
+RX   MEDLINE=94326941; PubMed=8050587; DOI=10.1016/0014-5793(94)00679-2;
+RA   Tapia C., Featherstone T., Gomez C., Taillon-Miller P., Allende C.C.,
+RA   Allende J.E.;
+RT   "Cloning and chromosomal localization of the gene coding for human
+RT   protein kinase CK1.";
+RL   FEBS Lett. 349:307-312(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RC   TISSUE=Placenta;
+RX   MEDLINE=95318039; PubMed=7797465; DOI=10.1074/jbc.270.25.14875;
+RA   Fish K.J., Cegielska A., Getman M.E., Landes G.M., Virshup D.M.;
+RT   "Isolation and characterization of human casein kinase I epsilon
+RT   (CKI), a novel member of the CKI gene family.";
+RL   J. Biol. Chem. 270:14875-14883(1995).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RA   Halleck A., Ebert L., Mkoundinya M., Schick M., Eisenstein S.,
+RA   Neubert P., Kstrang K., Schatten R., Shen B., Henze S., Mar W.,
+RA   Korn B., Zuo D., Hu Y., LaBaer J.;
+RT   "Cloning of human full open reading frames in Gateway(TM) system entry
+RT   vector (pDONR201).";
+RL   Submitted (JUN-2004) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RA   Kalnine N., Chen X., Rolfs A., Halleck A., Hines L., Eisenstein S.,
+RA   Koundinya M., Raphael J., Moreira D., Kelley T., LaBaer J., Lin Y.,
+RA   Phelan M., Farmer A.;
+RT   "Cloning of human full-length CDSs in BD Creator(TM) system donor
+RT   vector.";
+RL   Submitted (OCT-2004) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2).
+RA   Lin L., Nong W., Zhou G., Ke R., Shen C., Zhong G., Zheng Z.,
+RA   Liang M., Huang B., Li H., Yang S.;
+RL   Submitted (JUN-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (SEP-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   TISSUE=Lung;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [8]
+RP   PROTEIN SEQUENCE OF 65-83; 111-152 AND 179-204, FUNCTION, AND
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=1409656; DOI=10.1073/pnas.89.20.9454;
+RA   Brockman J.L., Gross S.D., Sussman M.R., Anderson R.A.;
+RT   "Cell cycle-dependent localization of casein kinase I to mitotic
+RT   spindles.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 89:9454-9458(1992).
+RN   [9]
+RP   ROLE IN WNT SIGNALING.
+RX   MEDLINE=21952480; PubMed=11955436; DOI=10.1016/S0092-8674(02)00685-2;
+RA   Liu C., Li Y., Semenov M., Han C., Baeg G.-H., Tan Y., Zhang Z.,
+RA   Lin X., He X.;
+RT   "Control of beta-catenin phosphorylation/degradation by a dual-kinase
+RT   mechanism.";
+RL   Cell 108:837-847(2002).
+RN   [10]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-321, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix adenocarcinoma;
+RX   PubMed=16565220; DOI=10.1073/pnas.0507066103;
+RA   Nousiainen M., Sillje H.H.W., Sauer G., Nigg E.A., Koerner R.;
+RT   "Phosphoproteome analysis of the human mitotic spindle.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:5391-5396(2006).
+RN   [11]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-321, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=17192257; DOI=10.1074/mcp.T600062-MCP200;
+RA   Wissing J., Jaensch L., Nimtz M., Dieterich G., Hornberger R.,
+RA   Keri G., Wehland J., Daub H.;
+RT   "Proteomics analysis of protein kinases by target class-selective
+RT   prefractionation and tandem mass spectrometry.";
+RL   Mol. Cell. Proteomics 6:537-547(2007).
+RN   [12]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-321, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=19007248; DOI=10.1021/ac801708p;
+RA   Wang B., Malik R., Nigg E.A., Korner R.;
+RT   "Evaluation of the low-specificity protease elastase for large-scale
+RT   phosphoproteome analysis.";
+RL   Anal. Chem. 80:9526-9533(2008).
+RN   [13]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-311; THR-321 AND
+RP   THR-327, PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-156 (ISOFORM
+RP   2), AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [14]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RA   Colinge J., Superti-Furga G., Bennett K.L.;
+RL   Submitted (OCT-2008) to UniProtKB.
+RN   [15]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-313 AND THR-321, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Embryonic kidney;
+RX   PubMed=19413330; DOI=10.1021/ac9004309;
+RA   Gauci S., Helbig A.O., Slijper M., Krijgsveld J., Heck A.J.,
+RA   Mohammed S.;
+RT   "Lys-N and trypsin cover complementary parts of the phosphoproteome in
+RT   a refined SCX-based approach.";
+RL   Anal. Chem. 81:4493-4501(2009).
+RN   [16]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-3; SER-311; THR-321 AND
+RP   SER-332, AND MASS SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [17]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-105, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=19690332; DOI=10.1126/scisignal.2000007;
+RA   Mayya V., Lundgren D.H., Hwang S.-I., Rezaul K., Wu L., Eng J.K.,
+RA   Rodionov V., Han D.K.;
+RT   "Quantitative phosphoproteomic analysis of T cell receptor signaling
+RT   reveals system-wide modulation of protein-protein interactions.";
+RL   Sci. Signal. 2:RA46-RA46(2009).
+RN   [18]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT LYS-8, AND MASS SPECTROMETRY.
+RX   PubMed=19608861; DOI=10.1126/science.1175371;
+RA   Choudhary C., Kumar C., Gnad F., Nielsen M.L., Rehman M., Walther T.,
+RA   Olsen J.V., Mann M.;
+RT   "Lysine acetylation targets protein complexes and co-regulates major
+RT   cellular functions.";
+RL   Science 325:834-840(2009).
+RN   [19]
+RP   VARIANT [LARGE SCALE ANALYSIS] HIS-297.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Casein kinases are operationally defined by their
+CC       preferential utilization of acidic proteins such as caseins as
+CC       substrates. It can phosphorylate a large number of proteins.
+CC       Participates in Wnt signaling. Phosphorylates CTNNB1 at 'Ser-45'.
+CC       May play a role in segregating chromosomes during mitosis.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- SUBUNIT: Monomer. Interacts with the Axin complex.
+CC   -!- INTERACTION:
+CC       Q13546:RIPK1; NbExp=4; IntAct=EBI-1383726, EBI-358507;
+CC       P19438:TNFRSF1A; NbExp=1; IntAct=EBI-1383726, EBI-299451;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm. Cytoplasm, cytoskeleton,
+CC       centrosome. Chromosome, centromere, kinetochore. Note=Localizes to
+CC       the centrosome in interphase cells, and to kinetochore fibers
+CC       during mitosis.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=P48729-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=P48729-2; Sequence=VSP_035455;
+CC         Note=Phosphorylated on Ser-156;
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CK1 Ser/Thr
+CC       protein kinase family. Casein kinase I subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- WEB RESOURCE: Name=Atlas of Genetics and Cytogenetics in Oncology
+CC       and Haematology;
+CC       URL="http://atlasgeneticsoncology.org//Genes/CSNK1A1ID40168ch5q32.html";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X80693; CAA56710.1; -; mRNA.
+DR   EMBL; L37042; AAC41760.1; -; mRNA.
+DR   EMBL; CR542206; CAG47002.1; -; mRNA.
+DR   EMBL; BT019829; AAV38632.1; -; mRNA.
+DR   EMBL; BT019830; AAV38633.1; -; mRNA.
+DR   EMBL; DQ082865; AAY84562.1; -; mRNA.
+DR   EMBL; CH471062; EAW61769.1; -; Genomic_DNA.
+DR   EMBL; BC008717; AAH08717.1; -; mRNA.
+DR   IPI; IPI00183400; -.
+DR   IPI; IPI00448798; -.
+DR   PIR; A57011; A57011.
+DR   PIR; S46254; S46254.
+DR   RefSeq; NP_001020276.1; -.
+DR   RefSeq; NP_001883.4; -.
+DR   UniGene; Hs.529862; -.
+DR   UniGene; Hs.712555; -.
+DR   ProteinModelPortal; P48729; -.
+DR   SMR; P48729; 10-302.
+DR   IntAct; P48729; 13.
+DR   MINT; MINT-193806; -.
+DR   STRING; P48729; -.
+DR   PhosphoSite; P48729; -.
+DR   PRIDE; P48729; -.
+DR   Ensembl; ENST00000377843; ENSP00000367074; ENSG00000113712.
+DR   GeneID; 1452; -.
+DR   KEGG; hsa:1452; -.
+DR   UCSC; uc003lqx.1; human.
+DR   CTD; 1452; -.
+DR   GeneCards; GC05M148854; -.
+DR   H-InvDB; HIX0005302; -.
+DR   HGNC; HGNC:2451; CSNK1A1.
+DR   HPA; CAB016680; -.
+DR   MIM; 600505; gene.
+DR   PharmGKB; PA26951; -.
+DR   eggNOG; prNOG17212; -.
+DR   HOVERGEN; HBG000176; -.
+DR   OMA; MIGRLEY; -.
+DR   OrthoDB; EOG9Z0DRP; -.
+DR   PhylomeDB; P48729; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   Pathway_Interaction_DB; wnt_canonical_pathway; Canonical Wnt signaling pathway.
+DR   Pathway_Interaction_DB; foxopathway; FoxO family signaling.
+DR   Pathway_Interaction_DB; hedgehog_glipathway; Hedgehog signaling events mediated by Gli proteins.
+DR   Pathway_Interaction_DB; wnt_calcium_pathway; Noncanonical Wnt signaling pathway.
+DR   Pathway_Interaction_DB; ps1pathway; Presenilin action in Notch and Wnt signaling.
+DR   Pathway_Interaction_DB; nfat_3pathway; Role of Calcineurin-dependent NFAT signaling in lymphocytes.
+DR   Reactome; REACT_11045; Signaling by Wnt.
+DR   NextBio; 5955; -.
+DR   ArrayExpress; P48729; -.
+DR   Bgee; P48729; -.
+DR   CleanEx; HS_CSNK1A1; -.
+DR   Genevestigator; P48729; -.
+DR   GermOnline; ENSG00000113712; Homo sapiens.
+DR   GO; GO:0000777; C:condensed chromosome kinetochore; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005829; C:cytosol; EXP:Reactome.
+DR   GO; GO:0005815; C:microtubule organizing center; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005515; F:protein binding; IPI:IntAct.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0007067; P:mitosis; IEA:UniProtKB-KW.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; TAS:ProtInc.
+DR   GO; GO:0007165; P:signal transduction; NAS:ProtInc.
+DR   GO; GO:0016055; P:Wnt receptor signaling pathway; IEA:UniProtKB-KW.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Alternative splicing; ATP-binding; Cell cycle;
+KW   Cell division; Centromere; Chromosome; Complete proteome; Cytoplasm;
+KW   Cytoskeleton; Direct protein sequencing; Kinase; Kinetochore; Mitosis;
+KW   Nucleotide-binding; Phosphoprotein; Polymorphism;
+KW   Serine/threonine-protein kinase; Transferase; Wnt signaling pathway.
+FT   CHAIN         1    337       Casein kinase I isoform alpha.
+FT                                /FTId=PRO_0000192822.
+FT   DOMAIN       17    285       Protein kinase.
+FT   NP_BIND      23     31       ATP (By similarity).
+FT   ACT_SITE    136    136       Proton acceptor (By similarity).
+FT   BINDING      46     46       ATP (By similarity).
+FT   MOD_RES       3      3       Phosphoserine.
+FT   MOD_RES       8      8       N6-acetyllysine.
+FT   MOD_RES     105    105       Phosphoserine.
+FT   MOD_RES     311    311       Phosphoserine.
+FT   MOD_RES     313    313       Phosphoserine.
+FT   MOD_RES     321    321       Phosphothreonine.
+FT   MOD_RES     327    327       Phosphothreonine.
+FT   MOD_RES     332    332       Phosphoserine.
+FT   VAR_SEQ     152    152       K -> KCLESPVGKRKRSMTVSTSQDPSFSGLNQ (in
+FT                                isoform 2).
+FT                                /FTId=VSP_035455.
+FT   VARIANT     297    297       D -> H (in a breast pleomorphic lobular
+FT                                carcinoma sample; somatic mutation).
+FT                                /FTId=VAR_042073.
+FT   CONFLICT     45     45       V -> L (in Ref. 1; CAA56710).
+FT   CONFLICT     74     74       P -> T (in Ref. 4; AAV38633).
+FT   CONFLICT    122    122       S -> A (in Ref. 8; AA sequence).
+FT   CONFLICT    129    129       T -> TK (in Ref. 8; AA sequence).
+FT   CONFLICT    231    231       Q -> K (in Ref. 7; AAH08717).
+FT   CONFLICT    250    250       K -> E (in Ref. 5; AAY84562).
+FT   CONFLICT    330    330       T -> S (in Ref. 1; CAA56710 and 4;
+FT                                AAV38632/AAV38633).
+SQ   SEQUENCE   337 AA;  38915 MW;  1B2085AE33CAFAC2 CRC64;
+     MASSSGSKAE FIVGGKYKLV RKIGSGSFGD IYLAINITNG EEVAVKLESQ KARHPQLLYE
+     SKLYKILQGG VGIPHIRWYG QEKDYNVLVM DLLGPSLEDL FNFCSRRFTM KTVLMLADQM
+     ISRIEYVHTK NFIHRDIKPD NFLMGIGRHC NKLFLIDFGL AKKYRDNRTR QHIPYREDKN
+     LTGTARYASI NAHLGIEQSR RDDMESLGYV LMYFNRTSLP WQGLKAATKK QKYEKISEKK
+     MSTPVEVLCK GFPAEFAMYL NYCRGLRFEE APDYMYLRQL FRILFRTLNH QYDYTFDWTM
+     LKQKAAQQAA SSSGQGQQAQ TPTGKQTDKT KSNMKGF
+//

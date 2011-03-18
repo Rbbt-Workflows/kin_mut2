@@ -1,0 +1,319 @@
+ID   NTKL_HUMAN              Reviewed;         808 AA.
+AC   Q96KG9; A6NJF1; Q96G50; Q96KG8; Q96KH1; Q9HAW5; Q9HBL3; Q9NR53;
+DT   19-SEP-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2001, sequence version 1.
+DT   02-NOV-2010, entry version 83.
+DE   RecName: Full=N-terminal kinase-like protein;
+DE   AltName: Full=Coated vesicle-associated kinase of 90 kDa;
+DE   AltName: Full=SCY1-like protein 1;
+DE   AltName: Full=Telomerase regulation-associated protein;
+DE   AltName: Full=Telomerase transcriptional element-interacting factor;
+DE   AltName: Full=Teratoma-associated tyrosine kinase;
+GN   Name=SCYL1; Synonyms=CVAK90, GKLP, NTKL, TAPK, TEIF, TRAP;
+GN   ORFNames=HT019;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1; 2 AND 3), SUBUNIT, AND TISSUE
+RP   SPECIFICITY.
+RC   TISSUE=Testis;
+RX   MEDLINE=22032976; PubMed=12036289; DOI=10.1006/geno.2002.6774;
+RA   Kato M., Yano K., Morotomi-Yano K., Saito H., Miki Y.;
+RT   "Identification and characterization of the human protein kinase-like
+RT   gene NTKL: mitosis-specific centrosomal localization of an
+RT   alternatively spliced isoform.";
+RL   Genomics 79:760-767(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 6), DNA-BINDING (ISOFORM 6), AND
+RP   SUBCELLULAR LOCATION (ISOFORM 6).
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=15504359; DOI=10.1016/j.bbrc.2004.09.201;
+RA   Tang Z., Zhao Y., Mei F., Yang S., Li X., Lv J., Hou L., Zhang B.;
+RT   "Molecular cloning and characterization of a human gene involved in
+RT   transcriptional regulation of hTERT.";
+RL   Biochem. Biophys. Res. Commun. 324:1324-1332(2004).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=16554811; DOI=10.1038/nature04632;
+RA   Taylor T.D., Noguchi H., Totoki Y., Toyoda A., Kuroki Y., Dewar K.,
+RA   Lloyd C., Itoh T., Takeda T., Kim D.-W., She X., Barlow K.F.,
+RA   Bloom T., Bruford E., Chang J.L., Cuomo C.A., Eichler E.,
+RA   FitzGerald M.G., Jaffe D.B., LaButti K., Nicol R., Park H.-S.,
+RA   Seaman C., Sougnez C., Yang X., Zimmer A.R., Zody M.C., Birren B.W.,
+RA   Nusbaum C., Fujiyama A., Hattori M., Rogers J., Lander E.S.,
+RA   Sakaki Y.;
+RT   "Human chromosome 11 DNA sequence and analysis including novel gene
+RT   identification.";
+RL   Nature 440:497-500(2006).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1), AND NUCLEOTIDE
+RP   SEQUENCE [LARGE SCALE MRNA] OF 310-808 (ISOFORM 4).
+RC   TISSUE=Eye, and Teratocarcinoma;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-283.
+RX   MEDLINE=20304750; PubMed=10843802; DOI=10.1006/geno.2000.6194;
+RA   van Asseldonk M., Schepens M., de Bruijn D., Janssen B., Merkx G.,
+RA   Geurts van Kessel A.;
+RT   "Construction of a 350-kb sequence-ready 11q13 cosmid contig
+RT   encompassing the markers D11S4933 and D11S546: mapping of 11 genes and
+RT   3 tumor-associated translocation breakpoints.";
+RL   Genomics 66:35-42(2000).
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 288-808 (ISOFORM 5).
+RC   TISSUE=Hypothalamus;
+RA   Xiao H., Song H., Gao G., Ren S., Chen Z., Han Z.;
+RL   Submitted (JAN-2000) to the EMBL/GenBank/DDBJ databases.
+RN   [8]
+RP   FUNCTION (ISOFORM 6), AND DNA-BINDING (ISOFORM 6).
+RX   PubMed=15963946; DOI=10.1016/j.bbrc.2005.05.172;
+RA   Zhao Y., Zheng J., Ling Y., Hou L., Zhang B.;
+RT   "Transcriptional upregulation of DNA polymerase beta by TEIF.";
+RL   Biochem. Biophys. Res. Commun. 333:908-916(2005).
+RN   [9]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-754, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=17081983; DOI=10.1016/j.cell.2006.09.026;
+RA   Olsen J.V., Blagoev B., Gnad F., Macek B., Kumar C., Mortensen P.,
+RA   Mann M.;
+RT   "Global, in vivo, and site-specific phosphorylation dynamics in
+RT   signaling networks.";
+RL   Cell 127:635-648(2006).
+RN   [10]
+RP   INTERACTION WITH AP2B1.
+RX   PubMed=16903783; DOI=10.1371/journal.pbio.0040262;
+RA   Schmid E.M., Ford M.G.J., Burtey A., Praefcke G.J.K., Peak-Chew S.-Y.,
+RA   Mills I.G., Benmerah A., McMahon H.T.;
+RT   "Role of the AP2 beta-appendage hub in recruiting partners for
+RT   clathrin-coated vesicle assembly.";
+RL   PLoS Biol. 4:E262-E262(2006).
+RN   [11]
+RP   FUNCTION, AND SUBCELLULAR LOCATION.
+RX   PubMed=18556652; DOI=10.1074/jbc.M801869200;
+RA   Burman J.L., Bourbonniere L., Philie J., Stroh T., Dejgaard S.Y.,
+RA   Presley J.F., McPherson P.S.;
+RT   "Scyl1, mutated in a recessive form of spinocerebellar
+RT   neurodegeneration, regulates COPI-mediated retrograde traffic.";
+RL   J. Biol. Chem. 283:22774-22786(2008).
+RN   [12]
+RP   VARIANTS [LARGE SCALE ANALYSIS] LEU-479; TYR-495; HIS-663 AND SER-755.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Regulates COPI-mediated retrograde traffic. Has no
+CC       detectable kinase activity in vitro.
+CC   -!- FUNCTION: Isoform 6 acts as transcriptional activator. It binds to
+CC       three different types of GC-rich DNA binding sites (box-A, -B and
+CC       -C) in the beta-polymerase promoter region. It also binds to the
+CC       TERT promoter region.
+CC   -!- SUBUNIT: Interacts with GORAB. Interacts with COPA, COPB1 and
+CC       COPB2 (By similarity). Homooligomer. Interacts with AP2B1.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytoskeleton, centrosome.
+CC       Endoplasmic reticulum-Golgi intermediate compartment. Golgi
+CC       apparatus, cis-Golgi network. Note=Localized to the Endoplasmic
+CC       reticulum-Golgi intermediate and cis-Golgi in an ARF1-independent
+CC       manner.
+CC   -!- SUBCELLULAR LOCATION: Isoform 1: Cytoplasm. Note=Cytoplasmic
+CC       throughout the cell cycle.
+CC   -!- SUBCELLULAR LOCATION: Isoform 2: Cytoplasm. Note=Cytoplasmic
+CC       throughout the cell cycle.
+CC   -!- SUBCELLULAR LOCATION: Isoform 3: Cytoplasm. Cytoplasm,
+CC       cytoskeleton, centrosome. Note=Cytoplasmic during interphase and
+CC       centrosomal during mitosis, it localizes to the centrosomes in a
+CC       microtubule-independent manner.
+CC   -!- SUBCELLULAR LOCATION: Isoform 6: Nucleus.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=6;
+CC       Name=1;
+CC         IsoId=Q96KG9-1; Sequence=Displayed;
+CC       Name=2; Synonyms=Variant 1;
+CC         IsoId=Q96KG9-2; Sequence=VSP_020504;
+CC       Name=3; Synonyms=Variant 2;
+CC         IsoId=Q96KG9-3; Sequence=VSP_020504, VSP_020506;
+CC         Note=No experimental confirmation available;
+CC       Name=4;
+CC         IsoId=Q96KG9-4; Sequence=VSP_020508;
+CC       Name=5;
+CC         IsoId=Q96KG9-5; Sequence=VSP_020503, VSP_020505;
+CC       Name=6;
+CC         IsoId=Q96KG9-6; Sequence=VSP_020507;
+CC   -!- TISSUE SPECIFICITY: Ubiquitous.
+CC   -!- DOMAIN: The protein kinase domain is predicted to be catalytically
+CC       inactive.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily.
+CC   -!- SIMILARITY: Contains 3 HEAT repeats.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAG09726.1; Type=Frameshift; Positions=289, 307;
+CC       Sequence=AAG17902.1; Type=Frameshift; Positions=Several;
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AB047077; BAB55454.1; -; mRNA.
+DR   EMBL; AB051427; BAB55458.1; -; mRNA.
+DR   EMBL; AB051428; BAB55459.1; -; mRNA.
+DR   EMBL; AF297709; AAG17902.1; ALT_FRAME; mRNA.
+DR   EMBL; AP000769; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; CH471076; EAW74399.1; -; Genomic_DNA.
+DR   EMBL; BC009967; AAH09967.2; -; mRNA.
+DR   EMBL; BC069233; AAH69233.1; -; mRNA.
+DR   EMBL; AF255613; AAF81422.1; -; Genomic_DNA.
+DR   EMBL; AF225424; AAG09726.1; ALT_FRAME; mRNA.
+DR   IPI; IPI00062264; -.
+DR   IPI; IPI00102059; -.
+DR   IPI; IPI00186969; -.
+DR   IPI; IPI00787009; -.
+DR   IPI; IPI00788043; -.
+DR   IPI; IPI00788089; -.
+DR   RefSeq; NP_001041683.1; -.
+DR   RefSeq; NP_065731.3; -.
+DR   UniGene; Hs.238839; -.
+DR   ProteinModelPortal; Q96KG9; -.
+DR   SMR; Q96KG9; 15-223, 348-411, 503-534.
+DR   IntAct; Q96KG9; 7.
+DR   MINT; MINT-3055065; -.
+DR   STRING; Q96KG9; -.
+DR   PRIDE; Q96KG9; -.
+DR   Ensembl; ENST00000270176; ENSP00000270176; ENSG00000142186.
+DR   GeneID; 57410; -.
+DR   KEGG; hsa:57410; -.
+DR   UCSC; uc001oea.1; human.
+DR   UCSC; uc001oeb.1; human.
+DR   UCSC; uc001oec.1; human.
+DR   CTD; 57410; -.
+DR   GeneCards; GC11P065292; -.
+DR   H-InvDB; HIX0009797; -.
+DR   HGNC; HGNC:14372; SCYL1.
+DR   HPA; HPA015015; -.
+DR   MIM; 607982; gene.
+DR   PharmGKB; PA31812; -.
+DR   eggNOG; prNOG05601; -.
+DR   HOVERGEN; HBG082065; -.
+DR   InParanoid; Q96KG9; -.
+DR   OMA; AQQDDWS; -.
+DR   PhylomeDB; Q96KG9; -.
+DR   NextBio; 63536; -.
+DR   ArrayExpress; Q96KG9; -.
+DR   Bgee; Q96KG9; -.
+DR   CleanEx; HS_SCYL1; -.
+DR   Genevestigator; Q96KG9; -.
+DR   GermOnline; ENSG00000142186; Homo sapiens.
+DR   GO; GO:0005801; C:cis-Golgi network; IDA:UniProtKB.
+DR   GO; GO:0030126; C:COPI vesicle coat; IDA:UniProtKB.
+DR   GO; GO:0005793; C:ER-Golgi intermediate compartment; IDA:UniProtKB.
+DR   GO; GO:0005815; C:microtubule organizing center; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004713; F:protein tyrosine kinase activity; NAS:UniProtKB.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   GO; GO:0045449; P:regulation of transcription; IEA:UniProtKB-KW.
+DR   GO; GO:0006890; P:retrograde vesicle-mediated transport, Golg...; IDA:UniProtKB.
+DR   GO; GO:0006350; P:transcription; IEA:UniProtKB-KW.
+DR   InterPro; IPR011989; ARM-like.
+DR   InterPro; IPR016024; ARM-type_fold.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   Gene3D; G3DSA:1.25.10.10; ARM-like; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SUPFAM; SSF48371; ARM-type_fold; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS50077; HEAT_REPEAT; FALSE_NEG.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+PE   1: Evidence at protein level;
+KW   Activator; Alternative splicing; Coiled coil; Complete proteome;
+KW   Cytoplasm; Cytoskeleton; DNA-binding; ER-Golgi transport;
+KW   Golgi apparatus; Nucleus; Phosphoprotein; Polymorphism; Repeat;
+KW   Transcription; Transcription regulation; Transport.
+FT   CHAIN         1    808       N-terminal kinase-like protein.
+FT                                /FTId=PRO_0000249541.
+FT   DOMAIN       14    314       Protein kinase.
+FT   REPEAT      350    388       HEAT 1.
+FT   REPEAT      389    427       HEAT 2.
+FT   REPEAT      507    545       HEAT 3.
+FT   REGION      793    808       Interaction with COPB1 (By similarity).
+FT   COILED      761    797       Potential.
+FT   COMPBIAS    589    619       Pro-rich.
+FT   MOD_RES     754    754       Phosphoserine.
+FT   VAR_SEQ     603    626       TPEGVPAPAPTPVPATPTTSGHWE -> SRPARRPLGDAGG
+FT                                GQGHSRGQQHC (in isoform 5).
+FT                                /FTId=VSP_020503.
+FT   VAR_SEQ     606    622       Missing (in isoform 2 and isoform 3).
+FT                                /FTId=VSP_020504.
+FT   VAR_SEQ     627    808       Missing (in isoform 5).
+FT                                /FTId=VSP_020505.
+FT   VAR_SEQ     628    711       Missing (in isoform 3).
+FT                                /FTId=VSP_020506.
+FT   VAR_SEQ     678    808       VSNSDHKSSKSPESDWSSWEAEGSWEQGWQEPSSQEPPPDG
+FT                                TRLASEYNWGGPESSDKGDPFATLSARPSTQPRPDSWGEDN
+FT                                WEGLETDSRQVKAELARKKREERRREMEAKRAERKVAKGPM
+FT                                KLGARKLD -> SPTGAAGKLRAPGNRAGRSQAPRSHLLTV
+FT                                HGWPASITGVAQSPATRATPSLPCLHVPAPSRGQTLGVRTT
+FT                                GRASRLTVDRSRLSWPGRSARSGGGRWRPNAPRGRWPRAP
+FT                                (in isoform 6).
+FT                                /FTId=VSP_020507.
+FT   VAR_SEQ     750    808       PRPDSWGEDNWEGLETDSRQVKAELARKKREERRREMEAKR
+FT                                AERKVAKGPMKLGARKLD -> DRSRLSWPGRSARSGGGRW
+FT                                RPNAPRGRWPRAP (in isoform 4).
+FT                                /FTId=VSP_020508.
+FT   VARIANT     479    479       P -> L (in dbSNP:rs55977709).
+FT                                /FTId=VAR_041364.
+FT   VARIANT     495    495       H -> Y (in a metastatic melanoma sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_041365.
+FT   VARIANT     663    663       Q -> H (in dbSNP:rs56076708).
+FT                                /FTId=VAR_041366.
+FT   VARIANT     755    755       W -> S (in dbSNP:rs56077405).
+FT                                /FTId=VAR_041367.
+FT   CONFLICT    168    169       GN -> AT (in Ref. 2; AAG17902).
+FT   CONFLICT    530    530       I -> F (in Ref. 7; AAG09726).
+FT   CONFLICT    574    574       V -> W (in Ref. 7; AAG09726).
+SQ   SEQUENCE   808 AA;  89631 MW;  E87A2957DDCCE937 CRC64;
+     MWFFARDPVR DFPFELIPEP PEGGLPGPWA LHRGRKKATG SPVSIFVYDV KPGAEEQTQV
+     AKAAFKRFKT LRHPNILAYI DGLETEKCLH VVTEAVTPLG IYLKARVEAG GLKELEISWG
+     LHQIVKALSF LVNDCSLIHN NVCMAAVFVD RAGEWKLGGL DYMYSAQGNG GGPPRKGIPE
+     LEQYDPPELA DSSGRVVREK WSADMWRLGC LIWEVFNGPL PRAAALRNPG KIPKTLVPHY
+     CELVGANPKV RPNPARFLQN CRAPGGFMSN RFVETNLFLE EIQIKEPAEK QKFFQELSKS
+     LDAFPEDFCR HKVLPQLLTA FEFGNAGAVV LTPLFKVGKF LSAEEYQQKI IPVVVKMFSS
+     TDRAMRIRLL QQMEQFIQYL DEPTVNTQIF PHVVHGFLDT NPAIREQTVK SMLLLAPKLN
+     EANLNVELMK HFARLQAKDE QGPIRCNTTV CLGKIGSYLS ASTRHRVLTS AFSRATRDPF
+     APSRVAGVLG FAATHNLYSM NDCAQKILPV LCGLTVDPEK SVRDQAFKAI RSFLSKLESV
+     SEDPTQLEEV EKDVHAASSP GMGGAAASWA GWAVTGVSSL TSKLIRSHPT TAPTETNIPQ
+     RPTPEGVPAP APTPVPATPT TSGHWETQEE DKDTAEDSST ADRWDDEDWG SLEQEAESVL
+     AQQDDWSTGG QVSRASQVSN SDHKSSKSPE SDWSSWEAEG SWEQGWQEPS SQEPPPDGTR
+     LASEYNWGGP ESSDKGDPFA TLSARPSTQP RPDSWGEDNW EGLETDSRQV KAELARKKRE
+     ERRREMEAKR AERKVAKGPM KLGARKLD
+//

@@ -1,0 +1,48 @@
+UI: Initial number of sequences: 24
+UI: Initial number of positions: 197
+UI: Number of outliers: 0
+UI: Final number of sequences after removing outliers: 24
+UI: Final number of positions after removing gappy columns: 135
+II: Final number of columns in the disjunctive matrix: 753
+UI: Number of axes selected: 1
+UI: Percentage of initial variance considered informative: 22.5334 %
+UI: Checking a maximum number of groups equal to: 6
+UI: Stable cluster results have been found
+SC: YES
+UI: Number of groups selected: 5
+II: Clustering index value: CH_Index = 133.56
+II: F-Fisher: 1810.67
+II: Best solution found 319 times out of 500 iterations searching for 5 groups
+UI: Number of groups with less than 3 sequences: 0
+Is there enough group diversity to perform the analysis?:
+GD: YES
+
+Clustering of sequences: 
+CL: P06213+2=INSR_HUMAN/179-340	1
+CL: P15208+1=INSR_MOUSE/179-340	1
+CL: Q93105+1=INSR_AEDAE/196-357	4
+CL: Q9PVZ4+1=INSR_XENLA/189-350	1
+CL: P08069+1=IGF1R_HUMAN/175-333	1
+CL: P24062+2=IGF1R_RAT/175-333	1
+CL: O73798+1=IGF1R_XENLA/172-329	1
+CL: Q9WTL4+1=INSRR_MOUSE/173-329	1
+CL: P14616+2=INSRR_HUMAN/173-329	1
+CL: P06494+3=ERBB2_RAT/190-344	2
+CL: P04626+1=ERBB2_HUMAN/189-343	2
+CL: P00533+2=EGFR_HUMAN/184-338	0
+CL: P13387+1=EGFR_CHICK/191-345	0
+CL: O18735+1=ERBB2_CANFA/189-343	2
+CL: Q01279+1=EGFR_MOUSE/184-338	0
+CL: Q60553+1=ERBB2_MESAU/189-343	2
+CL: P13388+2=XMRK_XIPMA/189-342	3
+CL: Q25410+1=MIPR_LYMST/206-359	4
+CL: P21860+1=ERBB3_HUMAN/180-332	3
+CL: Q15303+1=ERBB4_HUMAN/183-335	3
+CL: Q61526+2=ERBB3_MOUSE/180-332	3
+CL: Q62799+3=ERBB3_RAT/180-332	3
+CL: P04412+3=EGFR_DROME/255-404	3
+CL: O02466+1=ILPR_BRALA/178-321	4
+
+Are there any position predicted as being important for the whole family?: 
+PR: NO
+UI: There are no positions predicted to be important for the group segregation

@@ -1,0 +1,385 @@
+ID   KCC2G_HUMAN             Reviewed;         558 AA.
+AC   Q13555; O15378; Q13279; Q13282; Q13556; Q5SQZ3; Q5SQZ4; Q7KYX5;
+AC   Q8N4I3; Q8NIA4;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   12-APR-2005, sequence version 3.
+DT   05-OCT-2010, entry version 106.
+DE   RecName: Full=Calcium/calmodulin-dependent protein kinase type II subunit gamma;
+DE            Short=CaM kinase II subunit gamma;
+DE            Short=CaMK-II subunit gamma;
+DE            EC=2.7.11.17;
+GN   Name=CAMK2G; Synonyms=CAMKG;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=15164054; DOI=10.1038/nature02462;
+RA   Deloukas P., Earthrowl M.E., Grafham D.V., Rubenfield M., French L.,
+RA   Steward C.A., Sims S.K., Jones M.C., Searle S., Scott C., Howe K.,
+RA   Hunt S.E., Andrews T.D., Gilbert J.G.R., Swarbreck D., Ashurst J.L.,
+RA   Taylor A., Battles J., Bird C.P., Ainscough R., Almeida J.P.,
+RA   Ashwell R.I.S., Ambrose K.D., Babbage A.K., Bagguley C.L., Bailey J.,
+RA   Banerjee R., Bates K., Beasley H., Bray-Allen S., Brown A.J.,
+RA   Brown J.Y., Burford D.C., Burrill W., Burton J., Cahill P., Camire D.,
+RA   Carter N.P., Chapman J.C., Clark S.Y., Clarke G., Clee C.M., Clegg S.,
+RA   Corby N., Coulson A., Dhami P., Dutta I., Dunn M., Faulkner L.,
+RA   Frankish A., Frankland J.A., Garner P., Garnett J., Gribble S.,
+RA   Griffiths C., Grocock R., Gustafson E., Hammond S., Harley J.L.,
+RA   Hart E., Heath P.D., Ho T.P., Hopkins B., Horne J., Howden P.J.,
+RA   Huckle E., Hynds C., Johnson C., Johnson D., Kana A., Kay M.,
+RA   Kimberley A.M., Kershaw J.K., Kokkinaki M., Laird G.K., Lawlor S.,
+RA   Lee H.M., Leongamornlert D.A., Laird G., Lloyd C., Lloyd D.M.,
+RA   Loveland J., Lovell J., McLaren S., McLay K.E., McMurray A.,
+RA   Mashreghi-Mohammadi M., Matthews L., Milne S., Nickerson T.,
+RA   Nguyen M., Overton-Larty E., Palmer S.A., Pearce A.V., Peck A.I.,
+RA   Pelan S., Phillimore B., Porter K., Rice C.M., Rogosin A., Ross M.T.,
+RA   Sarafidou T., Sehra H.K., Shownkeen R., Skuce C.D., Smith M.,
+RA   Standring L., Sycamore N., Tester J., Thorpe A., Torcasso W.,
+RA   Tracey A., Tromans A., Tsolas J., Wall M., Walsh J., Wang H.,
+RA   Weinstock K., West A.P., Willey D.L., Whitehead S.L., Wilming L.,
+RA   Wray P.W., Young L., Chen Y., Lovering R.C., Moschonas N.K.,
+RA   Siebert R., Fechtel K., Bentley D., Durbin R.M., Hubbard T.,
+RA   Doucette-Stamm L., Beck S., Smith D.R., Rogers J.;
+RT   "The DNA sequence and comparative analysis of human chromosome 10.";
+RL   Nature 429:375-381(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA], AND VARIANT PRO-36.
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 5), AND VARIANT
+RP   PRO-36.
+RC   TISSUE=Brain;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 1-315.
+RX   MEDLINE=97382459; PubMed=9240463; DOI=10.1006/bbrc.1997.6871;
+RA   Breen M.A., Ashcroft S.J.;
+RT   "Human islets of Langerhans express multiple isoforms of
+RT   calcium/calmodulin-dependent protein kinase II.";
+RL   Biochem. Biophys. Res. Commun. 236:473-478(1997).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 23-558, AND ALTERNATIVE SPLICING
+RP   (ISOFORM 6).
+RX   MEDLINE=22027671; PubMed=12032636; DOI=10.1007/s00125-002-0779-8;
+RA   Gloyn A.L., Desai M., Clark A., Levy J.C., Holman R.R., Frayling T.M.,
+RA   Hattersley A.T., Ashcroft S.J.;
+RT   "Human calcium/calmodulin-dependent protein kinase II gamma: cloning,
+RT   genomic structure and detection of variants in subjects with type ii
+RT   diabetes.";
+RL   Diabetologia 45:580-583(2002).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 302-497 (ISOFORMS 2 AND 4).
+RX   MEDLINE=97214619; PubMed=9060999; DOI=10.1016/S0167-4889(96)00141-3;
+RA   Tombes R.M., Krystal G.W.;
+RT   "Identification of novel human tumor cell-specific CaMK-II variants.";
+RL   Biochim. Biophys. Acta 1355:281-292(1997).
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 326-432 (ISOFORMS 7; 8 AND 9).
+RX   PubMed=7557101;
+RA   Kwiatkowski A.P., McGill J.M.;
+RT   "Human biliary epithelial cell line Mz-ChA-1 expresses new isoforms of
+RT   calmodulin-dependent protein kinase II.";
+RL   Gastroenterology 109:1316-1323(1995).
+RN   [8]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-287, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=17081983; DOI=10.1016/j.cell.2006.09.026;
+RA   Olsen J.V., Blagoev B., Gnad F., Macek B., Kumar C., Mortensen P.,
+RA   Mann M.;
+RT   "Global, in vivo, and site-specific phosphorylation dynamics in
+RT   signaling networks.";
+RL   Cell 127:635-648(2006).
+RN   [9]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-315 AND SER-319, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=17192257; DOI=10.1074/mcp.T600062-MCP200;
+RA   Wissing J., Jaensch L., Nimtz M., Dieterich G., Hornberger R.,
+RA   Keri G., Wehland J., Daub H.;
+RT   "Proteomics analysis of protein kinases by target class-selective
+RT   prefractionation and tandem mass spectrometry.";
+RL   Mol. Cell. Proteomics 6:537-547(2007).
+RN   [10]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-325 AND SER-349, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [11]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-287, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [12]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-287; THR-307; SER-311;
+RP   SER-315; SER-319; SER-325; SER-349; SER-352; THR-375; SER-381;
+RP   THR-382; SER-384; THR-387; THR-388 AND SER-419, AND MASS SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+CC   -!- FUNCTION: CaM-kinase II (CAMK2) is a prominent kinase in the
+CC       central nervous system that may function in long-term potentiation
+CC       and neurotransmitter release.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- ENZYME REGULATION: Autophosphorylation of CAMK2 plays an important
+CC       role in the regulation of the kinase activity.
+CC   -!- SUBUNIT: CAMK2 is composed of four different chains: alpha, beta,
+CC       gamma, and delta. The different isoforms assemble into homo- or
+CC       heteromultimeric holoenzymes composed of 8 to 12 subunits.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=9;
+CC       Name=1;
+CC         IsoId=Q13555-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q13555-2; Sequence=VSP_013349;
+CC       Name=3;
+CC         IsoId=Q13555-3; Sequence=VSP_013350;
+CC       Name=4;
+CC         IsoId=Q13555-4; Sequence=VSP_004778;
+CC       Name=5;
+CC         IsoId=Q13555-5; Sequence=VSP_032699, VSP_032700, VSP_004778;
+CC       Name=6;
+CC         IsoId=Q13555-6; Sequence=VSP_032699, VSP_035456;
+CC       Name=7; Synonyms=gamma F;
+CC         IsoId=Q13555-7; Sequence=VSP_013350, VSP_035456;
+CC       Name=8; Synonyms=gamma E;
+CC         IsoId=Q13555-8; Sequence=VSP_013349, VSP_035456;
+CC       Name=9; Synonyms=gamma D;
+CC         IsoId=Q13555-9; Sequence=VSP_013349, VSP_036027, VSP_035456;
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CAMK
+CC       Ser/Thr protein kinase family. CaMK subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AL713896; CAI13790.1; -; Genomic_DNA.
+DR   EMBL; AC022400; CAI13790.1; JOINED; Genomic_DNA.
+DR   EMBL; AL596247; CAI13790.1; JOINED; Genomic_DNA.
+DR   EMBL; AL713896; CAI13791.1; -; Genomic_DNA.
+DR   EMBL; AC022400; CAI13791.1; JOINED; Genomic_DNA.
+DR   EMBL; AL596247; CAI13791.1; JOINED; Genomic_DNA.
+DR   EMBL; AL596247; CAI13965.1; -; Genomic_DNA.
+DR   EMBL; AC022400; CAI13965.1; JOINED; Genomic_DNA.
+DR   EMBL; AL713896; CAI13965.1; JOINED; Genomic_DNA.
+DR   EMBL; AL596247; CAI13968.1; -; Genomic_DNA.
+DR   EMBL; AC022400; CAI13968.1; JOINED; Genomic_DNA.
+DR   EMBL; AL713896; CAI13968.1; JOINED; Genomic_DNA.
+DR   EMBL; CH471083; EAW54532.1; -; Genomic_DNA.
+DR   EMBL; BC034044; AAH34044.1; -; mRNA.
+DR   EMBL; U66064; AAB80848.1; -; mRNA.
+DR   EMBL; AF415197; AAM33514.1; -; Genomic_DNA.
+DR   EMBL; AF415177; AAM33514.1; JOINED; Genomic_DNA.
+DR   EMBL; AF415178; AAM33514.1; JOINED; Genomic_DNA.
+DR   EMBL; AF415179; AAM33514.1; JOINED; Genomic_DNA.
+DR   EMBL; AF415180; AAM33514.1; JOINED; Genomic_DNA.
+DR   EMBL; AF415181; AAM33514.1; JOINED; Genomic_DNA.
+DR   EMBL; AF415182; AAM33514.1; JOINED; Genomic_DNA.
+DR   EMBL; AF415183; AAM33514.1; JOINED; Genomic_DNA.
+DR   EMBL; AF415184; AAM33514.1; JOINED; Genomic_DNA.
+DR   EMBL; AF415185; AAM33514.1; JOINED; Genomic_DNA.
+DR   EMBL; AF415186; AAM33514.1; JOINED; Genomic_DNA.
+DR   EMBL; AF415187; AAM33514.1; JOINED; Genomic_DNA.
+DR   EMBL; AF415188; AAM33514.1; JOINED; Genomic_DNA.
+DR   EMBL; AF415189; AAM33514.1; JOINED; Genomic_DNA.
+DR   EMBL; AF415190; AAM33514.1; JOINED; Genomic_DNA.
+DR   EMBL; AF415191; AAM33514.1; JOINED; Genomic_DNA.
+DR   EMBL; AF415192; AAM33514.1; JOINED; Genomic_DNA.
+DR   EMBL; AF415193; AAM33514.1; JOINED; Genomic_DNA.
+DR   EMBL; AF415194; AAM33514.1; JOINED; Genomic_DNA.
+DR   EMBL; AF415195; AAM33514.1; JOINED; Genomic_DNA.
+DR   EMBL; AF415196; AAM33514.1; JOINED; Genomic_DNA.
+DR   EMBL; U50359; AAB16864.1; -; mRNA.
+DR   EMBL; U50360; AAB16865.1; -; mRNA.
+DR   EMBL; U32472; AAA75201.1; -; mRNA.
+DR   EMBL; U32473; AAA75202.1; -; mRNA.
+DR   EMBL; U32509; AAA75203.1; -; mRNA.
+DR   IPI; IPI00172450; -.
+DR   IPI; IPI00296678; -.
+DR   IPI; IPI00334344; -.
+DR   IPI; IPI00556423; -.
+DR   IPI; IPI00908444; -.
+DR   IPI; IPI00915309; -.
+DR   IPI; IPI00915327; -.
+DR   IPI; IPI00915383; -.
+DR   IPI; IPI00915393; -.
+DR   PIR; G01975; G01975.
+DR   PIR; G01978; G01978.
+DR   RefSeq; NP_001213.2; -.
+DR   RefSeq; NP_751909.1; -.
+DR   RefSeq; NP_751911.1; -.
+DR   RefSeq; NP_751913.1; -.
+DR   UniGene; Hs.523045; -.
+DR   PDB; 2UX0; X-ray; 2.46 A; A/B/C/D/E/F=426-556.
+DR   PDB; 2V7O; X-ray; 2.25 A; A=5-315.
+DR   PDBsum; 2UX0; -.
+DR   PDBsum; 2V7O; -.
+DR   ProteinModelPortal; Q13555; -.
+DR   SMR; Q13555; 3-302.
+DR   STRING; Q13555; -.
+DR   PhosphoSite; Q13555; -.
+DR   PRIDE; Q13555; -.
+DR   Ensembl; ENST00000394763; ENSP00000378244; ENSG00000148660.
+DR   GeneID; 818; -.
+DR   KEGG; hsa:818; -.
+DR   UCSC; uc001jvo.1; human.
+DR   UCSC; uc001jvs.1; human.
+DR   UCSC; uc001jvv.1; human.
+DR   CTD; 818; -.
+DR   GeneCards; GC10M075572; -.
+DR   HGNC; HGNC:1463; CAMK2G.
+DR   MIM; 602123; gene.
+DR   PharmGKB; PA93; -.
+DR   HOVERGEN; HBG108055; -.
+DR   InParanoid; Q13555; -.
+DR   OMA; APSTGMQ; -.
+DR   OrthoDB; EOG9T1M5P; -.
+DR   PhylomeDB; Q13555; -.
+DR   BRENDA; 2.7.11.17; 247.
+DR   Pathway_Interaction_DB; bcr_5pathway; BCR signaling pathway.
+DR   Pathway_Interaction_DB; ifngpathway; IFN-gamma pathway.
+DR   Reactome; REACT_13685; Synaptic Transmission.
+DR   NextBio; 3340; -.
+DR   ArrayExpress; Q13555; -.
+DR   Bgee; Q13555; -.
+DR   Genevestigator; Q13555; -.
+DR   GermOnline; ENSG00000148660; Homo sapiens.
+DR   GO; GO:0005954; C:calcium- and calmodulin-dependent protein k...; TAS:UniProtKB.
+DR   GO; GO:0005829; C:cytosol; EXP:Reactome.
+DR   GO; GO:0030666; C:endocytic vesicle membrane; EXP:Reactome.
+DR   GO; GO:0005654; C:nucleoplasm; EXP:Reactome.
+DR   GO; GO:0005886; C:plasma membrane; EXP:Reactome.
+DR   GO; GO:0005524; F:ATP binding; NAS:UniProtKB.
+DR   GO; GO:0004723; F:calcium-dependent protein serine/threonine ...; NAS:UniProtKB.
+DR   GO; GO:0005516; F:calmodulin binding; NAS:UniProtKB.
+DR   GO; GO:0004683; F:calmodulin-dependent protein kinase activity; IEA:EC.
+DR   GO; GO:0030073; P:insulin secretion; NAS:UniProtKB.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; NAS:UniProtKB.
+DR   InterPro; IPR013543; Ca/CaM-dep_prot_kinase-assoc.
+DR   InterPro; IPR020636; Ca/CaM-dep_prot_kinase-like.
+DR   InterPro; IPR015742; Ca/CaM-dep_prot_kinase_2.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   PANTHER; PTHR22982; Ca/CaM-dep_prot_kinase-like; 1.
+DR   PANTHER; PTHR22982:SF64; CaMKII; 1.
+DR   Pfam; PF08332; CaMKII_AD; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; ATP-binding; Calmodulin-binding;
+KW   Complete proteome; Kinase; Nucleotide-binding; Phosphoprotein;
+KW   Polymorphism; Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    558       Calcium/calmodulin-dependent protein
+FT                                kinase type II subunit gamma.
+FT                                /FTId=PRO_0000086101.
+FT   DOMAIN       14    272       Protein kinase.
+FT   NP_BIND      20     28       ATP (By similarity).
+FT   REGION      291    301       Calmodulin-binding (By similarity).
+FT   ACT_SITE    136    136       Proton acceptor (By similarity).
+FT   BINDING      43     43       ATP (By similarity).
+FT   MOD_RES     235    235       Phosphoserine (By similarity).
+FT   MOD_RES     287    287       Phosphothreonine.
+FT   MOD_RES     307    307       Phosphothreonine.
+FT   MOD_RES     311    311       Phosphoserine.
+FT   MOD_RES     315    315       Phosphoserine.
+FT   MOD_RES     319    319       Phosphoserine.
+FT   MOD_RES     325    325       Phosphoserine.
+FT   MOD_RES     349    349       Phosphoserine.
+FT   MOD_RES     352    352       Phosphoserine.
+FT   MOD_RES     375    375       Phosphothreonine.
+FT   MOD_RES     381    381       Phosphoserine.
+FT   MOD_RES     382    382       Phosphothreonine.
+FT   MOD_RES     384    384       Phosphoserine.
+FT   MOD_RES     387    387       Phosphothreonine.
+FT   MOD_RES     388    388       Phosphothreonine.
+FT   MOD_RES     419    419       Phosphoserine.
+FT   VAR_SEQ     315    315       S -> SVGRQSSAPASPAASAAGLAGQ (in isoform 5
+FT                                and isoform 6).
+FT                                /FTId=VSP_032699.
+FT   VAR_SEQ     331    364       Missing (in isoform 3 and isoform 7).
+FT                                /FTId=VSP_013350.
+FT   VAR_SEQ     331    341       Missing (in isoform 2, isoform 8 and
+FT                                isoform 9).
+FT                                /FTId=VSP_013349.
+FT   VAR_SEQ     341    363       Missing (in isoform 5).
+FT                                /FTId=VSP_032700.
+FT   VAR_SEQ     351    364       Missing (in isoform 9).
+FT                                /FTId=VSP_036027.
+FT   VAR_SEQ     396    425       ARSPEGRSSRDRTAPSAGMQPQPSLCSSAM -> V (in
+FT                                isoform 4 and isoform 5).
+FT                                /FTId=VSP_004778.
+FT   VAR_SEQ     397    398       RS -> APLRTGNGSSV (in isoform 6, isoform
+FT                                7, isoform 8 and isoform 9).
+FT                                /FTId=VSP_035456.
+FT   VARIANT      36     36       S -> P (in dbSNP:rs17853266).
+FT                                /FTId=VAR_042430.
+FT   HELIX         9     13
+FT   STRAND       14     19
+FT   STRAND       26     33
+FT   TURN         34     37
+FT   STRAND       38     45
+FT   HELIX        52     67
+FT   STRAND       76     81
+FT   STRAND       86     91
+FT   HELIX        98    103
+FT   HELIX       110    129
+FT   HELIX       139    141
+FT   STRAND      142    145
+FT   STRAND      153    155
+FT   HELIX       183    187
+FT   HELIX       194    199
+FT   HELIX       203    208
+FT   HELIX       219    227
+FT   HELIX       237    240
+FT   HELIX       243    252
+FT   TURN        257    259
+FT   HELIX       263    266
+FT   HELIX       270    273
+FT   HELIX       275    278
+FT   HELIX       285    300
+SQ   SEQUENCE   558 AA;  62609 MW;  38D4112C2FDBD44C CRC64;
+     MATTATCTRF TDDYQLFEEL GKGAFSVVRR CVKKTSTQEY AAKIINTKKL SARDHQKLER
+     EARICRLLKH PNIVRLHDSI SEEGFHYLVF DLVTGGELFE DIVAREYYSE ADASHCIHQI
+     LESVNHIHQH DIVHRDLKPE NLLLASKCKG AAVKLADFGL AIEVQGEQQA WFGFAGTPGY
+     LSPEVLRKDP YGKPVDIWAC GVILYILLVG YPPFWDEDQH KLYQQIKAGA YDFPSPEWDT
+     VTPEAKNLIN QMLTINPAKR ITADQALKHP WVCQRSTVAS MMHRQETVEC LRKFNARRKL
+     KGAILTTMLV SRNFSAAKSL LNKKSDGGVK KRKSSSSVHL MPQSNNKNSL VSPAQEPAPL
+     QTAMEPQTTV VHNATDGIKG STESCNTTTE DEDLKARSPE GRSSRDRTAP SAGMQPQPSL
+     CSSAMRKQEI IKITEQLIEA INNGDFEAYT KICDPGLTSF EPEALGNLVE GMDFHKFYFE
+     NLLSKNSKPI HTTILNPHVH VIGEDAACIA YIRLTQYIDG QGRPRTSQSE ETRVWHRRDG
+     KWLNVHYHCS GAPAAPLQ
+//

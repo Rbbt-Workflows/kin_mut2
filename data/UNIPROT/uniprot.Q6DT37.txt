@@ -1,0 +1,254 @@
+ID   MRCKG_HUMAN             Reviewed;        1551 AA.
+AC   Q6DT37; O00565;
+DT   08-NOV-2005, integrated into UniProtKB/Swiss-Prot.
+DT   02-MAR-2010, sequence version 2.
+DT   02-NOV-2010, entry version 67.
+DE   RecName: Full=Serine/threonine-protein kinase MRCK gamma;
+DE            EC=2.7.11.1;
+DE   AltName: Full=CDC42-binding protein kinase gamma;
+DE   AltName: Full=DMPK-like gamma;
+DE   AltName: Full=Myotonic dystrophy kinase-related CDC42-binding kinase gamma;
+DE            Short=MRCK gamma;
+DE            Short=Myotonic dystrophy protein kinase-like gamma;
+DE   AltName: Full=Myotonic dystrophy protein kinase-like alpha;
+GN   Name=CDC42BPG; Synonyms=DMPK2;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, SUBCELLULAR LOCATION, AND TISSUE
+RP   SPECIFICITY.
+RC   TISSUE=Colon;
+RX   PubMed=15194684; DOI=10.1074/jbc.M405252200;
+RA   Ng Y., Tan I., Lim L., Leung T.;
+RT   "Expression of the human myotonic dystrophy kinase-related Cdc42-
+RT   binding kinase gamma is regulated by promoter DNA methylation and Sp1
+RT   binding.";
+RL   J. Biol. Chem. 279:34156-34164(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=16554811; DOI=10.1038/nature04632;
+RA   Taylor T.D., Noguchi H., Totoki Y., Toyoda A., Kuroki Y., Dewar K.,
+RA   Lloyd C., Itoh T., Takeda T., Kim D.-W., She X., Barlow K.F.,
+RA   Bloom T., Bruford E., Chang J.L., Cuomo C.A., Eichler E.,
+RA   FitzGerald M.G., Jaffe D.B., LaButti K., Nicol R., Park H.-S.,
+RA   Seaman C., Sougnez C., Yang X., Zimmer A.R., Zody M.C., Birren B.W.,
+RA   Nusbaum C., Fujiyama A., Hattori M., Rogers J., Lander E.S.,
+RA   Sakaki Y.;
+RT   "Human chromosome 11 DNA sequence and analysis including novel gene
+RT   identification.";
+RL   Nature 440:497-500(2006).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 113-401.
+RX   MEDLINE=98001089; PubMed=9341881; DOI=10.1007/s004390050562;
+RA   Kedra D., Seroussi E., Fransson I., Trifunovic J., Clark M.,
+RA   Lagercrantz J., Blennow E., Mehlin H., Dumanski J.;
+RT   "The germinal centre kinase gene and a novel CDC25-like gene are
+RT   located in the vicinity of the PYGM gene on 11q13.";
+RL   Hum. Genet. 100:611-619(1997).
+RN   [4]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-1540, AND MASS
+RP   SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [5]
+RP   VARIANTS [LARGE SCALE ANALYSIS] LEU-168; PHE-280; PRO-362 AND ASP-537.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: May act as a downstream effector of CDC42 in
+CC       cytoskeletal reorganization. Contributes to the actomyosin
+CC       contractility required for cell invasion, through the regulation
+CC       of MYPT1 and thus MLC2 phosphorylation (By similarity).
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- COFACTOR: Magnesium.
+CC   -!- ENZYME REGULATION: Maintained in an inactive, closed conformation
+CC       by an interaction between the kinase domain and the negative
+CC       autoregulatory C-terminal coiled-coil region. Agonist binding to
+CC       the phorbol ester binding site disrupts this, releasing the kinase
+CC       domain to allow N-terminus-mediated dimerization and kinase
+CC       activation by transautophosphorylation (By similarity).
+CC   -!- SUBUNIT: Homodimer and homotetramer via the coiled coil regions.
+CC       Interacts tightly with GTP-bound but not GDP-bound CDC42 (By
+CC       similarity).
+CC   -!- INTERACTION:
+CC       P60953:CDC42; NbExp=1; IntAct=EBI-689124, EBI-81752;
+CC       P17081:RHOQ; NbExp=1; IntAct=EBI-689124, EBI-689202;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm. Note=Concentrates at the leading
+CC       edge of cells.
+CC   -!- TISSUE SPECIFICITY: Expressed in heart and skeletal muscle.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. AGC Ser/Thr
+CC       protein kinase family. DMPK subfamily.
+CC   -!- SIMILARITY: Contains 1 AGC-kinase C-terminal domain.
+CC   -!- SIMILARITY: Contains 1 CNH domain.
+CC   -!- SIMILARITY: Contains 1 CRIB domain.
+CC   -!- SIMILARITY: Contains 1 PH domain.
+CC   -!- SIMILARITY: Contains 1 phorbol-ester/DAG-type zinc finger.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AY648038; AAT67172.1; -; mRNA.
+DR   EMBL; AP001187; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; Y12337; CAA73006.1; -; mRNA.
+DR   IPI; IPI00454910; -.
+DR   RefSeq; NP_059995.2; -.
+DR   UniGene; Hs.293590; -.
+DR   ProteinModelPortal; Q6DT37; -.
+DR   IntAct; Q6DT37; 2.
+DR   MINT; MINT-3976275; -.
+DR   STRING; Q6DT37; -.
+DR   PhosphoSite; Q6DT37; -.
+DR   PRIDE; Q6DT37; -.
+DR   Ensembl; ENST00000342711; ENSP00000345133; ENSG00000171219.
+DR   GeneID; 55561; -.
+DR   KEGG; hsa:55561; -.
+DR   UCSC; uc001obs.2; human.
+DR   CTD; 55561; -.
+DR   GeneCards; GC11M064591; -.
+DR   H-InvDB; HIX0035842; -.
+DR   HGNC; HGNC:29829; CDC42BPG.
+DR   HPA; HPA027382; -.
+DR   PharmGKB; PA134901493; -.
+DR   eggNOG; prNOG19720; -.
+DR   HOGENOM; HBG444706; -.
+DR   HOVERGEN; HBG055933; -.
+DR   InParanoid; Q6DT37; -.
+DR   OMA; PCPVPPD; -.
+DR   PhylomeDB; Q6DT37; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   NextBio; 60044; -.
+DR   ArrayExpress; Q6DT37; -.
+DR   Bgee; Q6DT37; -.
+DR   CleanEx; HS_CDC42BPG; -.
+DR   Genevestigator; Q6DT37; -.
+DR   GermOnline; ENSG00000171219; Homo sapiens.
+DR   GO; GO:0031252; C:cell leading edge; IDA:UniProtKB.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IDA:UniProtKB.
+DR   GO; GO:0000287; F:magnesium ion binding; IDA:UniProtKB.
+DR   GO; GO:0005515; F:protein binding; IPI:IntAct.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IDA:UniProtKB.
+DR   GO; GO:0005083; F:small GTPase regulator activity; IEA:InterPro.
+DR   GO; GO:0031532; P:actin cytoskeleton reorganization; ISS:UniProtKB.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IDA:UniProtKB.
+DR   InterPro; IPR000961; AGC-kinase_C.
+DR   InterPro; IPR001180; Citron.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR014930; Myotonic_dystrophy_kinase_coil.
+DR   InterPro; IPR000095; PAK_box_Rho-bd.
+DR   InterPro; IPR011993; PH_type.
+DR   InterPro; IPR017892; Pkinase_C.
+DR   InterPro; IPR001849; Pleckstrin_homology.
+DR   InterPro; IPR002219; Prot_Kinase_C-like_PE/DAG-bd.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Gene3D; G3DSA:2.30.29.30; PH_type; 1.
+DR   Pfam; PF00130; C1_1; 1.
+DR   Pfam; PF00780; CNH; 1.
+DR   Pfam; PF08826; DMPK_coil; 1.
+DR   Pfam; PF00169; PH; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   Pfam; PF00433; Pkinase_C; 1.
+DR   ProDom; PD011252; Myotonic_dystrophy_kinase_coil; 1.
+DR   SMART; SM00109; C1; 1.
+DR   SMART; SM00233; PH; 1.
+DR   SMART; SM00133; S_TK_X; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS51285; AGC_KINASE_CTER; 1.
+DR   PROSITE; PS50219; CNH; 1.
+DR   PROSITE; PS50108; CRIB; 1.
+DR   PROSITE; PS50003; PH_DOMAIN; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+DR   PROSITE; PS00479; ZF_DAG_PE_1; 1.
+DR   PROSITE; PS50081; ZF_DAG_PE_2; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Coiled coil; Complete proteome; Cytoplasm; Kinase;
+KW   Magnesium; Metal-binding; Nucleotide-binding; Phosphoprotein;
+KW   Polymorphism; Serine/threonine-protein kinase; Transferase; Zinc;
+KW   Zinc-finger.
+FT   CHAIN         1   1551       Serine/threonine-protein kinase MRCK
+FT                                gamma.
+FT                                /FTId=PRO_0000086397.
+FT   DOMAIN       71    337       Protein kinase.
+FT   DOMAIN      338    408       AGC-kinase C-terminal.
+FT   DOMAIN      947   1066       PH.
+FT   DOMAIN     1092   1366       CNH.
+FT   DOMAIN     1437   1450       CRIB.
+FT   NP_BIND      77     85       ATP (By similarity).
+FT   ZN_FING     878    927       Phorbol-ester/DAG-type.
+FT   COILED      406    678       Potential.
+FT   COILED      730    802       Potential.
+FT   ACT_SITE    195    195       Proton acceptor (By similarity).
+FT   BINDING     100    100       ATP (By similarity).
+FT   MOD_RES     216    216       Phosphoserine; by autocatalysis (By
+FT                                similarity).
+FT   MOD_RES     228    228       Phosphoserine; by autocatalysis (By
+FT                                similarity).
+FT   MOD_RES     234    234       Phosphothreonine; by autocatalysis (By
+FT                                similarity).
+FT   MOD_RES    1540   1540       Phosphoserine.
+FT   VARIANT     168    168       P -> L (in dbSNP:rs34454471).
+FT                                /FTId=VAR_040840.
+FT   VARIANT     280    280       S -> F (in a glioblastoma multiforme
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_040841.
+FT   VARIANT     362    362       T -> P (in dbSNP:rs55688429).
+FT                                /FTId=VAR_040842.
+FT   VARIANT     537    537       A -> D (in dbSNP:rs34241745).
+FT                                /FTId=VAR_040843.
+FT   VARIANT    1135   1135       Q -> R (in dbSNP:rs3741395).
+FT                                /FTId=VAR_057105.
+FT   CONFLICT    628    628       P -> R (in Ref. 1; AAT67172).
+SQ   SEQUENCE   1551 AA;  172459 MW;  A6D042D5D11318D7 CRC64;
+     MERRLRALEQ LARGEAGGCP GLDGLLDLLL ALHHELSSGP LRRERSVAQF LSWASPFVSK
+     VKELRLQRDD FEILKVIGRG AFGEVTVVRQ RDTGQIFAMK MLHKWEMLKR AETACFREER
+     DVLVKGDSRW VTTLHYAFQD EEYLYLVMDY YAGGDLLTLL SRFEDRLPPE LAQFYLAEMV
+     LAIHSLHQLG YVHRDVKPDN VLLDVNGHIR LADFGSCLRL NTNGMVDSSV AVGTPDYISP
+     EILQAMEEGK GHYGPQCDWW SLGVCAYELL FGETPFYAES LVETYGKIMN HEDHLQFPPD
+     VPDVPASAQD LIRQLLCRQE ERLGRGGLDD FRNHPFFEGV DWERLASSTA PYIPELRGPM
+     DTSNFDVDDD TLNHPGTLPP PSHGAFSGHH LPFVGFTYTS GSHSPESSSE AWAALERKLQ
+     CLEQEKVELS RKHQEALHAP TDHRELEQLR KEVQTLRDRL PEMLRDKASL SQTDGPPAGS
+     PGQDSDLRQE LDRLHRELAE GRAGLQAQEQ ELCRAQGQQE ELLQRLQEAQ EREAATASQT
+     RALSSQLEEA RAAQRELEAQ VSSLSRQVTQ LQGQWEQRLE ESSQAKTIHT ASETNGMGPP
+     EGGPQEAQLR KEVAALREQL EQAHSHRPSG KEEALCQLQE ENRRLSREQE RLEAELAQEQ
+     ESKQRLEGER RETESNWEAQ LADILSWVND EKVSRGYLQA LATKMAEELE SLRNVGTQTL
+     PARPLDHQWK ARRLQKMEAS ARLELQSALE AEIRAKQGLQ ERLTQVQEAQ LQAERRLQEA
+     EKQSQALQQE LAMLREELRA RGPVDTKPSN SLIPFLSFRS SEKDSAKDPG ISGEATRHGG
+     EPDLRPEGRR SLRMGAVFPR APTANTASTE GLPAKPGSHT LRPRSFPSPT KCLRCTSLML
+     GLGRQGLGCD ACGYFCHTTC APQAPPCPVP PDLLRTALGV HPETGTGTAY EGFLSVPRPS
+     GVRRGWQRVF AALSDSRLLL FDAPDLRLSP PSGALLQVLD LRDPQFSATP VLASDVIHAQ
+     SRDLPRIFRV TTSQLAVPPT TCTVLLLAES EGERERWLQV LGELQRLLLD ARPRPRPVYT
+     LKEAYDNGLP LLPHTLCAAI LDQDRLALGT EEGLFVIHLR SNDIFQVGEC RRVQQLTLSP
+     SAGLLVVLCG RGPSVRLFAL AELENIEVAG AKIPESRGCQ VLAAGSILQA RTPVLCVAVK
+     RQVLCYQLGP GPGPWQRRIR ELQAPATVQS LGLLGDRLCV GAAGGFALYP LLNEAAPLAL
+     GAGLVPEELP PSRGGLGEAL GAVELSLSEF LLLFTTAGIY VDGAGRKSRG HELLWPAAPM
+     GWGYAAPYLT VFSENSIDVF DVRRAEWVQT VPLKKVRPLN PEGSLFLYGT EKVRLTYLRN
+     QLAEKDEFDI PDLTDNSRRQ LFRTKSKRRF FFRVSEEQQK QQRREMLKDP FVRSKLISPP
+     TNFNHLVHVG PANGRPGARD KSPAPEEKGR VARGSGPQRP HSFSEALRRP ASMGSEGLGG
+     DADPMKRKPW TSLSSESVSC PQGSLSPATS LMQVSERPRS LPLSPELESS P
+//

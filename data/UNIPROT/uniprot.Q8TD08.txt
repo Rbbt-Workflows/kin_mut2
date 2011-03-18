@@ -1,0 +1,203 @@
+ID   MK15_HUMAN              Reviewed;         544 AA.
+AC   Q8TD08; Q2TCF9; Q8N362;
+DT   18-APR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2002, sequence version 1.
+DT   05-OCT-2010, entry version 71.
+DE   RecName: Full=Mitogen-activated protein kinase 15;
+DE            Short=MAP kinase 15;
+DE            Short=MAPK 15;
+DE            EC=2.7.11.24;
+DE   AltName: Full=Extracellular signal-regulated kinase 7;
+DE            Short=ERK-7;
+DE   AltName: Full=Extracellular signal-regulated kinase 8;
+DE            Short=ERK-8;
+GN   Name=MAPK15; Synonyms=ERK7, ERK8;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), TISSUE SPECIFICITY,
+RP   INTERACTION WITH CSK, MUTAGENESIS OF LYS-42; THR-175 AND TYR-177,
+RP   PHOSPHORYLATION AT THR-175 AND TYR-177, CHARACTERIZATION, AND
+RP   FUNCTION.
+RC   TISSUE=Testis;
+RX   MEDLINE=21988156; PubMed=11875070; DOI=10.1074/jbc.M112483200;
+RA   Abe M.K., Saelzler M.P., Espinosa R. III, Kahle K.T., Hershenson M.B.,
+RA   Le Beau M.M., Rosner M.R.;
+RT   "ERK8, a new member of the mitogen-activated protein kinase family.";
+RL   J. Biol. Chem. 277:16733-16743(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2), TISSUE SPECIFICITY, FUNCTION,
+RP   AND INTERACTION WITH ABL1 AND RET.
+RC   TISSUE=Medulla oblongata;
+RX   PubMed=16484222; DOI=10.1074/jbc.M513397200;
+RA   Iavarone C., Acunzo M., Carlomagno F., Catania A., Melillo R.M.,
+RA   Carlomagno S.M., Santoro M., Chiariello M.;
+RT   "Activation of the Erk8 mitogen-activated protein (MAP) kinase by
+RT   RET/PTC3, a constitutively active form of the RET proto-oncogene.";
+RL   J. Biol. Chem. 281:10567-10576(2006).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 3).
+RC   TISSUE=Brain;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   INTERACTION WITH TGFB1I1.
+RX   PubMed=16624805; DOI=10.1074/jbc.M512418200;
+RA   Saelzler M.P., Spackman C.C., Liu Y., Martinez L.C., Harris J.P.,
+RA   Abe M.K.;
+RT   "ERK8 down-regulates transactivation of the glucocorticoid receptor
+RT   through Hic-5.";
+RL   J. Biol. Chem. 281:16821-16832(2006).
+RN   [5]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-177; SER-392 AND
+RP   SER-415, AND MASS SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+CC   -!- FUNCTION: In vitro, phosphorylates MBP.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- ENZYME REGULATION: Activated by threonine and tyrosine
+CC       phosphorylation. Inhibited by dual specificity phosphatases, such
+CC       as DUSP1 (By similarity).
+CC   -!- SUBUNIT: Interacts with CSK/c-Src, ABL1, RET and TGFB1I1.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=3;
+CC       Name=1;
+CC         IsoId=Q8TD08-1; Sequence=Displayed;
+CC       Name=2; Synonyms=Erk8 delta;
+CC         IsoId=Q8TD08-2; Sequence=VSP_017919, VSP_017920;
+CC         Note=Appears not to be a CSK- and RET-dependent activated
+CC         kinase;
+CC       Name=3;
+CC         IsoId=Q8TD08-3; Sequence=VSP_017918, VSP_017921;
+CC         Note=No experimental confirmation available;
+CC   -!- TISSUE SPECIFICITY: Widely expressed with a maximal expression in
+CC       lung and kidney.
+CC   -!- DOMAIN: The N-terminal region (1-20) is the minimal region
+CC       necessary for ubiquitination and further proteosomal degradation
+CC       (By similarity).
+CC   -!- DOMAIN: The TXY motif contains the threonine and tyrosine residues
+CC       whose phosphorylation activates the MAP kinases.
+CC   -!- PTM: Dually phosphorylated on Thr-175 and Tyr-177, which activates
+CC       the enzyme. Autophosphorylated on threonine and tyrosine residues
+CC       in vitro.
+CC   -!- PTM: Ubiquitinated. Ubiquitination may allow its tight kinase
+CC       activity regulation and rapid turnover. May be ubiquitinated by a
+CC       SCF E3 ligase (By similarity).
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CMGC
+CC       Ser/Thr protein kinase family. MAP kinase subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AY065978; AAL40897.1; -; mRNA.
+DR   EMBL; AY994058; AAY44299.1; -; mRNA.
+DR   EMBL; BC028034; AAH28034.1; -; mRNA.
+DR   IPI; IPI00165955; -.
+DR   IPI; IPI00747020; -.
+DR   IPI; IPI00935477; -.
+DR   RefSeq; NP_620590.2; -.
+DR   UniGene; Hs.493169; -.
+DR   ProteinModelPortal; Q8TD08; -.
+DR   SMR; Q8TD08; 9-345.
+DR   STRING; Q8TD08; -.
+DR   PhosphoSite; Q8TD08; -.
+DR   PRIDE; Q8TD08; -.
+DR   Ensembl; ENST00000338033; ENSP00000337691; ENSG00000181085.
+DR   GeneID; 225689; -.
+DR   KEGG; hsa:225689; -.
+DR   NMPDR; fig|9606.3.peg.30854; -.
+DR   UCSC; uc003yzj.1; human.
+DR   CTD; 225689; -.
+DR   GeneCards; GC08P144798; -.
+DR   H-InvDB; HIX0017756; -.
+DR   HGNC; HGNC:24667; MAPK15.
+DR   HPA; HPA002704; -.
+DR   PharmGKB; PA142671478; -.
+DR   eggNOG; prNOG18859; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG014652; -.
+DR   OMA; SMDTDLN; -.
+DR   OrthoDB; EOG9R52P7; -.
+DR   PhylomeDB; Q8TD08; -.
+DR   BRENDA; 2.7.11.24; 247.
+DR   NextBio; 91718; -.
+DR   ArrayExpress; Q8TD08; -.
+DR   Bgee; Q8TD08; -.
+DR   CleanEx; HS_MAPK15; -.
+DR   Genevestigator; Q8TD08; -.
+DR   GermOnline; ENSG00000181085; Homo sapiens.
+DR   GO; GO:0005576; C:extracellular region; NAS:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004707; F:MAP kinase activity; IDA:UniProtKB.
+DR   GO; GO:0017124; F:SH3 domain binding; NAS:UniProtKB.
+DR   GO; GO:0046777; P:protein amino acid autophosphorylation; IDA:UniProtKB.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR003527; MAP_kinase_CS.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS01351; MAPK; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; FALSE_NEG.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; ATP-binding; Complete proteome; Kinase;
+KW   Nucleotide-binding; Phosphoprotein; Polymorphism;
+KW   Serine/threonine-protein kinase; Transferase; Ubl conjugation.
+FT   CHAIN         1    544       Mitogen-activated protein kinase 15.
+FT                                /FTId=PRO_0000232637.
+FT   DOMAIN       13    304       Protein kinase.
+FT   NP_BIND      19     27       ATP (By similarity).
+FT   MOTIF       175    177       TXY.
+FT   ACT_SITE    137    137       Proton acceptor (By similarity).
+FT   BINDING      42     42       ATP (By similarity).
+FT   MOD_RES     175    175       Phosphothreonine.
+FT   MOD_RES     177    177       Phosphotyrosine.
+FT   MOD_RES     392    392       Phosphoserine.
+FT   MOD_RES     415    415       Phosphoserine.
+FT   VAR_SEQ      95     95       M -> MGCPPSPPPPTAVRTLSA (in isoform 3).
+FT                                /FTId=VSP_017918.
+FT   VAR_SEQ     241    254       DLLALGSGCRASVL -> GAQTACRSGTGAST (in
+FT                                isoform 2).
+FT                                /FTId=VSP_017919.
+FT   VAR_SEQ     255    544       Missing (in isoform 2).
+FT                                /FTId=VSP_017920.
+FT   VAR_SEQ     261    544       Missing (in isoform 3).
+FT                                /FTId=VSP_017921.
+FT   VARIANT     221    221       T -> K (in dbSNP:rs60732298).
+FT                                /FTId=VAR_061535.
+FT   VARIANT     505    505       S -> P (in dbSNP:rs56038219).
+FT                                /FTId=VAR_061536.
+FT   MUTAGEN      42     42       K->R: Loss of autophosphorylation and
+FT                                activity.
+FT   MUTAGEN     175    175       T->A: Loss of autophosphorylation and
+FT                                activity.
+FT   MUTAGEN     177    177       Y->A: Loss of autophosphorylation and
+FT                                activity.
+FT   CONFLICT    113    113       H -> R (in Ref. 2; AAY44299).
+SQ   SEQUENCE   544 AA;  59832 MW;  758E0E3B9654AAC5 CRC64;
+     MCTVVDPRIV RRYLLRRQLG QGAYGIVWKA VDRRTGEVVA IKKIFDAFRD KTDAQRTFRE
+     ITLLQEFGDH PNIISLLDVI RAENDRDIYL VFEFMDTDLN AVIRKGGLLQ DVHVRSIFYQ
+     LLRATRFLHS GHVVHRDQKP SNVLLDANCT VKLCDFGLAR SLGDLPEGPE DQAVTEYVAT
+     RWYRAPEVLL SSHRYTLGVD MWSLGCILGE MLRGRPLFPG TSTLHQLELI LETIPPPSEE
+     DLLALGSGCR ASVLHQLGSR PRQTLDALLP PDTSPEALDL LRRLLVFAPD KRLSATQALQ
+     HPYVQRFHCP SDEWAREADV RPRAHEGVQL SVPEYRSRVY QMILECGGSS GTSREKGPEG
+     VSPSQAHLHK PRADPQLPSR TPVQGPRPRP QSSPGHDPAE HESPRAAKNV PRQNSAPLLQ
+     TALLGNGERP PGAKEAPPLT LSLVKPSGRG AAPSLTSQAA AQVANQALIR GDWNRGGGVR
+     VASVQQVPPR LPPEARPGRR MFSTSALQGA QGGARALLGG YSQAYGTVCH SALGHLPLLE
+     GHHV
+//

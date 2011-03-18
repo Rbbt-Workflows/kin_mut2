@@ -1,0 +1,73 @@
+UI: Initial number of sequences: 37
+UI: Initial number of positions: 191
+UI: Number of outliers: 0
+UI: Final number of sequences after removing outliers: 37
+UI: Final number of positions after removing gappy columns: 89
+II: Final number of columns in the disjunctive matrix: 702
+UI: Number of axes selected: 2
+UI: Percentage of initial variance considered informative: 26.5488 %
+UI: Checking a maximum number of groups equal to: 10
+UI: Stable cluster results have been found
+SC: YES
+UI: Number of groups selected: 4
+II: Clustering index value: CH_Index = 54.9894
+II: F-Fisher: 194.313
+II: Best solution found 26 times out of 500 iterations searching for 4 groups
+UI: Number of groups with less than 3 sequences: 0
+Is there enough group diversity to perform the analysis?:
+GD: YES
+
+Clustering of sequences: 
+CL: Q8IMX7+1=MIRO_DROME/13-147	2
+CL: Q3YEC7+2=PARF_HUMAN/45-179	1
+CL: Q5U3K5+2=PARF_MOUSE/45-179	1
+CL: Q5S007+1=LRRK2_HUMAN/1336-1455	1
+CL: Q5S006+1=LRRK2_MOUSE/1336-1455	1
+CL: Q9NYR9+1=KBRS2_HUMAN/6-123	1
+CL: Q32NS2+1=KBRS2_XENLA/6-123	1
+CL: Q5ZJW6+1=KBRS2_CHICK/6-123	1
+CL: Q5ZM83+1=MIRO2_CHICK/6-121	2
+CL: Q5E9M9+1=MIRO2_BOVIN/6-121	2
+CL: Q8IXI2+2=MIRO1_HUMAN/6-121	2
+CL: Q8IXI1+2=MIRO2_HUMAN/6-121	2
+CL: Q864R5+1=MIRO2_PIG/6-121	2
+CL: Q7TSA0+1=MIRO2_RAT/6-121	2
+CL: Q6DIS1+1=MIRO2_XENTR/6-121	2
+CL: Q8IMX7+1=MIRO_DROME/448-561	0
+CL: P38987+1=TEM1_YEAST/22-135	1
+CL: P87027+1=SPG1_SCHPO/12-125	1
+CL: P39722+1=GEM1_YEAST/450-563	0
+CL: P39722+1=GEM1_YEAST/7-119	1
+CL: Q7TSA0+1=MIRO2_RAT/419-531	0
+CL: O59781+1=GEM1_SCHPO/5-116	2
+CL: Q8CGU4+1=CENG1_RAT/402-512	3
+CL: Q8IXI2+2=MIRO1_HUMAN/420-530	0
+CL: Q8JZN7+1=MIRO2_MOUSE/419-529	0
+CL: Q864R5+1=MIRO2_PIG/419-529	0
+CL: Q8BG51+1=MIRO1_MOUSE/433-543	0
+CL: Q6DIS1+1=MIRO2_XENTR/420-530	0
+CL: Q99490+2=CENG1_HUMAN/408-518	3
+CL: Q5ZM83+1=MIRO2_CHICK/420-530	0
+CL: Q5ZM73+1=MIRO1_CHICK/421-531	0
+CL: Q8IXI1+2=MIRO2_HUMAN/418-527	0
+CL: Q9UPQ3+3=CENG2_HUMAN/73-181	3
+CL: Q96P47+2=CENG3_HUMAN/93-201	3
+CL: Q9NGC3+2=CEG1A_DROME/144-252	3
+CL: Q5E9M9+1=MIRO2_BOVIN/419-527	0
+CL: O59781+1=GEM1_SCHPO/423-530	0
+
+Are there any position predicted as being important for the whole family?: 
+PR: YES
+Positions predicted: 
+RE: 187 8 2
+
+UI: Number of positions predicted to be important for the group segregation: 1
+
+Are there any conserved position at 90 % of identity?: 
+CN: YES
+Conserved positions: 
+CP: 6
+CP: 11
+CP: 12
+
+UI: Number of conserved positions (at 90 % of identity): 3

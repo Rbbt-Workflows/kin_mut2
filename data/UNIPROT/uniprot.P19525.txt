@@ -1,0 +1,536 @@
+ID   E2AK2_HUMAN             Reviewed;         551 AA.
+AC   P19525; A8K3P0; Q52M43; Q9UIR4;
+DT   01-FEB-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1991, sequence version 2.
+DT   05-OCT-2010, entry version 133.
+DE   RecName: Full=Interferon-induced, double-stranded RNA-activated protein kinase;
+DE            EC=2.7.11.1;
+DE   AltName: Full=Eukaryotic translation initiation factor 2-alpha kinase 2;
+DE            Short=eIF-2A protein kinase 2;
+DE   AltName: Full=Interferon-inducible RNA-dependent protein kinase;
+DE   AltName: Full=P1/eIF-2A protein kinase;
+DE   AltName: Full=Protein kinase RNA-activated;
+DE            Short=PKR;
+DE   AltName: Full=p68 kinase;
+GN   Name=EIF2AK2; Synonyms=PKR, PRKR;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PROTEIN SEQUENCE OF 101-118 AND
+RP   309-325.
+RX   MEDLINE=90322433; PubMed=1695551; DOI=10.1016/0092-8674(90)90374-N;
+RA   Meurs E., Chong K., Galabru J., Thomas N.S.B., Kerr I.M.,
+RA   Williams B.R.G., Hovanessian A.G.;
+RT   "Molecular cloning and characterization of the human double-stranded
+RT   RNA-activated protein kinase induced by interferon.";
+RL   Cell 62:379-390(1990).
+RN   [2]
+RP   SEQUENCE REVISION.
+RA   Meurs E.;
+RL   Submitted (AUG-1990) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   MEDLINE=92230231; PubMed=1373553; DOI=10.1016/0042-6822(92)90732-5;
+RA   Thomis D.C., Doohan J.P., Samuel C.E.;
+RT   "Mechanism of interferon action: cDNA structure, expression, and
+RT   regulation of the interferon-induced, RNA-dependent P1/eIF-2 alpha
+RT   protein kinase from human cells.";
+RL   Virology 188:33-46(1992).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA].
+RX   MEDLINE=97080568; PubMed=8921913; DOI=10.1016/0378-1119(96)00314-9;
+RA   Kuhen K.L., Shen X., Samuel C.E.;
+RT   "Mechanism of interferon action sequence of the human interferon-
+RT   inducible RNA-dependent protein kinase (PKR) deduced from genomic
+RT   clones.";
+RL   Gene 178:191-193(1996).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   TISSUE=Placenta;
+RX   MEDLINE=96411668; PubMed=8812437; DOI=10.1006/geno.1996.0446;
+RA   Kuhen K.L., Shen X., Carlisle E.R., Richardson A.L., Weier H.-U.G.,
+RA   Tanaka H., Samuel C.E.;
+RT   "Structural organization of the human gene (PKR) encoding an
+RT   interferon-inducible RNA-dependent protein kinase (PKR) and
+RT   differences from its mouse homolog.";
+RL   Genomics 36:197-201(1996).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   MEDLINE=98393043; PubMed=9726442; DOI=10.1089/jir.1998.18.609;
+RA   Xu Z., Williams B.R.;
+RT   "Genomic features of human PKR: alternative splicing and a polymorphic
+RT   CGG repeat in the 5'-untranslated region.";
+RL   J. Interferon Cytokine Res. 18:609-616(1998).
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Brain, and Embryo;
+RX   PubMed=14702039; DOI=10.1038/ng1285;
+RA   Ota T., Suzuki Y., Nishikawa T., Otsuki T., Sugiyama T., Irie R.,
+RA   Wakamatsu A., Hayashi K., Sato H., Nagai K., Kimura K., Makita H.,
+RA   Sekine M., Obayashi M., Nishi T., Shibahara T., Tanaka T., Ishii S.,
+RA   Yamamoto J., Saito K., Kawai Y., Isono Y., Nakamura Y., Nagahari K.,
+RA   Murakami K., Yasuda T., Iwayanagi T., Wagatsuma M., Shiratori A.,
+RA   Sudo H., Hosoiri T., Kaku Y., Kodaira H., Kondo H., Sugawara M.,
+RA   Takahashi M., Kanda K., Yokoi T., Furuya T., Kikkawa E., Omura Y.,
+RA   Abe K., Kamihara K., Katsuta N., Sato K., Tanikawa M., Yamazaki M.,
+RA   Ninomiya K., Ishibashi T., Yamashita H., Murakawa K., Fujimori K.,
+RA   Tanai H., Kimata M., Watanabe M., Hiraoka S., Chiba Y., Ishida S.,
+RA   Ono Y., Takiguchi S., Watanabe S., Yosida M., Hotuta T., Kusano J.,
+RA   Kanehori K., Takahashi-Fujii A., Hara H., Tanase T.-O., Nomura Y.,
+RA   Togiya S., Komai F., Hara R., Takeuchi K., Arita M., Imose N.,
+RA   Musashino K., Yuuki H., Oshima A., Sasaki N., Aotsuka S.,
+RA   Yoshikawa Y., Matsunawa H., Ichihara T., Shiohata N., Sano S.,
+RA   Moriya S., Momiyama H., Satoh N., Takami S., Terashima Y., Suzuki O.,
+RA   Nakagawa S., Senoh A., Mizoguchi H., Goto Y., Shimizu F., Wakebe H.,
+RA   Hishigaki H., Watanabe T., Sugiyama A., Takemoto M., Kawakami B.,
+RA   Yamazaki M., Watanabe K., Kumagai A., Itakura S., Fukuzumi Y.,
+RA   Fujimori Y., Komiyama M., Tashiro H., Tanigami A., Fujiwara T.,
+RA   Ono T., Yamada K., Fujii Y., Ozaki K., Hirao M., Ohmori Y.,
+RA   Kawabata A., Hikiji T., Kobatake N., Inagaki H., Ikema Y., Okamoto S.,
+RA   Okitani R., Kawakami T., Noguchi S., Itoh T., Shigeta K., Senba T.,
+RA   Matsumura K., Nakajima Y., Mizuno T., Morinaga M., Sasaki M.,
+RA   Togashi T., Oyama M., Hata H., Watanabe M., Komatsu T.,
+RA   Mizushima-Sugano J., Satoh T., Shirai Y., Takahashi Y., Nakagawa K.,
+RA   Okumura K., Nagase T., Nomura N., Kikuchi H., Masuho Y., Yamashita R.,
+RA   Nakai K., Yada T., Nakamura Y., Ohara O., Isogai T., Sugano S.;
+RT   "Complete sequencing and characterization of 21,243 full-length human
+RT   cDNAs.";
+RL   Nat. Genet. 36:40-45(2004).
+RN   [8]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RG   NIEHS SNPs program;
+RL   Submitted (JAN-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [9]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=15815621; DOI=10.1038/nature03466;
+RA   Hillier L.W., Graves T.A., Fulton R.S., Fulton L.A., Pepin K.H.,
+RA   Minx P., Wagner-McPherson C., Layman D., Wylie K., Sekhon M.,
+RA   Becker M.C., Fewell G.A., Delehaunty K.D., Miner T.L., Nash W.E.,
+RA   Kremitzki C., Oddy L., Du H., Sun H., Bradshaw-Cordum H., Ali J.,
+RA   Carter J., Cordes M., Harris A., Isak A., van Brunt A., Nguyen C.,
+RA   Du F., Courtney L., Kalicki J., Ozersky P., Abbott S., Armstrong J.,
+RA   Belter E.A., Caruso L., Cedroni M., Cotton M., Davidson T., Desai A.,
+RA   Elliott G., Erb T., Fronick C., Gaige T., Haakenson W., Haglund K.,
+RA   Holmes A., Harkins R., Kim K., Kruchowski S.S., Strong C.M.,
+RA   Grewal N., Goyea E., Hou S., Levy A., Martinka S., Mead K.,
+RA   McLellan M.D., Meyer R., Randall-Maher J., Tomlinson C.,
+RA   Dauphin-Kohlberg S., Kozlowicz-Reilly A., Shah N.,
+RA   Swearengen-Shahid S., Snider J., Strong J.T., Thompson J., Yoakum M.,
+RA   Leonard S., Pearman C., Trani L., Radionenko M., Waligorski J.E.,
+RA   Wang C., Rock S.M., Tin-Wollam A.-M., Maupin R., Latreille P.,
+RA   Wendl M.C., Yang S.-P., Pohl C., Wallis J.W., Spieth J., Bieri T.A.,
+RA   Berkowicz N., Nelson J.O., Osborne J., Ding L., Meyer R., Sabo A.,
+RA   Shotland Y., Sinha P., Wohldmann P.E., Cook L.L., Hickenbotham M.T.,
+RA   Eldred J., Williams D., Jones T.A., She X., Ciccarelli F.D.,
+RA   Izaurralde E., Taylor J., Schmutz J., Myers R.M., Cox D.R., Huang X.,
+RA   McPherson J.D., Mardis E.R., Clifton S.W., Warren W.C.,
+RA   Chinwalla A.T., Eddy S.R., Marra M.A., Ovcharenko I., Furey T.S.,
+RA   Miller W., Eichler E.E., Bork P., Suyama M., Torrents D.,
+RA   Waterston R.H., Wilson R.K.;
+RT   "Generation and annotation of the DNA sequences of human chromosomes 2
+RT   and 4.";
+RL   Nature 434:724-731(2005).
+RN   [10]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Brain;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [11]
+RP   PROTEIN SEQUENCE OF 2-18; 27-40; 70-77; 414-426 AND 430-440, CLEAVAGE
+RP   OF INITIATOR METHIONINE, ACETYLATION AT ALA-2, AND MASS SPECTROMETRY.
+RC   TISSUE=Prostatic carcinoma;
+RA   Bienvenut W.V., Gao M., Leug H.;
+RL   Submitted (JUN-2009) to UniProtKB.
+RN   [12]
+RP   INTERACTION WITH DNAJC3.
+RX   MEDLINE=96139509; PubMed=8576172; DOI=10.1074/jbc.271.3.1702;
+RA   Polyak S.J., Tang N., Wambach M., Barber G.N., Katze M.G.;
+RT   "The P58 cellular inhibitor complexes with the interferon-induced,
+RT   double-stranded RNA-dependent protein kinase, PKR, to regulate its
+RT   autophosphorylation and activity.";
+RL   J. Biol. Chem. 271:1702-1707(1996).
+RN   [13]
+RP   INTERACTION WITH HIV-1 TAT.
+RX   PubMed=9079663; DOI=10.1074/jbc.272.13.8388;
+RA   Brand S.R., Kobayashi R., Mathews M.B.;
+RT   "The Tat protein of human immunodeficiency virus type 1 is a substrate
+RT   and inhibitor of the interferon-induced, virally activated protein
+RT   kinase, PKR.";
+RL   J. Biol. Chem. 272:8388-8395(1997).
+RN   [14]
+RP   INTERACTION WITH HCV NS5A.
+RX   MEDLINE=97288299; PubMed=9143277; DOI=10.1006/viro.1997.8493;
+RA   Gale M.J. Jr., Korth M.J., Tang N.M., Tan S.-L., Hopkins D.A.,
+RA   Dever T.E., Polyak S.J., Gretch D.R., Katze M.G.;
+RT   "Evidence that hepatitis C virus resistance to interferon is mediated
+RT   through repression of the PKR protein kinase by the nonstructural 5A
+RT   protein.";
+RL   Virology 230:217-227(1997).
+RN   [15]
+RP   INTERACTION WITH INFLUENZA A NS1 PROTEIN.
+RX   PubMed=9781815; DOI=10.1089/jir.1998.18.757;
+RA   Tan S.L., Katze M.G.;
+RT   "Biochemical and genetic evidence for complex formation between the
+RT   influenza A virus NS1 protein and the interferon-induced PKR protein
+RT   kinase.";
+RL   J. Interferon Cytokine Res. 18:757-766(1998).
+RN   [16]
+RP   INTERACTION WITH HCV E2 ENVELOPE PROTEIN.
+RX   MEDLINE=99322192; PubMed=10390359; DOI=10.1126/science.285.5424.107;
+RA   Taylor D.R., Shi S.T., Romano P.R., Barber G.N., Lai M.M.C.;
+RT   "Inhibition of the interferon-inducible protein kinase PKR by HCV E2
+RT   protein.";
+RL   Science 285:107-110(1999).
+RN   [17]
+RP   PHOSPHORYLATION AT SER-83; THR-88; THR-89; THR-90; SER-242; THR-255
+RP   AND THR-258, MUTAGENESIS OF SER-83; THR-88; THR-89; THR-90; SER-242;
+RP   THR-255; THR-258 AND LYS-296, AND INHIBITION BY HCV E2 ENVELOPE
+RP   PROTEIN.
+RX   MEDLINE=20583813; PubMed=11152499;
+RX   DOI=10.1128/JVI.75.3.1265-1273.2001;
+RA   Taylor D.R., Tian B., Romano P.R., Hinnebusch A.G., Lai M.M.C.,
+RA   Mathews M.B.;
+RT   "Hepatitis C virus envelope protein E2 does not inhibit PKR by simple
+RT   competition with autophosphorylation sites in the RNA-binding
+RT   domain.";
+RL   J. Virol. 75:1265-1273(2001).
+RN   [18]
+RP   MUTAGENESIS, AND PHOSPHORYLATION AT THR-446 AND THR-451.
+RX   MEDLINE=21326157; PubMed=11337501; DOI=10.1074/jbc.M102108200;
+RA   Zhang F., Romano P.R., Nagamura-Inoue T., Tian B., Dever T.E.,
+RA   Mathews M.B., Ozato K., Hinnebusch A.G.;
+RT   "Binding of double-stranded RNA to protein kinase PKR is required for
+RT   dimerization and promotes critical autophosphorylation events in the
+RT   activation loop.";
+RL   J. Biol. Chem. 276:24946-24958(2001).
+RN   [19]
+RP   INHIBITION BY VACCINIA VIRUS PROTEIN E3.
+RX   PubMed=15207627; DOI=10.1016/j.virol.2004.03.012;
+RA   Langland J.O., Jacobs B.L.;
+RT   "Inhibition of PKR by vaccinia virus: role of the N- and C-terminal
+RT   domains of E3L.";
+RL   Virology 324:419-429(2004).
+RN   [20]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-83 AND SER-456, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [21]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RA   Colinge J., Superti-Furga G., Bennett K.L.;
+RL   Submitted (OCT-2008) to UniProtKB.
+RN   [22]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-83, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=19690332; DOI=10.1126/scisignal.2000007;
+RA   Mayya V., Lundgren D.H., Hwang S.-I., Rezaul K., Wu L., Eng J.K.,
+RA   Rodionov V., Han D.K.;
+RT   "Quantitative phosphoproteomic analysis of T cell receptor signaling
+RT   reveals system-wide modulation of protein-protein interactions.";
+RL   Sci. Signal. 2:RA46-RA46(2009).
+RN   [23]
+RP   STRUCTURE BY NMR OF 1-175.
+RX   MEDLINE=98409549; PubMed=9736623; DOI=10.1093/emboj/17.18.5458;
+RA   Nanduri S., Carpick B.W., Yang Y., Williams B.R.G., Qin J.;
+RT   "Structure of the double-stranded RNA-binding domain of the protein
+RT   kinase PKR reveals the molecular basis of its dsRNA-mediated
+RT   activation.";
+RL   EMBO J. 17:5458-5465(1998).
+RN   [24]
+RP   X-RAY CRYSTALLOGRAPHY (2.5 ANGSTROMS) OF 258-550 IN COMPLEX WITH
+RP   EIF2ALPHA, AND PHOSPHORYLATION AT THR-446.
+RX   PubMed=16179258; DOI=10.1016/j.cell.2005.06.044;
+RA   Dar A.C., Dever T.E., Sicheri F.;
+RT   "Higher-order substrate recognition of eIF2alpha by the RNA-dependent
+RT   protein kinase PKR.";
+RL   Cell 122:887-900(2005).
+RN   [25]
+RP   VARIANTS [LARGE SCALE ANALYSIS] GLU-428; VAL-439 AND VAL-506.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Following activation by double-stranded RNA in the
+CC       presence of ATP, the kinase becomes autophosphorylated and can
+CC       catalyze the phosphorylation of the translation initiation factor
+CC       EIF2S1, which leads to an inhibition of the initiation of protein
+CC       synthesis. Double-stranded RNA is generated during the course of a
+CC       viral infection.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- ENZYME REGULATION: Activity is markedly stimulated by manganese
+CC       ions. Besides dsRNA, heparin is a potent activator of the kinase.
+CC       Binding to dsRNA is required for dimerization leading to
+CC       autophosphorylation in the activation loop and stimulation of
+CC       function. Inhibited by vaccinia virus protein E3, probably via
+CC       dsRNA sequestering.
+CC   -!- SUBUNIT: Homodimer. Interacts with STRBP (By similarity).
+CC       Interacts with DNAJC3. Inhibited by direct interaction with viral
+CC       proteins such as HCV E2, HCV NS5A and influenza A NS1. Activated
+CC       by the interaction with HIV-1 Tat.
+CC   -!- INTERACTION:
+CC       Q9UJU6:DBNL; NbExp=1; IntAct=EBI-640775, EBI-751783;
+CC       Q27968:DNAJC3 (xeno); NbExp=3; IntAct=EBI-640775, EBI-640793;
+CC       P05198:EIF2S1; NbExp=1; IntAct=EBI-640775, EBI-1056162;
+CC       P35570:Irs1 (xeno); NbExp=1; IntAct=EBI-640775, EBI-520230;
+CC   -!- INDUCTION: By interferons alpha.
+CC   -!- PTM: Autophosphorylated on several Ser and Thr residues.
+CC       Autophosphorylation of Thr-451 is dependent on Thr-446 and is
+CC       stimulated by dsRNA binding and dimerization. Autophosphorylation
+CC       apparently leads to the activation of the kinase.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Ser/Thr
+CC       protein kinase family. GCN2 subfamily.
+CC   -!- SIMILARITY: Contains 2 DRBM (double-stranded RNA-binding) domains.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- WEB RESOURCE: Name=NIEHS-SNPs;
+CC       URL="http://egp.gs.washington.edu/data/prkr/";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M35663; AAA36409.1; -; mRNA.
+DR   EMBL; M85294; AAA18253.1; -; mRNA.
+DR   EMBL; U50648; AAC50768.1; -; Genomic_DNA.
+DR   EMBL; U50634; AAC50768.1; JOINED; Genomic_DNA.
+DR   EMBL; U50635; AAC50768.1; JOINED; Genomic_DNA.
+DR   EMBL; U50636; AAC50768.1; JOINED; Genomic_DNA.
+DR   EMBL; U50637; AAC50768.1; JOINED; Genomic_DNA.
+DR   EMBL; U50638; AAC50768.1; JOINED; Genomic_DNA.
+DR   EMBL; U50639; AAC50768.1; JOINED; Genomic_DNA.
+DR   EMBL; U50640; AAC50768.1; JOINED; Genomic_DNA.
+DR   EMBL; U50641; AAC50768.1; JOINED; Genomic_DNA.
+DR   EMBL; U50642; AAC50768.1; JOINED; Genomic_DNA.
+DR   EMBL; U50643; AAC50768.1; JOINED; Genomic_DNA.
+DR   EMBL; U50644; AAC50768.1; JOINED; Genomic_DNA.
+DR   EMBL; U50645; AAC50768.1; JOINED; Genomic_DNA.
+DR   EMBL; U50646; AAC50768.1; JOINED; Genomic_DNA.
+DR   EMBL; U50647; AAC50768.1; JOINED; Genomic_DNA.
+DR   EMBL; AF167472; AAF13156.1; -; Genomic_DNA.
+DR   EMBL; AF167460; AAF13156.1; JOINED; Genomic_DNA.
+DR   EMBL; AF167462; AAF13156.1; JOINED; Genomic_DNA.
+DR   EMBL; AF167463; AAF13156.1; JOINED; Genomic_DNA.
+DR   EMBL; AF167464; AAF13156.1; JOINED; Genomic_DNA.
+DR   EMBL; AF167465; AAF13156.1; JOINED; Genomic_DNA.
+DR   EMBL; AF167466; AAF13156.1; JOINED; Genomic_DNA.
+DR   EMBL; AF167468; AAF13156.1; JOINED; Genomic_DNA.
+DR   EMBL; AF167470; AAF13156.1; JOINED; Genomic_DNA.
+DR   EMBL; AK290655; BAF83344.1; -; mRNA.
+DR   EMBL; AK313818; BAG36554.1; -; mRNA.
+DR   EMBL; AY228338; AAO38055.1; -; Genomic_DNA.
+DR   EMBL; AC007899; AAY24317.1; -; Genomic_DNA.
+DR   EMBL; BC093676; AAH93676.1; -; mRNA.
+DR   EMBL; BC101475; AAI01476.1; -; mRNA.
+DR   IPI; IPI00019463; -.
+DR   PIR; JC5225; JC5225.
+DR   RefSeq; NP_001129123.1; -.
+DR   RefSeq; NP_001129124.1; -.
+DR   RefSeq; NP_002750.1; -.
+DR   UniGene; Hs.131431; -.
+DR   PDB; 1QU6; NMR; -; A=1-170.
+DR   PDB; 2A19; X-ray; 2.50 A; B/C=258-550.
+DR   PDB; 2A1A; X-ray; 2.80 A; B=258-550.
+DR   PDBsum; 1QU6; -.
+DR   PDBsum; 2A19; -.
+DR   PDBsum; 2A1A; -.
+DR   ProteinModelPortal; P19525; -.
+DR   SMR; P19525; 257-541.
+DR   DIP; DIP-2657N; -.
+DR   IntAct; P19525; 8.
+DR   MINT; MINT-92415; -.
+DR   STRING; P19525; -.
+DR   PhosphoSite; P19525; -.
+DR   PRIDE; P19525; -.
+DR   Ensembl; ENST00000233057; ENSP00000233057; ENSG00000055332.
+DR   Ensembl; ENST00000395127; ENSP00000378559; ENSG00000055332.
+DR   GeneID; 5610; -.
+DR   KEGG; hsa:5610; -.
+DR   NMPDR; fig|9606.3.peg.17745; -.
+DR   UCSC; uc002rps.1; human.
+DR   CTD; 5610; -.
+DR   GeneCards; GC02M037246; -.
+DR   H-InvDB; HIX0029806; -.
+DR   HGNC; HGNC:9437; EIF2AK2.
+DR   HPA; CAB003845; -.
+DR   HPA; HPA019795; -.
+DR   MIM; 176871; gene.
+DR   PharmGKB; PA33779; -.
+DR   eggNOG; prNOG05060; -.
+DR   HOGENOM; HBG755398; -.
+DR   HOVERGEN; HBG051430; -.
+DR   InParanoid; P19525; -.
+DR   OMA; KHRIDGK; -.
+DR   OrthoDB; EOG91K1XP; -.
+DR   PhylomeDB; P19525; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   Reactome; REACT_6167; Influenza Infection.
+DR   NextBio; 21806; -.
+DR   PMAP-CutDB; P19525; -.
+DR   ArrayExpress; P19525; -.
+DR   Bgee; P19525; -.
+DR   CleanEx; HS_EIF2AK2; -.
+DR   Genevestigator; P19525; -.
+DR   GermOnline; ENSG00000055332; Homo sapiens.
+DR   GO; GO:0005622; C:intracellular; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003725; F:double-stranded RNA binding; TAS:ProtInc.
+DR   GO; GO:0004694; F:eukaryotic translation initiation factor 2a...; TAS:ProtInc.
+DR   GO; GO:0005515; F:protein binding; IPI:IntAct.
+DR   GO; GO:0008601; F:protein phosphatase type 2A regulator activity; TAS:ProtInc.
+DR   GO; GO:0044419; P:interspecies interaction between organisms; IEA:UniProtKB-KW.
+DR   GO; GO:0033689; P:negative regulation of osteoblast prolifera...; IMP:UniProtKB.
+DR   GO; GO:0046777; P:protein amino acid autophosphorylation; IMP:UniProtKB.
+DR   GO; GO:0009615; P:response to virus; IEA:UniProtKB-KW.
+DR   InterPro; IPR001159; Ds-RNA-bd.
+DR   InterPro; IPR014720; dsRNA-bd-like.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   Gene3D; G3DSA:3.30.160.20; dsRNA-bd-like; 2.
+DR   Pfam; PF00035; dsrm; 2.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00358; DSRM; 2.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS50137; DS_RBD; 2.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Antiviral defense; ATP-binding;
+KW   Complete proteome; Direct protein sequencing; Host-virus interaction;
+KW   Kinase; Nucleotide-binding; Phosphoprotein; Polymorphism; Repeat;
+KW   RNA-binding; Serine/threonine-protein kinase; Transferase.
+FT   INIT_MET      1      1       Removed.
+FT   CHAIN         2    551       Interferon-induced, double-stranded RNA-
+FT                                activated protein kinase.
+FT                                /FTId=PRO_0000085945.
+FT   DOMAIN        9     77       DRBM 1.
+FT   DOMAIN      100    167       DRBM 2.
+FT   DOMAIN      267    538       Protein kinase.
+FT   REPEAT      331    343       1.
+FT   REPEAT      345    357       2.
+FT   NP_BIND     273    281       ATP (By similarity).
+FT   REGION      331    357       2 X 13 AA approximate repeats.
+FT   ACT_SITE    414    414       Proton acceptor (By similarity).
+FT   BINDING     296    296       ATP.
+FT   MOD_RES       2      2       N-acetylalanine.
+FT   MOD_RES      83     83       Phosphoserine; by autocatalysis
+FT                                (Probable).
+FT   MOD_RES      88     88       Phosphothreonine; by autocatalysis
+FT                                (Probable).
+FT   MOD_RES      89     89       Phosphothreonine; by autocatalysis
+FT                                (Probable).
+FT   MOD_RES      90     90       Phosphothreonine; by autocatalysis
+FT                                (Probable).
+FT   MOD_RES     242    242       Phosphoserine; by autocatalysis
+FT                                (Probable).
+FT   MOD_RES     255    255       Phosphothreonine; by autocatalysis
+FT                                (Probable).
+FT   MOD_RES     258    258       Phosphothreonine; by autocatalysis
+FT                                (Probable).
+FT   MOD_RES     446    446       Phosphothreonine; by autocatalysis.
+FT   MOD_RES     451    451       Phosphothreonine; by autocatalysis.
+FT   MOD_RES     456    456       Phosphoserine.
+FT   VARIANT     428    428       V -> E (in dbSNP:rs56219559).
+FT                                /FTId=VAR_040474.
+FT   VARIANT     439    439       L -> V (in a lung adenocarcinoma sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_040475.
+FT   VARIANT     506    506       I -> V (in dbSNP:rs34821155).
+FT                                /FTId=VAR_040476.
+FT   MUTAGEN      59     60       SK->AA: In FL-PKR-2AI; moderate loss of
+FT                                activity but no effect on dsRNA binding.
+FT   MUTAGEN      60     60       K->A: Impairs dsRNA binding but not
+FT                                dimerization or activity.
+FT   MUTAGEN      67     67       A->E: Significant loss of activity; loss
+FT                                of dsRNA binding and dimerization.
+FT   MUTAGEN      83     83       S->A: No effect on enzymatic activity;
+FT                                when associated with A-88; A-89 and A-90.
+FT   MUTAGEN      88     88       T->A: No effect on enzymatic activity;
+FT                                when associated with A-83; A-89 and A-90.
+FT   MUTAGEN      89     89       T->A: No effect on enzymatic activity;
+FT                                when associated with A-83; A-88 and A-90.
+FT   MUTAGEN      90     90       T->A: No effect on enzymatic activity;
+FT                                when associated with A-83; A-88 and A-89.
+FT   MUTAGEN     149    150       TK->AA: In FL-PKR-2AII; no effect on
+FT                                activity.
+FT   MUTAGEN     242    242       S->A: Moderate loss of activity; when
+FT                                associated with A-255 and A-258.
+FT   MUTAGEN     244    296       Missing: Loss of activity.
+FT   MUTAGEN     255    255       T->A: Moderate loss of activity; when
+FT                                associated with A-242 and A-255.
+FT   MUTAGEN     258    258       T->A: Moderate loss of activity.
+FT   MUTAGEN     296    296       K->R: Loss of activity.
+FT   MUTAGEN     446    446       T->A: Significant loss of activity and
+FT                                impairs autophosphorylation of T-451.
+FT   MUTAGEN     451    451       T->A: Loss of activity.
+FT   CONFLICT    512    512       K -> E (in Ref. 6; AAF13156).
+FT   STRAND        5      7
+FT   HELIX        10     21
+FT   STRAND       26     32
+FT   TURN         35     37
+FT   STRAND       41     50
+FT   STRAND       54     56
+FT   HELIX        61     76
+FT   HELIX       102    111
+FT   STRAND      115    123
+FT   STRAND      125    138
+FT   STRAND      144    149
+FT   HELIX       150    167
+FT   HELIX       261    266
+FT   STRAND      267    274
+FT   STRAND      276    278
+FT   STRAND      281    286
+FT   TURN        287    289
+FT   STRAND      292    299
+FT   HELIX       303    305
+FT   HELIX       306    314
+FT   STRAND      323    332
+FT   STRAND      358    366
+FT   HELIX       374    380
+FT   HELIX       381    383
+FT   HELIX       388    407
+FT   HELIX       417    419
+FT   STRAND      420    424
+FT   STRAND      427    430
+FT   STRAND      437    440
+FT   HELIX       457    461
+FT   HELIX       468    482
+FT   HELIX       488    499
+FT   HELIX       509    518
+FT   HELIX       523    525
+FT   HELIX       529    539
+SQ   SEQUENCE   551 AA;  62094 MW;  815AD83ACAB45DA3 CRC64;
+     MAGDLSAGFF MEELNTYRQK QGVVLKYQEL PNSGPPHDRR FTFQVIIDGR EFPEGEGRSK
+     KEAKNAAAKL AVEILNKEKK AVSPLLLTTT NSSEGLSMGN YIGLINRIAQ KKRLTVNYEQ
+     CASGVHGPEG FHYKCKMGQK EYSIGTGSTK QEAKQLAAKL AYLQILSEET SVKSDYLSSG
+     SFATTCESQS NSLVTSTLAS ESSSEGDFSA DTSEINSNSD SLNSSSLLMN GLRNNQRKAK
+     RSLAPRFDLP DMKETKYTVD KRFGMDFKEI ELIGSGGFGQ VFKAKHRIDG KTYVIKRVKY
+     NNEKAEREVK ALAKLDHVNI VHYNGCWDGF DYDPETSDDS LESSDYDPEN SKNSSRSKTK
+     CLFIQMEFCD KGTLEQWIEK RRGEKLDKVL ALELFEQITK GVDYIHSKKL IHRDLKPSNI
+     FLVDTKQVKI GDFGLVTSLK NDGKRTRSKG TLRYMSPEQI SSQDYGKEVD LYALGLILAE
+     LLHVCDTAFE TSKFFTDLRD GIISDIFDKK EKTLLQKLLS KKPEDRPNTS EILRTLTVWK
+     KSPEKNERHT C
+//

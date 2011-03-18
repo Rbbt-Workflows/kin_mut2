@@ -1,0 +1,166 @@
+ID   MYLK3_HUMAN             Reviewed;         819 AA.
+AC   Q32MK0; Q32MK1; Q96DV1;
+DT   23-JAN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   28-JUL-2009, sequence version 3.
+DT   05-OCT-2010, entry version 49.
+DE   RecName: Full=Putative myosin light chain kinase 3;
+DE            EC=2.7.11.18;
+DE   AltName: Full=Cardiac-MyBP-C-associated Ca/CaM kinase;
+GN   Name=MYLK3; Synonyms=MLCK;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND VARIANT LEU-180.
+RC   TISSUE=Cardiac myocyte;
+RA   Mues A., Seidel R., Gautel M.;
+RT   "The cardiac-MyBP-C associated Ca/CaM kinase is a novel MLCK with
+RT   cardiac-specific domains.";
+RL   Submitted (JUN-2001) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=15616553; DOI=10.1038/nature03187;
+RA   Martin J., Han C., Gordon L.A., Terry A., Prabhakar S., She X.,
+RA   Xie G., Hellsten U., Chan Y.M., Altherr M., Couronne O., Aerts A.,
+RA   Bajorek E., Black S., Blumer H., Branscomb E., Brown N.C., Bruno W.J.,
+RA   Buckingham J.M., Callen D.F., Campbell C.S., Campbell M.L.,
+RA   Campbell E.W., Caoile C., Challacombe J.F., Chasteen L.A.,
+RA   Chertkov O., Chi H.C., Christensen M., Clark L.M., Cohn J.D.,
+RA   Denys M., Detter J.C., Dickson M., Dimitrijevic-Bussod M., Escobar J.,
+RA   Fawcett J.J., Flowers D., Fotopulos D., Glavina T., Gomez M.,
+RA   Gonzales E., Goodstein D., Goodwin L.A., Grady D.L., Grigoriev I.,
+RA   Groza M., Hammon N., Hawkins T., Haydu L., Hildebrand C.E., Huang W.,
+RA   Israni S., Jett J., Jewett P.B., Kadner K., Kimball H., Kobayashi A.,
+RA   Krawczyk M.-C., Leyba T., Longmire J.L., Lopez F., Lou Y., Lowry S.,
+RA   Ludeman T., Manohar C.F., Mark G.A., McMurray K.L., Meincke L.J.,
+RA   Morgan J., Moyzis R.K., Mundt M.O., Munk A.C., Nandkeshwar R.D.,
+RA   Pitluck S., Pollard M., Predki P., Parson-Quintana B., Ramirez L.,
+RA   Rash S., Retterer J., Ricke D.O., Robinson D.L., Rodriguez A.,
+RA   Salamov A., Saunders E.H., Scott D., Shough T., Stallings R.L.,
+RA   Stalvey M., Sutherland R.D., Tapia R., Tesmer J.G., Thayer N.,
+RA   Thompson L.S., Tice H., Torney D.C., Tran-Gyamfi M., Tsai M.,
+RA   Ulanovsky L.E., Ustaszewska A., Vo N., White P.S., Williams A.L.,
+RA   Wills P.L., Wu J.-R., Wu K., Yang J., DeJong P., Bruce D.,
+RA   Doggett N.A., Deaven L., Schmutz J., Grimwood J., Richardson P.,
+RA   Rokhsar D.S., Eichler E.E., Gilna P., Lucas S.M., Myers R.M.,
+RA   Rubin E.M., Pennacchio L.A.;
+RT   "The sequence and analysis of duplication-rich human chromosome 16.";
+RL   Nature 432:988-994(2004).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA], AND VARIANT LEU-180.
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   VARIANT [LARGE SCALE ANALYSIS] ARG-390.
+RX   PubMed=16959974; DOI=10.1126/science.1133427;
+RA   Sjoeblom T., Jones S., Wood L.D., Parsons D.W., Lin J., Barber T.D.,
+RA   Mandelker D., Leary R.J., Ptak J., Silliman N., Szabo S.,
+RA   Buckhaults P., Farrell C., Meeh P., Markowitz S.D., Willis J.,
+RA   Dawson D., Willson J.K.V., Gazdar A.F., Hartigan J., Wu L., Liu C.,
+RA   Parmigiani G., Park B.H., Bachman K.E., Papadopoulos N.,
+RA   Vogelstein B., Kinzler K.W., Velculescu V.E.;
+RT   "The consensus coding sequences of human breast and colorectal
+RT   cancers.";
+RL   Science 314:268-274(2006).
+CC   -!- FUNCTION: May play a role in smooth muscle contraction (By
+CC       similarity).
+CC   -!- CATALYTIC ACTIVITY: ATP + [myosin light-chain] = ADP + [myosin
+CC       light-chain] phosphate.
+CC   -!- COFACTOR: Magnesium (By similarity).
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CAMK
+CC       Ser/Thr protein kinase family.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAI09098.2; Type=Erroneous initiation;
+CC       Sequence=CAC42766.1; Type=Erroneous initiation;
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AJ247087; CAC42766.1; ALT_INIT; mRNA.
+DR   EMBL; AC007225; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; BC109097; AAI09098.2; ALT_INIT; mRNA.
+DR   IPI; IPI00304648; -.
+DR   RefSeq; NP_872299.2; -.
+DR   UniGene; Hs.130465; -.
+DR   HSSP; O43293; 1YRP.
+DR   ProteinModelPortal; Q32MK0; -.
+DR   STRING; Q32MK0; -.
+DR   PRIDE; Q32MK0; -.
+DR   Ensembl; ENST00000394809; ENSP00000378288; ENSG00000140795.
+DR   GeneID; 91807; -.
+DR   KEGG; hsa:91807; -.
+DR   UCSC; uc002eei.2; human.
+DR   CTD; 91807; -.
+DR   GeneCards; GC16M046736; -.
+DR   HGNC; HGNC:29826; MYLK3.
+DR   eggNOG; prNOG14148; -.
+DR   HOGENOM; HBG283482; -.
+DR   HOVERGEN; HBG080416; -.
+DR   InParanoid; Q32MK0; -.
+DR   OMA; EALFRMV; -.
+DR   OrthoDB; EOG9S7N8R; -.
+DR   PhylomeDB; Q32MK0; -.
+DR   BRENDA; 2.7.11.18; 247.
+DR   NextBio; 77465; -.
+DR   ArrayExpress; Q32MK0; -.
+DR   Bgee; Q32MK0; -.
+DR   CleanEx; HS_MYLK3; -.
+DR   Genevestigator; Q32MK0; -.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004687; F:myosin light chain kinase activity; IEA:EC.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   InterPro; IPR020636; Ca/CaM-dep_prot_kinase-like.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR015730; MLKC2.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   PANTHER; PTHR22982; Ca/CaM-dep_prot_kinase-like; 1.
+DR   PANTHER; PTHR22982:SF19; MLCK_; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   2: Evidence at transcript level;
+KW   ATP-binding; Complete proteome; Kinase; Magnesium; Nucleotide-binding;
+KW   Polymorphism; Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    819       Putative myosin light chain kinase 3.
+FT                                /FTId=PRO_0000272200.
+FT   DOMAIN      515    770       Protein kinase.
+FT   NP_BIND     521    529       ATP (By similarity).
+FT   ACT_SITE    636    636       Proton acceptor (By similarity).
+FT   BINDING     544    544       ATP (By similarity).
+FT   VARIANT      70     70       S -> T (in dbSNP:rs9923813).
+FT                                /FTId=VAR_058335.
+FT   VARIANT     180    180       V -> L (in dbSNP:rs28407821).
+FT                                /FTId=VAR_058336.
+FT   VARIANT     390    390       G -> R (in a colorectal cancer sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_035630.
+FT   CONFLICT    199    199       G -> R (in Ref. 1; CAC42766).
+SQ   SEQUENCE   819 AA;  88393 MW;  21148BBACB0FF0D9 CRC64;
+     MSGTSKESLG HGGLPGLGKT CLTTMDTKLN MLNEKVDQLL HFQEDVTEKL QSMCRDMGHL
+     ERGLHRLEAS RAPGPGGADG VPHIDTQAGW PEVLELVRAM QQDAAQHGAR LEALFRMVAA
+     VDRAIALVGA TFQKSKVADF LMQGRVPWRR GSPGDSPEEN KERVEEEGGK PKHVLSTSGV
+     QSDAREPGEE SQKADVLEGT AERLPPIRAS GLGADPAQAV VSPGQGDGVP GPAQAFPGHL
+     PLPTKVEAKA PETPSENLRT GLELAPAPGR VNVVSPSLEV APGAGQGASS SRPDPEPLEE
+     GTRLTPGPGP QCPGPPGLPA QARATHSGGE TPPRISIHIQ EMDTPGEMLM TGRGSLGPTL
+     TTEAPAAAQP GKQGPPGTGR CLQAPGTEPG EQTPEGAREL SPLQESSSPG GVKAEEEQRA
+     GAEPGTRPSL ARSDDNDHEV GALGLQQGKS PGAGNPEPEQ DCAARAPVRA EAVRRMPPGA
+     EAGSVVLDDS PAPPAPFEHR VVSVKETSIS AGYEVCQHEV LGGGRFGQVH RCTEKSTGLP
+     LAAKIIKVKS AKDREDVKNE INIMNQLSHV NLIQLYDAFE SKHSCTLVME YVDGGELFDR
+     ITDEKYHLTE LDVVLFTRQI CEGVHYLHQH YILHLDLKPE NILCVNQTGH QIKIIDFGLA
+     RRYKPREKLK VNFGTPEFLA PEVVNYEFVS FPTDMWSVGV ITYMLLSGLS PFLGETDAET
+     MNFIVNCSWD FDADTFEGLS EEAKDFVSRL LVKEKSCRMS ATQCLKHEWL NNLPAKASRS
+     KTRLKSQLLL QKYIAQRKWK KHFYVVTAAN RLRKFPTSP
+//

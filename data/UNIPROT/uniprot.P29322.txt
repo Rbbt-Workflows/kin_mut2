@@ -1,0 +1,302 @@
+ID   EPHA8_HUMAN             Reviewed;        1005 AA.
+AC   P29322; Q9NUA9; Q9P269;
+DT   01-DEC-1992, integrated into UniProtKB/Swiss-Prot.
+DT   18-OCT-2001, sequence version 2.
+DT   02-NOV-2010, entry version 121.
+DE   RecName: Full=Ephrin type-A receptor 8;
+DE            EC=2.7.10.1;
+DE   AltName: Full=EPH- and ELK-related kinase;
+DE   AltName: Full=EPH-like kinase 3;
+DE            Short=EK3;
+DE            Short=hEK3;
+DE   AltName: Full=Tyrosine-protein kinase receptor EEK;
+DE   Flags: Precursor;
+GN   Name=EPHA8; Synonyms=EEK, KIAA1459;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=16710414; DOI=10.1038/nature04727;
+RA   Gregory S.G., Barlow K.F., McLay K.E., Kaul R., Swarbreck D.,
+RA   Dunham A., Scott C.E., Howe K.L., Woodfine K., Spencer C.C.A.,
+RA   Jones M.C., Gillson C., Searle S., Zhou Y., Kokocinski F.,
+RA   McDonald L., Evans R., Phillips K., Atkinson A., Cooper R., Jones C.,
+RA   Hall R.E., Andrews T.D., Lloyd C., Ainscough R., Almeida J.P.,
+RA   Ambrose K.D., Anderson F., Andrew R.W., Ashwell R.I.S., Aubin K.,
+RA   Babbage A.K., Bagguley C.L., Bailey J., Beasley H., Bethel G.,
+RA   Bird C.P., Bray-Allen S., Brown J.Y., Brown A.J., Buckley D.,
+RA   Burton J., Bye J., Carder C., Chapman J.C., Clark S.Y., Clarke G.,
+RA   Clee C., Cobley V., Collier R.E., Corby N., Coville G.J., Davies J.,
+RA   Deadman R., Dunn M., Earthrowl M., Ellington A.G., Errington H.,
+RA   Frankish A., Frankland J., French L., Garner P., Garnett J., Gay L.,
+RA   Ghori M.R.J., Gibson R., Gilby L.M., Gillett W., Glithero R.J.,
+RA   Grafham D.V., Griffiths C., Griffiths-Jones S., Grocock R.,
+RA   Hammond S., Harrison E.S.I., Hart E., Haugen E., Heath P.D.,
+RA   Holmes S., Holt K., Howden P.J., Hunt A.R., Hunt S.E., Hunter G.,
+RA   Isherwood J., James R., Johnson C., Johnson D., Joy A., Kay M.,
+RA   Kershaw J.K., Kibukawa M., Kimberley A.M., King A., Knights A.J.,
+RA   Lad H., Laird G., Lawlor S., Leongamornlert D.A., Lloyd D.M.,
+RA   Loveland J., Lovell J., Lush M.J., Lyne R., Martin S.,
+RA   Mashreghi-Mohammadi M., Matthews L., Matthews N.S.W., McLaren S.,
+RA   Milne S., Mistry S., Moore M.J.F., Nickerson T., O'Dell C.N.,
+RA   Oliver K., Palmeiri A., Palmer S.A., Parker A., Patel D., Pearce A.V.,
+RA   Peck A.I., Pelan S., Phelps K., Phillimore B.J., Plumb R., Rajan J.,
+RA   Raymond C., Rouse G., Saenphimmachak C., Sehra H.K., Sheridan E.,
+RA   Shownkeen R., Sims S., Skuce C.D., Smith M., Steward C.,
+RA   Subramanian S., Sycamore N., Tracey A., Tromans A., Van Helmond Z.,
+RA   Wall M., Wallis J.M., White S., Whitehead S.L., Wilkinson J.E.,
+RA   Willey D.L., Williams H., Wilming L., Wray P.W., Wu Z., Coulson A.,
+RA   Vaudin M., Sulston J.E., Durbin R.M., Hubbard T., Wooster R.,
+RA   Dunham I., Carter N.P., McVean G., Ross M.T., Harrow J., Olson M.V.,
+RA   Beck S., Rogers J., Bentley D.R.;
+RT   "The DNA sequence and biological annotation of human chromosome 1.";
+RL   Nature 441:315-321(2006).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 153-1005, AND VARIANT
+RP   GLN-612.
+RC   TISSUE=Brain;
+RX   MEDLINE=20277482; PubMed=10819331; DOI=10.1093/dnares/7.2.143;
+RA   Nagase T., Kikuno R., Ishikawa K., Hirosawa M., Ohara O.;
+RT   "Prediction of the coding sequences of unidentified human genes. XVII.
+RT   The complete sequences of 100 new cDNA clones from brain which code
+RT   for large proteins in vitro.";
+RL   DNA Res. 7:143-150(2000).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 706-726.
+RX   MEDLINE=91296384; PubMed=1648701;
+RA   Chan J., Watt V.M.;
+RT   "eek and erk, new members of the eph subclass of receptor protein-
+RT   tyrosine kinases.";
+RL   Oncogene 6:1057-1061(1991).
+RN   [4]
+RP   INTERACTION WITH ANKS1B.
+RX   PubMed=17875921; DOI=10.1128/MCB.00794-07;
+RA   Shin J., Gu C., Park E., Park S.;
+RT   "Identification of phosphotyrosine binding domain-containing proteins
+RT   as novel downstream targets of the EphA8 signaling function.";
+RL   Mol. Cell. Biol. 27:8113-8126(2007).
+RN   [5]
+RP   STRUCTURE BY NMR OF 437-534 AND 932-1000.
+RG   RIKEN structural genomics initiative (RSGI);
+RT   "Solution structure of the second FN3 domain and of sterile alpha
+RT   motif (SAM) domain of EPH receptor A8 protein.";
+RL   Submitted (NOV-2005) to the PDB data bank.
+RN   [6]
+RP   VARIANTS [LARGE SCALE ANALYSIS] SER-45; LEU-60; LYS-123; CYS-179;
+RP   LEU-198 AND LEU-860.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Receptor for members of the ephrin-A family.
+CC   -!- CATALYTIC ACTIVITY: ATP + a [protein]-L-tyrosine = ADP + a
+CC       [protein]-L-tyrosine phosphate.
+CC   -!- SUBUNIT: Interacts with FYN (By similarity). Interacts with
+CC       ANKS1B.
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type I membrane
+CC       protein.
+CC   -!- PTM: Phosphorylation on Tyr-616 is critical for association with
+CC       FYN (By similarity).
+CC   -!- PTM: Phosphorylation on Tyr-839 modulates tyrosine kinase activity
+CC       (By similarity).
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Tyr protein
+CC       kinase family. Ephrin receptor subfamily.
+CC   -!- SIMILARITY: Contains 2 fibronectin type-III domains.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- SIMILARITY: Contains 1 SAM (sterile alpha motif) domain.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAA41980.1; Type=Erroneous initiation;
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AL035703; CAB81612.1; -; Genomic_DNA.
+DR   EMBL; AB040892; BAA95983.1; -; mRNA.
+DR   EMBL; X59291; CAA41980.1; ALT_INIT; Genomic_DNA.
+DR   IPI; IPI00021274; -.
+DR   PIR; S23361; S23361.
+DR   RefSeq; NP_065387.1; -.
+DR   UniGene; Hs.283613; -.
+DR   PDB; 1UCV; NMR; -; A=933-1000.
+DR   PDB; 1X5L; NMR; -; A=437-534.
+DR   PDB; 3KUL; X-ray; 2.15 A; A/B=602-909.
+DR   PDBsum; 1UCV; -.
+DR   PDBsum; 1X5L; -.
+DR   PDBsum; 3KUL; -.
+DR   ProteinModelPortal; P29322; -.
+DR   SMR; P29322; 30-203, 326-534, 622-899.
+DR   STRING; P29322; -.
+DR   PhosphoSite; P29322; -.
+DR   PRIDE; P29322; -.
+DR   Ensembl; ENST00000166244; ENSP00000166244; ENSG00000070886.
+DR   GeneID; 2046; -.
+DR   UCSC; uc001bfx.1; human.
+DR   CTD; 2046; -.
+DR   GeneCards; GC01P022890; -.
+DR   HGNC; HGNC:3391; EPHA8.
+DR   HPA; CAB009660; -.
+DR   HPA; HPA031433; -.
+DR   MIM; 176945; gene.
+DR   PharmGKB; PA27823; -.
+DR   eggNOG; prNOG19553; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG062180; -.
+DR   InParanoid; P29322; -.
+DR   OMA; VTTRATV; -.
+DR   OrthoDB; EOG90GG94; -.
+DR   PhylomeDB; P29322; -.
+DR   BRENDA; 2.7.10.1; 247.
+DR   Pathway_Interaction_DB; epha_fwdpathway; EPHA forward signaling.
+DR   Pathway_Interaction_DB; ephrina_ephapathway; EphrinA-EPHA pathway.
+DR   NextBio; 8315; -.
+DR   ArrayExpress; P29322; -.
+DR   Bgee; P29322; -.
+DR   CleanEx; HS_EPHA8; -.
+DR   Genevestigator; P29322; -.
+DR   GermOnline; ENSG00000070886; Homo sapiens.
+DR   GO; GO:0005887; C:integral to plasma membrane; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005003; F:ephrin receptor activity; IEA:InterPro.
+DR   GO; GO:0005515; F:protein binding; IEA:InterPro.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; TAS:ProtInc.
+DR   GO; GO:0007169; P:transmembrane receptor protein tyrosine kin...; IEA:InterPro.
+DR   InterPro; IPR001090; Ephrin_rcpt_lig-bd.
+DR   InterPro; IPR008957; Fibronectin_III_dom.
+DR   InterPro; IPR003961; FN_III.
+DR   InterPro; IPR008979; Galactose-bd-like.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR001660; SAM.
+DR   InterPro; IPR013761; SAM_type.
+DR   InterPro; IPR021129; SAM_type1.
+DR   InterPro; IPR001245; Ser-Thr/Tyr-Pkinase.
+DR   InterPro; IPR010993; Sterile_alpha_motif_homology.
+DR   InterPro; IPR020635; Tyr_Pkinase_cat_dom.
+DR   InterPro; IPR020685; Tyr_prot_kinase.
+DR   InterPro; IPR008266; Tyr_prot_kinase_AS.
+DR   InterPro; IPR020768; Tyr_prot_kinase_EphA_rcpt.
+DR   InterPro; IPR016257; Tyr_prot_kinase_ephrin_rcpt.
+DR   InterPro; IPR001426; Tyr_prot_kinase_rcpt_V_CS.
+DR   Gene3D; G3DSA:2.60.40.10; Ig-like_fold; 2.
+DR   Gene3D; G3DSA:1.10.150.50; SAM_type; 1.
+DR   PANTHER; PTHR23256; Tyr_prot_kinase; 1.
+DR   PANTHER; PTHR23256:SF278; Tyr_prot_kinase_EphA_rcpt; 1.
+DR   Pfam; PF01404; Ephrin_lbd; 1.
+DR   Pfam; PF00041; fn3; 2.
+DR   Pfam; PF07714; Pkinase_Tyr; 1.
+DR   Pfam; PF00536; SAM_1; 1.
+DR   PIRSF; PIRSF000666; TyrPK_ephrin_receptor; 1.
+DR   PRINTS; PR00109; TYRKINASE.
+DR   SMART; SM00615; EPH_lbd; 1.
+DR   SMART; SM00060; FN3; 2.
+DR   SMART; SM00454; SAM; 1.
+DR   SMART; SM00219; TyrKc; 1.
+DR   SUPFAM; SSF49265; FN_III-like; 2.
+DR   SUPFAM; SSF49785; Gal_bind_like; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   SUPFAM; SSF47769; SAM_homology; 1.
+DR   PROSITE; PS01186; EGF_2; UNKNOWN_1.
+DR   PROSITE; PS50853; FN3; 2.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00109; PROTEIN_KINASE_TYR; 1.
+DR   PROSITE; PS00790; RECEPTOR_TYR_KIN_V_1; 1.
+DR   PROSITE; PS00791; RECEPTOR_TYR_KIN_V_2; 1.
+DR   PROSITE; PS50105; SAM_DOMAIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; ATP-binding; Complete proteome; Glycoprotein; Kinase;
+KW   Membrane; Nucleotide-binding; Phosphoprotein; Polymorphism; Receptor;
+KW   Repeat; Signal; Transferase; Transmembrane; Transmembrane helix;
+KW   Tyrosine-protein kinase.
+FT   SIGNAL        1     30       Potential.
+FT   CHAIN        31   1005       Ephrin type-A receptor 8.
+FT                                /FTId=PRO_0000016822.
+FT   TOPO_DOM     31    542       Extracellular (Potential).
+FT   TRANSMEM    543    563       Helical; (Potential).
+FT   TOPO_DOM    564   1005       Cytoplasmic (Potential).
+FT   DOMAIN      328    430       Fibronectin type-III 1.
+FT   DOMAIN      436    531       Fibronectin type-III 2.
+FT   DOMAIN      635    896       Protein kinase.
+FT   DOMAIN      930    994       SAM.
+FT   NP_BIND     641    649       ATP (By similarity).
+FT   MOTIF      1003   1005       PDZ-binding (Potential).
+FT   COMPBIAS    191    325       Cys-rich.
+FT   ACT_SITE    760    760       Proton acceptor (By similarity).
+FT   BINDING     667    667       ATP (By similarity).
+FT   MOD_RES     616    616       Phosphotyrosine; by autocatalysis (By
+FT                                similarity).
+FT   MOD_RES     839    839       Phosphotyrosine; by autocatalysis (By
+FT                                similarity).
+FT   CARBOHYD    340    340       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    407    407       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    432    432       N-linked (GlcNAc...) (Potential).
+FT   VARIANT      45     45       G -> S (in dbSNP:rs45498698).
+FT                                /FTId=VAR_042153.
+FT   VARIANT      60     60       V -> L (in dbSNP:rs56402644).
+FT                                /FTId=VAR_042154.
+FT   VARIANT     123    123       N -> K (in a breast infiltrating ductal
+FT                                carcinoma sample; somatic mutation).
+FT                                /FTId=VAR_042155.
+FT   VARIANT     179    179       R -> C (in a gastric adenocarcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_042156.
+FT   VARIANT     198    198       R -> L (in a lung adenocarcinoma sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_042157.
+FT   VARIANT     321    321       P -> L (in dbSNP:rs56656925).
+FT                                /FTId=VAR_061292.
+FT   VARIANT     444    444       V -> M (in dbSNP:rs2295021).
+FT                                /FTId=VAR_022107.
+FT   VARIANT     612    612       E -> Q (in dbSNP:rs999765).
+FT                                /FTId=VAR_024514.
+FT   VARIANT     860    860       P -> L (in a metastatic melanoma sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_042158.
+FT   CONFLICT    237    237       S -> L (in Ref. 2; BAA95983).
+FT   STRAND      456    460
+FT   STRAND      472    482
+FT   STRAND      488    499
+FT   STRAND      507    510
+FT   STRAND      512    516
+FT   STRAND      527    530
+FT   HELIX       935    941
+FT   HELIX       945    947
+FT   HELIX       948    953
+FT   HELIX       959    962
+FT   HELIX       967    973
+FT   HELIX       978    995
+SQ   SEQUENCE   1005 AA;  111003 MW;  6FBF85535E4212B3 CRC64;
+     MAPARGRLPP ALWVVTAAAA AATCVSAARG EVNLLDTSTI HGDWGWLTYP AHGWDSINEV
+     DESFQPIHTY QVCNVMSPNQ NNWLRTSWVP RDGARRVYAE IKFTLRDCNS MPGVLGTCKE
+     TFNLYYLESD RDLGASTQES QFLKIDTIAA DESFTGADLG VRRLKLNTEV RSVGPLSKRG
+     FYLAFQDIGA CLAILSLRIY YKKCPAMVRN LAAFSEAVTG ADSSSLVEVR GQCVRHSEER
+     DTPKMYCSAE GEWLVPIGKC VCSAGYEERR DACVACELGF YKSAPGDQLC ARCPPHSHSA
+     APAAQACHCD LSYYRAALDP PSSACTRPPS APVNLISSVN GTSVTLEWAP PLDPGGRSDI
+     TYNAVCRRCP WALSRCEACG SGTRFVPQQT SLVQASLLVA NLLAHMNYSF WIEAVNGVSD
+     LSPEPRRAAV VNITTNQAAP SQVVVIRQER AGQTSVSLLW QEPEQPNGII LEYEIKYYEK
+     DKEMQSYSTL KAVTTRATVS GLKPGTRYVF QVRARTSAGC GRFSQAMEVE TGKPRPRYDT
+     RTIVWICLTL ITGLVVLLLL LICKKRHCGY SKAFQDSDEE KMHYQNGQAP PPVFLPLHHP
+     PGKLPEPQFY AEPHTYEEPG RAGRSFTREI EASRIHIEKI IGSGDSGEVC YGRLRVPGQR
+     DVPVAIKALK AGYTERQRRD FLSEASIMGQ FDHPNIIRLE GVVTRGRLAM IVTEYMENGS
+     LDTFLRTHDG QFTIMQLVGM LRGVGAGMRY LSDLGYVHRD LAARNVLVDS NLVCKVSDFG
+     LSRVLEDDPD AAYTTTGGKI PIRWTAPEAI AFRTFSSASD VWSFGVVMWE VLAYGERPYW
+     NMTNRDVISS VEEGYRLPAP MGCPHALHQL MLDCWHKDRA QRPRFSQIVS VLDALIRSPE
+     SLRATATVSR CPPPAFVRSC FDLRGGSGGG GGLTVGDWLD SIRMGRYRDH FAAGGYSSLG
+     MVLRMNAQDV RALGITLMGH QKKILGSIQT MRAQLTSTQG PRRHL
+//

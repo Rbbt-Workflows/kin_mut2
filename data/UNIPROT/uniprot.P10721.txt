@@ -1,0 +1,709 @@
+ID   KIT_HUMAN               Reviewed;         976 AA.
+AC   P10721; Q99662; Q9UM99;
+DT   01-JUL-1989, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1989, sequence version 1.
+DT   02-NOV-2010, entry version 139.
+DE   RecName: Full=Mast/stem cell growth factor receptor;
+DE            Short=SCFR;
+DE            EC=2.7.10.1;
+DE   AltName: Full=Proto-oncogene c-Kit;
+DE   AltName: Full=Tyrosine-protein kinase Kit;
+DE   AltName: CD_antigen=CD117;
+DE   Flags: Precursor;
+GN   Name=KIT;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Fetal brain, and Term placenta;
+RX   MEDLINE=88111521; PubMed=2448137;
+RA   Yarden Y., Kuang W.-J., Yang-Feng T., Coussens L., Munemitsu S.,
+RA   Dull T.J., Chen E., Schlessinger J., Francke U., Ullrich A.;
+RT   "Human proto-oncogene c-kit: a new cell surface receptor tyrosine
+RT   kinase for an unidentified ligand.";
+RL   EMBO J. 6:3341-3351(1987).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND ALTERNATIVE SPLICING (ISOFORMS
+RP   1 AND 2).
+RX   MEDLINE=93064697; PubMed=1279499;
+RA   Giebel L.B., Strunk K.M., Holmes S.A., Spritz R.A.;
+RT   "Organization and nucleotide sequence of the human KIT (mast/stem cell
+RT   growth factor receptor) proto-oncogene.";
+RL   Oncogene 7:2207-2217(1992).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   MEDLINE=97179223; PubMed=9027509; DOI=10.1006/geno.1996.4482;
+RA   Andre C., Hampe A., Lachaume P., Martin E., Wang X.P., Manus V.,
+RA   Hu W.X., Galibert F.;
+RT   "Sequence analysis of two genomic regions containing the KIT and the
+RT   FMS receptor tyrosine kinase genes.";
+RL   Genomics 39:216-226(1997).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2).
+RC   TISSUE=Trachea;
+RX   PubMed=14702039; DOI=10.1038/ng1285;
+RA   Ota T., Suzuki Y., Nishikawa T., Otsuki T., Sugiyama T., Irie R.,
+RA   Wakamatsu A., Hayashi K., Sato H., Nagai K., Kimura K., Makita H.,
+RA   Sekine M., Obayashi M., Nishi T., Shibahara T., Tanaka T., Ishii S.,
+RA   Yamamoto J., Saito K., Kawai Y., Isono Y., Nakamura Y., Nagahari K.,
+RA   Murakami K., Yasuda T., Iwayanagi T., Wagatsuma M., Shiratori A.,
+RA   Sudo H., Hosoiri T., Kaku Y., Kodaira H., Kondo H., Sugawara M.,
+RA   Takahashi M., Kanda K., Yokoi T., Furuya T., Kikkawa E., Omura Y.,
+RA   Abe K., Kamihara K., Katsuta N., Sato K., Tanikawa M., Yamazaki M.,
+RA   Ninomiya K., Ishibashi T., Yamashita H., Murakawa K., Fujimori K.,
+RA   Tanai H., Kimata M., Watanabe M., Hiraoka S., Chiba Y., Ishida S.,
+RA   Ono Y., Takiguchi S., Watanabe S., Yosida M., Hotuta T., Kusano J.,
+RA   Kanehori K., Takahashi-Fujii A., Hara H., Tanase T.-O., Nomura Y.,
+RA   Togiya S., Komai F., Hara R., Takeuchi K., Arita M., Imose N.,
+RA   Musashino K., Yuuki H., Oshima A., Sasaki N., Aotsuka S.,
+RA   Yoshikawa Y., Matsunawa H., Ichihara T., Shiohata N., Sano S.,
+RA   Moriya S., Momiyama H., Satoh N., Takami S., Terashima Y., Suzuki O.,
+RA   Nakagawa S., Senoh A., Mizoguchi H., Goto Y., Shimizu F., Wakebe H.,
+RA   Hishigaki H., Watanabe T., Sugiyama A., Takemoto M., Kawakami B.,
+RA   Yamazaki M., Watanabe K., Kumagai A., Itakura S., Fukuzumi Y.,
+RA   Fujimori Y., Komiyama M., Tashiro H., Tanigami A., Fujiwara T.,
+RA   Ono T., Yamada K., Fujii Y., Ozaki K., Hirao M., Ohmori Y.,
+RA   Kawabata A., Hikiji T., Kobatake N., Inagaki H., Ikema Y., Okamoto S.,
+RA   Okitani R., Kawakami T., Noguchi S., Itoh T., Shigeta K., Senba T.,
+RA   Matsumura K., Nakajima Y., Mizuno T., Morinaga M., Sasaki M.,
+RA   Togashi T., Oyama M., Hata H., Watanabe M., Komatsu T.,
+RA   Mizushima-Sugano J., Satoh T., Shirai Y., Takahashi Y., Nakagawa K.,
+RA   Okumura K., Nagase T., Nomura N., Kikuchi H., Masuho Y., Yamashita R.,
+RA   Nakai K., Yada T., Nakamura Y., Ohara O., Isogai T., Sugano S.;
+RT   "Complete sequencing and characterization of 21,243 full-length human
+RT   cDNAs.";
+RL   Nat. Genet. 36:40-45(2004).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=15815621; DOI=10.1038/nature03466;
+RA   Hillier L.W., Graves T.A., Fulton R.S., Fulton L.A., Pepin K.H.,
+RA   Minx P., Wagner-McPherson C., Layman D., Wylie K., Sekhon M.,
+RA   Becker M.C., Fewell G.A., Delehaunty K.D., Miner T.L., Nash W.E.,
+RA   Kremitzki C., Oddy L., Du H., Sun H., Bradshaw-Cordum H., Ali J.,
+RA   Carter J., Cordes M., Harris A., Isak A., van Brunt A., Nguyen C.,
+RA   Du F., Courtney L., Kalicki J., Ozersky P., Abbott S., Armstrong J.,
+RA   Belter E.A., Caruso L., Cedroni M., Cotton M., Davidson T., Desai A.,
+RA   Elliott G., Erb T., Fronick C., Gaige T., Haakenson W., Haglund K.,
+RA   Holmes A., Harkins R., Kim K., Kruchowski S.S., Strong C.M.,
+RA   Grewal N., Goyea E., Hou S., Levy A., Martinka S., Mead K.,
+RA   McLellan M.D., Meyer R., Randall-Maher J., Tomlinson C.,
+RA   Dauphin-Kohlberg S., Kozlowicz-Reilly A., Shah N.,
+RA   Swearengen-Shahid S., Snider J., Strong J.T., Thompson J., Yoakum M.,
+RA   Leonard S., Pearman C., Trani L., Radionenko M., Waligorski J.E.,
+RA   Wang C., Rock S.M., Tin-Wollam A.-M., Maupin R., Latreille P.,
+RA   Wendl M.C., Yang S.-P., Pohl C., Wallis J.W., Spieth J., Bieri T.A.,
+RA   Berkowicz N., Nelson J.O., Osborne J., Ding L., Meyer R., Sabo A.,
+RA   Shotland Y., Sinha P., Wohldmann P.E., Cook L.L., Hickenbotham M.T.,
+RA   Eldred J., Williams D., Jones T.A., She X., Ciccarelli F.D.,
+RA   Izaurralde E., Taylor J., Schmutz J., Myers R.M., Cox D.R., Huang X.,
+RA   McPherson J.D., Mardis E.R., Clifton S.W., Warren W.C.,
+RA   Chinwalla A.T., Eddy S.R., Marra M.A., Ovcharenko I., Furey T.S.,
+RA   Miller W., Eichler E.E., Bork P., Suyama M., Torrents D.,
+RA   Waterston R.H., Wilson R.K.;
+RT   "Generation and annotation of the DNA sequences of human chromosomes 2
+RT   and 4.";
+RL   Nature 434:724-731(2005).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-22.
+RX   PubMed=7506248;
+RA   Yamamoto K., Tojo A., Aoki N., Shibuya M.;
+RT   "Characterization of the promoter region of the human c-kit proto-
+RT   oncogene.";
+RL   Jpn. J. Cancer Res. 84:1136-1144(1993).
+RN   [7]
+RP   INTERACTION WITH PTPRU.
+RX   PubMed=10397721;
+RA   Taniguchi Y., London R., Schinkmann K., Jiang S., Avraham H.;
+RT   "The receptor protein tyrosine phosphatase, PTP-RO, is upregulated
+RT   during megakaryocyte differentiation and is associated with the c-Kit
+RT   receptor.";
+RL   Blood 94:539-549(1999).
+RN   [8]
+RP   INTERACTION WITH MPDZ, CHARACTERIZATION OF VARIANT VAL-816, AND
+RP   MUTAGENESIS OF LYS-623.
+RX   MEDLINE=20472558; PubMed=11018522; DOI=10.1016/S0014-5793(00)02036-6;
+RA   Mancini A., Koch A., Stefan M., Niemann H., Tamura T.;
+RT   "The direct association of the multiple PDZ domain containing proteins
+RT   (MUPP-1) with the human c-Kit C-terminus is regulated by tyrosine
+RT   kinase activity.";
+RL   FEBS Lett. 482:54-58(2000).
+RN   [9]
+RP   INTERACTION WITH APS, AND MUTAGENESIS OF ILE-571 AND LEU-939.
+RX   MEDLINE=22510236; PubMed=12444928; DOI=10.1042/BJ20020716;
+RA   Wollberg P., Lennartsson J., Gottfridsson E., Yoshimura A.,
+RA   Ronnstrand L.;
+RT   "The adapter protein APS associates with the multifunctional docking
+RT   sites Tyr-568 and Tyr-936 in c-Kit.";
+RL   Biochem. J. 370:1033-1038(2003).
+RN   [10]
+RP   GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-130, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Plasma;
+RX   PubMed=16335952; DOI=10.1021/pr0502065;
+RA   Liu T., Qian W.-J., Gritsenko M.A., Camp D.G. II, Monroe M.E.,
+RA   Moore R.J., Smith R.D.;
+RT   "Human plasma N-glycoproteome analysis by immunoaffinity subtraction,
+RT   hydrazide chemistry, and mass spectrometry.";
+RL   J. Proteome Res. 4:2070-2080(2005).
+RN   [11]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-936, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Lung carcinoma;
+RX   PubMed=18083107; DOI=10.1016/j.cell.2007.11.025;
+RA   Rikova K., Guo A., Zeng Q., Possemato A., Yu J., Haack H., Nardone J.,
+RA   Lee K., Reeves C., Li Y., Hu Y., Tan Z., Stokes M., Sullivan L.,
+RA   Mitchell J., Wetzel R., Macneill J., Ren J.M., Yuan J.,
+RA   Bakalarski C.E., Villen J., Kornhauser J.M., Smith B., Li D., Zhou X.,
+RA   Gygi S.P., Gu T.-L., Polakiewicz R.D., Rush J., Comb M.J.;
+RT   "Global survey of phosphotyrosine signaling identifies oncogenic
+RT   kinases in lung cancer.";
+RL   Cell 131:1190-1203(2007).
+RN   [12]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-959, AND MASS
+RP   SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [13]
+RP   VARIANT PIEBALDISM LYS-583.
+RX   MEDLINE=92291284; PubMed=1376329; DOI=10.1172/JCI115772;
+RA   Fleischman R.A.;
+RT   "Human piebald trait resulting from a dominant negative mutant allele
+RT   of the c-kit membrane receptor gene.";
+RL   J. Clin. Invest. 89:1713-1717(1992).
+RN   [14]
+RP   VARIANT PIEBALDISM LEU-584.
+RX   MEDLINE=92133600; PubMed=1370874;
+RA   Spritz R.A., Giebel L.B., Holmes S.A.;
+RT   "Dominant negative and loss of function mutations of the c-kit
+RT   (mast/stem cell growth factor receptor) proto-oncogene in human
+RT   piebaldism.";
+RL   Am. J. Hum. Genet. 50:261-269(1992).
+RN   [15]
+RP   VARIANT PIEBALDISM ARG-664.
+RX   MEDLINE=92020918; PubMed=1717985; DOI=10.1073/pnas.88.19.8696;
+RA   Giebel L.B., Spritz R.A.;
+RT   "Mutation of the KIT (mast/stem cell growth factor receptor)
+RT   protooncogene in human piebaldism.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 88:8696-8699(1991).
+RN   [16]
+RP   VARIANT MAST CELL LEUKEMIA VAL-816.
+RX   MEDLINE=94013473; PubMed=7691885; DOI=10.1172/JCI116761;
+RA   Furitsu T., Tsujimura T., Tono T., Ikeda H., Kitayama H.,
+RA   Koshimizu U., Sugahara H., Butterfield J.H., Ashman L.K., Kanayama Y.,
+RA   Matsuzawa Y., Kitamura Y., Kanakura Y.;
+RT   "Identification of mutations in the coding sequence of the proto-
+RT   oncogene c-kit in a human mast cell leukemia cell line causing ligand-
+RT   independent activation of c-kit product.";
+RL   J. Clin. Invest. 92:1736-1744(1993).
+RN   [17]
+RP   VARIANTS PIEBALDISM GLY-791 AND VAL-812.
+RX   MEDLINE=93322624; PubMed=7687267; DOI=10.1111/1523-1747.ep12358440;
+RA   Spritz R.A., Holmes S.A., Itin P., Kuester W.;
+RT   "Novel mutations of the KIT (mast/stem cell growth factor receptor)
+RT   proto-oncogene in human piebaldism.";
+RL   J. Invest. Dermatol. 101:22-25(1993).
+RN   [18]
+RP   VARIANT PIEBALDISM 893-GLU--PRO-896 DEL.
+RX   MEDLINE=96287384; PubMed=8680409; DOI=10.1002/humu.1380060409;
+RA   Riva P., Milani N., Gandolfi P., Larizza L.;
+RT   "A 12-bp deletion (7818del12) in the c-kit protooncogene in a large
+RT   Italian kindred with piebaldism.";
+RL   Hum. Mutat. 6:343-345(1995).
+RN   [19]
+RP   VARIANT MAST CELL DISEASE GLY-820.
+RX   PubMed=9029028; DOI=10.1046/j.1365-2141.1997.d01-2042.x;
+RA   Pignon J.-M., Giraudier S., Duquesnoy P., Jouault H., Imbert M.,
+RA   Vainchenker W., Vernant J.-P., Tulliez M.;
+RT   "A new c-kit mutation in a case of aggressive mast cell disease.";
+RL   Br. J. Haematol. 96:374-376(1997).
+RN   [20]
+RP   VARIANT PIEBALDISM GLY-796.
+RX   PubMed=9450866;
+RX   DOI=10.1002/(SICI)1096-8628(19980106)75:1<101::AID-AJMG20>3.0.CO;2-P;
+RA   Spritz R.A., Beighton P.;
+RT   "Piebaldism with deafness: molecular evidence for an expanded
+RT   syndrome.";
+RL   Am. J. Med. Genet. 75:101-103(1998).
+RN   [21]
+RP   VARIANT ACUTE MYELOID LEUKEMIA TYR-816.
+RX   PubMed=9657776;
+RA   Beghini A., Larizza L., Cairoli R., Morra E.;
+RT   "c-kit activating mutations and mast cell proliferation in human
+RT   leukemia.";
+RL   Blood 92:701-702(1998).
+RN   [22]
+RP   VARIANT PIEBALDISM PRO-847.
+RX   PubMed=9699740; DOI=10.1046/j.1523-1747.1998.00269.x;
+RA   Nomura K., Hatayama I., Narita T., Kaneko T., Shiraishi M.;
+RT   "A novel KIT gene missense mutation in a Japanese family with
+RT   piebaldism.";
+RL   J. Invest. Dermatol. 111:337-338(1998).
+RN   [23]
+RP   VARIANT GIST VAL-559 DEL.
+RX   MEDLINE=98361155; PubMed=9697690; DOI=10.1038/1209;
+RA   Nishida T., Hirota S., Taniguchi M., Hashimoto K., Isozaki K.,
+RA   Nakamura H., Kanakura Y., Tanaka T., Takabayashi A., Matsuda H.,
+RA   Kitamura Y.;
+RT   "Familial gastrointestinal stromal tumours with germline mutation of
+RT   the KIT gene.";
+RL   Nat. Genet. 19:323-324(1998).
+RN   [24]
+RP   VARIANTS GIST ILE-550; 550-LYS--LYS-558 DEL; 551-PRO--VAL-555 DEL;
+RP   ASP-559 AND 559-VAL-VAL-560 DEL.
+RX   PubMed=9438854; DOI=10.1126/science.279.5350.577;
+RA   Hirota S., Isozaki K., Moriyama Y., Hashimoto K., Nishida T.,
+RA   Ishiguro S., Kawano K., Hanada M., Kurata A., Takeda M.,
+RA   Muhammad Tunio G., Matsuzawa Y., Kanakura Y., Shinomura Y.,
+RA   Kitamura Y.;
+RT   "Gain-of-function mutations of c-kit in human gastrointestinal stromal
+RT   tumors.";
+RL   Science 279:577-580(1998).
+RN   [25]
+RP   VARIANT HIS-816, AND CHARACTERIZATION OF VARIANT HIS-816.
+RX   PubMed=10362788;
+RA   Tian Q., Frierson H.F. Jr., Krystal G.W., Moskaluk C.A.;
+RT   "Activating c-kit gene mutations in human germ cell tumors.";
+RL   Am. J. Pathol. 154:1643-1647(1999).
+RN   [26]
+RP   VARIANTS MASTOCYTOSIS VAL-816; PHE-816; TYR-816 AND LYS-839, AND
+RP   CHARACTERIZATION OF VARIANTS MASTOCYTOSIS VAL-816; PHE-816; TYR-816
+RP   AND LYS-839.
+RX   PubMed=9990072; DOI=10.1073/pnas.96.4.1609;
+RA   Longley B.J. Jr., Metcalfe D.D., Tharp M., Wang X., Tyrrell L.,
+RA   Lu S.-Z., Heitjan D., Ma Y.;
+RT   "Activating and dominant inactivating c-KIT catalytic domain mutations
+RT   in distinct clinical forms of human mastocytosis.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 96:1609-1614(1999).
+RN   [27]
+RP   VARIANTS PIEBALDISM CYS-584; ARG-601 AND PRO-656.
+RX   PubMed=11074500;
+RX   DOI=10.1002/1096-8628(20001106)95:1<79::AID-AJMG16>3.0.CO;2-4;
+RA   Syrris P., Malik N.M., Murday V.A., Patton M.A., Carter N.D.,
+RA   Hughes H.E., Metcalfe K.;
+RT   "Three novel mutations of the proto-oncogene KIT cause human
+RT   piebaldism.";
+RL   Am. J. Med. Genet. 95:79-81(2000).
+RN   [28]
+RP   VARIANT GIST ALA-559.
+RX   PubMed=11505412;
+RX   DOI=10.1002/1097-0142(20010801)92:3<657::AID-CNCR1367>3.0.CO;2-D;
+RA   Beghini A., Tibiletti M.G., Roversi G., Chiaravalli A.M., Serio G.,
+RA   Capella C., Larizza L.;
+RT   "Germline mutation in the juxtamembrane domain of the kit gene in a
+RT   family with gastrointestinal stromal tumors and urticaria
+RT   pigmentosa.";
+RL   Cancer 92:657-662(2001).
+RN   [29]
+RP   VARIANT GIST 550-LYS--LYS-558 DEL.
+RX   PubMed=15824741; DOI=10.1038/sj.onc.1208587;
+RA   Chen L.L., Sabripour M., Wu E.F., Prieto V.G., Fuller G.N.,
+RA   Frazier M.L.;
+RT   "A mutation-created novel intra-exonic pre-mRNA splice site causes
+RT   constitutive activation of KIT in human gastrointestinal stromal
+RT   tumors.";
+RL   Oncogene 24:4271-4280(2005).
+RN   [30]
+RP   VARIANTS TYR-816; LYS-822 AND PRO-829.
+RX   PubMed=16175573; DOI=10.1002/gcc.20265;
+RA   Bignell G., Smith R., Hunter C., Stephens P., Davies H., Greenman C.,
+RA   Teague J., Butler A., Edkins S., Stevens C., O'meara S., Parker A.,
+RA   Avis T., Barthorpe S., Brackenbury L., Buck G., Clements J., Cole J.,
+RA   Dicks E., Edwards K., Forbes S., Gorton M., Gray K., Halliday K.,
+RA   Harrison R., Hills K., Hinton J., Jones D., Kosmidou V., Laman R.,
+RA   Lugg R., Menzies A., Perry J., Petty R., Raine K., Shepherd R.,
+RA   Small A., Solomon H., Stephens Y., Tofts C., Varian J., Webb A.,
+RA   West S., Widaa S., Yates A., Gillis A.J.M., Stoop H.J.,
+RA   van Gurp R.J.H.L.M., Oosterhuis J.W., Looijenga L.H.J., Futreal P.A.,
+RA   Wooster R., Stratton M.R.;
+RT   "Sequence analysis of the protein kinase gene family in human
+RT   testicular germ-cell tumors of adolescents and adults.";
+RL   Genes Chromosomes Cancer 45:42-46(2006).
+RN   [31]
+RP   VARIANTS [LARGE SCALE ANALYSIS] ILE-532; LEU-541; SER-691; ASN-715;
+RP   ASN-737; TRP-804; TYR-816; LYS-822 AND PRO-829.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: This is the receptor for stem cell factor (mast cell
+CC       growth factor). It has a tyrosine-protein kinase activity. Binding
+CC       of the ligands leads to the autophosphorylation of KIT and its
+CC       association with substrates such as phosphatidylinositol 3-kinase
+CC       (Pi3K).
+CC   -!- CATALYTIC ACTIVITY: ATP + a [protein]-L-tyrosine = ADP + a
+CC       [protein]-L-tyrosine phosphate.
+CC   -!- SUBUNIT: Interacts with APS. Interacts with MPDZ (via the tenth
+CC       PDZ domain). Interacts with PTPRU.
+CC   -!- INTERACTION:
+CC       P62993:GRB2; NbExp=2; IntAct=EBI-1379503, EBI-401755;
+CC       P21583:KITLG; NbExp=1; IntAct=EBI-1379503, EBI-1379527;
+CC       P35235:Ptpn11 (xeno); NbExp=2; IntAct=EBI-1379503, EBI-397236;
+CC       Q12913:PTPRJ; NbExp=1; IntAct=EBI-1379503, EBI-2264500;
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type I membrane
+CC       protein.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=P10721-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=P10721-2; Sequence=VSP_038385;
+CC   -!- DISEASE: Defects in KIT are a cause of piebaldism [MIM:172800].
+CC       Piebaldism is an autosomal dominant genetic developmental
+CC       abnormality of pigmentation characterized by congenital patches of
+CC       white skin and hair that lack melanocytes.
+CC   -!- DISEASE: Defects in KIT are a cause of gastrointestinal stromal
+CC       tumor (GIST) [MIM:606764].
+CC   -!- DISEASE: Defects in KIT have been associated with testicular
+CC       tumors (TEST) [MIM:273300]. A common solid malignancy in males.
+CC       Germ cell tumors of the testis constitute 95% of all testicular
+CC       neoplasms.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Tyr protein
+CC       kinase family. CSF-1/PDGF receptor subfamily.
+CC   -!- SIMILARITY: Contains 5 Ig-like C2-type (immunoglobulin-like)
+CC       domains.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- WEB RESOURCE: Name=Atlas of Genetics and Cytogenetics in Oncology
+CC       and Haematology;
+CC       URL="http://atlasgeneticsoncology.org/Genes/KITID127.html";
+CC   -!- WEB RESOURCE: Name=GeneReviews;
+CC       URL="http://www.ncbi.nlm.nih.gov/sites/GeneTests/lab/gene/KIT";
+CC   -!- WEB RESOURCE: Name=Wikipedia; Note=CD117 entry;
+CC       URL="http://en.wikipedia.org/wiki/CD117";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X06182; CAA29548.1; -; mRNA.
+DR   EMBL; X69301; CAA49159.1; -; Genomic_DNA.
+DR   EMBL; X69302; CAA49159.1; JOINED; Genomic_DNA.
+DR   EMBL; X69303; CAA49159.1; JOINED; Genomic_DNA.
+DR   EMBL; X69304; CAA49159.1; JOINED; Genomic_DNA.
+DR   EMBL; X69305; CAA49159.1; JOINED; Genomic_DNA.
+DR   EMBL; X69306; CAA49159.1; JOINED; Genomic_DNA.
+DR   EMBL; X69307; CAA49159.1; JOINED; Genomic_DNA.
+DR   EMBL; X69308; CAA49159.1; JOINED; Genomic_DNA.
+DR   EMBL; X69309; CAA49159.1; JOINED; Genomic_DNA.
+DR   EMBL; X69310; CAA49159.1; JOINED; Genomic_DNA.
+DR   EMBL; X69311; CAA49159.1; JOINED; Genomic_DNA.
+DR   EMBL; X69312; CAA49159.1; JOINED; Genomic_DNA.
+DR   EMBL; X69313; CAA49159.1; JOINED; Genomic_DNA.
+DR   EMBL; X69314; CAA49159.1; JOINED; Genomic_DNA.
+DR   EMBL; X69315; CAA49159.1; JOINED; Genomic_DNA.
+DR   EMBL; X69316; CAA49159.1; JOINED; Genomic_DNA.
+DR   EMBL; U63834; AAC50968.1; -; Genomic_DNA.
+DR   EMBL; U63834; AAC50969.1; -; Genomic_DNA.
+DR   EMBL; AK304031; BAG64945.1; -; mRNA.
+DR   EMBL; AC006552; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AC092545; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; S67773; AAB29529.1; -; Genomic_DNA.
+DR   IPI; IPI00022296; -.
+DR   IPI; IPI00848233; -.
+DR   PIR; S01426; TVHUKT.
+DR   RefSeq; NP_000213.1; -.
+DR   RefSeq; NP_001087241.1; -.
+DR   UniGene; Hs.479754; -.
+DR   PDB; 1PKG; X-ray; 2.90 A; A/B=549-931.
+DR   PDB; 1QZJ; Model; -; A=576-932.
+DR   PDB; 1QZK; Model; -; A=576-932.
+DR   PDB; 1R01; Model; -; A=576-932.
+DR   PDB; 1T45; X-ray; 1.90 A; A=547-935.
+DR   PDB; 1T46; X-ray; 1.60 A; A=565-935.
+DR   PDB; 2E9W; X-ray; 3.50 A; A/B=26-514.
+DR   PDB; 2EC8; X-ray; 3.00 A; A=1-519.
+DR   PDB; 2VIF; X-ray; 1.45 A; P=564-574.
+DR   PDB; 3G0E; X-ray; 1.60 A; A=544-935.
+DR   PDB; 3G0F; X-ray; 2.60 A; A/B=544-935.
+DR   PDBsum; 1PKG; -.
+DR   PDBsum; 1QZJ; -.
+DR   PDBsum; 1QZK; -.
+DR   PDBsum; 1R01; -.
+DR   PDBsum; 1T45; -.
+DR   PDBsum; 1T46; -.
+DR   PDBsum; 2E9W; -.
+DR   PDBsum; 2EC8; -.
+DR   PDBsum; 2VIF; -.
+DR   PDBsum; 3G0E; -.
+DR   PDBsum; 3G0F; -.
+DR   ProteinModelPortal; P10721; -.
+DR   DIP; DIP-1055N; -.
+DR   IntAct; P10721; 15.
+DR   STRING; P10721; -.
+DR   PhosphoSite; P10721; -.
+DR   PRIDE; P10721; -.
+DR   Ensembl; ENST00000288135; ENSP00000288135; ENSG00000157404.
+DR   GeneID; 3815; -.
+DR   KEGG; hsa:3815; -.
+DR   UCSC; uc010igr.1; human.
+DR   CTD; 3815; -.
+DR   GeneCards; GC04P055439; -.
+DR   H-InvDB; HIX0031398; -.
+DR   HGNC; HGNC:6342; KIT.
+DR   HPA; CAB003288; -.
+DR   HPA; HPA004471; -.
+DR   MIM; 164920; gene.
+DR   MIM; 172800; phenotype.
+DR   MIM; 273300; phenotype.
+DR   MIM; 606764; phenotype.
+DR   Orphanet; 98850; Aggressive systemic mastocytosis.
+DR   Orphanet; 44890; Gastrointestinal stromal tumor.
+DR   Orphanet; 98848; Indolent systemic mastocytosis.
+DR   Orphanet; 98851; Mast cell leukemia.
+DR   Orphanet; 98292; Mastocytosis.
+DR   Orphanet; 2884; Piebaldism.
+DR   Orphanet; 2467; Systemic mastocytosis.
+DR   Orphanet; 98849; Systemic mastocytosis with an associated clonal hematologic non-mast cell lineage disease.
+DR   PharmGKB; PA30128; -.
+DR   eggNOG; prNOG15493; -.
+DR   HOGENOM; HBG445154; -.
+DR   HOVERGEN; HBG004335; -.
+DR   InParanoid; P10721; -.
+DR   OMA; THGRITK; -.
+DR   OrthoDB; EOG98WFN0; -.
+DR   PhylomeDB; P10721; -.
+DR   BRENDA; 2.7.10.1; 247.
+DR   Pathway_Interaction_DB; kitpathway; Signaling events mediated by Stem cell factor receptor (c-Kit).
+DR   DrugBank; DB01254; Dasatinib.
+DR   DrugBank; DB00619; Imatinib.
+DR   DrugBank; DB00398; Sorafenib.
+DR   DrugBank; DB01268; Sunitinib.
+DR   NextBio; 14995; -.
+DR   ArrayExpress; P10721; -.
+DR   Bgee; P10721; -.
+DR   CleanEx; HS_KIT; -.
+DR   Genevestigator; P10721; -.
+DR   GermOnline; ENSG00000157404; Homo sapiens.
+DR   GO; GO:0005615; C:extracellular space; IDA:BHF-UCL.
+DR   GO; GO:0016021; C:integral to membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005515; F:protein binding; IPI:IntAct.
+DR   GO; GO:0004716; F:receptor signaling protein tyrosine kinase ...; TAS:ProtInc.
+DR   GO; GO:0008584; P:male gonad development; IEP:UniProtKB.
+DR   GO; GO:0007169; P:transmembrane receptor protein tyrosine kin...; IEA:InterPro.
+DR   InterPro; IPR007110; Ig-like.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR003599; Ig_sub.
+DR   InterPro; IPR003598; Ig_sub2.
+DR   InterPro; IPR013151; Immunoglobulin.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR001245; Ser-Thr/Tyr-Pkinase.
+DR   InterPro; IPR020730; Tyr_kinase_mast_cell_GF_rcpt.
+DR   InterPro; IPR020635; Tyr_Pkinase_cat_dom.
+DR   InterPro; IPR020685; Tyr_prot_kinase.
+DR   InterPro; IPR008266; Tyr_prot_kinase_AS.
+DR   InterPro; IPR016243; Tyr_prot_kinase_CSF1/PDGF_rcpt.
+DR   InterPro; IPR001824; Tyr_prot_kinase_rcpt_3_CS.
+DR   Gene3D; G3DSA:2.60.40.10; Ig-like_fold; 5.
+DR   PANTHER; PTHR23256:SF238; Tyr_kinase_mast_cell_GF_rcpt; 1.
+DR   PANTHER; PTHR23256; Tyr_prot_kinase; 1.
+DR   Pfam; PF00047; ig; 1.
+DR   Pfam; PF07714; Pkinase_Tyr; 1.
+DR   PIRSF; PIRSF000615; TyrPK_CSF1-R; 1.
+DR   SMART; SM00409; IG; 1.
+DR   SMART; SM00408; IGc2; 1.
+DR   SMART; SM00219; TyrKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS50835; IG_LIKE; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00109; PROTEIN_KINASE_TYR; 1.
+DR   PROSITE; PS00240; RECEPTOR_TYR_KIN_III; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; ATP-binding; Complete proteome;
+KW   Disease mutation; Disulfide bond; Glycoprotein; Immunoglobulin domain;
+KW   Kinase; Membrane; Nucleotide-binding; Phosphoprotein; Polymorphism;
+KW   Proto-oncogene; Receptor; Repeat; Signal; Transferase; Transmembrane;
+KW   Transmembrane helix; Tyrosine-protein kinase.
+FT   SIGNAL        1     25       Potential.
+FT   CHAIN        26    976       Mast/stem cell growth factor receptor.
+FT                                /FTId=PRO_0000016754.
+FT   TOPO_DOM     26    524       Extracellular (Potential).
+FT   TRANSMEM    525    545       Helical; (Potential).
+FT   TOPO_DOM    546    976       Cytoplasmic (Potential).
+FT   DOMAIN       27    112       Ig-like C2-type 1.
+FT   DOMAIN      121    205       Ig-like C2-type 2.
+FT   DOMAIN      212    308       Ig-like C2-type 3.
+FT   DOMAIN      317    410       Ig-like C2-type 4.
+FT   DOMAIN      413    507       Ig-like C2-type 5.
+FT   DOMAIN      589    937       Protein kinase.
+FT   NP_BIND     595    603       ATP (By similarity).
+FT   ACT_SITE    792    792       Proton acceptor (By similarity).
+FT   BINDING     623    623       ATP (By similarity).
+FT   SITE        568    568       Interaction with APS.
+FT   SITE        936    936       Interaction with APS.
+FT   MOD_RES     568    568       Phosphotyrosine (By similarity).
+FT   MOD_RES     570    570       Phosphotyrosine (By similarity).
+FT   MOD_RES     703    703       Phosphotyrosine (By similarity).
+FT   MOD_RES     823    823       Phosphotyrosine; by autocatalysis (By
+FT                                similarity).
+FT   MOD_RES     936    936       Phosphotyrosine.
+FT   MOD_RES     959    959       Phosphoserine.
+FT   CARBOHYD    130    130       N-linked (GlcNAc...).
+FT   CARBOHYD    145    145       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    283    283       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    293    293       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    300    300       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    320    320       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    352    352       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    367    367       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    463    463       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    486    486       N-linked (GlcNAc...) (Potential).
+FT   DISULFID     58     97       By similarity.
+FT   DISULFID    151    183       By similarity.
+FT   DISULFID    233    290       By similarity.
+FT   DISULFID    428    491       By similarity.
+FT   VAR_SEQ     510    513       Missing (in isoform 2).
+FT                                /FTId=VSP_038385.
+FT   VARIANT     532    532       V -> I (in dbSNP:rs55792975).
+FT                                /FTId=VAR_042021.
+FT   VARIANT     541    541       M -> L (in dbSNP:rs3822214).
+FT                                /FTId=VAR_042022.
+FT   VARIANT     541    541       M -> V (in dbSNP:rs3822214).
+FT                                /FTId=VAR_061289.
+FT   VARIANT     550    558       Missing (in GIST; somatic mutation).
+FT                                /FTId=VAR_033124.
+FT   VARIANT     550    550       K -> I (in GIST; somatic mutation;
+FT                                dbSNP:rs28933968).
+FT                                /FTId=VAR_033123.
+FT   VARIANT     551    555       Missing (in GIST; somatic mutation).
+FT                                /FTId=VAR_033125.
+FT   VARIANT     559    560       Missing (in GIST; somatic mutation).
+FT                                /FTId=VAR_033128.
+FT   VARIANT     559    559       V -> A (in GIST).
+FT                                /FTId=VAR_033126.
+FT   VARIANT     559    559       V -> D (in GIST; somatic mutation).
+FT                                /FTId=VAR_033127.
+FT   VARIANT     559    559       Missing (in GIST).
+FT                                /FTId=VAR_007965.
+FT   VARIANT     583    583       E -> K (in piebaldism).
+FT                                /FTId=VAR_004104.
+FT   VARIANT     584    584       F -> C (in piebaldism; dbSNP:rs28933371).
+FT                                /FTId=VAR_033129.
+FT   VARIANT     584    584       F -> L (in piebaldism).
+FT                                /FTId=VAR_004105.
+FT   VARIANT     601    601       G -> R (in piebaldism).
+FT                                /FTId=VAR_033130.
+FT   VARIANT     656    656       L -> P (in piebaldism).
+FT                                /FTId=VAR_033131.
+FT   VARIANT     664    664       G -> R (in piebaldism).
+FT                                /FTId=VAR_004106.
+FT   VARIANT     691    691       C -> S (in dbSNP:rs35200131).
+FT                                /FTId=VAR_042023.
+FT   VARIANT     715    715       S -> N (in dbSNP:rs56094246).
+FT                                /FTId=VAR_042024.
+FT   VARIANT     737    737       D -> N (in a colorectal adenocarcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_042025.
+FT   VARIANT     791    791       R -> G (in piebaldism).
+FT                                /FTId=VAR_004107.
+FT   VARIANT     796    796       R -> G (in piebaldism; with sensorineural
+FT                                deafness).
+FT                                /FTId=VAR_033132.
+FT   VARIANT     804    804       R -> W (in a colorectal adenocarcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_042026.
+FT   VARIANT     812    812       G -> V (in piebaldism).
+FT                                /FTId=VAR_004108.
+FT   VARIANT     816    816       D -> F (in mastocytosis; requires 2
+FT                                nucleotide substitutions; somatic
+FT                                mutation; constitutively activated).
+FT                                /FTId=VAR_033133.
+FT   VARIANT     816    816       D -> H (in a testicular tumor; seminoma;
+FT                                somatic mutation; constitutively
+FT                                activated; dbSNP:rs28933969).
+FT                                /FTId=VAR_033134.
+FT   VARIANT     816    816       D -> V (in mast cell leukemia and
+FT                                mastocytosis; somatic mutation;
+FT                                constitutively activated; loss of
+FT                                interaction with MPDZ).
+FT                                /FTId=VAR_004109.
+FT   VARIANT     816    816       D -> Y (in acute myeloid leukemia,
+FT                                mastocytosis and a germ cell tumor of the
+FT                                testis; somatic mutation; constitutively
+FT                                activated).
+FT                                /FTId=VAR_023828.
+FT   VARIANT     820    820       D -> G (in mast cell disease; systemic).
+FT                                /FTId=VAR_033135.
+FT   VARIANT     822    822       N -> K (in a germ cell tumor of the
+FT                                testis; somatic mutation).
+FT                                /FTId=VAR_023829.
+FT   VARIANT     829    829       A -> P (in a germ cell tumor of the
+FT                                testis; somatic mutation).
+FT                                /FTId=VAR_023830.
+FT   VARIANT     839    839       E -> K (in mastocytosis; somatic
+FT                                mutation; dominant negative mutation;
+FT                                loss of autophosphorylation).
+FT                                /FTId=VAR_033136.
+FT   VARIANT     847    847       T -> P (in piebaldism).
+FT                                /FTId=VAR_033137.
+FT   VARIANT     893    896       Missing (in piebaldism; severe).
+FT                                /FTId=VAR_004110.
+FT   MUTAGEN     571    571       I->A: Reduction in APS binding. Abolishes
+FT                                APS binding; when associated with A-939.
+FT   MUTAGEN     623    623       K->M: Stronger interaction with MPDZ.
+FT   MUTAGEN     939    939       L->A: Reduction in APS binding. Abolishes
+FT                                APS binding; when associated with A-571.
+FT   STRAND      556    560
+FT   HELIX       580    582
+FT   HELIX       586    588
+FT   STRAND      589    597
+FT   STRAND      599    613
+FT   STRAND      617    625
+FT   HELIX       631    647
+FT   STRAND      656    660
+FT   STRAND      662    665
+FT   STRAND      667    671
+FT   HELIX       678    690
+FT   HELIX       766    785
+FT   HELIX       795    797
+FT   STRAND      798    801
+FT   HELIX       802    804
+FT   STRAND      805    808
+FT   HELIX       812    814
+FT   HELIX       817    819
+FT   STRAND      823    831
+FT   HELIX       833    835
+FT   HELIX       838    843
+FT   HELIX       848    863
+FT   HELIX       877    885
+FT   HELIX       897    906
+FT   HELIX       911    913
+FT   HELIX       917    930
+FT   TURN        931    933
+SQ   SEQUENCE   976 AA;  109865 MW;  81B0CD76817F3454 CRC64;
+     MRGARGAWDF LCVLLLLLRV QTGSSQPSVS PGEPSPPSIH PGKSDLIVRV GDEIRLLCTD
+     PGFVKWTFEI LDETNENKQN EWITEKAEAT NTGKYTCTNK HGLSNSIYVF VRDPAKLFLV
+     DRSLYGKEDN DTLVRCPLTD PEVTNYSLKG CQGKPLPKDL RFIPDPKAGI MIKSVKRAYH
+     RLCLHCSVDQ EGKSVLSEKF ILKVRPAFKA VPVVSVSKAS YLLREGEEFT VTCTIKDVSS
+     SVYSTWKREN SQTKLQEKYN SWHHGDFNYE RQATLTISSA RVNDSGVFMC YANNTFGSAN
+     VTTTLEVVDK GFINIFPMIN TTVFVNDGEN VDLIVEYEAF PKPEHQQWIY MNRTFTDKWE
+     DYPKSENESN IRYVSELHLT RLKGTEGGTY TFLVSNSDVN AAIAFNVYVN TKPEILTYDR
+     LVNGMLQCVA AGFPEPTIDW YFCPGTEQRC SASVLPVDVQ TLNSSGPPFG KLVVQSSIDS
+     SAFKHNGTVE CKAYNDVGKT SAYFNFAFKG NNKEQIHPHT LFTPLLIGFV IVAGMMCIIV
+     MILTYKYLQK PMYEVQWKVV EEINGNNYVY IDPTQLPYDH KWEFPRNRLS FGKTLGAGAF
+     GKVVEATAYG LIKSDAAMTV AVKMLKPSAH LTEREALMSE LKVLSYLGNH MNIVNLLGAC
+     TIGGPTLVIT EYCCYGDLLN FLRRKRDSFI CSKQEDHAEA ALYKNLLHSK ESSCSDSTNE
+     YMDMKPGVSY VVPTKADKRR SVRIGSYIER DVTPAIMEDD ELALDLEDLL SFSYQVAKGM
+     AFLASKNCIH RDLAARNILL THGRITKICD FGLARDIKND SNYVVKGNAR LPVKWMAPES
+     IFNCVYTFES DVWSYGIFLW ELFSLGSSPY PGMPVDSKFY KMIKEGFRML SPEHAPAEMY
+     DIMKTCWDAD PLKRPTFKQI VQLIEKQISE STNHIYSNLA NCSPNRQKPV VDHSVRINSV
+     GSTASSSQPL LVHDDV
+//

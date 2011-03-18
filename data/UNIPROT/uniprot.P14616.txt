@@ -1,0 +1,293 @@
+ID   INSRR_HUMAN             Reviewed;        1297 AA.
+AC   P14616; O60724; Q5VZS3;
+DT   01-APR-1990, integrated into UniProtKB/Swiss-Prot.
+DT   11-JAN-2001, sequence version 2.
+DT   02-NOV-2010, entry version 113.
+DE   RecName: Full=Insulin receptor-related protein;
+DE            Short=IRR;
+DE            EC=2.7.10.1;
+DE   AltName: Full=IR-related receptor;
+DE   Contains:
+DE     RecName: Full=Insulin receptor-related protein alpha chain;
+DE   Contains:
+DE     RecName: Full=Insulin receptor-related protein beta chain;
+DE   Flags: Precursor;
+GN   Name=INSRR; Synonyms=IRR;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Kidney;
+RX   MEDLINE=99243372; PubMed=10226785;
+RA   Haenze J., Berthold A., Klammt J., Gallaher B., Siebler T.,
+RA   Kratzsch J., Elmlinger M., Kiess W.;
+RT   "Cloning and sequencing of the complete cDNA encoding the human
+RT   insulin receptor related receptor.";
+RL   Horm. Metab. Res. 31:77-79(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=16710414; DOI=10.1038/nature04727;
+RA   Gregory S.G., Barlow K.F., McLay K.E., Kaul R., Swarbreck D.,
+RA   Dunham A., Scott C.E., Howe K.L., Woodfine K., Spencer C.C.A.,
+RA   Jones M.C., Gillson C., Searle S., Zhou Y., Kokocinski F.,
+RA   McDonald L., Evans R., Phillips K., Atkinson A., Cooper R., Jones C.,
+RA   Hall R.E., Andrews T.D., Lloyd C., Ainscough R., Almeida J.P.,
+RA   Ambrose K.D., Anderson F., Andrew R.W., Ashwell R.I.S., Aubin K.,
+RA   Babbage A.K., Bagguley C.L., Bailey J., Beasley H., Bethel G.,
+RA   Bird C.P., Bray-Allen S., Brown J.Y., Brown A.J., Buckley D.,
+RA   Burton J., Bye J., Carder C., Chapman J.C., Clark S.Y., Clarke G.,
+RA   Clee C., Cobley V., Collier R.E., Corby N., Coville G.J., Davies J.,
+RA   Deadman R., Dunn M., Earthrowl M., Ellington A.G., Errington H.,
+RA   Frankish A., Frankland J., French L., Garner P., Garnett J., Gay L.,
+RA   Ghori M.R.J., Gibson R., Gilby L.M., Gillett W., Glithero R.J.,
+RA   Grafham D.V., Griffiths C., Griffiths-Jones S., Grocock R.,
+RA   Hammond S., Harrison E.S.I., Hart E., Haugen E., Heath P.D.,
+RA   Holmes S., Holt K., Howden P.J., Hunt A.R., Hunt S.E., Hunter G.,
+RA   Isherwood J., James R., Johnson C., Johnson D., Joy A., Kay M.,
+RA   Kershaw J.K., Kibukawa M., Kimberley A.M., King A., Knights A.J.,
+RA   Lad H., Laird G., Lawlor S., Leongamornlert D.A., Lloyd D.M.,
+RA   Loveland J., Lovell J., Lush M.J., Lyne R., Martin S.,
+RA   Mashreghi-Mohammadi M., Matthews L., Matthews N.S.W., McLaren S.,
+RA   Milne S., Mistry S., Moore M.J.F., Nickerson T., O'Dell C.N.,
+RA   Oliver K., Palmeiri A., Palmer S.A., Parker A., Patel D., Pearce A.V.,
+RA   Peck A.I., Pelan S., Phelps K., Phillimore B.J., Plumb R., Rajan J.,
+RA   Raymond C., Rouse G., Saenphimmachak C., Sehra H.K., Sheridan E.,
+RA   Shownkeen R., Sims S., Skuce C.D., Smith M., Steward C.,
+RA   Subramanian S., Sycamore N., Tracey A., Tromans A., Van Helmond Z.,
+RA   Wall M., Wallis J.M., White S., Whitehead S.L., Wilkinson J.E.,
+RA   Willey D.L., Williams H., Wilming L., Wray P.W., Wu Z., Coulson A.,
+RA   Vaudin M., Sulston J.E., Durbin R.M., Hubbard T., Wooster R.,
+RA   Dunham I., Carter N.P., McVean G., Ross M.T., Harrow J., Olson M.V.,
+RA   Beck S., Rogers J., Bentley D.R.;
+RT   "The DNA sequence and biological annotation of human chromosome 1.";
+RL   Nature 441:315-321(2006).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (SEP-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 30-1297.
+RX   MEDLINE=89359245; PubMed=2768234;
+RA   Shier P., Watt V.M.;
+RT   "Primary structure of a putative receptor for a ligand of the insulin
+RT   family.";
+RL   J. Biol. Chem. 264:14605-14608(1989).
+RN   [5]
+RP   VARIANTS [LARGE SCALE ANALYSIS] GLU-127; VAL-161; HIS-244; ARG-246;
+RP   GLN-278; CYS-554; LEU-928 AND GLU-1065.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: This receptor probably binds an insulin related protein
+CC       and has a tyrosine-protein kinase activity. It phosphorylates the
+CC       insulin receptor substrates IRS-1 and IRS-2.
+CC   -!- CATALYTIC ACTIVITY: ATP + a [protein]-L-tyrosine = ADP + a
+CC       [protein]-L-tyrosine phosphate.
+CC   -!- COFACTOR: Manganese (By similarity).
+CC   -!- SUBUNIT: Probable tetramer of 2 alpha and 2 beta chains linked by
+CC       disulfide bonds. The alpha chains contribute to the formation of
+CC       the ligand-binding domain, while the beta chains carry the kinase
+CC       domain.
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type I membrane
+CC       protein.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Tyr protein
+CC       kinase family. Insulin receptor subfamily.
+CC   -!- SIMILARITY: Contains 3 fibronectin type-III domains.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF064078; AAC17167.1; -; mRNA.
+DR   EMBL; AL158169; CAH70009.1; -; Genomic_DNA.
+DR   EMBL; CH471121; EAW52903.1; -; Genomic_DNA.
+DR   EMBL; J05046; AAC31759.1; -; mRNA.
+DR   IPI; IPI00027212; -.
+DR   PIR; B36502; B36502.
+DR   RefSeq; NP_055030.1; -.
+DR   UniGene; Hs.248138; -.
+DR   ProteinModelPortal; P14616; -.
+DR   SMR; P14616; 28-910, 957-1264.
+DR   STRING; P14616; -.
+DR   PRIDE; P14616; -.
+DR   Ensembl; ENST00000368195; ENSP00000357178; ENSG00000027644.
+DR   GeneID; 3645; -.
+DR   KEGG; hsa:3645; -.
+DR   UCSC; uc001fqg.1; human.
+DR   CTD; 3645; -.
+DR   GeneCards; GC01M156809; -.
+DR   H-InvDB; HIX0028530; -.
+DR   HGNC; HGNC:6093; INSRR.
+DR   HPA; HPA025285; -.
+DR   MIM; 147671; gene.
+DR   PharmGKB; PA29899; -.
+DR   eggNOG; prNOG07591; -.
+DR   HOGENOM; HBG316019; -.
+DR   HOVERGEN; HBG006134; -.
+DR   InParanoid; P14616; -.
+DR   OMA; MPHREAD; -.
+DR   OrthoDB; EOG986BZ0; -.
+DR   PhylomeDB; P14616; -.
+DR   BRENDA; 2.7.10.1; 247.
+DR   NextBio; 14267; -.
+DR   ArrayExpress; P14616; -.
+DR   Bgee; P14616; -.
+DR   CleanEx; HS_INSRR; -.
+DR   Genevestigator; P14616; -.
+DR   GermOnline; ENSG00000027644; Homo sapiens.
+DR   GO; GO:0005887; C:integral to plasma membrane; NAS:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005515; F:protein binding; IEA:InterPro.
+DR   GO; GO:0004714; F:transmembrane receptor protein tyrosine kin...; NAS:UniProtKB.
+DR   GO; GO:0046777; P:protein amino acid autophosphorylation; IEA:InterPro.
+DR   GO; GO:0007169; P:transmembrane receptor protein tyrosine kin...; NAS:UniProtKB.
+DR   InterPro; IPR000494; EGF_rcpt_L.
+DR   InterPro; IPR008957; Fibronectin_III_dom.
+DR   InterPro; IPR003961; FN_III.
+DR   InterPro; IPR006211; Furin-like_Cys-rich_dom.
+DR   InterPro; IPR006212; Furin_repeat.
+DR   InterPro; IPR009030; Growth_fac_rcpt.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR001245; Ser-Thr/Tyr-Pkinase.
+DR   InterPro; IPR016246; Tyr_kinase_insulin-like_rcpt.
+DR   InterPro; IPR020712; Tyr_kinase_insulin-rel_rcpt.
+DR   InterPro; IPR020635; Tyr_Pkinase_cat_dom.
+DR   InterPro; IPR020685; Tyr_prot_kinase.
+DR   InterPro; IPR008266; Tyr_prot_kinase_AS.
+DR   InterPro; IPR002011; Tyr_prot_kinase_rcpt_2_CS.
+DR   Gene3D; G3DSA:2.60.40.10; Ig-like_fold; 4.
+DR   PANTHER; PTHR23256:SF177; Tyr_kinase_insulin-rel_rcpt; 1.
+DR   PANTHER; PTHR23256; Tyr_prot_kinase; 1.
+DR   Pfam; PF00041; fn3; 1.
+DR   Pfam; PF00757; Furin-like; 1.
+DR   Pfam; PF07714; Pkinase_Tyr; 1.
+DR   Pfam; PF01030; Recep_L_domain; 2.
+DR   PIRSF; PIRSF000620; Insulin_receptor; 1.
+DR   PRINTS; PR00109; TYRKINASE.
+DR   SMART; SM00060; FN3; 3.
+DR   SMART; SM00261; FU; 1.
+DR   SMART; SM00219; TyrKc; 1.
+DR   SUPFAM; SSF49265; FN_III-like; 3.
+DR   SUPFAM; SSF57184; Grow_fac_recept; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS50853; FN3; 3.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00109; PROTEIN_KINASE_TYR; 1.
+DR   PROSITE; PS00239; RECEPTOR_TYR_KIN_II; 1.
+PE   2: Evidence at transcript level;
+KW   ATP-binding; Cleavage on pair of basic residues; Complete proteome;
+KW   Disulfide bond; Glycoprotein; Kinase; Manganese; Membrane;
+KW   Metal-binding; Nucleotide-binding; Phosphoprotein; Polymorphism;
+KW   Receptor; Repeat; Signal; Transferase; Transmembrane;
+KW   Transmembrane helix; Tyrosine-protein kinase.
+FT   SIGNAL        1     26       Potential.
+FT   CHAIN        27   1297       Insulin receptor-related protein.
+FT                                /FTId=PRO_0000016701.
+FT   CHAIN        27    742       Insulin receptor-related protein alpha
+FT                                chain (Probable).
+FT                                /FTId=PRO_0000016702.
+FT   CHAIN       747   1297       Insulin receptor-related protein beta
+FT                                chain (Probable).
+FT                                /FTId=PRO_0000016703.
+FT   TOPO_DOM    747    921       Extracellular (Potential).
+FT   TRANSMEM    922    943       Helical; (Potential).
+FT   TOPO_DOM    944   1297       Cytoplasmic (Potential).
+FT   DOMAIN      484    594       Fibronectin type-III 1.
+FT   DOMAIN      605    686       Fibronectin type-III 2.
+FT   DOMAIN      815    909       Fibronectin type-III 3.
+FT   DOMAIN      979   1254       Protein kinase.
+FT   NP_BIND     985    993       ATP (By similarity).
+FT   ACT_SITE   1115   1115       Proton acceptor (By similarity).
+FT   BINDING    1013   1013       ATP (By similarity).
+FT   MOD_RES    1145   1145       Phosphotyrosine; by autocatalysis (By
+FT                                similarity).
+FT   CARBOHYD     47     47       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    311    311       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    411    411       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    492    492       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    528    528       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    616    616       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    634    634       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    756    756       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    885    885       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    898    898       N-linked (GlcNAc...) (Potential).
+FT   DISULFID    214    222       By similarity.
+FT   DISULFID    216    228       By similarity.
+FT   DISULFID    229    237       By similarity.
+FT   DISULFID    233    246       By similarity.
+FT   DISULFID    249    258       By similarity.
+FT   DISULFID    262    274       By similarity.
+FT   DISULFID    280    300       By similarity.
+FT   DISULFID    304    317       By similarity.
+FT   DISULFID    320    324       By similarity.
+FT   DISULFID    657    864       Interchain (between alpha and beta
+FT                                chains) (Potential).
+FT   VARIANT     127    127       A -> E (in dbSNP:rs55757706).
+FT                                /FTId=VAR_041434.
+FT   VARIANT     161    161       A -> V (in dbSNP:rs55971900).
+FT                                /FTId=VAR_041435.
+FT   VARIANT     244    244       R -> H (in dbSNP:rs55951840).
+FT                                /FTId=VAR_041436.
+FT   VARIANT     246    246       C -> R (in dbSNP:rs56377825).
+FT                                /FTId=VAR_041437.
+FT   VARIANT     278    278       E -> Q (in a lung adenocarcinoma sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_041438.
+FT   VARIANT     554    554       R -> C (in dbSNP:rs56068937).
+FT                                /FTId=VAR_041439.
+FT   VARIANT     928    928       P -> L (in dbSNP:rs56252149).
+FT                                /FTId=VAR_041440.
+FT   VARIANT    1065   1065       G -> E (in a glioblastoma multiforme
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_041441.
+SQ   SEQUENCE   1297 AA;  143720 MW;  BB22C7FF61E3065D CRC64;
+     MAVPSLWPWG ACLPVIFLSL GFGLDTVEVC PSLDIRSEVA ELRQLENCSV VEGHLQILLM
+     FTATGEDFRG LSFPRLTQVT DYLLLFRVYG LESLRDLFPN LAVIRGTRLF LGYALVIFEM
+     PHLRDVALPA LGAVLRGAVR VEKNQELCHL STIDWGLLQP APGANHIVGN KLGEECADVC
+     PGVLGAAGEP CAKTTFSGHT DYRCWTSSHC QRVCPCPHGM ACTARGECCH TECLGGCSQP
+     EDPRACVACR HLYFQGACLW ACPPGTYQYE SWRCVTAERC ASLHSVPGRA STFGIHQGSC
+     LAQCPSGFTR NSSSIFCHKC EGLCPKECKV GTKTIDSIQA AQDLVGCTHV EGSLILNLRQ
+     GYNLEPQLQH SLGLVETITG FLKIKHSFAL VSLGFFKNLK LIRGDAMVDG NYTLYVLDNQ
+     NLQQLGSWVA AGLTIPVGKI YFAFNPRLCL EHIYRLEEVT GTRGRQNKAE INPRTNGDRA
+     ACQTRTLRFV SNVTEADRIL LRWERYEPLE ARDLLSFIVY YKESPFQNAT EHVGPDACGT
+     QSWNLLDVEL PLSRTQEPGV TLASLKPWTQ YAVFVRAITL TTEEDSPHQG AQSPIVYLRT
+     LPAAPTVPQD VISTSNSSSH LLVRWKPPTQ RNGNLTYYLV LWQRLAEDGD LYLNDYCHRG
+     LRLPTSNNDP RFDGEDGDPE AEMESDCCPC QHPPPGQVLP PLEAQEASFQ KKFENFLHNA
+     ITIPISPWKV TSINKSPQRD SGRHRRAAGP LRLGGNSSDF EIQEDKVPRE RAVLSGLRHF
+     TEYRIDIHAC NHAAHTVGCS AATFVFARTM PHREADGIPG KVAWEASSKN SVLLRWLEPP
+     DPNGLILKYE IKYRRLGEEA TVLCVSRLRY AKFGGVHLAL LPPGNYSARV RATSLAGNGS
+     WTDSVAFYIL GPEEEDAGGL HVLLTATPVG LTLLIVLAAL GFFYGKKRNR TLYASVNPEY
+     FSASDMYVPD EWEVPREQIS IIRELGQGSF GMVYEGLARG LEAGEESTPV ALKTVNELAS
+     PRECIEFLKE ASVMKAFKCH HVVRLLGVVS QGQPTLVIME LMTRGDLKSH LRSLRPEAEN
+     NPGLPQPALG EMIQMAGEIA DGMAYLAANK FVHRDLAARN CMVSQDFTVK IGDFGMTRDV
+     YETDYYRKGG KGLLPVRWMA PESLKDGIFT THSDVWSFGV VLWEIVTLAE QPYQGLSNEQ
+     VLKFVMDGGV LEELEGCPLQ LQELMSRCWQ PNPRLRPSFT HILDSIQEEL RPSFRLLSFY
+     YSPECRGARG SLPTTDAEPD SSPTPRDCSP QNGGPGH
+//

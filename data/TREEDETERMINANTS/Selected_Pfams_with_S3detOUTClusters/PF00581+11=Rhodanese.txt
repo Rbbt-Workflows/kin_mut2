@@ -1,0 +1,89 @@
+UI: Initial number of sequences: 47
+UI: Initial number of positions: 165
+UI: Number of outliers: 0
+UI: Final number of sequences after removing outliers: 47
+UI: Final number of positions after removing gappy columns: 97
+II: Final number of columns in the disjunctive matrix: 960
+UI: Number of axes selected: 2
+UI: Percentage of initial variance considered informative: 22.8663 %
+UI: Checking a maximum number of groups equal to: 12
+UI: Stable cluster results have been found
+SC: YES
+UI: Number of groups selected: 3
+II: Clustering index value: CH_Index = 68.6414
+II: F-Fisher: 154.442
+II: Best solution found 452 times out of 500 iterations searching for 3 groups
+UI: Number of groups with less than 3 sequences: 0
+Is there enough group diversity to perform the analysis?:
+GD: YES
+
+Clustering of sequences: 
+CL: P39944+1=UBP5_YEAST/148-277	1
+CL: Q16762+4=THTR_HUMAN/12-137	1
+CL: Q16829+3=DUS7_HUMAN/5-130	1
+CL: P46635+2=THTR_CRIGR/12-137	1
+CL: Q05922+1=DUS2_MOUSE/18-142	1
+CL: Q05923+1=DUS2_HUMAN/14-138	1
+CL: P32571+2=UBP4_YEAST/199-322	1
+CL: Q16828+2=DUS6_HUMAN/19-142	1
+CL: Q80U87+2=UBP8_MOUSE/184-307	1
+CL: P40818+1=UBP8_HUMAN/184-307	1
+CL: P25325+3=THTM_HUMAN/16-138	1
+CL: Q9USJ1+2=THTM_SCHPO/164-286	0
+CL: P97532+3=THTM_RAT/16-138	1
+CL: P28562+3=DUS1_HUMAN/9-131	1
+CL: Q9PW71+1=DUS4_CHICK/15-137	1
+CL: P25324+1=THTR_CHICK/15-136	1
+CL: P00586+3=THTR_BOVIN/16-137	1
+CL: Q13115+1=DUS4_HUMAN/33-153	1
+CL: Q16762+4=THTR_HUMAN/164-282	0
+CL: P46635+2=THTR_CRIGR/164-282	0
+CL: P52196+3=THTR_MOUSE/164-282	0
+CL: P00586+3=THTR_BOVIN/164-282	0
+CL: Q9USJ1+2=THTM_SCHPO/17-135	1
+CL: Q99J99+3=THTM_MOUSE/165-282	0
+CL: P20483+2=MPIP_DROME/309-426	2
+CL: P25325+3=THTM_HUMAN/165-282	0
+CL: P25324+1=THTR_CHICK/163-278	0
+CL: P23748+2=MPIP_YEAST/254-367	2
+CL: Q03019+2=TWINE_DROME/255-365	2
+CL: P48968+1=MPIP3_MESAU/259-367	2
+CL: P30305+2=MPIP2_HUMAN/424-532	2
+CL: P48966+1=MPIP2_RAT/418-526	2
+CL: P48967+2=MPIP3_MOUSE/287-395	2
+CL: P30309+1=MPI1B_XENLA/394-502	2
+CL: P30311+1=MPIP3_XENLA/413-521	2
+CL: P30307+2=MPIP3_HUMAN/314-422	2
+CL: P30304+2=MPIP1_HUMAN/369-476	2
+CL: Q8TEA7+2=TBCK_HUMAN/776-883	1
+CL: Q12305+1=YO285_YEAST/26-132	1
+CL: Q08742+1=FMP31_YEAST/34-140	0
+CL: P06652+2=MPIP_SCHPO/422-527	2
+CL: P30303+1=MPIP_EMENI/364-468	2
+CL: P27626+1=DIN1_RAPSA/74-177	1
+CL: Q5F361+2=TBCK_CHICK/780-883	1
+CL: Q39129+2=STR16_ARATH/13-114	1
+CL: Q5T7W7+1=CI097_HUMAN/290-390	1
+CL: Q3U269+2=CI097_MOUSE/293-389	1
+
+Are there any position predicted as being important for the whole family?: 
+PR: YES
+Positions predicted: 
+RE: 158 1.5 2
+RE: 155 2 2
+RE: 49 3.5 2
+RE: 136 4 2
+RE: 165 4.5 2
+RE: 163 8 2
+RE: 97 9.5 2
+RE: 143 9.6667 3
+
+UI: Number of positions predicted to be important for the group segregation: 8
+
+Are there any conserved position at 90 % of identity?: 
+CN: YES
+Conserved positions: 
+CP: 23
+CP: 33
+
+UI: Number of conserved positions (at 90 % of identity): 2

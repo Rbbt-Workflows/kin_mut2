@@ -1,0 +1,260 @@
+ID   RK_HUMAN                Reviewed;         563 AA.
+AC   Q15835; Q53X14;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   02-NOV-2010, entry version 111.
+DE   RecName: Full=Rhodopsin kinase;
+DE            Short=RK;
+DE            EC=2.7.11.14;
+DE   AltName: Full=G protein-coupled receptor kinase 1;
+DE   Flags: Precursor;
+GN   Name=GRK1; Synonyms=RHOK;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Retina;
+RX   MEDLINE=97227593; PubMed=9147475;
+RA   Zhao X., Haeseleer F., Fariss R.N., Huang J., Baehr W., Milam A.H.,
+RA   Palczewski K.;
+RT   "Molecular cloning and localization of rhodopsin kinase in the
+RT   mammalian pineal.";
+RL   Vis. Neurosci. 14:225-232(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA].
+RX   MEDLINE=97001160; PubMed=8812493; DOI=10.1006/geno.1996.0399;
+RA   Khani S.C., Abitbol M., Yamamoto S., Maravic-Magovcevic I.,
+RA   Dryja T.P.;
+RT   "Characterization and chromosomal localization of the gene for human
+RT   rhodopsin kinase.";
+RL   Genomics 35:571-576(1996).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Corpus callosum;
+RX   PubMed=14702039; DOI=10.1038/ng1285;
+RA   Ota T., Suzuki Y., Nishikawa T., Otsuki T., Sugiyama T., Irie R.,
+RA   Wakamatsu A., Hayashi K., Sato H., Nagai K., Kimura K., Makita H.,
+RA   Sekine M., Obayashi M., Nishi T., Shibahara T., Tanaka T., Ishii S.,
+RA   Yamamoto J., Saito K., Kawai Y., Isono Y., Nakamura Y., Nagahari K.,
+RA   Murakami K., Yasuda T., Iwayanagi T., Wagatsuma M., Shiratori A.,
+RA   Sudo H., Hosoiri T., Kaku Y., Kodaira H., Kondo H., Sugawara M.,
+RA   Takahashi M., Kanda K., Yokoi T., Furuya T., Kikkawa E., Omura Y.,
+RA   Abe K., Kamihara K., Katsuta N., Sato K., Tanikawa M., Yamazaki M.,
+RA   Ninomiya K., Ishibashi T., Yamashita H., Murakawa K., Fujimori K.,
+RA   Tanai H., Kimata M., Watanabe M., Hiraoka S., Chiba Y., Ishida S.,
+RA   Ono Y., Takiguchi S., Watanabe S., Yosida M., Hotuta T., Kusano J.,
+RA   Kanehori K., Takahashi-Fujii A., Hara H., Tanase T.-O., Nomura Y.,
+RA   Togiya S., Komai F., Hara R., Takeuchi K., Arita M., Imose N.,
+RA   Musashino K., Yuuki H., Oshima A., Sasaki N., Aotsuka S.,
+RA   Yoshikawa Y., Matsunawa H., Ichihara T., Shiohata N., Sano S.,
+RA   Moriya S., Momiyama H., Satoh N., Takami S., Terashima Y., Suzuki O.,
+RA   Nakagawa S., Senoh A., Mizoguchi H., Goto Y., Shimizu F., Wakebe H.,
+RA   Hishigaki H., Watanabe T., Sugiyama A., Takemoto M., Kawakami B.,
+RA   Yamazaki M., Watanabe K., Kumagai A., Itakura S., Fukuzumi Y.,
+RA   Fujimori Y., Komiyama M., Tashiro H., Tanigami A., Fujiwara T.,
+RA   Ono T., Yamada K., Fujii Y., Ozaki K., Hirao M., Ohmori Y.,
+RA   Kawabata A., Hikiji T., Kobatake N., Inagaki H., Ikema Y., Okamoto S.,
+RA   Okitani R., Kawakami T., Noguchi S., Itoh T., Shigeta K., Senba T.,
+RA   Matsumura K., Nakajima Y., Mizuno T., Morinaga M., Sasaki M.,
+RA   Togashi T., Oyama M., Hata H., Watanabe M., Komatsu T.,
+RA   Mizushima-Sugano J., Satoh T., Shirai Y., Takahashi Y., Nakagawa K.,
+RA   Okumura K., Nagase T., Nomura N., Kikuchi H., Masuho Y., Yamashita R.,
+RA   Nakai K., Yada T., Nakamura Y., Ohara O., Isogai T., Sugano S.;
+RT   "Complete sequencing and characterization of 21,243 full-length human
+RT   cDNAs.";
+RL   Nat. Genet. 36:40-45(2004).
+RN   [4]
+RP   VARIANTS GLN-136; MET-298; SER-330; HIS-438; SER-514; THR-522 AND
+RP   LEU-536.
+RX   PubMed=9268593; DOI=10.1006/exer.1997.9998;
+RA   Yamamoto S., Khani S.C., Berson E.L., Dryja T.P.;
+RT   "Evaluation of the rhodopsin kinase gene in patients with retinitis
+RT   pigmentosa.";
+RL   Exp. Eye Res. 65:249-253(1997).
+RN   [5]
+RP   VARIANT CSNBO2 ASP-380.
+RX   MEDLINE=97172975; PubMed=9020843; DOI=10.1038/ng0297-175;
+RA   Yamamoto S., Sippel K.C., Berson E.L., Dryja T.P.;
+RT   "Defects in the rhodopsin kinase gene in the Oguchi form of stationary
+RT   night blindness.";
+RL   Nat. Genet. 15:175-178(1997).
+RN   [6]
+RP   VARIANT CSNBO2 HIS-391.
+RX   PubMed=17070587; DOI=10.1016/j.ophtha.2006.05.069;
+RA   Hayashi T., Gekka T., Takeuchi T., Goto-Omoto S., Kitahara K.;
+RT   "A novel homozygous GRK1 mutation (P391H) in 2 siblings with Oguchi
+RT   disease with markedly reduced cone responses.";
+RL   Ophthalmology 114:134-141(2007).
+CC   -!- FUNCTION: Phosphorylates rhodopsin thereby initiating its
+CC       deactivation.
+CC   -!- CATALYTIC ACTIVITY: ATP + [rhodopsin] = ADP + [rhodopsin]
+CC       phosphate.
+CC   -!- SUBCELLULAR LOCATION: Membrane; Lipid-anchor.
+CC   -!- TISSUE SPECIFICITY: Retina and pineal gland (By similarity).
+CC   -!- PTM: Autophosphorylated (By similarity).
+CC   -!- PTM: Farnesylation is required for full activity (By similarity).
+CC   -!- DISEASE: Defects in GRK1 are a cause of congenital stationary
+CC       night blindness Oguchi type 2 (CSNBO2) [MIM:613411]. It is non-
+CC       progressive retinal disorder characterized by impaired night
+CC       vision, often associated with nystagmus and myopia. Congenital
+CC       stationary night blindness Oguchi type is associated with fundus
+CC       discoloration and abnormally slow dark adaptation.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. AGC Ser/Thr
+CC       protein kinase family. GPRK subfamily.
+CC   -!- SIMILARITY: Contains 1 AGC-kinase C-terminal domain.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- SIMILARITY: Contains 1 RGS domain.
+CC   -!- WEB RESOURCE: Name=Mutations of the RHOK gene; Note=Retina
+CC       International's Scientific Newsletter;
+CC       URL="http://www.retina-international.com/sci-news/rkmut.htm";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U63973; AAB05929.1; -; mRNA.
+DR   EMBL; L77503; AAG50439.1; -; mRNA.
+DR   EMBL; L77502; AAT00534.2; -; Genomic_DNA.
+DR   EMBL; L77496; AAT00534.2; JOINED; Genomic_DNA.
+DR   EMBL; L77497; AAT00534.2; JOINED; Genomic_DNA.
+DR   EMBL; L77498; AAT00534.2; JOINED; Genomic_DNA.
+DR   EMBL; L77499; AAT00534.2; JOINED; Genomic_DNA.
+DR   EMBL; L77500; AAT00534.2; JOINED; Genomic_DNA.
+DR   EMBL; L77501; AAT00534.2; JOINED; Genomic_DNA.
+DR   EMBL; AK289912; BAF82601.1; -; mRNA.
+DR   IPI; IPI00019980; -.
+DR   RefSeq; NP_002920.1; -.
+DR   UniGene; Hs.103501; -.
+DR   UniGene; Hs.721727; -.
+DR   ProteinModelPortal; Q15835; -.
+DR   SMR; Q15835; 30-535.
+DR   STRING; Q15835; -.
+DR   PhosphoSite; Q15835; -.
+DR   PRIDE; Q15835; -.
+DR   Ensembl; ENST00000335678; ENSP00000334876; ENSG00000185974.
+DR   GeneID; 6011; -.
+DR   KEGG; hsa:6011; -.
+DR   CTD; 6011; -.
+DR   GeneCards; GC13P114321; -.
+DR   HGNC; HGNC:10013; GRK1.
+DR   MIM; 180381; gene.
+DR   MIM; 613411; phenotype.
+DR   Orphanet; 75382; Oguchi disease.
+DR   PharmGKB; PA34391; -.
+DR   eggNOG; prNOG12012; -.
+DR   HOGENOM; HBG716704; -.
+DR   HOVERGEN; HBG004532; -.
+DR   InParanoid; Q15835; -.
+DR   OMA; MPDDMKG; -.
+DR   OrthoDB; EOG9SJ814; -.
+DR   BRENDA; 2.7.11.14; 247.
+DR   Pathway_Interaction_DB; cone_pathway; Visual signal transduction: Cones.
+DR   Pathway_Interaction_DB; rhodopsin_pathway; Visual signal transduction: Rods.
+DR   NextBio; 23453; -.
+DR   ArrayExpress; Q15835; -.
+DR   Bgee; Q15835; -.
+DR   CleanEx; HS_GRK1; -.
+DR   Genevestigator; Q15835; -.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004703; F:G-protein coupled receptor kinase activity; IEA:InterPro.
+DR   GO; GO:0050254; F:rhodopsin kinase activity; IEA:EC.
+DR   GO; GO:0004871; F:signal transducer activity; IEA:InterPro.
+DR   GO; GO:0008277; P:regulation of G-protein coupled receptor pr...; TAS:ProtInc.
+DR   GO; GO:0009586; P:rhodopsin mediated phototransduction; TAS:ProtInc.
+DR   GO; GO:0016056; P:rhodopsin mediated signaling pathway; TAS:ProtInc.
+DR   InterPro; IPR000961; AGC-kinase_C.
+DR   InterPro; IPR000239; GPCR_kinase.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR000342; Regulat_G_prot_signal.
+DR   InterPro; IPR016137; Regulat_G_prot_signal_superfam.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   Pfam; PF00615; RGS; 1.
+DR   PRINTS; PR00717; GPCRKINASE.
+DR   SMART; SM00315; RGS; 1.
+DR   SMART; SM00133; S_TK_X; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   SUPFAM; SSF48097; Regulat_G_prot_signal_superfam; 1.
+DR   PROSITE; PS51285; AGC_KINASE_CTER; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+DR   PROSITE; PS50132; RGS; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Complete proteome; Congenital stationary night blindness;
+KW   Disease mutation; Kinase; Lipoprotein; Membrane; Methylation;
+KW   Nucleotide-binding; Phosphoprotein; Polymorphism; Prenylation;
+KW   Sensory transduction; Serine/threonine-protein kinase; Transferase;
+KW   Vision.
+FT   CHAIN         1    560       Rhodopsin kinase.
+FT                                /FTId=PRO_0000024375.
+FT   PROPEP      561    563       Removed in mature form (By similarity).
+FT                                /FTId=PRO_0000024376.
+FT   DOMAIN       58    175       RGS.
+FT   DOMAIN      190    455       Protein kinase.
+FT   DOMAIN      456    521       AGC-kinase C-terminal.
+FT   NP_BIND     196    204       ATP (By similarity).
+FT   REGION        1    189       N-terminal.
+FT   REGION      456    563       C-terminal.
+FT   ACT_SITE    317    317       Proton acceptor (By similarity).
+FT   BINDING     219    219       ATP (By similarity).
+FT   MOD_RES      21     21       Phosphoserine; by autocatalysis (By
+FT                                similarity).
+FT   MOD_RES     491    491       Phosphoserine; by autocatalysis (By
+FT                                similarity).
+FT   MOD_RES     492    492       Phosphothreonine; by autocatalysis (By
+FT                                similarity).
+FT   MOD_RES     560    560       Cysteine methyl ester (By similarity).
+FT   LIPID       560    560       S-farnesyl cysteine (By similarity).
+FT   VARIANT     136    136       E -> Q (in one patient with autosomal
+FT                                dominant retinitis pigmentosa; probably
+FT                                not pathogenic).
+FT                                /FTId=VAR_008283.
+FT   VARIANT     298    298       T -> M (in patients with autosomal
+FT                                recessive retinitis pigmentosa; unclear
+FT                                pathological significance).
+FT                                /FTId=VAR_008284.
+FT   VARIANT     330    330       N -> S (in patients with autosomal
+FT                                dominant retinitis pigmentosa; probably
+FT                                not pathogenic).
+FT                                /FTId=VAR_008285.
+FT   VARIANT     380    380       V -> D (in CSNBO2).
+FT                                /FTId=VAR_006215.
+FT   VARIANT     391    391       P -> H (in CSNBO2).
+FT                                /FTId=VAR_037904.
+FT   VARIANT     438    438       R -> H (in one patient with autosomal
+FT                                dominant retinitis pigmentosa; probably
+FT                                not pathogenic).
+FT                                /FTId=VAR_008286.
+FT   VARIANT     514    514       C -> S (in one patient with autosomal
+FT                                dominant retinitis pigmentosa; probably
+FT                                not pathogenic).
+FT                                /FTId=VAR_008287.
+FT   VARIANT     522    522       M -> T (in patients with autosomal
+FT                                recessive retinitis pigmentosa; unclear
+FT                                pathological significance).
+FT                                /FTId=VAR_008288.
+FT   VARIANT     536    536       S -> L (in one patient with autosomal
+FT                                dominant retinitis pigmentosa; probably
+FT                                not pathogenic).
+FT                                /FTId=VAR_008289.
+SQ   SEQUENCE   563 AA;  63526 MW;  1244DCB97D40F53D CRC64;
+     MDFGSLETVV ANSAFIAARG SFDGSSSQPS RDKKYLAKLK LPPLSKCESL RDSLSLEFES
+     VCLEQPIGKK LFQQFLQSAE KHLPALELWK DIEDYDTADN DLQPQKAQTI LAQYLDPQAK
+     LFCSFLDEGI VAKFKEGPVE IQDGLFQPLL QATLAHLGQA PFQEYLGSLY FLRFLQWKWL
+     EAQPMGEDWF LDFRVLGKGG FGEVSACQMK ATGKLYACKK LNKKRLKKRK GYQGAMVEKK
+     ILMKVHSRFI VSLAYAFETK ADLCLVMTIM NGGDIRYHIY NVNEENPGFP EPRALFYTAQ
+     IICGLEHLHQ RRIVYRDLKP ENVLLDNDGN VRISDLGLAV ELLDGQSKTK GYAGTPGFMA
+     PELLQGEEYD FSVDYFALGV TLYEMIAARG PFRARGEKVE NKELKHRIIS EPVKYPDKFS
+     QASKDFCEAL LEKDPEKRLG FRDETCDKLR AHPLFKDLNW RQLEAGMLMP PFIPDSKTVY
+     AKDIQDVGAF STVKGVAFDK TDTEFFQEFA TGNCPIPWQE EMIETGIFGE LNVWRSDGQM
+     PDDMKGISGG SSSSSKSGMC LVS
+//

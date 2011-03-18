@@ -1,0 +1,448 @@
+ID   DMPK_HUMAN              Reviewed;         639 AA.
+AC   Q09013; Q16205; Q6P5Z6;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   28-JUL-2009, sequence version 2.
+DT   02-NOV-2010, entry version 113.
+DE   RecName: Full=Myotonin-protein kinase;
+DE            Short=MT-PK;
+DE            EC=2.7.11.1;
+DE   AltName: Full=DM-kinase;
+DE            Short=DMK;
+DE   AltName: Full=DMPK;
+DE   AltName: Full=Myotonic dystrophy protein kinase;
+DE            Short=MDPK;
+GN   Name=DMPK; Synonyms=MDPK;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   MEDLINE=92188202; PubMed=1546326; DOI=10.1126/science.1546326;
+RA   Fu Y.-H., Pizzuti A., Fenwick R.G. Jr., King J., Rajnarayan S.,
+RA   Dunne P.W., Dubel J., Nasser G.A., Ashizawa T., de Jong P.J.,
+RA   Wieringa B., Korneluk R., Perryman M.B., Epstein H.F., Caskey C.T.;
+RT   "An unstable triplet repeat in a gene related to myotonic muscular
+RT   dystrophy.";
+RL   Science 255:1256-1258(1992).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 13), AND VARIANT VAL-433.
+RX   MEDLINE=92154692; PubMed=1310900; DOI=10.1016/0092-8674(92)90154-5;
+RA   Brook J.D., McCurrach M., Harley H.G., Buckler A.J., Church D.,
+RA   Aburatani H., Hunter K., Stanton V.P., Thirion J.-P., Hudson T.,
+RA   Sohn R., Zemelman B., Snell R.G., Rundle S.A., Crow S., Davies J.,
+RA   Shelbourne P., Buxton J., Jones C., Juvonen V., Johnson K.,
+RA   Harper P.S., Shaw D.J., Housman D.E.;
+RT   "Molecular basis of myotonic dystrophy: expansion of a trinucleotide
+RT   (CTG) repeat at the 3' end of a transcript encoding a protein kinase
+RT   family member.";
+RL   Cell 68:799-808(1992).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 9), AND VARIANT VAL-433.
+RC   TISSUE=Brain, and Heart;
+RX   MEDLINE=93251003; PubMed=1302022; DOI=10.1038/ng0792-261;
+RA   Jansen G., Mahadevan M.S., Amemiya C., Wormskamp N., Segers B.,
+RA   Hendriks W., O'Hoy K., Baird S., Sabourin L., Lennon G., Jap P.L.,
+RA   Iles D., Coerwinkel M., Hofker M., Carrano A.V., de Jong P.J.,
+RA   Korneluk R.G., Wieringa B.;
+RT   "Characterization of the myotonic dystrophy region predicts multiple
+RT   protein isoform-encoding mRNAs.";
+RL   Nat. Genet. 1:261-266(1992).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA] (ISOFORM 11), AND VARIANT
+RP   VAL-433.
+RC   TISSUE=Brain, and Muscle;
+RX   MEDLINE=94140369; PubMed=7905855; DOI=10.1016/S0888-7543(05)80372-6;
+RA   Shaw D.J., McCurrach M., Rundle S.A., Harley H.G., Crow S.R., Sohn R.,
+RA   Thirion J.-P., Hamshere M.G., Buckler A.J., Harper P.S., Housman D.E.,
+RA   Brook J.D.;
+RT   "Genomic organization and transcriptional units at the myotonic
+RT   dystrophy locus.";
+RL   Genomics 18:673-679(1993).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] (ISOFORMS 9; 10; 11 AND 12), AND
+RP   VARIANT VAL-433.
+RX   MEDLINE=93271990; PubMed=8499920; DOI=10.1093/hmg/2.3.299;
+RA   Mahadevan M.S., Amemiya C., Jansen G., Sabourin L., Baird S.,
+RA   Neville C.E., Wormskamp N., Segers B., Batzer M., Lamerdin J.,
+RA   de Jong P.J., Wieringa B., Korneluk R.G.;
+RT   "Structure and genomic sequence of the myotonic dystrophy (DM kinase)
+RT   gene.";
+RL   Hum. Mol. Genet. 2:299-304(1993).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] (ISOFORMS 1; 2; 5; 6; 7 AND 8), AND
+RP   VARIANT VAL-433.
+RX   MEDLINE=93227030; PubMed=8469976; DOI=10.1126/science.8469976;
+RA   Fu Y.-H., Friedman D.L., Richards S., Pearlman J.A., Gibbs R.A.,
+RA   Pizzuti A., Ashizawa T., Perryman M.B., Scarlato G., Fenwick R.G. Jr.,
+RA   Caskey C.T.;
+RT   "Decreased expression of myotonin-protein kinase messenger RNA and
+RT   protein in adult form of myotonic dystrophy.";
+RL   Science 260:235-238(1993).
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 15).
+RC   TISSUE=Muscle;
+RX   MEDLINE=94357271; PubMed=8076686; DOI=10.1016/0014-5793(94)00808-6;
+RA   Sasagawa N., Sorimachi H., Maruyama K., Arahata K., Ishiura S.,
+RA   Suzuki K.;
+RT   "Expression of a novel human myotonin protein kinase (MtPK) cDNA clone
+RT   which encodes a protein with a thymopoietin-like domain in COS
+RT   cells.";
+RL   FEBS Lett. 351:22-26(1994).
+RN   [8]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 14).
+RC   TISSUE=Brain;
+RX   MEDLINE=96063635; PubMed=7488138; DOI=10.1006/bbrc.1995.2649;
+RA   Gennarelli M., Lucarelli M., Zelano G., Pizzuti A., Novelli G.,
+RA   Dallapiccola B.;
+RT   "Different expression of the myotonin protein kinase gene in discrete
+RT   areas of human brain.";
+RL   Biochem. Biophys. Res. Commun. 216:489-494(1995).
+RN   [9]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [10]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 9).
+RC   TISSUE=Prostate;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [11]
+RP   FUNCTION, AND ENZYME REGULATION.
+RX   MEDLINE=20374521; PubMed=10913253; DOI=10.1021/bi992142f;
+RA   Bush E.W., Helmke S.M., Birnbaum R.A., Perryman M.B.;
+RT   "Myotonic dystrophy protein kinase domains mediate localization,
+RT   oligomerization, novel catalytic activity, and autoinhibition.";
+RL   Biochemistry 39:8480-8490(2000).
+RN   [12]
+RP   SPLICE ISOFORM(S) THAT ARE POTENTIAL NMD TARGET(S).
+RX   PubMed=14759258; DOI=10.1186/gb-2004-5-2-r8;
+RA   Hillman R.T., Green R.E., Brenner S.E.;
+RT   "An unappreciated role for RNA surveillance.";
+RL   Genome Biol. 5:R8.1-R8.16(2004).
+RN   [13]
+RP   FUNCTION, AND MUTAGENESIS OF LYS-110.
+RX   PubMed=15598648; DOI=10.1074/jbc.M412845200;
+RA   Kaliman P., Catalucci D., Lam J.T., Kondo R., Gutierrez J.C.,
+RA   Reddy S., Palacin M., Zorzano A., Chien K.R., Ruiz-Lozano P.;
+RT   "Myotonic dystrophy protein kinase phosphorylates phospholamban and
+RT   regulates calcium uptake in cardiomyocyte sarcoplasmic reticulum.";
+RL   J. Biol. Chem. 280:8016-8021(2005).
+RN   [14]
+RP   INVOLVEMENT IN DM1.
+RX   PubMed=19514047; DOI=10.1002/ajmg.a.32987;
+RA   Musova Z., Mazanec R., Krepelova A., Ehler E., Vales J., Jaklova R.,
+RA   Prochazka T., Koukal P., Marikova T., Kraus J., Havlovicova M.,
+RA   Sedlacek Z.;
+RT   "Highly unstable sequence interruptions of the CTG repeat in the
+RT   myotonic dystrophy gene.";
+RL   Am. J. Med. Genet. A 149:1365-1374(2009).
+RN   [15]
+RP   X-RAY CRYSTALLOGRAPHY (1.6 ANGSTROMS) OF 470-547, AND COILED COIL.
+RX   PubMed=15583383; DOI=10.1107/S0907444904026873;
+RA   Garcia P., Marino M., Mayans O.;
+RT   "Crystallization and preliminary X-ray analysis of the coiled-coil
+RT   domain of dystrophia myotonica kinase.";
+RL   Acta Crystallogr. D 60:2336-2339(2004).
+RN   [16]
+RP   X-RAY CRYSTALLOGRAPHY (1.6 ANGSTROMS) OF 470-547, SUBUNIT, AND COILED
+RP   COIL.
+RX   PubMed=16770013; DOI=10.1096/fj.05-5262com;
+RA   Garcia P., Ucurum Z., Bucher R., Svergun D.I., Huber T., Lustig A.,
+RA   Konarev P.V., Marino M., Mayans O.;
+RT   "Molecular insights into the self-assembly mechanism of dystrophia
+RT   myotonica kinase.";
+RL   FASEB J. 20:1142-1151(2006).
+RN   [17]
+RP   X-RAY CRYSTALLOGRAPHY (2.8 ANGSTROMS) OF 11-430 IN COMPLEX WITH
+RP   INHIBITOR BIM-8, AND SUBUNIT.
+RX   PubMed=19309729; DOI=10.1002/pro.82;
+RA   Elkins J.M., Amos A., Niesen F.H., Pike A.C.W., Fedorov O., Knapp S.;
+RT   "Structure of dystrophia myotonica protein kinase.";
+RL   Protein Sci. 18:782-791(2009).
+RN   [18]
+RP   VARIANT [LARGE SCALE ANALYSIS] VAL-438.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Critical to the modulation of cardiac contractility and
+CC       to the maintenance of proper cardiac conduction activity.
+CC       Phosphorylates phospholamban.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- COFACTOR: Magnesium.
+CC   -!- ENZYME REGULATION: Activated in response to G protein second
+CC       messengers. Maintained in an inactive conformation by the negative
+CC       autoregulatory C-terminal coiled-coil region. Coiled-coil mediated
+CC       oligomerization correlated with enhanced catalytic activity as is
+CC       proteolytical cleavage near the C-terminus.
+CC   -!- SUBUNIT: Homodimer.
+CC   -!- INTERACTION:
+CC       P26678:PLN; NbExp=2; IntAct=EBI-692774, EBI-692836;
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=13;
+CC       Name=1;
+CC         IsoId=Q09013-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q09013-2; Sequence=VSP_004810;
+CC       Name=5;
+CC         IsoId=Q09013-5; Sequence=VSP_004811;
+CC       Name=6;
+CC         IsoId=Q09013-6; Sequence=VSP_004812;
+CC       Name=7;
+CC         IsoId=Q09013-7; Sequence=VSP_004817;
+CC       Name=8;
+CC         IsoId=Q09013-8; Sequence=VSP_004813, VSP_004814;
+CC       Name=9;
+CC         IsoId=Q09013-9; Sequence=VSP_004809;
+CC       Name=10;
+CC         IsoId=Q09013-10; Sequence=VSP_004809, VSP_004813, VSP_004814;
+CC       Name=11;
+CC         IsoId=Q09013-11; Sequence=VSP_004809, VSP_004812;
+CC         Note=May be produced at very low levels due to a premature stop
+CC         codon in the mRNA, leading to nonsense-mediated mRNA decay;
+CC       Name=12;
+CC         IsoId=Q09013-12; Sequence=VSP_004809, VSP_004812, VSP_004813,
+CC                                   VSP_004814;
+CC       Name=13;
+CC         IsoId=Q09013-13; Sequence=VSP_027355, VSP_027357, VSP_004812,
+CC                                   VSP_004818;
+CC         Note=Incomplete sequence. Ref.7 (AAA64884) sequence differs from
+CC         that shown due to a frameshift in position 15;
+CC       Name=14;
+CC         IsoId=Q09013-14; Sequence=VSP_027356, VSP_004815, VSP_004816;
+CC         Note=Incomplete sequence;
+CC       Name=15;
+CC         IsoId=Q09013-15; Sequence=VSP_004809, VSP_004812, VSP_027358;
+CC   -!- TISSUE SPECIFICITY: Most isoforms are expressed in many tissues
+CC       including heart, skeletal muscle, liver and brain, except for
+CC       isoform 2 which is only found in the heart and skeletal muscle,
+CC       and isoform 14 which is only found in the brain, with high levels
+CC       in the striatum, cerebellar cortex and pons.
+CC   -!- DISEASE: Defects in DMPK are the cause of dystrophia myotonica
+CC       type 1 (DM1) [MIM:160900]; also known as Steinert disease. A
+CC       muscular disorder characterized by myotonia, muscle wasting in the
+CC       distal extremities, cataract, hypogonadism, defective endocrine
+CC       functions, male baldness and cardiac arrhythmias. Note=The
+CC       causative mutation is a CTG expansion in the 3'-UTR of the DMPK
+CC       gene. A length exceeding 50 CTG repeats is pathogenic, while
+CC       normal individuals have 5 to 37 repeats. Intermediate alleles with
+CC       35-49 triplets are not disease-causing but show instability in
+CC       intergenerational transmissions. Disease severity varies with the
+CC       number of repeats: mildly affected persons have 50 to 150 repeats,
+CC       patients with classic DM have 100 to 1,000 repeats, and those with
+CC       congenital onset can have more than 2,000 repeats.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. AGC Ser/Thr
+CC       protein kinase family. DMPK subfamily.
+CC   -!- SIMILARITY: Contains 1 AGC-kinase C-terminal domain.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- WEB RESOURCE: Name=GeneReviews;
+CC       URL="http://www.ncbi.nlm.nih.gov/sites/GeneTests/lab/gene/DMPK";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M87312; -; NOT_ANNOTATED_CDS; mRNA.
+DR   EMBL; L00727; AAA75235.1; -; Genomic_DNA.
+DR   EMBL; L00727; AAA75236.1; -; Genomic_DNA.
+DR   EMBL; L00727; AAA75237.1; -; Genomic_DNA.
+DR   EMBL; L00727; AAA75238.1; -; Genomic_DNA.
+DR   EMBL; L00727; AAA75239.1; -; Genomic_DNA.
+DR   EMBL; L00727; AAA75240.1; -; Genomic_DNA.
+DR   EMBL; M94203; AAA64884.1; ALT_FRAME; mRNA.
+DR   EMBL; L19268; AAA36206.1; -; mRNA.
+DR   EMBL; L19266; AAA36205.1; -; Genomic_DNA.
+DR   EMBL; L08835; AAC14449.1; -; Genomic_DNA.
+DR   EMBL; L08835; AAC14451.1; -; Genomic_DNA.
+DR   EMBL; L08835; AAC14448.1; -; Genomic_DNA.
+DR   EMBL; L08835; AAC14450.1; -; Genomic_DNA.
+DR   EMBL; S72883; AAB31800.1; -; mRNA.
+DR   EMBL; U46546; AAA87583.1; -; mRNA.
+DR   EMBL; CH471126; EAW57382.1; -; Genomic_DNA.
+DR   EMBL; BC062553; AAH62553.1; -; mRNA.
+DR   IPI; IPI00215958; -.
+DR   IPI; IPI00215962; -.
+DR   IPI; IPI00220439; -.
+DR   IPI; IPI00220440; -.
+DR   IPI; IPI00220441; -.
+DR   IPI; IPI00220442; -.
+DR   IPI; IPI00220443; -.
+DR   IPI; IPI00305254; -.
+DR   IPI; IPI00418464; -.
+DR   IPI; IPI00555911; -.
+DR   IPI; IPI00644326; -.
+DR   IPI; IPI00790469; -.
+DR   IPI; IPI00855901; -.
+DR   PIR; B49364; B49364.
+DR   RefSeq; NP_001075029.1; -.
+DR   RefSeq; NP_001075031.1; -.
+DR   RefSeq; NP_001075032.1; -.
+DR   RefSeq; NP_004400.4; -.
+DR   UniGene; Hs.631596; -.
+DR   PDB; 1WT6; X-ray; 1.60 A; A/B/D=470-547.
+DR   PDB; 2VD5; X-ray; 2.80 A; A/B=64-430.
+DR   PDBsum; 1WT6; -.
+DR   PDBsum; 2VD5; -.
+DR   ProteinModelPortal; Q09013; -.
+DR   IntAct; Q09013; 11.
+DR   MINT; MINT-195910; -.
+DR   STRING; Q09013; -.
+DR   REPRODUCTION-2DPAGE; Q09013; -.
+DR   Ensembl; ENST00000343373; ENSP00000345997; ENSG00000104936.
+DR   Ensembl; ENST00000354227; ENSP00000346168; ENSG00000104936.
+DR   GeneID; 1760; -.
+DR   KEGG; hsa:1760; -.
+DR   UCSC; uc002pdd.1; human.
+DR   UCSC; uc002pdg.1; human.
+DR   UCSC; uc002pdh.1; human.
+DR   CTD; 1760; -.
+DR   GeneCards; GC19M046272; -.
+DR   HGNC; HGNC:2933; DMPK.
+DR   HPA; HPA007164; -.
+DR   HPA; HPA008905; -.
+DR   MIM; 160900; phenotype.
+DR   MIM; 605377; gene.
+DR   Orphanet; 273; Steinert myotonic dystrophy.
+DR   PharmGKB; PA27380; -.
+DR   eggNOG; prNOG09799; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG107817; -.
+DR   OMA; QCPLVGP; -.
+DR   OrthoDB; EOG96Q9C2; -.
+DR   PhylomeDB; Q09013; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   NextBio; 7169; -.
+DR   ArrayExpress; Q09013; -.
+DR   Bgee; Q09013; -.
+DR   CleanEx; HS_DMPK; -.
+DR   Genevestigator; Q09013; -.
+DR   GermOnline; ENSG00000104936; Homo sapiens.
+DR   GO; GO:0005524; F:ATP binding; IDA:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005515; F:protein binding; IPI:IntAct.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IDA:UniProtKB.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IDA:UniProtKB.
+DR   GO; GO:0008016; P:regulation of heart contraction; IDA:UniProtKB.
+DR   InterPro; IPR000961; AGC-kinase_C.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR014930; Myotonic_dystrophy_kinase_coil.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF08826; DMPK_coil; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   ProDom; PD011252; Myotonic_dystrophy_kinase_coil; 1.
+DR   SMART; SM00133; S_TK_X; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS51285; AGC_KINASE_CTER; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; ATP-binding; Cataract;
+KW   Coiled coil; Complete proteome; Kinase; Magnesium; Metal-binding;
+KW   Nucleotide-binding; Phosphoprotein; Polymorphism;
+KW   Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    639       Myotonin-protein kinase.
+FT                                /FTId=PRO_0000085924.
+FT   DOMAIN       81    349       Protein kinase.
+FT   DOMAIN      350    425       AGC-kinase C-terminal.
+FT   NP_BIND      87     95       ATP (By similarity).
+FT   COILED      467    546
+FT   ACT_SITE    205    205       Proton acceptor (By similarity).
+FT   BINDING     110    110       ATP.
+FT   MOD_RES     226    226       Phosphoserine; by autocatalysis (By
+FT                                similarity).
+FT   MOD_RES     238    238       Phosphoserine; by autocatalysis (By
+FT                                similarity).
+FT   MOD_RES     244    244       Phosphothreonine; by autocatalysis (By
+FT                                similarity).
+FT   VAR_SEQ       1    538       Missing (in isoform 14).
+FT                                /FTId=VSP_027356.
+FT   VAR_SEQ       1     99       Missing (in isoform 2).
+FT                                /FTId=VSP_004810.
+FT   VAR_SEQ       1     63       MGGHFWPPEPYTVFMWGSPWEADSPRVKLRGREKGRQTEGG
+FT                                AFPLVSSALSGDPRFFSPTTPP -> MSAEVRLRRLQQLVL
+FT                                DPGFLGLEPLLDLLLGVHQELGASELAQDKYVADFLQW
+FT                                (in isoform 9, isoform 10, isoform 11,
+FT                                isoform 12 and isoform 15).
+FT                                /FTId=VSP_004809.
+FT   VAR_SEQ       1     51       Missing (in isoform 13).
+FT                                /FTId=VSP_027355.
+FT   VAR_SEQ      52     63       GDPRFFSPTTPP -> PQDKYVADFLQW (in isoform
+FT                                13).
+FT                                /FTId=VSP_027357.
+FT   VAR_SEQ     236    285       Missing (in isoform 5).
+FT                                /FTId=VSP_004811.
+FT   VAR_SEQ     388    392       Missing (in isoform 6, isoform 11,
+FT                                isoform 12, isoform 13 and isoform 15).
+FT                                /FTId=VSP_004812.
+FT   VAR_SEQ     544    545       AV -> GP (in isoform 8, isoform 10 and
+FT                                isoform 12).
+FT                                /FTId=VSP_004813.
+FT   VAR_SEQ     545    575       VTGVPSPRATDPPSHLDGPPAVAVGQCPLVG -> RWPPGR
+FT                                GCGPVPAGGARPHAPPPPAAPCQGP (in isoform
+FT                                14).
+FT                                /FTId=VSP_004815.
+FT   VAR_SEQ     546    639       Missing (in isoform 8, isoform 10 and
+FT                                isoform 12).
+FT                                /FTId=VSP_004814.
+FT   VAR_SEQ     560    639       LDGPPAVAVGQCPLVGPGPMHRRHLLLPARVPRPGLSEALS
+FT                                LLLFAVVLSRAAALGCIGLVAHAGQLTAVWRRPGAARAP
+FT                                -> MAPRPWLWASARWWGQAPCTAATCCSLPGSLGLAYRRR
+FT                                FPCSCSPLFCLVPPPWAALGWWPTPANSPQSGAAQEPPALP
+FT                                EP (in isoform 15).
+FT                                /FTId=VSP_027358.
+FT   VAR_SEQ     560    589       Missing (in isoform 7).
+FT                                /FTId=VSP_004817.
+FT   VAR_SEQ     566    578       VAVGQCPLVGPGP -> WLWASARWWGQA (in isoform
+FT                                13).
+FT                                /FTId=VSP_004818.
+FT   VAR_SEQ     576    639       Missing (in isoform 14).
+FT                                /FTId=VSP_004816.
+FT   VARIANT     433    433       L -> V (in dbSNP:rs527221).
+FT                                /FTId=VAR_058334.
+FT   VARIANT     438    438       L -> V (in a lung small cell carcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_040452.
+FT   MUTAGEN     110    110       K->A: Loss of kinase activity.
+FT   CONFLICT    484    484       A -> P (in Ref. 5; AAB31800).
+FT   HELIX       478    538
+SQ   SEQUENCE   639 AA;  70371 MW;  69A831604F7F8D38 CRC64;
+     MGGHFWPPEP YTVFMWGSPW EADSPRVKLR GREKGRQTEG GAFPLVSSAL SGDPRFFSPT
+     TPPAEPIVVR LKEVRLQRDD FEILKVIGRG AFSEVAVVKM KQTGQVYAMK IMNKWDMLKR
+     GEVSCFREER DVLVNGDRRW ITQLHFAFQD ENYLYLVMEY YVGGDLLTLL SKFGERIPAE
+     MARFYLAEIV MAIDSVHRLG YVHRDIKPDN ILLDRCGHIR LADFGSCLKL RADGTVRSLV
+     AVGTPDYLSP EILQAVGGGP GTGSYGPECD WWALGVFAYE MFYGQTPFYA DSTAETYGKI
+     VHYKEHLSLP LVDEGVPEEA RDFIQRLLCP PETRLGRGGA GDFRTHPFFF GLDWDGLRDS
+     VPPFTPDFEG ATDTCNFDLV EDGLTAMVSG GGETLSDIRE GAPLGVHLPF VGYSYSCMAL
+     RDSEVPGPTP MELEAEQLLE PHVQAPSLEP SVSPQDETAE VAVPAAVPAA EAEAEVTLRE
+     LQEALEEEVL TRQSLSREME AIRTDNQNFA SQLREAEARN RDLEAHVRQL QERMELLQAE
+     GATAVTGVPS PRATDPPSHL DGPPAVAVGQ CPLVGPGPMH RRHLLLPARV PRPGLSEALS
+     LLLFAVVLSR AAALGCIGLV AHAGQLTAVW RRPGAARAP
+//

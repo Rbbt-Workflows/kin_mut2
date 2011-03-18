@@ -1,0 +1,468 @@
+ID   ERBB3_HUMAN             Reviewed;        1342 AA.
+AC   P21860;
+DT   01-MAY-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1991, sequence version 1.
+DT   02-NOV-2010, entry version 129.
+DE   RecName: Full=Receptor tyrosine-protein kinase erbB-3;
+DE            EC=2.7.10.1;
+DE   AltName: Full=Proto-oncogene-like protein c-ErbB-3;
+DE   AltName: Full=Tyrosine kinase-type cell surface receptor HER3;
+DE   Flags: Precursor;
+GN   Name=ERBB3; Synonyms=HER3;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RX   MEDLINE=90083234; PubMed=2687875; DOI=10.1073/pnas.86.23.9193;
+RA   Kraus M.H., Issing W., Miki T., Popescu N.C., Aaronson S.A.;
+RT   "Isolation and characterization of ERBB3, a third member of the
+RT   ERBB/epidermal growth factor receptor family: evidence for
+RT   overexpression in a subset of human mammary tumors.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 86:9193-9197(1989).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RX   MEDLINE=90311312; PubMed=2164210; DOI=10.1073/pnas.87.13.4905;
+RA   Plowman G.D., Whitney G.S., Neubauer M.G., Green J.M., McDonald V.L.,
+RA   Todaro G.J., Shoyab M.;
+RT   "Molecular cloning and expression of an additional epidermal growth
+RT   factor receptor-related gene.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 87:4905-4909(1990).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2).
+RC   TISSUE=Placenta;
+RX   MEDLINE=93282822; PubMed=7685162; DOI=10.1006/bbrc.1993.1542;
+RA   Katoh M., Yazaki Y., Sugimura T., Terada M.;
+RT   "c-erbB3 gene encodes secreted as well as transmembrane receptor
+RT   tyrosine kinase.";
+RL   Biochem. Biophys. Res. Commun. 192:1189-1197(1993).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   TISSUE=Skin;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [5]
+RP   INTERACTION WITH PA2G4.
+RX   PubMed=11325528; DOI=10.1016/S0303-7207(01)00387-2;
+RA   Lessor T.J., Hamburger A.W.;
+RT   "Regulation of the ErbB3 binding protein Ebp1 by protein kinase C.";
+RL   Mol. Cell. Endocrinol. 175:185-191(2001).
+RN   [6]
+RP   INTERACTION WITH MUC1.
+RX   PubMed=12939402;
+RA   Li Y., Yu W.-H., Ren J., Chen W., Huang L., Kharbanda S., Loda M.,
+RA   Kufe D.;
+RT   "Heregulin targets gamma-catenin to the nucleolus by a mechanism
+RT   dependent on the DF3/MUC1 oncoprotein.";
+RL   Mol. Cancer Res. 1:765-775(2003).
+RN   [7]
+RP   INTERACTION WITH CSPG5, AND FUNCTION.
+RX   PubMed=15358134; DOI=10.1016/j.bbrc.2004.07.066;
+RA   Kinugasa Y., Ishiguro H., Tokita Y., Oohira A., Ohmoto H.,
+RA   Higashiyama S.;
+RT   "Neuroglycan C, a novel member of the neuregulin family.";
+RL   Biochem. Biophys. Res. Commun. 321:1045-1049(2004).
+RN   [8]
+RP   INVOLVEMENT IN LCCS2.
+RX   PubMed=17701904; DOI=10.1086/520770;
+RA   Narkis G., Ofir R., Manor E., Landau D., Elbedour K., Birk O.S.;
+RT   "Lethal congenital contractural syndrome type 2 (LCCS2) is caused by a
+RT   mutation in ERBB3 (Her3), a modulator of the phosphatidylinositol-3-
+RT   kinase/Akt pathway.";
+RL   Am. J. Hum. Genet. 81:589-595(2007).
+RN   [9]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-1328, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Mammary epithelium;
+RX   PubMed=17389395; DOI=10.1073/pnas.0608638104;
+RA   Wolf-Yadlin A., Hautaniemi S., Lauffenburger D.A., White F.M.;
+RT   "Multiple reaction monitoring for robust quantitative proteomic
+RT   analysis of cellular signaling networks.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 104:5860-5865(2007).
+RN   [10]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-686, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [11]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-1328, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Mammary epithelium;
+RX   PubMed=19534553; DOI=10.1021/pr900044c;
+RA   Heibeck T.H., Ding S.-J., Opresko L.K., Zhao R., Schepmoes A.A.,
+RA   Yang F., Tolmachev A.V., Monroe M.E., Camp D.G. II, Smith R.D.,
+RA   Wiley H.S., Qian W.-J.;
+RT   "An extensive survey of tyrosine phosphorylation revealing new sites
+RT   in human mammary epithelial cells.";
+RL   J. Proteome Res. 8:3852-3861(2009).
+RN   [12]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-680, AND MASS
+RP   SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [13]
+RP   X-RAY CRYSTALLOGRAPHY (2.6 ANGSTROMS) OF 20-640, DISULFIDE BONDS, AND
+RP   GLYCOSYLATION AT ASN-250; ASN-353; ASN-408; ASN-414; ASN-437; ASN-469;
+RP   ASN-522 AND ASN-566.
+RX   PubMed=12154198; DOI=10.1126/science.1074611;
+RA   Cho H.S., Leahy D.J.;
+RT   "Structure of the extracellular region of HER3 reveals an interdomain
+RT   tether.";
+RL   Science 297:1330-1333(2002).
+RN   [14]
+RP   VARIANTS [LARGE SCALE ANALYSIS] TYR-20; LEU-30; MET-104; ILE-204;
+RP   TRP-683; LEU-717; THR-744; ARG-998; CYS-1119; HIS-1127; ILE-1177 AND
+RP   LYS-1254.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Binds and is activated by neuregulins and NTAK.
+CC   -!- CATALYTIC ACTIVITY: ATP + a [protein]-L-tyrosine = ADP + a
+CC       [protein]-L-tyrosine phosphate.
+CC   -!- SUBUNIT: Heterodimer with each of the other ERBB receptors
+CC       (Potential). Interacts with CSPG5, PA2G4 and MUC1.
+CC   -!- INTERACTION:
+CC       P00533:EGFR; NbExp=2; IntAct=EBI-720706, EBI-297353;
+CC       P04626:ERBB2; NbExp=7; IntAct=EBI-720706, EBI-641062;
+CC       Q15303:ERBB4; NbExp=3; IntAct=EBI-720706, EBI-80371;
+CC       Q02297:NRG1; NbExp=1; IntAct=EBI-720706, EBI-2460704;
+CC       Q9UQ80:PA2G4; NbExp=1; IntAct=EBI-720706, EBI-924893;
+CC       P42336:PIK3CA; NbExp=1; IntAct=EBI-720706, EBI-2116585;
+CC       P27986:PIK3R1; NbExp=17; IntAct=EBI-720706, EBI-79464;
+CC   -!- SUBCELLULAR LOCATION: Isoform 1: Cell membrane; Single-pass type I
+CC       membrane protein.
+CC   -!- SUBCELLULAR LOCATION: Isoform 2: Secreted.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1; Synonyms=long form;
+CC         IsoId=P21860-1; Sequence=Displayed;
+CC       Name=2; Synonyms=short form;
+CC         IsoId=P21860-2; Sequence=VSP_002893, VSP_002894;
+CC   -!- TISSUE SPECIFICITY: Epithelial tissues and brain.
+CC   -!- DEVELOPMENTAL STAGE: Overexpressed in a subset of human mammary
+CC       tumors.
+CC   -!- DOMAIN: The cytoplasmic part of the receptor may interact with the
+CC       SH2 or SH3 domains of many signal-transducing proteins.
+CC   -!- PTM: Ligand-binding increases phosphorylation on tyrosine residues
+CC       and promotes its association with the p85 subunit of
+CC       phosphatidylinositol 3-kinase (By similarity).
+CC   -!- DISEASE: Defects in ERBB3 are the cause of lethal congenital
+CC       contracture syndrome type 2 (LCCS2) [MIM:607598]; also called
+CC       Israeli Bedouin multiple contracture syndrome type A. LCCS2 is an
+CC       autosomal recessive neurogenic form of a neonatally lethal
+CC       arthrogryposis that is associated with atrophy of the anterior
+CC       horn of the spinal cord. The LCCS2 syndrome is characterized by
+CC       multiple joint contractures, anterior horn atrophy in the spinal
+CC       cord, and a unique feature of a markedly distended urinary
+CC       bladder. The phenotype suggests a spinal cord neuropathic
+CC       etiology.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Tyr protein
+CC       kinase family. EGF receptor subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M29366; AAA35790.1; -; mRNA.
+DR   EMBL; M34309; AAA35979.1; -; mRNA.
+DR   EMBL; S61953; AAB26935.1; -; mRNA.
+DR   EMBL; BC082992; AAH82992.1; -; mRNA.
+DR   IPI; IPI00219206; -.
+DR   IPI; IPI00298285; -.
+DR   PIR; A36223; A36223.
+DR   PIR; JH0803; JH0803.
+DR   RefSeq; NP_001005915.1; -.
+DR   RefSeq; NP_001973.2; -.
+DR   UniGene; Hs.118681; -.
+DR   PDB; 1M6B; X-ray; 2.60 A; A/B=20-640.
+DR   PDB; 3KEX; X-ray; 2.80 A; A/B=698-1019.
+DR   PDB; 3LMG; X-ray; 2.80 A; A/B=684-1020.
+DR   PDBsum; 1M6B; -.
+DR   PDBsum; 3KEX; -.
+DR   PDBsum; 3LMG; -.
+DR   ProteinModelPortal; P21860; -.
+DR   SMR; P21860; 667-718, 697-979.
+DR   DIP; DIP-36441N; -.
+DR   IntAct; P21860; 42.
+DR   MINT; MINT-158484; -.
+DR   STRING; P21860; -.
+DR   PhosphoSite; P21860; -.
+DR   PRIDE; P21860; -.
+DR   Ensembl; ENST00000267101; ENSP00000267101; ENSG00000065361.
+DR   GeneID; 2065; -.
+DR   KEGG; hsa:2065; -.
+DR   UCSC; uc001sjg.1; human.
+DR   UCSC; uc001sjh.1; human.
+DR   CTD; 2065; -.
+DR   GeneCards; GC12P056473; -.
+DR   H-InvDB; HIX0010715; -.
+DR   HGNC; HGNC:3431; ERBB3.
+DR   HPA; CAB025331; -.
+DR   MIM; 190151; gene.
+DR   MIM; 607598; phenotype.
+DR   Orphanet; 137776; Lethal congenital contracture syndrome type 2.
+DR   PharmGKB; PA27846; -.
+DR   eggNOG; prNOG10003; -.
+DR   HOGENOM; HBG445128; -.
+DR   HOVERGEN; HBG000490; -.
+DR   InParanoid; P21860; -.
+DR   OMA; GTTPDED; -.
+DR   OrthoDB; EOG9KPWX4; -.
+DR   PhylomeDB; P21860; -.
+DR   BRENDA; 2.7.10.1; 247.
+DR   Pathway_Interaction_DB; a6b1_a6b4_integrin_pathway; a6b1 and a6b4 Integrin signaling.
+DR   NextBio; 8391; -.
+DR   ArrayExpress; P21860; -.
+DR   Bgee; P21860; -.
+DR   CleanEx; HS_ERBB3; -.
+DR   Genevestigator; P21860; -.
+DR   GermOnline; ENSG00000065361; Homo sapiens.
+DR   GO; GO:0016323; C:basolateral plasma membrane; IDA:BHF-UCL.
+DR   GO; GO:0005615; C:extracellular space; IDA:BHF-UCL.
+DR   GO; GO:0005887; C:integral to plasma membrane; TAS:ProtInc.
+DR   GO; GO:0043235; C:receptor complex; ISS:BHF-UCL.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0019838; F:growth factor binding; IPI:BHF-UCL.
+DR   GO; GO:0046982; F:protein heterodimerization activity; IDA:UniProtKB.
+DR   GO; GO:0042803; F:protein homodimerization activity; NAS:BHF-UCL.
+DR   GO; GO:0030296; F:protein tyrosine kinase activator activity; IDA:BHF-UCL.
+DR   GO; GO:0004716; F:receptor signaling protein tyrosine kinase ...; IEA:InterPro.
+DR   GO; GO:0004714; F:transmembrane receptor protein tyrosine kin...; IEA:EC.
+DR   GO; GO:0021545; P:cranial nerve development; ISS:BHF-UCL.
+DR   GO; GO:0007507; P:heart development; ISS:BHF-UCL.
+DR   GO; GO:0007162; P:negative regulation of cell adhesion; IDA:BHF-UCL.
+DR   GO; GO:0043524; P:negative regulation of neuron apoptosis; ISS:BHF-UCL.
+DR   GO; GO:0051048; P:negative regulation of secretion; IDA:BHF-UCL.
+DR   GO; GO:0009968; P:negative regulation of signal transduction; IDA:BHF-UCL.
+DR   GO; GO:0051402; P:neuron apoptosis; IMP:BHF-UCL.
+DR   GO; GO:0014065; P:phosphoinositide 3-kinase cascade; IDA:BHF-UCL.
+DR   GO; GO:0014068; P:positive regulation of phosphoinositide 3-k...; TAS:BHF-UCL.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   GO; GO:0042127; P:regulation of cell proliferation; IDA:BHF-UCL.
+DR   GO; GO:0014037; P:Schwann cell differentiation; ISS:BHF-UCL.
+DR   GO; GO:0007169; P:transmembrane receptor protein tyrosine kin...; ISS:BHF-UCL.
+DR   GO; GO:0042060; P:wound healing; NAS:BHF-UCL.
+DR   InterPro; IPR000494; EGF_rcpt_L.
+DR   InterPro; IPR006211; Furin-like_Cys-rich_dom.
+DR   InterPro; IPR006212; Furin_repeat.
+DR   InterPro; IPR009030; Growth_fac_rcpt.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR001245; Ser-Thr/Tyr-Pkinase.
+DR   InterPro; IPR016245; Tyr_kinase_EGF/ERB/XmrK_rcpt.
+DR   InterPro; IPR020692; Tyr_kinase_rcpt_ErbB3.
+DR   InterPro; IPR020635; Tyr_Pkinase_cat_dom.
+DR   InterPro; IPR020685; Tyr_prot_kinase.
+DR   PANTHER; PTHR23256:SF25; Tyr_kinase_rcpt_erbB3; 1.
+DR   PANTHER; PTHR23256; Tyr_prot_kinase; 1.
+DR   Pfam; PF00757; Furin-like; 1.
+DR   Pfam; PF07714; Pkinase_Tyr; 1.
+DR   Pfam; PF01030; Recep_L_domain; 2.
+DR   PIRSF; PIRSF000619; TyrPK_EGF-R; 1.
+DR   PRINTS; PR00109; TYRKINASE.
+DR   SMART; SM00261; FU; 5.
+DR   SMART; SM00219; TyrKc; 1.
+DR   SUPFAM; SSF57184; Grow_fac_recept; 2.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; FALSE_NEG.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00109; PROTEIN_KINASE_TYR; FALSE_NEG.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; ATP-binding; Cell membrane;
+KW   Complete proteome; Disulfide bond; Glycoprotein; Kinase; Membrane;
+KW   Nucleotide-binding; Phosphoprotein; Polymorphism; Receptor; Secreted;
+KW   Signal; Transferase; Transmembrane; Transmembrane helix;
+KW   Tyrosine-protein kinase.
+FT   SIGNAL        1     19       Potential.
+FT   CHAIN        20   1342       Receptor tyrosine-protein kinase erbB-3.
+FT                                /FTId=PRO_0000016672.
+FT   TOPO_DOM     20    643       Extracellular (Potential).
+FT   TRANSMEM    644    664       Helical; (Potential).
+FT   TOPO_DOM    665   1342       Cytoplasmic (Potential).
+FT   DOMAIN      709    966       Protein kinase.
+FT   NP_BIND     715    723       ATP (By similarity).
+FT   ACT_SITE    834    834       Proton acceptor (By similarity).
+FT   BINDING     742    742       ATP (By similarity).
+FT   MOD_RES     680    680       Phosphotyrosine.
+FT   MOD_RES     686    686       Phosphoserine.
+FT   MOD_RES    1328   1328       Phosphotyrosine.
+FT   CARBOHYD    126    126       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    250    250       N-linked (GlcNAc...).
+FT   CARBOHYD    353    353       N-linked (GlcNAc...).
+FT   CARBOHYD    408    408       N-linked (GlcNAc...).
+FT   CARBOHYD    414    414       N-linked (GlcNAc...).
+FT   CARBOHYD    437    437       N-linked (GlcNAc...).
+FT   CARBOHYD    469    469       N-linked (GlcNAc...).
+FT   CARBOHYD    522    522       N-linked (GlcNAc...).
+FT   CARBOHYD    566    566       N-linked (GlcNAc...).
+FT   CARBOHYD    616    616       N-linked (GlcNAc...) (Potential).
+FT   DISULFID     29     56
+FT   DISULFID    156    183
+FT   DISULFID    186    194
+FT   DISULFID    190    202
+FT   DISULFID    210    218
+FT   DISULFID    214    226
+FT   DISULFID    227    235
+FT   DISULFID    231    243
+FT   DISULFID    246    255
+FT   DISULFID    259    286
+FT   DISULFID    290    301
+FT   DISULFID    305    320
+FT   DISULFID    323    327
+FT   DISULFID    500    509
+FT   DISULFID    504    517
+FT   DISULFID    520    529
+FT   DISULFID    533    549
+FT   DISULFID    552    565
+FT   DISULFID    556    573
+FT   DISULFID    576    585
+FT   DISULFID    589    610       By similarity.
+FT   DISULFID    613    621       By similarity.
+FT   DISULFID    617    629       By similarity.
+FT   VAR_SEQ     141    183       EILSGGVYIEKNDKLCHMDTIDWRDIVRDRDAEIVVKDNGR
+FT                                SC -> GQFPMVPSGLTPQPAQDWYLLDDDPRLLTLSASSK
+FT                                VPVTLAAV (in isoform 2).
+FT                                /FTId=VSP_002893.
+FT   VAR_SEQ     184   1342       Missing (in isoform 2).
+FT                                /FTId=VSP_002894.
+FT   VARIANT      20     20       S -> Y (in dbSNP:rs34379766).
+FT                                /FTId=VAR_042101.
+FT   VARIANT      30     30       P -> L (in dbSNP:rs56017157).
+FT                                /FTId=VAR_042102.
+FT   VARIANT     104    104       V -> M (in an ovarian mucinous carcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_042103.
+FT   VARIANT     204    204       T -> I (in dbSNP:rs56107455).
+FT                                /FTId=VAR_042104.
+FT   VARIANT     385    385       N -> S (in dbSNP:rs12320176).
+FT                                /FTId=VAR_049710.
+FT   VARIANT     683    683       R -> W (in dbSNP:rs56387488).
+FT                                /FTId=VAR_042105.
+FT   VARIANT     717    717       S -> L (in dbSNP:rs35961836).
+FT                                /FTId=VAR_042106.
+FT   VARIANT     744    744       I -> T (in dbSNP:rs55787439).
+FT                                /FTId=VAR_042107.
+FT   VARIANT     998    998       K -> R (in dbSNP:rs56259600).
+FT                                /FTId=VAR_042108.
+FT   VARIANT    1119   1119       S -> C (in dbSNP:rs773123).
+FT                                /FTId=VAR_042109.
+FT   VARIANT    1127   1127       R -> H (in dbSNP:rs2271188).
+FT                                /FTId=VAR_042110.
+FT   VARIANT    1177   1177       L -> I (in dbSNP:rs55699040).
+FT                                /FTId=VAR_042111.
+FT   VARIANT    1254   1254       T -> K (in dbSNP:rs55709407).
+FT                                /FTId=VAR_042112.
+FT   VARIANT    1271   1271       G -> S (in dbSNP:rs11171743).
+FT                                /FTId=VAR_049711.
+FT   CONFLICT    560    560       E -> G (in Ref. 2; AAA35979).
+FT   CONFLICT   1064   1064       E -> G (in Ref. 2; AAA35979).
+FT   STRAND       58     61
+FT   STRAND       63     67
+FT   HELIX        75     79
+FT   STRAND       82     85
+FT   STRAND       87     91
+FT   STRAND       95     98
+FT   TURN        112    114
+FT   STRAND      115    120
+FT   STRAND      133    135
+FT   STRAND      146    150
+FT   TURN        158    160
+FT   HELIX       163    166
+FT   STRAND      174    178
+FT   STRAND      194    198
+FT   STRAND      214    216
+FT   STRAND      218    222
+FT   STRAND      231    233
+FT   STRAND      235    239
+FT   HELIX       240    242
+FT   STRAND      243    251
+FT   STRAND      254    258
+FT   STRAND      262    265
+FT   TURN        267    269
+FT   STRAND      270    274
+FT   STRAND      280    282
+FT   STRAND      285    289
+FT   STRAND      295    297
+FT   STRAND      300    304
+FT   STRAND      309    314
+FT   STRAND      317    322
+FT   STRAND      330    332
+FT   TURN        345    347
+FT   HELIX       348    351
+FT   STRAND      356    363
+FT   HELIX       365    369
+FT   TURN        372    375
+FT   HELIX       381    389
+FT   STRAND      392    395
+FT   STRAND      397    400
+FT   HELIX       410    412
+FT   STRAND      425    433
+FT   STRAND      451    457
+FT   HELIX       470    473
+FT   STRAND      482    488
+FT   HELIX       490    493
+FT   TURN        494    497
+FT   STRAND      509    513
+FT   HELIX       514    516
+FT   STRAND      517    527
+FT   STRAND      529    531
+FT   STRAND      534    536
+FT   STRAND      538    540
+FT   STRAND      542    545
+FT   STRAND      548    551
+FT   STRAND      564    570
+FT   STRAND      573    581
+FT   STRAND      584    588
+FT   STRAND      600    604
+FT   STRAND      608    612
+FT   STRAND      622    625
+SQ   SEQUENCE   1342 AA;  148098 MW;  7201E7F66CA374BD CRC64;
+     MRANDALQVL GLLFSLARGS EVGNSQAVCP GTLNGLSVTG DAENQYQTLY KLYERCEVVM
+     GNLEIVLTGH NADLSFLQWI REVTGYVLVA MNEFSTLPLP NLRVVRGTQV YDGKFAIFVM
+     LNYNTNSSHA LRQLRLTQLT EILSGGVYIE KNDKLCHMDT IDWRDIVRDR DAEIVVKDNG
+     RSCPPCHEVC KGRCWGPGSE DCQTLTKTIC APQCNGHCFG PNPNQCCHDE CAGGCSGPQD
+     TDCFACRHFN DSGACVPRCP QPLVYNKLTF QLEPNPHTKY QYGGVCVASC PHNFVVDQTS
+     CVRACPPDKM EVDKNGLKMC EPCGGLCPKA CEGTGSGSRF QTVDSSNIDG FVNCTKILGN
+     LDFLITGLNG DPWHKIPALD PEKLNVFRTV REITGYLNIQ SWPPHMHNFS VFSNLTTIGG
+     RSLYNRGFSL LIMKNLNVTS LGFRSLKEIS AGRIYISANR QLCYHHSLNW TKVLRGPTEE
+     RLDIKHNRPR RDCVAEGKVC DPLCSSGGCW GPGPGQCLSC RNYSRGGVCV THCNFLNGEP
+     REFAHEAECF SCHPECQPME GTATCNGSGS DTCAQCAHFR DGPHCVSSCP HGVLGAKGPI
+     YKYPDVQNEC RPCHENCTQG CKGPELQDCL GQTLVLIGKT HLTMALTVIA GLVVIFMMLG
+     GTFLYWRGRR IQNKRAMRRY LERGESIEPL DPSEKANKVL ARIFKETELR KLKVLGSGVF
+     GTVHKGVWIP EGESIKIPVC IKVIEDKSGR QSFQAVTDHM LAIGSLDHAH IVRLLGLCPG
+     SSLQLVTQYL PLGSLLDHVR QHRGALGPQL LLNWGVQIAK GMYYLEEHGM VHRNLAARNV
+     LLKSPSQVQV ADFGVADLLP PDDKQLLYSE AKTPIKWMAL ESIHFGKYTH QSDVWSYGVT
+     VWELMTFGAE PYAGLRLAEV PDLLEKGERL AQPQICTIDV YMVMVKCWMI DENIRPTFKE
+     LANEFTRMAR DPPRYLVIKR ESGPGIAPGP EPHGLTNKKL EEVELEPELD LDLDLEAEED
+     NLATTTLGSA LSLPVGTLNR PRGSQSLLSP SSGYMPMNQG NLGESCQESA VSGSSERCPR
+     PVSLHPMPRG CLASESSEGH VTGSEAELQE KVSMCRSRSR SRSPRPRGDS AYHSQRHSLL
+     TPVTPLSPPG LEEEDVNGYV MPDTHLKGTP SSREGTLSSV GLSSVLGTEE EDEDEEYEYM
+     NRRRRHSPPH PPRPSSLEEL GYEYMDVGSD LSASLGSTQS CPLHPVPIMP TAGTTPDEDY
+     EYMNRQRDGG GPGGDYAAMG ACPASEQGYE EMRAFQGPGH QAPHVHYARL KTLRSLEATD
+     SAFDNPDYWH SRLFPKANAQ RT
+//

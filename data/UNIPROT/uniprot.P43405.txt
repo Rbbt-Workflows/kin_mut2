@@ -1,0 +1,413 @@
+ID   KSYK_HUMAN              Reviewed;         635 AA.
+AC   P43405;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 1.
+DT   05-OCT-2010, entry version 131.
+DE   RecName: Full=Tyrosine-protein kinase SYK;
+DE            EC=2.7.10.2;
+DE   AltName: Full=Spleen tyrosine kinase;
+GN   Name=SYK;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   MEDLINE=94220098; PubMed=7513161; DOI=10.1006/bbrc.1994.1409;
+RA   Yagi S., Suzuki K., Hasegawa A., Okumura K., Ra C.;
+RT   "Cloning of the cDNA for the deleted syk kinase homologous to ZAP-70
+RT   from human basophilic leukemia cell line (KU812).";
+RL   Biochem. Biophys. Res. Commun. 200:28-34(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   MEDLINE=94216354; PubMed=8163536;
+RA   Law C.-L., Sidorenko S.P., Chandran K.A., Draves K.E., Chan A.C.,
+RA   Weiss A., Edelhoff S., Disteche C.M., Clark E.A.;
+RT   "Molecular cloning of human Syk. A B cell protein-tyrosine kinase
+RT   associated with the surface immunoglobulin M-B cell receptor
+RT   complex.";
+RL   J. Biol. Chem. 269:12310-12319(1994).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS LONG AND SHORT).
+RC   TISSUE=Eye, and Lymph;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 6-635.
+RC   TISSUE=Tonsil;
+RX   MEDLINE=94222446; PubMed=8168854; DOI=10.1007/BF00189234;
+RA   Mueller B., Cooper L., Terhorst C.;
+RT   "Molecular cloning of the human homologue to the pig protein-tyrosine
+RT   kinase syk.";
+RL   Immunogenetics 39:359-362(1994).
+RN   [5]
+RP   INTERACTION WITH EPSTEIN-BARR VIRUS LMP2A.
+RX   PubMed=7895172; DOI=10.1016/S1074-7613(95)80040-9;
+RA   Miller C.L., Burkhardt A.L., Lee J.H., Stealey B., Longnecker R.,
+RA   Bolen J.B., Kieff E.;
+RT   "Integral membrane protein 2 of Epstein-Barr virus regulates
+RT   reactivation from latency through dominant negative effects on
+RT   protein-tyrosine kinases.";
+RL   Immunity 2:155-166(1995).
+RN   [6]
+RP   INTERACTION WITH CBL.
+RX   PubMed=9535867; DOI=10.1074/jbc.273.15.8867;
+RA   Deckert M., Elly C., Altman A., Liu Y.C.;
+RT   "Coordinated regulation of the tyrosine phosphorylation of Cbl by Fyn
+RT   and Syk tyrosine kinases.";
+RL   J. Biol. Chem. 273:8867-8874(1998).
+RN   [7]
+RP   INTERACTION WITH SLA.
+RX   MEDLINE=99380595; PubMed=10449770; DOI=10.1073/pnas.96.17.9775;
+RA   Tang J., Sawasdikosol S., Chang J.-H., Burakoff S.J.;
+RT   "SLAP, a dimeric adapter protein, plays a functional role in T cell
+RT   receptor signaling.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 96:9775-9780(1999).
+RN   [8]
+RP   INTERACTION WITH FCRL3.
+RX   PubMed=11162587; DOI=10.1006/bbrc.2000.4213;
+RA   Xu M.-J., Zhao R., Zhao Z.J.;
+RT   "Molecular cloning and characterization of SPAP1, an inhibitory
+RT   receptor.";
+RL   Biochem. Biophys. Res. Commun. 280:768-775(2001).
+RN   [9]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-348 AND TYR-352, AND
+RP   MASS SPECTROMETRY.
+RX   MEDLINE=22426906; PubMed=12522270; DOI=10.1073/pnas.2436191100;
+RA   Salomon A.R., Ficarro S.B., Brill L.M., Brinker A., Phung Q.T.,
+RA   Ericson C., Sauer K., Brock A., Horn D.M., Schultz P.G., Peters E.C.;
+RT   "Profiling of tyrosine phosphorylation pathways in human cells using
+RT   mass spectrometry.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 100:443-448(2003).
+RN   [10]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-296; TYR-323; TYR-348;
+RP   TYR-352 AND TYR-526, AND MASS SPECTROMETRY.
+RC   TISSUE=Lung carcinoma;
+RX   PubMed=18083107; DOI=10.1016/j.cell.2007.11.025;
+RA   Rikova K., Guo A., Zeng Q., Possemato A., Yu J., Haack H., Nardone J.,
+RA   Lee K., Reeves C., Li Y., Hu Y., Tan Z., Stokes M., Sullivan L.,
+RA   Mitchell J., Wetzel R., Macneill J., Ren J.M., Yuan J.,
+RA   Bakalarski C.E., Villen J., Kornhauser J.M., Smith B., Li D., Zhou X.,
+RA   Gygi S.P., Gu T.-L., Polakiewicz R.D., Rush J., Comb M.J.;
+RT   "Global survey of phosphotyrosine signaling identifies oncogenic
+RT   kinases in lung cancer.";
+RL   Cell 131:1190-1203(2007).
+RN   [11]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-323, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Mammary epithelium;
+RX   PubMed=17389395; DOI=10.1073/pnas.0608638104;
+RA   Wolf-Yadlin A., Hautaniemi S., Lauffenburger D.A., White F.M.;
+RT   "Multiple reaction monitoring for robust quantitative proteomic
+RT   analysis of cellular signaling networks.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 104:5860-5865(2007).
+RN   [12]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-297, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Platelet;
+RX   PubMed=18088087; DOI=10.1021/pr0704130;
+RA   Zahedi R.P., Lewandrowski U., Wiesner J., Wortelkamp S., Moebius J.,
+RA   Schuetz C., Walter U., Gambaryan S., Sickmann A.;
+RT   "Phosphoproteome of resting human platelets.";
+RL   J. Proteome Res. 7:526-534(2008).
+RN   [13]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RA   Colinge J., Superti-Furga G., Bennett K.L.;
+RL   Submitted (OCT-2008) to UniProtKB.
+RN   [14]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-295; TYR-296; SER-319;
+RP   TYR-323 AND TYR-352, AND MASS SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [15]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-28, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=19690332; DOI=10.1126/scisignal.2000007;
+RA   Mayya V., Lundgren D.H., Hwang S.-I., Rezaul K., Wu L., Eng J.K.,
+RA   Rodionov V., Han D.K.;
+RT   "Quantitative phosphoproteomic analysis of T cell receptor signaling
+RT   reveals system-wide modulation of protein-protein interactions.";
+RL   Sci. Signal. 2:RA46-RA46(2009).
+RN   [16]
+RP   INTERACTION WITH SYK, AND FUNCTION.
+RX   PubMed=19909739; DOI=10.1016/j.yexcr.2009.10.023;
+RA   Cholay M., Reverdy C., Benarous R., Colland F., Daviet L.;
+RT   "Functional interaction between the ubiquitin-specific protease 25 and
+RT   the SYK tyrosine kinase.";
+RL   Exp. Cell Res. 316:667-675(2010).
+RN   [17]
+RP   STRUCTURE BY NMR OF 163-265.
+RX   MEDLINE=96131877; PubMed=8590001; DOI=10.1016/S0969-2126(01)00242-8;
+RA   Narula S.S., Yuan R.W., Adams S.E., Green O.M., Green J.,
+RA   Philips T.B., Zydowsky L.D., Botfield M.C., Hatada M., Laird E.R.,
+RA   Zoller M.J., Karas J.L., Dalgarno D.C.;
+RT   "Solution structure of the C-terminal SH2 domain of the human tyrosine
+RT   kinase Syk complexed with a phosphotyrosine pentapeptide.";
+RL   Structure 3:1061-1073(1995).
+RN   [18]
+RP   X-RAY CRYSTALLOGRAPHY (3.0 ANGSTROMS) OF 9-262 IN COMPLEX WITH CD3E.
+RX   MEDLINE=98365517; PubMed=9698567; DOI=10.1006/jmbi.1998.1964;
+RA   Fuetterer K., Wong J., Grucza R.A., Chan A.C., Waksman G.;
+RT   "Structural basis for Syk tyrosine kinase ubiquity in signal
+RT   transduction pathways revealed by the crystal structure of its
+RT   regulatory SH2 domains bound to a dually phosphorylated ITAM
+RT   peptide.";
+RL   J. Mol. Biol. 281:523-537(1998).
+CC   -!- FUNCTION: Positive effector of BCR-stimulated responses. Couples
+CC       the B-cell antigen receptor (BCR) to the mobilization of calcium
+CC       ion either through a phosphoinositide 3-kinase-dependent pathway,
+CC       when not phosphorylated on tyrosines of the linker region, or
+CC       through a phospholipase C-gamma-dependent pathway, when
+CC       phosphorylated on Tyr-348 and Tyr-352. Thus the differential
+CC       phosphorylation of Syk can determine the pathway by which BCR is
+CC       coupled to the regulation of intracellular calcium ion (By
+CC       similarity). Phosphorylates USP25 and regulates its intracellular
+CC       levels.
+CC   -!- CATALYTIC ACTIVITY: ATP + a [protein]-L-tyrosine = ADP + a
+CC       [protein]-L-tyrosine phosphate.
+CC   -!- SUBUNIT: Interacts with RHOH, GAB2 and with NFAM1 (phosphorylated
+CC       form). Interacts (via its SH2 domains) with CD79A (via its
+CC       phosphorylated ITAM domain); the interaction stimulates SYK
+CC       autophosphorylation and activation (By similarity). Interacts
+CC       (phosphorylated form) with SLA; the interaction may link it to
+CC       CBL, leading to its destruction. Interacts with Epstein-Barr virus
+CC       LMP2A. Interacts with FCRL3. Interacts (via the second SH2 domain)
+CC       with USP25 (via C-terminus).
+CC   -!- INTERACTION:
+CC       P20273:CD22; NbExp=1; IntAct=EBI-78302, EBI-78277;
+CC       P30273:FCER1G; NbExp=1; IntAct=EBI-78302, EBI-515289;
+CC       P05107:ITGB2; NbExp=1; IntAct=EBI-78302, EBI-300173;
+CC       O43914:TYROBP; NbExp=1; IntAct=EBI-78302, EBI-2214794;
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=Long;
+CC         IsoId=P43405-1; Sequence=Displayed;
+CC       Name=Short;
+CC         IsoId=P43405-2; Sequence=VSP_005010;
+CC   -!- PTM: Autophosphorylated.
+CC   -!- PTM: Phosphorylation on Tyr-323 creates a binding site for c-Cbl,
+CC       an adapter protein that serves as a negative regulator of BCR-
+CC       stimulated calcium ion signaling (By similarity).
+CC   -!- PTM: Phosphorylation on Tyr-348 and Tyr-352 enhances the
+CC       phosphorylation and activation of phospholipase C-gamma and the
+CC       early phase of calcium ion mobilization via a phosphoinositide 3-
+CC       kinase-independent pathway (By similarity).
+CC   -!- PTM: Ubiquitinated by CBLB after BCR activation; which promotes
+CC       proteasomal degradation (By similarity).
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Tyr protein
+CC       kinase family. SYK/ZAP-70 subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- SIMILARITY: Contains 2 SH2 domains.
+CC   -!- WEB RESOURCE: Name=Atlas of Genetics and Cytogenetics in Oncology
+CC       and Haematology;
+CC       URL="http://atlasgeneticsoncology.org/Genes/SYKID394.html";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; Z29630; CAA82737.1; -; mRNA.
+DR   EMBL; L28824; AAA36526.1; -; mRNA.
+DR   EMBL; BC001645; AAH01645.1; -; mRNA.
+DR   EMBL; BC011399; AAH11399.1; -; mRNA.
+DR   EMBL; BC002962; AAH02962.1; -; mRNA.
+DR   EMBL; X73568; CAA51970.1; -; mRNA.
+DR   IPI; IPI00018597; -.
+DR   IPI; IPI00218278; -.
+DR   PIR; A53596; A53596.
+DR   RefSeq; NP_001128524.1; -.
+DR   RefSeq; NP_001167638.1; -.
+DR   RefSeq; NP_001167639.1; -.
+DR   RefSeq; NP_003168.2; -.
+DR   UniGene; Hs.371720; -.
+DR   PDB; 1A81; X-ray; 3.00 A; A/C/E/G/I/K=9-262.
+DR   PDB; 1CSY; NMR; -; A=163-265.
+DR   PDB; 1CSZ; NMR; -; A=163-265.
+DR   PDB; 1XBA; X-ray; 2.00 A; A=356-635.
+DR   PDB; 1XBB; X-ray; 1.57 A; A=356-635.
+DR   PDB; 1XBC; X-ray; 2.00 A; A=356-635.
+DR   PDB; 3BUW; X-ray; 1.45 A; A/C=317-329.
+DR   PDB; 3EMG; X-ray; 2.60 A; A=349-635.
+DR   PDB; 3FQE; X-ray; 2.50 A; A=356-635.
+DR   PDB; 3FQH; X-ray; 2.26 A; A/B=356-635.
+DR   PDB; 3FQS; X-ray; 2.10 A; A=356-635.
+DR   PDBsum; 1A81; -.
+DR   PDBsum; 1CSY; -.
+DR   PDBsum; 1CSZ; -.
+DR   PDBsum; 1XBA; -.
+DR   PDBsum; 1XBB; -.
+DR   PDBsum; 1XBC; -.
+DR   PDBsum; 3BUW; -.
+DR   PDBsum; 3EMG; -.
+DR   PDBsum; 3FQE; -.
+DR   PDBsum; 3FQH; -.
+DR   PDBsum; 3FQS; -.
+DR   ProteinModelPortal; P43405; -.
+DR   SMR; P43405; 163-631.
+DR   DIP; DIP-253N; -.
+DR   IntAct; P43405; 15.
+DR   MINT; MINT-148486; -.
+DR   STRING; P43405; -.
+DR   PhosphoSite; P43405; -.
+DR   PeptideAtlas; P43405; -.
+DR   PRIDE; P43405; -.
+DR   Ensembl; ENST00000375746; ENSP00000364898; ENSG00000165025.
+DR   Ensembl; ENST00000375754; ENSP00000364907; ENSG00000165025.
+DR   GeneID; 6850; -.
+DR   KEGG; hsa:6850; -.
+DR   UCSC; uc004aqz.1; human.
+DR   CTD; 6850; -.
+DR   GeneCards; GC09P093564; -.
+DR   H-InvDB; HIX0008158; -.
+DR   HGNC; HGNC:11491; SYK.
+DR   HPA; CAB007773; -.
+DR   HPA; HPA001384; -.
+DR   MIM; 600085; gene.
+DR   PharmGKB; PA36273; -.
+DR   eggNOG; prNOG06189; -.
+DR   HOGENOM; HBG714705; -.
+DR   HOVERGEN; HBG001540; -.
+DR   InParanoid; P43405; -.
+DR   OMA; HYSYKAD; -.
+DR   OrthoDB; EOG908QT6; -.
+DR   PhylomeDB; P43405; -.
+DR   BRENDA; 2.7.10.2; 247.
+DR   Pathway_Interaction_DB; alphasynuclein_pathway; Alpha-synuclein signaling.
+DR   Pathway_Interaction_DB; nfkappabatypicalpathway; Atypical NF-kappaB pathway.
+DR   Pathway_Interaction_DB; bcr_5pathway; BCR signaling pathway.
+DR   Pathway_Interaction_DB; pi3kcipathway; Class I PI3K signaling events.
+DR   Pathway_Interaction_DB; fcer1pathway; Fc-epsilon receptor I signaling in mast cells.
+DR   Pathway_Interaction_DB; il2_1pathway; IL2-mediated signaling events.
+DR   Pathway_Interaction_DB; avb3_opn_pathway; Osteopontin-mediated events.
+DR   Pathway_Interaction_DB; txa2pathway; Thromboxane A2 receptor signaling.
+DR   Reactome; REACT_604; Hemostasis.
+DR   BindingDB; P43405; -.
+DR   NextBio; 26739; -.
+DR   ArrayExpress; P43405; -.
+DR   Bgee; P43405; -.
+DR   CleanEx; HS_SYK; -.
+DR   Genevestigator; P43405; -.
+DR   GermOnline; ENSG00000165025; Homo sapiens.
+DR   GO; GO:0005737; C:cytoplasm; IEA:InterPro.
+DR   GO; GO:0042101; C:T cell receptor complex; IDA:MGI.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005178; F:integrin binding; IPI:UniProtKB.
+DR   GO; GO:0004715; F:non-membrane spanning protein tyrosine kina...; IEA:EC.
+DR   GO; GO:0008283; P:cell proliferation; TAS:ProtInc.
+DR   GO; GO:0007229; P:integrin-mediated signaling pathway; NAS:UniProtKB.
+DR   GO; GO:0044419; P:interspecies interaction between organisms; IEA:UniProtKB-KW.
+DR   GO; GO:0007159; P:leukocyte cell-cell adhesion; IDA:UniProtKB.
+DR   GO; GO:0030593; P:neutrophil chemotaxis; IDA:UniProtKB.
+DR   GO; GO:0009887; P:organ morphogenesis; TAS:ProtInc.
+DR   GO; GO:0006461; P:protein complex assembly; TAS:ProtInc.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR001245; Ser-Thr/Tyr-Pkinase.
+DR   InterPro; IPR000980; SH2.
+DR   InterPro; IPR020757; Tyr_kinase_non-rcpt_SYK.
+DR   InterPro; IPR012234; Tyr_kinase_non-rcpt_SYK/ZAP70.
+DR   InterPro; IPR020635; Tyr_Pkinase_cat_dom.
+DR   InterPro; IPR020685; Tyr_prot_kinase.
+DR   InterPro; IPR008266; Tyr_prot_kinase_AS.
+DR   Gene3D; G3DSA:3.30.505.10; SH2; 2.
+DR   PANTHER; PTHR23256:SF99; Tyr_kinase_non-rcpt_SYK; 1.
+DR   PANTHER; PTHR23256; Tyr_prot_kinase; 1.
+DR   Pfam; PF07714; Pkinase_Tyr; 1.
+DR   Pfam; PF00017; SH2; 2.
+DR   PIRSF; PIRSF000604; TyrPK_SYK; 1.
+DR   PRINTS; PR00401; SH2DOMAIN.
+DR   PRINTS; PR00109; TYRKINASE.
+DR   SMART; SM00252; SH2; 2.
+DR   SMART; SM00219; TyrKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00109; PROTEIN_KINASE_TYR; 1.
+DR   PROSITE; PS50001; SH2; 2.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; ATP-binding; Complete proteome;
+KW   Host-virus interaction; Kinase; Nucleotide-binding; Phosphoprotein;
+KW   Polymorphism; Repeat; SH2 domain; Transferase;
+KW   Tyrosine-protein kinase; Ubl conjugation.
+FT   CHAIN         1    635       Tyrosine-protein kinase SYK.
+FT                                /FTId=PRO_0000088165.
+FT   DOMAIN       15    107       SH2 1.
+FT   DOMAIN      168    259       SH2 2.
+FT   DOMAIN      371    631       Protein kinase.
+FT   NP_BIND     377    385       ATP (By similarity).
+FT   REGION      260    370       Linker.
+FT   ACT_SITE    494    494       Proton acceptor (By similarity).
+FT   BINDING     402    402       ATP (By similarity).
+FT   MOD_RES      28     28       Phosphotyrosine.
+FT   MOD_RES     295    295       Phosphoserine.
+FT   MOD_RES     296    296       Phosphotyrosine.
+FT   MOD_RES     297    297       Phosphoserine.
+FT   MOD_RES     316    316       Phosphoserine (By similarity).
+FT   MOD_RES     319    319       Phosphoserine.
+FT   MOD_RES     323    323       Phosphotyrosine; by LYN.
+FT   MOD_RES     348    348       Phosphotyrosine.
+FT   MOD_RES     352    352       Phosphotyrosine.
+FT   MOD_RES     525    525       Phosphotyrosine; by autocatalysis (By
+FT                                similarity).
+FT   MOD_RES     526    526       Phosphotyrosine.
+FT   MOD_RES     546    546       Phosphotyrosine (By similarity).
+FT   MOD_RES     629    629       Phosphotyrosine (By similarity).
+FT   MOD_RES     630    630       Phosphotyrosine (By similarity).
+FT   VAR_SEQ     283    305       Missing (in isoform Short).
+FT                                /FTId=VSP_005010.
+FT   VARIANT      45     45       R -> H (in dbSNP:rs16906862).
+FT                                /FTId=VAR_033838.
+FT   CONFLICT    119    119       P -> A (in Ref. 4; CAA51970).
+FT   CONFLICT    250    250       G -> P (in Ref. 4; CAA51970).
+FT   STRAND      166    169
+FT   HELIX       176    184
+FT   STRAND      191    195
+FT   STRAND      198    201
+FT   STRAND      203    211
+FT   STRAND      213    219
+FT   STRAND      222    224
+FT   STRAND      229    231
+FT   HELIX       237    244
+FT   STRAND      251    253
+FT   HELIX       367    369
+FT   STRAND      370    379
+FT   STRAND      384    391
+FT   STRAND      396    403
+FT   HELIX       412    424
+FT   STRAND      435    449
+FT   HELIX       456    462
+FT   HELIX       468    487
+FT   HELIX       497    499
+FT   STRAND      500    504
+FT   STRAND      507    510
+FT   STRAND      524    527
+FT   HELIX       536    538
+FT   HELIX       541    546
+FT   STRAND      548    550
+FT   HELIX       551    566
+FT   TURN        567    569
+FT   HELIX       578    586
+FT   HELIX       599    608
+FT   HELIX       613    615
+FT   HELIX       619    635
+SQ   SEQUENCE   635 AA;  72066 MW;  EAA6BDE65881FC68 CRC64;
+     MASSGMADSA NHLPFFFGNI TREEAEDYLV QGGMSDGLYL LRQSRNYLGG FALSVAHGRK
+     AHHYTIEREL NGTYAIAGGR THASPADLCH YHSQESDGLV CLLKKPFNRP QGVQPKTGPF
+     EDLKENLIRE YVKQTWNLQG QALEQAIISQ KPQLEKLIAT TAHEKMPWFH GKISREESEQ
+     IVLIGSKTNG KFLIRARDNN GSYALCLLHE GKVLHYRIDK DKTGKLSIPE GKKFDTLWQL
+     VEHYSYKADG LLRVLTVPCQ KIGTQGNVNF GGRPQLPGSH PATWSAGGII SRIKSYSFPK
+     PGHRKSSPAQ GNRQESTVSF NPYEPELAPW AADKGPQREA LPMDTEVYES PYADPEEIRP
+     KEVYLDRKLL TLEDKELGSG NFGTVKKGYY QMKKVVKTVA VKILKNEAND PALKDELLAE
+     ANVMQQLDNP YIVRMIGICE AESWMLVMEM AELGPLNKYL QQNRHVKDKN IIELVHQVSM
+     GMKYLEESNF VHRDLAARNV LLVTQHYAKI SDFGLSKALR ADENYYKAQT HGKWPVKWYA
+     PECINYYKFS SKSDVWSFGV LMWEAFSYGQ KPYRGMKGSE VTAMLEKGER MGCPAGCPRE
+     MYDLMNLCWT YDVENRPGFA AVELRLRNYY YDVVN
+//

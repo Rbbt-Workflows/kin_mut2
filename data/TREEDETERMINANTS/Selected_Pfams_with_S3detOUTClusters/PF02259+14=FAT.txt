@@ -1,0 +1,57 @@
+UI: Initial number of sequences: 17
+UI: Initial number of positions: 629
+UI: Number of outliers: 0
+UI: Final number of sequences after removing outliers: 17
+UI: Final number of positions after removing gappy columns: 245
+II: Final number of columns in the disjunctive matrix: 1572
+UI: Number of axes selected: 3
+UI: Percentage of initial variance considered informative: 54.3312 %
+UI: Checking a maximum number of groups equal to: 5
+UI: Stable cluster results have been found
+SC: YES
+UI: Number of groups selected: 5
+II: Clustering index value: CH_Index = 42.5479
+II: F-Fisher: 423.503
+II: Best solution found 303 times out of 500 iterations searching for 5 groups
+UI: Number of groups with less than 3 sequences: 2
+Is there enough group diversity to perform the analysis?:
+GD: YES
+
+Clustering of sequences: 
+CL: Q8QGX4+1=PRKDC_CHICK/3029-3478	1
+CL: P78527+3=PRKDC_HUMAN/3023-3472	1
+CL: Q8WN22+1=PRKDC_CANFA/3039-3488	1
+CL: P97313+2=PRKDC_MOUSE/3024-3472	1
+CL: Q62388+1=ATM_MOUSE/2102-2501	3
+CL: P42345+1=FRAP_HUMAN/1513-1910	2
+CL: Q13315+1=ATM_HUMAN/2096-2491	3
+CL: P35169+3=TOR1_YEAST/1461-1847	2
+CL: P32600+3=TOR2_YEAST/1468-1850	2
+CL: Q9Y4A5+3=TRRAP_HUMAN/2849-3204	0
+CL: Q10064+1=YAMB_SCHPO/2622-2976	0
+CL: P38811+1=TRA1_YEAST/2756-3108	0
+CL: O14356+1=TOR1_SCHPO/1360-1709	2
+CL: Q9Y7K2+2=TOR2_SCHPO/1363-1712	2
+CL: Q8I8U7+2=TRA1_DROME/2780-3117	0
+CL: Q13535+3=ATR_HUMAN/1771-2094	4
+CL: Q9DE14+2=ATR_XENLA/1785-2105	4
+
+Are there any position predicted as being important for the whole family?: 
+PR: YES
+Positions predicted: 
+RE: 488 1 3
+RE: 10 1 3
+RE: 471 1 3
+RE: 485 1 2
+RE: 609 1 2
+RE: 5 3.5 2
+
+UI: Number of positions predicted to be important for the group segregation: 6
+
+Are there any conserved position at 90 % of identity?: 
+CN: YES
+Conserved positions: 
+CP: 9
+CP: 134
+
+UI: Number of conserved positions (at 90 % of identity): 2

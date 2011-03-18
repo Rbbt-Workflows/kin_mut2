@@ -1,0 +1,63 @@
+UI: Initial number of sequences: 26
+UI: Initial number of positions: 87
+UI: Number of outliers: 0
+UI: Final number of sequences after removing outliers: 26
+UI: Final number of positions after removing gappy columns: 51
+II: Final number of columns in the disjunctive matrix: 365
+UI: Number of axes selected: 4
+UI: Percentage of initial variance considered informative: 53.7595 %
+UI: Checking a maximum number of groups equal to: 7
+UI: Stable cluster results have been found
+SC: YES
+UI: Number of groups selected: 6
+II: Clustering index value: CH_Index = 31.3425
+II: F-Fisher: 245.899
+II: Best solution found 215 times out of 500 iterations searching for 6 groups
+UI: Number of groups with less than 3 sequences: 2
+Is there enough group diversity to perform the analysis?:
+GD: YES
+
+Clustering of sequences: 
+CL: Q61036+2=PAK3_MOUSE/69-142	0
+CL: Q6NZY7+1=BORG3_HUMAN/22-93	5
+CL: Q9Z0X0+2=BORG3_MOUSE/22-88	5
+CL: Q9VXE5+2=PAKM_DROME/10-72	2
+CL: Q9H3Q1+1=BORG4_HUMAN/26-85	5
+CL: O00401+2=WASL_HUMAN/202-261	1
+CL: P42768+4=WASP_HUMAN/237-296	1
+CL: Q13153+2=PAK1_HUMAN/74-132	0
+CL: Q03497+1=STE20_YEAST/336-394	0
+CL: Q5PQP4+1=BORG1_RAT/29-87	4
+CL: Q17850+2=PAK1_CAEEL/66-124	0
+CL: P50527+2=STE20_SCHPO/146-204	0
+CL: Q12469+1=SKM1_YEAST/122-180	0
+CL: O14613+1=BORG1_HUMAN/29-87	4
+CL: P48562+1=CLA4_YEAST/183-241	0
+CL: O96013+1=PAK4_HUMAN/10-67	2
+CL: Q10056+1=SHK2_SCHPO/128-185	0
+CL: Q9P286+1=PAK7_HUMAN/10-67	2
+CL: Q9JM96+1=BORG4_MOUSE/26-83	5
+CL: Q9UKI2+1=BORG2_HUMAN/30-86	4
+CL: Q9NQU5+1=PAK6_HUMAN/11-67	2
+CL: Q17QW1+1=BORG5_BOVIN/37-88	5
+CL: Q7TT50+1=MRCKB_MOUSE/1584-1635	3
+CL: Q91W92+1=BORG5_MOUSE/37-88	5
+CL: Q00587+1=BORG5_HUMAN/37-88	5
+CL: Q7TT49+1=MRCKB_RAT/1584-1635	3
+
+Are there any position predicted as being important for the whole family?: 
+PR: YES
+Positions predicted: 
+RE: 41 1 2
+
+UI: Number of positions predicted to be important for the group segregation: 1
+
+Are there any conserved position at 90 % of identity?: 
+CN: YES
+Conserved positions: 
+CP: 5
+CP: 11
+CP: 14
+CP: 16
+
+UI: Number of conserved positions (at 90 % of identity): 4

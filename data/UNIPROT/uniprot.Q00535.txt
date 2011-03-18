@@ -1,0 +1,318 @@
+ID   CDK5_HUMAN              Reviewed;         292 AA.
+AC   Q00535;
+DT   01-APR-1993, integrated into UniProtKB/Swiss-Prot.
+DT   15-DEC-1998, sequence version 3.
+DT   05-OCT-2010, entry version 120.
+DE   RecName: Full=Cell division protein kinase 5;
+DE            EC=2.7.11.22;
+DE   AltName: Full=Cyclin-dependent kinase 5;
+DE   AltName: Full=Serine/threonine-protein kinase PSSALRE;
+DE   AltName: Full=Tau protein kinase II catalytic subunit;
+DE            Short=TPKII catalytic subunit;
+GN   Name=CDK5;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Fetal brain;
+RX   MEDLINE=92347325; PubMed=1639063;
+RA   Meyerson M., Enders G.H., Wu C.-L., Su L.-K., Gorka C., Nelson C.,
+RA   Harlow E., Tsai L.-H.;
+RT   "A family of human cdc2-related protein kinases.";
+RL   EMBO J. 11:2909-2917(1992).
+RN   [2]
+RP   SEQUENCE REVISION.
+RA   Meyerson M.;
+RL   Submitted (FEB-1993) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RA   Hu X., Xu Y., Zhang B., Peng X., Yuan J., Qiang B.;
+RL   Submitted (JUL-2001) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RA   Kalnine N., Chen X., Rolfs A., Halleck A., Hines L., Eisenstein S.,
+RA   Koundinya M., Raphael J., Moreira D., Kelley T., LaBaer J., Lin Y.,
+RA   Phelan M., Farmer A.;
+RT   "Cloning of human full-length CDSs in BD Creator(TM) system donor
+RT   vector.";
+RL   Submitted (MAY-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Lung;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [6]
+RP   INTERACTION WITH AATK.
+RX   PubMed=14521924; DOI=10.1016/j.bbrc.2003.08.143;
+RA   Honma N., Asada A., Takeshita S., Enomoto M., Yamakawa E.,
+RA   Tsutsumi K., Saito T., Satoh T., Itoh H., Kaziro Y., Kishimoto T.,
+RA   Hisanaga S.;
+RT   "Apoptosis-associated tyrosine kinase is a Cdk5 activator p35 binding
+RT   protein.";
+RL   Biochem. Biophys. Res. Commun. 310:398-404(2003).
+RN   [7]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-15, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Lung carcinoma;
+RX   PubMed=18083107; DOI=10.1016/j.cell.2007.11.025;
+RA   Rikova K., Guo A., Zeng Q., Possemato A., Yu J., Haack H., Nardone J.,
+RA   Lee K., Reeves C., Li Y., Hu Y., Tan Z., Stokes M., Sullivan L.,
+RA   Mitchell J., Wetzel R., Macneill J., Ren J.M., Yuan J.,
+RA   Bakalarski C.E., Villen J., Kornhauser J.M., Smith B., Li D., Zhou X.,
+RA   Gygi S.P., Gu T.-L., Polakiewicz R.D., Rush J., Comb M.J.;
+RT   "Global survey of phosphotyrosine signaling identifies oncogenic
+RT   kinases in lung cancer.";
+RL   Cell 131:1190-1203(2007).
+RN   [8]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-15; THR-17 AND SER-72,
+RP   AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [9]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RA   Colinge J., Superti-Furga G., Bennett K.L.;
+RL   Submitted (OCT-2008) to UniProtKB.
+RN   [10]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-15, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Embryonic kidney;
+RX   PubMed=19413330; DOI=10.1021/ac9004309;
+RA   Gauci S., Helbig A.O., Slijper M., Krijgsveld J., Heck A.J.,
+RA   Mohammed S.;
+RT   "Lys-N and trypsin cover complementary parts of the phosphoproteome in
+RT   a refined SCX-based approach.";
+RL   Anal. Chem. 81:4493-4501(2009).
+RN   [11]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-15, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Mammary epithelium;
+RX   PubMed=19534553; DOI=10.1021/pr900044c;
+RA   Heibeck T.H., Ding S.-J., Opresko L.K., Zhao R., Schepmoes A.A.,
+RA   Yang F., Tolmachev A.V., Monroe M.E., Camp D.G. II, Smith R.D.,
+RA   Wiley H.S., Qian W.-J.;
+RT   "An extensive survey of tyrosine phosphorylation revealing new sites
+RT   in human mammary epithelial cells.";
+RL   J. Proteome Res. 8:3852-3861(2009).
+RN   [12]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-14; TYR-15; THR-17;
+RP   SER-46; SER-72 AND TYR-239, AND MASS SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [13]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-15, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=19690332; DOI=10.1126/scisignal.2000007;
+RA   Mayya V., Lundgren D.H., Hwang S.-I., Rezaul K., Wu L., Eng J.K.,
+RA   Rodionov V., Han D.K.;
+RT   "Quantitative phosphoproteomic analysis of T cell receptor signaling
+RT   reveals system-wide modulation of protein-protein interactions.";
+RL   Sci. Signal. 2:RA46-RA46(2009).
+RN   [14]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT LYS-56, AND MASS SPECTROMETRY.
+RX   PubMed=19608861; DOI=10.1126/science.1175371;
+RA   Choudhary C., Kumar C., Gnad F., Nielsen M.L., Rehman M., Walther T.,
+RA   Olsen J.V., Mann M.;
+RT   "Lysine acetylation targets protein complexes and co-regulates major
+RT   cellular functions.";
+RL   Science 325:834-840(2009).
+RN   [15]
+RP   VARIANT [LARGE SCALE ANALYSIS] ASP-225.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Probably involved in the control of the cell cycle.
+CC       Interacts with D1 and D3-type G1 cyclins. Can phosphorylate
+CC       histone H1, tau, MAP2 and NF-H and NF-M. Also interacts with p35
+CC       which activates the kinase.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- SUBUNIT: Heterodimer of a catalytic subunit and a regulatory
+CC       subunit (p35). Found in a trimolecular complex with CABLES1 and
+CC       ABL1. Interacts with CABLES1 (By similarity). Interacts with AATK.
+CC   -!- INTERACTION:
+CC       Q6ZMQ8:AATK; NbExp=2; IntAct=EBI-1041567, EBI-2008380;
+CC       P38936:CDKN1A; NbExp=1; IntAct=EBI-1041567, EBI-375077;
+CC       P46527:CDKN1B; NbExp=2; IntAct=EBI-1041567, EBI-519280;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm (By similarity). Cell projection,
+CC       lamellipodium (By similarity). Cell projection, growth cone (By
+CC       similarity). Note=In axonal growth cone with extension to the
+CC       peripheral lamellipodia (By similarity).
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CMGC
+CC       Ser/Thr protein kinase family. CDC2/CDKX subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X66364; CAA47007.1; -; mRNA.
+DR   EMBL; AY049778; AAL15435.1; -; mRNA.
+DR   EMBL; BT006680; AAP35326.1; -; mRNA.
+DR   EMBL; BC005115; AAH05115.1; -; mRNA.
+DR   IPI; IPI00023530; -.
+DR   PIR; S23386; S23386.
+DR   RefSeq; NP_001157882.1; -.
+DR   RefSeq; NP_004926.1; -.
+DR   UniGene; Hs.647078; -.
+DR   PDB; 1H4L; X-ray; 2.65 A; A/B=1-292.
+DR   PDB; 1LFR; Model; -; A=1-292.
+DR   PDB; 1UNG; X-ray; 2.30 A; A/B=1-292.
+DR   PDB; 1UNH; X-ray; 2.35 A; A/B=1-292.
+DR   PDB; 1UNL; X-ray; 2.20 A; A/B=1-292.
+DR   PDBsum; 1H4L; -.
+DR   PDBsum; 1LFR; -.
+DR   PDBsum; 1UNG; -.
+DR   PDBsum; 1UNH; -.
+DR   PDBsum; 1UNL; -.
+DR   ProteinModelPortal; Q00535; -.
+DR   DIP; DIP-24221N; -.
+DR   IntAct; Q00535; 21.
+DR   MINT; MINT-1037488; -.
+DR   STRING; Q00535; -.
+DR   PhosphoSite; Q00535; -.
+DR   PRIDE; Q00535; -.
+DR   Ensembl; ENST00000297518; ENSP00000297518; ENSG00000164885.
+DR   Ensembl; ENST00000485972; ENSP00000419782; ENSG00000164885.
+DR   GeneID; 1020; -.
+DR   KEGG; hsa:1020; -.
+DR   UCSC; uc003wir.1; human.
+DR   CTD; 1020; -.
+DR   GeneCards; GC07M150750; -.
+DR   H-InvDB; HIX0019667; -.
+DR   HGNC; HGNC:1774; CDK5.
+DR   HPA; CAB008909; -.
+DR   HPA; HPA018977; -.
+DR   MIM; 123831; gene.
+DR   PharmGKB; PA26310; -.
+DR   eggNOG; prNOG04827; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG014652; -.
+DR   InParanoid; Q00535; -.
+DR   OMA; FEYCDQD; -.
+DR   OrthoDB; EOG9SBHHR; -.
+DR   PhylomeDB; Q00535; -.
+DR   BRENDA; 2.7.11.22; 247.
+DR   Pathway_Interaction_DB; epha_fwdpathway; EPHA forward signaling.
+DR   Pathway_Interaction_DB; lis1pathway; Lissencephaly gene (LIS1) in neuronal migration and development.
+DR   Pathway_Interaction_DB; reelinpathway; Reelin signaling pathway.
+DR   Pathway_Interaction_DB; mapktrkpathway; Trk receptor signaling mediated by the MAPK pathway.
+DR   Reactome; REACT_15295; Opioid Signalling.
+DR   Reactome; REACT_18266; Axon guidance.
+DR   BindingDB; Q00535; -.
+DR   NextBio; 4287; -.
+DR   ArrayExpress; Q00535; -.
+DR   Bgee; Q00535; -.
+DR   CleanEx; HS_CDK5; -.
+DR   Genevestigator; Q00535; -.
+DR   GermOnline; ENSG00000164885; Homo sapiens.
+DR   GO; GO:0030424; C:axon; ISS:UniProtKB.
+DR   GO; GO:0005829; C:cytosol; EXP:Reactome.
+DR   GO; GO:0030425; C:dendrite; ISS:UniProtKB.
+DR   GO; GO:0030426; C:growth cone; ISS:UniProtKB.
+DR   GO; GO:0030027; C:lamellipodium; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; ISS:UniProtKB.
+DR   GO; GO:0031594; C:neuromuscular junction; ISS:UniProtKB.
+DR   GO; GO:0043025; C:neuronal cell body; ISS:UniProtKB.
+DR   GO; GO:0030549; F:acetylcholine receptor activator activity; ISS:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004693; F:cyclin-dependent protein kinase activity; EXP:Reactome.
+DR   GO; GO:0005176; F:ErbB-2 class receptor binding; ISS:UniProtKB.
+DR   GO; GO:0043125; F:ErbB-3 class receptor binding; ISS:UniProtKB.
+DR   GO; GO:0050321; F:tau-protein kinase activity; ISS:UniProtKB.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0008283; P:cell proliferation; TAS:ProtInc.
+DR   GO; GO:0009790; P:embryo development; ISS:UniProtKB.
+DR   GO; GO:0043525; P:positive regulation of neuron apoptosis; ISS:UniProtKB.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; ATP-binding; Cell cycle; Cell division;
+KW   Cell projection; Complete proteome; Cytoplasm; Kinase;
+KW   Nucleotide-binding; Phosphoprotein; Polymorphism;
+KW   Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    292       Cell division protein kinase 5.
+FT                                /FTId=PRO_0000085784.
+FT   DOMAIN        4    286       Protein kinase.
+FT   NP_BIND      10     18       ATP (By similarity).
+FT   ACT_SITE    126    126       Proton acceptor (By similarity).
+FT   BINDING      33     33       ATP (By similarity).
+FT   MOD_RES      14     14       Phosphothreonine.
+FT   MOD_RES      15     15       Phosphotyrosine; by ABL1.
+FT   MOD_RES      17     17       Phosphothreonine.
+FT   MOD_RES      46     46       Phosphoserine.
+FT   MOD_RES      56     56       N6-acetyllysine.
+FT   MOD_RES      72     72       Phosphoserine.
+FT   MOD_RES     159    159       Phosphoserine (By similarity).
+FT   MOD_RES     239    239       Phosphotyrosine.
+FT   VARIANT     225    225       E -> D (in dbSNP:rs35186917).
+FT                                /FTId=VAR_041977.
+FT   STRAND        4      9
+FT   STRAND       17     23
+FT   TURN         24     26
+FT   STRAND       29     38
+FT   STRAND       40     42
+FT   HELIX        45     55
+FT   STRAND       66     72
+FT   STRAND       75     81
+FT   STRAND       84     86
+FT   HELIX        87     93
+FT   TURN         94     96
+FT   HELIX       100    119
+FT   HELIX       129    131
+FT   STRAND      132    134
+FT   STRAND      140    142
+FT   HELIX       145    147
+FT   HELIX       165    167
+FT   HELIX       170    173
+FT   HELIX       182    195
+FT   TURN        196    198
+FT   HELIX       208    219
+FT   TURN        224    226
+FT   HELIX       230    232
+FT   TURN        249    251
+FT   HELIX       257    266
+FT   HELIX       271    273
+FT   HELIX       277    280
+FT   HELIX       284    286
+SQ   SEQUENCE   292 AA;  33304 MW;  54D10495F017D527 CRC64;
+     MQKYEKLEKI GEGTYGTVFK AKNRETHEIV ALKRVRLDDD DEGVPSSALR EICLLKELKH
+     KNIVRLHDVL HSDKKLTLVF EFCDQDLKKY FDSCNGDLDP EIVKSFLFQL LKGLGFCHSR
+     NVLHRDLKPQ NLLINRNGEL KLADFGLARA FGIPVRCYSA EVVTLWYRPP DVLFGAKLYS
+     TSIDMWSAGC IFAELANAGR PLFPGNDVDD QLKRIFRLLG TPTEEQWPSM TKLPDYKPYP
+     MYPATTSLVN VVPKLNATGR DLLQNLLKCN PVQRISAEEA LQHPYFSDFC PP
+//

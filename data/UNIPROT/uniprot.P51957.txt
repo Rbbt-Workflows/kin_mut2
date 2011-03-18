@@ -1,0 +1,276 @@
+ID   NEK4_HUMAN              Reviewed;         841 AA.
+AC   P51957; A5YM70; B2R633; Q6P576;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   05-MAY-2009, sequence version 2.
+DT   02-NOV-2010, entry version 99.
+DE   RecName: Full=Serine/threonine-protein kinase Nek4;
+DE            EC=2.7.11.1;
+DE   AltName: Full=Never in mitosis A-related kinase 4;
+DE            Short=NimA-related protein kinase 4;
+DE   AltName: Full=Serine/threonine-protein kinase 2;
+DE   AltName: Full=Serine/threonine-protein kinase NRK2;
+GN   Name=NEK4; Synonyms=STK2;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), AND VARIANT ALA-225.
+RC   TISSUE=Mammary gland;
+RX   MEDLINE=94268838; PubMed=8208544;
+RA   Levedakou E.N., He M., Baptist E.W., Craven R.J., Cance W.G.,
+RA   Welcsh P.L., Simmons A., Naylor S.L., Leach R.J., Lewis T.B.,
+RA   Bowcock A., Liu E.T.;
+RT   "Two novel human serine/threonine kinases with homologies to the cell
+RT   cycle regulating Xenopus MO15, and NIMA kinases: cloning and
+RT   characterization of their expression pattern.";
+RL   Oncogene 9:1977-1988(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), AND VARIANT ALA-225.
+RA   Schupp I.;
+RL   Submitted (APR-2007) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   TISSUE=Brain;
+RX   PubMed=14702039; DOI=10.1038/ng1285;
+RA   Ota T., Suzuki Y., Nishikawa T., Otsuki T., Sugiyama T., Irie R.,
+RA   Wakamatsu A., Hayashi K., Sato H., Nagai K., Kimura K., Makita H.,
+RA   Sekine M., Obayashi M., Nishi T., Shibahara T., Tanaka T., Ishii S.,
+RA   Yamamoto J., Saito K., Kawai Y., Isono Y., Nakamura Y., Nagahari K.,
+RA   Murakami K., Yasuda T., Iwayanagi T., Wagatsuma M., Shiratori A.,
+RA   Sudo H., Hosoiri T., Kaku Y., Kodaira H., Kondo H., Sugawara M.,
+RA   Takahashi M., Kanda K., Yokoi T., Furuya T., Kikkawa E., Omura Y.,
+RA   Abe K., Kamihara K., Katsuta N., Sato K., Tanikawa M., Yamazaki M.,
+RA   Ninomiya K., Ishibashi T., Yamashita H., Murakawa K., Fujimori K.,
+RA   Tanai H., Kimata M., Watanabe M., Hiraoka S., Chiba Y., Ishida S.,
+RA   Ono Y., Takiguchi S., Watanabe S., Yosida M., Hotuta T., Kusano J.,
+RA   Kanehori K., Takahashi-Fujii A., Hara H., Tanase T.-O., Nomura Y.,
+RA   Togiya S., Komai F., Hara R., Takeuchi K., Arita M., Imose N.,
+RA   Musashino K., Yuuki H., Oshima A., Sasaki N., Aotsuka S.,
+RA   Yoshikawa Y., Matsunawa H., Ichihara T., Shiohata N., Sano S.,
+RA   Moriya S., Momiyama H., Satoh N., Takami S., Terashima Y., Suzuki O.,
+RA   Nakagawa S., Senoh A., Mizoguchi H., Goto Y., Shimizu F., Wakebe H.,
+RA   Hishigaki H., Watanabe T., Sugiyama A., Takemoto M., Kawakami B.,
+RA   Yamazaki M., Watanabe K., Kumagai A., Itakura S., Fukuzumi Y.,
+RA   Fujimori Y., Komiyama M., Tashiro H., Tanigami A., Fujiwara T.,
+RA   Ono T., Yamada K., Fujii Y., Ozaki K., Hirao M., Ohmori Y.,
+RA   Kawabata A., Hikiji T., Kobatake N., Inagaki H., Ikema Y., Okamoto S.,
+RA   Okitani R., Kawakami T., Noguchi S., Itoh T., Shigeta K., Senba T.,
+RA   Matsumura K., Nakajima Y., Mizuno T., Morinaga M., Sasaki M.,
+RA   Togashi T., Oyama M., Hata H., Watanabe M., Komatsu T.,
+RA   Mizushima-Sugano J., Satoh T., Shirai Y., Takahashi Y., Nakagawa K.,
+RA   Okumura K., Nagase T., Nomura N., Kikuchi H., Masuho Y., Yamashita R.,
+RA   Nakai K., Yada T., Nakamura Y., Ohara O., Isogai T., Sugano S.;
+RT   "Complete sequencing and characterization of 21,243 full-length human
+RT   cDNAs.";
+RL   Nat. Genet. 36:40-45(2004).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=16641997; DOI=10.1038/nature04728;
+RA   Muzny D.M., Scherer S.E., Kaul R., Wang J., Yu J., Sudbrak R.,
+RA   Buhay C.J., Chen R., Cree A., Ding Y., Dugan-Rocha S., Gill R.,
+RA   Gunaratne P., Harris R.A., Hawes A.C., Hernandez J., Hodgson A.V.,
+RA   Hume J., Jackson A., Khan Z.M., Kovar-Smith C., Lewis L.R.,
+RA   Lozado R.J., Metzker M.L., Milosavljevic A., Miner G.R., Morgan M.B.,
+RA   Nazareth L.V., Scott G., Sodergren E., Song X.-Z., Steffen D., Wei S.,
+RA   Wheeler D.A., Wright M.W., Worley K.C., Yuan Y., Zhang Z., Adams C.Q.,
+RA   Ansari-Lari M.A., Ayele M., Brown M.J., Chen G., Chen Z.,
+RA   Clendenning J., Clerc-Blankenburg K.P., Chen R., Chen Z., Davis C.,
+RA   Delgado O., Dinh H.H., Dong W., Draper H., Ernst S., Fu G.,
+RA   Gonzalez-Garay M.L., Garcia D.K., Gillett W., Gu J., Hao B.,
+RA   Haugen E., Havlak P., He X., Hennig S., Hu S., Huang W., Jackson L.R.,
+RA   Jacob L.S., Kelly S.H., Kube M., Levy R., Li Z., Liu B., Liu J.,
+RA   Liu W., Lu J., Maheshwari M., Nguyen B.-V., Okwuonu G.O., Palmeiri A.,
+RA   Pasternak S., Perez L.M., Phelps K.A., Plopper F.J., Qiang B.,
+RA   Raymond C., Rodriguez R., Saenphimmachak C., Santibanez J., Shen H.,
+RA   Shen Y., Subramanian S., Tabor P.E., Verduzco D., Waldron L., Wang J.,
+RA   Wang J., Wang Q., Williams G.A., Wong G.K.-S., Yao Z., Zhang J.,
+RA   Zhang X., Zhao G., Zhou J., Zhou Y., Nelson D., Lehrach H.,
+RA   Reinhardt R., Naylor S.L., Yang H., Olson M., Weinstock G.,
+RA   Gibbs R.A.;
+RT   "The DNA sequence, annotation and analysis of human chromosome 3.";
+RL   Nature 440:1194-1198(2006).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2), AND VARIANT
+RP   ALA-225.
+RC   TISSUE=Brain;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [6]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-563, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=17924679; DOI=10.1021/pr070152u;
+RA   Yu L.-R., Zhu Z., Chan K.C., Issaq H.J., Dimitrov D.S., Veenstra T.D.;
+RT   "Improved titanium dioxide enrichment of phosphopeptides from HeLa
+RT   cells and high confident phosphopeptide identification by cross-
+RT   validation of MS/MS and MS/MS/MS spectra.";
+RL   J. Proteome Res. 6:4150-4162(2007).
+RN   [7]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-484, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [8]
+RP   VARIANTS [LARGE SCALE ANALYSIS] ALA-225; GLY-239; LEU-250; ILE-357;
+RP   GLU-456; LEU-567 AND LYS-777.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Seems to act exclusively upon threonine residues (By
+CC       similarity).
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- COFACTOR: Magnesium (By similarity).
+CC   -!- SUBCELLULAR LOCATION: Nucleus (Probable).
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=P51957-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=P51957-2; Sequence=VSP_037123, VSP_037124;
+CC         Note=No experimental confirmation available;
+CC   -!- TISSUE SPECIFICITY: Highest expression in adult heart, followed by
+CC       pancreas, skeletal muscle, brain, liver, kidney, lung and
+CC       placenta. Present in most primary carcinomas.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. NEK Ser/Thr
+CC       protein kinase family. NIMA subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; L20321; AAA36658.1; -; mRNA.
+DR   EMBL; EF560744; ABQ59054.1; -; mRNA.
+DR   EMBL; AK312420; BAG35330.1; -; mRNA.
+DR   EMBL; AC006254; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AC104446; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; BC063044; AAH63044.1; -; mRNA.
+DR   IPI; IPI00021333; -.
+DR   IPI; IPI00440811; -.
+DR   PIR; I78885; I78885.
+DR   RefSeq; NP_001180462.1; -.
+DR   RefSeq; NP_003148.2; -.
+DR   UniGene; Hs.631921; -.
+DR   ProteinModelPortal; P51957; -.
+DR   STRING; P51957; -.
+DR   PhosphoSite; P51957; -.
+DR   PRIDE; P51957; -.
+DR   Ensembl; ENST00000233027; ENSP00000233027; ENSG00000114904.
+DR   GeneID; 6787; -.
+DR   KEGG; hsa:6787; -.
+DR   UCSC; uc003dfq.2; human.
+DR   CTD; 6787; -.
+DR   GeneCards; GC03M052719; -.
+DR   H-InvDB; HIX0030800; -.
+DR   HGNC; HGNC:11399; NEK4.
+DR   HPA; HPA015750; -.
+DR   MIM; 601959; gene.
+DR   PharmGKB; PA31548; -.
+DR   eggNOG; prNOG11811; -.
+DR   HOGENOM; HBG713157; -.
+DR   HOVERGEN; HBG031740; -.
+DR   InParanoid; P51957; -.
+DR   OMA; SRQRRQK; -.
+DR   OrthoDB; EOG9M94B6; -.
+DR   PhylomeDB; P51957; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   PMAP-CutDB; P51957; -.
+DR   ArrayExpress; P51957; -.
+DR   Bgee; P51957; -.
+DR   CleanEx; HS_NEK4; -.
+DR   Genevestigator; P51957; -.
+DR   GermOnline; ENSG00000114904; Homo sapiens.
+DR   GO; GO:0005634; C:nucleus; IDA:HPA.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; TAS:ProtInc.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0007067; P:mitosis; IEA:UniProtKB-KW.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; TAS:ProtInc.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; ATP-binding; Cell cycle; Cell division;
+KW   Complete proteome; Kinase; Magnesium; Metal-binding; Mitosis;
+KW   Nucleotide-binding; Nucleus; Phosphoprotein; Polymorphism;
+KW   Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    841       Serine/threonine-protein kinase Nek4.
+FT                                /FTId=PRO_0000086425.
+FT   DOMAIN        6    261       Protein kinase.
+FT   NP_BIND      12     20       ATP (By similarity).
+FT   ACT_SITE    131    131       Proton acceptor (By similarity).
+FT   BINDING      35     35       ATP (By similarity).
+FT   MOD_RES     165    165       Phosphothreonine; by autocatalysis (By
+FT                                similarity).
+FT   MOD_RES     484    484       Phosphoserine.
+FT   MOD_RES     563    563       Phosphoserine.
+FT   VAR_SEQ     457    502       Missing (in isoform 2).
+FT                                /FTId=VSP_037123.
+FT   VAR_SEQ     813    841       RLREHMGEKYTTYSVKARQLKFFEENMNF -> SVSLTVSR
+FT                                CLCYRIF (in isoform 2).
+FT                                /FTId=VSP_037124.
+FT   VARIANT     225    225       P -> A (in dbSNP:rs1029871).
+FT                                /FTId=VAR_040915.
+FT   VARIANT     239    239       R -> G (in dbSNP:rs35778416).
+FT                                /FTId=VAR_040916.
+FT   VARIANT     250    250       P -> L (in dbSNP:rs56408749).
+FT                                /FTId=VAR_040917.
+FT   VARIANT     357    357       T -> I (in dbSNP:rs2230537).
+FT                                /FTId=VAR_040918.
+FT   VARIANT     456    456       Q -> E (in dbSNP:rs56019351).
+FT                                /FTId=VAR_040919.
+FT   VARIANT     567    567       F -> L (in dbSNP:rs34986855).
+FT                                /FTId=VAR_040920.
+FT   VARIANT     777    777       R -> K (in a colorectal adenocarcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_040921.
+FT   CONFLICT     63     63       P -> L (in Ref. 3; BAG35330).
+FT   CONFLICT     64     64       N -> D (in Ref. 2; ABQ59054).
+FT   CONFLICT    333    333       R -> K (in Ref. 3; BAG35330).
+SQ   SEQUENCE   841 AA;  94597 MW;  43E8F11BA4007263 CRC64;
+     MPLAAYCYLR VVGKGSYGEV TLVKHRRDGK QYVIKKLNLR NASSRERRAA EQEAQLLSQL
+     KHPNIVTYKE SWEGGDGLLY IVMGFCEGGD LYRKLKEQKG QLLPENQVVE WFVQIAMALQ
+     YLHEKHILHR DLKTQNVFLT RTNIIKVGDL GIARVLENHC DMASTLIGTP YYMSPELFSN
+     KPYNYKSDVW ALGCCVYEMA TLKHAFNAKD MNSLVYRIIE GKLPPMPRDY SPELAELIRT
+     MLSKRPEERP SVRSILRQPY IKRQISFFLE ATKIKTSKNN IKNGDSQSKP FATVVSGEAE
+     SNHEVIHPQP LSSEGSQTYI MGEGKCLSQE KPRASGLLKS PASLKAHTCK QDLSNTTELA
+     TISSVNIDIL PAKGRDSVSD GFVQENQPRY LDASNELGGI CSISQVEEEM LQDNTKSSAQ
+     PENLIPMWSS DIVTGEKNEP VKPLQPLIKE QKPKDQSLAL SPKLECSGTI LAHSNLRLLG
+     SSDSPASASR VAGITGVCHH AQDQVAGECI IEKQGRIHPD LQPHNSGSEP SLSRQRRQKR
+     REQTEHRGEK RQVRRDLFAF QESPPRFLPS HPIVGKVDVT STQKEAENQR RVVTGSVSSS
+     RSSEMSSSKD RPLSARERRR LKQSQEEMSS SGPSVRKASL SVAGPGKPQE EDQPLPARRL
+     SSDCSVTQER KQIHCLSEDE LSSSTSSTDK SDGDYGEGKG QTNEINALVQ LMTQTLKLDS
+     KESCEDVPVA NPVSEFKLHR KYRDTLILHG KVAEEAEEIH FKELPSAIMP GSEKIRRLVE
+     VLRTDVIRGL GVQLLEQVYD LLEEEDEFDR EVRLREHMGE KYTTYSVKAR QLKFFEENMN
+     F
+//

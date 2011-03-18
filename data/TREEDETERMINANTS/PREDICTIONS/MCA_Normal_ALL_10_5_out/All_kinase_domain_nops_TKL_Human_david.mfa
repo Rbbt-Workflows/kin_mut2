@@ -1,0 +1,162 @@
+UI: Initial number of sequences: 138
+UI: Initial number of positions: 838
+UI: Number of outliers: 0
+UI: Final number of sequences after removing outliers: 138
+UI: Final number of positions after removing gappy columns: 201
+II: Final number of columns in the disjunctive matrix: 2508
+UI: Number of axes selected: 4
+UI: Percentage of initial variance considered informative: 9.07564 %
+UI: Checking a maximum number of groups equal to: 35
+UI: Stable cluster results have been found
+SC: YES
+UI: Number of groups selected: 2
+II: Clustering index value: CH_Index = 100.084
+II: F-Fisher: 49.2651
+II: Best solution found 416 times out of 1380 iterations searching for 2 groups
+UI: Number of groups with less than 3 sequences: 0
+Is there enough group diversity to perform the analysis?:
+GD: YES
+
+Clustering of sequences: 
+CL: Roco8_Ddis	0
+CL: sma-6_Cele	1
+CL: LRRKc_Spur	0
+CL: LRRKd_Spur	0
+CL: IRAK1_Hsap	0
+CL: IRAK1_Mmus	0
+CL: MISR2_Mmus	1
+CL: BMPR2_Hsap	1
+CL: KinY_Ddis	0
+CL: LRRKa_Spur	0
+CL: MISR2_Hsap	1
+CL: K11D12.10_Cele	0
+CL: DDB0229867_Ddis	0
+CL: ksr-2_Cele	0
+CL: wit_Dmel	1
+CL: TGFbR2_Hsap	1
+CL: TGFbRII_Spur	1
+CL: tkv_Dmel	1
+CL: T27C10.5_Cele	0
+CL: BMPR2_Spur	1
+CL: pik-1_Cele	0
+CL: DDB0220138_Ddis	0
+CL: DDB0229866_Ddis	0
+CL: ACTR2B_Hsap	1
+CL: QkgA_Ddis	0
+CL: ALK2_Spur	1
+CL: SAX_Dmel	1
+CL: ALK2_Hsap	1
+CL: ALK1_Hsap	1
+CL: BMPR1A_Hsap	1
+CL: BMPR1B_Hsap	1
+CL: BABO_Dmel	1
+CL: TGFbR1_Spur	1
+CL: ALK7_Hsap	1
+CL: TGFbR1_Hsap	1
+CL: ALK4_Hsap	1
+CL: ACTR2_Hsap	1
+CL: Roco9_Ddis	0
+CL: LIMK1_Dmel	0
+CL: ksr-1_Cele	0
+CL: GbpC_Ddis	0
+CL: LRRK1_Hsap	0
+CL: LRRK1_Mmus	0
+CL: put_Dmel	1
+CL: ACTR2_Spur	1
+CL: ANKK2_Spur	0
+CL: IRAK3_Hsap	0
+CL: IRAK3_Mmus	0
+CL: LIMK_Spur	0
+CL: ANKK6_Spur	0
+CL: Tesk_Spur	0
+CL: MLK4_Hsap	0
+CL: HH498_Ddis	0
+CL: Roco6_Ddis	0
+CL: RIPK3_Mmus	0
+CL: LIMK2_Hsap	0
+CL: CG5483_Dmel	0
+CL: RIPK1_Hsap	0
+CL: RIPK1_Mmus	0
+CL: Irak1_Spur	0
+CL: IRAK4_Hsap	0
+CL: IRAK4_Mmus	0
+CL: IRAK2_Hsap	0
+CL: IRAK2_Mmus	0
+CL: daf-1_Cele	1
+CL: MLKL_Hsap	0
+CL: RIPK3_Hsap	0
+CL: RIPK2_Hsap	0
+CL: RIPK2_Mmus	0
+CL: pll_Dmel	0
+CL: LIMK1_Hsap	0
+CL: C24A1.3_Cele	0
+CL: Pats1_Ddis	0
+CL: ANKRD3_Hsap	0
+CL: daf-4_Cele	1
+CL: KSR1_Hsap	0
+CL: Roco7_Ddis	0
+CL: lin-45_Cele	0
+CL: MLK2_Hsap	0
+CL: ANKK1_Spur	0
+CL: KSR2_Hsap	0
+CL: ksr_Dmel	0
+CL: Roco4_Ddis	0
+CL: Roco5_Ddis	0
+CL: HH498_Hsap	0
+CL: 12330_Tthe	0
+CL: BRAF_Hsap	0
+CL: RAF1_Hsap	0
+CL: MLK1_Hsap	0
+CL: MLK3_Hsap	0
+CL: Roco11_Ddis	0
+CL: LRRKb_Spur	0
+CL: Raf_Spur	0
+CL: ARAF_Hsap	0
+CL: R13F6.6_Cele	0
+CL: slpr_Dmel	0
+CL: TESK1_Hsap	0
+CL: MLKL_Mmus	0
+CL: phl_Dmel	0
+CL: ILK_Hsap	0
+CL: Takl1_Dmel	0
+CL: SgK288_Hsap	0
+CL: SgK288_Mmus	0
+CL: cdi_Dmel	0
+CL: LRRK2_Hsap	0
+CL: mom-4_Cele	0
+CL: TNNI3K_Spur	0
+CL: KinX_Ddis	0
+CL: DPYK3~b_Ddis	0
+CL: DDB0229854_Ddis	0
+CL: pat-4_Cele	0
+CL: TESK2_Hsap	0
+CL: DDB0229955_Ddis	0
+CL: DDB0229871_Ddis	0
+CL: TAK1_Hsap	0
+CL: DDB0230133_Ddis	0
+CL: DDB0229853_Ddis	0
+CL: DDB0229865_Ddis	0
+CL: DDB0229863_Ddis	0
+CL: ILK_Spur	0
+CL: Tak1_Dmel	0
+CL: ZAK_Hsap	0
+CL: Ilk_Dmel	0
+CL: F33E2.2_Cele	0
+CL: LZK_Spur	0
+CL: DDB0229956_Ddis	0
+CL: CG8789_Dmel	0
+CL: LZK_Hsap	0
+CL: DLK_Hsap	0
+CL: Takl2_Dmel	0
+CL: DDB0229851_Ddis	0
+CL: ANKK5_Spur	0
+CL: TAK1_Spur	0
+CL: Y105C5A.24_Cele	0
+CL: BMPR1_Spur	1
+CL: Irak2_Spur	0
+CL: ANKK4_Spur	0
+CL: KSR1_Spur	0
+
+Are there any position predicted as being important for the whole family?: 
+PR: NO
+UI: There are no positions predicted to be important for the group segregation

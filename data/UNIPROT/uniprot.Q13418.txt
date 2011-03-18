@@ -1,0 +1,307 @@
+ID   ILK_HUMAN               Reviewed;         452 AA.
+AC   Q13418; P57043; Q68DZ3;
+DT   01-DEC-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1998, sequence version 2.
+DT   05-OCT-2010, entry version 116.
+DE   RecName: Full=Integrin-linked protein kinase;
+DE            EC=2.7.11.1;
+DE   AltName: Full=59 kDa serine/threonine-protein kinase;
+DE   AltName: Full=ILK-1;
+DE   AltName: Full=ILK-2;
+DE   AltName: Full=p59ILK;
+GN   Name=ILK; Synonyms=ILK1, ILK2;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Placenta;
+RX   MEDLINE=96135142; PubMed=8538749; DOI=10.1038/379091a0;
+RA   Hannigan G.E., Leung-Hagesteijn C., Fitz-Gibbon L., Coppolino M.G.,
+RA   Radeva G., Filmus J., Bell J.C., Dedhar S.;
+RT   "Regulation of cell adhesion and anchorage-dependent growth by a new
+RT   beta 1-integrin-linked protein kinase.";
+RL   Nature 379:91-96(1996).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   MEDLINE=20332243; PubMed=10871859; DOI=10.1038/sj.onc.1203640;
+RA   Janji B., Melchior C., Vallar L., Kieffer N.;
+RT   "Cloning of an isoform of integrin-linked kinase (ILK) that is
+RT   upregulated in HT-144 melanoma cells following TGF-beta1
+RT   stimulation.";
+RL   Oncogene 19:3069-3077(2000).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RA   Tadic B., Hannigan G.E.;
+RT   "Integrin-linked kinase genomic sequence.";
+RL   Submitted (MAR-2000) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RA   Melchior C., Janji B., Kreis S., Kieffer N.;
+RT   "Structural organisation of the gene encoding integrin-linked kinase
+RT   1.";
+RL   Submitted (JUL-2000) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RA   Ebert L., Schick M., Neubert P., Schatten R., Henze S., Korn B.;
+RT   "Cloning of human full open reading frames in Gateway(TM) system entry
+RT   vector (pDONR201).";
+RL   Submitted (MAY-2004) to the EMBL/GenBank/DDBJ databases.
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Endometrium;
+RX   PubMed=17974005; DOI=10.1186/1471-2164-8-399;
+RA   Bechtel S., Rosenfelder H., Duda A., Schmidt C.P., Ernst U.,
+RA   Wellenreuther R., Mehrle A., Schuster C., Bahr A., Bloecker H.,
+RA   Heubner D., Hoerlein A., Michel G., Wedler H., Koehrer K.,
+RA   Ottenwaelder B., Poustka A., Wiemann S., Schupp I.;
+RT   "The full-ORF clone resource of the German cDNA consortium.";
+RL   BMC Genomics 8:399-399(2007).
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Cervix;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [8]
+RP   CHARACTERIZATION, AND MUTAGENESIS OF GLU-359.
+RX   MEDLINE=98409636; PubMed=9736715; DOI=10.1073/pnas.95.19.11211;
+RA   Delcommenne M., Tan C., Gray V., Rue L., Woodgett J.R., Dedhar S.;
+RT   "Phosphoinositide-3-OH kinase-dependent regulation of glycogen
+RT   synthase kinase 3 and protein kinase B/AKT by the integrin-linked
+RT   kinase.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 95:11211-11216(1998).
+RN   [9]
+RP   REVIEW.
+RX   MEDLINE=20179495; PubMed=10712922; DOI=10.1016/S0955-0674(99)00083-6;
+RA   Dedhar S.;
+RT   "Cell-substrate interactions and signaling through ILK.";
+RL   Curr. Opin. Cell Biol. 12:250-256(2000).
+RN   [10]
+RP   SUBCELLULAR LOCATION, AND INTERACTION WITH LIMS1 AND LIMS2.
+RX   MEDLINE=22254900; PubMed=12167643; DOI=10.1074/jbc.M205576200;
+RA   Zhang Y., Chen K., Guo L., Wu C.;
+RT   "Characterization of PINCH-2, a new focal adhesion protein that
+RT   regulates the PINCH-1-ILK interaction, cell spreading, and
+RT   migration.";
+RL   J. Biol. Chem. 277:38328-38338(2002).
+RN   [11]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RA   Colinge J., Superti-Furga G., Bennett K.L.;
+RL   Submitted (OCT-2008) to UniProtKB.
+RN   [12]
+RP   X-RAY CRYSTALLOGRAPHY (1.6 ANGSTROMS) OF 1-174 IN COMPLEX WITH LIMS1,
+RP   IDENTIFICATION OF ANK REPEATS, AND MUTAGENESIS OF HIS-99.
+RX   PubMed=19074270; DOI=10.1073/pnas.0811415106;
+RA   Chiswell B.P., Zhang R., Murphy J.W., Boggon T.J., Calderwood D.A.;
+RT   "The structural basis of integrin-linked kinase-PINCH interactions.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:20677-20682(2008).
+RN   [13]
+RP   STRUCTURE BY NMR OF 1-171 IN COMPLEX WITH LIMS1, AND IDENTIFICATION OF
+RP   ANK REPEATS.
+RX   PubMed=19117955; DOI=10.1074/jbc.M805319200;
+RA   Yang Y., Wang X., Hawkins C.A., Chen K., Vaynberg J., Mao X., Tu Y.,
+RA   Zuo X., Wang J., Wang Y.-X., Wu C., Tjandra N., Qin J.;
+RT   "Structural basis of focal adhesion localization of LIM-only adaptor
+RT   PINCH by integrin-linked kinase.";
+RL   J. Biol. Chem. 284:5836-5844(2009).
+CC   -!- FUNCTION: Receptor-proximal protein kinase regulating integrin-
+CC       mediated signal transduction. May act as a mediator of inside-out
+CC       integrin signaling. Focal adhesion protein part of the complex
+CC       ILK-PINCH. This complex is considered to be one of the convergence
+CC       points of integrin- and growth factor-signaling pathway. Could be
+CC       implicated in mediating cell architecture, adhesion to integrin
+CC       substrates and anchorage-dependent growth in epithelial cells.
+CC       Phosphorylates beta-1 and beta-3 integrin subunit on serine and
+CC       threonine residues, but also AKT1 and GSK3B.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- ENZYME REGULATION: Stimulated rapidly but transiently by both cell
+CC       fibronectin interactions, as well as by insulin, in a PI3-K-
+CC       dependent manner, likely via the binding of PtdIns(3,4,5)P3 with a
+CC       PH-like domain of ILK.
+CC   -!- SUBUNIT: Interacts with cytoplasmic domain of beta 1 subunit of
+CC       integrin. Could also interacts with beta 2, beta 3 and/or beta 5
+CC       subunit of integrin. Interacts (via ANK repeats) with LIMS1 and
+CC       LIMS2. Interacts with parvins and probably TGFB1I1.
+CC   -!- INTERACTION:
+CC       Q9NPH0:ACP6; NbExp=1; IntAct=EBI-747644, EBI-717738;
+CC       Q9Y679:AUP1; NbExp=1; IntAct=EBI-747644, EBI-1058701;
+CC       Q14790:CASP8; NbExp=1; IntAct=EBI-747644, EBI-78060;
+CC       P55211:CASP9; NbExp=1; IntAct=EBI-747644, EBI-516799;
+CC       P35606:COPB2; NbExp=1; IntAct=EBI-747644, EBI-1056534;
+CC       Q9Y678:COPG; NbExp=1; IntAct=EBI-747644, EBI-1049127;
+CC       Q9H2U1:DHX36; NbExp=1; IntAct=EBI-747644, EBI-1047643;
+CC       P84090:ERH; NbExp=1; IntAct=EBI-747644, EBI-711389;
+CC       Q01844:EWSR1; NbExp=1; IntAct=EBI-747644, EBI-739737;
+CC       Q9NVI1:FANCI; NbExp=1; IntAct=EBI-747644, EBI-1013291;
+CC       P57678:GEMIN4; NbExp=1; IntAct=EBI-747644, EBI-356700;
+CC       Q86Y56:HEATR2; NbExp=1; IntAct=EBI-747644, EBI-719966;
+CC       P04792:HSPB1; NbExp=1; IntAct=EBI-747644, EBI-352682;
+CC       Q9NZI8:IGF2BP1; NbExp=1; IntAct=EBI-747644, EBI-1053892;
+CC       Q9H0C8:ILKAP; NbExp=2; IntAct=EBI-747644, EBI-2620298;
+CC       P56192:MARS; NbExp=1; IntAct=EBI-747644, EBI-355848;
+CC       Q96T76:MMS19; NbExp=1; IntAct=EBI-747644, EBI-1044169;
+CC       O94832:MYO1D; NbExp=1; IntAct=EBI-747644, EBI-355634;
+CC       Q9Y3T9:NOC2L; NbExp=1; IntAct=EBI-747644, EBI-751547;
+CC       Q01804:OTUD4; NbExp=1; IntAct=EBI-747644, EBI-1054396;
+CC       Q9HBI1:PARVB; NbExp=1; IntAct=EBI-747644, EBI-1047679;
+CC       Q14558:PRPSAP1; NbExp=1; IntAct=EBI-747644, EBI-724449;
+CC       Q9UHX1:PUF60; NbExp=1; IntAct=EBI-747644, EBI-1053259;
+CC       Q6R327:RICTOR; NbExp=3; IntAct=EBI-747644, EBI-1387196;
+CC       Q15404:RSU1; NbExp=1; IntAct=EBI-747644, EBI-1057132;
+CC       P06702:S100A9; NbExp=1; IntAct=EBI-747644, EBI-1055001;
+CC       Q9BWU0:SLC4A1AP; NbExp=5; IntAct=EBI-747644, EBI-1999704;
+CC   -!- SUBCELLULAR LOCATION: Cell junction, focal adhesion. Cell
+CC       membrane; Peripheral membrane protein; Cytoplasmic side.
+CC   -!- TISSUE SPECIFICITY: Highly expressed in heart followed by skeletal
+CC       muscle, pancreas and kidney. Weakly expressed in placenta, lung
+CC       and liver.
+CC   -!- DOMAIN: A PH-like domain is involved in phosphatidylinositol
+CC       phosphate binding.
+CC   -!- PTM: Autophosphorylated on serine residues.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. TKL Ser/Thr
+CC       protein kinase family.
+CC   -!- SIMILARITY: Contains 5 ANK repeats.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAB94832.1; Type=Miscellaneous discrepancy; Note=Probable cloning artifact. Was originally thought to be distinct gene (ILK2) (PubMed:10871859);
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U40282; AAC16892.1; -; mRNA.
+DR   EMBL; AJ277481; CAB94832.1; ALT_SEQ; mRNA.
+DR   EMBL; AF244139; AAF74449.1; -; Genomic_DNA.
+DR   EMBL; AJ404847; CAB99253.1; -; Genomic_DNA.
+DR   EMBL; CR407673; CAG28601.1; -; mRNA.
+DR   EMBL; CR749220; CAH18077.1; -; mRNA.
+DR   EMBL; BC001554; AAH01554.1; -; mRNA.
+DR   IPI; IPI00013219; -.
+DR   PIR; S68455; S68455.
+DR   RefSeq; NP_001014794.1; -.
+DR   RefSeq; NP_001014795.1; -.
+DR   RefSeq; NP_004508.1; -.
+DR   UniGene; Hs.5158; -.
+DR   UniGene; Hs.706355; -.
+DR   PDB; 2KBX; NMR; -; A=1-171.
+DR   PDB; 3F6Q; X-ray; 1.60 A; A=1-174.
+DR   PDB; 3IXE; X-ray; 1.90 A; A=1-174.
+DR   PDB; 3KMU; X-ray; 1.80 A; A=183-452.
+DR   PDB; 3KMW; X-ray; 2.00 A; A=183-452.
+DR   PDBsum; 2KBX; -.
+DR   PDBsum; 3F6Q; -.
+DR   PDBsum; 3IXE; -.
+DR   PDBsum; 3KMU; -.
+DR   PDBsum; 3KMW; -.
+DR   ProteinModelPortal; Q13418; -.
+DR   SMR; Q13418; 187-450.
+DR   DIP; DIP-38657N; -.
+DR   IntAct; Q13418; 87.
+DR   MINT; MINT-1465247; -.
+DR   STRING; Q13418; -.
+DR   PhosphoSite; Q13418; -.
+DR   OGP; Q13418; -.
+DR   PeptideAtlas; Q13418; -.
+DR   PRIDE; Q13418; -.
+DR   Ensembl; ENST00000299421; ENSP00000299421; ENSG00000166333.
+DR   Ensembl; ENST00000396751; ENSP00000379975; ENSG00000166333.
+DR   Ensembl; ENST00000420936; ENSP00000403487; ENSG00000166333.
+DR   GeneID; 3611; -.
+DR   KEGG; hsa:3611; -.
+DR   UCSC; uc001mee.1; human.
+DR   CTD; 3611; -.
+DR   GeneCards; GC11P006581; -.
+DR   H-InvDB; HIX0009408; -.
+DR   HGNC; HGNC:6040; ILK.
+DR   HPA; CAB004041; -.
+DR   MIM; 602366; gene.
+DR   PharmGKB; PA29855; -.
+DR   eggNOG; prNOG17703; -.
+DR   HOGENOM; HBG315749; -.
+DR   HOVERGEN; HBG002437; -.
+DR   InParanoid; Q13418; -.
+DR   OMA; WSFAILL; -.
+DR   OrthoDB; EOG9STVPS; -.
+DR   PhylomeDB; Q13418; -.
+DR   BRENDA; 2.7.10.2; 247.
+DR   BRENDA; 2.7.11.1; 247.
+DR   Pathway_Interaction_DB; avb3_integrin_pathway; Integrins in angiogenesis.
+DR   Pathway_Interaction_DB; avb3_opn_pathway; Osteopontin-mediated events.
+DR   Reactome; REACT_20676; Cell junction organization.
+DR   NextBio; 14119; -.
+DR   ArrayExpress; Q13418; -.
+DR   Bgee; Q13418; -.
+DR   CleanEx; HS_ILK; -.
+DR   Genevestigator; Q13418; -.
+DR   GermOnline; ENSG00000166333; Homo sapiens.
+DR   GO; GO:0005829; C:cytosol; EXP:Reactome.
+DR   GO; GO:0005925; C:focal adhesion; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; NAS:UniProtKB.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IDA:UniProtKB.
+DR   GO; GO:0008283; P:cell proliferation; NAS:UniProtKB.
+DR   GO; GO:0007160; P:cell-matrix adhesion; NAS:UniProtKB.
+DR   GO; GO:0007229; P:integrin-mediated signaling pathway; NAS:UniProtKB.
+DR   InterPro; IPR002110; Ankyrin_rpt.
+DR   InterPro; IPR020683; Ankyrin_rpt-contain_dom.
+DR   InterPro; IPR016253; Integrin-linked_kinase.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR001245; Ser-Thr/Tyr-Pkinase.
+DR   Gene3D; G3DSA:1.25.40.20; ANK; 1.
+DR   Pfam; PF00023; Ank; 3.
+DR   Pfam; PF07714; Pkinase_Tyr; 1.
+DR   PIRSF; PIRSF000654; Integrin-linked_kinase; 1.
+DR   SMART; SM00248; ANK; 3.
+DR   SUPFAM; SSF48403; ANK; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS50297; ANK_REP_REGION; 1.
+DR   PROSITE; PS50088; ANK_REPEAT; 3.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; FALSE_NEG.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; FALSE_NEG.
+PE   1: Evidence at protein level;
+KW   3D-structure; ANK repeat; ATP-binding; Cell junction; Cell membrane;
+KW   Complete proteome; Kinase; Membrane; Nucleotide-binding;
+KW   Phosphoprotein; Repeat; Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    452       Integrin-linked protein kinase.
+FT                                /FTId=PRO_0000086020.
+FT   REPEAT        2     30       ANK 1.
+FT   REPEAT       31     63       ANK 2.
+FT   REPEAT       64     96       ANK 3.
+FT   REPEAT       97    129       ANK 4.
+FT   REPEAT      130    174       ANK 5.
+FT   DOMAIN      193    446       Protein kinase.
+FT   NP_BIND     199    207       ATP (By similarity).
+FT   REGION       33    139       Interaction with LIMS1.
+FT   REGION      180    212       PH-like; mediates interaction with
+FT                                TGFB1I1.
+FT   BINDING     220    220       ATP (By similarity).
+FT   MOD_RES     186    186       Phosphoserine (By similarity).
+FT   MUTAGEN      99     99       H->D: Alters interaction with LIMS1.
+FT   MUTAGEN     359    359       E->K: Inactivation of ILK.
+FT   HELIX         4      9
+FT   HELIX        13     21
+FT   HELIX        37     43
+FT   HELIX        47     55
+FT   HELIX        70     76
+FT   HELIX        80     88
+FT   HELIX       103    109
+FT   HELIX       113    121
+FT   STRAND      126    128
+FT   HELIX       136    139
+FT   HELIX       142    155
+FT   TURN        167    169
+SQ   SEQUENCE   452 AA;  51419 MW;  E37DC2AD5311A1C2 CRC64;
+     MDDIFTQCRE GNAVAVRLWL DNTENDLNQG DDHGFSPLHW ACREGRSAVV EMLIMRGARI
+     NVMNRGDDTP LHLAASHGHR DIVQKLLQYK ADINAVNEHG NVPLHYACFW GQDQVAEDLV
+     ANGALVSICN KYGEMPVDKA KAPLRELLRE RAEKMGQNLN RIPYKDTFWK GTTRTRPRNG
+     TLNKHSGIDF KQLNFLTKLN ENHSGELWKG RWQGNDIVVK VLKVRDWSTR KSRDFNEECP
+     RLRIFSHPNV LPVLGACQSP PAPHPTLITH WMPYGSLYNV LHEGTNFVVD QSQAVKFALD
+     MARGMAFLHT LEPLIPRHAL NSRSVMIDED MTARISMADV KFSFQCPGRM YAPAWVAPEA
+     LQKKPEDTNR RSADMWSFAV LLWELVTREV PFADLSNMEI GMKVALEGLR PTIPPGISPH
+     VCKLMKICMN EDPAKRPKFD MIVPILEKMQ DK
+//

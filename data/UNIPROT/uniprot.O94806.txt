@@ -1,0 +1,398 @@
+ID   KPCD3_HUMAN             Reviewed;         890 AA.
+AC   O94806; Q53TR7; Q8NEL8;
+DT   11-JAN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1999, sequence version 1.
+DT   05-OCT-2010, entry version 98.
+DE   RecName: Full=Serine/threonine-protein kinase D3;
+DE            EC=2.7.11.13;
+DE   AltName: Full=Protein kinase C nu type;
+DE   AltName: Full=Protein kinase EPK2;
+DE   AltName: Full=nPKC-nu;
+GN   Name=PRKD3; Synonyms=EPK2, PRKCN;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RC   TISSUE=Embryo;
+RX   MEDLINE=99249819; PubMed=10231560; DOI=10.1016/S0167-4889(99)00040-3;
+RA   Hayashi A., Seki N., Hattori A., Kozuma S., Saito T.;
+RT   "PKCnu, a new member of the protein kinase C family, composes a fourth
+RT   subfamily with PKCmu.";
+RL   Biochim. Biophys. Acta 1450:99-106(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=15815621; DOI=10.1038/nature03466;
+RA   Hillier L.W., Graves T.A., Fulton R.S., Fulton L.A., Pepin K.H.,
+RA   Minx P., Wagner-McPherson C., Layman D., Wylie K., Sekhon M.,
+RA   Becker M.C., Fewell G.A., Delehaunty K.D., Miner T.L., Nash W.E.,
+RA   Kremitzki C., Oddy L., Du H., Sun H., Bradshaw-Cordum H., Ali J.,
+RA   Carter J., Cordes M., Harris A., Isak A., van Brunt A., Nguyen C.,
+RA   Du F., Courtney L., Kalicki J., Ozersky P., Abbott S., Armstrong J.,
+RA   Belter E.A., Caruso L., Cedroni M., Cotton M., Davidson T., Desai A.,
+RA   Elliott G., Erb T., Fronick C., Gaige T., Haakenson W., Haglund K.,
+RA   Holmes A., Harkins R., Kim K., Kruchowski S.S., Strong C.M.,
+RA   Grewal N., Goyea E., Hou S., Levy A., Martinka S., Mead K.,
+RA   McLellan M.D., Meyer R., Randall-Maher J., Tomlinson C.,
+RA   Dauphin-Kohlberg S., Kozlowicz-Reilly A., Shah N.,
+RA   Swearengen-Shahid S., Snider J., Strong J.T., Thompson J., Yoakum M.,
+RA   Leonard S., Pearman C., Trani L., Radionenko M., Waligorski J.E.,
+RA   Wang C., Rock S.M., Tin-Wollam A.-M., Maupin R., Latreille P.,
+RA   Wendl M.C., Yang S.-P., Pohl C., Wallis J.W., Spieth J., Bieri T.A.,
+RA   Berkowicz N., Nelson J.O., Osborne J., Ding L., Meyer R., Sabo A.,
+RA   Shotland Y., Sinha P., Wohldmann P.E., Cook L.L., Hickenbotham M.T.,
+RA   Eldred J., Williams D., Jones T.A., She X., Ciccarelli F.D.,
+RA   Izaurralde E., Taylor J., Schmutz J., Myers R.M., Cox D.R., Huang X.,
+RA   McPherson J.D., Mardis E.R., Clifton S.W., Warren W.C.,
+RA   Chinwalla A.T., Eddy S.R., Marra M.A., Ovcharenko I., Furey T.S.,
+RA   Miller W., Eichler E.E., Bork P., Suyama M., Torrents D.,
+RA   Waterston R.H., Wilson R.K.;
+RT   "Generation and annotation of the DNA sequences of human chromosomes 2
+RT   and 4.";
+RL   Nature 434:724-731(2005).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2), AND VARIANTS
+RP   THR-128 AND ARG-546.
+RC   TISSUE=Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [5]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-41 AND SER-44, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=17081983; DOI=10.1016/j.cell.2006.09.026;
+RA   Olsen J.V., Blagoev B., Gnad F., Macek B., Kumar C., Mortensen P.,
+RA   Mann M.;
+RT   "Global, in vivo, and site-specific phosphorylation dynamics in
+RT   signaling networks.";
+RL   Cell 127:635-648(2006).
+RN   [6]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-364, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=16964243; DOI=10.1038/nbt1240;
+RA   Beausoleil S.A., Villen J., Gerber S.A., Rush J., Gygi S.P.;
+RT   "A probability-based approach for high-throughput protein
+RT   phosphorylation analysis and site localization.";
+RL   Nat. Biotechnol. 24:1285-1292(2006).
+RN   [7]
+RP   ENZYME REGULATION, SUBCELLULAR LOCATION, PHORBOL-ESTER BINDING, AND
+RP   MUTAGENESIS OF THR-156; TYR-158; PRO-165; THR-166; TYR-170; PRO-282
+RP   AND LYS-293.
+RX   PubMed=18076381; DOI=10.1042/BJ20071334;
+RA   Chen J., Deng F., Li J., Wang Q.J.;
+RT   "Selective binding of phorbol esters and diacylglycerol by individual
+RT   C1 domains of the PKD family.";
+RL   Biochem. J. 411:333-342(2008).
+RN   [8]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-391 AND SER-735, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18220336; DOI=10.1021/pr0705441;
+RA   Cantin G.T., Yi W., Lu B., Park S.K., Xu T., Lee J.-D.,
+RA   Yates J.R. III;
+RT   "Combining protein-based IMAC, peptide-based IMAC, and MudPIT for
+RT   efficient phosphoproteomic analysis.";
+RL   J. Proteome Res. 7:1346-1351(2008).
+RN   [9]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-6; SER-27; SER-31;
+RP   SER-37; SER-41; SER-44; SER-213; SER-216; SER-252; SER-364; SER-391;
+RP   SER-395; THR-535; SER-543; SER-731 AND SER-735, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [10]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-27; SER-30; SER-41;
+RP   SER-44 AND SER-364, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [11]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-27 AND SER-31, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Embryonic kidney;
+RX   PubMed=19413330; DOI=10.1021/ac9004309;
+RA   Gauci S., Helbig A.O., Slijper M., Krijgsveld J., Heck A.J.,
+RA   Mohammed S.;
+RT   "Lys-N and trypsin cover complementary parts of the phosphoproteome in
+RT   a refined SCX-based approach.";
+RL   Anal. Chem. 81:4493-4501(2009).
+RN   [12]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-2; SER-6; SER-27;
+RP   SER-30; SER-31; THR-34; SER-41; SER-44; SER-213; SER-216; SER-237;
+RP   SER-247; SER-252; SER-364; SER-414; SER-415; THR-535; SER-539; THR-542
+RP   AND SER-543, AND MASS SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [13]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-41 AND SER-44, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=19690332; DOI=10.1126/scisignal.2000007;
+RA   Mayya V., Lundgren D.H., Hwang S.-I., Rezaul K., Wu L., Eng J.K.,
+RA   Rodionov V., Han D.K.;
+RT   "Quantitative phosphoproteomic analysis of T cell receptor signaling
+RT   reveals system-wide modulation of protein-protein interactions.";
+RL   Sci. Signal. 2:RA46-RA46(2009).
+RN   [14]
+RP   STRUCTURE BY NMR OF 414-532.
+RG   RIKEN structural genomics initiative (RSGI);
+RT   "Solution structure of the PH domain of protein kinase C, nu type from
+RT   human.";
+RL   Submitted (JAN-2007) to the PDB data bank.
+RN   [15]
+RP   VARIANT [LARGE SCALE ANALYSIS] MET-716.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Converts transient diacylglycerol (DAG) signals into
+CC       prolonged physiological effects, downstream of PKC. Involved in
+CC       resistance to oxidative stress (By similarity).
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- COFACTOR: Magnesium (By similarity).
+CC   -!- ENZYME REGULATION: Activated by DAG and phorbol esters. Phorbol-
+CC       ester/DAG-type domains 1 and 2 bind both DAG and phorbol ester
+CC       with high affinity and mediate translocation to the cell membrane.
+CC       Autophosphorylation of Ser-735 and phosphorylation of Ser-731 by
+CC       PKC relieves auto-inhibition by the PH domain.
+CC   -!- INTERACTION:
+CC       P63027:VAMP2; NbExp=2; IntAct=EBI-1255366, EBI-520113;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm. Membrane. Note=Translocation to
+CC       the cell membrane is required for kinase activation.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=O94806-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=O94806-2; Sequence=VSP_029405, VSP_029406;
+CC   -!- TISSUE SPECIFICITY: Ubiquitous.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CAMK
+CC       Ser/Thr protein kinase family. PKD subfamily.
+CC   -!- SIMILARITY: Contains 1 PH domain.
+CC   -!- SIMILARITY: Contains 2 phorbol-ester/DAG-type zinc fingers.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AB015982; BAA36514.1; -; mRNA.
+DR   EMBL; AC007390; AAY14817.1; -; Genomic_DNA.
+DR   EMBL; CH471053; EAX00398.1; -; Genomic_DNA.
+DR   EMBL; BC030706; AAH30706.1; -; mRNA.
+DR   IPI; IPI00015538; -.
+DR   IPI; IPI00871931; -.
+DR   RefSeq; NP_005804.1; -.
+DR   UniGene; Hs.660757; -.
+DR   UniGene; Hs.716034; -.
+DR   PDB; 2D9Z; NMR; -; A=417-532.
+DR   PDBsum; 2D9Z; -.
+DR   ProteinModelPortal; O94806; -.
+DR   SMR; O94806; 147-210, 269-323, 415-567, 537-836.
+DR   IntAct; O94806; 9.
+DR   STRING; O94806; -.
+DR   PhosphoSite; O94806; -.
+DR   PRIDE; O94806; -.
+DR   Ensembl; ENST00000234179; ENSP00000234179; ENSG00000115825.
+DR   Ensembl; ENST00000379066; ENSP00000368356; ENSG00000115825.
+DR   GeneID; 23683; -.
+DR   KEGG; hsa:23683; -.
+DR   UCSC; uc002rqd.1; human.
+DR   UCSC; uc002rqf.1; human.
+DR   CTD; 23683; -.
+DR   GeneCards; GC02M037477; -.
+DR   H-InvDB; HIX0001974; -.
+DR   H-InvDB; HIX0030377; -.
+DR   HGNC; HGNC:9408; PRKD3.
+DR   HPA; HPA029529; -.
+DR   MIM; 607077; gene.
+DR   PharmGKB; PA33772; -.
+DR   eggNOG; prNOG07226; -.
+DR   HOGENOM; HBG314865; -.
+DR   HOVERGEN; HBG003564; -.
+DR   InParanoid; O94806; -.
+DR   OMA; LLFRHDL; -.
+DR   OrthoDB; EOG9FXTT2; -.
+DR   PhylomeDB; O94806; -.
+DR   BRENDA; 2.7.11.13; 247.
+DR   NextBio; 46561; -.
+DR   ArrayExpress; O94806; -.
+DR   Bgee; O94806; -.
+DR   CleanEx; HS_PRKD3; -.
+DR   Genevestigator; O94806; -.
+DR   GermOnline; ENSG00000115825; Homo sapiens.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005515; F:protein binding; IPI:IntAct.
+DR   GO; GO:0004697; F:protein kinase C activity; TAS:ProtInc.
+DR   GO; GO:0007205; P:activation of protein kinase C activity by ...; TAS:ProtInc.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; TAS:ProtInc.
+DR   InterPro; IPR020454; DAG/PE-bd.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR011993; PH_type.
+DR   InterPro; IPR001849; Pleckstrin_homology.
+DR   InterPro; IPR002219; Prot_Kinase_C-like_PE/DAG-bd.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR015727; Protein_Kinase_C_mu-related.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Gene3D; G3DSA:2.30.29.30; PH_type; 1.
+DR   PANTHER; PTHR22968; PKC_mu_like; 1.
+DR   Pfam; PF00130; C1_1; 2.
+DR   Pfam; PF00169; PH; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   PRINTS; PR00008; DAGPEDOMAIN.
+DR   SMART; SM00109; C1; 2.
+DR   SMART; SM00233; PH; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS50003; PH_DOMAIN; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+DR   PROSITE; PS00479; ZF_DAG_PE_1; 2.
+DR   PROSITE; PS50081; ZF_DAG_PE_2; 2.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; ATP-binding; Complete proteome;
+KW   Cytoplasm; Kinase; Magnesium; Membrane; Metal-binding;
+KW   Nucleotide-binding; Phosphoprotein; Polymorphism; Repeat;
+KW   Serine/threonine-protein kinase; Transferase; Zinc; Zinc-finger.
+FT   CHAIN         1    890       Serine/threonine-protein kinase D3.
+FT                                /FTId=PRO_0000055717.
+FT   DOMAIN      416    532       PH.
+FT   DOMAIN      576    832       Protein kinase.
+FT   ZN_FING     154    204       Phorbol-ester/DAG-type 1.
+FT   ZN_FING     271    321       Phorbol-ester/DAG-type 2.
+FT   NP_BIND     582    590       ATP (By similarity).
+FT   ACT_SITE    699    699       Proton acceptor (By similarity).
+FT   BINDING     605    605       ATP (By similarity).
+FT   MOD_RES       2      2       Phosphoserine.
+FT   MOD_RES       6      6       Phosphoserine.
+FT   MOD_RES      27     27       Phosphoserine.
+FT   MOD_RES      30     30       Phosphoserine.
+FT   MOD_RES      31     31       Phosphoserine.
+FT   MOD_RES      34     34       Phosphothreonine.
+FT   MOD_RES      37     37       Phosphoserine.
+FT   MOD_RES      41     41       Phosphoserine.
+FT   MOD_RES      44     44       Phosphoserine.
+FT   MOD_RES     213    213       Phosphoserine.
+FT   MOD_RES     216    216       Phosphoserine.
+FT   MOD_RES     237    237       Phosphoserine.
+FT   MOD_RES     247    247       Phosphoserine.
+FT   MOD_RES     252    252       Phosphoserine.
+FT   MOD_RES     364    364       Phosphoserine.
+FT   MOD_RES     391    391       Phosphoserine.
+FT   MOD_RES     395    395       Phosphoserine.
+FT   MOD_RES     414    414       Phosphoserine.
+FT   MOD_RES     415    415       Phosphoserine.
+FT   MOD_RES     535    535       Phosphothreonine.
+FT   MOD_RES     539    539       Phosphoserine.
+FT   MOD_RES     542    542       Phosphothreonine.
+FT   MOD_RES     543    543       Phosphoserine.
+FT   MOD_RES     731    731       Phosphoserine; by PKC.
+FT   MOD_RES     735    735       Phosphoserine; by autocatalysis.
+FT   VAR_SEQ     595    611       HRKTGRDVAIKVIDKMR -> QLQPFAYCTHYFKNWKM
+FT                                (in isoform 2).
+FT                                /FTId=VSP_029405.
+FT   VAR_SEQ     612    890       Missing (in isoform 2).
+FT                                /FTId=VSP_029406.
+FT   VARIANT      42     42       N -> D (in dbSNP:rs11896614).
+FT                                /FTId=VAR_037147.
+FT   VARIANT     128    128       A -> T (in dbSNP:rs17852819).
+FT                                /FTId=VAR_037148.
+FT   VARIANT     225    225       P -> S (in dbSNP:rs34280934).
+FT                                /FTId=VAR_050561.
+FT   VARIANT     445    445       L -> I (in dbSNP:rs55912911).
+FT                                /FTId=VAR_061532.
+FT   VARIANT     546    546       Q -> R (in dbSNP:rs17856887).
+FT                                /FTId=VAR_037149.
+FT   VARIANT     716    716       V -> M (in a glioblastoma multiforme
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_042336.
+FT   MUTAGEN     156    156       T->A: Slight loss in ability to bind DAG
+FT                                and phorbol-ester; when associated with
+FT                                F-158.
+FT   MUTAGEN     158    158       Y->F: Slight loss in ability to bind DAG
+FT                                and phorbol-ester; when associated with
+FT                                A-156.
+FT   MUTAGEN     165    165       P->G: No effect on ability to bind
+FT                                phorbol ester, loss of ability to bind
+FT                                DAG, reduced DAG-induced membrane
+FT                                translocation.
+FT   MUTAGEN     166    166       T->A: Slight loss in ability to bind DAG
+FT                                and phorbol-ester.
+FT   MUTAGEN     170    170       Y->F: Slight loss in ability to bind DAG
+FT                                and phorbol-ester.
+FT   MUTAGEN     282    282       P->G: No effect on ability to bind
+FT                                phorbol ester, increase in ability to
+FT                                bind DAG.
+FT   MUTAGEN     284    284       I->V: Slight increase in ability to bind
+FT                                DAG, no effect on phorbol-ester binding.
+FT   MUTAGEN     293    293       K->W: Increased ability to bind DAG, no
+FT                                effect on phorbol-ester binding.
+FT   STRAND      423    429
+FT   STRAND      434    443
+FT   STRAND      445    449
+FT   TURN        462    464
+FT   STRAND      484    489
+FT   STRAND      494    497
+FT   TURN        508    512
+FT   HELIX       518    532
+SQ   SEQUENCE   890 AA;  100471 MW;  66D5E7E7235064F5 CRC64;
+     MSANNSPPSA QKSVLPTAIP AVLPAASPCS SPKTGLSARL SNGSFSAPSL TNSRGSVHTV
+     SFLLQIGLTR ESVTIEAQEL SLSAVKDLVC SIVYQKFPEC GFFGMYDKIL LFRHDMNSEN
+     ILQLITSADE IHEGDLVEVV LSALATVEDF QIRPHTLYVH SYKAPTFCDY CGEMLWGLVR
+     QGLKCEGCGL NYHKRCAFKI PNNCSGVRKR RLSNVSLPGP GLSVPRPLQP EYVALPSEES
+     HVHQEPSKRI PSWSGRPIWM EKMVMCRVKV PHTFAVHSYT RPTICQYCKR LLKGLFRQGM
+     QCKDCKFNCH KRCASKVPRD CLGEVTFNGE PSSLGTDTDI PMDIDNNDIN SDSSRGLDDT
+     EEPSPPEDKM FFLDPSDLDV ERDEEAVKTI SPSTSNNIPL MRVVQSIKHT KRKSSTMVKE
+     GWMVHYTSRD NLRKRHYWRL DSKCLTLFQN ESGSKYYKEI PLSEILRISS PRDFTNISQG
+     SNPHCFEIIT DTMVYFVGEN NGDSSHNPVL AATGVGLDVA QSWEKAIRQA LMPVTPQASV
+     CTSPGQGKDH KDLSTSISVS NCQIQENVDI STVYQIFADE VLGSGQFGIV YGGKHRKTGR
+     DVAIKVIDKM RFPTKQESQL RNEVAILQNL HHPGIVNLEC MFETPERVFV VMEKLHGDML
+     EMILSSEKSR LPERITKFMV TQILVALRNL HFKNIVHCDL KPENVLLASA EPFPQVKLCD
+     FGFARIIGEK SFRRSVVGTP AYLAPEVLRS KGYNRSLDMW SVGVIIYVSL SGTFPFNEDE
+     DINDQIQNAA FMYPPNPWRE ISGEAIDLIN NLLQVKMRKR YSVDKSLSHP WLQDYQTWLD
+     LREFETRIGE RYITHESDDA RWEIHAYTHN LVYPKHFIMA PNPDDMEEDP
+//

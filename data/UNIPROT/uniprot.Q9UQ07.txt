@@ -1,0 +1,198 @@
+ID   MOK_HUMAN               Reviewed;         419 AA.
+AC   Q9UQ07; Q92790; Q93067;
+DT   16-JAN-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   05-OCT-2010, entry version 88.
+DE   RecName: Full=MAPK/MAK/MRK overlapping kinase;
+DE            EC=2.7.11.22;
+DE   AltName: Full=MOK protein kinase;
+DE   AltName: Full=Renal tumor antigen 1;
+DE            Short=RAGE-1;
+GN   Name=RAGE; Synonyms=MOK, RAGE1;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RC   TISSUE=Fetal brain;
+RX   MEDLINE=99352465; PubMed=10421840;
+RX   DOI=10.1046/j.1365-2443.1999.00261.x;
+RA   Miyata Y., Akashi M., Nishida E.;
+RT   "Molecular cloning and characterization of a novel member of the MAP
+RT   kinase superfamily.";
+RL   Genes Cells 4:299-309(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 3 AND 4).
+RC   TISSUE=Renal cell carcinoma;
+RX   MEDLINE=96376527; PubMed=8781117; DOI=10.1007/s002510050133;
+RA   Gaugler B., Brouwenstijn N., Vantomme V., Szikora J.-P.,
+RA   Van der Spek C.W., Patard J.-J., Boon T., Schrier P.,
+RA   Van den Eynde B.J.;
+RT   "A new gene coding for an antigen recognized by autologous cytolytic T
+RT   lymphocytes on a human renal carcinoma.";
+RL   Immunogenetics 44:323-330(1996).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2).
+RC   TISSUE=Brain, Lung, and Testis;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   VARIANTS [LARGE SCALE ANALYSIS] HIS-38; ASN-86; ARG-230; SER-248;
+RP   ASP-272 AND ARG-398.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Able to phosphorylate several exogenous substrates and
+CC       to undergo autophosphorylation (By similarity).
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- ENZYME REGULATION: Phosphorylation appears to increase the
+CC       enzymatic activity (By similarity).
+CC   -!- INTERACTION:
+CC       P25815:S100P; NbExp=1; IntAct=EBI-1388900, EBI-743700;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm (By similarity).
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=4;
+CC       Name=1;
+CC         IsoId=Q9UQ07-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q9UQ07-2; Sequence=VSP_009144;
+CC         Note=No experimental confirmation available;
+CC       Name=3; Synonyms=RAGE-1 ORF5, RAGE-2 ORF5, RAGE-3 ORF5;
+CC         IsoId=Q9UQ07-3; Sequence=VSP_009143;
+CC         Note=No experimental confirmation available;
+CC       Name=4; Synonyms=RAGE-4 ORF3;
+CC         IsoId=Q9UQ07-4; Sequence=VSP_009142, VSP_009145, VSP_009146;
+CC         Note=No experimental confirmation available;
+CC   -!- TISSUE SPECIFICITY: Expressed in heart, brain, lung, kidney, and
+CC       pancreas, and at very low levels in placenta, liver and skeletal
+CC       muscle. Detected in retina.
+CC   -!- PTM: Autophosphorylated (By similarity).
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CMGC
+CC       Ser/Thr protein kinase family. CDC2/CDKX subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAB38087.1; Type=Frameshift; Positions=299;
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AB022694; BAA81688.1; -; mRNA.
+DR   EMBL; U46191; AAB38079.1; -; mRNA.
+DR   EMBL; U46192; AAB38082.1; -; mRNA.
+DR   EMBL; U46193; AAB38085.1; -; mRNA.
+DR   EMBL; U46194; AAB38087.1; ALT_FRAME; mRNA.
+DR   EMBL; BC053536; AAH53536.1; -; mRNA.
+DR   IPI; IPI00398648; -.
+DR   IPI; IPI00398649; -.
+DR   IPI; IPI00413657; -.
+DR   IPI; IPI00472352; -.
+DR   RefSeq; NP_055041.1; -.
+DR   UniGene; Hs.104119; -.
+DR   ProteinModelPortal; Q9UQ07; -.
+DR   SMR; Q9UQ07; 1-287.
+DR   IntAct; Q9UQ07; 1.
+DR   STRING; Q9UQ07; -.
+DR   PhosphoSite; Q9UQ07; -.
+DR   PRIDE; Q9UQ07; -.
+DR   Ensembl; ENST00000361847; ENSP00000355304; ENSG00000080823.
+DR   GeneID; 5891; -.
+DR   KEGG; hsa:5891; -.
+DR   UCSC; uc001ylm.1; human.
+DR   CTD; 5891; -.
+DR   GeneCards; GC14M102692; -.
+DR   H-InvDB; HIX0011985; -.
+DR   HGNC; HGNC:9833; RAGE.
+DR   HPA; HPA027282; -.
+DR   HPA; HPA027292; -.
+DR   MIM; 605762; gene.
+DR   PharmGKB; PA34187; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG106271; -.
+DR   OrthoDB; EOG9R26G1; -.
+DR   PhylomeDB; Q9UQ07; -.
+DR   BRENDA; 2.7.11.22; 247.
+DR   NextBio; 22916; -.
+DR   ArrayExpress; Q9UQ07; -.
+DR   Bgee; Q9UQ07; -.
+DR   CleanEx; HS_RAGE; -.
+DR   Genevestigator; Q9UQ07; -.
+DR   GermOnline; ENSG00000080823; Homo sapiens.
+DR   GO; GO:0005737; C:cytoplasm; TAS:ProtInc.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004693; F:cyclin-dependent protein kinase activity; IEA:EC.
+DR   GO; GO:0005515; F:protein binding; IPI:IntAct.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; TAS:ProtInc.
+DR   GO; GO:0007165; P:signal transduction; TAS:ProtInc.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; ATP-binding; Complete proteome; Cytoplasm;
+KW   Kinase; Nucleotide-binding; Phosphoprotein; Polymorphism;
+KW   Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    419       MAPK/MAK/MRK overlapping kinase.
+FT                                /FTId=PRO_0000086341.
+FT   DOMAIN        4    285       Protein kinase.
+FT   NP_BIND      10     18       ATP (By similarity).
+FT   ACT_SITE    128    128       Proton acceptor (By similarity).
+FT   BINDING      33     33       ATP (By similarity).
+FT   VAR_SEQ       1    346       Missing (in isoform 3).
+FT                                /FTId=VSP_009143.
+FT   VAR_SEQ       1    234       Missing (in isoform 4).
+FT                                /FTId=VSP_009142.
+FT   VAR_SEQ     232    419       Missing (in isoform 2).
+FT                                /FTId=VSP_009144.
+FT   VAR_SEQ     290    329       KTEKRALGSHRKAGFPEHPVAPEPLSNSCQISKEGRKQKQ
+FT                                -> TQNGSEDEASAVLLPIQTRSSLNPLLSTCMLPGRSVTL
+FT                                LV (in isoform 4).
+FT                                /FTId=VSP_009145.
+FT   VAR_SEQ     330    419       Missing (in isoform 4).
+FT                                /FTId=VSP_009146.
+FT   VARIANT      38     38       R -> H (in dbSNP:rs34114580).
+FT                                /FTId=VAR_042011.
+FT   VARIANT      86     86       D -> N (in dbSNP:rs34084056).
+FT                                /FTId=VAR_042012.
+FT   VARIANT     230    230       K -> R (in dbSNP:rs34965156).
+FT                                /FTId=VAR_042013.
+FT   VARIANT     248    248       P -> S (in dbSNP:rs34299975).
+FT                                /FTId=VAR_042014.
+FT   VARIANT     272    272       E -> D (in a breast pleomorphic lobular
+FT                                carcinoma sample; somatic mutation).
+FT                                /FTId=VAR_042015.
+FT   VARIANT     398    398       Q -> R (in dbSNP:rs2236493).
+FT                                /FTId=VAR_024576.
+SQ   SEQUENCE   419 AA;  48014 MW;  CDA7D9C1E80AAE8F CRC64;
+     MKNYKAIGKI GEGTFSEVMK MQSLRDGNYY ACKQMKQRFE SIEQVNNLRE IQALRRLNPH
+     PNILMLHEVV FDRKSGSLAL ICELMDMNIY ELIRGRRYPL SEKKIMHYMY QLCKSLDHIH
+     RNGIFHRDVK PENILIKQDV LKLGDFGSCR SVYSKQPYTE YISTRWYRAP ECLLTDGFYT
+     YKMDLWSAGC VFYEIASLQP LFPGVNELDQ ISKIHDVIGT PAQKILTKFK QSRAMNFDFP
+     FKKGSGIPLL TTNLSPQCLS LLHAMVAYDP DERIAAHQAL QHPYFQEQRK TEKRALGSHR
+     KAGFPEHPVA PEPLSNSCQI SKEGRKQKQS LKQEEDRPKR RGPAYVMELP KLKLSGVVRL
+     SSYSSPTLQS VLGSGTNGRV PVLRPLKCIP ASKKTDPQKD LKPAPQQCRL PTIVRKGGR
+//

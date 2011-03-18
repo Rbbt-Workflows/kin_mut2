@@ -1,0 +1,451 @@
+ID   MRCKA_HUMAN             Reviewed;        1732 AA.
+AC   Q5VT25; O75039; Q59GZ1; Q5H9N9; Q5T797; Q5VT26; Q5VT27; Q86XX2;
+AC   Q86XX3; Q99646;
+DT   08-NOV-2005, integrated into UniProtKB/Swiss-Prot.
+DT   07-DEC-2004, sequence version 1.
+DT   02-NOV-2010, entry version 68.
+DE   RecName: Full=Serine/threonine-protein kinase MRCK alpha;
+DE            EC=2.7.11.1;
+DE   AltName: Full=CDC42-binding protein kinase alpha;
+DE   AltName: Full=DMPK-like alpha;
+DE   AltName: Full=Myotonic dystrophy kinase-related CDC42-binding kinase alpha;
+DE            Short=MRCK alpha;
+DE            Short=Myotonic dystrophy protein kinase-like alpha;
+GN   Name=CDC42BPA; Synonyms=KIAA0451;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 3 AND 5), AND FUNCTION.
+RC   TISSUE=Colon;
+RX   PubMed=15723050; DOI=10.1038/ncb1230;
+RA   Wilkinson S., Paterson H.F., Marshall C.J.;
+RT   "Cdc42-MRCK and Rho-ROCK signalling cooperate in myosin
+RT   phosphorylation and cell invasion.";
+RL   Nat. Cell Biol. 7:255-261(2005).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 4), AND VARIANT
+RP   VAL-1712.
+RC   TISSUE=Brain;
+RA   Totoki Y., Toyoda A., Takeda T., Sakaki Y., Tanaka A., Yokoyama S.,
+RA   Ohara O., Nagase T., Kikuno R.F.;
+RL   Submitted (MAR-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2), AND VARIANTS
+RP   ILE-1317 AND VAL-1712.
+RC   TISSUE=Testis;
+RX   PubMed=17974005; DOI=10.1186/1471-2164-8-399;
+RA   Bechtel S., Rosenfelder H., Duda A., Schmidt C.P., Ernst U.,
+RA   Wellenreuther R., Mehrle A., Schuster C., Bahr A., Bloecker H.,
+RA   Heubner D., Hoerlein A., Michel G., Wedler H., Koehrer K.,
+RA   Ottenwaelder B., Poustka A., Wiemann S., Schupp I.;
+RT   "The full-ORF clone resource of the German cDNA consortium.";
+RL   BMC Genomics 8:399-399(2007).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=16710414; DOI=10.1038/nature04727;
+RA   Gregory S.G., Barlow K.F., McLay K.E., Kaul R., Swarbreck D.,
+RA   Dunham A., Scott C.E., Howe K.L., Woodfine K., Spencer C.C.A.,
+RA   Jones M.C., Gillson C., Searle S., Zhou Y., Kokocinski F.,
+RA   McDonald L., Evans R., Phillips K., Atkinson A., Cooper R., Jones C.,
+RA   Hall R.E., Andrews T.D., Lloyd C., Ainscough R., Almeida J.P.,
+RA   Ambrose K.D., Anderson F., Andrew R.W., Ashwell R.I.S., Aubin K.,
+RA   Babbage A.K., Bagguley C.L., Bailey J., Beasley H., Bethel G.,
+RA   Bird C.P., Bray-Allen S., Brown J.Y., Brown A.J., Buckley D.,
+RA   Burton J., Bye J., Carder C., Chapman J.C., Clark S.Y., Clarke G.,
+RA   Clee C., Cobley V., Collier R.E., Corby N., Coville G.J., Davies J.,
+RA   Deadman R., Dunn M., Earthrowl M., Ellington A.G., Errington H.,
+RA   Frankish A., Frankland J., French L., Garner P., Garnett J., Gay L.,
+RA   Ghori M.R.J., Gibson R., Gilby L.M., Gillett W., Glithero R.J.,
+RA   Grafham D.V., Griffiths C., Griffiths-Jones S., Grocock R.,
+RA   Hammond S., Harrison E.S.I., Hart E., Haugen E., Heath P.D.,
+RA   Holmes S., Holt K., Howden P.J., Hunt A.R., Hunt S.E., Hunter G.,
+RA   Isherwood J., James R., Johnson C., Johnson D., Joy A., Kay M.,
+RA   Kershaw J.K., Kibukawa M., Kimberley A.M., King A., Knights A.J.,
+RA   Lad H., Laird G., Lawlor S., Leongamornlert D.A., Lloyd D.M.,
+RA   Loveland J., Lovell J., Lush M.J., Lyne R., Martin S.,
+RA   Mashreghi-Mohammadi M., Matthews L., Matthews N.S.W., McLaren S.,
+RA   Milne S., Mistry S., Moore M.J.F., Nickerson T., O'Dell C.N.,
+RA   Oliver K., Palmeiri A., Palmer S.A., Parker A., Patel D., Pearce A.V.,
+RA   Peck A.I., Pelan S., Phelps K., Phillimore B.J., Plumb R., Rajan J.,
+RA   Raymond C., Rouse G., Saenphimmachak C., Sehra H.K., Sheridan E.,
+RA   Shownkeen R., Sims S., Skuce C.D., Smith M., Steward C.,
+RA   Subramanian S., Sycamore N., Tracey A., Tromans A., Van Helmond Z.,
+RA   Wall M., Wallis J.M., White S., Whitehead S.L., Wilkinson J.E.,
+RA   Willey D.L., Williams H., Wilming L., Wray P.W., Wu Z., Coulson A.,
+RA   Vaudin M., Sulston J.E., Durbin R.M., Hubbard T., Wooster R.,
+RA   Dunham I., Carter N.P., McVean G., Ross M.T., Harrow J., Olson M.V.,
+RA   Beck S., Rogers J., Bentley D.R.;
+RT   "The DNA sequence and biological annotation of human chromosome 1.";
+RL   Nature 441:315-321(2006).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 1-496, FUNCTION, AND TISSUE SPECIFICITY.
+RC   TISSUE=Mammary gland;
+RX   MEDLINE=97248557; PubMed=9092543; DOI=10.1074/jbc.272.15.10013;
+RA   Zhao Y., Loyer P., Li H., Valentine V., Kidd V., Kraft A.S.;
+RT   "Cloning and chromosomal location of a novel member of the myotonic
+RT   dystrophy family of protein kinases.";
+RL   J. Biol. Chem. 272:10013-10020(1997).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 799-1732 (ISOFORM 6), AND
+RP   VARIANT VAL-1712.
+RC   TISSUE=Brain;
+RX   MEDLINE=98116662; PubMed=9455484; DOI=10.1093/dnares/4.5.345;
+RA   Seki N., Ohira M., Nagase T., Ishikawa K., Miyajima N., Nakajima D.,
+RA   Nomura N., Ohara O.;
+RT   "Characterization of cDNA clones in size-fractionated cDNA libraries
+RT   from human brain.";
+RL   DNA Res. 4:345-349(1997).
+RN   [7]
+RP   SEQUENCE REVISION.
+RA   Ohara O.;
+RL   Submitted (AUG-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [8]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 1521-1644, FUNCTION, INTERACTION WITH
+RP   CDC42, AND MUTAGENESIS OF HIS-1579 AND HIS-1582.
+RC   TISSUE=Brain;
+RX   MEDLINE=98078670; PubMed=9418861;
+RA   Leung T., Chen X.-Q., Tan I., Manser E., Lim L.;
+RT   "Myotonic dystrophy kinase-related Cdc42-binding kinase acts as a
+RT   Cdc42 effector in promoting cytoskeletal reorganization.";
+RL   Mol. Cell. Biol. 18:130-140(1998).
+RN   [9]
+RP   ENZYME REGULATION, OLIGOMERIZATION, PHOSPHORYLATION AT SER-222;
+RP   SER-234 AND THR-240, AND MUTAGENESIS OF LYS-106; SER-222; SER-234;
+RP   THR-240 AND THR-403.
+RX   PubMed=11283256; DOI=10.1128/MCB.21.8.2767-2778.2001;
+RA   Tan I., Seow K.T., Lim L., Leung T.;
+RT   "Intermolecular and intramolecular interactions regulate catalytic
+RT   activity of myotonic dystrophy kinase-related Cdc42-binding kinase
+RT   alpha.";
+RL   Mol. Cell. Biol. 21:2767-2778(2001).
+RN   [10]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-1545; SER-1719 AND
+RP   SER-1721, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [11]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-1719, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=19690332; DOI=10.1126/scisignal.2000007;
+RA   Mayya V., Lundgren D.H., Hwang S.-I., Rezaul K., Wu L., Eng J.K.,
+RA   Rodionov V., Han D.K.;
+RT   "Quantitative phosphoproteomic analysis of T cell receptor signaling
+RT   reveals system-wide modulation of protein-protein interactions.";
+RL   Sci. Signal. 2:RA46-RA46(2009).
+RN   [12]
+RP   VARIANTS [LARGE SCALE ANALYSIS] LYS-50; MET-231; THR-537; MET-780;
+RP   CYS-790; THR-1148; HIS-1211; ILE-1317; LYS-1418; VAL-1469 AND
+RP   ALA-1618.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: May act as a downstream effector of CDC42 in
+CC       cytoskeletal reorganization. Contributes to the actomyosin
+CC       contractility required for cell invasion, through the regulation
+CC       of MYPT1 and thus MLC2 phosphorylation.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- COFACTOR: Magnesium.
+CC   -!- ENZYME REGULATION: Maintained in an inactive, closed conformation
+CC       by an interaction between the kinase domain and the negative
+CC       autoregulatory C-terminal coiled-coil region. Agonist binding to
+CC       the phorbol ester binding site disrupts this, releasing the kinase
+CC       domain to allow N-terminus-mediated dimerization and kinase
+CC       activation by transautophosphorylation.
+CC   -!- SUBUNIT: Homodimer and homotetramer via the coiled coil regions.
+CC       Interacts tightly with GTP-bound but not GDP-bound CDC42.
+CC   -!- INTERACTION:
+CC       Self; NbExp=3; IntAct=EBI-689171, EBI-689171;
+CC       P60953:CDC42; NbExp=3; IntAct=EBI-689171, EBI-81752;
+CC       P17081:RHOQ; NbExp=1; IntAct=EBI-689171, EBI-689202;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm (By similarity). Note=Displays a
+CC       dispersed punctate distribution and concentrates along the cell
+CC       periphery, especially at the leading edge and cell-cell junction.
+CC       This concentration is PH-domain dependent (By similarity).
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=6;
+CC       Name=1;
+CC         IsoId=Q5VT25-1; Sequence=Displayed;
+CC         Note=No experimental confirmation available;
+CC       Name=2;
+CC         IsoId=Q5VT25-2; Sequence=VSP_051861, VSP_051863;
+CC         Note=No experimental confirmation available;
+CC       Name=3;
+CC         IsoId=Q5VT25-3; Sequence=VSP_051859, VSP_051860;
+CC       Name=4;
+CC         IsoId=Q5VT25-4; Sequence=VSP_051862;
+CC         Note=No experimental confirmation available;
+CC       Name=5;
+CC         IsoId=Q5VT25-5; Sequence=VSP_051860;
+CC       Name=6;
+CC         IsoId=Q5VT25-6; Sequence=VSP_051860, VSP_035286;
+CC   -!- TISSUE SPECIFICITY: Abundant in the heart, brain, skeletal muscle,
+CC       kidney, and pancreas, with little or no expression in the lung and
+CC       liver.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. AGC Ser/Thr
+CC       protein kinase family. DMPK subfamily.
+CC   -!- SIMILARITY: Contains 1 AGC-kinase C-terminal domain.
+CC   -!- SIMILARITY: Contains 1 CNH domain.
+CC   -!- SIMILARITY: Contains 1 CRIB domain.
+CC   -!- SIMILARITY: Contains 1 PH domain.
+CC   -!- SIMILARITY: Contains 1 phorbol-ester/DAG-type zinc finger.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=BAD92205.1; Type=Erroneous initiation;
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AJ518975; CAD57745.1; -; mRNA.
+DR   EMBL; AJ518976; CAD57746.1; -; mRNA.
+DR   EMBL; AB208968; BAD92205.1; ALT_INIT; mRNA.
+DR   EMBL; CR933723; CAI46252.1; -; mRNA.
+DR   EMBL; AL353689; CAI19113.1; -; Genomic_DNA.
+DR   EMBL; AL451047; CAH71184.1; -; Genomic_DNA.
+DR   EMBL; AL353689; CAH71184.1; JOINED; Genomic_DNA.
+DR   EMBL; AL627308; CAH71184.1; JOINED; Genomic_DNA.
+DR   EMBL; AL451047; CAH71185.1; -; Genomic_DNA.
+DR   EMBL; AL627308; CAH71185.1; JOINED; Genomic_DNA.
+DR   EMBL; AL353689; CAH71185.1; JOINED; Genomic_DNA.
+DR   EMBL; AL627308; CAH71336.1; -; Genomic_DNA.
+DR   EMBL; AL353689; CAH71336.1; JOINED; Genomic_DNA.
+DR   EMBL; AL451047; CAH71336.1; JOINED; Genomic_DNA.
+DR   EMBL; AL627308; CAH71337.1; -; Genomic_DNA.
+DR   EMBL; AL353689; CAH71337.1; JOINED; Genomic_DNA.
+DR   EMBL; AL451047; CAH71337.1; JOINED; Genomic_DNA.
+DR   EMBL; AL353689; CAI19108.1; -; Genomic_DNA.
+DR   EMBL; AL451047; CAI19108.1; JOINED; Genomic_DNA.
+DR   EMBL; AL627308; CAI19108.1; JOINED; Genomic_DNA.
+DR   EMBL; AL451047; CAH71183.1; -; Genomic_DNA.
+DR   EMBL; AL353689; CAH71183.1; JOINED; Genomic_DNA.
+DR   EMBL; AL627308; CAH71183.1; JOINED; Genomic_DNA.
+DR   EMBL; AL627308; CAH71338.1; -; Genomic_DNA.
+DR   EMBL; AL353689; CAH71338.1; JOINED; Genomic_DNA.
+DR   EMBL; AL451047; CAH71338.1; JOINED; Genomic_DNA.
+DR   EMBL; AL353689; CAI19109.1; -; Genomic_DNA.
+DR   EMBL; AL627308; CAI19109.1; JOINED; Genomic_DNA.
+DR   EMBL; AL451047; CAI19109.1; JOINED; Genomic_DNA.
+DR   EMBL; AL353689; CAI19110.1; -; Genomic_DNA.
+DR   EMBL; AL451047; CAI19110.1; JOINED; Genomic_DNA.
+DR   EMBL; AL627308; CAI19110.1; JOINED; Genomic_DNA.
+DR   EMBL; AB007920; BAA32296.2; -; mRNA.
+DR   EMBL; U59305; AAB37126.1; -; mRNA.
+DR   IPI; IPI00550263; -.
+DR   IPI; IPI00640468; -.
+DR   IPI; IPI00640957; -.
+DR   IPI; IPI00642165; -.
+DR   IPI; IPI00654830; -.
+DR   IPI; IPI00903296; -.
+DR   RefSeq; NP_003598.2; -.
+DR   RefSeq; NP_055641.3; -.
+DR   UniGene; Hs.35433; -.
+DR   ProteinModelPortal; Q5VT25; -.
+DR   SMR; Q5VT25; 11-409, 879-940, 1009-1078, 1085-1205.
+DR   IntAct; Q5VT25; 12.
+DR   STRING; Q5VT25; -.
+DR   PhosphoSite; Q5VT25; -.
+DR   PRIDE; Q5VT25; -.
+DR   Ensembl; ENST00000366765; ENSP00000355727; ENSG00000143776.
+DR   GeneID; 8476; -.
+DR   KEGG; hsa:8476; -.
+DR   UCSC; uc001hqr.1; human.
+DR   UCSC; uc001hqs.1; human.
+DR   UCSC; uc009xes.1; human.
+DR   CTD; 8476; -.
+DR   GeneCards; GC01M227177; -.
+DR   HGNC; HGNC:1737; CDC42BPA.
+DR   MIM; 603412; gene.
+DR   PharmGKB; PA26267; -.
+DR   eggNOG; prNOG04641; -.
+DR   HOVERGEN; HBG055933; -.
+DR   OMA; GKVRHGA; -.
+DR   PhylomeDB; Q5VT25; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   NextBio; 31715; -.
+DR   ArrayExpress; Q5VT25; -.
+DR   Bgee; Q5VT25; -.
+DR   Genevestigator; Q5VT25; -.
+DR   GermOnline; ENSG00000143776; Homo sapiens.
+DR   GO; GO:0031252; C:cell leading edge; ISS:UniProtKB.
+DR   GO; GO:0005911; C:cell-cell junction; ISS:UniProtKB.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IDA:UniProtKB.
+DR   GO; GO:0042802; F:identical protein binding; IPI:IntAct.
+DR   GO; GO:0000287; F:magnesium ion binding; IDA:UniProtKB.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IDA:UniProtKB.
+DR   GO; GO:0005083; F:small GTPase regulator activity; IEA:InterPro.
+DR   GO; GO:0031532; P:actin cytoskeleton reorganization; IDA:UniProtKB.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IDA:UniProtKB.
+DR   InterPro; IPR000961; AGC-kinase_C.
+DR   InterPro; IPR001180; Citron.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR014930; Myotonic_dystrophy_kinase_coil.
+DR   InterPro; IPR000095; PAK_box_Rho-bd.
+DR   InterPro; IPR011993; PH_type.
+DR   InterPro; IPR017892; Pkinase_C.
+DR   InterPro; IPR001849; Pleckstrin_homology.
+DR   InterPro; IPR002219; Prot_Kinase_C-like_PE/DAG-bd.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Gene3D; G3DSA:2.30.29.30; PH_type; 1.
+DR   Pfam; PF00130; C1_1; 1.
+DR   Pfam; PF00780; CNH; 1.
+DR   Pfam; PF08826; DMPK_coil; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   Pfam; PF00433; Pkinase_C; 1.
+DR   ProDom; PD011252; Myotonic_dystrophy_kinase_coil; 1.
+DR   SMART; SM00109; C1; 1.
+DR   SMART; SM00036; CNH; 1.
+DR   SMART; SM00285; PBD; 1.
+DR   SMART; SM00233; PH; 1.
+DR   SMART; SM00133; S_TK_X; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS51285; AGC_KINASE_CTER; 1.
+DR   PROSITE; PS50219; CNH; 1.
+DR   PROSITE; PS50108; CRIB; 1.
+DR   PROSITE; PS50003; PH_DOMAIN; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+DR   PROSITE; PS00479; ZF_DAG_PE_1; 1.
+DR   PROSITE; PS50081; ZF_DAG_PE_2; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; ATP-binding; Coiled coil; Complete proteome;
+KW   Cytoplasm; Kinase; Magnesium; Metal-binding; Nucleotide-binding;
+KW   Phosphoprotein; Polymorphism; Serine/threonine-protein kinase;
+KW   Transferase; Zinc; Zinc-finger.
+FT   CHAIN         1   1732       Serine/threonine-protein kinase MRCK
+FT                                alpha.
+FT                                /FTId=PRO_0000086392.
+FT   DOMAIN       77    343       Protein kinase.
+FT   DOMAIN      344    414       AGC-kinase C-terminal.
+FT   DOMAIN     1082   1201       PH.
+FT   DOMAIN     1227   1499       CNH.
+FT   DOMAIN     1571   1584       CRIB.
+FT   NP_BIND      83     91       ATP (By similarity).
+FT   ZN_FING    1012   1062       Phorbol-ester/DAG-type.
+FT   COILED      437    820       Potential.
+FT   COILED      880    943       Potential.
+FT   ACT_SITE    201    201       Proton acceptor (By similarity).
+FT   BINDING     106    106       ATP.
+FT   MOD_RES     222    222       Phosphoserine; by autocatalysis.
+FT   MOD_RES     234    234       Phosphoserine; by autocatalysis.
+FT   MOD_RES     240    240       Phosphothreonine; by autocatalysis.
+FT   MOD_RES    1545   1545       Phosphoserine.
+FT   MOD_RES    1651   1651       Phosphoserine (By similarity).
+FT   MOD_RES    1719   1719       Phosphoserine.
+FT   MOD_RES    1721   1721       Phosphoserine.
+FT   VAR_SEQ     550    630       Missing (in isoform 3).
+FT                                /FTId=VSP_051859.
+FT   VAR_SEQ     969   1009       Missing (in isoform 4).
+FT                                /FTId=VSP_051862.
+FT   VAR_SEQ     969    981       Missing (in isoform 3, isoform 5 and
+FT                                isoform 6).
+FT                                /FTId=VSP_051860.
+FT   VAR_SEQ     969    969       R -> TDPVENTYVWNPSVKFHIQSRST (in isoform
+FT                                2).
+FT                                /FTId=VSP_051861.
+FT   VAR_SEQ     973    981       CTPASKGRR -> TSSEAEPVK (in isoform 2).
+FT                                /FTId=VSP_051863.
+FT   VAR_SEQ    1597   1597       M -> MPGFPYPSPHHHSGLISSPINFEHIYHMTVNSAEKF
+FT                                LSPDSINPEYSPSLRSVPGTPSFMTLR (in isoform
+FT                                6).
+FT                                /FTId=VSP_035286.
+FT   VARIANT      50     50       E -> K (in a lung neuroendocrine
+FT                                carcinoma sample; somatic mutation).
+FT                                /FTId=VAR_040830.
+FT   VARIANT     231    231       T -> M (in dbSNP:rs34614709).
+FT                                /FTId=VAR_040831.
+FT   VARIANT     537    537       I -> T (in dbSNP:rs56364976).
+FT                                /FTId=VAR_040832.
+FT   VARIANT     780    780       T -> M (in dbSNP:rs56119119).
+FT                                /FTId=VAR_045583.
+FT   VARIANT     790    790       Y -> C (in dbSNP:rs34943764).
+FT                                /FTId=VAR_045584.
+FT   VARIANT    1148   1148       A -> T.
+FT                                /FTId=VAR_045585.
+FT   VARIANT    1211   1211       R -> H.
+FT                                /FTId=VAR_045586.
+FT   VARIANT    1317   1317       V -> I.
+FT                                /FTId=VAR_045587.
+FT   VARIANT    1418   1418       I -> K.
+FT                                /FTId=VAR_040833.
+FT   VARIANT    1469   1469       A -> V (in dbSNP:rs55687355).
+FT                                /FTId=VAR_045588.
+FT   VARIANT    1618   1618       T -> A.
+FT                                /FTId=VAR_045589.
+FT   VARIANT    1699   1699       A -> V (in dbSNP:rs2802269).
+FT                                /FTId=VAR_045590.
+FT   VARIANT    1712   1712       A -> V (in dbSNP:rs2802269).
+FT                                /FTId=VAR_057104.
+FT   MUTAGEN     106    106       K->A: Loss of kinase activity.
+FT   MUTAGEN     222    222       S->L: Increase in autophosphorylation but
+FT                                not kinase activity.
+FT   MUTAGEN     234    234       S->A: Loss of autophosphorylation and
+FT                                kinase activity.
+FT   MUTAGEN     240    240       T->A: Loss of autophosphorylation and
+FT                                kinase activity.
+FT   MUTAGEN     403    403       T->A: Loss of autophosphorylation and
+FT                                kinase activity.
+FT   MUTAGEN    1579   1579       H->A: Loss of CDC42 binding; when
+FT                                associated with A-1582.
+FT   MUTAGEN    1582   1582       H->A: Loss of CDC42 binding; when
+FT                                associated with A-1579.
+FT   CONFLICT     25     25       C -> Y (in Ref. 5; AAB37126).
+FT   CONFLICT    809    809       D -> N (in Ref. 3; CAI46252).
+FT   CONFLICT   1521   1521       L -> V (in Ref. 8).
+FT   CONFLICT   1688   1688       G -> K (in Ref. 6; BAA32296).
+SQ   SEQUENCE   1732 AA;  197307 MW;  48B10F81B5405A0A CRC64;
+     MSGEVRLRQL EQFILDGPAQ TNGQCFSVET LLDILICLYD ECNNSPLRRE KNILEYLEWA
+     KPFTSKVKQM RLHREDFEIL KVIGRGAFGE VAVVKLKNAD KVFAMKILNK WEMLKRAETA
+     CFREERDVLV NGDNKWITTL HYAFQDDNNL YLVMDYYVGG DLLTLLSKFE DRLPEDMARF
+     YLAEMVIAID SVHQLHYVHR DIKPDNILMD MNGHIRLADF GSCLKLMEDG TVQSSVAVGT
+     PDYISPEILQ AMEDGKGRYG PECDWWSLGV CMYEMLYGET PFYAESLVET YGKIMNHKER
+     FQFPAQVTDV SENAKDLIRR LICSREHRLG QNGIEDFKKH PFFSGIDWDN IRNCEAPYIP
+     EVSSPTDTSN FDVDDDCLKN SETMPPPTHT AFSGHHLPFV GFTYTSSCVL SDRSCLRVTA
+     GPTSLDLDVN VQRTLDNNLA TEAYERRIKR LEQEKLELSR KLQESTQTVQ ALQYSTVDGP
+     LTASKDLEIK NLKEEIEKLR KQVTESSHLE QQLEEANAVR QELDDAFRQI KAYEKQIKTL
+     QQEREDLNKE LVQASERLKN QSKELKDAHC QRKLAMQEFM EINERLTELH TQKQKLARHV
+     RDKEEEVDLV MQKVESLRQE LRRTERAKKE LEVHTEALAA EASKDRKLRE QSEHYSKQLE
+     NELEGLKQKQ ISYSPGVCSI EHQQEITKLK TDLEKKSIFY EEELSKREGI HANEIKNLKK
+     ELHDSEGQQL ALNKEIMILK DKLEKTRRES QSEREEFESE FKQQYEREKV LLTEENKKLT
+     SELDKLTTLY ENLSIHNQQL EEEVKDLADK KESVAHWEAQ ITEIIQWVSD EKDARGYLQA
+     LASKMTEELE ALRNSSLGTR ATDMPWKMRR FAKLDMSARL ELQSALDAEI RAKQAIQEEL
+     NKVKASNIIT ECKLKDSEKK NLELLSEIEQ LIKDTEELRS EKGIEHQDSQ HSFLAFLNTP
+     TDALDQFERS PSCTPASKGR RTVDSTPLSV HTPTLRKKGC PGSTGFPPKR KTHQFFVKSF
+     TTPTKCHQCT SLMVGLIRQG CSCEVCGFSC HITCVNKAPT TCPVPPEQTK GPLGIDPQKG
+     IGTAYEGHVR IPKPAGVKKG WQRALAIVCD FKLFLYDIAE GKASQPSVVI SQVIDMRDEE
+     FSVSSVLASD VIHASRKDIP CIFRVTASQL SASNNKCSIL MLADTENEKN KWVGVLSELH
+     KILKKNKFRD RSVYVPKEAY DSTLPLIKTT QAAAIIDHER IALGNEEGLF VVHVTKDEII
+     RVGDNKKIHQ IELIPNDQLV AVISGRNRHV RLFPMSALDG RETDFYKLSE TKGCQTVTSG
+     KVRHGALTCL CVAMKRQVLC YELFQSKTRH RKFKEIQVPY NVQWMAIFSE QLCVGFQSGF
+     LRYPLNGEGN PYSMLHSNDH TLSFIAHQPM DAICAVEISS KEYLLCFNSI GIYTDCQGRR
+     SRQQELMWPA NPSSCCYNAP YLSVYSENAV DIFDVNSMEW IQTLPLKKVR PLNNEGSLNL
+     LGLETIRLIY FKNKMAEGDE LVVPETSDNS RKQMVRNINN KRRYSFRVPE EERMQQRREM
+     LRDPEMRNKL ISNPTNFNHI AHMGPGDGIQ ILKDLPMNPR PQESRTVFSG SVSIPSITKS
+     RPEPGRSMSA SSGLSARSSA QNGSALKREF SGGSYSAKRQ PMPSPSEGSL SSGGMDQGSD
+     APARDFDGED SDSPRHSTAS NSSNLSSPPS PASPRKTKSL SLESTDRGSW DP
+//

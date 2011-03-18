@@ -1,0 +1,357 @@
+ID   MP2K2_HUMAN             Reviewed;         400 AA.
+AC   P36507;
+DT   01-JUN-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1994, sequence version 1.
+DT   05-OCT-2010, entry version 127.
+DE   RecName: Full=Dual specificity mitogen-activated protein kinase kinase 2;
+DE            Short=MAP kinase kinase 2;
+DE            Short=MAPKK 2;
+DE            EC=2.7.12.2;
+DE   AltName: Full=ERK activator kinase 2;
+DE   AltName: Full=MAPK/ERK kinase 2;
+DE            Short=MEK 2;
+GN   Name=MAP2K2; Synonyms=MEK2, MKK2, PRKMK2;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   MEDLINE=93266604; PubMed=8388392;
+RA   Zheng C.-F., Guan K.-L.;
+RT   "Cloning and characterization of two distinct human extracellular
+RT   signal-regulated kinase activator kinases, MEK1 and MEK2.";
+RL   J. Biol. Chem. 268:11435-11439(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Muscle, and Skin;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 40-51; 53-61; 64-100; 102-112; 164-172; 194-205;
+RP   265-297; 362-371 AND 389-397, PHOSPHORYLATION AT THR-394, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Colon carcinoma;
+RA   Bienvenut W.V., Zebisch A., Kolch W.;
+RL   Submitted (DEC-2008) to UniProtKB.
+RN   [4]
+RP   PROTEIN SEQUENCE OF 210-231, INACTIVATION BY YERSINIA YOPJ,
+RP   PHOSPHORYLATION AT SER-222 AND SER-226, ACETYLATION AT SER-222 AND
+RP   SER-226, AND MASS SPECTROMETRY.
+RX   PubMed=17116858; DOI=10.1073/pnas.0608995103;
+RA   Mittal R., Peak-Chew S.Y., McMahon H.T.;
+RT   "Acetylation of MEK2 and I kappa B kinase (IKK) activation loop
+RT   residues by YopJ inhibits signaling.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:18574-18579(2006).
+RN   [5]
+RP   CLEAVAGE BY ANTHRAX LETHAL FACTOR.
+RX   MEDLINE=98230732; PubMed=9563949; DOI=10.1126/science.280.5364.734;
+RA   Duesbery N.S., Webb C.P., Leppla S.H., Gordon V.M., Klimpel K.R.,
+RA   Copeland T.D., Ahn N.G., Oskarsson M.K., Fukasawa K., Paull K.D.,
+RA   Vande Woude G.F.;
+RT   "Proteolytic inactivation of MAP-kinase-kinase by anthrax lethal
+RT   factor.";
+RL   Science 280:734-737(1998).
+RN   [6]
+RP   CLEAVAGE BY ANTHRAX LETHAL FACTOR.
+RX   MEDLINE=20558083; PubMed=11104681; DOI=10.1042/0264-6021:3520739;
+RA   Vitale G., Bernardi L., Napolitani G., Mock M., Montecucco C.;
+RT   "Susceptibility of mitogen-activated protein kinase kinase family
+RT   members to proteolysis by anthrax lethal factor.";
+RL   Biochem. J. 352:739-745(2000).
+RN   [7]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-394, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=15302935; DOI=10.1073/pnas.0404720101;
+RA   Beausoleil S.A., Jedrychowski M., Schwartz D., Elias J.E., Villen J.,
+RA   Li J., Cohn M.A., Cantley L.C., Gygi S.P.;
+RT   "Large-scale characterization of HeLa cell nuclear phosphoproteins.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:12130-12135(2004).
+RN   [8]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-23 AND THR-394, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=17081983; DOI=10.1016/j.cell.2006.09.026;
+RA   Olsen J.V., Blagoev B., Gnad F., Macek B., Kumar C., Mortensen P.,
+RA   Mann M.;
+RT   "Global, in vivo, and site-specific phosphorylation dynamics in
+RT   signaling networks.";
+RL   Cell 127:635-648(2006).
+RN   [9]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-396, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=16964243; DOI=10.1038/nbt1240;
+RA   Beausoleil S.A., Villen J., Gerber S.A., Rush J., Gygi S.P.;
+RT   "A probability-based approach for high-throughput protein
+RT   phosphorylation analysis and site localization.";
+RL   Nat. Biotechnol. 24:1285-1292(2006).
+RN   [10]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-226 AND THR-394, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=17192257; DOI=10.1074/mcp.T600062-MCP200;
+RA   Wissing J., Jaensch L., Nimtz M., Dieterich G., Hornberger R.,
+RA   Keri G., Wehland J., Daub H.;
+RT   "Proteomics analysis of protein kinases by target class-selective
+RT   prefractionation and tandem mass spectrometry.";
+RL   Mol. Cell. Proteomics 6:537-547(2007).
+RN   [11]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-396, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18187866; DOI=10.2116/analsci.24.161;
+RA   Imami K., Sugiyama N., Kyono Y., Tomita M., Ishihama Y.;
+RT   "Automated phosphoproteome analysis for cultured cancer cells by two-
+RT   dimensional nanoLC-MS using a calcined titania/C18 biphasic column.";
+RL   Anal. Sci. 24:161-166(2008).
+RN   [12]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-394 AND THR-396, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Platelet;
+RX   PubMed=18088087; DOI=10.1021/pr0704130;
+RA   Zahedi R.P., Lewandrowski U., Wiesner J., Wortelkamp S., Moebius J.,
+RA   Schuetz C., Walter U., Gambaryan S., Sickmann A.;
+RT   "Phosphoproteome of resting human platelets.";
+RL   J. Proteome Res. 7:526-534(2008).
+RN   [13]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-23; SER-293; SER-295 AND
+RP   THR-396, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [14]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-222; SER-226; THR-394
+RP   AND THR-396, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [15]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RA   Colinge J., Superti-Furga G., Bennett K.L.;
+RL   Submitted (OCT-2008) to UniProtKB.
+RN   [16]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT MET-1, PHOSPHORYLATION [LARGE
+RP   SCALE ANALYSIS] AT THR-394, AND MASS SPECTROMETRY.
+RC   TISSUE=Embryonic kidney;
+RX   PubMed=19413330; DOI=10.1021/ac9004309;
+RA   Gauci S., Helbig A.O., Slijper M., Krijgsveld J., Heck A.J.,
+RA   Mohammed S.;
+RT   "Lys-N and trypsin cover complementary parts of the phosphoproteome in
+RT   a refined SCX-based approach.";
+RL   Anal. Chem. 81:4493-4501(2009).
+RN   [17]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-23; SER-222; SER-226;
+RP   SER-293; SER-295 AND THR-396, AND MASS SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [18]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-394, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=19690332; DOI=10.1126/scisignal.2000007;
+RA   Mayya V., Lundgren D.H., Hwang S.-I., Rezaul K., Wu L., Eng J.K.,
+RA   Rodionov V., Han D.K.;
+RT   "Quantitative phosphoproteomic analysis of T cell receptor signaling
+RT   reveals system-wide modulation of protein-protein interactions.";
+RL   Sci. Signal. 2:RA46-RA46(2009).
+RN   [19]
+RP   VARIANT CFC SYNDROME CYS-57.
+RX   PubMed=16439621; DOI=10.1126/science.1124642;
+RA   Rodriguez-Viciana P., Tetsu O., Tidyman W.E., Estep A.L., Conger B.A.,
+RA   Cruz M.S., McCormick F., Rauen K.A.;
+RT   "Germline mutations in genes within the MAPK pathway cause cardio-
+RT   facio-cutaneous syndrome.";
+RL   Science 311:1287-1290(2006).
+CC   -!- FUNCTION: Catalyzes the concomitant phosphorylation of a threonine
+CC       and a tyrosine residue in a Thr-Glu-Tyr sequence located in MAP
+CC       kinases. Activates the ERK1 and ERK2 MAP kinases (By similarity).
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- SUBUNIT: Interacts with MORG1 (By similarity).
+CC   -!- INTERACTION:
+CC       P10398:ARAF; NbExp=3; IntAct=EBI-1056930, EBI-365961;
+CC   -!- PTM: MAPKK is itself dependent on Ser/Thr phosphorylation for
+CC       activity catalyzed by MAP kinase kinase kinases (RAF or MEKK1).
+CC   -!- PTM: Acetylation of Ser-222 and Ser-226 by Yersinia yopJ prevents
+CC       phosphorylation and activation, thus blocking the MAPK signaling
+CC       pathway.
+CC   -!- DISEASE: Defects in MAP2K2 are a cause of cardiofaciocutaneous
+CC       syndrome (CFC syndrome) [MIM:115150]; also known as cardio-facio-
+CC       cutaneous syndrome. CFC syndrome is characterized by a distinctive
+CC       facial appearance, heart defects and mental retardation. Heart
+CC       defects include pulmonic stenosis, atrial septal defects and
+CC       hypertrophic cardiomyopathy. Some affected individuals present
+CC       with ectodermal abnormalities such as sparse, friable hair,
+CC       hyperkeratotic skin lesions and a generalized ichthyosis-like
+CC       condition. Typical facial features are similar to Noonan syndrome.
+CC       They include high forehead with bitemporal constriction,
+CC       hypoplastic supraorbital ridges, downslanting palpebral fissures,
+CC       a depressed nasal bridge, and posteriorly angulated ears with
+CC       prominent helices. The inheritance of CFC syndrome is autosomal
+CC       dominant.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. STE Ser/Thr
+CC       protein kinase family. MAP kinase kinase subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- WEB RESOURCE: Name=GeneReviews;
+CC       URL="http://www.ncbi.nlm.nih.gov/sites/GeneTests/lab/gene/MAP2K2";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; L11285; -; NOT_ANNOTATED_CDS; mRNA.
+DR   EMBL; BC000471; AAH00471.1; -; mRNA.
+DR   EMBL; BC018645; AAH18645.1; -; mRNA.
+DR   IPI; IPI00003783; -.
+DR   PIR; A46723; A46723.
+DR   RefSeq; NP_109587.1; -.
+DR   UniGene; Hs.465627; -.
+DR   PDB; 1S9I; X-ray; 3.20 A; A/B=55-400.
+DR   PDBsum; 1S9I; -.
+DR   ProteinModelPortal; P36507; -.
+DR   DIP; DIP-29119N; -.
+DR   IntAct; P36507; 16.
+DR   MINT; MINT-99667; -.
+DR   STRING; P36507; -.
+DR   PhosphoSite; P36507; -.
+DR   REPRODUCTION-2DPAGE; IPI00003783; -.
+DR   PeptideAtlas; P36507; -.
+DR   PRIDE; P36507; -.
+DR   Ensembl; ENST00000262948; ENSP00000262948; ENSG00000126934.
+DR   GeneID; 5605; -.
+DR   KEGG; hsa:5605; -.
+DR   UCSC; uc002lzk.1; human.
+DR   CTD; 5605; -.
+DR   GeneCards; GC19M004041; -.
+DR   H-InvDB; HIX0014653; -.
+DR   H-InvDB; HIX0033655; -.
+DR   HGNC; HGNC:6842; MAP2K2.
+DR   HPA; CAB003835; -.
+DR   MIM; 115150; phenotype.
+DR   MIM; 601263; gene.
+DR   Orphanet; 1340; Cardiofaciocutaneous syndrome.
+DR   PharmGKB; PA30587; -.
+DR   eggNOG; prNOG06383; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG108518; -.
+DR   InParanoid; P36507; -.
+DR   OMA; FEPICEL; -.
+DR   PhylomeDB; P36507; -.
+DR   BRENDA; 2.7.12.2; 247.
+DR   Pathway_Interaction_DB; anthraxpathway; Cellular roles of Anthrax toxin.
+DR   Pathway_Interaction_DB; ceramidepathway; Ceramide signaling pathway.
+DR   Pathway_Interaction_DB; cd8tcrdownstreampathway; Downstream signaling in naive CD8+ T cells.
+DR   Pathway_Interaction_DB; endothelinpathway; Endothelins.
+DR   Pathway_Interaction_DB; fcer1pathway; Fc-epsilon receptor I signaling in mast cells.
+DR   Pathway_Interaction_DB; il2_1pathway; IL2-mediated signaling events.
+DR   Pathway_Interaction_DB; met_pathway; Signaling events activated by Hepatocyte Growth Factor Receptor (c-Met).
+DR   Pathway_Interaction_DB; kitpathway; Signaling events mediated by Stem cell factor receptor (c-Kit).
+DR   Reactome; REACT_11061; Signalling by NGF.
+DR   Reactome; REACT_16888; Signaling by PDGF.
+DR   Reactome; REACT_18266; Axon guidance.
+DR   Reactome; REACT_498; Signaling by Insulin receptor.
+DR   Reactome; REACT_6900; Signaling in Immune system.
+DR   Reactome; REACT_9417; Signaling by EGFR.
+DR   NextBio; 21780; -.
+DR   PMAP-CutDB; P36507; -.
+DR   ArrayExpress; P36507; -.
+DR   Bgee; P36507; -.
+DR   CleanEx; HS_MAP2K2; -.
+DR   Genevestigator; P36507; -.
+DR   GermOnline; ENSG00000126934; Homo sapiens.
+DR   GO; GO:0005829; C:cytosol; EXP:Reactome.
+DR   GO; GO:0005576; C:extracellular region; NAS:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; NAS:UniProtKB.
+DR   GO; GO:0005515; F:protein binding; IPI:IntAct.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; NAS:UniProtKB.
+DR   GO; GO:0004713; F:protein tyrosine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; NAS:UniProtKB.
+DR   GO; GO:0007265; P:Ras protein signal transduction; EXP:Reactome.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; ATP-binding; Complete proteome;
+KW   Direct protein sequencing; Disease mutation; Kinase;
+KW   Nucleotide-binding; Phosphoprotein; Serine/threonine-protein kinase;
+KW   Transferase; Tyrosine-protein kinase.
+FT   CHAIN         1    400       Dual specificity mitogen-activated
+FT                                protein kinase kinase 2.
+FT                                /FTId=PRO_0000086372.
+FT   DOMAIN       72    369       Protein kinase.
+FT   NP_BIND      78     86       ATP (By similarity).
+FT   COMPBIAS    266    315       Pro-rich.
+FT   ACT_SITE    194    194       Proton acceptor (By similarity).
+FT   BINDING     101    101       ATP (By similarity).
+FT   SITE         10     11       Cleavage; by anthrax lethal factor.
+FT   MOD_RES       1      1       N-acetylmethionine.
+FT   MOD_RES      23     23       Phosphoserine.
+FT   MOD_RES     222    222       O-acetylserine; by Yersinia yopJ;
+FT                                alternate.
+FT   MOD_RES     222    222       Phosphoserine; by RAF; alternate.
+FT   MOD_RES     226    226       O-acetylserine; by Yersinia yopJ;
+FT                                alternate.
+FT   MOD_RES     226    226       Phosphoserine; alternate.
+FT   MOD_RES     293    293       Phosphoserine.
+FT   MOD_RES     295    295       Phosphoserine.
+FT   MOD_RES     394    394       Phosphothreonine.
+FT   MOD_RES     396    396       Phosphothreonine.
+FT   VARIANT      57     57       F -> C (in CFC syndrome).
+FT                                /FTId=VAR_035095.
+FT   HELIX        69     71
+FT   STRAND       72     80
+FT   STRAND       85     91
+FT   TURN         92     94
+FT   STRAND       97    103
+FT   HELIX       110    119
+FT   HELIX       120    122
+FT   STRAND      133    148
+FT   HELIX       155    161
+FT   STRAND      162    164
+FT   HELIX       167    186
+FT   HELIX       197    199
+FT   STRAND      200    202
+FT   STRAND      208    210
+FT   HELIX       217    222
+FT   HELIX       236    239
+FT   HELIX       246    262
+FT   HELIX       272    279
+FT   HELIX       318    327
+FT   TURN        335    337
+FT   HELIX       340    349
+FT   TURN        354    356
+FT   HELIX       360    364
+FT   HELIX       367    374
+FT   HELIX       379    386
+SQ   SEQUENCE   400 AA;  44424 MW;  3401D522515C30A5 CRC64;
+     MLARRKPVLP ALTINPTIAE GPSPTSEGAS EANLVDLQKK LEELELDEQQ KKRLEAFLTQ
+     KAKVGELKDD DFERISELGA GNGGVVTKVQ HRPSGLIMAR KLIHLEIKPA IRNQIIRELQ
+     VLHECNSPYI VGFYGAFYSD GEISICMEHM DGGSLDQVLK EAKRIPEEIL GKVSIAVLRG
+     LAYLREKHQI MHRDVKPSNI LVNSRGEIKL CDFGVSGQLI DSMANSFVGT RSYMAPERLQ
+     GTHYSVQSDI WSMGLSLVEL AVGRYPIPPP DAKELEAIFG RPVVDGEEGE PHSISPRPRP
+     PGRPVSGHGM DSRPAMAIFE LLDYIVNEPP PKLPNGVFTP DFQEFVNKCL IKNPAERADL
+     KMLTNHTFIK RSEVEEVDFA GWLCKTLRLN QPGTPTRTAV
+//

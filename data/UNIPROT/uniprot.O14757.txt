@@ -1,0 +1,832 @@
+ID   CHK1_HUMAN              Reviewed;         476 AA.
+AC   O14757; A8K934;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1998, sequence version 1.
+DT   02-NOV-2010, entry version 128.
+DE   RecName: Full=Serine/threonine-protein kinase Chk1;
+DE            EC=2.7.11.1;
+GN   Name=CHEK1; Synonyms=CHK1;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, INTERACTION WITH CDC25A; CDC25B
+RP   AND CDC25C, SUBCELLULAR LOCATION, TISSUE SPECIFICITY, PHOSPHORYLATION,
+RP   AND MUTAGENESIS OF ASP-130.
+RX   MEDLINE=97426625; PubMed=9278511; DOI=10.1126/science.277.5331.1497;
+RA   Sanchez Y., Wong C., Thoma R.S., Richman R., Wu Z., Piwnica-Worms H.,
+RA   Elledge S.J.;
+RT   "Conservation of the Chk1 checkpoint pathway in mammals: linkage of
+RT   DNA damage to Cdk regulation through Cdc25.";
+RL   Science 277:1497-1501(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   MEDLINE=98044285; PubMed=9382850; DOI=10.1016/S0960-9822(06)00417-9;
+RA   Flaggs G., Plug A.W., Dunks K.M., Mundt K.E., Ford J.C.,
+RA   Quiggle M.R.E., Taylor E.M., Westphal C.H., Ashley T., Hoekstra M.F.,
+RA   Carr A.M.;
+RT   "Atm-dependent interactions of a mammalian chk1 homolog with meiotic
+RT   chromosomes.";
+RL   Curr. Biol. 7:977-986(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   MEDLINE=20184068; PubMed=10717241;
+RA   Semba S., Ouyang H., Han S.-Y., Kato Y., Horii A.;
+RT   "Analysis of the candidate target genes for mutation in microsatellite
+RT   instability-positive cancers of the colorectum, stomach, and
+RT   endometrium.";
+RL   Int. J. Oncol. 16:731-737(2000).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Testis;
+RX   PubMed=14702039; DOI=10.1038/ng1285;
+RA   Ota T., Suzuki Y., Nishikawa T., Otsuki T., Sugiyama T., Irie R.,
+RA   Wakamatsu A., Hayashi K., Sato H., Nagai K., Kimura K., Makita H.,
+RA   Sekine M., Obayashi M., Nishi T., Shibahara T., Tanaka T., Ishii S.,
+RA   Yamamoto J., Saito K., Kawai Y., Isono Y., Nakamura Y., Nagahari K.,
+RA   Murakami K., Yasuda T., Iwayanagi T., Wagatsuma M., Shiratori A.,
+RA   Sudo H., Hosoiri T., Kaku Y., Kodaira H., Kondo H., Sugawara M.,
+RA   Takahashi M., Kanda K., Yokoi T., Furuya T., Kikkawa E., Omura Y.,
+RA   Abe K., Kamihara K., Katsuta N., Sato K., Tanikawa M., Yamazaki M.,
+RA   Ninomiya K., Ishibashi T., Yamashita H., Murakawa K., Fujimori K.,
+RA   Tanai H., Kimata M., Watanabe M., Hiraoka S., Chiba Y., Ishida S.,
+RA   Ono Y., Takiguchi S., Watanabe S., Yosida M., Hotuta T., Kusano J.,
+RA   Kanehori K., Takahashi-Fujii A., Hara H., Tanase T.-O., Nomura Y.,
+RA   Togiya S., Komai F., Hara R., Takeuchi K., Arita M., Imose N.,
+RA   Musashino K., Yuuki H., Oshima A., Sasaki N., Aotsuka S.,
+RA   Yoshikawa Y., Matsunawa H., Ichihara T., Shiohata N., Sano S.,
+RA   Moriya S., Momiyama H., Satoh N., Takami S., Terashima Y., Suzuki O.,
+RA   Nakagawa S., Senoh A., Mizoguchi H., Goto Y., Shimizu F., Wakebe H.,
+RA   Hishigaki H., Watanabe T., Sugiyama A., Takemoto M., Kawakami B.,
+RA   Yamazaki M., Watanabe K., Kumagai A., Itakura S., Fukuzumi Y.,
+RA   Fujimori Y., Komiyama M., Tashiro H., Tanigami A., Fujiwara T.,
+RA   Ono T., Yamada K., Fujii Y., Ozaki K., Hirao M., Ohmori Y.,
+RA   Kawabata A., Hikiji T., Kobatake N., Inagaki H., Ikema Y., Okamoto S.,
+RA   Okitani R., Kawakami T., Noguchi S., Itoh T., Shigeta K., Senba T.,
+RA   Matsumura K., Nakajima Y., Mizuno T., Morinaga M., Sasaki M.,
+RA   Togashi T., Oyama M., Hata H., Watanabe M., Komatsu T.,
+RA   Mizushima-Sugano J., Satoh T., Shirai Y., Takahashi Y., Nakagawa K.,
+RA   Okumura K., Nagase T., Nomura N., Kikuchi H., Masuho Y., Yamashita R.,
+RA   Nakai K., Yada T., Nakamura Y., Ohara O., Isogai T., Sugano S.;
+RT   "Complete sequencing and characterization of 21,243 full-length human
+RT   cDNAs.";
+RL   Nat. Genet. 36:40-45(2004).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND VARIANT GLN-156.
+RG   NIEHS SNPs program;
+RL   Submitted (JUL-2002) to the EMBL/GenBank/DDBJ databases.
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Bone marrow, and Muscle;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [8]
+RP   FUNCTION, AND MUTAGENESIS OF ASP-130.
+RX   PubMed=10673501;
+RA   Shieh S.-Y., Ahn J., Tamai K., Taya Y., Prives C.;
+RT   "The human homologs of checkpoint kinases Chk1 and Cds1 (Chk2)
+RT   phosphorylate p53 at multiple DNA damage-inducible sites.";
+RL   Genes Dev. 14:289-300(2000).
+RN   [9]
+RP   ERRATUM.
+RA   Shieh S.-Y., Ahn J., Tamai K., Taya Y., Prives C.;
+RL   Genes Dev. 14:750-750(2000).
+RN   [10]
+RP   PHOSPHORYLATION AT SER-345.
+RX   MEDLINE=20317029; PubMed=10859164;
+RA   Liu Q., Guntuku S., Cui X.-S., Matsuoka S., Cortez D., Tamai K.,
+RA   Luo G., Carattini-Rivera S., DeMayo F., Bradley A., Donehower L.A.,
+RA   Elledge S.J.;
+RT   "Chk1 is an essential kinase that is regulated by Atr and required for
+RT   the G(2)/M DNA damage checkpoint.";
+RL   Genes Dev. 14:1448-1459(2000).
+RN   [11]
+RP   FUNCTION, PHOSPHORYLATION BY ATR, AND MUTAGENESIS OF ASP-130.
+RX   PubMed=11535615; DOI=10.1083/jcb.200104099;
+RA   Feijoo C., Hall-Jackson C., Wu R., Jenkins D., Leitch J.,
+RA   Gilbert D.M., Smythe C.;
+RT   "Activation of mammalian Chk1 during DNA replication arrest: a role
+RT   for Chk1 in the intra-S phase checkpoint monitoring replication origin
+RT   firing.";
+RL   J. Cell Biol. 154:913-923(2001).
+RN   [12]
+RP   PHOSPHORYLATION AT SER-317 AND SER-345, AND MUTAGENESIS OF ASP-130;
+RP   SER-317; SER-345; SER-357; SER-366 AND SER-468.
+RX   MEDLINE=21286906; PubMed=11390642;
+RX   DOI=10.1128/MCB.21.13.4129-4139.2001;
+RA   Zhao H., Piwnica-Worms H.;
+RT   "ATR-mediated checkpoint pathways regulate phosphorylation and
+RT   activation of human Chk1.";
+RL   Mol. Cell. Biol. 21:4129-4139(2001).
+RN   [13]
+RP   SUBSTRATE SPECIFICITY, AND MUTAGENESIS OF ASP-130.
+RX   PubMed=11821419; DOI=10.1074/jbc.M111705200;
+RA   O'Neill T., Giarratani L., Chen P., Iyer L., Lee C.-H., Bobiak M.,
+RA   Kanai F., Zhou B.-B., Chung J.H., Rathbun G.A.;
+RT   "Determination of substrate motifs for human Chk1 and hCds1/Chk2 by
+RT   the oriented peptide library approach.";
+RL   J. Biol. Chem. 277:16102-16115(2002).
+RN   [14]
+RP   ERRATUM.
+RA   O'Neill T., Giarratani L., Chen P., Iyer L., Lee C.-H., Bobiak M.,
+RA   Kanai F., Zhou B.-B., Chung J.H., Rathbun G.A.;
+RL   J. Biol. Chem. 277:35776-35777(2002).
+RN   [15]
+RP   FUNCTION, PHOSPHORYLATION AT SER-317 AND SER-345, AND MUTAGENESIS OF
+RP   LYS-38.
+RX   PubMed=12446774; DOI=10.1128/MCB.22.24.8552-8561.2002;
+RA   Heffernan T.P., Simpson D.A., Frank A.R., Heinloth A.N., Paules R.S.,
+RA   Cordeiro-Stone M., Kaufmann W.K.;
+RT   "An ATR- and Chk1-dependent S checkpoint inhibits replicon initiation
+RT   following UVC-induced DNA damage.";
+RL   Mol. Cell. Biol. 22:8552-8561(2002).
+RN   [16]
+RP   SUBCELLULAR LOCATION, AND INTERACTION WITH BRCA1.
+RX   PubMed=11836499; DOI=10.1038/ng837;
+RA   Yarden R.I., Pardo-Reoyo S., Sgagias M., Cowan K.H., Brody L.C.;
+RT   "BRCA1 regulates the G2/M checkpoint by activating Chk1 kinase upon
+RT   DNA damage.";
+RL   Nat. Genet. 30:285-289(2002).
+RN   [17]
+RP   FUNCTION.
+RX   PubMed=12399544; DOI=10.1073/pnas.182557299;
+RA   Zhao H., Watkins J.L., Piwnica-Worms H.;
+RT   "Disruption of the checkpoint kinase 1/cell division cycle 25A pathway
+RT   abrogates ionizing radiation-induced S and G2 checkpoints.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:14795-14800(2002).
+RN   [18]
+RP   FUNCTION, PHOSPHORYLATION AT SER-317 AND SER-345, AND MUTAGENESIS OF
+RP   SER-317 AND SER-345.
+RX   PubMed=12676583; DOI=10.1016/S1535-6108(03)00048-5;
+RA   Soerensen C.S., Syljuaesen R.G., Falck J., Schroeder T.,
+RA   Roennstrand L., Khanna K.K., Zhou B.-B., Bartek J., Lukas J.;
+RT   "Chk1 regulates the S phase checkpoint by coupling the physiological
+RT   turnover and ionizing radiation-induced accelerated proteolysis of
+RT   Cdc25A.";
+RL   Cancer Cell 3:247-258(2003).
+RN   [19]
+RP   FUNCTION, AND PHOSPHORYLATION AT SER-317.
+RX   MEDLINE=22546651; PubMed=12660173; DOI=10.1093/emboj/cdg151;
+RA   Groth A., Lukas J., Nigg E.A., Sillje H.H.W., Wernstedt C., Bartek J.,
+RA   Hansen K.;
+RT   "Human tousled like kinases are targeted by an ATM- and Chk1-dependent
+RT   DNA damage checkpoint.";
+RL   EMBO J. 22:1676-1687(2003).
+RN   [20]
+RP   FUNCTION, AND MUTAGENESIS OF ASP-130.
+RX   PubMed=14681206; DOI=10.1101/gad.1157503;
+RA   Jin J., Shirogane T., Xu L., Nalepa G., Qin J., Elledge S.J.,
+RA   Harper J.W.;
+RT   "SCFbeta-TRCP links Chk1 signaling to degradation of the Cdc25A
+RT   protein phosphatase.";
+RL   Genes Dev. 17:3062-3074(2003).
+RN   [21]
+RP   PHOSPHORYLATION AT SER-317, AND MUTAGENESIS OF ASP-130; SER-317 AND
+RP   SER-345.
+RX   PubMed=12588868; DOI=10.1074/jbc.M210862200;
+RA   Gatei M., Sloper K., Soerensen C., Syljuaesen R., Falck J., Hobson K.,
+RA   Savage K., Lukas J., Zhou B.-B., Bartek J., Khanna K.K.;
+RT   "Ataxia-telangiectasia-mutated (ATM) and NBS1-dependent
+RT   phosphorylation of Chk1 on ser-317 in response to ionizing
+RT   radiation.";
+RL   J. Biol. Chem. 278:14806-14811(2003).
+RN   [22]
+RP   FUNCTION, AND PHOSPHORYLATION AT SER-345.
+RX   PubMed=12676925; DOI=10.1074/jbc.M300229200;
+RA   Xiao Z., Chen Z., Gunasekera A.H., Sowin T.J., Rosenberg S.H.,
+RA   Fesik S., Zhang H.;
+RT   "Chk1 mediates S and G2 arrests through Cdc25A degradation in response
+RT   to DNA-damaging agents.";
+RL   J. Biol. Chem. 278:21767-21773(2003).
+RN   [23]
+RP   INTERACTION WITH YWHAZ AND XPO1, SUBCELLULAR LOCATION, ASSOCIATION
+RP   WITH CHROMATIN, PHOSPHORYLATION AT SER-317 AND SER-345, AND
+RP   MUTAGENESIS OF SER-317; PHE-344; SER-345 AND MET-353.
+RX   PubMed=12676962; DOI=10.1074/jbc.M300070200;
+RA   Jiang K., Pereira E., Maxfield M., Russell B., Goudelock D.M.,
+RA   Sanchez Y.;
+RT   "Regulation of Chk1 includes chromatin association and 14-3-3 binding
+RT   following phosphorylation on ser-345.";
+RL   J. Biol. Chem. 278:25207-25217(2003).
+RN   [24]
+RP   FUNCTION.
+RX   PubMed=12759351; DOI=10.1074/jbc.M302704200;
+RA   Hassepass I., Voit R., Hoffmann I.;
+RT   "Phosphorylation at serine 75 is required for UV-mediated degradation
+RT   of human Cdc25A phosphatase at the S-phase checkpoint.";
+RL   J. Biol. Chem. 278:29824-29829(2003).
+RN   [25]
+RP   INTERACTION WITH CLSPN.
+RX   PubMed=12766152; DOI=10.1074/jbc.M301136200;
+RA   Chini C.C.S., Chen J.;
+RT   "Human claspin is required for replication checkpoint control.";
+RL   J. Biol. Chem. 278:30057-30062(2003).
+RN   [26]
+RP   FUNCTION.
+RX   PubMed=14559997; DOI=10.1128/MCB.23.21.7488-7497.2003;
+RA   Chen M.-S., Ryan C.E., Piwnica-Worms H.;
+RT   "Chk1 kinase negatively regulates mitotic function of Cdc25A
+RT   phosphatase through 14-3-3 binding.";
+RL   Mol. Cell. Biol. 23:7488-7497(2003).
+RN   [27]
+RP   FUNCTION.
+RX   PubMed=12955071; DOI=10.1038/sj.onc.1206691;
+RA   Krause D.R., Jonnalagadda J.C., Gatei M.H., Sillje H.H.W., Zhou B.-B.,
+RA   Nigg E.A., Khanna K.;
+RT   "Suppression of tousled-like kinase activity after DNA damage or
+RT   replication block requires ATM, NBS1 and Chk1.";
+RL   Oncogene 22:5927-5937(2003).
+RN   [28]
+RP   PHOSPHORYLATION AT SER-317.
+RX   PubMed=14657349; DOI=10.1073/pnas.2536810100;
+RA   Wang Y., Qin J.;
+RT   "MSH2 and ATR form a signaling module and regulate two branches of the
+RT   damage response to DNA methylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 100:15387-15392(2003).
+RN   [29]
+RP   FUNCTION, AND PHOSPHORYLATION AT SER-345.
+RX   PubMed=14988723; DOI=10.1038/sj.emboj.7600113;
+RA   Pichierri P., Rosselli F.;
+RT   "The DNA crosslink-induced S-phase checkpoint depends on ATR-CHK1 and
+RT   ATR-NBS1-FANCD2 pathways.";
+RL   EMBO J. 23:1178-1187(2004).
+RN   [30]
+RP   DOMAIN, MITOTIC PHOSPHORYLATION, PHOSPHORYLATION AT SER-345, AND
+RP   MUTAGENESIS OF LYS-38.
+RX   PubMed=14681223; DOI=10.1074/jbc.M312215200;
+RA   Ng C.-P., Lee H.C., Ho C.W., Arooz T., Siu W.Y., Lau A., Poon R.Y.C.;
+RT   "Differential mode of regulation of the checkpoint kinases CHK1 and
+RT   CHK2 by their regulatory domains.";
+RL   J. Biol. Chem. 279:8808-8819(2004).
+RN   [31]
+RP   FUNCTION, SUBCELLULAR LOCATION, AND MUTAGENESIS OF ASP-130.
+RX   PubMed=15311285; DOI=10.1038/ncb1165;
+RA   Kraemer A., Mailand N., Lukas C., Syljuaesen R.G., Wilkinson C.J.,
+RA   Nigg E.A., Bartek J., Lukas J.;
+RT   "Centrosome-associated Chk1 prevents premature activation of cyclin-B-
+RT   Cdk1 kinase.";
+RL   Nat. Cell Biol. 6:884-891(2004).
+RN   [32]
+RP   INTERACTION WITH CLSPN, AND PHOSPHORYLATION AT SER-296; SER-317 AND
+RP   SER-345.
+RX   PubMed=15707391; DOI=10.1042/BJ20041966;
+RA   Clarke C.A.L., Clarke P.R.;
+RT   "DNA-dependent phosphorylation of Chk1 and claspin in a human cell-
+RT   free system.";
+RL   Biochem. J. 388:705-712(2005).
+RN   [33]
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=15710331; DOI=10.1016/j.ccr.2005.01.009;
+RA   Puc J., Keniry M., Li H.S., Pandita T.K., Choudhury A.D., Memeo L.,
+RA   Mansukhani M., Murty V.V.V.S., Gaciong Z., Meek S.E.M.,
+RA   Piwnica-Worms H., Hibshoosh H., Parsons R.;
+RT   "Lack of PTEN sequesters CHK1 and initiates genetic instability.";
+RL   Cancer Cell 7:193-204(2005).
+RN   [34]
+RP   INTERACTION WITH PPM1D, AND PHOSPHORYLATION AT SER-317 AND SER-345.
+RX   PubMed=15870257; DOI=10.1101/gad.1291305;
+RA   Lu X., Nannenga B., Donehower L.A.;
+RT   "PPM1D dephosphorylates Chk1 and p53 and abrogates cell cycle
+RT   checkpoints.";
+RL   Genes Dev. 19:1162-1174(2005).
+RN   [35]
+RP   FUNCTION.
+RX   PubMed=15659650; DOI=10.1091/mbc.E04-08-0689;
+RA   Ou Y.-H., Chung P.-H., Sun T.-P., Shieh S.-Y.;
+RT   "p53 C-terminal phosphorylation by CHK1 and CHK2 participates in the
+RT   regulation of DNA-damage-induced C-terminal acetylation.";
+RL   Mol. Biol. Cell 16:1684-1695(2005).
+RN   [36]
+RP   INTERACTION WITH TIMELESS.
+RX   PubMed=15798197; DOI=10.1128/MCB.25.8.3109-3116.2005;
+RA   Uensal-Kacmaz K., Mullen T.E., Kaufmann W.K., Sancar A.;
+RT   "Coupling of human circadian and cell cycles by the timeless
+RT   protein.";
+RL   Mol. Cell. Biol. 25:3109-3116(2005).
+RN   [37]
+RP   FUNCTION, INTERACTION WITH RAD51, AND MUTAGENESIS OF SER-317 AND
+RP   SER-345.
+RX   PubMed=15665856; DOI=10.1038/ncb1212;
+RA   Soerensen C.S., Hansen L.T., Dziegielewski J., Syljuaesen R.G.,
+RA   Lundin C., Bartek J., Helleday T.;
+RT   "The cell-cycle checkpoint kinase Chk1 is required for mammalian
+RT   homologous recombination repair.";
+RL   Nat. Cell Biol. 7:195-201(2005).
+RN   [38]
+RP   FUNCTION, AND PHOSPHORYLATION AT SER-345.
+RX   PubMed=15650047; DOI=10.1073/pnas.0409130102;
+RA   Huang X., Tran T., Zhang L., Hatcher R., Zhang P.;
+RT   "DNA damage-induced mitotic catastrophe is mediated by the Chk1-
+RT   dependent mitotic exit DNA damage checkpoint.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 102:1065-1070(2005).
+RN   [39]
+RP   UBIQUITINATION [LARGE SCALE ANALYSIS] AT LYS-436, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Mammary cancer;
+RX   PubMed=17370265; DOI=10.1002/pmic.200600410;
+RA   Denis N.J., Vasilescu J., Lambert J.-P., Smith J.C., Figeys D.;
+RT   "Tryptic digestion of ubiquitin standards reveals an improved strategy
+RT   for identifying ubiquitinated proteins by mass spectrometry.";
+RL   Proteomics 7:868-874(2007).
+RN   [40]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-308 AND SER-317, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Embryonic kidney;
+RX   PubMed=17525332; DOI=10.1126/science.1140321;
+RA   Matsuoka S., Ballif B.A., Smogorzewska A., McDonald E.R. III,
+RA   Hurov K.E., Luo J., Bakalarski C.E., Zhao Z., Solimini N.,
+RA   Lerenthal Y., Shiloh Y., Gygi S.P., Elledge S.J.;
+RT   "ATM and ATR substrate analysis reveals extensive protein networks
+RT   responsive to DNA damage.";
+RL   Science 316:1160-1166(2007).
+RN   [41]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-286; SER-301; SER-308;
+RP   SER-317; SER-331 AND SER-468, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [42]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-286; SER-296 AND
+RP   SER-301, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [43]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RA   Colinge J., Superti-Furga G., Bennett K.L.;
+RL   Submitted (OCT-2008) to UniProtKB.
+RN   [44]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-279; SER-280; SER-284
+RP   AND SER-286, AND MASS SPECTROMETRY.
+RC   TISSUE=Embryonic kidney;
+RX   PubMed=19413330; DOI=10.1021/ac9004309;
+RA   Gauci S., Helbig A.O., Slijper M., Krijgsveld J., Heck A.J.,
+RA   Mohammed S.;
+RT   "Lys-N and trypsin cover complementary parts of the phosphoproteome in
+RT   a refined SCX-based approach.";
+RL   Anal. Chem. 81:4493-4501(2009).
+RN   [45]
+RP   PHOSPHORYLATION AT SER-345, UBIQUITINATION AT LYS-436, INTERACTION
+RP   WITH FBXO6, AND MUTAGENESIS OF SER-345; ARG-372; ARG-376; ARG-379 AND
+RP   LYS-436.
+RX   PubMed=19716789; DOI=10.1016/j.molcel.2009.06.030;
+RA   Zhang Y.-W., Brognard J., Coughlin C., You Z., Dolled-Filhart M.,
+RA   Aslanian A., Manning G., Abraham R.T., Hunter T.;
+RT   "The F box protein Fbx6 regulates Chk1 stability and cellular
+RT   sensitivity to replication stress.";
+RL   Mol. Cell 35:442-453(2009).
+RN   [46]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-279; SER-280; SER-296
+RP   AND SER-307, AND MASS SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [47]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-280 AND SER-301, AND
+RP   MASS SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=19690332; DOI=10.1126/scisignal.2000007;
+RA   Mayya V., Lundgren D.H., Hwang S.-I., Rezaul K., Wu L., Eng J.K.,
+RA   Rodionov V., Han D.K.;
+RT   "Quantitative phosphoproteomic analysis of T cell receptor signaling
+RT   reveals system-wide modulation of protein-protein interactions.";
+RL   Sci. Signal. 2:RA46-RA46(2009).
+RN   [48]
+RP   X-RAY CRYSTALLOGRAPHY (1.7 ANGSTROMS) OF 1-289.
+RX   PubMed=10761933; DOI=10.1016/S0092-8674(00)80704-7;
+RA   Chen P., Luo C., Deng Y., Ryan K., Register J., Margosiak S.,
+RA   Tempczyk-Russell A., Nguyen B., Myers P., Lundgren K., Kan C.-C.,
+RA   O'Connor P.M.;
+RT   "The 1.7 A crystal structure of human cell cycle checkpoint kinase
+RT   Chk1: implications for Chk1 regulation.";
+RL   Cell 100:681-692(2000).
+RN   [49]
+RP   X-RAY CRYSTALLOGRAPHY (1.8 ANGSTROMS) OF 1-289.
+RX   PubMed=12244092; DOI=10.1074/jbc.M201233200;
+RA   Zhao B., Bower M.J., McDevitt P.J., Zhao H., Davis S.T.,
+RA   Johanson K.O., Green S.M., Concha N.O., Zhou B.-B.S.;
+RT   "Structural basis for Chk1 inhibition by UCN-01.";
+RL   J. Biol. Chem. 277:46609-46615(2002).
+RN   [50]
+RP   X-RAY CRYSTALLOGRAPHY (2.0 ANGSTROMS) OF 1-289.
+RX   PubMed=15974586; DOI=10.1021/jm049022c;
+RA   Foloppe N., Fisher L.M., Howes R., Kierstan P., Potter A.,
+RA   Robertson A.G.S., Surgenor A.E.;
+RT   "Structure-based design of novel Chk1 inhibitors: insights into
+RT   hydrogen bonding and protein-ligand affinity.";
+RL   J. Med. Chem. 48:4332-4345(2005).
+RN   [51]
+RP   VARIANTS [LARGE SCALE ANALYSIS] VAL-223 AND MET-312.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Required for checkpoint mediated cell cycle arrest in
+CC       response to DNA damage or the presence of unreplicated DNA. May
+CC       also negatively regulate cell cycle progression during unperturbed
+CC       cell cycles. Recognizes the substrate consensus sequence [R-X-X-
+CC       S/T]. Binds to and phosphorylates CDC25A, CDC25B and CDC25C.
+CC       Phosphorylation of CDC25A at 'Ser-178' and 'Thr-507' and
+CC       phosphorylation of CDC25C at 'Ser-216' creates binding sites for
+CC       14-3-3 proteins which inhibit CDC25A and CDC25C. Phosphorylation
+CC       of CDC25A at 'Ser-76', 'Ser-124', 'Ser-178', 'Ser-279' and 'Ser-
+CC       293' promotes proteolysis of CDC25A. Inhibition of CDC25 activity
+CC       leads to increased inhibitory tyrosine phosphorylation of CDK-
+CC       cyclin complexes and blocks cell cycle progression. Binds to and
+CC       phosphorylates RAD51 at 'Thr-309', which may enhance the
+CC       association of RAD51 with chromatin and promote DNA repair by
+CC       homologous recombination. Binds to and phosphorylates TLK1 at
+CC       'Ser-743', which prevents the TLK1-dependent phosphorylation of
+CC       the chromatin assembly factor ASF1A. This may affect chromatin
+CC       assembly during S phase or DNA repair. May also phosphorylate
+CC       multiple sites within the C-terminus of TP53, which promotes
+CC       activation of TP53 by acetylation and enhances suppression of
+CC       cellular proliferation.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- SUBUNIT: Interacts with BRCA1, CLSPN, FBXO6, PPM1D, RAD51,
+CC       TIMELESS, XPO1/CRM1 and YWHAZ/14-3-3 zeta.
+CC   -!- INTERACTION:
+CC       Q9NY61:AATF; NbExp=1; IntAct=EBI-974488, EBI-372428;
+CC       P38398:BRCA1; NbExp=1; IntAct=EBI-974488, EBI-349905;
+CC       P30304:CDC25A; NbExp=1; IntAct=EBI-974488, EBI-747671;
+CC       P30307:CDC25C; NbExp=2; IntAct=EBI-974488, EBI-974439;
+CC       O35280:Chek1 (xeno); NbExp=1; IntAct=EBI-974488, EBI-2553137;
+CC       Q9HAW4:CLSPN; NbExp=4; IntAct=EBI-974488, EBI-1369377;
+CC       P08238:HSP90AB1; NbExp=1; IntAct=EBI-974488, EBI-352572;
+CC       Q9UNS1:TIMELESS; NbExp=2; IntAct=EBI-974488, EBI-2212315;
+CC   -!- SUBCELLULAR LOCATION: Nucleus. Cytoplasm. Cytoplasm, cytoskeleton,
+CC       centrosome. Note=Nuclear export is mediated at least in part by
+CC       XPO1/CRM1. Also localizes to the centrosome specifically during
+CC       interphase, where it may protect centrosomal CDC2 kinase from
+CC       inappropriate activation by cytoplasmic CDC25B.
+CC   -!- TISSUE SPECIFICITY: Expressed ubiquitously with the most abundant
+CC       expression in thymus, testis, small intestine and colon.
+CC   -!- DOMAIN: The autoinhibitory region (AIR) inhibits the activity of
+CC       the kinase domain.
+CC   -!- PTM: Phosphorylated by ATR in a RAD17-dependent manner in response
+CC       to ultraviolet irradiation and inhibition of DNA replication.
+CC       Phosphorylated by ATM in response to ionizing irradiation. ATM and
+CC       ATR can both phosphorylate Ser-317 and Ser-345 and this results in
+CC       enhanced kinase activity. Phosphorylation at Ser-345 induces a
+CC       change in the conformation of the protein, activates the kinase
+CC       activity and is a prerequisite for interaction with FBXO6 and
+CC       subsequent ubiquitination at Lys-436. Phosphorylation at Ser-345
+CC       also increases binding to 14-3-3 proteins and promotes nuclear
+CC       retention. Conversely, dephosphorylation at Ser-345 by PPM1D may
+CC       contribute to exit from checkpoint mediated cell cycle arrest. May
+CC       also be phosphorylated at Ser-280 by AKT1/PKB, which may promote
+CC       mono and/or diubiquitination. Also phosphorylated at undefined
+CC       residues during mitotic arrest, which results in decreased
+CC       activity.
+CC   -!- PTM: Ubiquitinated. Mono or diubiquitination promotes nuclear
+CC       exclusion (By similarity). The activated form (phosphorylated on
+CC       Ser-345) is polyubiquitinated at Lys-436 by some SCF-type E3
+CC       ubiquitin ligase complex containing FBXO6 promoting its
+CC       degradation. Ubiquitination of activated form is required to
+CC       insure that activated CHK1 does not accumulate as cells progress
+CC       through S phase, or when replication forks encounter transient
+CC       impediments during normal DNA replication.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CAMK
+CC       Ser/Thr protein kinase family. NIM1 subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- WEB RESOURCE: Name=NIEHS-SNPs;
+CC       URL="http://egp.gs.washington.edu/data/chek1/";
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF016582; AAC51736.1; -; mRNA.
+DR   EMBL; AF032874; AAB88852.1; -; mRNA.
+DR   EMBL; AB032387; BAA84577.1; -; Genomic_DNA.
+DR   EMBL; AK292549; BAF85238.1; -; mRNA.
+DR   EMBL; AF527555; AAM78553.1; -; Genomic_DNA.
+DR   EMBL; CH471065; EAW67644.1; -; Genomic_DNA.
+DR   EMBL; BC004202; AAH04202.1; -; mRNA.
+DR   EMBL; BC017575; AAH17575.1; -; mRNA.
+DR   IPI; IPI00023664; -.
+DR   RefSeq; NP_001107593.1; -.
+DR   RefSeq; NP_001107594.1; -.
+DR   RefSeq; NP_001265.2; -.
+DR   UniGene; Hs.24529; -.
+DR   PDB; 1IA8; X-ray; 1.70 A; A=1-289.
+DR   PDB; 1NVQ; X-ray; 2.00 A; A=1-289.
+DR   PDB; 1NVR; X-ray; 1.80 A; A=1-289.
+DR   PDB; 1NVS; X-ray; 1.80 A; A=1-289.
+DR   PDB; 1ZLT; X-ray; 1.74 A; A=1-289.
+DR   PDB; 1ZYS; X-ray; 1.70 A; A=1-273.
+DR   PDB; 2AYP; X-ray; 2.90 A; A=1-269.
+DR   PDB; 2BR1; X-ray; 2.00 A; A=1-289.
+DR   PDB; 2BRB; X-ray; 2.10 A; A=1-289.
+DR   PDB; 2BRG; X-ray; 2.10 A; A=1-289.
+DR   PDB; 2BRH; X-ray; 2.10 A; A=1-289.
+DR   PDB; 2BRM; X-ray; 2.20 A; A=1-289.
+DR   PDB; 2BRN; X-ray; 2.80 A; A=1-289.
+DR   PDB; 2BRO; X-ray; 2.20 A; A=1-289.
+DR   PDB; 2C3J; X-ray; 2.10 A; A=1-289.
+DR   PDB; 2C3K; X-ray; 2.60 A; A=1-289.
+DR   PDB; 2C3L; X-ray; 2.35 A; A=1-289.
+DR   PDB; 2CGU; X-ray; 2.50 A; A=1-289.
+DR   PDB; 2CGV; X-ray; 2.60 A; A=1-289.
+DR   PDB; 2CGW; X-ray; 2.20 A; A=1-289.
+DR   PDB; 2CGX; X-ray; 2.20 A; A=1-289.
+DR   PDB; 2E9N; X-ray; 2.50 A; A=2-270.
+DR   PDB; 2E9O; X-ray; 2.10 A; A=2-270.
+DR   PDB; 2E9P; X-ray; 2.60 A; A=2-270.
+DR   PDB; 2E9U; X-ray; 2.00 A; A=2-270.
+DR   PDB; 2E9V; X-ray; 2.00 A; A/B=2-269.
+DR   PDB; 2GDO; X-ray; 3.00 A; A=1-289.
+DR   PDB; 2GHG; X-ray; 3.50 A; A=2-270.
+DR   PDB; 2HOG; X-ray; 1.90 A; A=2-307.
+DR   PDB; 2HXL; X-ray; 1.80 A; A=2-307.
+DR   PDB; 2HXQ; X-ray; 2.00 A; A=2-307.
+DR   PDB; 2HY0; X-ray; 1.70 A; A=2-307.
+DR   PDB; 2QHM; X-ray; 2.00 A; A=1-307.
+DR   PDB; 2QHN; X-ray; 1.70 A; A=1-307.
+DR   PDB; 2R0U; X-ray; 1.90 A; A=1-307.
+DR   PDB; 2WMQ; X-ray; 2.48 A; A=1-289.
+DR   PDB; 2WMR; X-ray; 2.43 A; A=1-289.
+DR   PDB; 2WMS; X-ray; 2.70 A; A=1-289.
+DR   PDB; 2WMT; X-ray; 2.55 A; A=1-289.
+DR   PDB; 2WMU; X-ray; 2.60 A; A=1-289.
+DR   PDB; 2WMV; X-ray; 2.01 A; A=1-289.
+DR   PDB; 2WMW; X-ray; 2.43 A; A=1-289.
+DR   PDB; 2WMX; X-ray; 2.45 A; A=1-289.
+DR   PDB; 2X8D; X-ray; 1.90 A; A=1-289.
+DR   PDB; 2X8E; X-ray; 2.50 A; A=1-276.
+DR   PDB; 2X8I; X-ray; 1.92 A; A=1-289.
+DR   PDB; 2XEY; X-ray; 2.70 A; A=1-289.
+DR   PDB; 2XEZ; X-ray; 2.25 A; A=1-289.
+DR   PDB; 2XF0; X-ray; 2.40 A; A=1-289.
+DR   PDB; 2YWP; X-ray; 2.90 A; A=2-270.
+DR   PDB; 3F9N; X-ray; 1.90 A; A=2-307.
+DR   PDB; 3JVR; X-ray; 1.76 A; A=2-272.
+DR   PDB; 3JVS; X-ray; 1.90 A; A=2-272.
+DR   PDBsum; 1IA8; -.
+DR   PDBsum; 1NVQ; -.
+DR   PDBsum; 1NVR; -.
+DR   PDBsum; 1NVS; -.
+DR   PDBsum; 1ZLT; -.
+DR   PDBsum; 1ZYS; -.
+DR   PDBsum; 2AYP; -.
+DR   PDBsum; 2BR1; -.
+DR   PDBsum; 2BRB; -.
+DR   PDBsum; 2BRG; -.
+DR   PDBsum; 2BRH; -.
+DR   PDBsum; 2BRM; -.
+DR   PDBsum; 2BRN; -.
+DR   PDBsum; 2BRO; -.
+DR   PDBsum; 2C3J; -.
+DR   PDBsum; 2C3K; -.
+DR   PDBsum; 2C3L; -.
+DR   PDBsum; 2CGU; -.
+DR   PDBsum; 2CGV; -.
+DR   PDBsum; 2CGW; -.
+DR   PDBsum; 2CGX; -.
+DR   PDBsum; 2E9N; -.
+DR   PDBsum; 2E9O; -.
+DR   PDBsum; 2E9P; -.
+DR   PDBsum; 2E9U; -.
+DR   PDBsum; 2E9V; -.
+DR   PDBsum; 2GDO; -.
+DR   PDBsum; 2GHG; -.
+DR   PDBsum; 2HOG; -.
+DR   PDBsum; 2HXL; -.
+DR   PDBsum; 2HXQ; -.
+DR   PDBsum; 2HY0; -.
+DR   PDBsum; 2QHM; -.
+DR   PDBsum; 2QHN; -.
+DR   PDBsum; 2R0U; -.
+DR   PDBsum; 2WMQ; -.
+DR   PDBsum; 2WMR; -.
+DR   PDBsum; 2WMS; -.
+DR   PDBsum; 2WMT; -.
+DR   PDBsum; 2WMU; -.
+DR   PDBsum; 2WMV; -.
+DR   PDBsum; 2WMW; -.
+DR   PDBsum; 2WMX; -.
+DR   PDBsum; 2X8D; -.
+DR   PDBsum; 2X8E; -.
+DR   PDBsum; 2X8I; -.
+DR   PDBsum; 2XEY; -.
+DR   PDBsum; 2XEZ; -.
+DR   PDBsum; 2XF0; -.
+DR   PDBsum; 2YWP; -.
+DR   PDBsum; 3F9N; -.
+DR   PDBsum; 3JVR; -.
+DR   PDBsum; 3JVS; -.
+DR   ProteinModelPortal; O14757; -.
+DR   SMR; O14757; 371-466.
+DR   DIP; DIP-24182N; -.
+DR   IntAct; O14757; 19.
+DR   MINT; MINT-1179072; -.
+DR   STRING; O14757; -.
+DR   PhosphoSite; O14757; -.
+DR   PRIDE; O14757; -.
+DR   Ensembl; ENST00000278916; ENSP00000278916; ENSG00000149554.
+DR   Ensembl; ENST00000428830; ENSP00000412504; ENSG00000149554.
+DR   Ensembl; ENST00000438015; ENSP00000388648; ENSG00000149554.
+DR   GeneID; 1111; -.
+DR   KEGG; hsa:1111; -.
+DR   CTD; 1111; -.
+DR   GeneCards; GC11P125529; -.
+DR   H-InvDB; HIX0201657; -.
+DR   HGNC; HGNC:1925; CHEK1.
+DR   HPA; CAB002049; -.
+DR   MIM; 603078; gene.
+DR   PharmGKB; PA110; -.
+DR   eggNOG; prNOG10563; -.
+DR   HOVERGEN; HBG002590; -.
+DR   InParanoid; O14757; -.
+DR   PhylomeDB; O14757; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   Pathway_Interaction_DB; circadianpathway; Circadian rhythm pathway.
+DR   Reactome; REACT_1538; Cell Cycle Checkpoints.
+DR   BindingDB; O14757; -.
+DR   NextBio; 4608; -.
+DR   ArrayExpress; O14757; -.
+DR   Bgee; O14757; -.
+DR   CleanEx; HS_CHEK1; -.
+DR   Genevestigator; O14757; -.
+DR   GermOnline; ENSG00000149554; Homo sapiens.
+DR   GO; GO:0000794; C:condensed nuclear chromosome; TAS:ProtInc.
+DR   GO; GO:0005815; C:microtubule organizing center; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005654; C:nucleoplasm; EXP:Reactome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005515; F:protein binding; IPI:UniProtKB.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; EXP:Reactome.
+DR   GO; GO:0000077; P:DNA damage checkpoint; IMP:UniProtKB.
+DR   GO; GO:0006281; P:DNA repair; IMP:UniProtKB.
+DR   GO; GO:0006260; P:DNA replication; EXP:Reactome.
+DR   GO; GO:0007276; P:gamete generation; TAS:ProtInc.
+DR   GO; GO:0008285; P:negative regulation of cell proliferation; TAS:ProtInc.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   GO; GO:0007131; P:reciprocal meiotic recombination; TAS:ProtInc.
+DR   GO; GO:0000079; P:regulation of cyclin-dependent protein kina...; TAS:ProtInc.
+DR   GO; GO:0010149; P:senescence; IDA:BHF-UCL.
+DR   InterPro; IPR020636; Ca/CaM-dep_prot_kinase-like.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR015729; Ser/Thr_kin_Checkpoint-1_Hal4.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   PANTHER; PTHR22982; Ca/CaM-dep_prot_kinase-like; 1.
+DR   PANTHER; PTHR22982:SF11; Ser_thr_Chk1_Hal4; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; ATP-binding; Cell cycle; Complete proteome; Cytoplasm;
+KW   Cytoskeleton; DNA damage; DNA repair; Isopeptide bond; Kinase;
+KW   Nucleotide-binding; Nucleus; Phosphoprotein; Polymorphism;
+KW   Serine/threonine-protein kinase; Transferase; Ubl conjugation.
+FT   CHAIN         1    476       Serine/threonine-protein kinase Chk1.
+FT                                /FTId=PRO_0000085848.
+FT   DOMAIN        9    265       Protein kinase.
+FT   NP_BIND      15     23       ATP (By similarity).
+FT   REGION      391    476       Autoinhibitory region.
+FT   ACT_SITE    130    130       Proton acceptor.
+FT   BINDING      38     38       ATP (By similarity).
+FT   MOD_RES     279    279       Phosphothreonine.
+FT   MOD_RES     280    280       Phosphoserine; by PKB/AKT1 (By
+FT                                similarity).
+FT   MOD_RES     284    284       Phosphoserine.
+FT   MOD_RES     286    286       Phosphoserine.
+FT   MOD_RES     296    296       Phosphoserine.
+FT   MOD_RES     301    301       Phosphoserine.
+FT   MOD_RES     307    307       Phosphoserine.
+FT   MOD_RES     308    308       Phosphoserine.
+FT   MOD_RES     317    317       Phosphoserine; by ATM and ATR.
+FT   MOD_RES     331    331       Phosphoserine.
+FT   MOD_RES     345    345       Phosphoserine; by ATM and ATR.
+FT   MOD_RES     468    468       Phosphoserine.
+FT   CROSSLNK    436    436       Glycyl lysine isopeptide (Lys-Gly)
+FT                                (interchain with G-Cter in ubiquitin).
+FT   VARIANT     156    156       R -> Q (in dbSNP:rs3731410).
+FT                                /FTId=VAR_021123.
+FT   VARIANT     223    223       E -> V (in dbSNP:rs35817404).
+FT                                /FTId=VAR_040407.
+FT   VARIANT     312    312       V -> M (in dbSNP:rs34097480).
+FT                                /FTId=VAR_040408.
+FT   VARIANT     471    471       V -> I (in dbSNP:rs506504).
+FT                                /FTId=VAR_024571.
+FT   MUTAGEN      38     38       K->R: Abolishes kinase activity.
+FT   MUTAGEN     130    130       D->A: Abolishes kinase activity.
+FT   MUTAGEN     317    317       S->A: Abrogates interaction with RAD51;
+FT                                when associated with A-345. Reduces
+FT                                phosphorylation and impairs activation by
+FT                                hydroxyurea and ionizing radiation.
+FT                                Abrogates nuclear retention upon
+FT                                checkpoint activation. Impairs
+FT                                interaction with FBXO6.
+FT   MUTAGEN     317    317       S->E: Enhances interaction with RAD51;
+FT                                when associated with E-345.
+FT   MUTAGEN     344    344       F->A: Impairs nuclear export.
+FT   MUTAGEN     345    345       S->A: Abrogates interaction with RAD51;
+FT                                when associated with A-317. Reduces
+FT                                phosphorylation and impairs activation by
+FT                                hydroxyurea and ionizing radiation.
+FT                                Impairs interaction with YWHAZ which is
+FT                                required for nuclear retention after
+FT                                checkpoint activation.
+FT   MUTAGEN     345    345       S->E: Enhances interaction with RAD51;
+FT                                when associated with E-317.
+FT   MUTAGEN     353    353       M->A: Impairs nuclear export.
+FT   MUTAGEN     357    357       S->A: No effect on phosphorylation
+FT                                induced by hydroxyurea.
+FT   MUTAGEN     366    366       S->A: No effect on phosphorylation
+FT                                induced by hydroxyurea.
+FT   MUTAGEN     372    372       R->E: In 3RE mutant. Disrupts the folding
+FT                                and/or conformation, allowing increased
+FT                                accessibility to FBXO6 component of SCF-
+FT                                type E3 ubiquitin ligase complex; when
+FT                                associated with E-376 and E-379.
+FT   MUTAGEN     376    376       R->E: In 3RE mutant. Disrupts the folding
+FT                                and/or conformation, allowing increased
+FT                                accessibility to FBXO6 component of SCF-
+FT                                type E3 ubiquitin ligase complex; when
+FT                                associated with E-372 and E-379.
+FT   MUTAGEN     379    379       R->E: In 3RE mutant. Disrupts the folding
+FT                                and/or conformation, allowing increased
+FT                                accessibility to FBXO6 component of SCF-
+FT                                type E3 ubiquitin ligase complex; when
+FT                                associated with E-372 and E-376.
+FT   MUTAGEN     436    436       K->R: Enhances stability of the protein,
+FT                                probably by preventing ubiquitination at
+FT                                this site.
+FT   MUTAGEN     468    468       S->A: No effect on phosphorylation
+FT                                induced by hydroxyurea.
+FT   HELIX         4      7
+FT   STRAND        9     16
+FT   STRAND       22     28
+FT   TURN         29     31
+FT   STRAND       34     41
+FT   HELIX        49     61
+FT   STRAND       70     74
+FT   STRAND       79     85
+FT   HELIX        92     95
+FT   TURN         98    100
+FT   HELIX       104    123
+FT   HELIX       133    135
+FT   STRAND      136    138
+FT   STRAND      144    146
+FT   HELIX       171    173
+FT   HELIX       176    180
+FT   HELIX       186    203
+FT   STRAND      209    211
+FT   HELIX       216    222
+FT   HELIX       231    233
+FT   HELIX       237    245
+FT   TURN        250    252
+FT   HELIX       256    259
+FT   TURN        263    266
+SQ   SEQUENCE   476 AA;  54420 MW;  0ABD0FAB67F49F67 CRC64;
+     MAVPFVEDWD LVQTLGEGAY GEVQLAVNRV TEEAVAVKIV DMKRAVDCPE NIKKEICINK
+     MLNHENVVKF YGHRREGNIQ YLFLEYCSGG ELFDRIEPDI GMPEPDAQRF FHQLMAGVVY
+     LHGIGITHRD IKPENLLLDE RDNLKISDFG LATVFRYNNR ERLLNKMCGT LPYVAPELLK
+     RREFHAEPVD VWSCGIVLTA MLAGELPWDQ PSDSCQEYSD WKEKKTYLNP WKKIDSAPLA
+     LLHKILVENP SARITIPDIK KDRWYNKPLK KGAKRPRVTS GGVSESPSGF SKHIQSNLDF
+     SPVNSASSEE NVKYSSSQPE PRTGLSLWDT SPSYIDKLVQ GISFSQPTCP DHMLLNSQLL
+     GTPGSSQNPW QRLVKRMTRF FTKLDADKSY QCLKETCEKL GYQWKKSCMN QVTISTTDRR
+     NNKLIFKVNL LEMDDKILVD FRLSKGDGLE FKRHFLKIKG KLIDIVSSQK VWLPAT
+//

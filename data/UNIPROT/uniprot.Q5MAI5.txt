@@ -1,0 +1,113 @@
+ID   CDKL4_HUMAN             Reviewed;         315 AA.
+AC   Q5MAI5;
+DT   22-NOV-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-2005, sequence version 1.
+DT   05-OCT-2010, entry version 50.
+DE   RecName: Full=Cyclin-dependent kinase-like 4;
+DE            EC=2.7.11.22;
+GN   Name=CDKL4;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RA   Wang P.Z., Wang F., Wang X., Wu J.;
+RT   "Molecular cloning and characterization of human cyclin-dependent
+RT   kinase-like 4.";
+RL   Submitted (DEC-2004) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   VARIANTS [LARGE SCALE ANALYSIS] PRO-38; HIS-53; CYS-228; TYR-288 AND
+RP   CYS-307.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm (Probable).
+CC   -!- DOMAIN: The [NKR]KIAxRE motif seems to be a cyclin-binding region.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CMGC
+CC       Ser/Thr protein kinase family. CDC2/CDKX subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AY845084; AAW30008.1; -; mRNA.
+DR   IPI; IPI00872721; -.
+DR   RefSeq; NP_001009565.1; -.
+DR   UniGene; Hs.403201; -.
+DR   ProteinModelPortal; Q5MAI5; -.
+DR   SMR; Q5MAI5; 1-291.
+DR   Ensembl; ENST00000378803; ENSP00000368080; ENSG00000205111.
+DR   GeneID; 344387; -.
+DR   KEGG; hsa:344387; -.
+DR   UCSC; uc002rrm.1; human.
+DR   CTD; 344387; -.
+DR   GeneCards; GC02M039402; -.
+DR   H-InvDB; HIX0029911; -.
+DR   HGNC; HGNC:19287; CDKL4.
+DR   PharmGKB; PA134892546; -.
+DR   HOVERGEN; HBG014652; -.
+DR   BRENDA; 2.7.11.22; 247.
+DR   NextBio; 98684; -.
+DR   Bgee; Q5MAI5; -.
+DR   CleanEx; HS_CDKL4; -.
+DR   Genevestigator; Q5MAI5; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004693; F:cyclin-dependent protein kinase activity; IEA:EC.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; FALSE_NEG.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   2: Evidence at transcript level;
+KW   ATP-binding; Complete proteome; Cytoplasm; Kinase; Nucleotide-binding;
+KW   Polymorphism; Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    315       Cyclin-dependent kinase-like 4.
+FT                                /FTId=PRO_0000085824.
+FT   DOMAIN        4    286       Protein kinase.
+FT   NP_BIND      10     18       ATP (By similarity).
+FT   MOTIF        45     51       [NKR]KIAxRE.
+FT   ACT_SITE    126    126       Proton acceptor (By similarity).
+FT   BINDING      33     33       ATP (By similarity).
+FT   VARIANT      38     38       S -> P (in dbSNP:rs35947084).
+FT                                /FTId=VAR_041992.
+FT   VARIANT      53     53       R -> H (in dbSNP:rs35454041).
+FT                                /FTId=VAR_041993.
+FT   VARIANT     118    118       H -> Y (in dbSNP:rs6731369).
+FT                                /FTId=VAR_053930.
+FT   VARIANT     228    228       F -> C (in dbSNP:rs56353587).
+FT                                /FTId=VAR_041994.
+FT   VARIANT     288    288       S -> Y (in dbSNP:rs34819676).
+FT                                /FTId=VAR_041995.
+FT   VARIANT     307    307       R -> C (in dbSNP:rs56330730).
+FT                                /FTId=VAR_041996.
+SQ   SEQUENCE   315 AA;  36223 MW;  C40EFF6A79FF5966 CRC64;
+     MEKYEKLAKT GEGSYGVVFK CRNKTSGQVV AVKKFVESED DPVVKKIALR EIRMLKQLKH
+     PNLVNLIEVF RRKRKMHLVF EYCDHTLLNE LERNPNGVAD GVIKSVLWQT LQALNFCHIH
+     NCIHRDIKPE NILITKQGII KICDFGFAQI LIPGDAYTDY VATRWYRAPE LLVGDTQYGS
+     SVDIWAIGCV FAELLTGQPL WPGKSDVDQL YLIIRTLGKL IPRHQSIFKS NGFFHGISIP
+     EPEDMETLEE KFSDVHPVAL NFMKGCLKMN PDDRLTCSQL LESSYFDSFQ EAQIKRKARN
+     EGRNRRRQQV LPLKS
+//

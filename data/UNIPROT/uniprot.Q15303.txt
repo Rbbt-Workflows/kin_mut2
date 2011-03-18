@@ -1,0 +1,615 @@
+ID   ERBB4_HUMAN             Reviewed;        1308 AA.
+AC   Q15303; B7ZLD7; B7ZLE2; B7ZLE3; Q2M1W1; Q59EW4;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   02-NOV-2010, entry version 126.
+DE   RecName: Full=Receptor tyrosine-protein kinase erbB-4;
+DE            EC=2.7.10.1;
+DE   AltName: Full=Proto-oncogene-like protein c-ErbB-4;
+DE   AltName: Full=Tyrosine kinase-type cell surface receptor HER4;
+DE   AltName: Full=p180erbB4;
+DE   Contains:
+DE     RecName: Full=ERBB4 intracellular domain;
+DE              Short=4ICD;
+DE              Short=E4ICD;
+DE     AltName: Full=s80HER4;
+DE   Flags: Precursor;
+GN   Name=ERBB4; Synonyms=HER4;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM JM-A CYT-1).
+RC   TISSUE=Mammary carcinoma;
+RX   MEDLINE=93189574; PubMed=8383326; DOI=10.1073/pnas.90.5.1746;
+RA   Plowman G.D., Culouscou J.-M., Whitney G.S., Green J.M., Carlton G.W.,
+RA   Foy L., Neubauer M.G., Shoyab M.;
+RT   "Ligand-specific activation of HER4/p180erbB4, a fourth member of the
+RT   epidermal growth factor receptor family.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 90:1746-1750(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS JM-A CYT-1 AND JM-B CYT-1), AND
+RP   PROTEOLYTIC PROCESSING.
+RC   TISSUE=Fetal brain;
+RX   MEDLINE=97476287; PubMed=9334263; DOI=10.1074/jbc.272.42.26761;
+RA   Elenius K., Corfas G., Paul S., Choi C.J., Rio C., Plowman G.D.,
+RA   Klagsbrun M.;
+RT   "A novel juxtamembrane domain isoform of HER4/ErbB4. Isoform-specific
+RT   tissue distribution and differential processing in response to phorbol
+RT   ester.";
+RL   J. Biol. Chem. 272:26761-26768(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS JM-A CYT-1; JM-B
+RP   CYT-1; JM-A CYT-2 AND JM-B CYT-2).
+RC   TISSUE=Brain;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 401-1308 (ISOFORM JM-A
+RP   CYT-2).
+RC   TISSUE=Brain;
+RA   Totoki Y., Toyoda A., Takeda T., Sakaki Y., Tanaka A., Yokoyama S.,
+RA   Ohara O., Nagase T., Kikuno R.F.;
+RL   Submitted (MAR-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   PROTEOLYTIC PROCESSING.
+RX   PubMed=10744726; DOI=10.1074/jbc.275.14.10379;
+RA   Rio C., Buxbaum J.D., Peschon J.J., Corfas G.;
+RT   "Tumor necrosis factor-alpha-converting enzyme is required for
+RT   cleavage of erbB4/HER4.";
+RL   J. Biol. Chem. 275:10379-10387(2000).
+RN   [6]
+RP   INTERACTION WITH DLG2; DLG3; DLG4 AND SNTB2.
+RX   MEDLINE=20202681; PubMed=10725395; DOI=10.1073/pnas.070042497;
+RA   Garcia R.A., Vasudevan K., Buonanno A.;
+RT   "The neuregulin receptor ErbB-4 interacts with PDZ-containing proteins
+RT   at neuronal synapses.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 97:3596-3601(2000).
+RN   [7]
+RP   MUTAGENESIS OF LYS-751.
+RX   PubMed=11390655; DOI=10.1128/MCB.21.13.4265-4275.2001;
+RA   Sartor C.I., Zhou H., Kozlowska E., Guttridge K., Kawata E.,
+RA   Caskey L., Harrelson J., Hynes N., Ethier S., Calvo B., Earp H.S. III;
+RT   "Her4 mediates ligand-dependent antiproliferative and differentiation
+RT   responses in human breast cancer cells.";
+RL   Mol. Cell. Biol. 21:4265-4275(2001).
+RN   [8]
+RP   FUNCTION, PROTEOLYTIC PROCESSING, SUBCELLULAR LOCATION, INTERACTION
+RP   WITH YAP1, AND MUTAGENESIS OF TYR-1301.
+RX   PubMed=12807903; DOI=10.1074/jbc.M305597200;
+RA   Komuro A., Nagai M., Navin N.E., Sudol M.;
+RT   "WW domain-containing protein YAP associates with ErbB-4 and acts as a
+RT   co-transcriptional activator for the carboxyl-terminal fragment of
+RT   ErbB-4 that translocates to the nucleus.";
+RL   J. Biol. Chem. 278:33334-33341(2003).
+RN   [9]
+RP   INTERACTION WITH MUC1.
+RX   PubMed=12939402;
+RA   Li Y., Yu W.-H., Ren J., Chen W., Huang L., Kharbanda S., Loda M.,
+RA   Kufe D.;
+RT   "Heregulin targets gamma-catenin to the nucleolus by a mechanism
+RT   dependent on the DF3/MUC1 oncoprotein.";
+RL   Mol. Cancer Res. 1:765-775(2003).
+RN   [10]
+RP   INTERACTION WITH WWOX, DOMAIN, AND MUTAGENESIS OF TYR-1035 AND
+RP   TYR-1301.
+RX   PubMed=16061658; DOI=10.1158/0008-5472.CAN-05-1150;
+RA   Aqeilan R.I., Donati V., Palamarchuk A., Trapasso F., Kaou M.,
+RA   Pekarsky Y., Sudol M., Croce C.M.;
+RT   "WW domain-containing proteins, WWOX and YAP, compete for interaction
+RT   with ErbB-4 and modulate its transcriptional function.";
+RL   Cancer Res. 65:6764-6772(2005).
+RN   [11]
+RP   PROTEOLYTIC PROCESSING, AND MUTAGENSIS OF VAL-675.
+RX   PubMed=15746097; DOI=10.1074/jbc.M412457200;
+RA   Vidal G.A., Naresh A., Marrero L., Jones F.E.;
+RT   "Presenilin-dependent gamma-secretase processing regulates multiple
+RT   ERBB4/HER4 activities.";
+RL   J. Biol. Chem. 280:19777-19783(2005).
+RN   [12]
+RP   INTERACTION WITH CBFA2T3.
+RX   PubMed=16815842; DOI=10.1074/jbc.M603998200;
+RA   Linggi B., Carpenter G.;
+RT   "ErbB-4 s80 intracellular domain abrogates ETO2-dependent
+RT   transcriptional repression.";
+RL   J. Biol. Chem. 281:25373-25380(2006).
+RN   [13]
+RP   FUNCTION, PHOSPHORYLATION, AND SUBCELLULAR LOCATION.
+RX   PubMed=16251361; DOI=10.1091/mbc.E05-05-0402;
+RA   Maatta J.A., Sundvall M., Junttila T.T., Peri L., Laine V.J.,
+RA   Isola J., Egeblad M., Elenius K.;
+RT   "Proteolytic cleavage and phosphorylation of a tumor-associated ErbB4
+RT   isoform promote ligand-independent survival and cancer cell growth.";
+RL   Mol. Biol. Cell 17:67-79(2006).
+RN   [14]
+RP   FUNCTION OF ERBB4 INTRACELLULAR DOMAIN, PROTEOLYTIC PROCESSING,
+RP   SUBCELLULAR LOCATION, UBIQUITINATION OF ERBB4 INTRACELLULAR DOMAIN,
+RP   AND MUTAGENSIS OF VAL-675; LYS-751; ARG-992; LYS-995 AND ASP-1000.
+RX   PubMed=17638867; DOI=10.1158/0008-5472.CAN-06-4145;
+RA   Strunk K.E., Husted C., Miraglia L.C., Sandahl M., Rearick W.A.,
+RA   Hunter D.M., Earp H.S. III, Muraoka-Cook R.S.;
+RT   "HER4 D-box sequences regulate mitotic progression and degradation of
+RT   the nuclear HER4 cleavage product s80HER4.";
+RL   Cancer Res. 67:6582-6590(2007).
+RN   [15]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-733, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Lung carcinoma;
+RX   PubMed=18083107; DOI=10.1016/j.cell.2007.11.025;
+RA   Rikova K., Guo A., Zeng Q., Possemato A., Yu J., Haack H., Nardone J.,
+RA   Lee K., Reeves C., Li Y., Hu Y., Tan Z., Stokes M., Sullivan L.,
+RA   Mitchell J., Wetzel R., Macneill J., Ren J.M., Yuan J.,
+RA   Bakalarski C.E., Villen J., Kornhauser J.M., Smith B., Li D., Zhou X.,
+RA   Gygi S.P., Gu T.-L., Polakiewicz R.D., Rush J., Comb M.J.;
+RT   "Global survey of phosphotyrosine signaling identifies oncogenic
+RT   kinases in lung cancer.";
+RL   Cell 131:1190-1203(2007).
+RN   [16]
+RP   FUNCTION OF E4ICD, PHOSPHORYLATION, SUBCELLULAR LOCATION OF E4ICD, AND
+RP   MUTAGENESIS OF LYS-751.
+RX   PubMed=17486069; DOI=10.1038/sj.onc.1210501;
+RA   Sundvall M., Peri L., Maatta J.A., Tvorogov D., Paatero I.,
+RA   Savisalo M., Silvennoinen O., Yarden Y., Elenius K.;
+RT   "Differential nuclear localization and kinase activity of alternative
+RT   ErbB4 intracellular domains.";
+RL   Oncogene 26:6905-6914(2007).
+RN   [17]
+RP   INTERACTION WITH NEDD4, SUBCELLULAR LOCATION, AND UBIQUITINATION OF
+RP   E4ICD1.
+RX   PubMed=19193720; DOI=10.1096/fj.08-121947;
+RA   Zeng F., Xu J., Harris R.C.;
+RT   "Nedd4 mediates ErbB4 JM-a/CYT-1 ICD ubiquitination and degradation in
+RT   MDCK II cells.";
+RL   FASEB J. 23:1935-1945(2009).
+RN   [18]
+RP   INTERACTION WITH WWP1, AND MUTAGENESIS OF TYR-1056 AND TYR-1301.
+RX   PubMed=19561640; DOI=10.1038/onc.2009.162;
+RA   Li Y., Zhou Z., Alimandi M., Chen C.;
+RT   "WW domain containing E3 ubiquitin protein ligase 1 targets the full-
+RT   length ErbB4 for ubiquitin-mediated degradation in breast cancer.";
+RL   Oncogene 28:2948-2958(2009).
+RN   [19]
+RP   X-RAY CRYSTALLOGRAPHY (2.4 ANGSTROMS) OF 26-641, DISULFIDE BONDS, AND
+RP   GLYCOSYLATION AT ASN-138; ASN-174; ASN-253; ASN-358; ASN-410; ASN-473;
+RP   ASN-495 AND ASN-576.
+RX   PubMed=16203964; DOI=10.1073/pnas.0507591102;
+RA   Bouyain S., Longo P.A., Li S., Ferguson K.M., Leahy D.J.;
+RT   "The extracellular region of ErbB4 adopts a tethered conformation in
+RT   the absence of ligand.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 102:15024-15029(2005).
+RN   [20]
+RP   VARIANTS [LARGE SCALE ANALYSIS] ILE-140 AND TYR-303.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Specifically binds and is activated by neuregulins, NRG-
+CC       2, NRG-3, heparin-binding EGF-like growth factor, betacellulin and
+CC       NTAK. Interaction with these factors induces cell differentiation.
+CC       Not activated by EGF, TGF-A, and amphiregulin. The C-terminal
+CC       fragment (CTF) of isoform JMA-A CYT-2 (containing E4ICD2) can
+CC       stimulate transcription in the presence of YAP1. ERBB4
+CC       intracellular domain is involved in the regulation of cell growth.
+CC       Conflicting reports are likely due at least in part to the
+CC       opposing effects of the isoform-specific and nuclear-translocated
+CC       ERBB4 intracellular domains (E4ICD1 and E4ICD2). Overexpression
+CC       studies in epithelium show growth inhibition using E4ICD1 and
+CC       increased proliferation using E4ICD2. E4ICD2 has greater in vitro
+CC       kinase activity than E4ICD1. The kinase activity is required for
+CC       the nuclear translocation of E4ICD2.
+CC   -!- CATALYTIC ACTIVITY: ATP + a [protein]-L-tyrosine = ADP + a
+CC       [protein]-L-tyrosine phosphate.
+CC   -!- SUBUNIT: Homodimer or heterodimer with each of the other ERBB
+CC       receptors (Potential). Interacts with PDZ domains of DLG2, DLG3,
+CC       DLG4 and the syntrophin SNTB2. Interacts with CBFA2T3 and MUC1.
+CC       Interacts (via PPxy motifs) with WWOX. Isoform JM-A CYT-2
+CC       interacts (via PPxY motif 3) with isoform 1 and isoform 2 of YAP1
+CC       (via WW domain 1). Isoform JM-A CYT-1 and isoform JM-B CYT-1
+CC       interact with WWP1.
+CC   -!- INTERACTION:
+CC       P78352:DLG4; NbExp=3; IntAct=EBI-80371, EBI-80389;
+CC       P00533:EGFR; NbExp=2; IntAct=EBI-80371, EBI-297353;
+CC       P04626:ERBB2; NbExp=2; IntAct=EBI-80371, EBI-641062;
+CC       P21860:ERBB3; NbExp=3; IntAct=EBI-80371, EBI-720706;
+CC       Q05586:GRIN1; NbExp=1; IntAct=EBI-80371, EBI-998542;
+CC   -!- SUBCELLULAR LOCATION: Membrane; Single-pass type I membrane
+CC       protein.
+CC   -!- SUBCELLULAR LOCATION: ERBB4 intracellular domain: Nucleus.
+CC       Note=Following proteolytical processing E4ICD (E4ICD1 or E4ICD2
+CC       generated from the respective isoforms) is translocated to the
+CC       nucleus. Significantly more E4ICD2 than E4ICD1 is found in the
+CC       nucleus. E4ICD2 colocalizes with YAP1 in the nucleus.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=4;
+CC       Name=JM-A CYT-1;
+CC         IsoId=Q15303-1; Sequence=Displayed;
+CC         Note=Proteolytical processing generates E4ICD1 (s80Cyt1);
+CC       Name=JM-B CYT-1;
+CC         IsoId=Q15303-2; Sequence=VSP_002895;
+CC       Name=JM-A CYT-2;
+CC         IsoId=Q15303-3; Sequence=VSP_022148;
+CC         Note=Proteolytical processing generates E4ICD2 (s80Cyt2);
+CC       Name=JM-B CYT-2;
+CC         IsoId=Q15303-4; Sequence=VSP_002895, VSP_022148;
+CC   -!- TISSUE SPECIFICITY: Expressed at highest levels in brain, heart,
+CC       kidney, in addition to skeletal muscle, parathyroid, cerebellum,
+CC       pituitary, spleen, testis and breast. Lower levels in thymus,
+CC       lung, salivary gland, and pancreas. Isoform JM-A CYT-1 and isoform
+CC       JM-B CYT-1 are expressed in cerebellum, but only the isoform JM-B
+CC       is expressed in the heart.
+CC   -!- PTM: Isoform JM-A CYT-1 and isoform JM-A CYT-2 but not isoform JM-
+CC       B CYT-1 and isoform JM-B CYT-2 are processed by ADAM17.
+CC       Proteolytic processing in response to ligand or 12-O-
+CC       tetradecanoylphorbol-13-acetate stimulation results in the
+CC       production of 120 kDa soluble receptor forms and intermediate
+CC       membrane-anchored 80 kDa fragments (m80HER4), which are further
+CC       processed by a presenilin-dependent gamma-secretase to release the
+CC       respective cytoplasmic intracellular domain E4ICD (either
+CC       E4ICD1/s80Cyt1 or E4ICD2/s80Cyt2). Membrane-anchored 80 kDa
+CC       fragments of the processed isoform JM-A CYT-1 are more readily
+CC       degraded by the proteasome than fragments of isoform JM-A CYT-2
+CC       suggesting a prevalence of E4ICD2 over E4ICD1.
+CC   -!- PTM: Ligand-binding increases phosphorylation on tyrosine
+CC       residues. Isoform JM-A CYT-2 is constitutively phosphorylated on
+CC       tyrosine residues in a ligand-independent manner. E4ICD2 but not
+CC       E4ICD1 is phosphorylated on tyrosine residues.
+CC   -!- PTM: Ubiquitinated. The ERBB4 intracellular domain is
+CC       ubiquitinated and targeted to proteosomal degradation during
+CC       mitosis mediated by the APC/C complex. Isoform JM-A CYT-1 and
+CC       isoform JM-B CYT-1 are ubiquitinated by WWP1. The ERBB4
+CC       intracellular domain (E4ICD1) is ubiquitinated, and this involves
+CC       NEDD4.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Tyr protein
+CC       kinase family. EGF receptor subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; L07868; AAB59446.1; -; mRNA.
+DR   EMBL; BC112199; AAI12200.1; -; mRNA.
+DR   EMBL; BC143741; AAI43742.1; -; mRNA.
+DR   EMBL; BC143747; AAI43748.1; -; mRNA.
+DR   EMBL; BC143749; AAI43750.1; -; mRNA.
+DR   EMBL; AB209697; BAD92934.1; -; mRNA.
+DR   IPI; IPI00016371; -.
+DR   IPI; IPI00215722; -.
+DR   IPI; IPI00816395; -.
+DR   IPI; IPI00969544; -.
+DR   PIR; A47253; A47253.
+DR   RefSeq; NP_001036064.1; -.
+DR   RefSeq; NP_005226.1; -.
+DR   UniGene; Hs.390729; -.
+DR   PDB; 2AHX; X-ray; 2.40 A; A/B=26-641.
+DR   PDB; 2R4B; X-ray; 2.40 A; A/B=690-999.
+DR   PDB; 3BBT; X-ray; 2.80 A; B/D=702-1029.
+DR   PDB; 3BBW; X-ray; 4.00 A; A/B=702-1029.
+DR   PDB; 3BCE; X-ray; 2.50 A; A/B/C=702-1029.
+DR   PDBsum; 2AHX; -.
+DR   PDBsum; 2R4B; -.
+DR   PDBsum; 3BBT; -.
+DR   PDBsum; 3BBW; -.
+DR   PDBsum; 3BCE; -.
+DR   ProteinModelPortal; Q15303; -.
+DR   DIP; DIP-29650N; -.
+DR   DIP; DIP-29850N; -.
+DR   DIP; DIP-6094N; -.
+DR   IntAct; Q15303; 19.
+DR   MINT; MINT-125091; -.
+DR   STRING; Q15303; -.
+DR   PhosphoSite; Q15303; -.
+DR   PRIDE; Q15303; -.
+DR   Ensembl; ENST00000342788; ENSP00000342235; ENSG00000178568.
+DR   Ensembl; ENST00000402597; ENSP00000385565; ENSG00000178568.
+DR   Ensembl; ENST00000436443; ENSP00000403204; ENSG00000178568.
+DR   GeneID; 2066; -.
+DR   KEGG; hsa:2066; -.
+DR   UCSC; uc002veg.1; human.
+DR   UCSC; uc002veh.1; human.
+DR   CTD; 2066; -.
+DR   GeneCards; GC02M212210; -.
+DR   H-InvDB; HIX0030012; -.
+DR   HGNC; HGNC:3432; ERBB4.
+DR   HPA; CAB000276; -.
+DR   HPA; CAB025522; -.
+DR   HPA; HPA012016; -.
+DR   MIM; 600543; gene.
+DR   PharmGKB; PA27847; -.
+DR   eggNOG; prNOG15425; -.
+DR   HOGENOM; HBG445128; -.
+DR   HOVERGEN; HBG000490; -.
+DR   InParanoid; Q15303; -.
+DR   OMA; CYADTIH; -.
+DR   OrthoDB; EOG9KPWX4; -.
+DR   PhylomeDB; Q15303; -.
+DR   BRENDA; 2.7.10.1; 247.
+DR   NextBio; 8397; -.
+DR   PMAP-CutDB; Q15303; -.
+DR   ArrayExpress; Q15303; -.
+DR   Bgee; Q15303; -.
+DR   CleanEx; HS_ERBB4; -.
+DR   Genevestigator; Q15303; -.
+DR   GermOnline; ENSG00000178568; Homo sapiens.
+DR   GO; GO:0016323; C:basolateral plasma membrane; IDA:BHF-UCL.
+DR   GO; GO:0016021; C:integral to membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005515; F:protein binding; IPI:UniProtKB.
+DR   GO; GO:0004716; F:receptor signaling protein tyrosine kinase ...; IEA:InterPro.
+DR   GO; GO:0004714; F:transmembrane receptor protein tyrosine kin...; TAS:ProtInc.
+DR   GO; GO:0008283; P:cell proliferation; TAS:ProtInc.
+DR   GO; GO:0018108; P:peptidyl-tyrosine phosphorylation; IEA:InterPro.
+DR   GO; GO:0045449; P:regulation of transcription; IEA:UniProtKB-KW.
+DR   GO; GO:0006350; P:transcription; IEA:UniProtKB-KW.
+DR   GO; GO:0007169; P:transmembrane receptor protein tyrosine kin...; IEA:InterPro.
+DR   InterPro; IPR000494; EGF_rcpt_L.
+DR   InterPro; IPR006211; Furin-like_Cys-rich_dom.
+DR   InterPro; IPR006212; Furin_repeat.
+DR   InterPro; IPR009030; Growth_fac_rcpt.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR001245; Ser-Thr/Tyr-Pkinase.
+DR   InterPro; IPR016245; Tyr_kinase_EGF/ERB/XmrK_rcpt.
+DR   InterPro; IPR020635; Tyr_Pkinase_cat_dom.
+DR   InterPro; IPR020685; Tyr_prot_kinase.
+DR   InterPro; IPR008266; Tyr_prot_kinase_AS.
+DR   InterPro; IPR020690; Tyr_prot_kinase_rcpt_ErbB4.
+DR   PANTHER; PTHR23256; Tyr_prot_kinase; 1.
+DR   PANTHER; PTHR23256:SF24; Tyr_prot_kinase_rcpt_erbB4; 1.
+DR   Pfam; PF00757; Furin-like; 1.
+DR   Pfam; PF07714; Pkinase_Tyr; 1.
+DR   Pfam; PF01030; Recep_L_domain; 2.
+DR   PIRSF; PIRSF000619; TyrPK_EGF-R; 1.
+DR   PRINTS; PR00109; TYRKINASE.
+DR   SMART; SM00261; FU; 5.
+DR   SMART; SM00219; TyrKc; 1.
+DR   SUPFAM; SSF57184; Grow_fac_recept; 2.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00109; PROTEIN_KINASE_TYR; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Activator; Alternative splicing; ATP-binding;
+KW   Complete proteome; Disulfide bond; Glycoprotein; Kinase; Membrane;
+KW   Nucleotide-binding; Nucleus; Phosphoprotein; Polymorphism; Receptor;
+KW   Repeat; Signal; Transcription; Transcription regulation; Transferase;
+KW   Transmembrane; Transmembrane helix; Tyrosine-protein kinase;
+KW   Ubl conjugation.
+FT   SIGNAL        1     25       Potential.
+FT   CHAIN        26   1308       Receptor tyrosine-protein kinase erbB-4.
+FT                                /FTId=PRO_0000016674.
+FT   CHAIN         ?   1308       ERBB4 intracellular domain.
+FT                                /FTId=PRO_0000396797.
+FT   TOPO_DOM     26    651       Extracellular (Potential).
+FT   TRANSMEM    652    675       Potential.
+FT   TOPO_DOM    676   1308       Cytoplasmic (Potential).
+FT   DOMAIN      718    985       Protein kinase.
+FT   NP_BIND     724    732       ATP (By similarity).
+FT   MOTIF      1032   1035       PPxY motif 1.
+FT   MOTIF      1053   1056       PPxY motif 2.
+FT   MOTIF      1298   1301       PPxY motif 3.
+FT   MOTIF      1306   1308       PDZ-binding.
+FT   COMPBIAS    186    334       Cys-rich.
+FT   COMPBIAS    496    633       Cys-rich.
+FT   ACT_SITE    843    843       Proton acceptor (By similarity).
+FT   BINDING     751    751       ATP (By similarity).
+FT   MOD_RES     733    733       Phosphotyrosine.
+FT   MOD_RES    1162   1162       Phosphotyrosine; by autocatalysis (By
+FT                                similarity).
+FT   MOD_RES    1188   1188       Phosphotyrosine; by autocatalysis (By
+FT                                similarity).
+FT   MOD_RES    1258   1258       Phosphotyrosine; by autocatalysis (By
+FT                                similarity).
+FT   MOD_RES    1284   1284       Phosphotyrosine; by autocatalysis (By
+FT                                similarity).
+FT   CARBOHYD    138    138       N-linked (GlcNAc...).
+FT   CARBOHYD    174    174       N-linked (GlcNAc...).
+FT   CARBOHYD    181    181       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    253    253       N-linked (GlcNAc...).
+FT   CARBOHYD    358    358       N-linked (GlcNAc...).
+FT   CARBOHYD    410    410       N-linked (GlcNAc...).
+FT   CARBOHYD    473    473       N-linked (GlcNAc...).
+FT   CARBOHYD    495    495       N-linked (GlcNAc...).
+FT   CARBOHYD    548    548       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    576    576       N-linked (GlcNAc...).
+FT   CARBOHYD    620    620       N-linked (GlcNAc...) (Potential).
+FT   DISULFID     29     56
+FT   DISULFID    156    186
+FT   DISULFID    189    197
+FT   DISULFID    193    205
+FT   DISULFID    213    221
+FT   DISULFID    217    229
+FT   DISULFID    230    238
+FT   DISULFID    234    246
+FT   DISULFID    249    258
+FT   DISULFID    262    289
+FT   DISULFID    293    304
+FT   DISULFID    308    323
+FT   DISULFID    326    330
+FT   DISULFID    503    512
+FT   DISULFID    507    520
+FT   DISULFID    523    532
+FT   DISULFID    536    552
+FT   DISULFID    555    569
+FT   DISULFID    559    577
+FT   DISULFID    580    589
+FT   DISULFID    593    614
+FT   DISULFID    617    625
+FT   DISULFID    621    633
+FT   VAR_SEQ     626    648       NGPTSHDCIYYPWTGHSTLPQHA -> IGSSIEDCIGLMD
+FT                                (in isoform JM-B CYT-1 and isoform JM-B
+FT                                CYT-2).
+FT                                /FTId=VSP_002895.
+FT   VAR_SEQ    1046   1061       Missing (in isoform JM-A CYT-2 and
+FT                                isoform JM-B CYT-2).
+FT                                /FTId=VSP_022148.
+FT   VARIANT     140    140       T -> I (in a colorectal adenocarcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_042113.
+FT   VARIANT     303    303       S -> Y (in a lung squamous cell carcinoma
+FT                                sample; somatic mutation).
+FT                                /FTId=VAR_042114.
+FT   MUTAGEN     675    675       V->A: Abolishes proteolytic processing
+FT                                and nuclear localization.
+FT   MUTAGEN     751    751       K->R: Abolishes kinase activity.
+FT                                Abolishes phosphorylation, proteolytic
+FT                                processing and nuclear localization.
+FT   MUTAGEN     992    992       R->A: Abolishes APC/C-mediated
+FT                                degradation; when associated with A-995
+FT                                and A-1000.
+FT   MUTAGEN     995    995       L->A: Abolishes APC/C-mediated
+FT                                degradation; when associated with A-992
+FT                                and A-1000.
+FT   MUTAGEN    1000   1000       D->A: Abolishes APC/C-mediated
+FT                                degradation; when associated with A-992
+FT                                and A-995.
+FT   MUTAGEN    1035   1035       Y->A: No effect on interaction with WWOX.
+FT                                Abolishes interaction with WWOX; when
+FT                                associated with A-1301.
+FT   MUTAGEN    1056   1056       Y->A: Abolishes interaction with NEDD4
+FT                                and impairs ubiquitination. Promotes
+FT                                nuclear translocation of ERBB4
+FT                                intracellular domain E4ICD1.
+FT   MUTAGEN    1056   1056       Y->F: Abolishes interaction with WWP1;
+FT                                when associated with F-1301.
+FT   MUTAGEN    1301   1301       Y->A: Abolishes interaction with NEDD4
+FT                                and impairs ubiquitination.
+FT   MUTAGEN    1301   1301       Y->A: No effect on interaction with WWOX.
+FT                                Abolishes interaction with WWOX; when
+FT                                associated with A-1035. Loss of
+FT                                interaction with YAP1 and stimulation of
+FT                                transcription.
+FT   MUTAGEN    1301   1301       Y->F: Abolishes interaction with WWP1;
+FT                                when associated with F-1056.
+FT   STRAND       28     30
+FT   HELIX        42     53
+FT   STRAND       57     61
+FT   STRAND       63     67
+FT   HELIX        75     79
+FT   STRAND       82     85
+FT   STRAND       87     91
+FT   STRAND       95     98
+FT   TURN        112    114
+FT   STRAND      115    120
+FT   STRAND      133    135
+FT   STRAND      144    150
+FT   HELIX       158    160
+FT   HELIX       163    165
+FT   HELIX       173    175
+FT   STRAND      176    178
+FT   TURN        191    193
+FT   STRAND      197    201
+FT   HELIX       202    204
+FT   STRAND      221    225
+FT   HELIX       226    228
+FT   STRAND      234    242
+FT   STRAND      245    254
+FT   STRAND      257    261
+FT   STRAND      265    269
+FT   TURN        270    273
+FT   STRAND      274    277
+FT   STRAND      283    285
+FT   STRAND      288    292
+FT   STRAND      298    300
+FT   STRAND      303    307
+FT   STRAND      312    317
+FT   STRAND      320    325
+FT   STRAND      333    335
+FT   HELIX       340    342
+FT   TURN        350    352
+FT   HELIX       353    356
+FT   STRAND      360    364
+FT   STRAND      366    368
+FT   HELIX       370    374
+FT   HELIX       377    379
+FT   HELIX       386    394
+FT   STRAND      397    400
+FT   STRAND      402    405
+FT   HELIX       415    417
+FT   STRAND      432    438
+FT   STRAND      455    461
+FT   HELIX       469    471
+FT   HELIX       474    476
+FT   STRAND      479    482
+FT   STRAND      485    487
+FT   STRAND      489    491
+FT   HELIX       493    497
+FT   TURN        498    500
+FT   STRAND      512    516
+FT   STRAND      519    528
+FT   STRAND      531    534
+FT   STRAND      537    543
+FT   STRAND      545    548
+FT   STRAND      551    554
+FT   STRAND      568    573
+FT   STRAND      576    585
+FT   STRAND      588    592
+FT   STRAND      595    608
+FT   STRAND      612    616
+FT   STRAND      625    629
+FT   HELIX       715    717
+FT   STRAND      718    729
+FT   STRAND      731    737
+FT   STRAND      746    752
+FT   HELIX       762    773
+FT   STRAND      783    787
+FT   STRAND      789    791
+FT   STRAND      793    797
+FT   HELIX       804    810
+FT   HELIX       812    814
+FT   HELIX       817    836
+FT   HELIX       846    848
+FT   STRAND      849    853
+FT   STRAND      856    859
+FT   HELIX       864    869
+FT   HELIX       884    886
+FT   HELIX       889    893
+FT   HELIX       899    914
+FT   TURN        920    923
+FT   TURN        926    928
+FT   HELIX       929    934
+FT   HELIX       947    955
+FT   HELIX       961    963
+FT   HELIX       967    977
+FT   HELIX       981    983
+SQ   SEQUENCE   1308 AA;  146808 MW;  5E4AE80985D88761 CRC64;
+     MKPATGLWVW VSLLVAAGTV QPSDSQSVCA GTENKLSSLS DLEQQYRALR KYYENCEVVM
+     GNLEITSIEH NRDLSFLRSV REVTGYVLVA LNQFRYLPLE NLRIIRGTKL YEDRYALAIF
+     LNYRKDGNFG LQELGLKNLT EILNGGVYVD QNKFLCYADT IHWQDIVRNP WPSNLTLVST
+     NGSSGCGRCH KSCTGRCWGP TENHCQTLTR TVCAEQCDGR CYGPYVSDCC HRECAGGCSG
+     PKDTDCFACM NFNDSGACVT QCPQTFVYNP TTFQLEHNFN AKYTYGAFCV KKCPHNFVVD
+     SSSCVRACPS SKMEVEENGI KMCKPCTDIC PKACDGIGTG SLMSAQTVDS SNIDKFINCT
+     KINGNLIFLV TGIHGDPYNA IEAIDPEKLN VFRTVREITG FLNIQSWPPN MTDFSVFSNL
+     VTIGGRVLYS GLSLLILKQQ GITSLQFQSL KEISAGNIYI TDNSNLCYYH TINWTTLFST
+     INQRIVIRDN RKAENCTAEG MVCNHLCSSD GCWGPGPDQC LSCRRFSRGR ICIESCNLYD
+     GEFREFENGS ICVECDPQCE KMEDGLLTCH GPGPDNCTKC SHFKDGPNCV EKCPDGLQGA
+     NSFIFKYADP DRECHPCHPN CTQGCNGPTS HDCIYYPWTG HSTLPQHART PLIAAGVIGG
+     LFILVIVGLT FAVYVRRKSI KKKRALRRFL ETELVEPLTP SGTAPNQAQL RILKETELKR
+     VKVLGSGAFG TVYKGIWVPE GETVKIPVAI KILNETTGPK ANVEFMDEAL IMASMDHPHL
+     VRLLGVCLSP TIQLVTQLMP HGCLLEYVHE HKDNIGSQLL LNWCVQIAKG MMYLEERRLV
+     HRDLAARNVL VKSPNHVKIT DFGLARLLEG DEKEYNADGG KMPIKWMALE CIHYRKFTHQ
+     SDVWSYGVTI WELMTFGGKP YDGIPTREIP DLLEKGERLP QPPICTIDVY MVMVKCWMID
+     ADSRPKFKEL AAEFSRMARD PQRYLVIQGD DRMKLPSPND SKFFQNLLDE EDLEDMMDAE
+     EYLVPQAFNI PPPIYTSRAR IDSNRSEIGH SPPPAYTPMS GNQFVYRDGG FAAEQGVSVP
+     YRAPTSTIPE APVAQGATAE IFDDSCCNGT LRKPVAPHVQ EDSSTQRYSA DPTVFAPERS
+     PRGELDEEGY MTPMRDKPKQ EYLNPVEENP FVSRRKNGDL QALDNPEYHN ASNGPPKAED
+     EYVNEPLYLN TFANTLGKAE YLKNNILSMP EKAKKAFDNP DYWNHSLPPR STLQHPDYLQ
+     EYSTKYFYKQ NGRIRPIVAE NPEYLSEFSL KPGTVLPPPP YRHRNTVV
+//

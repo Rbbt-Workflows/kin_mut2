@@ -1,0 +1,335 @@
+ID   NEK6_HUMAN              Reviewed;         313 AA.
+AC   Q9HC98; Q5TBG3; Q5TBG9; Q6FG86; Q6IAR3; Q96E83; Q9ULX2;
+DT   03-OCT-2003, integrated into UniProtKB/Swiss-Prot.
+DT   03-OCT-2003, sequence version 2.
+DT   05-OCT-2010, entry version 88.
+DE   RecName: Full=Serine/threonine-protein kinase Nek6;
+DE            EC=2.7.11.1;
+DE   AltName: Full=Never in mitosis A-related kinase 6;
+DE            Short=NimA-related protein kinase 6;
+DE   AltName: Full=Protein kinase SID6-1512;
+GN   Name=NEK6;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   MEDLINE=20169208; PubMed=10702691;
+RA   Li M.Z., Yu L., Liu Q., Chu J.Y., Zhao S.Y.;
+RT   "Assignment of NEK6, a NIMA-related gene, to human chromosome 9q33.
+RT   3-->q34.11 by radiation hybrid mapping.";
+RL   Cytogenet. Cell Genet. 87:271-272(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], TISSUE SPECIFICITY, SUBCELLULAR LOCATION,
+RP   AND FUNCTION.
+RX   PubMed=12054534; DOI=10.1016/S0006-291X(02)00297-8;
+RA   Hashimoto Y., Akita H., Hibino M., Kohri K., Nakanishi M.;
+RT   "Identification and characterization of Nek6 protein kinase, a
+RT   potential human homolog of NIMA histone H3 kinase.";
+RL   Biochem. Biophys. Res. Commun. 293:753-758(2002).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Placenta;
+RA   Saito T., Saito R., Saito S.;
+RT   "A protein kinase weakly similar to nek1.";
+RL   Submitted (APR-1999) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Hippocampus;
+RX   PubMed=14702039; DOI=10.1038/ng1285;
+RA   Ota T., Suzuki Y., Nishikawa T., Otsuki T., Sugiyama T., Irie R.,
+RA   Wakamatsu A., Hayashi K., Sato H., Nagai K., Kimura K., Makita H.,
+RA   Sekine M., Obayashi M., Nishi T., Shibahara T., Tanaka T., Ishii S.,
+RA   Yamamoto J., Saito K., Kawai Y., Isono Y., Nakamura Y., Nagahari K.,
+RA   Murakami K., Yasuda T., Iwayanagi T., Wagatsuma M., Shiratori A.,
+RA   Sudo H., Hosoiri T., Kaku Y., Kodaira H., Kondo H., Sugawara M.,
+RA   Takahashi M., Kanda K., Yokoi T., Furuya T., Kikkawa E., Omura Y.,
+RA   Abe K., Kamihara K., Katsuta N., Sato K., Tanikawa M., Yamazaki M.,
+RA   Ninomiya K., Ishibashi T., Yamashita H., Murakawa K., Fujimori K.,
+RA   Tanai H., Kimata M., Watanabe M., Hiraoka S., Chiba Y., Ishida S.,
+RA   Ono Y., Takiguchi S., Watanabe S., Yosida M., Hotuta T., Kusano J.,
+RA   Kanehori K., Takahashi-Fujii A., Hara H., Tanase T.-O., Nomura Y.,
+RA   Togiya S., Komai F., Hara R., Takeuchi K., Arita M., Imose N.,
+RA   Musashino K., Yuuki H., Oshima A., Sasaki N., Aotsuka S.,
+RA   Yoshikawa Y., Matsunawa H., Ichihara T., Shiohata N., Sano S.,
+RA   Moriya S., Momiyama H., Satoh N., Takami S., Terashima Y., Suzuki O.,
+RA   Nakagawa S., Senoh A., Mizoguchi H., Goto Y., Shimizu F., Wakebe H.,
+RA   Hishigaki H., Watanabe T., Sugiyama A., Takemoto M., Kawakami B.,
+RA   Yamazaki M., Watanabe K., Kumagai A., Itakura S., Fukuzumi Y.,
+RA   Fujimori Y., Komiyama M., Tashiro H., Tanigami A., Fujiwara T.,
+RA   Ono T., Yamada K., Fujii Y., Ozaki K., Hirao M., Ohmori Y.,
+RA   Kawabata A., Hikiji T., Kobatake N., Inagaki H., Ikema Y., Okamoto S.,
+RA   Okitani R., Kawakami T., Noguchi S., Itoh T., Shigeta K., Senba T.,
+RA   Matsumura K., Nakajima Y., Mizuno T., Morinaga M., Sasaki M.,
+RA   Togashi T., Oyama M., Hata H., Watanabe M., Komatsu T.,
+RA   Mizushima-Sugano J., Satoh T., Shirai Y., Takahashi Y., Nakagawa K.,
+RA   Okumura K., Nagase T., Nomura N., Kikuchi H., Masuho Y., Yamashita R.,
+RA   Nakai K., Yada T., Nakamura Y., Ohara O., Isogai T., Sugano S.;
+RT   "Complete sequencing and characterization of 21,243 full-length human
+RT   cDNAs.";
+RL   Nat. Genet. 36:40-45(2004).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=15164053; DOI=10.1038/nature02465;
+RA   Humphray S.J., Oliver K., Hunt A.R., Plumb R.W., Loveland J.E.,
+RA   Howe K.L., Andrews T.D., Searle S., Hunt S.E., Scott C.E., Jones M.C.,
+RA   Ainscough R., Almeida J.P., Ambrose K.D., Ashwell R.I.S.,
+RA   Babbage A.K., Babbage S., Bagguley C.L., Bailey J., Banerjee R.,
+RA   Barker D.J., Barlow K.F., Bates K., Beasley H., Beasley O., Bird C.P.,
+RA   Bray-Allen S., Brown A.J., Brown J.Y., Burford D., Burrill W.,
+RA   Burton J., Carder C., Carter N.P., Chapman J.C., Chen Y., Clarke G.,
+RA   Clark S.Y., Clee C.M., Clegg S., Collier R.E., Corby N., Crosier M.,
+RA   Cummings A.T., Davies J., Dhami P., Dunn M., Dutta I., Dyer L.W.,
+RA   Earthrowl M.E., Faulkner L., Fleming C.J., Frankish A.,
+RA   Frankland J.A., French L., Fricker D.G., Garner P., Garnett J.,
+RA   Ghori J., Gilbert J.G.R., Glison C., Grafham D.V., Gribble S.,
+RA   Griffiths C., Griffiths-Jones S., Grocock R., Guy J., Hall R.E.,
+RA   Hammond S., Harley J.L., Harrison E.S.I., Hart E.A., Heath P.D.,
+RA   Henderson C.D., Hopkins B.L., Howard P.J., Howden P.J., Huckle E.,
+RA   Johnson C., Johnson D., Joy A.A., Kay M., Keenan S., Kershaw J.K.,
+RA   Kimberley A.M., King A., Knights A., Laird G.K., Langford C.,
+RA   Lawlor S., Leongamornlert D.A., Leversha M., Lloyd C., Lloyd D.M.,
+RA   Lovell J., Martin S., Mashreghi-Mohammadi M., Matthews L., McLaren S.,
+RA   McLay K.E., McMurray A., Milne S., Nickerson T., Nisbett J.,
+RA   Nordsiek G., Pearce A.V., Peck A.I., Porter K.M., Pandian R.,
+RA   Pelan S., Phillimore B., Povey S., Ramsey Y., Rand V., Scharfe M.,
+RA   Sehra H.K., Shownkeen R., Sims S.K., Skuce C.D., Smith M.,
+RA   Steward C.A., Swarbreck D., Sycamore N., Tester J., Thorpe A.,
+RA   Tracey A., Tromans A., Thomas D.W., Wall M., Wallis J.M., West A.P.,
+RA   Whitehead S.L., Willey D.L., Williams S.A., Wilming L., Wray P.W.,
+RA   Young L., Ashurst J.L., Coulson A., Blocker H., Durbin R.M.,
+RA   Sulston J.E., Hubbard T., Jackson M.J., Bentley D.R., Beck S.,
+RA   Rogers J., Dunham I.;
+RT   "DNA sequence and analysis of human chromosome 9.";
+RL   Nature 429:369-374(2004).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Istrail S., Sutton G.G., Florea L., Halpern A.L.,
+RA   Mobarry C.M., Lippert R., Walenz B., Shatkay H., Dew I., Miller J.R.,
+RA   Flanigan M.J., Edwards N.J., Bolanos R., Fasulo D., Halldorsson B.V.,
+RA   Hannenhalli S., Turner R., Yooseph S., Lu F., Nusskern D.R.,
+RA   Shue B.C., Zheng X.H., Zhong F., Delcher A.L., Huson D.H.,
+RA   Kravitz S.A., Mouchard L., Reinert K., Remington K.A., Clark A.G.,
+RA   Waterman M.S., Eichler E.E., Adams M.D., Hunkapiller M.W., Myers E.W.,
+RA   Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [7]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney, and Pancreas;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [8]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 8-313.
+RA   Ebert L., Schick M., Neubert P., Schatten R., Henze S., Korn B.;
+RT   "Cloning of human full open reading frames in Gateway(TM) system entry
+RT   vector (pDONR201).";
+RL   Submitted (JUN-2004) to the EMBL/GenBank/DDBJ databases.
+RN   [9]
+RP   FUNCTION, AUTOPHOSPHORYLATION, AND MUTAGENESIS OF LYS-74 AND LYS-75.
+RX   PubMed=14563848; DOI=10.1074/jbc.M308080200;
+RA   Yin M.J., Shao L., Voehringer D., Smeal T., Jallal B.;
+RT   "The serine/threonine kinase Nek6 is required for cell cycle
+RT   progression through mitosis.";
+RL   J. Biol. Chem. 278:52454-52460(2003).
+RN   [10]
+RP   FUNCTION, CATALYTIC ACTIVITY, INTERACTION WITH KIF11 AND NEK9, AND
+RP   MUTAGENESIS OF LYS-74 AND LYS-75.
+RX   PubMed=19001501; DOI=10.1242/jcs.035360;
+RA   Rapley J., Nicolas M., Groen A., Regue L., Bertran M.T., Caelles C.,
+RA   Avruch J., Roig J.;
+RT   "The NIMA-family kinase Nek6 phosphorylates the kinesin Eg5 at a novel
+RT   site necessary for mitotic spindle formation.";
+RL   J. Cell Sci. 121:3912-3921(2008).
+RN   [11]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-35; SER-198; SER-199;
+RP   THR-201; THR-202 AND SER-206, AND MASS SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [12]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-206, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=19690332; DOI=10.1126/scisignal.2000007;
+RA   Mayya V., Lundgren D.H., Hwang S.-I., Rezaul K., Wu L., Eng J.K.,
+RA   Rodionov V., Han D.K.;
+RT   "Quantitative phosphoproteomic analysis of T cell receptor signaling
+RT   reveals system-wide modulation of protein-protein interactions.";
+RL   Sci. Signal. 2:RA46-RA46(2009).
+CC   -!- FUNCTION: Activated during M phase. Required for chromosome
+CC       segregation at metaphase-anaphase transition and therefore for
+CC       mitotic progression. Inhibition of activity results in apoptosis.
+CC       Phosphorylates KIF11 to promote mitotic spindle formation.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- COFACTOR: Magnesium.
+CC   -!- SUBUNIT: Interacts with NEK9, predominantly in mitosis. Interacts
+CC       with KIF11 (via C-terminus).
+CC   -!- INTERACTION:
+CC       Q16543:CDC37; NbExp=1; IntAct=EBI-740364, EBI-295634;
+CC       P63167:DYNLL1; NbExp=1; IntAct=EBI-740364, EBI-349105;
+CC       O95834:EML2; NbExp=1; IntAct=EBI-740364, EBI-1054588;
+CC       Q32P44:EML3; NbExp=1; IntAct=EBI-740364, EBI-1046713;
+CC       Q9HC35:EML4; NbExp=1; IntAct=EBI-740364, EBI-717876;
+CC       Q9NVI1:FANCI; NbExp=1; IntAct=EBI-740364, EBI-1013291;
+CC       Q8TEX9:IPO4; NbExp=1; IntAct=EBI-740364, EBI-395967;
+CC       P24390:KDELR1; NbExp=1; IntAct=EBI-740364, EBI-1043076;
+CC       Q8N163:KIAA1967; NbExp=1; IntAct=EBI-740364, EBI-355410;
+CC       P42704:LRPPRC; NbExp=1; IntAct=EBI-740364, EBI-1050853;
+CC       P33993:MCM7; NbExp=1; IntAct=EBI-740364, EBI-355924;
+CC       O00159:MYO1C; NbExp=1; IntAct=EBI-740364, EBI-350423;
+CC       Q8TDX7:NEK7; NbExp=1; IntAct=EBI-740364, EBI-1055945;
+CC       Q8TD19:NEK9; NbExp=1; IntAct=EBI-740364, EBI-1044009;
+CC       Q8N1F7:NUP93; NbExp=1; IntAct=EBI-740364, EBI-1042703;
+CC       Q5JVF3:PCID2; NbExp=1; IntAct=EBI-740364, EBI-1051701;
+CC       Q13526:PIN1; NbExp=2; IntAct=EBI-740364, EBI-714158;
+CC       Q13200:PSMD2; NbExp=1; IntAct=EBI-740364, EBI-357648;
+CC       Q9P035:PTPLAD1; NbExp=1; IntAct=EBI-740364, EBI-359013;
+CC       Q9Y230:RUVBL2; NbExp=1; IntAct=EBI-740364, EBI-352939;
+CC       Q15758:SLC1A5; NbExp=1; IntAct=EBI-740364, EBI-356576;
+CC       Q9UQE7:SMC3; NbExp=1; IntAct=EBI-740364, EBI-80718;
+CC       Q93008:USP9X; NbExp=1; IntAct=EBI-740364, EBI-302524;
+CC       Q9HAV4:XPO5; NbExp=1; IntAct=EBI-740364, EBI-517949;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm. Nucleus.
+CC   -!- TISSUE SPECIFICITY: Ubiquitous, with highest expression in heart
+CC       and skeletal muscle.
+CC   -!- PTM: Autophosphorylated.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. NEK Ser/Thr
+CC       protein kinase family. NIMA subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAG13417.1; Type=Erroneous initiation; Note=Translation N-terminally shortened;
+CC       Sequence=BAA85045.1; Type=Erroneous initiation; Note=Translation N-terminally extended;
+CC       Sequence=CAH70247.1; Type=Erroneous gene model prediction;
+CC       Sequence=CAI10876.1; Type=Erroneous gene model prediction;
+CC       Sequence=EAW87581.1; Type=Erroneous gene model prediction;
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF087909; AAG13417.1; ALT_INIT; mRNA.
+DR   EMBL; AB026289; BAA85045.1; ALT_INIT; mRNA.
+DR   EMBL; AK313071; BAG35899.1; -; mRNA.
+DR   EMBL; AL162724; CAH70247.1; ALT_SEQ; Genomic_DNA.
+DR   EMBL; AL137846; CAH70247.1; JOINED; Genomic_DNA.
+DR   EMBL; AL162724; CAH70254.1; -; Genomic_DNA.
+DR   EMBL; AL137846; CAH70254.1; JOINED; Genomic_DNA.
+DR   EMBL; AL137846; CAI10876.1; ALT_SEQ; Genomic_DNA.
+DR   EMBL; AL162724; CAI10876.1; JOINED; Genomic_DNA.
+DR   EMBL; AL137846; CAI10883.1; -; Genomic_DNA.
+DR   EMBL; AL162724; CAI10883.1; JOINED; Genomic_DNA.
+DR   EMBL; CH471090; EAW87579.1; -; Genomic_DNA.
+DR   EMBL; CH471090; EAW87581.1; ALT_SEQ; Genomic_DNA.
+DR   EMBL; BC000101; AAH00101.2; -; mRNA.
+DR   EMBL; BC004174; AAH04174.2; -; mRNA.
+DR   EMBL; BC004209; AAH04209.2; -; mRNA.
+DR   EMBL; BC012761; AAH12761.1; -; mRNA.
+DR   EMBL; CR457091; CAG33372.1; -; mRNA.
+DR   EMBL; CR542222; CAG47018.1; -; mRNA.
+DR   IPI; IPI00550738; -.
+DR   PIR; JC7838; JC7838.
+DR   RefSeq; NP_001138473.1; -.
+DR   RefSeq; NP_001159639.1; -.
+DR   RefSeq; NP_001159640.1; -.
+DR   RefSeq; NP_001159641.1; -.
+DR   RefSeq; NP_001159642.1; -.
+DR   RefSeq; NP_001159643.1; -.
+DR   RefSeq; NP_055212.2; -.
+DR   UniGene; Hs.197071; -.
+DR   ProteinModelPortal; Q9HC98; -.
+DR   SMR; Q9HC98; 42-299.
+DR   IntAct; Q9HC98; 46.
+DR   STRING; Q9HC98; -.
+DR   PhosphoSite; Q9HC98; -.
+DR   PRIDE; Q9HC98; -.
+DR   Ensembl; ENST00000320246; ENSP00000319734; ENSG00000119408.
+DR   Ensembl; ENST00000373600; ENSP00000362702; ENSG00000119408.
+DR   Ensembl; ENST00000373603; ENSP00000362705; ENSG00000119408.
+DR   GeneID; 10783; -.
+DR   KEGG; hsa:10783; -.
+DR   UCSC; uc004bog.1; human.
+DR   CTD; 10783; -.
+DR   GeneCards; GC09P127019; -.
+DR   H-InvDB; HIX0008368; -.
+DR   HGNC; HGNC:7749; NEK6.
+DR   MIM; 604884; gene.
+DR   PharmGKB; PA31550; -.
+DR   eggNOG; prNOG11865; -.
+DR   HOVERGEN; HBG105886; -.
+DR   InParanoid; Q9HC98; -.
+DR   OrthoDB; EOG9QJV72; -.
+DR   PhylomeDB; Q9HC98; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   NextBio; 40956; -.
+DR   ArrayExpress; Q9HC98; -.
+DR   Bgee; Q9HC98; -.
+DR   CleanEx; HS_NEK6; -.
+DR   Genevestigator; Q9HC98; -.
+DR   GermOnline; ENSG00000119408; Homo sapiens.
+DR   GO; GO:0005737; C:cytoplasm; IDA:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; IDA:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; IDA:UniProtKB.
+DR   GO; GO:0019894; F:kinesin binding; IPI:UniProtKB.
+DR   GO; GO:0000287; F:magnesium ion binding; IDA:UniProtKB.
+DR   GO; GO:0019901; F:protein kinase binding; IPI:UniProtKB.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IDA:UniProtKB.
+DR   GO; GO:0004871; F:signal transducer activity; IMP:UniProtKB.
+DR   GO; GO:0006915; P:apoptosis; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0007059; P:chromosome segregation; IDA:UniProtKB.
+DR   GO; GO:0007067; P:mitosis; IEA:UniProtKB-KW.
+DR   GO; GO:0018105; P:peptidyl-serine phosphorylation; IDA:UniProtKB.
+DR   GO; GO:0043123; P:positive regulation of I-kappaB kinase/NF-k...; IMP:UniProtKB.
+DR   GO; GO:0030071; P:regulation of mitotic metaphase/anaphase tr...; IDA:UniProtKB.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR001245; Ser-Thr/Tyr-Pkinase.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   PRINTS; PR00109; TYRKINASE.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   Apoptosis; ATP-binding; Cell cycle; Cell division;
+KW   Chromosome partition; Complete proteome; Cytoplasm; Kinase; Magnesium;
+KW   Metal-binding; Mitosis; Nucleotide-binding; Nucleus; Phosphoprotein;
+KW   Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    313       Serine/threonine-protein kinase Nek6.
+FT                                /FTId=PRO_0000086427.
+FT   DOMAIN       45    310       Protein kinase.
+FT   NP_BIND      51     59       ATP (By similarity).
+FT   ACT_SITE    172    172       Proton acceptor (By similarity).
+FT   BINDING      74     74       ATP (By similarity).
+FT   MOD_RES      35     35       Phosphothreonine.
+FT   MOD_RES     198    198       Phosphoserine.
+FT   MOD_RES     199    199       Phosphoserine.
+FT   MOD_RES     201    201       Phosphothreonine.
+FT   MOD_RES     202    202       Phosphothreonine.
+FT   MOD_RES     206    206       Phosphoserine.
+FT   MUTAGEN      74     74       K->M: Loss of autophosphorylation and of
+FT                                kinase activity and induction of
+FT                                apoptosis; when associated with M-75.
+FT   MUTAGEN      75     75       K->M: Loss of autophosphorylation and of
+FT                                kinase activity and induction of
+FT                                apoptosis; when associated with M-74.
+FT   CONFLICT     88     88       Q -> W (in Ref. 8; CAG33372).
+SQ   SEQUENCE   313 AA;  35714 MW;  B898DC57407A8C16 CRC64;
+     MAGQPGHMPH GGSSNNLCHT LGPVHPPDPQ RHPNTLSFRC SLADFQIEKK IGRGQFSEVY
+     KATCLLDRKT VALKKVQIFE MMDAKARQDC VKEIGLLKQL NHPNIIKYLD SFIEDNELNI
+     VLELADAGDL SQMIKYFKKQ KRLIPERTVW KYFVQLCSAV EHMHSRRVMH RDIKPANVFI
+     TATGVVKLGD LGLGRFFSSE TTAAHSLVGT PYYMSPERIH ENGYNFKSDI WSLGCLLYEM
+     AALQSPFYGD KMNLFSLCQK IEQCDYPPLP GEHYSEKLRE LVSMCICPDP HQRPDIGYVH
+     QVAKQMHIWM SST
+//

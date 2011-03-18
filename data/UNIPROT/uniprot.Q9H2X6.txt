@@ -1,0 +1,428 @@
+ID   HIPK2_HUMAN             Reviewed;        1198 AA.
+AC   Q9H2X6; Q75MR7; Q8WWI4; Q9H2Y1;
+DT   27-APR-2001, integrated into UniProtKB/Swiss-Prot.
+DT   06-JUN-2002, sequence version 2.
+DT   05-OCT-2010, entry version 106.
+DE   RecName: Full=Homeodomain-interacting protein kinase 2;
+DE            Short=hHIPk2;
+DE            EC=2.7.11.1;
+GN   Name=HIPK2;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), SUBCELLULAR LOCATION, TISSUE
+RP   SPECIFICITY, AND MUTAGENESIS OF LYS-228.
+RC   TISSUE=Liver, and Testis;
+RX   MEDLINE=21167386; PubMed=11267674; DOI=10.1016/S0167-4781(00)00308-0;
+RA   Wang Y., Hofmann T.G., Runkel L., Haaf T., Schaller H., Debatin K.-M.,
+RA   Hug H.;
+RT   "Isolation and characterization of cDNAs for the protein kinase
+RT   HIPK2.";
+RL   Biochim. Biophys. Acta 1518:168-172(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 3).
+RC   TISSUE=Frontal cortex;
+RA   Stukart G.C., Dias-Neto E.;
+RT   "Sequencing of hHIPk2, a human homolog of mouse homeodomain
+RT   interacting protein kinase 2.";
+RL   Submitted (DEC-2000) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   MEDLINE=22737999; PubMed=12853948; DOI=10.1038/nature01782;
+RA   Hillier L.W., Fulton R.S., Fulton L.A., Graves T.A., Pepin K.H.,
+RA   Wagner-McPherson C., Layman D., Maas J., Jaeger S., Walker R.,
+RA   Wylie K., Sekhon M., Becker M.C., O'Laughlin M.D., Schaller M.E.,
+RA   Fewell G.A., Delehaunty K.D., Miner T.L., Nash W.E., Cordes M., Du H.,
+RA   Sun H., Edwards J., Bradshaw-Cordum H., Ali J., Andrews S., Isak A.,
+RA   Vanbrunt A., Nguyen C., Du F., Lamar B., Courtney L., Kalicki J.,
+RA   Ozersky P., Bielicki L., Scott K., Holmes A., Harkins R., Harris A.,
+RA   Strong C.M., Hou S., Tomlinson C., Dauphin-Kohlberg S.,
+RA   Kozlowicz-Reilly A., Leonard S., Rohlfing T., Rock S.M.,
+RA   Tin-Wollam A.-M., Abbott A., Minx P., Maupin R., Strowmatt C.,
+RA   Latreille P., Miller N., Johnson D., Murray J., Woessner J.P.,
+RA   Wendl M.C., Yang S.-P., Schultz B.R., Wallis J.W., Spieth J.,
+RA   Bieri T.A., Nelson J.O., Berkowicz N., Wohldmann P.E., Cook L.L.,
+RA   Hickenbotham M.T., Eldred J., Williams D., Bedell J.A., Mardis E.R.,
+RA   Clifton S.W., Chissoe S.L., Marra M.A., Raymond C., Haugen E.,
+RA   Gillett W., Zhou Y., James R., Phelps K., Iadanoto S., Bubb K.,
+RA   Simms E., Levy R., Clendenning J., Kaul R., Kent W.J., Furey T.S.,
+RA   Baertsch R.A., Brent M.R., Keibler E., Flicek P., Bork P., Suyama M.,
+RA   Bailey J.A., Portnoy M.E., Torrents D., Chinwalla A.T., Gish W.R.,
+RA   Eddy S.R., McPherson J.D., Olson M.V., Eichler E.E., Green E.D.,
+RA   Waterston R.H., Wilson R.K.;
+RT   "The DNA sequence of human chromosome 7.";
+RL   Nature 424:157-164(2003).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 8-1198 (ISOFORM 2).
+RA   Pierantoni G.M., Benvenuto G., Chiariotti L., Fusco A.;
+RL   Submitted (NOV-1999) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   INTERACTION WITH TRADD.
+RX   MEDLINE=20490030; PubMed=11032752; DOI=10.1006/bbrc.2000.3700;
+RA   Li X., Wang Y., Debatin K.-M., Hug H.;
+RT   "The serine/threonine kinase HIPK2 interacts with TRADD, but not with
+RT   CD95 or TNF-R1 in 293T cells.";
+RL   Biochem. Biophys. Res. Commun. 277:513-517(2000).
+RN   [6]
+RP   TISSUE SPECIFICITY.
+RX   PubMed=11798164; DOI=10.1006/bbrc.2001.6310;
+RA   Pierantoni G.M., Bulfone A., Pentimalli F., Fedele M., Iuliano R.,
+RA   Santoro M., Chiariotti L., Ballabio A., Fusco A.;
+RT   "The homeodomain-interacting protein kinase 2 gene is expressed late
+RT   in embryogenesis and preferentially in retina, muscle, and neural
+RT   tissues.";
+RL   Biochem. Biophys. Res. Commun. 290:942-947(2002).
+RN   [7]
+RP   INTERACTION WITH RANBP9, SUBCELLULAR LOCATION, AND MUTAGENESIS OF
+RP   LYS-228.
+RX   MEDLINE=22209020; PubMed=12220523; DOI=10.1016/S0006-291X(02)02020-X;
+RA   Wang Y., Marion Schneider E., Li X., Duttenhoefer I., Debatin K.-M.,
+RA   Hug H.;
+RT   "HIPK2 associates with RanBPM.";
+RL   Biochem. Biophys. Res. Commun. 297:148-153(2002).
+RN   [8]
+RP   INTERACTION WITH TP73; TP53 AND TP63, MUTAGENESIS OF LYS-228, AND
+RP   FUNCTION.
+RX   MEDLINE=22191252; PubMed=11925430; DOI=10.1074/jbc.M200153200;
+RA   Kim E.-J., Park J.-S., Um S.-J.;
+RT   "Identification and characterization of HIPK2 interacting with p73 and
+RT   modulating functions of the p53 family in vivo.";
+RL   J. Biol. Chem. 277:32020-32028(2002).
+RN   [9]
+RP   SUBCELLULAR LOCATION, AUTOPHOSPHORYLATION, INTERACTION WITH TP53 AND
+RP   CREBBP, MUTAGENESIS OF LYS-228, FUNCTION, AND INDUCTION.
+RX   MEDLINE=21638685; PubMed=11740489; DOI=10.1038/ncb715;
+RA   Hofmann T.G., Moeller A., Sirma H., Zentgraf H., Taya Y., Droege W.,
+RA   Will H., Schmitz M.L.;
+RT   "Regulation of p53 activity by its interaction with homeodomain-
+RT   interacting protein kinase-2.";
+RL   Nat. Cell Biol. 4:1-10(2002).
+RN   [10]
+RP   SUBCELLULAR LOCATION, AND MUTAGENESIS OF LYS-228.
+RX   PubMed=12907596;
+RA   Moeller A., Sirma H., Hofmann T.G., Rueffer S., Klimczak E.,
+RA   Droege W., Will H., Schmitz M.L.;
+RT   "PML is required for homeodomain-interacting protein kinase 2 (HIPK2)-
+RT   mediated p53 phosphorylation and cell cycle arrest but is dispensable
+RT   for the formation of HIPK domains.";
+RL   Cancer Res. 63:4310-4314(2003).
+RN   [11]
+RP   FUNCTION, INTERACTION WITH DAXX, AND MUTAGENESIS OF LYS-228.
+RX   PubMed=14678985;
+RA   Hofmann T.G., Stollberg N., Schmitz M.L., Will H.;
+RT   "HIPK2 regulates transforming growth factor-beta-induced c-Jun NH(2)-
+RT   terminal kinase activation and apoptosis in human hepatoma cells.";
+RL   Cancer Res. 63:8271-8277(2003).
+RN   [12]
+RP   FUNCTION, SUBCELLULAR LOCATION, AND INTERACTION WITH P53DINP1.
+RX   MEDLINE=22863074; PubMed=12851404; DOI=10.1074/jbc.M301979200;
+RA   Tomasini R., Samir A.A., Carrier A., Isnardon D., Cecchinelli B.,
+RA   Soddu S., Malissen B., Dagorn J.-C., Iovanna J.L., Dusetti N.J.;
+RT   "TP53INP1s and homeodomain-interacting protein kinase-2 (HIPK2) are
+RT   partners in regulating p53 activity.";
+RL   J. Biol. Chem. 278:37722-37729(2003).
+RN   [13]
+RP   FUNCTION, INTERACTION WITH SKI; SMAD1; SMAD2 AND SMAD3, AND
+RP   MUTAGENESIS OF LYS-228 AND 359-SER--TYR-361.
+RX   MEDLINE=22877089; PubMed=12874272; DOI=10.1074/jbc.M307112200;
+RA   Harada J., Kokura K., Kanei-Ishii C., Nomura T., Khan M.M., Kim Y.,
+RA   Ishii S.;
+RT   "Requirement of the co-repressor homeodomain-interacting protein
+RT   kinase 2 for ski-mediated inhibition of bone morphogenetic protein-
+RT   induced transcriptional activation.";
+RL   J. Biol. Chem. 278:38998-39005(2003).
+RN   [14]
+RP   DESUMOYLATION.
+RX   PubMed=16253240; DOI=10.1016/j.febslet.2005.10.010;
+RA   Kim Y.H., Sung K.S., Lee S.-J., Kim Y.-O., Choi C.Y., Kim Y.;
+RT   "Desumoylation of homeodomain-interacting protein kinase 2 (HIPK2)
+RT   through the cytoplasmic-nuclear shuttling of the SUMO-specific
+RT   protease SENP1.";
+RL   FEBS Lett. 579:6272-6278(2005).
+RN   [15]
+RP   INTERACTION WITH CBX4, SUMOYLATION AT LYS-32, AND FUNCTION.
+RX   PubMed=17018294; DOI=10.1016/j.molcel.2006.08.004;
+RA   Roscic A., Moeller A., Calzado M.A., Renner F., Wimmer V.C.,
+RA   Gresko E., Luedi K.S., Schmitz M.L.;
+RT   "Phosphorylation-dependent control of Pc2 SUMO E3 ligase activity by
+RT   its substrate protein HIPK2.";
+RL   Mol. Cell 24:77-89(2006).
+RN   [16]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-361, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Lung carcinoma;
+RX   PubMed=18083107; DOI=10.1016/j.cell.2007.11.025;
+RA   Rikova K., Guo A., Zeng Q., Possemato A., Yu J., Haack H., Nardone J.,
+RA   Lee K., Reeves C., Li Y., Hu Y., Tan Z., Stokes M., Sullivan L.,
+RA   Mitchell J., Wetzel R., Macneill J., Ren J.M., Yuan J.,
+RA   Bakalarski C.E., Villen J., Kornhauser J.M., Smith B., Li D., Zhou X.,
+RA   Gygi S.P., Gu T.-L., Polakiewicz R.D., Rush J., Comb M.J.;
+RT   "Global survey of phosphotyrosine signaling identifies oncogenic
+RT   kinases in lung cancer.";
+RL   Cell 131:1190-1203(2007).
+RN   [17]
+RP   FUNCTION, AND UBIQUITINATION BY FBXO3.
+RX   PubMed=18809579; DOI=10.1128/MCB.00897-08;
+RA   Shima Y., Shima T., Chiba T., Irimura T., Pandolfi P.P.,
+RA   Kitabayashi I.;
+RT   "PML activates transcription by protecting HIPK2 and p300 from
+RT   SCFFbx3-mediated degradation.";
+RL   Mol. Cell. Biol. 28:7126-7138(2008).
+RN   [18]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-361, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Mammary epithelium;
+RX   PubMed=19534553; DOI=10.1021/pr900044c;
+RA   Heibeck T.H., Ding S.-J., Opresko L.K., Zhao R., Schepmoes A.A.,
+RA   Yang F., Tolmachev A.V., Monroe M.E., Camp D.G. II, Smith R.D.,
+RA   Wiley H.S., Qian W.-J.;
+RT   "An extensive survey of tyrosine phosphorylation revealing new sites
+RT   in human mammary epithelial cells.";
+RL   J. Proteome Res. 8:3852-3861(2009).
+RN   [19]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-361; SER-827 AND
+RP   THR-838, AND MASS SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [20]
+RP   VARIANTS [LARGE SCALE ANALYSIS] GLN-792 AND GLN-1027.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Protein kinase acting as a corepressor of several
+CC       transcription factors, including SMAD1 and POU4F1/Brn3a and
+CC       probably NK homeodomain transcription factors. Inhibits cell
+CC       growth and promotes apoptosis. Involved in transcriptional
+CC       activation of TP53 and TP73. Phosphorylation of TP53 may be
+CC       mediated by a TP53-HIPK2-AXIN1 complex. In response to TGFB,
+CC       cooperates with DAXX to activate JNK. Phosphorylates the
+CC       antiapoptotic factor CTBP1 and promotes its proteasomal
+CC       degradation. In the Wnt/beta-catenin signaling pathway acts as an
+CC       intermediate kinase between TAK1 and NLK to promote the
+CC       proteasomal degradation of MYB (By similarity). Phosphorylates
+CC       CBX4 upon DNA damage and promotes its E3 SUMO-protein ligase
+CC       activity. PML, HIPK2 and FBXO3 may act synergically to activate
+CC       p53/TP53-dependent transactivation.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- SUBUNIT: Interacts with TRADD, TP53, TP73, TP63, CREBBP, DAXX,
+CC       P53DINP1, SKI, SMAD1, SMAD2 and SMAD3, but not SMAD4. Interacts
+CC       with NKX1-2, NKX2-5, SPN/CD43, UBE2I, HMGA1, CTBP1, AXIN1, NLK,
+CC       MYB, POU4F1, POU4F2, POU4F3, UBE2I, UBL1. Probably part of a
+CC       complex consisting of TP53, HIPK2 and AXIN1 (By similarity).
+CC       Interacts with CBX4.
+CC   -!- INTERACTION:
+CC       Q13838:BAT1; NbExp=1; IntAct=EBI-348345, EBI-348622;
+CC       P17096:HMGA1; NbExp=2; IntAct=EBI-348345, EBI-746843;
+CC       P10242:MYB; NbExp=1; IntAct=EBI-348345, EBI-298355;
+CC       Q9Y6I7:WSB1; NbExp=1; IntAct=EBI-348345, EBI-1171494;
+CC   -!- SUBCELLULAR LOCATION: Nucleus, PML body. Cytoplasm.
+CC       Note=Concentrated in PML/POD/ND10 nuclear bodies. Small amounts
+CC       are cytoplasmic.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=3;
+CC         Comment=Experimental confirmation may be lacking for some
+CC         isoforms;
+CC       Name=1;
+CC         IsoId=Q9H2X6-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q9H2X6-2; Sequence=VSP_004805, VSP_004806, VSP_004807;
+CC       Name=3;
+CC         IsoId=Q9H2X6-3; Sequence=VSP_004804;
+CC   -!- TISSUE SPECIFICITY: Highly expressed in heart, muscle and kidney.
+CC       Weakly expressed in a ubiquitous way. Down-regulated in several
+CC       thyroid and breast tumors.
+CC   -!- INDUCTION: By UV irradiation.
+CC   -!- PTM: Phosphorylated on tyrosines (By similarity).
+CC       Autophosphorylated.
+CC   -!- PTM: Sumoylated. When conjugated it is directed to nuclear
+CC       speckles. Desumoylated by SENP1 (By similarity). Sumoylation on
+CC       Lys-32 is promoted by the E3 SUMO-protein ligase CBX4.
+CC   -!- PTM: Ubiquitinated by FBXO3, leading to rapid proteasome-dependent
+CC       degradation. This degradation, but not ubiquitination, is
+CC       prevented in the presence of PML.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CMGC
+CC       Ser/Thr protein kinase family. HIPK subfamily.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF208291; AAG41236.1; -; mRNA.
+DR   EMBL; AF326592; AAL37371.1; -; mRNA.
+DR   EMBL; AC005531; AAS00368.1; -; Genomic_DNA.
+DR   EMBL; AC073184; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AC006021; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AC141932; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AF207702; AAG35710.1; -; mRNA.
+DR   IPI; IPI00215949; -.
+DR   IPI; IPI00215950; -.
+DR   IPI; IPI00289892; -.
+DR   RefSeq; NP_001106710.1; -.
+DR   RefSeq; NP_073577.3; -.
+DR   UniGene; Hs.724392; -.
+DR   ProteinModelPortal; Q9H2X6; -.
+DR   SMR; Q9H2X6; 195-530.
+DR   IntAct; Q9H2X6; 7.
+DR   MINT; MINT-234689; -.
+DR   STRING; Q9H2X6; -.
+DR   PhosphoSite; Q9H2X6; -.
+DR   PRIDE; Q9H2X6; -.
+DR   Ensembl; ENST00000406875; ENSP00000385571; ENSG00000064393.
+DR   GeneID; 28996; -.
+DR   KEGG; hsa:28996; -.
+DR   UCSC; uc003vvd.2; human.
+DR   UCSC; uc003vvf.2; human.
+DR   CTD; 28996; -.
+DR   GeneCards; GC07M139246; -.
+DR   HGNC; HGNC:14402; HIPK2.
+DR   HPA; HPA007611; -.
+DR   MIM; 606868; gene.
+DR   PharmGKB; PA29291; -.
+DR   HOGENOM; HBG443763; -.
+DR   HOVERGEN; HBG051908; -.
+DR   InParanoid; Q9H2X6; -.
+DR   OrthoDB; EOG9FXTT0; -.
+DR   PhylomeDB; Q9H2X6; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   NextBio; 51926; -.
+DR   PMAP-CutDB; Q9H2X6; -.
+DR   ArrayExpress; Q9H2X6; -.
+DR   Bgee; Q9H2X6; -.
+DR   CleanEx; HS_HIPK2; -.
+DR   Genevestigator; Q9H2X6; -.
+DR   GermOnline; ENSG00000064393; Homo sapiens.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0016604; C:nuclear body; IDA:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0046332; F:SMAD binding; IPI:UniProtKB.
+DR   GO; GO:0003714; F:transcription corepressor activity; IDA:UniProtKB.
+DR   GO; GO:0046790; F:virion binding; IPI:UniProtKB.
+DR   GO; GO:0006915; P:apoptosis; IEA:UniProtKB-KW.
+DR   GO; GO:0006978; P:DNA damage response, signal transduction by...; IDA:BHF-UCL.
+DR   GO; GO:0030514; P:negative regulation of BMP signaling pathway; IMP:UniProtKB.
+DR   GO; GO:0046330; P:positive regulation of JNK cascade; IMP:UniProtKB.
+DR   GO; GO:0030511; P:positive regulation of transforming growth ...; IMP:UniProtKB.
+DR   GO; GO:0060395; P:SMAD protein signal transduction; IDA:UniProtKB.
+DR   GO; GO:0006350; P:transcription; IEA:UniProtKB-KW.
+DR   GO; GO:0019048; P:virus-host interaction; NAS:UniProtKB.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; Apoptosis; ATP-binding; Complete proteome;
+KW   Cytoplasm; Isopeptide bond; Kinase; Nucleotide-binding; Nucleus;
+KW   Phosphoprotein; Polymorphism; Serine/threonine-protein kinase;
+KW   Transcription; Transcription regulation; Transferase; Ubl conjugation.
+FT   CHAIN         1   1198       Homeodomain-interacting protein kinase 2.
+FT                                /FTId=PRO_0000085995.
+FT   DOMAIN      199    527       Protein kinase.
+FT   NP_BIND     205    213       ATP (Probable).
+FT   REGION       97    230       Transcriptional corepression (By
+FT                                similarity).
+FT   REGION      189    520       Interaction with DAXX.
+FT   REGION      539    844       Interaction with SKI and SMAD1.
+FT   REGION      752    897       Interaction with POU4F1 (By similarity).
+FT   REGION      774    876       Interaction with CTBP1 (By similarity).
+FT   REGION      787    897       Interaction with HMGA1 (By similarity).
+FT   REGION      846    941       Interaction with TP53 and TP73.
+FT   REGION      873    980       Required for localization to nuclear
+FT                                speckles (By similarity).
+FT   REGION      873    907       Interaction with UBE2I (By similarity).
+FT   REGION      935   1049       Interaction with AXIN1 (By similarity).
+FT   COMPBIAS   1088   1094       Poly-Ala.
+FT   ACT_SITE    324    324       Proton acceptor (Probable).
+FT   BINDING     228    228       ATP (Probable).
+FT   MOD_RES     361    361       Phosphotyrosine.
+FT   MOD_RES     827    827       Phosphoserine.
+FT   MOD_RES     838    838       Phosphothreonine.
+FT   CROSSLNK     32     32       Glycyl lysine isopeptide (Lys-Gly)
+FT                                (interchain with G-Cter in SUMO).
+FT   CROSSLNK   1191   1191       Glycyl lysine isopeptide (Lys-Gly)
+FT                                (interchain with G-Cter in SUMO) (By
+FT                                similarity).
+FT   VAR_SEQ     595    621       Missing (in isoform 3).
+FT                                /FTId=VSP_004804.
+FT   VAR_SEQ     808    907       Missing (in isoform 2).
+FT                                /FTId=VSP_004805.
+FT   VAR_SEQ     989   1018       VNTSHHSSSYKSKSSSNVTSTSGHSSGSSS -> GNLGPGQ
+FT                                GRNLSLESGFPAFLLLEMLLYGS (in isoform 2).
+FT                                /FTId=VSP_004806.
+FT   VAR_SEQ    1019   1198       Missing (in isoform 2).
+FT                                /FTId=VSP_004807.
+FT   VARIANT     792    792       R -> Q.
+FT                                /FTId=VAR_040547.
+FT   VARIANT    1027   1027       R -> Q.
+FT                                /FTId=VAR_040548.
+FT   MUTAGEN     228    228       K->A: Locates in the nucleoplasm, no
+FT                                effect on interaction with RANBP9.
+FT   MUTAGEN     228    228       K->R: Abolishes enzymatic activity, no
+FT                                effect on interaction with TP53 and TP73
+FT                                or on BMP-induced transcriptional
+FT                                activation. Enhances BMP-induced
+FT                                transcriptional activation; when
+FT                                associated with 359-AAF-361.
+FT   MUTAGEN     359    361       STY->AAF: Enhances BMP-induced
+FT                                transcriptional activation; when
+FT                                associated with R-228.
+FT   CONFLICT     33     33       I -> V (in Ref. 1; AAG41236).
+FT   CONFLICT     59     59       L -> P (in Ref. 1; AAG41236).
+FT   CONFLICT     64     64       T -> S (in Ref. 1; AAG41236).
+FT   CONFLICT    169    169       S -> F (in Ref. 4; AAG35710).
+FT   CONFLICT    187    187       V -> S (in Ref. 4; AAG35710).
+FT   CONFLICT    202    202       L -> S (in Ref. 4; AAG35710).
+FT   CONFLICT    233    233       H -> R (in Ref. 1; AAG41236).
+FT   CONFLICT    471    471       N -> I (in Ref. 2; AAL37371).
+FT   CONFLICT    669    669       P -> S (in Ref. 4; AAG35710).
+FT   CONFLICT    711    711       T -> N (in Ref. 4; AAG35710).
+FT   CONFLICT    717    719       PPA -> SPT (in Ref. 4; AAG35710).
+FT   CONFLICT    724    724       T -> D (in Ref. 4; AAG35710).
+SQ   SEQUENCE   1198 AA;  130966 MW;  6022D5710E8D2D93 CRC64;
+     MAPVYEGMAS HVQVFSPHTL QSSAFCSVKK LKIEPSSNWD MTGYGSHSKV YSQSKNIPLS
+     QPATTTVSTS LPVPNPSLPY EQTIVFPGST GHIVVTSASS TSVTGQVLGG PHNLMRRSTV
+     SLLDTYQKCG LKRKSEEIEN TSSVQIIEEH PPMIQNNASG ATVATATTST ATSKNSGSNS
+     EGDYQLVQHE VLCSMTNTYE VLEFLGRGTF GQVVKCWKRG TNEIVAIKIL KNHPSYARQG
+     QIEVSILARL STESADDYNF VRAYECFQHK NHTCLVFEML EQNLYDFLKQ NKFSPLPLKY
+     IRPVLQQVAT ALMKLKSLGL IHADLKPENI MLVDPSRQPY RVKVIDFGSA SHVSKAVCST
+     YLQSRYYRAP EIILGLPFCE AIDMWSLGCV IAELFLGWPL YPGASEYDQI RYISQTQGLP
+     AEYLLSAGTK TTRFFNRDTD SPYPLWRLKT PDDHEAETGI KSKEARKYIF NCLDDMAQVN
+     MTTDLEGSDM LVEKADRREF IDLLKKMLTI DADKRITPIE TLNHPFVTMT HLLDFPHSTH
+     VKSCFQNMEI CKRRVNMYDT VNQSKTPFIT HVAPSTSTNL TMTFNNQLTT VHNQAPSSTS
+     ATISLANPEV SILNYPSTLY QPSAASMAAV AQRSMPLQTG TAQICARPDP FQQALIVCPP
+     GFQGLQASPS KHAGYSVRME NAVPIVTQAP GAQPLQIQPG LLAQQAWPSG TQQILLPPAW
+     QQLTGVATHT SVQHATVIPE TMAGTQQLAD WRNTHAHGSH YNPIMQQPAL LTGHVTLPAA
+     QPLNVGVAHV MRQQPTSTTS SRKSKQHQSS VRNVSTCEVS SSQAISSPQR SKRVKENTPP
+     RCAMVHSSPA CSTSVTCGWG DVASSTTRER QRQTIVIPDT PSPTVSVITI SSDTDEEEEQ
+     KHAPTSTVSK QRKNVISCVT VHDSPYSDSS SNTSPYSVQQ RAGHNNANAF DTKGSLENHC
+     TGNPRTIIVP PLKTQASEVL VECDSLVPVN TSHHSSSYKS KSSSNVTSTS GHSSGSSSGA
+     ITYRQQRPGP HFQQQQPLNL SQAQQHITTD RTGSHRRQQA YITPTMAQAP YSFPHNSPSH
+     GTVHPHLAAA AAAAHLPTQP HLYTYTAPAA LGSTGTVAHL VASQGSARHT VQHTAYPASI
+     VHQVPVSMGP RVLPSPTIHP SQYPAQFAHQ TYISASPAST VYTGYPLSPA KVNQYPYI
+//

@@ -1,0 +1,990 @@
+ID   OBSCN_HUMAN             Reviewed;        7968 AA.
+AC   Q5VST9; Q2A664; Q5T7G8; Q5T7G9; Q5VSU2; Q86YC7; Q8NHN0; Q8NHN1;
+AC   Q8NHN2; Q8NHN3; Q8NHN4; Q8NHN5; Q8NHN6; Q8NHN7; Q8NHN8; Q8NHN9;
+AC   Q96AA2; Q9HCD3; Q9HCL6;
+DT   16-MAY-2006, integrated into UniProtKB/Swiss-Prot.
+DT   25-NOV-2008, sequence version 3.
+DT   02-NOV-2010, entry version 82.
+DE   RecName: Full=Obscurin;
+DE            EC=2.7.11.1;
+DE   AltName: Full=Obscurin-RhoGEF;
+DE   AltName: Full=Obscurin-myosin light chain kinase;
+DE            Short=Obscurin-MLCK;
+GN   Name=OBSCN; Synonyms=KIAA1556, KIAA1639;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA] (ISOFORM 3), VARIANTS THR-51;
+RP   ARG-502; ASP-1508 THR-3300; ARG-4381; ARG-4450 AND HIS-4534, FUNCTION,
+RP   AND INTERACTION WITH TTN AND CALMODULIN.
+RC   TISSUE=Heart;
+RX   MEDLINE=21342081; PubMed=11448995; DOI=10.1083/jcb.200102110;
+RA   Young P.W., Ehler E., Gautel M.;
+RT   "Obscurin, a giant sarcomeric Rho guanine nucleotide exchange factor
+RT   protein involved in sarcomere assembly.";
+RL   J. Cell Biol. 154:123-136(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=16710414; DOI=10.1038/nature04727;
+RA   Gregory S.G., Barlow K.F., McLay K.E., Kaul R., Swarbreck D.,
+RA   Dunham A., Scott C.E., Howe K.L., Woodfine K., Spencer C.C.A.,
+RA   Jones M.C., Gillson C., Searle S., Zhou Y., Kokocinski F.,
+RA   McDonald L., Evans R., Phillips K., Atkinson A., Cooper R., Jones C.,
+RA   Hall R.E., Andrews T.D., Lloyd C., Ainscough R., Almeida J.P.,
+RA   Ambrose K.D., Anderson F., Andrew R.W., Ashwell R.I.S., Aubin K.,
+RA   Babbage A.K., Bagguley C.L., Bailey J., Beasley H., Bethel G.,
+RA   Bird C.P., Bray-Allen S., Brown J.Y., Brown A.J., Buckley D.,
+RA   Burton J., Bye J., Carder C., Chapman J.C., Clark S.Y., Clarke G.,
+RA   Clee C., Cobley V., Collier R.E., Corby N., Coville G.J., Davies J.,
+RA   Deadman R., Dunn M., Earthrowl M., Ellington A.G., Errington H.,
+RA   Frankish A., Frankland J., French L., Garner P., Garnett J., Gay L.,
+RA   Ghori M.R.J., Gibson R., Gilby L.M., Gillett W., Glithero R.J.,
+RA   Grafham D.V., Griffiths C., Griffiths-Jones S., Grocock R.,
+RA   Hammond S., Harrison E.S.I., Hart E., Haugen E., Heath P.D.,
+RA   Holmes S., Holt K., Howden P.J., Hunt A.R., Hunt S.E., Hunter G.,
+RA   Isherwood J., James R., Johnson C., Johnson D., Joy A., Kay M.,
+RA   Kershaw J.K., Kibukawa M., Kimberley A.M., King A., Knights A.J.,
+RA   Lad H., Laird G., Lawlor S., Leongamornlert D.A., Lloyd D.M.,
+RA   Loveland J., Lovell J., Lush M.J., Lyne R., Martin S.,
+RA   Mashreghi-Mohammadi M., Matthews L., Matthews N.S.W., McLaren S.,
+RA   Milne S., Mistry S., Moore M.J.F., Nickerson T., O'Dell C.N.,
+RA   Oliver K., Palmeiri A., Palmer S.A., Parker A., Patel D., Pearce A.V.,
+RA   Peck A.I., Pelan S., Phelps K., Phillimore B.J., Plumb R., Rajan J.,
+RA   Raymond C., Rouse G., Saenphimmachak C., Sehra H.K., Sheridan E.,
+RA   Shownkeen R., Sims S., Skuce C.D., Smith M., Steward C.,
+RA   Subramanian S., Sycamore N., Tracey A., Tromans A., Van Helmond Z.,
+RA   Wall M., Wallis J.M., White S., Whitehead S.L., Wilkinson J.E.,
+RA   Willey D.L., Williams H., Wilming L., Wray P.W., Wu Z., Coulson A.,
+RA   Vaudin M., Sulston J.E., Durbin R.M., Hubbard T., Wooster R.,
+RA   Dunham I., Carter N.P., McVean G., Ross M.T., Harrow J., Olson M.V.,
+RA   Beck S., Rogers J., Bentley D.R.;
+RT   "The DNA sequence and biological annotation of human chromosome 1.";
+RL   Nature 441:315-321(2006).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 2734-4428 (ISOFORM 5), AND
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 6009-7968 (ISOFORM 1).
+RC   TISSUE=Cardiac myocyte;
+RX   PubMed=16625316; DOI=10.1007/s10974-005-9025-6;
+RA   Fukuzawa A., Idowu S., Gautel M.;
+RT   "Complete human gene structure of obscurin: implications for isoform
+RT   generation by differential splicing.";
+RL   J. Muscle Res. Cell Motil. 26:427-434(2005).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 5386-7968 (ISOFORM 2),
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 2726-7968 (ISOFORM 4), AND
+RP   VARIANT VAL-7172.
+RC   TISSUE=Brain;
+RX   MEDLINE=20450683; PubMed=10997877; DOI=10.1093/dnares/7.4.271;
+RA   Nagase T., Kikuno R., Nakayama M., Hirosawa M., Ohara O.;
+RT   "Prediction of the coding sequences of unidentified human genes.
+RT   XVIII. The complete sequences of 100 new cDNA clones from brain which
+RT   code for large proteins in vitro.";
+RL   DNA Res. 7:273-281(2000).
+RN   [5]
+RP   INTERACTION WITH TTN.
+RX   MEDLINE=21573839; PubMed=11717165;
+RA   Bang M.-L., Centner T., Fornoff F., Geach A.J., Gotthardt M.,
+RA   McNabb M., Witt C.C., Labeit D., Gregorio C.C., Granzier H.,
+RA   Labeit S.;
+RT   "The complete gene sequence of titin, expression of an unusual ~700
+RT   kDa titin isoform and its interaction with obscurin identify a novel
+RT   Z-line to I-band linking system.";
+RL   Circ. Res. 89:1065-1072(2001).
+RN   [6]
+RP   ALTERNATIVE SPLICING, AND TISSUE SPECIFICITY.
+RX   PubMed=11814696; DOI=10.1016/S0378-1119(01)00795-8;
+RA   Russell M.W., Raeker M.O., Korytkowski K.A., Sonneman K.J.;
+RT   "Identification, tissue expression and chromosomal localization of
+RT   human obscurin-MLCK, a member of the titin and Dbl families of myosin
+RT   light chain kinases.";
+RL   Gene 282:237-246(2002).
+RN   [7]
+RP   SUBCELLULAR LOCATION, AND INTERACTION WITH ANK1.
+RX   PubMed=12527750; DOI=10.1083/jcb.200208109;
+RA   Bagnato P., Barone V., Giacomello E., Rossi D., Sorrentino V.;
+RT   "Binding of an ankyrin-1 isoform to obscurin suggests a molecular link
+RT   between the sarcoplasmic reticulum and myofibrils in striated
+RT   muscles.";
+RL   J. Cell Biol. 160:245-253(2003).
+RN   [8]
+RP   FUNCTION.
+RX   PubMed=16205939; DOI=10.1007/s00418-005-0069-x;
+RA   Borisov A.B., Sutter S.B., Kontrogianni-Konstantopoulos A.,
+RA   Bloch R.J., Westfall M.V., Russell M.W.;
+RT   "Essential role of obscurin in cardiac myofibrillogenesis and
+RT   hypertrophic response: evidence from small interfering RNA-mediated
+RT   gene silencing.";
+RL   Histochem. Cell Biol. 125:227-238(2006).
+RN   [9]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-6038; THR-6040 AND
+RP   THR-7671, AND MASS SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=19007248; DOI=10.1021/ac801708p;
+RA   Wang B., Malik R., Nigg E.A., Korner R.;
+RT   "Evaluation of the low-specificity protease elastase for large-scale
+RT   phosphoproteome analysis.";
+RL   Anal. Chem. 80:9526-9533(2008).
+RN   [10]
+RP   STRUCTURE BY NMR OF 2826-3806.
+RG   RIKEN structural genomics initiative (RSGI);
+RT   "Solution structure of the Ig domains of human obscurin.";
+RL   Submitted (AUG-2007) to the PDB data bank.
+RN   [11]
+RP   STRUCTURE BY NMR OF 5601-5668.
+RA   Pfuhl M., Gautel M.;
+RT   "Solution structure of the SH3 domain of obscurin.";
+RL   Submitted (APR-2005) to the PDB data bank.
+RN   [12]
+RP   VARIANTS [LARGE SCALE ANALYSIS] VAL-1136; HIS-1792; MET-1930;
+RP   LYS-2090; PHE-2314; GLN-3983; HIS-4558; GLN-4810 AND THR-5071.
+RX   PubMed=16959974; DOI=10.1126/science.1133427;
+RA   Sjoeblom T., Jones S., Wood L.D., Parsons D.W., Lin J., Barber T.D.,
+RA   Mandelker D., Leary R.J., Ptak J., Silliman N., Szabo S.,
+RA   Buckhaults P., Farrell C., Meeh P., Markowitz S.D., Willis J.,
+RA   Dawson D., Willson J.K.V., Gazdar A.F., Hartigan J., Wu L., Liu C.,
+RA   Parmigiani G., Park B.H., Bachman K.E., Papadopoulos N.,
+RA   Vogelstein B., Kinzler K.W., Velculescu V.E.;
+RT   "The consensus coding sequences of human breast and colorectal
+RT   cancers.";
+RL   Science 314:268-274(2006).
+RN   [13]
+RP   VARIANTS [LARGE SCALE ANALYSIS] ARG-502; SER-804; ARG-1027; SER-1086;
+RP   THR-1090; THR-1091; PRO-1101; ARG-1121; VAL-1133; VAL-1136; GLN-1156;
+RP   HIS-1248; VAL-1532; MET-1566; THR-1601; VAL-3389; GLU-3426; GLY-3834;
+RP   SER-4823; GLN-5598 AND GLN-6473.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Involved in myofibrillogenesis. Seems to be involved in
+CC       assembly of myosin into sarcomeric A bands in striated muscle.
+CC       Isoform 3 together with ANK1 isoform Mu17/Ank1.5 may provide a
+CC       molecular link between the sarcoplasmic reticulum and myofibrils.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- COFACTOR: Magnesium (By similarity).
+CC   -!- SUBUNIT: Isoform 3 interacts with TTN/titin, ANK1 isoform
+CC       Mu17/ank1.5, and with calmodulin in a Ca(2+)-independent manner.
+CC       Associates with fast skeletal muscle myosin (By similarity).
+CC   -!- INTERACTION:
+CC       P16157:ANK1; NbExp=6; IntAct=EBI-941850, EBI-941686;
+CC       Q01484:ANK2; NbExp=1; IntAct=EBI-941850, EBI-941975;
+CC       P62158:CALM1; NbExp=1; IntAct=EBI-941850, EBI-397435;
+CC       Q8WZ42:TTN; NbExp=3; IntAct=EBI-941850, EBI-681210;
+CC   -!- SUBCELLULAR LOCATION: Isoform 3: Cytoplasm, myofibril, sarcomere,
+CC       M-band. Cytoplasm, myofibril, sarcomere, Z-disk. Note=In
+CC       differentiating skeletal muscle cells, isoform 3 primarily
+CC       localizes to the sarcomeric M-line and less frequently to the Z-
+CC       disk. Isoform 3 colocalizes with ANK1 isoform Mu17/ank1.5 at the
+CC       M-line in differentiated skeletal muscle cells.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=5;
+CC         Comment=Additional isoforms seem to exist;
+CC       Name=1; Synonyms=B, obscurin-MLCK giant kinase;
+CC         IsoId=Q5VST9-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q5VST9-2; Sequence=VSP_018436;
+CC       Name=3; Synonyms=unc-89-like;
+CC         IsoId=Q5VST9-3; Sequence=VSP_018437, VSP_018438;
+CC         Note=Lacks the kinase domain. Initially described as obscurin;
+CC       Name=4;
+CC         IsoId=Q5VST9-5; Sequence=VSP_020086, VSP_020087;
+CC         Note=No experimental confirmation available. Ref.4 (BAB13382)
+CC         sequence differs from that shown due to frameshifts in positions
+CC         3891, 5061, 5093, 5268, 6352 and 6919;
+CC       Name=5;
+CC         IsoId=Q5VST9-6; Sequence=VSP_026970;
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CAMK
+CC       Ser/Thr protein kinase family.
+CC   -!- SIMILARITY: Contains 1 DH (DBL-homology) domain.
+CC   -!- SIMILARITY: Contains 3 fibronectin type-III domains.
+CC   -!- SIMILARITY: Contains 55 Ig-like (immunoglobulin-like) domains.
+CC   -!- SIMILARITY: Contains 1 IQ domain.
+CC   -!- SIMILARITY: Contains 2 PH domains.
+CC   -!- SIMILARITY: Contains 2 protein kinase domains.
+CC   -!- SIMILARITY: Contains 1 SH3 domain.
+CC   -!- CAUTION: Initially the name obscurin was used to describe isoform
+CC       3 which lacks the kinase domains.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAC85746.1; Type=Erroneous gene model prediction;
+CC       Sequence=CAC85749.1; Type=Erroneous gene model prediction;
+CC       Sequence=CAC85750.1; Type=Erroneous gene model prediction;
+CC       Sequence=CAH71670.2; Type=Erroneous gene model prediction;
+CC       Sequence=CAI19283.1; Type=Erroneous gene model prediction;
+CC       Sequence=CAI19284.1; Type=Erroneous gene model prediction;
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AJ002535; CAC44768.1; -; mRNA.
+DR   EMBL; AJ314896; CAC85745.1; -; Genomic_DNA.
+DR   EMBL; AJ314898; CAC85746.1; ALT_SEQ; Genomic_DNA.
+DR   EMBL; AJ314900; CAC85747.1; -; Genomic_DNA.
+DR   EMBL; AJ314901; CAC85749.1; ALT_SEQ; Genomic_DNA.
+DR   EMBL; AJ314903; CAC85750.1; ALT_SEQ; Genomic_DNA.
+DR   EMBL; AJ314904; CAC85751.1; -; Genomic_DNA.
+DR   EMBL; AJ314905; CAC85752.1; -; Genomic_DNA.
+DR   EMBL; AJ314906; CAC85753.1; -; Genomic_DNA.
+DR   EMBL; AJ314907; CAC85754.1; -; Genomic_DNA.
+DR   EMBL; AJ314908; CAC85755.1; -; Genomic_DNA.
+DR   EMBL; AL670729; CAH71673.1; -; Genomic_DNA.
+DR   EMBL; AL353593; CAH71673.1; JOINED; Genomic_DNA.
+DR   EMBL; AL359510; CAH71673.1; JOINED; Genomic_DNA.
+DR   EMBL; AL359510; CAI15072.1; -; Genomic_DNA.
+DR   EMBL; AL670729; CAI15072.1; JOINED; Genomic_DNA.
+DR   EMBL; AL353593; CAI15072.1; JOINED; Genomic_DNA.
+DR   EMBL; AL353593; CAI19283.1; ALT_SEQ; Genomic_DNA.
+DR   EMBL; AL353593; CAI19284.1; ALT_SEQ; Genomic_DNA.
+DR   EMBL; AL353593; CAI19285.1; -; Genomic_DNA.
+DR   EMBL; AL670729; CAI19285.1; JOINED; Genomic_DNA.
+DR   EMBL; AL359510; CAI19285.1; JOINED; Genomic_DNA.
+DR   EMBL; AL670729; CAH71670.2; ALT_SEQ; Genomic_DNA.
+DR   EMBL; AM231061; CAJ76912.1; -; mRNA.
+DR   EMBL; AB046776; BAB13382.1; ALT_FRAME; mRNA.
+DR   EMBL; AB046859; BAB13465.2; -; mRNA.
+DR   IPI; IPI00288940; -.
+DR   IPI; IPI00479915; -.
+DR   IPI; IPI00742748; -.
+DR   IPI; IPI00744119; -.
+DR   IPI; IPI00854629; -.
+DR   RefSeq; NP_001092093.1; -.
+DR   RefSeq; NP_443075.2; -.
+DR   UniGene; Hs.650039; -.
+DR   UniGene; Hs.656999; -.
+DR   PDB; 1V1C; NMR; -; A=5601-5668.
+DR   PDB; 2CR6; NMR; -; A=2999-3100.
+DR   PDB; 2DKU; NMR; -; A=2915-3004.
+DR   PDB; 2DM7; NMR; -; A=3801-3887.
+DR   PDB; 2E7B; NMR; -; A=3184-3273.
+DR   PDB; 2EDF; NMR; -; A=2826-2915.
+DR   PDB; 2EDH; NMR; -; A=3614-3713.
+DR   PDB; 2EDL; NMR; -; A=3801-3887.
+DR   PDB; 2EDQ; NMR; -; A=3713-3806.
+DR   PDB; 2EDR; NMR; -; A=3361-3449.
+DR   PDB; 2EDT; NMR; -; A=3449-3537.
+DR   PDB; 2EDW; NMR; -; A=3537-3630.
+DR   PDB; 2ENY; NMR; -; A=2735-2825.
+DR   PDB; 2EO1; NMR; -; A=1623-1712.
+DR   PDB; 2GQH; NMR; -; A=3718-3807.
+DR   PDB; 2YZ8; X-ray; 2.00 A; A=3184-3273.
+DR   PDBsum; 1V1C; -.
+DR   PDBsum; 2CR6; -.
+DR   PDBsum; 2DKU; -.
+DR   PDBsum; 2DM7; -.
+DR   PDBsum; 2E7B; -.
+DR   PDBsum; 2EDF; -.
+DR   PDBsum; 2EDH; -.
+DR   PDBsum; 2EDL; -.
+DR   PDBsum; 2EDQ; -.
+DR   PDBsum; 2EDR; -.
+DR   PDBsum; 2EDT; -.
+DR   PDBsum; 2EDW; -.
+DR   PDBsum; 2ENY; -.
+DR   PDBsum; 2EO1; -.
+DR   PDBsum; 2GQH; -.
+DR   PDBsum; 2YZ8; -.
+DR   ProteinModelPortal; Q5VST9; -.
+DR   IntAct; Q5VST9; 29.
+DR   MINT; MINT-254901; -.
+DR   STRING; Q5VST9; -.
+DR   PhosphoSite; Q5VST9; -.
+DR   PRIDE; Q5VST9; -.
+DR   Ensembl; ENST00000422127; ENSP00000409493; ENSG00000154358.
+DR   GeneID; 84033; -.
+DR   KEGG; hsa:84033; -.
+DR   UCSC; uc001hsn.1; human.
+DR   UCSC; uc009xez.1; human.
+DR   CTD; 84033; -.
+DR   GeneCards; GC01P228395; -.
+DR   HGNC; HGNC:15719; OBSCN.
+DR   HPA; HPA019497; -.
+DR   HPA; HPA021186; -.
+DR   MIM; 608616; gene.
+DR   PharmGKB; PA31888; -.
+DR   HOVERGEN; HBG108206; -.
+DR   InParanoid; Q5VST9; -.
+DR   OMA; EAKGCTR; -.
+DR   OrthoDB; EOG9JQ6GV; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   Reactome; REACT_11044; Signaling by Rho GTPases.
+DR   Reactome; REACT_11061; Signalling by NGF.
+DR   Reactome; REACT_14797; Signaling by GPCR.
+DR   NextBio; 73174; -.
+DR   ArrayExpress; Q5VST9; -.
+DR   Bgee; Q5VST9; -.
+DR   Genevestigator; Q5VST9; -.
+DR   GermOnline; ENSG00000154358; Homo sapiens.
+DR   GO; GO:0005829; C:cytosol; EXP:Reactome.
+DR   GO; GO:0031430; C:M band; ISS:BHF-UCL.
+DR   GO; GO:0030018; C:Z disc; ISS:BHF-UCL.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0004713; F:protein tyrosine kinase activity; IEA:InterPro.
+DR   GO; GO:0005089; F:Rho guanyl-nucleotide exchange factor activity; IEA:InterPro.
+DR   GO; GO:0008307; F:structural constituent of muscle; ISS:BHF-UCL.
+DR   GO; GO:0031432; F:titin binding; IPI:BHF-UCL.
+DR   GO; GO:0006915; P:apoptosis; EXP:Reactome.
+DR   GO; GO:0030154; P:cell differentiation; IEA:UniProtKB-KW.
+DR   GO; GO:0008624; P:induction of apoptosis by extracellular sig...; EXP:Reactome.
+DR   GO; GO:0007275; P:multicellular organismal development; IEA:UniProtKB-KW.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   GO; GO:0035023; P:regulation of Rho protein signal transduction; IEA:InterPro.
+DR   InterPro; IPR000219; DH-domain.
+DR   InterPro; IPR008957; Fibronectin_III_dom.
+DR   InterPro; IPR003961; FN_III.
+DR   InterPro; IPR007110; Ig-like.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR013098; Ig_I-set.
+DR   InterPro; IPR003599; Ig_sub.
+DR   InterPro; IPR003598; Ig_sub2.
+DR   InterPro; IPR000048; IQ_motif_EF-hand-BS.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR011993; PH_type.
+DR   InterPro; IPR001849; Pleckstrin_homology.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   InterPro; IPR001452; SH3_domain.
+DR   InterPro; IPR008266; Tyr_prot_kinase_AS.
+DR   Gene3D; G3DSA:2.60.40.10; Ig-like_fold; 60.
+DR   Gene3D; G3DSA:2.30.29.30; PH_type; 1.
+DR   Gene3D; G3DSA:1.20.900.10; RhoGEF; 1.
+DR   Pfam; PF00041; fn3; 2.
+DR   Pfam; PF07679; I-set; 48.
+DR   Pfam; PF00612; IQ; 1.
+DR   Pfam; PF00069; Pkinase; 2.
+DR   Pfam; PF00621; RhoGEF; 1.
+DR   SMART; SM00060; FN3; 3.
+DR   SMART; SM00409; IG; 33.
+DR   SMART; SM00408; IGc2; 20.
+DR   SMART; SM00015; IQ; 1.
+DR   SMART; SM00233; PH; 1.
+DR   SMART; SM00220; S_TKc; 2.
+DR   SMART; SM00326; SH3; 1.
+DR   SUPFAM; SSF48065; DH-domain; 1.
+DR   SUPFAM; SSF49265; FN_III-like; 3.
+DR   SUPFAM; SSF56112; Kinase_like; 2.
+DR   SUPFAM; SSF50044; SH3; 1.
+DR   PROSITE; PS00741; DH_1; FALSE_NEG.
+DR   PROSITE; PS50010; DH_2; 1.
+DR   PROSITE; PS50853; FN3; 4.
+DR   PROSITE; PS50835; IG_LIKE; 47.
+DR   PROSITE; PS50096; IQ; 1.
+DR   PROSITE; PS50003; PH_DOMAIN; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 2.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+DR   PROSITE; PS00109; PROTEIN_KINASE_TYR; 1.
+DR   PROSITE; PS50002; SH3; FALSE_NEG.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; ATP-binding; Complete proteome;
+KW   Cytoplasm; Developmental protein; Differentiation; Disulfide bond;
+KW   Immunoglobulin domain; Kinase; Magnesium; Metal-binding;
+KW   Muscle protein; Nucleotide-binding; Phosphoprotein; Polymorphism;
+KW   Repeat; Serine/threonine-protein kinase; SH3 domain; Transferase.
+FT   CHAIN         1   7968       Obscurin.
+FT                                /FTId=PRO_0000235298.
+FT   DOMAIN       10    100       Ig-like 1.
+FT   DOMAIN      110    202       Ig-like 2.
+FT   DOMAIN      236    322       Ig-like 3.
+FT   DOMAIN      331    414       Ig-like 4.
+FT   DOMAIN      420    508       Ig-like 5.
+FT   DOMAIN      512    607       Fibronectin type-III 1.
+FT   DOMAIN      619    698       Ig-like 6.
+FT   DOMAIN      701    790       Ig-like 7.
+FT   DOMAIN      798    884       Ig-like 8.
+FT   DOMAIN      886    977       Ig-like 9.
+FT   DOMAIN      978   1066       Ig-like 10.
+FT   DOMAIN     1070   1161       Ig-like 11.
+FT   DOMAIN     1162   1252       Ig-like 12.
+FT   DOMAIN     1254   1345       Ig-like 13.
+FT   DOMAIN     1346   1432       Ig-like 14.
+FT   DOMAIN     1438   1524       Ig-like 15.
+FT   DOMAIN     1530   1621       Ig-like 16.
+FT   DOMAIN     1622   1719       Ig-like 17.
+FT   DOMAIN     1731   1808       Fibronectin type-III 2.
+FT   DOMAIN     1809   1894       Ig-like 18.
+FT   DOMAIN     1896   1982       Ig-like 19.
+FT   DOMAIN     1987   2071       Ig-like 20.
+FT   DOMAIN     2077   2162       Ig-like 21.
+FT   DOMAIN     2165   2249       Ig-like 22.
+FT   DOMAIN     2289   2380       Ig-like 23.
+FT   DOMAIN     2468   2559       Ig-like 24.
+FT   DOMAIN     2564   2643       Ig-like 25.
+FT   DOMAIN     2646   2730       Ig-like 26.
+FT   DOMAIN     2736   2823       Ig-like 27.
+FT   DOMAIN     2826   2908       Ig-like 28.
+FT   DOMAIN     2920   2999       Ig-like 29.
+FT   DOMAIN     3003   3092       Ig-like 30.
+FT   DOMAIN     3095   3183       Ig-like 31.
+FT   DOMAIN     3184   3268       Ig-like 32.
+FT   DOMAIN     3273   3356       Ig-like 33.
+FT   DOMAIN     3359   3444       Ig-like 34.
+FT   DOMAIN     3449   3532       Ig-like 35.
+FT   DOMAIN     3537   3620       Ig-like 36.
+FT   DOMAIN     3625   3708       Ig-like 37.
+FT   DOMAIN     3713   3796       Ig-like 38.
+FT   DOMAIN     3801   3884       Ig-like 39.
+FT   DOMAIN     3890   3973       Ig-like 40.
+FT   DOMAIN     3978   4062       Ig-like 41.
+FT   DOMAIN     4068   4160       Ig-like 42.
+FT   DOMAIN     4171   4239       Ig-like 43.
+FT   DOMAIN     4248   4337       Ig-like 44.
+FT   DOMAIN     4340   4427       Ig-like 45.
+FT   DOMAIN     4430   4518       Ig-like 46.
+FT   DOMAIN     4523   4614       Fibronectin type-III 3.
+FT   DOMAIN     4624   4714       Ig-like 47.
+FT   DOMAIN     4872   4901       IQ.
+FT   DOMAIN     4898   4989       Ig-like 48.
+FT   DOMAIN     5126   5215       Ig-like 49.
+FT   DOMAIN     5260   5349       Ig-like 50.
+FT   DOMAIN     5371   5467       Ig-like 51.
+FT   DOMAIN     5601   5668       SH3.
+FT   DOMAIN     5693   5877       DH.
+FT   DOMAIN     5895   6004       PH.
+FT   DOMAIN     6014   6097       Ig-like 52.
+FT   DOMAIN     6108   6200       Ig-like 53.
+FT   DOMAIN     6357   6445       Ig-like 54.
+FT   DOMAIN     6468   6721       Protein kinase 1.
+FT   DOMAIN     7463   7552       Ig-like 55.
+FT   DOMAIN     7557   7644       Fibronectin type-III 4.
+FT   DOMAIN     7672   7924       Protein kinase 2.
+FT   NP_BIND    6474   6482       ATP (By similarity).
+FT   NP_BIND    7678   7686       ATP (By similarity).
+FT   COMPBIAS    192    198       Poly-Ala.
+FT   COMPBIAS    710    713       Poly-Ala.
+FT   COMPBIAS    931    934       Poly-Ser.
+FT   COMPBIAS   1115   1118       Poly-Ser.
+FT   COMPBIAS   1207   1210       Poly-Ser.
+FT   COMPBIAS   1299   1302       Poly-Ser.
+FT   COMPBIAS   1391   1394       Poly-Ser.
+FT   COMPBIAS   1575   1578       Poly-Ser.
+FT   COMPBIAS   1667   1670       Poly-Ser.
+FT   COMPBIAS   4398   4401       Poly-Leu.
+FT   COMPBIAS   4846   4849       Poly-Gln.
+FT   COMPBIAS   6789   6796       Poly-Ser.
+FT   COMPBIAS   6969   7117       Pro-rich.
+FT   ACT_SITE   6587   6587       Proton acceptor (By similarity).
+FT   ACT_SITE   7791   7791       Proton acceptor (By similarity).
+FT   BINDING    6497   6497       ATP (By similarity).
+FT   BINDING    7701   7701       ATP (By similarity).
+FT   MOD_RES    6038   6038       Phosphothreonine.
+FT   MOD_RES    6040   6040       Phosphothreonine.
+FT   MOD_RES    7671   7671       Phosphothreonine.
+FT   DISULFID     31     82       By similarity.
+FT   DISULFID    259    311       By similarity.
+FT   DISULFID    354    404       By similarity.
+FT   DISULFID    819    870       By similarity.
+FT   DISULFID    912    962       By similarity.
+FT   DISULFID   1004   1054       By similarity.
+FT   DISULFID   1096   1146       By similarity.
+FT   DISULFID   1188   1238       By similarity.
+FT   DISULFID   1280   1330       By similarity.
+FT   DISULFID   1372   1422       By similarity.
+FT   DISULFID   1464   1514       By similarity.
+FT   DISULFID   1556   1606       By similarity.
+FT   DISULFID   1648   1698       By similarity.
+FT   DISULFID   1723   1791       By similarity.
+FT   DISULFID   1830   1880       By similarity.
+FT   DISULFID   2187   2237       By similarity.
+FT   DISULFID   2311   2361       By similarity.
+FT   DISULFID   2490   2540       By similarity.
+FT   DISULFID   2668   2718       By similarity.
+FT   DISULFID   2848   2898       By similarity.
+FT   DISULFID   2937   2987       By similarity.
+FT   DISULFID   3117   3167       By similarity.
+FT   DISULFID   3206   3256       By similarity.
+FT   DISULFID   3295   3344       By similarity.
+FT   DISULFID   3383   3432       By similarity.
+FT   DISULFID   3471   3520       By similarity.
+FT   DISULFID   3559   3608       By similarity.
+FT   DISULFID   3647   3696       By similarity.
+FT   DISULFID   3735   3784       By similarity.
+FT   DISULFID   3823   3872       By similarity.
+FT   DISULFID   3911   3961       By similarity.
+FT   DISULFID   4000   4050       By similarity.
+FT   DISULFID   4089   4141       By similarity.
+FT   DISULFID   4453   4508       By similarity.
+FT   DISULFID   4919   4971       By similarity.
+FT   DISULFID   5147   5199       By similarity.
+FT   DISULFID   6035   6087       By similarity.
+FT   DISULFID   6129   6182       By similarity.
+FT   DISULFID   7484   7536       By similarity.
+FT   VAR_SEQ    3886   3886       R -> RALPARFTQDLKTKEASEGATATLQCELSKVAPVEW
+FT                                KKGPETLRDGGRYSLKQDGTRCELQIHDLSVADAGEYSCMC
+FT                                GQERTSATLTVRALPARFTEGLRNEEAMEGATATLQCELSK
+FT                                AAPVEWRKGLEALRDGDKYSLRQDGAVCELQIHGLAMADNG
+FT                                VYSCVCGQERTSATLTVRALPARFIEDMRNQKATEGATVTL
+FT                                QCKLRKAAPVEWRKGPNTLKDGDRYSLKQDGTSCELQIRGL
+FT                                VIADAGEYSCICEQERTSATLTVRALPARFIEDVRNHEATE
+FT                                GATAVLQCELSKAAPVEWRKGSETLRDGDRYSLRQDGTRCE
+FT                                LQIRGLAVEDTGEYLCVCGQERTSATLTVRALPARFIDNMT
+FT                                NQEAREGATATLHCELSKVAPVEWRKGPETLRDGDRHSLRQ
+FT                                DGTRCELQIRGLSVADAGEYSCVCGQERTSATLTIREATEG
+FT                                ATAMLQCELSKVAPVEWRKGPETLRDGDRYNLRQDGTRCEL
+FT                                QIHGLSVADTGEYSCVCGQEKTSATLTVK (in isoform
+FT                                5).
+FT                                /FTId=VSP_026970.
+FT   VAR_SEQ    3888   3913       PQPVFREPLQSLQAEEGSTATLQCEL -> LPARIHSRSED
+FT                                QGGLRRGHSYTAV (in isoform 4).
+FT                                /FTId=VSP_020086.
+FT   VAR_SEQ    3914   7968       Missing (in isoform 4).
+FT                                /FTId=VSP_020087.
+FT   VAR_SEQ    5753   5753       S -> SS (in isoform 2).
+FT                                /FTId=VSP_018436.
+FT   VAR_SEQ    6221   6620       DTTLERADQEVTSVLKRLLGPKAPGPSTGDLTGPGPCPRGA
+FT                                PALQETGSQPPVTGTSEAPAVPPRVPQPLLHEGPEQEPEAI
+FT                                ARAQEWTVPIRMEGAAWPGAGTGELLWDVHSHVVRETTQRT
+FT                                YTYQAIDTHTARPPSMQVTIEDVQAQTGGTAQFEAIIEGDP
+FT                                QPSVTWYKDSVQLVDSTRLSQQQEGTTYSLVLRHVASKDAG
+FT                                VYTCLAQNTGGQVLCKAELLVLGGDNEPDSEKQSHRRKLHS
+FT                                FYEVKEEIGRGVFGFVKRVQHKGNKILCAAKFIPLRSRTRA
+FT                                QAYRERDILAALSHPLVTGLLDQFETRKTLILILELCSSEE
+FT                                LLDRLYRKGVVTEAEVKVYIQQLVEGLHYLHSHGVLHLDIK
+FT                                PSNILMVHPAREDIKICDFGFAQNITPAELQ -> VTEQET
+FT                                KVPKKTVIIEETITTVVKSPRGQRRSPSKSPSRSPSRCSAS
+FT                                PLRPGLLAPDLLYLPGAGQPRRPEAEPGQKPVVPTLYVTEA
+FT                                EAHSPALPGLSGPQPKWVEVEETIEVRVKKMGPQGVSPTTE
+FT                                VPRSSSGHLFTLPGATPGGDPNSNNSNNKLLAQEAWAQGTA
+FT                                MVGVREPLVFRVDARGSVDWAASGMGSLEEEGTMEEAGEEE
+FT                                GEDGDAFVTEESQDTHSLGDRDPKILTHNGRMLTLADLEDY
+FT                                VPGEGETFHCGGPGPGAPDDPPCEVSVIQREIGEPTVGQPV
+FT                                LLSVGHALGPRGPLGLFRPEPRGASPPGPQVRSLEGTSFLL
+FT                                REAPARPVGSAPWTQSFCTRIRRSADSGQSSFTTELSTQTV
+FT                                NFGTVGETVTLHICPDRDGDEAAQP (in isoform 3).
+FT                                /FTId=VSP_018437.
+FT   VAR_SEQ    6621   7968       Missing (in isoform 3).
+FT                                /FTId=VSP_018438.
+FT   VARIANT      51     51       A -> T (in dbSNP:rs1771487).
+FT                                /FTId=VAR_026409.
+FT   VARIANT     502    502       Q -> R (in dbSNP:rs1771487).
+FT                                /FTId=VAR_034618.
+FT   VARIANT     804    804       G -> S (in dbSNP:rs55950009).
+FT                                /FTId=VAR_042276.
+FT   VARIANT     908    908       A -> T (in dbSNP:rs1757153).
+FT                                /FTId=VAR_047743.
+FT   VARIANT    1027   1027       K -> R (in dbSNP:rs55760713).
+FT                                /FTId=VAR_042277.
+FT   VARIANT    1086   1086       A -> S.
+FT                                /FTId=VAR_042278.
+FT   VARIANT    1090   1090       A -> T.
+FT                                /FTId=VAR_042279.
+FT   VARIANT    1091   1091       S -> T.
+FT                                /FTId=VAR_042280.
+FT   VARIANT    1101   1101       A -> P.
+FT                                /FTId=VAR_042281.
+FT   VARIANT    1121   1121       G -> R.
+FT                                /FTId=VAR_042282.
+FT   VARIANT    1133   1133       L -> V.
+FT                                /FTId=VAR_042283.
+FT   VARIANT    1136   1136       A -> V (in a colorectal cancer sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_035530.
+FT   VARIANT    1156   1156       H -> Q.
+FT                                /FTId=VAR_042284.
+FT   VARIANT    1248   1248       Q -> H.
+FT                                /FTId=VAR_042285.
+FT   VARIANT    1508   1508       V -> D (in dbSNP:rs7532342).
+FT                                /FTId=VAR_034619.
+FT   VARIANT    1532   1532       A -> V (in dbSNP:rs453140).
+FT                                /FTId=VAR_042286.
+FT   VARIANT    1566   1566       T -> M (in dbSNP:rs56217040).
+FT                                /FTId=VAR_042287.
+FT   VARIANT    1601   1601       A -> T (in dbSNP:rs55706639).
+FT                                /FTId=VAR_042288.
+FT   VARIANT    1792   1792       R -> H (in a colorectal cancer sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_035531.
+FT   VARIANT    1930   1930       V -> M (in a colorectal cancer sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_035532.
+FT   VARIANT    2090   2090       E -> K (in a colorectal cancer sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_035533.
+FT   VARIANT    2106   2106       D -> E (in dbSNP:rs1188721).
+FT                                /FTId=VAR_047744.
+FT   VARIANT    2116   2116       F -> L (in dbSNP:rs1188722).
+FT                                /FTId=VAR_047745.
+FT   VARIANT    2314   2314       S -> F (in a breast cancer sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_035534.
+FT   VARIANT    2529   2529       R -> Q (in dbSNP:rs3795783).
+FT                                /FTId=VAR_047746.
+FT   VARIANT    2720   2720       V -> M (in dbSNP:rs1188697).
+FT                                /FTId=VAR_047747.
+FT   VARIANT    2812   2812       R -> W (in dbSNP:rs3795785).
+FT                                /FTId=VAR_047748.
+FT   VARIANT    3300   3300       A -> T (in dbSNP:rs437129).
+FT                                /FTId=VAR_034620.
+FT   VARIANT    3372   3372       E -> D (in dbSNP:rs3795789).
+FT                                /FTId=VAR_047749.
+FT   VARIANT    3373   3373       S -> C (in dbSNP:rs3795790).
+FT                                /FTId=VAR_047750.
+FT   VARIANT    3389   3389       A -> V.
+FT                                /FTId=VAR_042289.
+FT   VARIANT    3426   3426       D -> E.
+FT                                /FTId=VAR_042290.
+FT   VARIANT    3834   3834       R -> G.
+FT                                /FTId=VAR_042291.
+FT   VARIANT    3983   3983       R -> Q (in a colorectal cancer sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_035535.
+FT   VARIANT    4039   4039       G -> R (in dbSNP:rs435776).
+FT                                /FTId=VAR_047751.
+FT   VARIANT    4381   4381       H -> R (in dbSNP:rs1150912).
+FT                                /FTId=VAR_034621.
+FT   VARIANT    4450   4450       C -> R (in dbSNP:rs1188732).
+FT                                /FTId=VAR_034622.
+FT   VARIANT    4516   4516       R -> W (in dbSNP:rs11810627).
+FT                                /FTId=VAR_059429.
+FT   VARIANT    4534   4534       R -> H (in dbSNP:rs4653942).
+FT                                /FTId=VAR_026410.
+FT   VARIANT    4558   4558       R -> H (in a colorectal cancer sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_035536.
+FT   VARIANT    4642   4642       S -> C (in dbSNP:rs1188729).
+FT                                /FTId=VAR_056102.
+FT   VARIANT    4662   4662       R -> C (in dbSNP:rs3795800).
+FT                                /FTId=VAR_056103.
+FT   VARIANT    4666   4666       G -> S (in dbSNP:rs3795801).
+FT                                /FTId=VAR_056104.
+FT   VARIANT    4810   4810       R -> Q (in a breast cancer sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_035537.
+FT   VARIANT    4823   4823       A -> S.
+FT                                /FTId=VAR_042292.
+FT   VARIANT    4962   4962       D -> G (in dbSNP:rs373610).
+FT                                /FTId=VAR_056105.
+FT   VARIANT    5071   5071       A -> T (in a breast cancer sample;
+FT                                somatic mutation).
+FT                                /FTId=VAR_035538.
+FT   VARIANT    5269   5269       L -> V (in dbSNP:rs369909).
+FT                                /FTId=VAR_056106.
+FT   VARIANT    5575   5575       R -> H (in dbSNP:rs3795809).
+FT                                /FTId=VAR_056107.
+FT   VARIANT    5598   5598       R -> Q.
+FT                                /FTId=VAR_042293.
+FT   VARIANT    5891   5891       Q -> E (in dbSNP:rs1188710).
+FT                                /FTId=VAR_056108.
+FT   VARIANT    6473   6473       E -> Q.
+FT                                /FTId=VAR_042294.
+FT   VARIANT    7172   7172       A -> V (in dbSNP:rs500049).
+FT                                /FTId=VAR_056109.
+FT   CONFLICT    888    888       V -> A (in Ref. 1; CAC85746).
+FT   CONFLICT    895    895       L -> P (in Ref. 1; CAC85746).
+FT   CONFLICT    897    897       R -> C (in Ref. 1; CAC85746).
+FT   CONFLICT    899    900       KL -> EV (in Ref. 1; CAC85746).
+FT   CONFLICT    904    904       A -> V (in Ref. 1; CAC85746).
+FT   CONFLICT    917    917       A -> D (in Ref. 1; CAC85746).
+FT   CONFLICT    919    919       T -> M (in Ref. 1; CAC85746).
+FT   CONFLICT    937    938       CM -> HV (in Ref. 1; CAC85746).
+FT   CONFLICT    941    941       T -> V (in Ref. 1; CAC85746).
+FT   CONFLICT    944    944       T -> M (in Ref. 1; CAC85746).
+FT   CONFLICT    952    952       A -> V (in Ref. 1; CAC85746).
+FT   CONFLICT    957    957       A -> S (in Ref. 1; CAC85746).
+FT   CONFLICT    965    965       G -> R (in Ref. 1; CAC85746).
+FT   CONFLICT    969    969       L -> V (in Ref. 1; CAC85746).
+FT   CONFLICT    972    972       H -> R (in Ref. 1; CAC85746).
+FT   CONFLICT    999    999       S -> N (in Ref. 1; CAC44768).
+FT   CONFLICT   1011   1011       T -> A (in Ref. 1; CAC44768).
+FT   CONFLICT   1348   1348       A -> V (in Ref. 1; CAC85746).
+FT   CONFLICT   1355   1355       L -> P (in Ref. 1; CAC85749).
+FT   CONFLICT   1357   1357       H -> R (in Ref. 1; CAC85746).
+FT   CONFLICT   1359   1359       K -> E (in Ref. 1; CAC85749).
+FT   CONFLICT   1360   1360       V -> L (in Ref. 1; CAC85746).
+FT   CONFLICT   1367   1367       I -> S (in Ref. 1; CAC85746/CAC85749).
+FT   CONFLICT   1394   1394       S -> L (in Ref. 1; CAC85749).
+FT   CONFLICT   1397   1398       RM -> HV (in Ref. 1; CAC85749).
+FT   CONFLICT   1397   1397       R -> C (in Ref. 1; CAC85746).
+FT   CONFLICT   1401   1401       V -> A (in Ref. 1; CAC85749).
+FT   CONFLICT   1401   1401       V -> T (in Ref. 1; CAC85746).
+FT   CONFLICT   1413   1413       C -> G (in Ref. 1; CAC85746/CAC85749).
+FT   CONFLICT   1417   1417       T -> A (in Ref. 1; CAC85746).
+FT   CONFLICT   1428   1428       R -> Q (in Ref. 1; CAC85749).
+FT   CONFLICT   1432   1432       S -> H (in Ref. 1; CAC85746).
+FT   CONFLICT   1445   1445       E -> D (in Ref. 1; CAC85750).
+FT   CONFLICT   1455   1455       Q -> E (in Ref. 1; CAC85750).
+FT   CONFLICT   1458   1458       A -> T (in Ref. 1; CAC85750).
+FT   CONFLICT   1461   1461       T -> M (in Ref. 1; CAC85750).
+FT   CONFLICT   1524   1524       H -> R (in Ref. 1; CAC85749).
+FT   CONFLICT   1526   1526       H -> Q (in Ref. 1; CAC85749).
+FT   CONFLICT   1580   1582       VRM -> MRV (in Ref. 1; CAC85750).
+FT   CONFLICT   1607   1607       K -> E (in Ref. 1; CAC85750).
+FT   CONFLICT   1610   1610       D -> G (in Ref. 1; CAC85750).
+FT   CONFLICT   1633   1633       H -> C (in Ref. 1; CAC85750).
+FT   CONFLICT   1653   1655       AQT -> GQM (in Ref. 1; CAC85750).
+FT   CONFLICT   1673   1674       RV -> HM (in Ref. 1; CAC85750).
+FT   CONFLICT   1677   1679       VGC -> SGY (in Ref. 1; CAC85750).
+FT   CONFLICT   1692   1692       E -> D (in Ref. 1; CAC44768/CAC85750).
+FT   CONFLICT   1704   1704       Q -> R (in Ref. 1; CAC44768/CAC85750).
+FT   CONFLICT   1710   1710       Q -> H (in Ref. 1; CAC44768/CAC85750).
+FT   CONFLICT   1848   1848       L -> P (in Ref. 1; CAC44768).
+FT   CONFLICT   2014   2014       P -> A (in Ref. 1; CAC85750).
+FT   CONFLICT   3126   3126       V -> M (in Ref. 1; CAC44768).
+FT   CONFLICT   4155   4155       T -> TG (in Ref. 3; CAC85752).
+FT   CONFLICT   4489   4489       H -> Q (in Ref. 1; CAC44768).
+FT   CONFLICT   4959   4959       T -> A (in Ref. 1; CAC44768).
+FT   CONFLICT   5243   5243       S -> ST (in Ref. 1; CAC85753).
+FT   CONFLICT   5391   5391       S -> F (in Ref. 4; BAB13465).
+FT   CONFLICT   5499   5500       LE -> FQ (in Ref. 1; CAC44768).
+FT   CONFLICT   6115   6115       R -> L (in Ref. 1; CAC44768).
+FT   CONFLICT   6570   6570       Q -> E (in Ref. 3; CAJ76912).
+FT   CONFLICT   6710   6711       PS -> SG (in Ref. 3; CAJ76912).
+FT   STRAND     2745   2750
+FT   STRAND     2753   2758
+FT   STRAND     2771   2776
+FT   STRAND     2784   2788
+FT   STRAND     2791   2796
+FT   TURN       2801   2803
+FT   STRAND     2807   2811
+FT   STRAND     2814   2818
+FT   STRAND     2820   2823
+FT   STRAND     2829   2831
+FT   STRAND     2836   2838
+FT   STRAND     2844   2846
+FT   STRAND     2849   2854
+FT   STRAND     2859   2863
+FT   STRAND     2869   2877
+FT   STRAND     2880   2887
+FT   TURN       2890   2892
+FT   STRAND     2894   2899
+FT   STRAND     2904   2911
+FT   STRAND     2925   2928
+FT   STRAND     2931   2938
+FT   STRAND     2947   2952
+FT   STRAND     2957   2966
+FT   STRAND     2969   2976
+FT   TURN       2979   2981
+FT   STRAND     2983   2988
+FT   STRAND     2996   2998
+FT   STRAND     3006   3009
+FT   STRAND     3013   3017
+FT   STRAND     3027   3030
+FT   STRAND     3037   3042
+FT   STRAND     3048   3050
+FT   TURN       3057   3059
+FT   STRAND     3063   3065
+FT   TURN       3070   3072
+FT   STRAND     3074   3080
+FT   STRAND     3087   3092
+FT   STRAND     3187   3189
+FT   STRAND     3194   3197
+FT   STRAND     3202   3210
+FT   STRAND     3216   3219
+FT   STRAND     3227   3235
+FT   STRAND     3238   3243
+FT   HELIX      3248   3250
+FT   STRAND     3252   3258
+FT   STRAND     3261   3270
+FT   STRAND     3371   3374
+FT   STRAND     3386   3388
+FT   STRAND     3392   3397
+FT   STRAND     3402   3405
+FT   STRAND     3407   3410
+FT   STRAND     3412   3421
+FT   TURN       3424   3426
+FT   STRAND     3430   3433
+FT   STRAND     3438   3441
+FT   STRAND     3443   3446
+FT   STRAND     3452   3454
+FT   STRAND     3459   3462
+FT   STRAND     3467   3475
+FT   STRAND     3480   3483
+FT   STRAND     3490   3509
+FT   TURN       3512   3514
+FT   STRAND     3516   3522
+FT   STRAND     3525   3534
+FT   STRAND     3548   3550
+FT   STRAND     3555   3564
+FT   STRAND     3568   3575
+FT   STRAND     3578   3581
+FT   STRAND     3583   3587
+FT   STRAND     3590   3597
+FT   TURN       3600   3602
+FT   STRAND     3604   3610
+FT   STRAND     3613   3618
+FT   STRAND     3620   3622
+FT   STRAND     3628   3630
+FT   STRAND     3643   3651
+FT   STRAND     3656   3663
+FT   STRAND     3667   3675
+FT   STRAND     3678   3683
+FT   STRAND     3692   3698
+FT   STRAND     3701   3709
+FT   STRAND     3716   3718
+FT   STRAND     3723   3726
+FT   STRAND     3731   3739
+FT   STRAND     3744   3751
+FT   STRAND     3754   3757
+FT   STRAND     3759   3763
+FT   STRAND     3766   3773
+FT   TURN       3776   3778
+FT   STRAND     3780   3788
+FT   STRAND     3790   3798
+FT   STRAND     3811   3814
+FT   STRAND     3820   3824
+FT   STRAND     3826   3828
+FT   STRAND     3831   3837
+FT   STRAND     3842   3848
+FT   STRAND     3852   3861
+FT   HELIX      3864   3866
+FT   STRAND     3870   3874
+FT   STRAND     3877   3880
+FT   STRAND     3883   3886
+FT   STRAND     5604   5609
+FT   STRAND     5628   5636
+FT   STRAND     5639   5644
+FT   STRAND     5654   5657
+FT   HELIX      5659   5661
+FT   STRAND     5662   5665
+SQ   SEQUENCE   7968 AA;  868484 MW;  46550B34565CAC76 CRC64;
+     MDQPQFSGAP RFLTRPKAFV VSVGKDATLS CQIVGNPTPQ VSWEKDQQPV AAGARFRLAQ
+     DGDLYRLTIL DLALGDSGQY VCRARNAIGE AFAAVGLQVD AEAACAEQAP HFLLRPTSIR
+     VREGSEATFR CRVGGSPRPA VSWSKDGRRL GEPDGPRVRV EELGEASALR IRAARPRDGG
+     TYEVRAENPL GAASAAAALV VDSDAADTAS RPGTSTAALL AHLQRRREAM RAEGAPASPP
+     STGTRTCTVT EGKHARLSCY VTGEPKPETV WKKDGQLVTE GRRHVVYEDA QENFVLKILF
+     CKQSDRGLYT CTASNLVGQT YSSVLVVVRE PAVPFKKRLQ DLEVREKESA TFLCEVPQPS
+     TEAAWFKEET RLWASAKYGI EEEGTERRLT VRNVSADDDA VYICETPEGS RTVAELAVQG
+     NLLRKLPRKT AVRVGDTAMF CVELAVPVGP VHWLRNQEEV VAGGRVAISA EGTRHTLTIS
+     QCCLEDVGQV AFMAGDCQTS TQFCVSAPRK PPLQPPVDPV VKARMESSVI LSWSPPPHGE
+     RPVTIDGYLV EKKKLGTYTW IRCHEAEWVA TPELTVADVA EEGNFQFRVS ALNSFGQSPY
+     LEFPGTVHLA PKLAVRTPLK AVQAVEGGEV TFSVDLTVAS AGEWFLDGQA LKASSVYEIH
+     CDRTRHTLTI REVPASLHGA QLKFVANGIE SSIRMEVRAA PGLTANKPPA AAAREVLARL
+     HEEAQLLAEL SDQAAAVTWL KDGRTLSPGP KYEVQASAGR RVLLVRDVAR DDAGLYECVS
+     RGGRIAYQLS VQGLARFLHK DMAGSCVDAV AGGPAQFECE TSEAHVHVHW YKDGMELGHS
+     GERFLQEDVG TRHRLVAATV TRQDEGTYSC RVGEDSVDFR LRVSEPKVVF AKEQLARRKL
+     QAEAGASATL SCEVAQAQTE VTWYKDGKKL SSSSKVCMEA TGCTRRLVVQ QAGQADAGEY
+     SCEAGGQRLS FHLDVKEPKV VFAKDQVAHS EVQAEAGASA TLSCEVAQAQ TEVMWYKDGK
+     KLSSSLKVHV EAKGCRRRLV VQQAGKTDAG DYSCEARGQR VSFRLHITEP KMMFAKEQSV
+     HNEVQAEAGA SAMLSCEVAQ AQTEVTWYKD GKKLSSSSKV GMEVKGCTRR LVLPQAGKAD
+     AGEYSCEAGG QRVSFHLHIT EPKGVFAKEQ SVHNEVQAEA GTTAMLSCEV AQPQTEVTWY
+     KDGKKLSSSS KVRMEVKGCT RRLVVQQVGK ADAGEYSCEA GGQRVSFQLH ITEPKAVFAK
+     EQLVHNEVRT EAGASATLSC EVAQAQTEVT WYKDGKKLSS SSKVRIEAAG CMRQLVVQQA
+     GQADAGEYTC EAGGQRLSFH LDVSEPKAVF AKEQLAHRKV QAEAGAIATL SCEVAQAQTE
+     VTWYKDGKKL SSSSKVRMEA VGCTRRLVVQ QACQADTGEY SCEAGGQRLS FSLDVAEPKV
+     VFAKEQPVHR EVQAQAGAST TLSCEVAQAQ TEVMWYKDGK KLSFSSKVRM EAVGCTRRLV
+     VQQAGQAVAG EYSCEAGSQR LSFHLHVAEP KAVFAKEQPA SREVQAEAGT SATLSCEVAQ
+     AQTEVTWYKD GKKLSSSSKV RMEAVGCTRR LVVQEAGQAD AGEYSCKAGD QRLSFHLHVA
+     EPKVVFAKEQ PAHREVQAEA GASATLSCEV AQAQTEVTWY KDGKKLSSSS KVRVEAVGCT
+     RRLVVQQAGQ AEAGEYSCEA GGQQLSFRLQ VAELEPQISE RPCRREPLVV KEHEDIILTA
+     TLATPSAATV TWLKDGVEIR RSKRHETASQ GDTHTLTVHG AQVLDSAIYS CRVGAEGQDF
+     PVQVEEVAAK FCRLLEPVCG ELGGTVTLAC ELSPACAEVV WRCGNTQLRV GKRFQMVAEG
+     PVRSLTVLGL RAEDAGEYVC ESRDDHTSAQ LTVSVPRVVK FMSGLSTVVA EEGGEATFQC
+     VVSPSDVAVV WFRDGALLQP SEKFAISQSG ASHSLTISDL VLEDAGQITV EAEGASSSAA
+     LRVREAPVLF KKKLEPQTVE ERSSVTLEVE LTRPWPELRW TRNATALAPG KNVEIHAEGA
+     RHRLVLHNVG FADRGFFGCE TPDDKTQAKL TVEMRQVRLV RGLQAVEARE QGTATMEVQL
+     SHADVDGSWT RDGLRFQQGP TCHLAVRGPM HTLTLSGLRP EDSGLMVFKA EGVHTSARLV
+     VTELPVSFSR PLQDVVTTEK EKVTLECELS RPNVDVRWLK DGVELRAGKT MAIAAQGACR
+     SLTIYRCEFA DQGVYVCDAH DAQSSASVKV QGRTYTLIYR RVLAEDAGEI QFVAENAESR
+     AQLRVKELPV TLVRPLRDKI AMEKHRGVLE CQVSRASAQV RWFKGSQELQ PGPKYELVSD
+     GLYRKLIISD VHAEDEDTYT CDAGDVKTSA QFFVEEQSIT IVRGLQDVTV MEPAPAWFEC
+     ETSIPSVRPP KWLLGKTVLQ AGGNVGLEQE GTVHRLMLRR TCSTMTGPVH FTVGKSRSSA
+     RLVVSDIPVV LTRPLEPKTG RELQSVVLSC DFRPAPKAVQ WYKDDTPLSP SEKFKMSLEG
+     QMAELRILRL MPADAGVYRC QAGSAHSSTE VTVEAREVTV TGPLQDAEAT EEGWASFSCE
+     LSHEDEEVEW SLNGMPLYND SFHEISHKGR RHTLVLKSIQ RADAGIVRAS SLKVSTSARL
+     EVRVKPVVFL KALDDLSAEE RGTLALQCEV SDPEAHVVWR KDGVQLGPSD KYDFLHTAGT
+     RGLVVHDVSP EDAGLYTCHV GSEETRARVR VHDLHVGITK RLKTMEVLEG ESCSFECVLS
+     HESASDPAMW TVGGKTVGSS SRFQATRQGR KYILVVREAA PSDAGEVVFS VRGLTSKASL
+     IVRERPAAII KPLEDQWVAP GEDVELRCEL SRAGTPVHWL KDRKAIRKSQ KYDVVCEGTM
+     AMLVIRGASL KDAGEYTCEV EASKSTASLH VEEKANCFTE ELTNLQVEEK GTAVFTCKTE
+     HPAATVTWRK GLLELRASGK HQPSQEGLTL RLTISALEKA DSDTYTCDIG QAQSRAQLLV
+     QGRRVHIIED LEDVDVQEGS SATFRCRISP ANYEPVHWFL DKTPLHANEL NEIDAQPGGY
+     HVLTLRQLAL KDSGTIYFEA GDQRASAALR VTEKPSVFSR ELTDATITEG EDLTLVCETS
+     TCDIPVCWTK DGKTLRGSAR CQLSHEGHRA QLLITGATLQ DSGRYKCEAG GACSSSIVRV
+     HARPVRFQEA LKDLEVLEGG AATLRCVLSS VAAPVKWCYG NNVLRPGDKY SLRQEGAMLE
+     LVVRNLRPQD SGRYSCSFGD QTTSATLTVT ALPAQFIGKL RNKEATEGAT ATLRCELSKA
+     APVEWRKGSE TLRDGDRYCL RQDGAMCELQ IRGLAMVDAA EYSCVCGEER TSASLTIRPM
+     PAHFIGRLRH QESIEGATAT LRCELSKAAP VEWRKGRESL RDGDRHSLRQ DGAVCELQIC
+     GLAVADAGEY SCVCGEERTS ATLTVKALPA KFTEGLRNEE AVEGATAMLW CELSKVAPVE
+     WRKGPENLRD GDRYILRQEG TRCELQICGL AMADAGEYLC VCGQERTSAT LTIRALPARF
+     IEDVKNQEAR EGATAVLQCE LNSAAPVEWR KGSETLRDGD RYSLRQDGTK CELQIRGLAM
+     ADTGEYSCVC GQERTSAMLT VRALPIKFTE GLRNEEATEG ATAVLRCELS KMAPVEWWKG
+     HETLRDGDRH SLRQDGARCE LQIRGLVAED AGEYLCMCGK ERTSAMLTVR AMPSKFIEGL
+     RNEEATEGDT ATLWCELSKA APVEWRKGHE TLRDGDRHSL RQDGSRCELQ IRGLAVVDAG
+     EYSCVCGQER TSATLTVRAL PARFIEDVKN QEAREGATAV LQCELSKAAP VEWRKGSETL
+     RGGDRYSLRQ DGTRCELQIH GLSVADTGEY SCVCGQERTS ATLTVRAPQP VFREPLQSLQ
+     AEEGSTATLQ CELSEPTATV VWSKGGLQLQ ANGRREPRLQ GCTAELVLQD LQREDTGEYT
+     CTCGSQATSA TLTVTAAPVR FLRELQHQEV DEGGTAHLCC ELSRAGASVE WRKGSLQLFP
+     CAKYQMVQDG AAAELLVRGV EQEDAGDYTC DTGHTQSMAS LSVRVPRPKF KTRLQSLEQE
+     TGDIARLCCQ LSDAESGAVV QWLKEGVELH AGPKYEMRSQ GATRELLIHQ LEAKDTGEYA
+     CVTGGQKTAA SLRVTEPEVT IVRGLVDAEV TADEDVEFSC EVSRAGATGV QWCLQGLPLQ
+     SNEVTEVAVR DGRIHTLRLK GVTPEDAGTV SFHLGNHASS AQLTVRAPEV TILEPLQDVQ
+     LSEGQDASFQ CRLSRASGQE ARWALGGVPL QANEMNDITV EQGTLHLLTL HKVTLEDAGT
+     VSFHVGTCSS EAQLKVTAKN TVVRGLENVE ALEGGEALFE CQLSQPEVAA HTWLLDDEPV
+     HTSENAEVVF FENGLRHLLL LKNLRPQDSC RVTFLAGDMV TSAFLTVRGW RLEILEPLKN
+     AAVRAGAQAC FTCTLSEAVP VGEASWYING AAVQPDDSDW TVTADGSHHA LLLRSAQPHH
+     AGEVTFACRD AVASARLTVL GLPDPPEDAE VVARSSHTVT LSWAAPMSDG GGGLCGYRVE
+     VKEGATGQWR LCHELVPGPE CVVDGLAPGE TYRFRVAAVG PVGAGEPVHL PQTVRLAEPP
+     KPVPPQPSAP ESRQVAAGED VSLELEVVAE AGEVIWHKGM ERIQPGGRFE VVSQGRQQML
+     VIKGFTAEDQ GEYHCGLAQG SICPAAATFQ VALSPASVDE APQPSLPPEA AQEGDLHLLW
+     EALARKRRMS REPTLDSISE LPEEDGRSQR LPQEAEEVAP DLSEGYSTAD ELARTGDADL
+     SHTSSDDESR AGTPSLVTYL KKAGRPGTSP LASKVGAPAA PSVKPQQQQE PLAAVRPPLG
+     DLSTKDLGDP SMDKAAVKIQ AAFKGYKVRK EMKQQEGPMF SHTFGDTEAQ VGDALRLECV
+     VASKADVRAR WLKDGVELTD GRHHHIDQLG DGTCSLLITG LDRADAGCYT CQVSNKFGQV
+     THSACVVVSG SESEAESSSG GELDDAFRRA ARRLHRLFRT KSPAEVSDEE LFLSADEGPA
+     EPEEPADWQT YREDEHFICI RFEALTEARQ AVTRFQEMFA TLGIGVEIKL VEQGPRRVEM
+     CISKETPAPV VPPEPLPSLL TSDAAPVFLT ELQNQEVQDG YPVSFDCVVT GQPMPSVRWF
+     KDGKLLEEDD HYMINEDQQG GHQLIITAVV PADMGVYRCL AENSMGVSST KAELRVDLTS
+     TDYDTAADAT ESSSYFSAQG YLSSREQEGT ESTTDEGQLP QVVEELRDLQ VAPGTRLAKF
+     QLKVKGYPAP RLYWFKDGQP LTASAHIRMT DKKILHTLEI ISVTREDSGQ YAAYISNAMG
+     AAYSSARLLV RGPDEPEEKP ASDVHEQLVP PRMLERFTPK KVKKGSSITF SVKVEGRPVP
+     TVHWLREEAE RGVLWIGPDT PGYTVASSAQ QHSLVLLDVG RQHQGTYTCI ASNAAGQALC
+     SASLHVSGLP KVEEQEKVKE ALISTFLQGT TQAISAQGLE TASFADLGGQ RKEEPLAAKE
+     ALGHLSLAEV GTEEFLQKLT SQITEMVSAK ITQAKLQVPG GDSDEDSKTP SASPRHGRSR
+     PSSSIQESSS ESEDGDARGE IFDIYVVTAD YLPLGAEQDA ITLREGQYVE VLDAAHPLRW
+     LVRTKPTKSS PSRQGWVSPA YLDRRLKLSP EWGAAEAPEF PGEAVSEDEY KARLSSVIQE
+     LLSSEQAFVE ELQFLQSHHL QHLERCPHVP IAVAGQKAVI FRNVRDIGRF HSSFLQELQQ
+     CDTDDDVAMC FIKNQAAFEQ YLEFLVGRVQ AESVVVSTAI QEFYKKYAEE ALLAGDPSQP
+     PPPPLQHYLE QPVERVQRYQ ALLKELIRNK ARNRQNCALL EQAYAVVSAL PQRAENKLHV
+     SLMENYPGTL QALGEPIRQG HFIVWEGAPG ARMPWKGHNR HVFLFRNHLV ICKPRRDSRT
+     DTVSYVFRNM MKLSSIDLND QVEGDDRAFE VWQEREDSVR KYLLQARTAI IKSSWVKEIC
+     GIQQRLALPV WRPPDFEEEL ADCTAELGET VKLACRVTGT PKPVISWYKD GKAVQVDPHH
+     ILIEDPDGSC ALILDSLTGV DSGQYMCFAA SAAGNCSTLG KILVQVPPRF VNKVRASPFV
+     EGEDAQFTCT IEGAPYPQIR WYKDGALLTT GNKFQTLSEP RSGLLVLVIR AASKEDLGLY
+     ECELVNRLGS ARASAELRIQ SPMLQAQEQC HREQLVAAVE DTTLERADQE VTSVLKRLLG
+     PKAPGPSTGD LTGPGPCPRG APALQETGSQ PPVTGTSEAP AVPPRVPQPL LHEGPEQEPE
+     AIARAQEWTV PIRMEGAAWP GAGTGELLWD VHSHVVRETT QRTYTYQAID THTARPPSMQ
+     VTIEDVQAQT GGTAQFEAII EGDPQPSVTW YKDSVQLVDS TRLSQQQEGT TYSLVLRHVA
+     SKDAGVYTCL AQNTGGQVLC KAELLVLGGD NEPDSEKQSH RRKLHSFYEV KEEIGRGVFG
+     FVKRVQHKGN KILCAAKFIP LRSRTRAQAY RERDILAALS HPLVTGLLDQ FETRKTLILI
+     LELCSSEELL DRLYRKGVVT EAEVKVYIQQ LVEGLHYLHS HGVLHLDIKP SNILMVHPAR
+     EDIKICDFGF AQNITPAELQ FSQYGSPEFV SPEIIQQNPV SEASDIWAMG VISYLSLTCS
+     SPFAGESDRA TLLNVLEGRV SWSSPMAAHL SEDAKDFIKA TLQRAPQARP SAAQCLSHPW
+     FLKSMPAEEA HFINTKQLKF LLARSRWQRS LMSYKSILVM RSIPELLRGP PDSPSLGVAR
+     HLCRDTGGSS SSSSSSDNEL APFARAKSLP PSPVTHSPLL HPRGFLRPSA SLPEEAEASE
+     RSTEAPAPPA SPEGAGPPAA QGCVPRHSVI RSLFYHQAGE SPEHGALAPG SRRHPARRRH
+     LLKGGYIAGA LPGLREPLME HRVLEEEAAR EEQATLLAKA PSFETALRLP ASGTHLAPGH
+     SHSLEHDSPS TPRPSSEACG EAQRLPSAPS GGAPIRDMGH PQGSKQLPST GGHPGTAQPE
+     RPSPDSPWGQ PAPFCHPKQG SAPQEGCSPH PAVAPCPPGS FPPGSCKEAP LVPSSPFLGQ
+     PQAPPAPAKA SPPLDSKMGP GDISLPGRPK PGPCSSPGSA SQASSSQVSS LRVGSSQVGT
+     EPGPSLDAEG WTQEAEDLSD STPTLQRPQE QATMRKFSLG GRGGYAGVAG YGTFAFGGDA
+     GGMLGQGPMW ARIAWAVSQS EEEEQEEARA ESQSEEQQEA RAESPLPQVS ARPVPEVGRA
+     PTRSSPEPTP WEDIGQVSLV QIRDLSGDAE AADTISLDIS EVDPAYLNLS DLYDIKYLPF
+     EFMIFRKVPK SAQPEPPSPM AEEELAEFPE PTWPWPGELG PHAGLEITEE SEDVDALLAE
+     AAVGRKRKWS SPSRSLFHFP GRHLPLDEPA ELGLRERVKA SVEHISRILK GRPEGLEKEG
+     PPRKKPGLAS FRLSGLKSWD RAPTFLRELS DETVVLGQSV TLACQVSAQP AAQATWSKDG
+     APLESSSRVL ISATLKNFQL LTILVVVAED LGVYTCSVSN ALGTVTTTGV LRKAERPSSS
+     PCPDIGEVYA DGVLLVWKPV ESYGPVTYIV QCSLEGGSWT TLASDIFDCC YLTSKLSRGG
+     TYTFRTACVS KAGMGPYSSP SEQVLLGGPS HLASEEESQG RSAQPLPSTK TFAFQTQIQR
+     GRFSVVRQCW EKASGRALAA KIIPYHPKDK TAVLREYEAL KGLRHPHLAQ LHAAYLSPRH
+     LVLILELCSG PELLPCLAER ASYSESEVKD YLWQMLSATQ YLHNQHILHL DLRSENMIIT
+     EYNLLKVVDL GNAQSLSQEK VLPSDKFKDY LETMAPELLE GQGAVPQTDI WAIGVTAFIM
+     LSAEYPVSSE GARDLQRGLR KGLVRLSRCY AGLSGGAVAF LRSTLCAQPW GRPCASSCLQ
+     CPWLTEEGPA CSRPAPVTFP TARLRVFVRN REKRRALLYK RHNLAQVR
+//

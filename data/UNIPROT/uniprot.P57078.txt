@@ -1,0 +1,197 @@
+ID   RIPK4_HUMAN             Reviewed;         832 AA.
+AC   P57078; Q96KH0;
+DT   01-DEC-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2000, sequence version 1.
+DT   02-NOV-2010, entry version 92.
+DE   RecName: Full=Receptor-interacting serine/threonine-protein kinase 4;
+DE            EC=2.7.11.1;
+DE   AltName: Full=Ankyrin repeat domain-containing protein 3;
+DE   AltName: Full=PKC-delta-interacting protein kinase;
+GN   Name=RIPK4; Synonyms=ANKRD3, DIK;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2).
+RC   TISSUE=Fetal kidney, and Fetal lung;
+RA   Shimizu N., Kudoh J., Shibuya K.;
+RL   Submitted (AUG-2000) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   MEDLINE=20289799; PubMed=10830953; DOI=10.1038/35012518;
+RA   Hattori M., Fujiyama A., Taylor T.D., Watanabe H., Yada T.,
+RA   Park H.-S., Toyoda A., Ishii K., Totoki Y., Choi D.-K., Groner Y.,
+RA   Soeda E., Ohki M., Takagi T., Sakaki Y., Taudien S., Blechschmidt K.,
+RA   Polley A., Menzel U., Delabar J., Kumpf K., Lehmann R., Patterson D.,
+RA   Reichwald K., Rump A., Schillhabel M., Schudy A., Zimmermann W.,
+RA   Rosenthal A., Kudoh J., Shibuya K., Kawasaki K., Asakawa S.,
+RA   Shintani A., Sasaki T., Nagamine K., Mitsuyama S., Antonarakis S.E.,
+RA   Minoshima S., Shimizu N., Nordsiek G., Hornischer K., Brandt P.,
+RA   Scharfe M., Schoen O., Desario A., Reichelt J., Kauer G., Bloecker H.,
+RA   Ramser J., Beck A., Klages S., Hennig S., Riesselmann L., Dagand E.,
+RA   Wehrmeyer S., Borzym K., Gardiner K., Nizetic D., Francis F.,
+RA   Lehrach H., Reinhardt R., Yaspo M.-L.;
+RT   "The DNA sequence of human chromosome 21.";
+RL   Nature 405:311-319(2000).
+RN   [3]
+RP   CLEAVAGE AT ASP-388 AND ASP-426, INTERACTION WITH TRAF1; TRAF2; TRAF3
+RP   AND TRAF5, AND FUNCTION.
+RX   PubMed=12446564; DOI=10.1093/embo-reports/kvf236;
+RA   Meylan E., Martinon F., Thome M., Gschwendt M., Tschopp J.;
+RT   "RIP4 (DIK/PKK), a novel member of the RIP kinase family, activates
+RT   NF-kappa B and is processed during apoptosis.";
+RL   EMBO Rep. 3:1201-1208(2002).
+RN   [4]
+RP   VARIANTS [LARGE SCALE ANALYSIS] ASN-462; MET-463; TYR-562; HIS-669 AND
+RP   SER-749.
+RX   PubMed=17344846; DOI=10.1038/nature05610;
+RA   Greenman C., Stephens P., Smith R., Dalgliesh G.L., Hunter C.,
+RA   Bignell G., Davies H., Teague J., Butler A., Stevens C., Edkins S.,
+RA   O'Meara S., Vastrik I., Schmidt E.E., Avis T., Barthorpe S.,
+RA   Bhamra G., Buck G., Choudhury B., Clements J., Cole J., Dicks E.,
+RA   Forbes S., Gray K., Halliday K., Harrison R., Hills K., Hinton J.,
+RA   Jenkinson A., Jones D., Menzies A., Mironenko T., Perry J., Raine K.,
+RA   Richardson D., Shepherd R., Small A., Tofts C., Varian J., Webb T.,
+RA   West S., Widaa S., Yates A., Cahill D.P., Louis D.N., Goldstraw P.,
+RA   Nicholson A.G., Brasseur F., Looijenga L., Weber B.L., Chiew Y.-E.,
+RA   DeFazio A., Greaves M.F., Green A.R., Campbell P., Birney E.,
+RA   Easton D.F., Chenevix-Trench G., Tan M.-H., Khoo S.K., Teh B.T.,
+RA   Yuen S.T., Leung S.Y., Wooster R., Futreal P.A., Stratton M.R.;
+RT   "Patterns of somatic mutation in human cancer genomes.";
+RL   Nature 446:153-158(2007).
+CC   -!- FUNCTION: Plays a role in NF-kappa B activation.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- SUBUNIT: Interacts with PRKCB (By similarity). Interacts with
+CC       TRAF1, TRAF2, TRAF3 and TRAF5.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm. Membrane; Peripheral membrane
+CC       protein (By similarity).
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=P57078-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=P57078-2; Sequence=VSP_004862;
+CC   -!- PTM: May be phosphorylated by MAP3K2 and MAP3K3 (By similarity).
+CC   -!- PTM: Proteolytically cleaved by during Fas-induced apoptosis.
+CC       Cleavage at Asp-388 and Asp-426.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. TKL Ser/Thr
+CC       protein kinase family.
+CC   -!- SIMILARITY: Contains 10 ANK repeats.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AB047783; BAB56136.1; -; mRNA.
+DR   EMBL; AP001743; BAA95526.1; -; Genomic_DNA.
+DR   IPI; IPI00025714; -.
+DR   IPI; IPI00215935; -.
+DR   UniGene; Hs.517310; -.
+DR   ProteinModelPortal; P57078; -.
+DR   SMR; P57078; 18-277, 460-813.
+DR   STRING; P57078; -.
+DR   PhosphoSite; P57078; -.
+DR   PRIDE; P57078; -.
+DR   Ensembl; ENST00000352483; ENSP00000330161; ENSG00000183421.
+DR   UCSC; uc002yzn.1; human.
+DR   GeneCards; GC21M043159; -.
+DR   HGNC; HGNC:496; RIPK4.
+DR   HPA; HPA021158; -.
+DR   MIM; 605706; gene.
+DR   PharmGKB; PA24805; -.
+DR   eggNOG; prNOG05962; -.
+DR   HOGENOM; HBG444289; -.
+DR   HOVERGEN; HBG061582; -.
+DR   InParanoid; P57078; -.
+DR   OMA; ARNGHLA; -.
+DR   OrthoDB; EOG9DFS80; -.
+DR   PhylomeDB; P57078; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   ArrayExpress; P57078; -.
+DR   Bgee; P57078; -.
+DR   CleanEx; HS_RIPK4; -.
+DR   Genevestigator; P57078; -.
+DR   GermOnline; ENSG00000183421; Homo sapiens.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0004872; F:receptor activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006468; P:protein amino acid phosphorylation; IEA:InterPro.
+DR   InterPro; IPR002110; Ankyrin_rpt.
+DR   InterPro; IPR020683; Ankyrin_rpt-contain_dom.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   Gene3D; G3DSA:1.25.40.20; ANK; 5.
+DR   Pfam; PF00023; Ank; 10.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00248; ANK; 10.
+DR   SUPFAM; SSF48403; ANK; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS50297; ANK_REP_REGION; 1.
+DR   PROSITE; PS50088; ANK_REPEAT; 9.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; ANK repeat; ATP-binding; Complete proteome;
+KW   Cytoplasm; Kinase; Membrane; Nucleotide-binding; Phosphoprotein;
+KW   Polymorphism; Receptor; Repeat; Serine/threonine-protein kinase;
+KW   Transferase.
+FT   CHAIN         1    832       Receptor-interacting serine/threonine-
+FT                                protein kinase 4.
+FT                                /FTId=PRO_0000086613.
+FT   DOMAIN       22    286       Protein kinase.
+FT   REPEAT      485    514       ANK 1.
+FT   REPEAT      518    547       ANK 2.
+FT   REPEAT      551    580       ANK 3.
+FT   REPEAT      584    613       ANK 4.
+FT   REPEAT      617    647       ANK 5.
+FT   REPEAT      651    680       ANK 6.
+FT   REPEAT      684    713       ANK 7.
+FT   REPEAT      717    746       ANK 8.
+FT   REPEAT      750    780       ANK 9.
+FT   REPEAT      782    811       ANK 10.
+FT   NP_BIND      28     36       ATP (By similarity).
+FT   ACT_SITE    143    143       Proton acceptor (By similarity).
+FT   BINDING      51     51       ATP (By similarity).
+FT   SITE        388    389       Cleavage.
+FT   SITE        426    427       Cleavage.
+FT   VAR_SEQ     278    325       Missing (in isoform 2).
+FT                                /FTId=VSP_004862.
+FT   VARIANT      12     12       A -> G (in dbSNP:rs6586239).
+FT                                /FTId=VAR_030160.
+FT   VARIANT     177    177       S -> N (in dbSNP:rs12482626).
+FT                                /FTId=VAR_030161.
+FT   VARIANT     462    462       I -> N.
+FT                                /FTId=VAR_041050.
+FT   VARIANT     463    463       V -> M.
+FT                                /FTId=VAR_041051.
+FT   VARIANT     562    562       N -> Y.
+FT                                /FTId=VAR_041052.
+FT   VARIANT     669    669       R -> H.
+FT                                /FTId=VAR_041053.
+FT   VARIANT     749    749       P -> S.
+FT                                /FTId=VAR_041054.
+FT   CONFLICT    714    714       M -> V (in Ref. 1; BAB56136).
+SQ   SEQUENCE   832 AA;  91611 MW;  5D8FFFD5F04F7ECB CRC64;
+     MEGDGGTPWA LALLRTFDAG EFTGWEKVGS GGFGQVYKVR HVHWKTWLAI KCSPSLHVDD
+     RERMELLEEA KKMEMAKFRY ILPVYGICRE PVGLVMEYME TGSLEKLLAS EPLPWDLRFR
+     IIHETAVGMN FLHCMAPPLL HLDLKPANIL LDAHYHVKIS DFGLAKCNGL SHSHDLSMDG
+     LFGTIAYLPP ERIREKSRLF DTKHDVYSFA IVIWGVLTQK KPFADEKNIL HIMVKVVKGH
+     RPELPPVCRA RPRACSHLIR LMQRCWQGDP RVRPTFQGNG LNGELIRQVL AALLPVTGRW
+     RSPGEGFRLE SEVIIRVTCP LSSPQEITSE TEDLCEKPDD EVKETAHDLD VKSPPEPRSE
+     VVPARLKRAS APTFDNDYSL SELLSQLDSG VSQAVEGPEE LSRSSSESKL PSSGSGKRLS
+     GVSSVDSAFS SRGSLSLSFE REPSTSDLGT TDVQKKKLVD AIVSGDTSKL MKILQPQDVD
+     LALDSGASLL HLAVEAGQEE CAKWLLLNNA NPNLSNRRGS TPLHMAVERR VRGVVELLLA
+     RKISVNAKDE DQWTALHFAA QNGDESSTRL LLEKNASVNE VDFEGRTPMH VACQHGQENI
+     VRILLRRGVD VSLQGKDAWL PLHYAAWQGH LPIVKLLAKQ PGVSVNAQTL DGRTPLHLAA
+     QRGHYRVARI LIDLCSDVNV CSLLAQTPLH VAAETGHTST ARLLLHRGAG KEAMTSDGYT
+     ALHLAARNGH LATVKLLVEE KADVLARGPL NQTALHLAAA HGHSEVVEEL VSADVIDLFD
+     EQGLSALHLA AQGRHAQTVE TLLRHGAHIN LQSLKFQGGH GPAATLLRRS KT
+//

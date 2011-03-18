@@ -1,0 +1,460 @@
+ID   PDPK1_HUMAN             Reviewed;         556 AA.
+AC   O15530; Q6FI20;
+DT   18-OCT-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1998, sequence version 1.
+DT   02-NOV-2010, entry version 123.
+DE   RecName: Full=3-phosphoinositide-dependent protein kinase 1;
+DE            Short=hPDK1;
+DE            EC=2.7.11.1;
+GN   Name=PDPK1; Synonyms=PDK1;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RX   MEDLINE=97250749; PubMed=9094314; DOI=10.1016/S0960-9822(06)00122-9;
+RA   Alessi D.R., James S.R., Downes C.P., Holmes A.B., Gaffney P.R.J.,
+RA   Reese C.B., Cohen P.;
+RT   "Characterization of a 3-phosphoinositide-dependent protein kinase
+RT   which phosphorylates and activates protein kinase B alpha.";
+RL   Curr. Biol. 7:261-269(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+RX   MEDLINE=98035195; PubMed=9368760; DOI=10.1016/S0960-9822(06)00336-8;
+RA   Alessi D.R., Deak M., Casamayor A., Caudwell F.B., Morrice N.A.,
+RA   Norman D.G., Gaffney P.R.J., Reese C.B., MacDougall C.N., Harbison D.,
+RA   Ashworth A., Bownes M.;
+RT   "3-phosphoinositide-dependent protein kinase-1 (PDK1): structural and
+RT   functional homology with the Drosophila DSTPK61 kinase.";
+RL   Curr. Biol. 7:776-789(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1 AND 3).
+RC   TISSUE=Myeloid;
+RX   MEDLINE=98111410; PubMed=9445477; DOI=10.1126/science.279.5351.710;
+RA   Stephens L.R., Anderson K.E., Stokoe D., Erdjument-Bromage H.,
+RA   Painter G.F., Holmes A.B., Gaffney P.R.J., Reese C.B., McCormick F.,
+RA   Tempst P., Coadwell W.J., Hawkins P.T.;
+RT   "Protein kinase B kinases that mediate phosphatidylinositol 3,4,5-
+RT   trisphosphate-dependent activation of protein kinase B.";
+RL   Science 279:710-714(1998).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RA   Ebert L., Schick M., Neubert P., Schatten R., Henze S., Korn B.;
+RT   "Cloning of human full open reading frames in Gateway(TM) system entry
+RT   vector (pDONR201).";
+RL   Submitted (JUN-2004) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   TISSUE=Kidney;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [6]
+RP   PROTEIN SEQUENCE OF 60-75; 87-100; 184-199; 239-257 AND 284-293,
+RP   PHOSPHORYLATION AT SER-241, AND MASS SPECTROMETRY.
+RC   TISSUE=Embryonic kidney;
+RA   Bienvenut W.V., Waridel P., Quadroni M.;
+RL   Submitted (MAR-2009) to UniProtKB.
+RN   [7]
+RP   MUTAGENESIS OF ARG-474, AND ALTERNATIVE SPLICING.
+RX   MEDLINE=98301766; PubMed=9637919; DOI=10.1016/S0960-9822(98)70274-X;
+RA   Anderson K.E., Coadwell W.J., Stephens L.R., Hawkins P.T.;
+RT   "Translocation of PDK-1 to the plasma membrane is important in
+RT   allowing PDK-1 to activate protein kinase B.";
+RL   Curr. Biol. 8:684-691(1998).
+RN   [8]
+RP   PHOSPHORYLATION AT SER-25; SER-241; SER-393; SER-396 AND SER-410, AND
+RP   MUTAGENESIS OF SER-25; SER-241; SER-393; SER-396 AND SER-410.
+RX   MEDLINE=99386657; PubMed=10455013; DOI=10.1042/0264-6021:3420287;
+RA   Casamayor A., Morrice N.A., Alessi D.R.;
+RT   "Phosphorylation of Ser-241 is essential for the activity of 3-
+RT   phosphoinositide-dependent protein kinase-1: identification of five
+RT   sites of phosphorylation in vivo.";
+RL   Biochem. J. 342:287-292(1999).
+RN   [9]
+RP   MUTAGENESIS OF ALA-277.
+RX   MEDLINE=99292684; PubMed=10364160;
+RA   Paradis S., Ailion M., Toker A., Thomas J.H., Ruvkun G.;
+RT   "A PDK1 homolog is necessary and sufficient to transduce AGE-1 PI3
+RT   kinase signals that regulate diapause in Caenorhabditis elegans.";
+RL   Genes Dev. 13:1438-1452(1999).
+RN   [10]
+RP   PHOSPHORYLATION AT TYR-9; SER-241; TYR-373 AND TYR-376, AND
+RP   MUTAGENESIS OF TYR-9; TYR-373 AND TYR-376.
+RX   MEDLINE=21463095; PubMed=11481331; DOI=10.1074/jbc.M105916200;
+RA   Park J., Hill M.M., Hess D., Brazil D.P., Hofsteenge J.,
+RA   Hemmings B.A.;
+RT   "Identification of tyrosine phosphorylation sites on 3-
+RT   phosphoinositide-dependent protein kinase-1 (PDK1) and their role in
+RT   regulating kinase activity.";
+RL   J. Biol. Chem. 276:37459-37471(2001).
+RN   [11]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-241, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=15302935; DOI=10.1073/pnas.0404720101;
+RA   Beausoleil S.A., Jedrychowski M., Schwartz D., Elias J.E., Villen J.,
+RA   Li J., Cohn M.A., Cantley L.C., Gygi S.P.;
+RT   "Large-scale characterization of HeLa cell nuclear phosphoproteins.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:12130-12135(2004).
+RN   [12]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-245, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=17081983; DOI=10.1016/j.cell.2006.09.026;
+RA   Olsen J.V., Blagoev B., Gnad F., Macek B., Kumar C., Mortensen P.,
+RA   Mann M.;
+RT   "Global, in vivo, and site-specific phosphorylation dynamics in
+RT   signaling networks.";
+RL   Cell 127:635-648(2006).
+RN   [13]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-241, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Pituitary;
+RX   PubMed=16807684; DOI=10.1007/s11102-006-8916-x;
+RA   Beranova-Giorgianni S., Zhao Y., Desiderio D.M., Giorgianni F.;
+RT   "Phosphoproteomic analysis of the human pituitary.";
+RL   Pituitary 9:109-120(2006).
+RN   [14]
+RP   INTERACTION WITH NPRL2.
+RX   PubMed=18616680; DOI=10.1111/j.1349-7006.2008.00874.x;
+RA   Kurata A., Katayama R., Watanabe T., Tsuruo T., Fujita N.;
+RT   "TUSC4/NPRL2, a novel PDK1-interacting protein, inhibits PDK1 tyrosine
+RT   phosphorylation and its downstream signaling.";
+RL   Cancer Sci. 99:1827-1834(2008).
+RN   [15]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-37 AND SER-241, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18691976; DOI=10.1016/j.molcel.2008.07.007;
+RA   Daub H., Olsen J.V., Bairlein M., Gnad F., Oppermann F.S., Korner R.,
+RA   Greff Z., Keri G., Stemmann O., Mann M.;
+RT   "Kinase-selective enrichment enables quantitative phosphoproteomics of
+RT   the kinome across the cell cycle.";
+RL   Mol. Cell 31:438-448(2008).
+RN   [16]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-241, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Cervix carcinoma;
+RX   PubMed=18669648; DOI=10.1073/pnas.0805139105;
+RA   Dephoure N., Zhou C., Villen J., Beausoleil S.A., Bakalarski C.E.,
+RA   Elledge S.J., Gygi S.P.;
+RT   "A quantitative atlas of mitotic phosphorylation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:10762-10767(2008).
+RN   [17]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-37 AND SER-241, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Embryonic kidney;
+RX   PubMed=19413330; DOI=10.1021/ac9004309;
+RA   Gauci S., Helbig A.O., Slijper M., Krijgsveld J., Heck A.J.,
+RA   Mohammed S.;
+RT   "Lys-N and trypsin cover complementary parts of the phosphoproteome in
+RT   a refined SCX-based approach.";
+RL   Anal. Chem. 81:4493-4501(2009).
+RN   [18]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-35 AND SER-241, AND MASS
+RP   SPECTROMETRY.
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [19]
+RP   PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-241, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Leukemic T-cell;
+RX   PubMed=19690332; DOI=10.1126/scisignal.2000007;
+RA   Mayya V., Lundgren D.H., Hwang S.-I., Rezaul K., Wu L., Eng J.K.,
+RA   Rodionov V., Han D.K.;
+RT   "Quantitative phosphoproteomic analysis of T cell receptor signaling
+RT   reveals system-wide modulation of protein-protein interactions.";
+RL   Sci. Signal. 2:RA46-RA46(2009).
+RN   [20]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT LYS-304, AND MASS SPECTROMETRY.
+RX   PubMed=19608861; DOI=10.1126/science.1175371;
+RA   Choudhary C., Kumar C., Gnad F., Nielsen M.L., Rehman M., Walther T.,
+RA   Olsen J.V., Mann M.;
+RT   "Lysine acetylation targets protein complexes and co-regulates major
+RT   cellular functions.";
+RL   Science 325:834-840(2009).
+CC   -!- FUNCTION: Phosphorylates and activates not only PKB/AKT, but also
+CC       PKA, PKC-zeta, RPS6KA1 and RPS6KB1. May play a general role in
+CC       signaling processes and in development (By similarity). Isoform 3
+CC       is catalytically inactive.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- SUBUNIT: Interacts with NPRL2.
+CC   -!- INTERACTION:
+CC       Q05209:PTPN12; NbExp=1; IntAct=EBI-717097, EBI-2266035;
+CC       Q9Y2R2:PTPN22; NbExp=1; IntAct=EBI-717097, EBI-1211241;
+CC       P23467:PTPRB; NbExp=1; IntAct=EBI-717097, EBI-1265766;
+CC       P08575:PTPRC; NbExp=1; IntAct=EBI-717097, EBI-1341;
+CC       P23470:PTPRG; NbExp=1; IntAct=EBI-717097, EBI-2258115;
+CC       Q12913:PTPRJ; NbExp=1; IntAct=EBI-717097, EBI-2264500;
+CC       Q15262:PTPRK; NbExp=1; IntAct=EBI-717097, EBI-474052;
+CC       Q16827:PTPRO; NbExp=1; IntAct=EBI-717097, EBI-723739;
+CC       O00141:SGK1; NbExp=1; IntAct=EBI-717097, EBI-1042854;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm. Membrane; Peripheral membrane
+CC       protein. Note=Membrane-associated after cell stimulation leading
+CC       to its translocation. Tyrosine phosphorylation seems to occur only
+CC       at the plasma membrane.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=3;
+CC       Name=1;
+CC         IsoId=O15530-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=O15530-2; Sequence=VSP_004894;
+CC       Name=3;
+CC         IsoId=O15530-3; Sequence=VSP_004895;
+CC   -!- TISSUE SPECIFICITY: Appears to be expressed ubiquitously.
+CC   -!- PTM: Phosphorylated on tyrosine and serine/threonine.
+CC       Phosphorylation on Ser-241 in the activation loop is required for
+CC       full activity. PDK1 itself can autophosphorylate Ser-241, leading
+CC       to its own activation.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. AGC Ser/Thr
+CC       protein kinase family. PDK1 subfamily.
+CC   -!- SIMILARITY: Contains 1 PH domain.
+CC   -!- SIMILARITY: Contains 1 protein kinase domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF017995; AAC51825.1; -; mRNA.
+DR   EMBL; Y15056; CAA75341.1; -; mRNA.
+DR   EMBL; CR536517; CAG38755.1; -; mRNA.
+DR   EMBL; BC012103; AAH12103.1; -; mRNA.
+DR   IPI; IPI00002538; -.
+DR   IPI; IPI00216646; -.
+DR   IPI; IPI00216647; -.
+DR   RefSeq; NP_002604.1; -.
+DR   RefSeq; NP_112558.2; -.
+DR   UniGene; Hs.459691; -.
+DR   PDB; 1H1W; X-ray; 2.00 A; A=71-359.
+DR   PDB; 1OKY; X-ray; 2.30 A; A=51-360.
+DR   PDB; 1OKZ; X-ray; 2.51 A; A=51-360.
+DR   PDB; 1UU3; X-ray; 1.70 A; A=51-360.
+DR   PDB; 1UU7; X-ray; 1.90 A; A=51-360.
+DR   PDB; 1UU8; X-ray; 2.50 A; A=51-360.
+DR   PDB; 1UU9; X-ray; 1.95 A; A=72-357.
+DR   PDB; 1UVR; X-ray; 2.81 A; A=71-359.
+DR   PDB; 1W1D; X-ray; 1.50 A; A=409-556.
+DR   PDB; 1W1G; X-ray; 1.45 A; A=409-556.
+DR   PDB; 1W1H; X-ray; 1.45 A; A/B/C/D=409-556.
+DR   PDB; 1Z5M; X-ray; 2.17 A; A=74-359.
+DR   PDB; 2BIY; X-ray; 1.95 A; A=51-360.
+DR   PDB; 2PE0; X-ray; 2.35 A; A=74-359.
+DR   PDB; 2PE1; X-ray; 2.14 A; A=74-359.
+DR   PDB; 2PE2; X-ray; 2.13 A; A=74-359.
+DR   PDB; 2R7B; X-ray; 2.70 A; A=48-359.
+DR   PDB; 2VKI; X-ray; 1.80 A; A=409-556.
+DR   PDB; 2XCH; X-ray; 2.00 A; A=51-359.
+DR   PDB; 2XCK; X-ray; 2.30 A; A=51-359.
+DR   PDB; 3H9O; X-ray; 2.30 A; A=51-359.
+DR   PDB; 3HRC; X-ray; 1.91 A; A=50-359.
+DR   PDB; 3HRF; X-ray; 1.90 A; A=50-359.
+DR   PDB; 3ION; X-ray; 2.40 A; A=48-359.
+DR   PDB; 3IOP; X-ray; 2.20 A; A=48-359.
+DR   PDBsum; 1H1W; -.
+DR   PDBsum; 1OKY; -.
+DR   PDBsum; 1OKZ; -.
+DR   PDBsum; 1UU3; -.
+DR   PDBsum; 1UU7; -.
+DR   PDBsum; 1UU8; -.
+DR   PDBsum; 1UU9; -.
+DR   PDBsum; 1UVR; -.
+DR   PDBsum; 1W1D; -.
+DR   PDBsum; 1W1G; -.
+DR   PDBsum; 1W1H; -.
+DR   PDBsum; 1Z5M; -.
+DR   PDBsum; 2BIY; -.
+DR   PDBsum; 2PE0; -.
+DR   PDBsum; 2PE1; -.
+DR   PDBsum; 2PE2; -.
+DR   PDBsum; 2R7B; -.
+DR   PDBsum; 2VKI; -.
+DR   PDBsum; 2XCH; -.
+DR   PDBsum; 2XCK; -.
+DR   PDBsum; 3H9O; -.
+DR   PDBsum; 3HRC; -.
+DR   PDBsum; 3HRF; -.
+DR   PDBsum; 3ION; -.
+DR   PDBsum; 3IOP; -.
+DR   ProteinModelPortal; O15530; -.
+DR   IntAct; O15530; 16.
+DR   MINT; MINT-203926; -.
+DR   STRING; O15530; -.
+DR   PhosphoSite; O15530; -.
+DR   PRIDE; O15530; -.
+DR   Ensembl; ENST00000342085; ENSP00000344220; ENSG00000140992.
+DR   GeneID; 5170; -.
+DR   KEGG; hsa:5170; -.
+DR   UCSC; uc002cqs.1; human.
+DR   CTD; 5170; -.
+DR   GeneCards; GC16P002527; -.
+DR   H-InvDB; HIX0202289; -.
+DR   HGNC; HGNC:8816; PDPK1.
+DR   HPA; CAB004272; -.
+DR   MIM; 605213; gene.
+DR   PharmGKB; PA33160; -.
+DR   eggNOG; prNOG14283; -.
+DR   HOGENOM; HBG755340; -.
+DR   HOVERGEN; HBG098357; -.
+DR   InParanoid; O15530; -.
+DR   OMA; HLQTPPK; -.
+DR   OrthoDB; EOG9Z390V; -.
+DR   PhylomeDB; O15530; -.
+DR   BRENDA; 2.7.11.1; 247.
+DR   Pathway_Interaction_DB; bcr_5pathway; BCR signaling pathway.
+DR   Pathway_Interaction_DB; pi3kcipathway; Class I PI3K signaling events.
+DR   Pathway_Interaction_DB; pi3kciaktpathway; Class I PI3K signaling events mediated by Akt.
+DR   Pathway_Interaction_DB; fgf_pathway; FGF signaling pathway.
+DR   Pathway_Interaction_DB; igf1_pathway; IGF1 pathway.
+DR   Pathway_Interaction_DB; insulin_pathway; Insulin Pathway.
+DR   Pathway_Interaction_DB; mtor_4pathway; mTOR signaling pathway.
+DR   Pathway_Interaction_DB; met_pathway; Signaling events activated by Hepatocyte Growth Factor Receptor (c-Met).
+DR   Pathway_Interaction_DB; kitpathway; Signaling events mediated by Stem cell factor receptor (c-Kit).
+DR   Pathway_Interaction_DB; vegfr1_2_pathway; Signaling events mediated by VEGFR1 and VEGFR2.
+DR   Pathway_Interaction_DB; tcrpathway; TCR signaling in naive CD4+ T cells.
+DR   Pathway_Interaction_DB; cd8tcrpathway; TCR signaling in naive CD8+ T cells.
+DR   Pathway_Interaction_DB; tgfbrpathway; TGF-beta receptor signaling.
+DR   Pathway_Interaction_DB; pi3kplctrkpathway; Trk receptor signaling mediated by PI3K and PLC-gamma.
+DR   Pathway_Interaction_DB; vegfr1_pathway; VEGFR1 specific signals.
+DR   Reactome; REACT_11061; Signalling by NGF.
+DR   Reactome; REACT_13685; Synaptic Transmission.
+DR   Reactome; REACT_14797; Signaling by GPCR.
+DR   Reactome; REACT_498; Signaling by Insulin receptor.
+DR   Reactome; REACT_604; Hemostasis.
+DR   Reactome; REACT_6900; Signaling in Immune system.
+DR   DrugBank; DB00482; Celecoxib.
+DR   NextBio; 20004; -.
+DR   ArrayExpress; O15530; -.
+DR   Bgee; O15530; -.
+DR   CleanEx; HS_PDK1; -.
+DR   CleanEx; HS_PDPK1; -.
+DR   Genevestigator; O15530; -.
+DR   GermOnline; ENSG00000140992; Homo sapiens.
+DR   GO; GO:0005829; C:cytosol; EXP:Reactome.
+DR   GO; GO:0005886; C:plasma membrane; IDA:UniProtKB.
+DR   GO; GO:0004676; F:3-phosphoinositide-dependent protein kinase...; IDA:BHF-UCL.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005515; F:protein binding; IPI:UniProtKB.
+DR   GO; GO:0030036; P:actin cytoskeleton organization; TAS:ProtInc.
+DR   GO; GO:0032148; P:activation of protein kinase B activity; IDA:BHF-UCL.
+DR   GO; GO:0032869; P:cellular response to insulin stimulus; IMP:BHF-UCL.
+DR   GO; GO:0023034; P:intracellular signaling pathway; IDA:MGI.
+DR   GO; GO:0006469; P:negative regulation of protein kinase activity; IDA:BHF-UCL.
+DR   GO; GO:0018107; P:peptidyl-threonine phosphorylation; IDA:BHF-UCL.
+DR   GO; GO:0090004; P:positive regulation of establishment of pro...; IMP:BHF-UCL.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR011993; PH_type.
+DR   InterPro; IPR000719; Prot_kinase_cat_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR017442; Se/Thr_prot_kinase-like_dom.
+DR   InterPro; IPR015746; Ser/Thr_kinase_PInositide-dep.
+DR   InterPro; IPR008271; Ser/Thr_prot_kinase_AS.
+DR   InterPro; IPR002290; Ser/Thr_prot_kinase_dom.
+DR   Gene3D; G3DSA:2.30.29.30; PH_type; 2.
+DR   PANTHER; PTHR22985:SF93; PK1_3-phosphoinositide; 1.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; Kinase_like; 1.
+DR   PROSITE; PS50003; PH_DOMAIN; FALSE_NEG.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylation; Alternative splicing; ATP-binding;
+KW   Complete proteome; Cytoplasm; Direct protein sequencing; Kinase;
+KW   Membrane; Nucleotide-binding; Phosphoprotein;
+KW   Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    556       3-phosphoinositide-dependent protein
+FT                                kinase 1.
+FT                                /FTId=PRO_0000086500.
+FT   DOMAIN       82    342       Protein kinase.
+FT   DOMAIN      459    550       PH.
+FT   NP_BIND      88     96       ATP (By similarity).
+FT   COMPBIAS    389    398       Poly-Ser.
+FT   ACT_SITE    205    205       Proton acceptor (By similarity).
+FT   BINDING     111    111       ATP (By similarity).
+FT   MOD_RES       9      9       Phosphotyrosine.
+FT   MOD_RES      25     25       Phosphoserine.
+FT   MOD_RES      35     35       Phosphoserine.
+FT   MOD_RES      37     37       Phosphothreonine.
+FT   MOD_RES     241    241       Phosphoserine; by autocatalysis.
+FT   MOD_RES     245    245       Phosphothreonine.
+FT   MOD_RES     304    304       N6-acetyllysine.
+FT   MOD_RES     373    373       Phosphotyrosine.
+FT   MOD_RES     376    376       Phosphotyrosine.
+FT   MOD_RES     393    393       Phosphoserine.
+FT   MOD_RES     396    396       Phosphoserine.
+FT   MOD_RES     410    410       Phosphoserine.
+FT   VAR_SEQ       1     50       Missing (in isoform 2).
+FT                                /FTId=VSP_004894.
+FT   VAR_SEQ     238    263       Missing (in isoform 3).
+FT                                /FTId=VSP_004895.
+FT   MUTAGEN       9      9       Y->F: Slight reduction in pervanadate-
+FT                                stimulated tyrosine phosphorylation.
+FT   MUTAGEN      25     25       S->A: No effect.
+FT   MUTAGEN     241    241       S->A: No activation.
+FT   MUTAGEN     277    277       A->V: 3-fold increase in kinase activity.
+FT   MUTAGEN     373    373       Y->F: Reduction in basal activity.
+FT   MUTAGEN     376    376       Y->F: Reduction in basal activity.
+FT   MUTAGEN     393    393       S->A: No effect.
+FT   MUTAGEN     396    396       S->A: No effect.
+FT   MUTAGEN     410    410       S->A: No effect.
+FT   MUTAGEN     474    474       R->A: No PDGF-dependent translocation to
+FT                                the membrane.
+FT   HELIX        79     81
+FT   STRAND       82     90
+FT   STRAND       95    101
+FT   TURN        102    104
+FT   STRAND      107    114
+FT   HELIX       115    120
+FT   HELIX       124    136
+FT   STRAND      145    150
+FT   STRAND      152    159
+FT   HELIX       167    174
+FT   HELIX       179    198
+FT   TURN        208    210
+FT   STRAND      211    213
+FT   STRAND      219    221
+FT   HELIX       246    248
+FT   HELIX       251    255
+FT   HELIX       261    277
+FT   HELIX       287    295
+FT   HELIX       307    314
+FT   HELIX       321    323
+FT   HELIX       328    330
+FT   HELIX       333    337
+FT   HELIX       340    342
+FT   HELIX       350    352
+FT   HELIX       412    415
+FT   STRAND      416    420
+FT   STRAND      423    426
+FT   HELIX       432    445
+FT   HELIX       449    451
+FT   TURN        452    454
+FT   STRAND      457    467
+FT   STRAND      470    479
+FT   TURN        480    482
+FT   STRAND      483    488
+FT   TURN        489    492
+FT   STRAND      493    498
+FT   STRAND      505    518
+FT   STRAND      521    526
+FT   HELIX       532    547
+SQ   SEQUENCE   556 AA;  63152 MW;  ED8C0306DC4D0653 CRC64;
+     MARTTSQLYD AVPIQSSVVL CSCPSPSMVR TQTESSTPPG IPGGSRQGPA MDGTAAEPRP
+     GAGSLQHAQP PPQPRKKRPE DFKFGKILGE GSFSTVVLAR ELATSREYAI KILEKRHIIK
+     ENKVPYVTRE RDVMSRLDHP FFVKLYFTFQ DDEKLYFGLS YAKNGELLKY IRKIGSFDET
+     CTRFYTAEIV SALEYLHGKG IIHRDLKPEN ILLNEDMHIQ ITDFGTAKVL SPESKQARAN
+     SFVGTAQYVS PELLTEKSAC KSSDLWALGC IIYQLVAGLP PFRAGNEYLI FQKIIKLEYD
+     FPEKFFPKAR DLVEKLLVLD ATKRLGCEEM EGYGPLKAHP FFESVTWENL HQQTPPKLTA
+     YLPAMSEDDE DCYGNYDNLL SQFGCMQVSS SSSSHSLSAS DTGLPQRSGS NIEQYIHDLD
+     SNSFELDLQF SEDEKRLLLE KQAGGNPWHQ FVENNLILKM GPVDKRKGLF ARRRQLLLTE
+     GPHLYYVDPV NKVLKGEIPW SQELRPEAKN FKTFFVHTPN RTYYLMDPSG NAHKWCRKIQ
+     EVWRQRYQSH PDAAVQ
+//
