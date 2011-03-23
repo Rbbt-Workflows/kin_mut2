@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "HELLO"
+name='svm_light'
+url="http://download.joachims.org/svm_light/current/svm_light.tar.gz"
+
+get_src "$name" "$url"
+
+mkdir $OPT_BUILD_DIR/$name
+mv $OPT_BUILD_DIR/* $OPT_BUILD_DIR/$name
+build $name
+
+

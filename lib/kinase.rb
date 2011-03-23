@@ -6,6 +6,8 @@ require 'rbbt/sources/organism'
 module Kinase
   extend WorkFlow
 
+  Rbbt.software.opt.svm_light.define_as_install Rbbt.share.install.software.svm_light.find
+
   task_option :list, "Lista de mutations", :string
   task :input => :string do |list|
     proteins = []

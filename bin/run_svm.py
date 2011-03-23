@@ -37,6 +37,8 @@ from itertools import product as product_iter
 from mod_utils import frange
 
 import mod_svm
+import re
+
 
 ##########################################################################
 
@@ -72,7 +74,8 @@ def read_config_file(cfg_filename):
     if not config_parser.has_section('MODEL_SELECTION'):
         raise Exception("ERROR","run_svm.read_config_file: The parameters for model selection is not provided in the cfg file")
     
-    path_svm_light = config_parser.get('SVM_LIGHT','path')
+    path_svm_light = re.sub("~", os.environ['HOME'], config_parser.get('SVM_LIGHT','path'))
+    print path_svm_light
     
     if not os.path.exists(path_svm_light):
         raise Exception("ERROR","run_svm.read_config_file: The path of svm_light does not exist")

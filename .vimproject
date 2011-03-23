@@ -55,6 +55,9 @@ KinMut=/$PWD filter="*.rb *.js *.css *.pl *.py *.cfg *.config" {
   }
  }
  share=share {
+  software=install/software{
+   svm_light
+  }
   model=model {
   }
  }
