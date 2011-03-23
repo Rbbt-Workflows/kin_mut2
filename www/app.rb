@@ -31,8 +31,17 @@ end
 get '/filtered/:name' do
   job = Kinase.load_job(:predict, params[:name])
 
+  @translations = job.input("input").info[:translations]
   content_type "text/plain"
-  job.input("patterns").info[:filtered_out]
+  "#The following proteins are not kinases\n" +
+    job.input("patterns").info[:filtered_out].collect{|prot| 
+      translation = @translations[prot]
+      if translation != prot
+        [translation, prot] * "\t"
+      else
+        prot
+      end
+  } * "\n"
 end
 
 
