@@ -1,4 +1,4 @@
-kinase=/$PWD filter="*.rb *.js *.css *.pl *.py *.cfg *.config" {
+KinMut=/$PWD filter="*.rb *.js *.css *.pl *.py *.cfg *.config" {
  bin=bin {
   PatternGenerator.pl
   run_svm.py

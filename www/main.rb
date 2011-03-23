@@ -26,4 +26,4 @@ get '/stylesheets/:name.css' do
   sass(:"stylesheets/#{params[:name]}", Compass.sass_engine_options )
 end
 
-load 'app.rb'
+load File.join(File.dirname(File.expand_path(__FILE__)), 'app.rb')

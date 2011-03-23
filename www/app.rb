@@ -1,4 +1,4 @@
-require '../lib/kinase'
+require File.join(Sinatra::Application.root,'../lib/kinase')
 require 'rbbt/util/tsv'
 require 'pp'
 
