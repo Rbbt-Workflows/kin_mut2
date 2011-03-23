@@ -9,9 +9,7 @@
 
 %p.note * Threshold is on -0.5
 
-%table#predictions
-  - color = %w(odd even)
-  - i  = 0
+%table#predictions.tablesorter
   %thead
     %tr
       %th Protein
@@ -20,10 +18,9 @@
       %th Prediction*
   %tbody
     - @res.each do |mutation,values|
-      - i += 1
       - mutation = mutation.sub('#', '')
       - prot, m = mutation.split(/_/)
-      %tr{ :class => color[i % 2]}
+      %tr
         %td
           - if @translations[prot] != prot
             = @translations[prot]
@@ -38,6 +35,6 @@
 
 
 :javascript
-  $('#predictions').tablesorter();
-  $('table#predictions > tbody > tr').mouseover(function(){$(this).addClass('highligted')})
-  $('table#predictions > tbody > tr').mouseout(function(){$(this).removeClass('highligted')})
+  $('#predictions').tablesorter({widgets: ['zebra']});
+  //$('table#predictions > tbody > tr').mouseover(function(){$(this).addClass('highligted')})
+  //$('table#predictions > tbody > tr').mouseout(function(){$(this).removeClass('highligted')})
