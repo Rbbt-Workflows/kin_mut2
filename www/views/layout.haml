@@ -3,7 +3,7 @@
 !!! Strict
 %html{ :xmlns => "http://www.w3.org/1999/xhtml", :lang => "en", 'xml:lang' => "en" }
   %head
-    %title Sinatra template
+    %title KinMut: Kinase Mutation Damange Prediction
     %meta{'http-equiv'=>"Content-Type", :content=>"text/html; charset=UTF-8"}/
     %meta{'http-equiv'=>"Content-Language", :content=>"en-us"}/
     %link{:href=>"/stylesheets/screen.css", :media=>"screen", :rel=>"stylesheet", :type=>"text/css"}/
@@ -12,6 +12,19 @@
     %script{:src => '/javascript/jquery.js', :type => 'text/javascript'} 
     %script{:src => '/javascript/main.js', :type => 'text/javascript'} 
     %script{:src => '/javascript/app.js', :type => 'text/javascript'} 
+    %script{:src => '/javascript/jquery.tablesorter.min.js', :type => 'text/javascript'} 
   %body
-    = yield
+    #header
+      %h1 
+        %a.nostyle(href="/") KinMut
+
+    #content
+      = yield
+    #footer
+      %p#afiliacion
+        %span Spanish National Cancer Research Centre, CNIO     
+        %span Structural and Computational Biology Department      
+
+
+
 

@@ -33,10 +33,18 @@ kinase=/$PWD filter="*.rb *.js *.css *.pl *.py *.cfg *.config" {
    stylesheets=stylesheets {
     highlight.css
    }
+   examples=examples{
+    example.txt
+   }
   }
   views=views {
+   layout.haml
    index.haml
+   result.haml
+   help.haml
    stylesheets=stylesheets {
+    rounded_corners.sass
+    app.sass
    }
   }
  }

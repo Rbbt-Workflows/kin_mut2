@@ -1,9 +1,13 @@
 #!/usr/bin/perl
 use strict;
-use tgi_basic;
-use tgi_bio;
+use Cwd 'abs_path';
+use File::Basename;
+my $root_dir = dirname(dirname(abs_path($0)));
 
-my $data_path="/home/jmgonzalez/PROYECTOS/META_PATHOGENICITY_PREDS/WWW/data";
+use lib "$root_dir/lib/perl/tgi_basic";
+use lib "$root_dir/lib/perl/tgi_bio";
+
+my $data_path="$root_dir/data";
 my $uniprot_path="$data_path/UNIPROT";
 my @query=tgi_open($ARGV[0]);
 
@@ -33,6 +37,7 @@ foreach my $doublet (@query) {
 	#Filter out non kinase proteins
 	if ($kinase_accessions{$acc}!=1) {
 		print STDERR "$acc is not a valid kinase identifier.... skipping\n";
+    next;
 		}
 	push(@filtered_query,$doublet);
 	}

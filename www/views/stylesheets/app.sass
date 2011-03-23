@@ -1,0 +1,82 @@
+@import rounded_corners
+
+body
+  font-size: 16px
+  width: 900px
+  margin: auto
+  margin-top: 15px
+
+form
+  padding-bottom: 25px
+
+#content
+  min-height: 200px
+  border-bottom: crimson solid 2px
+
+#header
+  border-bottom: crimson solid 2px
+
+#footer
+  background-color: black
+  color: white
+  margin-top: 5px
+  padding: 5px
+  padding-right: 15px
+  text-align: right
+  font-size: 16px
+  p
+    margin-bottom: 0px
+    span
+      display: block
+
+table 
+  margin-top: -25px
+  margin-bottom: 0px
+  padding-bottom: 25px
+  font-size: 16px
+  td
+    border-bottom: 1px solid
+  th
+    color: white
+    background-color: black
+
+span
+  &.damaging
+    color: crimson
+  &.neutral
+    color: green
+  &#example
+    font-size: 0.8em
+
+table
+  tr.highligted
+    background-color: gray
+
+a#original_input, a#download_results, a#filtered
+  +round-corners(9)
+  padding: 2px
+  font-size: 14px
+
+h3.header
+  font-size: 20px
+  margin-top: 25px
+
+p.note
+  float: right
+  margin-top: -35px
+  padding-bottom: 10px
+
+#help
+  float: right
+  width: 400px
+  margin-right: 30px
+
+a.nostyle
+  text-decoration: none
+  color: black
+
+a#help
+  color: crimson
+  font-size: 30px
+  float: right
+  text-align: right

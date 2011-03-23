@@ -1,8 +1,43 @@
 
-%table
-  - @res.each do |mutation,values|
-    %tr
-      %td=mutation
-      %td=values[0]
-      %td=values[1]
+%h3.header 
+  Job:
+  %span#name== #{ @jobname }
+  %a#download_results(href="/download/#{ @job }" target='_blank') download
+  %a#original_input(href="/original/#{ @job }" target='_blank') original input
+  - if @filtered and @filtered.any?
+    %a#filtered(href="/filtered/#{ @job }" target='_blank')== filtered proteins (#{@filtered.size})
 
+%p.note * Threshold is on -0.5
+
+%table#predictions
+  - color = %w(odd even)
+  - i  = 0
+  %thead
+    %tr
+      %th Protein
+      %th Mutation
+      %th Score
+      %th Prediction*
+  %tbody
+    - @res.each do |mutation,values|
+      - i += 1
+      - mutation = mutation.sub('#', '')
+      - prot, m = mutation.split(/_/)
+      %tr{ :class => color[i % 2]}
+        %td
+          - if @translations[prot] != prot
+            = @translations[prot]
+          %a(href="http://www.uniprot.org/uniprot/#{ prot }" target='_blank')= prot
+        %td=m
+        %td= "%1.3g" % (values[1].first.to_f)
+        %td 
+          - if values[1].first.to_f < -0.5  
+            %span.neutral Neutral 
+          - else
+            %span.damaging Damaging
+
+
+:javascript
+  $('#predictions').tablesorter();
+  $('table#predictions > tbody > tr').mouseover(function(){$(this).addClass('highligted')})
+  $('table#predictions > tbody > tr').mouseout(function(){$(this).removeClass('highligted')})

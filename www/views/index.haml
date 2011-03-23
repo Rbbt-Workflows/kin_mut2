@@ -1,1 +1,33 @@
-%h1 Kinase
+%a#help.nostyle(href="/help") Help
+  
+%form(target="/" method="post" enctype="multipart/form-data")
+  %h3.header 1. Job Name (optional)
+  %input#jobname{ :name => "jobname", :size => "20"}
+ 
+  %h3.header 
+    2. Input your data
+    %span#example 
+      %a(href='examples/example.txt') [example.txt]
+      %a#load_example(href='examples/example.txt') load
+
+  %textarea(name="mutations")
+  %p
+    %input#mutations{ :name => "file", :size => "20", :accept => "text/plain", :type => "file" }
+
+  %h3.header 3. Submit Your Job
+
+  %input#submit(type="submit" name="Submit" value="Run KinMut")
+
+
+
+:javascript
+    $('a#load_example').click(function(){
+      $.ajax({
+        url: "examples/example.txt",
+        context: document.body,
+        success: function(data){
+          $('textarea').val(data);
+        }
+      });
+      return false;
+    })
