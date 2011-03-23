@@ -1,0 +1,35 @@
+:markdown
+
+  What is KinMut?
+  ---------------
+
+  KinMut is a computational method for the prediction of the impact of mutations in the function of protein kinases.
+
+  How does KinMut predict the impact of the kinase mutations?
+  ----------------------------------------------------------
+  We associate a number sequence-derived features to disease-associated kinase mutations, including: a) at the gene level, the membership to a Kinbase group and Gene Ontology terms. b) at the domain level, the occurrence of the mutation inside a PFAM domain, and c) at the residue level, several properties including amino acid type, functional annotations from Swissprot and FireDB, specificity-determining positions, etc. We examined the independent significance of these properties and their combination with a Support Vector Machine (SVM).
+
+  Is there a quick tutorial to get the grips with KinMut?
+  ----------------------------------------------------------
+  Yes, indeed. Here is the quick reference tutorial of the predictor. [Tutorial]
+
+  In which format should I submit the mutations?
+  ----------------------------------------------------------
+  Although the server accepts many input format the most basic one includes the Uniprot/Swissprot accession number, the wild type residue, the position and the mutated residue. For instance, a mutation from Glycine to Alanine in position 719 of the Epidermal Growth factor receptor, will be encoded P00533_G719A. Multiple mutations can be submited at a time, either as a file (one mutation per line) or via the applications form.
+
+  My protein is not a kinase. Will the server work?
+  ----------------------------------------------------------
+  No. Since some of the features are kinase-specific we can only provide results within the framework of the protein-kinase superfamily. For other protein families we recommend you refer to other genome-wide servers: SNAP, Polyphen, SNPs&GO, etc.
+
+  Can I access the server programmatically?
+  ----------------------------------------------------------
+  Not yet. We will release a web service soon.
+
+  How can I cite KinMut?
+  ----------------------------------------------------------
+  There is no publication yet. This is a Beta version we expect to submit soon.
+
+  I have a question that is NOT in this help section. Can I contact you?
+  ----------------------------------------------------------
+  Of course you can. Feel free to email us (jmgonzalez-at-cnio-dot-es) and we will try to solve your doubts.
+

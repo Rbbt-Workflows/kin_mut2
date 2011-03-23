@@ -1,2 +1,5 @@
 var
 .sass-cache
+data/SIFT
+data/UNIPROT
+data/preloaded_scores.tsv
