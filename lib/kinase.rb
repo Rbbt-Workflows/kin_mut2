@@ -11,7 +11,7 @@ module Kinase
   def self.error_in_wt_aa?(protein, mutation)
     wt, pos, m = mutation.match(/([A-Z])(\d+)([A-Z])/).values_at 1,2,3
 
-    sequences = local_persist(data["KinaseAccessions_Group_Seqs.txt"], :TSV, :tsv) do |file, *other|
+    sequences = local_persist(data["KinaseAccessions_Group_Seqs.txt"].find, :TSV, :tsv) do |file, *other|
       TSV.new Open.open(file), :single, :fields => 2
     end
 
@@ -50,7 +50,6 @@ module Kinase
 
     list = translated.zip(mutations)
 
-    ddd list
     same_aa = list.select{|p,m| m[0] == m[-1]}
 
     set_info :synonymous, same_aa
