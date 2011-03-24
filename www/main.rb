@@ -3,14 +3,6 @@ require 'compass' #must be loaded before sinatra
 require 'sinatra'
 require 'haml'    #must be loaded after sinatra
 
-def cache(*args, &block)
-  CacheHelper::cache *args, &block
-end
-
-def marshal_cache(*args, &block)
-  CacheHelper::marshal_cache *args, &block
-end
-
 # set sinatra's variables
 set :app_file, __FILE__
 set :root, File.expand_path(File.dirname(__FILE__))

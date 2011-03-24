@@ -1,0 +1,13 @@
+
+- if @filtered.any?
+  %h3 These proteins are not kinases
+  %ul
+    - @filtered.sort.each do |prot|
+      %li= prot
+
+
+- if @synonymous.any?
+  %h3 These mutations are synonymous
+  %ul
+    - @synonymous.sort_by{|p,m| p}.each do |prot,mut|
+      %li== #{ prot }_#{mut} 

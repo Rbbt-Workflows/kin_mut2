@@ -7,6 +7,7 @@
   - if @filtered and @filtered.any?
     %a#filtered(href="/filtered/#{ @job }" target='_blank')== filtered proteins (#{@filtered.size})
 
+
 %p.note * Threshold is on -0.5
 
 %table#predictions.tablesorter
@@ -25,7 +26,14 @@
           - if @translations[prot] != prot
             = @translations[prot]
           %a(href="http://www.uniprot.org/uniprot/#{ prot }" target='_blank')= prot
-        %td=m
+        - if Kinase.error_in_wt_aa?(prot, m)
+          %td
+            - first, *rest = m.split('')
+            = "<font color='red'>#{first}</font>#{rest}"
+            %span.wt_error== expected wild-type aa (#{Kinase.error_in_wt_aa?(prot, m)})
+            
+        - else
+          %td= m
         %td= "%1.3g" % (values[1].first.to_f)
         %td 
           - if values[1].first.to_f < -0.5  
