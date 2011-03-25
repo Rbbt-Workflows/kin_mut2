@@ -23,6 +23,12 @@ get '/job/:name' do
     @jobname, @hash = params[:name].split(/_/)
     @translations = job.input("input").info[:translations]
     @filtered = (job.input("patterns").info[:filtered_out] || []) + job.input("input").info[:synonymous]
+    @uniprot_groups = {}
+    @res.each{|mutation,values|
+      mutation = mutation.sub('#', '')
+      prot, m = mutation.split(/_/)
+      @uniprot_groups[mutation] = Kinase.get_features(job, prot, m)["uniprot_group"]
+    }
 
     haml :result
   end
@@ -76,6 +82,15 @@ get '/download/:name' do
     
     line * "\t"
   end * "\n"
+end
+
+get '/details/:name/:protein/:mutation' do
+  job = Kinase.load_job(:predict, params[:name])
+  @protein, @mutation = params.values_at :protein, :mutation
+
+  @features = Kinase.get_features(job, @protein, @mutation)
+
+  haml :details
 end
 
 

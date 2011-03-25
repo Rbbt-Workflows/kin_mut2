@@ -1,0 +1,55 @@
+%h3 Details
+
+%dl
+  %dt Mutation
+  %dd
+    == #{@protein} #{@mutation} 
+  
+  %dt Protein Info
+  %dd
+    %dl
+      %dt Kinase Group
+      %dd
+        == #{@features["uniprot_group"]}
+      
+      %dt Gene Ontology Log-Odds Ratio
+      %dd
+        == #{"%.2f" % @features["sumGOLOR"].to_f}
+
+  - if not @features["pfam"].empty?
+    %dt PFAM Domains
+    %dd
+      %ul
+        - @features["pfam"].split("|").each do |domain|
+          %li= domain
+
+  %dt Residue Info
+  %dd
+    %dl
+      %dt Specificity Determining Position
+      %dd
+        == WT: #{"%.2f" % @features["TDs_fscore_wt"].to_f} Mut: #{"%.2f" % @features["TDs_fscore_mt"].to_f} Diff: #{"%.2f" % @features["TDs_fscore_diff"].to_f}
+
+      %dt Kyte-Doolittle Hydrophobicity Change
+      %dd
+        == #{"%.2f" % @features["biochem_diffkdhydrophobicity"].to_f}
+
+      %dt SIFT Prediction (Score)
+      %dd
+        - case @features["SIFTscore_binned"]
+        - when "0"
+          == Neutral (#{@features["SIFTscore"]}) 
+        - when "1"
+          == Disease (#{@features["SIFTscore"]}) 
+        - when "-1"
+          == Not Predicted (#{@features["SIFTscore"]}) 
+
+      %dt Functional Information
+      %dd
+        %dl 
+          - trans = Hash[*%w(firedb phosphoelm swannot_ptm swannot_disulfid swannot_carbohyd swannot_act_site swannot_signal swannot_catalytic swannot_site swannot_mod_res swannot_np_bind swannot_transmem swannot_mutagen swannot_metal swannot_binding).zip(%w(FireDB PhosphoELM PTM Disulfide_Bond Carbohyd Active_Site Signal_Peptide Catalytic_Site Site Modified_Residue Nucleotide_Binding Transmembrane Mutagenesis Metal_Binding Binding).collect{|v| v.gsub(/_/,' ')}).flatten]
+          - %w(firedb phosphoelm swannot_ptm swannot_disulfid swannot_carbohyd swannot_act_site swannot_signal swannot_catalytic swannot_site swannot_mod_res swannot_np_bind swannot_transmem swannot_mutagen swannot_metal swannot_binding).each do |key|
+            - name = trans[key]
+            %dt= name
+            %dd= @features[key] == "1" ? "Yes" : "No"
+
