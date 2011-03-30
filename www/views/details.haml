@@ -37,11 +37,11 @@
       %dt SIFT Prediction (Score)
       %dd
         - case @features["SIFTscore_binned"]
-        - when "0"
+        - when "-1"
           == Neutral (#{@features["SIFTscore"]}) 
         - when "1"
           == Disease (#{@features["SIFTscore"]}) 
-        - when "-1"
+        - when "0"
           == Not Predicted (#{@features["SIFTscore"]}) 
 
       %dt Functional Information
