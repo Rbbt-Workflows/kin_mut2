@@ -6,21 +6,36 @@
     %title KinMut: Kinase Mutation Damange Prediction
     %meta{'http-equiv'=>"Content-Type", :content=>"text/html; charset=UTF-8"}/
     %meta{'http-equiv'=>"Content-Language", :content=>"en-us"}/
-    %link{:href=>"/stylesheets/screen.css", :media=>"screen", :rel=>"stylesheet", :type=>"text/css"}/
-    %link{:href=>"/stylesheets/main.css", :rel=>"stylesheet", :type=>"text/css"}/
+
+    / Load Plugins
+    - Dir.glob(File.join(File.dirname(__FILE__), '../public/plugins/*/stylesheets/*.css')).sort.each do |file|
+      - file = file.sub(/.*\/public/,'')
+      %link{:href=> file, :media=>"screen", :rel=>"stylesheet", :type=>"text/css"}/
+
+    - Dir.glob(File.join(File.dirname(__FILE__), '../public/plugins/*/javascripts/*.js')).sort.each do |file|
+      - file = file.sub(/.*\/public/,'')
+      %script{:src => file, :type => 'text/javascript'} 
+
+
     %link{:href=>"/stylesheets/app.css", :rel=>"stylesheet", :type=>"text/css"}/
+
     %script{:src => '/javascript/jquery.js', :type => 'text/javascript'} 
     %script{:src => '/javascript/main.js', :type => 'text/javascript'} 
     %script{:src => '/javascript/app.js', :type => 'text/javascript'} 
     %script{:src => '/javascript/jquery.tablesorter.min.js', :type => 'text/javascript'} 
-  %body
-    #header
-      %h1 
-        %a.nostyle(href="/") KinMut
 
-    #content
+  %body
+    %header
+      %span.logo 
+        %a(href="/") KinMut
+      %nav
+        %ul
+          %li
+            %a(href="/help") Help
+
+    .content
       = yield
-    #footer
+    %footer
       %p#afiliacion
         %span Spanish National Cancer Research Centre, CNIO     
         %span Structural Biology and BioComputing Programme

@@ -1,24 +1,27 @@
-%a#help.nostyle(href="/help") Help
+
+#main_form
+  %form(action="/" method="post" enctype="multipart/form-data")
+    %fieldset
+
+      .field#jobname
+        %label Job Name (optional)
+        %input{ :name => "jobname", :size => "20"}
+         
+      .field#data
+        %label 
+          Input your data 
+          %span#example 
+          %a(href='examples/example.txt') [example.txt]
+          %a#load_example(href='examples/example.txt') load
+        .text_or_file
+          %textarea{ :name => "mutations"}
+          .file
+            %label or submit a file 
+            %input{ :name => "file", :accept => "text/plain", :type => "file" }
   
-%form(action="/" method="post" enctype="multipart/form-data")
-  %h3.header 1. Job Name (optional)
-  %input#jobname{ :name => "jobname", :size => "20"}
- 
-  %h3.header 
-    2. Input your data
-    %span#example 
-      %a(href='examples/example.txt') [example.txt]
-      %a#load_example(href='examples/example.txt') load
-
-  %textarea(name="mutations")
-  %p
-    %input#mutations{ :name => "file", :size => "20", :accept => "text/plain", :type => "file" }
-
-  %h3.header 3. Submit Your Job
-
-  %input#submit(type="submit" name="Submit" value="Run KinMut")
-
-
+      .field.submit
+        %label Submit Your Job
+        %input#submit(type="submit" name="Submit" value="Run KinMut")
 
 :javascript
     $('a#load_example').click(function(){

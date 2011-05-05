@@ -20,6 +20,7 @@ KinMut=/$PWD filter="*.rb *.js *.css *.pl *.py *.cfg *.config" {
   app.rb
   main.rb
   config=config {
+   compass.config
   }
   public=public {
    images=images {
@@ -45,7 +46,9 @@ KinMut=/$PWD filter="*.rb *.js *.css *.pl *.py *.cfg *.config" {
    missing.haml
    details.haml
    stylesheets=stylesheets {
+    _base.sass
     rounded_corners.sass
+    main.sass
     app.sass
    }
   }
