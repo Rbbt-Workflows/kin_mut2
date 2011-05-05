@@ -1,14 +1,14 @@
 
-%h3.header 
+%h3.job_info 
   Job:
   %span#name== #{ @jobname }
-  %a#download_results(href="/download/#{ @job }" target='_blank') download
-  %a#original_input(href="/original/#{ @job }" target='_blank') original input
+  %a#download_results(href="/download/#{ @job }" target='_blank') [download results]
+  %a#original_input(href="/original/#{ @job }" target='_blank') [original input]
+  
   - if @filtered and @filtered.any?
     %a#filtered(href="/filtered/#{ @job }" target='_blank')== filtered proteins (#{@filtered.size})
 
 
-%p.note * Threshold is on -0.5
 
 %table#predictions.tablesorter
   %thead
@@ -43,9 +43,10 @@
             %span.neutral Neutral 
           - else
             %span.damaging Damaging
-        %td 
+        %td.features 
           %a(href="/details/#{@job}/#{prot}/#{m}") details
 
+%p.note * Threshold is on -0.5
 
 :javascript
   $('#predictions').tablesorter({widgets: ['zebra']});

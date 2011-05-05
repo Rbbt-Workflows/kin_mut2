@@ -1,17 +1,73 @@
-$logo_color: crimson
+$logo_color: #dc143c
 $menu_color: black
 
 @import "main"
 
 body
-  +main_layout
+  +main_layout(4,4em,2em)
 
 #main_form
   +main_form
+  a
+    +subtle_link(grey)
 
 span.logo a
   color: crinsom
 
+// Results
+table#predictions
+  width: 95%
+  +basic_table(black, white, #e5ecf9)
+  th, td
+    padding: 10px
+  th
+    color: white
+  td.features a
+    +subtle_link(grey)
+
+p.note
+  color: grey
+  margin-left: $blueprint_grid_margin
+  margin-top: 10px
+
+h3.job_info
+  margin-bottom: 20px
+  a
+    font-size: 0.8em
+    margin-left: 10px
+    +subtle_link(grey)
+
+span
+  &.wrong_aa
+    color: crimson
+    margin: 0
+    padding: 0
+  &.wt_error
+    color: crimson
+    font-size: 10px
+  &.damaging
+    color: crimson
+  &.neutral
+    color: green
+  &#example
+    font-size: 0.8em
+
+// Details
+
+nav.tabs
+  +tabs
+
+dl.functional
+  +inline_dl
+  dt
+    :width 200px
+
+#residue_general
+  +column(6)
+  +append(2)
+#residue_functional
+  +column(6)
+  +last
 
 //body
 //  font-size: 16px

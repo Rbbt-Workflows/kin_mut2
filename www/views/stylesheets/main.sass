@@ -1,16 +1,58 @@
 @import "base"
 
+=subtle_link($color: $menu_color)
+  text-decoration: none
+  color: $color
+  &:link, &:active, &:visited, &:hover
+    color: $color
+  &:hover
+    text-decoration: underline
+
 =clean_list($inline: true)
   li
     :list-style none
     @if $inline
       +inline_block
 
+=inline_dl
+  dt, dd
+    +inline_block
+    float: left
+  dt
+    clear: left
+
+
 =hide()
   :display none
 
-=main_layout
+=tabs($inactive_color=grey, $active_color=white)
+  ul
+    +inline_block
+    width: 100%
+    border-bottom: 1px solid
+    margin: 12px 0 12px 0
+    padding:  0 10px 0 10px
+    li
+      +inline-block-list-item
+      a
+        +subtle_link(black)
+        +border-top-radius
+        text-decoration: none
+        background: none repeat scroll 0 0 $inactive_color
+        border: 1px solid black
+        border-bottom: 1px solid black
+        padding: 2px 5px 2px 5px 
+        margin: 0
+      a:hover, a.active
+        text-decoration: none
+        background: none repeat scroll 0 0 $active_color
+      a.active
+        border-bottom: 1px solid $active_color
+
+
+=main_layout($logo_columns: 8, $logo_font: 4em, $nav_font: 2em)
   +container
+  overflow: auto
   margin-top: 10px
   header
     +column($blueprint_grid_columns)
@@ -19,19 +61,24 @@
     a
       text-decoration: none
     span.logo 
-      font-size: 2em
+      +column($logo_columns)
+      font-size: $logo_font
       a
         &:active, &:visited, &:hover
           color: $logo_color
     nav
+      +column( $blueprint_grid_columns - $logo_columns - 1)
       +inline_block
-      padding-bottom: 10px
-      padding-left: 30px
+      float: right
+      //margin-top: ($logo_font - $nav_font) / 2
+      margin-top: $logo_font - $nav_font
       ul
-        +clean_list
+        +inline-block-list
         li
+          +inline-block-list-item
+          font-size: $nav_font
           display: inline
-          float: left
+          float: right
           list-style-image: none
           list-style-type: none
           margin-left: 0
@@ -62,23 +109,40 @@
   .content
     +column($blueprint_grid_columns)
     +last
-    min-height: 500px
+    margin-left: $blueprint_grid_margin
 
-=main_form
+=main_form($form_size: $blueprint_grid_columns, $field_size: 8)
+  +column($form_size)
+  +container
   +blueprint_form
+  fieldset
+    margin: 0
+    padding: 0
+    border: none
   .field
-    +column(8)
-    &:last-child
-      +last
+    +column($field_size)
     margin-bottom: 30px
-    &#jobname 
-      input
-        width: 100%
+    input, textarea
+      margin-left: $blueprint_grid_margin
+      width: 100%
+
   label
     margin-bottom: 10px
     display: block
+
   .text_or_file  
     textarea
       display: block
-    .file
+    .file label
       margin-left: 30px
+
+  .submit
+    input
+      +button-button
+      margin-left: $blueprint_grid_margin
+
+=basic_table($header_color: black,$odd_color: white, $even_color: #e5ecf9)
+  +table-scaffolding
+  +inner-table-borders(1px, darken($odd_color, 40%))
+  +outer-table-borders(1px)
+  +alternating-rows-and-columns($odd_color, $even_color, 0, $header_color)

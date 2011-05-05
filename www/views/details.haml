@@ -1,41 +1,55 @@
-%h3 Details
+%h3 
+  Details for
+  Protein: 
+  %span.protein== #{@protein},
+  Mutation:
+  %span.mutation= @mutation
 
-%dl
-  %dt Mutation
-  %dd
-    == #{@protein} #{@mutation} 
-  
-  %dt Protein Info
-  %dd
-    %dl
-      %dt Kinase Group
-      %dd
-        == #{@features["uniprot_group"]}
-      
-      %dt Gene Ontology Log-Odds Ratio
-      %dd
-        == #{"%.2f" % @features["sumGOLOR"].to_f}
+%nav.tabs
+  %ul
+    %li
+      %a(target="#protein") Protein 
+    %li
+      %a(target="#domain") Protein Domain
+    %li
+      %a.active(target="#residue") Residue
 
-  - if not @features["pfam"].empty?
-    %dt PFAM Domains
+#protein
+  %h4 Protein Information
+  %dl.protein
+    %dt Kinase Group
     %dd
-      %ul
-        - @features["pfam"].split("|").each do |domain|
-          %li= domain
+      == #{@features["uniprot_group"]}
+    
+    %dt Gene Ontology Log-Odds Ratio
+    %dd
+      == #{"%.2f" % @features["sumGOLOR"].to_f}
 
-  %dt Residue Info
-  %dd
-    %dl
-      %dt Specificity Determining Position
-      %dd
+#domain
+  %dl
+    - if not @features["pfam"].empty?
+      %dt.pfan PFAM Domains
+      %dd.pfan
+        %ul
+          - @features["pfam"].split("|").each do |domain|
+            %li= domain
+
+
+#residue
+  
+  #residue_general
+    %h4 Residue Information
+    %dl.residue
+      %dt.specificity Specificity Determining Position
+      %dd.specificity
         == WT: #{"%.2f" % @features["TDs_fscore_wt"].to_f} Mut: #{"%.2f" % @features["TDs_fscore_mt"].to_f} Diff: #{"%.2f" % @features["TDs_fscore_diff"].to_f}
 
-      %dt Kyte-Doolittle Hydrophobicity Change
-      %dd
+      %dt.kdhc Kyte-Doolittle Hydrophobicity Change
+      %dd.kdhc
         == #{"%.2f" % @features["biochem_diffkdhydrophobicity"].to_f}
 
-      %dt SIFT Prediction (Score)
-      %dd
+      %dt.sift SIFT Prediction (Score)
+      %dd.sift
         - case @features["SIFTscore_binned"]
         - when "-1"
           == Neutral (#{@features["SIFTscore"]}) 
@@ -44,12 +58,14 @@
         - when "0"
           == Not Predicted (#{@features["SIFTscore"]}) 
 
-      %dt Functional Information
-      %dd
-        %dl 
-          - trans = Hash[*%w(firedb phosphoelm swannot_ptm swannot_disulfid swannot_carbohyd swannot_act_site swannot_signal swannot_catalytic swannot_site swannot_mod_res swannot_np_bind swannot_transmem swannot_mutagen swannot_metal swannot_binding).zip(%w(FireDB PhosphoELM PTM Disulfide_Bond Carbohyd Active_Site Signal_Peptide Catalytic_Site Site Modified_Residue Nucleotide_Binding Transmembrane Mutagenesis Metal_Binding Binding).collect{|v| v.gsub(/_/,' ')}).flatten]
-          - %w(firedb phosphoelm swannot_ptm swannot_disulfid swannot_carbohyd swannot_act_site swannot_signal swannot_catalytic swannot_site swannot_mod_res swannot_np_bind swannot_transmem swannot_mutagen swannot_metal swannot_binding).each do |key|
-            - name = trans[key]
-            %dt= name
-            %dd= @features[key] == "1" ? "Yes" : "No"
+  #residue_functional
+    %h4 Functional Information for Residue
+    %dl.functional
+      - trans = Hash[*%w(firedb phosphoelm swannot_ptm swannot_disulfid swannot_carbohyd swannot_act_site swannot_signal swannot_catalytic swannot_site swannot_mod_res swannot_np_bind swannot_transmem swannot_mutagen swannot_metal swannot_binding).zip(%w(FireDB PhosphoELM PTM Disulfide_Bond Carbohyd Active_Site Signal_Peptide Catalytic_Site Site Modified_Residue Nucleotide_Binding Transmembrane Mutagenesis Metal_Binding Binding).collect{|v| v.gsub(/_/,' ')}).flatten]
+      - %w(firedb phosphoelm swannot_ptm swannot_disulfid swannot_carbohyd swannot_act_site swannot_signal swannot_catalytic swannot_site swannot_mod_res swannot_np_bind swannot_transmem swannot_mutagen swannot_metal swannot_binding).each do |key|
+        - name = trans[key]
+        %dt= name
+        %dd= @features[key] == "1" ? "Yes" : "No"
 
+:javascript
+  tabs($('nav.tabs'))

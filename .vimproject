@@ -42,9 +42,9 @@ KinMut=/$PWD filter="*.rb *.js *.css *.pl *.py *.cfg *.config" {
    layout.haml
    index.haml
    result.haml
+   details.haml
    help.haml
    missing.haml
-   details.haml
    stylesheets=stylesheets {
     _base.sass
     rounded_corners.sass

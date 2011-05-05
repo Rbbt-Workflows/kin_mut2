@@ -13,14 +13,14 @@
           %span#example 
           %a(href='examples/example.txt') [example.txt]
           %a#load_example(href='examples/example.txt') load
+          \...
         .text_or_file
           %textarea{ :name => "mutations"}
           .file
-            %label or submit a file 
+            %label ... or submit a file 
             %input{ :name => "file", :accept => "text/plain", :type => "file" }
   
       .field.submit
-        %label Submit Your Job
         %input#submit(type="submit" name="Submit" value="Run KinMut")
 
 :javascript
