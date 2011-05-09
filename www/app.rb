@@ -58,7 +58,7 @@ get '/job/:name' do
     index = Organism::Hsa.identifiers.index(:target => "Entrez Gene ID", :persistence =>  true)
 
     Entrez.get_gene(@res.keys.collect{|mutation|  
-      prot, m = mutation.split(/_/)
+      prot, m = mutation.sub('#','').split(/_/)
       (index[prot] || []).first
     }.compact)
 
