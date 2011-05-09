@@ -29,10 +29,12 @@ Open.read(Kinase.data["Pfam.desc"].find) do |line|
 end
 
 get '/help' do
+  @title = "KinMut: Kinase Mutation Damange Prediction"
   haml :help
 end
 
 get '/job/:name' do
+  @title = "KinMut: #{params[:name].sub(/_.*/,'') }"
   job = Kinase.load_job(:predict, params[:name])
   if not job.done?
     job.join
@@ -119,6 +121,8 @@ end
 get '/details/:name/:protein/:mutation' do
   job = Kinase.load_job(:predict, params[:name])
   @protein, @mutation = params.values_at :protein, :mutation
+
+  @title = "KinMut: #{params[:name].sub(/_.*/,'') } > #{@protein} > #{@mutation}"
 
   index = Organism::Hsa.identifiers.index(:target => "Entrez Gene ID", :persistence =>  true)
   name = Organism::Hsa.identifiers.index(:target => "Associated Gene Name", :persistence =>  true)
