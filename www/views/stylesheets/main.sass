@@ -21,6 +21,13 @@
   dt
     clear: left
 
+=inline_dt
+  +inline_block
+  float: left
+  clear: left
+  margin-right: 10px
+  &:after
+    content: ": "
 
 =hide()
   :display none

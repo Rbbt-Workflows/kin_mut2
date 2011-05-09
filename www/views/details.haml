@@ -8,37 +8,62 @@
 %nav.tabs
   %ul
     %li
-      %a(target="#protein") Protein 
+      %a.active(target="#protein") Protein 
     %li
-      %a(target="#domain") Protein Domain
+      %a(target="#domain") Pfam Domain
     %li
-      %a.active(target="#residue") Residue
+      %a(target="#residue") Residue
 
 #protein
-  %h4 Protein Information
   %dl.protein
+    %dt Protein Name
+    %dd= @name
+
+    %dt Protein Description
+    %dd= @description
+
+    %dt Summary
+    %dd= @summary
+
     %dt Kinase Group
     %dd
-      == #{@features["uniprot_group"]}
+      == #{@features["uniprot_group"]}: #{$kinase_groups[@features["uniprot_group"]]}
     
-    %dt Gene Ontology Log-Odds Ratio
+    %dt.inline Gene Ontology Log-Odds Ratio
     %dd
       == #{"%.2f" % @features["sumGOLOR"].to_f}
 
+    %table#goterms
+      %thead
+        %tr
+          %th GOTerm
+          %th Sub-ontology
+          %th Name
+      %tbody
+        - @goterms.sort_by{|k,v| k}.each do |term,name|
+          -  onto, name = name.match(/\((.*)\) (.*)/).values_at 1, 2
+          %tr
+            %td= term
+            %td= {"MF" => "Molecular Function", "CC" => "Cellular Component", "BP" => "Biological Process"}[onto]
+            %td= name
+
 #domain
-  %dl
-    - if not @features["pfam"].empty?
-      %dt.pfan PFAM Domains
-      %dd.pfan
-        %ul
-          - @features["pfam"].split("|").each do |domain|
-            %li= domain
+  - if not @features["pfam"].empty?
+    %dl.pfam
+      - @features["pfam"].split("|").each do |domain|
+        %dt
+          = $pfam_names[domain][:description]
+          (
+          %a(href="http://pfam.sanger.ac.uk/family/#{domain}" target="_blank")= domain
+          )
+        %dd= $pfam_names[domain][:content]
+  - else
+    %h4 No Pfam Domain
 
 
 #residue
   
   #residue_general
-    %h4 Residue Information
     %dl.residue
       %dt.specificity Specificity Determining Position
       %dd.specificity
@@ -59,13 +84,13 @@
           == Not Predicted (#{@features["SIFTscore"]}) 
 
   #residue_functional
-    %h4 Functional Information for Residue
     %dl.functional
       - trans = Hash[*%w(firedb phosphoelm swannot_ptm swannot_disulfid swannot_carbohyd swannot_act_site swannot_signal swannot_catalytic swannot_site swannot_mod_res swannot_np_bind swannot_transmem swannot_mutagen swannot_metal swannot_binding).zip(%w(FireDB PhosphoELM PTM Disulfide_Bond Carbohyd Active_Site Signal_Peptide Catalytic_Site Site Modified_Residue Nucleotide_Binding Transmembrane Mutagenesis Metal_Binding Binding).collect{|v| v.gsub(/_/,' ')}).flatten]
       - %w(firedb phosphoelm swannot_ptm swannot_disulfid swannot_carbohyd swannot_act_site swannot_signal swannot_catalytic swannot_site swannot_mod_res swannot_np_bind swannot_transmem swannot_mutagen swannot_metal swannot_binding).each do |key|
         - name = trans[key]
         %dt= name
-        %dd= @features[key] == "1" ? "Yes" : "No"
+        %dd{:class => (@features[key] == "1" ? 'red' : '')}= @features[key] == "1" ? "Yes" : "No"
 
 :javascript
   tabs($('nav.tabs'))
+  $('#goterms').tablesorter({widgets: ['zebra']});

@@ -1,7 +1,32 @@
 require File.join(Sinatra::Application.root,'../lib/kinase')
 require 'rbbt/util/tsv'
+require 'rbbt/sources/entrez'
+require 'rbbt/sources/go'
 require 'pp'
 
+$kinase_groups = Kinase.data["kinase_group_description.tsv"].tsv :single
+$prot_goterms = Kinase.data["uniprot2go.txt"].tsv :single, :fields => 2
+$goterm_score = Kinase.data["GOlogoddsratio.perterm.txt"].tsv :single, :fields => ["DESCRIPTION" ]
+
+$pfam_names = {}
+
+ac = nil
+description = ""
+content = ""
+Open.read(Kinase.data["Pfam.desc"].find) do |line|
+  code, value = line.chomp.match(/^(\w\w)\s+(.*)/).values_at 1,2
+  case code
+  when "AC"
+    $pfam_names[ac] = {:description => description, :content => content} unless ac.nil?
+    ac = value.sub(/\..*/,'')
+    description = ""
+    content = ""
+  when "DE"
+    description += value
+  when "CC"
+    content += value
+  end
+end
 
 get '/help' do
   haml :help
@@ -87,6 +112,19 @@ end
 get '/details/:name/:protein/:mutation' do
   job = Kinase.load_job(:predict, params[:name])
   @protein, @mutation = params.values_at :protein, :mutation
+
+  index = Organism::Hsa.identifiers.index(:target => "Entrez Gene ID", :persistence =>  true)
+  name = Organism::Hsa.identifiers.index(:target => "Associated Gene Name", :persistence =>  true)
+
+  @entrez = (index[@protein] || []).first
+  @name = (name[@protein] || []).first
+
+  unless @entrez.nil?
+    @description = Entrez.get_gene(@entrez).description
+    @summary     = Entrez.get_gene(@entrez).summary
+  end
+
+  @goterms = Misc.process_to_hash $prot_goterms[@protein].split(/;/) do |list| list.collect{|id| $goterm_score[id]} end
 
   @features = Kinase.get_features(job, @protein, @mutation)
 

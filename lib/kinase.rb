@@ -10,7 +10,7 @@ module Kinase
   Rbbt.software.opt.svm_light.define_as_install Rbbt.share.install.software.svm_light.find
 
   def self.error_in_wt_aa?(protein, mutation)
-    wt, pos, m = mutation.match(/([A-Z])(\d+)([A-Z])/).values_at 1,2,3
+    wt, pos, m = mutation.match(/([A-Z])(\d+)([A-Z])/i).values_at 1,2,3
 
     sequences = local_persist(data["KinaseAccessions_Group_Seqs.txt"].find, :TSV, :tsv) do |file, *other|
       TSV.new Open.open(file), :single, :fields => 2

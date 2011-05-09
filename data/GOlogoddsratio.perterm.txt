@@ -1,0 +1,2047 @@
+#GO	N_DIS	TOT_DIS	PERC_DIS	N_NEU	TOT_NEU	PERC	NEU	LOG_ODDS	DESCRIPTION
+GO:0019901	0	65	0.00	18	389	4.63	0.00	-32.11	(MF) protein kinase binding
+GO:0046328	0	65	0.00	18	389	4.63	0.00	-32.11	(BP) regulation of JNK cascade
+GO:0070302	0	65	0.00	18	389	4.63	0.00	-32.11	(BP) regulation of stress-activated protein kinase signaling cascade
+GO:0005083	0	65	0.00	15	389	3.86	0.00	-31.84	(MF) small GTPase regulator activity
+GO:0043506	0	65	0.00	15	389	3.86	0.00	-31.84	(BP) regulation of JUN kinase activity
+GO:0008134	0	65	0.00	14	389	3.60	0.00	-31.74	(MF) transcription factor binding
+GO:0043507	0	65	0.00	14	389	3.60	0.00	-31.74	(BP) positive regulation of JUN kinase activity
+GO:0005794	0	65	0.00	12	389	3.08	0.00	-31.52	(CC) Golgi apparatus
+GO:0007257	0	65	0.00	12	389	3.08	0.00	-31.52	(BP) activation of JUN kinase activity
+GO:0051098	0	65	0.00	12	389	3.08	0.00	-31.52	(BP) regulation of binding
+GO:0030528	0	65	0.00	10	389	2.57	0.00	-31.26	(MF) transcription regulator activity
+GO:0051090	0	65	0.00	10	389	2.57	0.00	-31.26	(BP) regulation of transcription factor activity
+GO:0051101	0	65	0.00	10	389	2.57	0.00	-31.26	(BP) regulation of DNA binding
+GO:0090046	0	65	0.00	10	389	2.57	0.00	-31.26	(BP) regulation of transcription regulator activity
+GO:0004707	0	65	0.00	9	389	2.31	0.00	-31.11	(MF) MAP kinase activity
+GO:0019207	0	65	0.00	9	389	2.31	0.00	-31.11	(MF) kinase regulator activity
+GO:0019887	0	65	0.00	9	389	2.31	0.00	-31.11	(MF) protein kinase regulator activity
+GO:0004857	0	65	0.00	8	389	2.06	0.00	-30.94	(MF) enzyme inhibitor activity
+GO:0007276	0	65	0.00	8	389	2.06	0.00	-30.94	(BP) gamete generation
+GO:0009615	0	65	0.00	8	389	2.06	0.00	-30.94	(BP) response to virus
+GO:0031098	0	65	0.00	8	389	2.06	0.00	-30.94	(BP) stress-activated protein kinase signaling cascade
+GO:0048609	0	65	0.00	8	389	2.06	0.00	-30.94	(BP) multicellular organismal reproductive process
+GO:0051099	0	65	0.00	8	389	2.06	0.00	-30.94	(BP) positive regulation of binding
+GO:0051707	0	65	0.00	8	389	2.06	0.00	-30.94	(BP) response to other organism
+GO:0003712	0	65	0.00	7	389	1.80	0.00	-30.74	(MF) transcription cofactor activity
+GO:0004690	0	65	0.00	7	389	1.80	0.00	-30.74	(MF) cyclic nucleotide-dependent protein kinase activity
+GO:0005730	0	65	0.00	7	389	1.80	0.00	-30.74	(CC) nucleolus
+GO:0007254	0	65	0.00	7	389	1.80	0.00	-30.74	(BP) JNK cascade
+GO:0007283	0	65	0.00	7	389	1.80	0.00	-30.74	(BP) spermatogenesis
+GO:0016563	0	65	0.00	7	389	1.80	0.00	-30.74	(MF) transcription activator activity
+GO:0043388	0	65	0.00	7	389	1.80	0.00	-30.74	(BP) positive regulation of DNA binding
+GO:0048232	0	65	0.00	7	389	1.80	0.00	-30.74	(BP) male gamete generation
+GO:0051091	0	65	0.00	7	389	1.80	0.00	-30.74	(BP) positive regulation of transcription factor activity
+GO:0090047	0	65	0.00	7	389	1.80	0.00	-30.74	(BP) positive regulation of transcription regulator activity
+GO:0002253	0	65	0.00	6	389	1.54	0.00	-30.52	(BP) activation of immune response
+GO:0002757	0	65	0.00	6	389	1.54	0.00	-30.52	(BP) immune response-activating signal transduction
+GO:0002764	0	65	0.00	6	389	1.54	0.00	-30.52	(BP) immune response-regulating signaling pathway
+GO:0004860	0	65	0.00	6	389	1.54	0.00	-30.52	(MF) protein kinase inhibitor activity
+GO:0005813	0	65	0.00	6	389	1.54	0.00	-30.52	(CC) centrosome
+GO:0007249	0	65	0.00	6	389	1.54	0.00	-30.52	(BP) I-kappaB kinase/NF-kappaB cascade
+GO:0016788	0	65	0.00	6	389	1.54	0.00	-30.52	(MF) hydrolase activity, acting on ester bonds
+GO:0019210	0	65	0.00	6	389	1.54	0.00	-30.52	(MF) kinase inhibitor activity
+GO:0034097	0	65	0.00	6	389	1.54	0.00	-30.52	(BP) response to cytokine stimulus
+GO:0044431	0	65	0.00	6	389	1.54	0.00	-30.52	(CC) Golgi apparatus part
+GO:0048585	0	65	0.00	6	389	1.54	0.00	-30.52	(BP) negative regulation of response to stimulus
+GO:0050776	0	65	0.00	6	389	1.54	0.00	-30.52	(BP) regulation of immune response
+GO:0050778	0	65	0.00	6	389	1.54	0.00	-30.52	(BP) positive regulation of immune response
+GO:0051092	0	65	0.00	6	389	1.54	0.00	-30.52	(BP) positive regulation of NF-kappaB transcription factor activity
+GO:0051100	0	65	0.00	6	389	1.54	0.00	-30.52	(BP) negative regulation of binding
+GO:0000139	0	65	0.00	5	389	1.29	0.00	-30.26	(CC) Golgi membrane
+GO:0003713	0	65	0.00	5	389	1.29	0.00	-30.26	(MF) transcription coactivator activity
+GO:0004691	0	65	0.00	5	389	1.29	0.00	-30.26	(MF) cAMP-dependent protein kinase activity
+GO:0006325	0	65	0.00	5	389	1.29	0.00	-30.26	(BP) chromatin organization
+GO:0006357	0	65	0.00	5	389	1.29	0.00	-30.26	(BP) regulation of transcription from RNA polymerase II promoter
+GO:0006396	0	65	0.00	5	389	1.29	0.00	-30.26	(BP) RNA processing
+GO:0006397	0	65	0.00	5	389	1.29	0.00	-30.26	(BP) mRNA processing
+GO:0009755	0	65	0.00	5	389	1.29	0.00	-30.26	(BP) hormone-mediated signaling pathway
+GO:0016192	0	65	0.00	5	389	1.29	0.00	-30.26	(BP) vesicle-mediated transport
+GO:0016568	0	65	0.00	5	389	1.29	0.00	-30.26	(BP) chromatin modification
+GO:0030178	0	65	0.00	5	389	1.29	0.00	-30.26	(BP) negative regulation of Wnt receptor signaling pathway
+GO:0031625	0	65	0.00	5	389	1.29	0.00	-30.26	(MF) ubiquitin protein ligase binding
+GO:0043392	0	65	0.00	5	389	1.29	0.00	-30.26	(BP) negative regulation of DNA binding
+GO:0043433	0	65	0.00	5	389	1.29	0.00	-30.26	(BP) negative regulation of transcription factor activity
+GO:0044433	0	65	0.00	5	389	1.29	0.00	-30.26	(CC) cytoplasmic vesicle part
+GO:0070555	0	65	0.00	5	389	1.29	0.00	-30.26	(BP) response to interleukin-1
+GO:0071901	0	65	0.00	5	389	1.29	0.00	-30.26	(BP) negative regulation of protein serine/threonine kinase activity
+GO:0090048	0	65	0.00	5	389	1.29	0.00	-30.26	(BP) negative regulation of transcription regulator activity
+GO:0002218	0	65	0.00	4	389	1.03	0.00	-29.94	(BP) activation of innate immune response
+GO:0002221	0	65	0.00	4	389	1.03	0.00	-29.94	(BP) pattern recognition receptor signaling pathway
+GO:0002224	0	65	0.00	4	389	1.03	0.00	-29.94	(BP) toll-like receptor signaling pathway
+GO:0002758	0	65	0.00	4	389	1.03	0.00	-29.94	(BP) innate immune response-activating signal transduction
+GO:0004518	0	65	0.00	4	389	1.03	0.00	-29.94	(MF) nuclease activity
+GO:0004704	0	65	0.00	4	389	1.03	0.00	-29.94	(MF) NF-kappaB-inducing kinase activity
+GO:0005783	0	65	0.00	4	389	1.03	0.00	-29.94	(CC) endoplasmic reticulum
+GO:0005912	0	65	0.00	4	389	1.03	0.00	-29.94	(CC) adherens junction
+GO:0006260	0	65	0.00	4	389	1.03	0.00	-29.94	(BP) DNA replication
+GO:0006811	0	65	0.00	4	389	1.03	0.00	-29.94	(BP) ion transport
+GO:0007059	0	65	0.00	4	389	1.03	0.00	-29.94	(BP) chromosome segregation
+GO:0007399	0	65	0.00	4	389	1.03	0.00	-29.94	(BP) nervous system development
+GO:0012506	0	65	0.00	4	389	1.03	0.00	-29.94	(CC) vesicle membrane
+GO:0030145	0	65	0.00	4	389	1.03	0.00	-29.94	(MF) manganese ion binding
+GO:0030529	0	65	0.00	4	389	1.03	0.00	-29.94	(CC) ribonucleoprotein complex
+GO:0030659	0	65	0.00	4	389	1.03	0.00	-29.94	(CC) cytoplasmic vesicle membrane
+GO:0031347	0	65	0.00	4	389	1.03	0.00	-29.94	(BP) regulation of defense response
+GO:0031349	0	65	0.00	4	389	1.03	0.00	-29.94	(BP) positive regulation of defense response
+GO:0031532	0	65	0.00	4	389	1.03	0.00	-29.94	(BP) actin cytoskeleton reorganization
+GO:0035329	0	65	0.00	4	389	1.03	0.00	-29.94	(BP) hippo signaling cascade
+GO:0045088	0	65	0.00	4	389	1.03	0.00	-29.94	(BP) regulation of innate immune response
+GO:0045089	0	65	0.00	4	389	1.03	0.00	-29.94	(BP) positive regulation of innate immune response
+GO:0046626	0	65	0.00	4	389	1.03	0.00	-29.94	(BP) regulation of insulin receptor signaling pathway
+GO:0051093	0	65	0.00	4	389	1.03	0.00	-29.94	(BP) negative regulation of developmental process
+GO:0070161	0	65	0.00	4	389	1.03	0.00	-29.94	(CC) anchoring junction
+GO:0090090	0	65	0.00	4	389	1.03	0.00	-29.94	(BP) negative regulation of canonical Wnt receptor signaling pathway
+GO:0000086	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) G2/M transition of mitotic cell cycle
+GO:0001817	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) regulation of cytokine production
+GO:0001959	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) regulation of cytokine-mediated signaling pathway
+GO:0002237	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) response to molecule of bacterial origin
+GO:0002755	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) MyD88-dependent toll-like receptor signaling pathway
+GO:0003013	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) circulatory system process
+GO:0003018	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) vascular process in circulatory system
+GO:0003723	0	65	0.00	3	389	0.77	0.00	-29.52	(MF) RNA binding
+GO:0004519	0	65	0.00	3	389	0.77	0.00	-29.52	(MF) endonuclease activity
+GO:0004521	0	65	0.00	3	389	0.77	0.00	-29.52	(MF) endoribonuclease activity
+GO:0004540	0	65	0.00	3	389	0.77	0.00	-29.52	(MF) ribonuclease activity
+GO:0004706	0	65	0.00	3	389	0.77	0.00	-29.52	(MF) JUN kinase kinase kinase activity
+GO:0005080	0	65	0.00	3	389	0.77	0.00	-29.52	(MF) protein kinase C binding
+GO:0005085	0	65	0.00	3	389	0.77	0.00	-29.52	(MF) guanyl-nucleotide exchange factor activity
+GO:0005088	0	65	0.00	3	389	0.77	0.00	-29.52	(MF) Ras guanyl-nucleotide exchange factor activity
+GO:0005089	0	65	0.00	3	389	0.77	0.00	-29.52	(MF) Rho guanyl-nucleotide exchange factor activity
+GO:0005924	0	65	0.00	3	389	0.77	0.00	-29.52	(CC) cell-substrate adherens junction
+GO:0005925	0	65	0.00	3	389	0.77	0.00	-29.52	(CC) focal adhesion
+GO:0005954	0	65	0.00	3	389	0.77	0.00	-29.52	(CC) calcium- and calmodulin-dependent protein kinase complex
+GO:0006605	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) protein targeting
+GO:0006629	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) lipid metabolic process
+GO:0006812	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) cation transport
+GO:0006913	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) nucleocytoplasmic transport
+GO:0006954	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) inflammatory response
+GO:0007163	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) establishment or maintenance of cell polarity
+GO:0007172	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) signal complex assembly
+GO:0007517	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) muscle organ development
+GO:0008384	0	65	0.00	3	389	0.77	0.00	-29.52	(MF) IkappaB kinase activity
+GO:0010551	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) regulation of gene-specific transcription from RNA polymerase II promoter
+GO:0016462	0	65	0.00	3	389	0.77	0.00	-29.52	(MF) pyrophosphatase activity
+GO:0016607	0	65	0.00	3	389	0.77	0.00	-29.52	(CC) nuclear speck
+GO:0016817	0	65	0.00	3	389	0.77	0.00	-29.52	(MF) hydrolase activity, acting on acid anhydrides
+GO:0016818	0	65	0.00	3	389	0.77	0.00	-29.52	(MF) hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides
+GO:0016891	0	65	0.00	3	389	0.77	0.00	-29.52	(MF) endoribonuclease activity, producing 5'-phosphomonoesters
+GO:0016893	0	65	0.00	3	389	0.77	0.00	-29.52	(MF) endonuclease activity, active with either ribo- or deoxyribonucleic acids and producing 5'-phosphomonoesters
+GO:0017111	0	65	0.00	3	389	0.77	0.00	-29.52	(MF) nucleoside-triphosphatase activity
+GO:0019209	0	65	0.00	3	389	0.77	0.00	-29.52	(MF) kinase activator activity
+GO:0030001	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) metal ion transport
+GO:0030027	0	65	0.00	3	389	0.77	0.00	-29.52	(CC) lamellipodium
+GO:0030055	0	65	0.00	3	389	0.77	0.00	-29.52	(CC) cell-substrate junction
+GO:0030295	0	65	0.00	3	389	0.77	0.00	-29.52	(MF) protein kinase activator activity
+GO:0030666	0	65	0.00	3	389	0.77	0.00	-29.52	(CC) endocytic vesicle membrane
+GO:0031252	0	65	0.00	3	389	0.77	0.00	-29.52	(CC) cell leading edge
+GO:0032088	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) negative regulation of NF-kappaB transcription factor activity
+GO:0032496	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) response to lipopolysaccharide
+GO:0033044	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) regulation of chromosome organization
+GO:0034199	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) activation of protein kinase A activity
+GO:0035023	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) regulation of Rho protein signal transduction
+GO:0035184	0	65	0.00	3	389	0.77	0.00	-29.52	(MF) histone threonine kinase activity
+GO:0035257	0	65	0.00	3	389	0.77	0.00	-29.52	(MF) nuclear hormone receptor binding
+GO:0035258	0	65	0.00	3	389	0.77	0.00	-29.52	(MF) steroid hormone receptor binding
+GO:0042801	0	65	0.00	3	389	0.77	0.00	-29.52	(MF) polo kinase kinase activity
+GO:0043005	0	65	0.00	3	389	0.77	0.00	-29.52	(CC) neuron projection
+GO:0043114	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) regulation of vascular permeability
+GO:0043407	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) negative regulation of MAP kinase activity
+GO:0044255	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) cellular lipid metabolic process
+GO:0044450	0	65	0.00	3	389	0.77	0.00	-29.52	(CC) microtubule organizing center part
+GO:0044463	0	65	0.00	3	389	0.77	0.00	-29.52	(CC) cell projection part
+GO:0045596	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) negative regulation of cell differentiation
+GO:0045637	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) regulation of myeloid cell differentiation
+GO:0045646	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) regulation of erythrocyte differentiation
+GO:0045727	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) positive regulation of translation
+GO:0045934	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) negative regulation of nucleobase, nucleoside, nucleotide and nucleic acid metabolic process
+GO:0045948	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) positive regulation of translational initiation
+GO:0046578	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) regulation of Ras protein signal transduction
+GO:0046627	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) negative regulation of insulin receptor signaling pathway
+GO:0050321	0	65	0.00	3	389	0.77	0.00	-29.52	(MF) tau-protein kinase activity
+GO:0050681	0	65	0.00	3	389	0.77	0.00	-29.52	(MF) androgen receptor binding
+GO:0050684	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) regulation of mRNA processing
+GO:0051046	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) regulation of secretion
+GO:0051056	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) regulation of small GTPase mediated signal transduction
+GO:0051168	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) nuclear export
+GO:0051169	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) nuclear transport
+GO:0051172	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) negative regulation of nitrogen compound metabolic process
+GO:0051493	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) regulation of cytoskeleton organization
+GO:0055103	0	65	0.00	3	389	0.77	0.00	-29.52	(MF) ligase regulator activity
+GO:0055106	0	65	0.00	3	389	0.77	0.00	-29.52	(MF) ubiquitin-protein ligase regulator activity
+GO:0061061	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) muscle structure development
+GO:0070498	0	65	0.00	3	389	0.77	0.00	-29.52	(BP) interleukin-1-mediated signaling pathway
+GO:0000080	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) G1 phase of mitotic cell cycle
+GO:0000155	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) two-component sensor activity
+GO:0000776	0	65	0.00	2	389	0.51	0.00	-28.94	(CC) kinetochore
+GO:0000777	0	65	0.00	2	389	0.51	0.00	-28.94	(CC) condensed chromosome kinetochore
+GO:0000910	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) cytokinesis
+GO:0000922	0	65	0.00	2	389	0.51	0.00	-28.94	(CC) spindle pole
+GO:0001672	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) regulation of chromatin assembly or disassembly
+GO:0001933	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) negative regulation of protein phosphorylation
+GO:0001948	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) glycoprotein binding
+GO:0002429	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) immune response-activating cell surface receptor signaling pathway
+GO:0002768	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) immune response-regulating cell surface receptor signaling pathway
+GO:0003682	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) chromatin binding
+GO:0003714	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) transcription corepressor activity
+GO:0003774	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) motor activity
+GO:0004673	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) protein histidine kinase activity
+GO:0004692	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) cGMP-dependent protein kinase activity
+GO:0004705	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) JUN kinase activity
+GO:0004721	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) phosphoprotein phosphatase activity
+GO:0004722	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) protein serine/threonine phosphatase activity
+GO:0004740	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) pyruvate dehydrogenase (acetyl-transferring) kinase activity
+GO:0005011	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) macrophage colony-stimulating factor receptor activity
+GO:0005017	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) platelet-derived growth factor receptor activity
+GO:0005161	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) platelet-derived growth factor receptor binding
+GO:0005622	0	65	0.00	2	389	0.51	0.00	-28.94	(CC) intracellular
+GO:0005667	0	65	0.00	2	389	0.51	0.00	-28.94	(CC) transcription factor complex
+GO:0005759	0	65	0.00	2	389	0.51	0.00	-28.94	(CC) mitochondrial matrix
+GO:0005769	0	65	0.00	2	389	0.51	0.00	-28.94	(CC) early endosome
+GO:0005814	0	65	0.00	2	389	0.51	0.00	-28.94	(CC) centriole
+GO:0005819	0	65	0.00	2	389	0.51	0.00	-28.94	(CC) spindle
+GO:0005840	0	65	0.00	2	389	0.51	0.00	-28.94	(CC) ribosome
+GO:0005874	0	65	0.00	2	389	0.51	0.00	-28.94	(CC) microtubule
+GO:0005952	0	65	0.00	2	389	0.51	0.00	-28.94	(CC) cAMP-dependent protein kinase complex
+GO:0006352	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) transcription initiation
+GO:0006354	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) RNA elongation
+GO:0006367	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) transcription initiation from RNA polymerase II promoter
+GO:0006368	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) RNA elongation from RNA polymerase II promoter
+GO:0006412	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) translation
+GO:0006611	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) protein export from nucleus
+GO:0006816	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) calcium ion transport
+GO:0007089	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) traversing start control point of mitotic cell cycle
+GO:0007126	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) meiosis
+GO:0007159	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) leukocyte cell-cell adhesion
+GO:0007187	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) G-protein signaling, coupled to cyclic nucleotide second messenger
+GO:0007188	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) G-protein signaling, coupled to cAMP nucleotide second messenger
+GO:0007217	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) tachykinin receptor signaling pathway
+GO:0007229	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) integrin-mediated signaling pathway
+GO:0007266	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) Rho protein signal transduction
+GO:0008016	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) regulation of heart contraction
+GO:0008353	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) RNA polymerase II carboxy-terminal domain kinase activity
+GO:0008380	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) RNA splicing
+GO:0008610	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) lipid biosynthetic process
+GO:0010506	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) regulation of autophagy
+GO:0010510	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) regulation of acetyl-CoA biosynthetic process from pyruvate
+GO:0010563	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) negative regulation of phosphorus metabolic process
+GO:0010769	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) regulation of cell morphogenesis involved in differentiation
+GO:0015630	0	65	0.00	2	389	0.51	0.00	-28.94	(CC) microtubule cytoskeleton
+GO:0015674	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) di-, tri-valent inorganic cation transport
+GO:0016459	0	65	0.00	2	389	0.51	0.00	-28.94	(CC) myosin complex
+GO:0016564	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) transcription repressor activity
+GO:0016569	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) covalent chromatin modification
+GO:0016570	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) histone modification
+GO:0016572	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) histone phosphorylation
+GO:0016775	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) phosphotransferase activity, nitrogenous group as acceptor
+GO:0016791	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) phosphatase activity
+GO:0016887	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) ATPase activity
+GO:0016909	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) SAP kinase activity
+GO:0018106	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) peptidyl-histidine phosphorylation
+GO:0018202	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) peptidyl-histidine modification
+GO:0019002	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) GMP binding
+GO:0019208	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) phosphatase regulator activity
+GO:0019888	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) protein phosphatase regulator activity
+GO:0019933	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) cAMP-mediated signaling
+GO:0019935	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) cyclic-nucleotide-mediated signaling
+GO:0022008	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) neurogenesis
+GO:0022604	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) regulation of cell morphogenesis
+GO:0030030	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) cell projection organization
+GO:0030330	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) DNA damage response, signal transduction by p53 class mediator
+GO:0030332	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) cyclin binding
+GO:0030374	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) ligand-dependent nuclear receptor transcription coactivator activity
+GO:0030424	0	65	0.00	2	389	0.51	0.00	-28.94	(CC) axon
+GO:0030426	0	65	0.00	2	389	0.51	0.00	-28.94	(CC) growth cone
+GO:0030427	0	65	0.00	2	389	0.51	0.00	-28.94	(CC) site of polarized growth
+GO:0030551	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) cyclic nucleotide binding
+GO:0030553	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) cGMP binding
+GO:0030811	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) regulation of nucleotide catabolic process
+GO:0031647	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) regulation of protein stability
+GO:0031929	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) TOR signaling cascade
+GO:0032655	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) regulation of interleukin-12 production
+GO:0032956	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) regulation of actin cytoskeleton organization
+GO:0032989	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) cellular component morphogenesis
+GO:0033121	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) regulation of purine nucleotide catabolic process
+GO:0034134	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) toll-like receptor 2 signaling pathway
+GO:0034339	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) regulation of transcription from RNA polymerase II promoter by nuclear hormone receptor
+GO:0035403	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) histone kinase activity (H3-T6 specific)
+GO:0042035	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) regulation of cytokine biosynthetic process
+GO:0042326	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) negative regulation of phosphorylation
+GO:0042578	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) phosphoric ester hydrolase activity
+GO:0042623	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) ATPase activity, coupled
+GO:0042826	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) histone deacetylase binding
+GO:0043393	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) regulation of protein binding
+GO:0043523	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) regulation of neuron apoptosis
+GO:0043539	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) protein serine/threonine kinase activator activity
+GO:0044454	0	65	0.00	2	389	0.51	0.00	-28.94	(CC) nuclear chromosome part
+GO:0045202	0	65	0.00	2	389	0.51	0.00	-28.94	(CC) synapse
+GO:0045599	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) negative regulation of fat cell differentiation
+GO:0045639	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) positive regulation of myeloid cell differentiation
+GO:0045648	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) positive regulation of erythrocyte differentiation
+GO:0045736	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) negative regulation of cyclin-dependent protein kinase activity
+GO:0045767	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) regulation of anti-apoptosis
+GO:0045768	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) positive regulation of anti-apoptosis
+GO:0045936	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) negative regulation of phosphate metabolic process
+GO:0045944	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) positive regulation of transcription from RNA polymerase II promoter
+GO:0046330	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) positive regulation of JNK cascade
+GO:0047696	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) beta-adrenergic receptor kinase activity
+GO:0048193	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) Golgi vesicle transport
+GO:0048407	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) platelet-derived growth factor binding
+GO:0050732	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) negative regulation of peptidyl-tyrosine phosphorylation
+GO:0050801	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) ion homeostasis
+GO:0050851	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) antigen receptor-mediated signaling pathway
+GO:0051047	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) positive regulation of secretion
+GO:0051055	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) negative regulation of lipid biosynthetic process
+GO:0051193	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) regulation of cofactor metabolic process
+GO:0051196	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) regulation of coenzyme metabolic process
+GO:0051219	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) phosphoprotein binding
+GO:0051318	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) G1 phase
+GO:0051351	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) positive regulation of ligase activity
+GO:0051443	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) positive regulation of ubiquitin-protein ligase activity
+GO:0051495	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) positive regulation of cytoskeleton organization
+GO:0060326	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) cell chemotaxis
+GO:0070304	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) positive regulation of stress-activated protein kinase signaling cascade
+GO:0070838	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) divalent metal ion transport
+GO:0070851	0	65	0.00	2	389	0.51	0.00	-28.94	(MF) growth factor receptor binding
+GO:0090066	0	65	0.00	2	389	0.51	0.00	-28.94	(BP) regulation of anatomical structure size
+GO:0000115	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of transcription involved in S phase of mitotic cell cycle
+GO:0000133	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) polarisome
+GO:0000146	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) microfilament motor activity
+GO:0000184	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+GO:0000185	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) activation of MAPKKK activity
+GO:0000242	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) pericentriolar material
+GO:0000245	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) spliceosome assembly
+GO:0000308	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) cytoplasmic cyclin-dependent protein kinase holoenzyme complex
+GO:0000407	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) pre-autophagosomal structure
+GO:0000718	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) nucleotide-excision repair, DNA damage removal
+GO:0000726	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) non-recombinational repair
+GO:0000775	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) chromosome, centromeric region
+GO:0000779	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) condensed chromosome, centromeric region
+GO:0000780	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) condensed nuclear chromosome, centromeric region
+GO:0000819	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) sister chromatid segregation
+GO:0000902	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) cell morphogenesis
+GO:0000942	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) condensed nuclear chromosome outer kinetochore
+GO:0001101	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) response to acid
+GO:0001578	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) microtubule bundle formation
+GO:0001664	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) G-protein-coupled receptor binding
+GO:0001666	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) response to hypoxia
+GO:0001669	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) acrosomal vesicle
+GO:0001726	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) ruffle
+GO:0001818	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of cytokine production
+GO:0001960	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of cytokine-mediated signaling pathway
+GO:0002026	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of the force of heart contraction
+GO:0002029	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) desensitization of G-protein coupled receptor protein signaling pathway
+GO:0002039	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) p53 binding
+GO:0002683	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of immune system process
+GO:0002697	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of immune effector process
+GO:0002698	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of immune effector process
+GO:0002700	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of production of molecular mediator of immune response
+GO:0002701	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of production of molecular mediator of immune response
+GO:0002718	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of cytokine production involved in immune response
+GO:0002719	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of cytokine production involved in immune response
+GO:0002791	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of peptide secretion
+GO:0002793	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of peptide secretion
+GO:0002831	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of response to biotic stimulus
+GO:0002832	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of response to biotic stimulus
+GO:0003014	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) renal system process
+GO:0003057	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of the force of heart contraction by chemical signal
+GO:0003108	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of the force of heart contraction by chemical signal
+GO:0003702	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) RNA polymerase II transcription factor activity
+GO:0003725	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) double-stranded RNA binding
+GO:0004686	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) elongation factor-2 kinase activity
+GO:0004699	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) calcium-independent protein kinase C activity
+GO:0004711	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) ribosomal protein S6 kinase activity
+GO:0004723	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) calcium-dependent protein serine/threonine phosphatase activity
+GO:0004812	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) aminoacyl-tRNA ligase activity
+GO:0004862	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) cAMP-dependent protein kinase inhibitor activity
+GO:0004864	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) phosphoprotein phosphatase inhibitor activity
+GO:0004992	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) platelet activating factor receptor activity
+GO:0005018	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) platelet-derived growth factor alpha-receptor activity
+GO:0005019	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) platelet-derived growth factor beta-receptor activity
+GO:0005070	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) SH3/SH2 adaptor activity
+GO:0005095	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) GTPase inhibitor activity
+GO:0005097	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) Rab GTPase activator activity
+GO:0005099	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) Ras GTPase activator activity
+GO:0005123	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) death receptor binding
+GO:0005176	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) ErbB-2 class receptor binding
+GO:0005506	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) iron ion binding
+GO:0005518	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) collagen binding
+GO:0005675	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) holo TFIIH complex
+GO:0005681	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) spliceosomal complex
+GO:0005773	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) vacuole
+GO:0005776	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) autophagic vacuole
+GO:0005793	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) ER-Golgi intermediate compartment
+GO:0005801	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) cis-Golgi network
+GO:0005816	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) spindle pole body
+GO:0005875	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) microtubule associated complex
+GO:0005876	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) spindle microtubule
+GO:0005890	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) sodium:potassium-exchanging ATPase complex
+GO:0005905	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) coated pit
+GO:0005929	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) cilium
+GO:0005942	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) phosphoinositide 3-kinase complex
+GO:0005958	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) DNA-dependent protein kinase-DNA ligase 4 complex
+GO:0006082	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) organic acid metabolic process
+GO:0006289	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) nucleotide-excision repair
+GO:0006298	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) mismatch repair
+GO:0006302	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) double-strand break repair
+GO:0006303	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) double-strand break repair via nonhomologous end joining
+GO:0006308	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) DNA catabolic process
+GO:0006405	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) RNA export from nucleus
+GO:0006406	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) mRNA export from nucleus
+GO:0006414	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) translational elongation
+GO:0006447	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of translational initiation by iron
+GO:0006509	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) membrane protein ectodomain proteolysis
+GO:0006612	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) protein targeting to membrane
+GO:0006631	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) fatty acid metabolic process
+GO:0006633	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) fatty acid biosynthetic process
+GO:0006644	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) phospholipid metabolic process
+GO:0006650	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) glycerophospholipid metabolic process
+GO:0006694	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) steroid biosynthetic process
+GO:0006695	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) cholesterol biosynthetic process
+GO:0006814	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) sodium ion transport
+GO:0006873	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) cellular ion homeostasis
+GO:0006874	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) cellular calcium ion homeostasis
+GO:0006875	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) cellular metal ion homeostasis
+GO:0006882	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) cellular zinc ion homeostasis
+GO:0006888	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) ER to Golgi vesicle-mediated transport
+GO:0006890	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) retrograde vesicle-mediated transport, Golgi to ER
+GO:0006914	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) autophagy
+GO:0006942	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of striated muscle contraction
+GO:0006978	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) DNA damage response, signal transduction by p53 class mediator resulting in transcription of p21 class mediator
+GO:0006987	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) activation of signaling protein activity involved in unfolded protein response
+GO:0007052	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) mitotic spindle organization
+GO:0007063	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of sister chromatid cohesion
+GO:0007140	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) male meiosis
+GO:0007173	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) epidermal growth factor receptor signaling pathway
+GO:0007185	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) transmembrane receptor protein tyrosine phosphatase signaling pathway
+GO:0007204	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) elevation of cytosolic calcium ion concentration
+GO:0007205	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) activation of protein kinase C activity by G-protein coupled receptor protein signaling pathway
+GO:0007213	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) muscarinic acetylcholine receptor signaling pathway
+GO:0007250	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) activation of NF-kappaB-inducing kinase activity
+GO:0007252	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) I-kappaB phosphorylation
+GO:0007256	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) activation of JNKK activity
+GO:0007338	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) single fertilization
+GO:0007409	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) axonogenesis
+GO:0007528	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) neuromuscular junction development
+GO:0007548	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) sex differentiation
+GO:0007565	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) female pregnancy
+GO:0007584	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) response to nutrient
+GO:0007588	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) excretion
+GO:0007589	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) body fluid secretion
+GO:0007605	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) sensory perception of sound
+GO:0007610	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) behavior
+GO:0007611	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) learning or memory
+GO:0007612	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) learning
+GO:0007631	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) feeding behavior
+GO:0008017	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) microtubule binding
+GO:0008023	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) transcription elongation factor complex
+GO:0008064	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of actin polymerization or depolymerization
+GO:0008094	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) DNA-dependent ATPase activity
+GO:0008135	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) translation factor activity, nucleic acid binding
+GO:0008156	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of DNA replication
+GO:0008202	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) steroid metabolic process
+GO:0008203	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) cholesterol metabolic process
+GO:0008349	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) MAP kinase kinase kinase kinase activity
+GO:0008601	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) protein phosphatase type 2A regulator activity
+GO:0008653	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) lipopolysaccharide metabolic process
+GO:0008656	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) caspase activator activity
+GO:0009103	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) lipopolysaccharide biosynthetic process
+GO:0009566	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) fertilization
+GO:0009790	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) embryo development
+GO:0009791	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) post-embryonic development
+GO:0010001	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) glial cell differentiation
+GO:0010243	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) response to organic nitrogen
+GO:0010469	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of receptor activity
+GO:0010508	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of autophagy
+GO:0010552	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of gene-specific transcription from RNA polymerase II promoter
+GO:0010629	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of gene expression
+GO:0010677	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of cellular carbohydrate metabolic process
+GO:0010720	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of cell development
+GO:0010741	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of intracellular protein kinase cascade
+GO:0010743	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of macrophage derived foam cell differentiation
+GO:0010744	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of macrophage derived foam cell differentiation
+GO:0010824	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of centrosome duplication
+GO:0010829	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of glucose transport
+GO:0010893	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of steroid biosynthetic process
+GO:0010904	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of UDP-glucose catabolic process
+GO:0010905	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of UDP-glucose catabolic process
+GO:0010932	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of macrophage tolerance induction
+GO:0010933	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of macrophage tolerance induction
+GO:0010935	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of macrophage cytokine production
+GO:0010936	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of macrophage cytokine production
+GO:0010939	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of necrotic cell death
+GO:0010940	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of necrotic cell death
+GO:0010997	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) anaphase-promoting complex binding
+GO:0014037	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) Schwann cell differentiation
+GO:0014066	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of phosphoinositide 3-kinase cascade
+GO:0014068	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of phosphoinositide 3-kinase cascade
+GO:0014075	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) response to amine stimulus
+GO:0014910	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of smooth muscle cell migration
+GO:0014912	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of smooth muscle cell migration
+GO:0015026	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) coreceptor activity
+GO:0015459	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) potassium channel regulator activity
+GO:0015631	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) tubulin binding
+GO:0015672	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) monovalent inorganic cation transport
+GO:0015931	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) nucleobase, nucleoside, nucleotide and nucleic acid transport
+GO:0016044	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) cellular membrane organization
+GO:0016053	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) organic acid biosynthetic process
+GO:0016072	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) rRNA metabolic process
+GO:0016075	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) rRNA catabolic process
+GO:0016125	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) sterol metabolic process
+GO:0016126	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) sterol biosynthetic process
+GO:0016197	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) endosome transport
+GO:0016247	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) channel regulator activity
+GO:0016481	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of transcription
+GO:0016504	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) peptidase activator activity
+GO:0016505	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) apoptotic protease activator activity
+GO:0016525	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of angiogenesis
+GO:0016874	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) ligase activity
+GO:0016875	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) ligase activity, forming carbon-oxygen bonds
+GO:0016876	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) ligase activity, forming aminoacyl-tRNA and related compounds
+GO:0017015	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of transforming growth factor beta receptor signaling pathway
+GO:0017016	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) Ras GTPase binding
+GO:0017048	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) Rho GTPase binding
+GO:0017049	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) GTP-Rho binding
+GO:0017080	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) sodium channel regulator activity
+GO:0019212	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) phosphatase inhibitor activity
+GO:0019218	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of steroid metabolic process
+GO:0019637	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) organophosphate metabolic process
+GO:0019717	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) synaptosome
+GO:0019725	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) cellular homeostasis
+GO:0019752	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) carboxylic acid metabolic process
+GO:0020037	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) heme binding
+GO:0021545	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) cranial nerve development
+GO:0021675	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) nerve development
+GO:0022401	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative adaptation of signaling pathway
+GO:0022406	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) membrane docking
+GO:0022614	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) membrane to membrane docking
+GO:0022618	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) ribonucleoprotein complex assembly
+GO:0022626	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) cytosolic ribosome
+GO:0022898	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of transmembrane transporter activity
+GO:0023058	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) adaptation of signaling pathway
+GO:0030003	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) cellular cation homeostasis
+GO:0030005	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) cellular di-, tri-valent inorganic cation homeostasis
+GO:0030010	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) establishment of cell polarity
+GO:0030117	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) membrane coat
+GO:0030120	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) vesicle coat
+GO:0030126	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) COPI vesicle coat
+GO:0030135	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) coated vesicle
+GO:0030136	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) clathrin-coated vesicle
+GO:0030141	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) stored secretory granule
+GO:0030146	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) diuresis
+GO:0030147	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) natriuresis
+GO:0030163	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) protein catabolic process
+GO:0030175	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) filopodium
+GO:0030176	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) integral to endoplasmic reticulum membrane
+GO:0030182	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) neuron differentiation
+GO:0030217	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) T cell differentiation
+GO:0030258	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) lipid modification
+GO:0030274	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) LIM domain binding
+GO:0030291	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) protein serine/threonine kinase inhibitor activity
+GO:0030296	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) protein tyrosine kinase activator activity
+GO:0030384	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) phosphoinositide metabolic process
+GO:0030425	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) dendrite
+GO:0030511	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of transforming growth factor beta receptor signaling pathway
+GO:0030514	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of BMP signaling pathway
+GO:0030516	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of axon extension
+GO:0030518	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) steroid hormone receptor signaling pathway
+GO:0030521	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) androgen receptor signaling pathway
+GO:0030522	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) intracellular receptor mediated signaling pathway
+GO:0030545	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) receptor regulator activity
+GO:0030546	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) receptor activator activity
+GO:0030548	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) acetylcholine receptor regulator activity
+GO:0030549	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) acetylcholine receptor activator activity
+GO:0030593	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) neutrophil chemotaxis
+GO:0030595	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) leukocyte chemotaxis
+GO:0030674	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) protein binding, bridging
+GO:0030832	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of actin filament length
+GO:0030833	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of actin filament polymerization
+GO:0030877	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) beta-catenin destruction complex
+GO:0030898	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) actin-dependent ATPase activity
+GO:0030947	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of vascular endothelial growth factor receptor signaling pathway
+GO:0030949	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of vascular endothelial growth factor receptor signaling pathway
+GO:0031013	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) troponin I binding
+GO:0031023	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) microtubule organizing center organization
+GO:0031175	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) neuron projection development
+GO:0031227	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) intrinsic to endoplasmic reticulum membrane
+GO:0031264	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) death-inducing signaling complex
+GO:0031267	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) small GTPase binding
+GO:0031300	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) intrinsic to organelle membrane
+GO:0031301	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) integral to organelle membrane
+GO:0031333	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of protein complex assembly
+GO:0031334	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of protein complex assembly
+GO:0031346	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of cell projection organization
+GO:0031348	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of defense response
+GO:0031432	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) titin binding
+GO:0031434	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) mitogen-activated protein kinase kinase binding
+GO:0031435	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) mitogen-activated protein kinase kinase kinase binding
+GO:0031573	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) intra-S DNA damage checkpoint
+GO:0031594	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) neuromuscular junction
+GO:0031616	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) spindle pole centrosome
+GO:0031663	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) lipopolysaccharide-mediated signaling pathway
+GO:0031664	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of lipopolysaccharide-mediated signaling pathway
+GO:0031665	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of lipopolysaccharide-mediated signaling pathway
+GO:0031690	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) adrenergic receptor binding
+GO:0031694	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) alpha-2A adrenergic receptor binding
+GO:0031753	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) endothelial differentiation G-protein coupled receptor binding
+GO:0031755	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) Edg-2 lysophosphatidic acid receptor binding
+GO:0031931	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) TORC1 complex
+GO:0031932	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) TORC2 complex
+GO:0031941	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) filamentous actin
+GO:0032000	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of fatty acid beta-oxidation
+GO:0032024	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of insulin secretion
+GO:0032069	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of nuclease activity
+GO:0032075	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of nuclease activity
+GO:0032091	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of protein binding
+GO:0032092	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of protein binding
+GO:0032133	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) chromosome passenger complex
+GO:0032182	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) small conjugating protein binding
+GO:0032231	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of actin filament bundle assembly
+GO:0032233	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of actin filament bundle assembly
+GO:0032271	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of protein polymerization
+GO:0032313	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of Rab GTPase activity
+GO:0032318	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of Ras GTPase activity
+GO:0032404	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) mismatch repair complex binding
+GO:0032405	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) MutLalpha complex binding
+GO:0032407	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) MutSalpha complex binding
+GO:0032409	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of transporter activity
+GO:0032494	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) response to peptidoglycan
+GO:0032507	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) maintenance of protein location in cell
+GO:0032535	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of cellular component size
+GO:0032653	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of interleukin-10 production
+GO:0032675	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of interleukin-6 production
+GO:0032680	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of tumor necrosis factor production
+GO:0032695	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of interleukin-12 production
+GO:0032715	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of interleukin-6 production
+GO:0032720	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of tumor necrosis factor production
+GO:0032780	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of ATPase activity
+GO:0032787	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) monocarboxylic acid metabolic process
+GO:0032793	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of CREB transcription factor activity
+GO:0032813	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) tumor necrosis factor receptor superfamily binding
+GO:0032838	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) cell projection cytoplasm
+GO:0032839	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) dendrite cytoplasm
+GO:0032886	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of microtubule-based process
+GO:0032990	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) cell part morphogenesis
+GO:0033124	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of GTP catabolic process
+GO:0033135	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of peptidyl-serine phosphorylation
+GO:0033136	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) serine phosphorylation of STAT3 protein
+GO:0033138	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of peptidyl-serine phosphorylation
+GO:0033209	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) tumor necrosis factor-mediated signaling pathway
+GO:0033261	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of S phase
+GO:0033605	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of catecholamine secretion
+GO:0033619	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) membrane protein proteolysis
+GO:0033623	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of integrin activation
+GO:0033625	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of integrin activation
+GO:0033688	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of osteoblast proliferation
+GO:0033689	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of osteoblast proliferation
+GO:0033867	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) Fas-activated serine/threonine kinase activity
+GO:0034103	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of tissue remodeling
+GO:0034121	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of toll-like receptor signaling pathway
+GO:0034122	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of toll-like receptor signaling pathway
+GO:0034236	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) protein kinase A catalytic subunit binding
+GO:0034330	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) cell junction organization
+GO:0034612	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) response to tumor necrosis factor
+GO:0034644	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) cellular response to UV
+GO:0034660	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) ncRNA metabolic process
+GO:0034661	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) ncRNA catabolic process
+GO:0034673	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) inhibin-betaglycan-ActRII complex
+GO:0034708	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) methyltransferase complex
+GO:0034711	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) inhibin binding
+GO:0035088	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) establishment or maintenance of apical/basal cell polarity
+GO:0035097	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) histone methyltransferase complex
+GO:0035150	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of tube size
+GO:0035402	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) histone kinase activity (H3-T11 specific)
+GO:0035591	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) signaling adaptor activity
+GO:0042036	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of cytokine biosynthetic process
+GO:0042063	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) gliogenesis
+GO:0042110	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) T cell activation
+GO:0042149	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) cellular response to glucose starvation
+GO:0042180	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) cellular ketone metabolic process
+GO:0042304	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of fatty acid biosynthetic process
+GO:0042312	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of vasodilation
+GO:0042501	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) serine phosphorylation of STAT protein
+GO:0042609	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) CD4 receptor binding
+GO:0042610	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) CD8 receptor binding
+GO:0042692	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) muscle cell differentiation
+GO:0042771	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) DNA damage response, signal transduction by p53 class mediator resulting in induction of apoptosis
+GO:0042772	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) DNA damage response, signal transduction resulting in transcription
+GO:0042953	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) lipoprotein transport
+GO:0043015	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) gamma-tubulin binding
+GO:0043021	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) ribonucleoprotein binding
+GO:0043025	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) neuronal cell body
+GO:0043028	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) caspase regulator activity
+GO:0043087	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of GTPase activity
+GO:0043130	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) ubiquitin binding
+GO:0043193	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of gene-specific transcription
+GO:0043200	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) response to amino acid stimulus
+GO:0043242	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of protein complex disassembly
+GO:0043244	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of protein complex disassembly
+GO:0043269	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of ion transport
+GO:0043271	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of ion transport
+GO:0043330	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) response to exogenous dsRNA
+GO:0043331	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) response to dsRNA
+GO:0043409	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of MAPKKK cascade
+GO:0043436	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) oxoacid metabolic process
+GO:0043462	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of ATPase activity
+GO:0043508	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of JUN kinase activity
+GO:0043524	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of neuron apoptosis
+GO:0043525	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of neuron apoptosis
+GO:0043531	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) ADP binding
+GO:0043696	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) dedifferentiation
+GO:0043697	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) cell dedifferentiation
+GO:0043900	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of multi-organism process
+GO:0044283	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) small molecule biosynthetic process
+GO:0044297	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) cell body
+GO:0044445	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) cytosolic part
+GO:0044448	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) cell cortex part
+GO:0045074	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of interleukin-10 biosynthetic process
+GO:0045075	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of interleukin-12 biosynthetic process
+GO:0045081	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of interleukin-10 biosynthetic process
+GO:0045087	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) innate immune response
+GO:0045124	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of bone resorption
+GO:0045185	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) maintenance of protein location
+GO:0045197	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) establishment or maintenance of epithelial cell apical/basal polarity
+GO:0045216	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) cell-cell junction organization
+GO:0045323	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) interleukin-1 receptor complex
+GO:0045445	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) myoblast differentiation
+GO:0045540	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of cholesterol biosynthetic process
+GO:0045542	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of cholesterol biosynthetic process
+GO:0045668	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of osteoblast differentiation
+GO:0045717	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of fatty acid biosynthetic process
+GO:0045744	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of G-protein coupled receptor protein signaling pathway
+GO:0045773	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of axon extension
+GO:0045822	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of heart contraction
+GO:0045824	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of innate immune response
+GO:0045912	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of carbohydrate metabolic process
+GO:0045923	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of fatty acid metabolic process
+GO:0045931	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of mitotic cell cycle
+GO:0045932	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of muscle contraction
+GO:0045940	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of steroid metabolic process
+GO:0045988	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of striated muscle contraction
+GO:0045993	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of translational initiation by iron
+GO:0046317	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of glucosylceramide biosynthetic process
+GO:0046318	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of glucosylceramide biosynthetic process
+GO:0046321	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of fatty acid oxidation
+GO:0046325	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of glucose import
+GO:0046329	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of JNK cascade
+GO:0046394	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) carboxylic acid biosynthetic process
+GO:0046486	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) glycerolipid metabolic process
+GO:0046599	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of centriole replication
+GO:0046601	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of centriole replication
+GO:0046605	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of centrosome cycle
+GO:0046607	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of centrosome cycle
+GO:0046790	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) virion binding
+GO:0046825	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of protein export from nucleus
+GO:0046834	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) lipid phosphorylation
+GO:0046850	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of bone remodeling
+GO:0046854	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) phosphoinositide phosphorylation
+GO:0046883	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of hormone secretion
+GO:0046887	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of hormone secretion
+GO:0046906	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) tetrapyrrole binding
+GO:0046984	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of hemoglobin biosynthetic process
+GO:0046986	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of hemoglobin biosynthetic process
+GO:0048186	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) inhibin beta-A binding
+GO:0048273	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) mitogen-activated protein kinase p38 binding
+GO:0048365	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) Rac GTPase binding
+GO:0048515	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) spermatid differentiation
+GO:0048660	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of smooth muscle cell proliferation
+GO:0048662	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of smooth muscle cell proliferation
+GO:0048699	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) generation of neurons
+GO:0048812	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) neuron projection morphogenesis
+GO:0048814	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of dendrite morphogenesis
+GO:0048858	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) cell projection morphogenesis
+GO:0050433	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of catecholamine secretion
+GO:0050657	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) nucleic acid transport
+GO:0050658	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) RNA transport
+GO:0050680	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of epithelial cell proliferation
+GO:0050700	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) CARD domain binding
+GO:0050769	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of neurogenesis
+GO:0050770	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of axonogenesis
+GO:0050772	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of axonogenesis
+GO:0050773	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of dendrite development
+GO:0050777	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of immune response
+GO:0050796	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of insulin secretion
+GO:0050804	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of synaptic transmission
+GO:0050808	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) synapse organization
+GO:0050810	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of steroid biosynthetic process
+GO:0050821	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) protein stabilization
+GO:0050852	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) T cell receptor signaling pathway
+GO:0050853	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) B cell receptor signaling pathway
+GO:0050854	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of antigen receptor-mediated signaling pathway
+GO:0050856	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of T cell receptor signaling pathway
+GO:0050857	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of antigen receptor-mediated signaling pathway
+GO:0050862	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of T cell receptor signaling pathway
+GO:0050878	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of body fluid levels
+GO:0050880	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of blood vessel size
+GO:0050890	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) cognition
+GO:0050900	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) leukocyte migration
+GO:0050901	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) leukocyte tethering or rolling
+GO:0050954	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) sensory perception of mechanical stimulus
+GO:0050996	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of lipid catabolic process
+GO:0051018	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) protein kinase A binding
+GO:0051019	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) mitogen-activated protein kinase binding
+GO:0051020	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) GTPase binding
+GO:0051028	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) mRNA transport
+GO:0051048	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of secretion
+GO:0051053	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of DNA metabolic process
+GO:0051117	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) ATPase binding
+GO:0051147	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of muscle cell differentiation
+GO:0051149	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of muscle cell differentiation
+GO:0051209	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) release of sequestered calcium ion into cytosol
+GO:0051220	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) cytoplasmic sequestering of protein
+GO:0051224	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of protein transport
+GO:0051235	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) maintenance of location
+GO:0051236	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) establishment of RNA localization
+GO:0051282	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of sequestering of calcium ion
+GO:0051283	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of sequestering of calcium ion
+GO:0051297	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) centrosome organization
+GO:0051299	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) centrosome separation
+GO:0051346	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of hydrolase activity
+GO:0051402	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) neuron apoptosis
+GO:0051403	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) stress-activated MAPK cascade
+GO:0051437	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle
+GO:0051480	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) cytosolic calcium ion homeostasis
+GO:0051651	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) maintenance of location in cell
+GO:0051952	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of amine transport
+GO:0051954	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of amine transport
+GO:0051983	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of chromosome segregation
+GO:0055065	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) metal ion homeostasis
+GO:0055066	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) di-, tri-valent inorganic cation homeostasis
+GO:0055069	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) zinc ion homeostasis
+GO:0055074	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) calcium ion homeostasis
+GO:0055080	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) cation homeostasis
+GO:0055082	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) cellular chemical homeostasis
+GO:0060002	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) plus-end directed microfilament motor activity
+GO:0060090	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) molecular adaptor activity
+GO:0060395	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) SMAD protein signal transduction
+GO:0060401	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) cytosolic calcium ion transport
+GO:0060402	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) calcium ion transport into cytosol
+GO:0060544	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of necroptosis
+GO:0060545	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of necroptosis
+GO:0060553	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) induction of necroptosis
+GO:0060555	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) induction of necroptosis by extracellular signals
+GO:0060706	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) cell differentiation involved in embryonic placenta development
+GO:0060707	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) trophoblast giant cell differentiation
+GO:0061024	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) membrane organization
+GO:0061134	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) peptidase regulator activity
+GO:0061245	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) establishment or maintenance of bipolar cell polarity
+GO:0070064	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) proline-rich region binding
+GO:0070303	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of stress-activated protein kinase signaling cascade
+GO:0070419	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) nonhomologous end joining complex
+GO:0070482	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) response to oxygen levels
+GO:0070507	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of microtubule cytoskeleton organization
+GO:0070513	0	65	0.00	1	389	0.26	0.00	-27.94	(MF) death domain binding
+GO:0070688	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) MLL5-L complex
+GO:0070926	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of ATP:ADP antiporter activity
+GO:0070969	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) ULK1-ATG13-FIP200 complex
+GO:0071219	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) cellular response to molecule of bacterial origin
+GO:0071222	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) cellular response to lipopolysaccharide
+GO:0071482	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) cellular response to light stimulus
+GO:0071598	0	65	0.00	1	389	0.26	0.00	-27.94	(CC) neuronal RNA granule
+GO:0071826	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) ribonucleoprotein complex subunit organization
+GO:0080010	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of oxygen and reactive oxygen species metabolic process
+GO:0090087	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of peptide transport
+GO:0090153	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of sphingolipid biosynthetic process
+GO:0090155	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) negative regulation of sphingolipid biosynthetic process
+GO:0090181	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of cholesterol metabolic process
+GO:0090205	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of cholesterol metabolic process
+GO:0090276	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) regulation of peptide hormone secretion
+GO:0090277	0	65	0.00	1	389	0.26	0.00	-27.94	(BP) positive regulation of peptide hormone secretion
+GO:0005737	3	65	4.62	101	389	25.96	0.18	-2.49	(CC) cytoplasm
+GO:0004702	1	65	1.54	31	389	7.97	0.19	-2.37	(MF) receptor signaling protein serine/threonine kinase activity
+GO:0022403	1	65	1.54	22	389	5.66	0.27	-1.88	(BP) cell cycle phase
+GO:0000280	1	65	1.54	18	389	4.63	0.33	-1.59	(BP) nuclear division
+GO:0007067	1	65	1.54	18	389	4.63	0.33	-1.59	(BP) mitosis
+GO:0048285	1	65	1.54	18	389	4.63	0.33	-1.59	(BP) organelle fission
+GO:0007049	1	65	1.54	16	389	4.11	0.37	-1.42	(BP) cell cycle
+GO:0030695	1	65	1.54	16	389	4.11	0.37	-1.42	(MF) GTPase regulator activity
+GO:0060589	1	65	1.54	16	389	4.11	0.37	-1.42	(MF) nucleoside-triphosphatase regulator activity
+GO:0004709	1	65	1.54	15	389	3.86	0.40	-1.33	(MF) MAP kinase kinase kinase activity
+GO:0030234	2	65	3.08	30	389	7.71	0.40	-1.33	(MF) enzyme regulator activity
+GO:0010648	1	65	1.54	14	389	3.60	0.43	-1.23	(BP) negative regulation of cell communication
+GO:0000287	4	65	6.15	54	389	13.88	0.44	-1.17	(MF) magnesium ion binding
+GO:0000187	1	65	1.54	13	389	3.34	0.46	-1.12	(BP) activation of MAPK activity
+GO:0035467	1	65	1.54	13	389	3.34	0.46	-1.12	(BP) negative regulation of signaling pathway
+GO:0006996	3	65	4.62	37	389	9.51	0.49	-1.04	(BP) organelle organization
+GO:0004697	1	65	1.54	12	389	3.08	0.50	-1.00	(MF) protein kinase C activity
+GO:0005815	1	65	1.54	12	389	3.08	0.50	-1.00	(CC) microtubule organizing center
+GO:0046914	1	65	1.54	12	389	3.08	0.50	-1.00	(MF) transition metal ion binding
+GO:0080134	2	65	3.08	23	389	5.91	0.52	-0.94	(BP) regulation of response to stress
+GO:0051252	2	65	3.08	22	389	5.66	0.54	-0.88	(BP) regulation of RNA metabolic process
+GO:0004674	28	65	43.08	295	389	75.84	0.57	-0.82	(MF) protein serine/threonine kinase activity
+GO:0006355	2	65	3.08	21	389	5.40	0.57	-0.81	(BP) regulation of transcription, DNA-dependent
+GO:0006917	2	65	3.08	21	389	5.40	0.57	-0.81	(BP) induction of apoptosis
+GO:0012502	2	65	3.08	21	389	5.40	0.57	-0.81	(BP) induction of programmed cell death
+GO:0071841	4	65	6.15	42	389	10.80	0.57	-0.81	(BP) cellular component organization or biogenesis at cellular level
+GO:0071842	4	65	6.15	42	389	10.80	0.57	-0.81	(BP) cellular component organization at cellular level
+GO:0002682	1	65	1.54	10	389	2.57	0.60	-0.74	(BP) regulation of immune system process
+GO:0009607	1	65	1.54	10	389	2.57	0.60	-0.74	(BP) response to biotic stimulus
+GO:0048583	3	65	4.62	30	389	7.71	0.60	-0.74	(BP) regulation of response to stimulus
+GO:0044430	2	65	3.08	19	389	4.88	0.63	-0.67	(CC) cytoskeletal part
+GO:0051301	2	65	3.08	19	389	4.88	0.63	-0.67	(BP) cell division
+GO:0051704	2	65	3.08	19	389	4.88	0.63	-0.67	(BP) multi-organism process
+GO:0080135	2	65	3.08	19	389	4.88	0.63	-0.67	(BP) regulation of cellular response to stress
+GO:0005739	1	65	1.54	9	389	2.31	0.66	-0.59	(CC) mitochondrion
+GO:0016787	1	65	1.54	9	389	2.31	0.66	-0.59	(MF) hydrolase activity
+GO:0019900	2	65	3.08	18	389	4.63	0.66	-0.59	(MF) kinase binding
+GO:0030029	1	65	1.54	9	389	2.31	0.66	-0.59	(BP) actin filament-based process
+GO:0030036	1	65	1.54	9	389	2.31	0.66	-0.59	(BP) actin cytoskeleton organization
+GO:0043122	1	65	1.54	9	389	2.31	0.66	-0.59	(BP) regulation of I-kappaB kinase/NF-kappaB cascade
+GO:0043123	1	65	1.54	9	389	2.31	0.66	-0.59	(BP) positive regulation of I-kappaB kinase/NF-kappaB cascade
+GO:0043408	2	65	3.08	18	389	4.63	0.66	-0.59	(BP) regulation of MAPKKK cascade
+GO:0044451	1	65	1.54	9	389	2.31	0.66	-0.59	(CC) nucleoplasm part
+GO:0051348	1	65	1.54	9	389	2.31	0.66	-0.59	(BP) negative regulation of transferase activity
+GO:0030154	3	65	4.62	26	389	6.68	0.69	-0.53	(BP) cell differentiation
+GO:0043065	3	65	4.62	26	389	6.68	0.69	-0.53	(BP) positive regulation of apoptosis
+GO:0043226	16	65	24.62	136	389	34.96	0.70	-0.51	(CC) organelle
+GO:0043229	16	65	24.62	136	389	34.96	0.70	-0.51	(CC) intracellular organelle
+GO:0006915	4	65	6.15	33	389	8.48	0.73	-0.46	(BP) apoptosis
+GO:0012501	4	65	6.15	33	389	8.48	0.73	-0.46	(BP) programmed cell death
+GO:0043227	13	65	20.00	107	389	27.51	0.73	-0.46	(CC) membrane-bounded organelle
+GO:0043228	4	65	6.15	33	389	8.48	0.73	-0.46	(CC) non-membrane-bounded organelle
+GO:0043231	13	65	20.00	107	389	27.51	0.73	-0.46	(CC) intracellular membrane-bounded organelle
+GO:0043232	4	65	6.15	33	389	8.48	0.73	-0.46	(CC) intracellular non-membrane-bounded organelle
+GO:0005634	10	65	15.38	82	389	21.08	0.73	-0.45	(CC) nucleus
+GO:0006469	1	65	1.54	8	389	2.06	0.75	-0.42	(BP) negative regulation of protein kinase activity
+GO:0006810	2	65	3.08	16	389	4.11	0.75	-0.42	(BP) transport
+GO:0008624	1	65	1.54	8	389	2.06	0.75	-0.42	(BP) induction of apoptosis by extracellular signals
+GO:0030054	1	65	1.54	8	389	2.06	0.75	-0.42	(CC) cell junction
+GO:0033673	1	65	1.54	8	389	2.06	0.75	-0.42	(BP) negative regulation of kinase activity
+GO:0042995	1	65	1.54	8	389	2.06	0.75	-0.42	(CC) cell projection
+GO:0046907	1	65	1.54	8	389	2.06	0.75	-0.42	(BP) intracellular transport
+GO:0051234	2	65	3.08	16	389	4.11	0.75	-0.42	(BP) establishment of localization
+GO:0044092	2	65	3.08	15	389	3.86	0.80	-0.33	(BP) negative regulation of molecular function
+GO:0016043	7	65	10.77	52	389	13.37	0.81	-0.31	(BP) cellular component organization
+GO:0071840	7	65	10.77	52	389	13.37	0.81	-0.31	(BP) cellular component organization or biogenesis
+GO:0044424	34	65	52.31	248	389	63.75	0.82	-0.29	(CC) intracellular part
+GO:0007243	8	65	12.31	58	389	14.91	0.83	-0.28	(BP) intracellular protein kinase cascade
+GO:0023014	8	65	12.31	58	389	14.91	0.83	-0.28	(BP) signal transmission via phosphorylation event
+GO:0023060	8	65	12.31	58	389	14.91	0.83	-0.28	(BP) signal transmission
+GO:0002684	1	65	1.54	7	389	1.80	0.85	-0.23	(BP) positive regulation of immune system process
+GO:0004693	3	65	4.62	21	389	5.40	0.85	-0.23	(MF) cyclin-dependent protein kinase activity
+GO:0005654	3	65	4.62	21	389	5.40	0.85	-0.23	(CC) nucleoplasm
+GO:0007010	2	65	3.08	14	389	3.60	0.85	-0.23	(BP) cytoskeleton organization
+GO:0008022	1	65	1.54	7	389	1.80	0.85	-0.23	(MF) protein C-terminus binding
+GO:0008047	1	65	1.54	7	389	1.80	0.85	-0.23	(MF) enzyme activator activity
+GO:0008270	1	65	1.54	7	389	1.80	0.85	-0.23	(MF) zinc ion binding
+GO:0016055	1	65	1.54	7	389	1.80	0.85	-0.23	(BP) Wnt receptor signaling pathway
+GO:0043405	3	65	4.62	21	389	5.40	0.85	-0.23	(BP) regulation of MAP kinase activity
+GO:0048471	1	65	1.54	7	389	1.80	0.85	-0.23	(CC) perinuclear region of cytoplasm
+GO:0071900	4	65	6.15	28	389	7.20	0.85	-0.23	(BP) regulation of protein serine/threonine kinase activity
+GO:0010942	4	65	6.15	27	389	6.94	0.89	-0.17	(BP) positive regulation of cell death
+GO:0043068	4	65	6.15	27	389	6.94	0.89	-0.17	(BP) positive regulation of programmed cell death
+GO:0004715	5	65	7.69	33	389	8.48	0.91	-0.14	(MF) non-membrane spanning protein tyrosine kinase activity
+GO:0023046	9	65	13.85	59	389	15.17	0.91	-0.13	(BP) signaling process
+GO:0004683	2	65	3.08	13	389	3.34	0.92	-0.12	(MF) calmodulin-dependent protein kinase activity
+GO:0006464	53	65	81.54	344	389	88.43	0.92	-0.12	(BP) protein modification process
+GO:0006468	53	65	81.54	344	389	88.43	0.92	-0.12	(BP) protein phosphorylation
+GO:0006793	53	65	81.54	344	389	88.43	0.92	-0.12	(BP) phosphorus metabolic process
+GO:0006796	53	65	81.54	344	389	88.43	0.92	-0.12	(BP) phosphate metabolic process
+GO:0008152	54	65	83.08	352	389	90.49	0.92	-0.12	(BP) metabolic process
+GO:0016310	53	65	81.54	344	389	88.43	0.92	-0.12	(BP) phosphorylation
+GO:0019538	53	65	81.54	345	389	88.69	0.92	-0.12	(BP) protein metabolic process
+GO:0043170	54	65	83.08	351	389	90.23	0.92	-0.12	(BP) macromolecule metabolic process
+GO:0043412	53	65	81.54	344	389	88.43	0.92	-0.12	(BP) macromolecule modification
+GO:0044237	54	65	83.08	352	389	90.49	0.92	-0.12	(BP) cellular metabolic process
+GO:0044238	54	65	83.08	351	389	90.23	0.92	-0.12	(BP) primary metabolic process
+GO:0044260	54	65	83.08	351	389	90.23	0.92	-0.12	(BP) cellular macromolecule metabolic process
+GO:0044267	53	65	81.54	345	389	88.69	0.92	-0.12	(BP) cellular protein metabolic process
+GO:0004672	60	65	92.31	381	389	97.94	0.94	-0.09	(MF) protein kinase activity
+GO:0016773	60	65	92.31	381	389	97.94	0.94	-0.09	(MF) phosphotransferase activity, alcohol group as acceptor
+GO:0003824	61	65	93.85	381	389	97.94	0.96	-0.06	(MF) catalytic activity
+GO:0009987	58	65	89.23	363	389	93.32	0.96	-0.06	(BP) cellular process
+GO:0016301	61	65	93.85	381	389	97.94	0.96	-0.06	(MF) kinase activity
+GO:0016740	61	65	93.85	381	389	97.94	0.96	-0.06	(MF) transferase activity
+GO:0016772	61	65	93.85	381	389	97.94	0.96	-0.06	(MF) transferase activity, transferring phosphorus-containing groups
+GO:0001882	64	65	98.46	386	389	99.23	0.99	-0.01	(MF) nucleoside binding
+GO:0001883	64	65	98.46	386	389	99.23	0.99	-0.01	(MF) purine nucleoside binding
+GO:0005515	44	65	67.69	265	389	68.12	0.99	-0.01	(MF) protein binding
+GO:0005524	64	65	98.46	386	389	99.23	0.99	-0.01	(MF) ATP binding
+GO:0030554	64	65	98.46	386	389	99.23	0.99	-0.01	(MF) adenyl nucleotide binding
+GO:0032559	64	65	98.46	386	389	99.23	0.99	-0.01	(MF) adenyl ribonucleotide binding
+GO:0000165	2	65	3.08	12	389	3.08	1.00	-0.00	(BP) MAPKKK cascade
+GO:0003674	65	65	100.00	389	389	100.00	1.00	0.00	(MF) molecular_function
+GO:0006139	4	65	6.15	24	389	6.17	1.00	-0.00	(BP) nucleobase, nucleoside, nucleotide and nucleic acid metabolic process
+GO:0008150	63	65	96.92	378	389	97.17	1.00	-0.00	(BP) biological_process
+GO:0009890	1	65	1.54	6	389	1.54	1.00	-0.00	(BP) negative regulation of biosynthetic process
+GO:0016071	1	65	1.54	6	389	1.54	1.00	-0.00	(BP) mRNA metabolic process
+GO:0030111	1	65	1.54	6	389	1.54	1.00	-0.00	(BP) regulation of Wnt receptor signaling pathway
+GO:0031327	1	65	1.54	6	389	1.54	1.00	-0.00	(BP) negative regulation of cellular biosynthetic process
+GO:0044419	2	65	3.08	12	389	3.08	1.00	-0.00	(BP) interspecies interaction between organisms
+GO:0051276	1	65	1.54	6	389	1.54	1.00	-0.00	(BP) chromosome organization
+GO:0090304	4	65	6.15	24	389	6.17	1.00	-0.00	(BP) nucleic acid metabolic process
+GO:0000166	65	65	100.00	386	389	99.23	1.01	0.01	(MF) nucleotide binding
+GO:0005488	65	65	100.00	386	389	99.23	1.01	0.01	(MF) binding
+GO:0017076	65	65	100.00	386	389	99.23	1.01	0.01	(MF) purine nucleotide binding
+GO:0032553	65	65	100.00	386	389	99.23	1.01	0.01	(MF) ribonucleotide binding
+GO:0032555	65	65	100.00	386	389	99.23	1.01	0.01	(MF) purine ribonucleotide binding
+GO:0005057	6	65	9.23	35	389	9.00	1.03	0.04	(MF) receptor signaling protein activity
+GO:0006974	3	65	4.62	17	389	4.37	1.06	0.08	(BP) response to DNA damage stimulus
+GO:0019899	5	65	7.69	28	389	7.20	1.07	0.10	(MF) enzyme binding
+GO:0044428	7	65	10.77	39	389	10.03	1.07	0.10	(CC) nuclear part
+GO:0005003	2	65	3.08	11	389	2.83	1.09	0.12	(MF) ephrin receptor activity
+GO:0009719	2	65	3.08	11	389	2.83	1.09	0.12	(BP) response to endogenous stimulus
+GO:0043086	2	65	3.08	11	389	2.83	1.09	0.12	(BP) negative regulation of catalytic activity
+GO:0042803	3	65	4.62	16	389	4.11	1.12	0.17	(MF) protein homodimerization activity
+GO:0044446	12	65	18.46	63	389	16.20	1.14	0.19	(CC) intracellular organelle part
+GO:0033554	5	65	7.69	26	389	6.68	1.15	0.20	(BP) cellular response to stress
+GO:0005575	60	65	92.31	304	389	78.15	1.18	0.24	(CC) cellular_component
+GO:0044464	60	65	92.31	303	389	77.89	1.19	0.24	(CC) cell part
+GO:0004703	1	65	1.54	5	389	1.29	1.20	0.26	(MF) G-protein coupled receptor kinase activity
+GO:0005856	3	65	4.62	15	389	3.86	1.20	0.26	(CC) cytoskeleton
+GO:0006259	2	65	3.08	10	389	2.57	1.20	0.26	(BP) DNA metabolic process
+GO:0006350	2	65	3.08	10	389	2.57	1.20	0.26	(BP) transcription
+GO:0006952	1	65	1.54	5	389	1.29	1.20	0.26	(BP) defense response
+GO:0007275	3	65	4.62	15	389	3.86	1.20	0.26	(BP) multicellular organismal development
+GO:0009058	4	65	6.15	20	389	5.14	1.20	0.26	(BP) biosynthetic process
+GO:0009725	2	65	3.08	10	389	2.57	1.20	0.26	(BP) response to hormone stimulus
+GO:0015031	1	65	1.54	5	389	1.29	1.20	0.26	(BP) protein transport
+GO:0016604	1	65	1.54	5	389	1.29	1.20	0.26	(CC) nuclear body
+GO:0032844	1	65	1.54	5	389	1.29	1.20	0.26	(BP) regulation of homeostatic process
+GO:0032870	2	65	3.08	10	389	2.57	1.20	0.26	(BP) cellular response to hormone stimulus
+GO:0042770	2	65	3.08	10	389	2.57	1.20	0.26	(BP) signal transduction in response to DNA damage
+GO:0043406	3	65	4.62	15	389	3.86	1.20	0.26	(BP) positive regulation of MAP kinase activity
+GO:0044249	4	65	6.15	20	389	5.14	1.20	0.26	(BP) cellular biosynthetic process
+GO:0044432	1	65	1.54	5	389	1.29	1.20	0.26	(CC) endoplasmic reticulum part
+GO:0045184	1	65	1.54	5	389	1.29	1.20	0.26	(BP) establishment of protein localization
+GO:0045732	1	65	1.54	5	389	1.29	1.20	0.26	(BP) positive regulation of protein catabolic process
+GO:0051051	1	65	1.54	5	389	1.29	1.20	0.26	(BP) negative regulation of transport
+GO:0051427	1	65	1.54	5	389	1.29	1.20	0.26	(MF) hormone receptor binding
+GO:0060828	1	65	1.54	5	389	1.29	1.20	0.26	(BP) regulation of canonical Wnt receptor signaling pathway
+GO:0071495	2	65	3.08	10	389	2.57	1.20	0.26	(BP) cellular response to endogenous stimulus
+GO:0044422	13	65	20.00	64	389	16.45	1.22	0.28	(CC) organelle part
+GO:0022402	7	65	10.77	34	389	8.74	1.23	0.30	(BP) cell cycle process
+GO:0006807	5	65	7.69	24	389	6.17	1.25	0.32	(BP) nitrogen compound metabolic process
+GO:0006950	10	65	15.38	48	389	12.34	1.25	0.32	(BP) response to stress
+GO:0034641	5	65	7.69	24	389	6.17	1.25	0.32	(BP) cellular nitrogen compound metabolic process
+GO:0009059	4	65	6.15	19	389	4.88	1.26	0.33	(BP) macromolecule biosynthetic process
+GO:0034645	4	65	6.15	19	389	4.88	1.26	0.33	(BP) cellular macromolecule biosynthetic process
+GO:0043167	25	65	38.46	119	389	30.59	1.26	0.33	(MF) ion binding
+GO:0043169	25	65	38.46	119	389	30.59	1.26	0.33	(MF) cation binding
+GO:0046872	25	65	38.46	119	389	30.59	1.26	0.33	(MF) metal ion binding
+GO:0051716	8	65	12.31	38	389	9.77	1.26	0.33	(BP) cellular response to stimulus
+GO:0048869	6	65	9.23	28	389	7.20	1.28	0.36	(BP) cellular developmental process
+GO:0044444	25	65	38.46	114	389	29.31	1.31	0.39	(CC) cytoplasmic part
+GO:0008219	8	65	12.31	36	389	9.25	1.33	0.41	(BP) cell death
+GO:0016265	8	65	12.31	36	389	9.25	1.33	0.41	(BP) death
+GO:0018108	2	65	3.08	9	389	2.31	1.33	0.41	(BP) peptidyl-tyrosine phosphorylation
+GO:0018212	2	65	3.08	9	389	2.31	1.33	0.41	(BP) peptidyl-tyrosine modification
+GO:0051649	2	65	3.08	9	389	2.31	1.33	0.41	(BP) establishment of localization in cell
+GO:0009966	9	65	13.85	40	389	10.28	1.35	0.43	(BP) regulation of signal transduction
+GO:0023051	9	65	13.85	40	389	10.28	1.35	0.43	(BP) regulation of signaling process
+GO:0050789	47	65	72.31	208	389	53.47	1.35	0.44	(BP) regulation of biological process
+GO:0065007	48	65	73.85	210	389	53.98	1.37	0.45	(BP) biological regulation
+GO:0007165	26	65	40.00	113	389	29.05	1.38	0.46	(BP) signal transduction
+GO:0050794	47	65	72.31	204	389	52.44	1.38	0.46	(BP) regulation of cellular process
+GO:0010627	6	65	9.23	26	389	6.68	1.38	0.47	(BP) regulation of intracellular protein kinase cascade
+GO:0042981	9	65	13.85	39	389	10.03	1.38	0.47	(BP) regulation of apoptosis
+GO:0010556	10	65	15.38	43	389	11.05	1.39	0.48	(BP) regulation of macromolecule biosynthetic process
+GO:0005829	15	65	23.08	64	389	16.45	1.40	0.49	(CC) cytosol
+GO:0071902	4	65	6.15	17	389	4.37	1.41	0.49	(BP) positive regulation of protein serine/threonine kinase activity
+GO:0016020	13	65	20.00	54	389	13.88	1.44	0.53	(CC) membrane
+GO:0023034	22	65	33.85	91	389	23.39	1.45	0.53	(BP) intracellular signaling pathway
+GO:0045449	7	65	10.77	29	389	7.46	1.44	0.53	(BP) regulation of transcription
+GO:0005516	4	65	6.15	16	389	4.11	1.50	0.58	(MF) calmodulin binding
+GO:0005789	1	65	1.54	4	389	1.03	1.50	0.58	(CC) endoplasmic reticulum membrane
+GO:0006446	1	65	1.54	4	389	1.03	1.50	0.58	(BP) regulation of translational initiation
+GO:0006886	1	65	1.54	4	389	1.03	1.50	0.58	(BP) intracellular protein transport
+GO:0007017	1	65	1.54	4	389	1.03	1.50	0.58	(BP) microtubule-based process
+GO:0009611	1	65	1.54	4	389	1.03	1.50	0.58	(BP) response to wounding
+GO:0010468	10	65	15.38	40	389	10.28	1.50	0.58	(BP) regulation of gene expression
+GO:0010558	1	65	1.54	4	389	1.03	1.50	0.58	(BP) negative regulation of macromolecule biosynthetic process
+GO:0010608	2	65	3.08	8	389	2.06	1.50	0.58	(BP) posttranscriptional regulation of gene expression
+GO:0010941	10	65	15.38	40	389	10.28	1.50	0.58	(BP) regulation of cell death
+GO:0016070	2	65	3.08	8	389	2.06	1.50	0.58	(BP) RNA metabolic process
+GO:0019221	1	65	1.54	4	389	1.03	1.50	0.58	(BP) cytokine-mediated signaling pathway
+GO:0022603	1	65	1.54	4	389	1.03	1.50	0.58	(BP) regulation of anatomical structure morphogenesis
+GO:0030162	1	65	1.54	4	389	1.03	1.50	0.58	(BP) regulation of proteolysis
+GO:0032434	1	65	1.54	4	389	1.03	1.50	0.58	(BP) regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0032436	1	65	1.54	4	389	1.03	1.50	0.58	(BP) positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0034621	1	65	1.54	4	389	1.03	1.50	0.58	(BP) cellular macromolecular complex subunit organization
+GO:0034622	1	65	1.54	4	389	1.03	1.50	0.58	(BP) cellular macromolecular complex assembly
+GO:0043067	10	65	15.38	40	389	10.28	1.50	0.58	(BP) regulation of programmed cell death
+GO:0044427	1	65	1.54	4	389	1.03	1.50	0.58	(CC) chromosomal part
+GO:0045862	1	65	1.54	4	389	1.03	1.50	0.58	(BP) positive regulation of proteolysis
+GO:0061136	1	65	1.54	4	389	1.03	1.50	0.58	(BP) regulation of proteasomal protein catabolic process
+GO:0065009	13	65	20.00	52	389	13.37	1.50	0.58	(BP) regulation of molecular function
+GO:0070887	3	65	4.62	12	389	3.08	1.50	0.58	(BP) cellular response to chemical stimulus
+GO:0071844	1	65	1.54	4	389	1.03	1.50	0.58	(BP) cellular component assembly at cellular level
+GO:2000112	10	65	15.38	40	389	10.28	1.50	0.58	(BP) regulation of cellular macromolecule biosynthetic process
+GO:0019222	23	65	35.38	91	389	23.39	1.51	0.60	(BP) regulation of metabolic process
+GO:0009889	12	65	18.46	47	389	12.08	1.53	0.61	(BP) regulation of biosynthetic process
+GO:0031326	12	65	18.46	47	389	12.08	1.53	0.61	(BP) regulation of cellular biosynthetic process
+GO:0051338	10	65	15.38	39	389	10.03	1.53	0.62	(BP) regulation of transferase activity
+GO:0005886	7	65	10.77	27	389	6.94	1.55	0.63	(CC) plasma membrane
+GO:0035466	15	65	23.08	57	389	14.65	1.57	0.66	(BP) regulation of signaling pathway
+GO:0043549	10	65	15.38	38	389	9.77	1.57	0.66	(BP) regulation of kinase activity
+GO:0045859	10	65	15.38	38	389	9.77	1.57	0.66	(BP) regulation of protein kinase activity
+GO:0035556	22	65	33.85	83	389	21.34	1.59	0.67	(BP) intracellular signal transduction
+GO:0031323	23	65	35.38	86	389	22.11	1.60	0.68	(BP) regulation of cellular metabolic process
+GO:0060255	19	65	29.23	71	389	18.25	1.60	0.68	(BP) regulation of macromolecule metabolic process
+GO:0019219	10	65	15.38	37	389	9.51	1.62	0.69	(BP) regulation of nucleobase, nucleoside, nucleotide and nucleic acid metabolic process
+GO:0032991	10	65	15.38	37	389	9.51	1.62	0.69	(CC) macromolecular complex
+GO:0010033	5	65	7.69	18	389	4.63	1.66	0.73	(BP) response to organic substance
+GO:0050790	13	65	20.00	47	389	12.08	1.66	0.73	(BP) regulation of catalytic activity
+GO:0006281	2	65	3.08	7	389	1.80	1.71	0.77	(BP) DNA repair
+GO:0008092	2	65	3.08	7	389	1.80	1.71	0.77	(MF) cytoskeletal protein binding
+GO:0009896	2	65	3.08	7	389	1.80	1.71	0.77	(BP) positive regulation of catabolic process
+GO:0010565	2	65	3.08	7	389	1.80	1.71	0.77	(BP) regulation of cellular ketone metabolic process
+GO:0080090	21	65	32.31	72	389	18.51	1.75	0.80	(BP) regulation of primary metabolic process
+GO:0008283	5	65	7.69	17	389	4.37	1.76	0.82	(BP) cell proliferation
+GO:0031090	5	65	7.69	17	389	4.37	1.76	0.82	(CC) organelle membrane
+GO:0023033	41	65	63.08	138	389	35.48	1.78	0.83	(BP) signaling pathway
+GO:0023052	41	65	63.08	138	389	35.48	1.78	0.83	(BP) signaling
+GO:0007346	3	65	4.62	10	389	2.57	1.80	0.84	(BP) regulation of mitotic cell cycle
+GO:0031329	3	65	4.62	10	389	2.57	1.80	0.84	(BP) regulation of cellular catabolic process
+GO:0033043	3	65	4.62	10	389	2.57	1.80	0.84	(BP) regulation of organelle organization
+GO:0050896	24	65	36.92	80	389	20.57	1.80	0.84	(BP) response to stimulus
+GO:0071310	3	65	4.62	10	389	2.57	1.80	0.84	(BP) cellular response to organic substance
+GO:0019220	13	65	20.00	43	389	11.05	1.81	0.86	(BP) regulation of phosphate metabolic process
+GO:0042325	13	65	20.00	43	389	11.05	1.81	0.86	(BP) regulation of phosphorylation
+GO:0043234	10	65	15.38	33	389	8.48	1.81	0.86	(CC) protein complex
+GO:0046777	10	65	15.38	33	389	8.48	1.81	0.86	(BP) protein autophosphorylation
+GO:0051174	13	65	20.00	43	389	11.05	1.81	0.86	(BP) regulation of phosphorus metabolic process
+GO:0018193	7	65	10.77	23	389	5.91	1.82	0.87	(BP) peptidyl-amino acid modification
+GO:0044093	11	65	16.92	36	389	9.25	1.83	0.87	(BP) positive regulation of molecular function
+GO:0048519	15	65	23.08	49	389	12.60	1.83	0.87	(BP) negative regulation of biological process
+GO:0010564	4	65	6.15	13	389	3.34	1.84	0.88	(BP) regulation of cell cycle process
+GO:0022414	4	65	6.15	13	389	3.34	1.84	0.88	(BP) reproductive process
+GO:0007169	9	65	13.85	28	389	7.20	1.92	0.94	(BP) transmembrane receptor protein tyrosine kinase signaling pathway
+GO:0051726	8	65	12.31	25	389	6.43	1.92	0.94	(BP) regulation of cell cycle
+GO:0048523	15	65	23.08	46	389	11.83	1.95	0.96	(BP) negative regulation of cellular process
+GO:0051171	12	65	18.46	37	389	9.51	1.94	0.96	(BP) regulation of nitrogen compound metabolic process
+GO:0000077	2	65	3.08	6	389	1.54	1.99	1.00	(BP) DNA damage checkpoint
+GO:0000079	2	65	3.08	6	389	1.54	1.99	1.00	(BP) regulation of cyclin-dependent protein kinase activity
+GO:0000226	1	65	1.54	3	389	0.77	1.99	1.00	(BP) microtubule cytoskeleton organization
+GO:0000307	1	65	1.54	3	389	0.77	1.99	1.00	(CC) cyclin-dependent protein kinase holoenzyme complex
+GO:0001932	7	65	10.77	21	389	5.40	1.99	1.00	(BP) regulation of protein phosphorylation
+GO:0004694	1	65	1.54	3	389	0.77	1.99	1.00	(MF) eukaryotic translation initiation factor 2alpha kinase activity
+GO:0004713	29	65	44.62	87	389	22.37	1.99	1.00	(MF) protein tyrosine kinase activity
+GO:0005625	1	65	1.54	3	389	0.77	1.99	1.00	(CC) soluble fraction
+GO:0005768	2	65	3.08	6	389	1.54	1.99	1.00	(CC) endosome
+GO:0006140	1	65	1.54	3	389	0.77	1.99	1.00	(BP) regulation of nucleotide metabolic process
+GO:0006417	2	65	3.08	6	389	1.54	1.99	1.00	(BP) regulation of translation
+GO:0006935	1	65	1.54	3	389	0.77	1.99	1.00	(BP) chemotaxis
+GO:0006979	1	65	1.54	3	389	0.77	1.99	1.00	(BP) response to oxidative stress
+GO:0007265	4	65	6.15	12	389	3.08	1.99	1.00	(BP) Ras protein signal transduction
+GO:0008277	1	65	1.54	3	389	0.77	1.99	1.00	(BP) regulation of G-protein coupled receptor protein signaling pathway
+GO:0008629	1	65	1.54	3	389	0.77	1.99	1.00	(BP) induction of apoptosis by intracellular signals
+GO:0008630	1	65	1.54	3	389	0.77	1.99	1.00	(BP) DNA damage response, signal transduction resulting in induction of apoptosis
+GO:0010008	1	65	1.54	3	389	0.77	1.99	1.00	(CC) endosome membrane
+GO:0010605	3	65	4.62	9	389	2.31	1.99	1.00	(BP) negative regulation of macromolecule metabolic process
+GO:0016023	1	65	1.54	3	389	0.77	1.99	1.00	(CC) cytoplasmic membrane-bounded vesicle
+GO:0017124	1	65	1.54	3	389	0.77	1.99	1.00	(MF) SH3 domain binding
+GO:0031331	2	65	3.08	6	389	1.54	1.99	1.00	(BP) positive regulation of cellular catabolic process
+GO:0031398	1	65	1.54	3	389	0.77	1.99	1.00	(BP) positive regulation of protein ubiquitination
+GO:0031410	1	65	1.54	3	389	0.77	1.99	1.00	(CC) cytoplasmic vesicle
+GO:0031570	2	65	3.08	6	389	1.54	1.99	1.00	(BP) DNA integrity checkpoint
+GO:0031982	1	65	1.54	3	389	0.77	1.99	1.00	(CC) vesicle
+GO:0031988	1	65	1.54	3	389	0.77	1.99	1.00	(CC) membrane-bounded vesicle
+GO:0032583	1	65	1.54	3	389	0.77	1.99	1.00	(BP) regulation of gene-specific transcription
+GO:0035173	1	65	1.54	3	389	0.77	1.99	1.00	(MF) histone kinase activity
+GO:0042176	2	65	3.08	6	389	1.54	1.99	1.00	(BP) regulation of protein catabolic process
+GO:0042330	1	65	1.54	3	389	0.77	1.99	1.00	(BP) taxis
+GO:0043066	4	65	6.15	12	389	3.08	1.99	1.00	(BP) negative regulation of apoptosis
+GO:0043069	4	65	6.15	12	389	3.08	1.99	1.00	(BP) negative regulation of programmed cell death
+GO:0043254	1	65	1.54	3	389	0.77	1.99	1.00	(BP) regulation of protein complex assembly
+GO:0043623	1	65	1.54	3	389	0.77	1.99	1.00	(BP) cellular protein complex assembly
+GO:0044440	1	65	1.54	3	389	0.77	1.99	1.00	(CC) endosomal part
+GO:0045786	3	65	4.62	9	389	2.31	1.99	1.00	(BP) negative regulation of cell cycle
+GO:0045893	1	65	1.54	3	389	0.77	1.99	1.00	(BP) positive regulation of transcription, DNA-dependent
+GO:0046903	1	65	1.54	3	389	0.77	1.99	1.00	(BP) secretion
+GO:0048584	3	65	4.62	9	389	2.31	1.99	1.00	(BP) positive regulation of response to stimulus
+GO:0051254	1	65	1.54	3	389	0.77	1.99	1.00	(BP) positive regulation of RNA metabolic process
+GO:0051340	1	65	1.54	3	389	0.77	1.99	1.00	(BP) regulation of ligase activity
+GO:0051438	1	65	1.54	3	389	0.77	1.99	1.00	(BP) regulation of ubiquitin-protein ligase activity
+GO:0060548	4	65	6.15	12	389	3.08	1.99	1.00	(BP) negative regulation of cell death
+GO:2000113	1	65	1.54	3	389	0.77	1.99	1.00	(BP) negative regulation of cellular macromolecule biosynthetic process
+GO:0004871	30	65	46.15	89	389	22.88	2.02	1.01	(MF) signal transducer activity
+GO:0060089	30	65	46.15	89	389	22.88	2.02	1.01	(MF) molecular transducer activity
+GO:0043085	11	65	16.92	32	389	8.23	2.06	1.04	(BP) positive regulation of catalytic activity
+GO:0033674	9	65	13.85	26	389	6.68	2.07	1.05	(BP) positive regulation of kinase activity
+GO:0045860	9	65	13.85	26	389	6.68	2.07	1.05	(BP) positive regulation of protein kinase activity
+GO:0051347	9	65	13.85	26	389	6.68	2.07	1.05	(BP) positive regulation of transferase activity
+GO:0046983	6	65	9.23	17	389	4.37	2.11	1.08	(MF) protein dimerization activity
+GO:0048518	29	65	44.62	82	389	21.08	2.12	1.08	(BP) positive regulation of biological process
+GO:0051246	13	65	20.00	36	389	9.25	2.16	1.11	(BP) regulation of protein metabolic process
+GO:0009892	4	65	6.15	11	389	2.83	2.18	1.12	(BP) negative regulation of metabolic process
+GO:0009894	4	65	6.15	11	389	2.83	2.18	1.12	(BP) regulation of catabolic process
+GO:0051128	8	65	12.31	22	389	5.66	2.18	1.12	(BP) regulation of cellular component organization
+GO:0000075	3	65	4.62	8	389	2.06	2.24	1.17	(BP) cell cycle checkpoint
+GO:0071156	3	65	4.62	8	389	2.06	2.24	1.17	(BP) regulation of cell cycle arrest
+GO:0032268	13	65	20.00	34	389	8.74	2.29	1.19	(BP) regulation of cellular protein metabolic process
+GO:0048522	29	65	44.62	75	389	19.28	2.31	1.21	(BP) positive regulation of cellular process
+GO:0032501	11	65	16.92	28	389	7.20	2.35	1.23	(BP) multicellular organismal process
+GO:0042221	11	65	16.92	28	389	7.20	2.35	1.23	(BP) response to chemical stimulus
+GO:0003008	4	65	6.15	10	389	2.57	2.39	1.26	(BP) system process
+GO:0003676	4	65	6.15	10	389	2.57	2.39	1.26	(MF) nucleic acid binding
+GO:0005543	2	65	3.08	5	389	1.29	2.39	1.26	(MF) phospholipid binding
+GO:0007088	2	65	3.08	5	389	1.29	2.39	1.26	(BP) regulation of mitosis
+GO:0007264	6	65	9.23	15	389	3.86	2.39	1.26	(BP) small GTPase mediated signal transduction
+GO:0008289	2	65	3.08	5	389	1.29	2.39	1.26	(MF) lipid binding
+GO:0009056	2	65	3.08	5	389	1.29	2.39	1.26	(BP) catabolic process
+GO:0019216	2	65	3.08	5	389	1.29	2.39	1.26	(BP) regulation of lipid metabolic process
+GO:0019217	2	65	3.08	5	389	1.29	2.39	1.26	(BP) regulation of fatty acid metabolic process
+GO:0031324	4	65	6.15	10	389	2.57	2.39	1.26	(BP) negative regulation of cellular metabolic process
+GO:0032868	2	65	3.08	5	389	1.29	2.39	1.26	(BP) response to insulin stimulus
+GO:0032869	2	65	3.08	5	389	1.29	2.39	1.26	(BP) cellular response to insulin stimulus
+GO:0042802	12	65	18.46	30	389	7.71	2.39	1.26	(MF) identical protein binding
+GO:0043434	2	65	3.08	5	389	1.29	2.39	1.26	(BP) response to peptide hormone stimulus
+GO:0050877	2	65	3.08	5	389	1.29	2.39	1.26	(BP) neurological system process
+GO:0051783	2	65	3.08	5	389	1.29	2.39	1.26	(BP) regulation of nuclear division
+GO:0071375	2	65	3.08	5	389	1.29	2.39	1.26	(BP) cellular response to peptide hormone stimulus
+GO:0002376	5	65	7.69	12	389	3.08	2.49	1.32	(BP) immune system process
+GO:0007166	23	65	35.38	55	389	14.14	2.50	1.32	(BP) cell surface receptor linked signaling pathway
+GO:0032147	5	65	7.69	12	389	3.08	2.49	1.32	(BP) activation of protein kinase activity
+GO:0006916	3	65	4.62	7	389	1.80	2.56	1.36	(BP) anti-apoptosis
+GO:0009605	3	65	4.62	7	389	1.80	2.56	1.36	(BP) response to external stimulus
+GO:0031399	11	65	16.92	25	389	6.43	2.63	1.40	(BP) regulation of protein modification process
+GO:0019904	4	65	6.15	9	389	2.31	2.66	1.41	(MF) protein domain specific binding
+GO:0010646	14	65	21.54	31	389	7.97	2.70	1.43	(BP) regulation of cell communication
+GO:0018105	5	65	7.69	11	389	2.83	2.72	1.44	(BP) peptidyl-serine phosphorylation
+GO:0018209	5	65	7.69	11	389	2.83	2.72	1.44	(BP) peptidyl-serine modification
+GO:0032502	25	65	38.46	51	389	13.11	2.93	1.55	(BP) developmental process
+GO:0000082	2	65	3.08	4	389	1.03	2.99	1.58	(BP) G1/S transition of mitotic cell cycle
+GO:0000186	2	65	3.08	4	389	1.03	2.99	1.58	(BP) activation of MAPKK activity
+GO:0000267	4	65	6.15	8	389	2.06	2.99	1.58	(CC) cell fraction
+GO:0001558	4	65	6.15	8	389	2.06	2.99	1.58	(BP) regulation of cell growth
+GO:0003677	3	65	4.62	6	389	1.54	2.99	1.58	(MF) DNA binding
+GO:0003779	2	65	3.08	4	389	1.03	2.99	1.58	(MF) actin binding
+GO:0004687	1	65	1.54	2	389	0.51	2.99	1.58	(MF) myosin light chain kinase activity
+GO:0004930	1	65	1.54	2	389	0.51	2.99	1.58	(MF) G-protein coupled receptor activity
+GO:0005021	2	65	3.08	4	389	1.03	2.99	1.58	(MF) vascular endothelial growth factor receptor activity
+GO:0005131	1	65	1.54	2	389	0.51	2.99	1.58	(MF) growth hormone receptor binding
+GO:0005178	1	65	1.54	2	389	0.51	2.99	1.58	(MF) integrin binding
+GO:0005198	1	65	1.54	2	389	0.51	2.99	1.58	(MF) structural molecule activity
+GO:0005911	1	65	1.54	2	389	0.51	2.99	1.58	(CC) cell-cell junction
+GO:0005938	1	65	1.54	2	389	0.51	2.99	1.58	(CC) cell cortex
+GO:0006066	2	65	3.08	4	389	1.03	2.99	1.58	(BP) alcohol metabolic process
+GO:0006401	1	65	1.54	2	389	0.51	2.99	1.58	(BP) RNA catabolic process
+GO:0006928	3	65	4.62	6	389	1.54	2.99	1.58	(BP) cellular component movement
+GO:0007051	1	65	1.54	2	389	0.51	2.99	1.58	(BP) spindle organization
+GO:0007094	1	65	1.54	2	389	0.51	2.99	1.58	(BP) mitotic cell cycle spindle assembly checkpoint
+GO:0007167	18	65	27.69	36	389	9.25	2.99	1.58	(BP) enzyme linked receptor protein signaling pathway
+GO:0007498	2	65	3.08	4	389	1.03	2.99	1.58	(BP) mesoderm development
+GO:0007600	2	65	3.08	4	389	1.03	2.99	1.58	(BP) sensory perception
+GO:0007601	2	65	3.08	4	389	1.03	2.99	1.58	(BP) visual perception
+GO:0008633	1	65	1.54	2	389	0.51	2.99	1.58	(BP) activation of pro-apoptotic gene products
+GO:0009057	2	65	3.08	4	389	1.03	2.99	1.58	(BP) macromolecule catabolic process
+GO:0009968	1	65	1.54	2	389	0.51	2.99	1.58	(BP) negative regulation of signal transduction
+GO:0009991	1	65	1.54	2	389	0.51	2.99	1.58	(BP) response to extracellular stimulus
+GO:0010639	1	65	1.54	2	389	0.51	2.99	1.58	(BP) negative regulation of organelle organization
+GO:0010827	2	65	3.08	4	389	1.03	2.99	1.58	(BP) regulation of glucose transport
+GO:0010948	1	65	1.54	2	389	0.51	2.99	1.58	(BP) negative regulation of cell cycle process
+GO:0010975	1	65	1.54	2	389	0.51	2.99	1.58	(BP) regulation of neuron projection development
+GO:0015629	1	65	1.54	2	389	0.51	2.99	1.58	(CC) actin cytoskeleton
+GO:0016361	1	65	1.54	2	389	0.51	2.99	1.58	(MF) activin receptor activity, type I
+GO:0018107	2	65	3.08	4	389	1.03	2.99	1.58	(BP) peptidyl-threonine phosphorylation
+GO:0018210	2	65	3.08	4	389	1.03	2.99	1.58	(BP) peptidyl-threonine modification
+GO:0022607	5	65	7.69	10	389	2.57	2.99	1.58	(BP) cellular component assembly
+GO:0023057	1	65	1.54	2	389	0.51	2.99	1.58	(BP) negative regulation of signaling process
+GO:0030071	1	65	1.54	2	389	0.51	2.99	1.58	(BP) regulation of mitotic metaphase/anaphase transition
+GO:0031072	1	65	1.54	2	389	0.51	2.99	1.58	(MF) heat shock protein binding
+GO:0031344	1	65	1.54	2	389	0.51	2.99	1.58	(BP) regulation of cell projection organization
+GO:0031572	1	65	1.54	2	389	0.51	2.99	1.58	(BP) G2/M transition DNA damage checkpoint
+GO:0031576	1	65	1.54	2	389	0.51	2.99	1.58	(BP) G2/M transition checkpoint
+GO:0031577	1	65	1.54	2	389	0.51	2.99	1.58	(BP) spindle checkpoint
+GO:0031667	1	65	1.54	2	389	0.51	2.99	1.58	(BP) response to nutrient levels
+GO:0031965	1	65	1.54	2	389	0.51	2.99	1.58	(CC) nuclear membrane
+GO:0032927	1	65	1.54	2	389	0.51	2.99	1.58	(BP) positive regulation of activin receptor signaling pathway
+GO:0032970	1	65	1.54	2	389	0.51	2.99	1.58	(BP) regulation of actin filament-based process
+GO:0042169	2	65	3.08	4	389	1.03	2.99	1.58	(MF) SH2 domain binding
+GO:0042393	1	65	1.54	2	389	0.51	2.99	1.58	(MF) histone binding
+GO:0042592	1	65	1.54	2	389	0.51	2.99	1.58	(BP) homeostatic process
+GO:0043933	5	65	7.69	10	389	2.57	2.99	1.58	(BP) macromolecular complex subunit organization
+GO:0044248	2	65	3.08	4	389	1.03	2.99	1.58	(BP) cellular catabolic process
+GO:0044262	2	65	3.08	4	389	1.03	2.99	1.58	(BP) cellular carbohydrate metabolic process
+GO:0044281	2	65	3.08	4	389	1.03	2.99	1.58	(BP) small molecule metabolic process
+GO:0044459	26	65	40.00	52	389	13.37	2.99	1.58	(CC) plasma membrane part
+GO:0045598	1	65	1.54	2	389	0.51	2.99	1.58	(BP) regulation of fat cell differentiation
+GO:0045664	1	65	1.54	2	389	0.51	2.99	1.58	(BP) regulation of neuron differentiation
+GO:0045765	1	65	1.54	2	389	0.51	2.99	1.58	(BP) regulation of angiogenesis
+GO:0045833	1	65	1.54	2	389	0.51	2.99	1.58	(BP) negative regulation of lipid metabolic process
+GO:0045834	1	65	1.54	2	389	0.51	2.99	1.58	(BP) positive regulation of lipid metabolic process
+GO:0045839	1	65	1.54	2	389	0.51	2.99	1.58	(BP) negative regulation of mitosis
+GO:0045841	1	65	1.54	2	389	0.51	2.99	1.58	(BP) negative regulation of mitotic metaphase/anaphase transition
+GO:0046320	2	65	3.08	4	389	1.03	2.99	1.58	(BP) regulation of fatty acid oxidation
+GO:0046649	1	65	1.54	2	389	0.51	2.99	1.58	(BP) lymphocyte activation
+GO:0046890	1	65	1.54	2	389	0.51	2.99	1.58	(BP) regulation of lipid biosynthetic process
+GO:0046982	2	65	3.08	4	389	1.03	2.99	1.58	(MF) protein heterodimerization activity
+GO:0048145	1	65	1.54	2	389	0.51	2.99	1.58	(BP) regulation of fibroblast proliferation
+GO:0048146	1	65	1.54	2	389	0.51	2.99	1.58	(BP) positive regulation of fibroblast proliferation
+GO:0048878	1	65	1.54	2	389	0.51	2.99	1.58	(BP) chemical homeostasis
+GO:0050767	1	65	1.54	2	389	0.51	2.99	1.58	(BP) regulation of neurogenesis
+GO:0050953	2	65	3.08	4	389	1.03	2.99	1.58	(BP) sensory perception of light stimulus
+GO:0051129	2	65	3.08	4	389	1.03	2.99	1.58	(BP) negative regulation of cellular component organization
+GO:0051247	7	65	10.77	14	389	3.60	2.99	1.58	(BP) positive regulation of protein metabolic process
+GO:0051336	2	65	3.08	4	389	1.03	2.99	1.58	(BP) regulation of hydrolase activity
+GO:0051353	1	65	1.54	2	389	0.51	2.99	1.58	(BP) positive regulation of oxidoreductase activity
+GO:0051784	1	65	1.54	2	389	0.51	2.99	1.58	(BP) negative regulation of nuclear division
+GO:0060284	1	65	1.54	2	389	0.51	2.99	1.58	(BP) regulation of cell development
+GO:0065003	5	65	7.69	10	389	2.57	2.99	1.58	(BP) macromolecular complex assembly
+GO:0071173	1	65	1.54	2	389	0.51	2.99	1.58	(BP) spindle assembly checkpoint
+GO:0071174	1	65	1.54	2	389	0.51	2.99	1.58	(BP) mitotic cell cycle spindle checkpoint
+GO:0005887	19	65	29.23	37	389	9.51	3.07	1.62	(CC) integral to plasma membrane
+GO:0031226	19	65	29.23	37	389	9.51	3.07	1.62	(CC) intrinsic to plasma membrane
+GO:0044425	37	65	56.92	72	389	18.51	3.08	1.62	(CC) membrane part
+GO:0005102	7	65	10.77	13	389	3.34	3.22	1.69	(MF) receptor binding
+GO:0009967	7	65	10.77	13	389	3.34	3.22	1.69	(BP) positive regulation of signal transduction
+GO:0023056	7	65	10.77	13	389	3.34	3.22	1.69	(BP) positive regulation of signaling process
+GO:0032270	7	65	10.77	13	389	3.34	3.22	1.69	(BP) positive regulation of cellular protein metabolic process
+GO:0010740	6	65	9.23	11	389	2.83	3.26	1.71	(BP) positive regulation of intracellular protein kinase cascade
+GO:0051049	6	65	9.23	11	389	2.83	3.26	1.71	(BP) regulation of transport
+GO:0006461	5	65	7.69	9	389	2.31	3.32	1.73	(BP) protein complex assembly
+GO:0071822	5	65	7.69	9	389	2.31	3.32	1.73	(BP) protein complex subunit organization
+GO:0008285	4	65	6.15	7	389	1.80	3.42	1.77	(BP) negative regulation of cell proliferation
+GO:0009893	14	65	21.54	24	389	6.17	3.49	1.80	(BP) positive regulation of metabolic process
+GO:0016021	29	65	44.62	50	389	12.85	3.47	1.80	(CC) integral to membrane
+GO:0031224	29	65	44.62	50	389	12.85	3.47	1.80	(CC) intrinsic to membrane
+GO:0010604	13	65	20.00	22	389	5.66	3.54	1.82	(BP) positive regulation of macromolecule metabolic process
+GO:0004714	19	65	29.23	32	389	8.23	3.55	1.83	(MF) transmembrane receptor protein tyrosine kinase activity
+GO:0004708	3	65	4.62	5	389	1.29	3.59	1.84	(MF) MAP kinase kinase activity
+GO:0004712	3	65	4.62	5	389	1.29	3.59	1.84	(MF) protein serine/threonine/tyrosine kinase activity
+GO:0005624	3	65	4.62	5	389	1.29	3.59	1.84	(CC) membrane fraction
+GO:0005626	3	65	4.62	5	389	1.29	3.59	1.84	(CC) insoluble fraction
+GO:0044087	3	65	4.62	5	389	1.29	3.59	1.84	(BP) regulation of cellular component biogenesis
+GO:0048731	3	65	4.62	5	389	1.29	3.59	1.84	(BP) system development
+GO:0051248	3	65	4.62	5	389	1.29	3.59	1.84	(BP) negative regulation of protein metabolic process
+GO:0040008	5	65	7.69	8	389	2.06	3.74	1.90	(BP) regulation of growth
+GO:0001775	2	65	3.08	3	389	0.77	3.99	2.00	(BP) cell activation
+GO:0003006	2	65	3.08	3	389	0.77	3.99	2.00	(BP) developmental process involved in reproduction
+GO:0004383	2	65	3.08	3	389	0.77	3.99	2.00	(MF) guanylate cyclase activity
+GO:0005996	2	65	3.08	3	389	0.77	3.99	2.00	(BP) monosaccharide metabolic process
+GO:0006006	2	65	3.08	3	389	0.77	3.99	2.00	(BP) glucose metabolic process
+GO:0006109	2	65	3.08	3	389	0.77	3.99	2.00	(BP) regulation of carbohydrate metabolic process
+GO:0006275	2	65	3.08	3	389	0.77	3.99	2.00	(BP) regulation of DNA replication
+GO:0007168	2	65	3.08	3	389	0.77	3.99	2.00	(BP) receptor guanylyl cyclase signaling pathway
+GO:0009411	2	65	3.08	3	389	0.77	3.99	2.00	(BP) response to UV
+GO:0009975	2	65	3.08	3	389	0.77	3.99	2.00	(MF) cyclase activity
+GO:0010647	12	65	18.46	18	389	4.63	3.99	2.00	(BP) positive regulation of cell communication
+GO:0010675	2	65	3.08	3	389	0.77	3.99	2.00	(BP) regulation of cellular carbohydrate metabolic process
+GO:0010906	2	65	3.08	3	389	0.77	3.99	2.00	(BP) regulation of glucose metabolic process
+GO:0016477	2	65	3.08	3	389	0.77	3.99	2.00	(BP) cell migration
+GO:0016829	2	65	3.08	3	389	0.77	3.99	2.00	(MF) lyase activity
+GO:0016849	2	65	3.08	3	389	0.77	3.99	2.00	(MF) phosphorus-oxygen lyase activity
+GO:0019001	4	65	6.15	6	389	1.54	3.99	2.00	(MF) guanyl nucleotide binding
+GO:0019318	2	65	3.08	3	389	0.77	3.99	2.00	(BP) hexose metabolic process
+GO:0030308	2	65	3.08	3	389	0.77	3.99	2.00	(BP) negative regulation of cell growth
+GO:0031325	14	65	21.54	21	389	5.40	3.99	2.00	(BP) positive regulation of cellular metabolic process
+GO:0031400	2	65	3.08	3	389	0.77	3.99	2.00	(BP) negative regulation of protein modification process
+GO:0032561	4	65	6.15	6	389	1.54	3.99	2.00	(MF) guanyl ribonucleotide binding
+GO:0035091	2	65	3.08	3	389	0.77	3.99	2.00	(MF) phosphoinositide binding
+GO:0035468	12	65	18.46	18	389	4.63	3.99	2.00	(BP) positive regulation of signaling pathway
+GO:0044265	2	65	3.08	3	389	0.77	3.99	2.00	(BP) cellular macromolecule catabolic process
+GO:0045926	2	65	3.08	3	389	0.77	3.99	2.00	(BP) negative regulation of growth
+GO:0046324	2	65	3.08	3	389	0.77	3.99	2.00	(BP) regulation of glucose import
+GO:0048513	4	65	6.15	6	389	1.54	3.99	2.00	(BP) organ development
+GO:0048870	2	65	3.08	3	389	0.77	3.99	2.00	(BP) cell motility
+GO:0050730	2	65	3.08	3	389	0.77	3.99	2.00	(BP) regulation of peptidyl-tyrosine phosphorylation
+GO:0065008	6	65	9.23	9	389	2.31	3.99	2.00	(BP) regulation of biological quality
+GO:0004872	27	65	41.54	39	389	10.03	4.14	2.05	(MF) receptor activity
+GO:0010557	7	65	10.77	10	389	2.57	4.19	2.07	(BP) positive regulation of macromolecule biosynthetic process
+GO:0045595	7	65	10.77	10	389	2.57	4.19	2.07	(BP) regulation of cell differentiation
+GO:0007155	5	65	7.69	7	389	1.80	4.27	2.10	(BP) cell adhesion
+GO:0022610	5	65	7.69	7	389	1.80	4.27	2.10	(BP) biological adhesion
+GO:0009891	8	65	12.31	11	389	2.83	4.35	2.12	(BP) positive regulation of biosynthetic process
+GO:0019199	25	65	38.46	34	389	8.74	4.40	2.14	(MF) transmembrane receptor protein kinase activity
+GO:0004888	26	65	40.00	35	389	9.00	4.45	2.15	(MF) transmembrane receptor activity
+GO:0005975	3	65	4.62	4	389	1.03	4.49	2.17	(BP) carbohydrate metabolic process
+GO:0006955	3	65	4.62	4	389	1.03	4.49	2.17	(BP) immune response
+GO:0007050	3	65	4.62	4	389	1.03	4.49	2.17	(BP) cell cycle arrest
+GO:0007154	3	65	4.62	4	389	1.03	4.49	2.17	(BP) cell communication
+GO:0007186	3	65	4.62	4	389	1.03	4.49	2.17	(BP) G-protein coupled receptor protein signaling pathway
+GO:0009888	3	65	4.62	4	389	1.03	4.49	2.17	(BP) tissue development
+GO:0032269	3	65	4.62	4	389	1.03	4.49	2.17	(BP) negative regulation of cellular protein metabolic process
+GO:0040011	3	65	4.62	4	389	1.03	4.49	2.17	(BP) locomotion
+GO:0044057	3	65	4.62	4	389	1.03	4.49	2.17	(BP) regulation of system process
+GO:0044429	3	65	4.62	4	389	1.03	4.49	2.17	(CC) mitochondrial part
+GO:0050793	10	65	15.38	13	389	3.34	4.60	2.20	(BP) regulation of developmental process
+GO:0051239	11	65	16.92	14	389	3.60	4.70	2.23	(BP) regulation of multicellular organismal process
+GO:0005576	4	65	6.15	5	389	1.29	4.79	2.26	(CC) extracellular region
+GO:0010628	4	65	6.15	5	389	1.29	4.79	2.26	(BP) positive regulation of gene expression
+GO:0031328	8	65	12.31	10	389	2.57	4.79	2.26	(BP) positive regulation of cellular biosynthetic process
+GO:0032879	12	65	18.46	15	389	3.86	4.79	2.26	(BP) regulation of localization
+GO:0048856	12	65	18.46	15	389	3.86	4.79	2.26	(BP) anatomical structure development
+GO:0042127	17	65	26.15	19	389	4.88	5.35	2.42	(BP) regulation of cell proliferation
+GO:0000228	1	65	1.54	1	389	0.26	5.98	2.58	(CC) nuclear chromosome
+GO:0000271	2	65	3.08	2	389	0.51	5.98	2.58	(BP) polysaccharide biosynthetic process
+GO:0000793	1	65	1.54	1	389	0.26	5.98	2.58	(CC) condensed chromosome
+GO:0000794	1	65	1.54	1	389	0.26	5.98	2.58	(CC) condensed nuclear chromosome
+GO:0000940	1	65	1.54	1	389	0.26	5.98	2.58	(CC) condensed chromosome outer kinetochore
+GO:0000956	1	65	1.54	1	389	0.26	5.98	2.58	(BP) nuclear-transcribed mRNA catabolic process
+GO:0001653	1	65	1.54	1	389	0.26	5.98	2.58	(MF) peptide receptor activity
+GO:0001954	1	65	1.54	1	389	0.26	5.98	2.58	(BP) positive regulation of cell-matrix adhesion
+GO:0002643	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of tolerance induction
+GO:0002645	1	65	1.54	1	389	0.26	5.98	2.58	(BP) positive regulation of tolerance induction
+GO:0002694	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of leukocyte activation
+GO:0002696	1	65	1.54	1	389	0.26	5.98	2.58	(BP) positive regulation of leukocyte activation
+GO:0002790	1	65	1.54	1	389	0.26	5.98	2.58	(BP) peptide secretion
+GO:0003012	2	65	3.08	2	389	0.51	5.98	2.58	(BP) muscle system process
+GO:0004677	1	65	1.54	1	389	0.26	5.98	2.58	(MF) DNA-dependent protein kinase activity
+GO:0004689	1	65	1.54	1	389	0.26	5.98	2.58	(MF) phosphorylase kinase activity
+GO:0005005	1	65	1.54	1	389	0.26	5.98	2.58	(MF) transmembrane-ephrin receptor activity
+GO:0005025	2	65	3.08	2	389	0.51	5.98	2.58	(MF) transforming growth factor beta receptor activity, type I
+GO:0005030	1	65	1.54	1	389	0.26	5.98	2.58	(MF) neurotrophin receptor activity
+GO:0005096	1	65	1.54	1	389	0.26	5.98	2.58	(MF) GTPase activator activity
+GO:0005126	3	65	4.62	3	389	0.77	5.98	2.58	(MF) cytokine receptor binding
+GO:0005215	1	65	1.54	1	389	0.26	5.98	2.58	(MF) transporter activity
+GO:0005216	1	65	1.54	1	389	0.26	5.98	2.58	(MF) ion channel activity
+GO:0005261	1	65	1.54	1	389	0.26	5.98	2.58	(MF) cation channel activity
+GO:0005262	1	65	1.54	1	389	0.26	5.98	2.58	(MF) calcium channel activity
+GO:0005509	2	65	3.08	2	389	0.51	5.98	2.58	(MF) calcium ion binding
+GO:0005525	4	65	6.15	4	389	1.03	5.98	2.58	(MF) GTP binding
+GO:0005615	2	65	3.08	2	389	0.51	5.98	2.58	(CC) extracellular space
+GO:0005640	1	65	1.54	1	389	0.26	5.98	2.58	(CC) nuclear outer membrane
+GO:0005694	1	65	1.54	1	389	0.26	5.98	2.58	(CC) chromosome
+GO:0005741	2	65	3.08	2	389	0.51	5.98	2.58	(CC) mitochondrial outer membrane
+GO:0005901	2	65	3.08	2	389	0.51	5.98	2.58	(CC) caveola
+GO:0005976	2	65	3.08	2	389	0.51	5.98	2.58	(BP) polysaccharide metabolic process
+GO:0005979	2	65	3.08	2	389	0.51	5.98	2.58	(BP) regulation of glycogen biosynthetic process
+GO:0006310	1	65	1.54	1	389	0.26	5.98	2.58	(BP) DNA recombination
+GO:0006402	1	65	1.54	1	389	0.26	5.98	2.58	(BP) mRNA catabolic process
+GO:0006919	1	65	1.54	1	389	0.26	5.98	2.58	(BP) activation of caspase activity
+GO:0006936	2	65	3.08	2	389	0.51	5.98	2.58	(BP) muscle contraction
+GO:0006937	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of muscle contraction
+GO:0006975	1	65	1.54	1	389	0.26	5.98	2.58	(BP) DNA damage induced protein phosphorylation
+GO:0006984	1	65	1.54	1	389	0.26	5.98	2.58	(BP) ER-nucleus signaling pathway
+GO:0007093	2	65	3.08	2	389	0.51	5.98	2.58	(BP) mitotic cell cycle checkpoint
+GO:0007131	1	65	1.54	1	389	0.26	5.98	2.58	(BP) reciprocal meiotic recombination
+GO:0007162	1	65	1.54	1	389	0.26	5.98	2.58	(BP) negative regulation of cell adhesion
+GO:0007190	1	65	1.54	1	389	0.26	5.98	2.58	(BP) activation of adenylate cyclase activity
+GO:0007417	1	65	1.54	1	389	0.26	5.98	2.58	(BP) central nervous system development
+GO:0008104	2	65	3.08	2	389	0.51	5.98	2.58	(BP) protein localization
+GO:0008284	12	65	18.46	12	389	3.08	5.98	2.58	(BP) positive regulation of cell proliferation
+GO:0008286	2	65	3.08	2	389	0.51	5.98	2.58	(BP) insulin receptor signaling pathway
+GO:0008307	1	65	1.54	1	389	0.26	5.98	2.58	(MF) structural constituent of muscle
+GO:0008324	1	65	1.54	1	389	0.26	5.98	2.58	(MF) cation transmembrane transporter activity
+GO:0008406	1	65	1.54	1	389	0.26	5.98	2.58	(BP) gonad development
+GO:0008528	1	65	1.54	1	389	0.26	5.98	2.58	(MF) peptide receptor activity, G-protein coupled
+GO:0008584	1	65	1.54	1	389	0.26	5.98	2.58	(BP) male gonad development
+GO:0009267	1	65	1.54	1	389	0.26	5.98	2.58	(BP) cellular response to starvation
+GO:0009314	4	65	6.15	4	389	1.03	5.98	2.58	(BP) response to radiation
+GO:0009416	3	65	4.62	3	389	0.77	5.98	2.58	(BP) response to light stimulus
+GO:0009628	4	65	6.15	4	389	1.03	5.98	2.58	(BP) response to abiotic stimulus
+GO:0009895	2	65	3.08	2	389	0.51	5.98	2.58	(BP) negative regulation of catabolic process
+GO:0009914	1	65	1.54	1	389	0.26	5.98	2.58	(BP) hormone transport
+GO:0010149	3	65	4.62	3	389	0.77	5.98	2.58	(BP) senescence
+GO:0010212	1	65	1.54	1	389	0.26	5.98	2.58	(BP) response to ionizing radiation
+GO:0010332	1	65	1.54	1	389	0.26	5.98	2.58	(BP) response to gamma radiation
+GO:0010638	2	65	3.08	2	389	0.51	5.98	2.58	(BP) positive regulation of organelle organization
+GO:0010676	2	65	3.08	2	389	0.51	5.98	2.58	(BP) positive regulation of cellular carbohydrate metabolic process
+GO:0010746	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of plasma membrane long-chain fatty acid transport
+GO:0010748	1	65	1.54	1	389	0.26	5.98	2.58	(BP) negative regulation of plasma membrane long-chain fatty acid transport
+GO:0010811	1	65	1.54	1	389	0.26	5.98	2.58	(BP) positive regulation of cell-substrate adhesion
+GO:0010817	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of hormone levels
+GO:0010828	2	65	3.08	2	389	0.51	5.98	2.58	(BP) positive regulation of glucose transport
+GO:0010907	2	65	3.08	2	389	0.51	5.98	2.58	(BP) positive regulation of glucose metabolic process
+GO:0010952	1	65	1.54	1	389	0.26	5.98	2.58	(BP) positive regulation of peptidase activity
+GO:0010962	2	65	3.08	2	389	0.51	5.98	2.58	(BP) regulation of glucan biosynthetic process
+GO:0012505	2	65	3.08	2	389	0.51	5.98	2.58	(CC) endomembrane system
+GO:0015075	1	65	1.54	1	389	0.26	5.98	2.58	(MF) ion transmembrane transporter activity
+GO:0015267	1	65	1.54	1	389	0.26	5.98	2.58	(MF) channel activity
+GO:0015833	1	65	1.54	1	389	0.26	5.98	2.58	(BP) peptide transport
+GO:0016051	2	65	3.08	2	389	0.51	5.98	2.58	(BP) carbohydrate biosynthetic process
+GO:0016605	1	65	1.54	1	389	0.26	5.98	2.58	(CC) PML body
+GO:0016941	1	65	1.54	1	389	0.26	5.98	2.58	(MF) natriuretic peptide receptor activity
+GO:0017002	2	65	3.08	2	389	0.51	5.98	2.58	(MF) activin receptor activity
+GO:0017147	1	65	1.54	1	389	0.26	5.98	2.58	(MF) Wnt-protein binding
+GO:0017148	1	65	1.54	1	389	0.26	5.98	2.58	(BP) negative regulation of translation
+GO:0019048	1	65	1.54	1	389	0.26	5.98	2.58	(BP) virus-host interaction
+GO:0019867	3	65	4.62	3	389	0.77	5.98	2.58	(CC) outer membrane
+GO:0019902	2	65	3.08	2	389	0.51	5.98	2.58	(MF) phosphatase binding
+GO:0022415	1	65	1.54	1	389	0.26	5.98	2.58	(BP) viral reproductive process
+GO:0022803	1	65	1.54	1	389	0.26	5.98	2.58	(MF) passive transmembrane transporter activity
+GO:0022838	1	65	1.54	1	389	0.26	5.98	2.58	(MF) substrate-specific channel activity
+GO:0022857	1	65	1.54	1	389	0.26	5.98	2.58	(MF) transmembrane transporter activity
+GO:0022891	1	65	1.54	1	389	0.26	5.98	2.58	(MF) substrate-specific transmembrane transporter activity
+GO:0022892	1	65	1.54	1	389	0.26	5.98	2.58	(MF) substrate-specific transporter activity
+GO:0023061	1	65	1.54	1	389	0.26	5.98	2.58	(BP) signal release
+GO:0030018	1	65	1.54	1	389	0.26	5.98	2.58	(CC) Z disc
+GO:0030072	1	65	1.54	1	389	0.26	5.98	2.58	(BP) peptide hormone secretion
+GO:0030073	1	65	1.54	1	389	0.26	5.98	2.58	(BP) insulin secretion
+GO:0030098	1	65	1.54	1	389	0.26	5.98	2.58	(BP) lymphocyte differentiation
+GO:0030099	2	65	3.08	2	389	0.51	5.98	2.58	(BP) myeloid cell differentiation
+GO:0030218	1	65	1.54	1	389	0.26	5.98	2.58	(BP) erythrocyte differentiation
+GO:0030336	1	65	1.54	1	389	0.26	5.98	2.58	(BP) negative regulation of cell migration
+GO:0030799	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of cyclic nucleotide metabolic process
+GO:0030802	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of cyclic nucleotide biosynthetic process
+GO:0030808	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of nucleotide biosynthetic process
+GO:0030814	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of cAMP metabolic process
+GO:0030817	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of cAMP biosynthetic process
+GO:0031279	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of cyclase activity
+GO:0031281	1	65	1.54	1	389	0.26	5.98	2.58	(BP) positive regulation of cyclase activity
+GO:0031330	1	65	1.54	1	389	0.26	5.98	2.58	(BP) negative regulation of cellular catabolic process
+GO:0031396	4	65	6.15	4	389	1.03	5.98	2.58	(BP) regulation of protein ubiquitination
+GO:0031401	7	65	10.77	7	389	1.80	5.98	2.58	(BP) positive regulation of protein modification process
+GO:0031430	1	65	1.54	1	389	0.26	5.98	2.58	(CC) M band
+GO:0031644	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of neurological system process
+GO:0031668	1	65	1.54	1	389	0.26	5.98	2.58	(BP) cellular response to extracellular stimulus
+GO:0031669	1	65	1.54	1	389	0.26	5.98	2.58	(BP) cellular response to nutrient levels
+GO:0031966	2	65	3.08	2	389	0.51	5.98	2.58	(CC) mitochondrial membrane
+GO:0031968	3	65	4.62	3	389	0.77	5.98	2.58	(CC) organelle outer membrane
+GO:0031998	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of fatty acid beta-oxidation
+GO:0032368	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of lipid transport
+GO:0032369	1	65	1.54	1	389	0.26	5.98	2.58	(BP) negative regulation of lipid transport
+GO:0032403	5	65	7.69	5	389	1.29	5.98	2.58	(MF) protein complex binding
+GO:0032881	2	65	3.08	2	389	0.51	5.98	2.58	(BP) regulation of polysaccharide metabolic process
+GO:0032885	2	65	3.08	2	389	0.51	5.98	2.58	(BP) regulation of polysaccharide biosynthetic process
+GO:0032890	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of organic acid transport
+GO:0032891	1	65	1.54	1	389	0.26	5.98	2.58	(BP) negative regulation of organic acid transport
+GO:0032924	1	65	1.54	1	389	0.26	5.98	2.58	(BP) activin receptor signaling pathway
+GO:0032925	2	65	3.08	2	389	0.51	5.98	2.58	(BP) regulation of activin receptor signaling pathway
+GO:0032940	1	65	1.54	1	389	0.26	5.98	2.58	(BP) secretion by cell
+GO:0033036	2	65	3.08	2	389	0.51	5.98	2.58	(BP) macromolecule localization
+GO:0033365	1	65	1.54	1	389	0.26	5.98	2.58	(BP) protein localization to organelle
+GO:0033692	2	65	3.08	2	389	0.51	5.98	2.58	(BP) cellular polysaccharide biosynthetic process
+GO:0034501	1	65	1.54	1	389	0.26	5.98	2.58	(BP) protein localization to kinetochore
+GO:0034502	1	65	1.54	1	389	0.26	5.98	2.58	(BP) protein localization to chromosome
+GO:0034637	2	65	3.08	2	389	0.51	5.98	2.58	(BP) cellular carbohydrate biosynthetic process
+GO:0040013	1	65	1.54	1	389	0.26	5.98	2.58	(BP) negative regulation of locomotion
+GO:0042060	1	65	1.54	1	389	0.26	5.98	2.58	(BP) wound healing
+GO:0042101	1	65	1.54	1	389	0.26	5.98	2.58	(CC) T cell receptor complex
+GO:0042113	1	65	1.54	1	389	0.26	5.98	2.58	(BP) B cell activation
+GO:0042177	1	65	1.54	1	389	0.26	5.98	2.58	(BP) negative regulation of protein catabolic process
+GO:0042594	1	65	1.54	1	389	0.26	5.98	2.58	(BP) response to starvation
+GO:0043062	1	65	1.54	1	389	0.26	5.98	2.58	(BP) extracellular structure organization
+GO:0043121	1	65	1.54	1	389	0.26	5.98	2.58	(MF) neurotrophin binding
+GO:0043125	1	65	1.54	1	389	0.26	5.98	2.58	(MF) ErbB-3 class receptor binding
+GO:0043255	2	65	3.08	2	389	0.51	5.98	2.58	(BP) regulation of carbohydrate biosynthetic process
+GO:0043280	1	65	1.54	1	389	0.26	5.98	2.58	(BP) positive regulation of caspase activity
+GO:0043281	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of caspase activity
+GO:0043410	2	65	3.08	2	389	0.51	5.98	2.58	(BP) positive regulation of MAPKKK cascade
+GO:0043467	2	65	3.08	2	389	0.51	5.98	2.58	(BP) regulation of generation of precursor metabolites and energy
+GO:0043470	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of carbohydrate catabolic process
+GO:0043471	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of cellular carbohydrate catabolic process
+GO:0043516	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of DNA damage response, signal transduction by p53 class mediator
+GO:0043517	1	65	1.54	1	389	0.26	5.98	2.58	(BP) positive regulation of DNA damage response, signal transduction by p53 class mediator
+GO:0043560	2	65	3.08	2	389	0.51	5.98	2.58	(MF) insulin receptor substrate binding
+GO:0043621	1	65	1.54	1	389	0.26	5.98	2.58	(MF) protein self-association
+GO:0044264	2	65	3.08	2	389	0.51	5.98	2.58	(BP) cellular polysaccharide metabolic process
+GO:0044421	2	65	3.08	2	389	0.51	5.98	2.58	(CC) extracellular region part
+GO:0045121	4	65	6.15	4	389	1.03	5.98	2.58	(CC) membrane raft
+GO:0045321	2	65	3.08	2	389	0.51	5.98	2.58	(BP) leukocyte activation
+GO:0045725	2	65	3.08	2	389	0.51	5.98	2.58	(BP) positive regulation of glycogen biosynthetic process
+GO:0045761	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of adenylate cyclase activity
+GO:0045762	1	65	1.54	1	389	0.26	5.98	2.58	(BP) positive regulation of adenylate cyclase activity
+GO:0045913	2	65	3.08	2	389	0.51	5.98	2.58	(BP) positive regulation of carbohydrate metabolic process
+GO:0045922	1	65	1.54	1	389	0.26	5.98	2.58	(BP) negative regulation of fatty acid metabolic process
+GO:0045941	4	65	6.15	4	389	1.03	5.98	2.58	(BP) positive regulation of transcription
+GO:0045947	1	65	1.54	1	389	0.26	5.98	2.58	(BP) negative regulation of translational initiation
+GO:0046326	2	65	3.08	2	389	0.51	5.98	2.58	(BP) positive regulation of glucose import
+GO:0046677	1	65	1.54	1	389	0.26	5.98	2.58	(BP) response to antibiotic
+GO:0046879	1	65	1.54	1	389	0.26	5.98	2.58	(BP) hormone secretion
+GO:0046889	1	65	1.54	1	389	0.26	5.98	2.58	(BP) positive regulation of lipid biosynthetic process
+GO:0047485	1	65	1.54	1	389	0.26	5.98	2.58	(MF) protein N-terminus binding
+GO:0048179	1	65	1.54	1	389	0.26	5.98	2.58	(CC) activin receptor complex
+GO:0048608	1	65	1.54	1	389	0.26	5.98	2.58	(BP) reproductive structure development
+GO:0048610	1	65	1.54	1	389	0.26	5.98	2.58	(BP) cellular process involved in reproduction
+GO:0048638	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of developmental growth
+GO:0048639	1	65	1.54	1	389	0.26	5.98	2.58	(BP) positive regulation of developmental growth
+GO:0050731	1	65	1.54	1	389	0.26	5.98	2.58	(BP) positive regulation of peptidyl-tyrosine phosphorylation
+GO:0050863	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of T cell activation
+GO:0050865	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of cell activation
+GO:0050867	1	65	1.54	1	389	0.26	5.98	2.58	(BP) positive regulation of cell activation
+GO:0050870	1	65	1.54	1	389	0.26	5.98	2.58	(BP) positive regulation of T cell activation
+GO:0050994	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of lipid catabolic process
+GO:0051052	3	65	4.62	3	389	0.77	5.98	2.58	(BP) regulation of DNA metabolic process
+GO:0051130	4	65	6.15	4	389	1.03	5.98	2.58	(BP) positive regulation of cellular component organization
+GO:0051179	2	65	3.08	2	389	0.51	5.98	2.58	(BP) localization
+GO:0051241	2	65	3.08	2	389	0.51	5.98	2.58	(BP) negative regulation of multicellular organismal process
+GO:0051249	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of lymphocyte activation
+GO:0051251	1	65	1.54	1	389	0.26	5.98	2.58	(BP) positive regulation of lymphocyte activation
+GO:0051271	1	65	1.54	1	389	0.26	5.98	2.58	(BP) negative regulation of cellular component movement
+GO:0051339	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of lyase activity
+GO:0051341	2	65	3.08	2	389	0.51	5.98	2.58	(BP) regulation of oxidoreductase activity
+GO:0051345	2	65	3.08	2	389	0.51	5.98	2.58	(BP) positive regulation of hydrolase activity
+GO:0051349	1	65	1.54	1	389	0.26	5.98	2.58	(BP) positive regulation of lyase activity
+GO:0051352	1	65	1.54	1	389	0.26	5.98	2.58	(BP) negative regulation of ligase activity
+GO:0051439	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle
+GO:0051444	1	65	1.54	1	389	0.26	5.98	2.58	(BP) negative regulation of ubiquitin-protein ligase activity
+GO:0051701	1	65	1.54	1	389	0.26	5.98	2.58	(BP) interaction with host
+GO:0051960	2	65	3.08	2	389	0.51	5.98	2.58	(BP) regulation of nervous system development
+GO:0051969	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of transmission of nerve impulse
+GO:0052547	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of peptidase activity
+GO:0052548	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of endopeptidase activity
+GO:0060048	1	65	1.54	1	389	0.26	5.98	2.58	(BP) cardiac muscle contraction
+GO:0070873	2	65	3.08	2	389	0.51	5.98	2.58	(BP) regulation of glycogen metabolic process
+GO:0070875	2	65	3.08	2	389	0.51	5.98	2.58	(BP) positive regulation of glycogen metabolic process
+GO:0070997	1	65	1.54	1	389	0.26	5.98	2.58	(BP) neuron death
+GO:0071214	1	65	1.54	1	389	0.26	5.98	2.58	(BP) cellular response to abiotic stimulus
+GO:0071216	1	65	1.54	1	389	0.26	5.98	2.58	(BP) cellular response to biotic stimulus
+GO:0071478	1	65	1.54	1	389	0.26	5.98	2.58	(BP) cellular response to radiation
+GO:0071479	1	65	1.54	1	389	0.26	5.98	2.58	(BP) cellular response to ionizing radiation
+GO:0071480	1	65	1.54	1	389	0.26	5.98	2.58	(BP) cellular response to gamma radiation
+GO:0071496	1	65	1.54	1	389	0.26	5.98	2.58	(BP) cellular response to external stimulus
+GO:0090003	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of establishment of protein localization in plasma membrane
+GO:0090004	1	65	1.54	1	389	0.26	5.98	2.58	(BP) positive regulation of establishment of protein localization in plasma membrane
+GO:0090068	1	65	1.54	1	389	0.26	5.98	2.58	(BP) positive regulation of cell cycle process
+GO:0090101	1	65	1.54	1	389	0.26	5.98	2.58	(BP) negative regulation of transmembrane receptor protein serine/threonine kinase signaling pathway
+GO:0090257	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of muscle system process
+GO:2000021	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of ion homeostasis
+GO:2000146	1	65	1.54	1	389	0.26	5.98	2.58	(BP) negative regulation of cell motility
+GO:2000191	1	65	1.54	1	389	0.26	5.98	2.58	(BP) regulation of fatty acid transport
+GO:2000192	1	65	1.54	1	389	0.26	5.98	2.58	(BP) negative regulation of fatty acid transport
+GO:0043235	7	65	10.77	6	389	1.54	6.98	2.80	(CC) receptor complex
+GO:0019932	6	65	9.23	5	389	1.29	7.18	2.84	(BP) second-messenger-mediated signaling
+GO:0051050	5	65	7.69	4	389	1.03	7.48	2.90	(BP) positive regulation of transport
+GO:0090100	5	65	7.69	4	389	1.03	7.48	2.90	(BP) positive regulation of transmembrane receptor protein serine/threonine kinase signaling pathway
+GO:2000026	10	65	15.38	8	389	2.06	7.48	2.90	(BP) regulation of multicellular organismal development
+GO:0009986	4	65	6.15	3	389	0.77	7.98	3.00	(CC) cell surface
+GO:0032880	4	65	6.15	3	389	0.77	7.98	3.00	(BP) regulation of protein localization
+GO:0060341	4	65	6.15	3	389	0.77	7.98	3.00	(BP) regulation of cellular localization
+GO:0070201	4	65	6.15	3	389	0.77	7.98	3.00	(BP) regulation of establishment of protein localization
+GO:0045597	7	65	10.77	5	389	1.29	8.38	3.07	(BP) positive regulation of cell differentiation
+GO:0045935	7	65	10.77	5	389	1.29	8.38	3.07	(BP) positive regulation of nucleobase, nucleoside, nucleotide and nucleic acid metabolic process
+GO:0001934	6	65	9.23	4	389	1.03	8.98	3.17	(BP) positive regulation of protein phosphorylation
+GO:0007507	3	65	4.62	2	389	0.51	8.98	3.17	(BP) heart development
+GO:0016337	3	65	4.62	2	389	0.51	8.98	3.17	(BP) cell-cell adhesion
+GO:0030155	3	65	4.62	2	389	0.51	8.98	3.17	(BP) regulation of cell adhesion
+GO:0045787	3	65	4.62	2	389	0.51	8.98	3.17	(BP) positive regulation of cell cycle
+GO:0048015	3	65	4.62	2	389	0.51	8.98	3.17	(BP) phosphoinositide-mediated signaling
+GO:0051223	3	65	4.62	2	389	0.51	8.98	3.17	(BP) regulation of protein transport
+GO:0090092	6	65	9.23	4	389	1.03	8.98	3.17	(BP) regulation of transmembrane receptor protein serine/threonine kinase signaling pathway
+GO:0051094	8	65	12.31	5	389	1.29	9.58	3.26	(BP) positive regulation of developmental process
+GO:0009653	7	65	10.77	4	389	1.03	10.47	3.39	(BP) anatomical structure morphogenesis
+GO:0010562	7	65	10.77	4	389	1.03	10.47	3.39	(BP) positive regulation of phosphorus metabolic process
+GO:0042327	7	65	10.77	4	389	1.03	10.47	3.39	(BP) positive regulation of phosphorylation
+GO:0045937	7	65	10.77	4	389	1.03	10.47	3.39	(BP) positive regulation of phosphate metabolic process
+GO:0051173	9	65	13.85	5	389	1.29	10.77	3.43	(BP) positive regulation of nitrogen compound metabolic process
+GO:0001952	2	65	3.08	1	389	0.26	11.97	3.58	(BP) regulation of cell-matrix adhesion
+GO:0002521	2	65	3.08	1	389	0.26	11.97	3.58	(BP) leukocyte differentiation
+GO:0005977	2	65	3.08	1	389	0.26	11.97	3.58	(BP) glycogen metabolic process
+GO:0005978	2	65	3.08	1	389	0.26	11.97	3.58	(BP) glycogen biosynthetic process
+GO:0006073	2	65	3.08	1	389	0.26	11.97	3.58	(BP) cellular glucan metabolic process
+GO:0006091	2	65	3.08	1	389	0.26	11.97	3.58	(BP) generation of precursor metabolites and energy
+GO:0006112	2	65	3.08	1	389	0.26	11.97	3.58	(BP) energy reserve metabolic process
+GO:0006508	2	65	3.08	1	389	0.26	11.97	3.58	(BP) proteolysis
+GO:0006941	2	65	3.08	1	389	0.26	11.97	3.58	(BP) striated muscle contraction
+GO:0007178	8	65	12.31	4	389	1.03	11.97	3.58	(BP) transmembrane receptor protein serine/threonine kinase signaling pathway
+GO:0009250	2	65	3.08	1	389	0.26	11.97	3.58	(BP) glucan biosynthetic process
+GO:0009887	4	65	6.15	2	389	0.51	11.97	3.58	(BP) organ morphogenesis
+GO:0010810	2	65	3.08	1	389	0.26	11.97	3.58	(BP) regulation of cell-substrate adhesion
+GO:0014065	2	65	3.08	1	389	0.26	11.97	3.58	(BP) phosphoinositide 3-kinase cascade
+GO:0015980	2	65	3.08	1	389	0.26	11.97	3.58	(BP) energy derivation by oxidation of organic compounds
+GO:0016323	2	65	3.08	1	389	0.26	11.97	3.58	(CC) basolateral plasma membrane
+GO:0017134	2	65	3.08	1	389	0.26	11.97	3.58	(MF) fibroblast growth factor binding
+GO:0019838	12	65	18.46	6	389	1.54	11.97	3.58	(MF) growth factor binding
+GO:0019903	2	65	3.08	1	389	0.26	11.97	3.58	(MF) protein phosphatase binding
+GO:0030307	2	65	3.08	1	389	0.26	11.97	3.58	(BP) positive regulation of cell growth
+GO:0030510	2	65	3.08	1	389	0.26	11.97	3.58	(BP) regulation of BMP signaling pathway
+GO:0031397	2	65	3.08	1	389	0.26	11.97	3.58	(BP) negative regulation of protein ubiquitination
+GO:0031657	2	65	3.08	1	389	0.26	11.97	3.58	(BP) regulation of cyclin-dependent protein kinase activity involved by G1/S
+GO:0031659	2	65	3.08	1	389	0.26	11.97	3.58	(BP) positive regulation of cyclin-dependent protein kinase activity involved in G1/S
+GO:0034613	2	65	3.08	1	389	0.26	11.97	3.58	(BP) cellular protein localization
+GO:0042493	2	65	3.08	1	389	0.26	11.97	3.58	(BP) response to drug
+GO:0043548	2	65	3.08	1	389	0.26	11.97	3.58	(MF) phosphoinositide 3-kinase binding
+GO:0044042	2	65	3.08	1	389	0.26	11.97	3.58	(BP) glucan metabolic process
+GO:0044449	2	65	3.08	1	389	0.26	11.97	3.58	(CC) contractile fiber part
+GO:0045737	2	65	3.08	1	389	0.26	11.97	3.58	(BP) positive regulation of cyclin-dependent protein kinase activity
+GO:0045740	2	65	3.08	1	389	0.26	11.97	3.58	(BP) positive regulation of DNA replication
+GO:0045785	2	65	3.08	1	389	0.26	11.97	3.58	(BP) positive regulation of cell adhesion
+GO:0051259	4	65	6.15	2	389	0.51	11.97	3.58	(BP) protein oligomerization
+GO:0051641	2	65	3.08	1	389	0.26	11.97	3.58	(BP) cellular localization
+GO:0055114	2	65	3.08	1	389	0.26	11.97	3.58	(BP) oxidation-reduction process
+GO:0070727	2	65	3.08	1	389	0.26	11.97	3.58	(BP) cellular macromolecule localization
+GO:0004716	5	65	7.69	2	389	0.51	14.96	3.90	(MF) receptor signaling protein tyrosine kinase activity
+GO:0030278	5	65	7.69	2	389	0.51	14.96	3.90	(BP) regulation of ossification
+GO:0045667	5	65	7.69	2	389	0.51	14.96	3.90	(BP) regulation of osteoblast differentiation
+GO:0030334	8	65	12.31	3	389	0.77	15.96	4.00	(BP) regulation of cell migration
+GO:2000145	8	65	12.31	3	389	0.77	15.96	4.00	(BP) regulation of cell motility
+GO:0004675	6	65	9.23	2	389	0.51	17.95	4.17	(MF) transmembrane receptor protein serine/threonine kinase activity
+GO:0005007	3	65	4.62	1	389	0.26	17.95	4.17	(MF) fibroblast growth factor receptor activity
+GO:0005024	6	65	9.23	2	389	0.51	17.95	4.17	(MF) transforming growth factor beta receptor activity
+GO:0008217	3	65	4.62	1	389	0.26	17.95	4.17	(BP) regulation of blood pressure
+GO:0010862	3	65	4.62	1	389	0.26	17.95	4.17	(BP) positive regulation of pathway-restricted SMAD protein phosphorylation
+GO:0016049	3	65	4.62	1	389	0.26	17.95	4.17	(BP) cell growth
+GO:0019722	3	65	4.62	1	389	0.26	17.95	4.17	(BP) calcium-mediated signaling
+GO:0030335	6	65	9.23	2	389	0.51	17.95	4.17	(BP) positive regulation of cell migration
+GO:0033157	3	65	4.62	1	389	0.26	17.95	4.17	(BP) regulation of intracellular protein transport
+GO:0034762	3	65	4.62	1	389	0.26	17.95	4.17	(BP) regulation of transmembrane transport
+GO:0040007	3	65	4.62	1	389	0.26	17.95	4.17	(BP) growth
+GO:0040012	9	65	13.85	3	389	0.77	17.95	4.17	(BP) regulation of locomotion
+GO:0040017	6	65	9.23	2	389	0.51	17.95	4.17	(BP) positive regulation of locomotion
+GO:0042277	3	65	4.62	1	389	0.26	17.95	4.17	(MF) peptide binding
+GO:0045927	3	65	4.62	1	389	0.26	17.95	4.17	(BP) positive regulation of growth
+GO:0046332	6	65	9.23	2	389	0.51	17.95	4.17	(MF) SMAD binding
+GO:0046822	3	65	4.62	1	389	0.26	17.95	4.17	(BP) regulation of nucleocytoplasmic transport
+GO:0051054	3	65	4.62	1	389	0.26	17.95	4.17	(BP) positive regulation of DNA metabolic process
+GO:0051270	9	65	13.85	3	389	0.77	17.95	4.17	(BP) regulation of cellular component movement
+GO:0060393	3	65	4.62	1	389	0.26	17.95	4.17	(BP) regulation of pathway-restricted SMAD protein phosphorylation
+GO:2000147	6	65	9.23	2	389	0.51	17.95	4.17	(BP) positive regulation of cell motility
+GO:0051272	7	65	10.77	2	389	0.51	20.95	4.39	(BP) positive regulation of cellular component movement
+GO:0019955	4	65	6.15	1	389	0.26	23.94	4.58	(MF) cytokine binding
+GO:0032386	4	65	6.15	1	389	0.26	23.94	4.58	(BP) regulation of intracellular transport
+GO:0050678	4	65	6.15	1	389	0.26	23.94	4.58	(BP) regulation of epithelial cell proliferation
+GO:0007179	5	65	7.69	1	389	0.26	29.92	4.90	(BP) transforming growth factor beta receptor signaling pathway
+GO:0030500	5	65	7.69	1	389	0.26	29.92	4.90	(BP) regulation of bone mineralization
+GO:0030501	5	65	7.69	1	389	0.26	29.92	4.90	(BP) positive regulation of bone mineralization
+GO:0030509	5	65	7.69	1	389	0.26	29.92	4.90	(BP) BMP signaling pathway
+GO:0045669	5	65	7.69	1	389	0.26	29.92	4.90	(BP) positive regulation of osteoblast differentiation
+GO:0045778	5	65	7.69	1	389	0.26	29.92	4.90	(BP) positive regulation of ossification
+GO:0051240	5	65	7.69	1	389	0.26	29.92	4.90	(BP) positive regulation of multicellular organismal process
+GO:0070167	5	65	7.69	1	389	0.26	29.92	4.90	(BP) regulation of biomineral tissue development
+GO:0070169	5	65	7.69	1	389	0.26	29.92	4.90	(BP) positive regulation of biomineral tissue development
+GO:0000060	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) protein import into nucleus, translocation
+GO:0000151	1	65	1.54	0	389	0.00	1538461538.46	30.52	(CC) ubiquitin ligase complex
+GO:0000152	1	65	1.54	0	389	0.00	1538461538.46	30.52	(CC) nuclear ubiquitin ligase complex
+GO:0001502	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) cartilage condensation
+GO:0001550	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) ovarian cumulus expansion
+GO:0001569	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) patterning of blood vessels
+GO:0001570	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) vasculogenesis
+GO:0001704	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) formation of primary germ layer
+GO:0001707	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) mesoderm formation
+GO:0001727	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) lipid kinase activity
+GO:0001763	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) morphogenesis of a branching structure
+GO:0001773	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) myeloid dendritic cell activation
+GO:0001822	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) kidney development
+GO:0001880	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) Mullerian duct regression
+GO:0001953	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) negative regulation of cell-matrix adhesion
+GO:0002009	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) morphogenesis of an epithelium
+GO:0002053	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of mesenchymal cell proliferation
+GO:0002063	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) chondrocyte development
+GO:0002274	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) myeloid leukocyte activation
+GO:0002327	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) immature B cell differentiation
+GO:0002329	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) pre-B cell differentiation
+GO:0002331	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) pre-B cell allelic exclusion
+GO:0002573	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) myeloid leukocyte differentiation
+GO:0002649	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of tolerance induction to self antigen
+GO:0002651	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of tolerance induction to self antigen
+GO:0002661	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of B cell tolerance induction
+GO:0002663	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of B cell tolerance induction
+GO:0002664	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of T cell tolerance induction
+GO:0002666	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of T cell tolerance induction
+GO:0003007	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) heart morphogenesis
+GO:0003085	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) negative regulation of systemic arterial blood pressure
+GO:0003690	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) double-stranded DNA binding
+GO:0004175	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) endopeptidase activity
+GO:0004197	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) cysteine-type endopeptidase activity
+GO:0004198	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) calcium-dependent cysteine-type endopeptidase activity
+GO:0004385	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) guanylate kinase activity
+GO:0004428	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) inositol or phosphatidylinositol kinase activity
+GO:0004710	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) MAP/ERK kinase kinase activity
+GO:0005008	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) hepatocyte growth factor receptor activity
+GO:0005009	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) insulin receptor activity
+GO:0005010	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) insulin-like growth factor receptor activity
+GO:0005026	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) transforming growth factor beta receptor activity, type II
+GO:0005071	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) transmembrane receptor protein serine/threonine kinase signaling protein activity
+GO:0005114	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) type II transforming growth factor beta receptor binding
+GO:0005158	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) insulin receptor binding
+GO:0005159	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) insulin-like growth factor receptor binding
+GO:0005680	1	65	1.54	0	389	0.00	1538461538.46	30.52	(CC) anaphase-promoting complex
+GO:0005865	1	65	1.54	0	389	0.00	1538461538.46	30.52	(CC) striated muscle thin filament
+GO:0005899	1	65	1.54	0	389	0.00	1538461538.46	30.52	(CC) insulin receptor complex
+GO:0005902	1	65	1.54	0	389	0.00	1538461538.46	30.52	(CC) microvillus
+GO:0005923	1	65	1.54	0	389	0.00	1538461538.46	30.52	(CC) tight junction
+GO:0006110	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of glycolysis
+GO:0006282	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of DNA repair
+GO:0006323	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) DNA packaging
+GO:0006351	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) transcription, DNA-dependent
+GO:0006366	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) transcription from RNA polymerase II promoter
+GO:0006511	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) ubiquitin-dependent protein catabolic process
+GO:0006809	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) nitric oxide biosynthetic process
+GO:0006924	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) activation-induced cell death of T cells
+GO:0006968	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) cellular defense response
+GO:0006983	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) ER overload response
+GO:0006986	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) response to unfolded protein
+GO:0007015	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) actin filament organization
+GO:0007029	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) endoplasmic reticulum organization
+GO:0007076	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) mitotic chromosome condensation
+GO:0007156	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) homophilic cell adhesion
+GO:0007202	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) activation of phospholipase C activity
+GO:0007420	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) brain development
+GO:0007497	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) posterior midgut development
+GO:0007602	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) phototransduction
+GO:0007603	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) phototransduction, visible light
+GO:0007623	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) circadian rhythm
+GO:0008233	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) peptidase activity
+GO:0008234	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) cysteine-type peptidase activity
+GO:0008334	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) histone mRNA metabolic process
+GO:0008340	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) determination of adult lifespan
+GO:0008354	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) germ cell migration
+GO:0008360	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of cell shape
+GO:0009266	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) response to temperature stimulus
+GO:0009408	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) response to heat
+GO:0009581	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) detection of external stimulus
+GO:0009582	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) detection of abiotic stimulus
+GO:0009583	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) detection of light stimulus
+GO:0009584	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) detection of visible light
+GO:0009586	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) rhodopsin mediated phototransduction
+GO:0009636	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) response to toxin
+GO:0009897	1	65	1.54	0	389	0.00	1538461538.46	30.52	(CC) external side of plasma membrane
+GO:0009925	1	65	1.54	0	389	0.00	1538461538.46	30.52	(CC) basal plasma membrane
+GO:0010035	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) response to inorganic substance
+GO:0010038	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) response to metal ion
+GO:0010464	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of mesenchymal cell proliferation
+GO:0010498	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) proteasomal protein catabolic process
+GO:0010517	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of phospholipase activity
+GO:0010518	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of phospholipase activity
+GO:0010596	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) negative regulation of endothelial cell migration
+GO:0010632	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of epithelial cell migration
+GO:0010634	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of epithelial cell migration
+GO:0010812	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) negative regulation of cell-substrate adhesion
+GO:0010821	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of mitochondrion organization
+GO:0010822	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of mitochondrion organization
+GO:0010857	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) calcium-dependent protein kinase activity
+GO:0010863	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of phospholipase C activity
+GO:0010927	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) cellular component assembly involved in morphogenesis
+GO:0014916	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of lung blood pressure
+GO:0016056	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) rhodopsin mediated signaling pathway
+GO:0016303	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) 1-phosphatidylinositol-3-kinase activity
+GO:0016324	1	65	1.54	0	389	0.00	1538461538.46	30.52	(CC) apical plasma membrane
+GO:0016776	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) phosphotransferase activity, phosphate group as acceptor
+GO:0019087	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) transformation of host cell by virus
+GO:0019201	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) nucleotide kinase activity
+GO:0019205	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) nucleobase, nucleoside, nucleotide kinase activity
+GO:0019229	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of vasoconstriction
+GO:0019941	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) modification-dependent protein catabolic process
+GO:0022602	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) ovulation cycle process
+GO:0030017	1	65	1.54	0	389	0.00	1538461538.46	30.52	(CC) sarcomere
+GO:0030097	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) hemopoiesis
+GO:0030177	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of Wnt receptor signaling pathway
+GO:0030183	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) B cell differentiation
+GO:0030198	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) extracellular matrix organization
+GO:0030199	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) collagen fibril organization
+GO:0030235	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) nitric-oxide synthase regulator activity
+GO:0030239	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) myofibril assembly
+GO:0030240	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) skeletal muscle thin filament assembly
+GO:0030241	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) skeletal muscle myosin thick filament assembly
+GO:0030261	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) chromosome condensation
+GO:0030282	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) bone mineralization
+GO:0030968	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) endoplasmic reticulum unfolded protein response
+GO:0031018	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) endocrine pancreas development
+GO:0031032	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) actomyosin structure organization
+GO:0031033	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) myosin filament assembly or disassembly
+GO:0031034	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) myosin filament assembly
+GO:0031145	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) anaphase-promoting complex-dependent proteasomal ubiquitin-dependent protein catabolic process
+GO:0031214	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) biomineral tissue development
+GO:0031433	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) telethonin binding
+GO:0031641	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of myelination
+GO:0031642	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) negative regulation of myelination
+GO:0031645	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) negative regulation of neurological system process
+GO:0031995	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) insulin-like growth factor II binding
+GO:0031999	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) negative regulation of fatty acid beta-oxidation
+GO:0032055	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) negative regulation of translation in response to stress
+GO:0032057	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) negative regulation of translational initiation in response to stress
+GO:0032101	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of response to external stimulus
+GO:0032103	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of response to external stimulus
+GO:0032148	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) activation of protein kinase B activity
+GO:0032423	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of mismatch repair
+GO:0032425	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of mismatch repair
+GO:0032429	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of phospholipase A2 activity
+GO:0032430	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of phospholipase A2 activity
+GO:0032431	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) activation of phospholipase A2 activity
+GO:0032473	1	65	1.54	0	389	0.00	1538461538.46	30.52	(CC) external side of mitochondrial outer membrane
+GO:0032770	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of monooxygenase activity
+GO:0032774	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) RNA biosynthetic process
+GO:0032922	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) circadian regulation of gene expression
+GO:0032926	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) negative regulation of activin receptor signaling pathway
+GO:0032971	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of muscle filament sliding
+GO:0033500	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) carbohydrate homeostasis
+GO:0034211	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) GTP-dependent protein kinase activity
+GO:0034405	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) response to fluid shear stress
+GO:0034620	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) cellular response to unfolded protein
+GO:0034713	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) type I transforming growth factor beta receptor binding
+GO:0034714	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) type III transforming growth factor beta receptor binding
+GO:0034976	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) response to endoplasmic reticulum stress
+GO:0035004	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) phosphoinositide 3-kinase activity
+GO:0035107	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) appendage morphogenesis
+GO:0035108	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) limb morphogenesis
+GO:0035162	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) embryonic hemopoiesis
+GO:0035239	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) tube morphogenesis
+GO:0035313	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) wound healing, spreading of epidermal cells
+GO:0035400	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) histone tyrosine kinase activity
+GO:0035401	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) histone kinase activity (H3-Y41 specific)
+GO:0035412	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of catenin protein nuclear translocation
+GO:0035413	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of catenin protein nuclear translocation
+GO:0042509	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of tyrosine phosphorylation of STAT protein
+GO:0042516	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of tyrosine phosphorylation of Stat3 protein
+GO:0042517	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of tyrosine phosphorylation of Stat3 protein
+GO:0042522	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of tyrosine phosphorylation of Stat5 protein
+GO:0042523	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of tyrosine phosphorylation of Stat5 protein
+GO:0042531	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of tyrosine phosphorylation of STAT protein
+GO:0042593	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) glucose homeostasis
+GO:0042752	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of circadian rhythm
+GO:0042805	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) actinin binding
+GO:0042976	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) activation of Janus kinase activity
+GO:0042977	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) activation of JAK2 kinase activity
+GO:0043006	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) activation of phospholipase A2 activity by calcium-mediated signaling
+GO:0043011	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) myeloid dendritic cell differentiation
+GO:0043161	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) proteasomal ubiquitin-dependent protein catabolic process
+GO:0043325	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) phosphatidylinositol-3,4-bisphosphate binding
+GO:0043368	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive T cell selection
+GO:0043535	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of blood vessel endothelial cell migration
+GO:0043555	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of translation in response to stress
+GO:0043558	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of translational initiation in response to stress
+GO:0043566	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) structure-specific DNA binding
+GO:0043632	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) modification-dependent macromolecule catabolic process
+GO:0044003	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) modification by symbiont of host morphology or physiology
+GO:0044271	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) cellular nitrogen compound biosynthetic process
+GO:0044319	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) wound healing, spreading of cells
+GO:0044455	1	65	1.54	0	389	0.00	1538461538.46	30.52	(CC) mitochondrial membrane part
+GO:0045058	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) T cell selection
+GO:0045059	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive thymic T cell selection
+GO:0045061	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) thymic T cell selection
+GO:0045165	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) cell fate commitment
+GO:0045214	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) sarcomere organization
+GO:0045580	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of T cell differentiation
+GO:0045582	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of T cell differentiation
+GO:0045600	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of fat cell differentiation
+GO:0045619	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of lymphocyte differentiation
+GO:0045621	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of lymphocyte differentiation
+GO:0045739	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of DNA repair
+GO:0045776	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) negative regulation of blood pressure
+GO:0045821	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of glycolysis
+GO:0045840	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of mitosis
+GO:0045884	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of survival gene product expression
+GO:0045885	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of survival gene product expression
+GO:0045906	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) negative regulation of vasoconstriction
+GO:0045995	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of embryonic development
+GO:0046209	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) nitric oxide metabolic process
+GO:0046322	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) negative regulation of fatty acid oxidation
+GO:0046425	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of JAK-STAT cascade
+GO:0046427	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of JAK-STAT cascade
+GO:0046634	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of alpha-beta T cell activation
+GO:0046635	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of alpha-beta T cell activation
+GO:0046637	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of alpha-beta T cell differentiation
+GO:0046638	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of alpha-beta T cell differentiation
+GO:0048010	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) vascular endothelial growth factor receptor signaling pathway
+GO:0048184	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) follistatin binding
+GO:0048286	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) lung alveolus development
+GO:0048514	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) blood vessel morphogenesis
+GO:0048520	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of behavior
+GO:0048538	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) thymus development
+GO:0048568	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) embryonic organ development
+GO:0048663	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) neuron fate commitment
+GO:0048732	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) gland development
+GO:0048739	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) cardiac muscle fiber development
+GO:0048747	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) muscle fiber development
+GO:0048754	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) branching morphogenesis of a tube
+GO:0048844	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) artery morphogenesis
+GO:0050254	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) rhodopsin kinase activity
+GO:0050795	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of behavior
+GO:0050906	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) detection of stimulus involved in sensory perception
+GO:0050908	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) detection of light stimulus involved in visual perception
+GO:0050920	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of chemotaxis
+GO:0050921	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of chemotaxis
+GO:0050926	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of positive chemotaxis
+GO:0050927	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of positive chemotaxis
+GO:0050962	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) detection of light stimulus involved in sensory perception
+GO:0050995	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) negative regulation of lipid catabolic process
+GO:0051000	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of nitric-oxide synthase activity
+GO:0051136	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of NK T cell differentiation
+GO:0051138	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of NK T cell differentiation
+GO:0051205	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) protein insertion into membrane
+GO:0051233	1	65	1.54	0	389	0.00	1538461538.46	30.52	(CC) spindle midzone
+GO:0051260	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) protein homooligomerization
+GO:0051290	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) protein heterotetramerization
+GO:0051291	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) protein heterooligomerization
+GO:0051393	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) alpha-actinin binding
+GO:0051425	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) PTB domain binding
+GO:0051436	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) negative regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle
+GO:0051592	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) response to calcium ion
+GO:0051603	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) proteolysis involved in cellular protein catabolic process
+GO:0051606	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) detection of stimulus
+GO:0051668	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) localization within membrane
+GO:0051785	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of nuclear division
+GO:0051789	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) response to protein stimulus
+GO:0051817	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) modification of morphology or physiology of other organism involved in symbiotic interaction
+GO:0051879	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) Hsp90 protein binding
+GO:0051894	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of focal adhesion assembly
+GO:0051895	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) negative regulation of focal adhesion assembly
+GO:0055001	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) muscle cell development
+GO:0055002	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) striated muscle cell development
+GO:0055003	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) cardiac myofibril assembly
+GO:0055131	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) C3HC4-type RING finger domain binding
+GO:0060017	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) parathyroid gland development
+GO:0060033	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) anatomical structure regression
+GO:0060037	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) pharyngeal system development
+GO:0060191	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of lipase activity
+GO:0060193	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of lipase activity
+GO:0060263	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of respiratory burst
+GO:0060267	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of respiratory burst
+GO:0060397	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) JAK-STAT cascade involved in growth hormone signaling pathway
+GO:0061138	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) morphogenesis of a branching epithelium
+GO:0070011	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) peptidase activity, acting on L-amino acid peptides
+GO:0070160	1	65	1.54	0	389	0.00	1538461538.46	30.52	(CC) occluding junction
+GO:0070227	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) lymphocyte apoptosis
+GO:0070231	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) T cell apoptosis
+GO:0070372	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of ERK1 and ERK2 cascade
+GO:0070374	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of ERK1 and ERK2 cascade
+GO:0070411	1	65	1.54	0	389	0.00	1538461538.46	30.52	(MF) I-SMAD binding
+GO:0070435	1	65	1.54	0	389	0.00	1538461538.46	30.52	(CC) Shc-EGFR complex
+GO:0071044	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) histone mRNA catabolic process
+GO:0071103	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) DNA conformation change
+GO:0071445	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) cellular response to protein stimulus
+GO:0071688	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) striated muscle myosin thick filament assembly
+GO:0071887	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) leukocyte apoptosis
+GO:0090199	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) regulation of release of cytochrome c from mitochondria
+GO:0090200	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of release of cytochrome c from mitochondria
+GO:0090263	1	65	1.54	0	389	0.00	1538461538.46	30.52	(BP) positive regulation of canonical Wnt receptor signaling pathway
+GO:0001501	2	65	3.08	0	389	0.00	3076923076.92	31.52	(BP) skeletal system development
+GO:0001503	2	65	3.08	0	389	0.00	3076923076.92	31.52	(BP) ossification
+GO:0001936	2	65	3.08	0	389	0.00	3076923076.92	31.52	(BP) regulation of endothelial cell proliferation
+GO:0001938	2	65	3.08	0	389	0.00	3076923076.92	31.52	(BP) positive regulation of endothelial cell proliferation
+GO:0005006	2	65	3.08	0	389	0.00	3076923076.92	31.52	(MF) epidermal growth factor receptor activity
+GO:0005160	2	65	3.08	0	389	0.00	3076923076.92	31.52	(MF) transforming growth factor beta receptor binding
+GO:0005520	2	65	3.08	0	389	0.00	3076923076.92	31.52	(MF) insulin-like growth factor binding
+GO:0005547	2	65	3.08	0	389	0.00	3076923076.92	31.52	(MF) phosphatidylinositol-3,4,5-trisphosphate binding
+GO:0005792	2	65	3.08	0	389	0.00	3076923076.92	31.52	(CC) microsome
+GO:0007259	2	65	3.08	0	389	0.00	3076923076.92	31.52	(BP) JAK-STAT cascade
+GO:0007267	2	65	3.08	0	389	0.00	3076923076.92	31.52	(BP) cell-cell signaling
+GO:0008201	2	65	3.08	0	389	0.00	3076923076.92	31.52	(MF) heparin binding
+GO:0010595	2	65	3.08	0	389	0.00	3076923076.92	31.52	(BP) positive regulation of endothelial cell migration
+GO:0017046	2	65	3.08	0	389	0.00	3076923076.92	31.52	(MF) peptide hormone binding
+GO:0030513	2	65	3.08	0	389	0.00	3076923076.92	31.52	(BP) positive regulation of BMP signaling pathway
+GO:0031994	2	65	3.08	0	389	0.00	3076923076.92	31.52	(MF) insulin-like growth factor I binding
+GO:0032768	2	65	3.08	0	389	0.00	3076923076.92	31.52	(BP) regulation of monooxygenase activity
+GO:0033993	2	65	3.08	0	389	0.00	3076923076.92	31.52	(BP) response to lipid
+GO:0042598	2	65	3.08	0	389	0.00	3076923076.92	31.52	(CC) vesicular fraction
+GO:0043559	2	65	3.08	0	389	0.00	3076923076.92	31.52	(MF) insulin binding
+GO:0048009	2	65	3.08	0	389	0.00	3076923076.92	31.52	(BP) insulin-like growth factor receptor signaling pathway
+GO:0048185	2	65	3.08	0	389	0.00	3076923076.92	31.52	(MF) activin binding
+GO:0048468	2	65	3.08	0	389	0.00	3076923076.92	31.52	(BP) cell development
+GO:0048511	2	65	3.08	0	389	0.00	3076923076.92	31.52	(BP) rhythmic process
+GO:0048534	2	65	3.08	0	389	0.00	3076923076.92	31.52	(BP) hemopoietic or lymphoid organ development
+GO:0048562	2	65	3.08	0	389	0.00	3076923076.92	31.52	(BP) embryonic organ morphogenesis
+GO:0048598	2	65	3.08	0	389	0.00	3076923076.92	31.52	(BP) embryonic morphogenesis
+GO:0048701	2	65	3.08	0	389	0.00	3076923076.92	31.52	(BP) embryonic cranial skeleton morphogenesis
+GO:0048704	2	65	3.08	0	389	0.00	3076923076.92	31.52	(BP) embryonic skeletal system morphogenesis
+GO:0048705	2	65	3.08	0	389	0.00	3076923076.92	31.52	(BP) skeletal system morphogenesis
+GO:0050999	2	65	3.08	0	389	0.00	3076923076.92	31.52	(BP) regulation of nitric-oxide synthase activity
+GO:0051015	2	65	3.08	0	389	0.00	3076923076.92	31.52	(MF) actin filament binding
+GO:0051262	2	65	3.08	0	389	0.00	3076923076.92	31.52	(BP) protein tetramerization
+GO:0051893	2	65	3.08	0	389	0.00	3076923076.92	31.52	(BP) regulation of focal adhesion assembly
+GO:0055008	2	65	3.08	0	389	0.00	3076923076.92	31.52	(BP) cardiac muscle tissue morphogenesis
+GO:0060021	2	65	3.08	0	389	0.00	3076923076.92	31.52	(BP) palate development
+GO:0060389	2	65	3.08	0	389	0.00	3076923076.92	31.52	(BP) pathway-restricted SMAD protein phosphorylation
+GO:0060390	2	65	3.08	0	389	0.00	3076923076.92	31.52	(BP) regulation of SMAD protein nuclear translocation
+GO:0060391	2	65	3.08	0	389	0.00	3076923076.92	31.52	(BP) positive regulation of SMAD protein nuclear translocation
+GO:0060415	2	65	3.08	0	389	0.00	3076923076.92	31.52	(BP) muscle tissue morphogenesis
+GO:0070022	2	65	3.08	0	389	0.00	3076923076.92	31.52	(CC) transforming growth factor beta receptor complex
+GO:0070141	2	65	3.08	0	389	0.00	3076923076.92	31.52	(BP) response to UV-A
+GO:0070723	2	65	3.08	0	389	0.00	3076923076.92	31.52	(BP) response to cholesterol
+GO:0090109	2	65	3.08	0	389	0.00	3076923076.92	31.52	(BP) regulation of cell-substrate junction assembly
+GO:0001525	3	65	4.62	0	389	0.00	4615384615.38	32.10	(BP) angiogenesis
+GO:0001871	3	65	4.62	0	389	0.00	4615384615.38	32.10	(MF) pattern binding
+GO:0003002	3	65	4.62	0	389	0.00	4615384615.38	32.10	(BP) regionalization
+GO:0005539	3	65	4.62	0	389	0.00	4615384615.38	32.10	(MF) glycosaminoglycan binding
+GO:0009952	3	65	4.62	0	389	0.00	4615384615.38	32.10	(BP) anterior/posterior pattern formation
+GO:0030246	3	65	4.62	0	389	0.00	4615384615.38	32.10	(MF) carbohydrate binding
+GO:0030247	3	65	4.62	0	389	0.00	4615384615.38	32.10	(MF) polysaccharide binding
+GO:0032388	3	65	4.62	0	389	0.00	4615384615.38	32.10	(BP) positive regulation of intracellular transport
+GO:0033158	3	65	4.62	0	389	0.00	4615384615.38	32.10	(BP) regulation of protein import into nucleus, translocation
+GO:0033160	3	65	4.62	0	389	0.00	4615384615.38	32.10	(BP) positive regulation of protein import into nucleus, translocation
+GO:0042306	3	65	4.62	0	389	0.00	4615384615.38	32.10	(BP) regulation of protein import into nucleus
+GO:0042562	3	65	4.62	0	389	0.00	4615384615.38	32.10	(MF) hormone binding
+GO:0045428	3	65	4.62	0	389	0.00	4615384615.38	32.10	(BP) regulation of nitric oxide biosynthetic process
+GO:0045429	3	65	4.62	0	389	0.00	4615384615.38	32.10	(BP) positive regulation of nitric oxide biosynthetic process
+GO:0048729	3	65	4.62	0	389	0.00	4615384615.38	32.10	(BP) tissue morphogenesis
+GO:0051222	3	65	4.62	0	389	0.00	4615384615.38	32.10	(BP) positive regulation of protein transport
+GO:0090316	3	65	4.62	0	389	0.00	4615384615.38	32.10	(BP) positive regulation of intracellular protein transport
+GO:0007389	4	65	6.15	0	389	0.00	6153846153.85	32.52	(BP) pattern specification process
+GO:0010594	4	65	6.15	0	389	0.00	6153846153.85	32.52	(BP) regulation of endothelial cell migration
+GO:0050431	4	65	6.15	0	389	0.00	6153846153.85	32.52	(MF) transforming growth factor beta binding
+GO:0050679	4	65	6.15	0	389	0.00	6153846153.85	32.52	(BP) positive regulation of epithelial cell proliferation
+GO:0051896	4	65	6.15	0	389	0.00	6153846153.85	32.52	(BP) regulation of protein kinase B signaling cascade
+GO:0051897	4	65	6.15	0	389	0.00	6153846153.85	32.52	(BP) positive regulation of protein kinase B signaling cascade
+GO:0048646	5	65	7.69	0	389	0.00	7692307692.31	32.84	(BP) anatomical structure formation involved in morphogenesis
