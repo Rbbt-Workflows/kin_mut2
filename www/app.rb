@@ -55,6 +55,13 @@ get '/job/:name' do
       @uniprot_groups[mutation] = Kinase.get_features(job, prot, m)["uniprot_group"]
     }
 
+    index = Organism::Hsa.identifiers.index(:target => "Entrez Gene ID", :persistence =>  true)
+
+    Entrez.get_gene(@res.keys.collect{|mutation|  
+      prot, m = mutation.split(/_/)
+      (index[prot] || []).first
+    }.compact)
+
     haml :result
   end
 end
@@ -120,8 +127,9 @@ get '/details/:name/:protein/:mutation' do
   @name = (name[@protein] || []).first
 
   unless @entrez.nil?
-    @description = Entrez.get_gene(@entrez).description
-    @summary     = Entrez.get_gene(@entrez).summary
+    gene = Entrez.get_gene(@entrez)
+    @description = gene.description
+    @summary     = gene.summary
   end
 
   @goterms = Misc.process_to_hash $prot_goterms[@protein].split(/;/) do |list| list.collect{|id| $goterm_score[id]} end

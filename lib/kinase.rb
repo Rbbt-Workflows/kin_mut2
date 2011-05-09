@@ -12,11 +12,11 @@ module Kinase
   def self.error_in_wt_aa?(protein, mutation)
     wt, pos, m = mutation.match(/([A-Z])(\d+)([A-Z])/i).values_at 1,2,3
 
-    sequences = local_persist(data["KinaseAccessions_Group_Seqs.txt"].find, :TSV, :tsv) do |file, *other|
+    @@sequences ||= local_persist(data["KinaseAccessions_Group_Seqs.txt"].find, :TSV, :tsv) do |file, *other|
       TSV.new Open.open(file), :single, :fields => 2
     end
 
-    real_wt = sequences[protein][pos.to_i - 1].chr
+    real_wt = @@sequences[protein][pos.to_i - 1].chr
 
     if wt == real_wt
       false
@@ -26,10 +26,12 @@ module Kinase
   end
 
   def self.get_features(job, protein, mutation)
-    feature_names = self.etc["feature.number.list"].tsv(:type => :single).sort_by{|key,value| key.to_i}.collect{|key, value| value}
+    @@feature_names ||= self.etc["feature.number.list"].tsv(:type => :single).sort_by{|key,value| key.to_i}.collect{|key, value| value}
 
-    patterns = TSV.new(job.input("patterns").path, :list, :key => feature_names.length, :fix => Proc.new{|l| l.sub('#','').sub(/^\d+\t/,'').gsub(/\d+:/,'')})
-    patterns.fields = feature_names
+    @@patterns ||= {}
+
+    patterns = @@patterns[job] ||= TSV.new(job.input("patterns").path, :list, :key => @@feature_names.length, :fix => Proc.new{|l| l.sub('#','').sub(/^\d+\t/,'').gsub(/\d+:/,'')})
+    patterns.fields = @@feature_names
 
 
     pattern = patterns[[protein, mutation] * "_"]
