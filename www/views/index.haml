@@ -23,6 +23,20 @@
       .field.submit
         %input#submit(type="submit" name="Submit" value="Run KinMut")
 
+#description
+  %h3 Description
+  %p
+    KinMut is a method for the prediction of the impact of mutations in the function of human Protein Kinases.
+
+  %p 
+    KinMut associates several sequence-derived features to kinase mutations,
+    including: a) at the gene level, the membership to a Kinbase group and Gene
+    Ontology terms. b) at the domain level, the occurrence of the mutation inside
+    a PFAM domain, and c) at the residue level, several properties including
+    amino acid type, functional annotations from Swissprot and FireDB,
+    specificity-determining positions, etc. These features are evaluated with a
+    SVM; the resulting score determines the pathogenicity of the mutations. 
+
 :javascript
     $('a#load_example').click(function(){
       $.ajax({
