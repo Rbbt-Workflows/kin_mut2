@@ -16,10 +16,10 @@
 
 #protein
   %dl.protein
-    %dt Protein Name
+    %dt Gene Name
     %dd= @name
 
-    %dt Protein Description
+    %dt Protein Long Name
     %dd= @description
 
     %dt Summary
@@ -65,9 +65,18 @@
   
   #residue_general
     %dl.residue
-      %dt.specificity Specificity Determining Position
+      %dt.specificity Kinase Family Subspecificity
       %dd.specificity
-        == WT: #{"%.2f" % @features["TDs_fscore_wt"].to_f} Mut: #{"%.2f" % @features["TDs_fscore_mt"].to_f} Diff: #{"%.2f" % @features["TDs_fscore_diff"].to_f}
+        %dl
+          %dt Wild Type
+          %dd= "%.2f" % @features["TDs_fscore_wt"].to_f
+
+          %dt Mutant
+          %dd= "%.2f" % @features["TDs_fscore_mt"].to_f
+
+          %dt Difference
+          %dd= "%.2f" % @features["TDs_fscore_diff"].to_f
+
 
       %dt.kdhc Kyte-Doolittle Hydrophobicity Change
       %dd.kdhc
@@ -85,10 +94,13 @@
 
   #residue_functional
     %dl.functional
-      - trans = Hash[*%w(firedb phosphoelm swannot_ptm swannot_disulfid swannot_carbohyd swannot_act_site swannot_signal swannot_catalytic swannot_site swannot_mod_res swannot_np_bind swannot_transmem swannot_mutagen swannot_metal swannot_binding).zip(%w(FireDB PhosphoELM PTM Disulfide_Bond Carbohyd Active_Site Signal_Peptide Catalytic_Site Site Modified_Residue Nucleotide_Binding Transmembrane Mutagenesis Metal_Binding Binding).collect{|v| v.gsub(/_/,' ')}).flatten]
-      - %w(firedb phosphoelm swannot_ptm swannot_disulfid swannot_carbohyd swannot_act_site swannot_signal swannot_catalytic swannot_site swannot_mod_res swannot_np_bind swannot_transmem swannot_mutagen swannot_metal swannot_binding).each do |key|
+      - features = %w(firedb phosphoelm swannot_ptm swannot_disulfid swannot_carbohyd swannot_act_site swannot_signal swannot_catalytic swannot_site swannot_mod_res swannot_np_bind swannot_transmem swannot_mutagen swannot_metal swannot_binding)
+      - names    = %w(FireDB PhosphoELM Post_Trans._Modification Disulfide_Bond Carbohyd Active_Site Signal_Peptide Catalytic_Site Site Modified_Residue Nucleotide_Binding Transmembrane Mutagenesis Metal_Binding Binding).collect{|v| v.gsub(/_/,' ')}
+      - trans = Hash[*features.zip(names).flatten]
+      - headers = %w( firedb phosphoelm swannot_transmem swannot_mutagen swannot_ptm swannot_catalytic )
+      - %w( firedb phosphoelm swannot_transmem swannot_mutagen swannot_ptm swannot_mod_res swannot_signal swannot_catalytic swannot_disulfid swannot_carbohyd swannot_act_site swannot_site swannot_np_bind     swannot_metal swannot_binding ).each do |key|
         - name = trans[key]
-        %dt= name
+        %dt{:class => (headers.include?(key) ? "" : "subfeature") }= name
         %dd{:class => (@features[key] == "1" ? 'red' : '')}= @features[key] == "1" ? "Yes" : "No"
 
 :javascript

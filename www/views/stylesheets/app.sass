@@ -71,13 +71,32 @@ nav.tabs
   ul
     margin-bottom: 30px
 
+dt.inline
+  +inline_dt
+
 dl.functional
   +inline_dl
   dt
     :width 200px
+    &.subfeature
+      margin-left: 10px
+      width: 190px
+      font-style: italic
+      font-weight: normal
 
-dt.inline
-  +inline_dt
+dd.specificity dl
+  +inline_dl
+  margin: 0
+  dt
+    width: 100px
+  dd
+    text-align: right
+    width: 50px
+
+dt.kdhc, dt.sift
+  clear: both
+  padding-top: 10px
+
 
 #residue_general
   +column(6)
