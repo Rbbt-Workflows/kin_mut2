@@ -4,3 +4,4 @@ data/SIFT
 data/UNIPROT
 data/preloaded_scores.tsv
 cache
+*.pyc
