@@ -1,19 +1,106 @@
 require 'rbbt-util'
-require 'rbbt/util/workflow'
-require 'rbbt/util/tsv/resource'
+require 'rbbt/workflow'
+require 'rbbt/resource'
 require 'rbbt/util/cmd'
 require 'rbbt/sources/organism'
+require 'nokogiri'
+require 'pg'
 
+
+Workflow.require_workflow 'translation'
 module Kinase
-  extend WorkFlow
+  extend Workflow
+  extend Resource
 
-  Rbbt.software.opt.svm_light.define_as_install Rbbt.share.install.software.svm_light.find
+  class << self
+    include LocalPersist
+    local_persist_dir = File.join(File.dirname(__FILE__), '../cache')
+  end
+
+
+  Kinase.software.opt.svm_light.claim :install, Rbbt.share.install.software.svm_light.find
+
+  module Postgres
+    HOST = 'padme'
+    PORT = nil
+    OPTIONS = nil
+    TTY = nil
+    DBNAME = 'tm_kinase_muts'
+
+    def self.driver
+      PGconn.connect(:host => HOST, :port => PORT, :dbname => DBNAME, :user => 'jmgonzalez')
+    end
+
+    def self.snp2l(uniprot, position)
+      query =<<-EOT
+SELECT
+tum.wt_aa,
+tum.mutant_aa,
+tum.pubmed_id,
+tum.new_position,
+tum.old_position,
+td.type,
+mm.type,
+ts.line_content
+
+FROM 
+tm_updated_mentions tum,
+tm_datasets td,
+mapping_methods mm,
+tm_sentences ts
+
+WHERE 
+tum.tm_dataset_id=td.id AND
+tum.mapping_method_id=mm.id AND
+tum.acc='#{uniprot}' AND
+tum.new_position=#{position} AND
+tum.oldtriplet=ts.oldtriplets
+
+ORDER BY 
+tum.new_position,
+tum.wt_aa, 
+tum.mutant_aa
+;
+      EOT
+      res = driver.exec(query)
+      res
+    end
+
+    def self.snp2db(uniprot, position)
+      query =<<-EOT
+SELECT 
+cm.acc,
+cm.seq_pos,
+cm.wt,
+cm.mutant,
+cm.description,
+ed.type 
+FROM 
+complementary_muts cm,
+external_dbs ed
+WHERE 
+cm.external_db_id = ed.id AND
+acc='#{uniprot}' AND
+seq_pos=#{position}
+;
+      EOT
+      res = driver.exec(query)
+      res
+    end
+  end
+
+  def self.ihop_interactions(uniprot)
+    url = "http://ws.bioinfo.cnio.es/iHOP/cgi-bin/getSymbolInteractions?ncbiTaxId=9606&reference=#{uniprot}&namespace=UNIPROT__AC" 
+    doc = Nokogiri::XML(Open.read(url))
+    sentences = doc.css("iHOPsentence")
+    sentences
+  end
 
   def self.error_in_wt_aa?(protein, mutation)
     wt, pos, m = mutation.match(/([A-Z])(\d+)([A-Z])/i).values_at 1,2,3
 
-    @@sequences ||= local_persist(data["KinaseAccessions_Group_Seqs.txt"].find, :TSV, :tsv) do |file, *other|
-      TSV.new Open.open(file), :single, :fields => 2
+    @@sequences ||= self.local_persist("sequence", :tsv, :source => data["KinaseAccessions_Group_Seqs.txt"].find) do 
+      TSV.open data["KinaseAccessions_Group_Seqs.txt"].find, :type => :single, :fields => [2]
     end
 
     real_wt = @@sequences[protein][pos.to_i - 1].chr
@@ -26,13 +113,14 @@ module Kinase
   end
 
   def self.get_features(job, protein, mutation)
-    @@feature_names ||= self.etc["feature.number.list"].tsv(:type => :single).sort_by{|key,value| key.to_i}.collect{|key, value| value}
+    @@feature_names ||= self.etc["feature.number.list"].find(:lib).tsv(:type => :single).sort_by{|key,value| key.to_i}.collect{|key, value| value}
 
     @@patterns ||= {}
 
-    patterns = @@patterns[job] ||= TSV.new(job.input("patterns").path, :list, :key => @@feature_names.length, :fix => Proc.new{|l| l.sub('#','').sub(/^\d+\t/,'').gsub(/\d+:/,'')})
+    #patterns = @@patterns[job] ||= TSV.open(job.step("patterns").path, :list, :fields => @@feature_names, :key_field => @@feature_names.length, :fix => Proc.new{|l| l.sub('#','').sub(/^\d+\t/,'').gsub(/\d+:/,'')})
+    patterns = @@patterns[job] ||= TSV.open(job.step("patterns").path, :list, :key_field => @@feature_names.length, :fix => Proc.new{|l| l.sub('#','').sub(/^\d+\t/,'').gsub(/\d+:/,'')})
+    patterns.key_field = "Protein Mutation"
     patterns.fields = @@feature_names
-
 
     pattern = patterns[[protein, mutation] * "_"]
     info = {}
@@ -80,7 +168,7 @@ module Kinase
     info
   end
 
-  task_option :list, "Lista de mutations", :string
+  input :list, :string, "Lista de mutations"
   task :input => :string do |list|
     proteins = []
     mutations = []
@@ -96,7 +184,7 @@ module Kinase
 
     set_info :originals, proteins
 
-    translated = Organism::Hsa.normalize(proteins, "UniProt/SwissProt Accession")
+    translated = Translation.job(:translate_protein, "", :proteins => proteins, :format => "UniProt/SwissProt Accession").exec
 
     set_info :translated, translated
 
@@ -115,11 +203,12 @@ module Kinase
     list.reject{|p,m| p.nil?}.collect{|p,m| [p,m] * "_"} * "\n"
   end
 
+  dep :input
   task :patterns => :string do
     error_file = TmpFile.tmp_file
-    patterns = CMD.cmd("perl -I #{Kinase.bin.find} #{Kinase['bin/PatternGenerator.pl'].find} #{ previous_jobs["input"].path } #{Kinase["etc/feature.number.list"].find} 2> #{error_file}").read
-    if Open.read(error_file).any?
-      set_info :filtered_out, Open.read(error_file).split(/\n/).collect{|l| l.match(/(\w*) is not a valid/)[1]}
+    patterns = CMD.cmd("perl -I #{Kinase.bin.find} #{Kinase['bin/PatternGenerator.pl'].find} #{ step("input").path } #{Kinase["etc/feature.number.list"].find} 2> #{error_file}").read
+    if Open.read(error_file).any? and Open.read(error_file) =~ /is not a valid/
+        set_info :filtered_out, Open.read(error_file).split(/\n/).collect{|l| l.match(/(\w*) is not a valid/)[1]}
     else
       set_info :filtered_out, []
     end
@@ -127,11 +216,12 @@ module Kinase
     patterns
   end
 
+  dep :patterns
   task :predict => :string do 
-    CMD.cmd("#{Kinase["bin/run_svm.py"].find} --m=e --o=#{File.join(Kinase.jobdir, task.name)} \
+    CMD.cmd("#{Kinase["bin/run_svm.py"].find(:lib)} --m=e --o=#{path}.files \
     --svm=#{Kinase['share/model/final.svm'].find} --cfg=#{Kinase['etc/svm.config'].find}", 
-    "--ts=" => previous_jobs["patterns"].path)
-    FileUtils.mv File.join(Kinase.jobdir, task.name, File.basename(previous_jobs["patterns"].path)), path
+    "--ts=" => step("patterns").path)
+    FileUtils.mv File.join(path + '.files', File.basename(step("patterns").path)), path
 
     nil
   end
@@ -141,7 +231,16 @@ end
 
 if __FILE__ == $0
 
-  job = Kinase.job(:predict, "test", Open.read(File.join(['data/EXAMPLES/test.input']))).run
+  puts Kinase.ihop_interactions("P07949").first
+
+  exit
+  ddd Kinase::Postgres.snp2l('P07949', 806).to_a
+
+  exit
+  job = Kinase.job(:predict, "test", :list => Open.read(File.join(['data/EXAMPLES/test.input'])))
+  job.clean.run
+  ddd job
+
   ddd Kinase.get_features(job, 'O14936', 'P396S')
 
   

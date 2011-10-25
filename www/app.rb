@@ -1,12 +1,12 @@
 require File.join(Sinatra::Application.root,'../lib/kinase')
-require 'rbbt/util/tsv'
+require 'rbbt/tsv'
 require 'rbbt/sources/entrez'
 require 'rbbt/sources/go'
 require 'pp'
 
-$kinase_groups = Kinase.data["kinase_group_description.tsv"].tsv :single
-$prot_goterms = Kinase.data["uniprot2go.txt"].tsv :single, :fields => 2
-$goterm_score = Kinase.data["GOlogoddsratio.perterm.txt"].tsv :single, :fields => ["DESCRIPTION" ]
+$kinase_groups = Kinase.data["kinase_group_description.tsv"].find(:lib).tsv :single
+$prot_goterms = Kinase.data["uniprot2go.txt"].find(:lib).tsv :single, :fields => 2
+$goterm_score = Kinase.data["GOlogoddsratio.perterm.txt"].find(:lib).tsv :single, :fields => ["DESCRIPTION" ]
 
 $pfam_names = {}
 
@@ -35,21 +35,22 @@ end
 
 get '/job/:name' do
   @title = "KinMut: #{params[:name].sub(/_.*/,'') }"
-  job = Kinase.load_job(:predict, params[:name])
-  if not job.done?
+  job = Kinase.load_id(File.join("predict", params["name"]))
+
+  while not job.done?
     job.join
-    job.load_dependencies
+    job = Kinase.load_id(File.join("predict", params["name"]))
   end
 
   if job.error?
-    "Error in job #{ job.id }: #{job.messages.last}"
+    "Error in job #{ job.name }: #{job.messages.last}"
   else
-    @res = TSV.new job.open, :key => 2, :sep => /\s+/
+    @res = TSV.open job.path, :key_field => 2, :sep => /\s+/
 
     @job = params[:name]
     @jobname, @hash = params[:name].split(/_/)
-    @translations = job.input("input").info[:translations]
-    @filtered = (job.input("patterns").info[:filtered_out] || []) + job.input("input").info[:synonymous]
+    @translations = job.step("patterns").step("input").info[:translations]
+    @filtered = (job.step("patterns").info[:filtered_out] || []) + job.step("patterns").step("input").info[:synonymous]
     @uniprot_groups = {}
     @res.each{|mutation,values|
       mutation = mutation.sub('#', '')
@@ -57,7 +58,7 @@ get '/job/:name' do
       @uniprot_groups[mutation] = Kinase.get_features(job, prot, m)["uniprot_group"]
     }
 
-    index = Organism::Hsa.identifiers.index(:target => "Entrez Gene ID", :persistence =>  true)
+    index = Organism::Hsa.identifiers.index(:target => "Entrez Gene ID", :persist =>  true)
 
     Entrez.get_gene(@res.keys.collect{|mutation|  
       prot, m = mutation.sub('#','').split(/_/)
@@ -69,30 +70,32 @@ get '/job/:name' do
 end
 
 get '/filtered/:name' do
-  job = Kinase.load_job(:predict, params[:name])
+  job = Kinase.load_id(File.join("predict", params[:name]))
 
-  @translations = job.input("input").info[:translations]
+  @translations = job.step("input").info[:translations]
   
-  @filtered = job.input("patterns").info[:filtered_out]
-  @synonymous = job.input("input").info[:synonymous] 
+  @filtered = job.step("patterns").info[:filtered_out]
+  @synonymous = job.step("input").info[:synonymous] 
   
   haml :missing
 end
 
 
 get '/original/:name' do
-  job = Kinase.load_job(:predict, params[:name])
+  job = Kinase.load_id(File.join("predict", params[:name]))
 
   content_type "text/plain"
-  job.input("input").info[:options][:list]
+  job.step("input").info[:options][:list]
 end
 
 get '/download/:name' do
-  job = Kinase.load_job(:predict, params[:name])
+  job = Kinase.load_id(File.join("predict", params[:name]))
 
   content_type "text/plain"
-  res = TSV.new job.open, :key => 2, :sep => /\s+/
-  translations = job.input("input").info[:translations]
+  #res = TSV.new job.open, :key => 2, :sep => /\s+/
+  res = TSV.open job.path, :key_field => 2, :sep => /\s+/
+
+  translations = job.step("input").info[:translations]
 
   line = []
   res.collect do |mutation,values|
@@ -119,13 +122,13 @@ get '/download/:name' do
 end
 
 get '/details/:name/:protein/:mutation' do
-  job = Kinase.load_job(:predict, params[:name])
+  job = Kinase.load_id(File.join("predict", params[:name]))
   @protein, @mutation = params.values_at :protein, :mutation
 
   @title = "KinMut: #{params[:name].sub(/_.*/,'') } > #{@protein} > #{@mutation}"
 
-  index = Organism::Hsa.identifiers.index(:target => "Entrez Gene ID", :persistence =>  true)
-  name = Organism::Hsa.identifiers.index(:target => "Associated Gene Name", :persistence =>  true)
+  index = Organism::Hsa.identifiers.index(:target => "Entrez Gene ID", :persist =>  true)
+  name = Organism::Hsa.identifiers.index(:target => "Associated Gene Name", :persist =>  true)
 
   @entrez = (index[@protein] || []).first
   @name = (name[@protein] || []).first
@@ -154,9 +157,9 @@ post '/' do
 
   jobname = params[:jobname]
   jobname = "JOB" if jobname.nil? or jobname.empty?
-  job = Kinase.job(:predict, jobname , mutations)
+  job = Kinase.job(:predict, jobname , :list =>  mutations)
   job.fork
-  redirect "/job/#{job.id}"
+  redirect "/job/#{job.name}"
 end
 
 get '/' do
