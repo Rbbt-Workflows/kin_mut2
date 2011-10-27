@@ -20,7 +20,7 @@
       %th Prediction*
       %th Features
   %tbody
-    - @res.each do |mutation,values|
+    - @res.sort_by{|mutation,value| @list.index mutation.sub('#','')}.each do |mutation,values|
       - mutation = mutation.sub('#', '')
       - prot, m = mutation.split(/_/)
       %tr

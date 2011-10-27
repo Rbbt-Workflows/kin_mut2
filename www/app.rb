@@ -50,6 +50,7 @@ get '/job/:name' do
     @job = params[:name]
     @jobname, @hash = params[:name].split(/_/)
     @translations = job.step("patterns").step("input").info[:translations]
+    @list = job.step("input").info[:inputs][:list].split("\n")
     @filtered = (job.step("patterns").info[:filtered_out] || []) + job.step("patterns").step("input").info[:synonymous]
     @uniprot_groups = {}
     @res.each{|mutation,values|
