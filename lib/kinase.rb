@@ -28,7 +28,7 @@ module Kinase
     DBNAME = 'tm_kinase_muts'
 
     def self.driver
-      PGconn.connect(:host => HOST, :port => PORT, :dbname => DBNAME, :user => 'jmgonzalez')
+      PGconn.connect(:host => HOST, :port => PORT, :dbname => DBNAME, :user => 'tgi_usuarioweb_sololectura')
     end
 
     def self.snp2l(uniprot, position)

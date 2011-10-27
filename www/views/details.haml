@@ -1,3 +1,8 @@
+- snp2l = Kinase::Postgres.snp2l(@protein, @mutation.scan(/\d+/).first)
+- snp2db = Kinase::Postgres.snp2db(@protein, @mutation.scan(/\d+/).first)
+- pfam = @features["pfam"].empty? ? 0 : @features["pfam"].split("|").length 
+
+
 %h3 
   Details for
   Protein: 
@@ -10,15 +15,23 @@
     %li
       %a.active(target="#protein") Protein 
     %li
-      %a(target="#domain") Pfam Domain
+      %a(target="#domain")== Pfam Domains (#{pfam})
     %li
       %a(target="#residue") Residue
+    - if snp2db.any?
+      %li
+        %a(target="#SNP2DB")== Other Databases (#{snp2db.to_a.length})
+    - else
+      %li
+        %a.inactive(target="#SNP2DB") Other Databases (0)
+    - if snp2l.any?
+      %li
+        %a(target="#SNP2L")== Literature for Mutation (#{snp2l.to_a.length})
+    - else 
+      %li
+        %a.inactive(target="#SNP2L") Literature for Mutation (0)
     %li
-      %a(target="#SNP2DB") This Mutation in other DBs
-    %li
-      %a(target="#SNP2L") Literature for Mutation
-    %li
-      %a(target="#IHOP") IHOP (Interactions)
+      %a.ihop(target="#IHOP") IHOP Interactions (--)
 
 #protein
   %dl.protein
@@ -110,66 +123,69 @@
         %dd{:class => (@features[key] == "1" ? 'red' : '')}= @features[key] == "1" ? "Yes" : "No"
 
 #SNP2DB
-  - snp2db = Kinase::Postgres.snp2db(@protein, @mutation.scan(/\d+/).first)
-  %table#snp2db_table
-    %thead
-      %tr
-        %th Mutation
-        %th Description
-        %th Database
-    %tbody
-    - snp2db.to_a.each do |info|
-      - IndiferentHash.setup info
-      %tr
-        %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
-        %td= info[:description]
-        %td= info[:type]
+  - if snp2db.any?
+    %table#snp2db_table
+      %thead
+        %tr
+          %th Mutation
+          %th Description
+          %th Database
+      %tbody
+      - snp2db.to_a.each do |info|
+        - IndiferentHash.setup info
+        %tr
+          %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
+          %td= info[:description]
+          %td= info[:type]
  
 #SNP2L
-  - snp2l = Kinase::Postgres.snp2l(@protein, @mutation.scan(/\d+/).first)
-  %table#snp2l_table
-    %thead
-      %tr
-        %th Mutation
-        %th PMID
-        %th Content
-        %th Comments
-    %tbody
-    - snp2l.to_a.each do |info|
-      - IndiferentHash.setup info
-      %tr
-        %td
-          - original, new = info.values_at :old_position, :new_position
-          - if original != new
-            == #{[info[:wt_aa], new, info[:mutant_aa]] * ""} (adjusted from: #{[info[:wt_aa], original, info[:mutant_aa]] * ""})
-          - else
-            = [info[:wt_aa], original, info[:mutant_aa]] * ""
-        %td
-          %a(href="http://www.ncbi.nlm.nih.gov/pubmed/#{info[:pubmed_id]}")= info[:pubmed_id]
-        %td= info[:line_content]
-        %td
-          - if original != new
-            == adjusted from: #{[info[:wt_aa], original, info[:mutant_aa]] * ""} by #{info[:type]}
+  - if snp2l.any?
+    %table#snp2l_table
+      %thead
+        %tr
+          %th Mutation
+          %th PMID
+          %th Content
+          %th Comments
+      %tbody
+      - snp2l.to_a.each do |info|
+        - IndiferentHash.setup info
+        %tr
+          %td
+            - original, new = info.values_at :old_position, :new_position
+            - if original != new
+              == #{[info[:wt_aa], new, info[:mutant_aa]] * ""} (adjusted from: #{[info[:wt_aa], original, info[:mutant_aa]] * ""})
+            - else
+              = [info[:wt_aa], original, info[:mutant_aa]] * ""
+          %td
+            %a(href="http://www.ncbi.nlm.nih.gov/pubmed/#{info[:pubmed_id]}")= info[:pubmed_id]
+          %td= info[:line_content]
+          %td
+            - if original != new
+              == adjusted from: #{[info[:wt_aa], original, info[:mutant_aa]] * ""} by #{info[:type]}
 
 #IHOP
-  - sentences = Kinase.ihop_interactions(@protein)
-  %ul
-    - sentences.each do |sentence|
-      %li= sentence
-
+  %p#loading Loading. Please Wait.
 
 
 :javascript
   tabs($('nav.tabs'))
   $('#goterms,#snp2db_table,#snp2l_table').tablesorter({widgets: ['zebra']});
 
-  $('ihopsentence').each(function(){
-    var sentence = $(this);
-    var pmid = sentence.attr('pmid');
-    var orig = sentence.html();
-    //var new_html = orig + ' (<a href="http://www.ncbi.nlm.nih.gov/pubmed/' + pmid + '">PMID: ' + pmid + '</a>)';
-    var new_html = '[<a href="http://www.ncbi.nlm.nih.gov/pubmed/' + pmid + '">PMID: ' + pmid + '</a>] ' + orig;
+  $.ajax({url: '/sentences/#{@protein}', success: function(data){
+    $('p#loading').replaceWith(data);
 
-    sentence.html(new_html);
-  
-  })
+    var num_sentences = $('ihopsentence').length
+
+    $('a.ihop').html("IHOP Interactions (" + num_sentences + ")");
+
+    $('ihopsentence').each(function(){
+      var sentence = $(this);
+      var pmid = sentence.attr('pmid');
+      var orig = sentence.html();
+      //var new_html = orig + ' (<a href="http://www.ncbi.nlm.nih.gov/pubmed/' + pmid + '">PMID: ' + pmid + '</a>)';
+      var new_html = '[<a href="http://www.ncbi.nlm.nih.gov/pubmed/' + pmid + '">PMID: ' + pmid + '</a>] ' + orig;
+
+      sentence.html(new_html);
+    })
+  }})

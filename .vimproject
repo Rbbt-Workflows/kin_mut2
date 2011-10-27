@@ -45,6 +45,7 @@ KinMut=/$PWD filter="*.rb *.js *.css *.pl *.py *.cfg *.config" {
    details.haml
    help.haml
    missing.haml
+   sentences.haml
    stylesheets=stylesheets {
     _base.sass
     main.sass

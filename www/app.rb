@@ -165,3 +165,9 @@ end
 get '/' do
   haml :index
 end
+
+get '/sentences/:uniprot' do
+  uniprot = params[:uniprot]
+
+  haml :sentences, :layout => false, :locals => {:uniprot => uniprot}
+end
