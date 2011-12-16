@@ -1,6 +1,7 @@
 - snp2l = Kinase::Postgres.snp2l(@protein, @mutation.scan(/\d+/).first)
 - snp2db = Kinase::Postgres.snp2db(@protein, @mutation.scan(/\d+/).first)
 - pfam = @features["pfam"].empty? ? 0 : @features["pfam"].split("|").length 
+- pdbs = Kinase.pdb_position(@protein, @mutation.scan(/\d+/).first.to_i)
 
 
 %h3 
@@ -21,6 +22,8 @@
       %a(target="#domain")== Pfam Domains (#{pfam})
     %li
       %a(target="#residue") Residue
+    %li
+      %a(target="#jml") Structure (#{pdbs.length})
     - if snp2db.any?
       %li
         %a(target="#SNP2DB")== Other Databases (#{snp2db.to_a.length})
@@ -29,7 +32,7 @@
         %a.inactive(target="#SNP2DB") Other Databases (0)
     - if snp2l.any?
       %li
-        %a(target="#SNP2L")== Literature for Mutation (#{snp2l.to_a.length})
+        %a(target="#SNP2L")== Literature (#{snp2l.to_a.length})
     - else 
       %li
         %a.inactive(target="#SNP2L") Literature for Mutation (0)
@@ -125,7 +128,25 @@
         %dt{:class => (headers.include?(key) ? "" : "subfeature") }= name
         %dd{:class => (@features[key] == "1" ? 'red' : '')}= @features[key] == "1" ? "Yes" : "No"
  
-  #jmol
+#jmol
+  %hr
+  %select.pdb
+    %option Select a pdb
+    - pdbs.each do |pdb, chain, pdb_position| 
+      %option(attr-chain=chain attr-position=pdb_position)= pdb
+  :javascript
+    jmolApplet(500, "", "PIZARRA");
+
+    $('select.pdb').change(function(){
+      var option = $(this).find("option:selected");
+      var pdb = option.html();
+      if (pdb == "Select a pdb") return false
+      var pdb_position = option.attr('attr-position');
+      var pdb_chain = option.attr('attr-position');
+      jmolScript("load '/pdb/" + pdb + ".pdb' ; wireframe off; restrict water; select protein; backbone off; color pink;cartoons on;color structure; select protein and *.CA and " + pdb_position + "; spacefill; color blue;", "PIZARRA");
+    })
+
+
 
 
 #SNP2DB

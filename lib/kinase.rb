@@ -17,6 +17,27 @@ module Kinase
     local_persist_dir = File.join(File.dirname(__FILE__), '../cache')
   end
 
+  def self.pdb_position(uniprot, position)
+    pdb = "1EV2"
+    position = 100
+    chain = "A"
+    [
+      [pdb,  chain, position], 
+      ["3ZXZ",  chain, position], 
+    ]
+  end
+
+  def self.pdb_position(uniprot, position)
+    pdbs = Postgres.pdb_for_uniprot(uniprot)
+    pdbs.collect{|info|
+      pdb, chain = info.values_at "pdb", "chain"
+      pdb_position = Postgres.pdb_chain_and_position(uniprot, position, pdb, chain)
+      next if pdb_position.first.nil? == 0
+      pdb_position = pdb_position.first["pos_pdb"]
+      [pdb, chain, pdb_position]
+    }.compact
+  end
+
 
   Kinase.software.opt.svm_light.claim :install, Rbbt.share.install.software.svm_light.find
 
@@ -26,9 +47,27 @@ module Kinase
     OPTIONS = nil
     TTY = nil
     DBNAME = 'tm_kinase_muts'
+    PDBNAME = 'kinmut'
 
     def self.driver
       PGconn.connect(:host => HOST, :port => PORT, :dbname => DBNAME, :user => 'tgi_usuarioweb_sololectura')
+    end
+
+    def self.pdb_driver
+      PGconn.connect(:host => HOST, :port => PORT, :dbname => PDBNAME, :user => 'tgi_webuser')
+    end
+
+
+    def self.pdb_for_uniprot(uniprot)
+      query = "select pdb,chain from acc2pdbchain where acc='#{ uniprot }';"
+      res = pdb_driver.exec(query)
+      res
+    end
+
+    def self.pdb_chain_and_position(uniprot, position, pdb, chain)
+      query = "select pos_pdb from acc2pdbchain_mapping where acc='#{ uniprot }' and pdb='#{ pdb }' and chain='#{chain}' and pos_acc=#{position};"
+      res = pdb_driver.exec(query)
+      res
     end
 
     def self.snp2l(uniprot, position)

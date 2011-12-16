@@ -5,3 +5,5 @@ data/UNIPROT
 data/preloaded_scores.tsv
 cache
 lib/python/*.pyc
+www/public/pdb/
+www/public/jmol-12.2.9/
