@@ -133,6 +133,9 @@ get '/details/:name/:protein/:mutation' do
   index = Organism::Hsa.identifiers.index(:target => "Entrez Gene ID", :persist =>  true)
   name = Organism::Hsa.identifiers.index(:target => "Associated Gene Name", :persist =>  true)
 
+  @translations = job.step("patterns").step("input").info[:translations]
+  @translations_id = job.step("patterns").step("input").info[:translations_id]
+
   @entrez = (index[@protein] || []).first
   @name = (name[@protein] || []).first
   @jobname = params[:name]

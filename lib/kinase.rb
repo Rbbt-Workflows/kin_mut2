@@ -32,7 +32,7 @@ module Kinase
     pdbs.collect{|info|
       pdb, chain = info.values_at "pdb", "chain"
       pdb_position = Postgres.pdb_chain_and_position(uniprot, position, pdb, chain)
-      next if pdb_position.first.nil? == 0
+      next if pdb_position.first.nil?
       pdb_position = pdb_position.first["pos_pdb"]
       [pdb, chain, pdb_position]
     }.compact
