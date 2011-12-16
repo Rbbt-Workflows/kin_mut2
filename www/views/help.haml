@@ -6,30 +6,57 @@
   KinMut is a computational method for the prediction of the impact of mutations in the function of protein kinases.
 
   How does KinMut predict the impact of the kinase mutations?
-  ----------------------------------------------------------
+  -----------------------------------------------------------
+
   We associate a number sequence-derived features to disease-associated kinase mutations, including: a) at the gene level, the membership to a Kinbase group and Gene Ontology terms. b) at the domain level, the occurrence of the mutation inside a PFAM domain, and c) at the residue level, several properties including amino acid type, functional annotations from Swissprot and FireDB, specificity-determining positions, etc. We examined the independent significance of these properties and their combination with a Support Vector Machine (SVM). An SVM score greater than -0.5 indicates the mutation is pathogenic.
 
   Is there a quick tutorial to get the grips with KinMut?
-  ----------------------------------------------------------
-  Yes, indeed. Here is the quick reference tutorial of the predictor. [Tutorial]
+  -------------------------------------------------------
+
+  Yes, indeed. Here is the quick reference tutorial of the predictor. [Tutorial](/kinmut_tutorial.pdf)
 
   In which format should I submit the mutations?
-  ----------------------------------------------------------
+  ----------------------------------------------
+
   Although the server accepts many input format the most basic one includes the Uniprot/Swissprot accession number, the wild type residue, the position and the mutated residue. For instance, a mutation from Glycine to Alanine in position 719 of the Epidermal Growth factor receptor, will be encoded P00533_G719A. Multiple mutations can be submited at a time, either as a file (one mutation per line) or via the applications form.
 
   My protein is not a kinase. Will the server work?
-  ----------------------------------------------------------
+  -------------------------------------------------
+
   No. Since some of the features are kinase-specific we can only provide results within the framework of the protein-kinase superfamily. For other protein families we recommend you refer to other genome-wide servers: SNAP, Polyphen, SNPs&GO, etc.
 
+  How do I get extended information about the mutations?
+  ------------------------------------------------------
+
+  In the results table, click on 'Details' in the right-most column. This will redirect you to a new page containing information including the values of the features using for classification, Protein-Protein information, mentions in the literature of the mutation and existing records of the mutation in other databases. This additional information is intended to provide the basic background to help to understand and interpret the consequences of the mutations.
+
+  Where does the Protein-Protein Interaction information come from?
+  -----------------------------------------------------------------
+
+  Protein-Protein Interactions (PPI) information comes from [iHOP](http://www.ihop-net.org/). iHOP is a powerful text mining system to automatically extract protein protein interactions from PubMed abstracts. In addition, the original paper sentences are also provided as a means to relate the interaction information with its context.
+
+
+  Where does the Literature Information come from?
+  ------------------------------------------------
+
+  The sentences providing contextual information about the mutations come directly from the literature. We obtain this information using [SNP2L](http://www.ncbi.nlm.nih.gov/sites/entrez?db=pubmed&cmd=search&term=19758464). In brief, SNP2L is a literature mining pipeline for the automatic extraction and disambiguation of single-point mutation mentions from both abstracts as well as full text articles, followed by a sequence validation check to link mutations to their corresponding kinase protein sequences.
+
+  Which databases are revised in order to gather information about the mutations?
+  -------------------------------------------------------------------------------
+
+  Currently, four different databases are revised: [Uniprot Variation Pages](http://web.expasy.org/variant_pages/), [COSMIC](http://www.sanger.ac.uk/genetics/CGP/cosmic/), [SAAPdb](http://www.bioinf.org.uk/saap/db/) and [KinMutBase](http://bioinf.uta.fi/KinMutBase/). These databases were selected in order to cover different aspects of human protein kinase mutation.
+
   Can I access the server programmatically?
-  ----------------------------------------------------------
+  -----------------------------------------
+
   Not yet. We will release a web service soon.
 
   How can I cite KinMut?
-  ----------------------------------------------------------
-  There is no publication yet. This is a Beta version we expect to submit soon.
+  ----------------------
+
+  There is no publication yet. This is a Beta version we have submitted for publication.
 
   I have a question that is NOT in this help section. Can I contact you?
-  ----------------------------------------------------------
-  Of course you can. Feel free to email us (jmgonzalez-at-cnio-dot-es) and we will try to solve your doubts.
+  ----------------------------------------------------------------------
 
+  Of course you can. Feel free to email us (jmgonzalez-at-cnio-dot-es) and we will try to solve your doubts.

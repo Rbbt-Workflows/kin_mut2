@@ -124,6 +124,9 @@
         - name = trans[key]
         %dt{:class => (headers.include?(key) ? "" : "subfeature") }= name
         %dd{:class => (@features[key] == "1" ? 'red' : '')}= @features[key] == "1" ? "Yes" : "No"
+ 
+  #jmol
+
 
 #SNP2DB
   - if snp2db.any?

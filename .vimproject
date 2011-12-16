@@ -23,6 +23,7 @@ KinMut=/$PWD filter="*.rb *.js *.css *.pl *.py *.cfg *.config" {
    compass.config
   }
   public=public {
+   
    images=images {
    }
    javascript=javascript {
