@@ -5,7 +5,8 @@ require 'rbbt/sources/go'
 require 'pp'
 
 $kinase_groups = Kinase.data["kinase_group_description.tsv"].find(:lib).tsv :single
-$prot_goterms = Kinase.data["uniprot2go.txt"].find(:lib).tsv :single, :fields => 2
+$prot_goterms = Kinase.data["uniprot2go.txt"].find(:lib).tsv :single, :fields => [2]
+
 $goterm_score = Kinase.data["GOlogoddsratio.perterm.txt"].find(:lib).tsv :single, :fields => ["DESCRIPTION" ]
 
 $pfam_names = {}
@@ -34,7 +35,7 @@ get '/help' do
 end
 
 get '/job/:name' do
-  @title = "KinMut: #{params[:name].sub(/_.*/,'') }"
+  @title = "KinMut: #{params[:name].match(/(.*)_(.*)/)[1] }"
   job = Kinase.load_id(File.join("predict", params["name"]))
 
   while not job.done?
@@ -48,8 +49,9 @@ get '/job/:name' do
     @res = TSV.open job.path, :key_field => 2, :sep => /\s+/
 
     @job = params[:name]
-    @jobname, @hash = params[:name].split(/_/)
+    @jobname, @hash = params[:name].match(/(.*)_(.*)/).values_at 1, 2
     @translations = job.step("patterns").step("input").info[:translations]
+    @translations_id = job.step("patterns").step("input").info[:translations_id]
     @list = job.step("input").info[:inputs][:list].split("\n")
     @filtered = (job.step("patterns").info[:filtered_out] || []) + job.step("patterns").step("input").info[:synonymous]
     @uniprot_groups = {}
@@ -126,13 +128,14 @@ get '/details/:name/:protein/:mutation' do
   job = Kinase.load_id(File.join("predict", params[:name]))
   @protein, @mutation = params.values_at :protein, :mutation
 
-  @title = "KinMut: #{params[:name].sub(/_.*/,'') } > #{@protein} > #{@mutation}"
+  @title = "KinMut: #{params[:name].match(/(.*)_(.*)/)[1] } > #{@protein} > #{@mutation}"
 
   index = Organism::Hsa.identifiers.index(:target => "Entrez Gene ID", :persist =>  true)
   name = Organism::Hsa.identifiers.index(:target => "Associated Gene Name", :persist =>  true)
 
   @entrez = (index[@protein] || []).first
   @name = (name[@protein] || []).first
+  @jobname = params[:name]
 
   unless @entrez.nil?
     gene = Entrez.get_gene(@entrez)

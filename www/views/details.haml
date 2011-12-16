@@ -9,6 +9,9 @@
   %span.protein== #{@protein},
   Mutation:
   %span.mutation= @mutation
+  %span.back_to_job
+    Back to 
+    %a(href="/job/#{ @jobname }")= @jobname.match(/(.*)_(.*)/)[1]
 
 %nav.tabs
   %ul

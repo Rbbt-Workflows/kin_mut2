@@ -23,16 +23,21 @@
     - @res.sort_by{|mutation,value| @list.index mutation.sub('#','')}.each do |mutation,values|
       - mutation = mutation.sub('#', '')
       - prot, m = mutation.split(/_/)
+
       %tr
         %td
-          - if @translations[prot] != prot
-            = @translations[prot]
+          - names = [@translations[prot], @translations_id[prot]] - [prot]
+          = names * ", "
           %a(href="http://www.uniprot.org/uniprot/#{ prot }" target='_blank')= prot
-        - if Kinase.error_in_wt_aa?(prot, m)
+        - wt = Kinase.error_in_wt_aa?(prot, m)
+        - if wt.nil? or wt
           %td
             - first, *rest = m.split('')
             = "<font color='red'>#{first}</font>#{rest}"
-            %span.wt_error== expected wild-type aa (#{Kinase.error_in_wt_aa?(prot, m)})
+            - if wt.nil?
+              %span.wt_error== position outside protein range
+            - else
+              %span.wt_error== expected wild-type aa (#{Kinase.error_in_wt_aa?(prot, m)})
             
         - else
           %td= m

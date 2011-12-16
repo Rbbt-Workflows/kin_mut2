@@ -103,7 +103,11 @@ seq_pos=#{position}
       TSV.open data["KinaseAccessions_Group_Seqs.txt"].find, :type => :single, :fields => [2]
     end
 
-    real_wt = @@sequences[protein][pos.to_i - 1].chr
+    if pos.to_i > @@sequences[protein].length
+      real_wt = nil
+    else
+      real_wt = @@sequences[protein][pos.to_i - 1].chr
+    end
 
     if wt == real_wt
       false
@@ -189,8 +193,17 @@ seq_pos=#{position}
     set_info :translated, translated
 
     translations = Hash[*(translated.zip(proteins)).flatten]
-    
+
     set_info :translations, translations
+
+    translated_id = Translation.job(:translate_protein, "", :proteins => proteins, :format => "UniProt/SwissProt ID").exec
+
+    set_info :translated_id, translated_id
+
+    translations_id = Hash[*(translated.zip(translated_id)).flatten]
+
+    set_info :translations_id, translations_id
+
 
     list = translated.zip(mutations)
 
