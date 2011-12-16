@@ -25,7 +25,7 @@
     %li
       %a(target="#residue") Residue
     %li
-      %a(target="#jml") Structure (#{pdbs.length})
+      %a(target="#jmol") Structure (#{pdbs.length})
     - if snp2db.any?
       %li
         %a(target="#SNP2DB")== Other Databases (#{snp2db.to_a.length})
@@ -136,7 +136,9 @@
     %option(selected="selected") Select a pdb
     - pdbs.each do |pdb, chain, pdb_position| 
       %option(attr-chain=chain attr-position=pdb_position attr-pdb=pdb)= "#{ pdb } (#{ pdb_position }:#{ chain })"
+
   :javascript
+
     jmolApplet(500, "", "PIZARRA");
 
     $('select.pdb').change(function(){
@@ -218,3 +220,4 @@
       sentence.html(new_html);
     })
   }})
+
