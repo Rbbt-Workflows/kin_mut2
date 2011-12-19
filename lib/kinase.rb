@@ -3,6 +3,7 @@ require 'rbbt/workflow'
 require 'rbbt/resource'
 require 'rbbt/util/cmd'
 require 'rbbt/sources/organism'
+require 'rbbt/entity/mutated_isoform'
 require 'nokogiri'
 require 'pg'
 
@@ -18,16 +19,6 @@ module Kinase
   end
 
   def self.pdb_position(uniprot, position)
-    pdb = "1EV2"
-    position = 100
-    chain = "A"
-    [
-      [pdb,  chain, position], 
-      ["3ZXZ",  chain, position], 
-    ]
-  end
-
-  def self.pdb_position(uniprot, position)
     pdbs = Postgres.pdb_for_uniprot(uniprot)
     pdbs.collect{|info|
       pdb, chain = info.values_at "pdb", "chain"
@@ -37,7 +28,6 @@ module Kinase
       [pdb, chain, pdb_position]
     }.compact
   end
-
 
   Kinase.software.opt.svm_light.claim :install, Rbbt.share.install.software.svm_light.find
 
@@ -243,7 +233,6 @@ seq_pos=#{position}
 
     set_info :translations_id, translations_id
 
-
     list = translated.zip(mutations)
 
     same_aa = list.select{|p,m| m[0] == m[-1]}
@@ -277,23 +266,46 @@ seq_pos=#{position}
 
     nil
   end
+
+  dep :input
+  task :other_predictors => :tsv do
+    @@index ||= Organism::Hsa.protein_identifiers.index :target => "Ensembl Protein ID", :fields => ["UniProt/SwissProt Accession"], :persist => true
+    @@index.unnamed = true
+
+    translations = {}
+    mutated_isoforms = step(:input).load.split("\n").collect do |line|
+      next unless line.match(/(.*)_(.*)/)
+      uniprot, mutation = $1, $2
+      next if not @@index.include? uniprot
+      ensembl = @@index[uniprot].first
+
+      mutated_isoform = [ensembl, mutation] * ":"
+      translations[mutated_isoform] = line.chomp
+      mutated_isoform
+    end.compact
+
+    MutatedIsoform.setup(mutated_isoforms, 'Hsa')
+
+    sift_scores = Misc.process_to_hash(mutated_isoforms){|list| list.sift_scores}
+    ma_scores = Misc.process_to_hash(mutated_isoforms){|list| list.mutation_assessor_scores}
+
+    tsv = TSV.setup({}, :key_field => "Mutation", :fields => ["SIFT Score", "Mutation Assessor Score"], :type => :list)
+
+    mutated_isoforms.each do |mu|
+      orig = translations[mu]
+      next if orig.nil?
+      tsv[orig] = [sift_scores[mu], ma_scores[mu]]
+    end
+    
+    tsv
+  end
+
+  dep :predict
+  dep :other_predictors
+  task :default => nil do
+  end
 end
 
-#puts Kinase.job(:predict, "test", Open.read(File.join(Kinase::ROOT, 'data/EXAMPLES/test.input'))).run.load
-
 if __FILE__ == $0
-
-  puts Kinase.ihop_interactions("P07949").first
-
-  exit
-  ddd Kinase::Postgres.snp2l('P07949', 806).to_a
-
-  exit
-  job = Kinase.job(:predict, "test", :list => Open.read(File.join(['data/EXAMPLES/test.input'])))
-  job.clean.run
-  ddd job
-
-  ddd Kinase.get_features(job, 'O14936', 'P396S')
-
-  
+  puts Kinase.job(:other_predictors, '', :list => [ "INSR_HUMAN_R279C"] * "\n").clean.run
 end

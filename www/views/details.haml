@@ -52,6 +52,18 @@
     %dt Summary
     %dd= @summary
 
+    - if @other.include?([@protein, @mutation] * "_")
+      %dt Other Predictors (0-1 range)
+      %dd 
+        %dl
+          %dt Mutation Assessor
+          %dd=  @other[[@protein, @mutation] * "_"]["Mutation Assessor"].to_f
+
+          %dt SIFT
+          %dd=  @other[[@protein, @mutation] * "_"]["SIFT"]
+
+
+
     %dt Kinase Group
     %dd
       == #{@features["uniprot_group"]}: #{$kinase_groups[@features["uniprot_group"]]}
@@ -74,16 +86,17 @@
             %td= {"MF" => "Molecular Function", "CC" => "Cellular Component", "BP" => "Biological Process"}[onto]
             %td= name
 
+- $pfam_info ||= Pfam.domains.tsv 
 #domain
   - if not @features["pfam"].empty?
     %dl.pfam
       - @features["pfam"].split("|").each do |domain|
         %dt
-          = $pfam_names[domain][:description]
+          = $pfam_info[domain]["Name"]
           (
           %a(href="http://pfam.sanger.ac.uk/family/#{domain}" target="_blank")= domain
           )
-        %dd= $pfam_names[domain][:content]
+        %dd= $pfam_info[domain]["Description"]
   - else
     %h4 No Pfam Domain
 
@@ -190,7 +203,12 @@
               = [info[:wt_aa], original, info[:mutant_aa]] * ""
           %td
             %a(href="http://www.ncbi.nlm.nih.gov/pubmed/#{info[:pubmed_id]}")= info[:pubmed_id]
-          %td= info[:line_content]
+          - synonyms = Organism::Hsa.identifiers.tsv(:key_field => "UniProt/SwissProt Accession", :persist => true)[@protein].flatten.compact.uniq.reject{|n| n.length < 3}.collect{|name| name.sub(/(\d+)/, ' *\1')}
+          - synonyms << @protein
+          - synonyms << @name
+          - synonyms.uniq.sort_by{|n| n.length}.reverse
+          %td= info[:line_content].gsub(/(#{synonyms * "|"})/, '<named_entity class="gene">\1</named_entity>').gsub(/([A-Z](?:[a-z][a-z])?\d+[A-Z](?:[a-z][a-z])?)/,'<named_entity class="mutation">\1</named_entity>')
+
           %td
             - if original != new
               == adjusted from: #{[info[:wt_aa], original, info[:mutant_aa]] * ""} by #{info[:type]}
@@ -206,18 +224,41 @@
   $.ajax({url: '/sentences/#{@protein}', success: function(data){
     $('p#loading').replaceWith(data);
 
-    var num_sentences = $('ihopsentence').length
+    var num_sentences = $('ihopsentence').length;
+    var synonyms = [];
 
     $('a.ihop').html("IHOP Interactions (" + num_sentences + ")");
 
     $('ihopsentence').each(function(){
       var sentence = $(this);
       var pmid = sentence.attr('pmid');
-      var orig = sentence.html();
-      //var new_html = orig + ' (<a href="http://www.ncbi.nlm.nih.gov/pubmed/' + pmid + '">PMID: ' + pmid + '</a>)';
-      var new_html = '[<a href="http://www.ncbi.nlm.nih.gov/pubmed/' + pmid + '">PMID: ' + pmid + '</a>] ' + orig;
 
+      sentence.find('ihopatom').each(function(){
+        var atom = $(this);
+        var evidence = atom.find('evidence');
+        var id = evidence.attr('id')
+        atom.children().remove()
+        if (evidence.attr('symbol') == '#{@name}'){
+          atom.addClass('main');
+          synonyms.push(atom.html());
+        }
+        atom.attr('id', id);
+      })
+
+      var new_html = '[<a href="http://www.ncbi.nlm.nih.gov/pubmed/' + pmid + '">PMID: ' + pmid + '</a>] ' + sentence.html();
       sentence.html(new_html);
+
+      sentence.find('ihopatom[id]').click(function(){
+        var id = $(this).attr('id');
+        var url = "http://www.ihop-net.org/UniPub/iHOP/gs/" + id + ".html"
+        window.open(url, 'blank');
+      })
+      
+
     })
+
+    synonyms = $.unique(synonyms.sort());
+
+    $('div#IHOP').prepend("<p>Synonyms: " + synonyms.join(", "));
   }})
 
