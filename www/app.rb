@@ -3,6 +3,7 @@ require 'rbbt/tsv'
 require 'rbbt/sources/entrez'
 require 'rbbt/sources/go'
 require 'rbbt/sources/pfam'
+require 'rbbt/sources/uniprot'
 require 'pp'
 
 $kinase_groups = Kinase.data["kinase_group_description.tsv"].find(:lib).tsv :single
@@ -31,12 +32,12 @@ Open.read(Kinase.data["Pfam.desc"].find) do |line|
 end
 
 get '/help' do
-  @title = "KinMut: Kinase Mutation Damange Prediction"
+  @title = "wKinMut: Kinase Mutation Damange Prediction"
   haml :help
 end
 
 get '/job/:name' do
-  @title = "KinMut: #{params[:name].match(/(.*)_(.*)/)[1] }"
+  @title = "wKinMut: #{params[:name].match(/(.*)_(.*)/)[1] }"
   job = Kinase.load_id(File.join("default", params["name"]))
 
   while not job.done?
@@ -45,31 +46,38 @@ get '/job/:name' do
   end
 
   if job.error?
-    "Error in job #{ job.name }: #{job.messages.last}"
+    @message = "Error in job #{ job.name }: #{job.messages.last}"
+    haml :error
   else
-    @res = TSV.open(job.step(:predict).path, :key_field => 2, :sep => /\s+/)
+    begin
+      @res = TSV.open(job.step(:predict).path, :key_field => 2, :sep => /\s+/)
+      @job = params[:name]
+      @jobname, @hash = params[:name].match(/(.*)_(.*)/).values_at 1, 2
+      @translations = job.step("patterns").step("input").info[:translations]
+      @translations_id = job.step("patterns").step("input").info[:translations_id]
+      @list = job.step("input").info[:inputs][:list].split("\n")
+      @filtered = (job.step("patterns").info[:filtered_out] || []) + job.step("patterns").step("input").info[:synonymous]
+      @uniprot_groups = {}
+      @res.each{|mutation,values|
+        mutation = mutation.sub('#', '')
+        prot, m = mutation.split(/_/)
+        @uniprot_groups[mutation] = Kinase.get_features(job, prot, m)["uniprot_group"]
+      }
 
-    @job = params[:name]
-    @jobname, @hash = params[:name].match(/(.*)_(.*)/).values_at 1, 2
-    @translations = job.step("patterns").step("input").info[:translations]
-    @translations_id = job.step("patterns").step("input").info[:translations_id]
-    @list = job.step("input").info[:inputs][:list].split("\n")
-    @filtered = (job.step("patterns").info[:filtered_out] || []) + job.step("patterns").step("input").info[:synonymous]
-    @uniprot_groups = {}
-    @res.each{|mutation,values|
-      mutation = mutation.sub('#', '')
-      prot, m = mutation.split(/_/)
-      @uniprot_groups[mutation] = Kinase.get_features(job, prot, m)["uniprot_group"]
-    }
+      index = Organism::Hsa.identifiers.index(:target => "Entrez Gene ID", :persist =>  true)
 
-    index = Organism::Hsa.identifiers.index(:target => "Entrez Gene ID", :persist =>  true)
+      Entrez.get_gene(@res.keys.collect{|mutation|  
+        prot, m = mutation.sub('#','').split(/_/)
+        (index[prot] || []).first
+      }.compact)
 
-    Entrez.get_gene(@res.keys.collect{|mutation|  
-      prot, m = mutation.sub('#','').split(/_/)
-      (index[prot] || []).first
-    }.compact)
-
-    haml :result
+      haml :result
+    rescue
+      if $!.message == "Empty content"
+        @message = "Error in job #{ job.name }: No results produced, maybe no kinases where identified in the input."
+        haml :error
+      end
+    end
   end
 end
 
@@ -77,10 +85,10 @@ get '/filtered/:name' do
   job = Kinase.load_id(File.join("default", params[:name]))
 
   @translations = job.step("input").info[:translations]
-  
+
   @filtered = job.step("patterns").info[:filtered_out]
   @synonymous = job.step("input").info[:synonymous] 
-  
+
   haml :missing
 end
 
@@ -98,7 +106,7 @@ get '/download/:name' do
   content_type "text/plain"
   res = TSV.open job.step(:predict).path, :key_field => 2, :sep => /\s+/
 
-  translations = job.step("input").info[:translations]
+    translations = job.step("input").info[:translations]
 
   line = []
   res.collect do |mutation,values|
@@ -110,7 +118,7 @@ get '/download/:name' do
     else
       line << prot
     end
-    
+
     line << m
 
     line << values[1].first.to_f
@@ -119,7 +127,7 @@ get '/download/:name' do
     else
       line << "Damaging"
     end
-    
+
     line * "\t"
   end * "\n"
 end
@@ -128,7 +136,7 @@ get '/details/:name/:protein/:mutation' do
   job = Kinase.load_id(File.join("default", params[:name]))
   @protein, @mutation = params.values_at :protein, :mutation
 
-  @title = "KinMut: #{params[:name].match(/(.*)_(.*)/)[1] } > #{@protein} > #{@mutation}"
+  @title = "wKinMut: #{params[:name].match(/(.*)_(.*)/)[1] } > #{@protein} > #{@mutation}"
 
   entrez_index = Organism::Hsa.identifiers.index(:target => "Entrez Gene ID", :persist =>  true)
   name_index = Organism::Hsa.identifiers.index(:target => "Associated Gene Name", :persist =>  true)
@@ -166,7 +174,7 @@ post '/' do
     mutations = params[:mutations]
   end
 
-  jobname = params[:jobname]
+  jobname = params[:jobname].gsub(/\s+/,'_')
   jobname = "JOB" if jobname.nil? or jobname.empty?
   job = Kinase.job(:default, jobname , :list =>  mutations)
   job.fork

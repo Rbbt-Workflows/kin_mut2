@@ -8,6 +8,10 @@ require 'nokogiri'
 require 'pg'
 
 
+
+$uniprot_variants = Uniprot.annotated_variants.tsv :persist => true
+$uniprot_variants_keys = $uniprot_variants.keys
+
 Workflow.require_workflow 'translation'
 module Kinase
   extend Workflow
@@ -110,10 +114,39 @@ external_dbs ed
 WHERE 
 cm.external_db_id = ed.id AND
 acc='#{uniprot}' AND
-seq_pos=#{position}
+seq_pos=#{position} AND NOT 
+ed.type = 'uniprot'
 ;
       EOT
-      res = driver.exec(query)
+      res = driver.exec(query).to_a
+
+      mutations = $uniprot_variants_keys.select{|k| protein, mutation = k.split(":"); uniprot == protein and mutation.scan(/\d+/).first.to_i == position.to_i}
+      mutations.each{|mutation|
+        wt, _position, mut = mutation.match(/(.*?)(\d+)(.*)/).values_at 1, 2, 3
+        raise "This should not happen" unless $uniprot_variants.include? mutation
+        values = $uniprot_variants[mutation]
+
+        type, disease, snp = values.values_at("Type of Variant", "Disease", "SNP ID")
+        if type == "Disease"
+          description = "Disease: #{disease}"
+        else
+          description = "Polymorphism"
+        end
+        if snp and not snp.empty? and not snp == "-"
+          snp_url = "http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?type=rs&rs=#{snp.sub(/rs/,'')}"
+          description << " - (<a href='#{snp_url}'>#{ snp }</a>)" 
+        end
+
+        res << {
+          :wt => wt,
+          :seq_pos => position,
+          :acc => uniprot,
+          :mutant => mut,
+          :description => description,
+          :type => 'uniprot'
+        }
+      }
+ 
       res
     end
   end
@@ -247,7 +280,7 @@ seq_pos=#{position}
   dep :input
   task :patterns => :string do
     error_file = TmpFile.tmp_file
-    patterns = CMD.cmd("perl -I #{Kinase.bin.find} #{Kinase['bin/PatternGenerator.pl'].find} #{ step("input").path } #{Kinase["etc/feature.number.list"].find} 2> #{error_file}").read
+    patterns = CMD.cmd("perl -I '#{Kinase.bin.find}' '#{Kinase['bin/PatternGenerator.pl'].find}' '#{ step("input").path }' #{Kinase["etc/feature.number.list"].find} 2> '#{error_file}'").read
     if Open.read(error_file).any? and Open.read(error_file) =~ /is not a valid/
         set_info :filtered_out, Open.read(error_file).split(/\n/).collect{|l| l.match(/(\w*) is not a valid/)[1]}
     else
@@ -259,9 +292,10 @@ seq_pos=#{position}
 
   dep :patterns
   task :predict => :string do 
-    CMD.cmd("#{Kinase["bin/run_svm.py"].find(:lib)} --m=e --o=#{path}.files \
-    --svm=#{Kinase['share/model/final.svm'].find} --cfg=#{Kinase['etc/svm.config'].find}", 
+    CMD.cmd("#{Kinase["bin/run_svm.py"].find(:lib)} --m=e --o='#{path}.files' \
+    --svm='#{Kinase['share/model/final.svm'].find}' --cfg='#{Kinase['etc/svm.config'].find}'", 
     "--ts=" => step("patterns").path)
+
     FileUtils.mv File.join(path + '.files', File.basename(step("patterns").path)), path
 
     nil

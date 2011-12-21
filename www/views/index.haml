@@ -21,7 +21,7 @@
             %input{ :name => "file", :accept => "text/plain", :type => "file" }
   
       .field.submit
-        %input#submit(type="submit" name="Submit" value="Run KinMut")
+        %input#submit(type="submit" name="Submit" value="Launch Analysis")
 
 #description
   %p
@@ -39,6 +39,7 @@
 
 :javascript
     $('a#load_example').click(function(){
+      $('input[name=jobname]').val("Example")
       $.ajax({
         url: "examples/example.txt",
         context: document.body,

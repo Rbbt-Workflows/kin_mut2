@@ -3,7 +3,6 @@
 - pfam = @features["pfam"].empty? ? 0 : @features["pfam"].split("|").length 
 - pdbs = Kinase.pdb_position(@protein, @mutation.scan(/\d+/).first.to_i)
 
-
 %h5 
   Details for
   Protein: 
@@ -53,16 +52,8 @@
     %dd= @summary
 
     - if @other.include?([@protein, @mutation] * "_")
-      %dt Other Predictors (0-1 range)
-      %dd 
-        %dl
-          %dt Mutation Assessor
-          %dd=  @other[[@protein, @mutation] * "_"]["Mutation Assessor"].to_f
-
-          %dt SIFT
-          %dd=  @other[[@protein, @mutation] * "_"]["SIFT"]
-
-
+      %dt Mutation Assessor Prediction (0 neutral - 1 damaging)
+      %dd=  @other[[@protein, @mutation] * "_"]["Mutation Assessor"].to_f
 
     %dt Kinase Group
     %dd
@@ -88,24 +79,46 @@
 
 - $pfam_info ||= Pfam.domains.tsv 
 #domain
+  %h3
+    == PFAM domain information for protein
+    %a(href=" http://pfam.sanger.ac.uk/protein/#{@protein}")== #{names * ", "} (#{@protein})
+
   - if not @features["pfam"].empty?
     %dl.pfam
       - @features["pfam"].split("|").each do |domain|
-        %dt
-          = $pfam_info[domain]["Name"]
-          (
-          %a(href="http://pfam.sanger.ac.uk/family/#{domain}" target="_blank")= domain
-          )
-        %dd= $pfam_info[domain]["Description"]
+        %p
+          Mutation located in the following domain:
+          %dt
+            = $pfam_info[domain]["Name"]
+            (
+            %a(href="http://pfam.sanger.ac.uk/family/#{domain}" target="_blank")= domain
+            )
+          %dd= $pfam_info[domain]["Description"]
+        
+        %hr
+
+        .jalview
+          %applet(code="jalview.bin.JalviewLite" width="780" height="550" archive="http://pfam.sanger.ac.uk/shared/jalview/jalviewApplet.jar")
+            %param(name="file" value="http://pfam.sanger.ac.uk/family/#{domain}/alignment/seed/format" )
+            %param(name="defaultColour" value="Clustal" )
+            %param(name="linkLabel_1" value="UniProt" )
+            %param(name="linkUrl_1" value="http://www.uniprot.org/uniprot/$SEQUENCE_ID$" )
+            %param(name="linkLabel_2" value="Pfam sequence page" )
+            %param(name="linkUrl_2" value="http://pfam.sanger.ac.uk/protein/$SEQUENCE_ID$" )
+            %param(name="database" value="pfamseq" )
+            %param(name="embedded" value="true" ) 
+            %param(name="nojmol" value="true" )
+
   - else
     %h4 No Pfam Domain
+  
 
 
 #residue
   
   #residue_general
     %dl.residue
-      %dt.specificity Kinase Family Subspecificity
+      %dt.specificity Kinase Family Subspecificity (SDP) *
       %dd.specificity
         %dl
           %dt Wild Type
@@ -140,9 +153,103 @@
       - headers = %w( firedb phosphoelm swannot_transmem swannot_mutagen swannot_ptm swannot_catalytic )
       - %w( firedb phosphoelm swannot_transmem swannot_mutagen swannot_ptm swannot_mod_res swannot_signal swannot_catalytic swannot_disulfid swannot_carbohyd swannot_act_site swannot_site swannot_np_bind     swannot_metal swannot_binding ).each do |key|
         - name = trans[key]
-        %dt{:class => (headers.include?(key) ? "" : "subfeature") }= name
-        %dd{:class => (@features[key] == "1" ? 'red' : '')}= @features[key] == "1" ? "Yes" : "No"
+
+        - case name
+
+        - when 'FireDB'
+          %dt{:class => (headers.include?(key) ? "" : "subfeature") }
+            = name
+            %a.subtle_link(target="_blank" href='http://firedb.bioinfo.cnio.es/Php/Help.php') [?]
+
+        - when 'PhosphoELM'
+          %dt{:class => (headers.include?(key) ? "" : "subfeature") }
+            = name
+            %a.subtle_link(target="_blank" href='http://phospho.elm.eu.org/help.html') [?]
+
+        - when 'Transmembrane'
+          %dt{:class => (headers.include?(key) ? "" : "subfeature") }
+            = name
+            %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/transmem') [?]
+
+        - when 'Mutagenesis'
+          %dt{:class => (headers.include?(key) ? "" : "subfeature") }
+            = name
+            %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/mutagen') [?]
+            
+        - when 'Post. Trans. Modification'
+          %dt{:class => (headers.include?(key) ? "" : "subfeature") }
+            = name
+            %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/post-translational_modification') [?]
+            
+        - when 'Modified Residue'
+          %dt{:class => (headers.include?(key) ? "" : "subfeature") }
+            = name
+            %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/mod_res') [?]
+            
+        - when 'Signal Peptide'
+          %dt{:class => (headers.include?(key) ? "" : "subfeature") }
+            = name
+            %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/signal') [?]
+            
+        - when 'Disulfide Bond'
+          %dt{:class => (headers.include?(key) ? "" : "subfeature") }
+            = name
+            %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/disulfid') [?]
+            
+        - when 'Active Site'
+          %dt{:class => (headers.include?(key) ? "" : "subfeature") }
+            = name
+            %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/act_site') [?]
+            
+        - when 'Site'
+          %dt{:class => (headers.include?(key) ? "" : "subfeature") }
+            = name
+            %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/site') [?]
+            
+        - when 'Nucleotide Binding'
+          %dt{:class => (headers.include?(key) ? "" : "subfeature") }
+            = name
+            %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/np_bind') [?]
+            
+        - when 'Metal Binding'
+          %dt{:class => (headers.include?(key) ? "" : "subfeature") }
+            = name
+            %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/metal') [?]
+            
+        - when 'Binding'
+          %dt{:class => (headers.include?(key) ? "" : "subfeature") }
+            = name
+            %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/binding') [?]
  
+        - when 'Carbohyd'
+          %dt{:class => (headers.include?(key) ? "" : "subfeature") }
+            = name
+            %a.subtle_link(target="_blank" href='') [?]
+           
+        - else
+          %dt{:class => (headers.include?(key) ? "" : "subfeature") }= name
+ 
+        - case name
+        - when 'FireDB'
+          %dd{:class => (@features[key] == "1" ? 'red' : '')}= @features[key] == "1" ?  "<a href='http://firedb.bioinfo.cnio.es/Php/FireDB.php?pdbcode=&cutoff=45&uniacc=#{@protein}&keywd=' target=_blank>Yes</a>" : "No"
+        - when 'PhosphoELM'
+          %dd{:class => (@features[key] == "1" ? 'red' : '')}= @features[key] == "1" ?  "<a href='http://phospho.elm.eu.org/cgimodel.py?accession=#{@protein}&fun=Search' target=_blank>Yes</a>" : "No"
+        - else
+          %dd{:class => (@features[key] == "1" ? 'red' : '')}= @features[key] == "1" ?   "<a href='http://www.uniprot.org/uniprot/#{@protein}#section_features' target=_blank>Yes</a>" : "No"
+  %p.sdp
+
+    \* 
+    %span(style='font-style:italic') Specificity Determining Positions (SDP)
+    are the residues that display a
+    conserved pattern coherent with the distribution of protein subfamilies,
+    this is, those residues conserved within a subfamily but different when
+    compared to sister subfamilies. For more details, refer to 
+    %a(href='http://www.ncbi.nlm.nih.gov/pubmed/20133844' target='_blank') 
+      Rausell 
+      %span(style='font-style:italic')et al.
+      , 2010.
+
+
 #jmol
   %hr
   %select.pdb
@@ -167,6 +274,7 @@
 
 
 #SNP2DB
+
   - if snp2db.any?
     %table#snp2db_table
       %thead
@@ -175,12 +283,49 @@
           %th Description
           %th Database
       %tbody
-      - snp2db.to_a.each do |info|
-        - IndiferentHash.setup info
-        %tr
-          %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
-          %td= info[:description]
-          %td= info[:type]
+        - snp2db.to_a.each do |info|
+          - IndiferentHash.setup info
+          - case info[:type].to_s
+          - when "kinmutbase"
+            %tr
+              %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
+              %td= info[:description]
+              %td
+                %a(href="http://bioinf.uta.fi/KinMutBase/")= info[:type]
+          - when "uniprot"
+            - variant_code = [@protein, @mutation] * ":"
+            - if $uniprot_variants.include? variant_code
+              %tr
+                %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
+                %td= info[:description]
+                %td
+                  - uniprot_variant = $uniprot_variants[variant_code]["Uniprot Variant ID"]
+                  %a(href="http://web.expasy.org/cgi-bin/variant_pages/get-sprot-variant.pl?#{uniprot_variant}")= info[:type]
+            - else
+              - raise "This should not be here"
+          - when 'cosmic'
+            %tr
+              %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
+              %td= info[:description]
+              %td
+                %a(href="http://www.sanger.ac.uk/perl/genetics/CGP/cosmic?action=bygene&ln=#{@name}")= info[:type]
+          - when 'saapdb'
+            %tr
+              %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
+              %td= info[:description]
+              %td
+                %a(href="http://www.bioinf.org.uk/saap/db/")= info[:type]
+          - when 'greenman'
+            %tr
+              %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
+              %td= info[:description]
+              %td
+                %a(href="http://www.ncbi.nlm.nih.gov/pubmed/17344846")= info[:type]
+          - else
+            %tr
+              %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
+              %td= info[:description]
+              %td= info[:type]
  
 #SNP2L
   - if snp2l.any?
@@ -207,16 +352,39 @@
           - synonyms << @protein
           - synonyms << @name
           - synonyms.uniq.sort_by{|n| n.length}.reverse
-          %td= info[:line_content].gsub(/(#{synonyms * "|"})/, '<named_entity class="gene">\1</named_entity>').gsub(/([A-Z](?:[a-z][a-z])?\d+[A-Z](?:[a-z][a-z])?)/,'<named_entity class="mutation">\1</named_entity>')
+          %td= info[:line_content].gsub(/\b(#{synonyms * "|"})\b/, '<named_entity class="gene">\1</named_entity>').gsub(/\b([A-Z](?:[a-z][a-z])?\d+[A-Z](?:[a-z][a-z])?)\b/,'<named_entity class="mutation">\1</named_entity>')
 
           %td
             - if original != new
               == adjusted from: #{[info[:wt_aa], original, info[:mutant_aa]] * ""} by #{info[:type]}
 
+  %span(style='font-style: italic')
+    %span(style='font-weight: bold') Disclaimer:
+    These information has been extracted automatically from
+    the literature with SNP2L, although it has proved to be a powerful guide to
+    gather contextual information about protein kinase mutations, manual
+    inspection of these results might be required. Refer to 
+    %a(href='http://www.ncbi.nlm.nih.gov/pubmed/19758464' target='_blank')
+      Krallinger 
+      %span(style='font-style: italic') et al.
+      2009 
+    for further details. 
+
+
 #IHOP
+
   %p#loading Loading. Please Wait.
 
+  %span(style='font-style: italic')
+    %span(style='font-weight: bold') Disclaimer:
 
+    These literature co-mentions have been extracted automatically from the literature with 
+    %a(href='http://www.ihop-net.org' target='_blank') iHop
+    although it has proved to be a powerful guide to gather contextual
+    information, manual inspection of these results might be required. Refer to
+    %a(href='http://www.nature.com/ng/journal/v36/n7/full/ng0704-664.html' target='_blank') Hoffmann and Valencia, 2004
+    for further details.
+ 
 :javascript
   tabs($('nav.tabs'))
   $('#goterms,#snp2db_table,#snp2l_table').tablesorter({widgets: ['zebra']});
@@ -259,6 +427,6 @@
 
     synonyms = $.unique(synonyms.sort());
 
-    $('div#IHOP').prepend("<p>Synonyms: " + synonyms.join(", "));
+    $('div#IHOP').prepend("<p style='font-style:italic'><span style='font-weight:bold'>Synonyms: </span>" + synonyms.join(", ") + '</p>');
   }})
 
