@@ -1,16 +1,27 @@
 :markdown
 
-  What is KinMut?
+  What is wKinMut?
   ---------------
 
-  KinMut is a computational method for the prediction of the impact of mutations in the function of protein kinases.
+  wKinMut is an integrated framework for the analysis of kinase mutations. The objective of this framework is to help in the interpretation of the consequences of mutations in the protein kinase superfamily on protein structure and function, and their relationship with disease and cancer.
+ 
+  It displays information from diverse sources, that include:
 
-  How does KinMut predict the impact of the kinase mutations?
+  - Protein/Gene general information from Gene Ontology
+  - Domain information from PFAM
+  - Structural information from PDB
+  - Predictions of mutation pathogenicity (KinMut, SIFT, MutationAssessor)
+  - Information from mutation databases (Uniprot Variant Pages, Kinmutbase, SAAPdb, COSMIC) and genotyping projects
+  - Mutation mentions from the literature (SNP2L)
+  - Protein Protein Interactions extracted from the literature (iHOP)
+
+
+  How does wKinMut predict the impact of the kinase mutations?
   -----------------------------------------------------------
 
   We associate a number sequence-derived features to disease-associated kinase mutations, including: a) at the gene level, the membership to a Kinbase group and Gene Ontology terms. b) at the domain level, the occurrence of the mutation inside a PFAM domain, and c) at the residue level, several properties including amino acid type, functional annotations from Swissprot and FireDB, specificity-determining positions, etc. We examined the independent significance of these properties and their combination with a Support Vector Machine (SVM). An SVM score greater than -0.5 indicates the mutation is pathogenic.
 
-  Is there a quick tutorial to get the grips with KinMut?
+  Is there a quick tutorial to get the grips with wKinMut?
   -------------------------------------------------------
 
   Yes, indeed. Here is the quick reference tutorial of the predictor. [Tutorial](/kinmut_tutorial.pdf)
@@ -18,9 +29,13 @@
   In which format should I submit the mutations?
   ----------------------------------------------
 
-  Although the server accepts many input format the most basic one includes the Uniprot/Swissprot accession number, the wild type residue, the position and the mutated residue. For instance, a mutation from Glycine to Alanine in position 719 of the Epidermal Growth factor receptor, will be encoded P00533_G719A. Multiple mutations can be submited at a time, either as a file (one mutation per line) or via the applications form.
+  Although the wKinMut accepts many input format the most basic one includes the Uniprot/Swissprot accession number, the wild type residue, the position and the mutated residue. For instance, a mutation from Glycine to Alanine in position 719 of the Epidermal Growth factor receptor, will be encoded P00533_G719A. Multiple mutations can be submitted at a time, either as a file (one mutation per line) or via the applications form.
 
-  My protein is not a kinase. Will the server work?
+  Is there any sample dataset I can use to try wKinMut?
+  ------------------------------------------------------------------------
+  Yes, there is. In the framework's main page, press 'autofill example' to load a toy dataset or download a 'sample file' that can be used with wKinMut.
+
+  My protein is not a kinase. Will wKinMut work?
   -------------------------------------------------
 
   No. Since some of the features are kinase-specific we can only provide results within the framework of the protein-kinase superfamily. For other protein families we recommend you refer to other genome-wide servers: SNAP, Polyphen, SNPs&GO, etc.
@@ -28,7 +43,7 @@
   How do I get extended information about the mutations?
   ------------------------------------------------------
 
-  In the results table, click on 'Details' in the right-most column. This will redirect you to a new page containing information including the values of the features using for classification, Protein-Protein information, mentions in the literature of the mutation and existing records of the mutation in other databases. This additional information is intended to provide the basic background to help to understand and interpret the consequences of the mutations.
+  In the results table, click on 'View' in the right-most 'Details' column. This will redirect you to a new page containing information including the values of the features using for classification, Protein-Protein information, mentions in the literature of the mutation and existing records of the mutation in other databases. This additional information is intended to provide the basic background to help to understand and interpret the consequences of the mutations.
 
   Where does the Protein-Protein Interaction information come from?
   -----------------------------------------------------------------
@@ -46,17 +61,18 @@
 
   Currently, four different databases are revised: [Uniprot Variation Pages](http://web.expasy.org/variant_pages/), [COSMIC](http://www.sanger.ac.uk/genetics/CGP/cosmic/), [SAAPdb](http://www.bioinf.org.uk/saap/db/) and [KinMutBase](http://bioinf.uta.fi/KinMutBase/). These databases were selected in order to cover different aspects of human protein kinase mutation.
 
-  Can I access the server programmatically?
+  Can I access wKinMut programmatically?
   -----------------------------------------
 
   Not yet. We will release a web service soon.
 
-  How can I cite KinMut?
-  ----------------------
+  How should I cite KinMut or wKinMut?
+  -----------------------------------
 
   There is no publication yet. This is a Beta version we have submitted for publication.
 
-  I have a question that is NOT in this help section. Can I contact you?
-  ----------------------------------------------------------------------
+  I have a question about wKinMut that is NOT in this help section. May I contact you?
+  ------------------------------------------------------------------------------------
 
   Of course you can. Feel free to email us (jmgonzalez-at-cnio-dot-es) and we will try to solve your doubts.
+

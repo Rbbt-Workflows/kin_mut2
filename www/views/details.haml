@@ -18,19 +18,19 @@
 %nav.tabs
   %ul
     %li
-      %a.active(target="#protein") Protein 
+      %a.active(target="#protein") Gene/Protein 
     %li
       %a(target="#domain")== Pfam Domains (#{pfam})
     %li
-      %a(target="#residue") Residue
-    %li
       %a(target="#jmol") Structure (#{pdbs.length})
+    %li
+      %a(target="#residue") Pathogenicity
     - if snp2db.any?
       %li
-        %a(target="#SNP2DB")== Other Databases (#{snp2db.to_a.length})
+        %a(target="#SNP2DB")== Databases (#{snp2db.to_a.length})
     - else
       %li
-        %a.inactive(target="#SNP2DB") Other Databases (0)
+        %a.inactive(target="#SNP2DB") Databases (0)
     - if snp2l.any?
       %li
         %a(target="#SNP2L")== Literature (#{snp2l.to_a.length})
@@ -38,7 +38,7 @@
       %li
         %a.inactive(target="#SNP2L") Literature (0)
     %li
-      %a.ihop(target="#IHOP") IHOP Interactions (--)
+      %a.ihop(target="#IHOP") IHOP (--)
 
 #protein
   %dl.protein
@@ -51,18 +51,10 @@
     %dt Summary
     %dd= @summary
 
-    - if @other.include?([@protein, @mutation] * "_")
-      %dt Mutation Assessor Prediction (0 neutral - 1 damaging)
-      %dd=  @other[[@protein, @mutation] * "_"]["Mutation Assessor"].to_f
-
     %dt Kinase Group
     %dd
       == #{@features["uniprot_group"]}: #{$kinase_groups[@features["uniprot_group"]]}
     
-    %dt.inline Gene Ontology Log-Odds Ratio
-    %dd
-      == #{"%.2f" % @features["sumGOLOR"].to_f}
-
     %table#goterms
       %thead
         %tr
@@ -111,17 +103,45 @@
             %param(name="nojmol" value="true" )
 
   - else
-    %h4 No Pfam Domain
+    %h4 No Pfam Domain Directly Affected
   
 
 
 #residue
   
   #residue_general
-    %dl.residue
+
+    %dl.prediction.table-display
+
+      %h3 Pathogenicity Predictions
+
+      %dt KinMut Score
+      - score = (@res[ "#" + [@protein,@mutation] * "_"][1].first.to_f)
+      %dd== #{score >= -0.5 ? "Damaging" : "Neutral"} (#{"%1.3g" % score})
+
+      - if @other.include?([@protein, @mutation] * "_")
+        %dt 
+          Mutation Assessor Prediction
+          %a.subtle_link(target="_blank" href='http://mutationassessor.org/howitworks.php') [?]
+
+        %dd= {1.0 => "High", 0.8 => "Medium", 0.7 => "Low"}[@other[[@protein, @mutation] * "_"]["Mutation Assessor"].to_f] || "Neutral"
+
+      %dt
+        SIFT Prediction (Score)
+        %a.subtle_link(target="_blank" href='http://sift.jcvi.org/www/SIFT_help.html') [?]
+      %dd
+        - case @features["SIFTscore_binned"]
+        - when "-1"
+          == Neutral (#{@features["SIFTscore"]}) 
+        - when "1"
+          == Disease (#{@features["SIFTscore"]}) 
+        - when "0"
+          == Not Predicted (#{@features["SIFTscore"]}) 
+
+    %dl.sdp
       %dt.specificity Kinase Family Subspecificity (SDP) *
       %dd.specificity
-        %dl
+        %dl.sdp-values.table-display
           %dt Wild Type
           %dd= "%.2f" % @features["TDs_fscore_wt"].to_f
 
@@ -131,23 +151,19 @@
           %dt Difference
           %dd= "%.2f" % @features["TDs_fscore_diff"].to_f
 
-
+    %dl.kdhc.table-display
       %dt.kdhc Kyte-Doolittle Hydrophobicity Change
       %dd.kdhc
         == #{"%.2f" % @features["biochem_diffkdhydrophobicity"].to_f}
 
-      %dt.sift SIFT Prediction (Score)
-      %dd.sift
-        - case @features["SIFTscore_binned"]
-        - when "-1"
-          == Neutral (#{@features["SIFTscore"]}) 
-        - when "1"
-          == Disease (#{@features["SIFTscore"]}) 
-        - when "0"
-          == Not Predicted (#{@features["SIFTscore"]}) 
+      %dt.inline Gene Ontology Log-Odds Ratio
+      %dd
+        == #{"%.2f" % @features["sumGOLOR"].to_f}
+
+
 
   #residue_functional
-    %dl.functional
+    %dl.functional.table-display
       - features = %w(firedb phosphoelm swannot_ptm swannot_disulfid swannot_carbohyd swannot_act_site swannot_signal swannot_catalytic swannot_site swannot_mod_res swannot_np_bind swannot_transmem swannot_mutagen swannot_metal swannot_binding)
       - names    = %w(FireDB PhosphoELM Post_Trans._Modification Disulfide_Bond Carbohyd Active_Site Signal_Peptide Catalytic_Site Site Modified_Residue Nucleotide_Binding Transmembrane Mutagenesis Metal_Binding Binding).collect{|v| v.gsub(/_/,' ')}
       - trans = Hash[*features.zip(names).flatten]
@@ -260,7 +276,7 @@
 
   :javascript
 
-    jmolApplet(500, "", "PIZARRA");
+    jmolApplet(700, "", "PIZARRA");
 
     $('select.pdb').change(function(){
       var option = $(this).find("option:selected");
@@ -380,8 +396,8 @@
     %span(style='font-weight: bold') Disclaimer:
 
     These literature co-mentions have been extracted automatically from the literature with 
-    %a(href='http://www.ihop-net.org' target='_blank') iHop
-    although it has proved to be a powerful guide to gather contextual
+    %a(href='http://www.ihop-net.org' target='_blank') iHop.
+    Although it has proved to be a powerful guide to gather contextual
     information, manual inspection of these results might be required. Refer to
     %a(href='http://www.nature.com/ng/journal/v36/n7/full/ng0704-664.html' target='_blank') Hoffmann and Valencia, 2004
     for further details.
@@ -390,13 +406,25 @@
   tabs($('nav.tabs'))
   $('#goterms,#snp2db_table,#snp2l_table').tablesorter({widgets: ['zebra']});
 
+  function unique(arrayName) {
+    var newArray=new Array();
+    label:for(var i=0; i<arrayName.length;i++ ){  
+      for(var j=0; j<newArray.length;j++ ){ 
+      if(newArray[j]==arrayName[i]) 
+        continue label;
+      }
+      newArray[newArray.length] = arrayName[i];
+    }
+    return newArray;
+  }
+
   $.ajax({url: '/sentences/#{@protein}', success: function(data){
     $('p#loading').replaceWith(data);
 
     var num_sentences = $('ihopsentence').length;
     var synonyms = [];
 
-    $('a.ihop').html("IHOP Interactions (" + num_sentences + ")");
+    $('a.ihop').html("IHOP (" + num_sentences + ")");
 
     $('ihopsentence').each(function(){
       var sentence = $(this);
@@ -426,7 +454,7 @@
 
     })
 
-    synonyms = $.unique(synonyms.sort());
+    synonyms = unique(synonyms.sort());
 
     $('div#IHOP').prepend("<p style='font-style:italic'><span style='font-weight:bold'>Synonyms: </span>" + synonyms.join(", ") + '</p>');
   }})

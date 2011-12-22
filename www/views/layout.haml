@@ -8,6 +8,9 @@
     %meta{'http-equiv'=>"Content-Type", :content=>"text/html; charset=UTF-8"}/
     %meta{'http-equiv'=>"Content-Language", :content=>"en-us"}/
 
+    %link(rel="icon" href="/favicon.ico" type="image/x-icon")
+    %link(rel="shortcut icon" href="/favicon.ico" type="image/x-icon")
+
     / Load Plugins
     - Dir.glob(File.join(File.dirname(__FILE__), '../public/plugins/*/stylesheets/*.css')).sort.each do |file|
       - file = file.sub(/.*\/public/,'')
@@ -34,11 +37,11 @@
   %body
     %header
       %span.logo 
-        %a(href="/") wKinMut
-      %nav
-        %ul
-          %li
-            %a(href="/help") Help
+        %a(href="/") 
+          %img(alt="wKinMut" src="/images/KinMut_logo.jpg")
+      %ul.menu
+        %li
+          %a(href="/help") Help
 
     .content
       = yield

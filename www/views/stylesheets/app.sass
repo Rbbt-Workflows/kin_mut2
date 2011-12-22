@@ -34,8 +34,10 @@ table#predictions
     padding: 10px
   th
     color: white
-  td.features a
-    +subtle_link(grey)
+  td.details, td.prediction, td.group, td.mutation
+    text-align: center
+    a
+      +subtle_link(grey)
 
 p.note
   color: grey
@@ -66,41 +68,30 @@ span
 
 // Details
 
+ul.menu
+  +clean_list
+  font-size: 2em
+  width: 100%
+  text-align: right
+  margin-top: 100px
+  margin-bottom: 0px
+  a
+    text-decoration: none
+    padding-right: 60px
+    &:visited, &:active
+      color: black
+    &:focus, &:hover
+      color: #C3C3C3
+
 nav.tabs
   +tabs(#C3C3C3)
   ul
     margin-bottom: 30px
 
-dt.inline
-  +inline_dt
-
-dl.functional
-  +inline_dl
-  dt
-    :width 200px
-    &.subfeature
-      margin-left: 10px
-      width: 190px
-      font-style: italic
-      font-weight: normal
-
-dd.specificity dl
-  +inline_dl
-  margin: 0
-  dt
-    width: 100px
-  dd
-    text-align: right
-    width: 50px
-
-dt.kdhc, dt.sift
-  clear: both
-  padding-top: 10px
-
 
 #residue_general
-  +column(6)
-  +append(2)
+  +column(8)
+  +append(1)
 #residue_functional
   +column(6)
   +last
@@ -141,6 +132,7 @@ select.pdb
 a.subtle_link
   color: #C3C3C3
   font-weight: normal
+  text-decoration: none 
 
 object#jmolAppletPIZARRA
   margin: 5px
@@ -154,3 +146,122 @@ p.sdp
 
 named_entity
   color: crimson
+
+//- Definition lists
+
+dl.table-display
+  float: left
+  margin: 1em 0
+  padding: 0
+  width: 100%
+
+.table-display dt
+  clear: left
+  float: left
+  width: 230px
+  margin: 0
+  margin-right: auto
+  font-weight: bold
+
+.table-display dd
+  float: left
+  width: 120px
+  margin: 0
+  text-align: right
+
+h3.features
+  clear:both
+  float:left
+  padding-left: 20px
+
+dl.kdhc, dl.sdp
+  padding-left: 20px
+
+dl.kdhc
+  dt
+    width: 280px
+  dd
+    width: 70px
+
+
+  
+
+dl.sdp-values
+  font-style: italic
+  dt
+    width: 280px
+    font-weight: normal
+  dd
+    width: 70px
+
+
+dd.specificity 
+  dl
+    margin-top: 0
+    dt
+      width: 210px
+
+dl.prediction
+  margin-bottom: 40px
+  background-color: #c3c3c3
+  padding: 20px
+  width: 360px
+  +border-radius
+  .subtle_link
+    color: white
+
+dl.functional
+  dt
+    width: 200px
+    &.subfeature 
+      margin-left: 10px
+      width: 190px
+      font-style: italic
+      font-weight: normal
+
+  dd
+    width: 80px
+  
+
+//dl.prediction
+//  +border-radius
+//  +inline_dl
+//  margin: 0
+//  dt
+//    width: 225px
+//  dd
+//    text-align: right
+//    width: 120px
+//
+//dl.residue
+//  clear: both
+//dt.inline
+//  +inline_dt
+//
+//dl.functional
+//  +inline_dl
+//  dt
+//    :width 200px
+//    &.subfeature
+//      margin-left: 10px
+//      width: 190px
+//      font-style: italic
+//      font-weight: normal
+//
+//dd.specificity dl
+//  +inline_dl
+//  margin: 0
+//  dt
+//    width: 100px
+//  dd
+//    text-align: right
+//    width: 50px
+//
+//dt.kdhc, dt.specificity 
+//  clear: both
+//  padding-top: 20px
+
+#residue_general
+  h3
+    font-weight: bold
+    font-size: 1.2em

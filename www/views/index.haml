@@ -24,18 +24,24 @@
         %input#submit(type="submit" name="Submit" value="Launch Analysis")
 
 #description
-  %p
-    KinMut is a method for the prediction of the impact of mutations in the function of human Protein Kinases.
 
-  %p 
-    KinMut associates several sequence-derived features to kinase mutations,
-    including: 
-    %ul
-      %li at the gene level, the membership to a Kinase group and Gene Ontology terms. 
-      %li at the domain level, the occurrence of the mutation inside a PFAM domain, and 
-      %li at the residue level, several properties including amino acid type, functional annotations from Swissprot and FireDB, specificity-determining positions, etc. 
-      
-    These features are evaluated with a SVM; the resulting score determines the pathogenicity of the mutations.
+
+  %p
+
+    wKinMut is an integrated framework for the analysis of kinase mutations.
+    The objective of this framework is to help in the interpretation of the
+    consequences of mutations in the protein kinase superfamily on protein
+    structure and function, and their relationship with disease and cancer. 
+
+  It displays information from diverse sources, that include:
+  %ul
+    %li Protein/Gene general information from Gene Ontology  
+    %li Domain information from PFAM
+    %li Structural information from PDB
+    %li Predictions of mutation pathogenicity (KinMut, SIFT, MutationAssessor) 
+    %li Information from mutation databases (Uniprot Variant Pages, Kinmutbase, SAAPdb, COSMIC) and genotyping projects
+    %li Mutation mentions from the literature (SNP2L)
+    %li Protein Protein Interactions extracted from the literature (iHOP)
 
 :javascript
     $('a#load_example').click(function(){

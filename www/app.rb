@@ -4,6 +4,7 @@ require 'rbbt/sources/entrez'
 require 'rbbt/sources/go'
 require 'rbbt/sources/pfam'
 require 'rbbt/sources/uniprot'
+require 'rbbt/entity/gene'
 require 'pp'
 
 $kinase_groups = Kinase.data["kinase_group_description.tsv"].find(:lib).tsv :single
@@ -58,6 +59,7 @@ get '/job/:name' do
       @list = job.step("input").info[:inputs][:list].split("\n")
       @filtered = (job.step("patterns").info[:filtered_out] || []) + job.step("patterns").step("input").info[:synonymous]
       @uniprot_groups = {}
+
       @res.each{|mutation,values|
         mutation = mutation.sub('#', '')
         prot, m = mutation.split(/_/)
@@ -145,6 +147,7 @@ get '/details/:name/:protein/:mutation' do
   @translations = job.step("patterns").step("input").info[:translations]
   @translations_id = job.step("patterns").step("input").info[:translations_id]
 
+  @res = TSV.open(job.step(:predict).path, :key_field => 2, :sep => /\s+/)
 
   @ensp = (ensp_index[@protein] || []).first
   @name = (name_index[@ensp] || []).first
