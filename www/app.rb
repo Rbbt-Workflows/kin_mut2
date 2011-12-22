@@ -99,7 +99,7 @@ get '/original/:name' do
   job = Kinase.load_id(File.join("default", params[:name]))
 
   content_type "text/plain"
-  job.step("input").info[:options][:list]
+  job.step("input").info[:inputs][:list]
 end
 
 get '/download/:name' do

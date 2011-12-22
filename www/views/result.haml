@@ -2,7 +2,7 @@
 %h3.job_info 
   Job:
   %span#name== #{ @jobname }
-  %a#download_results(href="/download/#{ @job }" target='_blank') [download results]
+  %a#download_results(href="/download/#{ @job }" target='_blank') [download KinMut predictions]
   %a#original_input(href="/original/#{ @job }" target='_blank') [original input]
   
   - if @filtered and @filtered.any?
