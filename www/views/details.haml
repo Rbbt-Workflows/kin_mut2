@@ -73,7 +73,8 @@
         - @goterms.sort_by{|k,v| k}.each do |term,name|
           -  onto, name = name.match(/\((.*)\) (.*)/).values_at 1, 2
           %tr
-            %td= term
+            %td
+              %a(href="http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=#{term}")= term
             %td= {"MF" => "Molecular Function", "CC" => "Cellular Component", "BP" => "Biological Process"}[onto]
             %td= name
 
