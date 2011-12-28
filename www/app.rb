@@ -52,6 +52,7 @@ get '/job/:name' do
   else
     begin
       @res = TSV.open(job.step(:predict).path, :key_field => 2, :sep => /\s+/)
+      @res.unnamed = true
       @job = params[:name]
       @jobname, @hash = params[:name].match(/(.*)_(.*)/).values_at 1, 2
       @translations = job.step("patterns").step("input").info[:translations]
@@ -61,17 +62,21 @@ get '/job/:name' do
       @uniprot_groups = {}
 
       @res.each{|mutation,values|
-        mutation = mutation.sub('#', '')
+        mutation = mutation[1..-1]
         prot, m = mutation.split(/_/)
         @uniprot_groups[mutation] = Kinase.get_features(job, prot, m)["uniprot_group"]
       }
 
-      index = Organism::Hsa.identifiers.index(:target => "Entrez Gene ID", :persist =>  true)
-
-      Entrez.get_gene(@res.keys.collect{|mutation|  
-        prot, m = mutation.sub('#','').split(/_/)
-        (index[prot] || []).first
-      }.compact)
+      # CACHE ENTREZ GENE INFO
+      # ----------------------
+      #
+      #index = Organism::Hsa.identifiers.index(:target => "Entrez Gene ID", :persist =>  true)
+      #index.unnamed = true
+      #entrez = @res.keys.collect{|mutation|  
+      #  prot, m = mutation[1..-1].split(/_/)
+      #  (index[prot] || []).first
+      #}.compact
+      #Entrez.get_gene(entrez)
 
       haml :result
     rescue
@@ -79,6 +84,7 @@ get '/job/:name' do
         @message = "Error in job #{ job.name }: No results produced, maybe no kinases where identified in the input."
         haml :error
       end
+      raise $!
     end
   end
 end
@@ -162,7 +168,6 @@ get '/details/:name/:protein/:mutation' do
   end
 
   @goterms = Misc.process_to_hash $prot_goterms[@protein].split(/;/) do |list| list.collect{|id| $goterm_score[id]} end
-
   @features = Kinase.get_features(job, @protein, @mutation)
 
   haml :details

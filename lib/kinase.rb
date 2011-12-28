@@ -45,11 +45,11 @@ module Kinase
     PDBNAME = 'kinmut'
 
     def self.driver
-      PGconn.connect(:host => HOST, :port => PORT, :dbname => DBNAME, :user => 'tgi_usuarioweb_sololectura')
+      @driver ||= PGconn.connect(:host => HOST, :port => PORT, :dbname => DBNAME, :user => 'tgi_usuarioweb_sololectura')
     end
 
     def self.pdb_driver
-      PGconn.connect(:host => HOST, :port => PORT, :dbname => PDBNAME, :user => 'tgi_webuser')
+      @pdb_driver ||= PGconn.connect(:host => HOST, :port => PORT, :dbname => PDBNAME, :user => 'tgi_webuser')
     end
 
 
@@ -164,7 +164,7 @@ ed.type = 'uniprot'
 
     @@sequences ||= self.local_persist("sequence", :tsv, :source => data["KinaseAccessions_Group_Seqs.txt"].find) do 
       TSV.open data["KinaseAccessions_Group_Seqs.txt"].find, :type => :single, :fields => [2]
-    end
+    end.tap{|o| o.unnamed = true; o}
 
     if pos.to_i > @@sequences[protein].length
       real_wt = nil
@@ -184,13 +184,14 @@ ed.type = 'uniprot'
 
     @@patterns ||= {}
 
-    #patterns = @@patterns[job] ||= TSV.open(job.step("patterns").path, :list, :fields => @@feature_names, :key_field => @@feature_names.length, :fix => Proc.new{|l| l.sub('#','').sub(/^\d+\t/,'').gsub(/\d+:/,'')})
-    patterns = @@patterns[job] ||= TSV.open(job.step("patterns").path, :list, :key_field => @@feature_names.length, :fix => Proc.new{|l| l.sub('#','').sub(/^\d+\t/,'').gsub(/\d+:/,'')})
+    patterns = @@patterns[job] ||= TSV.open(job.step("patterns").path, :list, :key_field => @@feature_names.length, :fix => Proc.new{|l| l.sub('#','').sub(/^\d+\t/,'').gsub(/\d+:/,'')}).tap{|o| o.unnamed = true; o}
     patterns.key_field = "Protein Mutation"
     patterns.fields = @@feature_names
 
     pattern = patterns[[protein, mutation] * "_"]
     info = {}
+
+    @feature_pos = Misc.process_to_hash(patterns.fields){|l| (0..l.length - 1).to_a} 
 
     %w(SIFTscore SIFTscore_binned TDs_fscore_diff TDs_fscore_mt TDs_fscore_wt
     biochem_diffkdhydrophobicity firedb pfam_any phosphoelm sumGOLOR
@@ -198,7 +199,7 @@ ed.type = 'uniprot'
     swannot_carbohyd swannot_catalytic swannot_disulfid swannot_metal
     swannot_mod_res swannot_mutagen swannot_np_bind swannot_ptm swannot_signal
     swannot_site swannot_transmem).each do |key|
-      info[key] = pattern[key]
+      info[key] = pattern[@feature_pos[key]]
     end
 
     info["uniprot_group"] = %w( class_uniprotgroup_AGC class_uniprotgroup_Atypical_ADCK
@@ -208,8 +209,9 @@ ed.type = 'uniprot'
     class_uniprotgroup_CK1 class_uniprotgroup_CMGC class_uniprotgroup_NEK
     class_uniprotgroup_Other class_uniprotgroup_RGC class_uniprotgroup_STE
     class_uniprotgroup_TK class_uniprotgroup_TKL).select{|key|
-      pattern[key] == "1"
+      pattern[@feature_pos[key]] == "1"
     }.first
+
     info["uniprot_group"].sub!(/class_uniprotgroup_/,'') unless info["uniprot_group"].nil?
 
     info["pfam"] = %w( pfam_PF00017 pfam_PF00018 pfam_PF00023 pfam_PF00027 pfam_PF00028
@@ -229,7 +231,7 @@ ed.type = 'uniprot'
     pfam_PF08919 pfam_PF08926 pfam_PF09027 pfam_PF09042 pfam_PF10409
     pfam_PF10436 pfam_PF11555 pfam_PF11640 pfam_PF12063 pfam_PF12179
     pfam_PF12202 pfam_PF12474).select{|key|
-      pattern[key] == "1"
+      pattern[@feature_pos[key]] == "1"
     }.collect{|v| v.sub(/pfam_/,'')} * "|"
 
     info
