@@ -122,8 +122,10 @@ ed.type = 'uniprot'
       res = driver.exec(query).to_a
 
       mutations = $uniprot_variants_keys.select{|k| protein, mutation = k.split(":"); uniprot == protein and mutation.scan(/\d+/).first.to_i == position.to_i}
+
       mutations.each{|mutation|
         wt, _position, mut = mutation.match(/(.*?)(\d+)(.*)/).values_at 1, 2, 3
+        mut = mut[-1].chr
         raise "This should not happen" unless $uniprot_variants.include? mutation
         values = $uniprot_variants[mutation]
 
@@ -133,6 +135,7 @@ ed.type = 'uniprot'
         else
           description = "Polymorphism"
         end
+
         if snp and not snp.empty? and not snp == "-"
           snp_url = "http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?type=rs&rs=#{snp.sub(/rs/,'')}"
           description << " - (<a href='#{snp_url}'>#{ snp }</a>)" 

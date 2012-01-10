@@ -179,7 +179,7 @@ post '/' do
   if params[:file] && params[:file][:tempfile]
     mutations = params[:file][:tempfile].read
   else
-    mutations = params[:mutations]
+    mutations = params[:mutations].upcase
   end
 
   jobname = params[:jobname].gsub(/\s+/,'_')

@@ -38,7 +38,7 @@
             - if wt.nil?
               %span.wt_error== position outside protein range
             - else
-              %span.wt_error== expected wild-type aa (#{Kinase.error_in_wt_aa?(prot, m)})
+              %span.wt_error== (#{Kinase.error_in_wt_aa?(prot, m)})
             
         - else
           %td.mutation= m
