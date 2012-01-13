@@ -138,11 +138,13 @@ object#jmolAppletPIZARRA
   margin: 5px
   border: 1px solid gray
   
-p.sdp
+p.sdp, p.saapdb, p.uniprot, p.cosmic, p.kinmutbase
   color: gray
-  padding-top: 30px
   float:left
   clear: both
+  text-align: justify
+  &.sdp
+    padding-top: 30px
 
 named_entity
   color: crimson
@@ -265,3 +267,12 @@ dl.functional
   h3
     font-weight: bold
     font-size: 1.2em
+
+p.kinase_groups
+  color: gray
+  margin-bottom: 0px
+  
+ul.kinase_groups
+  color: gray
+  list-style: none
+

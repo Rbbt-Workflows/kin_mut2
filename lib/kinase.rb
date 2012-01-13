@@ -61,12 +61,18 @@ module Kinase
 
     def self.pdb_chain_and_position(uniprot, position, pdb, chain)
       query = "select pos_pdb from acc2pdbchain_mapping where acc='#{ uniprot }' and pdb='#{ pdb }' and chain='#{chain}' and pos_acc=#{position};"
-      res = pdb_driver.exec(query)
+      res = begin
+              pdb_driver.exec(query)
+            rescue
+              @driver = nil
+              retry
+            end
       res
     end
 
     def self.snp2l(uniprot, position)
-      query =<<-EOT
+      begin
+        query =<<-EOT
 SELECT
 tum.wt_aa,
 tum.mutant_aa,
@@ -95,8 +101,13 @@ tum.new_position,
 tum.wt_aa, 
 tum.mutant_aa
 ;
-      EOT
-      res = driver.exec(query)
+        EOT
+        res = driver.exec(query)
+      rescue
+        @driver = nil
+        retry
+      end
+
       res
     end
 

@@ -16,7 +16,7 @@
       %th Protein
       %th Description
       %th Mutation
-      %th Kinase Group
+      %th Kinase Group*
       %th Prediction
       %th Details
   %tbody
@@ -60,6 +60,22 @@
 
         %td.details
           %a(href="/details/#{@job}/#{prot}/#{m}") View
+
+
+%p.kinase_groups
+  \* 
+  %span(style='font-style:italic') Kinase Group:
+  Classification of the human kinome according to
+  %a(href='http://www.ncbi.nlm.nih.gov/pubmed/12471243' target='_blank') 
+    Manning 
+    %span(style='font-style:italic')et al.
+    , 2002.
+  %ul.kinase_groups
+    - @uniprot_groups.values.uniq.sort.each do |group|
+      %li
+        %span(style='font-weight:bold')== #{group}: 
+        = $kinase_groups[group]
+
 
 :javascript
   $('#predictions').tablesorter({widgets: ['zebra']});

@@ -54,21 +54,50 @@
     %dt Kinase Group
     %dd
       == #{@features["uniprot_group"]}: #{$kinase_groups[@features["uniprot_group"]]}
-    
-    %table#goterms
-      %thead
-        %tr
-          %th GOTerm
-          %th Sub-ontology
-          %th Name
-      %tbody
-        - @goterms.sort_by{|k,v| k}.each do |term,name|
-          -  onto, name = name.match(/\((.*)\) (.*)/).values_at 1, 2
+
+    - go_mf = @goterms.select{|k,v| v == "molecular_function"}.sort_by{|k,v| k}
+    - if go_mf.any?
+      %table#goterms
+        %thead
           %tr
-            %td
-              %a(href="http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=#{term}")= term
-            %td= {"MF" => "Molecular Function", "CC" => "Cellular Component", "BP" => "Biological Process"}[onto]
-            %td= name
+            %th(colspan=2) Gene Ontology - Molecular Function
+        %tbody
+          - go_mf.each do |term,onto|
+            - name = GO.id2name(term)
+            %tr
+              %td
+                %a(href="http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=#{term}")= term
+              %td= name
+   
+    - go_bp = @goterms.select{|k,v| v == "biological_process"}.sort_by{|k,v| k}
+    - if go_bp.any?
+      %table#goterms
+        %thead
+          %tr
+            %th(colspan=2) Gene Ontology - Biological Process
+        %tbody
+          - go_bp.each do |term,onto|
+            - name = GO.id2name(term)
+            %tr
+              %td
+                %a(href="http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=#{term}")= term
+              %td= name
+
+    - go_cc = @goterms.select{|k,v| v == "cellular_component"}.sort_by{|k,v| k}
+    - if go_cc.any?
+      %table#goterms
+        %thead
+          %tr
+            %th(colspan=2) Gene Ontology - Cellular Component
+        %tbody
+          - go_cc.each do |term,onto|
+            - name = GO.id2name(term)
+            %tr
+              %td
+                %a(href="http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=#{term}")= term
+              %td= name
+
+
 
 - $pfam_info ||= Pfam.domains.tsv 
 #domain
@@ -253,8 +282,8 @@
           %dd{:class => (@features[key] == "1" ? 'red' : '')}= @features[key] == "1" ?  "<a href='http://phospho.elm.eu.org/cgimodel.py?accession=#{@protein}&fun=Search' target=_blank>Yes</a>" : "No"
         - else
           %dd{:class => (@features[key] == "1" ? 'red' : '')}= @features[key] == "1" ?   "<a href='http://www.uniprot.org/uniprot/#{@protein}#section_features' target=_blank>Yes</a>" : "No"
-  %p.sdp
 
+  %p.sdp
     \* 
     %span(style='font-style:italic') Specificity Determining Positions (SDP)
     are the residues that display a
@@ -269,26 +298,28 @@
 
 #jmol
   %hr
-  %select.pdb
-    %option(selected="selected") Select a pdb
-    - pdbs.each do |pdb, chain, pdb_position| 
-      %option(attr-chain=chain attr-position=pdb_position attr-pdb=pdb)= "#{ pdb } (#{ pdb_position }:#{ chain })"
+  - if pdbs.any?
+    %select.pdb
+      %option(selected="selected") Select a pdb
+      - pdbs.each do |pdb, chain, pdb_position| 
+        %option(attr-chain=chain attr-position=pdb_position attr-pdb=pdb)= "#{ pdb } (#{ pdb_position }:#{ chain })"
 
-  :javascript
+    :javascript
 
-    jmolApplet(700, "", "PIZARRA");
+      jmolApplet(700, "", "PIZARRA");
 
-    $('select.pdb').change(function(){
-      var option = $(this).find("option:selected");
-      var pdb = option.attr('attr-pdb');
-      if (pdb == "Select a pdb") return false
-      var pdb_position = option.attr('attr-position');
-      var pdb_chain = option.attr('attr-chain');
-      jmolScript("load '/pdb/" + pdb + ".pdb' ; wireframe off; restrict water; select protein; backbone off; color pink;cartoons on;color structure; select protein and *.CA and " + pdb_position + ":" + pdb_chain + "; spacefill; color blue;", "PIZARRA");
-    })
+      $('select.pdb').change(function(){
+        var option = $(this).find("option:selected");
+        var pdb = option.attr('attr-pdb');
+        if (pdb == "Select a pdb") return false
+        var pdb_position = option.attr('attr-position');
+        var pdb_chain = option.attr('attr-chain');
+        jmolScript("load '/pdb/" + pdb + ".pdb' ; wireframe off; restrict water; select protein; backbone off; color pink;cartoons on;color structure; select protein and *.CA and " + pdb_position + ":" + pdb_chain + "; spacefill; color blue;", "PIZARRA");
+      })
 
 #SNP2DB
 
+  - dbs = []
   - if snp2db.any?
     %table#snp2db_table
       %thead
@@ -299,6 +330,8 @@
       %tbody
         - snp2db.to_a.each do |info|
           - IndiferentHash.setup info
+          - dbs << info[:type].to_s
+
           - case info[:type].to_s
           - when "kinmutbase"
             %tr
@@ -326,7 +359,7 @@
           - when 'saapdb'
             %tr
               %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
-              %td= info[:description]
+              %td= info[:description] == "PD" ? "Pathogenic Deviation" : info[:description]
               %td
                 %a(href="http://www.bioinf.org.uk/saap/db/")= info[:type]
           - when 'greenman'
@@ -340,7 +373,69 @@
               %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
               %td= info[:description]
               %td= info[:type]
+
  
+  - if dbs.include? "saapdb"
+    %p.saapdb
+      %span(style='font-style:italic') SAAPdb:
+
+      SAAPdb links Single Nucleotide Polymorphisms (SNPs) to phenotype
+      alterations. SNP data is linked to a gene sequence, to determine whether
+      the mutation occurred in a coding region; if so, the protein sequence and
+      the mutated variations are displayed. When available, links to structural
+      data are also provided.
+
+      %a(href='http://www.ncbi.nlm.nih.gov/pubmed/19191322' target='_blank') 
+        Hurst
+        %span(style='font-style:italic')et al.
+        , 2010.
+
+   
+  - if dbs.include? "cosmic"
+    %p.cosmic
+      %span(style='font-style:italic') COSMIC:
+
+      COSMIC is designed to store and display somatic mutation information and
+      related details and contains information relating to human cancers. The
+      mutation data and associated information is extracted from the primary
+      literature and entered into the COSMIC database. In order to provide a
+      consistent view of the data a histology and tissue ontology has been
+      created and all mutations are mapped to a single version of each gene.  The
+      data can be queried by tissue, histology or gene and displayed as a graph,
+      as a table or exported in various formats
+
+      %a(href='http://www.ncbi.nlm.nih.gov/pubmed/20952405' target='_blank') 
+        Forbes
+        %span(style='font-style:italic')et al.
+        , 2011.
+   
+  - if dbs.include? "uniprot"
+    %p.uniprot
+      %span(style='font-style:italic') Uniprot:
+
+      The Universal Protein Resource (UniProt) is a comprehensive resource for
+      protein sequence and annotation data.
+
+      %a(href='http://www.ncbi.nlm.nih.gov/pubmed/19426475' target='_blank') 
+        Jain
+        %span(style='font-style:italic')et al.
+        , 2009.
+   
+  - if dbs.include? "kinmutbase"
+    %p.kinmutbase
+      %span(style='font-style:italic') KinMutBase:
+
+      KinMutBase is a comprehensive database of disease-causing mutations in
+      protein kinase domains. The current release of the database contains 582
+      mutations in 20 tyrosine kinase domains and 13 serine/threonine kinase
+      domains. The database refers 1790 cases from 1322 families
+
+      %a(href='http://www.ncbi.nlm.nih.gov/pubmed/15832311' target='_blank') 
+        Ortutay
+        %span(style='font-style:italic')et al.
+        , 2005.
+
+
 #SNP2L
   - if snp2l.any?
     %table#snp2l_table
