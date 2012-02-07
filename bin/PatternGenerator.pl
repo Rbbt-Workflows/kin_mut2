@@ -120,8 +120,12 @@ foreach my $doublet (@filtered_query) {
 		}
 		
 	#Add sumGOLOR
-	$vector{$doublet}{'sumGOLOR'}=$sumGOLOR{$acc};
-	
+    if (defined $sumGOLOR{$acc}) {
+        $vector{$doublet}{'sumGOLOR'} = $sumGOLOR{$acc};
+    } else {
+        $vector{$doublet}{'sumGOLOR'} = 0;
+    }
+
 	#Add the Uniprot Annotations
 	if ($uniprot_annotations{$acc}{'ACT_SITE'}{$pos}==1) {
 		$vector{$doublet}{'swannot_act_site'}=1; 
