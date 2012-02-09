@@ -67,17 +67,6 @@ get '/job/:name' do
         @uniprot_groups[mutation] = Kinase.get_features(job, prot, m)["uniprot_group"]
       }
 
-      # CACHE ENTREZ GENE INFO
-      # ----------------------
-      #
-      #index = Organism::Hsa.identifiers.index(:target => "Entrez Gene ID", :persist =>  true)
-      #index.unnamed = true
-      #entrez = @res.keys.collect{|mutation|  
-      #  prot, m = mutation[1..-1].split(/_/)
-      #  (index[prot] || []).first
-      #}.compact
-      #Entrez.get_gene(entrez)
-
       haml :result
     rescue
       if $!.message == "Empty content"
@@ -147,9 +136,9 @@ get '/details/:name/:protein/:mutation' do
   @title = "wKinMut: #{params[:name].match(/(.*)_(.*)/)[1] } > #{@protein} > #{@mutation}"
 
   entrez_index = Organism::Hsa.identifiers.index(:target => "Entrez Gene ID", :persist =>  true)
-  name_index = Organism::Hsa.identifiers.index(:target => "Associated Gene Name", :persist =>  true)
-  ensp_index = Organism::Hsa.protein_identifiers.index(:target => "Ensembl Protein ID", :persist =>  true)
-  ensg_index = Organism::Hsa.identifiers.index(:target => "Ensembl Gene ID", :persist =>  true)
+  name_index   = Organism::Hsa.identifiers.index(:target => "Associated Gene Name", :persist =>  true)
+  ensp_index   = Organism::Hsa.protein_identifiers.index(:target => "Ensembl Protein ID", :persist =>  true)
+  ensg_index   = Organism::Hsa.identifiers.index(:target => "Ensembl Gene ID", :persist =>  true)
 
   @translations = job.step("patterns").step("input").info[:translations]
   @translations_id = job.step("patterns").step("input").info[:translations_id]
@@ -169,7 +158,6 @@ get '/details/:name/:protein/:mutation' do
     @summary     = gene.summary
   end
 
-  #@goterms = Misc.process_to_hash $prot_goterms[@protein].split(/;/) do |list| list.collect{|id| $goterm_score[id]} end
   @goterms = Misc.zip_fields(Organism.gene_go("Hsa").tsv(:persist => true, :unnamed => true)[@ensg])
   @features = Kinase.get_features(job, @protein, @mutation)
 
@@ -194,6 +182,14 @@ end
 
 get '/' do
   haml :index
+end
+
+get '/jmol/:uniprot/:position' do
+  uniprot = params[:uniprot]
+  position = params[:position]
+
+  pdbs = Kinase.pdb_position(uniprot, position)
+  haml :jmol, :layout => false, :locals => {:pdbs => pdbs}
 end
 
 get '/sentences/:uniprot' do

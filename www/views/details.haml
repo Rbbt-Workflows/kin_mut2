@@ -1,7 +1,7 @@
 - snp2l = Kinase::Postgres.snp2l(@protein, @mutation.scan(/\d+/).first)
 - snp2db = Kinase::Postgres.snp2db(@protein, @mutation.scan(/\d+/).first)
 - pfam = @features["pfam"].empty? ? 0 : @features["pfam"].split("|").length 
-- pdbs = Kinase.pdb_position(@protein, @mutation.scan(/\d+/).first.to_i)
+- position =  @mutation.scan(/\d+/).first.to_i
 
 %h5 
   Details for
@@ -22,7 +22,7 @@
     %li
       %a(target="#domain")== Pfam Domains (#{pfam})
     %li
-      %a(target="#jmol") Structure (#{pdbs.length})
+      %a.jmol(target="#jmol") Structure (wait)
     %li
       %a(target="#residue") Pathogenicity
     - if snp2db.any?
@@ -297,25 +297,9 @@
 
 
 #jmol
-  %hr
-  - if pdbs.any?
-    %select.pdb
-      %option(selected="selected") Select a pdb
-      - pdbs.each do |pdb, chain, pdb_position| 
-        %option(attr-chain=chain attr-position=pdb_position attr-pdb=pdb)= "#{ pdb } (#{ pdb_position }:#{ chain })"
-
-    :javascript
-
-      jmolApplet(700, "", "PIZARRA");
-
-      $('select.pdb').change(function(){
-        var option = $(this).find("option:selected");
-        var pdb = option.attr('attr-pdb');
-        if (pdb == "Select a pdb") return false
-        var pdb_position = option.attr('attr-position');
-        var pdb_chain = option.attr('attr-chain');
-        jmolScript("load '/pdb/" + pdb + ".pdb' ; wireframe off; restrict water; select protein; backbone off; color pink;cartoons on;color structure; select protein and *.CA and " + pdb_position + ":" + pdb_chain + "; spacefill; color blue;", "PIZARRA");
-      })
+  %p#jmol_loading Loading please wait
+  :javascript
+    jmolApplet(700, "", "PIZARRA");
 
 #SNP2DB
 
@@ -341,15 +325,12 @@
                 %a(href="http://bioinf.uta.fi/KinMutBase/")= info[:type]
           - when "uniprot"
             - variant_code = [@protein, @mutation] * ":"
-            - if $uniprot_variants.include? variant_code
-              %tr
-                %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
-                %td= info[:description]
-                %td
-                  - uniprot_variant = $uniprot_variants[variant_code]["Uniprot Variant ID"]
-                  %a(href="http://web.expasy.org/cgi-bin/variant_pages/get-sprot-variant.pl?#{uniprot_variant}")= info[:type]
-            - else
-              - raise "This should not be here"
+            - variant_id = $uniprot_variants[@protein].zip_fields.select{|values| values["Amino Acid Mutation"] == @mutation}.collect{|values| values["UniProt Variant ID"]}
+            %tr
+              %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
+              %td= info[:description]
+              %td
+                %a(href="http://web.expasy.org/cgi-bin/variant_pages/get-sprot-variant.pl?#{variant_id}")= info[:type]
           - when 'cosmic'
             %tr
               %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
@@ -549,5 +530,10 @@
     synonyms = unique(synonyms.sort());
 
     $('div#IHOP').prepend("<p style='font-style:italic'><span style='font-weight:bold'>Synonyms: </span>" + synonyms.join(", ") + '</p>');
+  }})
+
+  $.ajax({url: '/jmol/#{@protein}/#{position}', success: function(data){
+    $('p#jmol_loading').replaceWith(data);
+    $('a.jmol').html("Structure")
   }})
 

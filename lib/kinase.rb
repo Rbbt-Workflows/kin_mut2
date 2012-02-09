@@ -10,8 +10,7 @@ require 'pg'
 
 
 
-$uniprot_variants = Uniprot.annotated_variants.tsv :persist => true
-$uniprot_variants_keys = $uniprot_variants.keys
+$uniprot_variants = UniProt.annotated_variants.tsv :persist => true
 
 Workflow.require_workflow 'translation'
 module Kinase
@@ -132,13 +131,12 @@ ed.type = 'uniprot'
       EOT
       res = driver.exec(query).to_a
 
-      mutations = $uniprot_variants_keys.select{|k| protein, mutation = k.split(":"); uniprot == protein and mutation.scan(/\d+/).first.to_i == position.to_i}
+      $uniprot_variants[uniprot].zip_fields.each do |values|
+        mutation = values["Amino Acid Mutation"]
+        next unless mutation.scan(/\d+/).first.to_i == position.to_i
 
-      mutations.each{|mutation|
         wt, _position, mut = mutation.match(/(.*?)(\d+)(.*)/).values_at 1, 2, 3
         mut = mut[-1].chr
-        raise "This should not happen" unless $uniprot_variants.include? mutation
-        values = $uniprot_variants[mutation]
 
         type, disease, snp = values.values_at("Type of Variant", "Disease", "SNP ID")
         if type == "Disease"
@@ -160,7 +158,7 @@ ed.type = 'uniprot'
           :description => description,
           :type => 'uniprot'
         }
-      }
+      end
  
       res
     end
@@ -194,13 +192,13 @@ ed.type = 'uniprot'
   end
 
   def self.get_features(job, protein, mutation)
-    @@feature_names ||= self.etc["feature.number.list"].find(:lib).tsv(:type => :single).sort_by{|key,value| key.to_i}.collect{|key, value| value}
+    @feature_names ||= self.etc["feature.number.list"].find(:lib).tsv(:type => :single).sort_by{|key,value| key.to_i}.collect{|key, value| value}
 
-    @@patterns ||= {}
+    @patterns ||= {}
 
-    patterns = @@patterns[job] ||= TSV.open(job.step("patterns").path, :list, :key_field => @@feature_names.length, :fix => Proc.new{|l| l.sub('#','').sub(/^\d+\t/,'').gsub(/\d+:/,'')}).tap{|o| o.unnamed = true; o}
+    patterns = @patterns[job] ||= TSV.open(job.step("patterns").path, :list, :key_field => @feature_names.length, :fix => Proc.new{|l| l.sub('#','').sub(/^\d+\t/,'').gsub(/\d+:/,'')}, :unnamed => true, :persist => true, :persist_file => job.step("patterns").path + '.tc' )
     patterns.key_field = "Protein Mutation"
-    patterns.fields = @@feature_names
+    patterns.fields = @feature_names
 
     pattern = patterns[[protein, mutation] * "_"]
     info = {}
