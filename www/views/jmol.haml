@@ -3,7 +3,7 @@
   %select.pdb
     %option(selected="selected") Select a pdb
     - pdbs.each do |pdb, chain, pdb_position| 
-      %option(attr-chain=chain attr-position=pdb_position attr-pdb=pdb)= "#{ pdb } (#{ pdb_position }:#{ chain })"
+      %option.pdb(attr-chain=chain attr-position=pdb_position attr-pdb=pdb)= "#{ pdb } (#{ pdb_position }:#{ chain })"
 
   :javascript
 
