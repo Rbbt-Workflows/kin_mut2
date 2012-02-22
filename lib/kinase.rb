@@ -297,7 +297,7 @@ ed.type = 'uniprot'
     error_file = TmpFile.tmp_file
     patterns = CMD.cmd("perl -I '#{Kinase.bin.find}' '#{Kinase['bin/PatternGenerator.pl'].find}' '#{ step("input").path }' #{Kinase["etc/feature.number.list"].find} 2> '#{error_file}'").read
     if Open.read(error_file).any? and Open.read(error_file) =~ /is not a valid/
-        set_info :filtered_out, Open.read(error_file).split(/\n/).collect{|l| l.match(/(\w*) is not a valid/)[1]}
+        set_info :filtered_out, Open.read(error_file).split(/\n/).select{|l| l =~ /is not a valid/}.collect{|l| l.match(/(\w*) is not a valid/)[1]}
     else
       set_info :filtered_out, []
     end
