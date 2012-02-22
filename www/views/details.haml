@@ -15,14 +15,14 @@
     Back to 
     %a(href="/job/#{ @jobname }")= @jobname.match(/(.*)_(.*)/)[1]
 
-%nav.tabs
+%div.tabs
   %ul
     %li
       %a.active(target="#protein") Gene/Protein 
     %li
       %a(target="#domain")== Pfam Domains (#{pfam})
     %li
-      %a.jmol(target="#jmol") Structure (wait)
+      %a.jmol(target="#jmol") Structures (--)
     %li
       %a(target="#residue") Pathogenicity
     - if snp2db.any?
@@ -43,13 +43,15 @@
 #protein
   %dl.protein
     %dt Gene Name
-    %dd= @name
+    %dd
+      %a(href="http://ncbi.nlm.nih.gov/gene/#{@entrez}")= @name
 
     %dt Protein Long Name
     %dd= @description
 
     %dt Summary
-    %dd= @summary
+    %dd
+      = @summary.flatten.first.sub(/\. \[provided by Ref.*/,'.')
 
     %dt Kinase Group
     %dd
@@ -144,7 +146,9 @@
 
       %h3 Pathogenicity Predictions
 
-      %dt KinMut Score
+      %dt 
+        KinMut Score
+        %a.subtle_link(target="_blank" href='/kinmut.pdf') [?]
       - score = (@res[ "#" + [@protein,@mutation] * "_"][1].first.to_f)
       %dd== #{score >= -0.5 ? "Damaging" : "Neutral"} (#{"%1.3g" % score})
 
@@ -181,13 +185,14 @@
           %dd= "%.2f" % @features["TDs_fscore_diff"].to_f
 
     %dl.kdhc.table-display
+      %dt.inline Gene Ontology Log-Odds Ratio **
+      %dd
+        == #{"%.2f" % @features["sumGOLOR"].to_f}
+
       %dt.kdhc Kyte-Doolittle Hydrophobicity Change
       %dd.kdhc
         == #{"%.2f" % @features["biochem_diffkdhydrophobicity"].to_f}
 
-      %dt.inline Gene Ontology Log-Odds Ratio
-      %dd
-        == #{"%.2f" % @features["sumGOLOR"].to_f}
 
 
 
@@ -294,6 +299,25 @@
       Rausell 
       %span(style='font-style:italic')et al.
       , 2010.
+
+  %p.golor
+    \** 
+    %span(style='font-style:italic') The Gene Ontology Log Odds Ratio  
+    was used to classify the mutations as pathogenic or
+    neutral according to the annotations regarding the function of the genes in
+    which they exist. To compute the score, we retrieved all the terms
+    associated to the kinases in our dataset from the 3 sub-ontologies in Gene
+    Ontology.
+    Disease-associated kinase genes are those with at least one reported
+    disease-associated mutation and neutral kinase genes are those with no
+    reported disease-associated mutation and the log-odds ratio of the
+    frequencies for each GO term are computed. 
+
+    %a(href='/kinmut.pdf' target='_blank') 
+      Izarzugaza
+      %span(style='font-style:italic')et al. 
+      , 2012 (submitted).
+
 
 
 #jmol
@@ -476,7 +500,7 @@
     for further details.
  
 :javascript
-  tabs($('nav.tabs'))
+  tabs($('div.tabs'))
   $('#goterms,#snp2db_table,#snp2l_table').tablesorter({widgets: ['zebra']});
 
   function unique(arrayName) {
@@ -534,6 +558,13 @@
 
   $.ajax({url: '/jmol/#{@protein}/#{position}', success: function(data){
     $('p#jmol_loading').replaceWith(data);
-    $('a.jmol').html("Structure")
+    var pdbs = $('#jmol').find('option.pdb').length;
+    if (pdbs > 0){
+      $('a.jmol').html("Structures (" + pdbs + ")");
+    }else{
+      $('a.jmol').html("Structures (0)");
+      $('#jmolAppletPIZARRA').remove();
+      $('#jmol').html('No structures overlapping this mutation');
+    }
   }})
 
