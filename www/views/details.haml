@@ -8,7 +8,9 @@
   Protein: 
   - names = [@translations[@protein], @translations_id[@protein]] - [@protein]
   = names * ", "
-  %span.protein== (#{@protein}),
+  (
+  %a.protein(href=" http://www.uniprot.org/uniprot/#{@protein}")== #{@protein}
+  ),
   Mutation:
   %span.mutation= @mutation
   %span.back_to_job
