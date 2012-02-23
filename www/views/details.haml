@@ -53,7 +53,7 @@
 
     %dt Summary
     %dd
-      = @summary.flatten.first.sub(/\. \[provided by Ref.*/,'.')
+      = (@summary.flatten.first || "No summary found").sub(/\. \[provided by Ref.*/,'.')
 
     %dt Kinase Group
     %dd
