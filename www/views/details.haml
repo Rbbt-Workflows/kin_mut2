@@ -303,15 +303,10 @@
   %p.golor
     \** 
     %span(style='font-style:italic') The Gene Ontology Log Odds Ratio  
-    was used to classify the mutations as pathogenic or
-    neutral according to the annotations regarding the function of the genes in
-    which they exist. To compute the score, we retrieved all the terms
-    associated to the kinases in our dataset from the 3 sub-ontologies in Gene
-    Ontology.
-    Disease-associated kinase genes are those with at least one reported
-    disease-associated mutation and neutral kinase genes are those with no
-    reported disease-associated mutation and the log-odds ratio of the
-    frequencies for each GO term are computed. 
+
+    evaluates the annotations pathogenicity of the genes carrying the
+    mutations. The score represents the sum of the individual log-odds ratio
+    for each GO term the gene is annotated. More details in
 
     %a(href='/kinmut.pdf' target='_blank') 
       Izarzugaza

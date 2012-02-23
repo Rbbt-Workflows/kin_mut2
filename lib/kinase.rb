@@ -54,7 +54,17 @@ module Kinase
 
     def self.pdb_for_uniprot(uniprot)
       query = "select pdb,chain from acc2pdbchain where acc='#{ uniprot }';"
-      res = pdb_driver.exec(query)
+
+      times = 0
+      begin
+        res = pdb_driver.exec(query)
+      rescue Exception
+        @pdb_driver = nil
+        times += 1
+        retry if times < 3
+        raise $!
+      end
+
       res
     end
 
