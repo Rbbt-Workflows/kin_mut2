@@ -177,7 +177,11 @@ post '/' do
   jobname = "JOB" if jobname.nil? or jobname.empty?
   job = Kinase.job(:default, jobname , :list =>  mutations)
   job.fork
-  redirect "/job/#{job.name}"
+  if params[:jobid]
+    job.name
+  else
+    redirect "/job/#{job.name}"
+  end
 end
 
 get '/' do
