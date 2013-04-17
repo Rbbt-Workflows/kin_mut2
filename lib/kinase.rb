@@ -323,45 +323,48 @@ ed.type = 'uniprot'
 
     FileUtils.mv File.join(path + '.files', File.basename(step("patterns").path)), path
 
+    raise "No predictions where made" if Open.read(path).empty?
     nil
   end
 
   dep :input
   task :other_predictors => :tsv do
-    @@index ||= Organism::Hsa.protein_identifiers.index :target => "Ensembl Protein ID", :fields => ["UniProt/SwissProt Accession"], :persist => true
-    @@index.unnamed = true
-
-    translations = {}
-    mutated_isoforms = step(:input).load.split("\n").collect do |line|
-      next unless line.match(/(.*)_(.*)/)
-      uniprot, mutation = $1, $2
-      next if not @@index.include? uniprot
-      ensembl = @@index[uniprot].first
-
-      mutated_isoform = [ensembl, mutation] * ":"
-      translations[mutated_isoform] = line.chomp
-      mutated_isoform
-    end.compact
-
-    MutatedIsoform.setup(mutated_isoforms, 'Hsa')
-
-    sift_scores = Misc.process_to_hash(mutated_isoforms){|list| list.sift_scores}
-    ma_scores = Misc.process_to_hash(mutated_isoforms){|list| list.mutation_assessor_scores}
-
     tsv = TSV.setup({}, :key_field => "Mutation", :fields => ["SIFT Score", "Mutation Assessor Score"], :type => :list)
 
-    mutated_isoforms.each do |mu|
-      orig = translations[mu]
-      next if orig.nil?
-      tsv[orig] = [sift_scores[mu], ma_scores[mu]]
-    end
+    #@@index ||= Organism::Hsa.protein_identifiers.index :target => "Ensembl Protein ID", :fields => ["UniProt/SwissProt Accession"], :persist => true
+    #@@index.unnamed = true
+
+    #translations = {}
+    #mutated_isoforms = step(:input).load.split("\n").collect do |line|
+    #  next unless line.match(/(.*)_(.*)/)
+    #  uniprot, mutation = $1, $2
+    #  next if not @@index.include? uniprot
+    #  ensembl = @@index[uniprot].first
+
+    #  mutated_isoform = [ensembl, mutation] * ":"
+    #  translations[mutated_isoform] = line.chomp
+    #  mutated_isoform
+    #end.compact
+
+    #MutatedIsoform.setup(mutated_isoforms, 'Hsa')
+
+    #sift_scores = Misc.process_to_hash(mutated_isoforms){|list| list.sift_scores}
+    #ma_scores = Misc.process_to_hash(mutated_isoforms){|list| list.mutation_assessor_scores}
+
+
+    #mutated_isoforms.each do |mu|
+    #  orig = translations[mu]
+    #  next if orig.nil?
+    #  tsv[orig] = [sift_scores[mu], ma_scores[mu]]
+    #end
     
     tsv
   end
 
   dep :predict
   dep :other_predictors
-  task :default => nil do
+  task :default => :string do
+    "DONE"
   end
 end
 

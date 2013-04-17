@@ -41,14 +41,22 @@ get '/job/:name' do
   @title = "wKinMut: #{params[:name].match(/(.*)_(.*)/)[1] }"
   job = Kinase.load_id(File.join("default", params["name"]))
 
-  while not job.done?
-    job.join
-    job = Kinase.load_id(File.join("default", params["name"]))
+  sleep 3 unless job.done?
+
+  while not job.done? and not job.error?
+    #job.join
+    #job = Kinase.load_id(File.join("default", params["name"]))
+    return haml :wait, :locals => {:job => job.name}
   end
 
   if job.error?
-    @message = "Error in job #{ job.name }: #{job.messages.last}"
-    haml :error
+    if job.messages[-2] =~ /No predictions/
+      @job = job.step(:patterns)
+      haml :no_predictions
+    else
+      @message = "Error in job #{ job.name }: #{job.messages[-2]}"
+      haml :error
+    end
   else
     begin
       @res = TSV.open(job.step(:predict).path, :key_field => 2, :sep => /\s+/)
@@ -172,6 +180,10 @@ post '/' do
   else
     mutations = params[:mutations].upcase
   end
+
+  mutations = mutations.gsub(/\b +\b/,'_')
+  
+  puts mutations
 
   jobname = params[:jobname].gsub(/\s+/,'_')
   jobname = "JOB" if jobname.nil? or jobname.empty?
