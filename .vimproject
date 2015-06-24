@@ -1,6 +1,8 @@
 KinMut=/$PWD filter="*.rb *.js *.css *.pl *.py *.cfg *.config" {
+ workflow.rb
  bin=bin {
   PatternGenerator.pl
+  predict_mutations.pl
   run_svm.py
  }
  doc=doc {
@@ -10,6 +12,7 @@ KinMut=/$PWD filter="*.rb *.js *.css *.pl *.py *.cfg *.config" {
   feature.number.list
  }
  lib=lib {
+  sinatra.rb
   kinase.rb
   python=python {
    mod_categorical_data_analysis.py
@@ -18,41 +21,30 @@ KinMut=/$PWD filter="*.rb *.js *.css *.pl *.py *.cfg *.config" {
   }
  }
  www=www {
-  app.rb
-  main.rb
-  config=config {
-   compass.config
-  }
-  public=public {
-   images=images {
-   }
-   javascript=javascript {
-    app.js
-    highlight.pack.js
-    jquery.js
-    main.js
-   }
-   stylesheets=stylesheets {
-    highlight.css
-   }
-   examples=examples{
-    example.txt
-   }
-  }
-  views=views {
-   layout.haml
-   index.haml
-   result.haml
+  views=views filter="*" {
+   databases.haml
    details.haml
-   help.haml
-   missing.haml
-   sentences.haml
-   jmol.haml
    error.haml
-   stylesheets=stylesheets {
-    _base.sass
-    main.sass
-    app.sass
+   help.haml
+   help.haml.old
+   help2.haml
+   help3.haml
+   ihop.haml
+   interactions.haml
+   layout.haml
+   literature.haml
+   pathogenicity.haml
+   pathogenicity.haml.old
+   pfam.haml
+   protein.haml
+   sentences.haml
+   structure.haml
+   structureppi.haml
+   tasks.haml
+   KinMut2=KinMut2{
+    predict=predict{
+     job_result.haml
+    }
    }
   }
  }

@@ -1,1 +1,6 @@
-%h3= @message
+.error.ui.message
+  %h5 Error on #{format_name File.basename(job.name)}
+  - if job.messages and job.messages.any?
+    %span.error_message
+      %pre= CGI.escapeHTML(job.messages[-1] || "")
+

@@ -1,567 +1,641 @@
-- snp2l = Kinase::Postgres.snp2l(@protein, @mutation.scan(/\d+/).first)
-- snp2db = Kinase::Postgres.snp2db(@protein, @mutation.scan(/\d+/).first)
-- pfam = @features["pfam"].empty? ? 0 : @features["pfam"].split("|").length 
+
+- key = [@protein, @mutation] * " "
 - position =  @mutation.scan(/\d+/).first.to_i
+- domains = Rbbt.pancancer.data.UNIPROT[@protein + '.features.txt'].tsv(:merge => true)[position.to_s]
+- if domains
+  - domains = domains.last 
+  
+- features = @job.file('features').tsv
+- names = Organism.identifiers(Organism.default_code("Hsa")).index :target => "Associated Gene Name", :fields => ["UniProt/SwissProt Accession"], :persist => true
+- name = names[@protein]
 
-%h5 
-  Details for
-  Protein: 
-  - names = [@translations[@protein], @translations_id[@protein]] - [@protein]
-  = names * ", "
-  (
-  %a.protein(href=" http://www.uniprot.org/uniprot/#{@protein}")== #{@protein}
-  ),
-  Mutation:
-  %span.mutation= @mutation
-  %span.back_to_job
-    Back to 
-    %a(href="/job/#{ @jobname }")= @jobname.match(/(.*)_(.*)/)[1]
+:sass
+  .tab[data-tab=structure]
+    display: block !important
+    &:not(.active)
+      position: absolute
+      top: -2000em
+      z-index: -10
+      visibility: hidden
+  .tabular.ui.menu.top.attached
+    width: 100%
 
-%div.tabs
-  %ul
-    %li
-      %a.active(target="#protein") Gene/Protein 
-    %li
-      %a(target="#domain")== Pfam Domains (#{pfam})
-    %li
-      %a.jmol(target="#jmol") Structures (--)
-    %li
-      %a(target="#residue") Pathogenicity
-    - if snp2db.any?
+.details.full_width.column.full.height
+  .ui.breadcrumb
+    .section Details:
+    .divider
+    %a.section(href='/#{["KinMut2", "predict", @job.name]*"/"}')= @job.clean_name
+    %i.divider.right.chevron.icon
+    %a.section.active(href='/#{['details', @job.name, @protein, @mutation]*"/"}')= ["(#{name}) " + @protein , @mutation] * " - "
+
+  .tabular.ui.menu.top.attached
+    :deferjs
+      $('.tabular .item').tab()
+    .item.active(data-tab="protein") General
+    .item(data-tab="structure") Structures
+    .item(data-tab="structureppi") Structure-PPi
+    -#.item(data-tab="db_NSFP") dbNSFP
+    .item(data-tab="pathogenicity") Pathogenicity
+    .item(data-tab="databases") Databases
+    .item(data-tab="literature") Literature
+    .item(data-tab="ihop") iHOP
+    .item(data-tab="interactions") String 
+
+  .ui.tab.active.bottom.attached.segment(data-tab='protein')
+    = partial_render('protein', :protein => @protein)
+
+
+  .ui.tab.bottom.attached.segment(data-tab='structure')
+    = partial_render('structure', :protein => @protein, :position => position, :pdb => nil)
+
+  .ui.tab.bottom.attached.segment(data-tab='structureppi')
+    = partial_render('structureppi', :protein => @protein, :position => position, :mutation => @mutation)
+
+  .ui.tab.bottom.attached.segment(data-tab='pathogenicity')
+    = partial_render('pathogenicity', :protein => @protein, :position => position, :mutation => @mutation, :features => features[key], :result => @job.load[key], :domains => domains)
+
+  .ui.tab.bottom.attached.segment(data-tab='databases')
+    = fragment do
+      - begin
+        = partial_render('databases', :protein => @protein, :position => position, :mutation => @mutation)
+      - rescue
+        -Log.exception $!
+        .ui.red.error.message
+          Database problem
+
+  .ui.tab.bottom.attached.segment(data-tab='literature')
+    = fragment do
+      = partial_render('literature', :protein => @protein, :position => position, :mutation => @mutation)
+
+  .ui.tab.bottom.attached.segment(data-tab='ihop')
+    = partial_render('ihop', :protein => @protein, :position => position)
+
+  .ui.tab.bottom.attached.segment(data-tab='interactions')
+    = fragment do
+      = partial_render('interactions', :protein => @protein)
+
+
+
+
+
+  -#%h5 
+    Details for Protein: 
+    - names = [@translations[@protein], @translations_id[@protein]] - [@protein]
+    = names * ", "
+    (
+    %a.protein(href=" http://www.uniprot.org/uniprot/#{@protein}")== #{@protein}
+    ),
+    Mutation:
+    %span.mutation= @mutation
+    %span.back_to_job
+      Back to 
+      %a(href="/job/#{ @jobname }")= @jobname.match(/(.*)_(.*)/)[1]
+
+
+-#
+  %div.tabs
+    %ul
       %li
-        %a(target="#SNP2DB")== Databases (#{snp2db.to_a.length})
+        %a.active(target="#protein") Gene/Protein 
+      %li
+        -#%a(target="#domain")== Pfam Domains (#{pfam})
+      %li
+        %a.jmol(target="#jmol") Structures (--)
+      %li
+        %a(target="#residue") Pathogenicity
+      -# if snp2db.any?
+        %li
+          %a(target="#SNP2DB")== Databases (#{snp2db.to_a.length})
+      - else
+        %li
+          %a.inactive(target="#SNP2DB") Databases (0)
+      -# if snp2l.any?
+        %li
+          %a(target="#SNP2L")== Literature (#{snp2l.to_a.length})
+      - else 
+        %li
+          %a.inactive(target="#SNP2L") Literature (0)
+      %li
+        %a.ihop(target="#IHOP") IHOP (--)
+
+  #protein
+    %dl.protein
+      %dt Gene Name
+      %dd
+        %a(href="http://ncbi.nlm.nih.gov/gene/#{@entrez}")= @name
+
+      %dt Protein Long Name
+      %dd= @description
+
+      %dt Summary
+      %dd
+        = (@summary.flatten.first || "No summary found").sub(/\. \[provided by Ref.*/,'.')
+
+      %dt Kinase Group
+      %dd
+        -#== #{@features["uniprot_group"]}: #{$kinase_groups[@features["uniprot_group"]]}
+
+      - go_mf = @goterms.select{|k,v| v == "molecular_function"}.sort_by{|k,v| k}
+      - if go_mf.any?
+        %table#goterms
+          %thead
+            %tr
+              %th(colspan=2) Gene Ontology - Molecular Function
+          %tbody
+            - go_mf.each do |term,onto|
+              - name = GO.id2name(term)
+              %tr
+                %td
+                  %a(href="http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=#{term}")= term
+                %td= name
+    
+      - go_bp = @goterms.select{|k,v| v == "biological_process"}.sort_by{|k,v| k}
+      - if go_bp.any?
+        %table#goterms
+          %thead
+            %tr
+              %th(colspan=2) Gene Ontology - Biological Process
+          %tbody
+            - go_bp.each do |term,onto|
+              - name = GO.id2name(term)
+              %tr
+                %td
+                  %a(href="http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=#{term}")= term
+                %td= name
+
+      - go_cc = @goterms.select{|k,v| v == "cellular_component"}.sort_by{|k,v| k}
+      - if go_cc.any?
+        %table#goterms
+          %thead
+            %tr
+              %th(colspan=2) Gene Ontology - Cellular Component
+          %tbody
+            - go_cc.each do |term,onto|
+              - name = GO.id2name(term)
+              %tr
+                %td
+                  %a(href="http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=#{term}")= term
+                %td= name
+
+
+
+  - $pfam_info ||= Pfam.domains.tsv 
+  #domain
+    %h3
+      == PFAM domain information for protein
+      -#%a(href=" http://pfam.sanger.ac.uk/protein/#{@protein}")== #{names * ", "} (#{@protein})
+
+    -# if not @features["pfam"].empty?
+      %dl.pfam
+        - @features["pfam"].split("|").each do |domain|
+          %p
+            Mutation located in the following domain:
+            %dt
+              = $pfam_info[domain]["Name"]
+              (
+              %a(href="http://pfam.sanger.ac.uk/family/#{domain}" target="_blank")= domain
+              )
+            %dd= $pfam_info[domain]["Description"]
+          
+          %hr
+
+          .jalview
+            %applet(code="jalview.bin.JalviewLite" width="780" height="550" archive="http://pfam.sanger.ac.uk/shared/jalview/jalviewApplet.jar")
+              %param(name="file" value="http://pfam.sanger.ac.uk/family/#{domain}/alignment/seed/format" )
+              %param(name="defaultColour" value="Clustal" )
+              %param(name="linkLabel_1" value="UniProt" )
+              %param(name="linkUrl_1" value="http://www.uniprot.org/uniprot/$SEQUENCE_ID$" )
+              %param(name="linkLabel_2" value="Pfam sequence page" )
+              %param(name="linkUrl_2" value="http://pfam.sanger.ac.uk/protein/$SEQUENCE_ID$" )
+              %param(name="database" value="pfamseq" )
+              %param(name="embedded" value="true" ) 
+              %param(name="nojmol" value="true" )
+
     - else
-      %li
-        %a.inactive(target="#SNP2DB") Databases (0)
-    - if snp2l.any?
-      %li
-        %a(target="#SNP2L")== Literature (#{snp2l.to_a.length})
-    - else 
-      %li
-        %a.inactive(target="#SNP2L") Literature (0)
-    %li
-      %a.ihop(target="#IHOP") IHOP (--)
-
-#protein
-  %dl.protein
-    %dt Gene Name
-    %dd
-      %a(href="http://ncbi.nlm.nih.gov/gene/#{@entrez}")= @name
-
-    %dt Protein Long Name
-    %dd= @description
-
-    %dt Summary
-    %dd
-      = (@summary.flatten.first || "No summary found").sub(/\. \[provided by Ref.*/,'.')
-
-    %dt Kinase Group
-    %dd
-      == #{@features["uniprot_group"]}: #{$kinase_groups[@features["uniprot_group"]]}
-
-    - go_mf = @goterms.select{|k,v| v == "molecular_function"}.sort_by{|k,v| k}
-    - if go_mf.any?
-      %table#goterms
-        %thead
-          %tr
-            %th(colspan=2) Gene Ontology - Molecular Function
-        %tbody
-          - go_mf.each do |term,onto|
-            - name = GO.id2name(term)
-            %tr
-              %td
-                %a(href="http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=#{term}")= term
-              %td= name
-   
-    - go_bp = @goterms.select{|k,v| v == "biological_process"}.sort_by{|k,v| k}
-    - if go_bp.any?
-      %table#goterms
-        %thead
-          %tr
-            %th(colspan=2) Gene Ontology - Biological Process
-        %tbody
-          - go_bp.each do |term,onto|
-            - name = GO.id2name(term)
-            %tr
-              %td
-                %a(href="http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=#{term}")= term
-              %td= name
-
-    - go_cc = @goterms.select{|k,v| v == "cellular_component"}.sort_by{|k,v| k}
-    - if go_cc.any?
-      %table#goterms
-        %thead
-          %tr
-            %th(colspan=2) Gene Ontology - Cellular Component
-        %tbody
-          - go_cc.each do |term,onto|
-            - name = GO.id2name(term)
-            %tr
-              %td
-                %a(href="http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=#{term}")= term
-              %td= name
+      %h4 No Pfam Domain Directly Affected
+    
 
 
+  #residue
+    
+    #residue_general
 
-- $pfam_info ||= Pfam.domains.tsv 
-#domain
-  %h3
-    == PFAM domain information for protein
-    %a(href=" http://pfam.sanger.ac.uk/protein/#{@protein}")== #{names * ", "} (#{@protein})
+      %dl.prediction.table-display
 
-  - if not @features["pfam"].empty?
-    %dl.pfam
-      - @features["pfam"].split("|").each do |domain|
-        %p
-          Mutation located in the following domain:
-          %dt
-            = $pfam_info[domain]["Name"]
-            (
-            %a(href="http://pfam.sanger.ac.uk/family/#{domain}" target="_blank")= domain
-            )
-          %dd= $pfam_info[domain]["Description"]
-        
-        %hr
+        %h3 Pathogenicity Predictions
 
-        .jalview
-          %applet(code="jalview.bin.JalviewLite" width="780" height="550" archive="http://pfam.sanger.ac.uk/shared/jalview/jalviewApplet.jar")
-            %param(name="file" value="http://pfam.sanger.ac.uk/family/#{domain}/alignment/seed/format" )
-            %param(name="defaultColour" value="Clustal" )
-            %param(name="linkLabel_1" value="UniProt" )
-            %param(name="linkUrl_1" value="http://www.uniprot.org/uniprot/$SEQUENCE_ID$" )
-            %param(name="linkLabel_2" value="Pfam sequence page" )
-            %param(name="linkUrl_2" value="http://pfam.sanger.ac.uk/protein/$SEQUENCE_ID$" )
-            %param(name="database" value="pfamseq" )
-            %param(name="embedded" value="true" ) 
-            %param(name="nojmol" value="true" )
-
-  - else
-    %h4 No Pfam Domain Directly Affected
-  
-
-
-#residue
-  
-  #residue_general
-
-    %dl.prediction.table-display
-
-      %h3 Pathogenicity Predictions
-
-      %dt 
-        KinMut Score
-        %a.subtle_link(target="_blank" href='/kinmut.pdf') [?]
-      - score = (@res[ "#" + [@protein,@mutation] * "_"][1].first.to_f)
-      %dd== #{score >= -0.5 ? "Damaging" : "Neutral"} (#{"%1.3g" % score})
-
-      - if @other.include?([@protein, @mutation] * "_")
         %dt 
-          Mutation Assessor Prediction
-          %a.subtle_link(target="_blank" href='http://mutationassessor.org/howitworks.php') [?]
+          KinMut Score
+          %a.subtle_link(target="_blank" href='http://www.biomedcentral.com/1471-2164/13/S4/S3') [?]
+        -# score = (@res[ "#" + [@protein,@mutation] * "_"][1].first.to_f)
+        -#%dd== #{score >= -0.5 ? "Damaging" : "Neutral"} (#{"%1.3g" % score})
 
-        %dd= {1.0 => "High", 0.8 => "Medium", 0.7 => "Low"}[@other[[@protein, @mutation] * "_"]["Mutation Assessor"].to_f] || "Neutral"
+        -# if @other.include?([@protein, @mutation] * "_")
+          %dt 
+            Mutation Assessor Prediction
+            %a.subtle_link(target="_blank" href='http://mutationassessor.org/howitworks.php') [?]
 
-      %dt
-        SIFT Prediction (Score)
-        %a.subtle_link(target="_blank" href='http://sift.jcvi.org/www/SIFT_help.html') [?]
-      %dd
-        - case @features["SIFTscore_binned"]
-        - when "-1"
-          == Neutral (#{@features["SIFTscore"]}) 
-        - when "1"
-          == Disease (#{@features["SIFTscore"]}) 
-        - when "0"
-          == Not Predicted (#{@features["SIFTscore"]}) 
+          %dd= {1.0 => "High", 0.8 => "Medium", 0.7 => "Low"}[@other[[@protein, @mutation] * "_"]["Mutation Assessor"].to_f] || "Neutral"
 
-    %dl.sdp
-      %dt.specificity Kinase Family Subspecificity (SDP) *
-      %dd.specificity
-        %dl.sdp-values.table-display
-          %dt Wild Type
-          %dd= "%.2f" % @features["TDs_fscore_wt"].to_f
+        %dt
+          SIFT Prediction (Score)
+          %a.subtle_link(target="_blank" href='http://sift.jcvi.org/www/SIFT_help.html') [?]
+        -#%dd
+          - case @features["SIFTscore_binned"]
+          - when "-1"
+            == Neutral (#{@features["SIFTscore"]}) 
+          - when "1"
+            == Disease (#{@features["SIFTscore"]}) 
+          - when "0"
+            == Not Predicted (#{@features["SIFTscore"]}) 
 
-          %dt Mutant
-          %dd= "%.2f" % @features["TDs_fscore_mt"].to_f
+      %dl.sdp
+        %dt.specificity Kinase Family Subspecificity (SDP) *
+        %dd.specificity
+          %dl.sdp-values.table-display
+            %dt Wild Type
+            -#%dd= "%.2f" % @features["TDs_fscore_wt"].to_f
 
-          %dt Difference
-          %dd= "%.2f" % @features["TDs_fscore_diff"].to_f
+            %dt Mutant
+            -#%dd= "%.2f" % @features["TDs_fscore_mt"].to_f
 
-    %dl.kdhc.table-display
-      %dt.inline Gene Ontology Log-Odds Ratio **
-      %dd
-        == #{"%.2f" % @features["sumGOLOR"].to_f}
+            %dt Difference
+            -#%dd= "%.2f" % @features["TDs_fscore_diff"].to_f
 
-      %dt.kdhc Kyte-Doolittle Hydrophobicity Change
-      %dd.kdhc
-        == #{"%.2f" % @features["biochem_diffkdhydrophobicity"].to_f}
+      %dl.kdhc.table-display
+        %dt.inline Gene Ontology Log-Odds Ratio **
+        %dd
+          -#== #{"%.2f" % @features["sumGOLOR"].to_f}
+
+        %dt.kdhc Kyte-Doolittle Hydrophobicity Change
+        %dd.kdhc
+          -#== #{"%.2f" % @features["biochem_diffkdhydrophobicity"].to_f}
 
 
 
 
-  #residue_functional
-    %dl.functional.table-display
-      - features = %w(firedb phosphoelm swannot_ptm swannot_disulfid swannot_carbohyd swannot_act_site swannot_signal swannot_catalytic swannot_site swannot_mod_res swannot_np_bind swannot_transmem swannot_mutagen swannot_metal swannot_binding)
-      - names    = %w(FireDB PhosphoELM Post_Trans._Modification Disulfide_Bond Carbohyd Active_Site Signal_Peptide Catalytic_Site Site Modified_Residue Nucleotide_Binding Transmembrane Mutagenesis Metal_Binding Binding).collect{|v| v.gsub(/_/,' ')}
-      - trans = Hash[*features.zip(names).flatten]
-      - headers = %w( firedb phosphoelm swannot_transmem swannot_mutagen swannot_ptm swannot_catalytic )
-      - %w( firedb phosphoelm swannot_transmem swannot_mutagen swannot_ptm swannot_mod_res swannot_signal swannot_catalytic swannot_disulfid swannot_carbohyd swannot_act_site swannot_site swannot_np_bind     swannot_metal swannot_binding ).each do |key|
-        - name = trans[key]
+    #residue_functional
+      %dl.functional.table-display
+        - features = %w(firedb phosphoelm swannot_ptm swannot_disulfid swannot_carbohyd swannot_act_site swannot_signal swannot_catalytic swannot_site swannot_mod_res swannot_np_bind swannot_transmem swannot_mutagen swannot_metal swannot_binding)
+        - names    = %w(FireDB PhosphoELM Post_Trans._Modification Disulfide_Bond Carbohyd Active_Site Signal_Peptide Catalytic_Site Site Modified_Residue Nucleotide_Binding Transmembrane Mutagenesis Metal_Binding Binding).collect{|v| v.gsub(/_/,' ')}
+        - trans = Hash[*features.zip(names).flatten]
+        - headers = %w( firedb phosphoelm swannot_transmem swannot_mutagen swannot_ptm swannot_catalytic )
+        - %w( firedb phosphoelm swannot_transmem swannot_mutagen swannot_ptm swannot_mod_res swannot_signal swannot_catalytic swannot_disulfid swannot_carbohyd swannot_act_site swannot_site swannot_np_bind     swannot_metal swannot_binding ).each do |key|
+          - name = trans[key]
 
-        - case name
+          - case name
 
-        - when 'FireDB'
-          %dt{:class => (headers.include?(key) ? "" : "subfeature") }
-            = name
-            %a.subtle_link(target="_blank" href='http://firedb.bioinfo.cnio.es/Php/Help.php') [?]
+          - when 'FireDB'
+            %dt{:class => (headers.include?(key) ? "" : "subfeature") }
+              = name
+              %a.subtle_link(target="_blank" href='http://firedb.bioinfo.cnio.es/Php/Help.php') [?]
 
-        - when 'PhosphoELM'
-          %dt{:class => (headers.include?(key) ? "" : "subfeature") }
-            = name
-            %a.subtle_link(target="_blank" href='http://phospho.elm.eu.org/help.html') [?]
+          - when 'PhosphoELM'
+            %dt{:class => (headers.include?(key) ? "" : "subfeature") }
+              = name
+              %a.subtle_link(target="_blank" href='http://phospho.elm.eu.org/help.html') [?]
 
-        - when 'Transmembrane'
-          %dt{:class => (headers.include?(key) ? "" : "subfeature") }
-            = name
-            %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/transmem') [?]
+          - when 'Transmembrane'
+            %dt{:class => (headers.include?(key) ? "" : "subfeature") }
+              = name
+              %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/transmem') [?]
 
-        - when 'Mutagenesis'
-          %dt{:class => (headers.include?(key) ? "" : "subfeature") }
-            = name
-            %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/mutagen') [?]
+          - when 'Mutagenesis'
+            %dt{:class => (headers.include?(key) ? "" : "subfeature") }
+              = name
+              %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/mutagen') [?]
+              
+          - when 'Post. Trans. Modification'
+            %dt{:class => (headers.include?(key) ? "" : "subfeature") }
+              = name
+              %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/post-translational_modification') [?]
+              
+          - when 'Modified Residue'
+            %dt{:class => (headers.include?(key) ? "" : "subfeature") }
+              = name
+              %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/mod_res') [?]
+              
+          - when 'Signal Peptide'
+            %dt{:class => (headers.include?(key) ? "" : "subfeature") }
+              = name
+              %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/signal') [?]
+              
+          - when 'Disulfide Bond'
+            %dt{:class => (headers.include?(key) ? "" : "subfeature") }
+              = name
+              %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/disulfid') [?]
+              
+          - when 'Active Site'
+            %dt{:class => (headers.include?(key) ? "" : "subfeature") }
+              = name
+              %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/act_site') [?]
+              
+          - when 'Site'
+            %dt{:class => (headers.include?(key) ? "" : "subfeature") }
+              = name
+              %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/site') [?]
+              
+          - when 'Nucleotide Binding'
+            %dt{:class => (headers.include?(key) ? "" : "subfeature") }
+              = name
+              %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/np_bind') [?]
+              
+          - when 'Metal Binding'
+            %dt{:class => (headers.include?(key) ? "" : "subfeature") }
+              = name
+              %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/metal') [?]
+              
+          - when 'Binding'
+            %dt{:class => (headers.include?(key) ? "" : "subfeature") }
+              = name
+              %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/binding') [?]
+  
+          - when 'Carbohyd'
+            %dt{:class => (headers.include?(key) ? "" : "subfeature") }
+              = name
+              %a.subtle_link(target="_blank" href='') [?]
             
-        - when 'Post. Trans. Modification'
-          %dt{:class => (headers.include?(key) ? "" : "subfeature") }
-            = name
-            %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/post-translational_modification') [?]
-            
-        - when 'Modified Residue'
-          %dt{:class => (headers.include?(key) ? "" : "subfeature") }
-            = name
-            %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/mod_res') [?]
-            
-        - when 'Signal Peptide'
-          %dt{:class => (headers.include?(key) ? "" : "subfeature") }
-            = name
-            %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/signal') [?]
-            
-        - when 'Disulfide Bond'
-          %dt{:class => (headers.include?(key) ? "" : "subfeature") }
-            = name
-            %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/disulfid') [?]
-            
-        - when 'Active Site'
-          %dt{:class => (headers.include?(key) ? "" : "subfeature") }
-            = name
-            %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/act_site') [?]
-            
-        - when 'Site'
-          %dt{:class => (headers.include?(key) ? "" : "subfeature") }
-            = name
-            %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/site') [?]
-            
-        - when 'Nucleotide Binding'
-          %dt{:class => (headers.include?(key) ? "" : "subfeature") }
-            = name
-            %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/np_bind') [?]
-            
-        - when 'Metal Binding'
-          %dt{:class => (headers.include?(key) ? "" : "subfeature") }
-            = name
-            %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/metal') [?]
-            
-        - when 'Binding'
-          %dt{:class => (headers.include?(key) ? "" : "subfeature") }
-            = name
-            %a.subtle_link(target="_blank" href='http://www.uniprot.org/manual/binding') [?]
- 
-        - when 'Carbohyd'
-          %dt{:class => (headers.include?(key) ? "" : "subfeature") }
-            = name
-            %a.subtle_link(target="_blank" href='') [?]
-           
-        - else
-          %dt{:class => (headers.include?(key) ? "" : "subfeature") }= name
- 
-        - case name
-        - when 'FireDB'
-          %dd{:class => (@features[key] == "1" ? 'red' : '')}= @features[key] == "1" ?  "<a href='http://firedb.bioinfo.cnio.es/Php/FireDB.php?pdbcode=&cutoff=45&uniacc=#{@protein}&keywd=' target=_blank>Yes</a>" : "No"
-        - when 'PhosphoELM'
-          %dd{:class => (@features[key] == "1" ? 'red' : '')}= @features[key] == "1" ?  "<a href='http://phospho.elm.eu.org/cgimodel.py?accession=#{@protein}&fun=Search' target=_blank>Yes</a>" : "No"
-        - else
-          %dd{:class => (@features[key] == "1" ? 'red' : '')}= @features[key] == "1" ?   "<a href='http://www.uniprot.org/uniprot/#{@protein}#section_features' target=_blank>Yes</a>" : "No"
-
-  %p.sdp
-    \* 
-    %span(style='font-style:italic') Specificity Determining Positions (SDP)
-    are the residues that display a
-    conserved pattern coherent with the distribution of protein subfamilies,
-    this is, those residues conserved within a subfamily but different when
-    compared to sister subfamilies. For more details, refer to 
-    %a(href='http://www.ncbi.nlm.nih.gov/pubmed/20133844' target='_blank') 
-      Rausell 
-      %span(style='font-style:italic')et al.
-      , 2010.
-
-  %p.golor
-    \** 
-    %span(style='font-style:italic') The Gene Ontology Log Odds Ratio  
-
-    evaluates the annotations pathogenicity of the genes carrying the
-    mutations. The score represents the sum of the individual log-odds ratio
-    for each GO term the gene is annotated. More details in
-
-    %a(href='/kinmut.pdf' target='_blank') 
-      Izarzugaza
-      %span(style='font-style:italic')et al. 
-      , 2012 (submitted).
-
-
-
-#jmol
-  %p#jmol_loading Loading please wait
-  :javascript
-    jmolApplet(700, "", "PIZARRA");
-
-#SNP2DB
-
-  - dbs = []
-  - if snp2db.any?
-    %table#snp2db_table
-      %thead
-        %tr
-          %th Mutation
-          %th Description
-          %th Database
-      %tbody
-        - snp2db.to_a.each do |info|
-          - IndiferentHash.setup info
-          - dbs << info[:type].to_s
-
-          - case info[:type].to_s
-          - when "kinmutbase"
-            %tr
-              %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
-              %td= info[:description]
-              %td
-                %a(href="http://bioinf.uta.fi/KinMutBase/")= info[:type]
-          - when "uniprot"
-            - variant_code = [@protein, @mutation] * ":"
-            - variant_id = $uniprot_variants[@protein].zip_fields.select{|values| values["Amino Acid Mutation"] == @mutation}.collect{|values| values["UniProt Variant ID"]}
-            %tr
-              %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
-              %td= info[:description]
-              %td
-                %a(href="http://web.expasy.org/cgi-bin/variant_pages/get-sprot-variant.pl?#{variant_id}")= info[:type]
-          - when 'cosmic'
-            %tr
-              %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
-              %td= info[:description]
-              %td
-                %a(href="http://www.sanger.ac.uk/perl/genetics/CGP/cosmic?action=bygene&ln=#{@name}")= info[:type]
-          - when 'saapdb'
-            %tr
-              %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
-              %td= info[:description] == "PD" ? "Pathogenic Deviation" : info[:description]
-              %td
-                %a(href="http://www.bioinf.org.uk/saap/db/")= info[:type]
-          - when 'greenman'
-            %tr
-              %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
-              %td= info[:description]
-              %td
-                %a(href="http://www.ncbi.nlm.nih.gov/pubmed/17344846")= info[:type]
           - else
-            %tr
-              %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
-              %td= info[:description]
-              %td= info[:type]
+            %dt{:class => (headers.include?(key) ? "" : "subfeature") }= name
+  
+          - case name
+          - when 'FireDB'
+            -#%dd{:class => (@features[key] == "1" ? 'red' : '')}= @features[key] == "1" ?  "<a href='http://firedb.bioinfo.cnio.es/Php/FireDB.php?pdbcode=&cutoff=45&uniacc=#{@protein}&keywd=' target=_blank>Yes</a>" : "No"
+          - when 'PhosphoELM'
+            -#%dd{:class => (@features[key] == "1" ? 'red' : '')}= @features[key] == "1" ?  "<a href='http://phospho.elm.eu.org/cgimodel.py?accession=#{@protein}&fun=Search' target=_blank>Yes</a>" : "No"
+          - else
+            -#%dd{:class => (@features[key] == "1" ? 'red' : '')}= @features[key] == "1" ?   "<a href='http://www.uniprot.org/uniprot/#{@protein}#section_features' target=_blank>Yes</a>" : "No"
 
- 
-  - if dbs.include? "saapdb"
-    %p.saapdb
-      %span(style='font-style:italic') SAAPdb:
+    %p.sdp
+      \* 
+      %span(style='font-style:italic') Specificity Determining Positions (SDP)
+      are the residues that display a
+      conserved pattern coherent with the distribution of protein subfamilies,
+      this is, those residues conserved within a subfamily but different when
+      compared to sister subfamilies. For more details, refer to 
+      %a(href='http://www.ncbi.nlm.nih.gov/pubmed/20133844' target='_blank') 
+        Rausell 
+        %span(style='font-style:italic')et al., 2010.
 
-      SAAPdb links Single Nucleotide Polymorphisms (SNPs) to phenotype
-      alterations. SNP data is linked to a gene sequence, to determine whether
-      the mutation occurred in a coding region; if so, the protein sequence and
-      the mutated variations are displayed. When available, links to structural
-      data are also provided.
+    %p.golor
+      \** 
+      %span(style='font-style:italic') The Gene Ontology Log Odds Ratio  
 
-      %a(href='http://www.ncbi.nlm.nih.gov/pubmed/19191322' target='_blank') 
-        Hurst
-        %span(style='font-style:italic')et al.
-        , 2010.
+      evaluates the annotations pathogenicity of the genes carrying the
+      mutations. The score represents the sum of the individual log-odds ratio
+      for each GO term the gene is annotated. More details in
 
-   
-  - if dbs.include? "cosmic"
-    %p.cosmic
-      %span(style='font-style:italic') COSMIC:
-
-      COSMIC is designed to store and display somatic mutation information and
-      related details and contains information relating to human cancers. The
-      mutation data and associated information is extracted from the primary
-      literature and entered into the COSMIC database. In order to provide a
-      consistent view of the data a histology and tissue ontology has been
-      created and all mutations are mapped to a single version of each gene.  The
-      data can be queried by tissue, histology or gene and displayed as a graph,
-      as a table or exported in various formats
-
-      %a(href='http://www.ncbi.nlm.nih.gov/pubmed/20952405' target='_blank') 
-        Forbes
-        %span(style='font-style:italic')et al.
-        , 2011.
-   
-  - if dbs.include? "uniprot"
-    %p.uniprot
-      %span(style='font-style:italic') Uniprot:
-
-      The Universal Protein Resource (UniProt) is a comprehensive resource for
-      protein sequence and annotation data.
-
-      %a(href='http://www.ncbi.nlm.nih.gov/pubmed/19426475' target='_blank') 
-        Jain
-        %span(style='font-style:italic')et al.
-        , 2009.
-   
-  - if dbs.include? "kinmutbase"
-    %p.kinmutbase
-      %span(style='font-style:italic') KinMutBase:
-
-      KinMutBase is a comprehensive database of disease-causing mutations in
-      protein kinase domains. The current release of the database contains 582
-      mutations in 20 tyrosine kinase domains and 13 serine/threonine kinase
-      domains. The database refers 1790 cases from 1322 families
-
-      %a(href='http://www.ncbi.nlm.nih.gov/pubmed/15832311' target='_blank') 
-        Ortutay
-        %span(style='font-style:italic')et al.
-        , 2005.
+      %a(href='http://www.biomedcentral.com/1471-2164/13/S4/S3' target='_blank') 
+        Izarzugaza
+        %span(style='font-style:italic')et al., BMC Genomics (2012)
 
 
-#SNP2L
-  - if snp2l.any?
-    %table#snp2l_table
-      %thead
-        %tr
-          %th Mutation
-          %th PMID
-          %th Content
-          %th Comments
-      %tbody
-      - snp2l.to_a.each do |info|
-        - IndiferentHash.setup info
-        %tr
-          %td
-            - original, new = info.values_at :old_position, :new_position
-            - if original != new
-              == #{[info[:wt_aa], new, info[:mutant_aa]] * ""} (adjusted from: #{[info[:wt_aa], original, info[:mutant_aa]] * ""})
+
+  #jmol
+    %p#jmol_loading Loading please wait
+    :javascript
+      jmolApplet(700, "", "PIZARRA");
+
+  #SNP2DB
+
+    - dbs = []
+    -# if snp2db.any?
+      %table#snp2db_table
+        %thead
+          %tr
+            %th Mutation
+            %th Description
+            %th Database
+        %tbody
+          - snp2db.to_a.each do |info|
+            - IndiferentHash.setup info
+            - dbs << info[:type].to_s
+
+            - case info[:type].to_s
+            - when "kinmutbase"
+              %tr
+                %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
+                %td= info[:description]
+                %td
+                  %a(href="http://bioinf.uta.fi/KinMutBase/")= info[:type]
+            - when "uniprot"
+              - variant_code = [@protein, @mutation] * ":"
+              - variant_id = $uniprot_variants[@protein].zip_fields.select{|values| values["Amino Acid Mutation"] == @mutation}.collect{|values| values["UniProt Variant ID"]}
+              %tr
+                %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
+                %td= info[:description]
+                %td
+                  %a(href="http://web.expasy.org/cgi-bin/variant_pages/get-sprot-variant.pl?#{variant_id}")= info[:type]
+            - when 'cosmic'
+              %tr
+                %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
+                %td= info[:description]
+                %td
+                  %a(href="http://www.sanger.ac.uk/perl/genetics/CGP/cosmic?action=bygene&ln=#{@name}")= info[:type]
+            - when 'saapdb'
+              %tr
+                %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
+                %td= info[:description] == "PD" ? "Pathogenic Deviation" : info[:description]
+                %td
+                  %a(href="http://www.bioinf.org.uk/saap/db/")= info[:type]
+            - when 'greenman'
+              %tr
+                %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
+                %td= info[:description]
+                %td
+                  %a(href="http://www.ncbi.nlm.nih.gov/pubmed/17344846")= info[:type]
             - else
-              = [info[:wt_aa], original, info[:mutant_aa]] * ""
-          %td
-            %a(href="http://www.ncbi.nlm.nih.gov/pubmed/#{info[:pubmed_id]}")= info[:pubmed_id]
-          - synonyms = Organism::Hsa.identifiers.tsv(:key_field => "UniProt/SwissProt Accession", :persist => true)[@protein].flatten.compact.uniq.reject{|n| n.length < 3}.collect{|name| name.sub(/(\d+)/, ' *\1')}
-          - synonyms << @protein
-          - synonyms << @name
-          - synonyms.uniq.sort_by{|n| n.length}.reverse
-          %td= info[:line_content].gsub(/\b(#{synonyms * "|"})\b/, '<named_entity class="gene">\1</named_entity>').gsub(/\b([A-Z](?:[a-z][a-z])?\d+[A-Z](?:[a-z][a-z])?)\b/,'<named_entity class="mutation">\1</named_entity>')
+              %tr
+                %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
+                %td= info[:description]
+                %td= info[:type]
 
-          %td
-            - if original != new
-              == adjusted from: #{[info[:wt_aa], original, info[:mutant_aa]] * ""} by #{info[:type]}
+  
+    - if dbs.include? "saapdb"
+      %p.saapdb
+        %span(style='font-style:italic') SAAPdb:
 
-  %span(style='font-style: italic')
-    %span(style='font-weight: bold') Disclaimer:
-    These information has been extracted automatically from
-    the literature with SNP2L, although it has proved to be a powerful guide to
-    gather contextual information about protein kinase mutations, manual
-    inspection of these results might be required. Refer to 
-    %a(href='http://www.ncbi.nlm.nih.gov/pubmed/19758464' target='_blank')
-      Krallinger 
-      %span(style='font-style: italic') et al.
-      2009 
-    for further details. 
+        SAAPdb links Single Nucleotide Polymorphisms (SNPs) to phenotype
+        alterations. SNP data is linked to a gene sequence, to determine whether
+        the mutation occurred in a coding region; if so, the protein sequence and
+        the mutated variations are displayed. When available, links to structural
+        data are also provided.
+
+        %a(href='http://www.ncbi.nlm.nih.gov/pubmed/19191322' target='_blank') 
+          Hurst
+          %span(style='font-style:italic')et al.
+          , 2010.
+
+    
+    - if dbs.include? "cosmic"
+      %p.cosmic
+        %span(style='font-style:italic') COSMIC:
+
+        COSMIC is designed to store and display somatic mutation information and
+        related details and contains information relating to human cancers. The
+        mutation data and associated information is extracted from the primary
+        literature and entered into the COSMIC database. In order to provide a
+        consistent view of the data a histology and tissue ontology has been
+        created and all mutations are mapped to a single version of each gene.  The
+        data can be queried by tissue, histology or gene and displayed as a graph,
+        as a table or exported in various formats
+
+        %a(href='http://www.ncbi.nlm.nih.gov/pubmed/20952405' target='_blank') 
+          Forbes
+          %span(style='font-style:italic')et al.
+          , 2011.
+    
+    - if dbs.include? "uniprot"
+      %p.uniprot
+        %span(style='font-style:italic') Uniprot:
+
+        The Universal Protein Resource (UniProt) is a comprehensive resource for
+        protein sequence and annotation data.
+
+        %a(href='http://www.ncbi.nlm.nih.gov/pubmed/19426475' target='_blank') 
+          Jain
+          %span(style='font-style:italic')et al.
+          , 2009.
+    
+    - if dbs.include? "kinmutbase"
+      %p.kinmutbase
+        %span(style='font-style:italic') KinMutBase:
+
+        KinMutBase is a comprehensive database of disease-causing mutations in
+        protein kinase domains. The current release of the database contains 582
+        mutations in 20 tyrosine kinase domains and 13 serine/threonine kinase
+        domains. The database refers 1790 cases from 1322 families
+
+        %a(href='http://www.ncbi.nlm.nih.gov/pubmed/15832311' target='_blank') 
+          Ortutay
+          %span(style='font-style:italic')et al.
+          , 2005.
 
 
-#IHOP
+  #SNP2L
+    -# if snp2l.any?
+      %table#snp2l_table
+        %thead
+          %tr
+            %th Mutation
+            %th PMID
+            %th Content
+            %th Comments
+        %tbody
+        - snp2l.to_a.each do |info|
+          - IndiferentHash.setup info
+          %tr
+            %td
+              - original, new = info.values_at :old_position, :new_position
+              - if original != new
+                == #{[info[:wt_aa], new, info[:mutant_aa]] * ""} (adjusted from: #{[info[:wt_aa], original, info[:mutant_aa]] * ""})
+              - else
+                = [info[:wt_aa], original, info[:mutant_aa]] * ""
+            %td
+              %a(href="http://www.ncbi.nlm.nih.gov/pubmed/#{info[:pubmed_id]}")= info[:pubmed_id]
+            - synonyms = Organism::Hsa.identifiers.tsv(:key_field => "UniProt/SwissProt Accession", :persist => true)[@protein].flatten.compact.uniq.reject{|n| n.length < 3}.collect{|name| name.sub(/(\d+)/, ' *\1')}
+            - synonyms << @protein
+            - synonyms << @name
+            - synonyms.uniq.sort_by{|n| n.length}.reverse
+            %td= info[:line_content].gsub(/\b(#{synonyms * "|"})\b/, '<named_entity class="gene">\1</named_entity>').gsub(/\b([A-Z](?:[a-z][a-z])?\d+[A-Z](?:[a-z][a-z])?)\b/,'<named_entity class="mutation">\1</named_entity>')
 
-  %p#loading Loading. Please Wait.
+            %td
+              - if original != new
+                == adjusted from: #{[info[:wt_aa], original, info[:mutant_aa]] * ""} by #{info[:type]}
 
-  %span(style='font-style: italic')
-    %span(style='font-weight: bold') Disclaimer:
+    %span(style='font-style: italic')
+      %span(style='font-weight: bold') Disclaimer:
+      These information has been extracted automatically from
+      the literature with SNP2L, although it has proved to be a powerful guide to
+      gather contextual information about protein kinase mutations, manual
+      inspection of these results might be required. Refer to 
+      %a(href='http://www.ncbi.nlm.nih.gov/pubmed/19758464' target='_blank')
+        Krallinger 
+        %span(style='font-style: italic') et al.
+        2009 
+      for further details. 
 
-    These literature co-mentions have been extracted automatically from the literature with 
-    %a(href='http://www.ihop-net.org' target='_blank') iHop.
-    Although it has proved to be a powerful guide to gather contextual
-    information, manual inspection of these results might be required. Refer to
-    %a(href='http://www.nature.com/ng/journal/v36/n7/full/ng0704-664.html' target='_blank') Hoffmann and Valencia, 2004
-    for further details.
- 
-:javascript
-  tabs($('div.tabs'))
-  $('#goterms,#snp2db_table,#snp2l_table').tablesorter({widgets: ['zebra']});
 
-  function unique(arrayName) {
-    var newArray=new Array();
-    label:for(var i=0; i<arrayName.length;i++ ){  
-      for(var j=0; j<newArray.length;j++ ){ 
-      if(newArray[j]==arrayName[i]) 
-        continue label;
-      }
-      newArray[newArray.length] = arrayName[i];
-    }
-    return newArray;
-  }
+  #IHOP
 
-  $.ajax({url: '/sentences/#{@protein}', success: function(data){
-    $('p#loading').replaceWith(data);
+    %p#loading Loading. Please Wait.
 
-    var num_sentences = $('ihopsentence').length;
-    var synonyms = [];
+    %span(style='font-style: italic')
+      %span(style='font-weight: bold') Disclaimer:
 
-    $('a.ihop').html("IHOP (" + num_sentences + ")");
+      These literature co-mentions have been extracted automatically from the literature with 
+      %a(href='http://www.ihop-net.org' target='_blank') iHop.
+      Although it has proved to be a powerful guide to gather contextual
+      information, manual inspection of these results might be required. Refer to
+      %a(href='http://www.nature.com/ng/journal/v36/n7/full/ng0704-664.html' target='_blank') Hoffmann and Valencia, 2004
+      for further details.
+  
+  :javascript
+    tabs($('div.tabs'))
+    $('#goterms,#snp2db_table,#snp2l_table').tablesorter({widgets: ['zebra']});
 
-    $('ihopsentence').each(function(){
-      var sentence = $(this);
-      var pmid = sentence.attr('pmid');
-
-      sentence.find('ihopatom').each(function(){
-        var atom = $(this);
-        var evidence = atom.find('evidence');
-        var id = evidence.attr('id')
-        atom.children().remove()
-        if (evidence.attr('symbol') == '#{@name}'){
-          atom.addClass('main');
-          synonyms.push(atom.html());
+    function unique(arrayName) {
+      var newArray=new Array();
+      label:for(var i=0; i<arrayName.length;i++ ){  
+        for(var j=0; j<newArray.length;j++ ){ 
+        if(newArray[j]==arrayName[i]) 
+          continue label;
         }
-        atom.attr('id', id);
-      })
-
-      var new_html = '[<a href="http://www.ncbi.nlm.nih.gov/pubmed/' + pmid + '">PMID: ' + pmid + '</a>] ' + sentence.html();
-      sentence.html(new_html);
-
-      sentence.find('ihopatom[id]').click(function(){
-        var id = $(this).attr('id');
-        var url = "http://www.ihop-net.org/UniPub/iHOP/gs/" + id + ".html"
-        window.open(url, 'blank');
-      })
-      
-
-    })
-
-    synonyms = unique(synonyms.sort());
-
-    $('div#IHOP').prepend("<p style='font-style:italic'><span style='font-weight:bold'>Synonyms: </span>" + synonyms.join(", ") + '</p>');
-  }})
-
-  $.ajax({url: '/jmol/#{@protein}/#{position}', success: function(data){
-    $('p#jmol_loading').replaceWith(data);
-    var pdbs = $('#jmol').find('option.pdb').length;
-    if (pdbs > 0){
-      $('a.jmol').html("Structures (" + pdbs + ")");
-    }else{
-      $('a.jmol').html("Structures (0)");
-      $('#jmolAppletPIZARRA').remove();
-      $('#jmol').html('No structures overlapping this mutation');
+        newArray[newArray.length] = arrayName[i];
+      }
+      return newArray;
     }
-  }})
+
+    $.ajax({url: '/sentences/#{@protein}', success: function(data){
+      $('p#loading').replaceWith(data);
+
+      var num_sentences = $('ihopsentence').length;
+      var synonyms = [];
+
+      $('a.ihop').html("IHOP (" + num_sentences + ")");
+
+      $('ihopsentence').each(function(){
+        var sentence = $(this);
+        var pmid = sentence.attr('pmid');
+
+        sentence.find('ihopatom').each(function(){
+          var atom = $(this);
+          var evidence = atom.find('evidence');
+          var id = evidence.attr('id')
+          atom.children().remove()
+          if (evidence.attr('symbol') == '#{@name}'){
+            atom.addClass('main');
+            synonyms.push(atom.html());
+          }
+          atom.attr('id', id);
+        })
+
+        var new_html = '[<a href="http://www.ncbi.nlm.nih.gov/pubmed/' + pmid + '">PMID: ' + pmid + '</a>] ' + sentence.html();
+        sentence.html(new_html);
+
+        sentence.find('ihopatom[id]').click(function(){
+          var id = $(this).attr('id');
+          var url = "http://www.ihop-net.org/UniPub/iHOP/gs/" + id + ".html"
+          window.open(url, 'blank');
+        })
+        
+
+      })
+
+      synonyms = unique(synonyms.sort());
+
+      $('div#IHOP').prepend("<p style='font-style:italic'><span style='font-weight:bold'>Synonyms: </span>" + synonyms.join(", ") + '</p>');
+    }})
+
+    $.ajax({url: '/jmol/#{@protein}/#{position}', success: function(data){
+      $('p#jmol_loading').replaceWith(data);
+      var pdbs = $('#jmol').find('option.pdb').length;
+      if (pdbs > 0){
+        $('a.jmol').html("Structures (" + pdbs + ")");
+      }else{
+        $('a.jmol').html("Structures (0)");
+        $('#jmolAppletPIZARRA').remove();
+        $('#jmol').html('No structures overlapping this mutation');
+      }
+    }})
 

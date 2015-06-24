@@ -4,11 +4,9 @@ require 'rbbt/resource'
 require 'rbbt/util/cmd'
 require 'rbbt/sources/organism'
 require 'rbbt/sources/uniprot'
-require 'rbbt/entity/mutated_isoform'
 require 'nokogiri'
 require 'pg'
-
-
+require 'mysql'
 
 $uniprot_variants = UniProt.annotated_variants.tsv :persist => true
 
@@ -20,6 +18,10 @@ module Kinase
   class << self
     include LocalPersist
     local_persist_dir = File.join(File.dirname(__FILE__), '../cache')
+  end
+
+  def self.organism
+    Organism.default_code("Hsa")
   end
 
   def self.pdb_position(uniprot, position)
@@ -34,6 +36,58 @@ module Kinase
   end
 
   Kinase.software.opt.svm_light.claim :install, Rbbt.share.install.software.svm_light.find
+
+  module MySql
+    HOST = 'padme'
+    PORT = nil
+    OPTIONS = nil
+    TTY = nil
+    DBNAME = 'tm_kinase_muts'
+    PDBNAME = 'kinmut'
+    def self.kindriver_driver
+      @kindriver_driver ||= Object::Mysql.new('jabba.cnio.es', 'kindriver', 'kindriver', 'kindriver_db')
+    end
+
+
+    def self.snp2kin_driver(uniprot, change)
+      uni_id = Organism.protein_identifiers(Kinase.organism).index(:target => "UniProt/SwissProt ID", :source => "UniProt/SwissProt Accession", :persist => true)[uniprot]
+      raise "No UniProt/SwissProt Identifiers for accession: #{uniprot}" unless uni_id
+      mutation_id = [uni_id, change] * "."
+      query =<<-EOT
+SELECT
+     m.mutant_id,
+     m.rel_freq,
+     m.validation,
+     d.disease_desc,
+     s.histology,
+     s.cosmic_mut_id,
+     s.pubmed_id,
+     r.pubmed_id
+FROM
+     Samples as s,
+     Mutant as m,
+     Disease as d,
+     Mutant_has_Reference as r
+WHERE 
+     m.mutant_id="#{mutation_id}" AND
+     r.mutant_id=m.mutant_id AND
+     m.disease_id=d.disease_id AND
+     s.mutant_id=m.mutant_id
+;
+      EOT
+
+      begin
+        res = kindriver_driver.query(query)
+      rescue Exception
+        Log.exception $!
+        @kindriver_driver = nil
+        sleep 1
+        retry
+      end
+
+      res
+    end
+  end
 
   module Postgres
     HOST = 'padme'
@@ -188,6 +242,8 @@ ed.type = 'uniprot'
       TSV.open data["KinaseAccessions_Group_Seqs.txt"].find, :type => :single, :fields => [2]
     end.tap{|o| o.unnamed = true; o}
 
+    return false if @@sequences[protein].nil?
+
     if pos.to_i > @@sequences[protein].length
       real_wt = nil
     else
@@ -306,8 +362,9 @@ ed.type = 'uniprot'
   task :patterns => :string do
     error_file = TmpFile.tmp_file
     patterns = CMD.cmd("perl -I '#{Kinase.bin.find}' '#{Kinase['bin/PatternGenerator.pl'].find}' '#{ step("input").path }' #{Kinase["etc/feature.number.list"].find} 2> '#{error_file}'").read
-    if Open.read(error_file).any? and Open.read(error_file) =~ /is not a valid/
-        set_info :filtered_out, Open.read(error_file).split(/\n/).select{|l| l =~ /is not a valid/}.collect{|l| l.match(/(\w*) is not a valid/)[1]}
+    error_text = Open.read(error_file)
+    if not error_text.empty? and error_text =~ /is not a valid/
+        set_info :filtered_out, error_text.split(/\n/).select{|l| l =~ /is not a valid/}.collect{|l| l.match(/(\w*) is not a valid/)[1]}
     else
       set_info :filtered_out, []
     end
@@ -331,33 +388,6 @@ ed.type = 'uniprot'
   task :other_predictors => :tsv do
     tsv = TSV.setup({}, :key_field => "Mutation", :fields => ["SIFT Score", "Mutation Assessor Score"], :type => :list)
 
-    #@@index ||= Organism::Hsa.protein_identifiers.index :target => "Ensembl Protein ID", :fields => ["UniProt/SwissProt Accession"], :persist => true
-    #@@index.unnamed = true
-
-    #translations = {}
-    #mutated_isoforms = step(:input).load.split("\n").collect do |line|
-    #  next unless line.match(/(.*)_(.*)/)
-    #  uniprot, mutation = $1, $2
-    #  next if not @@index.include? uniprot
-    #  ensembl = @@index[uniprot].first
-
-    #  mutated_isoform = [ensembl, mutation] * ":"
-    #  translations[mutated_isoform] = line.chomp
-    #  mutated_isoform
-    #end.compact
-
-    #MutatedIsoform.setup(mutated_isoforms, 'Hsa')
-
-    #sift_scores = Misc.process_to_hash(mutated_isoforms){|list| list.sift_scores}
-    #ma_scores = Misc.process_to_hash(mutated_isoforms){|list| list.mutation_assessor_scores}
-
-
-    #mutated_isoforms.each do |mu|
-    #  orig = translations[mu]
-    #  next if orig.nil?
-    #  tsv[orig] = [sift_scores[mu], ma_scores[mu]]
-    #end
-    
     tsv
   end
 
@@ -369,5 +399,6 @@ ed.type = 'uniprot'
 end
 
 if __FILE__ == $0
-  puts Kinase.job(:other_predictors, '', :list => [ "INSR_HUMAN_R279C"] * "\n").clean.run
+  uniprot, change= %w(P07949 A883F)
+  Kinase::MySql.snp2kin_driver(uniprot, change).each do |r| iii r end
 end
