@@ -1,0 +1,71 @@
+
+:sass
+  ihopatom.main
+    color: red
+
+#IHOP
+
+  .ui.message
+    These literature co-mentions have been extracted automatically from the literature with 
+    %a(href='http://www.ihop-net.org' target='_blank') iHop.
+    Although it has proved to be a powerful guide to gather contextual
+    information, manual inspection of these results might be required. Refer to
+    %a(href='http://www.nature.com/ng/journal/v36/n7/full/ng0704-664.html' target='_blank') Hoffmann and Valencia, 2004
+    for further details.
+
+  %p#loading Loading. Please Wait.
+
+
+  :javascript
+    function unique(arrayName) {
+      var newArray=new Array();
+      label:for(var i=0; i<arrayName.length;i++ ){  
+        for(var j=0; j<newArray.length;j++ ){ 
+        if(newArray[j]==arrayName[i]) 
+          continue label;
+        }
+        newArray[newArray.length] = arrayName[i];
+      }
+      return newArray;
+    }
+
+    $.ajax({url: '/sentences/#{@protein}', success: function(data){
+      $('p#loading').replaceWith(data);
+
+      var num_sentences = $('ihopsentence').length;
+      var synonyms = [];
+
+      $('a.ihop').html("IHOP (" + num_sentences + ")");
+
+      $('ihopsentence').each(function(){
+        var sentence = $(this);
+        var pmid = sentence.attr('pmid');
+
+        sentence.find('ihopatom').each(function(){
+          var atom = $(this);
+          var evidence = atom.find('evidence');
+          var id = evidence.attr('id')
+          atom.children().remove()
+          if (evidence.attr('symbol') == '#{@name}'){
+            atom.addClass('main');
+            synonyms.push(atom.html());
+          }
+          atom.attr('id', id);
+        })
+
+        var new_html = '[<a href="http://www.ncbi.nlm.nih.gov/pubmed/' + pmid + '">PMID: ' + pmid + '</a>] ' + sentence.html();
+        sentence.html(new_html);
+
+        sentence.find('ihopatom[id]').click(function(){
+          var id = $(this).attr('id');
+          var url = "http://www.ihop-net.org/UniPub/iHOP/gs/" + id + ".html"
+          window.open(url, 'blank');
+        })
+        
+
+      })
+
+      synonyms = unique(synonyms.sort());
+
+      $('div#IHOP .ui.message').after("<p style='font-style:italic'><span style='font-weight:bold'>Synonyms: </span>" + synonyms.join(", ") + '</p>');
+    }})

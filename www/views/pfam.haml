@@ -1,0 +1,36 @@
+
+#domain
+  %h3
+    == PFAM domain information for protein
+    %a(href=" http://pfam.sanger.ac.uk/protein/#{protein}")= protein
+
+  - if domains.any?
+    %dl.pfam
+      - domains.each do |domain|
+        %p
+          Mutation located in the following domain:
+          %dt
+            = $pfam_info[domain]["Name"]
+            (
+            %a(href="http://pfam.sanger.ac.uk/family/#{domain}" target="_blank")= domain
+            )
+          %dd= $pfam_info[domain]["Description"]
+        
+        %hr
+
+        .jalview
+          %applet(code="jalview.bin.JalviewLite" width="780" height="550" archive="http://pfam.sanger.ac.uk/shared/jalview/jalviewApplet.jar")
+            %param(name="file" value="http://pfam.sanger.ac.uk/family/#{domain}/alignment/seed/format" )
+            %param(name="defaultColour" value="Clustal" )
+            %param(name="linkLabel_1" value="UniProt" )
+            %param(name="linkUrl_1" value="http://www.uniprot.org/uniprot/$SEQUENCE_ID$" )
+            %param(name="linkLabel_2" value="Pfam sequence page" )
+            %param(name="linkUrl_2" value="http://pfam.sanger.ac.uk/protein/$SEQUENCE_ID$" )
+            %param(name="database" value="pfamseq" )
+            %param(name="embedded" value="true" ) 
+            %param(name="nojmol" value="true" )
+
+  - else
+    %h4 No Pfam Domain Directly Affected
+  
+

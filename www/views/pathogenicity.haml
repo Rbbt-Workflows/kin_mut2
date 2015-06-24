@@ -1,0 +1,263 @@
+:sass
+  .important.red
+    color: red !important
+  .important.orange
+    color: orange !important
+  .important.green
+    color: green !important
+  dd.slim 
+    width: 100px
+    + dd
+      width: 400px
+  dl.two_column
+    clear: both
+    &:after
+      content: ""
+      clear: both
+  dl.score
+    + dl
+      clear: both
+  #pathogenicity
+    .header.predictor
+      font-weight: bold
+    .ui.divider
+      clear: both
+- predictor_url = {}
+- predictor_url["SIFT"] = "http://sift.jcvi.org/www/SIFT_help.html"
+- predictor_url["PPH2"] = "http://genetics.bwh.harvard.edu/pph2/dokuwiki/"
+- predictor_url["MutationTaster"] = "http://www.mutationtaster.org/info/FAQs.html"
+- predictor_url["Mutation Assessor"] = "http://mutationassessor.org/howitworks.php"
+- predictor_url["FATHMM"] = "http://fathmm.biocompute.org.uk/about.html"
+- predictor_url["VEST3"] = "http://karchinlab.org/apps/appVest.html "
+- predictor_url["CADD"] = "http://cadd.gs.washington.edu/info"
+#pathogenicity.ui.container.sixteen.wide.column
+  .ui.message
+    :documentation
+
+      KinMut Random Forest is a method specific for prediction of the pathogenicity
+      of mutations affecting the protein kinase superfamily. It characterizes the
+      mutations at the gene, domain and residue level with a combination of general
+      and kinase-specific features. The pathogenicity of mutations is evaluated by a
+      random forest algorithm. Predictions are accompanied with a reliability score.
+      Our approach outperforms available methods in a cross-validation experiment on
+      the 3689 kinase mutations in Uniprot. (Accuracy: 88.45%, Precision: 81.62%,
+      recall: 75.22%, f-score: 78.29% and MCC: 0.68)
+
+
+  #pathogenicity_kinmut.ui.card.full_width.blue
+    .content
+      .header
+        KinMut Random Forest
+
+      - score = result["Score"].first
+      - prediction = result["Prediction"].first
+      - score = score.to_f * -1 if prediction == 'neutral'
+      disease if score >0, neutral if score <0
+
+      .content
+
+        %dl.functional.two_column.score
+
+          %dt Score
+          %dd= score
+
+          %dt Prediction
+          %dd
+            - if prediction == 'disease'
+              %span.meta.important.red== #{prediction} 
+            - else
+              %span.meta.important.green== #{prediction}
+        
+        %hr.ui.divider
+
+        %dl.functional.two_column
+
+          - feature_fields = %w(group_lor sumGOlor domain_lor volume cbetabranching hydrophobicity formal_charge firedb phosphoelm any_uniprot act_site binding carbohyd disulfid metal mod_res np_bind repeat signal site transmem zn_fing sift) 
+          - names = ["Group log-odds ratio", "GO log-odds ratio", "Domain log-odds ratio", "Volume", "C-beta branching", "Kyte-Doolittle Hydrophobicity", "Formal charge", "FireDB residue", "PhosphoELM residue", "Uniprot residue", "Active site", "Binding", "Carbohydrate", "Disulfide", "Metal", "Modified residue", "NP Binding", "Repeat", "Signal", "Site", "Trans-membrane", "Zinc finger", "SIFT conservation"] 
+          - trans = Hash[*feature_fields.zip(names).flatten]
+
+          - headers =%w(group_lor hydrophobicity sumGOlor volume domain_lor cbetabranching) + feature_fields
+          - headers.uniq!
+          - headers.delete "sift"
+          - headers.delete "domain_lor"
+
+          - headers.each do |field|
+            - feature = features[field]
+            - feature = case feature
+              - when "TRUE"
+                - "Yes"
+              - when "FALSE"
+                - "No"
+              - when /^[0-9]+$/
+                - feature.to_i
+              - when /^[0-9]+\.[0-9]+$/
+                - "%.3g" % feature.to_f
+              - else
+                - feature
+
+            %dt= trans[field]
+            %dd= feature
+
+    - domains.select!{|domain| $domains_lor[domain]} if domains
+    - if domains and domains.any?
+      #pathogenicity_kinmut.ui.card.full_width
+        .content
+          .header
+            Affected protein domains
+          .content
+            %table.ui.table.two_column
+              %thead
+                %tr
+                  %th Domain
+                  %th Log odds ratio
+              -domains.each do |domain|
+                - next unless $domains_lor[domain]
+                %tr
+                  %td= domain
+                  %td= $domains_lor[domain]
+
+
+  #pathogenicity_other.ui.card.full_width
+
+    - predictors = %w(SIFT Polyphen2_HDIV Polyphen2_HVAR MutationTaster MutationAssessor FATHMM LRT VEST3 CADD )
+    - thresholds = %w( <0.05 >0.957,0.453 >0.909,0.447 <0.5 >3.5,1.9 <-1.5 - >0.8 >3.5   )
+    .content
+
+      .header
+        Other predictors (dbNSFP)
+        %a.subtle_link(target="_blank" href='https://sites.google.com/site/jpopgen/dbNSFP') 
+          %i.ui.external.link.icon
+      .content
+        - if @fixed_position != @position
+          .ui.message.blue
+            Mutation position corrected to #{@fixed_position} in #{ensp}
+        - ensp = @ensp
+        - mutation = MutatedIsoform.setup([ensp,@fixed_mutation] * ":", KinMut2.organism)
+        - values = mutation.dbNSFP
+        - if values.nil?
+          %p.column.full_width.two_column
+            Precomputed prediction not found on dbNSFP for #{mutation}
+
+        - else
+          - predictors.each_with_index do |predictor,i|
+            - next if predictor == "LRT"
+            - raw, score, converted, rankscore, raw_rankscore, converted_rankscore, prediction = nil
+            - threshold = thresholds[i]
+            - raw = values[predictor + '_raw'] if values.fields.include? predictor + '_raw'
+            - score = values[predictor + '_score'] if values.fields.include? predictor + '_score'
+            - score = nil if String === score and score.empty?
+            - score = raw if score.nil?
+            - converted = values[predictor + '_converted_score'] if values.fields.include? predictor + '_converted_score'
+            - rankscore = values[predictor + '_rankscore'] if values.fields.include? predictor + '_rankscore'
+            - raw_rankscore = values[predictor + '_raw_rankscore'] if values.fields.include? predictor + '_raw_rankscore'
+            - converted_rankscore = values[predictor + '_converted_rankscore'] if values.fields.include? predictor + '_converted_rankscore'
+            - if score and threshold != '-'
+              - prediction = case threshold
+                - when /^<(.*)/
+                  - ths = $1.split(",")
+                  - ths.inject(0){|acc,e| acc += 1 if score.to_f < e.to_f; acc}.to_f/ths.length
+                - when /^>(.*)/
+                  - ths = $1.split(",")
+                  - ths.inject(0){|acc,e| acc += 1 if score.to_f > e.to_f; acc}.to_f/ths.length
+                - else
+                  - nil
+
+            .content.ui.segment
+              .header.predictor
+                = predictor
+                %a.subtle_link(target="_blank" href='#{predictor_url[predictor]}') 
+                  %i.ui.external.link.icon
+
+              .description
+                - dir = threshold[0]
+                - parts = threshold[1..-1].split(",")
+                - if parts.length == 1
+                  disease if score #{threshold}
+                - if parts.length == 2
+                  possible if #{dir}#{parts.last}, disease if #{dir}#{parts.first}
+
+              %dl.two_column
+
+                %dt Score
+                %dd
+                  = score || raw
+                  - if converted
+                    (converted: #{converted})
+
+                %dt Prediction
+                %dd
+                  - if prediction
+                    - case prediction 
+                    - when 1
+                      %span.important.red disease
+                    - when 0
+                      %span.important.green neutral
+                    - when 1.0/2
+                      %span.important.orange possible
+                  - else
+                    NA
+  
+
+  .references
+    .reference
+      %span.keyword CADD
+      %span.url
+        %a(href="http://cadd.gs.washington.edu/info")
+          %span.authors.etal Kircher
+          %span.year (2014)
+      %span.journal Nature Genetics
+      %span.location 46(3):310-5
+
+    .reference
+      %span.keyword FATHMM
+      %span.url
+        %a(href="http://fathmm.biocompute.org.uk")
+          %span.authors.etal Shihab 
+          %span.year (2013)
+      %span.journal Human Mutation
+      %span.location 34(1):57-65
+
+    .reference
+      %span.keyword   VEST3
+      %span.url
+        %a(href="http://www.ncbi.nlm.nih.gov/pubmed/23819870")
+          %span.authors.etal   Carter
+          %span.year   (2013)
+      %span.journal   BMC Genomics
+      %span.location   14(3):1-16
+      
+    .reference
+      %span.keyword   Mutation Assessor
+      %span.url
+        %a(href="http://nar.oxfordjournals.org/content/early/2011/07/03/nar.gkr407.long")
+          %span.authors.etal   Reva
+          %span.year   (2011)
+      %span.journal   Nucleic Acids Research
+      %span.location   1-14
+      
+    .reference
+      %span.keyword   Mutation Taster
+      %span.url
+        %a(href="http://www.nature.com/nmeth/journal/v11/n4/full/nmeth.2890.html")
+          %span.authors.etal   Schwarz
+          %span.year   (2014)
+      %span.journal   Nature Methods
+      %span.location   11, 361-362
+      
+    .reference
+      %span.keyword   Polyphen2
+      %span.url
+        %a(href="http://www.ncbi.nlm.nih.gov/pubmed/20354512")
+          %span.authors.etal   Adzhubei
+          %span.year   (2010)
+      %span.journal   Nature Methods
+      %span.location   7(4), 248-249
+      
+    .reference
+      %span.keyword   SIFT
+      %span.url
+        %a(href="http://www.ncbi.nlm.nih.gov/pubmed/11337480")
+          %span.authors.etal   Ng
+          %span.year   (2001)
+      %span.journal   Genome Research
+      %span.location   11(45), 863-874 

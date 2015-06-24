@@ -1,0 +1,139 @@
+- res = job.run
+- translations = job.file(:translations).tsv.reorder "UniProt/SwissProt Accession"
+- names = Organism.identifiers(Organism.default_code("Hsa")).index :target => "Associated Gene Name", :fields => ["UniProt/SwissProt Accession"], :persist => true
+:ruby
+
+  @uniprot_groups = {}
+
+  res.each{|mutation,values|
+    protein, change = mutation.split " "
+    @uniprot_groups[mutation] = $protein_kinase_groups[protein]
+  }
+
+:sass
+  .color.red
+    color: red
+
+  .color.green
+    color: green
+
+  
+  table
+    width: 100%
+    .ui.message
+      width: 100%
+   
+  #result
+    width: 100%
+
+#result.ui.column.wide
+  .ui.breadcrumb
+    .section Job:
+    .divider
+    %a.section.active(href='/#{[workflow, task, job.name]*"/"}')= job.clean_name
+
+  %p 
+    :markdown
+    
+      The following results are the `KinMut-RandomForest` predictions for the
+      potential disease implications of each mutation. You can view each in
+      more detail by clicking the buttons on each row. The results are
+      available for download below the table, as well as the correspondence
+      between the input protein identifiers used as input and their
+      correspondent UniProt accessions, the features used by the algorithm, and
+      it's raw input and output.
+
+  - proteins = []
+  %table.ui.table.sortable
+    %thead
+      %tr
+        %th Kinase
+        %th Change
+        %th Kinase Group*
+        %th Prediction
+        %th Confidence Score
+        %th.details
+    %tbody
+      - job.load.each do |mutation, values|
+        - protein, change = mutation.split " "
+        - proteins << protein
+        - prediction, score = values
+        - protein_link = ""
+        - group = @uniprot_groups[mutation]
+        %tr
+          %td
+            = protein
+            - if translations[protein] and translations[protein] != protein
+              (#{translations[protein]})
+            - else
+              (#{names[protein]})
+          %td
+            - iii protein
+            - iii change
+            - wt = Kinase.error_in_wt_aa?(protein, change)
+            - iii wt
+            - if wt.nil? or wt
+              - first, *rest = change.split('')
+              = "<font color='red'>#{first}</font>#{rest*""}"
+              - if wt.nil?
+                %span.wt_error== position outside protein range
+              - else
+                %span.wt_error== (#{wt})
+            
+            - else
+              = change
+          %td= group
+          %td
+            - if prediction.first == "disease"
+              %span.ui.message.red= prediction.first
+            - else
+              %span.ui.message.green= prediction.first || "no prediction"
+          %td= score.first.to_f * (prediction.first == "neutral" ? -1 : 1)
+
+          - details_url = "/details/#{job.name}/#{protein}/#{change}"
+          %td.details
+            %a.ui.small.button.blue(href=details_url) View details
+      
+  %a.ui.button.blue(href="#{@ajax_url}?_format=raw")
+    Download results (TSV)
+
+  %h5 Additional files for download
+  .ui.segment
+    - files = job.files - ["html", "html.info"]
+    - if files.any?
+      - files.sort.each do |file|
+        %a.ui.button.small(href="/#{[workflow.to_s, task, jobname, "file", file] * "/"}")= file
+
+  %p.kinase_groups
+    \* 
+    %span(style='font-style:italic') Kinase Group:
+    Classification of the human kinome according to
+    %a(href='http://www.ncbi.nlm.nih.gov/pubmed/12471243' target='_blank') 
+      Manning 
+      %span(style='font-style:italic')et al.
+      , 2002.
+    %ul.kinase_groups
+      - @uniprot_groups.values.uniq.sort.each do |group|
+        %li
+          %span(style='font-weight:bold')== #{group}: 
+          = $kinase_groups[group]
+
+:javascript
+
+  // add parser through the tablesorter addParser method 
+  $.tablesorter.addParser({ 
+      // set a unique id 
+      id: 'aa_mutation', 
+      is: function(s) { 
+          // return false so this parser is not auto detected 
+          return false; 
+      }, 
+      format: function(s) { 
+          // format your data for normalization 
+          return s.toLowerCase().match(/(\d+)/)[0];
+      }, 
+      // set type, either numeric or text 
+      type: 'numeric' 
+  }); 
+  
+  $('#result table.sortable').tablesorter({headers:{ 1: {sorter: 'aa_mutation'}}})

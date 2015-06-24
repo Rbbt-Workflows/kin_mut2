@@ -1,0 +1,146 @@
+:ruby
+  organism = Organism.default_code("Hsa")
+
+  ensp = @ensp
+  ensg = @ensg
+  name = @name
+  entrez = @entrez
+
+  unless entrez.nil?
+    gene = Entrez.get_gene(entrez)
+    description = gene.description.flatten.first.to_s
+    summary     = gene.summary.flatten.first.to_s
+  end
+
+  goterms = Misc.zip_fields(Organism.gene_go("Hsa").tsv(:persist => true, :unnamed => true)[ensg])
+
+- $kinase_FDA_drugs = Rbbt.data["FDA_drugs_kinases_all_available.txt"].tsv :persist => false, :header_hash => "", :fields => %w(Sponsor Indications Target), :sep2 => /\s*,\s+/
+:sass
+  .protein table td:first-child
+    width: 10em
+  dl.left
+    float: left
+    width: 33%
+  dl.clear
+    clear: both
+
+.protein
+  %dl.left
+    %dt Gene Name
+    %dd
+      %a(href="http://ncbi.nlm.nih.gov/gene/#{entrez}" target='_blank')= name
+      .esentiality
+        - case $gene_essentiality[name]
+        - when "N"
+          non-essential gene (from dbNSFP)
+        - when "E"
+          essential gene (from dbNSFP)
+
+  %dl.left
+    %dt UniProt accession
+    %dd
+      %a(href="http://www.uniprot.org/uniprot/#{protein}" target='_blank')= protein
+
+  %dl.left
+    %dt Ensembl protein identifier
+    %dd
+      %a(href="http://www.ensembl.org/id/#{ensp}" target='_blank')= ensp
+      - if @fixed_position != @position
+        Position fixed in Ensembl Protein to #{@fixed_position}
+      - if not Appris::PRINCIPAL_ISOFORMS.include? ensp
+        Not principal
+
+  %dl.clear
+    %dt Long Name
+    %dd= description
+
+    %dt Summary
+    %dd
+      = (summary || "No summary found").sub(/\. \[provided by Ref.*/,'.')
+
+    %dt Kinase Group
+    %dd
+      == #{$protein_kinase_groups[protein]}: #{$kinase_groups[$protein_kinase_groups[protein]]}.
+      == (Log odds ratio: #{$kinase_groups_lor[$protein_kinase_groups[protein]]})
+
+    %dt FDA approved inhibitors
+    %dd
+      - if $kinase_FDA_drugs.select(:Target => name).any?
+        = table :footer => false, :class => 'very basic compact' do
+          -$kinase_FDA_drugs.select(:Target => name)
+      - else
+        None found
+
+    - go_bp = goterms.select{|k,v| v == "biological_process"}.sort_by{|k,v| k}
+    - go_mf = goterms.select{|k,v| v == "molecular_function"}.sort_by{|k,v| k}
+    - go_cc = goterms.select{|k,v| v == "cellular_component"}.sort_by{|k,v| k}
+
+    -#%dt String interactors (score >800)
+    -#%dd
+      - ensg.organism = KinMut2.organism
+      = ensg.string_interactors.name.sort * ", "
+
+    %h3 GO terms
+
+    .ui.tabular.attached.top.menu
+      - if go_bp.any?
+        .item.active(data-tab='bp') Biological Process
+      - if go_mf.any?
+        .item(data-tab='mf') Molecular Function
+      - if go_cc.any?
+        .item(data-tab='cc') Cellular component
+
+    - if go_bp.any?
+      .ui.bottom.attached.active.segment.tab(data-tab='bp')
+        %table#goterms_bm.ui.table
+          %thead
+            %tr
+              %th(colspan=2) Gene Ontology - Biological Process
+              %th Log-odds ratio
+          %tbody
+            - go_bp.sort_by{|term,onto| $GO_lor[term.sub(":",'')].to_f}.reverse.each do |term,onto|
+              - name = GO.id2name(term)
+              %tr
+                %td
+                  %a(href="http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=#{term}" target="_blank")= term
+                %td= name
+                %td
+                  = $GO_lor[term.sub(":",'')].to_f
+
+    - if go_mf.any?
+      .ui.bottom.attached.segment.tab(data-tab='mf')
+        %table#goterms_mf.ui.table
+          %thead
+            %tr
+              %th(colspan=2) Gene Ontology - Molecular Function
+              %th Log-odds ratio
+          %tbody
+            - go_mf.sort_by{|term,onto| $GO_lor[term.sub(":",'')].to_f}.reverse.each do |term,onto|
+              - name = GO.id2name(term)
+              %tr
+                %td
+                  %a(href="http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=#{term}" target="_blank")= term
+                %td
+                  = name
+                %td
+                  = $GO_lor[term.sub(":",'')].to_f
+   
+    - if go_cc.any?
+      .ui.bottom.attached.segment.tab(data-tab='cc')
+        %table#goterms_cc.ui.table
+          %thead
+            %tr
+              %th(colspan=2) Gene Ontology - Cellular Component
+              %th Log-odds ratio
+          %tbody
+            - go_cc.sort_by{|term,onto| $GO_lor[term.sub(":",'')].to_f}.reverse.each do |term,onto|
+              - name = GO.id2name(term)
+              %tr
+                %td
+                  %a(href="http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=#{term}" target="_blank")= term
+                %td= name
+                %td
+                  = $GO_lor[term.sub(":",'')].to_f
+
+
+

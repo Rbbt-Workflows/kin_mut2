@@ -1,0 +1,65 @@
+- require 'rbbt/rest/web_tool'
+- require 'rbbt/entity/protein'
+- require 'rbbt/entity/protein/extra'
+- self.extend Sinatra::RbbtToolHelper
+- organism = KinMut2.organism
+- ensp = @ensp
+
+:sass
+  //.protein_tool .tool_menu, .protein_tool .controls
+    display: none
+  body
+    margin-top: 0em !important
+  .protein_tool 
+    .tool_window
+      height: 100% !important
+      .jmol_tool label
+        display: none
+    .item[data-tab=COSMIC]
+      display: none !important
+     
+  .pdb_info
+    display: none
+  
+  #jmol
+    h3
+      display: none
+#jmol
+  .ui.message
+    :documentation
+
+      The JMOL viwer can load structure PDB files associated to that UniProt
+      protein, as well as models provided by Interactome3D. The SVG image and the
+      sequence scroller bellow correspond to the Ensembl protein associated with
+      that UniProt: #{ensp}
+      
+      In order to adress all inconsistencies between the sequences in UniProt, Ensembl,
+      and UniProt, coordinate maps are built using Smith-Waterman pairwise alignment.
+
+  - if @fixed_position != @position
+    .ui.message.blue
+      Mutation position corrected to #{@fixed_position} in #{ensp}
+
+  = tool :protein_tool, :protein => ensp, :position => position.to_s
+
+  :deferjs
+    if ($('#mark_align').length == 0){
+      var but = $('<div>').attr('id', 'mark_align').addClass('ui button').html("Mark alignment between PDB and sequence")
+      $('.isoform_svg_tool').prepend(but)
+    }
+    var position = #{@fixed_position}
+    var jmol = $('.jmol_tool').first()
+    var isoform_svg = $('.isoform_svg_tool').first()
+    $('#mark_align').click(function(){
+      if(jmol.jmol_tool('is_pdb_loaded')){     
+        var map = jmol.jmol_tool('alignment_map');
+        isoform_svg.isoform_svg_tool('clear');
+        isoform_svg.isoform_svg_tool('mark_aligned_region', map, 'blue');
+        isoform_svg.isoform_svg_tool('mark_position', position, 'red');
+      }else{
+        alert('Select a PDB first to display the aligned region')
+      }
+      return false
+    })
+    jmol.jmol_tool('background', 'white')
+

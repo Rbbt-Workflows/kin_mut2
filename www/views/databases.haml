@@ -1,0 +1,141 @@
+
+- error = false
+- snp2db = begin
+  - Kinase::Postgres.snp2db(protein, mutation.scan(/\d+/).first)
+- rescue
+  - Log.exception $!
+  - error = true
+  - []
+- snp2kin_driver = Kinase::MySql.snp2kin_driver(protein, mutation)
+- snp2kin_driver.each do |res|
+  - id, freq, validation, disease, histology, cosmic, pmid1, pmid2 = res
+  - description = "Freq. #{"%.3g" % freq}% #{validation}: #{disease}"
+  - snp2db << {:type => "kindriver", :mutation => id, :description => description}
+
+- snp2db.uniq!
+- names = Organism.identifiers(Organism.default_code("Hsa")).index :target => "Associated Gene Name", :fields => ["UniProt/SwissProt Accession"], :persist => true
+- name = names[protein]
+
+#SNP2DB
+  - if error
+
+    .ui.message.error
+      There was a database problem. Some database entries may not have been reported. Please, wait a few minutes and
+      %a(href='#{@ajax_url}?_update=reload') try again
+
+  - dbs = []
+  - if snp2db.any?
+    %table.ui.table#snp2db_table
+      %thead
+        %tr
+          %th Mutation
+          %th Description
+          %th Database
+      %tbody
+        - snp2db.to_a.each do |info|
+          - IndiferentHash.setup info
+          - next if info[:type] == 'saapdb'
+          - dbs << info[:type].to_s
+
+          - case info[:type].to_s
+          - when "kinmutbase"
+            %tr
+              %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
+              %td= info[:description]
+              %td
+                %a(href="http://bioinf.uta.fi/KinMutBase/")= info[:type]
+          - when "uniprot"
+            - variant_code = [protein, mutation] * ":"
+            - variant_id = $uniprot_variants[protein].zip_fields.select{|values| values["Amino Acid Mutation"] == mutation}.collect{|values| values["UniProt Variant ID"]}
+            %tr
+              %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
+              %td= info[:description]
+              %td
+                %a(href="http://web.expasy.org/cgi-bin/variant_pages/get-sprot-variant.pl?#{variant_id}")= info[:type]
+          - when 'cosmic'
+            %tr
+              %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
+              %td= info[:description]
+              %td
+                %a(href="http://www.sanger.ac.uk/perl/genetics/CGP/cosmic?action=bygene&ln=#{name}")= info[:type]
+          - when 'saapdb'
+            %tr
+              %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
+              %td= info[:description] == "PD" ? "Pathogenic Deviation" : info[:description]
+              %td
+                %a(href="http://www.bioinf.org.uk/saap/db/")= info[:type]
+          - when 'greenman'
+            %tr
+              %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
+              %td= info[:description]
+              %td
+                %a(href="http://www.ncbi.nlm.nih.gov/pubmed/17344846")= info[:type]
+          - else
+            %tr
+              %td= info[:mutation]
+              %td= info[:description]
+              %td= info[:type]
+  - else
+    No entries found
+
+
+  - if dbs.include? "saapdb"
+    %p.saapdb
+      %span(style='font-style:italic') SAAPdb:
+
+      SAAPdb links Single Nucleotide Polymorphisms (SNPs) to phenotype
+      alterations. SNP data is linked to a gene sequence, to determine whether
+      the mutation occurred in a coding region; if so, the protein sequence and
+      the mutated variations are displayed. When available, links to structural
+      data are also provided.
+
+      %a(href='http://www.ncbi.nlm.nih.gov/pubmed/19191322' target='_blank') 
+        Hurst
+        %span(style='font-style:italic')et al.
+        , 2010.
+
+  
+  - if dbs.include? "cosmic"
+    %p.cosmic
+      %span(style='font-style:italic') COSMIC:
+
+      COSMIC is designed to store and display somatic mutation information and
+      related details and contains information relating to human cancers. The
+      mutation data and associated information is extracted from the primary
+      literature and entered into the COSMIC database. In order to provide a
+      consistent view of the data a histology and tissue ontology has been
+      created and all mutations are mapped to a single version of each gene.  The
+      data can be queried by tissue, histology or gene and displayed as a graph,
+      as a table or exported in various formats
+
+      %a(href='http://www.ncbi.nlm.nih.gov/pubmed/20952405' target='_blank') 
+        Forbes
+        %span(style='font-style:italic')et al.
+        , 2011.
+  
+  - if dbs.include? "uniprot"
+    %p.uniprot
+      %span(style='font-style:italic') Uniprot:
+
+      The Universal Protein Resource (UniProt) is a comprehensive resource for
+      protein sequence and annotation data.
+
+      %a(href='http://www.ncbi.nlm.nih.gov/pubmed/19426475' target='_blank') 
+        Jain
+        %span(style='font-style:italic')et al.
+        , 2009.
+  
+  - if dbs.include? "kinmutbase"
+    %p.kinmutbase
+      %span(style='font-style:italic') KinMutBase:
+
+      KinMutBase is a comprehensive database of disease-causing mutations in
+      protein kinase domains. The current release of the database contains 582
+      mutations in 20 tyrosine kinase domains and 13 serine/threonine kinase
+      domains. The database refers 1790 cases from 1322 families
+
+      %a(href='http://www.ncbi.nlm.nih.gov/pubmed/15832311' target='_blank') 
+        Ortutay
+        %span(style='font-style:italic')et al.
+        , 2005.
+

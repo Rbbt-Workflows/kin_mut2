@@ -1,0 +1,29 @@
+
+#tasks.ui.grid
+  .ui.seven.wide.column.paramters
+    %form(action='/KinMut2/predict' enctype="multipart/form-data" method="POST")
+      %label.ui(for="mutations") Mutations
+      %textarea#mutations.ui.fluid.wide(name="mutations")
+      .ui.action.input#submit
+        .ui.button#load_example
+          Try example
+        %input(type="text" placeholder="Optional jobname" name='jobname')
+        %input.ui.button.blue#submit_button(type="submit")
+
+
+  .ui.nine.wide.column.summary
+    :documentation
+    
+      wKinMut-2 is an integrated framework for the analysis and interpretation of the consequences of mutations in the human kinome.
+
+      It displays information from diverse sources, that include:
+
+      *  Protein/Gene general information, Gene Ontology terms, estimations of gene essentiality in orthologues and known drug targets.
+      *  Structural information from PDB and Structure-PPI.
+      *   Characterization at the domain and residue levels. Functional annotations and information about plausible catalytic and phosphorylation sites.
+      *  Predictions of mutation pathogenicity with 9 different methods, including our own kinase-specific Random Forest.
+      *  Information from dedicated mutation databases (Uniprot Variant Pages, COSMIC, KinMutBase, Kin-Driver)
+      *  Mutation mentions from the literature (SNP2L)
+      *  Protein Protein Interactions extracted from the literature (iHOP) and String.
+
+

@@ -1,0 +1,48 @@
+
+
+- snp2l = Kinase::Postgres.snp2l(protein, mutation.scan(/\d+/).first)
+
+#SNP2L
+
+  .ui.message
+    This information has been extracted automatically from
+    the literature with SNP2L, although it has proved to be a powerful guide to
+    gather contextual information about protein kinase mutations, manual
+    inspection of these results might be required. Refer to 
+    %a(href='http://www.ncbi.nlm.nih.gov/pubmed/19758464' target='_blank')
+      Krallinger 
+      %span(style='font-style: italic') et al.
+      2009 
+    for further details. 
+
+  - if snp2l.any?
+    %table.ui.table#snp2l_table
+      %thead
+        %tr
+          %th Mutation
+          %th PMID
+          %th Content
+          %th Comments
+      %tbody
+      - snp2l.to_a.each do |info|
+        - IndiferentHash.setup info
+        %tr
+          %td
+            - original, new = info.values_at :old_position, :new_position
+            - if original != new
+              == #{[info[:wt_aa], new, info[:mutant_aa]] * ""} (adjusted from: #{[info[:wt_aa], original, info[:mutant_aa]] * ""})
+            - else
+              = [info[:wt_aa], original, info[:mutant_aa]] * ""
+          %td
+            %a(href="http://www.ncbi.nlm.nih.gov/pubmed/#{info[:pubmed_id]}")= info[:pubmed_id]
+          - synonyms = Organism.identifiers(KinMut2.organism).tsv(:key_field => "UniProt/SwissProt Accession", :persist => true)[protein].flatten.compact.uniq.reject{|n| n.length < 3}.collect{|name| name.sub(/(\d+)/, ' *\1')}
+          - synonyms << @protein
+          - synonyms << @name
+          - synonyms.uniq.sort_by{|n| n.length}.reverse
+          %td= info[:line_content].gsub(/\b(#{synonyms * "|"})\b/, '<named_entity class="gene">\1</named_entity>').gsub(/\b([A-Z](?:[a-z][a-z])?\d+[A-Z](?:[a-z][a-z])?)\b/,'<named_entity class="mutation">\1</named_entity>')
+
+          %td
+            - if original != new
+              == adjusted from: #{[info[:wt_aa], original, info[:mutant_aa]] * ""} by #{info[:type]}
+  - else
+    %p No entries found

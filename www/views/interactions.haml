@@ -1,0 +1,59 @@
+:sass
+  .interactions 
+    > iframe
+      width: calc(100% - 200px)
+      height: 400px
+    > img
+      width: 200px
+      float: right
+      border: 1px solid rgba(0,0,0,0.24)
+.interactions
+  .ui.message
+    
+    STRING is a resource that stores known and predicted protein interactions
+    from different sources including Genomic context, High-throughput
+    experiments, coexpression and text-mining of the literature. Hence, String
+    interactions include direct (physical) and indirect (functional)
+    associations (more at 
+    %a(href="http://string-db.org/") http://string-db.org/
+    \)
+
+  %img(src='/file/string-leyend.png')
+  %iframe(src='http://string-db.org/api/image/network?identifier=#{@ensp}%20&required_score=100%20&network_flavor=evidence')/
+
+-#
+  - $string_interactions = STRING.protein_protein.tsv :persist => true
+  - $ensp2uni = Organism.protein_identifiers(KinMut2.organism).index :target => "UniProt/SwissProt Accession", :persist => true, :order => true
+  - $ensp2entrez = Organism.identifiers(KinMut2.organism).index :target => "Entrez Gene ID", :persist => true, :order => true
+  - $ensp2uni.namespace = KinMut2.organism
+  - interactions = $string_interactions[@ensp]
+  - tsv = TSV.setup(Hash[*Misc.zip_fields(interactions).flatten], :key_field => "Ensembl Protein ID", :fields => ["Score"], :type => :single).to_list
+  - tsv = tsv.add_field "Ensembl Gene ID" do |ensp,values|
+    - next "" if ensp.gene.nil?
+    - ensp.gene
+  - tsv = tsv.add_field "UniProt/SwissProt Accession" do |ensp,values|
+    - $ensp2uni[ensp] || ""
+
+  - entrez = tsv.slice("Ensembl Gene ID").values.flatten.compact.collect{|e| $ensp2entrez[e]}.flatten.compact.uniq.sort
+  - Entrez.get_gene(entrez)
+  - tsv = tsv.add_field "Description" do |ensp,values|
+    - values["Ensembl Gene ID"] == "" ? "" : values["Ensembl Gene ID"].tap{|g| g.organism = KinMut2.organism}.description
+
+  - tsv = tsv.select("Ensembl Gene ID"){|g| ! g.empty?}
+
+  %table.ui.sortable.table
+    %thead
+      %tr
+        %th Ensembl Protein
+        %th UniProt
+        %th Gene
+        %th Description
+        %th Score
+    %tbody
+      - tsv.through do |ensp,values|
+        %tr
+          %td= ensp
+          %td= values["UniProt/SwissProt Accession"]
+          %td= values["Ensembl Gene ID"]
+          %td= values["Description"]
+          %td= values["Score"]

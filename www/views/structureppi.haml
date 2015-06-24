@@ -1,0 +1,210 @@
+- require 'rbbt/entity/mutated_isoform'
+- organism = KinMut2.organism
+- Workflow.require_workflow "Structure"
+- name_index = InterPro.name_index
+- names = Organism.identifiers(Organism.default_code("Hsa")).index :target => "Associated Gene Name", :persist => true
+- database_url = {}
+- database_url["Appris"] = "http://appris.bioinfo.cnio.es/#/help"
+- database_url["COSMIC"] = "http://cancer.sanger.ac.uk/cosmic/help"
+- database_url["InterPro"] = "http://www.ebi.ac.uk/interpro/about.html"
+- database_url["UniProt"] = "http://www.uniprot.org/help/about"
+:sass
+  .two_column
+    column-count: 2
+    dt, dd
+      width: 20%
+      margin-right: 16px
+      float: left
+      display: tabular
+      overflow: hidden
+      text-overflow: ellipsis
+  #structureppi
+    tr.center
+      font-weight: 200
+      color: rgba(0,0,0,0.48)
+      td
+        vertical-align: top
+        border-bottom: 0px
+        text-align: center
+        font-weight: bold
+      + tr > td
+        border-top: 0px
+    table td .ui.message
+      padding: 8px
+      margin-left: - 8px
+      margin-right: - 8px
+    td .segment:not(.wrap)
+      margin-bottom: 0.5em
+      white-space: nowrap
+      overflow: hidden
+      text-overflow: ellipsis
+      max-width: 40em
+
+    tr:not(.center)
+      td
+        font-size: 0px
+        padding: 8px
+        .segment, a
+          font-size: 14px
+
+    .nheader
+      display: block
+      font-weight: bold
+    .nvalues
+      margin-bottom: 1em
+      margin-left: -4px
+      margin-right: -4px
+      padding-left: 4px
+      padding-right: 4px
+      &:nth-child(2n+1)
+        background-color: rgba(0,0,200,0.05)
+
+#structureppi.ui.container.sixteen.wide.column
+  - ensp = @ensp
+  - mutation = MutatedIsoform.setup([ensp,mutation] * ":", organism)
+
+  - databases = Structure::ANNOTATORS.keys - ['variants']
+  - first = true
+
+  .ui.message
+    :documentation
+
+      The following information is extracted from Structure-PPi, a workflow for
+      the annotation of protein residues. It finds features overlapping the
+      mutation or overlapping any residue that is in close physical proximity
+      to the mutation: 5 angstroms spatial distance or adjacent in the sequence
+      if no PDB covers that area. 
+      
+      It may also report protein protein interfaces that might be affected by
+      the mutation, i.e. when they are at a distance of 8 angstroms from
+      residues from a partner protein.
+      
+      The structure PDB files used for these calculations are all those
+      associated with the UniProt protein in UniProt and Interactome3D, which
+      extends this set with models of single proteins and protein-protein
+      interaction complexes. Pairwise alignment is used to resolve any sequence
+      discrepancies.
+
+      The databases examined are UniProt, InterPro, COSMIC and Appris. The
+      COSMIC database reports mutations affecting that residue, not necessarily
+      the same amino-acid change. Appris agglutinates features from FireDB,
+      which are catalytic sites, and ligand-binding sites, and others such as
+      trans-membrane domains, signal peptides, and ligand binding sites.
+      
+  - if @fixed_position != @position
+    .ui.message.blue
+      Mutation position corrected to #{@fixed_position} in #{ensp}
+
+  = fragment :structureppi do
+    - interfaces = Structure.job(:mi_interfaces, nil, :mutated_isoforms => [mutation])
+    - interfaces = interfaces.clean if interfaces.error?
+    - interfaces = interfaces.fork.join.load
+    - interfaces = interfaces.slice(interfaces.fields.reject{|f| f=~ /PDB/ or f == "Residue"})
+
+    - if interfaces.any?
+      - iii :interfaces
+      .full_width
+        .content
+          %h5 Affected PPI interfaces
+          .content
+            %table.ui.table
+              %thead
+                %tr
+                  %th Partner protein
+                  %th Close partner residues
+              %tbody
+                - _values = interfaces.values.first
+                - interactor_values = {}
+                - Misc.zip_fields(_values).each do |interactor, residues|
+                  - interactor_values[interactor] ||= []
+                  - interactor_values[interactor].concat residues.split(";")
+                - interactor_values.each.each do |interactor,residues|
+                  %tr
+                    %td
+                      .segment= names[interactor]
+                    %td
+                      .segment= residues.uniq.sort * ", "
+
+    - databases.each do |database|
+      - log database
+      - annotator = Structure::ANNOTATORS[database]
+      - fields = annotator.fields
+      - annotator = Structure::ANNOTATORS[database]
+      - values = annotator.annotate(ensp, @fixed_position, organism)
+
+      - job = Structure.job(:annotate_mi_neighbours, nil, :mutated_isoforms => [mutation], :database => database)
+      - job.clean if not job.done? and not job.running?
+      - tsv = job.fork.join.load
+      - neighbour_values = tsv[mutation]
+      - next if values.nil? and neighbour_values.nil?
+
+      .full_width
+        .content
+          %h5
+            = database
+            %a.subtle_link(target="_blank" href='#{database_url[database]}') 
+              %i.ui.external.link.icon
+          .content
+            - first = false
+            %table.ui.table.no_js
+              %thead
+                %tr
+                  - fields.each do |field,i|
+                    %th= field
+
+              %tbody
+                %tr
+                  - if values
+                    - fields.each_with_index do |field,i|
+                      %td 
+                        - values[i].each do |v|
+                          - v = name_index[v] if field == "InterPro ID"
+                          - v = $pfam_names[v][:description] if $pfam_names[v]
+                          - v = "-" if v.nil? or v.empty?
+                          .segment= v
+
+                  - else
+                    %tr.nomatches
+                      %td(colspan='#{fields.length}') No direct matches
+
+                - if neighbour_values
+                  - row_contents = {}
+                  - fields.each_with_index do |field,i|
+                    - new_values = {}
+                    - Misc.zip_fields(neighbour_values).each do |n,*nvalues|
+                      - Misc.zip_fields(nvalues.collect{|v| v.split(";")}).each do |nsvalues|
+                        - next if Misc.zip_fields(values).select{|v| v == nsvalues}.any?
+                        - new_values[n] ||= []
+                        - new_values[n] << nsvalues unless new_values[n].include? nsvalues
+                    - new_values.each do |neigh, nvalues|
+                      - row_contents[neigh] ||= []
+                      - row_contents[neigh][i] = nvalues.collect{|v| v[i]}
+
+                  - row_contents.each do |neighbour,values|
+                    %tr.center
+                      %td(colspan='#{fields.length}') Neighbour #{neighbour}
+                    %tr
+                      - values.each_with_index do |vs,i|
+                        %td
+                          - vs.each do |v|
+                            - v = name_index[v] if fields[i] == "InterPro ID"
+                            - v = $pfam_names[v] if $pfam_names[v]
+                            - v = "-" if v.nil? or v.empty?
+                            .segment= v
+
+    :javascript
+      $('#structureppi .tabular').tab();
+      $('#structureppi .tabular .item:first-child').click();
+
+  .column.full_width
+    .content.references
+      %p.reference
+        %span.title 
+          %span.keyword Structure-PPi
+          A module for the annotation of cancer-related single-nucleotide variants at protein-protein interfaces.
+        %span.authors Miguel Vazquez, Alfonso Valencia, Tirso Pons.
+        %span.year 2015.
+        %span.yournal Bioinformatics
+        %span.url
+          %a(href="structureppi.bioinfo.cnio.es")
+        

@@ -1,0 +1,177 @@
+:sass
+  #help
+    table
+      width: 100%
+#help.column.wide.sixteen
+  :documentation
+    What is wKinMut-2?
+    ---
+
+    wKinMut-2 is a unified one-stop shop to facilitate the exploration and 
+    understanding of the consequences of protein kinase mutations and the 
+    underlying biological mechanisms by which they contribute to disease, and in 
+    particular, cancer. 
+
+    What is the scope of wKinMut-2? 
+    ---
+
+    Provided that focus is set on kinase mutations involved in cancer and other
+    human diseases, the scope of wKinMut-2 lays within the human kinome.  How do I
+    submit mutations for analysis?  Please, provide one or more mutations in the
+    `mutations` box. Optionally, a descriptive name for the experiment can be
+    provided.  The wKinMut-2 submission format includes the Uniprot/Swissprot
+    accession number, the wild type residue, the position and the mutated residue.
+    For instance, a mutation from Glycine to Alanine in position 719 of the
+    Epidermal Growth factor receptor, will be encoded P00533 G719A. Multiple
+    mutations can be submitted at a time, either as a file (one mutation per line)
+    or via the applications form.
+
+    === Figure Help1 here
+
+    Is there any sample dataset I can use to try wKinMut?
+    ---
+
+    Yes, there is. In the framework's main page, press 'autofill example' to load a toy 
+    dataset. 
+
+    How do I get extended information about the mutations?
+    ---
+
+    In the results table, click on the buttons at the end of each row in the results table.
+    This will redirect you to a new page containing information including the
+    values of the features using for classification, protein-protein interaction
+    information, mentions in the literature of the mutation and existing records of
+    the mutation in other databases. This additional information is intended to
+    provide the basic background to help to understand and interpret 
+    the consequences of the mutations.
+
+    ===Figure Help2 here
+
+    What shall I do if Jmol plugging does not display the structures?
+    ---
+
+    Some users have reported that the security settings of their browsers block Java-
+    based applications, as they are considered insecure by default. The solution to 
+    this inconvenience is easy. In order to allow the Jmol applet, users need to add 
+    the root URL of wKinMut-2, http://kinmut2.bioinfo.cnio.es, to the Exception Site 
+    List under the Security tab of the Java Control Panel.
+
+    ===Figure Help3 here
+
+    What information does Structure-PPi provide?
+    ---
+
+    Structure-PPi reports protein features (e.g. functional domains, known 
+    somatic mutations in different types of cancer, UniProt annotations from 
+    missense variants, ligand binding residues, catalytic sites) that overlap the 
+    mutations "direct matches" or that are in close physical proximity "neighbours". 
+    When mutations affect the interfaces of protein complexes, Structure-PPi also 
+    reports the partner Ensembl Protein ID, and the protein features for partner 
+    residues.
+
+    Where does the mutation pathogenicity information come from?
+    ---
+
+    wKinMut-2 provides predictions from 9 different methodologies. 8 methods 
+    are directly extracted from dbNSFP and include likelihood scores from SIFT, 
+    Polyphen2, LRT, MutationTaster, MutationAssessor, FATHMM, VEST3 and 
+    CADD. In addition to these, wKinMut-2 implements a Random Forest classifier 
+    specific to mutations in the human kinome. 
+
+    A number of sequence-derived features that characterize mutations affecting 
+    human protein kinases at different levels: 
+
+      * gene level, including membership to a Kinbase group and Gene Ontology categories 
+      * domain level, using PFAM domains 
+      * at the residue level, involved amino acids types, changes in biochemical properties, functional annotations from Uniprot, PhosphoELM and FireDB. 
+
+    The focus on the protein kinase superfamily enabled the choice of features 
+    unique to this superfamily. These kinase-specific annotations greatly increase 
+    the accuracy of the classification of mutations. Each prediction is accompanied 
+    by a reliability score, and the annotations giving rise to the predictions are also 
+    displayed to facilitate the biological interpretation. 
+
+    What is the performance of the Random Forest? Is there any benchmark?
+    ---
+
+    Our approach outperforms available methods in a cross-validation (k=10) 
+    experiment on the 3689 kinase mutations for which a characterization of their 
+    pathogenicity in Uniprot exists. The evaluation followed established good 
+    practices in the field obtaining satisfactory results. The following table includes 
+    the results for the classifiers according to the values provided by dbNSFP. 
+
+    | Method | Accuracy | Precision | Recall | MCC | f-score
+    |:---|---:|---:|---:|---:|---:|
+    | KinMut-RandomForest | 0.88 | 0.81 | 0.75 | 0.68 | 0.78
+    |:---|---:|---:|---:|---:|---:|
+    | VEST3 | 0.27 | 0.74 | 0.82 | 0.69 | 0.78
+    |:---|---:|---:|---:|---:|---:|
+    | FATHMM | 0.27 | 0.69 | 0.63 | 0.54 | 0.66
+    |:---|---:|---:|---:|---:|---:|
+    | MutationAssessor | 0.27 | 0.55 | 0.66 | 0.43 | 0.60
+    |:---|---:|---:|---:|---:|---:|
+    | CADD | 0.27 | 0.54 | 0.77 | 0.48 | 0.64
+    |:---|---:|---:|---:|---:|---:|
+    | Polyphen2_HVAR | 0.28 | 0.53 | 0.85 | 0.50 | 0.65
+    |:---|---:|---:|---:|---:|---:|
+    | LRT | 0.30 | 0.45 | 0.87 | 0.39 | 0.59
+    |:---|---:|---:|---:|---:|---:|
+    | SIFT | 0.27 | 0.45 | 0.81 | 0.39 | 0.58
+    |:---|---:|---:|---:|---:|---:|
+    | Polyphen2_HDIV | 0.27 | 0.44 | 0.90 | 0.42 | 0.59
+    |:---|---:|---:|---:|---:|---:|
+    | MutationTaster | 0.27 | 0.38 | 0.96 | 0.36 | 0.55
+
+    Where does the Protein-Protein Interaction information come from?
+    ---
+
+    Protein-Protein Interactions (PPI) information comes from iHOP and String. 
+    iHOP is a powerful text mining system to automatically extract protein protein 
+    interactions from PubMed abstracts. In addition, the original paper sentences are 
+    also provided as a means to relate the interaction information with its context.
+    STRING is a resource that stores known and predicted protein interactions from 
+    different sources including Genomic context, High-throughput experiments, 
+    coexpression and text-mining of the literature. Hence, String interactions include 
+    direct (physical) and indirect (functional) associations
+
+    (More... http://string-db.org/)
+
+    Where does the Literature Information come from?
+    ---
+
+    The sentences providing contextual information about the mutations come 
+    directly from the literature. We obtain this information using SNP2L. In 
+    brief, SNP2L is a literature mining pipeline for the automatic extraction and 
+    disambiguation of single-point mutation mentions from both abstracts as well 
+    as full text articles, followed by a sequence validation check to link mutations to 
+    their corresponding kinase protein sequences.
+
+    (More: http://www.ncbi.nlm.nih.gov/pubmed?cmd=search&term=19758464)
+
+    Which databases are revised in order to gather information about the mutations?
+    ---
+
+    Currently, four different databases are revised: Uniprot Variation Pages, COSMIC, 
+    Kin-Driver and KinMutBase. These databases were selected in order to cover 
+    different aspects of human protein kinase mutation.
+
+    http://web.expasy.org/variant_pages/
+
+    http://www.sanger.ac.uk/genetics/CGP/cosmic/
+
+    http://kin-driver.leloir.org.ar/
+
+    http://bioinf.uta.fi/KinMutBase/
+
+    Can I access wKinMut programmatically?
+    ---
+
+    Yes. The predictions from KinMut can be downloaded programmatically using a 
+
+    REST service. An example can be found here
+
+    I have a question about wKinMut-2 that is NOT in this help section. May I contact you?
+    ---
+
+    Of course you can. Feel free to email us (txema-at-cbs-dot-dtu-dot-dk or miguel-
+    dot-vazquez-at-cnio-dot-es) and we will try to answer your questions.
