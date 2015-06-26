@@ -1,7 +1,7 @@
 
 #tasks.ui.grid
   .ui.seven.wide.column.paramters
-    %form(action='/KinMut2/predict' enctype="multipart/form-data" method="POST")
+    %form(action='/KinMut2/predict_all' enctype="multipart/form-data" method="POST")
       %label.ui(for="mutations") Mutations
       %textarea#mutations.ui.fluid.wide(name="mutations")
       .ui.action.input#submit

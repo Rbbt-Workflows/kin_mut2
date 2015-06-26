@@ -1,141 +1,16 @@
-!!!
-!!! XML
-!!! Strict
-%html{ :xmlns => "http://www.w3.org/1999/xhtml", :lang => "en", 'xml:lang' => "en" }
-  %head
-    %title 
-      == #{(defined?(@title) ? @title : "wKinMut: Kinase Mutation Damange Prediction")}
-    %meta{'http-equiv'=>"Content-Type", :content=>"text/html; charset=UTF-8"}/
-    %meta{'http-equiv'=>"Content-Language", :content=>"en-us"}/
+= partial_render('layout/doctype')
 
-    %link(rel="icon" href="/favicon.ico" type="image/x-icon")
-    %link(rel="shortcut icon" href="/favicon.ico" type="image/x-icon")
+%head
+  = partial_render('layout/header')
+  = link_css '/stylesheets/kinmut'
+  %title KinMut2
 
-    - %w(jquery-2.1.1 jquery.cookie jquery.form ).each do |jquery_file|
-      = link_js File.join('/plugins/jquery/js/', jquery_file)
+%body.preload
 
-    // Semantic-ui
-
-    %link{:href=>"/opt/Semantic-UI-1.2.0/dist/semantic.min.css", :rel=>"stylesheet", :type=>"text/css"}
-    %script{:src =>"/opt/Semantic-UI-1.2.0/dist/semantic.min.js", :type=>"text/javascript"}
-    = link_js '/plugins/jquery.tablesorter/jquery.tablesorter.min.js'
-
-    // Rbbt javascripts
-    = link_js '/js/defer'
-    = link_js '/js/helpers'
-
-    - record_js "/plugins/underscore/js/underscore.js"
-
-    - record_js '/plugins/jquery-ui/js/jquery-ui-1.8.14.custom.min.js'
-
-    - record_js '/plugins/jquery.scrollTo/jquery.scrollTo'
-
-    - %w(helpers _md5 _ajax_replace _ellipsis).each do |file|
-      - record_js "/js-find/#{ file }"
-
-    - %w(dom_update workflow fragment menu favourites page_type modal reveal actions table list map hide).each do |file|
-      - record_js "/js-find/rbbt/#{ file }"
-
-    - record_js "/js-find/app"
-
-    %script{:src =>"/js-find/jquery-jmol/jquery.jmol.js", :type=>"text/javascript"}
-
-  :sass
-
-    .fragment
-      &.loading, &.reloading
-        &:after
-          content: "Loading..."
-          color: rgba(0,0,0,0.24)
-
-    table 
-      margin-top: 8px
-    dl:not(.two_column)
-      dt
-        font-weight: bold
-      dd
-        margin-bottom: 8px
-        > table:first-child
-          margin-top: 6px !important
-
-    .references
-      margin-top: 16px
-      .reference
-        margin-bottom: 8px
-        //font-size: 0
-        > *
-          font-size: 14px
-          display: inline-block
-        .keyword
-          font-style: italic
-          &:after
-            content: ": "
-        .journal
-          font-weight: bold
-        .authors.etal, .author.etal
-          &:after
-            content: " et al."
-            font-style: italic
-
-    header.ui.main.menu:first-child
-      margin-top: 16px !important
-      position: relative
-      > span.help
-        position: absolute
-        bottom: 16px
-        right: 0px
-
-    .ui.breadcrumb
-      display: block
-
-    .main.container, .main.menu, .main.footer
-      width: 900px
-      margin-left: auto
-      margin-right: auto
-    textarea#mutations
-      width: 100%
-      height: 20em
-    #submit
-      width: 100%
-    #submit_button
-      display: inline-block
-      width: auto
-      position: absolute
-      right: 0
-      top: 0
-      height: 100%
-    footer
-      border-top: 1px solid rgba(0,0,0,0.24)
-      margin-top: 3em
-      padding-top: 1em
-      padding-bottom: 1em
-      text-align: right
-
-    .full_width
-      width: 100% !important
-    .half_width
-      width: 50% !important
-
-    dl.two_column
-      column-count: 2
-      dd
-        line-height: 2em
-        width: 10%
-      dt
-        line-height: 2em
-        white-space: nowrap
-        width: 20%
-        font-weight: bold
-      dt, dd
-        margin-right: 5%
-        float: left
-        display: tabular
-        overflow: hidden
-        text-overflow: ellipsis
-    .important
-      font-weight: bold
-
+  /{{{ CONTENT
+  /-----------
   %body.ui.Grid
+    - @reload_page = false
     %header.main.menu.ui.grid
       %span.nine.wide.column
         %a(href="/") 
@@ -145,16 +20,24 @@
         %a.ui.button(href="/help" target='_blank') Help
 
     //.main.container.ui.grid
-    .ui.main.container
+    .ui.main.container#content
       = yield
 
-    %footer.ui.inverted.main.footer.row
-      %p#afiliacion
-        %span Spanish National Cancer Research Centre, CNIO     
-        %span Structural Biology and BioComputing Programme
 
+  /{{{ MODAL
+  /---------
+  #modal.ui.modal
+
+  /{{{ FOOTER
+  /----------
+  #footer
+    =partial_render('layout/footer')
+
+  /{{{ CODA
+  /--------
   #coda
     = partial_render('layout/coda')
+
 :javascript
   $('#load_example').click(function(){
     var button = $(this)

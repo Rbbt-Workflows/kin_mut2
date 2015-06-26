@@ -43,7 +43,7 @@
               %td= [info[:wt], info[:seq_pos], info[:mutant]] * ""
               %td= info[:description]
               %td
-                %a(href="http://bioinf.uta.fi/KinMutBase/")= info[:type]
+                %a(href="http://structure.bmc.lu.se/idbase/KinMutBase")= info[:type]
           - when "uniprot"
             - variant_code = [protein, mutation] * ":"
             - variant_id = $uniprot_variants[protein].zip_fields.select{|values| values["Amino Acid Mutation"] == mutation}.collect{|values| values["UniProt Variant ID"]}

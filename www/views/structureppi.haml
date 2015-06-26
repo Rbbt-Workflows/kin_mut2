@@ -102,7 +102,6 @@
     - interfaces = interfaces.slice(interfaces.fields.reject{|f| f=~ /PDB/ or f == "Residue"})
 
     - if interfaces.any?
-      - iii :interfaces
       .full_width
         .content
           %h5 Affected PPI interfaces
@@ -125,17 +124,17 @@
                     %td
                       .segment= residues.uniq.sort * ", "
 
+    - annotation_files = {}
+    - annotation_neighbour_files = {}
+    - databases.each do |database|
+      - annotation_files[database] = job.file(database).tsv
+      - annotation_neighbour_files[database] = job.file(database + '_neighbours').tsv
     - databases.each do |database|
       - log database
-      - annotator = Structure::ANNOTATORS[database]
-      - fields = annotator.fields
-      - annotator = Structure::ANNOTATORS[database]
-      - values = annotator.annotate(ensp, @fixed_position, organism)
 
-      - job = Structure.job(:annotate_mi_neighbours, nil, :mutated_isoforms => [mutation], :database => database)
-      - job.clean if not job.done? and not job.running?
-      - tsv = job.fork.join.load
-      - neighbour_values = tsv[mutation]
+      - fields = annotation_files[database].fields
+      - values = annotation_files[database][mutation]
+      - neighbour_values = annotation_neighbour_files[database][mutation]
       - next if values.nil? and neighbour_values.nil?
 
       .full_width

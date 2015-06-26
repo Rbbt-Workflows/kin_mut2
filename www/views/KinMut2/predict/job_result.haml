@@ -1,4 +1,4 @@
-- res = job.run
+- res = job.run(true).join.step(:predict)
 - translations = job.file(:translations).tsv.reorder "UniProt/SwissProt Accession"
 - names = Organism.identifiers(Organism.default_code("Hsa")).index :target => "Associated Gene Name", :fields => ["UniProt/SwissProt Accession"], :persist => true
 :ruby
@@ -118,7 +118,7 @@
           %span(style='font-weight:bold')== #{group}: 
           = $kinase_groups[group]
 
-:javascript
+:deferjs
 
   // add parser through the tablesorter addParser method 
   $.tablesorter.addParser({ 

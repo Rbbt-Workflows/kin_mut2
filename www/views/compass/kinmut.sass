@@ -1,0 +1,94 @@
+
+.fragment
+  &.loading, &.reloading
+    &:after
+      content: "Loading..."
+      color: rgba(0,0,0,0.24)
+
+table 
+  margin-top: 8px
+dl:not(.two_column)
+  dt
+    font-weight: bold
+  dd
+    margin-bottom: 8px
+    > table:first-child
+      margin-top: 6px !important
+
+.references
+  margin-top: 16px
+  .reference
+    margin-bottom: 8px
+    //font-size: 0
+    > *
+      font-size: 14px
+      display: inline-block
+    .keyword
+      font-style: italic
+      &:after
+        content: ": "
+    .journal
+      font-weight: bold
+    .authors.etal, .author.etal
+      &:after
+        content: " et al."
+        font-style: italic
+
+header.ui.main.menu:first-child
+  margin-top: 16px !important
+  position: relative
+  > span.help
+    position: absolute
+    bottom: 16px
+    right: 0px
+
+.ui.breadcrumb
+  display: block
+
+.main.container, .main.menu, .main.footer
+  width: 1200px
+  margin-left: auto
+  margin-right: auto
+textarea#mutations
+  width: 100%
+  height: 20em
+#submit
+  width: 100%
+#submit_button
+  display: inline-block
+  width: auto
+  position: absolute
+  right: 0
+  top: 0
+  height: 100%
+footer
+  border-top: 1px solid rgba(0,0,0,0.24)
+  margin-top: 3em
+  padding-top: 1em
+  padding-bottom: 1em
+  text-align: right
+
+.full_width
+  width: 100% !important
+.half_width
+  width: 50% !important
+
+dl.two_column
+  column-count: 2
+  dd
+    line-height: 2em
+    width: 10%
+  dt
+    line-height: 2em
+    white-space: nowrap
+    width: 20%
+    font-weight: bold
+  dt, dd
+    margin-right: 5%
+    float: left
+    display: tabular
+    overflow: hidden
+    text-overflow: ellipsis
+.important
+  font-weight: bold
+

@@ -1,0 +1,16 @@
+group	kinase_counts
+AGC	58
+Atypical_ADCK	5
+Atypical_Alpha-type	6
+Atypical_FAST	1
+Atypical_PDK/BCKDK	5
+Atypical_PI3/PI4-kinase	7
+Atypical_RIO-type	3
+CAMK	74
+CK1	12
+CMGC	62
+NEK	11
+RGC	5
+STE	56
+TKL	34
+Tyr	168

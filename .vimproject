@@ -22,27 +22,33 @@ KinMut=/$PWD filter="*.rb *.js *.css *.pl *.py *.cfg *.config" {
  }
  www=www {
   views=views filter="*" {
-   databases.haml
    details.haml
+
+   protein.haml
+   structure.haml
+   structureppi.haml
+   pathogenicity.haml
+
+   databases.haml
    error.haml
    help.haml
-   help.haml.old
    help2.haml
    help3.haml
    ihop.haml
    interactions.haml
    layout.haml
    literature.haml
-   pathogenicity.haml
-   pathogenicity.haml.old
    pfam.haml
-   protein.haml
    sentences.haml
-   structure.haml
-   structureppi.haml
    tasks.haml
+   compass=compass{
+    kinmut.sass
+   }
    KinMut2=KinMut2{
     predict=predict{
+     job_result.haml
+    }
+    predict_all=predict_all{
      job_result.haml
     }
    }

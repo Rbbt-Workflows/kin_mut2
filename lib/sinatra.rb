@@ -24,25 +24,19 @@ require 'structure/uniprot'
 
 organism = KinMut2.organism
 
-$protein_kinase_groups = Rbbt.pancancer.results["Uniprot.kinase.basicinfo.txt"].tsv(:key_field => "UNI_ACC", :fields => ["GROUP"], :persist => true, :type => :single)
+$protein_kinase_groups = Rbbt.data["Uniprot.kinase.basicinfo.txt"].tsv(:key_field => "UNI_ACC", :fields => ["GROUP"], :persist => true, :type => :single)
 $kinase_groups = Kinase.data["kinase_group_description.tsv"].find(:lib).tsv :single
-$kinase_groups_lor = Rbbt.pancancer.results["Uniprot.kinase.groups_lor.txt"].tsv(:key_field => "group", :fields => ["logodds"], :persist => true, :type => :single, :header_hash => "")
-$GO_lor = Rbbt.pancancer.results["Gene_Ontology.GOLOR.txt"].tsv(:key_field => "GOterm", :fields => ["golor"], :persist => true, :type => :single, :header_hash => "")
+$kinase_groups_lor = Rbbt.data["Uniprot.kinase.groups_lor.txt"].tsv(:key_field => "group", :fields => ["logodds"], :persist => true, :type => :single, :header_hash => "")
+$GO_lor = Rbbt.data["Gene_Ontology.GOLOR.txt"].tsv(:key_field => "GOterm", :fields => ["golor"], :persist => true, :type => :single, :header_hash => "")
 
 $prot_goterms = Kinase.data["uniprot2go.txt"].find(:lib).tsv :single, :fields => [2]
-$domains_lor = Rbbt.pancancer.results["Uniprot.kinase.domains_lor.txt"].tsv(:key_field => "domain", :fields => ["logodds"], :persist => true, :type => :single, :header_hash => "")
+$domains_lor = Rbbt.data["Uniprot.kinase.domains_lor.txt"].tsv(:key_field => "domain", :fields => ["logodds"], :persist => true, :type => :single, :header_hash => "")
 $gene_essentiality = Rbbt.data["gene_essentiality"].tsv :type => :single
 
 $goterm_score = Kinase.data["GOlogoddsratio.perterm.txt"].find(:lib).tsv :single, :fields => ["DESCRIPTION" ]
 $go_terms = Organism.gene_go(organism).tsv(:persist => true, :unnamed => true)
 
 $organism = Organism.default_code(organism)
-
-$entrez_index = Organism.identifiers(organism).index(:target => "Entrez Gene ID", :fields => ["UniProt/SwissProt Accession"], :persist =>  true, :order => true)
-$name_index   = Organism.identifiers(organism).index(:target => "Associated Gene Name", :fields => ["UniProt/SwissProt Accession"], :persist =>  true, :order => true)
-$ensg_index   = Organism.identifiers(organism).index(:target => "Ensembl Gene ID", :fields => ["UniProt/SwissProt Accession"], :persist =>  true, :order => true)
-$ensp_index_all   = Organism.protein_identifiers(organism).index(:target => "Ensembl Protein ID", :fields => ["UniProt/SwissProt Accession"], :persist =>  true,  :order => true).tap{|i| i.namespace = organism}
-$ensp_index   = Organism.protein_identifiers(organism).index(:target => "Ensembl Protein ID", :fields => ["UniProt/SwissProt Accession"], :persist =>  true,  :order => true, :data_tsv_grep => Appris::PRINCIPAL_ISOFORMS.to_a)
 
 $pfam_names = {}
 
@@ -168,7 +162,7 @@ get '/download/:name' do
 end
 
 get '/details/:name/:protein/:mutation' do
-  @job = KinMut2.load_id(File.join("predict", params[:name]))
+  @job = KinMut2.load_id(File.join("predict_all", params[:name]))
   @protein, @mutation = params.values_at :protein, :mutation
   @position = @mutation.scan(/\d+/).first.to_i
 

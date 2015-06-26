@@ -26,10 +26,13 @@
 - predictor_url["SIFT"] = "http://sift.jcvi.org/www/SIFT_help.html"
 - predictor_url["PPH2"] = "http://genetics.bwh.harvard.edu/pph2/dokuwiki/"
 - predictor_url["MutationTaster"] = "http://www.mutationtaster.org/info/FAQs.html"
-- predictor_url["Mutation Assessor"] = "http://mutationassessor.org/howitworks.php"
+- predictor_url["MutationAssessor"] = "http://mutationassessor.org/howitworks.php"
 - predictor_url["FATHMM"] = "http://fathmm.biocompute.org.uk/about.html"
 - predictor_url["VEST3"] = "http://karchinlab.org/apps/appVest.html "
 - predictor_url["CADD"] = "http://cadd.gs.washington.edu/info"
+
+- db_NSFP = @job.file('dbNSFP').tsv
+
 #pathogenicity.ui.container.sixteen.wide.column
   .ui.message
     :documentation
@@ -133,7 +136,7 @@
             Mutation position corrected to #{@fixed_position} in #{ensp}
         - ensp = @ensp
         - mutation = MutatedIsoform.setup([ensp,@fixed_mutation] * ":", KinMut2.organism)
-        - values = mutation.dbNSFP
+        - values = db_NSFP[mutation]
         - if values.nil?
           %p.column.full_width.two_column
             Precomputed prediction not found on dbNSFP for #{mutation}

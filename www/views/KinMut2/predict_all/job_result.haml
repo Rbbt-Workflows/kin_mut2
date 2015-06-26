@@ -1,0 +1,254 @@
+- orig_job = job.join
+- job = job.join.step(:predict)
+- res = orig_job.run
+- translations = job.file(:translations).tsv.reorder "UniProt/SwissProt Accession"
+- names = Organism.identifiers(Organism.default_code("Hsa")).index :target => "Associated Gene Name", :fields => ["UniProt/SwissProt Accession"], :persist => true
+- interfaces = orig_job.file('interfaces').tsv
+- dbNSFP = orig_job.file('dbNSFP').tsv
+- cosmic = orig_job.file('COSMIC').tsv
+- cosmic_neighbours = orig_job.file('COSMIC_neighbours').tsv
+- appris = orig_job.file('Appris').tsv
+- appris_neighbours = orig_job.file('Appris_neighbours').tsv
+- uniprot = orig_job.file('UniProt').tsv
+- uniprot_neighbours = orig_job.file('UniProt_neighbours').tsv
+- predictors = %w(SIFT Polyphen2_HDIV Polyphen2_HVAR MutationTaster MutationAssessor FATHMM LRT VEST3 CADD )
+- thresholds = %w( <0.05 >0.957,0.453 >0.909,0.447 <0.5 >3.5,1.9 <-1.5 - >0.8 >3.5   )
+:ruby
+
+  @uniprot_groups = {}
+
+  res.each{|tmutation,values|
+    mutation = values.flatten.first
+    protein, change = mutation.split ":"
+    @uniprot_groups[mutation] = $protein_kinase_groups[protein]
+  }
+
+:sass
+  .color.red
+    color: red
+
+  .color.green
+    color: green
+
+  
+  table
+    width: 100%
+    .ui.message
+      width: 100%
+   
+  #result
+    width: 100%
+
+#result.ui.column.wide
+  .ui.breadcrumb
+    .section Job:
+    .divider
+    %a.section.active(href='/#{[workflow, task, orig_job.name]*"/"}')= orig_job.clean_name
+
+  %p 
+    :markdown
+    
+      The following results are the `KinMut-RandomForest` predictions for the
+      potential disease implications of each mutation. You can view each in
+      more detail by clicking the buttons on each row. The results are
+      available for download below the table, as well as the correspondence
+      between the input protein identifiers used as input and their
+      correspondent UniProt accessions, the features used by the algorithm, and
+      it's raw input and output.
+
+  - proteins = []
+  %table.ui.table.sortable
+    %thead
+      %tr
+        %th Kinase
+        %th Change
+        %th Kinase Group*
+        %th # COSMIC samples.
+        %th # Firestar ligands
+        %th # MOD_RES
+        %th # MUTAGEN
+        %th Drug target
+        %th Affected PPi
+        %th Other damage pred.
+        %th Prediction
+        %th Confidence Score
+        %th.details
+    %tbody
+      - orig_job.path.tsv(:type => :list).each do |tmutation, values|
+        - mutation = values.shift
+        - protein, change = mutation.split ":"
+        - proteins << protein
+        - prediction, score = values
+        - protein_link = ""
+        - group = @uniprot_groups[mutation]
+
+
+        - damage_count = 0
+        - total_preds = 0
+        - dvalues = dbNSFP[tmutation]
+        - if dvalues
+          - predictors.each_with_index do |predictor,i|
+            - next if predictor == "LRT"
+            - raw, dscore, converted, rankscore, raw_rankscore, converted_rankscore, p = nil
+            - threshold = thresholds[i]
+            - raw = dvalues[predictor + '_raw'] if dvalues.fields.include? predictor + '_raw'
+            - dscore = dvalues[predictor + '_score'] if dvalues.fields.include? predictor + '_score'
+            - dscore = nil if String === dscore and dscore.empty?
+            - dscore = raw if dscore.nil?
+            - converted = dvalues[predictor + '_converted_score'] if dvalues.fields.include? predictor + '_converted_score'
+            - rankscore = dvalues[predictor + '_rankscore'] if dvalues.fields.include? predictor + '_rankscore'
+            - raw_rankscore = dvalues[predictor + '_raw_rankscore'] if dvalues.fields.include? predictor + '_raw_rankscore'
+            - converted_rankscore = dvalues[predictor + '_converted_rankscore'] if dvalues.fields.include? predictor + '_converted_rankscore'
+            - if score and threshold != '-'
+              - p = case threshold
+                - when /^<(.*)/
+                  - ths = $1.split(",")
+                  - ths.inject(0){|acc,e| acc += 1 if dscore.to_f < e.to_f; acc}.to_f/ths.length
+                - when /^>(.*)/
+                  - ths = $1.split(",")
+                  - ths.inject(0){|acc,e| acc += 1 if dscore.to_f > e.to_f; acc}.to_f/ths.length
+                - else
+                  - nil
+              - damage_count += 1 if p > 0.5
+              - total_preds +=1
+        %tr
+          %td
+            = protein
+            - if translations[protein] and translations[protein] != protein
+              (#{translations[protein]})
+            - else
+              (#{names[protein]})
+          %td
+            - wt = Kinase.error_in_wt_aa?(protein, change)
+            - if wt.nil? or wt
+              - first, *rest = change.split('')
+              = "<font color='red'>#{first}</font>#{rest*""}"
+              - if wt.nil?
+                %span.wt_error== position outside protein range
+              - else
+                %span.wt_error== (#{wt})
+            
+            - else
+              = change
+          %td= group
+
+          %td
+            - if cosmic.include? tmutation
+              - count = cosmic[tmutation]["Sample ID"].length
+            - else
+              - count = 0
+            - if cosmic_neighbours.include? tmutation
+              - ncount = cosmic_neighbours[tmutation]["Sample ID"].collect{|l| l.split(";")}.flatten.uniq.length
+            - else
+              - ncount = 0
+            #{count} / #{ncount}
+
+          %td
+            - if appris.include? tmutation
+              - count = Misc.zip_fields(appris[tmutation]).select{|type,lig| type =~ /firestar/}.length
+            - else
+              - count = 0
+            - if appris_neighbours.include? tmutation
+              - ncount = Misc.zip_fields(appris_neighbours[tmutation]).select{|res,type,lig| type =~ /firestar/}.length
+            - else
+              - ncount = 0
+            #{count} / #{ncount}
+
+
+          %td
+            - if uniprot.include? tmutation
+              - count = Misc.zip_fields(uniprot[tmutation]).select{|feat,loc,desc| feat =~ /MOD_RES/}.length
+            - else
+              - count = 0
+            - if uniprot_neighbours.include? tmutation
+              - ncount = Misc.zip_fields(uniprot_neighbours[tmutation]).select{|res,feat,loc,desc| feat =~ /MOD_RES/}.length
+            - else
+              - ncount = 0
+            #{count} / #{ncount}
+
+          %td
+            - if uniprot.include? tmutation
+              - count = Misc.zip_fields(uniprot[tmutation]).select{|feat,loc,desc| feat =~ /MUTAGEN/}.length
+            - else
+              - count = 0
+            - if uniprot_neighbours.include? tmutation
+              - ncount = Misc.zip_fields(uniprot_neighbours[tmutation]).select{|res,feat,loc,desc| feat =~ /MUTAGEN/}.length
+            - else
+              - ncount = 0
+            #{count} / #{ncount}
+
+          %td
+            - name = names[protein]
+            - if $kinase_FDA_drugs.select(:Target => name).length > 0
+              true
+            - else
+              false
+
+          %td
+            = interfaces.include?(tmutation) ? "true" : "false"
+
+          %td
+            - if dbNSFP.include? tmutation
+              #{damage_count} / #{total_preds}
+            - else
+              NA
+
+          %td
+            - if prediction == "disease"
+              %span.ui.message.red= prediction
+            - else
+              %span.ui.message.green= prediction || "no prediction"
+          %td= score.to_f * (prediction == "neutral" ? -1 : 1)
+
+
+          - details_url = "/details/#{orig_job.name}/#{protein}/#{change}"
+          %td.details
+            %a.ui.small.button.blue(href=details_url) View details
+      
+  %a.ui.button.blue(href="#{@ajax_url}?_format=raw")
+    Download results (TSV)
+
+  %h5 Additional files for download
+  .ui.segment.buttons
+    - files = job.files - ["html", "html.info"]
+    - if files.any?
+      - files.sort.each do |file|
+        %a.ui.button.small(href="/#{[workflow.to_s, job.task.name, job.name, "file", file] * "/"}")= file
+    - files = orig_job.files - ["html", "html.info"]
+    - if files.any?
+      - files.sort.each do |file|
+        %a.ui.button.small(href="/#{[workflow.to_s, orig_job.task.name, orig_job.name, "file", file] * "/"}")= file
+
+  %p.kinase_groups
+    \* 
+    %span(style='font-style:italic') Kinase Group:
+    Classification of the human kinome according to
+    %a(href='http://www.ncbi.nlm.nih.gov/pubmed/12471243' target='_blank') 
+      Manning 
+      %span(style='font-style:italic')et al.
+      , 2002.
+    %ul.kinase_groups
+      - @uniprot_groups.values.uniq.sort.each do |group|
+        %li
+          %span(style='font-weight:bold')== #{group}: 
+          = $kinase_groups[group]
+
+:deferjs
+
+  // add parser through the tablesorter addParser method 
+  $.tablesorter.addParser({ 
+      // set a unique id 
+      id: 'aa_mutation', 
+      is: function(s) { 
+          // return false so this parser is not auto detected 
+          return false; 
+      }, 
+      format: function(s) { 
+          // format your data for normalization 
+          return s.toLowerCase().match(/(\d+)/)[0];
+      }, 
+      // set type, either numeric or text 
+      type: 'numeric' 
+  }); 
+  
+  $('#result table.sortable').tablesorter({headers:{ 1: {sorter: 'aa_mutation'}}})

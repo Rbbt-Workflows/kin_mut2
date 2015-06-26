@@ -14,7 +14,6 @@
 
   goterms = Misc.zip_fields(Organism.gene_go("Hsa").tsv(:persist => true, :unnamed => true)[ensg])
 
-- $kinase_FDA_drugs = Rbbt.data["FDA_drugs_kinases_all_available.txt"].tsv :persist => false, :header_hash => "", :fields => %w(Sponsor Indications Target), :sep2 => /\s*,\s+/
 :sass
   .protein table td:first-child
     width: 10em
@@ -65,7 +64,7 @@
 
     %dt FDA approved inhibitors
     %dd
-      - if $kinase_FDA_drugs.select(:Target => name).any?
+      - if $kinase_FDA_drugs.select(:Target => name).length > 0
         = table :footer => false, :class => 'very basic compact' do
           -$kinase_FDA_drugs.select(:Target => name)
       - else
