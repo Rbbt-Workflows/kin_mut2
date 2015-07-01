@@ -277,15 +277,41 @@
     Download results (TSV)
 
   %h5 Additional files for download
-  .ui.segment.buttons.more_files
+  %dl
     - files = job.files - ["html", "html.info"]
+    - descriptions = Hash.new "Description"
+    - descriptions['features'] = "Features used by the wKinMut-2 Random Forest model"
+    - descriptions['fixed'] = "Fixed input, translated and filtered for kinase variants"
+    - descriptions['translations'] = "Correspondance between provided variants and fixed variants"
+    - descriptions['vector.weka.aff'] = "Weka feature vector"
+    - descriptions['vector.weka.out'] = "Weka result"
+    - descriptions['Appris'] = "Annotation of variants overlapping Appris annotated residues"
+    - descriptions['Appris_neighbours'] = "Annotation of variants close to Appris annotated residues"
+    - descriptions['COSMIC'] = "Annotation of COSMIC samples with mutations overlapping the variant residue"
+    - descriptions['COSMIC_neighbours'] = "Annotation of COSMIC samples with mutations close to the variant residue"
+    - descriptions['InterPro'] = "Annotation of variants overlapping InterPro domains"
+    - descriptions['InterPro_neighbours'] = "Annotation of variants close to InterPro domains"
+    - descriptions['UniProt'] = "Annotation of variants overlapping UniProt annotated residues"
+    - descriptions['UniProt_neighbours'] = "Annotation of variants close to UniProt annotated residues"
+    - descriptions['dbNSFP'] = "Annotation of variants with dbNSFP (damage predictions)"
+    - descriptions['interfaces'] = "Annotation of variants overlapping PPI surfaces"
+
     - if files.any?
       - files.sort.each do |file|
-        %a.ui.button.small(href="/#{[workflow.to_s, job.task.name, job.name, "file", file] * "/"}")= file
+        - next if file =~ /vector/
+        - description = descriptions[file]
+        %dt
+          %a.ui.button.small(href="/#{[workflow.to_s, job.task.name, job.name, "file", file] * "/"}")= file
+        %dd
+          = description
     - files = orig_job.files - ["html", "html.info"]
     - if files.any?
       - files.sort.each do |file|
-        %a.ui.button.small(href="/#{[workflow.to_s, orig_job.task.name, orig_job.name, "file", file] * "/"}")= file
+        - description = descriptions[file]
+        %dt
+          %a.ui.button.small(href="/#{[workflow.to_s, orig_job.task.name, orig_job.name, "file", file] * "/"}")= file
+        %dd
+          = description
 
 :sass
   .column_explanations
