@@ -1,0 +1,30 @@
+:sass
+  section.documentation
+    margin-top: 1em
+#tasks.ui.grid
+  .ui.seven.wide.column.parameters
+    %form(action='/KinMut2/predict_all' enctype="multipart/form-data" method="POST")
+      %label.ui(for="mutations") Variants
+      %textarea#mutations.ui.fluid.wide(name="mutations")
+      .ui.action.input#submit
+        .ui.button#load_example
+          Try example
+        %input(type="text" placeholder="Optional jobname" name='jobname')
+        %input.ui.button.blue#submit_button(type="submit")
+
+  .ui.seven.wide.column.parameters
+    :documentation
+
+      The input to the system are single point missense events affecting the human
+      kinome. Variants are defined by a Uniprot accession, a position in the
+      protein and the wild-type and alternative amino acids. Consequently, a
+      change from Valine to Glutamate in position 600 of the B-Raf proto-oncogene
+      would be encoded as P15056 V600E.
+      
+      Non-standard amino acids will be decomposed into separate instances of
+      their standard counterparts (D, N and E, Q, respectively) whereas
+      synonymous and truncating variants will be excluded from the analysis.
+      Additionally, we highlight in red input instances where the introduced
+      wild-type amino acid does not coincide with the expected equivalent
+      position in the canonical protein sequence. 
+

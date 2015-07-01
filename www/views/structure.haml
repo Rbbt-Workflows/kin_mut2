@@ -38,28 +38,31 @@
 
   - if @fixed_position != @position
     .ui.message.blue
-      Mutation position corrected to #{@fixed_position} in #{ensp}
+      Variant position corrected to #{@fixed_position} in #{ensp}
 
   = tool :protein_tool, :protein => ensp, :position => position.to_s
 
-  :deferjs
-    if ($('#mark_align').length == 0){
-      var but = $('<div>').attr('id', 'mark_align').addClass('ui button').html("Mark alignment between PDB and sequence")
-      $('.isoform_svg_tool').prepend(but)
-    }
-    var position = #{@fixed_position}
-    var jmol = $('.jmol_tool').first()
-    var isoform_svg = $('.isoform_svg_tool').first()
-    $('#mark_align').click(function(){
-      if(jmol.jmol_tool('is_pdb_loaded')){     
-        var map = jmol.jmol_tool('alignment_map');
-        isoform_svg.isoform_svg_tool('clear');
-        isoform_svg.isoform_svg_tool('mark_aligned_region', map, 'blue');
-        isoform_svg.isoform_svg_tool('mark_position', position, 'red');
-      }else{
-        alert('Select a PDB first to display the aligned region')
-      }
-      return false
-    })
-    jmol.jmol_tool('background', 'white')
+  -#:deferjs
+    //if ($('#mark_align').length == 0){
+    //  var but = $('<div>').attr('id', 'mark_align').addClass('ui button').html("Mark alignment between PDB and sequence")
+    //  $('.isoform_svg_tool').prepend(but)
+    //}
+    //var position = #{@fixed_position}
+    //var jmol = $('.jmol_tool').first()
+    //var isoform_svg = $('.isoform_svg_tool').first()
+
+    //register_dom_update('#mark_align', function(button){
+    //  button.click(function(){
+    //    console.log(1)
+    //    if(jmol.jmol_tool('is_pdb_loaded')){     
+    //      var map = jmol.jmol_tool('alignment_map');
+    //      isoform_svg.isoform_svg_tool('clear');
+    //      isoform_svg.isoform_svg_tool('mark_aligned_region', map, 'blue');
+    //      isoform_svg.isoform_svg_tool('mark_position', position, 'red');
+    //    }else{
+    //      alert('Select a PDB first to display the aligned region')
+    //    }
+    //    return false
+    //  })
+    //})
 

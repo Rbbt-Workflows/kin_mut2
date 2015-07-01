@@ -29,6 +29,8 @@ KinMut=/$PWD filter="*.rb *.js *.css *.pl *.py *.cfg *.config" {
    structureppi.haml
    pathogenicity.haml
 
+   wait.haml
+
    databases.haml
    error.haml
    help.haml
@@ -40,6 +42,9 @@ KinMut=/$PWD filter="*.rb *.js *.css *.pl *.py *.cfg *.config" {
    literature.haml
    pfam.haml
    sentences.haml
+   resources.haml
+   references.haml
+   input.haml
    tasks.haml
    compass=compass{
     kinmut.sass

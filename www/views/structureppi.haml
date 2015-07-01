@@ -71,12 +71,12 @@
 
       The following information is extracted from Structure-PPi, a workflow for
       the annotation of protein residues. It finds features overlapping the
-      mutation or overlapping any residue that is in close physical proximity
-      to the mutation: 5 angstroms spatial distance or adjacent in the sequence
+      variant or overlapping any residue that is in close physical proximity
+      to the variant: 5 angstroms spatial distance or adjacent in the sequence
       if no PDB covers that area. 
       
       It may also report protein protein interfaces that might be affected by
-      the mutation, i.e. when they are at a distance of 8 angstroms from
+      the variant, i.e. when they are at a distance of 8 angstroms from
       residues from a partner protein.
       
       The structure PDB files used for these calculations are all those
@@ -86,14 +86,14 @@
       discrepancies.
 
       The databases examined are UniProt, InterPro, COSMIC and Appris. The
-      COSMIC database reports mutations affecting that residue, not necessarily
+      COSMIC database reports variants affecting that residue, not necessarily
       the same amino-acid change. Appris agglutinates features from FireDB,
       which are catalytic sites, and ligand-binding sites, and others such as
       trans-membrane domains, signal peptides, and ligand binding sites.
       
   - if @fixed_position != @position
     .ui.message.blue
-      Mutation position corrected to #{@fixed_position} in #{ensp}
+      Variant position corrected to #{@fixed_position} in #{ensp}
 
   = fragment :structureppi do
     - interfaces = Structure.job(:mi_interfaces, nil, :mutated_isoforms => [mutation])

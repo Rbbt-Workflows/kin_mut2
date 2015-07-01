@@ -1,29 +1,42 @@
 
-#tasks.ui.grid
-  .ui.seven.wide.column.paramters
-    %form(action='/KinMut2/predict_all' enctype="multipart/form-data" method="POST")
-      %label.ui(for="mutations") Mutations
-      %textarea#mutations.ui.fluid.wide(name="mutations")
-      .ui.action.input#submit
-        .ui.button#load_example
-          Try example
-        %input(type="text" placeholder="Optional jobname" name='jobname')
-        %input.ui.button.blue#submit_button(type="submit")
+:sass
 
+  #main
+    &:after
+      content: " "
+      display: block
+      clear: both
+    img
+      float: left
+      width: 50%
+      margin-right: 3em
+      margin-top: 2em
+    section.documentation
+      margin-top: 6em
 
-  .ui.nine.wide.column.summary
-    :documentation
-    
-      wKinMut-2 is an integrated framework for the analysis and interpretation of the consequences of mutations in the human kinome.
+.ui.segment#main
+  .header
+    .ui.three.item.menu#main_menu
+      %a.item(href='/input') Input
+      %a.item(href='/KinMut2/predict_all/Example_1a3d90709a31aeb62169f18e6af143f5?_format=html') Example
+      %a.item(href='/tutorial') Tutorial
+      %a.item(href='/resources') Resources
+      %a.item(href='/references') References
 
-      It displays information from diverse sources, that include:
+  %img(src='/images/KinMut2-main.jpg')
+  
+  :documentation
+  
+    wKinMut-2 is an integrated framework for the analysis and interpretation of the consequences of variants in the human kinome.
 
-      *  Protein/Gene general information, Gene Ontology terms, estimations of gene essentiality in orthologues and known drug targets.
-      *  Structural information from PDB and Structure-PPI.
-      *   Characterization at the domain and residue levels. Functional annotations and information about plausible catalytic and phosphorylation sites.
-      *  Predictions of mutation pathogenicity with 9 different methods, including our own kinase-specific Random Forest.
-      *  Information from dedicated mutation databases (Uniprot Variant Pages, COSMIC, KinMutBase, Kin-Driver)
-      *  Mutation mentions from the literature (SNP2L)
-      *  Protein Protein Interactions extracted from the literature (iHOP) and String.
+    It displays information from diverse sources, that include:
+
+    *  Protein/Gene general information, Gene Ontology terms, estimations of gene essentiality in orthologues and known drug targets.
+    *  Structural information from PDB and Structure-PPI.
+    *   Characterization at the domain and residue levels. Functional annotations and information about plausible catalytic and phosphorylation sites.
+    *  Predictions of variant  pathogenicity with 9 different methods, including our own kinase-specific Random Forest.
+    *  Information from dedicated variant databases (Uniprot Variant Pages, COSMIC, KinMutBase, Kin-Driver)
+    *  Variants mentions from the literature (SNP2L)
+    *  Protein Protein Interactions extracted from the literature (iHOP) and String.
 
 

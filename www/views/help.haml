@@ -16,28 +16,28 @@
     ---
 
     wKinMut-2 is a unified one-stop shop to facilitate the exploration and
-    understanding of the consequences of protein kinase mutations and the
+    understanding of the consequences of protein kinase variants and the
     underlying biological mechanisms by which they contribute to disease, and
     in particular, cancer.  
 
     What is the scope of wKinMut-2? 
     ---
 
-    Provided that focus is set on kinase mutations involved in cancer and other
+    Provided that focus is set on kinase variants involved in cancer and other
     human diseases, the scope of wKinMut-2 lays within the human kinome.
 
-    How do I submit mutations for analysis?
+    How do I submit variants for analysis?
     ---
 
-    Please, provide one or more mutations in the 'mutations' box. Optionally, a
+    Please, provide one or more variants in the 'variants' box. Optionally, a
     descriptive name for the experiment can be provided.  The wKinMut-2
     submission format includes the Uniprot/Swissprot accession number, the wild
     type residue, the position and the mutated residue. For instance, a
-    mutation from Glycine to Alanine in position 719 of the Epidermal Growth
+    variants from Glycine to Alanine in position 719 of the Epidermal Growth
     factor receptor, will be encoded P00533 G719A. Other identifier formats are
     aceptable in addition to UniProt/SwissProt accessions, such as gene symbols
     or Ensembl Protein IDs, which will be automatically translated. Multiple
-    mutations can be submitted at a time.
+    variants can be submitted at a time.
     
     ![](/file/figure1.png)
 
@@ -47,16 +47,16 @@
     Yes, there is. In the framework's main page, press 'Try example' to
     load a toy dataset. 
 
-    How do I get extended information about the mutations?
+    How do I get extended information about the variants?
     ---
 
-    In the results table, click on the pathogenic character of the mutations
+    In the results table, click on the pathogenic character of the variants
     (red/green buttons). This will redirect you to a new page containing
     information including the values of the features using for classification,
     protein-protein interaction information, mentions in the literature of the
-    mutation and existing records of the mutation in other databases. This
+    variants and existing records of the variants in other databases. This
     additional information is intended to provide the basic background to help
-    to understand and interpret the consequences of the mutations.
+    to understand and interpret the consequences of the variants.
 
     ![](/file/figure2.png)
 
@@ -90,22 +90,22 @@
     ---
 
     Structure-PPi reports protein features (e.g. functional domains, known
-    somatic mutations in different types of cancer, UniProt annotations from
+    somatic variants in different types of cancer, UniProt annotations from
     missense variants, ligand binding residues, catalytic sites) that overlap
-    the mutations "direct matches" or that are in close physical proximity
-    "neighbours". When mutations affect the interfaces of protein complexes,
+    the variants ("direct matches") or that are in close physical proximity
+    ("neighbours"). When variants affect the interfaces of protein complexes,
     Structure-PPi also reports the partner Ensembl Protein ID, and the protein
     features for partner residues.
 
-    Where does the mutation pathogenicity information come from?
+    Where does the variant pathogenicity information come from?
     ---
 
     wKinMut-2 provides predictions from 9 different methodologies. Of these
     methods, 8 are directly extracted from dbNSFP and include likelihood scores
     from SIFT, Polyphen2, LRT, MutationTaster, MutationAssessor, FATHMM, VEST3
     and CADD. In addition to these, wKinMut-2 implements a Random Forest
-    classifier specific to mutations in the human kinome. A number of
-    sequence-derived features that characterize mutations affecting human
+    classifier specific to variants in the human kinome. A number of
+    sequence-derived features that characterize variants affecting human
     protein kinases at different levels: 
 
       * gene level, including membership to a Kinbase group and Gene Ontology categories 
@@ -114,7 +114,7 @@
 
     The focus on the protein kinase superfamily enabled the choice of features
     unique to this superfamily. These kinase-specific annotations greatly
-    increase the accuracy of the classification of mutations. Each prediction
+    increase the accuracy of the classification of variants. Each prediction
     is accompanied by a reliability score, and the annotations giving rise to
     the predictions are also displayed to facilitate the biological
     interpretation. 
@@ -123,7 +123,7 @@
     ---
 
     Our approach outperforms available methods in a cross-validation (k=10)
-    experiment on the 3689 kinase mutations for which a characterization of
+    experiment on the 3689 kinase variants for which a characterization of
     their pathogenicity in Uniprot exists. The evaluation followed established
     good practices in the field obtaining satisfactory results. The following
     table includes the results for the classifiers according to the values
@@ -159,25 +159,25 @@
     Where does the literature information come from?
     ---
 
-    The sentences providing contextual information about the mutations come
+    The sentences providing contextual information about the variants come
     directly from the literature. We obtain this information using SNP2L. In
     brief, SNP2L is a literature mining pipeline for the automatic extraction
-    and disambiguation of single-point mutation mentions from both abstracts as
+    and disambiguation of single-point variants mentions from both abstracts as
     well as full text articles, followed by a sequence validation check to link
-    mutations to their corresponding kinase protein sequences (more at
+    variants to their corresponding kinase protein sequences (more at
     [Pubmed:
     19758464](http://www.ncbi.nlm.nih.gov/pubmed?cmd=search&term=19758464))
 
-    Which databases are revised in order to gather information about the mutations?
+    Which databases are revised in order to gather information about the variants?
     ---
 
     Currently, four different databases are revised: [Uniprot Variation
     Pages](http://web.expasy.org/variant_pages/),
     [COSMIC](http://www.sanger.ac.uk/genetics/CGP/cosmic/),
     [Kin-Driver](http://kin-driver.leloir.org.ar/) and
-    [KinMutBase](http://bioinf.uta.fi/KinMutBase/ ). These databases were
+    [KinMutBase](http://structure.bmc.lu.se/idbase/KinMutBase). These databases were
     selected in order to cover different aspects of human protein kinase
-    mutation.  
+    variant.  
 
     Can I access wKinMut programmatically?
     ---

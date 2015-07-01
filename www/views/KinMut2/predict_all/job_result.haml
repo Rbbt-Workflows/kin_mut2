@@ -24,6 +24,8 @@
   }
 
 :sass
+  .more_files
+    display: block !important
   .color.red
     color: red
 
@@ -35,9 +37,14 @@
     width: 100%
     .ui.message
       width: 100%
+    td
+      white-space: nowrap
    
   #result
     width: 100%
+
+  th#kg:after
+    content: '*'
 
 #result.ui.column.wide
   .ui.breadcrumb
@@ -50,28 +57,69 @@
     
       The following results are the `KinMut-RandomForest` predictions for the
       potential disease implications of each mutation. You can view each in
-      more detail by clicking the buttons on each row. The results are
-      available for download below the table, as well as the correspondence
-      between the input protein identifiers used as input and their
-      correspondent UniProt accessions, the features used by the algorithm, and
-      it's raw input and output.
+      more detail by clicking the buttons on each row. 
+      
+      The results are available for download below the table, as well as the
+      correspondence between the input protein identifiers used as input and
+      their correspondent UniProt accessions, the features used by the
+      algorithm, and it's raw input and output. Additionally we offer some of
+      the in-depth annotations also available for bulk download: Appris,
+      COSMIC, UniProt, DbNSFP, PPI interfaces, etc
+
+  %hr
+  %dl.column_explanations
+    %dt KG
+    %dd 
+      Classification of the human kinome according to Manning et al., 2002
+
+    %dt CV
+    %dd 
+      Marked pathogenic in ClinVar
+    %dt #CS
+    %dd 
+      Number of COSMIC samples with variants overlapping that same residue. The number of samples with mutations close to the variant is shown in parenthesis
+    %dt FL
+    %dd 
+      Variant overlapping a Firestar ligand binding or catalytic residue. The number of Firestar annotated residues close to the variant is shown in parenthesis
+    %dt MR
+    %dd 
+      Variant overlapping a post-translational modifications (UniProt feature: MOD_RES) annotated residue. The number of such residues close to the variant is shown in parenthesis
+    %dt MUT
+    %dd
+      Variant overlapping a residue experimentally altered by mutagenesis (UniProt feature: MUTAGEN). The number of such resdidues close to the variant is shown in parenthesis
+    %dt DT
+    %dd 
+      The protein is targeted by an FDA approved drug
+    %dt PPI
+    %dd 
+      The mutation affects a protein-protein interaction interface
+    %dt ODP
+    %dd 
+      Number of other damage predictors that predict the mutation as damaging: SIFT, Polyphen2_HDIV, Polyphen2_HVAR, MutationTaster, MutationAssessor, FATHMM, VEST3, and CADD
+    %dt KM Pred.
+    %dd 
+      KinMut-RF prediction 
+    %dt KM Score
+    %dd 
+      KinMut-RF prediction score. The closer to 1 in absolute value the higher the confidence
 
   - proteins = []
   %table.ui.table.sortable
     %thead
       %tr
         %th Kinase
-        %th Change
-        %th Kinase Group*
-        %th # COSMIC samples.
-        %th # Firestar ligands
-        %th # MOD_RES
-        %th # MUTAGEN
-        %th Drug target
-        %th Affected PPi
-        %th Other damage pred.
-        %th Prediction
-        %th Confidence Score
+        %th Variant
+        %th#kg KG
+        %th CV
+        %th #CS
+        %th FL
+        %th MR
+        %th MUT
+        %th DT
+        %th PPI
+        %th ODP
+        %th KM Pred.
+        %th KM Score
         %th.details
     %tbody
       - orig_job.path.tsv(:type => :list).each do |tmutation, values|
@@ -133,6 +181,12 @@
           %td= group
 
           %td
+            - if $clinvar.include? tmutation and $clinvar[tmutation] == "Pathogenic"
+              Yes
+            - else
+              No
+
+          %td
             - if cosmic.include? tmutation
               - count = cosmic[tmutation]["Sample ID"].length
             - else
@@ -141,7 +195,7 @@
               - ncount = cosmic_neighbours[tmutation]["Sample ID"].collect{|l| l.split(";")}.flatten.uniq.length
             - else
               - ncount = 0
-            #{count} / #{ncount}
+            #{count} (#{ncount})
 
           %td
             - if appris.include? tmutation
@@ -152,7 +206,7 @@
               - ncount = Misc.zip_fields(appris_neighbours[tmutation]).select{|res,type,lig| type =~ /firestar/}.length
             - else
               - ncount = 0
-            #{count} / #{ncount}
+            #{count == 0 ? "No" : "Yes"} (#{ncount})
 
 
           %td
@@ -164,7 +218,7 @@
               - ncount = Misc.zip_fields(uniprot_neighbours[tmutation]).select{|res,feat,loc,desc| feat =~ /MOD_RES/}.length
             - else
               - ncount = 0
-            #{count} / #{ncount}
+            #{count == 0 ? "No" : "Yes"} (#{ncount})
 
           %td
             - if uniprot.include? tmutation
@@ -175,21 +229,21 @@
               - ncount = Misc.zip_fields(uniprot_neighbours[tmutation]).select{|res,feat,loc,desc| feat =~ /MUTAGEN/}.length
             - else
               - ncount = 0
-            #{count} / #{ncount}
+            #{count == 0 ? "No" : "Yes"} (#{ncount})
 
           %td
             - name = names[protein]
             - if $kinase_FDA_drugs.select(:Target => name).length > 0
-              true
+              Yes
             - else
-              false
+              No
 
           %td
-            = interfaces.include?(tmutation) ? "true" : "false"
+            = interfaces.include?(tmutation) ? "Yes" : "No"
 
           %td
             - if dbNSFP.include? tmutation
-              #{damage_count} / #{total_preds}
+              #{damage_count} of 8
             - else
               NA
 
@@ -205,20 +259,6 @@
           %td.details
             %a.ui.small.button.blue(href=details_url) View details
       
-  %a.ui.button.blue(href="#{@ajax_url}?_format=raw")
-    Download results (TSV)
-
-  %h5 Additional files for download
-  .ui.segment.buttons
-    - files = job.files - ["html", "html.info"]
-    - if files.any?
-      - files.sort.each do |file|
-        %a.ui.button.small(href="/#{[workflow.to_s, job.task.name, job.name, "file", file] * "/"}")= file
-    - files = orig_job.files - ["html", "html.info"]
-    - if files.any?
-      - files.sort.each do |file|
-        %a.ui.button.small(href="/#{[workflow.to_s, orig_job.task.name, orig_job.name, "file", file] * "/"}")= file
-
   %p.kinase_groups
     \* 
     %span(style='font-style:italic') Kinase Group:
@@ -233,7 +273,49 @@
           %span(style='font-weight:bold')== #{group}: 
           = $kinase_groups[group]
 
+  %a.ui.button.blue(href="#{@ajax_url}?_format=raw" data-html='<span>HOLA</span>')
+    Download results (TSV)
+
+  %h5 Additional files for download
+  .ui.segment.buttons.more_files
+    - files = job.files - ["html", "html.info"]
+    - if files.any?
+      - files.sort.each do |file|
+        %a.ui.button.small(href="/#{[workflow.to_s, job.task.name, job.name, "file", file] * "/"}")= file
+    - files = orig_job.files - ["html", "html.info"]
+    - if files.any?
+      - files.sort.each do |file|
+        %a.ui.button.small(href="/#{[workflow.to_s, orig_job.task.name, orig_job.name, "file", file] * "/"}")= file
+
+:sass
+  .column_explanations
+    dt, dd
+      display: inline-block
+      font-size: 0.8em
+      height: 3.5em
+      vertical-align: text-top
+    dt
+      &:after
+        content: ": "
+      margin-right: 0
+      width: 5em
+    dd
+      margin-left: 0.5em
+      margin-right: 1em
+      width: calc(50% - 7.5em)
+  //.tooltip:not(.active)
+    display: none
+
 :deferjs
+
+  $('.ui.header#poph').popup({on: 'hover'})
+
+  $('table > thead th').each(function(){
+    var th = $(this)
+    var name = th.html()
+    var dt = $('dl.column_explanations dt').filter(function(i,x){ return x.innerHTML == name }).first()
+    if (dt) $(th).attr('title', dt.next().html())
+  })
 
   // add parser through the tablesorter addParser method 
   $.tablesorter.addParser({ 

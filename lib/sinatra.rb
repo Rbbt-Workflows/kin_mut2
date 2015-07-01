@@ -243,8 +243,16 @@ post '/' do
   end
 end
 
-get '/index' do
-  template_render("index")
+get '/input' do
+  template_render("input")
+end
+
+get '/resources' do
+  template_render("resources")
+end
+
+get '/references' do
+  template_render("references")
 end
 
 get '/jmol/:uniprot/:position' do
