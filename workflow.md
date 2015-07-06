@@ -4,15 +4,15 @@ KinMut2
 
 To install this workflow you will need a working rbbt installation. Please find
 documentation on getting a working rbbt 
-instalation (here)[http://mikisvaz.github.io/rbbt/tutorial/install/]
+instalation [here](http://mikisvaz.github.io/rbbt/tutorial/install/)
 
 In short it consiste of configuring the base system with some packages needed
 by ruby, installing the necessary ruby gems (in particular the rbbt framework)
 and then bootstrapping the system (see the instructions for more details on
 file_servers)
 
-An alternative version is using the (rbbt-image
-package)[https://github.com/mikisvaz/rbbt-image] that can construct a provision
+An alternative version is using the [rbbt-image
+package](https://github.com/mikisvaz/rbbt-image) that can construct a provision
 script to be used for local instalations as well as producing docker or vagrant
 images. 
 
