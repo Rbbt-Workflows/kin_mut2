@@ -1,5 +1,6 @@
 KinMut=/$PWD filter="*.rb *.js *.css *.pl *.py *.cfg *.config" {
  workflow.rb
+ README.md
  bin=bin {
   PatternGenerator.pl
   predict_mutations.pl
