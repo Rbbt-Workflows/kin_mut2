@@ -12,7 +12,7 @@
 - uniprot = orig_job.file('UniProt').tsv
 - uniprot_neighbours = orig_job.file('UniProt_neighbours').tsv
 - predictors = %w(SIFT Polyphen2_HDIV Polyphen2_HVAR MutationTaster MutationAssessor FATHMM LRT VEST3 CADD )
-- thresholds = %w( <0.05 >0.957,0.453 >0.909,0.447 <0.5 >3.5,1.9 <-1.5 - >0.8 >3.5   )
+- thresholds = %w( <0.05 >0.957,0.453 >0.909,0.447 >0.5 >3.5,1.9 <-1.5 - >0.8 >3.5   )
 :ruby
 
   @uniprot_groups = {}
