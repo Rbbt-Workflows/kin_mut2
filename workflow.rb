@@ -43,24 +43,34 @@ module KinMut2
     uni = Organism.protein_identifiers(organism).index(:target => "UniProt/SwissProt Accession", :fields => ["Ensembl Protein ID"], :persist => true)
     name = Organism.identifiers(organism).index(:target => "UniProt/SwissProt Accession", :persist => true)
     missing = []
+    skipped_mutations = []
+    mutation_translations = TSV.setup({}, :key_field => "Final", :fields => ["Orginal"], :type => :single)
     TSV.traverse mutations, :into => translated do |mutation|
       mutation = mutation.first if Array === mutation
-      protein, change = mutation.split(/,|\s|:/)
-      next unless change =~ /^[A-Z]\d+[A-Z]$/
-      translation = case protein
-                    when /ENSP/
-                      translations[protein] = uni[protein]
-                    else
-                      translations[protein] = name[protein] || protein
-                    end
-      if translation.nil?
-        missing << protein
+      protein, change = mutation.split(/[,\s:]+/)
+      if change =~ /^([A-Z])\d+([A-Z])$/ and not $1 == $2
+        translation = case protein
+                      when /ENSP/
+                        translations[protein] = uni[protein]
+                      else
+                        translations[protein] = name[protein] || protein
+                      end
+        if translation.nil?
+          missing << protein
+          skipped_mutations << mutation
+          next
+        end
+        mutation_translations[[translation, change] * " "] = mutation
+        [translation, change] * " "
+      else
+        skipped_mutations << mutation
         next
       end
-      [translation, change] * " "
     end
 
     Open.write(file(:translations), translations.to_s)
+    Open.write(file(:mutation_translations), mutation_translations.to_s)
+    Open.write(file(:skipped_mutations), skipped_mutations*"\n")
     set_info :missing_translations, missing
 
     translated

@@ -1,6 +1,8 @@
 - orig_job = job.join
 - job = job.join.step(:predict)
 - res = orig_job.run
+- uni_translations = job.file(:translations).tsv
+- mutation_translations = TSV.open(job.step(:translate).file(:mutation_translations))
 - translations = job.file(:translations).tsv.reorder "UniProt/SwissProt Accession"
 - names = Organism.identifiers(Organism.default_code("Hsa")).index :target => "Associated Gene Name", :fields => ["UniProt/SwissProt Accession"], :persist => true
 - interfaces = orig_job.file('interfaces').tsv
@@ -13,6 +15,8 @@
 - uniprot_neighbours = orig_job.file('UniProt_neighbours').tsv
 - predictors = %w(SIFT Polyphen2_HDIV Polyphen2_HVAR MutationTaster MutationAssessor FATHMM LRT VEST3 CADD )
 - thresholds = %w( <0.05 >0.957,0.453 >0.909,0.447 >0.5 >3.5,1.9 <-1.5 - >0.8 >3.5   )
+- skipped_mutations = job.step(:translate).file(:skipped_mutations).read.split("\n")
+- skipped_mutations += (job.step(:translate).load - job.load.keys).collect{|m| mutation_translations[m]}
 :ruby
 
   @uniprot_groups = {}
@@ -20,7 +24,8 @@
   res.each{|tmutation,values|
     mutation = values.flatten.first
     protein, change = mutation.split ":"
-    @uniprot_groups[mutation] = $protein_kinase_groups[protein]
+    uni = uni_translations[protein]
+    @uniprot_groups[mutation] = $protein_kinase_groups[uni]
   }
 
 :sass
@@ -125,6 +130,7 @@
       - orig_job.path.tsv(:type => :list).each do |tmutation, values|
         - mutation = values.shift
         - protein, change = mutation.split ":"
+        - uni = uni_translations[protein]
         - proteins << protein
         - prediction, score = values
         - protein_link = ""
@@ -164,8 +170,8 @@
             = protein
             - if translations[protein] and translations[protein] != protein
               (#{translations[protein]})
-            - else
-              (#{names[protein]})
+            - elsif names[uni] != protein
+              (#{names[uni]})
           %td
             - wt = Kinase.error_in_wt_aa?(protein, change)
             - if wt.nil? or wt
@@ -249,13 +255,13 @@
 
           %td
             - if prediction == "disease"
-              %span.ui.message.red= prediction
+              %span.ui.small.message.red= prediction
             - else
-              %span.ui.message.green= prediction || "no prediction"
+              %span.ui.small.message.green= prediction || "no prediction"
           %td= score.to_f * (prediction == "neutral" ? -1 : 1)
 
 
-          - details_url = "/details/#{orig_job.name}/#{protein}/#{change}"
+          - details_url = "/details/#{orig_job.name}/#{uni}/#{change}"
           %td.details
             %a.ui.small.button.blue(href=details_url) View details
       
@@ -312,6 +318,16 @@
           %a.ui.button.small(href="/#{[workflow.to_s, orig_job.task.name, orig_job.name, "file", file] * "/"}")= file
         %dd
           = description
+
+- if skipped_mutations.length > 0
+  .ui.warning.message
+    %p
+      The following mutations have been eliminated because they are not recognized as kinases or because their change is not an
+      amino-acid substitution
+
+      %ul
+        - skipped_mutations.each do |mutation|
+          %li= mutation
 
 :sass
   .column_explanations
