@@ -47,6 +47,7 @@ KinMut=/$PWD filter="*.rb *.js *.css *.pl *.py *.cfg *.config" {
    references.haml
    input.haml
    tasks.haml
+   tutorial.haml
    compass=compass{
     kinmut.sass
    }

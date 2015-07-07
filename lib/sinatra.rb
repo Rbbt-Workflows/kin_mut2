@@ -255,6 +255,10 @@ get '/references' do
   template_render("references")
 end
 
+get '/tutorial' do
+  template_render("tutorial")
+end
+
 get '/jmol/:uniprot/:position' do
   uniprot = params[:uniprot]
   position = params[:position]
