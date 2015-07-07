@@ -131,6 +131,8 @@
         - mutation = values.shift
         - protein, change = mutation.split ":"
         - uni = uni_translations[protein]
+        - orig_mutation = mutation_translations[[uni,change]*" "]
+        - orig_protein = orig_mutation.split(/[\s,:]/).first
         - proteins << protein
         - prediction, score = values
         - protein_link = ""
@@ -167,10 +169,10 @@
               - total_preds +=1
         %tr
           %td
-            = protein
+            = orig_protein
             - if translations[protein] and translations[protein] != protein
               (#{translations[protein]})
-            - elsif names[uni] != protein
+            - elsif names[uni] != orig_protein
               (#{names[uni]})
           %td
             - wt = Kinase.error_in_wt_aa?(protein, change)
@@ -265,6 +267,17 @@
           %td.details
             %a.ui.small.button.blue(href=details_url) View details
       
+
+  - if skipped_mutations.length > 0
+    .ui.warning.message
+      %p
+        The following variants have been eliminated because they are not recognized as kinases or because their variation is not 
+        missense
+
+        %ul
+          - skipped_mutations.each do |mutation|
+            %li= mutation
+
   %p.kinase_groups
     \* 
     %span(style='font-style:italic') Kinase Group:
@@ -319,15 +332,6 @@
         %dd
           = description
 
-- if skipped_mutations.length > 0
-  .ui.warning.message
-    %p
-      The following mutations have been eliminated because they are not recognized as kinases or because their change is not an
-      amino-acid substitution
-
-      %ul
-        - skipped_mutations.each do |mutation|
-          %li= mutation
 
 :sass
   .column_explanations
