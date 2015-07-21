@@ -34,7 +34,7 @@ module KinMut2
 
   input :mutations, :array, "Mutations"
   task :translate => :array do |mutations|
-    raise ParameterException, "No mutations provided" if mutations.nil? or mutations.empty?
+    raise ParameterException, "No mutations provided" if mutations.nil? 
 
     translated = []
     organism = Organism.default_code("Hsa")

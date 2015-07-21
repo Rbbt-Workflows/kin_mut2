@@ -109,6 +109,7 @@
       KinMutRF prediction score. The closer to 1 in absolute value the higher the confidence
 
   - proteins = []
+  - tsv = TSV.setup({}, :key_field => "Kinase", :fields => ["Variant", "KG", "CV", "#CS", "FL", "MR", "MUT", "DT", "PPI", "ODP", "KM Pred.",  "KM Score"], :type => :list)
   %table.ui.table.sortable
     %thead
       %tr
@@ -167,12 +168,17 @@
                   - nil
               - damage_count += 1 if p > 0.5
               - total_preds +=1
+
+        - values = []
+
         %tr
           %td
             = orig_protein
             - if translations[protein] and translations[protein] != protein
+              - tsv_key = translations[protein]
               (#{translations[protein]})
             - elsif names[uni] != orig_protein
+              - tsv_key = names[uni]
               (#{names[uni]})
           %td
             - wt = Kinase.error_in_wt_aa?(protein, change)
@@ -183,15 +189,21 @@
                 %span.wt_error== position outside protein range
               - else
                 %span.wt_error== (#{wt})
+              - values << change
             
             - else
+              - values << change
               = change
+
+          - values << group
           %td= group
 
           %td
             - if $clinvar.include? tmutation and $clinvar[tmutation] == "Pathogenic"
+              - values << "Yes"
               Yes
             - else
+              - values << "No"
               No
 
           %td
@@ -203,6 +215,7 @@
               - ncount = cosmic_neighbours[tmutation]["Sample ID"].collect{|l| l.split(";")}.flatten.uniq.length
             - else
               - ncount = 0
+            - values << "#{count} (#{ncount})"
             #{count} (#{ncount})
 
           %td
@@ -214,6 +227,7 @@
               - ncount = Misc.zip_fields(appris_neighbours[tmutation]).select{|res,type,lig| type =~ /firestar/}.length
             - else
               - ncount = 0
+            - values << "#{count == 0 ? "No" : "Yes"} (#{ncount})"
             #{count == 0 ? "No" : "Yes"} (#{ncount})
 
 
@@ -226,6 +240,7 @@
               - ncount = Misc.zip_fields(uniprot_neighbours[tmutation]).select{|res,feat,loc,desc| feat =~ /MOD_RES/}.length
             - else
               - ncount = 0
+            - values << "#{count == 0 ? "No" : "Yes"} (#{ncount})"
             #{count == 0 ? "No" : "Yes"} (#{ncount})
 
           %td
@@ -237,35 +252,45 @@
               - ncount = Misc.zip_fields(uniprot_neighbours[tmutation]).select{|res,feat,loc,desc| feat =~ /MUTAGEN/}.length
             - else
               - ncount = 0
+            - values << "#{count == 0 ? "No" : "Yes"} (#{ncount})"
             #{count == 0 ? "No" : "Yes"} (#{ncount})
 
           %td
             - name = names[protein]
             - if $kinase_FDA_drugs.select(:Target => name).length > 0
+              - values << "Yes"
               Yes
             - else
+              - values << "No"
               No
 
           %td
+            - values << interfaces.include?(tmutation) ? "Yes" : "No"
             = interfaces.include?(tmutation) ? "Yes" : "No"
 
           %td
             - if dbNSFP.include? tmutation
+              - values << "#{damage_count} of 8"
               #{damage_count} of 8
             - else
+              - values << "NA"
               NA
 
           %td
+            - values << prediction
             - if prediction == "disease"
               %span.ui.small.message.red= prediction
             - else
               %span.ui.small.message.green= prediction || "no prediction"
-          %td= score.to_f * (prediction == "neutral" ? -1 : 1)
+          %td
+            - values << score.to_f * (prediction == "neutral" ? -1 : 1)
+            = score.to_f * (prediction == "neutral" ? -1 : 1)
 
 
           - details_url = "/details/#{orig_job.name}/#{uni}/#{change}"
           %td.details
             %a.ui.small.button.blue(href=details_url) View details
+        - tsv[tsv_key] = values
       
 
   - if skipped_mutations.length > 0
@@ -292,8 +317,11 @@
           %span(style='font-weight:bold')== #{group}: 
           = $kinase_groups[group]
 
-  %a.ui.button.blue(href="#{@ajax_url}?_format=raw" data-html='<span>HOLA</span>')
+  -#%a.ui.button.blue(href="#{@ajax_url}?_format=raw")
     Download results (TSV)
+
+  %a.ui.button.blue#dalltable(href="#")
+    Download result (TSV)
 
   %h5 Additional files for download
   %dl
@@ -354,6 +382,8 @@
 
 :deferjs
 
+  var tsv_text = #{tsv.to_s.to_json}
+
   $('.ui.header#poph').popup({on: 'hover'})
 
   $('table > thead th').each(function(){
@@ -380,3 +410,9 @@
   }); 
   
   $('#result table.sortable').tablesorter({headers:{ 1: {sorter: 'aa_mutation'}}})
+
+  var download_func = function(){
+    var blob = new Blob([tsv_text], {type: "text/tab-separated-values;charset=utf-8"});
+    return saveAs(blob, "result.tsv");
+  }
+   $('#dalltable').click(download_func)
