@@ -109,7 +109,7 @@
       KinMutRF prediction score. The closer to 1 in absolute value the higher the confidence
 
   - proteins = []
-  - tsv = TSV.setup({}, :key_field => "Kinase", :fields => ["Variant", "KG", "CV", "#CS", "FL", "MR", "MUT", "DT", "PPI", "ODP", "KM Pred.",  "KM Score"], :type => :list)
+  - tsv = TSV.setup({}, :key_field => "Kinase variant", :fields => ["KG", "CV", "#CS", "FL", "MR", "MUT", "DT", "PPI", "ODP", "KM Pred.",  "KM Score"], :type => :list)
   %table.ui.table.sortable
     %thead
       %tr
@@ -174,14 +174,14 @@
         %tr
           %td
             = orig_protein
+            - tsv_key = orig_protein
             - if translations[protein] and translations[protein] != protein
-              - tsv_key = translations[protein]
               (#{translations[protein]})
             - elsif names[uni] != orig_protein
-              - tsv_key = names[uni]
               (#{names[uni]})
           %td
             - wt = Kinase.error_in_wt_aa?(protein, change)
+            - tsv_key << " " << change
             - if wt.nil? or wt
               - first, *rest = change.split('')
               = "<font color='red'>#{first}</font>#{rest*""}"
@@ -189,10 +189,8 @@
                 %span.wt_error== position outside protein range
               - else
                 %span.wt_error== (#{wt})
-              - values << change
             
             - else
-              - values << change
               = change
 
           - values << group

@@ -128,13 +128,12 @@ module KinMut2
 
   dep :predict
   task :predict_ensp => :tsv do
-    prot2ensp = $ensp_index
     tsv = step(:predict).file(:fixed).tsv
     fields = tsv.fields
     tsv.key_field = "Original Mutated Isoform"
     tsv.add_field "Mutated Isoform" do |mi,values|
       prot, change = mi.split(":")
-      ensp = prot2ensp[prot]
+      ensp = $ensp_index[prot] || $ensp_index_all[prot]
       [ensp, change]*":"
     end
     tsv = tsv.reorder "Mutated Isoform"
