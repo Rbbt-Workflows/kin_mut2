@@ -115,7 +115,9 @@
     their pathogenicity in Uniprot exists. The evaluation followed established
     good practices in the field obtaining satisfactory results. The following
     table includes the results for the classifiers according to the values
-    provided by dbNSFP.  
+    provided by dbNSFP.  You may access the data used for training and
+    validating the model
+    [here](/file/vectors.Uniprot.kinase.mutations.complete_dataset.tsv).
 
     |Method|Accuracy|Precision|Recall|F-score|MCC
     |:---|---:|---:|---:|---:|---:|
@@ -129,6 +131,7 @@
     |FATHMM|0.82|0.69|0.63|0.66|0.54|
     |VEST3|0.87|0.74|0.82|*0.78*|*0.69*|
     |KinMut RF|*0.88*|*0.82*|0.75|*0.78*|0.68|
+
 
 
     Where does the Protein-Protein Interaction information come from?
@@ -171,6 +174,12 @@
     ---
 
     Yes. The predictions from wKinMut-2 can be downloaded programmatically using a REST service. An example can be found [here](/file/rest_test.sh)
+
+    Is the source code available?
+    ---
+
+    Yes. The source code for this application is released under the GPV version 3 license at [https://github.com/Rbbt-Workflows/kin_mut2](https://github.com/Rbbt-Workflows/kin_mut2)
+
 
     I have a question about wKinMut-2 that is NOT in this help section. May I contact you?
     ---
