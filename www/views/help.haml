@@ -91,10 +91,13 @@
     wKinMut-2 provides predictions from 9 different methodologies. Of these
     methods, 8 are directly extracted from dbNSFP and include likelihood scores
     from SIFT, Polyphen2, LRT, MutationTaster, MutationAssessor, FATHMM, VEST3
-    and CADD. In addition to these, wKinMut-2 implements a Random Forest
-    classifier specific to variants in the human kinome. A number of
-    sequence-derived features that characterize variants affecting human
-    protein kinases at different levels: 
+    and CADD. You may access the pathogenicity information of variants used for
+    training for disease associated variants
+    [here](/file/kinase_disease_hg38.out), and for non-disease associated
+    variants [here](/file/kinase_neutral_hg38.out). In addition to these,
+    wKinMut-2 implements a Random Forest classifier specific to variants in the
+    human kinome. A number of sequence-derived features that characterize
+    variants affecting human protein kinases at different levels: 
 
       * gene level, including membership to a Kinbase group and Gene Ontology categories 
       * domain level, using PFAM domains 
@@ -117,7 +120,9 @@
     table includes the results for the classifiers according to the values
     provided by dbNSFP.  You may access the data used for training and
     validating the model
-    [here](/file/vectors.Uniprot.kinase.mutations.complete_dataset.tsv).
+    [here](/file/vectors.Uniprot.kinase.mutations.complete_dataset.tsv). The
+    data splits used in our cross-validation assessment are available 
+    [here](/file/crossvalidation_datasets.zip).
 
     |Method|Accuracy|Precision|Recall|F-score|MCC
     |:---|---:|---:|---:|---:|---:|
@@ -178,7 +183,7 @@
     Is the source code available?
     ---
 
-    Yes. The source code for this application is released under the GPV version 3 license at [https://github.com/Rbbt-Workflows/kin_mut2](https://github.com/Rbbt-Workflows/kin_mut2)
+    Yes. The source code for this application is released under the GPL version 3 license at [https://github.com/Rbbt-Workflows/kin_mut2](https://github.com/Rbbt-Workflows/kin_mut2)
 
 
     I have a question about wKinMut-2 that is NOT in this help section. May I contact you?
