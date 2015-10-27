@@ -171,7 +171,7 @@
                   - fields.each_with_index do |field,i|
                     - new_values = {}
                     - Misc.zip_fields(neighbour_values).each do |n,*nvalues|
-                      - Misc.zip_fields(nvalues.collect{|v| v.split(";")}).each do |nsvalues|
+                      - Misc.zip_fields(nvalues.collect{|v| v.nil? ? [] : v.split(";")}).each do |nsvalues|
                         - next if Misc.zip_fields(values).select{|v| v == nsvalues}.any?
                         - new_values[n] ||= []
                         - new_values[n] << nsvalues unless new_values[n].include? nsvalues

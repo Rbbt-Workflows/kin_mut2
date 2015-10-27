@@ -5,6 +5,7 @@
 - mutation_translations = TSV.open(job.step(:translate).file(:mutation_translations))
 - translations = job.file(:translations).tsv.reorder "UniProt/SwissProt Accession"
 - names = Organism.identifiers(Organism.default_code("Hsa")).index :target => "Associated Gene Name", :fields => ["UniProt/SwissProt Accession"], :persist => true
+- iii orig_job.file('interfaces')
 - interfaces = orig_job.file('interfaces').tsv
 - dbNSFP = orig_job.file('dbNSFP').tsv
 - cosmic = orig_job.file('COSMIC').tsv
@@ -17,14 +18,14 @@
 - thresholds = %w( <0.05 >0.957,0.453 >0.909,0.447 >0.5 >3.5,1.9 <-1.5 - >0.8 >3.5   )
 - skipped_mutations = job.step(:translate).file(:skipped_mutations).read.split("\n")
 - skipped_mutations += (job.step(:translate).load - job.load.keys).collect{|m| mutation_translations[m]}
+
 :ruby
 
   @uniprot_groups = {}
 
   res.each{|tmutation,values|
     mutation = values.flatten.first
-    protein, change = mutation.split ":"
-    uni = uni_translations[protein]
+    uni, change = mutation.split " "
     @uniprot_groups[mutation] = $protein_kinase_groups[uni]
   }
 
@@ -130,8 +131,8 @@
     %tbody
       - orig_job.path.tsv(:type => :list).each do |tmutation, values|
         - mutation = values.shift
-        - protein, change = mutation.split ":"
-        - uni = uni_translations[protein]
+        - protein, change = mutation.split " "
+        - uni = uni_translations[protein] || protein
         - orig_mutation = mutation_translations[[uni,change]*" "]
         - orig_protein = orig_mutation.split(/[\s,:]/).first
         - proteins << protein

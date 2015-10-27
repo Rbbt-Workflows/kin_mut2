@@ -204,8 +204,6 @@ post '/job' do
 
   mutations = mutations.gsub(/\b +\b/,'_')
   
-  puts mutations
-
   jobname = params[:jobname].gsub(/\s+/,'_')
   jobname = "JOB" if jobname.nil? or jobname.empty?
   job = Kinase.job(:default, jobname , :list =>  mutations)

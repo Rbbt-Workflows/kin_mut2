@@ -138,7 +138,7 @@ $step_ct++;
 print STDERR "#STEP $step_ct: Obtaining the pathogenicity from SIFT\n";
 my %SIFTscores;
 foreach my $acc (keys %kinase_features) {
-	my @sift=tgi_open("/$acc.pathogenicity.txt");
+	my @sift=tgi_open("$uniprot_repository/$acc.pathogenicity.txt");
 	foreach my $lin (@sift) {
 		my ($acc,$mention,$sift)=split(/\t/,$lin); 
 		$SIFTscores{$acc}{$mention}=$sift;

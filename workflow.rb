@@ -128,11 +128,11 @@ module KinMut2
 
   dep :predict
   task :predict_ensp => :tsv do
-    tsv = step(:predict).file(:fixed).tsv
+    tsv = step(:predict).load
     fields = tsv.fields
     tsv.key_field = "Original Mutated Isoform"
     tsv.add_field "Mutated Isoform" do |mi,values|
-      prot, change = mi.split(":")
+      prot, change = mi.split(" ")
       ensp = $ensp_index[prot] || $ensp_index_all[prot]
       [ensp, change]*":"
     end
@@ -144,28 +144,48 @@ module KinMut2
   task :predict_all => :tsv do
     stream = TSV.get_stream step(:predict_ensp)
     s1, s2 = Misc.tee_stream stream
+    FileUtils.mkdir_p files_dir
     smutations = CMD.cmd('cut -f 1', :in => s2, :pipe => true)
     smutations1, smutations = Misc.tee_stream smutations
     threads = []
-    threads << Thread.new{Open.write(file('interfaces'), TSV.get_stream(Structure.job(:mi_interfaces, clean_name, :mutated_isoforms => smutations1).run(true)))}
+
+    threads << Thread.new do 
+      io = TSV.get_stream(Structure.job(:mi_interfaces, clean_name, :mutated_isoforms => smutations1).run(true))
+      Open.write(file('interfaces'), io)
+    end
+
     smutations2, smutations = Misc.tee_stream smutations
-    threads << Thread.new{Open.write(file('dbNSFP'), TSV.get_stream(DbNSFP.job(:annotate, clean_name, :mutations => smutations2).run(true)))}
+    threads << Thread.new do 
+      io = TSV.get_stream(DbNSFP.job(:annotate, clean_name, :mutations => smutations2).run(true))
+      Open.write(file('dbNSFP'), io)
+    end
 
     databases = Structure::ANNOTATORS.keys - ['variants']
 
     databases.each do |database|
       smutations3, smutations = Misc.tee_stream smutations
-      threads << Thread.new{Open.write(file(database), TSV.get_stream(Structure.job(:annotate_mi, clean_name + ': ' + database, :database => database, :mutated_isoforms => smutations3).run(true)))}
+      threads << Thread.new do 
+        io = TSV.get_stream(Structure.job(:annotate_mi, clean_name + ': ' + database, :database => database, :mutated_isoforms => smutations3).run(true))
+        Open.write(file(database), io)
+      end
     end
 
     databases.each do |database|
       smutations3, smutations = Misc.tee_stream smutations
-      threads << Thread.new{Open.write(file(database + '_neighbours'), TSV.get_stream(Structure.job(:annotate_mi_neighbours, clean_name + ': ' + database, :database => database, :mutated_isoforms => smutations3).run(true)))}
+      threads << Thread.new do 
+        io = TSV.get_stream(Structure.job(:annotate_mi_neighbours, clean_name + ': ' + database, :database => database, :mutated_isoforms => smutations3).run(true))
+        Open.write(file(database + '_neighbours'), io)
+      end
     end
     Misc.consume_stream smutations, true
-    threads.each do |t| t.join end
 
-    s1
+    TmpFile.with_file() do |tmp_path|
+      threads << Thread.new{Open.write(tmp_path, s1) }
+      threads.each{|t| t.join }
+      FileUtils.mv tmp_path, path
+    end
+
+    nil
   end
 
   export_asynchronous :predict, :predict_fix, :predict_all

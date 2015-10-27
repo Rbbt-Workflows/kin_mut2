@@ -6,6 +6,7 @@
     %form(action='/KinMut2/predict_all' enctype="multipart/form-data" method="POST")
       %label.ui(for="mutations") Variants
       %textarea#mutations.ui.fluid.wide(name="mutations")
+      %input#mutations_file(name='mutations__param_file' type='file')
       .ui.action.input#submit
         .ui.button#load_example
           Try example
