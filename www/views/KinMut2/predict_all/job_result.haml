@@ -5,7 +5,6 @@
 - mutation_translations = TSV.open(job.step(:translate).file(:mutation_translations))
 - translations = job.file(:translations).tsv.reorder "UniProt/SwissProt Accession"
 - names = Organism.identifiers(Organism.default_code("Hsa")).index :target => "Associated Gene Name", :fields => ["UniProt/SwissProt Accession"], :persist => true
-- iii orig_job.file('interfaces')
 - interfaces = orig_job.file('interfaces').tsv
 - dbNSFP = orig_job.file('dbNSFP').tsv
 - cosmic = orig_job.file('COSMIC').tsv
