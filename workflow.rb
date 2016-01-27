@@ -18,6 +18,10 @@ module KinMut2
     Organism.default_code("Hsa")
   end
 
+  def self.all_kinases
+    Kinase.data["Uniprot.kinase.accessions.txt"].find(:lib).read.split("\n")
+  end
+
 
   $entrez_index = Organism.identifiers(organism).index(:target => "Entrez Gene ID", :fields => ["UniProt/SwissProt Accession"], :persist =>  true, :order => true)
   $name_index   = Organism.identifiers(organism).index(:target => "Associated Gene Name", :fields => ["UniProt/SwissProt Accession"], :persist =>  true, :order => true)
