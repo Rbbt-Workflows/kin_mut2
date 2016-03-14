@@ -5,8 +5,6 @@ require 'rbbt/util/cmd'
 require 'rbbt/sources/organism'
 require 'rbbt/sources/uniprot'
 require 'nokogiri'
-require 'pg'
-require 'mysql'
 
 $uniprot_variants = UniProt.annotated_variants.tsv :persist => true
 
@@ -24,16 +22,17 @@ module Kinase
     Organism.default_code("Hsa")
   end
 
-  def self.pdb_position(uniprot, position)
-    pdbs = Postgres.pdb_for_uniprot(uniprot)
-    pdbs.collect{|info|
-      pdb, chain = info.values_at "pdb", "chain"
-      pdb_position = Postgres.pdb_chain_and_position(uniprot, position, pdb, chain)
-      next if pdb_position.first.nil?
-      pdb_position = pdb_position.first["pos_pdb"]
-      [pdb, chain, pdb_position]
-    }.compact
-  end
+  #def self.pdb_position(uniprot, position)
+  #  require 'pg'
+  #  pdbs = Postgres.pdb_for_uniprot(uniprot)
+  #  pdbs.collect{|info|
+  #    pdb, chain = info.values_at "pdb", "chain"
+  #    pdb_position = Postgres.pdb_chain_and_position(uniprot, position, pdb, chain)
+  #    next if pdb_position.first.nil?
+  #    pdb_position = pdb_position.first["pos_pdb"]
+  #    [pdb, chain, pdb_position]
+  #  }.compact
+  #end
 
   Kinase.software.opt.svm_light.claim :install, Rbbt.share.install.software.svm_light.find
 
@@ -45,6 +44,7 @@ module Kinase
     DBNAME = 'tm_kinase_muts'
     PDBNAME = 'kinmut'
     def self.kindriver_driver
+      require 'mysql'
       @kindriver_driver ||= Object::Mysql.new('jabba.cnio.es', 'kindriver', 'kindriver', 'kindriver_db')
     end
 
@@ -98,10 +98,12 @@ WHERE
     PDBNAME = 'kinmut'
 
     def self.driver
+      require 'pg'
       @driver ||= PGconn.connect(:host => HOST, :port => PORT, :dbname => DBNAME, :user => 'tgi_usuarioweb_sololectura')
     end
 
     def self.pdb_driver
+      require 'pg'
       @pdb_driver ||= PGconn.connect(:host => HOST, :port => PORT, :dbname => PDBNAME, :user => 'tgi_webuser')
     end
 
