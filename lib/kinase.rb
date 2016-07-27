@@ -22,16 +22,17 @@ module Kinase
     Organism.default_code("Hsa")
   end
 
-  def self.pdb_position(uniprot, position)
-    pdbs = Postgres.pdb_for_uniprot(uniprot)
-    pdbs.collect{|info|
-      pdb, chain = info.values_at "pdb", "chain"
-      pdb_position = Postgres.pdb_chain_and_position(uniprot, position, pdb, chain)
-      next if pdb_position.first.nil?
-      pdb_position = pdb_position.first["pos_pdb"]
-      [pdb, chain, pdb_position]
-    }.compact
-  end
+  #def self.pdb_position(uniprot, position)
+  #  require 'pg'
+  #  pdbs = Postgres.pdb_for_uniprot(uniprot)
+  #  pdbs.collect{|info|
+  #    pdb, chain = info.values_at "pdb", "chain"
+  #    pdb_position = Postgres.pdb_chain_and_position(uniprot, position, pdb, chain)
+  #    next if pdb_position.first.nil?
+  #    pdb_position = pdb_position.first["pos_pdb"]
+  #    [pdb, chain, pdb_position]
+  #  }.compact
+  #end
 
   Kinase.software.opt.svm_light.claim :install, Rbbt.share.install.software.svm_light.find
 

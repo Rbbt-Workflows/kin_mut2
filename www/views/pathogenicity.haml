@@ -131,10 +131,10 @@
         %a.subtle_link(target="_blank" href='https://sites.google.com/site/jpopgen/dbNSFP') 
           %i.ui.external.link.icon
       .content
+        - ensp = @ensp
         - if @fixed_position != @position
           .ui.message.blue
             Mutation position corrected to #{@fixed_position} in #{ensp}
-        - ensp = @ensp
         - mutation = MutatedIsoform.setup([ensp,@fixed_mutation] * ":", KinMut2.organism)
         - values = db_NSFP[mutation]
         - if values.nil?
