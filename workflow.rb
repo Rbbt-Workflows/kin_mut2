@@ -107,12 +107,17 @@ module KinMut2
     header = "#" << fields * "\t"
     file_txt = header << "\n" << Open.read(File.join(output, "vectors.weka.predictions"))
     tsv = TSV.open(file_txt)
-    index = TSV.index(file(:translations), :target => "Protein")
-    tsv = tsv.add_field "Fixed mutation" do |mutation,values|
+    #index = TSV.index(file(:translations), :target => "Protein", :merge => true)
+    index = file(:translations).tsv :fields => ["Protein"],:type => :flat, :merge => true, :key_field => "UniProt/SwissProt Accession"
+    tsv = tsv.to_double.add_field "Fixed mutation" do |mutation,values|
       uni, change = mutation.split(" ")
-      orig = index[uni]
-      [orig, change]  * ":"
+      origs = index[uni]
+      origs.collect do |orig|
+        [orig, change]  * ":"
+      end
     end
+
+    Open.write(file(:pre_fixed), tsv.to_s)
     
     tsv = tsv.reorder("Fixed mutation", ["Prediction", "Score"])
     tsv.key_field = "Mutated Isoform"

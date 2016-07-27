@@ -5,8 +5,6 @@ require 'rbbt/util/cmd'
 require 'rbbt/sources/organism'
 require 'rbbt/sources/uniprot'
 require 'nokogiri'
-require 'pg'
-require 'mysql'
 
 $uniprot_variants = UniProt.annotated_variants.tsv :persist => true
 
@@ -45,6 +43,7 @@ module Kinase
     DBNAME = 'tm_kinase_muts'
     PDBNAME = 'kinmut'
     def self.kindriver_driver
+      require 'mysql'
       @kindriver_driver ||= Object::Mysql.new('jabba.cnio.es', 'kindriver', 'kindriver', 'kindriver_db')
     end
 
@@ -98,10 +97,12 @@ WHERE
     PDBNAME = 'kinmut'
 
     def self.driver
+      require 'pg'
       @driver ||= PGconn.connect(:host => HOST, :port => PORT, :dbname => DBNAME, :user => 'tgi_usuarioweb_sololectura')
     end
 
     def self.pdb_driver
+      require 'pg'
       @pdb_driver ||= PGconn.connect(:host => HOST, :port => PORT, :dbname => PDBNAME, :user => 'tgi_webuser')
     end
 
