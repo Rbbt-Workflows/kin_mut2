@@ -206,11 +206,11 @@
 
           %td
             - if cosmic.include? tmutation
-              - count = cosmic[tmutation]["Sample ID"].length
+              - count = cosmic[tmutation]["Sample name"].length
             - else
               - count = 0
             - if cosmic_neighbours.include? tmutation
-              - ncount = cosmic_neighbours[tmutation]["Sample ID"].collect{|l| l.split(";")}.flatten.uniq.length
+              - ncount = cosmic_neighbours[tmutation]["Sample name"].collect{|l| l.split(";")}.flatten.uniq.length
             - else
               - ncount = 0
             - values << "#{count} (#{ncount})"
