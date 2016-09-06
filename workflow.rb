@@ -28,7 +28,7 @@ module KinMut2
   $ensg_index   = Organism.identifiers(organism).index(:target => "Ensembl Gene ID", :fields => ["UniProt/SwissProt Accession"], :persist =>  true, :order => true)
   $ensp_index_all = Organism.protein_identifiers(organism).index(:target => "Ensembl Protein ID", :fields => ["UniProt/SwissProt Accession"], :persist =>  true,  :order => true).tap{|i| i.namespace = organism}
   $ensp_index   = Organism.protein_identifiers(organism).index(:target => "Ensembl Protein ID", :fields => ["UniProt/SwissProt Accession"], :persist =>  true,  :order => true, :data_tsv_grep => Appris::PRINCIPAL_ISOFORMS.to_a)
-  $kinase_FDA_drugs = Rbbt.data["FDA_drugs_kinases_all_available.txt"].tsv :persist => false, :header_hash => "", :fields => %w(Sponsor Indications Target), :sep2 => /\s*,\s+/
+  $kinase_FDA_drugs = Rbbt.root.data["FDA_drugs_kinases_all_available.txt"].tsv :persist => false, :header_hash => "", :fields => %w(Sponsor Indications Target), :sep2 => /\s*,\s+/
   $clinvar = ClinVar.mi_summary.tsv :fields => ["ClinicalSignificance"], :type => :single, :persist => true
 
   helper :organism do
