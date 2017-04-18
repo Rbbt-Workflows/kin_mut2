@@ -52,7 +52,7 @@
     = partial_render('structureppi', :protein => @protein, :position => position, :mutation => @mutation, :job => @job )
 
   .ui.tab.bottom.attached.segment(data-tab='pathogenicity')
-    = partial_render('pathogenicity', :protein => @protein, :position => position, :mutation => @mutation, :features => features[key], :result => @job.step(:predict).load[key], :domains => domains)
+    = partial_render('pathogenicity', :protein => @protein, :position => position, :mutation => @mutation, :features => features[key], :result => @job.step(:predict_ensp).step(:predict).load[key], :domains => domains)
 
   .ui.tab.bottom.attached.segment(data-tab='databases')
     = fragment do

@@ -1,5 +1,5 @@
 - orig_job = job.join
-- job = job.join.step(:predict)
+- job = job.join.step(:predict_ensp).step(:predict)
 - res = orig_job.run
 - uni_translations = job.file(:translations).tsv
 - mutation_translations = TSV.open(job.step(:translate).file(:mutation_translations))
