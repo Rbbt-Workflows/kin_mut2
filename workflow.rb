@@ -197,6 +197,6 @@ module KinMut2
     nil
   end
 
-  export_asynchronous :predict, :predict_fix, :predict_all
+  export_asynchronous :predict, :predict_fix, :predict_all, :predict_ensp
 
 end

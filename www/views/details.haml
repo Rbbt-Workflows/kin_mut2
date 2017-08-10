@@ -1,7 +1,7 @@
 
 - key = [@protein, @mutation] * " "
 - position =  @mutation.scan(/\d+/).first.to_i
-- domains = Rbbt.data.UNIPROT[@protein + '.features.txt'].tsv(:merge => true)[position.to_s]
+- domains = Rbbt.data.UNIPROT.find(:lib)[@protein + '.features.txt'].tsv(:merge => true)[position.to_s]
 - if domains
   - domains = domains.last 
   

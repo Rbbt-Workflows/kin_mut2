@@ -1,6 +1,10 @@
-- orig_job = job.join
-- job = job.join.step(:predict_ensp).step(:predict)
+- orig_job = job
+- orig_job.join
+
 - res = orig_job.run
+- job_ensp = orig_job.step(:predict_ensp)
+- job = job_ensp.step(:predict)
+
 - uni_translations = job.file(:translations).tsv
 - mutation_translations = TSV.open(job.step(:translate).file(:mutation_translations))
 - translations = job.file(:translations).tsv.reorder "UniProt/SwissProt Accession"
